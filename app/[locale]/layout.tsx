@@ -26,11 +26,11 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
     metadataBase: new URL(siteUrl),
     title: {
       default: t('title'),
-      template: '%s | Santur Aeng'
+      template: '%s | Santura Engineering'
     },
     description: t('subtitle'),
     openGraph: {
-      siteName: 'Santur Aeng',
+      siteName: 'Santura Engineering',
       type: 'website',
       locale
     }
@@ -55,7 +55,7 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
           <header className="border-b border-gray-100">
             <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
               <Link href="/" className="text-lg font-semibold">
-                Santur Aeng
+                Santura Engineering
               </Link>
               <nav className="flex items-center gap-6 text-sm font-medium text-gray-700">
                 <Link href="/products">{t('products')}</Link>

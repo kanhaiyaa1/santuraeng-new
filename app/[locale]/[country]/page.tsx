@@ -6,7 +6,7 @@ type Props = { params: { locale: string; country: string } };
 
 export async function generateMetadata({ params: { locale, country } }: Props): Promise<Metadata> {
   return {
-    title: `Santur Aeng in ${country}`,
+    title: `Santura Engineering in ${country}`,
     alternates: buildAlternates(`/${country}`, locale)
   };
 }
