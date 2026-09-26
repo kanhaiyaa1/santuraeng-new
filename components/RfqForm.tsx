@@ -19,12 +19,12 @@ export default function RfqForm() {
     const formData = new FormData(form);
 
     const { error } = await supabase.from('rfq_requests').insert({
-      name: formData.get('name'),
-      email: formData.get('email'),
-      phone: formData.get('phone'),
-      company: formData.get('company'),
-      country: formData.get('country'),
-      message: formData.get('message')
+      name: formData.get('name') as string,
+      email: formData.get('email') as string,
+      phone: (formData.get('phone') as string) || null,
+      company: (formData.get('company') as string) || null,
+      country: formData.get('country') as string,
+      message: (formData.get('message') as string) || null
     });
 
     setStatus(error ? 'error' : 'success');

@@ -3,6 +3,7 @@ import { useTranslations } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { buildAlternates } from '@/lib/seo';
+import NewsletterSignup from '@/components/NewsletterSignup';
 
 type Props = { params: { locale: string } };
 
@@ -44,6 +45,9 @@ export default function HomePage({ params: { locale } }: Props) {
         >
           {tCta('viewProducts')}
         </Link>
+      </div>
+      <div className="mt-8 w-full max-w-sm">
+        <NewsletterSignup />
       </div>
     </main>
   );
