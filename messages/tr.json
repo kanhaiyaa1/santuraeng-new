@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "products": "Ürünler",
+    "rfq": "Teklif İste",
+    "language": "Dil"
+  },
+  "hero": {
+    "title": "Güvenilirlik İçin Tasarlanmış Küresel Tedarik",
+    "subtitle": "Üreticileri ve alıcıları çeşitli sektörlerde kaliteli ürünler ve güvenilir lojistik ile buluşturuyoruz."
+  },
+  "cta": {
+    "getQuote": "Teklif Al",
+    "viewProducts": "Ürünleri Görüntüle"
+  },
+  "common": {
+    "whatsapp": "WhatsApp'tan Yazın"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "rfq": "Request a Quote",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Global Sourcing, Engineered for Reliability",
+    "subtitle": "We connect manufacturers and buyers across industries with quality products and dependable logistics."
+  },
+  "cta": {
+    "getQuote": "Get a Quote",
+    "viewProducts": "View Products"
+  },
+  "common": {
+    "whatsapp": "Chat on WhatsApp"
+  }
+}

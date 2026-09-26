@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "rfq": "Solicitar Cotización",
+    "language": "Idioma"
+  },
+  "hero": {
+    "title": "Abastecimiento Global, Diseñado para la Confiabilidad",
+    "subtitle": "Conectamos a fabricantes y compradores de distintas industrias con productos de calidad y logística confiable."
+  },
+  "cta": {
+    "getQuote": "Solicitar Cotización",
+    "viewProducts": "Ver Productos"
+  },
+  "common": {
+    "whatsapp": "Chatear por WhatsApp"
+  }
+}

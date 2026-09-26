@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "products": "Produkty",
+    "rfq": "Zapytaj o Wycenę",
+    "language": "Język"
+  },
+  "hero": {
+    "title": "Globalne Zaopatrzenie Zaprojektowane dla Niezawodności",
+    "subtitle": "Łączymy producentów i nabywców z różnych branż z wysokiej jakości produktami i niezawodną logistyką."
+  },
+  "cta": {
+    "getQuote": "Zapytaj o Wycenę",
+    "viewProducts": "Zobacz Produkty"
+  },
+  "common": {
+    "whatsapp": "Czat na WhatsApp"
+  }
+}

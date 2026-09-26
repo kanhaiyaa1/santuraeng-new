@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Prodotti",
+    "rfq": "Richiedi un Preventivo",
+    "language": "Lingua"
+  },
+  "hero": {
+    "title": "Approvvigionamento Globale, Progettato per l'Affidabilità",
+    "subtitle": "Colleghiamo produttori e acquirenti in diversi settori con prodotti di qualità e una logistica affidabile."
+  },
+  "cta": {
+    "getQuote": "Richiedi un Preventivo",
+    "viewProducts": "Vedi i Prodotti"
+  },
+  "common": {
+    "whatsapp": "Chatta su WhatsApp"
+  }
+}

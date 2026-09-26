@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Producten",
+    "rfq": "Offerte Aanvragen",
+    "language": "Taal"
+  },
+  "hero": {
+    "title": "Wereldwijde Sourcing, Ontworpen voor Betrouwbaarheid",
+    "subtitle": "Wij verbinden fabrikanten en kopers in diverse sectoren met kwaliteitsproducten en betrouwbare logistiek."
+  },
+  "cta": {
+    "getQuote": "Offerte Aanvragen",
+    "viewProducts": "Bekijk Producten"
+  },
+  "common": {
+    "whatsapp": "Chat via WhatsApp"
+  }
+}

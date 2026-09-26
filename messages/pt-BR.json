@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Início",
+    "products": "Produtos",
+    "rfq": "Solicitar Orçamento",
+    "language": "Idioma"
+  },
+  "hero": {
+    "title": "Fornecimento Global, Projetado para Confiabilidade",
+    "subtitle": "Conectamos fabricantes e compradores de diversos setores com produtos de qualidade e logística confiável."
+  },
+  "cta": {
+    "getQuote": "Solicitar Orçamento",
+    "viewProducts": "Ver Produtos"
+  },
+  "common": {
+    "whatsapp": "Conversar no WhatsApp"
+  }
+}

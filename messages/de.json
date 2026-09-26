@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "rfq": "Angebot anfordern",
+    "language": "Sprache"
+  },
+  "hero": {
+    "title": "Globale Beschaffung, entwickelt für Zuverlässigkeit",
+    "subtitle": "Wir verbinden Hersteller und Käufer branchenübergreifend mit hochwertigen Produkten und zuverlässiger Logistik."
+  },
+  "cta": {
+    "getQuote": "Angebot einholen",
+    "viewProducts": "Produkte ansehen"
+  },
+  "common": {
+    "whatsapp": "Über WhatsApp chatten"
+  }
+}

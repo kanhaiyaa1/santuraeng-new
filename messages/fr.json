@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "rfq": "Demander un Devis",
+    "language": "Langue"
+  },
+  "hero": {
+    "title": "Approvisionnement Mondial, Conçu pour la Fiabilité",
+    "subtitle": "Nous connectons fabricants et acheteurs de tous secteurs à des produits de qualité et une logistique fiable."
+  },
+  "cta": {
+    "getQuote": "Demander un Devis",
+    "viewProducts": "Voir les Produits"
+  },
+  "common": {
+    "whatsapp": "Discuter sur WhatsApp"
+  }
+}
