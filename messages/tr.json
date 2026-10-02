@@ -3,17 +3,602 @@
     "home": "Ana Sayfa",
     "products": "Ürünler",
     "rfq": "Teklif İste",
-    "language": "Dil"
+    "language": "Dil",
+    "about": "Hakkımızda",
+    "quality": "Kalite",
+    "contact": "İletişim",
+    "privacy": "Gizlilik Politikası",
+    "disclaimer": "Yasal Uyarı"
   },
   "hero": {
-    "title": "Yüksek Sıcaklık Endüstrileri İçin Refrakter Ankrajlar ve Çelik İmalatlar",
-    "subtitle": "1980'den beri refrakter ankraj sistemleri, paslanmaz çelik imalatlar ve termal yalıtım bileşenleri üretiyor ve ihraç ediyoruz; petrokimya, çimento, enerji ve alüminyum endüstrilerine 20'den fazla ülkede tedarik sağlıyoruz."
+    "eyebrow": "Santura Engineering Pvt. Ltd. · Mumbai, Hindistan",
+    "title": "Refrakter Ankraj Üreticisi ve İhracatçısı",
+    "subtitle": "Tuğla, dökme ve seramik elyaf astarlar için refrakter ankrajlar, elyaf saplamaları ve paslanmaz çelik lifler — Mumbai'de üretilir ve Nhava Sheva limanından uluslararası projelere gönderilir.",
+    "imageAlt": "Refrakter astarlı kolonlar ve fırınlara sahip rafineri üniteleri"
   },
   "cta": {
-    "getQuote": "Teklif Al",
+    "getQuote": "Teklif İste",
     "viewProducts": "Ürünleri Görüntüle"
   },
   "common": {
+    "whatsapp": "WhatsApp'tan Yazın",
+    "facts": "1980'den beri · 25'ten fazla ülkeye ihracat · ISO 9001:2015 sertifikalı"
+  },
+  "meta": {
+    "home": {
+      "title": "Refrakter Ankraj Üreticisi ve İhracatçısı | Santura Engineering",
+      "description": "1980'den beri Mumbai, Hindistan'da refrakter ankraj üreticisi, 25'ten fazla ülkeye ihracat. Tuğla, dökme, çift katmanlı ve seramik elyaf astar ankrajları."
+    }
+  },
+  "categories": {
+    "eyebrow": "Ürünler",
+    "title": "Astar Tipine Göre Refrakter Ankrajlar",
+    "subtitle": "Standart SEPL ankraj tasarımları veya çizimlerinize göre özel ankrajlar; karbon çelik, paslanmaz çelik ve nikel alaşımlarından.",
+    "viewRange": "Ürün grubunu gör",
+    "items": {
+      "brick": {
+        "name": "Tuğla Astar",
+        "description": "Yoğun ve yalıtım tuğlalarını tutan tuğla zımbaları, konsollar, pençeler, makas klipsler ve geri bağlama ankrajları.",
+        "imageAlt": "SEPL-01 tuğla zımbası refrakter ankraj çizimi"
+      },
+      "castable": {
+        "name": "Dökme Astar",
+        "description": "Hafiften yoğuna dökme ve püskürtme astarlar için Y, V, boynuz, H ve düz kesitli ankrajlar.",
+        "imageAlt": "SEPL-06 yarık Y refrakter ankraj çizimi"
+      },
+      "double": {
+        "name": "Çift Katmanlı Astar",
+        "description": "Yalıtım katmanlarıyla desteklenen yoğun sıcak yüz için çift pimli, somunlu, vidalı ve yarık saplama ankrajlar.",
+        "imageAlt": "SEPL-20 çift pimli refrakter ankraj çizimi"
+      },
+      "ceramic": {
+        "name": "Seramik Elyaf Astar",
+        "description": "Battaniye ve modül astarlar için seramik halkalı, kaynakla tutturulan elyaf saplamaları ve dişli saplamalar.",
+        "imageAlt": "SS310 ve Inconel SEPL-24 elyaf saplama refrakter ankrajlar"
+      }
+    }
+  },
+  "trust": {
+    "eyebrow": "Referanslar",
+    "title": "Belgelenmiş Tedarik Geçmişi",
+    "subtitle": "Yalnızca belgelenmiş referanslar. İhracat sevkiyatları Mumbai Nhava Sheva (JNPT) limanından yapılır.",
+    "items": {
+      "cemex": {
+        "title": "CEMEX",
+        "text": "Hırvatistan, İspanya ve Çekya'daki CEMEX çimento fabrikalarına refrakter ankraj tedariki."
+      },
+      "sri": {
+        "title": "Saudi Refractory Industries Co",
+        "text": "Suudi Arabistan, El Hubar'a sevkiyat belgeleriyle kanıtlanmış ihracat tedariki."
+      },
+      "established": {
+        "title": "1980'den beri",
+        "text": "1980'den beri Mumbai'de refrakter ankraj üretiyor ve 25'ten fazla ülkeye ihraç ediyoruz."
+      },
+      "testing": {
+        "title": "PMI ile Test Edilmiş Malzeme",
+        "text": "Giriş kontrolünde ve son muayenede pozitif malzeme tanımlaması, üretici test sertifikalarıyla birlikte."
+      },
+      "iso": {
+        "title": "ISO 9001:2015 Sertifikalı",
+        "text": "{number} numaralı sertifika URS tarafından düzenlenmiştir, UKAS akreditasyonludur ve {date} tarihine kadar geçerlidir. Kapsam: “{scope}”"
+      },
+      "linde": {
+        "title": "Linde Engineering India",
+        "text": "Karşı ağırlık sistemleri için onaylı tedarikçi, tedarikçi kodu {code}, {period}."
+      }
+    }
+  },
+  "industries": {
+    "eyebrow": "Sektörler",
+    "title": "Tedarik Ettiğimiz Sektörler",
+    "subtitle": "Proses ve ağır sanayideki yüksek sıcaklık ekipmanları için ankraj sistemleri.",
+    "items": {
+      "oilGas": {
+        "name": "Petrol, Gaz ve Petrokimya",
+        "description": "Proses fırınları, buhar reformerleri, FCC üniteleri ve kükürt geri kazanım üniteleri.",
+        "imageAlt": "Rafineri ve petrokimya tesisi"
+      },
+      "cement": {
+        "name": "Çimento ve Kireç",
+        "description": "Ön ısıtıcılar, kalsinatörler, döner fırınlar ve klinker soğutucuları.",
+        "imageAlt": "Çimento tozu"
+      },
+      "steel": {
+        "name": "Çelik ve Demir",
+        "description": "Yüksek fırınlar, potalar, tav fırınları ve kok fırınları.",
+        "imageAlt": "Kıvılcımlarla sıvı çelik dökümü"
+      },
+      "power": {
+        "name": "Enerji ve Kazanlar",
+        "description": "CFBC, HRSG, atıktan enerji ve biyokütle kazanları.",
+        "imageAlt": "Gün batımında enerji nakil hattı direkleri"
+      }
+    }
+  },
+  "countries": {
+    "eyebrow": "Dünya Genelinde",
+    "title": "Ülkenizi Seçin",
+    "subtitle": "Her pazardaki refrakter ankraj alıcıları için bölgesel bilgiler.",
+    "names": {
+      "AE": "Birleşik Arap Emirlikleri",
+      "SA": "Suudi Arabistan",
+      "DE": "Almanya",
+      "TR": "Türkiye",
+      "BR": "Brezilya",
+      "NL": "Hollanda",
+      "IT": "İtalya",
+      "FR": "Fransa",
+      "PL": "Polonya",
+      "BE": "Belçika",
+      "ES": "İspanya",
+      "MX": "Meksika",
+      "GB": "Birleşik Krallık",
+      "CA": "Kanada"
+    },
+    "languages": {
+      "en": "İngilizce",
+      "fr": "Fransızca",
+      "nl": "Felemenkçe"
+    }
+  },
+  "rfq": {
+    "title": "Refrakter Ankrajlar için Teklif İsteyin",
+    "text": "Çizimlerinizi, alaşım sınıfını ve miktarları gönderin. Mühendislik ekibimiz teklif vermeden önce her çizimi inceler.",
+    "button": "Teklif İste",
     "whatsapp": "WhatsApp'tan Yazın"
+  },
+  "footer": {
+    "tagline": "Mumbai, Hindistan'da üretilen refrakter ankrajlar, saplama ankrajlar ve paslanmaz çelik lifler.",
+    "contact": "İletişim",
+    "headOffice": "Genel Merkez ve Fabrika 1",
+    "works": "Fabrika 2",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "hours": "Çalışma Saatleri",
+    "hoursValue": "Pzt–Cmt 08:00–18:00 IST · Pazar kapalı",
+    "quickLinks": "Hızlı Bağlantılar",
+    "cin": "CIN",
+    "rights": "Tüm hakları saklıdır.",
+    "company": "Şirket",
+    "legal": "Yasal"
+  },
+  "products": {
+    "meta": {
+      "title": "Refrakter Ankrajlar, Pullar ve Çelik Lifler | Santura Engineering",
+      "description": "Mumbai, Hindistan'da refrakter ankraj üreticisi: tuğla, dökme, çift katmanlı ve seramik elyaf astarlar için SEPL ankrajlar, pullar ve çelik lifler."
+    },
+    "eyebrow": "Ürünler",
+    "title": "Refrakter Ankrajlar, Pullar ve Çelik Lifler",
+    "intro": "Astar tipine göre gruplanmış SEPL ürün yelpazesi. Her ankraj çiziminize, numunenize veya krokinize göre üretilebilir.",
+    "filterLabel": "Astar tipine göre filtrele",
+    "all": "Tüm ürünler",
+    "linings": {
+      "brick": "Tuğla Astar",
+      "castable": "Dökme / Beton Astar",
+      "double": "Çift Katmanlı Astar",
+      "ceramic": "Seramik Elyaf Astar",
+      "washers": "Pullar",
+      "fibres": "Çelik Lifler"
+    },
+    "liningIntro": {
+      "washers": "Montaj sırasında astarı yerinde tutan yuvarlak, kare ve dikdörtgen halkalar, dişli halkalar ve saplamalara geçirilen tutucu klipsler.",
+      "fibres": "Monolitik refrakterlerin termal şok ve çatlak direncini artıran eriyik ekstraksiyon ve soğuk çekme paslanmaz çelik lifler."
+    },
+    "comingSoon": "Yakında",
+    "viewProduct": "Ürünü görüntüle"
+  },
+  "productPage": {
+    "metaTitle": "{title} | Santura Engineering",
+    "metaDescription": {
+      "anchor": "{lining} için {title}. Mumbai, Hindistan'daki refrakter ankraj üreticisi Santura Engineering tarafından çizime göre üretilir.",
+      "fibre": "Refrakter takviyesi için {title}; Mumbai, Hindistan'daki refrakter ankraj ve çelik lif üreticisi Santura Engineering'den.",
+      "washer": "Refrakter ankrajlar için {title}; Mumbai, Hindistan'daki refrakter ankraj üreticisi Santura Engineering tarafından çizime göre üretilir."
+    },
+    "imageAlt": {
+      "anchor": "{alloys} malzemeden {title} refrakter ankraj",
+      "anchorPlain": "{title} refrakter ankraj",
+      "fibre": "{alloys} malzemeden {title} refrakter çelik lif",
+      "fibrePlain": "{title} refrakter çelik lif",
+      "washer": "{alloys} malzemeden refrakter ankraj için {title}",
+      "washerPlain": "Refrakter ankraj için {title}"
+    },
+    "code": "Ürün kodu",
+    "lining": "Astar tipi",
+    "section": "Kesit",
+    "sections": {
+      "round": "Yuvarlak (tel / çubuk)",
+      "flat": "Düz (levha / şerit)",
+      "various": "Çeşitli",
+      "ceramic": "Seramik"
+    },
+    "description": "Açıklama",
+    "technicalEnglish": "Teknik açıklamalar İngilizce olarak sunulmaktadır.",
+    "alloys": "Mevcut alaşımlar",
+    "grade": "Sınıf",
+    "forms": {
+      "plate": "Levha",
+      "wire": "Tel",
+      "general": "Mevcut"
+    },
+    "maxTemp": "Maks. sürekli çalışma sıcaklığı",
+    "typicalUse": "Tipik kullanım",
+    "alloysOnRequest": "Alaşım sınıfları talep üzerine. Öneri için çalışma koşullarınızı bize iletin.",
+    "alloyLegend": "CS = karbon çelik · 601 = Inconel 601 · 800 = Incoloy 800 · 253MA = ısıya dayanıklı östenitik çelik",
+    "otherAlloys": "Diğer alaşımlar talep üzerine mevcuttur.",
+    "material": "Malzeme",
+    "rfqTitle": "Bu Ürün için Teklif İste",
+    "rfqText": "{title} için çiziminizi, numunenizi veya krokinizi alaşım sınıfı ve miktarla birlikte gönderin.",
+    "rfqButton": "Bu Ürün için Teklif İste",
+    "related": "İlgili ürünler",
+    "comingSoonTitle": "Ürün sayfası yakında",
+    "comingSoonText": "Bu ürünün tüm ayrıntıları hazırlanıyor. İhtiyaçlarınızı gönderin, mühendislik ekibimiz size dönüş yapacaktır.",
+    "gallery": "Ürün görselleri",
+    "breadcrumb": "İçerik haritası"
+  },
+  "rfqForm": {
+    "fullName": "Ad soyad",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "company": "Şirket",
+    "country": "Ülke",
+    "message": "Ne arıyorsunuz?",
+    "submit": "Talebi Gönder",
+    "sending": "Gönderiliyor…",
+    "success": "Teşekkürler. En kısa sürede size dönüş yapacağız.",
+    "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
+    "productPrefix": "Ürün"
+  },
+  "rfqPage": {
+    "title": "Refrakter Ankrajlar için Teklif İsteyin",
+    "description": "Mumbai, Hindistan'daki refrakter ankraj üreticisi Santura Engineering'den teklif isteyin. Çizim, alaşım sınıfı ve miktarları gönderin.",
+    "intro": "Bilgilerinizi doldurun, ekibimiz size bir teklifle dönüş yapacaktır."
+  },
+  "countryPage": {
+    "metaTitle": "Refrakter Ankraj Üreticisi ve Tedarikçisi | {country} | Santura Engineering",
+    "h1": "{country} için Refrakter Ankraj Üreticisi ve Tedarikçisi",
+    "eyebrow": "İhracat pazarı · {country}",
+    "technicalEnglish": "Bu sayfadaki teknik bilgiler, refrakter şartnamelerinin çalışma dili olan İngilizcedir.",
+    "clientTitle": "Doğrulanmış müşteri: {country}",
+    "clientNote": "Tedarik, ihracat sevkiyat belgelerimizle doğrulanmıştır.",
+    "spotlightEyebrow": "Teknik odak",
+    "industriesTitle": "Tedarik ettiğimiz sektörler: {country}",
+    "industriesNote": "Şirket adları pazarı tanımlar; Santura Engineering müşteri listesi değildir.",
+    "regionsTitle": "Sanayi bölgeleri ve limanlar",
+    "productsTitle": "Önerilen ürünler",
+    "viewProduct": "Ürünü görüntüle",
+    "shippingTitle": "Mumbai'den sevkiyat",
+    "shippingIntro": "Ankrajlar MIDC Tarapur'daki tesisimizde üretilip paketlenir ve Mumbai Nhava Sheva (JNPT) limanından gönderilir.",
+    "destination": "Varış yeri",
+    "route": "Güzergâh",
+    "transit": "Transit süresi",
+    "documentsTitle": "Sertifikalar ve belgeler",
+    "rfqTitle": "Teklif isteyin: {country} teslimatı",
+    "rfqText": "Çiziminizi veya ankraj tipini, alaşım kalitesini ve miktarı gönderin. Fiyat, termin ve limanınıza sevkiyat bilgisiyle dönüş yapalım.",
+    "rfqButton": "Teklif İste",
+    "referencesTitle": "Avrupa'da doğrulanmış referanslar",
+    "referencesNote": "Çimento fabrikası tedariki her müşteri tarafından onaylanmıştır.",
+    "clientNoteConfirmed": "Tedarik müşteri tarafından onaylanmıştır.",
+    "qualityTitle": "Kalite onayları"
+  },
+  "contactPage": {
+    "metaTitle": "İletişim Santura Engineering | Refrakter Ankraj Üreticisi, Mumbai",
+    "metaDescription": "1980'den beri Mumbai'de refrakter ankraj üreten Santura Engineering ile iletişim: e-posta, telefon, WhatsApp, fabrika adresi ve iletişim formu.",
+    "h1": "İletişim",
+    "intro": "Talebinizi e-posta, telefon veya WhatsApp ile iletin ya da aşağıdaki formu kullanın. İş günlerinde yanıt veriyoruz.",
+    "officeTitle": "Merkez ve fabrika",
+    "worksTitle": "Fabrika 2",
+    "emailTitle": "E-posta",
+    "generalEmail": "Genel talepler",
+    "phoneTitle": "Telefon",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "WhatsApp'tan yazın",
+    "hoursTitle": "Çalışma saatleri",
+    "mapTitle": "Konum",
+    "mapIframeTitle": "Harita: Santura Engineering, Darukhana, Mumbai",
+    "openMap": "Google Haritalar'da aç",
+    "formTitle": "Talep gönderin",
+    "rfqNote": "Belirli bir ankraj için fiyat mı gerekiyor? Teklifler için teklif talep formumuzu kullanın.",
+    "rfqLink": "Teklif formuna git"
+  },
+  "contactForm": {
+    "name": "Ad soyad",
+    "email": "E-posta",
+    "company": "Şirket",
+    "country": "Ülke",
+    "message": "Mesaj",
+    "submit": "Mesaj gönder",
+    "sending": "Gönderiliyor…",
+    "success": "Teşekkürler. Mesajınız gönderildi, kısa süre içinde yanıt vereceğiz.",
+    "error": "Mesajınız gönderilemedi. Lütfen tekrar deneyin veya bize doğrudan e-posta gönderin.",
+    "privacyNote": "Bu bilgileri yalnızca talebinizi yanıtlamak için kullanırız.",
+    "privacyLink": "Gizlilik Politikası"
+  },
+  "aboutPage": {
+    "metaTitle": "Santura Engineering Hakkında | 1980'den Beri Refrakter Ankraj Üreticisi",
+    "metaDescription": "Santura Engineering, Mumbai: 1980'de Bharat Diwan tarafından kuruldu, 2005'ten beri refrakter ankraj, ISO 9001:2015 sertifikalı, 25+ ülkeye ihracat.",
+    "h1": "Santura Engineering Hakkında",
+    "intro": "1980'de kurulan ve 25'ten fazla ülkeye ihracat yapan, Mumbai merkezli refrakter ankraj, saplama ankraj ve paslanmaz çelik lif üreticisi.",
+    "storyTitle": "Hikâyemiz",
+    "story": [
+      "Şirket 1980'de Mumbai'de üretim mühendisi Bharat Diwan tarafından kuruldu. Yerel sanayiye hizmet veren bir mühendislik ve imalat atölyesi olarak başladı.",
+      "Şirket 2005'te refrakter ankraj üretimine başladı ve 2008'de Santura Engineering Pvt. Ltd. olarak tescil edildi. Bugün tuğla, dökme, çift katmanlı ve seramik elyaf astarlar için SEPL ankraj serisinin tamamını, ayrıca pullar ve paslanmaz çelik lifler üretiyor; Hindistan'da ve yurt dışında refrakter firmalarına ve tesis işletmecilerine tedarik sağlıyor."
+    ],
+    "timelineTitle": "Önemli adımlar",
+    "timeline": [
+      {
+        "year": "1980",
+        "title": "Mumbai'de kuruluş",
+        "text": "Üretim mühendisi Bharat Diwan şirketi kurar."
+      },
+      {
+        "year": "2005",
+        "title": "Refrakter ankrajlar",
+        "text": "Refrakter ankraj üretimi başlar."
+      },
+      {
+        "year": "2008",
+        "title": "Şirketleşme",
+        "text": "9 Temmuz 2008 tarihinde Santura Engineering Pvt. Ltd. olarak tescil."
+      },
+      {
+        "year": "2009–2012",
+        "title": "Linde onayı",
+        "text": "Linde Engineering India için onaylı karşı ağırlık sistemleri tedarikçisi."
+      },
+      {
+        "year": "Bugün",
+        "title": "ISO 9001:2015",
+        "text": "ISO 9001:2015 sertifikalı ve 25'ten fazla ülkeye ihracat."
+      }
+    ],
+    "facilitiesTitle": "Üretim tesisleri",
+    "darukhanaTitle": "Merkez ve fabrika, Darukhana, Mumbai",
+    "darukhanaText": "Merkezimiz ve fabrikamız Mumbai liman bölgesinde, Darukhana'dadır; ihracat sevkiyatlarımızın yapıldığı Nhava Sheva (JNPT) limanına yakındır.",
+    "tarapurTitle": "Fabrika 2, MIDC Tarapur",
+    "tarapurText": "İkinci fabrikamız Mumbai'nin kuzeyinde, Boisar'daki MIDC Tarapur sanayi bölgesindedir.",
+    "qualityTitle": "Kalite ve onaylar",
+    "qualityText": "Refrakter ankrajlar ve fırınlar için yumuşak bileşenlerin üretimi ve tedariki kapsamında ISO 9001:2015 sertifikalıyız; geçmişte Linde Engineering India onaylı tedarikçisiydik.",
+    "qualityLink": "Kalite sayfamızı görün",
+    "clientsTitle": "Doğrulanmış müşteriler",
+    "clientsNote": "Yalnızca tedarikini belgeleyebildiğimiz müşterileri listeliyoruz.",
+    "cemexTitle": "CEMEX",
+    "cemexText": "Hırvatistan, İspanya (Planta de Alcanar) ve Çekya'daki çimento fabrikaları için refrakter ankrajlar.",
+    "sriTitle": "Saudi Refractory Industries Co",
+    "sriText": "Suudi Arabistan'ın Al-Khobar şehrine ihracat tedariki.",
+    "productsTitle": "Ürünlerimiz",
+    "productsText": "SEPL-01 tuğla zımbalarından SEPL-30 dalgalı çelik liflere kadar SEPL serisi; karbon çeliği, SS 304 ve SS 310 gibi paslanmaz çelikler ve Inconel dahil nikel alaşımlarından. Ankrajları müşteri çizimine göre de üretiyoruz.",
+    "productsLink": "Tüm ürünleri görün",
+    "exportTitle": "İhracat",
+    "exportText": "Orta Doğu, Avrupa ve Amerika kıtasında 25'ten fazla ülkeye, Nhava Sheva'dan eksiksiz belgelerle ihracat yapıyoruz.",
+    "exportLink": "Ülkenizi bulun"
+  },
+  "qualityPage": {
+    "metaTitle": "Kalite, Test ve Sertifikasyon | Santura Engineering",
+    "metaDescription": "ISO 9001:2015 sertifikalı refrakter ankraj üreticisi: PMI ve spektrometre, boyut kontrolü, EN 10204 3.1 sertifikaları ve döküm numarası izlenebilirliği.",
+    "h1": "Kalite ve Sertifikasyon",
+    "intro": "Her ankraj doğrulanmış malzemeden üretilir, sevkiyattan önce kontrol edilir ve onu döküm numarasına kadar izleyen belgelerle teslim edilir.",
+    "isoTitle": "ISO 9001:2015 sertifikası",
+    "standard": "Standart",
+    "certificateNo": "Sertifika numarası",
+    "issuer": "Belgelendirme kuruluşu",
+    "accreditation": "Akreditasyon",
+    "scope": "Kapsam",
+    "validUntil": "Geçerlilik tarihi",
+    "lindeTitle": "Linde Engineering India onayı",
+    "lindeText": "Santura Engineering, Linde Engineering India Pvt Ltd onaylı tedarikçisiydi.",
+    "lindeCompany": "Şirket",
+    "lindeScope": "Onay kapsamı",
+    "lindeScopeValue": "Karşı ağırlık sistemleri",
+    "lindeCode": "Tedarikçi kodu",
+    "lindePeriod": "Dönem",
+    "testingTitle": "Malzeme testleri ve muayene",
+    "testing": [
+      {
+        "title": "Pozitif malzeme tanımlama (PMI)",
+        "text": "Alaşım, hammadde girişinde ve son muayenede yeniden kontrol edilir."
+      },
+      {
+        "title": "Spektrometrik analiz",
+        "text": "Kimyasal bileşim, belirtilen kaliteye göre spektrometre ile doğrulanır."
+      },
+      {
+        "title": "Boyut kontrolü",
+        "text": "Ölçüler, bükümler ve kaynak uçları çizime göre kontrol edilir."
+      },
+      {
+        "title": "Mekanik ve korozyon testleri",
+        "text": "Sertlik testi; talep üzerine çekme, darbe, yük ve korozyon testleri, gerektiğinde NABL akrediteli laboratuvarlarda."
+      },
+      {
+        "title": "Tanıklı muayene",
+        "text": "Tüm testlere müşteri veya atanan bağımsız muayene kuruluşu tanıklık edebilir."
+      }
+    ],
+    "documentsTitle": "Verilen belgeler",
+    "documents": [
+      "EN 10204 3.1 malzeme sertifikaları",
+      "Uygunluk sertifikaları",
+      "Döküm numarasıyla, malzeme sertifikasından bitmiş ankraja kadar izlenebilirlik",
+      "PMI raporları",
+      "Kimyasal analiz ve çözelti tavlama sertifikaları"
+    ],
+    "standardsTitle": "Malzeme standartları",
+    "standardsIntro": "Malzemeler aşağıdaki standartlara veya şartnamenizde belirtilen standarda göre tedarik edilir.",
+    "standardCol": "Standart",
+    "coversCol": "Kapsam",
+    "standards": {
+      "A240": "Paslanmaz çelik levha, sac ve şerit",
+      "A276": "Paslanmaz çelik çubuk ve profiller",
+      "A484": "Paslanmaz çelik çubuk, kütük ve dövme parçalar için genel gereklilikler",
+      "B166": "Nikel-krom-demir alaşımı çubuk ve tel (ör. Inconel 600)",
+      "B168": "Nikel-krom-demir alaşımı levha, sac ve şerit",
+      "DIN17440": "Paslanmaz çelikler: levha, çubuk ve tel için teknik teslim koşulları"
+    },
+    "clientCertsTitle": "Müşteri sertifikaları",
+    "clientCertsText": "Müşterilerimizden gelen sertifikalar ve referans mektupları burada yayımlanacaktır."
+  },
+  "privacyPage": {
+    "metaTitle": "Gizlilik Politikası | Santura Engineering",
+    "metaDescription": "Santura Engineering Pvt. Ltd. iletişim, teklif ve bülten formlarından, Google Analytics ve çerezlerden gelen verileri nasıl toplar ve kullanır.",
+    "h1": "Gizlilik Politikası",
+    "updated": "Son güncelleme: {date}",
+    "intro": "Bu politika, Santura Engineering Pvt. Ltd. şirketinin bu web sitesi aracılığıyla hangi kişisel verileri topladığını, neden topladığını ve haklarınızı açıklar.",
+    "sections": [
+      {
+        "title": "1. Biz kimiz",
+        "body": [
+          "Bu politikada açıklanan kişisel verilerden Santura Engineering Pvt. Ltd. (CIN U74200MH2008PTC184443), BPT Plot No. 200, 201, Quay Street, Darukhana, Reay Road, Mumbai 400010, Hindistan sorumludur. Bize enquiries@santura-eng.com adresinden ulaşabilirsiniz."
+        ]
+      },
+      {
+        "title": "2. Topladığımız veriler",
+        "body": [
+          "İletişim formu: adınız, e-posta adresiniz, şirketiniz, ülkeniz ve mesajınız.",
+          "Teklif talep formu: adınız, e-posta adresiniz, telefon numaranız, şirketiniz, ülkeniz ve gönderdiğiniz ürün ve proje bilgileri.",
+          "Bülten: e-posta adresiniz, sayfanın dili ve kaydolduğunuz sayfa.",
+          "Analiz: analiz çerezlerini kabul ederseniz Google Analytics 4 ziyaret ettiğiniz sayfaları, kalış sürenizi, yönlendiren siteyi, cihaz ve tarayıcı türünüzü ve yaklaşık konumunuzu kaydeder. Bunu sizi tanımlamak için kullanmayız.",
+          "Yazışmalar: bize doğrudan gönderdiğiniz e-postalar ve WhatsApp mesajları."
+        ]
+      },
+      {
+        "title": "3. Verilerinizi nasıl kullanırız",
+        "body": [
+          "Verilerinizi talepleri yanıtlamak, teklif hazırlamak, siparişleri yürütmek ve takip etmek, abone olduysanız bülten göndermek, siteyi geliştirmek için kullanımını anlamak ve yasal ve muhasebe yükümlülüklerimizi yerine getirmek için kullanırız. Verilerinizi satmayız ve otomatik karar verme için kullanmayız."
+        ]
+      },
+      {
+        "title": "4. Hukuki dayanak",
+        "body": [
+          "Avrupa Ekonomik Alanı ve Birleşik Krallık'taki ziyaretçiler için: talepleri ve teklif taleplerini, isteğiniz üzerine sözleşme öncesi adımlar olarak ve ticari taleplere yanıt vermedeki meşru menfaatimize dayanarak işleriz; bülten ve analiz çerezleri, istediğiniz zaman geri çekebileceğiniz rızanıza dayanır; vergi ve muhasebe amaçlı saklama yasal bir yükümlülüktür. Türkiye'deki ziyaretçiler için verileri 6698 sayılı Kişisel Verilerin Korunması Kanunu'na, Hindistan'daki ziyaretçiler için Digital Personal Data Protection Act, 2023'e uygun olarak işleriz."
+        ]
+      },
+      {
+        "title": "5. Çerezler",
+        "body": [
+          "Zorunlu: bir dil çerezi (NEXT_LOCALE) seçtiğiniz dili hatırlar. Takip amacıyla kullanılmaz.",
+          "Analiz: Google Analytics 4, ziyaretleri saymak ve site kullanımını ölçmek için _ga gibi çerezler yerleştirir. Bunlar yalnızca kabul ederseniz yerleştirilir.",
+          "Haritalar: iletişim sayfamızdaki harita Google Haritalar tarafından sağlanır ve harita yüklenirken kendi çerezlerini yerleştirebilir.",
+          "Çerezleri tarayıcı ayarlarınızdan silebilir veya engelleyebilirsiniz. Analiz çerezlerini engellemek sitenin çalışmasını etkilemez."
+        ]
+      },
+      {
+        "title": "6. Verileri kimlerle paylaşırız",
+        "body": [
+          "Verileri yalnızca siteyi bizim adımıza işleten hizmet sağlayıcılarla paylaşırız: Supabase (form veritabanı), Vercel (barındırma) ve Google (analiz ve haritalar). Bu sağlayıcılar verileri talimatlarımıza göre işler. Yasanın gerektirdiği durumlarda, örneğin vergi makamlarına veya mahkemelere, veri açıklayabiliriz."
+        ]
+      },
+      {
+        "title": "7. Yurt dışına aktarım",
+        "body": [
+          "Hizmet sağlayıcılarımız verileri ülkeniz dışında, Amerika Birleşik Devletleri ve Avrupa Birliği dahil, saklayabilir. AEA veya Birleşik Krallık kaynaklı aktarımlar, Avrupa Komisyonu standart sözleşme maddeleri gibi sağlayıcıların sözleşmesel güvenceleriyle korunur."
+        ]
+      },
+      {
+        "title": "8. Saklama süresi",
+        "body": [
+          "Talepler ve teklif talepleri, işlenmeleri ve ticari ilişkimizin sürdürülmesi için gereken süre boyunca ve vergi veya ticaret mevzuatının öngördüğü daha uzun süre boyunca saklanır. Bülten verileri aboneliğinizi iptal edene kadar saklanır. Analiz verileri Google Analytics saklama ayarlarımıza göre tutulur."
+        ]
+      },
+      {
+        "title": "9. Güvenlik",
+        "body": [
+          "Form verileri şifreli bağlantı (HTTPS) üzerinden gönderilir ve erişim denetimli bir veritabanında saklanır. Site ziyaretçileri form gönderebilir ancak kayıtlı gönderimleri okuyamaz."
+        ]
+      },
+      {
+        "title": "10. Haklarınız",
+        "body": [
+          "Kişisel verilerinize erişmeyi, bunların düzeltilmesini veya silinmesini, işlenmesine itiraz etmeyi veya kısıtlanmasını, bir kopyasını almayı ve rızanızı istediğiniz zaman geri çekmeyi talep edebilirsiniz. Bülten aboneliğinden çıkmak için herhangi bir bülten e-postasındaki bağlantıyı kullanın veya bize yazın. Haklarınızı kullanmak için enquiries@santura-eng.com adresine yazın. Ülkenizdeki veri koruma otoritesine de şikâyette bulunabilirsiniz."
+        ]
+      },
+      {
+        "title": "11. Çocuklar",
+        "body": [
+          "Bu site işletmelere yöneliktir, çocuklara yönelik değildir. Çocuklardan bilerek veri toplamayız."
+        ]
+      },
+      {
+        "title": "12. Değişiklikler",
+        "body": [
+          "Sitemiz veya mevzuat değiştiğinde bu politikayı güncelleyebiliriz. Sayfanın üstündeki tarih son revizyonu gösterir."
+        ]
+      }
+    ]
+  },
+  "disclaimerPage": {
+    "metaTitle": "Yasal Uyarı | Santura Engineering",
+    "metaDescription": "Santura Engineering web sitesi yasal uyarısı: ürün özellikleri, teknik veriler, fiyatlar ve stok durumu sipariş sırasında teyit edilir.",
+    "h1": "Yasal Uyarı",
+    "updated": "Son güncelleme: {date}",
+    "intro": "Bu sitedeki bilgiler Santura Engineering Pvt. Ltd. tarafından genel bilgi amacıyla sunulmaktadır. Bu bilgilere dayanmadan önce lütfen bu uyarıyı okuyun.",
+    "sections": [
+      {
+        "title": "1. Teknik veriler yalnızca referans içindir",
+        "body": [
+          "Bu sitedeki ürün açıklamaları, ölçüler, alaşım kaliteleri, azami kullanım sıcaklıkları, ankraj aralıkları ve diğer teknik veriler genel bilgi amaçlı tipik değerlerdir. Bir şartname veya performans garantisi değildir. Siparişiniz için geçerli olan özellikler, onaylı çizimde, sipariş teyidimizde ve malla birlikte verilen test sertifikalarında belirtilenlerdir."
+        ]
+      },
+      {
+        "title": "2. Seçim ve uygunluk",
+        "body": [
+          "Ankraj tipi, alaşım, aralık ve montaj yönteminin seçimi astar tasarımına, işletme koşullarına ve refrakter malzemeye bağlıdır ve alıcı ile mühendislerinin sorumluluğundadır. Önerilerimiz bize iletilen bilgilere dayanır."
+        ]
+      },
+      {
+        "title": "3. Fiyatlar ve teklifler",
+        "body": [
+          "Bu sitede fiyat yayımlanmaz. Fiyatlar yalnızca yazılı tekliflerde verilir; teklifler belirtilen süre boyunca geçerlidir ve hammadde maliyetleri, döviz kurları, miktarlar ve teslim koşullarına göre değişebilir."
+        ]
+      },
+      {
+        "title": "4. Stok durumu ve teslim süreleri",
+        "body": [
+          "Gösterilen ürünler, alaşımlar ve ölçüler stok durumuna bağlıdır. Üretim ve transit süreleri tahminidir ve sipariş sırasında teyit edilir. “Yakında” olarak işaretlenen ürünler henüz mevcut değildir."
+        ]
+      },
+      {
+        "title": "5. Görseller ve çizimler",
+        "body": [
+          "Fotoğraflar ve çizimler temsilidir. Teslim edilen ürünler renk, yüzey ve küçük ayrıntılarda farklılık gösterebilir."
+        ]
+      },
+      {
+        "title": "6. Sektör ve şirket adları",
+        "body": [
+          "Ülke sayfalarımızda adı geçen şirketler ve tesisler her pazardaki sanayiyi tanımlar. Bir sayfa açıkça doğrulanmış müşteri belirtmedikçe bunlar Santura Engineering müşterisi değildir."
+        ]
+      },
+      {
+        "title": "7. Ticari markalar",
+        "body": [
+          "Inconel ve Incoloy, Special Metals Corporation şirketinin ticari markalarıdır. 253 MA, Outokumpu şirketinin ticari markasıdır. Diğer ürün ve şirket adları sahiplerine aittir ve yalnızca tanımlama amacıyla kullanılır."
+        ]
+      },
+      {
+        "title": "8. Dış bağlantılar",
+        "body": [
+          "Diğer sitelere verilen bağlantılar kolaylık amacıyla sunulmuştur. Bu sitelerin içeriğinden sorumlu değiliz."
+        ]
+      },
+      {
+        "title": "9. Sorumluluğun sınırlandırılması",
+        "body": [
+          "Yasanın izin verdiği ölçüde Santura Engineering Pvt. Ltd., bu sitedeki bilgilerin kullanılmasından veya bunlara güvenilmesinden doğan kayıplardan sorumlu değildir. Tedarikler her siparişin koşullarına tabidir."
+        ]
+      },
+      {
+        "title": "10. Çeviriler",
+        "body": [
+          "Bu site birden fazla dilde sunulmaktadır. Bir çeviri İngilizce sürümden farklıysa İngilizce sürüm geçerlidir."
+        ]
+      },
+      {
+        "title": "11. İletişim",
+        "body": [
+          "Bu uyarıyla ilgili sorularınız için enquiries@santura-eng.com adresine yazabilirsiniz."
+        ]
+      }
+    ]
   }
 }

@@ -3,17 +3,602 @@
     "home": "Inicio",
     "products": "Productos",
     "rfq": "Solicitar Cotización",
-    "language": "Idioma"
+    "language": "Idioma",
+    "about": "Nosotros",
+    "quality": "Calidad",
+    "contact": "Contacto",
+    "privacy": "Política de privacidad",
+    "disclaimer": "Aviso legal"
   },
   "hero": {
-    "title": "Anclajes Refractarios y Fabricaciones de Acero para Industrias de Alta Temperatura",
-    "subtitle": "Fabricamos y exportamos sistemas de anclajes refractarios, fabricaciones de acero inoxidable y componentes de aislamiento térmico, y abastecemos a las industrias petroquímica, cementera, energética y del aluminio en más de 20 países desde 1980."
+    "eyebrow": "Santura Engineering Pvt. Ltd. · Mumbai, India",
+    "title": "Fabricante y Exportador de Anclajes Refractarios",
+    "subtitle": "Anclajes refractarios, espárragos para fibra y fibras de acero inoxidable para revestimientos de ladrillo, hormigón refractario y fibra cerámica: fabricados en Mumbai y enviados a proyectos internacionales desde el puerto de Nhava Sheva.",
+    "imageAlt": "Unidades de proceso de refinería con columnas y hornos con revestimiento refractario"
   },
   "cta": {
     "getQuote": "Solicitar Cotización",
     "viewProducts": "Ver Productos"
   },
   "common": {
+    "whatsapp": "Chatear por WhatsApp",
+    "facts": "Desde 1980 · Exportamos a más de 25 países · Certificación ISO 9001:2015"
+  },
+  "meta": {
+    "home": {
+      "title": "Fabricante y Exportador de Anclajes Refractarios | Santura Engineering",
+      "description": "Fabricante de anclajes refractarios en Mumbai, India, desde 1980, con exportación a más de 25 países. Anclajes para ladrillo, hormigón y fibra cerámica."
+    }
+  },
+  "categories": {
+    "eyebrow": "Productos",
+    "title": "Anclajes Refractarios por Tipo de Revestimiento",
+    "subtitle": "Diseños estándar SEPL o anclajes a medida según sus planos, en acero al carbono, acero inoxidable y aleaciones de níquel.",
+    "viewRange": "Ver gama",
+    "items": {
+      "brick": {
+        "name": "Revestimiento de Ladrillo",
+        "description": "Grapas, consolas, garras, clips de tijera y anclajes de retención para ladrillo denso y aislante.",
+        "imageAlt": "Plano del anclaje refractario grapa para ladrillo SEPL-01"
+      },
+      "castable": {
+        "name": "Revestimiento de Hormigón Refractario",
+        "description": "Anclajes en Y, V, cuerno, H y de sección plana para hormigones y gunitados, de ligeros a densos.",
+        "imageAlt": "Plano del anclaje refractario Y partida SEPL-06"
+      },
+      "double": {
+        "name": "Revestimiento Doble",
+        "description": "Anclajes de doble pasador, con tuerca, roscados y espárragos ranurados para una cara caliente densa respaldada por capas aislantes.",
+        "imageAlt": "Plano del anclaje refractario de doble pasador SEPL-20"
+      },
+      "ceramic": {
+        "name": "Revestimiento de Fibra Cerámica",
+        "description": "Espárragos para fibra soldados y espárragos roscados con arandelas cerámicas para mantas y módulos.",
+        "imageAlt": "Anclajes refractarios espárrago para fibra SEPL-24 en SS310 e Inconel"
+      }
+    }
+  },
+  "trust": {
+    "eyebrow": "Trayectoria",
+    "title": "Suministros Documentados",
+    "subtitle": "Solo referencias documentadas. Las exportaciones salen del puerto de Nhava Sheva (JNPT), Mumbai.",
+    "items": {
+      "cemex": {
+        "title": "CEMEX",
+        "text": "Anclajes refractarios suministrados a plantas de cemento de CEMEX en Croacia, España y la República Checa."
+      },
+      "sri": {
+        "title": "Saudi Refractory Industries Co",
+        "text": "Suministro de exportación a Al-Khobar, Arabia Saudí, documentado con registros de envío."
+      },
+      "established": {
+        "title": "Desde 1980",
+        "text": "Fabricamos anclajes refractarios en Mumbai desde 1980 y exportamos a más de 25 países."
+      },
+      "testing": {
+        "title": "Material Verificado por PMI",
+        "text": "Identificación positiva de materiales a la recepción y en la inspección final, con certificados de fábrica."
+      },
+      "iso": {
+        "title": "Certificación ISO 9001:2015",
+        "text": "Certificado {number}, emitido por URS y acreditado por UKAS, válido hasta el {date}. Alcance: «{scope}»"
+      },
+      "linde": {
+        "title": "Linde Engineering India",
+        "text": "Proveedor aprobado de sistemas de contrapeso, código de proveedor {code}, {period}."
+      }
+    }
+  },
+  "industries": {
+    "eyebrow": "Sectores",
+    "title": "Sectores que Abastecemos",
+    "subtitle": "Sistemas de anclaje para equipos de alta temperatura en la industria de procesos y pesada.",
+    "items": {
+      "oilGas": {
+        "name": "Petróleo, Gas y Petroquímica",
+        "description": "Hornos de proceso, reformadores de vapor, unidades FCC y unidades de recuperación de azufre.",
+        "imageAlt": "Refinería y planta petroquímica"
+      },
+      "cement": {
+        "name": "Cemento y Cal",
+        "description": "Precalentadores, calcinadores, hornos rotatorios y enfriadores de clínker.",
+        "imageAlt": "Polvo de cemento"
+      },
+      "steel": {
+        "name": "Acero y Hierro",
+        "description": "Altos hornos, cucharas, hornos de recalentamiento y hornos de coque.",
+        "imageAlt": "Colada de acero fundido con chispas"
+      },
+      "power": {
+        "name": "Energía y Calderas",
+        "description": "Calderas CFBC, HRSG, de valorización energética de residuos y de biomasa.",
+        "imageAlt": "Torres de transmisión eléctrica al atardecer"
+      }
+    }
+  },
+  "countries": {
+    "eyebrow": "En todo el mundo",
+    "title": "Seleccione su País",
+    "subtitle": "Información regional para compradores de anclajes refractarios en cada mercado.",
+    "names": {
+      "AE": "Emiratos Árabes Unidos",
+      "SA": "Arabia Saudí",
+      "DE": "Alemania",
+      "TR": "Turquía",
+      "BR": "Brasil",
+      "NL": "Países Bajos",
+      "IT": "Italia",
+      "FR": "Francia",
+      "PL": "Polonia",
+      "BE": "Bélgica",
+      "ES": "España",
+      "MX": "México",
+      "GB": "Reino Unido",
+      "CA": "Canadá"
+    },
+    "languages": {
+      "en": "inglés",
+      "fr": "francés",
+      "nl": "neerlandés"
+    }
+  },
+  "rfq": {
+    "title": "Solicite una Cotización de Anclajes Refractarios",
+    "text": "Envíe sus planos, la aleación y las cantidades. Nuestro equipo de ingeniería revisa cada plano antes de cotizar.",
+    "button": "Solicitar Cotización",
     "whatsapp": "Chatear por WhatsApp"
+  },
+  "footer": {
+    "tagline": "Anclajes refractarios, espárragos de anclaje y fibras de acero inoxidable fabricados en Mumbai, India.",
+    "contact": "Contacto",
+    "headOffice": "Oficina Central y Fábrica 1",
+    "works": "Fábrica 2",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "hours": "Horario",
+    "hoursValue": "Lun–Sáb 08:00–18:00 IST · Domingo cerrado",
+    "quickLinks": "Enlaces Rápidos",
+    "cin": "CIN",
+    "rights": "Todos los derechos reservados.",
+    "company": "Empresa",
+    "legal": "Legal"
+  },
+  "products": {
+    "meta": {
+      "title": "Anclajes Refractarios, Arandelas y Fibras de Acero | Santura Engineering",
+      "description": "Fabricante de anclajes refractarios en Mumbai, India: anclajes SEPL para ladrillo, hormigón, doble capa y fibra cerámica, arandelas y fibras inox."
+    },
+    "eyebrow": "Productos",
+    "title": "Anclajes Refractarios, Arandelas y Fibras de Acero",
+    "intro": "La gama SEPL agrupada por tipo de revestimiento. Cada anclaje puede fabricarse según su plano, muestra o croquis.",
+    "filterLabel": "Filtrar por tipo de revestimiento",
+    "all": "Todos los productos",
+    "linings": {
+      "brick": "Revestimiento de Ladrillo",
+      "castable": "Revestimiento de Hormigón Refractario",
+      "double": "Revestimiento Doble",
+      "ceramic": "Revestimiento de Fibra Cerámica",
+      "washers": "Arandelas",
+      "fibres": "Fibras de Acero"
+    },
+    "liningIntro": {
+      "washers": "Anillos redondos, cuadrados y rectangulares, anillos roscados y clips de montaje que se insertan en los espárragos para sujetar el revestimiento durante la instalación.",
+      "fibres": "Fibras de acero inoxidable por extracción en fusión y trefiladas en frío que mejoran la resistencia al choque térmico y al agrietamiento de los refractarios monolíticos."
+    },
+    "comingSoon": "Próximamente",
+    "viewProduct": "Ver producto"
+  },
+  "productPage": {
+    "metaTitle": "{title} | Santura Engineering",
+    "metaDescription": {
+      "anchor": "{title} para {lining}. Fabricado según plano por Santura Engineering, fabricante de anclajes refractarios en Mumbai, India.",
+      "fibre": "{title} para refuerzo de refractarios, de Santura Engineering, fabricante de anclajes refractarios y fibras de acero en Mumbai, India.",
+      "washer": "{title} para anclajes refractarios, fabricado según plano por Santura Engineering, fabricante de anclajes refractarios en Mumbai, India."
+    },
+    "imageAlt": {
+      "anchor": "Anclaje refractario {title} en {alloys}",
+      "anchorPlain": "Anclaje refractario {title}",
+      "fibre": "Fibra de acero para refractario {title} en {alloys}",
+      "fibrePlain": "Fibra de acero para refractario {title}",
+      "washer": "{title} para anclajes refractarios en {alloys}",
+      "washerPlain": "{title} para anclajes refractarios"
+    },
+    "code": "Código de producto",
+    "lining": "Tipo de revestimiento",
+    "section": "Sección",
+    "sections": {
+      "round": "Redonda (alambre / barra)",
+      "flat": "Plana (chapa / fleje)",
+      "various": "Varias",
+      "ceramic": "Cerámica"
+    },
+    "description": "Descripción",
+    "technicalEnglish": "Las descripciones técnicas se ofrecen en inglés.",
+    "alloys": "Aleaciones disponibles",
+    "grade": "Aleación",
+    "forms": {
+      "plate": "Chapa",
+      "wire": "Alambre",
+      "general": "Disponible"
+    },
+    "maxTemp": "Temp. máx. de servicio continuo",
+    "typicalUse": "Uso típico",
+    "alloysOnRequest": "Aleaciones bajo pedido. Envíenos sus condiciones de operación para una recomendación.",
+    "alloyLegend": "CS = acero al carbono · 601 = Inconel 601 · 800 = Incoloy 800 · 253MA = acero austenítico resistente al calor",
+    "otherAlloys": "Otras aleaciones disponibles bajo pedido.",
+    "material": "Material",
+    "rfqTitle": "Solicitar Cotización de este Producto",
+    "rfqText": "Envíe su plano, muestra o croquis con la aleación y la cantidad de {title}.",
+    "rfqButton": "Solicitar Cotización de este Producto",
+    "related": "Productos relacionados",
+    "comingSoonTitle": "Página del producto próximamente",
+    "comingSoonText": "Estamos preparando la información completa de este producto. Envíenos sus requisitos y nuestro equipo de ingeniería se pondrá en contacto con usted.",
+    "gallery": "Imágenes del producto",
+    "breadcrumb": "Ruta de navegación"
+  },
+  "rfqForm": {
+    "fullName": "Nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "company": "Empresa",
+    "country": "País",
+    "message": "¿Qué está buscando?",
+    "submit": "Enviar Solicitud",
+    "sending": "Enviando…",
+    "success": "Gracias. Nos pondremos en contacto con usted en breve.",
+    "error": "Algo salió mal. Inténtelo de nuevo.",
+    "productPrefix": "Producto"
+  },
+  "rfqPage": {
+    "title": "Solicite una Cotización de Anclajes Refractarios",
+    "description": "Solicite una cotización a Santura Engineering, fabricante de anclajes refractarios en Mumbai, India. Envíe planos, aleación y cantidades.",
+    "intro": "Complete sus datos y nuestro equipo le enviará una cotización."
+  },
+  "countryPage": {
+    "metaTitle": "Fabricante y Proveedor de Anclajes Refractarios | {country} | Santura Engineering",
+    "h1": "Fabricante y Proveedor de Anclajes Refractarios – {country}",
+    "eyebrow": "Mercado de exportación · {country}",
+    "technicalEnglish": "Los detalles técnicos de esta página están en inglés, el idioma de trabajo de las especificaciones refractarias.",
+    "clientTitle": "Cliente verificado – {country}",
+    "clientNote": "Suministro confirmado por nuestros documentos de embarque de exportación.",
+    "spotlightEyebrow": "Enfoque técnico",
+    "industriesTitle": "Sectores que abastecemos – {country}",
+    "industriesNote": "Los nombres de empresas describen el mercado. No son una lista de clientes de Santura Engineering.",
+    "regionsTitle": "Regiones industriales y puertos",
+    "productsTitle": "Productos recomendados",
+    "viewProduct": "Ver producto",
+    "shippingTitle": "Envío desde Bombay",
+    "shippingIntro": "Los anclajes se fabrican y embalan en nuestra planta de MIDC Tarapur y se embarcan en Nhava Sheva (JNPT), Bombay.",
+    "destination": "Destino",
+    "route": "Ruta",
+    "transit": "Tiempo de tránsito",
+    "documentsTitle": "Certificados y documentos",
+    "rfqTitle": "Solicite una cotización – entrega: {country}",
+    "rfqText": "Envíe su plano o tipo de anclaje, aleación y cantidad. Respondemos con precio, plazo y envío hasta su puerto.",
+    "rfqButton": "Solicitar Cotización",
+    "referencesTitle": "Referencias verificadas en Europa",
+    "referencesNote": "Suministro a plantas de cemento confirmado por cada cliente.",
+    "clientNoteConfirmed": "Suministro confirmado por el cliente.",
+    "qualityTitle": "Aprobaciones de calidad"
+  },
+  "contactPage": {
+    "metaTitle": "Contacto Santura Engineering | Fabricante de anclajes refractarios, Bombay",
+    "metaDescription": "Contacte con Santura Engineering, fabricante de anclajes refractarios en Bombay desde 1980: correo, teléfono, WhatsApp, dirección y formulario.",
+    "h1": "Contacto",
+    "intro": "Envíenos su consulta por correo electrónico, teléfono o WhatsApp, o utilice el formulario. Respondemos en días laborables.",
+    "officeTitle": "Oficina central y fábrica",
+    "worksTitle": "Fábrica 2",
+    "emailTitle": "Correo electrónico",
+    "generalEmail": "Consultas generales",
+    "phoneTitle": "Teléfono",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "Escríbanos por WhatsApp",
+    "hoursTitle": "Horario",
+    "mapTitle": "Ubicación",
+    "mapIframeTitle": "Mapa: Santura Engineering, Darukhana, Bombay",
+    "openMap": "Abrir en Google Maps",
+    "formTitle": "Enviar una consulta",
+    "rfqNote": "¿Necesita el precio de un anclaje concreto? Para cotizaciones, utilice nuestro formulario de solicitud de cotización.",
+    "rfqLink": "Ir al formulario de cotización"
+  },
+  "contactForm": {
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "company": "Empresa",
+    "country": "País",
+    "message": "Mensaje",
+    "submit": "Enviar mensaje",
+    "sending": "Enviando…",
+    "success": "Gracias. Su mensaje se ha enviado y le responderemos en breve.",
+    "error": "No se pudo enviar su mensaje. Inténtelo de nuevo o escríbanos directamente.",
+    "privacyNote": "Utilizamos estos datos únicamente para responder a su consulta.",
+    "privacyLink": "Política de privacidad"
+  },
+  "aboutPage": {
+    "metaTitle": "Sobre Santura Engineering | Fabricante de anclajes refractarios desde 1980",
+    "metaDescription": "Santura Engineering, Bombay: fundada en 1980 por Bharat Diwan, anclajes refractarios desde 2005, certificada ISO 9001:2015, exporta a más de 25 países.",
+    "h1": "Sobre Santura Engineering",
+    "intro": "Fabricante de anclajes refractarios, espárragos de anclaje y fibras de acero inoxidable en Bombay, fundado en 1980 y con exportación a más de 25 países.",
+    "storyTitle": "Nuestra historia",
+    "story": [
+      "La empresa fue fundada en Bombay en 1980 por el Sr. Bharat Diwan, ingeniero de producción. Comenzó como taller de ingeniería y fabricación al servicio de la industria local.",
+      "En 2005 empezó a fabricar anclajes refractarios y en 2008 se constituyó como Santura Engineering Pvt. Ltd. Hoy fabrica toda la gama SEPL de anclajes para revestimientos de ladrillo, hormigón, dobles y de fibra cerámica, además de arandelas y fibras de acero inoxidable, para contratistas de refractarios y operadores de plantas en la India y en el extranjero."
+    ],
+    "timelineTitle": "Hitos",
+    "timeline": [
+      {
+        "year": "1980",
+        "title": "Fundación en Bombay",
+        "text": "El Sr. Bharat Diwan, ingeniero de producción, funda la empresa."
+      },
+      {
+        "year": "2005",
+        "title": "Anclajes refractarios",
+        "text": "Comienza la fabricación de anclajes refractarios."
+      },
+      {
+        "year": "2008",
+        "title": "Constitución",
+        "text": "Constitución como Santura Engineering Pvt. Ltd. el 9 de julio de 2008."
+      },
+      {
+        "year": "2009–2012",
+        "title": "Homologación de Linde",
+        "text": "Proveedor homologado de sistemas de contrapeso para Linde Engineering India."
+      },
+      {
+        "year": "Hoy",
+        "title": "ISO 9001:2015",
+        "text": "Certificada ISO 9001:2015 y con exportación a más de 25 países."
+      }
+    ],
+    "facilitiesTitle": "Instalaciones de fabricación",
+    "darukhanaTitle": "Oficina central y fábrica, Darukhana, Bombay",
+    "darukhanaText": "Nuestra oficina central y fábrica están en la zona portuaria de Bombay, en Darukhana, cerca de Nhava Sheva (JNPT), el puerto desde el que salen nuestras exportaciones.",
+    "tarapurTitle": "Fábrica 2, MIDC Tarapur",
+    "tarapurText": "Nuestra segunda fábrica está en el polígono industrial MIDC Tarapur, en Boisar, al norte de Bombay.",
+    "qualityTitle": "Calidad y homologaciones",
+    "qualityText": "Contamos con la certificación ISO 9001:2015 para la fabricación y el suministro de anclajes refractarios y componentes blandos para hornos, y fuimos proveedor homologado de Linde Engineering India.",
+    "qualityLink": "Ver nuestra página de calidad",
+    "clientsTitle": "Clientes verificados",
+    "clientsNote": "Solo mencionamos clientes cuyo suministro podemos documentar.",
+    "cemexTitle": "CEMEX",
+    "cemexText": "Anclajes refractarios para plantas de cemento en Croacia, España (Planta de Alcanar) y la República Checa.",
+    "sriTitle": "Saudi Refractory Industries Co",
+    "sriText": "Suministro de exportación a Al-Khobar, Arabia Saudí.",
+    "productsTitle": "Qué fabricamos",
+    "productsText": "La gama SEPL, desde las grapas para ladrillo SEPL-01 hasta las fibras de acero onduladas SEPL-30, en acero al carbono, aceros inoxidables como SS 304 y SS 310 y aleaciones de níquel como Inconel. También fabricamos según plano del cliente.",
+    "productsLink": "Ver todos los productos",
+    "exportTitle": "Exportación",
+    "exportText": "Exportamos a más de 25 países de Oriente Medio, Europa y América, con envío desde Nhava Sheva y documentación completa.",
+    "exportLink": "Busque su país"
+  },
+  "qualityPage": {
+    "metaTitle": "Calidad, ensayos y certificación | Santura Engineering",
+    "metaDescription": "Fabricante de anclajes refractarios con ISO 9001:2015: PMI y espectrometría, control dimensional, certificados EN 10204 3.1 y trazabilidad de colada.",
+    "h1": "Calidad y certificación",
+    "intro": "Cada anclaje se fabrica con material verificado, se inspecciona antes del envío y se entrega con documentos que lo vinculan a la colada de origen.",
+    "isoTitle": "Certificación ISO 9001:2015",
+    "standard": "Norma",
+    "certificateNo": "Número de certificado",
+    "issuer": "Organismo de certificación",
+    "accreditation": "Acreditación",
+    "scope": "Alcance",
+    "validUntil": "Válido hasta",
+    "lindeTitle": "Homologación de Linde Engineering India",
+    "lindeText": "Santura Engineering fue proveedor homologado de Linde Engineering India Pvt Ltd.",
+    "lindeCompany": "Empresa",
+    "lindeScope": "Homologado para",
+    "lindeScopeValue": "Sistemas de contrapeso",
+    "lindeCode": "Código de proveedor",
+    "lindePeriod": "Periodo",
+    "testingTitle": "Ensayos e inspección de materiales",
+    "testing": [
+      {
+        "title": "Identificación positiva de materiales (PMI)",
+        "text": "Aleación verificada a la recepción de la materia prima y de nuevo en la inspección final."
+      },
+      {
+        "title": "Análisis espectrométrico",
+        "text": "Composición química verificada por espectrometría frente a la aleación especificada."
+      },
+      {
+        "title": "Control dimensional",
+        "text": "Dimensiones, doblados y extremos de soldadura comprobados según el plano."
+      },
+      {
+        "title": "Ensayos mecánicos y de corrosión",
+        "text": "Ensayo de dureza y, bajo pedido, ensayos de tracción, impacto, carga de prueba y corrosión, en laboratorios acreditados por NABL cuando se requiera."
+      },
+      {
+        "title": "Inspección presencial",
+        "text": "Todos los ensayos pueden ser presenciados por el cliente o por una entidad de inspección designada."
+      }
+    ],
+    "documentsTitle": "Documentación suministrada",
+    "documents": [
+      "Certificados de material EN 10204 3.1",
+      "Certificados de conformidad",
+      "Trazabilidad por número de colada, del certificado de material al anclaje terminado",
+      "Informes PMI",
+      "Certificados de análisis químico y de recocido de solubilización"
+    ],
+    "standardsTitle": "Normas de materiales",
+    "standardsIntro": "Los materiales se suministran según las siguientes normas o según la norma indicada en su especificación.",
+    "standardCol": "Norma",
+    "coversCol": "Ámbito",
+    "standards": {
+      "A240": "Chapa, placa y fleje de acero inoxidable",
+      "A276": "Barras y perfiles de acero inoxidable",
+      "A484": "Requisitos generales para barras, palanquillas y forjados de acero inoxidable",
+      "B166": "Barras y alambre de aleación níquel-cromo-hierro (p. ej., Inconel 600)",
+      "B168": "Chapa, placa y fleje de aleación níquel-cromo-hierro",
+      "DIN17440": "Aceros inoxidables: condiciones técnicas de suministro para chapa, barra y alambre"
+    },
+    "clientCertsTitle": "Certificados de clientes",
+    "clientCertsText": "Aquí se publicarán los certificados y cartas de referencia de nuestros clientes."
+  },
+  "privacyPage": {
+    "metaTitle": "Política de privacidad | Santura Engineering",
+    "metaDescription": "Cómo Santura Engineering Pvt. Ltd. recoge y utiliza los datos de sus formularios de contacto, cotización y boletín, de Google Analytics y de las cookies.",
+    "h1": "Política de privacidad",
+    "updated": "Última actualización: {date}",
+    "intro": "Esta política explica qué datos personales recoge Santura Engineering Pvt. Ltd. a través de este sitio web, por qué los recogemos y qué derechos tiene usted.",
+    "sections": [
+      {
+        "title": "1. Quiénes somos",
+        "body": [
+          "Santura Engineering Pvt. Ltd. (CIN U74200MH2008PTC184443), BPT Plot No. 200, 201, Quay Street, Darukhana, Reay Road, Mumbai 400010, India, es responsable de los datos personales descritos en esta política. Puede escribirnos a enquiries@santura-eng.com."
+        ]
+      },
+      {
+        "title": "2. Datos que recogemos",
+        "body": [
+          "Formulario de contacto: su nombre, correo electrónico, empresa, país y mensaje.",
+          "Formulario de solicitud de cotización: su nombre, correo electrónico, teléfono, empresa, país y los datos del producto y del proyecto que nos envíe.",
+          "Boletín: su correo electrónico, el idioma de la página y la página en la que se suscribió.",
+          "Analítica: si acepta las cookies de analítica, Google Analytics 4 registra las páginas visitadas, el tiempo de permanencia, el sitio de procedencia, el tipo de dispositivo y navegador y su ubicación aproximada. No lo utilizamos para identificarle.",
+          "Comunicaciones: los correos y mensajes de WhatsApp que nos envíe directamente."
+        ]
+      },
+      {
+        "title": "3. Para qué usamos sus datos",
+        "body": [
+          "Usamos sus datos para responder a consultas, preparar cotizaciones, ejecutar y hacer seguimiento de pedidos, enviar nuestro boletín si se ha suscrito, entender cómo se usa el sitio para mejorarlo y cumplir nuestras obligaciones legales y contables. No vendemos sus datos ni los usamos para decisiones automatizadas."
+        ]
+      },
+      {
+        "title": "4. Base jurídica",
+        "body": [
+          "Para visitantes del Espacio Económico Europeo y del Reino Unido: tratamos las consultas y solicitudes de cotización como medidas precontractuales adoptadas a petición suya y por nuestro interés legítimo en responder a consultas comerciales; el boletín y las cookies de analítica se basan en su consentimiento, que puede retirar en cualquier momento; la conservación a efectos fiscales y contables es una obligación legal. Para visitantes de la India, tratamos los datos conforme a la Digital Personal Data Protection Act, 2023."
+        ]
+      },
+      {
+        "title": "5. Cookies",
+        "body": [
+          "Necesarias: una cookie de idioma (NEXT_LOCALE) recuerda el idioma elegido. No se usa para seguimiento.",
+          "Analítica: Google Analytics 4 instala cookies como _ga para contar visitas y medir el uso del sitio. Solo se instalan si usted las acepta.",
+          "Mapas: el mapa de nuestra página de contacto lo proporciona Google Maps, que puede instalar sus propias cookies al cargarse.",
+          "Puede eliminar o bloquear las cookies en la configuración de su navegador. Bloquear las cookies de analítica no afecta al funcionamiento del sitio."
+        ]
+      },
+      {
+        "title": "6. Con quién compartimos los datos",
+        "body": [
+          "Solo compartimos datos con los proveedores que gestionan el sitio para nosotros: Supabase (base de datos de formularios), Vercel (alojamiento) y Google (analítica y mapas). Tratan los datos siguiendo nuestras instrucciones. También podemos comunicar datos cuando la ley lo exija, por ejemplo a autoridades fiscales o tribunales."
+        ]
+      },
+      {
+        "title": "7. Transferencias internacionales",
+        "body": [
+          "Nuestros proveedores pueden almacenar datos fuera de su país, incluidos Estados Unidos y la Unión Europea. Las transferencias desde el EEE o el Reino Unido están protegidas por garantías contractuales de los proveedores, como las cláusulas contractuales tipo de la Comisión Europea."
+        ]
+      },
+      {
+        "title": "8. Plazo de conservación",
+        "body": [
+          "Las consultas y solicitudes de cotización se conservan el tiempo necesario para atenderlas y mantener nuestra relación comercial, y durante cualquier plazo mayor exigido por la normativa fiscal o mercantil. Los datos del boletín se conservan hasta que se dé de baja. Los datos de analítica se conservan según la configuración de Google Analytics."
+        ]
+      },
+      {
+        "title": "9. Seguridad",
+        "body": [
+          "Los datos de los formularios se envían mediante una conexión cifrada (HTTPS) y se guardan en una base de datos con control de acceso. Los visitantes del sitio pueden enviar formularios, pero no pueden leer los envíos almacenados."
+        ]
+      },
+      {
+        "title": "10. Sus derechos",
+        "body": [
+          "Puede solicitar el acceso, la rectificación o la supresión de sus datos, oponerse a su tratamiento o limitarlo, recibir una copia y retirar su consentimiento en cualquier momento. Para darse de baja del boletín, use el enlace de cualquier correo del boletín o escríbanos. Para ejercer sus derechos, escriba a enquiries@santura-eng.com. También puede presentar una reclamación ante la autoridad de protección de datos de su país."
+        ]
+      },
+      {
+        "title": "11. Menores",
+        "body": [
+          "Este sitio está dirigido a empresas y no a menores. No recogemos conscientemente datos de menores."
+        ]
+      },
+      {
+        "title": "12. Cambios en esta política",
+        "body": [
+          "Podemos actualizar esta política cuando cambien nuestro sitio o la ley. La fecha de la parte superior indica la última revisión."
+        ]
+      }
+    ]
+  },
+  "disclaimerPage": {
+    "metaTitle": "Aviso legal | Santura Engineering",
+    "metaDescription": "Aviso legal del sitio de Santura Engineering: especificaciones, datos técnicos, precios y disponibilidad de los productos se confirman en el pedido.",
+    "h1": "Aviso legal",
+    "updated": "Última actualización: {date}",
+    "intro": "La información de este sitio web la facilita Santura Engineering Pvt. Ltd. como referencia general. Lea este aviso antes de basarse en ella.",
+    "sections": [
+      {
+        "title": "1. Los datos técnicos son orientativos",
+        "body": [
+          "Las descripciones de productos, dimensiones, aleaciones, temperaturas máximas de servicio, separaciones de anclajes y demás datos técnicos de este sitio son valores típicos de carácter orientativo. No constituyen una especificación ni una garantía de rendimiento. Las especificaciones aplicables a su pedido son las confirmadas en el plano aprobado, nuestra confirmación de pedido y los certificados de ensayo entregados con la mercancía."
+        ]
+      },
+      {
+        "title": "2. Selección e idoneidad",
+        "body": [
+          "La elección del tipo de anclaje, la aleación, la separación y el método de instalación depende del diseño del revestimiento, las condiciones de operación y el material refractario, y es responsabilidad del comprador y de sus ingenieros. Nuestras recomendaciones se basan en la información que se nos facilita."
+        ]
+      },
+      {
+        "title": "3. Precios y cotizaciones",
+        "body": [
+          "Este sitio no publica precios. Los precios solo se indican en cotizaciones escritas, válidas durante el plazo indicado y sujetas a cambios por el coste de las materias primas, los tipos de cambio, las cantidades y las condiciones de entrega."
+        ]
+      },
+      {
+        "title": "4. Disponibilidad y plazos",
+        "body": [
+          "Los productos, aleaciones y medidas mostrados están sujetos a disponibilidad. Los plazos de fabricación y de tránsito son estimaciones que se confirman en el pedido. Los productos marcados como «Próximamente» aún no están disponibles."
+        ]
+      },
+      {
+        "title": "5. Imágenes y planos",
+        "body": [
+          "Las fotografías y los planos son ilustrativos. Los productos suministrados pueden diferir en color, acabado y detalles menores."
+        ]
+      },
+      {
+        "title": "6. Nombres de sectores y empresas",
+        "body": [
+          "Las empresas y plantas citadas en nuestras páginas de países describen la industria de cada mercado. No son clientes de Santura Engineering salvo que una página indique expresamente un cliente verificado."
+        ]
+      },
+      {
+        "title": "7. Marcas",
+        "body": [
+          "Inconel e Incoloy son marcas de Special Metals Corporation. 253 MA es una marca de Outokumpu. Los demás nombres de productos y empresas pertenecen a sus respectivos titulares y se usan solo con fines de identificación."
+        ]
+      },
+      {
+        "title": "8. Enlaces externos",
+        "body": [
+          "Los enlaces a otros sitios se ofrecen por comodidad. No somos responsables de su contenido."
+        ]
+      },
+      {
+        "title": "9. Limitación de responsabilidad",
+        "body": [
+          "En la medida en que lo permita la ley, Santura Engineering Pvt. Ltd. no se responsabiliza de las pérdidas derivadas del uso de la información de este sitio o de la confianza depositada en ella. Los suministros se rigen por las condiciones de cada pedido."
+        ]
+      },
+      {
+        "title": "10. Traducciones",
+        "body": [
+          "Este sitio está disponible en varios idiomas. Si una traducción difiere de la versión en inglés, prevalece la versión en inglés."
+        ]
+      },
+      {
+        "title": "11. Contacto",
+        "body": [
+          "Para cualquier pregunta sobre este aviso, escriba a enquiries@santura-eng.com."
+        ]
+      }
+    ]
   }
 }

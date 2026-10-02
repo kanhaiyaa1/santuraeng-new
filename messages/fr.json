@@ -3,17 +3,602 @@
     "home": "Accueil",
     "products": "Produits",
     "rfq": "Demander un Devis",
-    "language": "Langue"
+    "language": "Langue",
+    "about": "À propos",
+    "quality": "Qualité",
+    "contact": "Contact",
+    "privacy": "Politique de confidentialité",
+    "disclaimer": "Avertissement"
   },
   "hero": {
-    "title": "Ancrages Réfractaires et Constructions en Acier pour Industries à Haute Température",
-    "subtitle": "Nous fabriquons et exportons des systèmes d'ancrages réfractaires, des constructions en acier inoxydable et des composants d'isolation thermique, en fournissant les industries pétrochimique, cimentière, énergétique et de l'aluminium dans plus de 20 pays depuis 1980."
+    "eyebrow": "Santura Engineering Pvt. Ltd. · Mumbai, Inde",
+    "title": "Fabricant et Exportateur d'Ancrages Réfractaires",
+    "subtitle": "Ancrages réfractaires, goujons pour fibre et fibres en acier inoxydable pour garnissages en briques, béton réfractaire et fibre céramique, fabriqués à Mumbai et expédiés vers des projets internationaux depuis le port de Nhava Sheva.",
+    "imageAlt": "Unités de raffinerie avec colonnes et fours à garnissage réfractaire"
   },
   "cta": {
     "getQuote": "Demander un Devis",
     "viewProducts": "Voir les Produits"
   },
   "common": {
+    "whatsapp": "Discuter sur WhatsApp",
+    "facts": "Depuis 1980 · Export vers plus de 25 pays · Certifié ISO 9001:2015"
+  },
+  "meta": {
+    "home": {
+      "title": "Fabricant et Exportateur d'Ancrages Réfractaires | Santura Engineering",
+      "description": "Fabricant d'ancrages réfractaires à Mumbai, Inde, depuis 1980, exportant vers plus de 25 pays. Ancrages pour garnissages en briques, béton et fibre."
+    }
+  },
+  "categories": {
+    "eyebrow": "Produits",
+    "title": "Ancrages Réfractaires par Type de Garnissage",
+    "subtitle": "Modèles standard SEPL ou ancrages sur mesure selon vos plans, en acier au carbone, acier inoxydable et alliages de nickel.",
+    "viewRange": "Voir la gamme",
+    "items": {
+      "brick": {
+        "name": "Garnissage en Briques",
+        "description": "Agrafes, consoles, griffes, clips ciseaux et ancrages de retenue pour briques denses et isolantes.",
+        "imageAlt": "Plan de l'ancrage réfractaire agrafe pour briques SEPL-01"
+      },
+      "castable": {
+        "name": "Garnissage en Béton Réfractaire",
+        "description": "Ancrages en Y, V, corne, H et à section plate pour bétons et gunitages, légers à denses.",
+        "imageAlt": "Plan de l'ancrage réfractaire Y fendu SEPL-06"
+      },
+      "double": {
+        "name": "Garnissage Double",
+        "description": "Ancrages à double tige, soudés sur écrou, vissables et goujons fendus pour une face chaude dense sur couches isolantes.",
+        "imageAlt": "Plan de l'ancrage réfractaire à double tige SEPL-20"
+      },
+      "ceramic": {
+        "name": "Garnissage en Fibre Céramique",
+        "description": "Goujons pour fibre soudés et goujons filetés avec rondelles céramiques pour nappes et modules.",
+        "imageAlt": "Ancrages réfractaires goujons pour fibre SEPL-24 en SS310 et Inconel"
+      }
+    }
+  },
+  "trust": {
+    "eyebrow": "Références",
+    "title": "Fournitures Documentées",
+    "subtitle": "Références documentées uniquement. Les exportations partent du port de Nhava Sheva (JNPT), Mumbai.",
+    "items": {
+      "cemex": {
+        "title": "CEMEX",
+        "text": "Ancrages réfractaires fournis aux cimenteries CEMEX en Croatie, en Espagne et en République tchèque."
+      },
+      "sri": {
+        "title": "Saudi Refractory Industries Co",
+        "text": "Fourniture à l'export vers Al-Khobar, Arabie saoudite, attestée par les documents d'expédition."
+      },
+      "established": {
+        "title": "Depuis 1980",
+        "text": "Fabricant d'ancrages réfractaires à Mumbai depuis 1980, nous exportons vers plus de 25 pays."
+      },
+      "testing": {
+        "title": "Matériaux Contrôlés par PMI",
+        "text": "Identification positive des matériaux à la réception et au contrôle final, avec certificats d'usine."
+      },
+      "iso": {
+        "title": "Certifié ISO 9001:2015",
+        "text": "Certificat {number}, délivré par URS et accrédité UKAS, valable jusqu'au {date}. Périmètre : « {scope} »"
+      },
+      "linde": {
+        "title": "Linde Engineering India",
+        "text": "Fournisseur agréé de systèmes de contrepoids, code fournisseur {code}, {period}."
+      }
+    }
+  },
+  "industries": {
+    "eyebrow": "Secteurs",
+    "title": "Secteurs Desservis",
+    "subtitle": "Systèmes d'ancrage pour équipements haute température de l'industrie de procédés et lourde.",
+    "items": {
+      "oilGas": {
+        "name": "Pétrole, Gaz et Pétrochimie",
+        "description": "Fours de procédé, reformeurs à vapeur, unités FCC et unités de récupération du soufre.",
+        "imageAlt": "Raffinerie et usine pétrochimique"
+      },
+      "cement": {
+        "name": "Ciment et Chaux",
+        "description": "Préchauffeurs, précalcinateurs, fours rotatifs et refroidisseurs à clinker.",
+        "imageAlt": "Poudre de ciment"
+      },
+      "steel": {
+        "name": "Acier et Fonte",
+        "description": "Hauts fourneaux, poches, fours de réchauffage et fours à coke.",
+        "imageAlt": "Coulée d'acier en fusion avec étincelles"
+      },
+      "power": {
+        "name": "Énergie et Chaudières",
+        "description": "Chaudières CFBC, HRSG, de valorisation énergétique des déchets et biomasse.",
+        "imageAlt": "Pylônes électriques au coucher du soleil"
+      }
+    }
+  },
+  "countries": {
+    "eyebrow": "Dans le monde",
+    "title": "Choisissez votre Pays",
+    "subtitle": "Informations régionales pour les acheteurs d'ancrages réfractaires sur chaque marché.",
+    "names": {
+      "AE": "Émirats arabes unis",
+      "SA": "Arabie saoudite",
+      "DE": "Allemagne",
+      "TR": "Turquie",
+      "BR": "Brésil",
+      "NL": "Pays-Bas",
+      "IT": "Italie",
+      "FR": "France",
+      "PL": "Pologne",
+      "BE": "Belgique",
+      "ES": "Espagne",
+      "MX": "Mexique",
+      "GB": "Royaume-Uni",
+      "CA": "Canada"
+    },
+    "languages": {
+      "en": "anglais",
+      "fr": "français",
+      "nl": "néerlandais"
+    }
+  },
+  "rfq": {
+    "title": "Demandez un Devis pour vos Ancrages Réfractaires",
+    "text": "Envoyez vos plans, la nuance d'alliage et les quantités. Notre équipe d'ingénierie examine chaque plan avant de chiffrer.",
+    "button": "Demander un Devis",
     "whatsapp": "Discuter sur WhatsApp"
+  },
+  "footer": {
+    "tagline": "Ancrages réfractaires, goujons d'ancrage et fibres en acier inoxydable fabriqués à Mumbai, Inde.",
+    "contact": "Contact",
+    "headOffice": "Siège et Usine 1",
+    "works": "Usine 2",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "hours": "Horaires",
+    "hoursValue": "Lun–Sam 08h00–18h00 IST · Fermé le dimanche",
+    "quickLinks": "Liens Rapides",
+    "cin": "CIN",
+    "rights": "Tous droits réservés.",
+    "company": "Entreprise",
+    "legal": "Mentions légales"
+  },
+  "products": {
+    "meta": {
+      "title": "Ancrages Réfractaires, Rondelles et Fibres d'Acier | Santura Engineering",
+      "description": "Fabricant d'ancrages réfractaires à Mumbai, Inde : ancrages SEPL pour briques, béton, garnissages doubles et fibre céramique, rondelles et fibres inox."
+    },
+    "eyebrow": "Produits",
+    "title": "Ancrages Réfractaires, Rondelles et Fibres d'Acier",
+    "intro": "La gamme SEPL classée par type de garnissage. Chaque ancrage peut être fabriqué selon votre plan, échantillon ou croquis.",
+    "filterLabel": "Filtrer par type de garnissage",
+    "all": "Tous les produits",
+    "linings": {
+      "brick": "Garnissage en Briques",
+      "castable": "Garnissage en Béton Réfractaire",
+      "double": "Garnissage Double",
+      "ceramic": "Garnissage en Fibre Céramique",
+      "washers": "Rondelles",
+      "fibres": "Fibres d'Acier"
+    },
+    "liningIntro": {
+      "washers": "Anneaux ronds, carrés et rectangulaires, anneaux filetés et clips de montage enfilés sur les goujons pour maintenir le garnissage pendant la pose.",
+      "fibres": "Fibres en acier inoxydable obtenues par extraction à l'état fondu ou tréfilées à froid, qui améliorent la résistance aux chocs thermiques et à la fissuration des réfractaires monolithiques."
+    },
+    "comingSoon": "Bientôt disponible",
+    "viewProduct": "Voir le produit"
+  },
+  "productPage": {
+    "metaTitle": "{title} | Santura Engineering",
+    "metaDescription": {
+      "anchor": "{title} pour {lining}. Fabriqué sur plan par Santura Engineering, fabricant d'ancrages réfractaires à Mumbai, Inde.",
+      "fibre": "{title} pour le renforcement des réfractaires, par Santura Engineering, fabricant d'ancrages réfractaires et de fibres d'acier à Mumbai, Inde.",
+      "washer": "{title} pour ancrages réfractaires, fabriqués sur plan par Santura Engineering, fabricant d'ancrages réfractaires à Mumbai, Inde."
+    },
+    "imageAlt": {
+      "anchor": "Ancrage réfractaire {title} en {alloys}",
+      "anchorPlain": "Ancrage réfractaire {title}",
+      "fibre": "Fibre d'acier pour réfractaire {title} en {alloys}",
+      "fibrePlain": "Fibre d'acier pour réfractaire {title}",
+      "washer": "{title} pour ancrages réfractaires en {alloys}",
+      "washerPlain": "{title} pour ancrages réfractaires"
+    },
+    "code": "Référence produit",
+    "lining": "Type de garnissage",
+    "section": "Section",
+    "sections": {
+      "round": "Ronde (fil / barre)",
+      "flat": "Plate (tôle / feuillard)",
+      "various": "Diverses",
+      "ceramic": "Céramique"
+    },
+    "description": "Description",
+    "technicalEnglish": "Les descriptions techniques sont fournies en anglais.",
+    "alloys": "Alliages disponibles",
+    "grade": "Nuance",
+    "forms": {
+      "plate": "Tôle",
+      "wire": "Fil",
+      "general": "Disponible"
+    },
+    "maxTemp": "Temp. max. en service continu",
+    "typicalUse": "Utilisation type",
+    "alloysOnRequest": "Nuances sur demande. Indiquez-nous vos conditions de service pour une recommandation.",
+    "alloyLegend": "CS = acier au carbone · 601 = Inconel 601 · 800 = Incoloy 800 · 253MA = acier austénitique réfractaire",
+    "otherAlloys": "Autres alliages disponibles sur demande.",
+    "material": "Matériau",
+    "rfqTitle": "Demander un Devis pour ce Produit",
+    "rfqText": "Envoyez votre plan, échantillon ou croquis avec la nuance d'alliage et la quantité pour {title}.",
+    "rfqButton": "Demander un Devis pour ce Produit",
+    "related": "Produits associés",
+    "comingSoonTitle": "Fiche produit bientôt disponible",
+    "comingSoonText": "Les informations complètes sur ce produit sont en cours de préparation. Envoyez-nous vos besoins et notre équipe d'ingénierie vous répondra.",
+    "gallery": "Images du produit",
+    "breadcrumb": "Fil d'Ariane"
+  },
+  "rfqForm": {
+    "fullName": "Nom complet",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "company": "Société",
+    "country": "Pays",
+    "message": "Que recherchez-vous ?",
+    "submit": "Envoyer la Demande",
+    "sending": "Envoi en cours…",
+    "success": "Merci. Nous vous répondrons rapidement.",
+    "error": "Une erreur est survenue. Veuillez réessayer.",
+    "productPrefix": "Produit"
+  },
+  "rfqPage": {
+    "title": "Demandez un Devis pour vos Ancrages Réfractaires",
+    "description": "Demandez un devis à Santura Engineering, fabricant d'ancrages réfractaires à Mumbai, Inde. Envoyez plans, nuance d'alliage et quantités.",
+    "intro": "Renseignez vos coordonnées et notre équipe vous enverra un devis."
+  },
+  "countryPage": {
+    "metaTitle": "Fabricant et Fournisseur d'Ancrages Réfractaires | {country} | Santura Engineering",
+    "h1": "Fabricant et Fournisseur d'Ancrages Réfractaires – {country}",
+    "eyebrow": "Marché export · {country}",
+    "technicalEnglish": "Les détails techniques de cette page sont en anglais, la langue de travail des spécifications réfractaires.",
+    "clientTitle": "Client vérifié : {country}",
+    "clientNote": "Fourniture attestée par nos documents d'expédition export.",
+    "spotlightEyebrow": "Focus technique",
+    "industriesTitle": "Secteurs que nous approvisionnons : {country}",
+    "industriesNote": "Les noms d'entreprises décrivent le marché. Ils ne constituent pas une liste de clients de Santura Engineering.",
+    "regionsTitle": "Régions industrielles et ports",
+    "productsTitle": "Produits recommandés",
+    "viewProduct": "Voir le produit",
+    "shippingTitle": "Expédition depuis Mumbai",
+    "shippingIntro": "Les ancrages sont fabriqués et emballés dans notre usine de MIDC Tarapur et expédiés depuis Nhava Sheva (JNPT), Mumbai.",
+    "destination": "Destination",
+    "route": "Itinéraire",
+    "transit": "Délai de transit",
+    "documentsTitle": "Certificats et documents",
+    "rfqTitle": "Demander un devis pour une livraison : {country}",
+    "rfqText": "Envoyez votre plan ou type d'ancrage, la nuance d'alliage et la quantité. Nous répondons avec le prix, le délai et l'expédition jusqu'à votre port.",
+    "rfqButton": "Demander un Devis",
+    "referencesTitle": "Références vérifiées en Europe",
+    "referencesNote": "Fournitures à des cimenteries confirmées par chaque client.",
+    "clientNoteConfirmed": "Fourniture confirmée par le client.",
+    "qualityTitle": "Agréments qualité"
+  },
+  "contactPage": {
+    "metaTitle": "Contacter Santura Engineering | Fabricant d’ancrages réfractaires, Mumbai",
+    "metaDescription": "Contactez Santura Engineering, fabricant d’ancrages réfractaires à Mumbai depuis 1980 : e-mail, téléphone, WhatsApp, adresse et formulaire de contact.",
+    "h1": "Nous contacter",
+    "intro": "Envoyez-nous votre demande par e-mail, téléphone ou WhatsApp, ou utilisez le formulaire ci-dessous. Nous répondons les jours ouvrés.",
+    "officeTitle": "Siège et usine",
+    "worksTitle": "Usine 2",
+    "emailTitle": "E-mail",
+    "generalEmail": "Demandes générales",
+    "phoneTitle": "Téléphone",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "Écrivez-nous sur WhatsApp",
+    "hoursTitle": "Horaires",
+    "mapTitle": "Localisation",
+    "mapIframeTitle": "Carte : Santura Engineering, Darukhana, Mumbai",
+    "openMap": "Ouvrir dans Google Maps",
+    "formTitle": "Envoyer une demande",
+    "rfqNote": "Besoin d’un prix pour un ancrage précis ? Pour les devis, utilisez notre formulaire de demande de devis.",
+    "rfqLink": "Accéder au formulaire de devis"
+  },
+  "contactForm": {
+    "name": "Nom complet",
+    "email": "E-mail",
+    "company": "Entreprise",
+    "country": "Pays",
+    "message": "Message",
+    "submit": "Envoyer le message",
+    "sending": "Envoi…",
+    "success": "Merci. Votre message a été envoyé, nous vous répondrons rapidement.",
+    "error": "Votre message n’a pas pu être envoyé. Veuillez réessayer ou nous écrire directement.",
+    "privacyNote": "Nous utilisons ces informations uniquement pour répondre à votre demande.",
+    "privacyLink": "Politique de confidentialité"
+  },
+  "aboutPage": {
+    "metaTitle": "À propos de Santura Engineering | Ancrages réfractaires depuis 1980",
+    "metaDescription": "Santura Engineering, Mumbai : fondée en 1980 par Bharat Diwan, ancrages réfractaires depuis 2005, certifiée ISO 9001:2015, export vers plus de 25 pays.",
+    "h1": "À propos de Santura Engineering",
+    "intro": "Fabricant d’ancrages réfractaires, de goujons d’ancrage et de fibres en acier inoxydable à Mumbai, fondé en 1980 et exportant vers plus de 25 pays.",
+    "storyTitle": "Notre histoire",
+    "story": [
+      "L’entreprise a été fondée à Mumbai en 1980 par M. Bharat Diwan, ingénieur de production. Elle a commencé comme atelier de mécanique et de fabrication au service de l’industrie locale.",
+      "En 2005, elle a commencé à fabriquer des ancrages réfractaires, puis a été constituée en 2008 sous le nom de Santura Engineering Pvt. Ltd. Elle fabrique aujourd’hui toute la gamme SEPL d’ancrages pour garnissages en briques, en béton, doubles et en fibre céramique, ainsi que des rondelles et des fibres en acier inoxydable, pour des entreprises de réfractaires et des exploitants d’usines en Inde et à l’étranger."
+    ],
+    "timelineTitle": "Étapes clés",
+    "timeline": [
+      {
+        "year": "1980",
+        "title": "Création à Mumbai",
+        "text": "M. Bharat Diwan, ingénieur de production, fonde l’entreprise."
+      },
+      {
+        "year": "2005",
+        "title": "Ancrages réfractaires",
+        "text": "Début de la fabrication d’ancrages réfractaires."
+      },
+      {
+        "year": "2008",
+        "title": "Constitution",
+        "text": "Constitution de Santura Engineering Pvt. Ltd. le 9 juillet 2008."
+      },
+      {
+        "year": "2009–2012",
+        "title": "Agrément Linde",
+        "text": "Fournisseur agréé de systèmes de contrepoids pour Linde Engineering India."
+      },
+      {
+        "year": "Aujourd’hui",
+        "title": "ISO 9001:2015",
+        "text": "Certifiée ISO 9001:2015, exportant vers plus de 25 pays."
+      }
+    ],
+    "facilitiesTitle": "Sites de production",
+    "darukhanaTitle": "Siège et usine, Darukhana, Mumbai",
+    "darukhanaText": "Notre siège et notre usine se trouvent dans la zone portuaire de Mumbai, à Darukhana, à proximité de Nhava Sheva (JNPT), le port d’où partent nos exportations.",
+    "tarapurTitle": "Usine 2, MIDC Tarapur",
+    "tarapurText": "Notre deuxième usine se trouve dans la zone industrielle MIDC Tarapur, à Boisar, au nord de Mumbai.",
+    "qualityTitle": "Qualité et agréments",
+    "qualityText": "Nous sommes certifiés ISO 9001:2015 pour la fabrication et la fourniture d’ancrages réfractaires et de composants souples pour fours, et avons été fournisseur agréé de Linde Engineering India.",
+    "qualityLink": "Voir notre page qualité",
+    "clientsTitle": "Clients vérifiés",
+    "clientsNote": "Nous ne citons que les clients dont nous pouvons documenter la fourniture.",
+    "cemexTitle": "CEMEX",
+    "cemexText": "Ancrages réfractaires pour des cimenteries en Croatie, en Espagne (Planta de Alcanar) et en République tchèque.",
+    "sriTitle": "Saudi Refractory Industries Co",
+    "sriText": "Fournitures à l’export vers Al-Khobar, Arabie saoudite.",
+    "productsTitle": "Nos produits",
+    "productsText": "La gamme SEPL, des agrafes pour briques SEPL-01 aux fibres d’acier ondulées SEPL-30, en acier au carbone, en aciers inoxydables comme le SS 304 et le SS 310, et en alliages de nickel dont l’Inconel. Nous fabriquons aussi selon plan client.",
+    "productsLink": "Voir tous les produits",
+    "exportTitle": "Export",
+    "exportText": "Nous exportons vers plus de 25 pays au Moyen-Orient, en Europe et sur le continent américain, au départ de Nhava Sheva avec une documentation complète.",
+    "exportLink": "Trouver votre pays"
+  },
+  "qualityPage": {
+    "metaTitle": "Qualité, essais et certification | Santura Engineering",
+    "metaDescription": "Fabricant d’ancrages réfractaires certifié ISO 9001:2015 : PMI et spectrométrie, contrôle dimensionnel, certificats EN 10204 3.1, traçabilité des coulées.",
+    "h1": "Qualité et certification",
+    "intro": "Chaque ancrage est fabriqué en matière vérifiée, contrôlé avant expédition et livré avec des documents qui le relient à la coulée d’origine.",
+    "isoTitle": "Certification ISO 9001:2015",
+    "standard": "Norme",
+    "certificateNo": "Numéro de certificat",
+    "issuer": "Organisme de certification",
+    "accreditation": "Accréditation",
+    "scope": "Périmètre",
+    "validUntil": "Valable jusqu’au",
+    "lindeTitle": "Agrément Linde Engineering India",
+    "lindeText": "Santura Engineering a été fournisseur agréé de Linde Engineering India Pvt Ltd.",
+    "lindeCompany": "Entreprise",
+    "lindeScope": "Agréé pour",
+    "lindeScopeValue": "Systèmes de contrepoids",
+    "lindeCode": "Code fournisseur",
+    "lindePeriod": "Période",
+    "testingTitle": "Essais et contrôles",
+    "testing": [
+      {
+        "title": "Identification positive des matériaux (PMI)",
+        "text": "Nuance contrôlée à la réception de la matière et de nouveau au contrôle final."
+      },
+      {
+        "title": "Analyse spectrométrique",
+        "text": "Composition chimique vérifiée par spectrométrie par rapport à la nuance spécifiée."
+      },
+      {
+        "title": "Contrôle dimensionnel",
+        "text": "Dimensions, pliages et extrémités à souder vérifiés selon le plan."
+      },
+      {
+        "title": "Essais mécaniques et de corrosion",
+        "text": "Essais de dureté, et sur demande essais de traction, de résilience, de charge et de corrosion, en laboratoires accrédités NABL si nécessaire."
+      },
+      {
+        "title": "Inspection par tierce partie",
+        "text": "Tous les essais peuvent être suivis par le client ou un organisme d’inspection désigné."
+      }
+    ],
+    "documentsTitle": "Documents fournis",
+    "documents": [
+      "Certificats matière EN 10204 3.1",
+      "Certificats de conformité",
+      "Traçabilité par numéro de coulée, du certificat matière à l’ancrage fini",
+      "Rapports PMI",
+      "Certificats d’analyse chimique et de mise en solution"
+    ],
+    "standardsTitle": "Normes des matériaux",
+    "standardsIntro": "Les matériaux sont fournis selon les normes suivantes, ou selon la norme indiquée dans votre spécification.",
+    "standardCol": "Norme",
+    "coversCol": "Objet",
+    "standards": {
+      "A240": "Tôles, plaques et bandes en acier inoxydable",
+      "A276": "Barres et profilés en acier inoxydable",
+      "A484": "Exigences générales pour barres, billettes et pièces forgées en acier inoxydable",
+      "B166": "Barres et fils en alliage nickel-chrome-fer (ex. Inconel 600)",
+      "B168": "Tôles, plaques et bandes en alliage nickel-chrome-fer",
+      "DIN17440": "Aciers inoxydables : conditions techniques de livraison pour tôles, barres et fils"
+    },
+    "clientCertsTitle": "Certificats clients",
+    "clientCertsText": "Les certificats et lettres de référence de nos clients seront publiés ici."
+  },
+  "privacyPage": {
+    "metaTitle": "Politique de confidentialité | Santura Engineering",
+    "metaDescription": "Comment Santura Engineering Pvt. Ltd. utilise les données des formulaires de contact, de devis et newsletter, de Google Analytics et des cookies.",
+    "h1": "Politique de confidentialité",
+    "updated": "Dernière mise à jour : {date}",
+    "intro": "Cette politique explique quelles données personnelles Santura Engineering Pvt. Ltd. collecte sur ce site, pourquoi nous les collectons et quels sont vos droits.",
+    "sections": [
+      {
+        "title": "1. Qui sommes-nous",
+        "body": [
+          "Santura Engineering Pvt. Ltd. (CIN U74200MH2008PTC184443), BPT Plot No. 200, 201, Quay Street, Darukhana, Reay Road, Mumbai 400010, Inde, est responsable des données personnelles décrites dans cette politique. Vous pouvez nous écrire à enquiries@santura-eng.com."
+        ]
+      },
+      {
+        "title": "2. Données collectées",
+        "body": [
+          "Formulaire de contact : votre nom, votre adresse e-mail, votre entreprise, votre pays et votre message.",
+          "Formulaire de demande de devis : votre nom, votre adresse e-mail, votre numéro de téléphone, votre entreprise, votre pays, ainsi que les informations sur le produit et le projet que vous nous envoyez.",
+          "Newsletter : votre adresse e-mail, la langue de la page et la page où vous vous êtes inscrit.",
+          "Mesure d’audience : si vous acceptez les cookies de mesure d’audience, Google Analytics 4 enregistre les pages consultées, la durée de visite, le site d’origine, le type d’appareil et de navigateur et votre localisation approximative. Nous ne l’utilisons pas pour vous identifier.",
+          "Échanges : les e-mails et messages WhatsApp que vous nous envoyez directement."
+        ]
+      },
+      {
+        "title": "3. Utilisation de vos données",
+        "body": [
+          "Nous utilisons vos données pour répondre aux demandes, établir des devis, exécuter et suivre les commandes, envoyer notre newsletter si vous y êtes abonné, comprendre l’utilisation du site pour l’améliorer, et respecter nos obligations légales et comptables. Nous ne vendons pas vos données et ne les utilisons pas pour des décisions automatisées."
+        ]
+      },
+      {
+        "title": "4. Base juridique",
+        "body": [
+          "Pour les visiteurs de l’Espace économique européen et du Royaume-Uni : nous traitons les demandes et demandes de devis au titre de mesures précontractuelles prises à votre demande et de notre intérêt légitime à répondre aux demandes professionnelles ; la newsletter et les cookies de mesure d’audience reposent sur votre consentement, que vous pouvez retirer à tout moment ; la conservation à des fins fiscales et comptables est une obligation légale. Pour les visiteurs en Inde, nous traitons les données conformément au Digital Personal Data Protection Act, 2023."
+        ]
+      },
+      {
+        "title": "5. Cookies",
+        "body": [
+          "Essentiels : un cookie de langue (NEXT_LOCALE) mémorise la langue choisie. Il ne sert pas au suivi.",
+          "Mesure d’audience : Google Analytics 4 dépose des cookies tels que _ga pour compter les visites et mesurer l’utilisation du site. Ils ne sont déposés qu’avec votre accord.",
+          "Cartes : la carte de notre page contact est fournie par Google Maps, qui peut déposer ses propres cookies au chargement de la carte.",
+          "Vous pouvez supprimer ou bloquer les cookies dans les réglages de votre navigateur. Bloquer les cookies de mesure d’audience n’affecte pas le fonctionnement du site."
+        ]
+      },
+      {
+        "title": "6. Destinataires",
+        "body": [
+          "Nous ne partageons les données qu’avec les prestataires qui exploitent le site pour nous : Supabase (base de données des formulaires), Vercel (hébergement) et Google (mesure d’audience et cartes). Ils traitent les données selon nos instructions. Nous pouvons aussi communiquer des données lorsque la loi l’exige, par exemple aux autorités fiscales ou aux tribunaux."
+        ]
+      },
+      {
+        "title": "7. Transferts internationaux",
+        "body": [
+          "Nos prestataires peuvent stocker les données hors de votre pays, notamment aux États-Unis et dans l’Union européenne. Les données transférées depuis l’EEE ou le Royaume-Uni sont protégées par des garanties contractuelles des prestataires, telles que les clauses contractuelles types de la Commission européenne."
+        ]
+      },
+      {
+        "title": "8. Durée de conservation",
+        "body": [
+          "Les demandes et demandes de devis sont conservées le temps nécessaire à leur traitement et à notre relation commerciale, et pendant toute durée plus longue imposée par le droit fiscal ou commercial. Les données de newsletter sont conservées jusqu’à votre désinscription. Les données de mesure d’audience sont conservées selon nos paramètres de conservation Google Analytics."
+        ]
+      },
+      {
+        "title": "9. Sécurité",
+        "body": [
+          "Les données des formulaires sont transmises via une connexion chiffrée (HTTPS) et stockées dans une base de données à accès contrôlé. Les visiteurs du site peuvent envoyer des formulaires mais ne peuvent pas lire les envois enregistrés."
+        ]
+      },
+      {
+        "title": "10. Vos droits",
+        "body": [
+          "Vous pouvez demander l’accès à vos données, leur rectification ou leur suppression, vous opposer à leur traitement ou le limiter, en recevoir une copie et retirer votre consentement à tout moment. Pour vous désinscrire de la newsletter, utilisez le lien présent dans chaque e-mail ou écrivez-nous. Pour exercer vos droits, écrivez à enquiries@santura-eng.com. Vous pouvez aussi saisir l’autorité de protection des données de votre pays."
+        ]
+      },
+      {
+        "title": "11. Enfants",
+        "body": [
+          "Ce site s’adresse aux entreprises et non aux enfants. Nous ne collectons pas sciemment de données concernant des enfants."
+        ]
+      },
+      {
+        "title": "12. Modifications",
+        "body": [
+          "Nous pouvons mettre à jour cette politique lorsque notre site ou la loi évolue. La date en haut de cette page indique la dernière révision."
+        ]
+      }
+    ]
+  },
+  "disclaimerPage": {
+    "metaTitle": "Avertissement | Santura Engineering",
+    "metaDescription": "Avertissement du site Santura Engineering : spécifications, données techniques, prix et disponibilité des produits sont confirmés à la commande.",
+    "h1": "Avertissement",
+    "updated": "Dernière mise à jour : {date}",
+    "intro": "Les informations de ce site sont fournies par Santura Engineering Pvt. Ltd. à titre de référence générale. Veuillez lire cet avertissement avant de vous y fier.",
+    "sections": [
+      {
+        "title": "1. Données techniques fournies à titre indicatif",
+        "body": [
+          "Les descriptions de produits, dimensions, nuances d’alliage, températures maximales d’emploi, espacements d’ancrage et autres données techniques de ce site sont des valeurs typiques données à titre indicatif. Elles ne constituent ni une spécification ni une garantie de performance. Les caractéristiques applicables à votre commande sont celles confirmées dans le plan approuvé, notre accusé de réception de commande et les certificats d’essai livrés avec la marchandise."
+        ]
+      },
+      {
+        "title": "2. Choix et adéquation",
+        "body": [
+          "Le choix du type d’ancrage, de l’alliage, de l’espacement et de la méthode de pose dépend de la conception du garnissage, des conditions d’exploitation et du réfractaire. Il relève de la responsabilité de l’acheteur et de ses ingénieurs. Nos recommandations reposent sur les informations qui nous sont transmises."
+        ]
+      },
+      {
+        "title": "3. Prix et devis",
+        "body": [
+          "Ce site ne publie pas de prix. Les prix figurent uniquement dans des devis écrits, valables pour la durée indiquée et susceptibles d’évoluer avec le coût des matières premières, les taux de change, les quantités et les conditions de livraison."
+        ]
+      },
+      {
+        "title": "4. Disponibilité et délais",
+        "body": [
+          "Les produits, alliages et dimensions présentés sont proposés dans la limite des disponibilités. Les délais de fabrication et de transit sont des estimations confirmées à la commande. Les produits marqués « Bientôt disponible » ne sont pas encore proposés."
+        ]
+      },
+      {
+        "title": "5. Photos et plans",
+        "body": [
+          "Les photos et plans sont fournis à titre d’illustration. Les produits livrés peuvent différer en couleur, finition et détails."
+        ]
+      },
+      {
+        "title": "6. Noms de secteurs et d’entreprises",
+        "body": [
+          "Les entreprises et usines citées sur nos pages pays décrivent l’industrie de chaque marché. Elles ne sont pas clientes de Santura Engineering, sauf si une page indique expressément un client vérifié."
+        ]
+      },
+      {
+        "title": "7. Marques",
+        "body": [
+          "Inconel et Incoloy sont des marques de Special Metals Corporation. 253 MA est une marque d’Outokumpu. Les autres noms de produits et d’entreprises appartiennent à leurs propriétaires respectifs et ne sont utilisés qu’à des fins d’identification."
+        ]
+      },
+      {
+        "title": "8. Liens externes",
+        "body": [
+          "Les liens vers d’autres sites sont fournis pour votre commodité. Nous ne sommes pas responsables de leur contenu."
+        ]
+      },
+      {
+        "title": "9. Limitation de responsabilité",
+        "body": [
+          "Dans les limites permises par la loi, Santura Engineering Pvt. Ltd. décline toute responsabilité pour les pertes résultant de l’utilisation des informations de ce site ou de la confiance qui leur est accordée. Les fournitures sont régies par les conditions de chaque commande."
+        ]
+      },
+      {
+        "title": "10. Traductions",
+        "body": [
+          "Ce site est disponible en plusieurs langues. En cas d’écart entre une traduction et la version anglaise, la version anglaise prévaut."
+        ]
+      },
+      {
+        "title": "11. Contact",
+        "body": [
+          "Pour toute question sur cet avertissement, écrivez à enquiries@santura-eng.com."
+        ]
+      }
+    ]
   }
 }

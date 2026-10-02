@@ -3,17 +3,602 @@
     "home": "Home",
     "products": "Producten",
     "rfq": "Offerte Aanvragen",
-    "language": "Taal"
+    "language": "Taal",
+    "about": "Over ons",
+    "quality": "Kwaliteit",
+    "contact": "Contact",
+    "privacy": "Privacybeleid",
+    "disclaimer": "Disclaimer"
   },
   "hero": {
-    "title": "Vuurvaste Ankers en Staalconstructies voor Hoge-Temperatuurindustrieën",
-    "subtitle": "Wij vervaardigen en exporteren vuurvaste ankersystemen, roestvrijstalen constructies en thermische isolatiecomponenten, en leveren sinds 1980 aan de petrochemische, cement-, energie- en aluminiumindustrie in meer dan 20 landen."
+    "eyebrow": "Santura Engineering Pvt. Ltd. · Mumbai, India",
+    "title": "Fabrikant en Exporteur van Vuurvaste Ankers",
+    "subtitle": "Vuurvaste ankers, vezelbouten en roestvrijstalen vezels voor steen-, beton- en keramische vezelbekledingen, gemaakt in Mumbai en via de haven Nhava Sheva naar internationale projecten verscheept.",
+    "imageAlt": "Raffinaderij-installaties met vuurvast beklede kolommen en ovens"
   },
   "cta": {
     "getQuote": "Offerte Aanvragen",
     "viewProducts": "Bekijk Producten"
   },
   "common": {
+    "whatsapp": "Chat via WhatsApp",
+    "facts": "Sinds 1980 · Export naar meer dan 25 landen · ISO 9001:2015-gecertificeerd"
+  },
+  "meta": {
+    "home": {
+      "title": "Fabrikant en Exporteur van Vuurvaste Ankers | Santura Engineering",
+      "description": "Fabrikant van vuurvaste ankers in Mumbai, India, sinds 1980, met export naar meer dan 25 landen. Ankers voor steen-, beton- en keramische vezelbekledingen."
+    }
+  },
+  "categories": {
+    "eyebrow": "Producten",
+    "title": "Vuurvaste Ankers per Bekledingstype",
+    "subtitle": "Standaard SEPL-ankers of maatwerkankers volgens uw tekening, in koolstofstaal, roestvast staal en nikkellegeringen.",
+    "viewRange": "Bekijk assortiment",
+    "items": {
+      "brick": {
+        "name": "Steenbekleding",
+        "description": "Steenkrammen, consoles, klauwen, schaarclips en terughoudankers voor dichte en isolerende steen.",
+        "imageAlt": "Tekening vuurvast anker SEPL-01 steenkram"
+      },
+      "castable": {
+        "name": "Betonbekleding",
+        "description": "Y-, V-, bullhorn-, H- en platte ankers voor lichte tot dichte vuurvaste beton- en spuitbekledingen.",
+        "imageAlt": "Tekening vuurvast anker SEPL-06 gespleten Y"
+      },
+      "double": {
+        "name": "Dubbele Bekleding",
+        "description": "Dubbelpens-, moer-, schroef- en sleufboutankers voor een dichte hete zijde met isolerende achterlagen.",
+        "imageAlt": "Tekening vuurvast anker SEPL-20 dubbelpens"
+      },
+      "ceramic": {
+        "name": "Keramische Vezelbekleding",
+        "description": "Gelaste vezelbouten en draadbouten met keramische ringen voor deken- en modulebekledingen.",
+        "imageAlt": "Vuurvaste ankers SEPL-24 vezelbouten in SS310 en Inconel"
+      }
+    }
+  },
+  "trust": {
+    "eyebrow": "Referenties",
+    "title": "Aantoonbare Leveringen",
+    "subtitle": "Alleen gedocumenteerde referenties. Exportzendingen vertrekken vanuit de haven Nhava Sheva (JNPT), Mumbai.",
+    "items": {
+      "cemex": {
+        "title": "CEMEX",
+        "text": "Vuurvaste ankers geleverd aan CEMEX-cementfabrieken in Kroatië, Spanje en Tsjechië."
+      },
+      "sri": {
+        "title": "Saudi Refractory Industries Co",
+        "text": "Exportlevering naar Al-Khobar, Saoedi-Arabië, onderbouwd met verzenddocumenten."
+      },
+      "established": {
+        "title": "Sinds 1980",
+        "text": "Wij maken vuurvaste ankers in Mumbai sinds 1980 en exporteren naar meer dan 25 landen."
+      },
+      "testing": {
+        "title": "PMI-gecontroleerd Materiaal",
+        "text": "Positieve materiaalidentificatie bij ontvangst en eindinspectie, met materiaalcertificaten."
+      },
+      "iso": {
+        "title": "ISO 9001:2015-gecertificeerd",
+        "text": "Certificaat {number}, uitgegeven door URS en geaccrediteerd door UKAS, geldig tot {date}. Toepassingsgebied: ‘{scope}’"
+      },
+      "linde": {
+        "title": "Linde Engineering India",
+        "text": "Goedgekeurde leverancier van contragewichtsystemen, leverancierscode {code}, {period}."
+      }
+    }
+  },
+  "industries": {
+    "eyebrow": "Sectoren",
+    "title": "Sectoren die wij Beleveren",
+    "subtitle": "Verankeringssystemen voor hogetemperatuurinstallaties in de proces- en zware industrie.",
+    "items": {
+      "oilGas": {
+        "name": "Olie, Gas en Petrochemie",
+        "description": "Procesovens, stoomreformers, FCC-installaties en zwavelterugwinningsinstallaties.",
+        "imageAlt": "Raffinaderij en petrochemische fabriek"
+      },
+      "cement": {
+        "name": "Cement en Kalk",
+        "description": "Voorverwarmers, calcineerders, draaitrommelovens en klinkerkoelers.",
+        "imageAlt": "Cementpoeder"
+      },
+      "steel": {
+        "name": "Staal en IJzer",
+        "description": "Hoogovens, gietpannen, herverhittingsovens en cokesovens.",
+        "imageAlt": "Aftappen van vloeibaar staal met vonken"
+      },
+      "power": {
+        "name": "Energie en Ketels",
+        "description": "CFB-, HRSG-, afvalverbrandings- en biomassaketels.",
+        "imageAlt": "Hoogspanningsmasten bij zonsondergang"
+      }
+    }
+  },
+  "countries": {
+    "eyebrow": "Wereldwijd",
+    "title": "Kies uw Land",
+    "subtitle": "Regionale informatie voor kopers van vuurvaste ankers in elke markt.",
+    "names": {
+      "AE": "Verenigde Arabische Emiraten",
+      "SA": "Saoedi-Arabië",
+      "DE": "Duitsland",
+      "TR": "Turkije",
+      "BR": "Brazilië",
+      "NL": "Nederland",
+      "IT": "Italië",
+      "FR": "Frankrijk",
+      "PL": "Polen",
+      "BE": "België",
+      "ES": "Spanje",
+      "MX": "Mexico",
+      "GB": "Verenigd Koninkrijk",
+      "CA": "Canada"
+    },
+    "languages": {
+      "en": "Engels",
+      "fr": "Frans",
+      "nl": "Nederlands"
+    }
+  },
+  "rfq": {
+    "title": "Vraag een Offerte aan voor Vuurvaste Ankers",
+    "text": "Stuur uw tekeningen, legering en aantallen. Ons engineeringteam beoordeelt elke tekening voordat wij een offerte maken.",
+    "button": "Offerte Aanvragen",
     "whatsapp": "Chat via WhatsApp"
+  },
+  "footer": {
+    "tagline": "Vuurvaste ankers, boutankers en roestvrijstalen vezels, gemaakt in Mumbai, India.",
+    "contact": "Contact",
+    "headOffice": "Hoofdkantoor en Fabriek 1",
+    "works": "Fabriek 2",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "hours": "Openingstijden",
+    "hoursValue": "Ma–Za 08:00–18:00 IST · Zondag gesloten",
+    "quickLinks": "Snelle Links",
+    "cin": "CIN",
+    "rights": "Alle rechten voorbehouden.",
+    "company": "Bedrijf",
+    "legal": "Juridisch"
+  },
+  "products": {
+    "meta": {
+      "title": "Vuurvaste Ankers, Sluitringen en Staalvezels | Santura Engineering",
+      "description": "Fabrikant van vuurvaste ankers in Mumbai, India: SEPL-ankers voor steen-, beton-, dubbele en keramische vezelbekledingen, sluitringen en rvs-vezels."
+    },
+    "eyebrow": "Producten",
+    "title": "Vuurvaste Ankers, Sluitringen en Staalvezels",
+    "intro": "Het SEPL-assortiment ingedeeld per bekledingstype. Elk anker kan worden gemaakt volgens uw tekening, monster of schets.",
+    "filterLabel": "Filteren op bekledingstype",
+    "all": "Alle producten",
+    "linings": {
+      "brick": "Steenbekleding",
+      "castable": "Beton- / Vuurvaste Betonbekleding",
+      "double": "Dubbele Bekleding",
+      "ceramic": "Keramische Vezelbekleding",
+      "washers": "Sluitringen",
+      "fibres": "Staalvezels"
+    },
+    "liningIntro": {
+      "washers": "Ronde, vierkante en rechthoekige ringen, draadringen en opschuifclips die de bekleding tijdens de montage op zijn plaats houden.",
+      "fibres": "Smeltgeëxtraheerde en koudgetrokken roestvrijstalen vezels die de thermoschok- en scheurbestendigheid van monolithische vuurvaste materialen verhogen."
+    },
+    "comingSoon": "Binnenkort",
+    "viewProduct": "Bekijk product"
+  },
+  "productPage": {
+    "metaTitle": "{title} | Santura Engineering",
+    "metaDescription": {
+      "anchor": "{title} voor {lining}. Op tekening gemaakt door Santura Engineering, fabrikant van vuurvaste ankers in Mumbai, India.",
+      "fibre": "{title} voor vuurvaste versterking, van Santura Engineering, fabrikant van vuurvaste ankers en staalvezels in Mumbai, India.",
+      "washer": "{title} voor vuurvaste ankers, op tekening gemaakt door Santura Engineering, fabrikant van vuurvaste ankers in Mumbai, India."
+    },
+    "imageAlt": {
+      "anchor": "Vuurvast anker {title} in {alloys}",
+      "anchorPlain": "Vuurvast anker {title}",
+      "fibre": "Staalvezel voor vuurvast materiaal {title} in {alloys}",
+      "fibrePlain": "Staalvezel voor vuurvast materiaal {title}",
+      "washer": "{title} voor vuurvaste ankers in {alloys}",
+      "washerPlain": "{title} voor vuurvaste ankers"
+    },
+    "code": "Productcode",
+    "lining": "Bekledingstype",
+    "section": "Doorsnede",
+    "sections": {
+      "round": "Rond (draad / staaf)",
+      "flat": "Plat (plaat / strip)",
+      "various": "Diverse",
+      "ceramic": "Keramisch"
+    },
+    "description": "Beschrijving",
+    "technicalEnglish": "Technische beschrijvingen zijn beschikbaar in het Engels.",
+    "alloys": "Beschikbare legeringen",
+    "grade": "Kwaliteit",
+    "forms": {
+      "plate": "Plaat",
+      "wire": "Draad",
+      "general": "Beschikbaar"
+    },
+    "maxTemp": "Max. continue gebruikstemperatuur",
+    "typicalUse": "Typische toepassing",
+    "alloysOnRequest": "Legeringen op aanvraag. Stuur ons uw bedrijfsomstandigheden voor een advies.",
+    "alloyLegend": "CS = koolstofstaal · 601 = Inconel 601 · 800 = Incoloy 800 · 253MA = hittebestendig austenitisch staal",
+    "otherAlloys": "Andere legeringen op aanvraag.",
+    "material": "Materiaal",
+    "rfqTitle": "Offerte Aanvragen voor dit Product",
+    "rfqText": "Stuur uw tekening, monster of schets met legering en aantal voor {title}.",
+    "rfqButton": "Offerte Aanvragen voor dit Product",
+    "related": "Gerelateerde producten",
+    "comingSoonTitle": "Productpagina volgt binnenkort",
+    "comingSoonText": "De volledige gegevens van dit product worden voorbereid. Stuur ons uw wensen en ons engineeringteam neemt contact met u op.",
+    "gallery": "Productafbeeldingen",
+    "breadcrumb": "Kruimelpad"
+  },
+  "rfqForm": {
+    "fullName": "Volledige naam",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "company": "Bedrijf",
+    "country": "Land",
+    "message": "Waar bent u naar op zoek?",
+    "submit": "Aanvraag Versturen",
+    "sending": "Bezig met versturen…",
+    "success": "Bedankt. Wij nemen spoedig contact met u op.",
+    "error": "Er is iets misgegaan. Probeer het opnieuw.",
+    "productPrefix": "Product"
+  },
+  "rfqPage": {
+    "title": "Vraag een Offerte aan voor Vuurvaste Ankers",
+    "description": "Vraag een offerte aan bij Santura Engineering, fabrikant van vuurvaste ankers in Mumbai, India. Stuur tekeningen, legering en aantallen.",
+    "intro": "Vul uw gegevens in en ons team stuurt u een offerte."
+  },
+  "countryPage": {
+    "metaTitle": "Fabrikant & Leverancier van Vuurvaste Ankers | {country} | Santura Engineering",
+    "h1": "Fabrikant & Leverancier van Vuurvaste Ankers – {country}",
+    "eyebrow": "Exportmarkt · {country}",
+    "technicalEnglish": "De technische gegevens op deze pagina zijn in het Engels, de werktaal van vuurvaste specificaties.",
+    "clientTitle": "Geverifieerde klant – {country}",
+    "clientNote": "Levering bevestigd door onze exportverzenddocumenten.",
+    "spotlightEyebrow": "Technische focus",
+    "industriesTitle": "Sectoren die wij beleveren – {country}",
+    "industriesNote": "Bedrijfsnamen beschrijven de markt. Ze vormen geen lijst van klanten van Santura Engineering.",
+    "regionsTitle": "Industriële regio's en havens",
+    "productsTitle": "Aanbevolen producten",
+    "viewProduct": "Bekijk product",
+    "shippingTitle": "Verzending vanuit Mumbai",
+    "shippingIntro": "De ankers worden gemaakt en verpakt in onze fabriek in MIDC Tarapur en verscheept vanuit Nhava Sheva (JNPT), Mumbai.",
+    "destination": "Bestemming",
+    "route": "Route",
+    "transit": "Transittijd",
+    "documentsTitle": "Certificaten en documenten",
+    "rfqTitle": "Vraag een offerte aan – levering: {country}",
+    "rfqText": "Stuur uw tekening of ankertype, legering en hoeveelheid. Wij antwoorden met prijs, levertijd en verzending tot uw haven.",
+    "rfqButton": "Offerte Aanvragen",
+    "referencesTitle": "Geverifieerde referenties in Europa",
+    "referencesNote": "Leveringen aan cementfabrieken bevestigd door elke klant.",
+    "clientNoteConfirmed": "Levering bevestigd door de klant.",
+    "qualityTitle": "Kwaliteitsgoedkeuringen"
+  },
+  "contactPage": {
+    "metaTitle": "Contact Santura Engineering | Fabrikant van vuurvaste ankers, Mumbai",
+    "metaDescription": "Neem contact op met Santura Engineering, fabrikant van vuurvaste ankers in Mumbai sinds 1980: e-mail, telefoon, WhatsApp, adres en contactformulier.",
+    "h1": "Contact",
+    "intro": "Stuur uw vraag per e-mail, telefoon of WhatsApp, of gebruik het formulier hieronder. Wij antwoorden op werkdagen.",
+    "officeTitle": "Hoofdkantoor & fabriek",
+    "worksTitle": "Fabriek 2",
+    "emailTitle": "E-mail",
+    "generalEmail": "Algemene vragen",
+    "phoneTitle": "Telefoon",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "Stuur ons een WhatsApp-bericht",
+    "hoursTitle": "Openingstijden",
+    "mapTitle": "Locatie",
+    "mapIframeTitle": "Kaart: Santura Engineering, Darukhana, Mumbai",
+    "openMap": "Openen in Google Maps",
+    "formTitle": "Stuur een bericht",
+    "rfqNote": "Een prijs nodig voor een specifiek anker? Gebruik voor offertes ons offerteaanvraagformulier.",
+    "rfqLink": "Naar het offerteformulier"
+  },
+  "contactForm": {
+    "name": "Volledige naam",
+    "email": "E-mail",
+    "company": "Bedrijf",
+    "country": "Land",
+    "message": "Bericht",
+    "submit": "Bericht versturen",
+    "sending": "Bezig met versturen…",
+    "success": "Dank u. Uw bericht is verstuurd en wij reageren spoedig.",
+    "error": "Uw bericht kon niet worden verstuurd. Probeer het opnieuw of mail ons rechtstreeks.",
+    "privacyNote": "Wij gebruiken deze gegevens alleen om uw vraag te beantwoorden.",
+    "privacyLink": "Privacybeleid"
+  },
+  "aboutPage": {
+    "metaTitle": "Over Santura Engineering | Fabrikant van vuurvaste ankers sinds 1980",
+    "metaDescription": "Santura Engineering, Mumbai: in 1980 opgericht door Bharat Diwan, vuurvaste ankers sinds 2005, ISO 9001:2015-gecertificeerd, export naar 25+ landen.",
+    "h1": "Over Santura Engineering",
+    "intro": "Een fabrikant van vuurvaste ankers, boutankers en roestvrijstalen vezels in Mumbai, opgericht in 1980 en exporterend naar meer dan 25 landen.",
+    "storyTitle": "Ons verhaal",
+    "story": [
+      "Het bedrijf werd in 1980 in Mumbai opgericht door de heer Bharat Diwan, productie-ingenieur. Het begon als machine- en constructiewerkplaats voor de lokale industrie.",
+      "In 2005 begon het bedrijf met de productie van vuurvaste ankers en in 2008 werd het ingeschreven als Santura Engineering Pvt. Ltd. Vandaag maakt het de volledige SEPL-reeks ankers voor steen-, beton-, dubbele en keramische vezelbekledingen, plus ringen en roestvrijstalen vezels, voor vuurvaste aannemers en fabrieksexploitanten in India en daarbuiten."
+    ],
+    "timelineTitle": "Mijlpalen",
+    "timeline": [
+      {
+        "year": "1980",
+        "title": "Opgericht in Mumbai",
+        "text": "De heer Bharat Diwan, productie-ingenieur, richt het bedrijf op."
+      },
+      {
+        "year": "2005",
+        "title": "Vuurvaste ankers",
+        "text": "Start van de productie van vuurvaste ankers."
+      },
+      {
+        "year": "2008",
+        "title": "Inschrijving",
+        "text": "Ingeschreven als Santura Engineering Pvt. Ltd. op 9 juli 2008."
+      },
+      {
+        "year": "2009–2012",
+        "title": "Goedkeuring door Linde",
+        "text": "Goedgekeurde leverancier van contragewichtsystemen voor Linde Engineering India."
+      },
+      {
+        "year": "Nu",
+        "title": "ISO 9001:2015",
+        "text": "ISO 9001:2015-gecertificeerd, met export naar meer dan 25 landen."
+      }
+    ],
+    "facilitiesTitle": "Productielocaties",
+    "darukhanaTitle": "Hoofdkantoor & fabriek, Darukhana, Mumbai",
+    "darukhanaText": "Ons hoofdkantoor en onze fabriek liggen in het havengebied van Mumbai in Darukhana, dicht bij Nhava Sheva (JNPT), de haven waarvandaan onze export vertrekt.",
+    "tarapurTitle": "Fabriek 2, MIDC Tarapur",
+    "tarapurText": "Onze tweede fabriek ligt op het industrieterrein MIDC Tarapur in Boisar, ten noorden van Mumbai.",
+    "qualityTitle": "Kwaliteit en goedkeuringen",
+    "qualityText": "Wij zijn ISO 9001:2015-gecertificeerd voor de productie en levering van vuurvaste ankers en zachte componenten voor fornuizen, en waren goedgekeurde leverancier van Linde Engineering India.",
+    "qualityLink": "Bekijk onze kwaliteitspagina",
+    "clientsTitle": "Geverifieerde klanten",
+    "clientsNote": "Wij noemen alleen klanten van wie wij de levering kunnen aantonen.",
+    "cemexTitle": "CEMEX",
+    "cemexText": "Vuurvaste ankers voor cementfabrieken in Kroatië, Spanje (Planta de Alcanar) en Tsjechië.",
+    "sriTitle": "Saudi Refractory Industries Co",
+    "sriText": "Exportleveringen naar Al-Khobar, Saudi-Arabië.",
+    "productsTitle": "Wat wij maken",
+    "productsText": "De SEPL-reeks, van SEPL-01-steenklemmen tot SEPL-30-golfvormige staalvezels, in koolstofstaal, roestvast staal zoals SS 304 en SS 310 en nikkellegeringen waaronder Inconel. Ankers maken wij ook op klanttekening.",
+    "productsLink": "Alle producten bekijken",
+    "exportTitle": "Export",
+    "exportText": "Wij exporteren naar meer dan 25 landen in het Midden-Oosten, Europa en Amerika, met verscheping vanuit Nhava Sheva en volledige documentatie.",
+    "exportLink": "Vind uw land"
+  },
+  "qualityPage": {
+    "metaTitle": "Kwaliteit, beproeving & certificering | Santura Engineering",
+    "metaDescription": "ISO 9001:2015-gecertificeerde fabrikant van vuurvaste ankers: PMI en spectrometrie, maatcontrole, EN 10204 3.1 certificaten, traceerbaarheid per charge.",
+    "h1": "Kwaliteit en certificering",
+    "intro": "Elk anker wordt gemaakt van gecontroleerd materiaal, vóór verzending geïnspecteerd en geleverd met documenten die het herleiden tot de smeltcharge.",
+    "isoTitle": "ISO 9001:2015-certificering",
+    "standard": "Norm",
+    "certificateNo": "Certificaatnummer",
+    "issuer": "Certificerende instelling",
+    "accreditation": "Accreditatie",
+    "scope": "Toepassingsgebied",
+    "validUntil": "Geldig tot",
+    "lindeTitle": "Goedkeuring door Linde Engineering India",
+    "lindeText": "Santura Engineering was goedgekeurde leverancier van Linde Engineering India Pvt Ltd.",
+    "lindeCompany": "Bedrijf",
+    "lindeScope": "Goedgekeurd voor",
+    "lindeScopeValue": "Contragewichtsystemen",
+    "lindeCode": "Leverancierscode",
+    "lindePeriod": "Periode",
+    "testingTitle": "Materiaalbeproeving en inspectie",
+    "testing": [
+      {
+        "title": "Positieve materiaalidentificatie (PMI)",
+        "text": "Legering gecontroleerd bij ontvangst van het materiaal en opnieuw bij de eindcontrole."
+      },
+      {
+        "title": "Spectrometrische analyse",
+        "text": "Chemische samenstelling met spectrometrie getoetst aan de voorgeschreven legering."
+      },
+      {
+        "title": "Maatcontrole",
+        "text": "Afmetingen, buigingen en laseinden gecontroleerd volgens de tekening."
+      },
+      {
+        "title": "Mechanische en corrosieproeven",
+        "text": "Hardheidsmeting en op verzoek trek-, kerfslag-, proefbelasting- en corrosieproeven, zo nodig bij NABL-geaccrediteerde laboratoria."
+      },
+      {
+        "title": "Inspectie door derden",
+        "text": "Alle proeven kunnen worden bijgewoond door de klant of een aangewezen inspectie-instelling."
+      }
+    ],
+    "documentsTitle": "Meegeleverde documenten",
+    "documents": [
+      "EN 10204 3.1 materiaalcertificaten",
+      "Conformiteitsverklaringen",
+      "Traceerbaarheid via chargenummer, van materiaalcertificaat tot afgewerkt anker",
+      "PMI-rapporten",
+      "Certificaten van chemische analyse en oplosgloeien"
+    ],
+    "standardsTitle": "Materiaalnormen",
+    "standardsIntro": "Materialen worden geleverd volgens de onderstaande normen of volgens de norm in uw specificatie.",
+    "standardCol": "Norm",
+    "coversCol": "Onderwerp",
+    "standards": {
+      "A240": "Plaat, dunne plaat en band van roestvast staal",
+      "A276": "Staven en profielen van roestvast staal",
+      "A484": "Algemene eisen voor staven, knuppels en smeedstukken van roestvast staal",
+      "B166": "Staven en draad van nikkel-chroom-ijzerlegering (bijv. Inconel 600)",
+      "B168": "Plaat, dunne plaat en band van nikkel-chroom-ijzerlegering",
+      "DIN17440": "Roestvast staal: technische leveringsvoorwaarden voor plaat, staaf en draad"
+    },
+    "clientCertsTitle": "Klantcertificaten",
+    "clientCertsText": "Certificaten en referentiebrieven van onze klanten worden hier gepubliceerd."
+  },
+  "privacyPage": {
+    "metaTitle": "Privacybeleid | Santura Engineering",
+    "metaDescription": "Hoe Santura Engineering Pvt. Ltd. gegevens uit contact-, offerte- en nieuwsbriefformulieren, Google Analytics en cookies verzamelt en gebruikt.",
+    "h1": "Privacybeleid",
+    "updated": "Laatst bijgewerkt: {date}",
+    "intro": "Dit beleid legt uit welke persoonsgegevens Santura Engineering Pvt. Ltd. via deze website verzamelt, waarom wij dat doen en welke rechten u heeft.",
+    "sections": [
+      {
+        "title": "1. Wie wij zijn",
+        "body": [
+          "Santura Engineering Pvt. Ltd. (CIN U74200MH2008PTC184443), BPT Plot No. 200, 201, Quay Street, Darukhana, Reay Road, Mumbai 400010, India, is verantwoordelijk voor de persoonsgegevens in dit beleid. U bereikt ons via enquiries@santura-eng.com."
+        ]
+      },
+      {
+        "title": "2. Welke gegevens wij verzamelen",
+        "body": [
+          "Contactformulier: uw naam, e-mailadres, bedrijf, land en bericht.",
+          "Offerteaanvraagformulier: uw naam, e-mailadres, telefoonnummer, bedrijf, land en de product- en projectgegevens die u stuurt.",
+          "Nieuwsbrief: uw e-mailadres, de taal van de pagina en de pagina waarop u zich aanmeldde.",
+          "Analyse: als u analytische cookies accepteert, registreert Google Analytics 4 de bezochte pagina’s, de duur van het bezoek, de verwijzende website, het type apparaat en browser en uw globale locatie. Wij gebruiken dit niet om u te identificeren.",
+          "Communicatie: e-mails en WhatsApp-berichten die u ons rechtstreeks stuurt."
+        ]
+      },
+      {
+        "title": "3. Waarvoor wij uw gegevens gebruiken",
+        "body": [
+          "Wij gebruiken uw gegevens om vragen te beantwoorden, offertes op te stellen, orders uit te voeren en op te volgen, onze nieuwsbrief te sturen als u zich heeft aangemeld, het gebruik van de website te begrijpen en te verbeteren, en onze wettelijke en boekhoudkundige verplichtingen na te komen. Wij verkopen uw gegevens niet en gebruiken ze niet voor geautomatiseerde besluitvorming."
+        ]
+      },
+      {
+        "title": "4. Rechtsgrond",
+        "body": [
+          "Voor bezoekers uit de Europese Economische Ruimte en het Verenigd Koninkrijk: vragen en offerteaanvragen behandelen wij als precontractuele maatregelen op uw verzoek en op grond van ons gerechtvaardigd belang bij het beantwoorden van zakelijke vragen; de nieuwsbrief en analytische cookies berusten op uw toestemming, die u altijd kunt intrekken; bewaring voor fiscale en boekhoudkundige doeleinden is een wettelijke plicht. Voor bezoekers in India verwerken wij gegevens volgens de Digital Personal Data Protection Act, 2023."
+        ]
+      },
+      {
+        "title": "5. Cookies",
+        "body": [
+          "Noodzakelijk: een taalcookie (NEXT_LOCALE) onthoudt de gekozen taal. Het wordt niet gebruikt om u te volgen.",
+          "Analyse: Google Analytics 4 plaatst cookies zoals _ga om bezoeken te tellen en het gebruik van de site te meten. Deze worden alleen geplaatst als u ze accepteert.",
+          "Kaarten: de kaart op onze contactpagina wordt geleverd door Google Maps, dat bij het laden eigen cookies kan plaatsen.",
+          "U kunt cookies verwijderen of blokkeren in uw browserinstellingen. Het blokkeren van analytische cookies heeft geen invloed op de werking van de site."
+        ]
+      },
+      {
+        "title": "6. Met wie wij gegevens delen",
+        "body": [
+          "Wij delen gegevens alleen met dienstverleners die de website voor ons laten draaien: Supabase (formulierdatabase), Vercel (hosting) en Google (analyse en kaarten). Zij verwerken de gegevens volgens onze instructies. Wij kunnen gegevens ook verstrekken als de wet dat vereist, bijvoorbeeld aan belastingdiensten of rechtbanken."
+        ]
+      },
+      {
+        "title": "7. Internationale doorgifte",
+        "body": [
+          "Onze dienstverleners kunnen gegevens buiten uw land opslaan, ook in de Verenigde Staten en de Europese Unie. Doorgifte vanuit de EER of het VK is beschermd door contractuele waarborgen van de dienstverleners, zoals de modelcontractbepalingen van de Europese Commissie."
+        ]
+      },
+      {
+        "title": "8. Bewaartermijn",
+        "body": [
+          "Vragen en offerteaanvragen bewaren wij zolang nodig is om ze af te handelen en onze zakelijke relatie te onderhouden, en zo lang als fiscale of handelswetgeving voorschrijft. Nieuwsbriefgegevens bewaren wij tot u zich afmeldt. Analysegegevens worden bewaard volgens onze bewaarinstellingen in Google Analytics."
+        ]
+      },
+      {
+        "title": "9. Beveiliging",
+        "body": [
+          "Formuliergegevens worden via een versleutelde verbinding (HTTPS) verzonden en opgeslagen in een database met toegangsbeheer. Bezoekers van de website kunnen formulieren versturen, maar kunnen opgeslagen inzendingen niet lezen."
+        ]
+      },
+      {
+        "title": "10. Uw rechten",
+        "body": [
+          "U kunt vragen om inzage, correctie of verwijdering van uw gegevens, bezwaar maken tegen de verwerking of deze laten beperken, een kopie ontvangen en uw toestemming altijd intrekken. Afmelden voor de nieuwsbrief kan via de link in elke nieuwsbrief of door ons te mailen. Om uw rechten uit te oefenen, mailt u naar enquiries@santura-eng.com. U kunt ook een klacht indienen bij de toezichthouder voor gegevensbescherming in uw land."
+        ]
+      },
+      {
+        "title": "11. Kinderen",
+        "body": [
+          "Deze website is bedoeld voor bedrijven en niet voor kinderen. Wij verzamelen niet bewust gegevens van kinderen."
+        ]
+      },
+      {
+        "title": "12. Wijzigingen",
+        "body": [
+          "Wij kunnen dit beleid bijwerken als onze website of de wet verandert. De datum bovenaan deze pagina toont de laatste herziening."
+        ]
+      }
+    ]
+  },
+  "disclaimerPage": {
+    "metaTitle": "Disclaimer | Santura Engineering",
+    "metaDescription": "Disclaimer van de Santura Engineering website: productspecificaties, technische gegevens, prijzen en beschikbaarheid worden bij de order bevestigd.",
+    "h1": "Disclaimer",
+    "updated": "Laatst bijgewerkt: {date}",
+    "intro": "De informatie op deze website wordt door Santura Engineering Pvt. Ltd. verstrekt als algemene referentie. Lees deze disclaimer voordat u erop vertrouwt.",
+    "sections": [
+      {
+        "title": "1. Technische gegevens zijn indicatief",
+        "body": [
+          "Productbeschrijvingen, afmetingen, legeringen, maximale gebruikstemperaturen, ankerafstanden en andere technische gegevens op deze website zijn typische waarden ter oriëntatie. Zij vormen geen specificatie en geen prestatiegarantie. Voor uw order gelden de specificaties uit de goedgekeurde tekening, onze orderbevestiging en de testcertificaten die met de goederen worden geleverd."
+        ]
+      },
+      {
+        "title": "2. Keuze en geschiktheid",
+        "body": [
+          "De keuze van ankertype, legering, afstand en montagemethode hangt af van het ontwerp van de bekleding, de bedrijfsomstandigheden en het vuurvaste materiaal, en is de verantwoordelijkheid van de koper en zijn ingenieurs. Onze aanbevelingen zijn gebaseerd op de informatie die wij ontvangen."
+        ]
+      },
+      {
+        "title": "3. Prijzen en offertes",
+        "body": [
+          "Deze website vermeldt geen prijzen. Prijzen staan alleen in schriftelijke offertes, die geldig zijn voor de vermelde termijn en kunnen wijzigen door grondstofkosten, wisselkoersen, hoeveelheden en leveringsvoorwaarden."
+        ]
+      },
+      {
+        "title": "4. Beschikbaarheid en levertijden",
+        "body": [
+          "Getoonde producten, legeringen en maten zijn leverbaar zolang de voorraad strekt. Productie- en transittijden zijn schattingen en worden bij de order bevestigd. Producten met „Binnenkort” zijn nog niet leverbaar."
+        ]
+      },
+      {
+        "title": "5. Afbeeldingen en tekeningen",
+        "body": [
+          "Foto’s en tekeningen zijn ter illustratie. Geleverde producten kunnen afwijken in kleur, afwerking en kleine details."
+        ]
+      },
+      {
+        "title": "6. Sector- en bedrijfsnamen",
+        "body": [
+          "Bedrijven en fabrieken die op onze landenpagina’s worden genoemd, beschrijven de industrie in elke markt. Zij zijn geen klanten van Santura Engineering, tenzij een pagina uitdrukkelijk een geverifieerde klant vermeldt."
+        ]
+      },
+      {
+        "title": "7. Merken",
+        "body": [
+          "Inconel en Incoloy zijn merken van Special Metals Corporation. 253 MA is een merk van Outokumpu. Andere product- en bedrijfsnamen zijn eigendom van hun respectieve houders en worden alleen ter identificatie gebruikt."
+        ]
+      },
+      {
+        "title": "8. Externe links",
+        "body": [
+          "Links naar andere websites zijn er voor uw gemak. Wij zijn niet verantwoordelijk voor hun inhoud."
+        ]
+      },
+      {
+        "title": "9. Beperking van aansprakelijkheid",
+        "body": [
+          "Voor zover de wet dat toestaat, is Santura Engineering Pvt. Ltd. niet aansprakelijk voor schade die voortvloeit uit het gebruik van, of het vertrouwen op, informatie op deze website. Leveringen vallen onder de voorwaarden van elke order."
+        ]
+      },
+      {
+        "title": "10. Vertalingen",
+        "body": [
+          "Deze website is in meerdere talen beschikbaar. Wijkt een vertaling af van de Engelse versie, dan geldt de Engelse versie."
+        ]
+      },
+      {
+        "title": "11. Contact",
+        "body": [
+          "Vragen over deze disclaimer kunt u sturen naar enquiries@santura-eng.com."
+        ]
+      }
+    ]
   }
 }

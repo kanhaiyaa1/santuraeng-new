@@ -3,17 +3,602 @@
     "home": "Home",
     "products": "Products",
     "rfq": "Request a Quote",
-    "language": "Language"
+    "language": "Language",
+    "about": "About Us",
+    "quality": "Quality",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "disclaimer": "Disclaimer"
   },
   "hero": {
-    "title": "Refractory Anchors and Steel Fabrications for High-Temperature Industries",
-    "subtitle": "We manufacture and export refractory anchor systems, stainless steel fabrications and thermal insulation components, supplying petrochemical, cement, power and aluminium industries in more than 20 countries since 1980."
+    "eyebrow": "Santura Engineering Pvt. Ltd. · Mumbai, India",
+    "title": "Refractory Anchor Manufacturer & Exporter",
+    "subtitle": "Refractory anchors, fiber studs and stainless steel fibres for brick, castable and ceramic fiber linings — manufactured in Mumbai and shipped to international projects from Nhava Sheva port.",
+    "imageAlt": "Refinery process units with refractory-lined columns and furnaces"
   },
   "cta": {
-    "getQuote": "Get a Quote",
+    "getQuote": "Request a Quote",
     "viewProducts": "View Products"
   },
   "common": {
+    "whatsapp": "Chat on WhatsApp",
+    "facts": "Since 1980 · Exporting to 25+ countries · ISO 9001:2015 certified"
+  },
+  "meta": {
+    "home": {
+      "title": "Refractory Anchor Manufacturer & Exporter | Santura Engineering",
+      "description": "Refractory anchor manufacturer in Mumbai, India since 1980, exporting to 25+ countries. Anchors for brick, castable, double and ceramic fiber linings."
+    }
+  },
+  "categories": {
+    "eyebrow": "Products",
+    "title": "Refractory Anchors by Lining Type",
+    "subtitle": "Standard SEPL anchor designs or custom anchors made to your drawings, in carbon steel, stainless steel and nickel alloys.",
+    "viewRange": "View range",
+    "items": {
+      "brick": {
+        "name": "Brick Lining",
+        "description": "Brick staples, supports, claws, scissor clips and tie-back anchors that retain dense and insulating brick.",
+        "imageAlt": "SEPL-01 brick staple refractory anchor drawing"
+      },
+      "castable": {
+        "name": "Castable Lining",
+        "description": "Y, V, bullhorn, H and flat-section anchors for light to dense castable and gunite linings.",
+        "imageAlt": "SEPL-06 split Y refractory anchor drawing"
+      },
+      "double": {
+        "name": "Double Lining",
+        "description": "Dual pin, nut-welded, screw-on and slit stud anchors for a dense hot face backed by insulating layers.",
+        "imageAlt": "SEPL-20 dual pin refractory anchor drawing"
+      },
+      "ceramic": {
+        "name": "Ceramic Fiber Lining",
+        "description": "Stud-welded fiber studs and threaded studs with ceramic ferrule washers for blanket and module linings.",
+        "imageAlt": "SEPL-24 fiber stud refractory anchors in SS310 and Inconel"
+      }
+    }
+  },
+  "trust": {
+    "eyebrow": "Track record",
+    "title": "Verified Supply Record",
+    "subtitle": "Documented references only. Export shipments leave from Nhava Sheva (JNPT), Mumbai.",
+    "items": {
+      "cemex": {
+        "title": "CEMEX",
+        "text": "Refractory anchors supplied to CEMEX cement plants in Croatia, Spain and the Czech Republic."
+      },
+      "sri": {
+        "title": "Saudi Refractory Industries Co",
+        "text": "Export supply to Al-Khobar, Saudi Arabia, documented by shipping records."
+      },
+      "established": {
+        "title": "Since 1980",
+        "text": "Manufacturing refractory anchors in Mumbai since 1980 and exporting to 25+ countries."
+      },
+      "testing": {
+        "title": "PMI-Tested Material",
+        "text": "Positive material identification on receipt and at final inspection, with mill test certificates."
+      },
+      "iso": {
+        "title": "ISO 9001:2015 Certified",
+        "text": "Certificate {number}, issued by URS and accredited by UKAS, valid until {date}. Scope: “{scope}”"
+      },
+      "linde": {
+        "title": "Linde Engineering India",
+        "text": "Approved supplier of counter-weight systems, supplier code {code}, {period}."
+      }
+    }
+  },
+  "industries": {
+    "eyebrow": "Industries",
+    "title": "Industries We Supply",
+    "subtitle": "Anchoring systems for high-temperature equipment in process and heavy industry.",
+    "items": {
+      "oilGas": {
+        "name": "Oil & Gas and Petrochemical",
+        "description": "Fired heaters, steam reformers, FCC units and sulphur recovery units.",
+        "imageAlt": "Refinery and petrochemical plant"
+      },
+      "cement": {
+        "name": "Cement & Lime",
+        "description": "Preheaters, calciners, rotary kilns and clinker coolers.",
+        "imageAlt": "Cement powder"
+      },
+      "steel": {
+        "name": "Steel & Iron",
+        "description": "Blast furnaces, ladles, reheat furnaces and coke ovens.",
+        "imageAlt": "Molten steel tapping with sparks"
+      },
+      "power": {
+        "name": "Power & Boilers",
+        "description": "CFBC, HRSG, waste-to-energy and biomass boilers.",
+        "imageAlt": "Power transmission towers at sunset"
+      }
+    }
+  },
+  "countries": {
+    "eyebrow": "Worldwide",
+    "title": "Select Your Country",
+    "subtitle": "Regional information for refractory anchor buyers in each market.",
+    "names": {
+      "AE": "United Arab Emirates",
+      "SA": "Saudi Arabia",
+      "DE": "Germany",
+      "TR": "Türkiye",
+      "BR": "Brazil",
+      "NL": "Netherlands",
+      "IT": "Italy",
+      "FR": "France",
+      "PL": "Poland",
+      "BE": "Belgium",
+      "ES": "Spain",
+      "MX": "Mexico",
+      "GB": "United Kingdom",
+      "CA": "Canada"
+    },
+    "languages": {
+      "en": "English",
+      "fr": "French",
+      "nl": "Dutch"
+    }
+  },
+  "rfq": {
+    "title": "Request a Quote for Refractory Anchors",
+    "text": "Send your drawings, alloy grade and quantities. Our engineering team reviews every drawing before quoting.",
+    "button": "Request a Quote",
     "whatsapp": "Chat on WhatsApp"
+  },
+  "footer": {
+    "tagline": "Refractory anchors, stud anchors and stainless steel fibres manufactured in Mumbai, India.",
+    "contact": "Contact",
+    "headOffice": "Head Office & Factory 1",
+    "works": "Works & Factory 2",
+    "email": "Email",
+    "phone": "Phone",
+    "hours": "Office Hours",
+    "hoursValue": "Mon–Sat 08:00–18:00 IST · Sunday closed",
+    "quickLinks": "Quick Links",
+    "cin": "CIN",
+    "rights": "All rights reserved.",
+    "company": "Company",
+    "legal": "Legal"
+  },
+  "products": {
+    "meta": {
+      "title": "Refractory Anchors, Washers & Steel Fibres | Santura Engineering",
+      "description": "Refractory anchor manufacturer in Mumbai, India: SEPL brick, castable, double and ceramic fiber lining anchors, washers and stainless steel fibres."
+    },
+    "eyebrow": "Products",
+    "title": "Refractory Anchors, Washers & Steel Fibres",
+    "intro": "The SEPL range grouped by lining type. Every anchor can be made to your drawing, sample or sketch.",
+    "filterLabel": "Filter by lining type",
+    "all": "All products",
+    "linings": {
+      "brick": "Brick Lining",
+      "castable": "Castable / Concrete Lining",
+      "double": "Double Lining",
+      "ceramic": "Ceramic Fiber Lining",
+      "washers": "Washers",
+      "fibres": "Steel Fibres"
+    },
+    "liningIntro": {
+      "washers": "Round, square and rectangular rings, threaded rings and push-on mounting clips that hold linings in place during installation.",
+      "fibres": "Melt extract and cold drawn stainless steel fibres that improve the thermal shock and crack resistance of monolithic refractories."
+    },
+    "comingSoon": "Coming soon",
+    "viewProduct": "View product"
+  },
+  "productPage": {
+    "metaTitle": "{title} | Santura Engineering",
+    "metaDescription": {
+      "anchor": "{title} for {lining}. Made to drawing by Santura Engineering, refractory anchor manufacturer in Mumbai, India.",
+      "fibre": "{title} for refractory reinforcement, from Santura Engineering, refractory anchor and steel fibre manufacturer in Mumbai, India.",
+      "washer": "{title} for refractory anchors, made to drawing by Santura Engineering, refractory anchor manufacturer in Mumbai, India."
+    },
+    "imageAlt": {
+      "anchor": "{title} refractory anchor in {alloys}",
+      "anchorPlain": "{title} refractory anchor",
+      "fibre": "{title} steel fibre for refractory in {alloys}",
+      "fibrePlain": "{title} steel fibre for refractory",
+      "washer": "{title} for refractory anchors in {alloys}",
+      "washerPlain": "{title} for refractory anchors"
+    },
+    "code": "Product code",
+    "lining": "Lining type",
+    "section": "Section",
+    "sections": {
+      "round": "Round (wire / bar)",
+      "flat": "Flat (plate / strip)",
+      "various": "Various",
+      "ceramic": "Ceramic"
+    },
+    "description": "Description",
+    "technicalEnglish": "Technical descriptions are provided in English.",
+    "alloys": "Available alloys",
+    "grade": "Grade",
+    "forms": {
+      "plate": "Plate",
+      "wire": "Wire",
+      "general": "Available"
+    },
+    "maxTemp": "Max. continuous service temperature",
+    "typicalUse": "Typical use",
+    "alloysOnRequest": "Alloy grades on request. Send us your operating conditions for a recommendation.",
+    "alloyLegend": "CS = carbon steel · 601 = Inconel 601 · 800 = Incoloy 800 · 253MA = heat-resistant austenitic steel",
+    "otherAlloys": "Other alloys available on request.",
+    "material": "Material",
+    "rfqTitle": "Request Quote for This Product",
+    "rfqText": "Send your drawing, sample or sketch together with the alloy grade and quantity for {title}.",
+    "rfqButton": "Request Quote for This Product",
+    "related": "Related products",
+    "comingSoonTitle": "Product page coming soon",
+    "comingSoonText": "Full details for this product are being prepared. Send us your requirements and our engineering team will get back to you.",
+    "gallery": "Product images",
+    "breadcrumb": "Breadcrumb"
+  },
+  "rfqForm": {
+    "fullName": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "country": "Country",
+    "message": "What are you looking for?",
+    "submit": "Submit Request",
+    "sending": "Sending…",
+    "success": "Thank you. We will get back to you shortly.",
+    "error": "Something went wrong. Please try again.",
+    "productPrefix": "Product"
+  },
+  "rfqPage": {
+    "title": "Request a Quote for Refractory Anchors",
+    "description": "Request a quote from Santura Engineering, refractory anchor manufacturer in Mumbai, India. Send drawings, alloy grade and quantities.",
+    "intro": "Fill in your details and our team will get back to you with a quote."
+  },
+  "countryPage": {
+    "metaTitle": "Refractory Anchors Manufacturer & Supplier | {country} | Santura Engineering",
+    "h1": "Refractory Anchors Manufacturer & Supplier for {country}",
+    "eyebrow": "Export market · {country}",
+    "technicalEnglish": "Technical details on this page are in English, the working language of refractory specifications.",
+    "clientTitle": "Verified client in {country}",
+    "clientNote": "Supply confirmed by our export shipping documents.",
+    "spotlightEyebrow": "Technical focus",
+    "industriesTitle": "Industries we supply in {country}",
+    "industriesNote": "Company names describe the market. They are not a list of Santura Engineering clients.",
+    "regionsTitle": "Industrial regions and ports",
+    "productsTitle": "Recommended products",
+    "viewProduct": "View product",
+    "shippingTitle": "Shipping from Mumbai",
+    "shippingIntro": "Anchors are made and packed at our works in MIDC Tarapur and shipped from Nhava Sheva (JNPT), Mumbai.",
+    "destination": "Destination",
+    "route": "Route",
+    "transit": "Transit time",
+    "documentsTitle": "Certificates and documents",
+    "rfqTitle": "Request a quote for delivery to {country}",
+    "rfqText": "Send your drawing or anchor type, alloy grade and quantity. We reply with price, lead time and shipping to your port.",
+    "rfqButton": "Request a Quote",
+    "referencesTitle": "Verified references in Europe",
+    "referencesNote": "Cement plant supply confirmed by each client.",
+    "clientNoteConfirmed": "Supply confirmed by the client.",
+    "qualityTitle": "Quality approvals"
+  },
+  "contactPage": {
+    "metaTitle": "Contact Santura Engineering | Refractory Anchor Manufacturer, Mumbai",
+    "metaDescription": "Contact Santura Engineering, refractory anchor manufacturer in Mumbai since 1980. Email, phone, WhatsApp, factory address and enquiry form.",
+    "h1": "Contact Us",
+    "intro": "Send us an enquiry by email, phone or WhatsApp, or use the form below. We reply on working days.",
+    "officeTitle": "Head Office & Factory",
+    "worksTitle": "Works & Factory 2",
+    "emailTitle": "Email",
+    "generalEmail": "General enquiries",
+    "phoneTitle": "Phone",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "Message us on WhatsApp",
+    "hoursTitle": "Office hours",
+    "mapTitle": "Location",
+    "mapIframeTitle": "Map of Santura Engineering, Darukhana, Mumbai",
+    "openMap": "Open in Google Maps",
+    "formTitle": "Send an enquiry",
+    "rfqNote": "Need a price for a specific anchor? For quotations, use our dedicated RFQ form.",
+    "rfqLink": "Go to the RFQ form"
+  },
+  "contactForm": {
+    "name": "Full name",
+    "email": "Email",
+    "company": "Company",
+    "country": "Country",
+    "message": "Message",
+    "submit": "Send Message",
+    "sending": "Sending…",
+    "success": "Thank you. Your message has been sent and we will reply shortly.",
+    "error": "Your message could not be sent. Please try again or email us directly.",
+    "privacyNote": "We use these details only to reply to your enquiry.",
+    "privacyLink": "Privacy Policy"
+  },
+  "aboutPage": {
+    "metaTitle": "About Santura Engineering | Refractory Anchor Manufacturer Since 1980",
+    "metaDescription": "Santura Engineering, Mumbai: founded in 1980 by Bharat Diwan, refractory anchors since 2005, ISO 9001:2015 certified, exporting to 25+ countries.",
+    "h1": "About Santura Engineering",
+    "intro": "A Mumbai manufacturer of refractory anchors, stud anchors and stainless steel fibres, founded in 1980 and exporting to more than 25 countries.",
+    "storyTitle": "Our story",
+    "story": [
+      "The business was founded in Mumbai in 1980 by Mr. Bharat Diwan, a production engineer. It began as an engineering and fabrication workshop serving local industry.",
+      "In 2005 the company started manufacturing refractory anchors, and in 2008 it was incorporated as Santura Engineering Pvt. Ltd. Today it makes the full SEPL range of anchors for brick, castable, double and ceramic fibre linings, together with washers and stainless steel fibres, and supplies refractory contractors and plant operators in India and abroad."
+    ],
+    "timelineTitle": "Milestones",
+    "timeline": [
+      {
+        "year": "1980",
+        "title": "Founded in Mumbai",
+        "text": "Mr. Bharat Diwan, a production engineer, founds the business."
+      },
+      {
+        "year": "2005",
+        "title": "Refractory anchors",
+        "text": "Manufacturing of refractory anchors begins."
+      },
+      {
+        "year": "2008",
+        "title": "Incorporation",
+        "text": "Incorporated as Santura Engineering Pvt. Ltd. on 9 July 2008."
+      },
+      {
+        "year": "2009–2012",
+        "title": "Linde approval",
+        "text": "Approved supplier of counter-weight systems to Linde Engineering India."
+      },
+      {
+        "year": "Today",
+        "title": "ISO 9001:2015",
+        "text": "ISO 9001:2015 certified and exporting to more than 25 countries."
+      }
+    ],
+    "facilitiesTitle": "Manufacturing facilities",
+    "darukhanaTitle": "Head Office & Factory, Darukhana, Mumbai",
+    "darukhanaText": "Our head office and factory are in the Mumbai port area at Darukhana, within easy reach of Nhava Sheva (JNPT), the port our export shipments leave from.",
+    "tarapurTitle": "Works & Factory 2, MIDC Tarapur",
+    "tarapurText": "Our second works is in the MIDC Tarapur industrial area at Boisar, north of Mumbai.",
+    "qualityTitle": "Quality and approvals",
+    "qualityText": "We are certified to ISO 9001:2015 for the manufacturing and supply of refractory anchors and soft components for heaters, and were an approved supplier to Linde Engineering India.",
+    "qualityLink": "See our quality page",
+    "clientsTitle": "Verified clients",
+    "clientsNote": "We list only clients whose supply we can document.",
+    "cemexTitle": "CEMEX",
+    "cemexText": "Refractory anchors for cement plants in Croatia, Spain (Planta de Alcanar) and the Czech Republic.",
+    "sriTitle": "Saudi Refractory Industries Co",
+    "sriText": "Export supply to Al-Khobar, Saudi Arabia.",
+    "productsTitle": "What we make",
+    "productsText": "The SEPL range, from SEPL-01 brick staples to SEPL-30 wavy steel fibres, in carbon steel, stainless steels such as SS 304 and SS 310, and nickel alloys including Inconel. Anchors are also made to customer drawings.",
+    "productsLink": "View all products",
+    "exportTitle": "Exports",
+    "exportText": "We export to more than 25 countries across the Middle East, Europe and the Americas, shipping from Nhava Sheva with full documentation.",
+    "exportLink": "Find your country"
+  },
+  "qualityPage": {
+    "metaTitle": "Quality, Testing & Certification | Santura Engineering",
+    "metaDescription": "ISO 9001:2015 certified refractory anchor manufacturer: PMI and spectroscopy, dimensional inspection, EN 10204 3.1 certificates, heat traceability.",
+    "h1": "Quality and Certification",
+    "intro": "Every anchor is made from verified material, inspected before dispatch and supplied with documents that trace it back to the mill heat.",
+    "isoTitle": "ISO 9001:2015 certification",
+    "standard": "Standard",
+    "certificateNo": "Certificate number",
+    "issuer": "Certification body",
+    "accreditation": "Accreditation",
+    "scope": "Scope",
+    "validUntil": "Valid until",
+    "lindeTitle": "Linde Engineering India approval",
+    "lindeText": "Santura Engineering was an approved supplier to Linde Engineering India Pvt Ltd.",
+    "lindeCompany": "Company",
+    "lindeScope": "Approved for",
+    "lindeScopeValue": "Counter-weight systems",
+    "lindeCode": "Supplier code",
+    "lindePeriod": "Period",
+    "testingTitle": "Material testing and inspection",
+    "testing": [
+      {
+        "title": "Positive material identification (PMI)",
+        "text": "Alloy grade checked on receipt of raw material and again at final inspection."
+      },
+      {
+        "title": "Spectroscopic analysis",
+        "text": "Chemical composition verified by spectroscopy against the specified grade."
+      },
+      {
+        "title": "Dimensional inspection",
+        "text": "Dimensions, bends and weld ends checked against the drawing."
+      },
+      {
+        "title": "Mechanical and corrosion tests",
+        "text": "Hardness testing, with tensile, impact, proof-load and corrosion tests on request, at NABL-accredited laboratories where required."
+      },
+      {
+        "title": "Witness inspection",
+        "text": "All tests can be witnessed by the customer or a nominated third-party inspection agency."
+      }
+    ],
+    "documentsTitle": "Documents supplied",
+    "documents": [
+      "EN 10204 3.1 mill test certificates",
+      "Certificates of conformity",
+      "Heat number traceability from mill certificate to finished anchor",
+      "PMI reports",
+      "Chemical analysis and solution-annealing certificates"
+    ],
+    "standardsTitle": "Material standards",
+    "standardsIntro": "Materials are supplied to the following standards, or to the standard named in your specification.",
+    "standardCol": "Standard",
+    "coversCol": "Covers",
+    "standards": {
+      "A240": "Stainless steel plate, sheet and strip",
+      "A276": "Stainless steel bars and shapes",
+      "A484": "General requirements for stainless steel bars, billets and forgings",
+      "B166": "Nickel-chromium-iron alloy rod, bar and wire (e.g. Inconel 600)",
+      "B168": "Nickel-chromium-iron alloy plate, sheet and strip",
+      "DIN17440": "Stainless steels: technical delivery conditions for plate, bar and wire"
+    },
+    "clientCertsTitle": "Client certificates",
+    "clientCertsText": "Certificates and reference letters from our clients will be published here."
+  },
+  "privacyPage": {
+    "metaTitle": "Privacy Policy | Santura Engineering",
+    "metaDescription": "How Santura Engineering Pvt. Ltd. collects and uses data from its contact, RFQ and newsletter forms, Google Analytics and cookies.",
+    "h1": "Privacy Policy",
+    "updated": "Last updated: {date}",
+    "intro": "This policy explains what personal data Santura Engineering Pvt. Ltd. collects through this website, why we collect it and what rights you have.",
+    "sections": [
+      {
+        "title": "1. Who we are",
+        "body": [
+          "Santura Engineering Pvt. Ltd. (CIN U74200MH2008PTC184443), BPT Plot No. 200, 201, Quay Street, Darukhana, Reay Road, Mumbai 400010, India, is responsible for the personal data described in this policy. You can contact us at enquiries@santura-eng.com."
+        ]
+      },
+      {
+        "title": "2. Data we collect",
+        "body": [
+          "Contact form: your name, email address, company, country and message.",
+          "Request for quotation (RFQ) form: your name, email address, phone number, company, country, and the product and project details you send.",
+          "Newsletter: your email address, the language of the page and the page where you signed up.",
+          "Analytics: when you accept analytics cookies, Google Analytics 4 records the pages you visit, how long you stay, the referring site, your device and browser type and your approximate location. We do not use this to identify you.",
+          "Communications: emails and WhatsApp messages you send us directly."
+        ]
+      },
+      {
+        "title": "3. How we use your data",
+        "body": [
+          "We use your data to answer enquiries, prepare quotations, carry out and follow up orders, send our newsletter if you subscribed, understand how the website is used so we can improve it, and meet our legal and accounting obligations. We do not sell your data and do not use it for automated decision-making."
+        ]
+      },
+      {
+        "title": "4. Legal basis",
+        "body": [
+          "For visitors in the European Economic Area and the United Kingdom: we handle enquiries and RFQs as steps taken at your request before a contract and in our legitimate interest in responding to business enquiries; newsletter emails and analytics cookies are based on your consent, which you can withdraw at any time; records kept for tax and accounting are a legal obligation. For visitors in India, we process data in line with the Digital Personal Data Protection Act, 2023."
+        ]
+      },
+      {
+        "title": "5. Cookies",
+        "body": [
+          "Essential: a language cookie (NEXT_LOCALE) remembers the language you chose. It does not track you.",
+          "Analytics: Google Analytics 4 sets cookies such as _ga to count visits and measure use of the site. These are set only if you accept them.",
+          "Maps: the map on our contact page is provided by Google Maps, which may set its own cookies when the map loads.",
+          "You can delete or block cookies in your browser settings. Blocking analytics cookies does not affect how the site works."
+        ]
+      },
+      {
+        "title": "6. Who we share data with",
+        "body": [
+          "We share data only with service providers that run the website for us: Supabase (form database), Vercel (website hosting) and Google (analytics and maps). They process data on our instructions. We may also disclose data where the law requires it, for example to tax authorities or courts."
+        ]
+      },
+      {
+        "title": "7. International transfers",
+        "body": [
+          "Our service providers may store data outside your country, including in the United States and the European Union. Where data from the EEA or UK is transferred, it is protected by the providers’ contractual safeguards, such as the European Commission’s standard contractual clauses."
+        ]
+      },
+      {
+        "title": "8. How long we keep data",
+        "body": [
+          "Enquiries and RFQs are kept for as long as needed to handle them and maintain our business relationship, and for any longer period required by tax or commercial law. Newsletter data is kept until you unsubscribe. Analytics data is kept according to our Google Analytics retention settings."
+        ]
+      },
+      {
+        "title": "9. Security",
+        "body": [
+          "Form data is sent over an encrypted connection (HTTPS) and stored in a database with access controls. Public website visitors can submit forms but cannot read stored submissions."
+        ]
+      },
+      {
+        "title": "10. Your rights",
+        "body": [
+          "You can ask to access, correct or delete your personal data, object to or restrict its use, receive a copy of it, and withdraw consent at any time. To unsubscribe from the newsletter, use the link in any newsletter email or write to us. To exercise any right, email enquiries@santura-eng.com. You may also complain to the data protection authority in your country."
+        ]
+      },
+      {
+        "title": "11. Children",
+        "body": [
+          "This website is intended for businesses and is not directed at children. We do not knowingly collect data from children."
+        ]
+      },
+      {
+        "title": "12. Changes to this policy",
+        "body": [
+          "We may update this policy when our website or the law changes. The date at the top of this page shows when it was last revised."
+        ]
+      }
+    ]
+  },
+  "disclaimerPage": {
+    "metaTitle": "Disclaimer | Santura Engineering",
+    "metaDescription": "Disclaimer for the Santura Engineering website: product specifications, technical data, pricing and availability are confirmed at the time of order.",
+    "h1": "Disclaimer",
+    "updated": "Last updated: {date}",
+    "intro": "The information on this website is provided by Santura Engineering Pvt. Ltd. for general reference. Please read this disclaimer before relying on it.",
+    "sections": [
+      {
+        "title": "1. Technical data is for reference only",
+        "body": [
+          "Product descriptions, dimensions, alloy grades, maximum service temperatures, anchor spacing figures and other technical data on this website are typical values for general guidance. They are not a specification or a guarantee of performance. The specifications that apply to your order are those confirmed in the approved drawing, our order acknowledgement and the test certificates supplied with the goods."
+        ]
+      },
+      {
+        "title": "2. Selection and suitability",
+        "body": [
+          "The choice of anchor type, alloy, spacing and installation method depends on the lining design, operating conditions and refractory material. It remains the responsibility of the purchaser and its engineers. Where we give recommendations, they are based on the information supplied to us."
+        ]
+      },
+      {
+        "title": "3. Pricing and quotations",
+        "body": [
+          "This website does not publish prices. Prices are given only in written quotations, which are valid for the period stated and may change with raw material costs, exchange rates, quantities and delivery terms."
+        ]
+      },
+      {
+        "title": "4. Availability and lead times",
+        "body": [
+          "Products, alloys and sizes shown are subject to availability. Lead times and transit times are estimates and are confirmed at the time of order. Products marked “Coming Soon” are not yet available."
+        ]
+      },
+      {
+        "title": "5. Images and drawings",
+        "body": [
+          "Photographs and drawings are for illustration. Finished products may differ in colour, finish and minor details."
+        ]
+      },
+      {
+        "title": "6. Industry and company names",
+        "body": [
+          "Companies and plants named on our country pages describe the industry in each market. They are not clients of Santura Engineering unless a page states that a client is verified."
+        ]
+      },
+      {
+        "title": "7. Trademarks",
+        "body": [
+          "Inconel and Incoloy are trademarks of Special Metals Corporation. 253 MA is a trademark of Outokumpu. Other product and company names belong to their respective owners and are used only for identification."
+        ]
+      },
+      {
+        "title": "8. External links",
+        "body": [
+          "Links to other websites are provided for convenience. We are not responsible for their content."
+        ]
+      },
+      {
+        "title": "9. Limitation of liability",
+        "body": [
+          "To the extent permitted by law, Santura Engineering Pvt. Ltd. is not liable for any loss arising from the use of, or reliance on, information on this website. Supplies are governed by the terms of each order."
+        ]
+      },
+      {
+        "title": "10. Translations",
+        "body": [
+          "This website is available in several languages. If a translation differs from the English version, the English version applies."
+        ]
+      },
+      {
+        "title": "11. Contact",
+        "body": [
+          "For questions about this disclaimer, email enquiries@santura-eng.com."
+        ]
+      }
+    ]
   }
 }

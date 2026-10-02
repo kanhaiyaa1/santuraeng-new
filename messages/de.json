@@ -3,17 +3,602 @@
     "home": "Startseite",
     "products": "Produkte",
     "rfq": "Angebot anfordern",
-    "language": "Sprache"
+    "language": "Sprache",
+    "about": "Über uns",
+    "quality": "Qualität",
+    "contact": "Kontakt",
+    "privacy": "Datenschutz",
+    "disclaimer": "Haftungsausschluss"
   },
   "hero": {
-    "title": "Feuerfestanker und Stahlkonstruktionen für Hochtemperaturindustrien",
-    "subtitle": "Wir fertigen und exportieren Feuerfestanker-Systeme, Edelstahlkonstruktionen und Wärmedämmkomponenten und beliefern seit 1980 die Petrochemie-, Zement-, Energie- und Aluminiumindustrie in mehr als 20 Ländern."
+    "eyebrow": "Santura Engineering Pvt. Ltd. · Mumbai, Indien",
+    "title": "Hersteller & Exporteur von Feuerfestankern",
+    "subtitle": "Feuerfestanker, Faserbolzen und Edelstahlfasern für Stein-, Beton- und Keramikfaserauskleidungen – gefertigt in Mumbai und über den Hafen Nhava Sheva an internationale Projekte geliefert.",
+    "imageAlt": "Raffinerieanlagen mit feuerfest ausgekleideten Kolonnen und Öfen"
   },
   "cta": {
-    "getQuote": "Angebot einholen",
+    "getQuote": "Angebot anfordern",
     "viewProducts": "Produkte ansehen"
   },
   "common": {
+    "whatsapp": "Über WhatsApp chatten",
+    "facts": "Seit 1980 · Export in über 25 Länder · Zertifiziert nach ISO 9001:2015"
+  },
+  "meta": {
+    "home": {
+      "title": "Hersteller & Exporteur von Feuerfestankern | Santura Engineering",
+      "description": "Hersteller von Feuerfestankern in Mumbai, Indien, seit 1980, Export in über 25 Länder. Anker für Stein-, Beton-, Doppel- und Keramikfaserauskleidungen."
+    }
+  },
+  "categories": {
+    "eyebrow": "Produkte",
+    "title": "Feuerfestanker nach Auskleidungsart",
+    "subtitle": "Standardisierte SEPL-Ankertypen oder Sonderanker nach Ihrer Zeichnung – aus Kohlenstoffstahl, Edelstahl und Nickellegierungen.",
+    "viewRange": "Sortiment ansehen",
+    "items": {
+      "brick": {
+        "name": "Steinauskleidung",
+        "description": "Steinklammern, Konsolen, Krallen, Scherenklammern und Rückhalteanker für dichte und isolierende Steine.",
+        "imageAlt": "Zeichnung Feuerfestanker SEPL-01 Steinklammer"
+      },
+      "castable": {
+        "name": "Betonauskleidung",
+        "description": "Y-, V-, Bullhorn-, H- und Flachanker für leichte bis dichte Feuerbeton- und Spritzmassenauskleidungen.",
+        "imageAlt": "Zeichnung Feuerfestanker SEPL-06 Split-Y"
+      },
+      "double": {
+        "name": "Doppelauskleidung",
+        "description": "Doppelstift-, Mutter-, Schraub- und Schlitzbolzenanker für eine dichte Heißseite mit isolierender Hinterschicht.",
+        "imageAlt": "Zeichnung Feuerfestanker SEPL-20 Doppelstift"
+      },
+      "ceramic": {
+        "name": "Keramikfaserauskleidung",
+        "description": "Aufgeschweißte Faserbolzen und Gewindebolzen mit Keramikhülsen für Matten- und Modulauskleidungen.",
+        "imageAlt": "Feuerfestanker SEPL-24 Faserbolzen aus SS310 und Inconel"
+      }
+    }
+  },
+  "trust": {
+    "eyebrow": "Referenzen",
+    "title": "Nachgewiesene Lieferungen",
+    "subtitle": "Nur belegte Referenzen. Exportsendungen verlassen Indien über den Hafen Nhava Sheva (JNPT), Mumbai.",
+    "items": {
+      "cemex": {
+        "title": "CEMEX",
+        "text": "Feuerfestanker für CEMEX-Zementwerke in Kroatien, Spanien und Tschechien."
+      },
+      "sri": {
+        "title": "Saudi Refractory Industries Co",
+        "text": "Exportlieferung nach Al-Khobar, Saudi-Arabien, belegt durch Versanddokumente."
+      },
+      "established": {
+        "title": "Seit 1980",
+        "text": "Fertigung von Feuerfestankern in Mumbai seit 1980, mit Export in über 25 Länder."
+      },
+      "testing": {
+        "title": "PMI-geprüftes Material",
+        "text": "Positive Materialidentifikation beim Wareneingang und bei der Endprüfung, mit Werkszeugnissen."
+      },
+      "iso": {
+        "title": "Zertifiziert nach ISO 9001:2015",
+        "text": "Zertifikat {number}, ausgestellt von URS, akkreditiert durch UKAS, gültig bis {date}. Geltungsbereich: „{scope}“"
+      },
+      "linde": {
+        "title": "Linde Engineering India",
+        "text": "Zugelassener Lieferant für Gegengewichtssysteme, Lieferantennummer {code}, {period}."
+      }
+    }
+  },
+  "industries": {
+    "eyebrow": "Branchen",
+    "title": "Branchen, die wir beliefern",
+    "subtitle": "Verankerungssysteme für Hochtemperaturanlagen in der Prozess- und Schwerindustrie.",
+    "items": {
+      "oilGas": {
+        "name": "Öl & Gas und Petrochemie",
+        "description": "Prozessöfen, Dampfreformer, FCC-Anlagen und Schwefelrückgewinnungsanlagen.",
+        "imageAlt": "Raffinerie- und Petrochemieanlage"
+      },
+      "cement": {
+        "name": "Zement & Kalk",
+        "description": "Vorwärmer, Calcinatoren, Drehrohröfen und Klinkerkühler.",
+        "imageAlt": "Zementpulver"
+      },
+      "steel": {
+        "name": "Stahl & Eisen",
+        "description": "Hochöfen, Pfannen, Wärmöfen und Koksöfen.",
+        "imageAlt": "Abstich von flüssigem Stahl mit Funkenflug"
+      },
+      "power": {
+        "name": "Energie & Kessel",
+        "description": "CFB-, Abhitze-, Müllverbrennungs- und Biomassekessel.",
+        "imageAlt": "Hochspannungsmasten bei Sonnenuntergang"
+      }
+    }
+  },
+  "countries": {
+    "eyebrow": "Weltweit",
+    "title": "Wählen Sie Ihr Land",
+    "subtitle": "Regionale Informationen für Käufer von Feuerfestankern in jedem Markt.",
+    "names": {
+      "AE": "Vereinigte Arabische Emirate",
+      "SA": "Saudi-Arabien",
+      "DE": "Deutschland",
+      "TR": "Türkei",
+      "BR": "Brasilien",
+      "NL": "Niederlande",
+      "IT": "Italien",
+      "FR": "Frankreich",
+      "PL": "Polen",
+      "BE": "Belgien",
+      "ES": "Spanien",
+      "MX": "Mexiko",
+      "GB": "Vereinigtes Königreich",
+      "CA": "Kanada"
+    },
+    "languages": {
+      "en": "Englisch",
+      "fr": "Französisch",
+      "nl": "Niederländisch"
+    }
+  },
+  "rfq": {
+    "title": "Angebot für Feuerfestanker anfordern",
+    "text": "Senden Sie uns Zeichnungen, Werkstoffgüte und Mengen. Unser Ingenieurteam prüft jede Zeichnung vor der Angebotserstellung.",
+    "button": "Angebot anfordern",
     "whatsapp": "Über WhatsApp chatten"
+  },
+  "footer": {
+    "tagline": "Feuerfestanker, Bolzenanker und Edelstahlfasern, gefertigt in Mumbai, Indien.",
+    "contact": "Kontakt",
+    "headOffice": "Hauptsitz & Werk 1",
+    "works": "Werk 2",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "hours": "Geschäftszeiten",
+    "hoursValue": "Mo–Sa 08:00–18:00 IST · Sonntag geschlossen",
+    "quickLinks": "Schnellzugriff",
+    "cin": "CIN",
+    "rights": "Alle Rechte vorbehalten.",
+    "company": "Unternehmen",
+    "legal": "Rechtliches"
+  },
+  "products": {
+    "meta": {
+      "title": "Feuerfestanker, Unterlegscheiben & Stahlfasern | Santura Engineering",
+      "description": "Hersteller von Feuerfestankern in Mumbai, Indien: SEPL-Anker für Stein-, Beton-, Doppel- und Keramikfaserauskleidungen, Scheiben und Edelstahlfasern."
+    },
+    "eyebrow": "Produkte",
+    "title": "Feuerfestanker, Unterlegscheiben & Stahlfasern",
+    "intro": "Das SEPL-Sortiment nach Auskleidungsart. Jeder Anker kann nach Ihrer Zeichnung, Ihrem Muster oder Ihrer Skizze gefertigt werden.",
+    "filterLabel": "Nach Auskleidungsart filtern",
+    "all": "Alle Produkte",
+    "linings": {
+      "brick": "Steinauskleidung",
+      "castable": "Beton- / Feuerbetonauskleidung",
+      "double": "Doppelauskleidung",
+      "ceramic": "Keramikfaserauskleidung",
+      "washers": "Unterlegscheiben",
+      "fibres": "Stahlfasern"
+    },
+    "liningIntro": {
+      "washers": "Runde, quadratische und rechteckige Ringe, Gewinderinge und aufsteckbare Halteclips, die die Auskleidung während der Montage fixieren.",
+      "fibres": "Schmelzextrahierte und kaltgezogene Edelstahlfasern für höhere Temperaturwechsel- und Rissbeständigkeit monolithischer Feuerfestauskleidungen."
+    },
+    "comingSoon": "Demnächst",
+    "viewProduct": "Produkt ansehen"
+  },
+  "productPage": {
+    "metaTitle": "{title} | Santura Engineering",
+    "metaDescription": {
+      "anchor": "{title} für {lining}. Nach Zeichnung gefertigt von Santura Engineering, Hersteller von Feuerfestankern in Mumbai, Indien.",
+      "fibre": "{title} zur Verstärkung von Feuerfestmaterial, von Santura Engineering, Hersteller von Feuerfestankern und Stahlfasern in Mumbai, Indien.",
+      "washer": "{title} für Feuerfestanker, nach Zeichnung gefertigt von Santura Engineering, Hersteller von Feuerfestankern in Mumbai, Indien."
+    },
+    "imageAlt": {
+      "anchor": "Feuerfestanker {title} aus {alloys}",
+      "anchorPlain": "Feuerfestanker {title}",
+      "fibre": "Stahlfaser für Feuerfest {title} aus {alloys}",
+      "fibrePlain": "Stahlfaser für Feuerfest {title}",
+      "washer": "{title} für Feuerfestanker aus {alloys}",
+      "washerPlain": "{title} für Feuerfestanker"
+    },
+    "code": "Produktcode",
+    "lining": "Auskleidungsart",
+    "section": "Querschnitt",
+    "sections": {
+      "round": "Rund (Draht / Stab)",
+      "flat": "Flach (Blech / Band)",
+      "various": "Verschiedene",
+      "ceramic": "Keramik"
+    },
+    "description": "Beschreibung",
+    "technicalEnglish": "Technische Beschreibungen sind auf Englisch verfügbar.",
+    "alloys": "Verfügbare Werkstoffe",
+    "grade": "Werkstoff",
+    "forms": {
+      "plate": "Blech",
+      "wire": "Draht",
+      "general": "Verfügbar"
+    },
+    "maxTemp": "Max. Dauereinsatztemperatur",
+    "typicalUse": "Typischer Einsatz",
+    "alloysOnRequest": "Werkstoffe auf Anfrage. Nennen Sie uns Ihre Betriebsbedingungen für eine Empfehlung.",
+    "alloyLegend": "CS = Kohlenstoffstahl · 601 = Inconel 601 · 800 = Incoloy 800 · 253MA = hitzebeständiger austenitischer Stahl",
+    "otherAlloys": "Weitere Werkstoffe auf Anfrage.",
+    "material": "Werkstoff",
+    "rfqTitle": "Angebot für dieses Produkt anfordern",
+    "rfqText": "Senden Sie uns Zeichnung, Muster oder Skizze mit Werkstoffgüte und Menge für {title}.",
+    "rfqButton": "Angebot für dieses Produkt anfordern",
+    "related": "Ähnliche Produkte",
+    "comingSoonTitle": "Produktseite in Vorbereitung",
+    "comingSoonText": "Die vollständigen Angaben zu diesem Produkt werden vorbereitet. Senden Sie uns Ihre Anforderungen, unser Ingenieurteam meldet sich bei Ihnen.",
+    "gallery": "Produktbilder",
+    "breadcrumb": "Brotkrümelnavigation"
+  },
+  "rfqForm": {
+    "fullName": "Vollständiger Name",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "company": "Firma",
+    "country": "Land",
+    "message": "Wonach suchen Sie?",
+    "submit": "Anfrage senden",
+    "sending": "Wird gesendet…",
+    "success": "Vielen Dank. Wir melden uns in Kürze bei Ihnen.",
+    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "productPrefix": "Produkt"
+  },
+  "rfqPage": {
+    "title": "Angebot für Feuerfestanker anfordern",
+    "description": "Fordern Sie ein Angebot bei Santura Engineering an, Hersteller von Feuerfestankern in Mumbai, Indien. Senden Sie Zeichnungen, Werkstoff und Mengen.",
+    "intro": "Füllen Sie Ihre Angaben aus, und unser Team meldet sich mit einem Angebot bei Ihnen."
+  },
+  "countryPage": {
+    "metaTitle": "Hersteller & Lieferant von Feuerfestankern | {country} | Santura Engineering",
+    "h1": "Hersteller & Lieferant von Feuerfestankern – {country}",
+    "eyebrow": "Exportmarkt · {country}",
+    "technicalEnglish": "Die technischen Angaben auf dieser Seite sind auf Englisch, der Arbeitssprache feuerfester Spezifikationen.",
+    "clientTitle": "Verifizierter Kunde – {country}",
+    "clientNote": "Lieferung durch unsere Export-Versanddokumente belegt.",
+    "spotlightEyebrow": "Technischer Schwerpunkt",
+    "industriesTitle": "Branchen, die wir beliefern – {country}",
+    "industriesNote": "Die Firmennamen beschreiben den Markt. Sie sind keine Liste von Kunden der Santura Engineering.",
+    "regionsTitle": "Industrieregionen und Häfen",
+    "productsTitle": "Empfohlene Produkte",
+    "viewProduct": "Produkt ansehen",
+    "shippingTitle": "Versand ab Mumbai",
+    "shippingIntro": "Die Anker werden in unserem Werk in MIDC Tarapur gefertigt und verpackt und ab Nhava Sheva (JNPT), Mumbai, verschifft.",
+    "destination": "Ziel",
+    "route": "Route",
+    "transit": "Transitzeit",
+    "documentsTitle": "Zertifikate und Dokumente",
+    "rfqTitle": "Angebot anfordern – Lieferung: {country}",
+    "rfqText": "Senden Sie Zeichnung oder Ankertyp, Werkstoff und Menge. Wir antworten mit Preis, Lieferzeit und Versand bis zu Ihrem Hafen.",
+    "rfqButton": "Angebot anfordern",
+    "referencesTitle": "Verifizierte Referenzen in Europa",
+    "referencesNote": "Lieferungen an Zementwerke, von jedem Kunden bestätigt.",
+    "clientNoteConfirmed": "Lieferung vom Kunden bestätigt.",
+    "qualityTitle": "Qualitätsnachweise"
+  },
+  "contactPage": {
+    "metaTitle": "Kontakt Santura Engineering | Hersteller von Feuerfestankern, Mumbai",
+    "metaDescription": "Kontakt zu Santura Engineering, Hersteller von Feuerfestankern in Mumbai seit 1980: E-Mail, Telefon, WhatsApp, Werksadresse und Anfrageformular.",
+    "h1": "Kontakt",
+    "intro": "Senden Sie uns Ihre Anfrage per E-Mail, Telefon oder WhatsApp oder über das Formular unten. Wir antworten an Werktagen.",
+    "officeTitle": "Hauptsitz & Werk",
+    "worksTitle": "Werk 2",
+    "emailTitle": "E-Mail",
+    "generalEmail": "Allgemeine Anfragen",
+    "phoneTitle": "Telefon",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "Nachricht per WhatsApp",
+    "hoursTitle": "Bürozeiten",
+    "mapTitle": "Standort",
+    "mapIframeTitle": "Karte: Santura Engineering, Darukhana, Mumbai",
+    "openMap": "In Google Maps öffnen",
+    "formTitle": "Anfrage senden",
+    "rfqNote": "Sie benötigen einen Preis für einen bestimmten Anker? Für Angebote nutzen Sie bitte unser eigenes Anfrageformular.",
+    "rfqLink": "Zum Angebotsformular"
+  },
+  "contactForm": {
+    "name": "Vollständiger Name",
+    "email": "E-Mail",
+    "company": "Unternehmen",
+    "country": "Land",
+    "message": "Nachricht",
+    "submit": "Nachricht senden",
+    "sending": "Wird gesendet…",
+    "success": "Vielen Dank. Ihre Nachricht wurde gesendet, wir antworten in Kürze.",
+    "error": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt.",
+    "privacyNote": "Wir verwenden diese Angaben nur zur Beantwortung Ihrer Anfrage.",
+    "privacyLink": "Datenschutzerklärung"
+  },
+  "aboutPage": {
+    "metaTitle": "Über Santura Engineering | Hersteller von Feuerfestankern seit 1980",
+    "metaDescription": "Santura Engineering, Mumbai: 1980 von Bharat Diwan gegründet, Feuerfestanker seit 2005, ISO 9001:2015 zertifiziert, Export in über 25 Länder.",
+    "h1": "Über Santura Engineering",
+    "intro": "Ein Hersteller von Feuerfestankern, Bolzenankern und Edelstahlfasern aus Mumbai, gegründet 1980, mit Export in über 25 Länder.",
+    "storyTitle": "Unsere Geschichte",
+    "story": [
+      "Das Unternehmen wurde 1980 in Mumbai von Herrn Bharat Diwan, einem Fertigungsingenieur, gegründet. Es begann als Maschinenbau- und Fertigungswerkstatt für die örtliche Industrie.",
+      "2005 nahm das Unternehmen die Fertigung von Feuerfestankern auf, 2008 wurde es als Santura Engineering Pvt. Ltd. eingetragen. Heute fertigt es die gesamte SEPL-Reihe an Ankern für Stein-, Beton-, Doppel- und Keramikfaserauskleidungen sowie Unterlegscheiben und Edelstahlfasern und beliefert Feuerfestfirmen und Anlagenbetreiber in Indien und im Ausland."
+    ],
+    "timelineTitle": "Meilensteine",
+    "timeline": [
+      {
+        "year": "1980",
+        "title": "Gründung in Mumbai",
+        "text": "Herr Bharat Diwan, Fertigungsingenieur, gründet das Unternehmen."
+      },
+      {
+        "year": "2005",
+        "title": "Feuerfestanker",
+        "text": "Beginn der Fertigung von Feuerfestankern."
+      },
+      {
+        "year": "2008",
+        "title": "Eintragung",
+        "text": "Eintragung als Santura Engineering Pvt. Ltd. am 9. Juli 2008."
+      },
+      {
+        "year": "2009–2012",
+        "title": "Linde-Zulassung",
+        "text": "Zugelassener Lieferant von Gegengewichtssystemen für Linde Engineering India."
+      },
+      {
+        "year": "Heute",
+        "title": "ISO 9001:2015",
+        "text": "Zertifiziert nach ISO 9001:2015, Export in über 25 Länder."
+      }
+    ],
+    "facilitiesTitle": "Fertigungsstandorte",
+    "darukhanaTitle": "Hauptsitz & Werk, Darukhana, Mumbai",
+    "darukhanaText": "Unser Hauptsitz und Werk liegen im Hafengebiet von Mumbai in Darukhana, in guter Reichweite von Nhava Sheva (JNPT), dem Hafen, von dem unsere Exporte verschifft werden.",
+    "tarapurTitle": "Werk 2, MIDC Tarapur",
+    "tarapurText": "Unser zweites Werk liegt im Industriegebiet MIDC Tarapur in Boisar, nördlich von Mumbai.",
+    "qualityTitle": "Qualität und Zulassungen",
+    "qualityText": "Wir sind nach ISO 9001:2015 für die Herstellung und Lieferung von Feuerfestankern und weichen Komponenten für Öfen zertifiziert und waren zugelassener Lieferant von Linde Engineering India.",
+    "qualityLink": "Zu unserer Qualitätsseite",
+    "clientsTitle": "Verifizierte Kunden",
+    "clientsNote": "Wir nennen nur Kunden, deren Belieferung wir belegen können.",
+    "cemexTitle": "CEMEX",
+    "cemexText": "Feuerfestanker für Zementwerke in Kroatien, Spanien (Planta de Alcanar) und Tschechien.",
+    "sriTitle": "Saudi Refractory Industries Co",
+    "sriText": "Exportlieferungen nach Al-Khobar, Saudi-Arabien.",
+    "productsTitle": "Unsere Produkte",
+    "productsText": "Die SEPL-Reihe, von den SEPL-01-Steinklammern bis zu den gewellten SEPL-30-Stahlfasern, aus Kohlenstoffstahl, Edelstählen wie SS 304 und SS 310 und Nickellegierungen einschließlich Inconel. Anker fertigen wir auch nach Kundenzeichnung.",
+    "productsLink": "Alle Produkte ansehen",
+    "exportTitle": "Export",
+    "exportText": "Wir exportieren in über 25 Länder im Nahen Osten, in Europa und auf dem amerikanischen Kontinent, mit Versand ab Nhava Sheva und vollständiger Dokumentation.",
+    "exportLink": "Ihr Land finden"
+  },
+  "qualityPage": {
+    "metaTitle": "Qualität, Prüfung & Zertifizierung | Santura Engineering",
+    "metaDescription": "Feuerfestanker-Hersteller mit ISO 9001:2015: PMI und Spektralanalyse, Maßkontrolle, Abnahmeprüfzeugnisse EN 10204 3.1, Rückverfolgbarkeit der Schmelze.",
+    "h1": "Qualität und Zertifizierung",
+    "intro": "Jeder Anker wird aus geprüftem Werkstoff gefertigt, vor dem Versand kontrolliert und mit Dokumenten geliefert, die ihn bis zur Schmelze zurückverfolgen.",
+    "isoTitle": "Zertifizierung nach ISO 9001:2015",
+    "standard": "Norm",
+    "certificateNo": "Zertifikatsnummer",
+    "issuer": "Zertifizierungsstelle",
+    "accreditation": "Akkreditierung",
+    "scope": "Geltungsbereich",
+    "validUntil": "Gültig bis",
+    "lindeTitle": "Zulassung durch Linde Engineering India",
+    "lindeText": "Santura Engineering war zugelassener Lieferant der Linde Engineering India Pvt Ltd.",
+    "lindeCompany": "Unternehmen",
+    "lindeScope": "Zugelassen für",
+    "lindeScopeValue": "Gegengewichtssysteme",
+    "lindeCode": "Lieferantennummer",
+    "lindePeriod": "Zeitraum",
+    "testingTitle": "Werkstoffprüfung und Kontrolle",
+    "testing": [
+      {
+        "title": "Positive Materialidentifikation (PMI)",
+        "text": "Prüfung der Legierung bei Wareneingang und erneut bei der Endkontrolle."
+      },
+      {
+        "title": "Spektralanalyse",
+        "text": "Chemische Zusammensetzung per Spektralanalyse gegen den vorgegebenen Werkstoff geprüft."
+      },
+      {
+        "title": "Maßkontrolle",
+        "text": "Maße, Biegungen und Schweißenden werden gegen die Zeichnung geprüft."
+      },
+      {
+        "title": "Mechanische und Korrosionsprüfungen",
+        "text": "Härteprüfung, auf Anfrage Zug-, Kerbschlag-, Prüflast- und Korrosionsprüfungen, bei Bedarf in NABL-akkreditierten Laboren."
+      },
+      {
+        "title": "Abnahme durch Dritte",
+        "text": "Alle Prüfungen können vom Kunden oder einer benannten Prüfstelle abgenommen werden."
+      }
+    ],
+    "documentsTitle": "Mitgelieferte Dokumente",
+    "documents": [
+      "Abnahmeprüfzeugnisse 3.1 nach EN 10204",
+      "Konformitätsbescheinigungen",
+      "Rückverfolgbarkeit über die Schmelzennummer vom Werkszeugnis bis zum fertigen Anker",
+      "PMI-Berichte",
+      "Bescheinigungen über chemische Analyse und Lösungsglühen"
+    ],
+    "standardsTitle": "Werkstoffnormen",
+    "standardsIntro": "Die Werkstoffe werden nach den folgenden Normen geliefert oder nach der in Ihrer Spezifikation genannten Norm.",
+    "standardCol": "Norm",
+    "coversCol": "Gegenstand",
+    "standards": {
+      "A240": "Bleche und Bänder aus nichtrostendem Stahl",
+      "A276": "Stäbe und Profile aus nichtrostendem Stahl",
+      "A484": "Allgemeine Anforderungen an Stäbe, Knüppel und Schmiedestücke aus nichtrostendem Stahl",
+      "B166": "Stäbe und Draht aus Nickel-Chrom-Eisen-Legierungen (z. B. Inconel 600)",
+      "B168": "Bleche und Bänder aus Nickel-Chrom-Eisen-Legierungen",
+      "DIN17440": "Nichtrostende Stähle: technische Lieferbedingungen für Blech, Stäbe und Draht"
+    },
+    "clientCertsTitle": "Kundenzertifikate",
+    "clientCertsText": "Zertifikate und Referenzschreiben unserer Kunden werden hier veröffentlicht."
+  },
+  "privacyPage": {
+    "metaTitle": "Datenschutzerklärung | Santura Engineering",
+    "metaDescription": "Wie die Santura Engineering Pvt. Ltd. Daten aus Kontakt-, Angebots- und Newsletterformularen, Google Analytics und Cookies erhebt und nutzt.",
+    "h1": "Datenschutzerklärung",
+    "updated": "Stand: {date}",
+    "intro": "Diese Erklärung beschreibt, welche personenbezogenen Daten die Santura Engineering Pvt. Ltd. über diese Website erhebt, warum wir sie erheben und welche Rechte Sie haben.",
+    "sections": [
+      {
+        "title": "1. Verantwortlicher",
+        "body": [
+          "Verantwortlich für die in dieser Erklärung beschriebenen personenbezogenen Daten ist die Santura Engineering Pvt. Ltd. (CIN U74200MH2008PTC184443), BPT Plot No. 200, 201, Quay Street, Darukhana, Reay Road, Mumbai 400010, Indien. Sie erreichen uns unter enquiries@santura-eng.com."
+        ]
+      },
+      {
+        "title": "2. Welche Daten wir erheben",
+        "body": [
+          "Kontaktformular: Ihr Name, Ihre E-Mail-Adresse, Ihr Unternehmen, Ihr Land und Ihre Nachricht.",
+          "Angebotsformular (RFQ): Ihr Name, Ihre E-Mail-Adresse, Telefonnummer, Ihr Unternehmen, Ihr Land sowie die von Ihnen gesendeten Produkt- und Projektangaben.",
+          "Newsletter: Ihre E-Mail-Adresse, die Sprache der Seite und die Seite, auf der Sie sich angemeldet haben.",
+          "Analyse: Wenn Sie Analyse-Cookies akzeptieren, erfasst Google Analytics 4 die besuchten Seiten, die Verweildauer, die verweisende Website, Geräte- und Browsertyp sowie Ihren ungefähren Standort. Wir nutzen dies nicht, um Sie zu identifizieren.",
+          "Kommunikation: E-Mails und WhatsApp-Nachrichten, die Sie uns direkt senden."
+        ]
+      },
+      {
+        "title": "3. Wofür wir Ihre Daten verwenden",
+        "body": [
+          "Wir verwenden Ihre Daten, um Anfragen zu beantworten, Angebote zu erstellen, Aufträge abzuwickeln und nachzubearbeiten, unseren Newsletter zu versenden, sofern Sie ihn abonniert haben, die Nutzung der Website zu verstehen und sie zu verbessern sowie unsere rechtlichen und buchhalterischen Pflichten zu erfüllen. Wir verkaufen Ihre Daten nicht und nutzen sie nicht für automatisierte Entscheidungen."
+        ]
+      },
+      {
+        "title": "4. Rechtsgrundlage",
+        "body": [
+          "Für Besucher aus dem Europäischen Wirtschaftsraum und dem Vereinigten Königreich: Anfragen und Angebotsanfragen bearbeiten wir zur Durchführung vorvertraglicher Maßnahmen auf Ihre Anfrage und aufgrund unseres berechtigten Interesses an der Beantwortung geschäftlicher Anfragen (Art. 6 Abs. 1 lit. b und f DSGVO); Newsletter und Analyse-Cookies beruhen auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), die Sie jederzeit widerrufen können; die Aufbewahrung für Steuer- und Buchhaltungszwecke ist eine rechtliche Pflicht. Für Besucher aus Indien verarbeiten wir Daten nach dem Digital Personal Data Protection Act, 2023."
+        ]
+      },
+      {
+        "title": "5. Cookies",
+        "body": [
+          "Notwendig: Ein Sprach-Cookie (NEXT_LOCALE) speichert die von Ihnen gewählte Sprache. Es dient nicht der Verfolgung.",
+          "Analyse: Google Analytics 4 setzt Cookies wie _ga, um Besuche zu zählen und die Nutzung der Website zu messen. Diese werden nur gesetzt, wenn Sie zustimmen.",
+          "Karten: Die Karte auf unserer Kontaktseite wird von Google Maps bereitgestellt, das beim Laden der Karte eigene Cookies setzen kann.",
+          "Sie können Cookies in Ihren Browsereinstellungen löschen oder blockieren. Das Blockieren von Analyse-Cookies beeinträchtigt die Funktion der Website nicht."
+        ]
+      },
+      {
+        "title": "6. Empfänger",
+        "body": [
+          "Wir geben Daten nur an Dienstleister weiter, die die Website für uns betreiben: Supabase (Formulardatenbank), Vercel (Hosting) und Google (Analyse und Karten). Sie verarbeiten die Daten nach unseren Weisungen. Wir können Daten zudem offenlegen, wenn das Gesetz es verlangt, etwa gegenüber Steuerbehörden oder Gerichten."
+        ]
+      },
+      {
+        "title": "7. Übermittlung in Drittländer",
+        "body": [
+          "Unsere Dienstleister können Daten außerhalb Ihres Landes speichern, auch in den Vereinigten Staaten und der Europäischen Union. Werden Daten aus dem EWR oder dem Vereinigten Königreich übermittelt, sind sie durch vertragliche Garantien der Anbieter geschützt, etwa die Standardvertragsklauseln der Europäischen Kommission."
+        ]
+      },
+      {
+        "title": "8. Speicherdauer",
+        "body": [
+          "Anfragen und Angebotsanfragen speichern wir so lange, wie es für ihre Bearbeitung und unsere Geschäftsbeziehung nötig ist, sowie für längere steuer- oder handelsrechtliche Aufbewahrungsfristen. Newsletterdaten speichern wir bis zu Ihrer Abmeldung. Analysedaten werden gemäß unseren Aufbewahrungseinstellungen in Google Analytics gespeichert."
+        ]
+      },
+      {
+        "title": "9. Sicherheit",
+        "body": [
+          "Formulardaten werden verschlüsselt (HTTPS) übertragen und in einer Datenbank mit Zugriffskontrollen gespeichert. Besucher der Website können Formulare absenden, gespeicherte Einsendungen aber nicht lesen."
+        ]
+      },
+      {
+        "title": "10. Ihre Rechte",
+        "body": [
+          "Sie können Auskunft über Ihre personenbezogenen Daten verlangen, sie berichtigen oder löschen lassen, der Verarbeitung widersprechen oder sie einschränken lassen, eine Kopie erhalten und eine Einwilligung jederzeit widerrufen. Zur Abmeldung vom Newsletter nutzen Sie den Link in jeder Newsletter-E-Mail oder schreiben uns. Zur Ausübung Ihrer Rechte schreiben Sie an enquiries@santura-eng.com. Sie können sich außerdem bei der Datenschutzaufsichtsbehörde Ihres Landes beschweren."
+        ]
+      },
+      {
+        "title": "11. Kinder",
+        "body": [
+          "Diese Website richtet sich an Unternehmen und nicht an Kinder. Wir erheben wissentlich keine Daten von Kindern."
+        ]
+      },
+      {
+        "title": "12. Änderungen",
+        "body": [
+          "Wir können diese Erklärung anpassen, wenn sich unsere Website oder die Rechtslage ändert. Das Datum oben auf dieser Seite zeigt den letzten Stand."
+        ]
+      }
+    ]
+  },
+  "disclaimerPage": {
+    "metaTitle": "Haftungsausschluss | Santura Engineering",
+    "metaDescription": "Haftungsausschluss der Santura Engineering Website: Produktangaben, technische Daten, Preise und Verfügbarkeit werden bei Auftragserteilung bestätigt.",
+    "h1": "Haftungsausschluss",
+    "updated": "Stand: {date}",
+    "intro": "Die Informationen auf dieser Website stellt die Santura Engineering Pvt. Ltd. zur allgemeinen Orientierung bereit. Bitte lesen Sie diesen Haftungsausschluss, bevor Sie sich darauf stützen.",
+    "sections": [
+      {
+        "title": "1. Technische Daten dienen nur der Orientierung",
+        "body": [
+          "Produktbeschreibungen, Maße, Werkstoffe, maximale Einsatztemperaturen, Ankerabstände und sonstige technische Angaben auf dieser Website sind typische Richtwerte. Sie sind keine Spezifikation und keine Leistungsgarantie. Für Ihren Auftrag gelten die Angaben in der freigegebenen Zeichnung, unserer Auftragsbestätigung und den mit der Ware gelieferten Prüfbescheinigungen."
+        ]
+      },
+      {
+        "title": "2. Auswahl und Eignung",
+        "body": [
+          "Die Wahl von Ankertyp, Werkstoff, Abstand und Einbauverfahren hängt von der Auskleidung, den Betriebsbedingungen und dem Feuerfestmaterial ab. Sie liegt in der Verantwortung des Käufers und seiner Ingenieure. Unsere Empfehlungen beruhen auf den uns übermittelten Angaben."
+        ]
+      },
+      {
+        "title": "3. Preise und Angebote",
+        "body": [
+          "Auf dieser Website werden keine Preise veröffentlicht. Preise nennen wir nur in schriftlichen Angeboten. Diese gelten für den angegebenen Zeitraum und können sich mit Rohstoffkosten, Wechselkursen, Mengen und Lieferbedingungen ändern."
+        ]
+      },
+      {
+        "title": "4. Verfügbarkeit und Lieferzeiten",
+        "body": [
+          "Gezeigte Produkte, Werkstoffe und Größen sind lieferbar, solange verfügbar. Liefer- und Transitzeiten sind Schätzungen und werden bei Auftragserteilung bestätigt. Mit „Demnächst“ gekennzeichnete Produkte sind noch nicht erhältlich."
+        ]
+      },
+      {
+        "title": "5. Abbildungen und Zeichnungen",
+        "body": [
+          "Fotos und Zeichnungen dienen der Veranschaulichung. Die gelieferten Produkte können in Farbe, Oberfläche und Details abweichen."
+        ]
+      },
+      {
+        "title": "6. Branchen- und Firmennamen",
+        "body": [
+          "Auf unseren Länderseiten genannte Unternehmen und Werke beschreiben die Industrie des jeweiligen Marktes. Sie sind keine Kunden der Santura Engineering, sofern eine Seite nicht ausdrücklich einen verifizierten Kunden nennt."
+        ]
+      },
+      {
+        "title": "7. Marken",
+        "body": [
+          "Inconel und Incoloy sind Marken der Special Metals Corporation. 253 MA ist eine Marke von Outokumpu. Andere Produkt- und Firmennamen gehören ihren jeweiligen Inhabern und dienen nur der Kennzeichnung."
+        ]
+      },
+      {
+        "title": "8. Externe Links",
+        "body": [
+          "Links zu anderen Websites dienen Ihrer Bequemlichkeit. Für deren Inhalte sind wir nicht verantwortlich."
+        ]
+      },
+      {
+        "title": "9. Haftungsbeschränkung",
+        "body": [
+          "Soweit gesetzlich zulässig, haftet die Santura Engineering Pvt. Ltd. nicht für Schäden, die aus der Nutzung der Informationen auf dieser Website oder dem Vertrauen darauf entstehen. Lieferungen unterliegen den Bedingungen des jeweiligen Auftrags."
+        ]
+      },
+      {
+        "title": "10. Übersetzungen",
+        "body": [
+          "Diese Website ist in mehreren Sprachen verfügbar. Weicht eine Übersetzung von der englischen Fassung ab, gilt die englische Fassung."
+        ]
+      },
+      {
+        "title": "11. Kontakt",
+        "body": [
+          "Fragen zu diesem Haftungsausschluss richten Sie bitte an enquiries@santura-eng.com."
+        ]
+      }
+    ]
   }
 }

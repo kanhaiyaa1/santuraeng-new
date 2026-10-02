@@ -3,17 +3,602 @@
     "home": "Home",
     "products": "Prodotti",
     "rfq": "Richiedi un Preventivo",
-    "language": "Lingua"
+    "language": "Lingua",
+    "about": "Chi siamo",
+    "quality": "Qualità",
+    "contact": "Contatti",
+    "privacy": "Informativa sulla privacy",
+    "disclaimer": "Note legali"
   },
   "hero": {
-    "title": "Ancoraggi Refrattari e Lavorazioni in Acciaio per Industrie ad Alta Temperatura",
-    "subtitle": "Produciamo ed esportiamo sistemi di ancoraggio refrattario, lavorazioni in acciaio inossidabile e componenti per l'isolamento termico, fornendo le industrie petrolchimica, del cemento, energetica e dell'alluminio in oltre 20 paesi dal 1980."
+    "eyebrow": "Santura Engineering Pvt. Ltd. · Mumbai, India",
+    "title": "Produttore ed Esportatore di Ancoraggi Refrattari",
+    "subtitle": "Ancoraggi refrattari, perni per fibra e fibre in acciaio inossidabile per rivestimenti in mattoni, calcestruzzo refrattario e fibra ceramica, prodotti a Mumbai e spediti a progetti internazionali dal porto di Nhava Sheva.",
+    "imageAlt": "Unità di processo di una raffineria con colonne e forni rivestiti in refrattario"
   },
   "cta": {
     "getQuote": "Richiedi un Preventivo",
     "viewProducts": "Vedi i Prodotti"
   },
   "common": {
+    "whatsapp": "Chatta su WhatsApp",
+    "facts": "Dal 1980 · Esportiamo in oltre 25 paesi · Certificazione ISO 9001:2015"
+  },
+  "meta": {
+    "home": {
+      "title": "Produttore ed Esportatore di Ancoraggi Refrattari | Santura Engineering",
+      "description": "Produttore di ancoraggi refrattari a Mumbai, India, dal 1980, con export in oltre 25 paesi. Ancoraggi per rivestimenti in mattoni, calcestruzzo e fibra."
+    }
+  },
+  "categories": {
+    "eyebrow": "Prodotti",
+    "title": "Ancoraggi Refrattari per Tipo di Rivestimento",
+    "subtitle": "Modelli standard SEPL o ancoraggi su misura secondo i vostri disegni, in acciaio al carbonio, acciaio inossidabile e leghe di nichel.",
+    "viewRange": "Vedi la gamma",
+    "items": {
+      "brick": {
+        "name": "Rivestimento in Mattoni",
+        "description": "Graffe, mensole, artigli, clip a forbice e ancoraggi di ritenuta per mattoni densi e isolanti.",
+        "imageAlt": "Disegno dell'ancoraggio refrattario graffa per mattoni SEPL-01"
+      },
+      "castable": {
+        "name": "Rivestimento in Calcestruzzo Refrattario",
+        "description": "Ancoraggi a Y, V, corno, H e a sezione piatta per calcestruzzi e gunite da leggeri a densi.",
+        "imageAlt": "Disegno dell'ancoraggio refrattario Y divaricato SEPL-06"
+      },
+      "double": {
+        "name": "Rivestimento Doppio",
+        "description": "Ancoraggi a doppio perno, con dado, avvitabili e perni asolati per una faccia calda densa sostenuta da strati isolanti.",
+        "imageAlt": "Disegno dell'ancoraggio refrattario a doppio perno SEPL-20"
+      },
+      "ceramic": {
+        "name": "Rivestimento in Fibra Ceramica",
+        "description": "Perni per fibra saldati e perni filettati con rondelle ceramiche per coperte e moduli.",
+        "imageAlt": "Ancoraggi refrattari perno per fibra SEPL-24 in SS310 e Inconel"
+      }
+    }
+  },
+  "trust": {
+    "eyebrow": "Referenze",
+    "title": "Forniture Documentate",
+    "subtitle": "Solo referenze documentate. Le spedizioni in esportazione partono dal porto di Nhava Sheva (JNPT), Mumbai.",
+    "items": {
+      "cemex": {
+        "title": "CEMEX",
+        "text": "Ancoraggi refrattari forniti a cementifici CEMEX in Croazia, Spagna e Repubblica Ceca."
+      },
+      "sri": {
+        "title": "Saudi Refractory Industries Co",
+        "text": "Fornitura in esportazione ad Al-Khobar, Arabia Saudita, documentata da documenti di spedizione."
+      },
+      "established": {
+        "title": "Dal 1980",
+        "text": "Produciamo ancoraggi refrattari a Mumbai dal 1980 ed esportiamo in oltre 25 paesi."
+      },
+      "testing": {
+        "title": "Materiale Verificato PMI",
+        "text": "Identificazione positiva dei materiali al ricevimento e al collaudo finale, con certificati di acciaieria."
+      },
+      "iso": {
+        "title": "Certificazione ISO 9001:2015",
+        "text": "Certificato {number}, rilasciato da URS e accreditato UKAS, valido fino al {date}. Campo di applicazione: «{scope}»"
+      },
+      "linde": {
+        "title": "Linde Engineering India",
+        "text": "Fornitore approvato di sistemi di contrappeso, codice fornitore {code}, {period}."
+      }
+    }
+  },
+  "industries": {
+    "eyebrow": "Settori",
+    "title": "Settori che Riforniamo",
+    "subtitle": "Sistemi di ancoraggio per impianti ad alta temperatura nell'industria di processo e pesante.",
+    "items": {
+      "oilGas": {
+        "name": "Oil & Gas e Petrolchimico",
+        "description": "Forni di processo, reformer a vapore, unità FCC e unità di recupero dello zolfo.",
+        "imageAlt": "Raffineria e impianto petrolchimico"
+      },
+      "cement": {
+        "name": "Cemento e Calce",
+        "description": "Preriscaldatori, calcinatori, forni rotativi e raffreddatori di clinker.",
+        "imageAlt": "Polvere di cemento"
+      },
+      "steel": {
+        "name": "Acciaio e Ferro",
+        "description": "Altiforni, siviere, forni di riscaldo e forni a coke.",
+        "imageAlt": "Colata di acciaio fuso con scintille"
+      },
+      "power": {
+        "name": "Energia e Caldaie",
+        "description": "Caldaie CFBC, HRSG, termovalorizzatori e caldaie a biomassa.",
+        "imageAlt": "Tralicci dell'alta tensione al tramonto"
+      }
+    }
+  },
+  "countries": {
+    "eyebrow": "Nel mondo",
+    "title": "Seleziona il tuo Paese",
+    "subtitle": "Informazioni regionali per gli acquirenti di ancoraggi refrattari in ogni mercato.",
+    "names": {
+      "AE": "Emirati Arabi Uniti",
+      "SA": "Arabia Saudita",
+      "DE": "Germania",
+      "TR": "Turchia",
+      "BR": "Brasile",
+      "NL": "Paesi Bassi",
+      "IT": "Italia",
+      "FR": "Francia",
+      "PL": "Polonia",
+      "BE": "Belgio",
+      "ES": "Spagna",
+      "MX": "Messico",
+      "GB": "Regno Unito",
+      "CA": "Canada"
+    },
+    "languages": {
+      "en": "inglese",
+      "fr": "francese",
+      "nl": "olandese"
+    }
+  },
+  "rfq": {
+    "title": "Richiedi un Preventivo per Ancoraggi Refrattari",
+    "text": "Inviateci disegni, lega e quantità. Il nostro team di ingegneria esamina ogni disegno prima di formulare l'offerta.",
+    "button": "Richiedi un Preventivo",
     "whatsapp": "Chatta su WhatsApp"
+  },
+  "footer": {
+    "tagline": "Ancoraggi refrattari, perni di ancoraggio e fibre in acciaio inossidabile prodotti a Mumbai, India.",
+    "contact": "Contatti",
+    "headOffice": "Sede e Stabilimento 1",
+    "works": "Stabilimento 2",
+    "email": "E-mail",
+    "phone": "Telefono",
+    "hours": "Orari",
+    "hoursValue": "Lun–Sab 08:00–18:00 IST · Domenica chiuso",
+    "quickLinks": "Link Rapidi",
+    "cin": "CIN",
+    "rights": "Tutti i diritti riservati.",
+    "company": "Azienda",
+    "legal": "Note legali"
+  },
+  "products": {
+    "meta": {
+      "title": "Ancoraggi Refrattari, Rondelle e Fibre d'Acciaio | Santura Engineering",
+      "description": "Produttore di ancoraggi refrattari a Mumbai, India: ancoraggi SEPL per mattoni, calcestruzzo, rivestimenti doppi e fibra ceramica, rondelle e fibre inox."
+    },
+    "eyebrow": "Prodotti",
+    "title": "Ancoraggi Refrattari, Rondelle e Fibre d'Acciaio",
+    "intro": "La gamma SEPL raggruppata per tipo di rivestimento. Ogni ancoraggio può essere prodotto secondo il vostro disegno, campione o schizzo.",
+    "filterLabel": "Filtra per tipo di rivestimento",
+    "all": "Tutti i prodotti",
+    "linings": {
+      "brick": "Rivestimento in Mattoni",
+      "castable": "Rivestimento in Calcestruzzo Refrattario",
+      "double": "Rivestimento Doppio",
+      "ceramic": "Rivestimento in Fibra Ceramica",
+      "washers": "Rondelle",
+      "fibres": "Fibre d'Acciaio"
+    },
+    "liningIntro": {
+      "washers": "Anelli tondi, quadrati e rettangolari, anelli filettati e clip di montaggio da inserire sui perni per trattenere il rivestimento durante la posa.",
+      "fibres": "Fibre in acciaio inossidabile per estrazione da fuso e trafilate a freddo che aumentano la resistenza a shock termico e fessurazione dei refrattari monolitici."
+    },
+    "comingSoon": "Prossimamente",
+    "viewProduct": "Vedi prodotto"
+  },
+  "productPage": {
+    "metaTitle": "{title} | Santura Engineering",
+    "metaDescription": {
+      "anchor": "{title} per {lining}. Prodotto su disegno da Santura Engineering, produttore di ancoraggi refrattari a Mumbai, India.",
+      "fibre": "{title} per il rinforzo dei refrattari, da Santura Engineering, produttore di ancoraggi refrattari e fibre d'acciaio a Mumbai, India.",
+      "washer": "{title} per ancoraggi refrattari, prodotto su disegno da Santura Engineering, produttore di ancoraggi refrattari a Mumbai, India."
+    },
+    "imageAlt": {
+      "anchor": "Ancoraggio refrattario {title} in {alloys}",
+      "anchorPlain": "Ancoraggio refrattario {title}",
+      "fibre": "Fibra d'acciaio per refrattari {title} in {alloys}",
+      "fibrePlain": "Fibra d'acciaio per refrattari {title}",
+      "washer": "{title} per ancoraggi refrattari in {alloys}",
+      "washerPlain": "{title} per ancoraggi refrattari"
+    },
+    "code": "Codice prodotto",
+    "lining": "Tipo di rivestimento",
+    "section": "Sezione",
+    "sections": {
+      "round": "Tonda (filo / barra)",
+      "flat": "Piatta (lamiera / nastro)",
+      "various": "Varie",
+      "ceramic": "Ceramica"
+    },
+    "description": "Descrizione",
+    "technicalEnglish": "Le descrizioni tecniche sono disponibili in inglese.",
+    "alloys": "Leghe disponibili",
+    "grade": "Lega",
+    "forms": {
+      "plate": "Lamiera",
+      "wire": "Filo",
+      "general": "Disponibile"
+    },
+    "maxTemp": "Temp. max di esercizio continuo",
+    "typicalUse": "Impiego tipico",
+    "alloysOnRequest": "Leghe su richiesta. Inviateci le condizioni di esercizio per una raccomandazione.",
+    "alloyLegend": "CS = acciaio al carbonio · 601 = Inconel 601 · 800 = Incoloy 800 · 253MA = acciaio austenitico resistente al calore",
+    "otherAlloys": "Altre leghe disponibili su richiesta.",
+    "material": "Materiale",
+    "rfqTitle": "Richiedi un Preventivo per questo Prodotto",
+    "rfqText": "Inviateci disegno, campione o schizzo con lega e quantità per {title}.",
+    "rfqButton": "Richiedi un Preventivo per questo Prodotto",
+    "related": "Prodotti correlati",
+    "comingSoonTitle": "Pagina prodotto in arrivo",
+    "comingSoonText": "Stiamo preparando i dettagli completi di questo prodotto. Inviateci le vostre esigenze e il nostro team di ingegneria vi ricontatterà.",
+    "gallery": "Immagini del prodotto",
+    "breadcrumb": "Percorso di navigazione"
+  },
+  "rfqForm": {
+    "fullName": "Nome e cognome",
+    "email": "E-mail",
+    "phone": "Telefono",
+    "company": "Azienda",
+    "country": "Paese",
+    "message": "Cosa state cercando?",
+    "submit": "Invia Richiesta",
+    "sending": "Invio in corso…",
+    "success": "Grazie. Vi ricontatteremo a breve.",
+    "error": "Si è verificato un errore. Riprovate.",
+    "productPrefix": "Prodotto"
+  },
+  "rfqPage": {
+    "title": "Richiedi un Preventivo per Ancoraggi Refrattari",
+    "description": "Richiedi un preventivo a Santura Engineering, produttore di ancoraggi refrattari a Mumbai, India. Invia disegni, lega e quantità.",
+    "intro": "Compilate i vostri dati e il nostro team vi invierà un preventivo."
+  },
+  "countryPage": {
+    "metaTitle": "Produttore e Fornitore di Ancoraggi Refrattari | {country} | Santura Engineering",
+    "h1": "Produttore e Fornitore di Ancoraggi Refrattari – {country}",
+    "eyebrow": "Mercato di esportazione · {country}",
+    "technicalEnglish": "I dettagli tecnici di questa pagina sono in inglese, la lingua di lavoro delle specifiche refrattarie.",
+    "clientTitle": "Cliente verificato – {country}",
+    "clientNote": "Fornitura confermata dai nostri documenti di spedizione all'esportazione.",
+    "spotlightEyebrow": "Focus tecnico",
+    "industriesTitle": "Settori che serviamo – {country}",
+    "industriesNote": "I nomi delle aziende descrivono il mercato. Non sono un elenco di clienti di Santura Engineering.",
+    "regionsTitle": "Regioni industriali e porti",
+    "productsTitle": "Prodotti consigliati",
+    "viewProduct": "Vedi prodotto",
+    "shippingTitle": "Spedizione da Mumbai",
+    "shippingIntro": "Gli ancoraggi sono prodotti e imballati nel nostro stabilimento di MIDC Tarapur e spediti da Nhava Sheva (JNPT), Mumbai.",
+    "destination": "Destinazione",
+    "route": "Rotta",
+    "transit": "Tempo di transito",
+    "documentsTitle": "Certificati e documenti",
+    "rfqTitle": "Richiedi un preventivo – consegna: {country}",
+    "rfqText": "Inviate il disegno o il tipo di ancoraggio, la lega e la quantità. Rispondiamo con prezzo, tempi di consegna e spedizione fino al vostro porto.",
+    "rfqButton": "Richiedi Preventivo",
+    "referencesTitle": "Referenze verificate in Europa",
+    "referencesNote": "Forniture a cementifici confermate da ciascun cliente.",
+    "clientNoteConfirmed": "Fornitura confermata dal cliente.",
+    "qualityTitle": "Approvazioni di qualità"
+  },
+  "contactPage": {
+    "metaTitle": "Contatti Santura Engineering | Produttore di ancoraggi refrattari, Mumbai",
+    "metaDescription": "Contatta Santura Engineering, produttore di ancoraggi refrattari a Mumbai dal 1980: e-mail, telefono, WhatsApp, indirizzo e modulo di richiesta.",
+    "h1": "Contatti",
+    "intro": "Inviateci la vostra richiesta via e-mail, telefono o WhatsApp, oppure usate il modulo qui sotto. Rispondiamo nei giorni lavorativi.",
+    "officeTitle": "Sede e stabilimento",
+    "worksTitle": "Stabilimento 2",
+    "emailTitle": "E-mail",
+    "generalEmail": "Richieste generali",
+    "phoneTitle": "Telefono",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "Scriveteci su WhatsApp",
+    "hoursTitle": "Orari",
+    "mapTitle": "Dove siamo",
+    "mapIframeTitle": "Mappa: Santura Engineering, Darukhana, Mumbai",
+    "openMap": "Apri in Google Maps",
+    "formTitle": "Invia una richiesta",
+    "rfqNote": "Vi serve il prezzo di un ancoraggio specifico? Per i preventivi usate il nostro modulo di richiesta preventivo.",
+    "rfqLink": "Vai al modulo preventivo"
+  },
+  "contactForm": {
+    "name": "Nome e cognome",
+    "email": "E-mail",
+    "company": "Azienda",
+    "country": "Paese",
+    "message": "Messaggio",
+    "submit": "Invia messaggio",
+    "sending": "Invio in corso…",
+    "success": "Grazie. Il vostro messaggio è stato inviato e risponderemo a breve.",
+    "error": "Non è stato possibile inviare il messaggio. Riprovate o scriveteci direttamente.",
+    "privacyNote": "Usiamo questi dati solo per rispondere alla vostra richiesta.",
+    "privacyLink": "Informativa sulla privacy"
+  },
+  "aboutPage": {
+    "metaTitle": "Chi è Santura Engineering | Produttore di ancoraggi refrattari dal 1980",
+    "metaDescription": "Santura Engineering, Mumbai: fondata nel 1980 da Bharat Diwan, ancoraggi refrattari dal 2005, certificata ISO 9001:2015, export in oltre 25 paesi.",
+    "h1": "Chi è Santura Engineering",
+    "intro": "Produttore di ancoraggi refrattari, perni di ancoraggio e fibre in acciaio inossidabile a Mumbai, fondato nel 1980 e con export in oltre 25 paesi.",
+    "storyTitle": "La nostra storia",
+    "story": [
+      "L'azienda è stata fondata a Mumbai nel 1980 dal Sig. Bharat Diwan, ingegnere di produzione. È nata come officina meccanica e di carpenteria al servizio dell'industria locale.",
+      "Nel 2005 ha avviato la produzione di ancoraggi refrattari e nel 2008 è stata costituita come Santura Engineering Pvt. Ltd. Oggi produce l’intera gamma SEPL di ancoraggi per rivestimenti in mattoni, calcestruzzo, doppi e in fibra ceramica, oltre a rondelle e fibre in acciaio inossidabile, per imprese di refrattari e gestori di impianti in India e all’estero."
+    ],
+    "timelineTitle": "Tappe principali",
+    "timeline": [
+      {
+        "year": "1980",
+        "title": "Fondazione a Mumbai",
+        "text": "Il Sig. Bharat Diwan, ingegnere di produzione, fonda l’azienda."
+      },
+      {
+        "year": "2005",
+        "title": "Ancoraggi refrattari",
+        "text": "Inizia la produzione di ancoraggi refrattari."
+      },
+      {
+        "year": "2008",
+        "title": "Costituzione",
+        "text": "Costituzione di Santura Engineering Pvt. Ltd. il 9 luglio 2008."
+      },
+      {
+        "year": "2009–2012",
+        "title": "Qualifica Linde",
+        "text": "Fornitore qualificato di sistemi di contrappeso per Linde Engineering India."
+      },
+      {
+        "year": "Oggi",
+        "title": "ISO 9001:2015",
+        "text": "Certificata ISO 9001:2015, con export in oltre 25 paesi."
+      }
+    ],
+    "facilitiesTitle": "Stabilimenti produttivi",
+    "darukhanaTitle": "Sede e stabilimento, Darukhana, Mumbai",
+    "darukhanaText": "La sede e lo stabilimento si trovano nell’area portuale di Mumbai, a Darukhana, a breve distanza da Nhava Sheva (JNPT), il porto da cui partono le nostre esportazioni.",
+    "tarapurTitle": "Stabilimento 2, MIDC Tarapur",
+    "tarapurText": "Il secondo stabilimento si trova nell’area industriale MIDC Tarapur, a Boisar, a nord di Mumbai.",
+    "qualityTitle": "Qualità e qualifiche",
+    "qualityText": "Siamo certificati ISO 9001:2015 per la produzione e fornitura di ancoraggi refrattari e componenti morbidi per forni, e siamo stati fornitore qualificato di Linde Engineering India.",
+    "qualityLink": "Vedi la pagina qualità",
+    "clientsTitle": "Clienti verificati",
+    "clientsNote": "Citiamo solo clienti di cui possiamo documentare la fornitura.",
+    "cemexTitle": "CEMEX",
+    "cemexText": "Ancoraggi refrattari per cementifici in Croazia, Spagna (Planta de Alcanar) e Repubblica Ceca.",
+    "sriTitle": "Saudi Refractory Industries Co",
+    "sriText": "Forniture in esportazione ad Al-Khobar, Arabia Saudita.",
+    "productsTitle": "Cosa produciamo",
+    "productsText": "La gamma SEPL, dalle graffe per mattoni SEPL-01 alle fibre in acciaio ondulate SEPL-30, in acciaio al carbonio, acciai inossidabili come SS 304 e SS 310 e leghe di nichel come l’Inconel. Produciamo anche su disegno del cliente.",
+    "productsLink": "Vedi tutti i prodotti",
+    "exportTitle": "Esportazione",
+    "exportText": "Esportiamo in oltre 25 paesi in Medio Oriente, Europa e nelle Americhe, con spedizione da Nhava Sheva e documentazione completa.",
+    "exportLink": "Trova il tuo paese"
+  },
+  "qualityPage": {
+    "metaTitle": "Qualità, prove e certificazione | Santura Engineering",
+    "metaDescription": "Produttore di ancoraggi refrattari certificato ISO 9001:2015: PMI e spettrometria, controllo dimensionale, certificati EN 10204 3.1, tracciabilità.",
+    "h1": "Qualità e certificazione",
+    "intro": "Ogni ancoraggio è prodotto con materiale verificato, controllato prima della spedizione e fornito con documenti che lo collegano alla colata d’origine.",
+    "isoTitle": "Certificazione ISO 9001:2015",
+    "standard": "Norma",
+    "certificateNo": "Numero del certificato",
+    "issuer": "Ente di certificazione",
+    "accreditation": "Accreditamento",
+    "scope": "Campo di applicazione",
+    "validUntil": "Valido fino al",
+    "lindeTitle": "Qualifica Linde Engineering India",
+    "lindeText": "Santura Engineering è stata fornitore qualificato di Linde Engineering India Pvt Ltd.",
+    "lindeCompany": "Azienda",
+    "lindeScope": "Qualificato per",
+    "lindeScopeValue": "Sistemi di contrappeso",
+    "lindeCode": "Codice fornitore",
+    "lindePeriod": "Periodo",
+    "testingTitle": "Prove e controlli sui materiali",
+    "testing": [
+      {
+        "title": "Identificazione positiva dei materiali (PMI)",
+        "text": "Lega verificata al ricevimento della materia prima e di nuovo al controllo finale."
+      },
+      {
+        "title": "Analisi spettrometrica",
+        "text": "Composizione chimica verificata mediante spettrometria rispetto alla lega specificata."
+      },
+      {
+        "title": "Controllo dimensionale",
+        "text": "Dimensioni, piegature ed estremità di saldatura verificate rispetto al disegno."
+      },
+      {
+        "title": "Prove meccaniche e di corrosione",
+        "text": "Prova di durezza e, su richiesta, prove di trazione, resilienza, carico di prova e corrosione, presso laboratori accreditati NABL se richiesto."
+      },
+      {
+        "title": "Collaudo in presenza",
+        "text": "Tutte le prove possono essere presenziate dal cliente o da un ente di ispezione incaricato."
+      }
+    ],
+    "documentsTitle": "Documentazione fornita",
+    "documents": [
+      "Certificati di collaudo EN 10204 3.1",
+      "Certificati di conformità",
+      "Tracciabilità tramite numero di colata, dal certificato del materiale all’ancoraggio finito",
+      "Rapporti PMI",
+      "Certificati di analisi chimica e di solubilizzazione"
+    ],
+    "standardsTitle": "Norme dei materiali",
+    "standardsIntro": "I materiali sono forniti secondo le norme seguenti o secondo la norma indicata nella vostra specifica.",
+    "standardCol": "Norma",
+    "coversCol": "Oggetto",
+    "standards": {
+      "A240": "Lamiere, piastre e nastri in acciaio inossidabile",
+      "A276": "Barre e profilati in acciaio inossidabile",
+      "A484": "Requisiti generali per barre, billette e forgiati in acciaio inossidabile",
+      "B166": "Barre e fili in lega nichel-cromo-ferro (es. Inconel 600)",
+      "B168": "Lamiere, piastre e nastri in lega nichel-cromo-ferro",
+      "DIN17440": "Acciai inossidabili: condizioni tecniche di fornitura per lamiere, barre e fili"
+    },
+    "clientCertsTitle": "Certificati dei clienti",
+    "clientCertsText": "Qui saranno pubblicati i certificati e le lettere di referenza dei nostri clienti."
+  },
+  "privacyPage": {
+    "metaTitle": "Informativa sulla privacy | Santura Engineering",
+    "metaDescription": "Come Santura Engineering Pvt. Ltd. raccoglie e usa i dati dei moduli di contatto, preventivo e newsletter, di Google Analytics e dei cookie.",
+    "h1": "Informativa sulla privacy",
+    "updated": "Ultimo aggiornamento: {date}",
+    "intro": "Questa informativa spiega quali dati personali Santura Engineering Pvt. Ltd. raccoglie tramite questo sito, perché li raccogliamo e quali diritti avete.",
+    "sections": [
+      {
+        "title": "1. Titolare del trattamento",
+        "body": [
+          "Il titolare dei dati personali descritti in questa informativa è Santura Engineering Pvt. Ltd. (CIN U74200MH2008PTC184443), BPT Plot No. 200, 201, Quay Street, Darukhana, Reay Road, Mumbai 400010, India. Potete contattarci all’indirizzo enquiries@santura-eng.com."
+        ]
+      },
+      {
+        "title": "2. Dati raccolti",
+        "body": [
+          "Modulo di contatto: nome, indirizzo e-mail, azienda, paese e messaggio.",
+          "Modulo di richiesta preventivo: nome, indirizzo e-mail, numero di telefono, azienda, paese e i dati di prodotto e di progetto che ci inviate.",
+          "Newsletter: indirizzo e-mail, lingua della pagina e pagina in cui vi siete iscritti.",
+          "Statistiche: se accettate i cookie statistici, Google Analytics 4 registra le pagine visitate, la durata della visita, il sito di provenienza, il tipo di dispositivo e di browser e la posizione approssimativa. Non usiamo questi dati per identificarvi.",
+          "Comunicazioni: e-mail e messaggi WhatsApp che ci inviate direttamente."
+        ]
+      },
+      {
+        "title": "3. Finalità",
+        "body": [
+          "Usiamo i dati per rispondere alle richieste, preparare preventivi, eseguire e seguire gli ordini, inviare la newsletter se vi siete iscritti, capire come viene usato il sito per migliorarlo e rispettare gli obblighi di legge e contabili. Non vendiamo i vostri dati e non li usiamo per decisioni automatizzate."
+        ]
+      },
+      {
+        "title": "4. Base giuridica",
+        "body": [
+          "Per i visitatori dello Spazio economico europeo e del Regno Unito: trattiamo richieste e richieste di preventivo come misure precontrattuali adottate su vostra richiesta e per il nostro legittimo interesse a rispondere a richieste commerciali; newsletter e cookie statistici si basano sul vostro consenso, revocabile in qualsiasi momento; la conservazione a fini fiscali e contabili è un obbligo di legge. Per i visitatori in India trattiamo i dati in conformità al Digital Personal Data Protection Act, 2023."
+        ]
+      },
+      {
+        "title": "5. Cookie",
+        "body": [
+          "Necessari: un cookie di lingua (NEXT_LOCALE) memorizza la lingua scelta. Non serve a tracciarvi.",
+          "Statistici: Google Analytics 4 imposta cookie come _ga per contare le visite e misurare l’uso del sito. Sono impostati solo se li accettate.",
+          "Mappe: la mappa della pagina contatti è fornita da Google Maps, che può impostare propri cookie al caricamento.",
+          "Potete eliminare o bloccare i cookie dalle impostazioni del browser. Bloccare i cookie statistici non incide sul funzionamento del sito."
+        ]
+      },
+      {
+        "title": "6. Destinatari",
+        "body": [
+          "Condividiamo i dati solo con i fornitori che gestiscono il sito per noi: Supabase (database dei moduli), Vercel (hosting) e Google (statistiche e mappe), che li trattano secondo le nostre istruzioni. Possiamo inoltre comunicare dati quando la legge lo richiede, ad esempio ad autorità fiscali o tribunali."
+        ]
+      },
+      {
+        "title": "7. Trasferimenti internazionali",
+        "body": [
+          "I nostri fornitori possono conservare i dati fuori dal vostro paese, anche negli Stati Uniti e nell’Unione europea. I trasferimenti dal SEE o dal Regno Unito sono tutelati da garanzie contrattuali dei fornitori, come le clausole contrattuali tipo della Commissione europea."
+        ]
+      },
+      {
+        "title": "8. Conservazione",
+        "body": [
+          "Richieste e richieste di preventivo sono conservate per il tempo necessario a gestirle e a mantenere il rapporto commerciale, e per l’eventuale periodo più lungo previsto dalla normativa fiscale o commerciale. I dati della newsletter sono conservati fino alla disiscrizione. I dati statistici sono conservati secondo le impostazioni di Google Analytics."
+        ]
+      },
+      {
+        "title": "9. Sicurezza",
+        "body": [
+          "I dati dei moduli sono trasmessi tramite connessione cifrata (HTTPS) e conservati in un database con controllo degli accessi. I visitatori del sito possono inviare moduli ma non possono leggere gli invii memorizzati."
+        ]
+      },
+      {
+        "title": "10. I vostri diritti",
+        "body": [
+          "Potete chiedere l’accesso, la rettifica o la cancellazione dei vostri dati, opporvi al trattamento o limitarlo, riceverne una copia e revocare il consenso in qualsiasi momento. Per disiscrivervi dalla newsletter usate il link presente in ogni e-mail o scriveteci. Per esercitare i vostri diritti scrivete a enquiries@santura-eng.com. Potete anche proporre reclamo all’autorità di protezione dei dati del vostro paese."
+        ]
+      },
+      {
+        "title": "11. Minori",
+        "body": [
+          "Questo sito è rivolto alle imprese e non ai minori. Non raccogliamo consapevolmente dati di minori."
+        ]
+      },
+      {
+        "title": "12. Modifiche",
+        "body": [
+          "Possiamo aggiornare questa informativa quando cambiano il sito o la legge. La data in cima alla pagina indica l’ultima revisione."
+        ]
+      }
+    ]
+  },
+  "disclaimerPage": {
+    "metaTitle": "Note legali | Santura Engineering",
+    "metaDescription": "Note legali del sito Santura Engineering: specifiche, dati tecnici, prezzi e disponibilità dei prodotti sono confermati al momento dell’ordine.",
+    "h1": "Note legali",
+    "updated": "Ultimo aggiornamento: {date}",
+    "intro": "Le informazioni di questo sito sono fornite da Santura Engineering Pvt. Ltd. a titolo di riferimento generale. Leggete queste note prima di farvi affidamento.",
+    "sections": [
+      {
+        "title": "1. I dati tecnici sono indicativi",
+        "body": [
+          "Descrizioni dei prodotti, dimensioni, leghe, temperature massime di esercizio, interassi degli ancoraggi e altri dati tecnici di questo sito sono valori tipici a scopo indicativo. Non costituiscono una specifica né una garanzia di prestazione. Per il vostro ordine valgono le specifiche confermate nel disegno approvato, nella nostra conferma d’ordine e nei certificati di prova consegnati con la merce."
+        ]
+      },
+      {
+        "title": "2. Scelta e idoneità",
+        "body": [
+          "La scelta di tipo di ancoraggio, lega, interasse e metodo di posa dipende dal progetto del rivestimento, dalle condizioni di esercizio e dal materiale refrattario ed è responsabilità dell’acquirente e dei suoi ingegneri. Le nostre raccomandazioni si basano sulle informazioni che ci vengono fornite."
+        ]
+      },
+      {
+        "title": "3. Prezzi e preventivi",
+        "body": [
+          "Questo sito non pubblica prezzi. I prezzi sono indicati solo in preventivi scritti, validi per il periodo indicato e soggetti a variazioni dovute a costo delle materie prime, cambi, quantità e condizioni di consegna."
+        ]
+      },
+      {
+        "title": "4. Disponibilità e tempi di consegna",
+        "body": [
+          "Prodotti, leghe e misure indicati sono soggetti a disponibilità. Tempi di produzione e di transito sono stime confermate al momento dell’ordine. I prodotti contrassegnati come «Prossimamente» non sono ancora disponibili."
+        ]
+      },
+      {
+        "title": "5. Immagini e disegni",
+        "body": [
+          "Foto e disegni sono illustrativi. I prodotti forniti possono differire per colore, finitura e piccoli dettagli."
+        ]
+      },
+      {
+        "title": "6. Nomi di settori e aziende",
+        "body": [
+          "Le aziende e gli impianti citati nelle pagine paese descrivono l’industria di ciascun mercato. Non sono clienti di Santura Engineering, salvo che una pagina indichi espressamente un cliente verificato."
+        ]
+      },
+      {
+        "title": "7. Marchi",
+        "body": [
+          "Inconel e Incoloy sono marchi di Special Metals Corporation. 253 MA è un marchio di Outokumpu. Gli altri nomi di prodotti e aziende appartengono ai rispettivi titolari e sono usati solo a fini identificativi."
+        ]
+      },
+      {
+        "title": "8. Link esterni",
+        "body": [
+          "I link ad altri siti sono forniti per comodità. Non siamo responsabili del loro contenuto."
+        ]
+      },
+      {
+        "title": "9. Limitazione di responsabilità",
+        "body": [
+          "Nei limiti consentiti dalla legge, Santura Engineering Pvt. Ltd. non risponde di perdite derivanti dall’uso delle informazioni di questo sito o dall’affidamento su di esse. Le forniture sono regolate dalle condizioni di ciascun ordine."
+        ]
+      },
+      {
+        "title": "10. Traduzioni",
+        "body": [
+          "Il sito è disponibile in più lingue. In caso di differenze tra una traduzione e la versione inglese, prevale la versione inglese."
+        ]
+      },
+      {
+        "title": "11. Contatti",
+        "body": [
+          "Per domande su queste note scrivete a enquiries@santura-eng.com."
+        ]
+      }
+    ]
   }
 }

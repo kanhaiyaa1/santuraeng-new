@@ -3,17 +3,602 @@
     "home": "Strona główna",
     "products": "Produkty",
     "rfq": "Zapytaj o Wycenę",
-    "language": "Język"
+    "language": "Język",
+    "about": "O nas",
+    "quality": "Jakość",
+    "contact": "Kontakt",
+    "privacy": "Polityka prywatności",
+    "disclaimer": "Zastrzeżenia prawne"
   },
   "hero": {
-    "title": "Kotwy Ogniotrwałe i Konstrukcje Stalowe dla Przemysłu Wysokotemperaturowego",
-    "subtitle": "Produkujemy i eksportujemy systemy kotew ogniotrwałych, konstrukcje ze stali nierdzewnej oraz komponenty izolacji termicznej, zaopatrując przemysł petrochemiczny, cementowy, energetyczny i aluminiowy w ponad 20 krajach od 1980 roku."
+    "eyebrow": "Santura Engineering Pvt. Ltd. · Mumbaj, Indie",
+    "title": "Producent i Eksporter Kotew Ogniotrwałych",
+    "subtitle": "Kotwy ogniotrwałe, trzpienie do włókna i włókna ze stali nierdzewnej do wymurówek ceglanych, betonowych i z włókna ceramicznego — produkowane w Mumbaju i wysyłane do projektów międzynarodowych z portu Nhava Sheva.",
+    "imageAlt": "Instalacje rafineryjne z kolumnami i piecami z wymurówką ogniotrwałą"
   },
   "cta": {
     "getQuote": "Zapytaj o Wycenę",
     "viewProducts": "Zobacz Produkty"
   },
   "common": {
+    "whatsapp": "Czat na WhatsApp",
+    "facts": "Od 1980 r. · Eksport do ponad 25 krajów · Certyfikat ISO 9001:2015"
+  },
+  "meta": {
+    "home": {
+      "title": "Producent i Eksporter Kotew Ogniotrwałych | Santura Engineering",
+      "description": "Producent kotew ogniotrwałych z Mumbaju w Indiach od 1980 r., eksport do ponad 25 krajów. Kotwy do wymurówek ceglanych, betonowych i z włókna ceramicznego."
+    }
+  },
+  "categories": {
+    "eyebrow": "Produkty",
+    "title": "Kotwy Ogniotrwałe według Rodzaju Wymurówki",
+    "subtitle": "Standardowe kotwy SEPL lub kotwy na zamówienie według Państwa rysunków, ze stali węglowej, nierdzewnej i stopów niklu.",
+    "viewRange": "Zobacz ofertę",
+    "items": {
+      "brick": {
+        "name": "Wymurówka Ceglana",
+        "description": "Klamry, konsole, pazury, klipsy nożycowe i kotwy odciągowe do cegieł gęstych i izolacyjnych.",
+        "imageAlt": "Rysunek kotwy ogniotrwałej klamra do cegieł SEPL-01"
+      },
+      "castable": {
+        "name": "Wymurówka z Betonu Ogniotrwałego",
+        "description": "Kotwy Y, V, rogowe, H i płaskie do betonów i mas torkretowych, od lekkich do gęstych.",
+        "imageAlt": "Rysunek kotwy ogniotrwałej rozcięte Y SEPL-06"
+      },
+      "double": {
+        "name": "Wymurówka Podwójna",
+        "description": "Kotwy dwutrzpieniowe, z nakrętką, wkręcane i szczelinowe do gęstej warstwy roboczej na warstwach izolacyjnych.",
+        "imageAlt": "Rysunek kotwy ogniotrwałej dwutrzpieniowej SEPL-20"
+      },
+      "ceramic": {
+        "name": "Wymurówka z Włókna Ceramicznego",
+        "description": "Przyspawane trzpienie do włókna i trzpienie gwintowane z podkładkami ceramicznymi do mat i modułów.",
+        "imageAlt": "Kotwy ogniotrwałe trzpienie do włókna SEPL-24 ze stali SS310 i Inconel"
+      }
+    }
+  },
+  "trust": {
+    "eyebrow": "Referencje",
+    "title": "Udokumentowane Dostawy",
+    "subtitle": "Wyłącznie udokumentowane referencje. Wysyłki eksportowe z portu Nhava Sheva (JNPT), Mumbaj.",
+    "items": {
+      "cemex": {
+        "title": "CEMEX",
+        "text": "Kotwy ogniotrwałe dostarczone do cementowni CEMEX w Chorwacji, Hiszpanii i Czechach."
+      },
+      "sri": {
+        "title": "Saudi Refractory Industries Co",
+        "text": "Dostawa eksportowa do Al-Chubar w Arabii Saudyjskiej, potwierdzona dokumentami wysyłkowymi."
+      },
+      "established": {
+        "title": "Od 1980 r.",
+        "text": "Produkujemy kotwy ogniotrwałe w Mumbaju od 1980 r. i eksportujemy je do ponad 25 krajów."
+      },
+      "testing": {
+        "title": "Materiał Badany PMI",
+        "text": "Pozytywna identyfikacja materiału przy przyjęciu i przy odbiorze końcowym, wraz z atestami hutniczymi."
+      },
+      "iso": {
+        "title": "Certyfikat ISO 9001:2015",
+        "text": "Certyfikat {number} wydany przez URS, akredytowany przez UKAS, ważny do {date}. Zakres: „{scope}”"
+      },
+      "linde": {
+        "title": "Linde Engineering India",
+        "text": "Zatwierdzony dostawca systemów przeciwwag, kod dostawcy {code}, {period}."
+      }
+    }
+  },
+  "industries": {
+    "eyebrow": "Branże",
+    "title": "Branże, które Zaopatrujemy",
+    "subtitle": "Systemy kotwienia do urządzeń wysokotemperaturowych w przemyśle procesowym i ciężkim.",
+    "items": {
+      "oilGas": {
+        "name": "Ropa, Gaz i Petrochemia",
+        "description": "Piece procesowe, reformery parowe, instalacje FCC i instalacje odzysku siarki.",
+        "imageAlt": "Rafineria i zakład petrochemiczny"
+      },
+      "cement": {
+        "name": "Cement i Wapno",
+        "description": "Wymienniki ciepła, kalcynatory, piece obrotowe i chłodniki klinkieru.",
+        "imageAlt": "Proszek cementowy"
+      },
+      "steel": {
+        "name": "Stal i Żelazo",
+        "description": "Wielkie piece, kadzie, piece grzewcze i piece koksownicze.",
+        "imageAlt": "Spust ciekłej stali z iskrami"
+      },
+      "power": {
+        "name": "Energetyka i Kotły",
+        "description": "Kotły CFBC, HRSG, spalarnie odpadów i kotły na biomasę.",
+        "imageAlt": "Słupy energetyczne o zachodzie słońca"
+      }
+    }
+  },
+  "countries": {
+    "eyebrow": "Na świecie",
+    "title": "Wybierz swój Kraj",
+    "subtitle": "Informacje regionalne dla nabywców kotew ogniotrwałych na każdym rynku.",
+    "names": {
+      "AE": "Zjednoczone Emiraty Arabskie",
+      "SA": "Arabia Saudyjska",
+      "DE": "Niemcy",
+      "TR": "Turcja",
+      "BR": "Brazylia",
+      "NL": "Holandia",
+      "IT": "Włochy",
+      "FR": "Francja",
+      "PL": "Polska",
+      "BE": "Belgia",
+      "ES": "Hiszpania",
+      "MX": "Meksyk",
+      "GB": "Wielka Brytania",
+      "CA": "Kanada"
+    },
+    "languages": {
+      "en": "angielski",
+      "fr": "francuski",
+      "nl": "niderlandzki"
+    }
+  },
+  "rfq": {
+    "title": "Zapytaj o Wycenę Kotew Ogniotrwałych",
+    "text": "Prześlij rysunki, gatunek stopu i ilości. Nasz zespół inżynierów sprawdza każdy rysunek przed przygotowaniem oferty.",
+    "button": "Zapytaj o Wycenę",
     "whatsapp": "Czat na WhatsApp"
+  },
+  "footer": {
+    "tagline": "Kotwy ogniotrwałe, kotwy trzpieniowe i włókna ze stali nierdzewnej produkowane w Mumbaju w Indiach.",
+    "contact": "Kontakt",
+    "headOffice": "Siedziba i Zakład 1",
+    "works": "Zakład 2",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "hours": "Godziny Pracy",
+    "hoursValue": "Pon–Sob 08:00–18:00 IST · Niedziela nieczynne",
+    "quickLinks": "Szybkie Linki",
+    "cin": "CIN",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "company": "Firma",
+    "legal": "Informacje prawne"
+  },
+  "products": {
+    "meta": {
+      "title": "Kotwy Ogniotrwałe, Podkładki i Włókna Stalowe | Santura Engineering",
+      "description": "Producent kotew ogniotrwałych w Mumbaju w Indiach: kotwy SEPL do wymurówek ceglanych, betonowych, podwójnych i z włókna ceramicznego, podkładki i włókna."
+    },
+    "eyebrow": "Produkty",
+    "title": "Kotwy Ogniotrwałe, Podkładki i Włókna Stalowe",
+    "intro": "Asortyment SEPL pogrupowany według rodzaju wymurówki. Każdą kotwę możemy wykonać według Państwa rysunku, próbki lub szkicu.",
+    "filterLabel": "Filtruj według rodzaju wymurówki",
+    "all": "Wszystkie produkty",
+    "linings": {
+      "brick": "Wymurówka Ceglana",
+      "castable": "Wymurówka z Betonu Ogniotrwałego",
+      "double": "Wymurówka Podwójna",
+      "ceramic": "Wymurówka z Włókna Ceramicznego",
+      "washers": "Podkładki",
+      "fibres": "Włókna Stalowe"
+    },
+    "liningIntro": {
+      "washers": "Pierścienie okrągłe, kwadratowe i prostokątne, pierścienie gwintowane oraz klipsy montażowe nasuwane na trzpienie, utrzymujące wymurówkę podczas montażu.",
+      "fibres": "Włókna ze stali nierdzewnej wytwarzane metodą ekstrakcji ze stopu i ciągnione na zimno, zwiększające odporność monolitycznych materiałów ogniotrwałych na szok termiczny i pękanie."
+    },
+    "comingSoon": "Wkrótce",
+    "viewProduct": "Zobacz produkt"
+  },
+  "productPage": {
+    "metaTitle": "{title} | Santura Engineering",
+    "metaDescription": {
+      "anchor": "{title} – {lining}. Wykonywane według rysunku przez Santura Engineering, producenta kotew ogniotrwałych w Mumbaju w Indiach.",
+      "fibre": "{title} do zbrojenia materiałów ogniotrwałych od Santura Engineering, producenta kotew ogniotrwałych i włókien stalowych w Mumbaju w Indiach.",
+      "washer": "{title} do kotew ogniotrwałych, wykonywane według rysunku przez Santura Engineering, producenta kotew ogniotrwałych w Mumbaju w Indiach."
+    },
+    "imageAlt": {
+      "anchor": "Kotwa ogniotrwała {title} ze stali {alloys}",
+      "anchorPlain": "Kotwa ogniotrwała {title}",
+      "fibre": "Włókno stalowe do materiałów ogniotrwałych {title} ze stali {alloys}",
+      "fibrePlain": "Włókno stalowe do materiałów ogniotrwałych {title}",
+      "washer": "{title} do kotew ogniotrwałych ze stali {alloys}",
+      "washerPlain": "{title} do kotew ogniotrwałych"
+    },
+    "code": "Kod produktu",
+    "lining": "Rodzaj wymurówki",
+    "section": "Przekrój",
+    "sections": {
+      "round": "Okrągły (drut / pręt)",
+      "flat": "Płaski (blacha / taśma)",
+      "various": "Różne",
+      "ceramic": "Ceramiczny"
+    },
+    "description": "Opis",
+    "technicalEnglish": "Opisy techniczne są dostępne w języku angielskim.",
+    "alloys": "Dostępne stopy",
+    "grade": "Gatunek",
+    "forms": {
+      "plate": "Blacha",
+      "wire": "Drut",
+      "general": "Dostępny"
+    },
+    "maxTemp": "Maks. temperatura pracy ciągłej",
+    "typicalUse": "Typowe zastosowanie",
+    "alloysOnRequest": "Gatunki stopów na zapytanie. Prześlij warunki pracy, a zaproponujemy materiał.",
+    "alloyLegend": "CS = stal węglowa · 601 = Inconel 601 · 800 = Incoloy 800 · 253MA = żaroodporna stal austenityczna",
+    "otherAlloys": "Inne stopy dostępne na zapytanie.",
+    "material": "Materiał",
+    "rfqTitle": "Zapytaj o Wycenę tego Produktu",
+    "rfqText": "Prześlij rysunek, próbkę lub szkic wraz z gatunkiem stopu i ilością dla: {title}.",
+    "rfqButton": "Zapytaj o Wycenę tego Produktu",
+    "related": "Powiązane produkty",
+    "comingSoonTitle": "Strona produktu wkrótce",
+    "comingSoonText": "Przygotowujemy pełne informacje o tym produkcie. Prześlij swoje wymagania, a nasz zespół inżynierów skontaktuje się z Tobą.",
+    "gallery": "Zdjęcia produktu",
+    "breadcrumb": "Ścieżka nawigacji"
+  },
+  "rfqForm": {
+    "fullName": "Imię i nazwisko",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "company": "Firma",
+    "country": "Kraj",
+    "message": "Czego Państwo szukają?",
+    "submit": "Wyślij Zapytanie",
+    "sending": "Wysyłanie…",
+    "success": "Dziękujemy. Wkrótce się z Państwem skontaktujemy.",
+    "error": "Coś poszło nie tak. Spróbuj ponownie.",
+    "productPrefix": "Produkt"
+  },
+  "rfqPage": {
+    "title": "Zapytaj o Wycenę Kotew Ogniotrwałych",
+    "description": "Zapytaj o wycenę Santura Engineering, producenta kotew ogniotrwałych w Mumbaju w Indiach. Prześlij rysunki, gatunek stopu i ilości.",
+    "intro": "Uzupełnij dane, a nasz zespół prześle ofertę."
+  },
+  "countryPage": {
+    "metaTitle": "Producent i Dostawca Kotew Ogniotrwałych | {country} | Santura Engineering",
+    "h1": "Producent i Dostawca Kotew Ogniotrwałych – {country}",
+    "eyebrow": "Rynek eksportowy · {country}",
+    "technicalEnglish": "Dane techniczne na tej stronie są po angielsku – w języku roboczym specyfikacji materiałów ogniotrwałych.",
+    "clientTitle": "Zweryfikowany klient – {country}",
+    "clientNote": "Dostawa potwierdzona naszymi eksportowymi dokumentami wysyłkowymi.",
+    "spotlightEyebrow": "Zagadnienie techniczne",
+    "industriesTitle": "Branże, które zaopatrujemy – {country}",
+    "industriesNote": "Nazwy firm opisują rynek. Nie są listą klientów Santura Engineering.",
+    "regionsTitle": "Regiony przemysłowe i porty",
+    "productsTitle": "Polecane produkty",
+    "viewProduct": "Zobacz produkt",
+    "shippingTitle": "Wysyłka z Mumbaju",
+    "shippingIntro": "Kotwy są produkowane i pakowane w naszym zakładzie w MIDC Tarapur i wysyłane z portu Nhava Sheva (JNPT) w Mumbaju.",
+    "destination": "Miejsce docelowe",
+    "route": "Trasa",
+    "transit": "Czas tranzytu",
+    "documentsTitle": "Certyfikaty i dokumenty",
+    "rfqTitle": "Zapytanie ofertowe z dostawą – {country}",
+    "rfqText": "Prześlij rysunek lub typ kotwy, gatunek stopu i ilość. Odpowiemy z ceną, terminem realizacji i wysyłką do Twojego portu.",
+    "rfqButton": "Zapytaj o Ofertę",
+    "referencesTitle": "Zweryfikowane referencje w Europie",
+    "referencesNote": "Dostawy dla cementowni potwierdzone przez każdego klienta.",
+    "clientNoteConfirmed": "Dostawa potwierdzona przez klienta.",
+    "qualityTitle": "Potwierdzenia jakości"
+  },
+  "contactPage": {
+    "metaTitle": "Kontakt Santura Engineering | Producent kotew ogniotrwałych, Mumbaj",
+    "metaDescription": "Kontakt z Santura Engineering, producentem kotew ogniotrwałych w Mumbaju od 1980 r.: e-mail, telefon, WhatsApp, adres zakładu i formularz kontaktowy.",
+    "h1": "Kontakt",
+    "intro": "Prosimy o kontakt e-mailowy, telefoniczny lub przez WhatsApp albo przez formularz poniżej. Odpowiadamy w dni robocze.",
+    "officeTitle": "Siedziba i zakład",
+    "worksTitle": "Zakład 2",
+    "emailTitle": "E-mail",
+    "generalEmail": "Zapytania ogólne",
+    "phoneTitle": "Telefon",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "Napisz do nas na WhatsApp",
+    "hoursTitle": "Godziny pracy",
+    "mapTitle": "Lokalizacja",
+    "mapIframeTitle": "Mapa: Santura Engineering, Darukhana, Mumbaj",
+    "openMap": "Otwórz w Mapach Google",
+    "formTitle": "Wyślij zapytanie",
+    "rfqNote": "Potrzebujesz ceny konkretnej kotwy? Do zapytań ofertowych służy nasz osobny formularz.",
+    "rfqLink": "Przejdź do formularza ofertowego"
+  },
+  "contactForm": {
+    "name": "Imię i nazwisko",
+    "email": "E-mail",
+    "company": "Firma",
+    "country": "Kraj",
+    "message": "Wiadomość",
+    "submit": "Wyślij wiadomość",
+    "sending": "Wysyłanie…",
+    "success": "Dziękujemy. Wiadomość została wysłana, wkrótce odpowiemy.",
+    "error": "Nie udało się wysłać wiadomości. Spróbuj ponownie lub napisz do nas bezpośrednio.",
+    "privacyNote": "Wykorzystujemy te dane wyłącznie do odpowiedzi na zapytanie.",
+    "privacyLink": "Polityka prywatności"
+  },
+  "aboutPage": {
+    "metaTitle": "O Santura Engineering | Producent kotew ogniotrwałych od 1980 r.",
+    "metaDescription": "Santura Engineering, Mumbaj: założona w 1980 r. przez Bharata Diwana, kotwy ogniotrwałe od 2005 r., certyfikat ISO 9001:2015, eksport do 25+ krajów.",
+    "h1": "O Santura Engineering",
+    "intro": "Producent kotew ogniotrwałych, kotew trzpieniowych i włókien ze stali nierdzewnej z Mumbaju, założony w 1980 r., eksportujący do ponad 25 krajów.",
+    "storyTitle": "Nasza historia",
+    "story": [
+      "Firmę założył w Mumbaju w 1980 r. Bharat Diwan, inżynier produkcji. Zaczynała jako warsztat mechaniczny i ślusarski obsługujący lokalny przemysł.",
+      "W 2005 r. firma rozpoczęła produkcję kotew ogniotrwałych, a w 2008 r. została zarejestrowana jako Santura Engineering Pvt. Ltd. Dziś produkuje pełną serię SEPL kotew do wymurówek ceglanych, betonowych, podwójnych i z włókna ceramicznego, a także podkładki i włókna ze stali nierdzewnej, dla firm materiałów ogniotrwałych i operatorów zakładów w Indiach i za granicą."
+    ],
+    "timelineTitle": "Najważniejsze etapy",
+    "timeline": [
+      {
+        "year": "1980",
+        "title": "Założenie w Mumbaju",
+        "text": "Bharat Diwan, inżynier produkcji, zakłada firmę."
+      },
+      {
+        "year": "2005",
+        "title": "Kotwy ogniotrwałe",
+        "text": "Rozpoczęcie produkcji kotew ogniotrwałych."
+      },
+      {
+        "year": "2008",
+        "title": "Rejestracja spółki",
+        "text": "Rejestracja jako Santura Engineering Pvt. Ltd. 9 lipca 2008 r."
+      },
+      {
+        "year": "2009–2012",
+        "title": "Zatwierdzenie przez Linde",
+        "text": "Zatwierdzony dostawca systemów przeciwwag dla Linde Engineering India."
+      },
+      {
+        "year": "Dziś",
+        "title": "ISO 9001:2015",
+        "text": "Certyfikat ISO 9001:2015 i eksport do ponad 25 krajów."
+      }
+    ],
+    "facilitiesTitle": "Zakłady produkcyjne",
+    "darukhanaTitle": "Siedziba i zakład, Darukhana, Mumbaj",
+    "darukhanaText": "Nasza siedziba i zakład znajdują się w strefie portowej Mumbaju, w Darukhanie, w pobliżu portu Nhava Sheva (JNPT), z którego wysyłamy towary na eksport.",
+    "tarapurTitle": "Zakład 2, MIDC Tarapur",
+    "tarapurText": "Drugi zakład znajduje się w strefie przemysłowej MIDC Tarapur w Boisarze, na północ od Mumbaju.",
+    "qualityTitle": "Jakość i zatwierdzenia",
+    "qualityText": "Posiadamy certyfikat ISO 9001:2015 w zakresie produkcji i dostaw kotew ogniotrwałych oraz miękkich komponentów do pieców, a w przeszłości byliśmy zatwierdzonym dostawcą Linde Engineering India.",
+    "qualityLink": "Zobacz stronę o jakości",
+    "clientsTitle": "Zweryfikowani klienci",
+    "clientsNote": "Wymieniamy tylko klientów, których dostawy możemy udokumentować.",
+    "cemexTitle": "CEMEX",
+    "cemexText": "Kotwy ogniotrwałe dla cementowni w Chorwacji, Hiszpanii (Planta de Alcanar) i Czechach.",
+    "sriTitle": "Saudi Refractory Industries Co",
+    "sriText": "Dostawy eksportowe do Al-Chubar w Arabii Saudyjskiej.",
+    "productsTitle": "Co produkujemy",
+    "productsText": "Serię SEPL, od zszywek do cegieł SEPL-01 po faliste włókna stalowe SEPL-30, ze stali węglowej, stali nierdzewnych, takich jak SS 304 i SS 310, oraz stopów niklu, w tym Inconelu. Kotwy wykonujemy także według rysunku klienta.",
+    "productsLink": "Zobacz wszystkie produkty",
+    "exportTitle": "Eksport",
+    "exportText": "Eksportujemy do ponad 25 krajów na Bliskim Wschodzie, w Europie i obu Amerykach, z wysyłką z Nhava Sheva i pełną dokumentacją.",
+    "exportLink": "Znajdź swój kraj"
+  },
+  "qualityPage": {
+    "metaTitle": "Jakość, badania i certyfikacja | Santura Engineering",
+    "metaDescription": "Producent kotew ogniotrwałych z ISO 9001:2015: PMI i spektrometria, kontrola wymiarowa, świadectwa EN 10204 3.1, identyfikowalność według numeru wytopu.",
+    "h1": "Jakość i certyfikacja",
+    "intro": "Każda kotwa jest wykonana ze sprawdzonego materiału, skontrolowana przed wysyłką i dostarczana z dokumentami, które wiążą ją z wytopem.",
+    "isoTitle": "Certyfikat ISO 9001:2015",
+    "standard": "Norma",
+    "certificateNo": "Numer certyfikatu",
+    "issuer": "Jednostka certyfikująca",
+    "accreditation": "Akredytacja",
+    "scope": "Zakres",
+    "validUntil": "Ważny do",
+    "lindeTitle": "Zatwierdzenie przez Linde Engineering India",
+    "lindeText": "Santura Engineering była zatwierdzonym dostawcą Linde Engineering India Pvt Ltd.",
+    "lindeCompany": "Firma",
+    "lindeScope": "Zatwierdzenie dla",
+    "lindeScopeValue": "Systemy przeciwwag",
+    "lindeCode": "Kod dostawcy",
+    "lindePeriod": "Okres",
+    "testingTitle": "Badania i kontrola materiałów",
+    "testing": [
+      {
+        "title": "Pozytywna identyfikacja materiału (PMI)",
+        "text": "Gatunek stopu sprawdzany przy przyjęciu materiału i ponownie przy kontroli końcowej."
+      },
+      {
+        "title": "Analiza spektrometryczna",
+        "text": "Skład chemiczny weryfikowany spektrometrycznie względem wymaganego gatunku."
+      },
+      {
+        "title": "Kontrola wymiarowa",
+        "text": "Wymiary, gięcia i końcówki do spawania sprawdzane według rysunku."
+      },
+      {
+        "title": "Badania mechaniczne i korozyjne",
+        "text": "Pomiar twardości, a na życzenie próby rozciągania, udarności, obciążenia próbnego i korozji, w razie potrzeby w laboratoriach akredytowanych przez NABL."
+      },
+      {
+        "title": "Odbiór z udziałem inspektora",
+        "text": "W każdym badaniu może uczestniczyć klient lub wskazana jednostka inspekcyjna."
+      }
+    ],
+    "documentsTitle": "Dostarczane dokumenty",
+    "documents": [
+      "Świadectwa odbioru EN 10204 3.1",
+      "Deklaracje zgodności",
+      "Identyfikowalność według numeru wytopu, od świadectwa hutniczego do gotowej kotwy",
+      "Raporty PMI",
+      "Świadectwa analizy chemicznej i przesycania"
+    ],
+    "standardsTitle": "Normy materiałowe",
+    "standardsIntro": "Materiały dostarczamy zgodnie z poniższymi normami lub z normą wskazaną w Państwa specyfikacji.",
+    "standardCol": "Norma",
+    "coversCol": "Zakres",
+    "standards": {
+      "A240": "Blachy, płyty i taśmy ze stali nierdzewnej",
+      "A276": "Pręty i kształtowniki ze stali nierdzewnej",
+      "A484": "Wymagania ogólne dla prętów, kęsów i odkuwek ze stali nierdzewnej",
+      "B166": "Pręty i drut ze stopu niklu, chromu i żelaza (np. Inconel 600)",
+      "B168": "Blachy, płyty i taśmy ze stopu niklu, chromu i żelaza",
+      "DIN17440": "Stale nierdzewne: warunki techniczne dostawy blach, prętów i drutu"
+    },
+    "clientCertsTitle": "Certyfikaty od klientów",
+    "clientCertsText": "Tutaj opublikujemy certyfikaty i listy referencyjne od naszych klientów."
+  },
+  "privacyPage": {
+    "metaTitle": "Polityka prywatności | Santura Engineering",
+    "metaDescription": "Jak Santura Engineering Pvt. Ltd. zbiera i wykorzystuje dane z formularzy kontaktowego, ofertowego i newslettera, Google Analytics oraz plików cookie.",
+    "h1": "Polityka prywatności",
+    "updated": "Ostatnia aktualizacja: {date}",
+    "intro": "Niniejsza polityka wyjaśnia, jakie dane osobowe Santura Engineering Pvt. Ltd. zbiera za pośrednictwem tej strony, w jakim celu i jakie prawa Państwu przysługują.",
+    "sections": [
+      {
+        "title": "1. Administrator danych",
+        "body": [
+          "Administratorem danych osobowych opisanych w tej polityce jest Santura Engineering Pvt. Ltd. (CIN U74200MH2008PTC184443), BPT Plot No. 200, 201, Quay Street, Darukhana, Reay Road, Mumbai 400010, Indie. Kontakt: enquiries@santura-eng.com."
+        ]
+      },
+      {
+        "title": "2. Jakie dane zbieramy",
+        "body": [
+          "Formularz kontaktowy: imię i nazwisko, adres e-mail, firma, kraj i treść wiadomości.",
+          "Formularz zapytania ofertowego: imię i nazwisko, adres e-mail, numer telefonu, firma, kraj oraz przesłane dane o produkcie i projekcie.",
+          "Newsletter: adres e-mail, język strony i strona, na której nastąpił zapis.",
+          "Analityka: po zaakceptowaniu analitycznych plików cookie Google Analytics 4 rejestruje odwiedzane strony, czas wizyty, stronę odsyłającą, typ urządzenia i przeglądarki oraz przybliżoną lokalizację. Nie wykorzystujemy tych danych do identyfikacji osób.",
+          "Korespondencja: e-maile i wiadomości WhatsApp wysyłane do nas bezpośrednio."
+        ]
+      },
+      {
+        "title": "3. Cele przetwarzania",
+        "body": [
+          "Wykorzystujemy dane, aby odpowiadać na zapytania, przygotowywać oferty, realizować i obsługiwać zamówienia, wysyłać newsletter osobom zapisanym, rozumieć sposób korzystania ze strony w celu jej ulepszania oraz wypełniać obowiązki prawne i księgowe. Nie sprzedajemy danych i nie stosujemy zautomatyzowanego podejmowania decyzji."
+        ]
+      },
+      {
+        "title": "4. Podstawa prawna",
+        "body": [
+          "Dla odwiedzających z Europejskiego Obszaru Gospodarczego i Wielkiej Brytanii: zapytania i zapytania ofertowe przetwarzamy w celu podjęcia działań przed zawarciem umowy na Państwa żądanie oraz w naszym prawnie uzasadnionym interesie polegającym na odpowiadaniu na zapytania biznesowe (art. 6 ust. 1 lit. b i f RODO); newsletter i analityczne pliki cookie opierają się na zgodzie (art. 6 ust. 1 lit. a RODO), którą można w każdej chwili wycofać; przechowywanie danych do celów podatkowych i księgowych jest obowiązkiem prawnym. W przypadku odwiedzających z Indii przetwarzamy dane zgodnie z Digital Personal Data Protection Act, 2023."
+        ]
+      },
+      {
+        "title": "5. Pliki cookie",
+        "body": [
+          "Niezbędne: plik cookie języka (NEXT_LOCALE) zapamiętuje wybrany język. Nie służy do śledzenia.",
+          "Analityczne: Google Analytics 4 zapisuje pliki cookie, takie jak _ga, aby liczyć wizyty i mierzyć korzystanie ze strony. Są zapisywane wyłącznie po wyrażeniu zgody.",
+          "Mapy: mapę na stronie kontaktowej dostarcza Google Maps, które przy wczytaniu mapy może zapisywać własne pliki cookie.",
+          "Pliki cookie można usunąć lub zablokować w ustawieniach przeglądarki. Zablokowanie analitycznych plików cookie nie wpływa na działanie strony."
+        ]
+      },
+      {
+        "title": "6. Odbiorcy danych",
+        "body": [
+          "Udostępniamy dane wyłącznie dostawcom usług, którzy obsługują dla nas stronę: Supabase (baza danych formularzy), Vercel (hosting) i Google (analityka i mapy). Przetwarzają one dane na nasze polecenie. Możemy też ujawnić dane, gdy wymaga tego prawo, np. organom podatkowym lub sądom."
+        ]
+      },
+      {
+        "title": "7. Przekazywanie danych za granicę",
+        "body": [
+          "Nasi dostawcy mogą przechowywać dane poza Państwa krajem, w tym w Stanach Zjednoczonych i w Unii Europejskiej. Przekazanie danych z EOG lub Wielkiej Brytanii jest chronione zabezpieczeniami umownymi dostawców, takimi jak standardowe klauzule umowne Komisji Europejskiej."
+        ]
+      },
+      {
+        "title": "8. Okres przechowywania",
+        "body": [
+          "Zapytania i zapytania ofertowe przechowujemy tak długo, jak jest to potrzebne do ich obsługi i utrzymania relacji handlowej, oraz przez dłuższy okres wymagany przepisami podatkowymi lub handlowymi. Dane newslettera przechowujemy do czasu wypisania się. Dane analityczne przechowujemy zgodnie z ustawieniami Google Analytics."
+        ]
+      },
+      {
+        "title": "9. Bezpieczeństwo",
+        "body": [
+          "Dane z formularzy są przesyłane szyfrowanym połączeniem (HTTPS) i przechowywane w bazie danych z kontrolą dostępu. Odwiedzający stronę mogą wysyłać formularze, ale nie mają dostępu do zapisanych zgłoszeń."
+        ]
+      },
+      {
+        "title": "10. Państwa prawa",
+        "body": [
+          "Mają Państwo prawo dostępu do swoich danych, ich sprostowania lub usunięcia, sprzeciwu wobec przetwarzania lub jego ograniczenia, otrzymania kopii danych oraz wycofania zgody w dowolnym momencie. Aby wypisać się z newslettera, wystarczy użyć linku w dowolnej wiadomości lub napisać do nas. W sprawie realizacji praw prosimy pisać na adres enquiries@santura-eng.com. Przysługuje też prawo wniesienia skargi do organu ochrony danych w Państwa kraju, w Polsce do Prezesa UODO."
+        ]
+      },
+      {
+        "title": "11. Dzieci",
+        "body": [
+          "Strona jest przeznaczona dla firm i nie jest skierowana do dzieci. Nie zbieramy świadomie danych dzieci."
+        ]
+      },
+      {
+        "title": "12. Zmiany polityki",
+        "body": [
+          "Możemy aktualizować tę politykę, gdy zmieni się strona lub przepisy. Data na górze strony wskazuje ostatnią aktualizację."
+        ]
+      }
+    ]
+  },
+  "disclaimerPage": {
+    "metaTitle": "Zastrzeżenia prawne | Santura Engineering",
+    "metaDescription": "Zastrzeżenia prawne strony Santura Engineering: specyfikacje, dane techniczne, ceny i dostępność produktów są potwierdzane przy zamówieniu.",
+    "h1": "Zastrzeżenia prawne",
+    "updated": "Ostatnia aktualizacja: {date}",
+    "intro": "Informacje na tej stronie są udostępniane przez Santura Engineering Pvt. Ltd. w celach ogólnoinformacyjnych. Prosimy zapoznać się z tymi zastrzeżeniami, zanim się na nich oprzecie.",
+    "sections": [
+      {
+        "title": "1. Dane techniczne mają charakter orientacyjny",
+        "body": [
+          "Opisy produktów, wymiary, gatunki stopów, maksymalne temperatury pracy, rozstawy kotew i inne dane techniczne na tej stronie są typowymi wartościami orientacyjnymi. Nie stanowią specyfikacji ani gwarancji parametrów. Dla zamówienia obowiązują dane potwierdzone w zatwierdzonym rysunku, naszym potwierdzeniu zamówienia oraz świadectwach badań dostarczonych z towarem."
+        ]
+      },
+      {
+        "title": "2. Dobór i przydatność",
+        "body": [
+          "Wybór typu kotwy, stopu, rozstawu i metody montażu zależy od projektu wymurówki, warunków pracy i materiału ogniotrwałego i należy do kupującego oraz jego inżynierów. Nasze zalecenia opierają się na przekazanych nam informacjach."
+        ]
+      },
+      {
+        "title": "3. Ceny i oferty",
+        "body": [
+          "Strona nie zawiera cen. Ceny podajemy wyłącznie w pisemnych ofertach, ważnych przez wskazany okres i zależnych od kosztów surowców, kursów walut, ilości i warunków dostawy."
+        ]
+      },
+      {
+        "title": "4. Dostępność i terminy",
+        "body": [
+          "Prezentowane produkty, stopy i wymiary są dostępne w miarę możliwości. Terminy produkcji i transportu są szacunkowe i potwierdzane przy zamówieniu. Produkty oznaczone „Wkrótce” nie są jeszcze dostępne."
+        ]
+      },
+      {
+        "title": "5. Zdjęcia i rysunki",
+        "body": [
+          "Zdjęcia i rysunki mają charakter poglądowy. Dostarczone produkty mogą różnić się kolorem, wykończeniem i drobnymi szczegółami."
+        ]
+      },
+      {
+        "title": "6. Nazwy branż i firm",
+        "body": [
+          "Firmy i zakłady wymienione na stronach krajów opisują przemysł danego rynku. Nie są klientami Santura Engineering, chyba że strona wyraźnie wskazuje zweryfikowanego klienta."
+        ]
+      },
+      {
+        "title": "7. Znaki towarowe",
+        "body": [
+          "Inconel i Incoloy są znakami towarowymi Special Metals Corporation. 253 MA jest znakiem towarowym Outokumpu. Inne nazwy produktów i firm należą do ich właścicieli i są używane wyłącznie w celu identyfikacji."
+        ]
+      },
+      {
+        "title": "8. Linki zewnętrzne",
+        "body": [
+          "Linki do innych stron zamieszczamy dla wygody. Nie odpowiadamy za ich treść."
+        ]
+      },
+      {
+        "title": "9. Ograniczenie odpowiedzialności",
+        "body": [
+          "W zakresie dozwolonym przez prawo Santura Engineering Pvt. Ltd. nie ponosi odpowiedzialności za szkody wynikające z korzystania z informacji na tej stronie lub polegania na nich. Dostawy podlegają warunkom danego zamówienia."
+        ]
+      },
+      {
+        "title": "10. Tłumaczenia",
+        "body": [
+          "Strona jest dostępna w kilku językach. W razie rozbieżności między tłumaczeniem a wersją angielską rozstrzyga wersja angielska."
+        ]
+      },
+      {
+        "title": "11. Kontakt",
+        "body": [
+          "Pytania dotyczące tych zastrzeżeń prosimy kierować na adres enquiries@santura-eng.com."
+        ]
+      }
+    ]
   }
 }

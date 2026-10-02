@@ -1,14 +1,23 @@
 'use client';
 
 import { useState, type FormEvent } from 'react';
+import { useTranslations } from 'next-intl';
 import { supabase } from '@/lib/supabase';
 
 type Status = 'idle' | 'submitting' | 'success' | 'error';
 
 const inputClasses =
-  'w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500';
+  'mt-1 w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-navy-600 focus:outline-none focus:ring-2 focus:ring-navy-600/30';
+const labelClasses = 'block text-sm font-medium text-slate-700';
 
-export default function RfqForm() {
+export default function RfqForm({
+  defaultMessage = '',
+  defaultCountry = ''
+}: {
+  defaultMessage?: string;
+  defaultCountry?: string;
+}) {
+  const t = useTranslations('rfqForm');
   const [status, setStatus] = useState<Status>('idle');
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -36,26 +45,40 @@ export default function RfqForm() {
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-4">
       <div className="grid gap-4 sm:grid-cols-2">
-        <input name="name" required placeholder="Full name" className={inputClasses} />
-        <input name="email" type="email" required placeholder="Email" className={inputClasses} />
-        <input name="phone" placeholder="Phone" className={inputClasses} />
-        <input name="company" placeholder="Company" className={inputClasses} />
+        <label className={labelClasses}>
+          {t('fullName')}
+          <input name="name" required autoComplete="name" className={inputClasses} />
+        </label>
+        <label className={labelClasses}>
+          {t('email')}
+          <input name="email" type="email" required autoComplete="email" className={inputClasses} />
+        </label>
+        <label className={labelClasses}>
+          {t('phone')}
+          <input name="phone" type="tel" autoComplete="tel" className={inputClasses} />
+        </label>
+        <label className={labelClasses}>
+          {t('company')}
+          <input name="company" autoComplete="organization" className={inputClasses} />
+        </label>
       </div>
-      <input name="country" required placeholder="Country" className={inputClasses} />
-      <textarea name="message" rows={4} placeholder="What are you looking for?" className={inputClasses} />
+      <label className={labelClasses}>
+        {t('country')}
+        <input name="country" required autoComplete="country-name" defaultValue={defaultCountry} className={inputClasses} />
+      </label>
+      <label className={labelClasses}>
+        {t('message')}
+        <textarea name="message" rows={5} defaultValue={defaultMessage} className={inputClasses} />
+      </label>
       <button
         type="submit"
         disabled={status === 'submitting'}
-        className="inline-flex items-center justify-center rounded-md bg-blue-600 px-5 py-3 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-50"
+        className="inline-flex items-center justify-center rounded-md bg-brand-500 px-5 py-3 text-sm font-semibold text-white hover:bg-brand-600 disabled:opacity-50"
       >
-        {status === 'submitting' ? 'Sending…' : 'Submit Request'}
+        {status === 'submitting' ? t('sending') : t('submit')}
       </button>
-      {status === 'success' && (
-        <p className="text-sm text-green-600">Thank you. We will get back to you shortly.</p>
-      )}
-      {status === 'error' && (
-        <p className="text-sm text-red-600">Something went wrong. Please try again.</p>
-      )}
+      {status === 'success' && <p className="text-sm text-emerald-700" role="status">{t('success')}</p>}
+      {status === 'error' && <p className="text-sm text-red-600" role="alert">{t('error')}</p>}
     </form>
   );
 }
