@@ -1,0 +1,20 @@
+name: Keep Supabase active
+
+# Calls the health-check endpoint once a day so the Supabase project sees
+# database activity and is not paused for inactivity.
+on:
+  schedule:
+    - cron: '0 6 * * *' # 06:00 UTC daily
+  workflow_dispatch: # allow manual runs from the Actions tab
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Call /api/health
+        env:
+          # Override with a repository variable if the site moves to its own domain.
+          HEALTHCHECK_URL: ${{ vars.HEALTHCHECK_URL || 'https://santuraeng-new.vercel.app/api/health' }}
+        run: |
+          curl --fail --silent --show-error --retry 3 --retry-delay 10 --retry-all-errors --max-time 30 "$HEALTHCHECK_URL"
