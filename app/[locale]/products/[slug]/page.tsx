@@ -4,11 +4,13 @@ import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { buildAlternates, siteUrl } from '@/lib/seo';
-import { SITE, whatsappUrl } from '@/lib/site';
+import { SITE } from '@/lib/site';
 import { PRODUCTS, getProduct, type Product } from '@/content/products';
 import { alloySummary, imageAltKind, productTitle, relatedProducts, truncate } from '@/lib/products';
 import ProductGallery from '@/components/products/ProductGallery';
 import AlloyTable from '@/components/products/AlloyTable';
+import { btnPrimary } from '@/lib/ui';
+import WhatsAppLink from '@/components/WhatsAppLink';
 
 type Props = { params: { locale: string; slug: string } };
 
@@ -97,21 +99,21 @@ export default async function ProductPage({ params: { locale, slug } }: Props) {
   const rfqHref = { pathname: '/rfq', query: { product: product.code ?? product.slug } } as const;
 
   return (
-    <main className="bg-slate-50 pb-20">
+    <main className="bg-surface-alt pb-20">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <div className="border-b border-slate-200 bg-white">
-        <nav aria-label={t('breadcrumb')} className="mx-auto max-w-6xl px-6 py-3 text-sm text-slate-500">
+      <div className="border-b border-line bg-white">
+        <nav aria-label={t('breadcrumb')} className="mx-auto max-w-6xl px-6 py-3 text-sm text-ink-muted">
           <ol className="flex flex-wrap items-center gap-2">
             <li>
-              <Link href="/" className="hover:text-navy-700">{nav('home')}</Link>
+              <Link href="/" className="hover:text-brand-500">{nav('home')}</Link>
             </li>
             <li aria-hidden="true">/</li>
             <li>
-              <Link href="/products" className="hover:text-navy-700">{nav('products')}</Link>
+              <Link href="/products" className="hover:text-brand-500">{nav('products')}</Link>
             </li>
             <li aria-hidden="true">/</li>
-            <li aria-current="page" className="font-medium text-navy-900">{title}</li>
+            <li aria-current="page" className="font-medium text-ink">{title}</li>
           </ol>
         </nav>
       </div>
@@ -120,10 +122,10 @@ export default async function ProductPage({ params: { locale, slug } }: Props) {
         <article className="lg:col-span-2">
           <header>
             {product.code && <p className="text-sm font-semibold tracking-wide text-brand-500">{product.code}</p>}
-            <h1 className="mt-1 text-3xl font-bold tracking-tight text-navy-900 sm:text-4xl">{title}</h1>
+            <h1 className="mt-1 text-3xl font-bold tracking-tight text-ink sm:text-4xl">{title}</h1>
             <div className="mt-4 flex flex-wrap gap-2">
-              <span className="rounded-full bg-navy-100 px-3 py-1 text-xs font-medium text-navy-700">{tp(`linings.${product.lining}`)}</span>
-              <span className="rounded-full bg-slate-200 px-3 py-1 text-xs font-medium text-slate-700">{t(`sections.${product.section}`)}</span>
+              <span className="rounded-full border border-line bg-surface-alt px-3 py-1 text-xs font-medium text-ink">{tp(`linings.${product.lining}`)}</span>
+              <span className="rounded-full bg-surface-footer px-3 py-1 text-xs font-medium text-ink-body">{t(`sections.${product.section}`)}</span>
               {product.comingSoon && (
                 <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold text-amber-800">{tp('comingSoon')}</span>
               )}
@@ -135,15 +137,15 @@ export default async function ProductPage({ params: { locale, slug } }: Props) {
           </div>
 
           {product.comingSoon ? (
-            <section className="mt-10 rounded-xl border border-amber-200 bg-amber-50 p-6">
+            <section className="mt-10 rounded-lg border border-amber-200 bg-amber-50 p-6">
               <h2 className="text-lg font-bold text-amber-900">{t('comingSoonTitle')}</h2>
               <p className="mt-2 text-amber-900/80">{t('comingSoonText')}</p>
             </section>
           ) : (
             <section className="mt-10" aria-labelledby="description-title">
-              <h2 id="description-title" className="text-xl font-bold text-navy-900">{t('description')}</h2>
-              {locale !== 'en' && <p className="mt-2 text-sm italic text-slate-500">{t('technicalEnglish')}</p>}
-              <div lang="en" dir="ltr" className="mt-4 space-y-4 text-left leading-relaxed text-slate-700">
+              <h2 id="description-title" className="text-xl font-bold text-ink">{t('description')}</h2>
+              {locale !== 'en' && <p className="mt-2 text-sm italic text-ink-muted">{t('technicalEnglish')}</p>}
+              <div lang="en" dir="ltr" className="mt-4 space-y-4 text-left leading-relaxed text-ink-body">
                 {product.description.map((b, i) =>
                   b.type === 'paragraph' ? (
                     <p key={i}>{b.text}</p>
@@ -160,74 +162,67 @@ export default async function ProductPage({ params: { locale, slug } }: Props) {
           )}
 
           <section className="mt-10">
-            <dl className="grid gap-4 rounded-xl border border-slate-200 bg-white p-6 sm:grid-cols-3">
+            <dl className="grid gap-4 rounded-lg border border-line bg-white p-6 sm:grid-cols-3">
               {product.code && (
                 <div>
-                  <dt className="text-xs font-semibold uppercase tracking-wide text-slate-500">{t('code')}</dt>
-                  <dd className="mt-1 font-semibold text-navy-900">{product.code}</dd>
+                  <dt className="text-xs font-semibold uppercase tracking-wide text-ink-muted">{t('code')}</dt>
+                  <dd className="mt-1 font-semibold text-ink">{product.code}</dd>
                 </div>
               )}
               <div>
-                <dt className="text-xs font-semibold uppercase tracking-wide text-slate-500">{t('lining')}</dt>
-                <dd className="mt-1 font-semibold text-navy-900">{tp(`linings.${product.lining}`)}</dd>
+                <dt className="text-xs font-semibold uppercase tracking-wide text-ink-muted">{t('lining')}</dt>
+                <dd className="mt-1 font-semibold text-ink">{tp(`linings.${product.lining}`)}</dd>
               </div>
               <div>
-                <dt className="text-xs font-semibold uppercase tracking-wide text-slate-500">{t('section')}</dt>
-                <dd className="mt-1 font-semibold text-navy-900">{t(`sections.${product.section}`)}</dd>
+                <dt className="text-xs font-semibold uppercase tracking-wide text-ink-muted">{t('section')}</dt>
+                <dd className="mt-1 font-semibold text-ink">{t(`sections.${product.section}`)}</dd>
               </div>
             </dl>
           </section>
 
           {!product.comingSoon && (
             <section className="mt-10" aria-labelledby="alloys-title">
-              <h2 id="alloys-title" className="text-xl font-bold text-navy-900">
+              <h2 id="alloys-title" className="text-xl font-bold text-ink">
                 {product.material ? t('material') : t('alloys')}
               </h2>
               <div className="mt-4">
                 <AlloyTable product={product} />
               </div>
               {(product.alloys.length > 0 || product.alloyTable.length > 0) && (
-                <p className="mt-3 text-xs text-slate-500">
+                <p className="mt-3 text-xs text-ink-muted">
                   {t('alloyLegend')} · {t('otherAlloys')}
                 </p>
               )}
             </section>
           )}
 
-          <section className="mt-12 rounded-2xl bg-gradient-to-br from-navy-700 to-navy-900 p-8 text-white">
-            <h2 className="text-2xl font-bold">{t('rfqTitle')}</h2>
-            <p className="mt-2 text-navy-100">{t('rfqText', { title })}</p>
+          <section className="mt-12 rounded-lg border border-line border-s-4 border-s-brand-500 bg-white p-8">
+            <h2 className="text-2xl font-bold text-ink">{t('rfqTitle')}</h2>
+            <p className="mt-2 text-ink-body">{t('rfqText', { title })}</p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <Link href={rfqHref} className="rounded-md bg-brand-500 px-6 py-3 text-sm font-semibold text-white hover:bg-brand-600">
+              <Link href={rfqHref} className={btnPrimary}>
                 {t('rfqButton')}
               </Link>
-              <a
-                href={whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-md bg-[#25D366] px-6 py-3 text-sm font-semibold text-navy-950 hover:brightness-95"
-              >
-                {common('whatsapp')}
-              </a>
+              <WhatsAppLink>{common('whatsapp')}</WhatsAppLink>
             </div>
           </section>
         </article>
 
         {related.length > 0 && (
           <aside aria-labelledby="related-title" className="lg:col-span-1">
-            <div className="rounded-xl border border-slate-200 bg-white p-5 lg:sticky lg:top-24">
-              <h2 id="related-title" className="text-lg font-bold text-navy-900">{t('related')}</h2>
-              <p className="text-sm text-slate-500">{tp(`linings.${product.lining}`)}</p>
-              <ul className="mt-4 divide-y divide-slate-100">
+            <div className="rounded-lg border border-line bg-white p-5 lg:sticky lg:top-24">
+              <h2 id="related-title" className="text-lg font-bold text-ink">{t('related')}</h2>
+              <p className="text-sm text-ink-muted">{tp(`linings.${product.lining}`)}</p>
+              <ul className="mt-4 divide-y divide-line">
                 {related.map((r) => (
                   <li key={r.slug}>
-                    <Link href={`/products/${r.slug}`} className="flex items-center gap-3 py-3 hover:text-navy-700">
-                      <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-md border border-slate-200 bg-white">
+                    <Link href={`/products/${r.slug}`} className="flex items-center gap-3 py-3 hover:text-brand-500">
+                      <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-md border border-line bg-white">
                         {r.images[0] && <Image src={r.images[0]} alt="" fill sizes="56px" className="object-contain p-1" />}
                       </span>
                       <span className="min-w-0">
-                        {r.code && <span className="block text-xs font-semibold text-navy-600">{r.code}</span>}
-                        <span className="block truncate text-sm font-medium text-navy-900">{r.name}</span>
+                        {r.code && <span className="block text-xs font-semibold text-brand-500">{r.code}</span>}
+                        <span className="block truncate text-sm font-medium text-ink">{r.name}</span>
                         {r.comingSoon && <span className="text-xs text-amber-700">{tp('comingSoon')}</span>}
                       </span>
                     </Link>

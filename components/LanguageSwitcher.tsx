@@ -35,7 +35,7 @@ export default function LanguageSwitcher() {
         aria-label={t('language')}
         defaultValue={locale}
         onChange={handleChange}
-        className="rounded-md border border-white/20 bg-navy-900 px-2 py-1.5 text-sm text-white focus:outline-none focus:ring-2 focus:ring-brand-500"
+        className="rounded-md border border-line bg-white px-2 py-1.5 text-sm text-ink focus:outline-none focus:ring-2 focus:ring-brand-500/40"
       >
         {routing.locales.map((loc) => (
           <option key={loc} value={loc}>

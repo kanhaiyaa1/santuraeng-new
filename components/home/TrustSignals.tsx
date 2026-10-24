@@ -59,17 +59,17 @@ export default function TrustSignals() {
   const textArgs = (key: (typeof KEYS)[number]) => (key === 'iso' ? args.iso : key === 'linde' ? args.linde : undefined);
 
   return (
-    <section className="bg-navy-900 py-20 text-white">
+    <section className="bg-white py-20">
       <div className="mx-auto max-w-6xl px-6">
-        <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('subtitle')} tone="dark" />
+        <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('subtitle')} />
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {KEYS.map((key) => (
-            <div key={key} className="rounded-xl border border-white/10 bg-white/5 p-6">
-              <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-brand-500/15 text-brand-500">
+            <div key={key} className="rounded-lg border border-line border-s-2 border-s-brand-500 bg-white p-6">
+              <div className="flex h-11 w-11 items-center justify-center rounded-md bg-brand-50 text-brand-500">
                 {ICONS[key]}
               </div>
-              <h3 className="mt-5 text-lg font-bold">{t(`items.${key}.title`)}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-navy-100">{t(`items.${key}.text`, textArgs(key))}</p>
+              <h3 className="mt-5 text-lg font-bold text-ink">{t(`items.${key}.title`)}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-ink-body">{t(`items.${key}.text`, textArgs(key))}</p>
             </div>
           ))}
         </div>

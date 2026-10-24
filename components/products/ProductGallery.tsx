@@ -11,7 +11,7 @@ export default function ProductGallery({ images, alt, label }: Props) {
 
   return (
     <div>
-      <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-slate-200 bg-white">
+      <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-line bg-white">
         <Image src={images[index]} alt={alt} fill priority sizes="(min-width: 1024px) 60vw, 100vw" className="object-contain p-6" />
       </div>
       {images.length > 1 && (
@@ -24,7 +24,7 @@ export default function ProductGallery({ images, alt, label }: Props) {
                 aria-current={i === index}
                 aria-label={`${alt} (${i + 1}/${images.length})`}
                 className={`relative block aspect-square w-full overflow-hidden rounded-md border bg-white transition ${
-                  i === index ? 'border-navy-700 ring-2 ring-navy-700' : 'border-slate-200 hover:border-navy-600'
+                  i === index ? 'border-brand-500 ring-2 ring-brand-500' : 'border-line hover:border-brand-500'
                 }`}
               >
                 <Image src={src} alt="" fill sizes="96px" className="object-contain p-1" />

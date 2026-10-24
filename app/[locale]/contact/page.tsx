@@ -3,9 +3,10 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { siteUrl } from '@/lib/seo';
 import { breadcrumbJsonLd, pageMetadata } from '@/lib/page';
-import { SITE, whatsappUrl } from '@/lib/site';
+import { SITE } from '@/lib/site';
 import PageHeader from '@/components/PageHeader';
 import ContactForm from '@/components/ContactForm';
+import WhatsAppLink from '@/components/WhatsAppLink';
 
 type Props = { params: { locale: string } };
 
@@ -45,44 +46,44 @@ export default async function ContactPage({ params: { locale } }: Props) {
     await breadcrumbJsonLd(locale, '/contact', t('h1'))
   ];
 
-  const card = 'rounded-xl border border-slate-200 bg-white p-6';
-  const label = 'text-xs font-semibold uppercase tracking-wide text-slate-500';
+  const card = 'rounded-lg border border-line bg-white p-6';
+  const label = 'text-xs font-semibold uppercase tracking-wide text-ink-muted';
 
   return (
-    <main className="bg-slate-50 pb-20">
+    <main className="bg-surface-alt pb-20">
       <PageHeader locale={locale} title={t('h1')} intro={t('intro')} jsonLd={jsonLd} />
 
       <div className="mx-auto grid max-w-6xl gap-8 px-6 pt-12 lg:grid-cols-5">
         <div className="space-y-6 lg:col-span-2">
           <section className={card}>
-            <h2 className="text-lg font-bold text-navy-900">{SITE.legalName}</h2>
+            <h2 className="text-lg font-bold text-ink">{SITE.legalName}</h2>
             <p className={`mt-4 ${label}`}>{t('officeTitle')}</p>
-            <address className="mt-1 text-sm not-italic leading-relaxed text-slate-700">
+            <address className="mt-1 text-sm not-italic leading-relaxed text-ink-body">
               {SITE.headOffice.lines.map((l) => (
                 <span key={l} className="block">{l}</span>
               ))}
             </address>
             <p className={`mt-4 ${label}`}>{t('worksTitle')}</p>
-            <address className="mt-1 text-sm not-italic leading-relaxed text-slate-700">
+            <address className="mt-1 text-sm not-italic leading-relaxed text-ink-body">
               {SITE.works.lines.map((l) => (
                 <span key={l} className="block">{l}</span>
               ))}
             </address>
             <p className={`mt-4 ${label}`}>{t('hoursTitle')}</p>
-            <p className="mt-1 text-sm text-slate-700">{footer('hoursValue')}</p>
+            <p className="mt-1 text-sm text-ink-body">{footer('hoursValue')}</p>
           </section>
 
           <section className={card}>
             <p className={label}>{t('emailTitle')}</p>
             <dl className="mt-2 space-y-3 text-sm">
               <div>
-                <dt className="text-slate-500">{t('generalEmail')}</dt>
-                <dd><a href={`mailto:${SITE.generalEmail}`} className="font-medium text-navy-700 hover:text-brand-500">{SITE.generalEmail}</a></dd>
+                <dt className="text-ink-muted">{t('generalEmail')}</dt>
+                <dd><a href={`mailto:${SITE.generalEmail}`} className="font-medium text-ink hover:text-brand-500">{SITE.generalEmail}</a></dd>
               </div>
               {SITE.contacts.map((c) => (
                 <div key={c.email}>
-                  <dt className="text-slate-500">{c.name}</dt>
-                  <dd><a href={`mailto:${c.email}`} className="font-medium text-navy-700 hover:text-brand-500">{c.email}</a></dd>
+                  <dt className="text-ink-muted">{c.name}</dt>
+                  <dd><a href={`mailto:${c.email}`} className="font-medium text-ink hover:text-brand-500">{c.email}</a></dd>
                 </div>
               ))}
             </dl>
@@ -90,27 +91,20 @@ export default async function ContactPage({ params: { locale } }: Props) {
             <ul className="mt-2 space-y-2 text-sm">
               {SITE.contacts.map((c) => (
                 <li key={c.tel}>
-                  <a href={`tel:${c.tel}`} dir="ltr" className="font-medium text-navy-700 hover:text-brand-500">{c.phone}</a>
-                  <span className="text-slate-500"> · {c.name}</span>
+                  <a href={`tel:${c.tel}`} dir="ltr" className="font-medium text-ink hover:text-brand-500">{c.phone}</a>
+                  <span className="text-ink-muted"> · {c.name}</span>
                 </li>
               ))}
             </ul>
             <p className={`mt-5 ${label}`}>{t('whatsappTitle')}</p>
-            <a
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-2 inline-block rounded-md bg-[#25D366] px-5 py-2.5 text-sm font-semibold text-navy-950 hover:brightness-95"
-            >
-              {t('whatsappText')} · <span dir="ltr">{SITE.contacts[0].phone}</span>
-            </a>
+            <WhatsAppLink className="mt-2">{t('whatsappText')} · <span dir="ltr">{SITE.contacts[0].phone}</span></WhatsAppLink>
           </section>
         </div>
 
         <div className="space-y-6 lg:col-span-3">
           <section className={card}>
-            <h2 className="text-xl font-bold text-navy-900">{t('formTitle')}</h2>
-            <div className="mt-4 rounded-lg border border-brand-500/20 bg-brand-50 p-4 text-sm text-navy-900">
+            <h2 className="text-xl font-bold text-ink">{t('formTitle')}</h2>
+            <div className="mt-4 rounded-lg border border-brand-500/20 bg-brand-50 p-4 text-sm text-ink">
               {t('rfqNote')}{' '}
               <Link href="/rfq" className="font-semibold text-brand-600 underline hover:text-brand-500">{t('rfqLink')} →</Link>
             </div>
@@ -124,12 +118,12 @@ export default async function ContactPage({ params: { locale } }: Props) {
       <section className="mx-auto max-w-6xl px-6 pt-8">
         <div className={card}>
           <div className="flex flex-wrap items-baseline justify-between gap-2">
-            <h2 className="text-xl font-bold text-navy-900">{t('mapTitle')}</h2>
+            <h2 className="text-xl font-bold text-ink">{t('mapTitle')}</h2>
             <a
               href={`https://www.google.com/maps/search/?api=1&query=${MAP_QUERY}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-semibold text-navy-700 hover:text-brand-500"
+              className="text-sm font-semibold text-ink hover:text-brand-500"
             >
               {t('openMap')} →
             </a>

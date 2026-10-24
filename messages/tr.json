@@ -600,5 +600,18 @@
         ]
       }
     ]
+  },
+  "search": {
+    "open": "Ara",
+    "label": "Sitede ara",
+    "placeholder": "Ürün, SEPL kodu, alaşım veya ülke arayın…",
+    "noResults": "“{query}” için sonuç bulunamadı",
+    "close": "Kapat",
+    "hint": "“SEPL-24”, “310S”, “Y anchor” veya “Türkiye” deneyin",
+    "groups": {
+      "product": "Ürünler",
+      "country": "Ülkeler",
+      "page": "Sayfalar"
+    }
   }
 }

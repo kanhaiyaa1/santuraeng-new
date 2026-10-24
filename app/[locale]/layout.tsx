@@ -8,6 +8,8 @@ import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
 import { siteUrl } from '@/lib/seo';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import SiteSearch from '@/components/SiteSearch';
+import { buildSearchIndex } from '@/lib/searchIndex';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import Footer from '@/components/Footer';
 import 'flag-icons/css/flag-icons.min.css';
@@ -49,33 +51,35 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
 
   const messages = await getMessages();
   const t = await getTranslations({ locale, namespace: 'nav' });
+  const searchIndex = await buildSearchIndex(locale);
   const dir = locale === 'ar' ? 'rtl' : 'ltr';
 
   return (
     <html lang={locale} dir={dir}>
-      <body className="flex min-h-screen flex-col bg-white text-slate-900 antialiased">
+      <body className="flex min-h-screen flex-col bg-white text-ink-body antialiased">
         <NextIntlClientProvider messages={messages}>
-          <header className="sticky top-0 z-40 border-b border-white/10 bg-navy-950/95 text-white backdrop-blur">
+          <header className="sticky top-0 z-40 border-b border-line bg-white/95 text-ink backdrop-blur">
             <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
               <Link href="/" className="flex min-w-0 items-center gap-3">
-                <span className="rounded bg-white p-1">
+                <span className="p-1">
                   <Image src="/images/logo.jpg" alt="Santura Engineering" width={20} height={32} priority />
                 </span>
                 <span className="truncate text-base font-semibold tracking-tight sm:text-lg">Santura Engineering</span>
               </Link>
-              <nav className="flex shrink-0 items-center gap-3 text-sm font-medium text-navy-100 sm:gap-5">
-                <Link href="/products" className="hidden hover:text-white sm:inline">
+              <nav className="flex shrink-0 items-center gap-3 text-sm font-medium text-ink-body sm:gap-5">
+                <Link href="/products" className="hidden hover:text-brand-500 sm:inline">
                   {t('products')}
                 </Link>
-                <Link href="/about" className="hidden hover:text-white md:inline">
+                <Link href="/about" className="hidden hover:text-brand-500 md:inline">
                   {t('about')}
                 </Link>
-                <Link href="/contact" className="hidden hover:text-white md:inline">
+                <Link href="/contact" className="hidden hover:text-brand-500 md:inline">
                   {t('contact')}
                 </Link>
                 <Link href="/rfq" className="hidden whitespace-nowrap rounded-md bg-brand-500 px-4 py-2 font-semibold text-white hover:bg-brand-600 sm:inline-block">
                   {t('rfq')}
                 </Link>
+                <SiteSearch index={searchIndex} />
                 <LanguageSwitcher />
               </nav>
             </div>

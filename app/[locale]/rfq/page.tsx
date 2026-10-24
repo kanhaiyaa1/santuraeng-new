@@ -35,8 +35,8 @@ export default async function RfqPage({ params: { locale }, searchParams }: Prop
 
   return (
     <main className="mx-auto max-w-3xl px-6 py-16">
-      <h1 className="text-3xl font-bold tracking-tight text-navy-900">{t('title')}</h1>
-      <p className="mb-8 mt-4 text-slate-600">{t('intro')}</p>
+      <h1 className="text-3xl font-bold tracking-tight text-ink">{t('title')}</h1>
+      <p className="mb-8 mt-4 text-ink-body">{t('intro')}</p>
       <RfqForm defaultMessage={defaultMessage} defaultCountry={defaultCountry} />
     </main>
   );

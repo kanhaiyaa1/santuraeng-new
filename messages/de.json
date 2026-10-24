@@ -600,5 +600,18 @@
         ]
       }
     ]
+  },
+  "search": {
+    "open": "Suche",
+    "label": "Website durchsuchen",
+    "placeholder": "Produkte, SEPL-Codes, Werkstoffe, Länder suchen…",
+    "noResults": "Keine Ergebnisse für „{query}“",
+    "close": "Schließen",
+    "hint": "Versuchen Sie „SEPL-24“, „310S“, „Y anchor“ oder „Deutschland“",
+    "groups": {
+      "product": "Produkte",
+      "country": "Länder",
+      "page": "Seiten"
+    }
   }
 }

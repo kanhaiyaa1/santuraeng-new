@@ -5,19 +5,25 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Navy carried over from the old site's skin (#25255a); accent red from the Santura logo.
-        navy: {
-          950: '#0c0d26',
-          900: '#13143a',
-          800: '#1b1c4a',
-          700: '#25255a',
-          600: '#34357a',
-          100: '#e6e7f3'
+        // Light industrial palette (client-approved). No navy or dark section backgrounds.
+        ink: {
+          DEFAULT: '#1A1A1A', // headings
+          body: '#4A4A4A', // body text
+          muted: '#6B6B6B' // labels, captions, secondary text
         },
+        line: '#E8E8E8', // card borders and dividers
+        surface: {
+          alt: '#F7F7F8', // alternate sections
+          footer: '#F0F0F0'
+        },
+        // Accent red. The logo itself is pure #FD0100, which fails contrast for white button
+        // text; #C41E24 keeps the logo's hue at a 6.1:1 contrast ratio.
         brand: {
-          500: '#e3151f',
-          600: '#c3101a',
-          50: '#fdecec'
+          50: '#FDF2F2',
+          100: '#F9E1E2',
+          500: '#C41E24',
+          600: '#A3181D',
+          700: '#82131A'
         }
       }
     }

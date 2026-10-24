@@ -600,5 +600,18 @@
         ]
       }
     ]
+  },
+  "search": {
+    "open": "Zoeken",
+    "label": "Zoeken op de site",
+    "placeholder": "Zoek producten, SEPL-codes, legeringen, landen…",
+    "noResults": "Geen resultaten voor ‘{query}’",
+    "close": "Sluiten",
+    "hint": "Probeer ‘SEPL-24’, ‘310S’, ‘Y anchor’ of ‘Nederland’",
+    "groups": {
+      "product": "Producten",
+      "country": "Landen",
+      "page": "Pagina’s"
+    }
   }
 }

@@ -600,5 +600,18 @@
         ]
       }
     ]
+  },
+  "search": {
+    "open": "Cerca",
+    "label": "Cerca nel sito",
+    "placeholder": "Cerca prodotti, codici SEPL, leghe, paesi…",
+    "noResults": "Nessun risultato per «{query}»",
+    "close": "Chiudi",
+    "hint": "Prova «SEPL-24», «310S», «Y anchor» o «Italia»",
+    "groups": {
+      "product": "Prodotti",
+      "country": "Paesi",
+      "page": "Pagine"
+    }
   }
 }

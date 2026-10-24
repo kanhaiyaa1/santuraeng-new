@@ -23,11 +23,11 @@ export default async function LegalPage({
     <main className="bg-white pb-20">
       <PageHeader locale={locale} title={t('h1')} intro={t('intro')} jsonLd={[await breadcrumbJsonLd(locale, pathname, t('h1'))]} />
       <div className="mx-auto max-w-3xl px-6 pt-10">
-        <p className="text-sm text-slate-500">{t('updated', { date: formatDate(updated, locale) })}</p>
+        <p className="text-sm text-ink-muted">{t('updated', { date: formatDate(updated, locale) })}</p>
         {sections.map((s) => (
           <section key={s.title} className="mt-10">
-            <h2 className="text-xl font-bold text-navy-900">{s.title}</h2>
-            <div className="mt-3 space-y-3 leading-relaxed text-slate-700">
+            <h2 className="text-xl font-bold text-ink">{s.title}</h2>
+            <div className="mt-3 space-y-3 leading-relaxed text-ink-body">
               {s.body.map((p) => (
                 <p key={p}>{p}</p>
               ))}

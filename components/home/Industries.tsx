@@ -13,23 +13,24 @@ export default function Industries() {
   const t = useTranslations('industries');
 
   return (
-    <section className="bg-white py-20">
+    <section className="bg-surface-alt py-20">
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('subtitle')} />
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {INDUSTRIES.map((i) => (
-            <article key={i.key} className="group relative isolate flex min-h-[20rem] flex-col justify-end overflow-hidden rounded-xl bg-navy-900">
-              <Image
-                src={i.image}
-                alt={t(`items.${i.key}.imageAlt`)}
-                fill
-                sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-                className="-z-20 object-cover transition duration-500 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 -z-10 bg-gradient-to-t from-navy-950 via-navy-950/70 to-transparent" />
-              <div className="p-6 text-white">
-                <h3 className="text-lg font-bold">{t(`items.${i.key}.name`)}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-navy-100">{t(`items.${i.key}.description`)}</p>
+            <article key={i.key} className="overflow-hidden rounded-lg border border-line bg-white">
+              <div className="relative aspect-[4/3] bg-surface-alt">
+                <Image
+                  src={i.image}
+                  alt={t(`items.${i.key}.imageAlt`)}
+                  fill
+                  sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-lg font-bold text-ink">{t(`items.${i.key}.name`)}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-ink-body">{t(`items.${i.key}.description`)}</p>
               </div>
             </article>
           ))}

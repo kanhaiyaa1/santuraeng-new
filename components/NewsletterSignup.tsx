@@ -8,7 +8,7 @@ import { supabase } from '@/lib/supabase';
 type Status = 'idle' | 'submitting' | 'success' | 'duplicate' | 'error';
 
 const inputClasses =
-  'min-w-0 flex-1 rounded-md border border-gray-300 px-3 py-2 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500';
+  'min-w-0 flex-1 rounded-md border border-line px-3 py-2 text-sm text-ink focus:outline-none focus:ring-2 focus:ring-brand-500/20';
 
 export default function NewsletterSignup() {
   const [status, setStatus] = useState<Status>('idle');
@@ -47,12 +47,12 @@ export default function NewsletterSignup() {
       <button
         type="submit"
         disabled={status === 'submitting'}
-        className="inline-flex items-center justify-center rounded-md bg-blue-600 px-5 py-2 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-50"
+        className="inline-flex items-center justify-center rounded-md bg-brand-500 px-5 py-2 text-sm font-medium text-white hover:bg-brand-600 disabled:opacity-50"
       >
         {status === 'submitting' ? 'Subscribing…' : 'Subscribe'}
       </button>
       {status === 'duplicate' && (
-        <p className="w-full text-sm text-gray-600">This email is already subscribed.</p>
+        <p className="w-full text-sm text-ink-body">This email is already subscribed.</p>
       )}
       {status === 'error' && (
         <p className="w-full text-sm text-red-600">Something went wrong. Please try again.</p>

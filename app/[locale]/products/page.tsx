@@ -62,13 +62,13 @@ export default async function ProductsPage({ params: { locale } }: Props) {
   };
 
   return (
-    <main className="bg-slate-50 pb-20">
+    <main className="bg-surface-alt pb-20">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <div className="bg-navy-950 text-white">
+      <div className="border-b border-line bg-white">
         <div className="mx-auto max-w-6xl px-6 py-16">
-          <p className="text-sm font-semibold tracking-wide text-brand-500">{t('eyebrow')}</p>
-          <h1 className="mt-2 text-4xl font-bold tracking-tight sm:text-5xl">{t('title')}</h1>
-          <p className="mt-4 max-w-2xl text-lg text-navy-100">{t('intro')}</p>
+          <p className="text-sm font-semibold uppercase tracking-wider text-brand-500">{t('eyebrow')}</p>
+          <h1 className="mt-2 text-4xl font-bold tracking-tight text-ink sm:text-5xl">{t('title')}</h1>
+          <p className="mt-4 max-w-2xl text-lg text-ink-body">{t('intro')}</p>
         </div>
       </div>
       <div className="mx-auto max-w-6xl px-6 pt-10">

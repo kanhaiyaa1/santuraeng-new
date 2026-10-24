@@ -10,7 +10,7 @@ export default function CountrySelector() {
   const locale = useLocale();
 
   return (
-    <section id="countries" className="scroll-mt-20 bg-slate-50 py-20">
+    <section id="countries" className="scroll-mt-20 bg-white py-20">
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('subtitle')} />
         <ul className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -19,8 +19,8 @@ export default function CountrySelector() {
               <>
                 <span className={`fi fi-${c.code.toLowerCase()} shrink-0 rounded-sm text-2xl shadow-sm`} aria-hidden="true" />
                 <span className="min-w-0">
-                  <span className="block truncate font-semibold text-navy-900">{t(`names.${c.code}`)}</span>
-                  {c.language && <span className="block text-xs text-slate-500">{t(`languages.${c.language}`)}</span>}
+                  <span className="block truncate font-semibold text-ink">{t(`names.${c.code}`)}</span>
+                  {c.language && <span className="block text-xs text-ink-muted">{t(`languages.${c.language}`)}</span>}
                 </span>
               </>
             );
@@ -32,14 +32,14 @@ export default function CountrySelector() {
                     // Same-language links stay unprefixed; next-intl adds the prefix (and a redirect) when locale is passed.
                     locale={c.locale === locale ? undefined : c.locale}
                     hrefLang={c.locale}
-                    className="flex items-center gap-3 rounded-lg border border-slate-200 bg-white px-4 py-3 transition hover:border-navy-600 hover:shadow-md"
+                    className="flex items-center gap-3 rounded-lg border border-line bg-white px-4 py-3 transition hover:border-brand-500 hover:shadow-md"
                   >
                     {label}
                   </Link>
                 ) : (
-                  <div className="flex items-center gap-3 rounded-lg border border-dashed border-slate-200 bg-white/60 px-4 py-3 opacity-70">
+                  <div className="flex items-center gap-3 rounded-lg border border-dashed border-ink-muted/30 bg-white/60 px-4 py-3 opacity-70">
                     {label}
-                    <span className="ms-auto shrink-0 text-xs text-slate-500">{products('comingSoon')}</span>
+                    <span className="ms-auto shrink-0 text-xs text-ink-muted">{products('comingSoon')}</span>
                   </div>
                 )}
               </li>

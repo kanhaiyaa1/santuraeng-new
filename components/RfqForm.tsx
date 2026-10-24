@@ -7,8 +7,8 @@ import { supabase } from '@/lib/supabase';
 type Status = 'idle' | 'submitting' | 'success' | 'error';
 
 const inputClasses =
-  'mt-1 w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-navy-600 focus:outline-none focus:ring-2 focus:ring-navy-600/30';
-const labelClasses = 'block text-sm font-medium text-slate-700';
+  'mt-1 w-full rounded-md border border-line bg-white px-3 py-2 text-sm text-ink focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/20';
+const labelClasses = 'block text-sm font-medium text-ink-body';
 
 export default function RfqForm({
   defaultMessage = '',

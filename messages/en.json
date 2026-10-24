@@ -600,5 +600,18 @@
         ]
       }
     ]
+  },
+  "search": {
+    "open": "Search",
+    "label": "Search the site",
+    "placeholder": "Search products, SEPL codes, alloys, countries…",
+    "noResults": "No results for “{query}”",
+    "close": "Close",
+    "hint": "Try “SEPL-24”, “310S”, “Y anchor” or “Germany”",
+    "groups": {
+      "product": "Products",
+      "country": "Countries",
+      "page": "Pages"
+    }
   }
 }

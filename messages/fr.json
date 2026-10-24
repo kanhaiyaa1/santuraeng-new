@@ -600,5 +600,18 @@
         ]
       }
     ]
+  },
+  "search": {
+    "open": "Rechercher",
+    "label": "Rechercher sur le site",
+    "placeholder": "Recherchez produits, codes SEPL, alliages, pays…",
+    "noResults": "Aucun résultat pour « {query} »",
+    "close": "Fermer",
+    "hint": "Essayez « SEPL-24 », « 310S », « Y anchor » ou « France »",
+    "groups": {
+      "product": "Produits",
+      "country": "Pays",
+      "page": "Pages"
+    }
   }
 }

@@ -14,7 +14,7 @@ export default function ProductCategories() {
   const t = useTranslations('categories');
 
   return (
-    <section className="bg-slate-50 py-20">
+    <section className="bg-surface-alt py-20">
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading eyebrow={t('eyebrow')} title={t('title')} subtitle={t('subtitle')} />
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -22,7 +22,7 @@ export default function ProductCategories() {
             <Link
               key={c.key}
               href={`/products#${c.anchor}`}
-              className="group flex flex-col overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:border-navy-600 hover:shadow-lg"
+              className="group flex flex-col overflow-hidden rounded-lg border border-line bg-white shadow-sm transition hover:border-brand-500 hover:shadow-md"
             >
               <div className="relative aspect-[4/3] bg-white">
                 <Image
@@ -33,10 +33,10 @@ export default function ProductCategories() {
                   className="object-contain p-4"
                 />
               </div>
-              <div className="flex flex-1 flex-col border-t border-slate-100 p-6">
-                <span className="text-xs font-semibold tracking-wide text-navy-600">{c.codes}</span>
-                <h3 className="mt-2 text-lg font-bold text-navy-900">{t(`items.${c.key}.name`)}</h3>
-                <p className="mt-2 flex-1 text-sm leading-relaxed text-slate-600">{t(`items.${c.key}.description`)}</p>
+              <div className="flex flex-1 flex-col border-t border-line p-6">
+                <span className="text-xs font-semibold tracking-wide text-brand-500">{c.codes}</span>
+                <h3 className="mt-2 text-lg font-bold text-ink">{t(`items.${c.key}.name`)}</h3>
+                <p className="mt-2 flex-1 text-sm leading-relaxed text-ink-body">{t(`items.${c.key}.description`)}</p>
                 <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-500 group-hover:text-brand-600">
                   {t('viewRange')}
                   <span aria-hidden="true" className="inline-block rtl:rotate-180">→</span>
