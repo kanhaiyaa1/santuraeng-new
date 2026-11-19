@@ -7,6 +7,8 @@ import { SITE } from '@/lib/site';
 import PageHeader from '@/components/PageHeader';
 import ContactForm from '@/components/ContactForm';
 import WhatsAppLink from '@/components/WhatsAppLink';
+import Image from 'next/image';
+import { PHOTOS } from '@/lib/photos';
 
 type Props = { params: { locale: string } };
 
@@ -20,6 +22,7 @@ export default async function ContactPage({ params: { locale } }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'contactPage' });
   const footer = await getTranslations({ locale, namespace: 'footer' });
+  const photos = await getTranslations({ locale, namespace: 'photos' });
 
   const jsonLd = [
     {
@@ -31,7 +34,7 @@ export default async function ContactPage({ params: { locale } }: Props) {
         name: SITE.legalName,
         url: siteUrl,
         email: SITE.generalEmail,
-        telephone: SITE.contacts[0].tel,
+        telephone: SITE.phone.tel,
         address: {
           '@type': 'PostalAddress',
           streetAddress: SITE.headOffice.street,
@@ -40,7 +43,7 @@ export default async function ContactPage({ params: { locale } }: Props) {
           postalCode: SITE.headOffice.postalCode,
           addressCountry: SITE.headOffice.country
         },
-        contactPoint: SITE.contacts.map((c) => ({ '@type': 'ContactPoint', name: c.name, telephone: c.tel, email: c.email, contactType: 'sales' }))
+        contactPoint: [{ '@type': 'ContactPoint', name: SITE.phone.contact, telephone: SITE.phone.tel, contactType: 'sales' }]
       }
     },
     await breadcrumbJsonLd(locale, '/contact', t('h1'))
@@ -56,6 +59,9 @@ export default async function ContactPage({ params: { locale } }: Props) {
       <div className="mx-auto grid max-w-6xl gap-8 px-6 pt-12 lg:grid-cols-5">
         <div className="space-y-6 lg:col-span-2">
           <section className={card}>
+            <div className="relative -mx-6 -mt-6 mb-5 aspect-[16/9] overflow-hidden rounded-t-lg bg-surface-alt">
+              <Image src={PHOTOS.factoryExterior.src} alt={photos('factoryExterior')} fill sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover" />
+            </div>
             <h2 className="text-lg font-bold text-ink">{SITE.legalName}</h2>
             <p className={`mt-4 ${label}`}>{t('officeTitle')}</p>
             <address className="mt-1 text-sm not-italic leading-relaxed text-ink-body">
@@ -89,15 +95,13 @@ export default async function ContactPage({ params: { locale } }: Props) {
             </dl>
             <p className={`mt-5 ${label}`}>{t('phoneTitle')}</p>
             <ul className="mt-2 space-y-2 text-sm">
-              {SITE.contacts.map((c) => (
-                <li key={c.tel}>
-                  <a href={`tel:${c.tel}`} dir="ltr" className="font-medium text-ink hover:text-brand-500">{c.phone}</a>
-                  <span className="text-ink-muted"> · {c.name}</span>
-                </li>
-              ))}
+              <li>
+                <a href={`tel:${SITE.phone.tel}`} dir="ltr" className="font-medium text-ink hover:text-brand-500">{SITE.phone.display}</a>
+                <span className="text-ink-muted"> · {SITE.phone.contact}</span>
+              </li>
             </ul>
             <p className={`mt-5 ${label}`}>{t('whatsappTitle')}</p>
-            <WhatsAppLink className="mt-2">{t('whatsappText')} · <span dir="ltr">{SITE.contacts[0].phone}</span></WhatsAppLink>
+            <WhatsAppLink className="mt-2">{t('whatsappText')} · <span dir="ltr">{SITE.phone.display}</span></WhatsAppLink>
           </section>
         </div>
 

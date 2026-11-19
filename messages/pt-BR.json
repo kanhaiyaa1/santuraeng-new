@@ -8,12 +8,14 @@
     "quality": "Qualidade",
     "contact": "Contato",
     "privacy": "Política de privacidade",
-    "disclaimer": "Aviso legal"
+    "disclaimer": "Aviso legal",
+    "services": "Serviços",
+    "refractoryAnchors": "Ancoragens Refratárias"
   },
   "hero": {
     "eyebrow": "Santura Engineering Pvt. Ltd. · Mumbai, Índia",
     "title": "Fabricante e Exportador de Âncoras Refratárias",
-    "subtitle": "Âncoras refratárias, pinos para fibra e fibras de aço inoxidável para revestimentos de tijolo, concreto refratário e fibra cerâmica — fabricados em Mumbai e enviados a projetos internacionais pelo porto de Nhava Sheva.",
+    "subtitle": "Ancoragens refratárias, pinos para fibra cerâmica, sistemas de contrapeso, materiais de isolamento, portas de observação e acessórios — fabricados em Mumbai e enviados a projetos internacionais pelo porto de Nhava Sheva.",
     "imageAlt": "Unidades de processo de refinaria com colunas e fornos revestidos com refratário"
   },
   "cta": {
@@ -247,7 +249,8 @@
     "sending": "Enviando…",
     "success": "Obrigado. Entraremos em contato em breve.",
     "error": "Algo deu errado. Tente novamente.",
-    "productPrefix": "Produto"
+    "productPrefix": "Produto",
+    "servicePrefix": "Serviço"
   },
   "rfqPage": {
     "title": "Solicite um Orçamento de Âncoras Refratárias",
@@ -332,6 +335,11 @@
         "text": "O Sr. Bharat Diwan, engenheiro de produção, funda a empresa."
       },
       {
+        "year": "1981",
+        "title": "Sistemas de contrapeso",
+        "text": "Início da fabricação de sistemas de contrapeso e outros itens fabricados."
+      },
+      {
         "year": "2005",
         "title": "Ancoragens refratárias",
         "text": "Início da fabricação de ancoragens refratárias."
@@ -371,7 +379,9 @@
     "productsLink": "Ver todos os produtos",
     "exportTitle": "Exportação",
     "exportText": "Exportamos para mais de 25 países no Oriente Médio, na Europa e nas Américas, com embarque em Nhava Sheva e documentação completa.",
-    "exportLink": "Encontre seu país"
+    "exportLink": "Encontre seu país",
+    "galleryTitle": "Por dentro da fábrica",
+    "galleryIntro": "Estoque de matéria-prima, ancoragens acabadas, embalagem e expedição na Santura Engineering."
   },
   "qualityPage": {
     "metaTitle": "Qualidade, ensaios e certificação | Santura Engineering",
@@ -436,7 +446,8 @@
       "DIN17440": "Aços inoxidáveis: condições técnicas de fornecimento para chapas, barras e arames"
     },
     "clientCertsTitle": "Certificados de clientes",
-    "clientCertsText": "Certificados e cartas de referência de nossos clientes serão publicados aqui."
+    "clientCertsText": "Certificados e cartas de referência de nossos clientes serão publicados aqui.",
+    "photosTitle": "Ensaios na prática"
   },
   "privacyPage": {
     "metaTitle": "Política de privacidade | Santura Engineering",
@@ -613,5 +624,695 @@
       "country": "Países",
       "page": "Páginas"
     }
+  },
+  "photos": {
+    "cartonsBulk": "Caixas prontas para embalagem",
+    "containerCartons": "Caixas de exportação com filme stretch em contêiner",
+    "xrfHandheld": "Analisador XRF portátil verificando a liga",
+    "crateBulk": "Caixote de exportação com maravalha",
+    "cartonsDispatch": "Componentes embalados em caixas para expedição",
+    "componentsPacked": "Componentes metálicos em caixas forradas",
+    "anchorsWavy": "Ancoragens refratárias em produção",
+    "anchorsBent": "Barras de ancoragem de aço dobradas",
+    "tubesStock": "Estoque de tubos de aço",
+    "wireCoilsStock": "Bobinas de arame de aço em estoque",
+    "dispatchTeam": "Nossa equipe de expedição",
+    "cratesContainer": "Caixotes de madeira carregados para exportação",
+    "workerPacking": "Embalagem de componentes no armazém",
+    "truckDispatch": "Carregamento de caminhão para expedição",
+    "containerPallets": "Caixas paletizadas em contêiner marítimo",
+    "factoryExterior": "Fábrica da Santura Engineering, MIDC Tarapur",
+    "xrfTesting": "Verificação da liga com analisador XRF",
+    "workshopStock": "Componentes de aço na oficina",
+    "rodCaliper": "Medição do diâmetro da barra com paquímetro",
+    "wireXrf": "Teste da liga do arame",
+    "wireCoilsBulk": "Estoque de bobinas de arame",
+    "wireCoilsInventory": "Inventário de bobinas de arame",
+    "wireCaliper": "Medição do diâmetro do arame com paquímetro",
+    "cratePacking": "Embalagem protetora em caixote para componentes"
+  },
+  "productCategories": {
+    "items": {
+      "refractory-anchors": {
+        "name": "Ancoragens Refratárias",
+        "description": "Ancoragens SEPL para revestimentos de tijolo, concreto, duplos e de fibra cerâmica."
+      },
+      "observation-peep-doors": {
+        "name": "Portas de Observação / Visores",
+        "description": "Portas e visores de observação para fornos, aquecedores e caldeiras."
+      },
+      "foundation-bolts": {
+        "name": "Chumbadores de Fundação",
+        "description": "Chumbadores e parafusos de fundação para estruturas e equipamentos."
+      },
+      "support-plates": {
+        "name": "Placas de Apoio",
+        "description": "Placas de base e apoio feitas sob desenho."
+      },
+      "industrial-stanchions": {
+        "name": "Montantes Industriais",
+        "description": "Montantes e postes para plataformas e guarda-corpos."
+      },
+      "pipe-guides-sleeves": {
+        "name": "Guias e Luvas para Tubos",
+        "description": "Guias e luvas anelares para tubos de fornos."
+      },
+      "counter-weight-systems": {
+        "name": "Sistemas de Contrapeso",
+        "description": "Conjuntos de contrapeso para suporte de tubos de fornos."
+      },
+      "mineral-wool": {
+        "name": "Lã Mineral",
+        "description": "Produtos isolantes de lã de rocha e lã mineral."
+      },
+      "ceramic-gaskets": {
+        "name": "Juntas Cerâmicas",
+        "description": "Juntas e vedações de fibra cerâmica para alta temperatura."
+      },
+      "glass-fibre-sheets": {
+        "name": "Mantas de Fibra de Vidro",
+        "description": "Mantas, tecidos de fibra de vidro e lã de vidro."
+      },
+      "calcium-silicate": {
+        "name": "Silicato de Cálcio",
+        "description": "Placas e calhas de silicato de cálcio."
+      },
+      "insulation-pins": {
+        "name": "Pinos de Isolamento",
+        "description": "Pinos de solda e grampos para fixar isolamento."
+      },
+      "polystyrene-insulation": {
+        "name": "Isolamento de Poliestireno",
+        "description": "Isolamento de poliestireno expandido e extrudado."
+      },
+      "polyisocyanurate-insulation": {
+        "name": "Isolamento de Poliisocianurato",
+        "description": "Placas e calhas de isolamento PIR."
+      },
+      "fasteners": {
+        "name": "Fixadores",
+        "description": "Parafusos, prisioneiros, porcas e rebites em aço inoxidável e ligas."
+      },
+      "insulation-accessories": {
+        "name": "Acessórios de Isolamento",
+        "description": "Fitas, grampos, arruelas e outras fixações de isolamento."
+      },
+      "steel-plates": {
+        "name": "Chapas de Aço",
+        "description": "Chapas de aço inoxidável e de ligas."
+      },
+      "trading-division": {
+        "name": "Divisão Comercial",
+        "description": "Fornecimento de aço inoxidável e materiais industriais."
+      }
+    },
+    "allCategories": "Todas as categorias de produtos",
+    "viewAll": "Ver todos os produtos",
+    "featured": "Nossa linha principal",
+    "featuredCta": "Conheça a linha SEPL",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "browseTitle": "Todas as Categorias de Produtos",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "{name} da Santura Engineering, Mumbai. Informações detalhadas em breve; consulte-nos sobre disponibilidade e preços.",
+    "comingSoon": "Em breve",
+    "comingSoonTitle": "Informações do produto em breve",
+    "comingSoonText": "Estamos preparando informações detalhadas sobre esta categoria. Para disponibilidade, tamanhos e preços, envie uma consulta ou solicite uma cotação.",
+    "back": "Voltar a todos os produtos",
+    "otherCategories": "Outras categorias de produtos",
+    "overviewTitle": "Categorias de Produtos",
+    "overviewIntro": "Ancoragens refratárias, materiais de isolamento, fixadores, componentes de fornos e itens fabricados da Santura Engineering, Mumbai.",
+    "overviewMetaTitle": "Categorias de Produtos | Santura Engineering",
+    "overviewMetaDescription": "Categorias de produtos da Santura Engineering, Mumbai: ancoragens refratárias, isolamento, fixadores, componentes de fornos e itens fabricados."
+  },
+  "services": {
+    "items": {
+      "bright-solution-annealing": {
+        "name": "Solubilização Brilhante",
+        "description": "Solubilização em atmosfera protetora que mantém o aço inoxidável brilhante e sem carepa."
+      },
+      "pickling-and-passivation": {
+        "name": "Decapagem e Passivação",
+        "description": "Tratamento químico que remove a carepa e restaura a camada protetora de óxido do aço inoxidável."
+      },
+      "pmi-testing": {
+        "name": "Ensaio PMI",
+        "description": "Identificação positiva de materiais para verificar a liga de componentes metálicos."
+      },
+      "stud-welding-solutions": {
+        "name": "Soldagem de Pinos / Soldagem por Pistola",
+        "description": "Suporte em soldagem de pinos e por pistola para instalação rápida e uniforme de ancoragens refratárias."
+      }
+    },
+    "comingSoon": "Em breve",
+    "comingSoonTitle": "Informações do serviço em breve",
+    "comingSoonText": "Estamos preparando informações detalhadas sobre este serviço. Fale conosco para discutir suas necessidades.",
+    "cta": "Fale conosco sobre este serviço",
+    "otherServices": "Outros serviços",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "{name} da Santura Engineering, Mumbai. Informações detalhadas em breve; fale conosco para discutir suas necessidades."
+  },
+  "bsaPage": {
+    "metaTitle": "Solubilização brilhante para ancoragens refratárias | Santura Engineering",
+    "metaDescription": "Solubilização brilhante a vácuo para ancoragens refratárias de aço inox e ligas de níquel. Desde 1980, exportando para 25+ países. ISO 9001:2015.",
+    "eyebrow": "Tratamento térmico",
+    "h1": "Solubilização brilhante para ancoragens refratárias",
+    "subheading": "Tratamento térmico a vácuo que restaura o equilíbrio atômico em ancoragens de aço inoxidável e ligas de níquel trabalhadas a frio e prolonga sua vida útil.",
+    "ctaHero": "Solicite solubilização para suas ancoragens",
+    "whatTitle": "O que é solubilização brilhante?",
+    "what": [
+      "A solubilização aquece o aço inoxidável ou a liga de níquel acima da temperatura de solubilização, normalmente entre 1040 °C e 1230 °C conforme a liga, mantém o material o tempo necessário para a recristalização e depois o resfria rapidamente. Carbonetos e outros precipitados se dissolvem e o metal recupera sua microestrutura original, totalmente austenítica.",
+      "Na solubilização brilhante o aquecimento é feito a vácuo ou em gás inerte, como o argônio. O oxigênio não chega à superfície, e as ancoragens saem limpas e brilhantes, sem carepa.",
+      "O recozimento \"preto\" convencional ao ar escurece a superfície e forma carepa. Ela precisa ser removida depois, e o metal perdido reduz a seção útil da ancoragem, o que pesa em arames e fitas finos."
+    ],
+    "whyTitle": "Por que isso importa para ancoragens refratárias",
+    "whyIntro": "Fabricar uma ancoragem envolve trefilação a frio, dobra, conformação e soldagem. Cada etapa deforma a rede cristalina e deixa tensões internas armazenadas como discordâncias. Sem tratamento, essas tensões tornam a ancoragem vulnerável de três formas.",
+    "risks": [
+      {
+        "title": "Corrosão",
+        "text": "O metal encruado e muito tensionado é mais suscetível à corrosão sob tensão e ao ataque de enxofre, cloretos e álcalis presentes em fornos e caldeiras."
+      },
+      {
+        "title": "Fragilização por fase sigma",
+        "text": "Em temperaturas de serviço de cerca de 600–900 °C, o inox encruado forma fase sigma mais rápido. Essa fase dura e frágil reduz muito a tenacidade, e a ancoragem pode trincar quando a unidade esfria."
+      },
+      {
+        "title": "Vida útil menor",
+        "text": "Ancoragens tensionadas perdem resistência e falham antes sob ciclos térmicos, muitas vezes antes de o próprio revestimento refratário precisar ser trocado."
+      }
+    ],
+    "whyResult": [
+      "A solubilização brilhante alivia essas tensões e devolve os átomos ao espaçamento de equilíbrio, a condição em que a liga tem o melhor desempenho em alta temperatura. Também dissolve carbonetos ou fase sigma já presentes.",
+      "O resultado é uma ancoragem que resiste por mais tempo à corrosão e à fragilização e mantém sua resistência mecânica na temperatura de serviço."
+    ],
+    "tableTitle": "Parâmetros de tratamento por liga",
+    "colAlloy": "Liga",
+    "colTemp": "Temperatura (°C)",
+    "colCooling": "Resfriamento",
+    "colNotes": "Observações",
+    "cooling": {
+      "waterOrAir": "Têmpera em água ou resfriamento rápido ao ar",
+      "water": "Têmpera em água"
+    },
+    "notes": {
+      "ss304": "A liga mais comum em ancoragens",
+      "ss309": "Para temperaturas de serviço mais altas",
+      "ss310": "Maior temperatura de serviço entre os inox padrão",
+      "ss316": "Com molibdênio, melhor resistência à corrosão",
+      "ss321": "Estabilizado ao titânio",
+      "ma253": "Inox austenítico refratário com alta resistência à oxidação",
+      "a800": "Liga de níquel, ferro e cromo",
+      "in601": "Liga de níquel e cromo",
+      "in625": "Liga complexa de níquel, cromo e molibdênio que exige a maior temperatura para restaurar o equilíbrio"
+    },
+    "tableNote": "Cada liga exige temperatura e tempo de encharque próprios; parâmetros incorretos podem danificar o material em vez de melhorá-lo. O processo da Santura segue a ASTM A240 e a especificação de material aplicável a cada liga.",
+    "industriesTitle": "Setores que se beneficiam",
+    "industries": [
+      {
+        "name": "Fábricas de cimento",
+        "text": "Ancoragens de forno expostas ao ataque alcalino e a ciclos térmicos constantes."
+      },
+      {
+        "name": "Refinarias",
+        "text": "Ancoragens de fornos e unidades FCC em ambientes sulfetantes."
+      },
+      {
+        "name": "Petroquímica",
+        "text": "Ancoragens de fornos de craqueamento em atmosferas carburantes."
+      },
+      {
+        "name": "Recuperação energética de resíduos",
+        "text": "Ancoragens da câmara de pós-combustão expostas à corrosão por cloretos."
+      },
+      {
+        "name": "Siderúrgicas",
+        "text": "Ancoragens de panelas e fornos de reaquecimento sob alta carga mecânica."
+      }
+    ],
+    "verifyTitle": "Como verificar o tratamento",
+    "verify": [
+      {
+        "title": "Ensaios de dureza e tração",
+        "text": "O material solubilizado é mais macio que o conformado. A dureza deve voltar à faixa recozida da liga (para SS304, no máximo o limite ASTM A240 de 92 HRB) e a resistência à tração deve ficar próxima do mínimo especificado, com a ductilidade restaurada."
+      },
+      {
+        "title": "Acabamento superficial",
+        "text": "A superfície deve estar brilhante, limpa e sem carepa ou coloração de calor."
+      },
+      {
+        "title": "Comparação com o certificado de usina",
+        "text": "Comparar os resultados com o certificado de usina original confirma que o material voltou às propriedades de recozido especificadas."
+      }
+    ],
+    "verifyQualityLink": "Veja como ensaiamos e documentamos cada pedido",
+    "productsTitle": "Produtos Santura que podem receber solubilização brilhante",
+    "productGroups": [
+      {
+        "title": "Ancoragens de aço inoxidável",
+        "text": "Todos os tipos de ancoragem SEPL em SS304, SS309, SS310, SS316 e SS321."
+      },
+      {
+        "title": "Ancoragens de ligas para alta temperatura",
+        "text": "Todos os tipos de ancoragem SEPL em 253MA, Alloy 800H, Inconel 601 e Inconel 625."
+      },
+      {
+        "title": "Fibras de aço",
+        "text": "Fibras inox de extração por fusão e trefiladas a frio."
+      }
+    ],
+    "productCategoriesLabel": "Por tipo de revestimento",
+    "productExamplesLabel": "Exemplos",
+    "ctaTitle": "Solicite solubilização brilhante",
+    "ctaText": "Envie o desenho ou código da ancoragem, a liga e a quantidade, e faremos a cotação da fabricação com solubilização brilhante.",
+    "ctaRfq": "Solicitar solubilização brilhante",
+    "ctaContact": "Fale com nossa equipe técnica sobre solubilização para o seu projeto",
+    "faqTitle": "Perguntas frequentes",
+    "faq": [
+      {
+        "q": "Qual a diferença entre solubilização brilhante e recozimento preto?",
+        "a": "A solubilização brilhante é feita a vácuo ou em gás inerte, então a superfície fica limpa e sem óxido. O recozimento preto é feito ao ar e forma carepa, que precisa ser removida e reduz a seção útil da ancoragem."
+      },
+      {
+        "q": "Quais ligas podem receber solubilização brilhante?",
+        "a": "Todos os aços inoxidáveis austeníticos usados em ancoragens refratárias (304, 309, 310, 316 e 321), a liga refratária 253MA e as ligas de níquel 800H, 601 e 625."
+      },
+      {
+        "q": "Como verificar se a solubilização foi feita corretamente?",
+        "a": "Com ensaios de dureza e tração. O material tratado deve ser mais macio que o não tratado, com dureza na faixa recozida e resistência próxima do mínimo especificado. A superfície também deve estar brilhante e sem carepa."
+      },
+      {
+        "q": "A solubilização brilhante aumenta a vida útil das ancoragens?",
+        "a": "Sim. Ao eliminar as tensões do trabalho a frio e restaurar o equilíbrio atômico, as ancoragens tratadas resistem muito melhor à corrosão e à fragilização por fase sigma do que as não tratadas."
+      }
+    ],
+    "bothOffered": "Oferecemos solubilização brilhante (a vácuo) e solubilização padrão (ao ar)."
+  },
+  "ppPage": {
+    "metaTitle": "Decapagem e passivação de ancoragens refratárias | ASTM A380 A967 | Santura Engineering",
+    "metaDescription": "Decapagem e passivação de ancoragens refratárias de aço inox conforme ASTM A380 e A967. Desde 1980, exportando para 25+ países. ISO 9001:2015.",
+    "eyebrow": "Tratamento de superfície",
+    "h1": "Decapagem e passivação de ancoragens refratárias de aço inox",
+    "subheading": "Limpeza ácida e tratamento de superfície que removem carepa de solda, coloração térmica e contaminantes incrustados, restaurando toda a resistência à corrosão antes da instalação.",
+    "ctaHero": "Solicitar decapagem e passivação",
+    "whatTitle": "O que são decapagem e passivação?",
+    "whatIntro": "São dois processos distintos. Quando os dois são pedidos, primeiro se faz a decapagem e depois a passivação.",
+    "pickling": {
+      "title": "Decapagem",
+      "points": [
+        "Um tratamento ácido agressivo, geralmente com uma mistura de ácido nítrico e fluorídrico.",
+        "Remove carepa de solda, coloração térmica, camadas de óxido, partículas de ferro incrustadas e outras contaminações deixadas por soldagem, corte, esmerilhamento e dobra.",
+        "Dissolve uma fina camada da própria superfície, expondo metal base limpo.",
+        "Deixa um acabamento fosco uniforme, sem manchas nem contaminantes.",
+        "É aplicada por imersão em tanque para peças inteiras, por pulverização para grandes conjuntos ou serviços em campo, ou com gel a pincel em soldas e áreas pequenas."
+      ]
+    },
+    "passivation": {
+      "title": "Passivação",
+      "points": [
+        "Um tratamento ácido mais suave, com ácido nítrico ou cítrico.",
+        "Não remove metal: retira apenas o ferro livre e outros contaminantes de superfície.",
+        "Ajuda a formar a camada passiva natural de óxido de cromo, que dá ao aço inoxidável sua resistência à corrosão.",
+        "A camada passiva se forma sozinha ao ar, mas em superfícies recém-fabricadas esse processo pode ser prejudicado. A passivação garante que ela se forme de modo completo e uniforme.",
+        "Depois da decapagem, a passivação reconstrói a camada protetora na superfície limpa. Também pode ser especificada sozinha para peças que não precisam de remoção de carepa."
+      ]
+    },
+    "whyTitle": "Por que isso importa para ancoragens refratárias",
+    "whyIntro": "As ancoragens são cortadas, esmerilhadas, dobradas em V e Y e soldadas a carcaças de fornos e dutos. Cada etapa danifica a superfície de um jeito diferente.",
+    "damage": [
+      {
+        "title": "Coloração térmica da solda",
+        "text": "O óxido colorido em volta de uma solda se forma retirando cromo do metal logo abaixo. Nessa zona empobrecida em cromo a camada passiva não consegue se formar direito."
+      },
+      {
+        "title": "Esmerilhamento",
+        "text": "Discos de esmeril e ferramentas de aço carbono deixam partículas de ferro incrustadas que enferrujam e iniciam a corrosão numa superfície inoxidável."
+      },
+      {
+        "title": "Corte",
+        "text": "As bordas cortadas são ásperas e tensionadas, e a corrosão começa por elas."
+      }
+    ],
+    "whyResult": [
+      "Sem tratamento, essas áreas danificadas são os primeiros pontos de falha em serviço de alta temperatura, e as zonas empobrecidas em cromo em volta das soldas são as mais vulneráveis.",
+      "A decapagem remove totalmente a camada danificada e a passivação reconstrói o filme de óxido de cromo na superfície limpa. O resultado é uma ancoragem com resistência à corrosão uniforme em toda a superfície, inclusive soldas e dobras."
+    ],
+    "standardsTitle": "Normas aplicáveis",
+    "colStandard": "Norma",
+    "colCovers": "Abrange",
+    "standards": {
+      "a380": "Standard Practice for Cleaning, Descaling and Passivation of Stainless Steel Parts, Equipment and Systems. Abrange limpeza e decapagem.",
+      "a967": "Standard Specification for Chemical Passivation Treatments for Stainless Steel Parts. Abrange os tratamentos de passivação e sua verificação.",
+      "verify": "Ensaio de sulfato de cobre, que confirma que a superfície está livre de contaminação por ferro e corretamente passivada."
+    },
+    "verifyLabel": "Verificação",
+    "materialsTitle": "Materiais que tratamos",
+    "materials": [
+      {
+        "title": "Aços inoxidáveis austeníticos",
+        "text": "SS304, SS304L, SS309, SS310, SS310S, SS316, SS316L, SS321 e SS347."
+      },
+      {
+        "title": "Ligas para alta temperatura",
+        "text": "253MA, Alloy 800H, Inconel 601 e Inconel 625. A ASTM A967 abrange apenas aços inoxidáveis, então as ligas de níquel são tratadas conforme o procedimento do fabricante da liga."
+      },
+      {
+        "title": "Aços inoxidáveis duplex",
+        "text": "Sob consulta, com química adequada à liga."
+      }
+    ],
+    "carbonSteelNote": "Peças de aço carbono não são decapadas com a mesma química: os ácidos de decapagem do inox são altamente corrosivos para o aço carbono.",
+    "methodsTitle": "Métodos de tratamento",
+    "methods": [
+      {
+        "title": "Imersão em tanque",
+        "text": "Todo o lote de ancoragens é mergulhado no tanque de ácido. Ideal para grandes volumes de peças pequenas e médias."
+      },
+      {
+        "title": "Decapagem por pulverização",
+        "text": "O ácido é pulverizado sobre grandes conjuntos fabricados. Adequada para serviços em campo e componentes de grande porte."
+      },
+      {
+        "title": "Gel a pincel",
+        "text": "Pasta aplicada em soldas ou pontos específicos. Usada em reparos em campo e no tratamento localizado de zonas afetadas pelo calor."
+      }
+    ],
+    "methodsNote": "As peças devem ser desengraxadas e limpas de óleo, graxa e outras contaminações orgânicas antes do tratamento ácido. Decapagem e passivação não removem óleo nem graxa.",
+    "whenTitle": "Quando especificar decapagem e passivação",
+    "when": [
+      "Depois de soldar as ancoragens a carcaças de fornos ou dutos.",
+      "Depois de tratamento térmico: a decapagem remove a carepa da solubilização ao ar, e peças com solubilização brilhante podem ser passivadas quando especificado.",
+      "Quando as ancoragens apresentam coloração térmica ou manchas visíveis de solda.",
+      "Quando as ancoragens tiveram contato com ferramentas de aço carbono durante a fabricação.",
+      "Para serviço crítico em refinarias e petroquímicas, e em fabricações de inox para as indústrias farmacêutica e alimentícia.",
+      "Quando a especificação do cliente final exige conformidade com a ASTM A380 ou A967."
+    ],
+    "relatedTitle": "Relação com nossos outros serviços",
+    "relatedBsaTitle": "Depois da solubilização brilhante",
+    "relatedBsaText": "A solubilização brilhante restaura a estrutura interna do metal; a passivação restaura depois a proteção da superfície. Os dois se complementam.",
+    "relatedPmiTitle": "Antes do ensaio PMI",
+    "relatedPmiText": "Uma superfície limpa e passivada dá leituras de PMI mais confiáveis do que uma coberta de carepa ou contaminação.",
+    "productsTitle": "Produtos Santura que tratamos",
+    "products": {
+      "anchors": "Todas as ancoragens refratárias SEPL",
+      "fibres": "Fibras de aço inoxidável",
+      "counterweights": "Sistemas de contrapeso",
+      "fasteners": "Fixadores e prisioneiros",
+      "fabrication": "Qualquer fabricação em aço inoxidável"
+    },
+    "productExamplesLabel": "Exemplos",
+    "qualityLink": "Veja como ensaiamos e documentamos cada pedido",
+    "ctaTitle": "Solicite decapagem e passivação",
+    "ctaText": "Envie o desenho ou código do produto, o material, a quantidade e a norma a atender, e faremos a cotação do tratamento.",
+    "ctaRfq": "Solicitar decapagem e passivação",
+    "ctaContact": "Converse sobre seus requisitos de tratamento de superfície",
+    "faqTitle": "Perguntas frequentes",
+    "faq": [
+      {
+        "q": "Qual a diferença entre decapagem e passivação?",
+        "a": "A decapagem é um tratamento ácido agressivo que remove carepa de solda, coloração térmica e uma fina camada de metal. A passivação é um tratamento ácido mais suave que remove o ferro livre e ajuda a camada protetora de óxido de cromo a se formar de novo. Geralmente são feitas em sequência."
+      },
+      {
+        "q": "Por que ancoragens refratárias precisam de decapagem e passivação?",
+        "a": "Soldagem, dobra e corte danificam a superfície e empobrecem em cromo a zona afetada pelo calor. Sem tratamento, essas áreas são as primeiras a corroer em serviço de alta temperatura."
+      },
+      {
+        "q": "Quais normas se aplicam à decapagem e à passivação?",
+        "a": "A ASTM A380 abrange limpeza e decapagem. A ASTM A967 abrange os tratamentos de passivação e sua verificação; o ensaio de sulfato de cobre (Practice D) confirma que a superfície está corretamente passivada."
+      },
+      {
+        "q": "A decapagem e a passivação podem ser feitas em campo?",
+        "a": "Sim. A decapagem por pulverização e o gel a pincel permitem tratar em campo conjuntos soldados e grandes fabricações."
+      }
+    ]
+  },
+  "pmiPage": {
+    "metaTitle": "Ensaio PMI de ancoragens refratárias | Verificação de ligas | Santura Engineering",
+    "metaDescription": "Ensaio PMI de ancoragens refratárias com analisadores XRF e OES. Verificação de ligas desde 1980, exportando para 25+ países. ISO 9001:2015.",
+    "eyebrow": "Serviço de ensaio",
+    "h1": "Ensaio PMI de ancoragens refratárias",
+    "subheading": "Identificação positiva de materiais que confirma que cada ancoragem é feita na liga especificada, do recebimento da matéria-prima até o embarque.",
+    "ctaHero": "Solicitar ensaio PMI",
+    "pmiLinkFromQuality": "Saiba mais sobre nosso ensaio PMI",
+    "whatTitle": "O que é o ensaio PMI?",
+    "what": [
+      "A identificação positiva de materiais (PMI) é um ensaio não destrutivo que mede a composição elementar de um metal e confirma sua liga. É feita com um analisador portátil de fluorescência de raios X (XRF) ou um espectrômetro de emissão óptica (OES).",
+      "O analisador lê a composição em segundos e a compara com uma biblioteca de ligas. Nada é cortado, furado ou danificado, então as ancoragens prontas podem ser ensaiadas e embarcadas."
+    ],
+    "whyTitle": "Por que isso importa para ancoragens refratárias",
+    "why": [
+      {
+        "title": "A liga errada falha em serviço",
+        "text": "Uma ancoragem em SS304 onde se especificou SS310 pode oxidar, perder resistência e falhar na temperatura do forno, levando junto o revestimento refratário."
+      },
+      {
+        "title": "Trocas acontecem",
+        "text": "Materiais podem ser trocados na produção, no estoque ou no embarque. Etiquetas podem estar erradas e certificados de usina associados ao lote errado."
+      },
+      {
+        "title": "A última verificação antes do embarque",
+        "text": "O PMI é a verificação final de que cada ancoragem que sai da fábrica é da liga que o cliente pediu."
+      },
+      {
+        "title": "Exigido pelos usuários finais",
+        "text": "Refinarias e petroquímicas costumam aplicar programas de verificação de materiais baseados na API RP 578 e pedem relatórios de PMI antes de aceitar materiais na obra."
+      }
+    ],
+    "methodsTitle": "Métodos de ensaio",
+    "methods": [
+      {
+        "title": "XRF portátil",
+        "text": "A fluorescência de raios X portátil dá uma leitura em segundos, em qualquer ponto da fábrica. É o método padrão para matéria-prima, peças em processo e ancoragens prontas."
+      },
+      {
+        "title": "OES (espectrometria de emissão óptica)",
+        "text": "A OES por centelha também mede carbono e elementos leves. É mais lenta, menos portátil e deixa uma pequena marca, por isso é usada quando o teor de carbono precisa ser confirmado."
+      },
+      {
+        "title": "Análise em laboratório",
+        "text": "Quando uma especificação exige análise química completa, as amostras são ensaiadas em laboratórios terceiros acreditados pela NABL."
+      }
+    ],
+    "limitationTitle": "O que o XRF não enxerga",
+    "limitationText": "O XRF não detecta carbono, então não distingue o SS316 do SS316L nem o SS304 do SS304L. Quando é preciso confirmar ligas de baixo carbono, usa-se OES ou análise em laboratório.",
+    "standardsTitle": "Normas aplicáveis",
+    "colStandard": "Norma",
+    "colCovers": "Abrange",
+    "standards": {
+      "rp578": "Material Verification Program for New and Existing Alloy Piping Systems. Base da maioria dos requisitos de PMI em refinarias e petroquímicas.",
+      "e1476": "Standard Guide for Metals Identification, Grade Verification and Sorting.",
+      "specs": "Especificações de material para chapas, fitas, barras e arames. Os resultados de PMI são comparados com os limites químicos dessas especificações."
+    },
+    "alloysTitle": "Ligas que verificamos",
+    "colGrade": "Liga",
+    "colElements": "Elementos-chave verificados",
+    "colComposition": "Composição nominal (%)",
+    "carbonSteel": "Aço carbono",
+    "carbonSteelComposition": "Ferro, sem teor significativo de cromo ou níquel",
+    "alloysNote": "Faixas nominais das especificações de material ASTM. Elementos leves como o alumínio e adições em traços como o cério são confirmados pelo certificado de usina. O PMI também verifica que nenhum material de carcaça em aço carbono se misturou às ancoragens de liga.",
+    "whenTitle": "Quando fazemos o PMI",
+    "when": [
+      {
+        "title": "Recebimento da matéria-prima",
+        "text": "Chapas, arames e barras são verificados no recebimento, antes de entrar na produção."
+      },
+      {
+        "title": "Durante a fabricação",
+        "text": "Verificações em processo detectam qualquer troca entre operações."
+      },
+      {
+        "title": "Inspeção final",
+        "text": "As ancoragens prontas são verificadas de novo antes da embalagem e do embarque."
+      },
+      {
+        "title": "A pedido do cliente",
+        "text": "Os certificados de PMI acompanham a entrega, e os ensaios podem ser acompanhados pelo seu inspetor."
+      }
+    ],
+    "docsTitle": "Documentação fornecida",
+    "docs": [
+      "Relatório de PMI com a porcentagem medida de cada elemento",
+      "Confirmação da liga em relação à especificação pedida",
+      "Rastreabilidade pelo número da corrida até o certificado de usina",
+      "Certificados de usina originais EN 10204 3.1"
+    ],
+    "relatedTitle": "Serviços relacionados",
+    "relatedBsaText": "Tratamento térmico que restaura a estrutura interna de ancoragens trabalhadas a frio.",
+    "relatedPpText": "Uma superfície limpa e passivada dá leituras de PMI mais confiáveis.",
+    "qualityLink": "Veja como ensaiamos e documentamos cada pedido",
+    "ctaTitle": "Solicite ensaio PMI",
+    "ctaText": "Informe os produtos, as ligas e as quantidades, e se precisa de certificados de PMI ou ensaios acompanhados, e incluiremos na cotação.",
+    "ctaRfq": "Solicitar ensaio PMI",
+    "ctaContact": "Converse sobre seus requisitos de verificação de materiais",
+    "faqTitle": "Perguntas frequentes",
+    "faq": [
+      {
+        "q": "O que o ensaio PMI detecta?",
+        "a": "Os elementos de liga que identificam um grau, como cromo, níquel, molibdênio, titânio, nióbio e manganês, e silício em analisadores adequados. O analisador associa a composição medida a uma liga."
+      },
+      {
+        "q": "Por que o PMI é necessário para ancoragens refratárias?",
+        "a": "Uma ancoragem na liga errada pode falhar na temperatura do forno e derrubar o revestimento. O PMI confirma que cada ancoragem é do grau especificado, e muitas refinarias e petroquímicas exigem relatórios de PMI antes de aceitar o material."
+      },
+      {
+        "q": "O PMI distingue o SS316 do SS316L?",
+        "a": "Não com XRF, que não detecta carbono. Quando é preciso confirmar o teor de carbono de uma liga de baixo carbono, usa-se OES ou análise em laboratório."
+      },
+      {
+        "q": "Que documentação vocês fornecem?",
+        "a": "Um relatório de PMI com as porcentagens medidas dos elementos, a confirmação da liga em relação à especificação e a rastreabilidade pelo número da corrida até o certificado de usina original."
+      }
+    ]
+  },
+  "swPage": {
+    "metaTitle": "Soldagem de pinos para ancoragens refratárias | Santura Engineering",
+    "metaDescription": "Soldagem de pinos para ancoragens refratárias: arco puxado e descarga capacitiva, anéis cerâmicos e procedimentos. Desde 1980, exportando a 25+ países.",
+    "eyebrow": "Serviço de instalação",
+    "h1": "Soluções de soldagem de pinos para ancoragens refratárias",
+    "subheading": "Ancoragens, equipamentos de soldagem de pinos, anéis cerâmicos e procedimentos de soldagem para uma instalação rápida e confiável em carcaças de fornos e vasos.",
+    "ctaHero": "Solicitar apoio em soldagem de pinos",
+    "whatTitle": "O que é soldagem de pinos?",
+    "what": [
+      "A soldagem de pinos fixa uma ancoragem refratária diretamente na carcaça de um forno ou vaso com um arco elétrico, em fração de segundo e sem furar.",
+      "A pistola segura a ancoragem contra a carcaça e abre um arco que funde a ponta do pino e uma pequena área da carcaça. Em seguida a pistola mergulha o pino na poça fundida, que solidifica numa solda de seção plena.",
+      "Na soldagem por arco puxado, um anel cerâmico envolve a solda, contém o metal fundido e o protege do ar."
+    ],
+    "compareTitle": "Comparação dos processos de soldagem de pinos",
+    "colFeature": "Característica",
+    "processes": {
+      "da": "Arco puxado",
+      "sc": "Ciclo curto",
+      "cd": "Descarga capacitiva"
+    },
+    "compareRows": [
+      {
+        "label": "Diâmetro do pino",
+        "da": "3–25 mm",
+        "sc": "Pinos pequenos e médios",
+        "cd": "Até 10 mm"
+      },
+      {
+        "label": "Espessura do material base",
+        "da": "A partir de cerca de 2 mm",
+        "sc": "Chapa mais fina que no arco puxado",
+        "cd": "A partir de cerca de 0,7 mm"
+      },
+      {
+        "label": "Tempo de soldagem",
+        "da": "Décimos de segundo até cerca de 1 segundo",
+        "sc": "Até 100 ms",
+        "cd": "Poucos milissegundos"
+      },
+      {
+        "label": "Anel cerâmico",
+        "da": "Sim",
+        "sc": "Não; pode-se usar gás de proteção no inox",
+        "cd": "Não"
+      },
+      {
+        "label": "Uso típico",
+        "da": "Ancoragens refratárias em carcaças de fornos; penetração profunda, alta resistência",
+        "sc": "Ancoragens e pinos leves quando a rapidez importa",
+        "cd": "Pinos de isolamento e pinos para fibra cerâmica; marcação mínima no verso"
+      }
+    ],
+    "compareNote": "O arco puxado é o principal método para ancoragens refratárias em carcaças de fornos. Uma solda por arco puxado bem feita é mais resistente que o próprio pino: no ensaio de dobramento ou tração, rompe o pino, não a solda.",
+    "whyTitle": "Por que a qualidade da solda importa no serviço refratário",
+    "why": [
+      {
+        "title": "A solda sustenta o revestimento",
+        "text": "As ancoragens são soldadas a carcaças de aço carbono ou inox antes da instalação do revestimento. Cada quilo de refratário está pendurado nessas soldas."
+      },
+      {
+        "title": "Uma solda ruim falha primeiro",
+        "text": "Uma solda com falta de fusão ou porosidade trinca com os ciclos térmicos muito antes de a ancoragem ou o refratário se desgastarem."
+      },
+      {
+        "title": "O processo certo para cada ancoragem",
+        "text": "Ancoragens para concreto com base de pino exigem arco puxado, pinos para fibra cerâmica e pinos de isolamento exigem descarga capacitiva, e algumas ancoragens são feitas para soldagem manual ou fixação roscada."
+      },
+      {
+        "title": "Paradas não deixam tempo para retrabalho",
+        "text": "A maioria das instalações acontece durante paradas de planta. Capacidade de soldar em campo e parâmetros corretos desde a primeira ancoragem mantêm o cronograma."
+      }
+    ],
+    "productsTitle": "Quais produtos Santura usam cada método",
+    "methods": {
+      "da": {
+        "title": "Soldagem por arco puxado / com pistola",
+        "text": "Ancoragens com base de pino ou soldáveis com pistola. No SEPL-08 e no SEPL-20 algumas versões são soldadas como pino e outras à mão ou aparafusadas; os conectores SEPL-16 são fornecidos com fluxo de alumínio para soldagem de pinos."
+      },
+      "sc": {
+        "title": "Ciclo curto (Rapid Arc)",
+        "text": "Pinos fendidos para concretos leves."
+      },
+      "cd": {
+        "title": "Descarga capacitiva",
+        "text": "Pinos para fibra cerâmica, pinos roscados soldáveis e pinos de isolamento."
+      },
+      "manual": {
+        "title": "Soldagem manual a arco",
+        "text": "Ancoragens projetadas para a soldagem manual tradicional."
+      },
+      "screw": {
+        "title": "Roscadas e aparafusadas",
+        "text": "Ancoragens montadas em porcas ou rosqueadas em pinos pré-soldados. O SEPL-25 também existe na versão aparafusada."
+      }
+    },
+    "alloysLine": "Todos os métodos estão disponíveis para ancoragens em aço carbono, SS304, SS309, SS310, SS316, SS321, 253MA, Alloy 800H e Inconel.",
+    "offerTitle": "O que fornecemos",
+    "offer": [
+      {
+        "title": "Ancoragens prontas para instalar",
+        "text": "Ancoragens com base de pino ou pinos pré-soldados, preparadas para soldagem em campo."
+      },
+      {
+        "title": "Equipamentos e consumíveis",
+        "text": "Equipamentos de soldagem de pinos, anéis cerâmicos e pinças compatíveis com as ancoragens pedidas."
+      },
+      {
+        "title": "Orientação técnica",
+        "text": "Parâmetros de soldagem recomendados para cada liga e tipo de ancoragem."
+      },
+      {
+        "title": "Especificações de procedimento de soldagem",
+        "text": "Uma EPS (WPS) para cada combinação de liga da ancoragem e material da carcaça."
+      }
+    ],
+    "standardsTitle": "Normas aplicáveis",
+    "colStandard": "Norma",
+    "colCovers": "Abrange",
+    "standards": {
+      "d11": "Structural Welding Code – Steel, incluindo a seção sobre soldagem de pinos.",
+      "d16": "Structural Welding Code – Stainless Steel, incluindo a soldagem de pinos de inox.",
+      "iso": "Soldagem – Soldagem a arco de pinos em materiais metálicos.",
+      "c54": "Recommended Practices for Stud Welding."
+    },
+    "relatedTitle": "Serviços relacionados",
+    "relatedBsaText": "Restaura a estrutura interna de ancoragens trabalhadas a frio antes da soldagem e do serviço.",
+    "relatedPpText": "Remove a coloração térmica e restaura a resistência à corrosão em volta das soldas.",
+    "relatedPmiText": "Confirma a liga de cada ancoragem antes da soldagem.",
+    "ctaTitle": "Planeje conosco a instalação das ancoragens",
+    "ctaText": "Informe os tipos de ancoragem, as ligas, as quantidades e o material da carcaça, e se precisa de equipamentos, anéis ou uma EPS. Faremos a cotação do pacote completo.",
+    "ctaRfq": "Solicitar apoio em soldagem de pinos",
+    "ctaContact": "Converse sobre sua instalação com nossa equipe técnica",
+    "faqTitle": "Perguntas frequentes",
+    "faq": [
+      {
+        "q": "Qual a diferença entre arco puxado e descarga capacitiva?",
+        "a": "O arco puxado usa um arco mais longo e um anel cerâmico para soldar pinos maiores, até cerca de 25 mm, em carcaças a partir de cerca de 2 mm, com penetração profunda e alta resistência. A descarga capacitiva solda pinos menores, até cerca de 10 mm, em poucos milissegundos e sem anel, e serve para material fino a partir de cerca de 0,7 mm."
+      },
+      {
+        "q": "Qual método é usado para cada tipo de ancoragem?",
+        "a": "Ancoragens para concreto com base de pino ou soldáveis com pistola, como SEPL-06, SEPL-13 e SEPL-18, usam arco puxado. Pinos para fibra cerâmica (SEPL-24), pinos roscados soldáveis (SEPL-25) e pinos de isolamento usam descarga capacitiva. Algumas ancoragens, como SEPL-07 e SEPL-09, são feitas para soldagem manual."
+      },
+      {
+        "q": "As ancoragens podem ser fornecidas prontas para soldar em campo?",
+        "a": "Sim. As ancoragens são fornecidas com base de pino ou pinos pré-soldados, prontas para instalação em campo, junto com os anéis correspondentes e os parâmetros de soldagem recomendados."
+      },
+      {
+        "q": "Quais tamanhos de anel cerâmico estão disponíveis?",
+        "a": "Os anéis são escolhidos conforme o diâmetro do pino e a superfície soldada, como chapa plana ou tubo. Informe o diâmetro do pino e a geometria da carcaça e forneceremos os anéis correspondentes com as ancoragens."
+      }
+    ]
   }
 }

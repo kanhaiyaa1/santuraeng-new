@@ -5,6 +5,9 @@ import { siteUrl } from '@/lib/seo';
 import { breadcrumbJsonLd, pageMetadata } from '@/lib/page';
 import { SITE } from '@/lib/site';
 import PageHeader from '@/components/PageHeader';
+import Image from 'next/image';
+import { ABOUT_GALLERY, PHOTOS } from '@/lib/photos';
+import PhotoGrid from '@/components/PhotoGrid';
 
 type Props = { params: { locale: string } };
 type Milestone = { year: string; title: string; text: string };
@@ -16,6 +19,7 @@ export function generateMetadata({ params: { locale } }: Props): Promise<Metadat
 export default async function AboutPage({ params: { locale } }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'aboutPage' });
+  const photos = await getTranslations({ locale, namespace: 'photos' });
 
   const jsonLd = [
     {
@@ -83,6 +87,9 @@ export default async function AboutPage({ params: { locale } }: Props) {
               <address className="mt-3 text-sm not-italic text-ink-muted">{SITE.headOffice.lines.join(', ')}</address>
             </div>
             <div className={card}>
+              <div className="relative -mx-6 -mt-6 mb-5 aspect-[16/9] overflow-hidden rounded-t-lg bg-surface-alt">
+                <Image src={PHOTOS.factoryExterior.src} alt={photos('factoryExterior')} fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
+              </div>
               <h3 className="text-lg font-bold text-ink">{t('tarapurTitle')}</h3>
               <p className="mt-2 text-sm leading-relaxed text-ink-body">{t('tarapurText')}</p>
               <address className="mt-3 text-sm not-italic text-ink-muted">{SITE.works.lines.join(', ')}</address>
@@ -119,7 +126,16 @@ export default async function AboutPage({ params: { locale } }: Props) {
         <div className={card}>
           <h2 className="text-xl font-bold text-ink">{t('exportTitle')}</h2>
           <p className="mt-3 text-sm leading-relaxed text-ink-body">{t('exportText')}</p>
-          <Link href={{ pathname: '/', hash: 'countries' }} className={link}>{t('exportLink')} →</Link>
+        </div>
+      </section>
+
+      <section className="bg-surface-alt py-16">
+        <div className="mx-auto max-w-6xl px-6">
+          <h2 className={h2}>{t('galleryTitle')}</h2>
+          <p className="mt-3 max-w-3xl text-ink-body">{t('galleryIntro')}</p>
+          <div className="mt-8">
+            <PhotoGrid keys={ABOUT_GALLERY} />
+          </div>
         </div>
       </section>
     </main>

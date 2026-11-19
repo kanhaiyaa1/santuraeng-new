@@ -8,12 +8,14 @@
     "quality": "Kalite",
     "contact": "İletişim",
     "privacy": "Gizlilik Politikası",
-    "disclaimer": "Yasal Uyarı"
+    "disclaimer": "Yasal Uyarı",
+    "services": "Hizmetler",
+    "refractoryAnchors": "Refrakter Ankrajlar"
   },
   "hero": {
     "eyebrow": "Santura Engineering Pvt. Ltd. · Mumbai, Hindistan",
     "title": "Refrakter Ankraj Üreticisi ve İhracatçısı",
-    "subtitle": "Tuğla, dökme ve seramik elyaf astarlar için refrakter ankrajlar, elyaf saplamaları ve paslanmaz çelik lifler — Mumbai'de üretilir ve Nhava Sheva limanından uluslararası projelere gönderilir.",
+    "subtitle": "Refrakter ankrajlar, seramik elyaf saplamaları, karşı ağırlık sistemleri, yalıtım malzemeleri, gözetleme kapakları ve aksesuarlar — Mumbai'de üretilir ve Nhava Sheva limanından uluslararası projelere gönderilir.",
     "imageAlt": "Refrakter astarlı kolonlar ve fırınlara sahip rafineri üniteleri"
   },
   "cta": {
@@ -247,7 +249,8 @@
     "sending": "Gönderiliyor…",
     "success": "Teşekkürler. En kısa sürede size dönüş yapacağız.",
     "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
-    "productPrefix": "Ürün"
+    "productPrefix": "Ürün",
+    "servicePrefix": "Hizmet"
   },
   "rfqPage": {
     "title": "Refrakter Ankrajlar için Teklif İsteyin",
@@ -332,6 +335,11 @@
         "text": "Üretim mühendisi Bharat Diwan şirketi kurar."
       },
       {
+        "year": "1981",
+        "title": "Karşı ağırlık sistemleri",
+        "text": "Karşı ağırlık sistemleri ve diğer imalat ürünlerinin üretimi başlar."
+      },
+      {
         "year": "2005",
         "title": "Refrakter ankrajlar",
         "text": "Refrakter ankraj üretimi başlar."
@@ -371,7 +379,9 @@
     "productsLink": "Tüm ürünleri görün",
     "exportTitle": "İhracat",
     "exportText": "Orta Doğu, Avrupa ve Amerika kıtasında 25'ten fazla ülkeye, Nhava Sheva'dan eksiksiz belgelerle ihracat yapıyoruz.",
-    "exportLink": "Ülkenizi bulun"
+    "exportLink": "Ülkenizi bulun",
+    "galleryTitle": "Tesisimizden",
+    "galleryIntro": "Santura Engineering'de hammadde stoku, bitmiş ankrajlar, paketleme ve sevkiyat."
   },
   "qualityPage": {
     "metaTitle": "Kalite, Test ve Sertifikasyon | Santura Engineering",
@@ -436,7 +446,8 @@
       "DIN17440": "Paslanmaz çelikler: levha, çubuk ve tel için teknik teslim koşulları"
     },
     "clientCertsTitle": "Müşteri sertifikaları",
-    "clientCertsText": "Müşterilerimizden gelen sertifikalar ve referans mektupları burada yayımlanacaktır."
+    "clientCertsText": "Müşterilerimizden gelen sertifikalar ve referans mektupları burada yayımlanacaktır.",
+    "photosTitle": "Uygulamada testler"
   },
   "privacyPage": {
     "metaTitle": "Gizlilik Politikası | Santura Engineering",
@@ -613,5 +624,695 @@
       "country": "Ülkeler",
       "page": "Sayfalar"
     }
+  },
+  "photos": {
+    "cartonsBulk": "Paketlemeye hazır kartonlar",
+    "containerCartons": "Konteynere yüklenmiş streç sarılı ihracat kartonları",
+    "xrfHandheld": "Alaşım bileşimini kontrol eden el tipi XRF cihazı",
+    "crateBulk": "Talaşla paketlenmiş ihracat sandığı",
+    "cartonsDispatch": "Sevkiyat için kartonlara paketlenmiş parçalar",
+    "componentsPacked": "Astarlı kartonlara paketlenmiş metal parçalar",
+    "anchorsWavy": "Üretimdeki refrakter ankrajlar",
+    "anchorsBent": "Bükülmüş çelik ankraj çubukları",
+    "tubesStock": "Çelik boru stoku",
+    "wireCoilsStock": "Depoda çelik tel kangalları",
+    "dispatchTeam": "Sevkiyat ekibimiz",
+    "cratesContainer": "İhracat için yüklenmiş ahşap sandıklar",
+    "workerPacking": "Depoda parçaların paketlenmesi",
+    "truckDispatch": "Sevkiyat için kamyon yüklemesi",
+    "containerPallets": "Konteynere yüklenmiş paletli kartonlar",
+    "factoryExterior": "Santura Engineering tesisi, MIDC Tarapur",
+    "xrfTesting": "XRF cihazıyla alaşım doğrulama",
+    "workshopStock": "Atölyede çelik parçalar",
+    "rodCaliper": "Kumpasla çubuk çapı kontrolü",
+    "wireXrf": "Tel alaşımı testi",
+    "wireCoilsBulk": "Tel kangal stoku",
+    "wireCoilsInventory": "Tel kangal envanteri",
+    "wireCaliper": "Kumpasla tel çapı ölçümü",
+    "cratePacking": "Parçalar için koruyucu sandık ambalajı"
+  },
+  "productCategories": {
+    "items": {
+      "refractory-anchors": {
+        "name": "Refrakter Ankrajlar",
+        "description": "Tuğla, dökme, çift katmanlı ve seramik elyaf astarlar için SEPL ankrajlar."
+      },
+      "observation-peep-doors": {
+        "name": "Gözetleme Kapakları",
+        "description": "Fırın, ısıtıcı ve kazanlar için gözetleme kapakları."
+      },
+      "foundation-bolts": {
+        "name": "Temel Cıvataları",
+        "description": "Yapılar ve ekipmanlar için ankraj ve temel cıvataları."
+      },
+      "support-plates": {
+        "name": "Destek Plakaları",
+        "description": "Çizime göre üretilen taban ve destek plakaları."
+      },
+      "industrial-stanchions": {
+        "name": "Endüstriyel Dikmeler",
+        "description": "Platform ve korkuluklar için dikmeler."
+      },
+      "pipe-guides-sleeves": {
+        "name": "Boru Kılavuzları ve Manşonlar",
+        "description": "Ateşli ısıtıcılar için boru kılavuzları ve halka manşonlar."
+      },
+      "counter-weight-systems": {
+        "name": "Karşı Ağırlık Sistemleri",
+        "description": "Isıtıcı borularını taşıyan karşı ağırlık sistemleri."
+      },
+      "mineral-wool": {
+        "name": "Mineral Yün",
+        "description": "Taş yünü ve mineral yün yalıtım ürünleri."
+      },
+      "ceramic-gaskets": {
+        "name": "Seramik Contalar",
+        "description": "Yüksek sıcaklık için seramik elyaf contalar."
+      },
+      "glass-fibre-sheets": {
+        "name": "Cam Elyaf Levhalar",
+        "description": "Cam elyaf levha, kumaş ve cam yünü."
+      },
+      "calcium-silicate": {
+        "name": "Kalsiyum Silikat",
+        "description": "Kalsiyum silikat levhalar ve boru kabukları."
+      },
+      "insulation-pins": {
+        "name": "Yalıtım Pimleri",
+        "description": "Yalıtım sabitlemek için kaynak pimleri ve klipsler."
+      },
+      "polystyrene-insulation": {
+        "name": "Polistiren Yalıtım",
+        "description": "Genleştirilmiş ve ekstrüde polistiren yalıtım."
+      },
+      "polyisocyanurate-insulation": {
+        "name": "Poliizosiyanürat Yalıtım",
+        "description": "PIR yalıtım levhaları ve boru kabukları."
+      },
+      "fasteners": {
+        "name": "Bağlantı Elemanları",
+        "description": "Paslanmaz ve alaşımlı çelikten cıvata, saplama, somun ve perçinler."
+      },
+      "insulation-accessories": {
+        "name": "Yalıtım Aksesuarları",
+        "description": "Bant, klips, pul ve diğer yalıtım bağlantı parçaları."
+      },
+      "steel-plates": {
+        "name": "Çelik Levhalar",
+        "description": "Paslanmaz ve alaşımlı çelik levha ve saclar."
+      },
+      "trading-division": {
+        "name": "Ticaret Bölümü",
+        "description": "Paslanmaz çelik ve endüstriyel malzeme tedariki."
+      }
+    },
+    "allCategories": "Tüm ürün kategorileri",
+    "viewAll": "Tüm ürünleri görüntüle",
+    "featured": "Ana ürün grubumuz",
+    "featuredCta": "SEPL serisine göz atın",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "browseTitle": "Tüm Ürün Kategorileri",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "Santura Engineering, Mumbai'den {name}. Ayrıntılı ürün bilgileri yakında; stok ve fiyat için bizimle iletişime geçin.",
+    "comingSoon": "Yakında",
+    "comingSoonTitle": "Ürün bilgileri yakında",
+    "comingSoonText": "Bu kategori için ayrıntılı bilgiler hazırlıyoruz. Stok, ölçü ve fiyat bilgisi için talep gönderin veya teklif isteyin.",
+    "back": "Tüm ürünlere dön",
+    "otherCategories": "Diğer ürün kategorileri",
+    "overviewTitle": "Ürün Kategorileri",
+    "overviewIntro": "Santura Engineering, Mumbai'den refrakter ankrajlar, yalıtım malzemeleri, bağlantı elemanları, ısıtıcı bileşenleri ve imalat ürünleri.",
+    "overviewMetaTitle": "Ürün Kategorileri | Santura Engineering",
+    "overviewMetaDescription": "Santura Engineering, Mumbai ürün kategorileri: refrakter ankrajlar, yalıtım malzemeleri, bağlantı elemanları, ısıtıcı bileşenleri ve imalat ürünleri."
+  },
+  "services": {
+    "items": {
+      "bright-solution-annealing": {
+        "name": "Parlak Çözelti Tavlama",
+        "description": "Paslanmaz çeliği parlak ve tufalsiz bırakan koruyucu atmosferde çözelti tavlama."
+      },
+      "pickling-and-passivation": {
+        "name": "Dekapaj ve Pasivasyon",
+        "description": "Tufalı gideren ve paslanmaz çelikteki koruyucu oksit tabakasını yenileyen kimyasal işlem."
+      },
+      "pmi-testing": {
+        "name": "PMI Testi",
+        "description": "Metal parçaların alaşım kalitesini doğrulamak için pozitif malzeme tanımlama."
+      },
+      "stud-welding-solutions": {
+        "name": "Saplama / Tabanca Kaynağı Çözümleri",
+        "description": "Refrakter ankrajların hızlı ve tutarlı montajı için saplama ve tabanca kaynağı desteği."
+      }
+    },
+    "comingSoon": "Yakında",
+    "comingSoonTitle": "Hizmet bilgileri yakında",
+    "comingSoonText": "Bu hizmet hakkında ayrıntılı bilgiler hazırlıyoruz. İhtiyaçlarınızı görüşmek için bizimle iletişime geçin.",
+    "cta": "Bu hizmet için bize ulaşın",
+    "otherServices": "Diğer hizmetler",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "Santura Engineering, Mumbai'den {name}. Ayrıntılı hizmet bilgileri yakında; ihtiyaçlarınızı görüşmek için bize ulaşın."
+  },
+  "bsaPage": {
+    "metaTitle": "Refrakter Ankrajlar için Parlak Çözelti Tavlama | Santura Engineering",
+    "metaDescription": "Paslanmaz çelik ve nikel alaşımlı refrakter ankrajlar için vakumda parlak çözelti tavlama. 1980'den beri, 25+ ülkeye ihracat. ISO 9001:2015.",
+    "eyebrow": "Isıl işlem hizmeti",
+    "h1": "Refrakter Ankrajlar için Parlak Çözelti Tavlama",
+    "subheading": "Soğuk şekillendirilmiş paslanmaz çelik ve nikel alaşımlı ankrajlarda atomik dengeyi yeniden kuran ve kullanım ömrünü uzatan vakumlu ısıl işlem.",
+    "ctaHero": "Ankrajlarınız için parlak tavlama isteyin",
+    "whatTitle": "Parlak çözelti tavlama nedir?",
+    "what": [
+      "Çözelti tavlama, paslanmaz çeliği veya nikel alaşımını çözelti sıcaklığının üzerine, alaşıma göre genellikle 1040 °C ile 1230 °C arasına ısıtır, yapı yeniden kristalleşene kadar bekletir ve ardından hızla soğutur. Karbürler ve diğer çökeltiler çözünür, metal özgün ve tamamen östenitik mikroyapısına geri döner.",
+      "Parlak çözelti tavlamada ısıtma vakumda veya argon gibi inert bir gaz altında yapılır. Oksijen yüzeye ulaşmaz; ankrajlar temiz ve parlak, tufalsiz çıkar.",
+      "Havada yapılan klasik \"siyah\" tavlama yüzeyi karartır ve tufal oluşturur. Tufalın sonradan giderilmesi gerekir ve kaybedilen metal ankrajın taşıyıcı kesitini küçültür; bu ince tel ve şeritte önemlidir."
+    ],
+    "whyTitle": "Refrakter ankrajlar için neden önemli",
+    "whyIntro": "Ankraj üretimi soğuk çekme, bükme, şekillendirme ve kaynak içerir. Her adım kristal kafesi bozar ve malzemede dislokasyon olarak depolanan iç gerilmeler bırakır. İşlem görmezse bu gerilmeler ankrajı üç şekilde zayıflatır.",
+    "risks": [
+      {
+        "title": "Korozyon",
+        "text": "Soğuk şekillendirilmiş, yüksek gerilmeli metal, gerilmeli korozyon çatlamasına ve fırın ile kazanlardaki kükürt, klorür ve alkalilerin saldırısına karşı daha hassastır."
+      },
+      {
+        "title": "Sigma fazı gevrekleşmesi",
+        "text": "Yaklaşık 600–900 °C çalışma sıcaklıklarında soğuk şekillendirilmiş paslanmaz çelik daha hızlı sigma fazı oluşturur. Bu sert ve gevrek faz tokluğu büyük ölçüde düşürür; ünite soğuduğunda ankraj çatlayabilir."
+      },
+      {
+        "title": "Daha kısa ömür",
+        "text": "Gerilmeli ankrajlar tekrarlanan ısınma ve soğuma altında dayanımını kaybeder ve çoğu zaman refrakter astarın kendisi değişmeden önce erken hasar görür."
+      }
+    ],
+    "whyResult": [
+      "Parlak çözelti tavlama bu gerilmeleri giderir ve atomları denge aralığına geri getirir; bu, alaşımın yüksek sıcaklıkta en iyi performansı gösterdiği durumdur. Ayrıca mevcut karbürleri veya sigma fazını çözer.",
+      "Sonuç, korozyona ve gevrekleşmeye daha uzun süre dayanan ve çalışma sıcaklığında mekanik dayanımını koruyan bir ankrajdır."
+    ],
+    "tableTitle": "Alaşıma göre işlem parametreleri",
+    "colAlloy": "Alaşım",
+    "colTemp": "Tavlama sıcaklığı (°C)",
+    "colCooling": "Soğutma",
+    "colNotes": "Notlar",
+    "cooling": {
+      "waterOrAir": "Suda su verme veya hızlı hava soğutma",
+      "water": "Suda su verme"
+    },
+    "notes": {
+      "ss304": "En yaygın ankraj alaşımı",
+      "ss309": "Daha yüksek çalışma sıcaklıkları için",
+      "ss310": "Standart paslanmaz kaliteler arasında en yüksek çalışma sıcaklığı",
+      "ss316": "Molibdenli, daha iyi korozyon direnci",
+      "ss321": "Titanla stabilize edilmiş",
+      "ma253": "Yüksek oksidasyon direncine sahip ısıya dayanıklı östenitik paslanmaz çelik",
+      "a800": "Nikel-demir-krom alaşımı",
+      "in601": "Nikel-krom alaşımı",
+      "in625": "Dengeyi yeniden kurmak için en yüksek sıcaklığı gerektiren karmaşık nikel-krom-molibden alaşımı"
+    },
+    "tableNote": "Her alaşım kendi sıcaklığını ve bekletme süresini gerektirir; yanlış parametreler malzemeyi iyileştirmek yerine zarar verebilir. Santura'nın işlemi ASTM A240'a ve her kalite için geçerli malzeme şartnamesine uygundur.",
+    "industriesTitle": "Fayda sağlayan sektörler",
+    "industries": [
+      {
+        "name": "Çimento fabrikaları",
+        "text": "Alkali saldırısına ve sürekli ısıl çevrime maruz fırın ankrajları."
+      },
+      {
+        "name": "Rafineriler",
+        "text": "Kükürtlü ortamlarda ısıtıcı ve FCC ünitesi ankrajları."
+      },
+      {
+        "name": "Petrokimya tesisleri",
+        "text": "Karbürleyici atmosferlerde kraking fırını ankrajları."
+      },
+      {
+        "name": "Atıktan enerji",
+        "text": "Klorür korozyonuna maruz son yanma odası ankrajları."
+      },
+      {
+        "name": "Çelik tesisleri",
+        "text": "Yüksek mekanik yük altındaki pota ve tav fırını ankrajları."
+      }
+    ],
+    "verifyTitle": "İşlem nasıl doğrulanır",
+    "verify": [
+      {
+        "title": "Sertlik ve çekme testleri",
+        "text": "Tavlanmış malzeme şekillendirilmiş malzemeden daha yumuşaktır. Sertlik, kalitenin tavlanmış aralığına dönmeli (SS304 için ASTM A240 üst sınırı olan 92 HRB veya altı), çekme dayanımı belirtilen minimuma yakın olmalı ve süneklik geri kazanılmalıdır."
+      },
+      {
+        "title": "Yüzey",
+        "text": "Yüzey parlak, temiz ve tufal ya da ısı renginden arınmış olmalıdır."
+      },
+      {
+        "title": "Malzeme sertifikasıyla karşılaştırma",
+        "text": "Test sonuçlarının orijinal malzeme sertifikasıyla karşılaştırılması, malzemenin belirtilen tavlanmış özelliklerine döndüğünü doğrular."
+      }
+    ],
+    "verifyQualityLink": "Her siparişi nasıl test edip belgelediğimizi görün",
+    "productsTitle": "Parlak çözelti tavlama uygulanabilen Santura ürünleri",
+    "productGroups": [
+      {
+        "title": "Paslanmaz çelik ankrajlar",
+        "text": "SS304, SS309, SS310, SS316 ve SS321 kalitelerinde tüm SEPL ankraj tipleri."
+      },
+      {
+        "title": "Yüksek sıcaklık alaşımlı ankrajlar",
+        "text": "253MA, Alloy 800H, Inconel 601 ve Inconel 625 kalitelerinde tüm SEPL ankraj tipleri."
+      },
+      {
+        "title": "Çelik lifler",
+        "text": "Ergiyikten çekme ve soğuk çekme paslanmaz çelik lifler."
+      }
+    ],
+    "productCategoriesLabel": "Astar tipine göre",
+    "productExamplesLabel": "Örnekler",
+    "ctaTitle": "Parlak çözelti tavlama isteyin",
+    "ctaText": "Ankraj çizimini veya ürün kodunu, alaşım kalitesini ve miktarı gönderin; parlak çözelti tavlamalı üretim için teklif hazırlayalım.",
+    "ctaRfq": "Parlak çözelti tavlama isteyin",
+    "ctaContact": "Projeniz için parlak tavlamayı teknik ekibimizle görüşün",
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      {
+        "q": "Parlak ve siyah çözelti tavlama arasındaki fark nedir?",
+        "a": "Parlak tavlama vakumda veya inert gazda yapılır, yüzey temiz ve oksitsiz kalır. Siyah tavlama havada yapılır; giderilmesi gereken ve ankrajın taşıyıcı kesitini küçülten tufal oluşur."
+      },
+      {
+        "q": "Hangi alaşımlara parlak çözelti tavlama uygulanabilir?",
+        "a": "Refrakter ankrajlarda kullanılan tüm östenitik paslanmaz çelikler (304, 309, 310, 316 ve 321), ısıya dayanıklı 253MA kalitesi ve 800H, 601 ile 625 nikel alaşımları."
+      },
+      {
+        "q": "Tavlamanın doğru yapıldığı nasıl doğrulanır?",
+        "a": "Sertlik ve çekme testleriyle. İşlem görmüş malzeme işlem görmemişten daha yumuşak olmalı, sertlik tavlanmış aralıkta ve çekme dayanımı belirtilen minimuma yakın olmalıdır. Yüzey de parlak ve tufalsiz olmalıdır."
+      },
+      {
+        "q": "Parlak tavlama ankraj ömrünü uzatır mı?",
+        "a": "Evet. Soğuk şekillendirmeden kalan iç gerilmeleri gidererek ve atomik dengeyi yeniden kurarak, işlem görmüş ankrajlar korozyona ve sigma fazı gevrekleşmesine işlem görmemiş ankrajlardan çok daha iyi dayanır."
+      }
+    ],
+    "bothOffered": "Hem parlak (vakumlu) hem de standart (havada) çözelti tavlama hizmeti sunuyoruz."
+  },
+  "ppPage": {
+    "metaTitle": "Refrakter Ankrajlar için Dekapaj ve Pasivasyon | ASTM A380 A967 | Santura Engineering",
+    "metaDescription": "Paslanmaz çelik refrakter ankrajlar için ASTM A380 ve A967'ye göre dekapaj ve pasivasyon. 1980'den beri, 25+ ülkeye ihracat. ISO 9001:2015.",
+    "eyebrow": "Yüzey işlem hizmeti",
+    "h1": "Paslanmaz Çelik Refrakter Ankrajlar için Dekapaj ve Pasivasyon",
+    "subheading": "Kaynak tufalını, ısı renklerini ve gömülü kirleticileri gideren, montajdan önce tam korozyon direncini geri kazandıran asitle temizleme ve yüzey işlemi.",
+    "ctaHero": "Dekapaj ve pasivasyon isteyin",
+    "whatTitle": "Dekapaj ve pasivasyon nedir?",
+    "whatIntro": "Bunlar iki ayrı işlemdir. İkisi birden istendiğinde önce dekapaj, ardından pasivasyon yapılır.",
+    "pickling": {
+      "title": "Dekapaj",
+      "points": [
+        "Genellikle nitrik ve hidroflorik asit karışımıyla yapılan agresif bir asit işlemidir.",
+        "Kaynak, kesme, taşlama ve bükmeden kalan kaynak tufalını, ısı renklerini, oksit tabakalarını, gömülü demir parçacıklarını ve diğer kirleri giderir.",
+        "Yüzeyin kendisinden ince bir tabakayı çözerek altındaki temiz ana metali açığa çıkarır.",
+        "Renk değişimi ve kir içermeyen, düzgün mat bir yüzey bırakır.",
+        "Komple parçalar için tank daldırma, büyük imalatlar veya saha işleri için püskürtme, kaynaklar ve küçük alanlar için fırçayla jel uygulanarak yapılır."
+      ]
+    },
+    "passivation": {
+      "title": "Pasivasyon",
+      "points": [
+        "Nitrik veya sitrik asitle yapılan daha yumuşak bir asit işlemidir.",
+        "Metal kaldırmaz; yalnızca serbest demiri ve diğer yüzey kirleticilerini giderir.",
+        "Paslanmaz çeliğe korozyon direncini veren doğal krom oksit pasif tabakasının oluşmasına yardım eder.",
+        "Pasif tabaka havada kendiliğinden oluşur, ancak yeni işlenmiş yüzeylerde bu süreç bozulabilir. Pasivasyon tabakanın eksiksiz ve düzgün oluşmasını sağlar.",
+        "Dekapajdan sonra pasivasyon, temiz yüzeyde koruyucu tabakayı yeniden oluşturur. Tufal giderme gerektirmeyen parçalar için tek başına da istenebilir."
+      ]
+    },
+    "whyTitle": "Refrakter ankrajlar için neden önemli",
+    "whyIntro": "Ankrajlar kesilir, taşlanır, V ve Y şeklinde bükülür, fırın gövdelerine ve kanallara kaynatılır. Her adım yüzeye farklı şekilde zarar verir.",
+    "damage": [
+      {
+        "title": "Kaynak ısı rengi",
+        "text": "Kaynak çevresindeki renkli oksit, hemen altındaki metalden krom çekerek oluşur. Kromu azalmış bu bölgede pasif tabaka düzgün oluşamaz."
+      },
+      {
+        "title": "Taşlama",
+        "text": "Taşlama diskleri ve karbon çeliği aletler gömülü demir parçacıkları bırakır; bunlar paslanır ve paslanmaz yüzeyde korozyonu başlatır."
+      },
+      {
+        "title": "Kesme",
+        "text": "Kesilmiş kenarlar pürüzlü ve gerilmelidir; korozyon önce buralarda başlar."
+      }
+    ],
+    "whyResult": [
+      "İşlem görmezse bu hasarlı bölgeler yüksek sıcaklıkta ilk hasar noktaları olur; kaynak çevresindeki kromu azalmış bölgeler en savunmasız olanlardır.",
+      "Dekapaj hasarlı tabakayı tamamen kaldırır, pasivasyon ise temiz yüzeyde krom oksit filmini yeniden oluşturur. Sonuç, kaynaklar ve bükümler dahil tüm yüzeyinde düzgün korozyon direncine sahip bir ankrajdır."
+    ],
+    "standardsTitle": "Geçerli standartlar",
+    "colStandard": "Standart",
+    "colCovers": "Kapsam",
+    "standards": {
+      "a380": "Standard Practice for Cleaning, Descaling and Passivation of Stainless Steel Parts, Equipment and Systems. Temizleme ve dekapaj işlemini kapsar.",
+      "a967": "Standard Specification for Chemical Passivation Treatments for Stainless Steel Parts. Pasivasyon işlemlerini ve doğrulamalarını kapsar.",
+      "verify": "Yüzeyin demir kirliliğinden arınmış ve doğru şekilde pasifleştirilmiş olduğunu doğrulayan bakır sülfat testi."
+    },
+    "verifyLabel": "Doğrulama",
+    "materialsTitle": "İşlediğimiz malzemeler",
+    "materials": [
+      {
+        "title": "Östenitik paslanmaz çelikler",
+        "text": "SS304, SS304L, SS309, SS310, SS310S, SS316, SS316L, SS321 ve SS347."
+      },
+      {
+        "title": "Yüksek sıcaklık alaşımları",
+        "text": "253MA, Alloy 800H, Inconel 601 ve Inconel 625. ASTM A967 yalnızca paslanmaz çelikleri kapsar; nikel alaşımları alaşım üreticisinin önerdiği prosedüre göre işlenir."
+      },
+      {
+        "title": "Dubleks paslanmaz çelikler",
+        "text": "Talep üzerine, kaliteye uygun kimyasallarla."
+      }
+    ],
+    "carbonSteelNote": "Karbon çeliği parçalar aynı kimyasallarla dekape edilmez: paslanmaz çelik dekapaj asitleri karbon çeliğine karşı son derece aşındırıcıdır.",
+    "methodsTitle": "İşlem yöntemleri",
+    "methods": [
+      {
+        "title": "Tank daldırma",
+        "text": "Ankraj partisinin tamamı asit tankına daldırılır. Çok sayıda küçük ve orta boy parça için en uygunudur."
+      },
+      {
+        "title": "Püskürtme dekapaj",
+        "text": "Asit büyük imalatlara püskürtülür. Saha işleri ve büyük boyutlu parçalar için uygundur."
+      },
+      {
+        "title": "Fırçayla jel",
+        "text": "Belirli kaynaklara veya noktalara sürülen macun. Saha onarımlarında ve ısıdan etkilenen bölgelerin hedefli işleminde kullanılır."
+      }
+    ],
+    "methodsNote": "Parçalar asit işleminden önce yağdan arındırılmalı; yağ, gres ve diğer organik kirlerden temizlenmelidir. Dekapaj ve pasivasyon yağ veya gresi gidermez.",
+    "whenTitle": "Dekapaj ve pasivasyon ne zaman istenmeli",
+    "when": [
+      "Ankrajlar fırın gövdelerine veya kanallara kaynatıldıktan sonra.",
+      "Isıl işlemden sonra: dekapaj havada çözelti tavlamadan kalan tufalı giderir; parlak tavlanmış parçalar gerektiğinde pasifleştirilebilir.",
+      "Ankrajlarda gözle görülür ısı rengi veya kaynak renk değişimi varsa.",
+      "Ankrajlar imalat sırasında karbon çeliği aletlerle temas ettiyse.",
+      "Rafineri ve petrokimya tesislerindeki kritik uygulamalar ile ilaç ve gıda sektörüne yönelik paslanmaz imalatlar için.",
+      "Son müşterinin şartnamesi ASTM A380 veya A967 uygunluğu istiyorsa."
+    ],
+    "relatedTitle": "Diğer hizmetlerimizle ilişkisi",
+    "relatedBsaTitle": "Parlak çözelti tavlamadan sonra",
+    "relatedBsaText": "Parlak çözelti tavlama metalin iç yapısını geri kazandırır; pasivasyon ise ardından dış yüzeyin korumasını geri kazandırır. İkisi birbirini tamamlar.",
+    "relatedPmiTitle": "PMI testinden önce",
+    "relatedPmiText": "Temiz ve pasifleştirilmiş bir yüzey, tufal veya kirle kaplı bir yüzeye göre daha güvenilir PMI okumaları verir.",
+    "productsTitle": "İşlediğimiz Santura ürünleri",
+    "products": {
+      "anchors": "Tüm SEPL refrakter ankraj tipleri",
+      "fibres": "Paslanmaz çelik lifler",
+      "counterweights": "Karşı ağırlık sistemleri",
+      "fasteners": "Bağlantı elemanları ve saplamalar",
+      "fabrication": "Her türlü paslanmaz çelik imalat"
+    },
+    "productExamplesLabel": "Örnekler",
+    "qualityLink": "Her siparişi nasıl test edip belgelediğimizi görün",
+    "ctaTitle": "Dekapaj ve pasivasyon isteyin",
+    "ctaText": "Çizimi veya ürün kodunu, malzeme kalitesini, miktarı ve uyulması gereken standardı gönderin; işlem için teklif hazırlayalım.",
+    "ctaRfq": "Dekapaj ve pasivasyon isteyin",
+    "ctaContact": "Yüzey işlem gereksinimlerinizi görüşün",
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      {
+        "q": "Dekapaj ile pasivasyon arasındaki fark nedir?",
+        "a": "Dekapaj, kaynak tufalını, ısı renklerini ve ince bir metal tabakasını gideren agresif bir asit işlemidir. Pasivasyon ise serbest demiri gideren ve koruyucu krom oksit tabakasının yeniden oluşmasına yardım eden daha yumuşak bir asit işlemidir. Genellikle art arda yapılırlar."
+      },
+      {
+        "q": "Refrakter ankrajlar neden dekapaj ve pasivasyon gerektirir?",
+        "a": "Kaynak, bükme ve kesme yüzeye zarar verir ve ısıdan etkilenen bölgedeki kromu azaltır. İşlem görmezse bu bölgeler yüksek sıcaklıkta ilk korozyona uğrayan yerler olur."
+      },
+      {
+        "q": "Dekapaj ve pasivasyon için hangi standartlar geçerlidir?",
+        "a": "ASTM A380 temizleme ve dekapajı kapsar. ASTM A967 pasivasyon işlemlerini ve doğrulamasını kapsar; bakır sülfat testi (Practice D) yüzeyin doğru pasifleştirildiğini doğrular."
+      },
+      {
+        "q": "Dekapaj ve pasivasyon sahada yapılabilir mi?",
+        "a": "Evet. Püskürtme dekapaj ve fırçayla jel yöntemleri, kaynaklı montajların ve büyük imalatların sahada işlenmesini sağlar."
+      }
+    ]
+  },
+  "pmiPage": {
+    "metaTitle": "Refrakter Ankrajlar için PMI Testi | Alaşım Doğrulama | Santura Engineering",
+    "metaDescription": "XRF ve OES analizörleriyle refrakter ankrajların PMI testi. 1980'den beri alaşım doğrulama, 25+ ülkeye ihracat. ISO 9001:2015.",
+    "eyebrow": "Test hizmeti",
+    "h1": "Refrakter Ankrajlar için PMI Testi",
+    "subheading": "Hammaddenin girişinden sevkiyata kadar her ankrajın belirtilen alaşımdan yapıldığını doğrulayan pozitif malzeme tanımlama.",
+    "ctaHero": "PMI testi isteyin",
+    "pmiLinkFromQuality": "PMI test hizmetimiz hakkında daha fazla bilgi",
+    "whatTitle": "PMI testi nedir?",
+    "what": [
+      "Pozitif malzeme tanımlama (PMI), bir metalin elementel bileşimini ölçen ve alaşım kalitesini doğrulayan tahribatsız bir testtir. Taşınabilir X-ışını floresans (XRF) analizörü veya optik emisyon spektrometresi (OES) ile yapılır.",
+      "Analizör bileşimi saniyeler içinde okur ve bir alaşım kütüphanesiyle karşılaştırır. Hiçbir şey kesilmez, delinmez veya zarar görmez; bitmiş ankrajlar test edilip sevk edilebilir."
+    ],
+    "whyTitle": "Refrakter ankrajlar için neden önemli",
+    "why": [
+      {
+        "title": "Yanlış alaşım hizmette hasar görür",
+        "text": "SS310 belirtilen yerde kullanılan SS304 bir ankraj, fırın sıcaklığında oksitlenebilir, dayanımını kaybedebilir ve refrakter astarla birlikte çökebilir."
+      },
+      {
+        "title": "Karışıklıklar olur",
+        "text": "Malzemeler üretimde, depoda veya sevkiyatta karışabilir. Etiketler yanlış olabilir ve malzeme sertifikaları yanlış partiyle eşleştirilebilir."
+      },
+      {
+        "title": "Sevkiyattan önceki son kontrol",
+        "text": "PMI, fabrikadan çıkan her ankrajın müşterinin sipariş ettiği alaşım olduğunun son doğrulamasıdır."
+      },
+      {
+        "title": "Son kullanıcılar tarafından isteniyor",
+        "text": "Rafineriler ve petrokimya tesisleri çoğu zaman API RP 578'e dayalı malzeme doğrulama programları uygular ve malzemeyi sahaya kabul etmeden önce PMI raporu ister."
+      }
+    ],
+    "methodsTitle": "Test yöntemleri",
+    "methods": [
+      {
+        "title": "Taşınabilir XRF",
+        "text": "El tipi X-ışını floresans, fabrikanın her yerinde saniyeler içinde sonuç verir. Hammadde, yarı mamul ve bitmiş ankrajlar için standart yöntemdir."
+      },
+      {
+        "title": "OES (optik emisyon spektroskopisi)",
+        "text": "Kıvılcımlı OES karbonu ve hafif elementleri de ölçer. Daha yavaş ve daha az taşınabilirdir, küçük bir yanık izi bırakır; bu nedenle karbon içeriğinin doğrulanması gerektiğinde kullanılır."
+      },
+      {
+        "title": "Laboratuvar analizi",
+        "text": "Şartname tam kimyasal analiz istediğinde numuneler NABL akrediteli bağımsız laboratuvarlarda test edilir."
+      }
+    ],
+    "limitationTitle": "XRF'in göremedikleri",
+    "limitationText": "XRF karbonu algılamaz; bu nedenle SS316'yı SS316L'den, SS304'ü SS304L'den ayıramaz. Düşük karbonlu kalitelerin doğrulanması gerektiğinde OES veya laboratuvar analizi kullanılır.",
+    "standardsTitle": "Geçerli standartlar",
+    "colStandard": "Standart",
+    "colCovers": "Kapsam",
+    "standards": {
+      "rp578": "Material Verification Program for New and Existing Alloy Piping Systems. Rafineri ve petrokimya PMI gerekliliklerinin çoğunun temelidir.",
+      "e1476": "Standard Guide for Metals Identification, Grade Verification and Sorting.",
+      "specs": "Levha, şerit, çubuk ve tel için malzeme şartnameleri. PMI sonuçları bu şartnamelerdeki kimyasal sınırlarla karşılaştırılır."
+    },
+    "alloysTitle": "Doğruladığımız alaşımlar",
+    "colGrade": "Kalite",
+    "colElements": "Kontrol edilen ana elementler",
+    "colComposition": "Nominal bileşim (%)",
+    "carbonSteel": "Karbon çeliği",
+    "carbonSteelComposition": "Demir; kayda değer krom veya nikel içermez",
+    "alloysNote": "Nominal aralıklar ASTM malzeme şartnamelerinden alınmıştır. Alüminyum gibi hafif elementler ve seryum gibi eser katkılar malzeme sertifikasından doğrulanır. PMI ayrıca alaşımlı ankrajların arasına karbon çeliği gövde malzemesi karışmadığını da kontrol eder.",
+    "whenTitle": "PMI testini ne zaman yapıyoruz",
+    "when": [
+      {
+        "title": "Hammadde girişi",
+        "text": "Levha, tel ve çubuk malzeme üretime girmeden önce teslim alınırken doğrulanır."
+      },
+      {
+        "title": "Üretim sırasında",
+        "text": "Ara kontroller, işlemler arasındaki karışıklıkları yakalar."
+      },
+      {
+        "title": "Son muayene",
+        "text": "Bitmiş ankrajlar paketleme ve sevkiyattan önce yeniden doğrulanır."
+      },
+      {
+        "title": "Müşteri talebiyle",
+        "text": "PMI test sertifikaları teslimatla birlikte verilir ve testlere müfettişiniz tanıklık edebilir."
+      }
+    ],
+    "docsTitle": "Verilen belgeler",
+    "docs": [
+      "Her elementin ölçülen yüzdesini içeren PMI test raporu",
+      "Sipariş edilen şartnameye göre alaşım kalitesi teyidi",
+      "Döküm numarasıyla malzeme sertifikasına kadar izlenebilirlik",
+      "Orijinal EN 10204 3.1 malzeme sertifikaları"
+    ],
+    "relatedTitle": "İlgili hizmetler",
+    "relatedBsaText": "Soğuk şekillendirilmiş ankrajların iç yapısını geri kazandıran ısıl işlem.",
+    "relatedPpText": "Temiz ve pasifleştirilmiş bir yüzey daha güvenilir PMI okumaları verir.",
+    "qualityLink": "Her siparişi nasıl test edip belgelediğimizi görün",
+    "ctaTitle": "PMI testi isteyin",
+    "ctaText": "Ürünleri, alaşım kalitelerini ve miktarları, PMI sertifikası veya tanıklı test gerekip gerekmediğini bildirin; teklifimize ekleyelim.",
+    "ctaRfq": "PMI testi isteyin",
+    "ctaContact": "Malzeme doğrulama gereksinimlerinizi görüşün",
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      {
+        "q": "PMI testi neyi algılar?",
+        "a": "Bir kaliteyi tanımlayan alaşım elementlerini; krom, nikel, molibden, titan, niyobyum ve manganı, uygun analizörlerde silisyumu da. Analizör ölçülen bileşimi bir alaşım kalitesiyle eşleştirir."
+      },
+      {
+        "q": "Refrakter ankrajlar için PMI neden gerekli?",
+        "a": "Yanlış alaşımdan bir ankraj fırın sıcaklığında hasar görüp astarın çökmesine yol açabilir. PMI her ankrajın belirtilen kalitede olduğunu doğrular; birçok rafineri ve petrokimya tesisi malzemeyi kabul etmeden önce PMI raporu ister."
+      },
+      {
+        "q": "PMI, SS316'yı SS316L'den ayırabilir mi?",
+        "a": "Karbonu algılamayan XRF ile ayıramaz. Düşük karbonlu bir kalitenin karbon içeriğinin doğrulanması gerektiğinde OES veya laboratuvar analizi kullanılır."
+      },
+      {
+        "q": "Hangi belgeleri veriyorsunuz?",
+        "a": "Ölçülen element yüzdelerini içeren bir PMI raporu, şartnameye göre alaşım kalitesi teyidi ve döküm numarasıyla orijinal malzeme sertifikasına kadar izlenebilirlik."
+      }
+    ]
+  },
+  "swPage": {
+    "metaTitle": "Refrakter Ankrajlar için Saplama Kaynağı Çözümleri | Santura Engineering",
+    "metaDescription": "Refrakter ankrajlar için saplama kaynağı: çekme ark ve kondansatör deşarj ekipmanı, seramik halkalar, prosedürler. 1980'den beri, 25+ ülkeye ihracat.",
+    "eyebrow": "Montaj hizmeti",
+    "h1": "Refrakter Ankrajlar için Saplama Kaynağı Çözümleri",
+    "subheading": "Fırın ve kap gövdelerine hızlı ve güvenilir montaj için ankrajlar, saplama kaynak ekipmanı, seramik halkalar ve kaynak prosedürleri.",
+    "ctaHero": "Saplama kaynağı desteği isteyin",
+    "whatTitle": "Saplama kaynağı nedir?",
+    "what": [
+      "Saplama kaynağı, refrakter ankrajı elektrik arkıyla doğrudan fırın veya kap gövdesine, saniyenin çok küçük bir bölümünde ve delik açmadan sabitler.",
+      "Kaynak tabancası ankrajı gövdeye bastırır ve saplama ucunu ve gövdenin küçük bir bölgesini eriten bir ark oluşturur. Ardından saplamayı erimiş banyoya iter; banyo katılaşarak tam kesitli bir kaynağa dönüşür.",
+      "Çekme ark kaynağında kaynak bölgesini seramik bir halka çevreler; erimiş metali tutar ve havadan korur."
+    ],
+    "compareTitle": "Saplama kaynak yöntemlerinin karşılaştırması",
+    "colFeature": "Özellik",
+    "processes": {
+      "da": "Çekme ark",
+      "sc": "Kısa çevrim",
+      "cd": "Kondansatör deşarj"
+    },
+    "compareRows": [
+      {
+        "label": "Saplama çapı",
+        "da": "3–25 mm",
+        "sc": "Küçük ve orta saplamalar",
+        "cd": "10 mm'ye kadar"
+      },
+      {
+        "label": "Ana malzeme kalınlığı",
+        "da": "Yaklaşık 2 mm'den itibaren",
+        "sc": "Çekme arka göre daha ince sac",
+        "cd": "Yaklaşık 0,7 mm'den itibaren"
+      },
+      {
+        "label": "Kaynak süresi",
+        "da": "Saniyenin onda birkaçından yaklaşık 1 saniyeye",
+        "sc": "100 ms'ye kadar",
+        "cd": "Birkaç milisaniye"
+      },
+      {
+        "label": "Seramik halka",
+        "da": "Evet",
+        "sc": "Hayır; paslanmaz çelikte koruyucu gaz kullanılabilir",
+        "cd": "Hayır"
+      },
+      {
+        "label": "Tipik kullanım",
+        "da": "Fırın gövdelerinde refrakter ankrajlar; derin nüfuziyet, yüksek dayanım",
+        "sc": "Hızın önemli olduğu hafif ankraj ve saplamalar",
+        "cd": "Yalıtım pimleri ve seramik elyaf saplamaları; arka yüzde minimum iz"
+      }
+    ],
+    "compareNote": "Çekme ark, fırın gövdelerindeki refrakter ankrajlar için ana yöntemdir. Doğru yapılmış bir çekme ark kaynağı saplamanın kendisinden daha güçlüdür: eğme veya çekme testinde kaynak değil saplama kopar.",
+    "whyTitle": "Refrakter hizmette kaynak kalitesi neden önemli",
+    "why": [
+      {
+        "title": "Kaynak astarı taşır",
+        "text": "Ankrajlar, astar uygulanmadan önce karbon çeliği veya paslanmaz çelik gövdelere kaynatılır. Refrakterin her kilogramı bu kaynaklara asılıdır."
+      },
+      {
+        "title": "Kötü kaynak ilk önce çöker",
+        "text": "Ergime eksikliği veya gözenek içeren bir kaynak, ankraj veya refrakter aşınmadan çok önce ısıl çevrimler altında çatlar."
+      },
+      {
+        "title": "Her ankraja doğru yöntem",
+        "text": "Saplama tabanlı dökme ankrajlar çekme ark, seramik elyaf saplamaları ve yalıtım pimleri kondansatör deşarj gerektirir; bazı ankrajlar ise elle kaynak veya cıvatalama için tasarlanmıştır."
+      },
+      {
+        "title": "Duruşlarda tekrar işe zaman yok",
+        "text": "Montajların çoğu tesis duruşlarında yapılır. Sahada kaynak yapabilme ve ilk ankrajdan itibaren doğru parametreler programın korunmasını sağlar."
+      }
+    ],
+    "productsTitle": "Hangi Santura ürünü hangi yöntemi kullanır",
+    "methods": {
+      "da": {
+        "title": "Çekme ark saplama / tabanca kaynağı",
+        "text": "Saplama tabanlı veya tabancayla kaynatılabilen ankrajlar. SEPL-08 ve SEPL-20'nin bazı versiyonları saplama kaynağıyla, diğerleri elle kaynatılır veya cıvatalanır; SEPL-16 kayma bağlayıcıları saplama kaynağı için alüminyum flaksla birlikte verilir."
+      },
+      "sc": {
+        "title": "Kısa çevrim (Rapid Arc)",
+        "text": "Hafif dökmeler için yarıklı saplamalar."
+      },
+      "cd": {
+        "title": "Kondansatör deşarj",
+        "text": "Seramik elyaf saplamaları, kaynaklı dişli saplamalar ve yalıtım pimleri."
+      },
+      "manual": {
+        "title": "Elle ark kaynağı",
+        "text": "Geleneksel elle kaynak için tasarlanmış ankrajlar."
+      },
+      "screw": {
+        "title": "Vidalı ve cıvatalı",
+        "text": "Somunlara monte edilen veya önceden kaynatılmış saplamalara vidalanan ankrajlar. SEPL-25 cıvatalı versiyonda da mevcuttur."
+      }
+    },
+    "alloysLine": "Tüm yöntemler karbon çeliği, SS304, SS309, SS310, SS316, SS321, 253MA, Alloy 800H ve Inconel ankrajlar için mevcuttur.",
+    "offerTitle": "Neler sağlıyoruz",
+    "offer": [
+      {
+        "title": "Montaja hazır ankrajlar",
+        "text": "Sahada kaynak için hazırlanmış, saplama tabanlı veya önceden kaynatılmış saplamalı ankrajlar."
+      },
+      {
+        "title": "Ekipman ve sarf malzemeleri",
+        "text": "Sipariş edilen ankrajlara uygun saplama kaynak ekipmanı, seramik halkalar ve pensler."
+      },
+      {
+        "title": "Teknik rehberlik",
+        "text": "Her alaşım kalitesi ve ankraj tipi için önerilen kaynak parametreleri."
+      },
+      {
+        "title": "Kaynak prosedür şartnameleri",
+        "text": "Her ankraj alaşımı ve gövde malzemesi kombinasyonu için bir WPS."
+      }
+    ],
+    "standardsTitle": "Geçerli standartlar",
+    "colStandard": "Standart",
+    "colCovers": "Kapsam",
+    "standards": {
+      "d11": "Structural Welding Code – Steel; saplama kaynağı bölümü dahil.",
+      "d16": "Structural Welding Code – Stainless Steel; paslanmaz çelik saplama kaynağı dahil.",
+      "iso": "Kaynak – Metal malzemelerde ark saplama kaynağı.",
+      "c54": "Recommended Practices for Stud Welding."
+    },
+    "relatedTitle": "İlgili hizmetler",
+    "relatedBsaText": "Soğuk şekillendirilmiş ankrajların iç yapısını kaynak ve hizmet öncesinde geri kazandırır.",
+    "relatedPpText": "Kaynak çevresindeki ısı renklerini giderir ve korozyon direncini geri kazandırır.",
+    "relatedPmiText": "Her ankrajın alaşımını kaynatılmadan önce doğrular.",
+    "ctaTitle": "Ankraj montajınızı bizimle planlayın",
+    "ctaText": "Ankraj tiplerini, alaşım kalitelerini, miktarları ve gövde malzemesini, ekipman, halka veya WPS gerekip gerekmediğini bildirin. Tüm paket için teklif hazırlayalım.",
+    "ctaRfq": "Saplama kaynağı desteği isteyin",
+    "ctaContact": "Montajınızı teknik ekibimizle görüşün",
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      {
+        "q": "Çekme ark ile kondansatör deşarj saplama kaynağı arasındaki fark nedir?",
+        "a": "Çekme ark, daha uzun bir ark ve seramik halkayla yaklaşık 25 mm'ye kadar büyük saplamaları yaklaşık 2 mm'den kalın gövdelere kaynatır; derin nüfuziyet ve yüksek dayanım sağlar. Kondansatör deşarj ise yaklaşık 10 mm'ye kadar küçük saplamaları halka olmadan birkaç milisaniyede kaynatır ve yaklaşık 0,7 mm'den ince malzemelere uygundur."
+      },
+      {
+        "q": "Hangi ankraj tipi için hangi yöntem kullanılır?",
+        "a": "SEPL-06, SEPL-13 ve SEPL-18 gibi saplama tabanlı veya tabancayla kaynatılabilen dökme ankrajlar çekme arkla kaynatılır. Seramik elyaf saplamaları (SEPL-24), kaynaklı dişli saplamalar (SEPL-25) ve yalıtım pimleri kondansatör deşarjla kaynatılır. SEPL-07 ve SEPL-09 gibi bazı ankrajlar elle kaynak için tasarlanmıştır."
+      },
+      {
+        "q": "Ankrajlar sahada kaynağa hazır olarak teslim edilebilir mi?",
+        "a": "Evet. Ankrajlar, uygun seramik halkalar ve önerilen kaynak parametreleriyle birlikte, saplama tabanlı veya önceden kaynatılmış saplamalı olarak sahada montaja hazır teslim edilir."
+      },
+      {
+        "q": "Hangi seramik halka ölçüleri mevcut?",
+        "a": "Halkalar saplama çapına ve kaynatılan yüzeye (düz sac veya boru gibi) göre seçilir. Saplama çapını ve gövde geometrisini bildirin, uygun halkaları ankrajlarla birlikte gönderelim."
+      }
+    ]
   }
 }

@@ -1431,6 +1431,9 @@ Max service temperature / density reference (from weight calculator):
 
 ## URL Map
 
+> Category pages (content/product-categories.ts) are live as noindex "Coming soon" placeholders; old-site product URLs above now redirect to their category slug.
+
+
 Locales: `en` (no prefix), `ar`, `de`, `tr`, `pt-BR`, `es`, `it`, `fr`, `pl`, `nl` → prefix `/{locale}` to every new path (e.g. `/products/sepl-07-v-anchors`, `/de/products/sepl-07-v-anchors`). Action `301` = permanent redirect from old URL; `drop` = no page (410).
 
 | Old URL | New URL | Action |
@@ -1440,8 +1443,8 @@ Locales: `en` (no prefix), `ar`, `de`, `tr`, `pt-BR`, `es`, `it`, `fr`, `pl`, `n
 | `/why-santura-engineering.html` | `/about/why-santura` | 301 |
 | `/contact-us.html` | `/contact` | 301 |
 | `/rfq.html` | `/rfq` | 301 |
-| `/products.html` | `/products/refractory-anchors` | 301 |
-| `/manufacturer-of-refractory-anchors.html` | `/products/refractory-anchors` | 301 |
+| `/products.html` | `/products` | 301 |
+| `/manufacturer-of-refractory-anchors.html` | `/refractory-anchors` | 301 |
 | `/sitemap.html` | `/sitemap.xml` | 301 |
 | `/SEPL-Brick-linnings-a.html` | `/products/brick-linings` | 301 |
 | `/SEPL-Double-Linings-c.html` | `/products/double-linings` | 301 |
@@ -1513,40 +1516,40 @@ Locales: `en` (no prefix), `ar`, `de`, `tr`, `pt-BR`, `es`, `it`, `fr`, `pl`, `n
 | `/Chemical-Composition.html` | `/guides/alloy-chemical-composition` | 301 |
 | `/chemical-composition-of-refractory-anchors.html` | `/guides/alloy-chemical-composition` | 301 |
 | `/Miscellaneous-Fasteners.html` | `/products/fasteners` | 301 |
-| `/B7-Studs.html` | `/products/b7-studs` | 301 |
-| `/Button-Head-Bolts.html` | `/products/button-head-bolts` | 301 |
-| `/Flange-Bolts.html` | `/products/flange-bolts` | 301 |
-| `/Flanged-Nuts.html` | `/products/flanged-nuts` | 301 |
-| `/Flat-Nib-Bolts.html` | `/products/flat-nib-bolts` | 301 |
-| `/Flat-Square-Neck-bolt.html` | `/products/flat-square-neck-bolts` | 301 |
-| `/Head-Carriage-Bolts.html` | `/products/carriage-bolts` | 301 |
-| `/Hexagon-Bolts-&-Screws.html` | `/products/hexagon-bolts-screws` | 301 |
-| `/Hexagon-Nuts.html` | `/products/hexagon-nuts` | 301 |
-| `/Hexagon-Socket-head-bolts.html` | `/products/hexagon-socket-head-bolts` | 301 |
-| `/Knurled-bolts.html` | `/products/knurled-bolts` | 301 |
-| `/Insulating-materials.html` | `/products/insulation` | 301 |
+| `/B7-Studs.html` | `/products/fasteners` | 301 |
+| `/Button-Head-Bolts.html` | `/products/fasteners` | 301 |
+| `/Flange-Bolts.html` | `/products/fasteners` | 301 |
+| `/Flanged-Nuts.html` | `/products/fasteners` | 301 |
+| `/Flat-Nib-Bolts.html` | `/products/fasteners` | 301 |
+| `/Flat-Square-Neck-bolt.html` | `/products/fasteners` | 301 |
+| `/Head-Carriage-Bolts.html` | `/products/fasteners` | 301 |
+| `/Hexagon-Bolts-&-Screws.html` | `/products/fasteners` | 301 |
+| `/Hexagon-Nuts.html` | `/products/fasteners` | 301 |
+| `/Hexagon-Socket-head-bolts.html` | `/products/fasteners` | 301 |
+| `/Knurled-bolts.html` | `/products/fasteners` | 301 |
+| `/Insulating-materials.html` | `/products/insulation-accessories` | 301 |
 | `/Calcium-Silicate.html` | `/products/calcium-silicate` | 301 |
-| `/Fibreglass-and-glass-wool.html` | `/products/fibreglass-glass-wool` | 301 |
-| `/Gaskets.html` | `/products/gaskets` | 301 |
+| `/Fibreglass-and-glass-wool.html` | `/products/glass-fibre-sheets` | 301 |
+| `/Gaskets.html` | `/products/ceramic-gaskets` | 301 |
 | `/Insulation-pins.html` | `/products/insulation-pins` | 301 |
 | `/Polyisocynurate-insulation.html` | `/products/polyisocyanurate-insulation` | 301 |
 | `/Polystyrene-insulation.html` | `/products/polystyrene-insulation` | 301 |
-| `/Rockwool-insulation.html` | `/products/rockwool-insulation` | 301 |
+| `/Rockwool-insulation.html` | `/products/mineral-wool` | 301 |
 | `/Fabrication-shop.html` | `/products/fabrication` | 301 |
 | `/santura-engineering-refractory-anchors-custom-fabrication.html` | `/products/custom-fabrication` | 301 |
 | `/manufacturer-of-casing-sandwiched-panel.html` | `/products/casing-sandwich-panels` | 301 |
 | `/manufacturer-of-fired-heater-hairpin-accessories.html` | `/products/fired-heater-hair-pins` | 301 |
 | `/manufacturer-of-foundation-bolts.html` | `/products/foundation-bolts` | 301 |
-| `/manufacturer-of-industrial-furnace-sight-or-observation-doors.html` | `/products/furnace-sight-doors` | 301 |
-| `/manufacturer-of-industrial-pipe-guides-for-fired-heaters.html` | `/products/pipe-guides` | 301 |
+| `/manufacturer-of-industrial-furnace-sight-or-observation-doors.html` | `/products/observation-peep-doors` | 301 |
+| `/manufacturer-of-industrial-pipe-guides-for-fired-heaters.html` | `/products/pipe-guides-sleeves` | 301 |
 | `/manufacturer-of-industrial-stanchions.html` | `/products/industrial-stanchions` | 301 |
 | `/manufacturer-of-perforated-stainless-steel-sheets.html` | `/products/perforated-sheets` | 301 |
-| `/manufacturer-of-pipe-ring-sleeves.html` | `/products/pipe-ring-sleeves` | 301 |
-| `/manufacturer-of-pop-rivets.html` | `/products/pop-rivets` | 301 |
-| `/stainless-steel-suppliers-in-UAE.html` | `/products/stainless-steel-trading` | 301 |
-| `/stainless-steel-suppliers-uae.html` | `/products/stainless-steel-trading` | 301 |
-| `/stainless-steel-suppliers-dubai.html` | `/products/stainless-steel-trading` | 301 |
-| `/raw-materials.html` | `/products/stainless-steel-trading` | 301 |
+| `/manufacturer-of-pipe-ring-sleeves.html` | `/products/pipe-guides-sleeves` | 301 |
+| `/manufacturer-of-pop-rivets.html` | `/products/fasteners` | 301 |
+| `/stainless-steel-suppliers-in-UAE.html` | `/products/trading-division` | 301 |
+| `/stainless-steel-suppliers-uae.html` | `/products/trading-division` | 301 |
+| `/stainless-steel-suppliers-dubai.html` | `/products/trading-division` | 301 |
+| `/raw-materials.html` | `/products/trading-division` | 301 |
 | `/refractory-anchors-cement-plants.html` | `/industries/cement` | 301 |
 | `/rotary-kiln-refractory-anchors.html` | `/industries/rotary-kilns` | 301 |
 | `/refractory-anchors-oil-gas-petrochemical.html` | `/industries/oil-gas-petrochemical` | 301 |

@@ -8,12 +8,14 @@
     "quality": "Qualité",
     "contact": "Contact",
     "privacy": "Politique de confidentialité",
-    "disclaimer": "Avertissement"
+    "disclaimer": "Avertissement",
+    "services": "Services",
+    "refractoryAnchors": "Ancrages Réfractaires"
   },
   "hero": {
     "eyebrow": "Santura Engineering Pvt. Ltd. · Mumbai, Inde",
     "title": "Fabricant et Exportateur d'Ancrages Réfractaires",
-    "subtitle": "Ancrages réfractaires, goujons pour fibre et fibres en acier inoxydable pour garnissages en briques, béton réfractaire et fibre céramique, fabriqués à Mumbai et expédiés vers des projets internationaux depuis le port de Nhava Sheva.",
+    "subtitle": "Ancrages réfractaires, goujons pour fibre céramique, systèmes de contrepoids, matériaux isolants, portes de visite et accessoires, fabriqués à Mumbai et expédiés vers des projets internationaux depuis le port de Nhava Sheva.",
     "imageAlt": "Unités de raffinerie avec colonnes et fours à garnissage réfractaire"
   },
   "cta": {
@@ -247,7 +249,8 @@
     "sending": "Envoi en cours…",
     "success": "Merci. Nous vous répondrons rapidement.",
     "error": "Une erreur est survenue. Veuillez réessayer.",
-    "productPrefix": "Produit"
+    "productPrefix": "Produit",
+    "servicePrefix": "Service"
   },
   "rfqPage": {
     "title": "Demandez un Devis pour vos Ancrages Réfractaires",
@@ -332,6 +335,11 @@
         "text": "M. Bharat Diwan, ingénieur de production, fonde l’entreprise."
       },
       {
+        "year": "1981",
+        "title": "Systèmes de contrepoids",
+        "text": "Début de la fabrication de systèmes de contrepoids et d'autres pièces chaudronnées."
+      },
+      {
         "year": "2005",
         "title": "Ancrages réfractaires",
         "text": "Début de la fabrication d’ancrages réfractaires."
@@ -371,7 +379,9 @@
     "productsLink": "Voir tous les produits",
     "exportTitle": "Export",
     "exportText": "Nous exportons vers plus de 25 pays au Moyen-Orient, en Europe et sur le continent américain, au départ de Nhava Sheva avec une documentation complète.",
-    "exportLink": "Trouver votre pays"
+    "exportLink": "Trouver votre pays",
+    "galleryTitle": "Au cœur de nos ateliers",
+    "galleryIntro": "Matières premières, ancrages finis, emballage et expédition chez Santura Engineering."
   },
   "qualityPage": {
     "metaTitle": "Qualité, essais et certification | Santura Engineering",
@@ -436,7 +446,8 @@
       "DIN17440": "Aciers inoxydables : conditions techniques de livraison pour tôles, barres et fils"
     },
     "clientCertsTitle": "Certificats clients",
-    "clientCertsText": "Les certificats et lettres de référence de nos clients seront publiés ici."
+    "clientCertsText": "Les certificats et lettres de référence de nos clients seront publiés ici.",
+    "photosTitle": "Les contrôles en pratique"
   },
   "privacyPage": {
     "metaTitle": "Politique de confidentialité | Santura Engineering",
@@ -613,5 +624,695 @@
       "country": "Pays",
       "page": "Pages"
     }
+  },
+  "photos": {
+    "cartonsBulk": "Cartons prêts pour l'emballage",
+    "containerCartons": "Cartons export filmés chargés dans un conteneur",
+    "xrfHandheld": "Analyseur XRF portable contrôlant l'alliage",
+    "crateBulk": "Caisse export garnie de copeaux de bois",
+    "cartonsDispatch": "Composants emballés en cartons pour l'expédition",
+    "componentsPacked": "Composants métalliques en cartons doublés",
+    "anchorsWavy": "Ancrages réfractaires en fabrication",
+    "anchorsBent": "Tiges d'ancrage en acier pliées",
+    "tubesStock": "Stock de tubes en acier",
+    "wireCoilsStock": "Bobines de fil d'acier en stock",
+    "dispatchTeam": "Notre équipe d'expédition",
+    "cratesContainer": "Caisses en bois chargées pour l'export",
+    "workerPacking": "Emballage des composants à l'entrepôt",
+    "truckDispatch": "Chargement d'un camion pour l'expédition",
+    "containerPallets": "Cartons palettisés dans un conteneur maritime",
+    "factoryExterior": "Usine de Santura Engineering, MIDC Tarapur",
+    "xrfTesting": "Vérification de l'alliage à l'analyseur XRF",
+    "workshopStock": "Composants en acier à l'atelier",
+    "rodCaliper": "Contrôle du diamètre de la tige au pied à coulisse",
+    "wireXrf": "Contrôle de l'alliage du fil",
+    "wireCoilsBulk": "Stock de bobines de fil",
+    "wireCoilsInventory": "Inventaire des bobines de fil",
+    "wireCaliper": "Mesure du diamètre du fil au pied à coulisse",
+    "cratePacking": "Emballage de protection en caisse pour composants"
+  },
+  "productCategories": {
+    "items": {
+      "refractory-anchors": {
+        "name": "Ancrages Réfractaires",
+        "description": "Ancrages SEPL pour garnissages en briques, béton, doubles et fibre céramique."
+      },
+      "observation-peep-doors": {
+        "name": "Portes de Visite / Regards",
+        "description": "Portes de visite et regards pour fours, réchauffeurs et chaudières."
+      },
+      "foundation-bolts": {
+        "name": "Boulons de Fondation",
+        "description": "Tiges d'ancrage et boulons de fondation pour structures et équipements."
+      },
+      "support-plates": {
+        "name": "Plaques d'Appui",
+        "description": "Platines et plaques d'appui fabriquées sur plan."
+      },
+      "industrial-stanchions": {
+        "name": "Poteaux Industriels",
+        "description": "Poteaux et montants pour plateformes et garde-corps."
+      },
+      "pipe-guides-sleeves": {
+        "name": "Guides et Fourreaux de Tubes",
+        "description": "Guides et fourreaux annulaires pour tubes de fours."
+      },
+      "counter-weight-systems": {
+        "name": "Systèmes de Contrepoids",
+        "description": "Ensembles de contrepoids pour le support des tubes de fours."
+      },
+      "mineral-wool": {
+        "name": "Laine Minérale",
+        "description": "Isolants en laine de roche et laine minérale."
+      },
+      "ceramic-gaskets": {
+        "name": "Joints Céramiques",
+        "description": "Joints en fibre céramique pour hautes températures."
+      },
+      "glass-fibre-sheets": {
+        "name": "Plaques de Fibre de Verre",
+        "description": "Plaques, tissus de fibre de verre et laine de verre."
+      },
+      "calcium-silicate": {
+        "name": "Silicate de Calcium",
+        "description": "Plaques et coquilles en silicate de calcium."
+      },
+      "insulation-pins": {
+        "name": "Pointes d'Isolation",
+        "description": "Pointes à souder et clips pour fixer l'isolation."
+      },
+      "polystyrene-insulation": {
+        "name": "Isolation en Polystyrène",
+        "description": "Isolation en polystyrène expansé et extrudé."
+      },
+      "polyisocyanurate-insulation": {
+        "name": "Isolation en Polyisocyanurate",
+        "description": "Panneaux et coquilles isolants PIR."
+      },
+      "fasteners": {
+        "name": "Fixations",
+        "description": "Boulons, goujons, écrous et rivets en acier inoxydable et allié."
+      },
+      "insulation-accessories": {
+        "name": "Accessoires d'Isolation",
+        "description": "Feuillards, clips, rondelles et autres fixations d'isolation."
+      },
+      "steel-plates": {
+        "name": "Tôles d'Acier",
+        "description": "Tôles en acier inoxydable et allié."
+      },
+      "trading-division": {
+        "name": "Division Négoce",
+        "description": "Fourniture d'acier inoxydable et de matériaux industriels."
+      }
+    },
+    "allCategories": "Toutes les catégories de produits",
+    "viewAll": "Voir tous les produits",
+    "featured": "Notre gamme principale",
+    "featuredCta": "Découvrir la gamme SEPL",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "browseTitle": "Toutes les Catégories de Produits",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "{name} par Santura Engineering, Mumbai. Informations détaillées bientôt disponibles ; contactez-nous pour la disponibilité et les prix.",
+    "comingSoon": "Bientôt disponible",
+    "comingSoonTitle": "Informations produit bientôt disponibles",
+    "comingSoonText": "Nous préparons des informations détaillées sur cette catégorie. Pour la disponibilité, les dimensions et les prix, envoyez-nous une demande ou demandez un devis.",
+    "back": "Retour à tous les produits",
+    "otherCategories": "Autres catégories de produits",
+    "overviewTitle": "Catégories de Produits",
+    "overviewIntro": "Ancrages réfractaires, isolants, fixations, composants de fours et pièces chaudronnées de Santura Engineering, Mumbai.",
+    "overviewMetaTitle": "Catégories de Produits | Santura Engineering",
+    "overviewMetaDescription": "Catégories de produits de Santura Engineering, Mumbai : ancrages réfractaires, isolants, fixations, composants de fours et pièces chaudronnées."
+  },
+  "services": {
+    "items": {
+      "bright-solution-annealing": {
+        "name": "Hypertrempe Brillante",
+        "description": "Hypertrempe sous atmosphère protectrice qui laisse l'acier inoxydable brillant et sans calamine."
+      },
+      "pickling-and-passivation": {
+        "name": "Décapage et Passivation",
+        "description": "Traitement chimique qui élimine la calamine et rétablit la couche d'oxyde protectrice de l'acier inoxydable."
+      },
+      "pmi-testing": {
+        "name": "Contrôle PMI",
+        "description": "Identification positive des matériaux pour vérifier la nuance des composants métalliques."
+      },
+      "stud-welding-solutions": {
+        "name": "Soudage de Goujons / au Pistolet",
+        "description": "Assistance au soudage de goujons et au pistolet pour une pose rapide et régulière des ancrages réfractaires."
+      }
+    },
+    "comingSoon": "Bientôt disponible",
+    "comingSoonTitle": "Informations sur le service bientôt disponibles",
+    "comingSoonText": "Nous préparons des informations détaillées sur ce service. Contactez-nous pour parler de vos besoins.",
+    "cta": "Nous contacter pour ce service",
+    "otherServices": "Autres services",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "{name} par Santura Engineering, Mumbai. Informations détaillées bientôt disponibles ; contactez-nous pour parler de vos besoins."
+  },
+  "bsaPage": {
+    "metaTitle": "Hypertrempe brillante pour ancrages réfractaires | Santura Engineering",
+    "metaDescription": "Hypertrempe brillante sous vide pour ancrages réfractaires en inox et alliages de nickel. Depuis 1980, export vers 25+ pays. ISO 9001:2015.",
+    "eyebrow": "Traitement thermique",
+    "h1": "Hypertrempe brillante pour ancrages réfractaires",
+    "subheading": "Traitement thermique sous vide qui rétablit l'équilibre atomique des ancrages en acier inoxydable et en alliages de nickel écrouis, et prolonge leur durée de vie.",
+    "ctaHero": "Demander une hypertrempe pour vos ancrages",
+    "whatTitle": "Qu'est-ce que l'hypertrempe brillante ?",
+    "what": [
+      "L'hypertrempe (recuit de mise en solution) chauffe l'acier inoxydable ou l'alliage de nickel au-dessus de sa température de mise en solution, généralement entre 1040 °C et 1230 °C selon l'alliage, le maintient le temps nécessaire à la recristallisation, puis le refroidit rapidement. Les carbures et autres précipités se dissolvent et le métal retrouve sa microstructure d'origine, entièrement austénitique.",
+      "Pour l'hypertrempe brillante, le chauffage se fait sous vide ou sous gaz inerte comme l'argon. Aucun oxygène n'atteint la surface : les ancrages ressortent propres et brillants, sans calamine.",
+      "Le recuit « noir » classique à l'air noircit la surface et forme de la calamine. Celle-ci doit être éliminée, et le métal perdu réduit la section utile de l'ancrage, ce qui compte sur le fil et le feuillard minces."
+    ],
+    "whyTitle": "Pourquoi c’est important pour les ancrages réfractaires",
+    "whyIntro": "La fabrication d'un ancrage passe par l'étirage à froid, le pliage, le formage et le soudage. Chaque étape déforme le réseau cristallin et laisse des contraintes internes stockées sous forme de dislocations. Sans traitement, ces contraintes fragilisent l'ancrage de trois façons.",
+    "risks": [
+      {
+        "title": "Corrosion",
+        "text": "Le métal écroui et fortement contraint est plus sensible à la corrosion sous contrainte et à l'attaque par le soufre, les chlorures et les alcalis présents dans les fours et les chaudières."
+      },
+      {
+        "title": "Fragilisation par la phase sigma",
+        "text": "Entre 600 et 900 °C environ, l'inox écroui forme plus vite de la phase sigma. Cette phase dure et fragile réduit fortement la ténacité, et l'ancrage peut se fissurer au refroidissement de l'installation."
+      },
+      {
+        "title": "Durée de vie réduite",
+        "text": "Les ancrages contraints perdent leur résistance et cèdent plus tôt sous les cycles thermiques, souvent avant que le garnissage réfractaire lui-même ne doive être remplacé."
+      }
+    ],
+    "whyResult": [
+      "L'hypertrempe brillante libère ces contraintes et ramène les atomes à leur espacement d'équilibre, l'état dans lequel l'alliage se comporte le mieux à haute température. Elle dissout aussi les carbures ou la phase sigma déjà présents.",
+      "On obtient un ancrage qui résiste plus longtemps à la corrosion et à la fragilisation, et qui conserve sa résistance mécanique à la température de service."
+    ],
+    "tableTitle": "Paramètres de traitement par alliage",
+    "colAlloy": "Nuance",
+    "colTemp": "Température (°C)",
+    "colCooling": "Refroidissement",
+    "colNotes": "Remarques",
+    "cooling": {
+      "waterOrAir": "Trempe à l'eau ou refroidissement rapide à l'air",
+      "water": "Trempe à l'eau"
+    },
+    "notes": {
+      "ss304": "Nuance la plus courante pour les ancrages",
+      "ss309": "Pour des températures de service plus élevées",
+      "ss310": "Température de service la plus élevée des inox standard",
+      "ss316": "Au molybdène, meilleure résistance à la corrosion",
+      "ss321": "Stabilisé au titane",
+      "ma253": "Inox austénitique réfractaire à haute résistance à l'oxydation",
+      "a800": "Alliage nickel-fer-chrome",
+      "in601": "Alliage nickel-chrome",
+      "in625": "Alliage nickel-chrome-molybdène complexe, qui exige la température la plus élevée pour retrouver l'équilibre"
+    },
+    "tableNote": "Chaque alliage exige sa propre température et son propre temps de maintien ; des paramètres incorrects peuvent dégrader le matériau au lieu de l'améliorer. Le procédé de Santura suit l'ASTM A240 et la spécification matière applicable à chaque nuance.",
+    "industriesTitle": "Secteurs concernés",
+    "industries": [
+      {
+        "name": "Cimenteries",
+        "text": "Ancrages de four exposés à l'attaque alcaline et aux cycles thermiques."
+      },
+      {
+        "name": "Raffineries",
+        "text": "Ancrages de réchauffeurs et d’unités FCC en atmosphère sulfurante."
+      },
+      {
+        "name": "Pétrochimie",
+        "text": "Ancrages de vapocraqueurs en atmosphère carburante."
+      },
+      {
+        "name": "Valorisation énergétique",
+        "text": "Ancrages de chambre de post-combustion exposés à la corrosion par les chlorures."
+      },
+      {
+        "name": "Aciéries",
+        "text": "Ancrages de poches et de fours de réchauffage sous forte charge mécanique."
+      }
+    ],
+    "verifyTitle": "Comment vérifier le traitement",
+    "verify": [
+      {
+        "title": "Essais de dureté et de traction",
+        "text": "Le matériau recuit est plus tendre que le matériau formé. La dureté doit revenir dans la plage recuite de la nuance (pour le SS304, au plus le maximum ASTM A240 de 92 HRB) et la résistance à la traction doit être proche du minimum spécifié, avec une ductilité retrouvée."
+      },
+      {
+        "title": "État de surface",
+        "text": "La surface doit être brillante, propre et exempte de calamine ou de coloration thermique."
+      },
+      {
+        "title": "Comparaison avec le certificat matière",
+        "text": "La comparaison des résultats avec le certificat matière d'origine confirme que le matériau a retrouvé ses propriétés recuites spécifiées."
+      }
+    ],
+    "verifyQualityLink": "Voir comment nous contrôlons et documentons chaque commande",
+    "productsTitle": "Produits Santura pouvant recevoir une hypertrempe brillante",
+    "productGroups": [
+      {
+        "title": "Ancrages en acier inoxydable",
+        "text": "Tous les types d'ancrages SEPL en SS304, SS309, SS310, SS316 et SS321."
+      },
+      {
+        "title": "Ancrages en alliages haute température",
+        "text": "Tous les types d'ancrages SEPL en 253MA, Alloy 800H, Inconel 601 et Inconel 625."
+      },
+      {
+        "title": "Fibres métalliques",
+        "text": "Fibres inox obtenues par extraction de bain fondu et étirées à froid."
+      }
+    ],
+    "productCategoriesLabel": "Par type de garnissage",
+    "productExamplesLabel": "Exemples",
+    "ctaTitle": "Demander une hypertrempe brillante",
+    "ctaText": "Envoyez le plan ou le code de l'ancrage, la nuance et la quantité : nous chiffrons la fabrication avec hypertrempe brillante.",
+    "ctaRfq": "Demander une hypertrempe brillante",
+    "ctaContact": "Contactez notre équipe technique pour parler de l'hypertrempe pour votre projet",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Quelle est la différence entre hypertrempe brillante et recuit noir ?",
+        "a": "L'hypertrempe brillante se fait sous vide ou gaz inerte : la surface reste propre et sans oxyde. Le recuit noir se fait à l'air et forme de la calamine, qu'il faut éliminer et qui réduit la section utile de l'ancrage."
+      },
+      {
+        "q": "Quels alliages peuvent recevoir une hypertrempe brillante ?",
+        "a": "Tous les inox austénitiques utilisés pour les ancrages réfractaires (304, 309, 310, 316 et 321), la nuance réfractaire 253MA et les alliages de nickel 800H, 601 et 625."
+      },
+      {
+        "q": "Comment vérifier que l'hypertrempe a été bien réalisée ?",
+        "a": "Par des essais de dureté et de traction. Le matériau traité doit être plus tendre que le matériau non traité, avec une dureté revenue dans la plage recuite et une résistance proche du minimum spécifié. La surface doit aussi être brillante et sans calamine."
+      },
+      {
+        "q": "L'hypertrempe prolonge-t-elle la durée de vie des ancrages ?",
+        "a": "Oui. En supprimant les contraintes dues à l'écrouissage et en rétablissant l'équilibre atomique, les ancrages traités résistent nettement mieux à la corrosion et à la fragilisation par la phase sigma que les ancrages non traités."
+      }
+    ],
+    "bothOffered": "Nous proposons l'hypertrempe brillante (sous vide) et l'hypertrempe standard (à l'air)."
+  },
+  "ppPage": {
+    "metaTitle": "Décapage et passivation d’ancrages réfractaires | ASTM A380 A967 | Santura Engineering",
+    "metaDescription": "Décapage et passivation d’ancrages réfractaires en inox selon ASTM A380 et A967. Depuis 1980, export vers 25+ pays. ISO 9001:2015.",
+    "eyebrow": "Traitement de surface",
+    "h1": "Décapage et passivation des ancrages réfractaires en inox",
+    "subheading": "Nettoyage acide et traitement de surface qui éliminent la calamine de soudure, les colorations thermiques et les contaminants incrustés, et rétablissent toute la résistance à la corrosion avant la pose.",
+    "ctaHero": "Demander un décapage et une passivation",
+    "whatTitle": "Qu’est-ce que le décapage et la passivation ?",
+    "whatIntro": "Ce sont deux procédés distincts. Lorsque les deux sont demandés, le décapage vient en premier et la passivation suit.",
+    "pickling": {
+      "title": "Décapage",
+      "points": [
+        "Un traitement acide agressif, généralement avec un mélange d’acides nitrique et fluorhydrique.",
+        "Élimine la calamine de soudure, les colorations thermiques, les couches d’oxyde, les particules de fer incrustées et les autres contaminations laissées par le soudage, la découpe, le meulage et le pliage.",
+        "Dissout une fine couche de la surface elle-même et met à nu le métal sain.",
+        "Laisse un aspect mat uniforme, sans coloration ni contaminant.",
+        "Se pratique au trempé pour les pièces complètes, par pulvérisation pour les grands ensembles ou sur site, ou au gel pour les soudures et les petites zones."
+      ]
+    },
+    "passivation": {
+      "title": "Passivation",
+      "points": [
+        "Un traitement acide plus doux, à l’acide nitrique ou citrique.",
+        "N’enlève pas de métal : il élimine seulement le fer libre et les autres contaminants de surface.",
+        "Favorise la formation de la couche passive naturelle d’oxyde de chrome qui rend l’acier inoxydable résistant à la corrosion.",
+        "Cette couche se forme seule à l’air, mais sur des surfaces fraîchement fabriquées le processus peut être perturbé. La passivation garantit qu’elle se forme complètement et uniformément.",
+        "Après le décapage, la passivation reconstitue la couche protectrice sur la surface propre. Elle peut aussi être demandée seule pour des pièces sans calamine."
+      ]
+    },
+    "whyTitle": "Pourquoi c’est important pour les ancrages réfractaires",
+    "whyIntro": "Les ancrages sont découpés, meulés, pliés en V et en Y, puis soudés aux viroles des fours et aux gaines. Chaque étape abîme la surface d’une façon différente.",
+    "damage": [
+      {
+        "title": "Coloration thermique de soudure",
+        "text": "L’oxyde coloré autour d’une soudure se forme en puisant le chrome du métal situé juste en dessous. La couche passive ne peut pas se former correctement dans cette zone appauvrie en chrome."
+      },
+      {
+        "title": "Meulage",
+        "text": "Les meules et les outils en acier au carbone laissent des particules de fer incrustées qui rouillent et amorcent la corrosion sur une surface inoxydable."
+      },
+      {
+        "title": "Découpe",
+        "text": "Les bords découpés sont rugueux et contraints, et la corrosion y commence en premier."
+      }
+    ],
+    "whyResult": [
+      "Sans traitement, ces zones abîmées sont les premiers points de défaillance en service à haute température, et les zones appauvries en chrome autour des soudures sont les plus vulnérables.",
+      "Le décapage élimine entièrement la couche abîmée, et la passivation reconstitue le film d’oxyde de chrome sur la surface propre. On obtient un ancrage dont la résistance à la corrosion est uniforme sur toute sa surface, soudures et pliages compris."
+    ],
+    "standardsTitle": "Normes applicables",
+    "colStandard": "Norme",
+    "colCovers": "Objet",
+    "standards": {
+      "a380": "Standard Practice for Cleaning, Descaling and Passivation of Stainless Steel Parts, Equipment and Systems. Couvre le nettoyage et le décapage.",
+      "a967": "Standard Specification for Chemical Passivation Treatments for Stainless Steel Parts. Couvre les traitements de passivation et leur vérification.",
+      "verify": "Essai au sulfate de cuivre, qui confirme que la surface est exempte de contamination ferreuse et correctement passivée."
+    },
+    "verifyLabel": "Vérification",
+    "materialsTitle": "Matériaux traités",
+    "materials": [
+      {
+        "title": "Aciers inoxydables austénitiques",
+        "text": "SS304, SS304L, SS309, SS310, SS310S, SS316, SS316L, SS321 et SS347."
+      },
+      {
+        "title": "Alliages haute température",
+        "text": "253MA, Alloy 800H, Inconel 601 et Inconel 625. L’ASTM A967 ne couvre que les aciers inoxydables : les alliages de nickel sont traités selon la procédure du producteur de l’alliage."
+      },
+      {
+        "title": "Aciers inoxydables duplex",
+        "text": "Sur demande, avec une chimie adaptée à la nuance."
+      }
+    ],
+    "carbonSteelNote": "Les pièces en acier au carbone ne sont pas décapées avec la même chimie : les acides de décapage de l’inox sont très corrosifs pour l’acier au carbone.",
+    "methodsTitle": "Méthodes de traitement",
+    "methods": [
+      {
+        "title": "Décapage au trempé",
+        "text": "Tout le lot d’ancrages est plongé dans le bain acide. Idéal pour de grandes quantités de petites et moyennes pièces."
+      },
+      {
+        "title": "Décapage par pulvérisation",
+        "text": "L’acide est pulvérisé sur les grands ensembles fabriqués. Adapté aux interventions sur site et aux pièces hors gabarit."
+      },
+      {
+        "title": "Gel de décapage",
+        "text": "Pâte appliquée sur des soudures ou des zones précises. Utilisée pour les réparations sur site et le traitement ciblé des zones affectées thermiquement."
+      }
+    ],
+    "methodsNote": "Les pièces doivent être dégraissées et débarrassées de l’huile, de la graisse et des autres contaminations organiques avant le traitement acide. Le décapage et la passivation n’éliminent ni l’huile ni la graisse.",
+    "whenTitle": "Quand spécifier le décapage et la passivation",
+    "when": [
+      "Après le soudage des ancrages aux viroles de four ou aux gaines.",
+      "Après un traitement thermique : le décapage élimine la calamine laissée par une hypertrempe à l’air, et les pièces recuites brillantes peuvent être passivées si nécessaire.",
+      "Lorsque les ancrages présentent des colorations thermiques ou des traces de soudure visibles.",
+      "Lorsque les ancrages ont été en contact avec des outils en acier au carbone pendant la fabrication.",
+      "Pour les services critiques en raffinerie et en pétrochimie, et pour les fabrications inox destinées aux industries pharmaceutique et alimentaire.",
+      "Lorsque la spécification du client final exige la conformité à l’ASTM A380 ou A967."
+    ],
+    "relatedTitle": "Lien avec nos autres services",
+    "relatedBsaTitle": "Après l’hypertrempe brillante",
+    "relatedBsaText": "L’hypertrempe brillante rétablit la structure interne du métal ; la passivation rétablit ensuite la protection de sa surface. Les deux sont complémentaires.",
+    "relatedPmiTitle": "Avant le contrôle PMI",
+    "relatedPmiText": "Une surface propre et passivée donne des mesures PMI plus fiables qu’une surface couverte de calamine ou de contaminants.",
+    "productsTitle": "Produits Santura traités",
+    "products": {
+      "anchors": "Tous les ancrages réfractaires SEPL",
+      "fibres": "Fibres en acier inoxydable",
+      "counterweights": "Systèmes de contrepoids",
+      "fasteners": "Fixations et goujons",
+      "fabrication": "Toute fabrication en acier inoxydable"
+    },
+    "productExamplesLabel": "Exemples",
+    "qualityLink": "Voir comment nous contrôlons et documentons chaque commande",
+    "ctaTitle": "Demander un décapage et une passivation",
+    "ctaText": "Envoyez le plan ou le code produit, la nuance, la quantité et la norme à respecter : nous chiffrons le traitement.",
+    "ctaRfq": "Demander un décapage et une passivation",
+    "ctaContact": "Parler de vos exigences de traitement de surface",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Quelle est la différence entre décapage et passivation ?",
+        "a": "Le décapage est un traitement acide agressif qui élimine la calamine de soudure, les colorations thermiques et une fine couche de métal. La passivation est un traitement acide plus doux qui élimine le fer libre et aide la couche protectrice d’oxyde de chrome à se reformer. Les deux se font généralement à la suite."
+      },
+      {
+        "q": "Pourquoi les ancrages réfractaires doivent-ils être décapés et passivés ?",
+        "a": "Le soudage, le pliage et la découpe abîment la surface et appauvrissent en chrome la zone affectée thermiquement. Sans traitement, ces zones sont les premières à se corroder en service à haute température."
+      },
+      {
+        "q": "Quelles normes s’appliquent au décapage et à la passivation ?",
+        "a": "L’ASTM A380 couvre le nettoyage et le décapage. L’ASTM A967 couvre les traitements de passivation et leur vérification ; l’essai au sulfate de cuivre (Practice D) confirme que la surface est correctement passivée."
+      },
+      {
+        "q": "Le décapage et la passivation peuvent-ils se faire sur site ?",
+        "a": "Oui. La pulvérisation et le gel de décapage permettent de traiter sur site des ensembles soudés et de grandes fabrications."
+      }
+    ]
+  },
+  "pmiPage": {
+    "metaTitle": "Contrôle PMI des ancrages réfractaires | Vérification des alliages | Santura Engineering",
+    "metaDescription": "Contrôle PMI des ancrages réfractaires par analyseurs XRF et OES. Vérification des alliages depuis 1980, export vers 25+ pays. ISO 9001:2015.",
+    "eyebrow": "Service de contrôle",
+    "h1": "Contrôle PMI des ancrages réfractaires",
+    "subheading": "Identification positive des matériaux qui confirme que chaque ancrage est fabriqué dans l'alliage spécifié, de la réception de la matière jusqu'à l'expédition.",
+    "ctaHero": "Demander un contrôle PMI",
+    "pmiLinkFromQuality": "En savoir plus sur notre contrôle PMI",
+    "whatTitle": "Qu'est-ce que le contrôle PMI ?",
+    "what": [
+      "L'identification positive des matériaux (PMI) est un contrôle non destructif qui mesure la composition élémentaire d'un métal et confirme sa nuance. Elle se fait avec un analyseur portable à fluorescence X (XRF) ou un spectromètre d'émission optique (OES).",
+      "L'analyseur lit la composition en quelques secondes et la compare à une bibliothèque de nuances. Rien n'est coupé, percé ou abîmé : les ancrages finis peuvent être contrôlés puis expédiés."
+    ],
+    "whyTitle": "Pourquoi c’est important pour les ancrages réfractaires",
+    "why": [
+      {
+        "title": "Le mauvais alliage cède en service",
+        "text": "Un ancrage en SS304 là où le SS310 était spécifié peut s'oxyder, perdre sa résistance et céder à la température du four, entraînant le garnissage réfractaire avec lui."
+      },
+      {
+        "title": "Les erreurs arrivent",
+        "text": "Les matériaux peuvent être confondus en fabrication, en stockage ou à l'expédition. Une étiquette peut être fausse et un certificat matière associé au mauvais lot."
+      },
+      {
+        "title": "Le dernier contrôle avant l'expédition",
+        "text": "Le PMI est la vérification finale que chaque ancrage qui quitte l'usine est bien dans l'alliage commandé."
+      },
+      {
+        "title": "Exigé par les utilisateurs finaux",
+        "text": "Les raffineries et usines pétrochimiques appliquent souvent des programmes de vérification des matériaux fondés sur l'API RP 578 et demandent des rapports PMI avant d'accepter les matériaux sur site."
+      }
+    ],
+    "methodsTitle": "Méthodes de contrôle",
+    "methods": [
+      {
+        "title": "XRF portable",
+        "text": "La fluorescence X portable donne une mesure en quelques secondes, partout dans l'usine. C'est la méthode standard pour la matière première, les en-cours et les ancrages finis."
+      },
+      {
+        "title": "OES (spectrométrie d'émission optique)",
+        "text": "L'OES à étincelle mesure aussi le carbone et les éléments légers. Plus lente, moins mobile et laissant une petite marque, elle sert quand la teneur en carbone doit être confirmée."
+      },
+      {
+        "title": "Analyse en laboratoire",
+        "text": "Lorsqu’une spécification exige une analyse chimique complète, les échantillons sont analysés dans des laboratoires tiers accrédités NABL."
+      }
+    ],
+    "limitationTitle": "Ce que l'XRF ne voit pas",
+    "limitationText": "L'XRF ne détecte pas le carbone : il ne distingue donc pas le SS316 du SS316L, ni le SS304 du SS304L. Pour confirmer une nuance à bas carbone, on recourt à l'OES ou à l'analyse en laboratoire.",
+    "standardsTitle": "Normes applicables",
+    "colStandard": "Norme",
+    "colCovers": "Objet",
+    "standards": {
+      "rp578": "Material Verification Program for New and Existing Alloy Piping Systems. Base de la plupart des exigences PMI en raffinerie et en pétrochimie.",
+      "e1476": "Standard Guide for Metals Identification, Grade Verification and Sorting.",
+      "specs": "Spécifications matières pour tôles, feuillards, barres et fils. Les résultats PMI sont comparés aux limites chimiques de ces spécifications."
+    },
+    "alloysTitle": "Alliages que nous vérifions",
+    "colGrade": "Nuance",
+    "colElements": "Éléments clés contrôlés",
+    "colComposition": "Composition nominale (%)",
+    "carbonSteel": "Acier au carbone",
+    "carbonSteelComposition": "Fer, sans teneur notable en chrome ni en nickel",
+    "alloysNote": "Plages nominales tirées des spécifications ASTM. Les éléments légers comme l'aluminium et les ajouts à l'état de traces comme le cérium sont confirmés par le certificat matière. Le PMI vérifie aussi qu'aucune pièce en acier au carbone (matériau de virole) ne s'est mêlée aux ancrages en alliage.",
+    "whenTitle": "Quand nous réalisons le PMI",
+    "when": [
+      {
+        "title": "Réception de la matière",
+        "text": "Tôles, fils et barres sont vérifiés à la réception, avant leur entrée en fabrication."
+      },
+      {
+        "title": "En cours de fabrication",
+        "text": "Des contrôles intermédiaires détectent toute confusion entre deux opérations."
+      },
+      {
+        "title": "Contrôle final",
+        "text": "Les ancrages finis sont vérifiés à nouveau avant emballage et expédition."
+      },
+      {
+        "title": "À la demande du client",
+        "text": "Les certificats PMI sont joints à la livraison, et les contrôles peuvent être suivis par votre inspecteur."
+      }
+    ],
+    "docsTitle": "Documents fournis",
+    "docs": [
+      "Rapport PMI avec le pourcentage mesuré de chaque élément",
+      "Confirmation de la nuance par rapport à la spécification commandée",
+      "Traçabilité par numéro de coulée jusqu'au certificat matière",
+      "Certificats matière originaux EN 10204 3.1"
+    ],
+    "relatedTitle": "Services associés",
+    "relatedBsaText": "Traitement thermique qui rétablit la structure interne des ancrages écrouis.",
+    "relatedPpText": "Une surface propre et passivée donne des mesures PMI plus fiables.",
+    "qualityLink": "Voir comment nous contrôlons et documentons chaque commande",
+    "ctaTitle": "Demander un contrôle PMI",
+    "ctaText": "Indiquez-nous les produits, les nuances et les quantités, et si vous avez besoin de certificats PMI ou de contrôles avec témoin : nous l'intégrerons à notre devis.",
+    "ctaRfq": "Demander un contrôle PMI",
+    "ctaContact": "Parler de vos exigences de vérification des matériaux",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Que détecte le contrôle PMI ?",
+        "a": "Les éléments d'alliage qui caractérisent une nuance, dont le chrome, le nickel, le molybdène, le titane, le niobium et le manganèse, ainsi que le silicium avec un analyseur adapté. L'analyseur associe la composition mesurée à une nuance."
+      },
+      {
+        "q": "Pourquoi le PMI est-il nécessaire pour les ancrages réfractaires ?",
+        "a": "Un ancrage dans le mauvais alliage peut céder à la température du four et faire tomber le garnissage. Le PMI confirme que chaque ancrage est dans la nuance spécifiée, et de nombreuses raffineries et usines pétrochimiques exigent des rapports PMI avant d'accepter les matériaux."
+      },
+      {
+        "q": "Le PMI distingue-t-il le SS316 du SS316L ?",
+        "a": "Pas avec l'XRF, qui ne détecte pas le carbone. On utilise l'OES ou l'analyse en laboratoire lorsque la teneur en carbone d'une nuance à bas carbone doit être confirmée."
+      },
+      {
+        "q": "Quels documents fournissez-vous ?",
+        "a": "Un rapport PMI avec les pourcentages mesurés des éléments, la confirmation de la nuance par rapport à la spécification et la traçabilité par numéro de coulée jusqu'au certificat matière d'origine."
+      }
+    ]
+  },
+  "swPage": {
+    "metaTitle": "Soudage de goujons pour ancrages réfractaires | Santura Engineering",
+    "metaDescription": "Soudage de goujons pour ancrages réfractaires : arc tiré et décharge de condensateur, bagues céramiques, procédures. Depuis 1980, export 25+ pays.",
+    "eyebrow": "Service de pose",
+    "h1": "Solutions de soudage de goujons pour ancrages réfractaires",
+    "subheading": "Ancrages, matériel de soudage de goujons, bagues céramiques et procédures de soudage pour une pose rapide et fiable sur les viroles de fours et de réservoirs.",
+    "ctaHero": "Demander une assistance au soudage de goujons",
+    "whatTitle": "Qu'est-ce que le soudage de goujons ?",
+    "what": [
+      "Le soudage de goujons fixe un ancrage réfractaire directement sur la virole d'un four ou d'un réservoir à l'aide d'un arc électrique, en une fraction de seconde et sans perçage.",
+      "Le pistolet maintient l'ancrage contre la virole et amorce un arc qui fond l'extrémité du goujon et une petite zone de la virole. Le pistolet plonge alors le goujon dans le bain fondu, qui se solidifie en une soudure sur toute la section.",
+      "En soudage à l'arc tiré, une bague céramique entoure la soudure, contient le métal fondu et le protège de l'air."
+    ],
+    "compareTitle": "Comparaison des procédés de soudage de goujons",
+    "colFeature": "Caractéristique",
+    "processes": {
+      "da": "Arc tiré",
+      "sc": "Cycle court",
+      "cd": "Décharge de condensateur"
+    },
+    "compareRows": [
+      {
+        "label": "Diamètre du goujon",
+        "da": "3–25 mm",
+        "sc": "Goujons petits et moyens",
+        "cd": "Jusqu'à 10 mm"
+      },
+      {
+        "label": "Épaisseur du support",
+        "da": "À partir de 2 mm environ",
+        "sc": "Tôle plus mince qu'en arc tiré",
+        "cd": "À partir de 0,7 mm environ"
+      },
+      {
+        "label": "Temps de soudage",
+        "da": "Quelques dixièmes de seconde à 1 seconde environ",
+        "sc": "Jusqu'à 100 ms",
+        "cd": "Quelques millisecondes"
+      },
+      {
+        "label": "Bague céramique",
+        "da": "Oui",
+        "sc": "Non ; un gaz de protection peut être utilisé pour l'inox",
+        "cd": "Non"
+      },
+      {
+        "label": "Usage type",
+        "da": "Ancrages réfractaires sur viroles de four ; pénétration profonde, haute résistance",
+        "sc": "Ancrages et goujons légers quand la rapidité compte",
+        "cd": "Pointes d’isolation et goujons pour fibre céramique ; marquage minimal au verso"
+      }
+    ],
+    "compareNote": "L'arc tiré est la méthode principale pour les ancrages réfractaires sur viroles de four. Une soudure à l'arc tiré bien réalisée est plus résistante que le goujon lui-même : en essai de pliage ou de traction, c'est le goujon qui rompt, pas la soudure.",
+    "whyTitle": "Pourquoi la qualité de soudure compte en service réfractaire",
+    "why": [
+      {
+        "title": "La soudure porte le garnissage",
+        "text": "Les ancrages sont soudés sur des viroles en acier au carbone ou en inox avant la pose du garnissage. Chaque kilogramme de réfractaire tient grâce à ces soudures."
+      },
+      {
+        "title": "Une mauvaise soudure cède en premier",
+        "text": "Une soudure mal fusionnée ou poreuse se fissure sous les cycles thermiques bien avant l'usure de l'ancrage ou du réfractaire."
+      },
+      {
+        "title": "Le bon procédé pour chaque ancrage",
+        "text": "Les ancrages pour béton à embase goujon demandent l'arc tiré, les goujons pour fibre céramique et les pointes d'isolation la décharge de condensateur, et certains ancrages sont conçus pour le soudage manuel ou le vissage."
+      },
+      {
+        "title": "Pas de temps pour reprendre en arrêt d'unité",
+        "text": "La plupart des poses ont lieu pendant les arrêts d'unité. Une capacité de soudage sur site et les bons paramètres dès le premier ancrage tiennent le planning."
+      }
+    ],
+    "productsTitle": "Quels produits Santura utilisent quel procédé",
+    "methods": {
+      "da": {
+        "title": "Soudage de goujons à l'arc tiré / au pistolet",
+        "text": "Ancrages à embase goujon ou soudables au pistolet. Pour SEPL-08 et SEPL-20, certaines versions sont soudées par goujon, d'autres à la main ou boulonnées ; les connecteurs SEPL-16 sont livrés avec un flux aluminium pour le soudage de goujons."
+      },
+      "sc": {
+        "title": "Cycle court (Rapid Arc)",
+        "text": "Goujons fendus pour bétons légers."
+      },
+      "cd": {
+        "title": "Décharge de condensateur",
+        "text": "Goujons pour fibre céramique, goujons filetés à souder et pointes d'isolation."
+      },
+      "manual": {
+        "title": "Soudage manuel à l'arc",
+        "text": "Ancrages conçus pour le soudage manuel traditionnel."
+      },
+      "screw": {
+        "title": "Vissés et boulonnés",
+        "text": "Ancrages montés sur écrous ou vissés sur des goujons pré-soudés. Le SEPL-25 existe aussi en version boulonnée."
+      }
+    },
+    "alloysLine": "Tous les procédés sont disponibles pour des ancrages en acier au carbone, SS304, SS309, SS310, SS316, SS321, 253MA, Alloy 800H et Inconel.",
+    "offerTitle": "Ce que nous fournissons",
+    "offer": [
+      {
+        "title": "Ancrages prêts à poser",
+        "text": "Ancrages à embase goujon ou à goujons pré-soudés, préparés pour le soudage sur site."
+      },
+      {
+        "title": "Matériel et consommables",
+        "text": "Matériel de soudage de goujons, bagues céramiques et pinces adaptés aux ancrages commandés."
+      },
+      {
+        "title": "Assistance technique",
+        "text": "Paramètres de soudage recommandés pour chaque nuance et type d'ancrage."
+      },
+      {
+        "title": "Descriptifs de mode opératoire",
+        "text": "Un DMOS (WPS) pour chaque combinaison d'alliage d'ancrage et de matériau de virole."
+      }
+    ],
+    "standardsTitle": "Normes applicables",
+    "colStandard": "Norme",
+    "colCovers": "Objet",
+    "standards": {
+      "d11": "Structural Welding Code – Steel, y compris la section sur le soudage de goujons.",
+      "d16": "Structural Welding Code – Stainless Steel, y compris le soudage de goujons en inox.",
+      "iso": "Soudage – Soudage à l'arc des goujons sur les matériaux métalliques.",
+      "c54": "Recommended Practices for Stud Welding."
+    },
+    "relatedTitle": "Services associés",
+    "relatedBsaText": "Rétablit la structure interne des ancrages écrouis avant soudage et mise en service.",
+    "relatedPpText": "Élimine les colorations thermiques et rétablit la résistance à la corrosion autour des soudures.",
+    "relatedPmiText": "Confirme l'alliage de chaque ancrage avant son soudage.",
+    "ctaTitle": "Préparez la pose de vos ancrages avec nous",
+    "ctaText": "Indiquez les types d'ancrages, les nuances, les quantités et le matériau de la virole, et précisez si vous avez besoin de matériel, de bagues ou d'un DMOS. Nous chiffrons l'ensemble.",
+    "ctaRfq": "Demander une assistance au soudage de goujons",
+    "ctaContact": "Parler de votre pose avec notre équipe technique",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Quelle est la différence entre l'arc tiré et la décharge de condensateur ?",
+        "a": "L'arc tiré utilise un arc plus long et une bague céramique pour souder de gros goujons, jusqu'à 25 mm environ, sur des viroles à partir de 2 mm environ, avec une pénétration profonde et une haute résistance. La décharge de condensateur soude des goujons plus petits, jusqu'à 10 mm environ, en quelques millisecondes et sans bague, et convient aux matériaux minces à partir de 0,7 mm environ."
+      },
+      {
+        "q": "Quel procédé pour quel type d'ancrage ?",
+        "a": "Les ancrages pour béton à embase goujon ou soudables au pistolet, comme les SEPL-06, SEPL-13 et SEPL-18, se soudent à l'arc tiré. Les goujons pour fibre céramique (SEPL-24), les goujons filetés à souder (SEPL-25) et les pointes d'isolation se soudent par décharge de condensateur. Certains ancrages, comme les SEPL-07 et SEPL-09, sont conçus pour le soudage manuel."
+      },
+      {
+        "q": "Les ancrages peuvent-ils être livrés prêts à souder sur site ?",
+        "a": "Oui. Les ancrages sont livrés avec embase goujon ou goujons pré-soudés, prêts pour la pose sur site, avec les bagues correspondantes et les paramètres de soudage recommandés."
+      },
+      {
+        "q": "Quelles tailles de bagues céramiques sont disponibles ?",
+        "a": "Les bagues sont adaptées au diamètre du goujon et à la surface soudée, par exemple tôle plane ou tube. Indiquez-nous le diamètre du goujon et la géométrie de la virole, et nous fournissons les bagues correspondantes avec les ancrages."
+      }
+    ]
   }
 }

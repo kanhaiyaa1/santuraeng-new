@@ -8,12 +8,14 @@
     "quality": "Jakość",
     "contact": "Kontakt",
     "privacy": "Polityka prywatności",
-    "disclaimer": "Zastrzeżenia prawne"
+    "disclaimer": "Zastrzeżenia prawne",
+    "services": "Usługi",
+    "refractoryAnchors": "Kotwy Ogniotrwałe"
   },
   "hero": {
     "eyebrow": "Santura Engineering Pvt. Ltd. · Mumbaj, Indie",
     "title": "Producent i Eksporter Kotew Ogniotrwałych",
-    "subtitle": "Kotwy ogniotrwałe, trzpienie do włókna i włókna ze stali nierdzewnej do wymurówek ceglanych, betonowych i z włókna ceramicznego — produkowane w Mumbaju i wysyłane do projektów międzynarodowych z portu Nhava Sheva.",
+    "subtitle": "Kotwy ogniotrwałe, trzpienie do włókna ceramicznego, systemy przeciwwag, materiały izolacyjne, drzwiczki wziernikowe i akcesoria — produkowane w Mumbaju i wysyłane do projektów międzynarodowych z portu Nhava Sheva.",
     "imageAlt": "Instalacje rafineryjne z kolumnami i piecami z wymurówką ogniotrwałą"
   },
   "cta": {
@@ -247,7 +249,8 @@
     "sending": "Wysyłanie…",
     "success": "Dziękujemy. Wkrótce się z Państwem skontaktujemy.",
     "error": "Coś poszło nie tak. Spróbuj ponownie.",
-    "productPrefix": "Produkt"
+    "productPrefix": "Produkt",
+    "servicePrefix": "Usługa"
   },
   "rfqPage": {
     "title": "Zapytaj o Wycenę Kotew Ogniotrwałych",
@@ -332,6 +335,11 @@
         "text": "Bharat Diwan, inżynier produkcji, zakłada firmę."
       },
       {
+        "year": "1981",
+        "title": "Systemy przeciwwag",
+        "text": "Rozpoczęcie produkcji systemów przeciwwag i innych wyrobów ślusarskich."
+      },
+      {
         "year": "2005",
         "title": "Kotwy ogniotrwałe",
         "text": "Rozpoczęcie produkcji kotew ogniotrwałych."
@@ -371,7 +379,9 @@
     "productsLink": "Zobacz wszystkie produkty",
     "exportTitle": "Eksport",
     "exportText": "Eksportujemy do ponad 25 krajów na Bliskim Wschodzie, w Europie i obu Amerykach, z wysyłką z Nhava Sheva i pełną dokumentacją.",
-    "exportLink": "Znajdź swój kraj"
+    "exportLink": "Znajdź swój kraj",
+    "galleryTitle": "Nasz zakład od środka",
+    "galleryIntro": "Surowce, gotowe kotwy, pakowanie i wysyłka w Santura Engineering."
   },
   "qualityPage": {
     "metaTitle": "Jakość, badania i certyfikacja | Santura Engineering",
@@ -436,7 +446,8 @@
       "DIN17440": "Stale nierdzewne: warunki techniczne dostawy blach, prętów i drutu"
     },
     "clientCertsTitle": "Certyfikaty od klientów",
-    "clientCertsText": "Tutaj opublikujemy certyfikaty i listy referencyjne od naszych klientów."
+    "clientCertsText": "Tutaj opublikujemy certyfikaty i listy referencyjne od naszych klientów.",
+    "photosTitle": "Badania w praktyce"
   },
   "privacyPage": {
     "metaTitle": "Polityka prywatności | Santura Engineering",
@@ -613,5 +624,695 @@
       "country": "Kraje",
       "page": "Strony"
     }
+  },
+  "photos": {
+    "cartonsBulk": "Kartony gotowe do pakowania",
+    "containerCartons": "Foliowane kartony eksportowe w kontenerze",
+    "xrfHandheld": "Ręczny analizator XRF sprawdza skład stopu",
+    "crateBulk": "Skrzynia eksportowa z wiórami drzewnymi",
+    "cartonsDispatch": "Elementy zapakowane w kartony do wysyłki",
+    "componentsPacked": "Elementy metalowe w kartonach z wyściółką",
+    "anchorsWavy": "Kotwy ogniotrwałe w produkcji",
+    "anchorsBent": "Gięte stalowe pręty kotwiące",
+    "tubesStock": "Zapas rur stalowych",
+    "wireCoilsStock": "Kręgi drutu stalowego w magazynie",
+    "dispatchTeam": "Nasz zespół wysyłki",
+    "cratesContainer": "Skrzynie drewniane załadowane na eksport",
+    "workerPacking": "Pakowanie elementów w magazynie",
+    "truckDispatch": "Załadunek ciężarówki do wysyłki",
+    "containerPallets": "Kartony na paletach w kontenerze",
+    "factoryExterior": "Zakład Santura Engineering, MIDC Tarapur",
+    "xrfTesting": "Weryfikacja stopu analizatorem XRF",
+    "workshopStock": "Elementy stalowe w warsztacie",
+    "rodCaliper": "Pomiar średnicy pręta suwmiarką",
+    "wireXrf": "Badanie stopu drutu",
+    "wireCoilsBulk": "Zapas kręgów drutu",
+    "wireCoilsInventory": "Stan kręgów drutu",
+    "wireCaliper": "Pomiar średnicy drutu suwmiarką",
+    "cratePacking": "Ochronne pakowanie elementów w skrzynie"
+  },
+  "productCategories": {
+    "items": {
+      "refractory-anchors": {
+        "name": "Kotwy Ogniotrwałe",
+        "description": "Kotwy SEPL do wymurówek ceglanych, betonowych, podwójnych i z włókna ceramicznego."
+      },
+      "observation-peep-doors": {
+        "name": "Drzwiczki Wziernikowe",
+        "description": "Drzwiczki i wzierniki do pieców, podgrzewaczy i kotłów."
+      },
+      "foundation-bolts": {
+        "name": "Śruby Fundamentowe",
+        "description": "Kotwy i śruby fundamentowe do konstrukcji i urządzeń."
+      },
+      "support-plates": {
+        "name": "Płyty Podporowe",
+        "description": "Płyty podstawowe i podporowe według rysunku."
+      },
+      "industrial-stanchions": {
+        "name": "Słupki Przemysłowe",
+        "description": "Słupki i stojaki do pomostów i balustrad."
+      },
+      "pipe-guides-sleeves": {
+        "name": "Prowadnice i Tuleje Rur",
+        "description": "Prowadnice i tuleje pierścieniowe do rur pieców."
+      },
+      "counter-weight-systems": {
+        "name": "Systemy Przeciwwag",
+        "description": "Zespoły przeciwwag do podpierania rur pieców."
+      },
+      "mineral-wool": {
+        "name": "Wełna Mineralna",
+        "description": "Izolacje z wełny skalnej i mineralnej."
+      },
+      "ceramic-gaskets": {
+        "name": "Uszczelki Ceramiczne",
+        "description": "Wysokotemperaturowe uszczelki z włókna ceramicznego."
+      },
+      "glass-fibre-sheets": {
+        "name": "Arkusze z Włókna Szklanego",
+        "description": "Arkusze, tkaniny z włókna szklanego i wełna szklana."
+      },
+      "calcium-silicate": {
+        "name": "Krzemian Wapnia",
+        "description": "Płyty i otuliny z krzemianu wapnia."
+      },
+      "insulation-pins": {
+        "name": "Szpilki Izolacyjne",
+        "description": "Szpilki do zgrzewania i klipsy do mocowania izolacji."
+      },
+      "polystyrene-insulation": {
+        "name": "Izolacja z Polistyrenu",
+        "description": "Izolacja z polistyrenu ekspandowanego i ekstrudowanego."
+      },
+      "polyisocyanurate-insulation": {
+        "name": "Izolacja z Poliizocyjanuratu",
+        "description": "Płyty i otuliny izolacyjne PIR."
+      },
+      "fasteners": {
+        "name": "Elementy Złączne",
+        "description": "Śruby, szpilki, nakrętki i nity ze stali nierdzewnej i stopowej."
+      },
+      "insulation-accessories": {
+        "name": "Akcesoria Izolacyjne",
+        "description": "Taśmy, klipsy, podkładki i inne mocowania izolacji."
+      },
+      "steel-plates": {
+        "name": "Blachy Stalowe",
+        "description": "Blachy ze stali nierdzewnej i stopowej."
+      },
+      "trading-division": {
+        "name": "Dział Handlowy",
+        "description": "Dostawy stali nierdzewnej i materiałów przemysłowych."
+      }
+    },
+    "allCategories": "Wszystkie kategorie produktów",
+    "viewAll": "Zobacz wszystkie produkty",
+    "featured": "Nasza główna oferta",
+    "featuredCta": "Zobacz serię SEPL",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu",
+    "browseTitle": "Wszystkie Kategorie Produktów",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "{name} od Santura Engineering, Mumbaj. Szczegółowe informacje wkrótce; zapytaj nas o dostępność i ceny.",
+    "comingSoon": "Wkrótce",
+    "comingSoonTitle": "Informacje o produkcie wkrótce",
+    "comingSoonText": "Przygotowujemy szczegółowe informacje o tej kategorii. W sprawie dostępności, wymiarów i cen wyślij zapytanie lub poproś o ofertę.",
+    "back": "Powrót do wszystkich produktów",
+    "otherCategories": "Inne kategorie produktów",
+    "overviewTitle": "Kategorie Produktów",
+    "overviewIntro": "Kotwy ogniotrwałe, materiały izolacyjne, elementy złączne, komponenty pieców i wyroby ślusarskie od Santura Engineering, Mumbaj.",
+    "overviewMetaTitle": "Kategorie Produktów | Santura Engineering",
+    "overviewMetaDescription": "Kategorie produktów Santura Engineering, Mumbaj: kotwy ogniotrwałe, izolacje, elementy złączne, komponenty pieców i wyroby ślusarskie."
+  },
+  "services": {
+    "items": {
+      "bright-solution-annealing": {
+        "name": "Przesycanie Jasne",
+        "description": "Przesycanie w atmosferze ochronnej, które pozostawia stal nierdzewną jasną i bez zgorzeliny."
+      },
+      "pickling-and-passivation": {
+        "name": "Trawienie i Pasywacja",
+        "description": "Obróbka chemiczna usuwająca zgorzelinę i odtwarzająca ochronną warstwę tlenków na stali nierdzewnej."
+      },
+      "pmi-testing": {
+        "name": "Badania PMI",
+        "description": "Pozytywna identyfikacja materiału w celu weryfikacji gatunku stopu elementów metalowych."
+      },
+      "stud-welding-solutions": {
+        "name": "Zgrzewanie Kołków / Pistoletem",
+        "description": "Wsparcie w zgrzewaniu kołków i pistoletem dla szybkiego i powtarzalnego montażu kotew ogniotrwałych."
+      }
+    },
+    "comingSoon": "Wkrótce",
+    "comingSoonTitle": "Informacje o usłudze wkrótce",
+    "comingSoonText": "Przygotowujemy szczegółowe informacje o tej usłudze. Skontaktuj się z nami, aby omówić swoje potrzeby.",
+    "cta": "Zapytaj o tę usługę",
+    "otherServices": "Inne usługi",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "{name} od Santura Engineering, Mumbaj. Szczegółowe informacje wkrótce; skontaktuj się z nami, aby omówić swoje potrzeby."
+  },
+  "bsaPage": {
+    "metaTitle": "Przesycanie jasne kotew ogniotrwałych | Santura Engineering",
+    "metaDescription": "Próżniowe przesycanie jasne kotew ogniotrwałych ze stali nierdzewnej i stopów niklu. Od 1980 r., eksport do 25+ krajów. ISO 9001:2015.",
+    "eyebrow": "Obróbka cieplna",
+    "h1": "Przesycanie jasne kotew ogniotrwałych",
+    "subheading": "Próżniowa obróbka cieplna, która przywraca równowagę atomową w zgniecionych na zimno kotwach ze stali nierdzewnej i stopów niklu oraz wydłuża ich żywotność.",
+    "ctaHero": "Zamów przesycanie jasne swoich kotew",
+    "whatTitle": "Czym jest przesycanie jasne?",
+    "what": [
+      "Przesycanie polega na nagrzaniu stali nierdzewnej lub stopu niklu powyżej temperatury przesycania, zwykle od 1040 °C do 1230 °C zależnie od stopu, wytrzymaniu do czasu rekrystalizacji struktury i szybkim schłodzeniu. Węgliki i inne wydzielenia rozpuszczają się, a metal odzyskuje pierwotną, w pełni austenityczną mikrostrukturę.",
+      "Przy przesycaniu jasnym nagrzewanie odbywa się w próżni lub w gazie obojętnym, np. argonie. Tlen nie dociera do powierzchni, więc kotwy pozostają czyste i jasne, bez zgorzeliny.",
+      "Zwykłe wyżarzanie „czarne” w powietrzu ciemnieje powierzchnię i tworzy zgorzelinę. Trzeba ją potem usunąć, a utracony metal zmniejsza nośny przekrój kotwy, co ma znaczenie przy cienkim drucie i taśmie."
+    ],
+    "whyTitle": "Dlaczego to ważne dla kotew ogniotrwałych",
+    "whyIntro": "Wykonanie kotwy obejmuje ciągnienie na zimno, gięcie, kształtowanie i spawanie. Każdy etap odkształca sieć krystaliczną i pozostawia naprężenia wewnętrzne w postaci dyslokacji. Bez obróbki naprężenia te czynią kotwę podatną na uszkodzenia na trzy sposoby.",
+    "risks": [
+      {
+        "title": "Korozja",
+        "text": "Metal zgnieciony na zimno i silnie naprężony jest bardziej podatny na korozję naprężeniową oraz na działanie siarki, chlorków i alkaliów obecnych w piecach i kotłach."
+      },
+      {
+        "title": "Kruchość od fazy sigma",
+        "text": "W temperaturach pracy około 600–900 °C zgnieciona stal nierdzewna szybciej tworzy fazę sigma. Ta twarda, krucha faza silnie obniża udarność, przez co kotwa może pęknąć po ostygnięciu instalacji."
+      },
+      {
+        "title": "Krótsza żywotność",
+        "text": "Naprężone kotwy tracą wytrzymałość i ulegają zniszczeniu szybciej przy cyklach nagrzewania i chłodzenia, często zanim sama wymurówka wymaga wymiany."
+      }
+    ],
+    "whyResult": [
+      "Przesycanie jasne usuwa te naprężenia i przywraca atomom odległości równowagowe, czyli stan, w którym stop najlepiej pracuje w wysokiej temperaturze. Rozpuszcza też obecne już węgliki i fazę sigma.",
+      "Efektem jest kotwa, która dłużej opiera się korozji i kruchości oraz zachowuje wytrzymałość mechaniczną w temperaturze pracy."
+    ],
+    "tableTitle": "Parametry obróbki według stopu",
+    "colAlloy": "Gatunek",
+    "colTemp": "Temperatura (°C)",
+    "colCooling": "Chłodzenie",
+    "colNotes": "Uwagi",
+    "cooling": {
+      "waterOrAir": "Chłodzenie w wodzie lub szybkie chłodzenie w powietrzu",
+      "water": "Chłodzenie w wodzie"
+    },
+    "notes": {
+      "ss304": "Najczęściej stosowany gatunek na kotwy",
+      "ss309": "Do wyższych temperatur pracy",
+      "ss310": "Najwyższa temperatura pracy wśród standardowych stali nierdzewnych",
+      "ss316": "Z molibdenem, lepsza odporność na korozję",
+      "ss321": "Stabilizowana tytanem",
+      "ma253": "Żaroodporna stal austenityczna o wysokiej odporności na utlenianie",
+      "a800": "Stop niklu, żelaza i chromu",
+      "in601": "Stop niklu i chromu",
+      "in625": "Złożony stop niklu, chromu i molibdenu, wymagający najwyższej temperatury do przywrócenia równowagi"
+    },
+    "tableNote": "Każdy stop wymaga własnej temperatury i czasu wygrzewania; błędne parametry mogą uszkodzić materiał zamiast go poprawić. Proces Santura jest zgodny z ASTM A240 i właściwą specyfikacją materiałową dla każdego gatunku.",
+    "industriesTitle": "Branże, które korzystają",
+    "industries": [
+      {
+        "name": "Cementownie",
+        "text": "Kotwy pieców narażone na działanie alkaliów i ciągłe zmiany temperatury."
+      },
+      {
+        "name": "Rafinerie",
+        "text": "Kotwy pieców i instalacji FCC w środowisku siarkowym."
+      },
+      {
+        "name": "Petrochemia",
+        "text": "Kotwy pieców krakingowych w atmosferze nawęglającej."
+      },
+      {
+        "name": "Spalarnie odpadów",
+        "text": "Kotwy komory dopalania narażone na korozję chlorkową."
+      },
+      {
+        "name": "Huty stali",
+        "text": "Kotwy kadzi i pieców grzewczych pod dużym obciążeniem mechanicznym."
+      }
+    ],
+    "verifyTitle": "Jak sprawdzić obróbkę",
+    "verify": [
+      {
+        "title": "Badania twardości i rozciągania",
+        "text": "Materiał przesycony jest bardziej miękki niż kształtowany. Twardość powinna wrócić do zakresu stanu wyżarzonego (dla SS304 nie więcej niż maksimum ASTM A240 wynoszące 92 HRB), a wytrzymałość na rozciąganie powinna być bliska wymaganego minimum, przy przywróconej ciągliwości."
+      },
+      {
+        "title": "Powierzchnia",
+        "text": "Powierzchnia powinna być jasna, czysta i wolna od zgorzeliny oraz nalotów."
+      },
+      {
+        "title": "Porównanie ze świadectwem hutniczym",
+        "text": "Porównanie wyników z oryginalnym świadectwem hutniczym potwierdza, że materiał odzyskał wymagane właściwości stanu wyżarzonego."
+      }
+    ],
+    "verifyQualityLink": "Zobacz, jak badamy i dokumentujemy każde zamówienie",
+    "productsTitle": "Produkty Santura, które można przesycać jasno",
+    "productGroups": [
+      {
+        "title": "Kotwy ze stali nierdzewnej",
+        "text": "Wszystkie typy kotew SEPL ze stali SS304, SS309, SS310, SS316 i SS321."
+      },
+      {
+        "title": "Kotwy ze stopów wysokotemperaturowych",
+        "text": "Wszystkie typy kotew SEPL ze stopów 253MA, Alloy 800H, Inconel 601 i Inconel 625."
+      },
+      {
+        "title": "Włókna stalowe",
+        "text": "Włókna nierdzewne ekstrahowane z ciekłego metalu i ciągnione na zimno."
+      }
+    ],
+    "productCategoriesLabel": "Według rodzaju wymurówki",
+    "productExamplesLabel": "Przykłady",
+    "ctaTitle": "Zamów przesycanie jasne",
+    "ctaText": "Prześlij rysunek lub kod kotwy, gatunek stopu i ilość, a przygotujemy ofertę na produkcję z przesycaniem jasnym.",
+    "ctaRfq": "Zamów przesycanie jasne",
+    "ctaContact": "Porozmawiaj z naszym zespołem technicznym o przesycaniu dla Twojego projektu",
+    "faqTitle": "Najczęstsze pytania",
+    "faq": [
+      {
+        "q": "Czym różni się przesycanie jasne od czarnego?",
+        "a": "Przesycanie jasne odbywa się w próżni lub gazie obojętnym, więc powierzchnia pozostaje czysta i bez tlenków. Przesycanie czarne odbywa się w powietrzu i tworzy zgorzelinę, którą trzeba usunąć i która zmniejsza nośny przekrój kotwy."
+      },
+      {
+        "q": "Które stopy można przesycać jasno?",
+        "a": "Wszystkie austenityczne stale nierdzewne stosowane na kotwy ogniotrwałe (304, 309, 310, 316 i 321), żaroodporny gatunek 253MA oraz stopy niklu 800H, 601 i 625."
+      },
+      {
+        "q": "Jak sprawdzić, czy przesycanie wykonano prawidłowo?",
+        "a": "Badaniami twardości i rozciągania. Materiał po obróbce powinien być bardziej miękki niż przed nią, z twardością w zakresie stanu wyżarzonego i wytrzymałością bliską minimum. Powierzchnia powinna być jasna i bez zgorzeliny."
+      },
+      {
+        "q": "Czy przesycanie jasne wydłuża żywotność kotew?",
+        "a": "Tak. Usuwając naprężenia po obróbce na zimno i przywracając równowagę atomową, kotwy po obróbce znacznie lepiej opierają się korozji i kruchości od fazy sigma niż kotwy nieobrobione."
+      }
+    ],
+    "bothOffered": "Oferujemy zarówno przesycanie jasne (próżniowe), jak i standardowe (w powietrzu)."
+  },
+  "ppPage": {
+    "metaTitle": "Trawienie i pasywacja kotew ogniotrwałych | ASTM A380 A967 | Santura Engineering",
+    "metaDescription": "Trawienie i pasywacja kotew ogniotrwałych ze stali nierdzewnej wg ASTM A380 i A967. Od 1980 r., eksport do 25+ krajów. ISO 9001:2015.",
+    "eyebrow": "Obróbka powierzchni",
+    "h1": "Trawienie i pasywacja kotew ogniotrwałych ze stali nierdzewnej",
+    "subheading": "Czyszczenie kwasem i obróbka powierzchni, które usuwają zgorzelinę spawalniczą, naloty i wbite zanieczyszczenia, przywracając pełną odporność na korozję przed montażem.",
+    "ctaHero": "Zamów trawienie i pasywację",
+    "whatTitle": "Czym są trawienie i pasywacja?",
+    "whatIntro": "To dwa odrębne procesy. Gdy wymagane są oba, najpierw wykonuje się trawienie, a potem pasywację.",
+    "pickling": {
+      "title": "Trawienie",
+      "points": [
+        "Agresywna obróbka kwasem, zwykle mieszaniną kwasu azotowego i fluorowodorowego.",
+        "Usuwa zgorzelinę spawalniczą, naloty, warstwy tlenków, wbite cząstki żelaza i inne zanieczyszczenia po spawaniu, cięciu, szlifowaniu i gięciu.",
+        "Rozpuszcza cienką warstwę samej powierzchni, odsłaniając czysty metal rodzimy.",
+        "Pozostawia jednolitą matową powierzchnię, bez przebarwień i zanieczyszczeń.",
+        "Wykonuje się je zanurzeniowo w wannie dla całych elementów, natryskowo dla dużych konstrukcji lub prac na miejscu albo pastą nakładaną pędzlem na spoiny i małe obszary."
+      ]
+    },
+    "passivation": {
+      "title": "Pasywacja",
+      "points": [
+        "Łagodniejsza obróbka kwasem azotowym lub cytrynowym.",
+        "Nie usuwa metalu – usuwa tylko wolne żelazo i inne zanieczyszczenia powierzchni.",
+        "Wspomaga tworzenie naturalnej pasywnej warstwy tlenku chromu, która zapewnia stali nierdzewnej odporność na korozję.",
+        "Warstwa pasywna tworzy się sama w powietrzu, ale na świeżo obrobionych powierzchniach proces ten może być zaburzony. Pasywacja zapewnia, że powstanie w pełni i równomiernie.",
+        "Po trawieniu pasywacja odbudowuje warstwę ochronną na czystej powierzchni. Można ją też zlecić samodzielnie dla elementów, które nie wymagają usuwania zgorzeliny."
+      ]
+    },
+    "whyTitle": "Dlaczego to ważne dla kotew ogniotrwałych",
+    "whyIntro": "Kotwy są cięte, szlifowane, gięte w kształt V i Y oraz spawane do płaszczy pieców i kanałów. Każdy etap uszkadza powierzchnię w inny sposób.",
+    "damage": [
+      {
+        "title": "Naloty przy spoinach",
+        "text": "Barwny tlenek wokół spoiny powstaje kosztem chromu z metalu tuż pod nim. W tej zubożonej w chrom strefie warstwa pasywna nie może się prawidłowo utworzyć."
+      },
+      {
+        "title": "Szlifowanie",
+        "text": "Tarcze szlifierskie i narzędzia ze stali węglowej zostawiają wbite cząstki żelaza, które rdzewieją i inicjują korozję na powierzchni nierdzewnej."
+      },
+      {
+        "title": "Cięcie",
+        "text": "Krawędzie cięte są chropowate i naprężone, i to tam korozja zaczyna się najpierw."
+      }
+    ],
+    "whyResult": [
+      "Bez obróbki te uszkodzone obszary jako pierwsze ulegają zniszczeniu w wysokiej temperaturze, a zubożone w chrom strefy przy spoinach są najbardziej narażone.",
+      "Trawienie całkowicie usuwa uszkodzoną warstwę, a pasywacja odbudowuje warstewkę tlenku chromu na czystej powierzchni. W efekcie kotwa ma równomierną odporność na korozję na całej powierzchni, również na spoinach i gięciach."
+    ],
+    "standardsTitle": "Obowiązujące normy",
+    "colStandard": "Norma",
+    "colCovers": "Zakres",
+    "standards": {
+      "a380": "Standard Practice for Cleaning, Descaling and Passivation of Stainless Steel Parts, Equipment and Systems. Obejmuje czyszczenie i trawienie.",
+      "a967": "Standard Specification for Chemical Passivation Treatments for Stainless Steel Parts. Obejmuje procesy pasywacji i ich weryfikację.",
+      "verify": "Próba siarczanem miedzi, potwierdzająca, że powierzchnia jest wolna od zanieczyszczeń żelazem i prawidłowo spasywowana."
+    },
+    "verifyLabel": "Weryfikacja",
+    "materialsTitle": "Materiały, które obrabiamy",
+    "materials": [
+      {
+        "title": "Austenityczne stale nierdzewne",
+        "text": "SS304, SS304L, SS309, SS310, SS310S, SS316, SS316L, SS321 i SS347."
+      },
+      {
+        "title": "Stopy wysokotemperaturowe",
+        "text": "253MA, Alloy 800H, Inconel 601 i Inconel 625. ASTM A967 obejmuje tylko stale nierdzewne, dlatego stopy niklu obrabia się według procedury producenta stopu."
+      },
+      {
+        "title": "Stale nierdzewne duplex",
+        "text": "Na zamówienie, z chemią dobraną do gatunku."
+      }
+    ],
+    "carbonSteelNote": "Elementów ze stali węglowej nie trawi się tą samą chemią: kwasy do trawienia stali nierdzewnej są bardzo korozyjne dla stali węglowej.",
+    "methodsTitle": "Metody obróbki",
+    "methods": [
+      {
+        "title": "Trawienie zanurzeniowe",
+        "text": "Cała partia kotew jest zanurzana w wannie z kwasem. Najlepsze dla dużych ilości małych i średnich elementów."
+      },
+      {
+        "title": "Trawienie natryskowe",
+        "text": "Kwas jest natryskiwany na większe konstrukcje. Nadaje się do prac na miejscu i elementów wielkogabarytowych."
+      },
+      {
+        "title": "Pasta trawiąca",
+        "text": "Pasta nakładana na wybrane spoiny lub miejsca. Do napraw na miejscu i miejscowej obróbki stref wpływu ciepła."
+      }
+    ],
+    "methodsNote": "Przed obróbką kwasem elementy muszą być odtłuszczone i oczyszczone z oleju, smaru i innych zanieczyszczeń organicznych. Trawienie i pasywacja nie usuwają oleju ani smaru.",
+    "whenTitle": "Kiedy zlecać trawienie i pasywację",
+    "when": [
+      "Po przyspawaniu kotew do płaszczy pieców lub kanałów.",
+      "Po obróbce cieplnej: trawienie usuwa zgorzelinę po przesycaniu w powietrzu, a elementy po przesycaniu jasnym można pasywować, jeśli tak wymagają specyfikacje.",
+      "Gdy na kotwach widać naloty lub przebarwienia przy spoinach.",
+      "Gdy kotwy miały kontakt z narzędziami ze stali węglowej podczas produkcji.",
+      "Do zastosowań krytycznych w rafineriach i zakładach petrochemicznych oraz do konstrukcji nierdzewnych dla przemysłu farmaceutycznego i spożywczego.",
+      "Gdy specyfikacja klienta końcowego wymaga zgodności z ASTM A380 lub A967."
+    ],
+    "relatedTitle": "Powiązanie z naszymi innymi usługami",
+    "relatedBsaTitle": "Po przesycaniu jasnym",
+    "relatedBsaText": "Przesycanie jasne przywraca wewnętrzną strukturę metalu, a pasywacja przywraca następnie ochronę jego powierzchni. Oba procesy się uzupełniają.",
+    "relatedPmiTitle": "Przed badaniem PMI",
+    "relatedPmiText": "Czysta, spasywowana powierzchnia daje bardziej wiarygodne odczyty PMI niż powierzchnia pokryta zgorzeliną lub zanieczyszczeniami.",
+    "productsTitle": "Produkty Santura, które obrabiamy",
+    "products": {
+      "anchors": "Wszystkie kotwy ogniotrwałe SEPL",
+      "fibres": "Włókna ze stali nierdzewnej",
+      "counterweights": "Systemy przeciwwag",
+      "fasteners": "Elementy złączne i szpilki",
+      "fabrication": "Każda konstrukcja ze stali nierdzewnej"
+    },
+    "productExamplesLabel": "Przykłady",
+    "qualityLink": "Zobacz, jak badamy i dokumentujemy każde zamówienie",
+    "ctaTitle": "Zamów trawienie i pasywację",
+    "ctaText": "Prześlij rysunek lub kod produktu, gatunek materiału, ilość i wymaganą normę, a przygotujemy ofertę na obróbkę.",
+    "ctaRfq": "Zamów trawienie i pasywację",
+    "ctaContact": "Omów swoje wymagania dotyczące obróbki powierzchni",
+    "faqTitle": "Najczęstsze pytania",
+    "faq": [
+      {
+        "q": "Czym różni się trawienie od pasywacji?",
+        "a": "Trawienie to agresywna obróbka kwasem, która usuwa zgorzelinę spawalniczą, naloty i cienką warstwę metalu. Pasywacja to łagodniejsza obróbka kwasem, która usuwa wolne żelazo i pomaga odtworzyć ochronną warstwę tlenku chromu. Zwykle wykonuje się je kolejno."
+      },
+      {
+        "q": "Dlaczego kotwy ogniotrwałe wymagają trawienia i pasywacji?",
+        "a": "Spawanie, gięcie i cięcie uszkadzają powierzchnię i zubożają w chrom strefę wpływu ciepła. Bez obróbki te miejsca jako pierwsze ulegają korozji w wysokiej temperaturze."
+      },
+      {
+        "q": "Jakie normy dotyczą trawienia i pasywacji?",
+        "a": "ASTM A380 obejmuje czyszczenie i trawienie. ASTM A967 obejmuje procesy pasywacji i ich weryfikację; próba siarczanem miedzi (Practice D) potwierdza prawidłową pasywację powierzchni."
+      },
+      {
+        "q": "Czy trawienie i pasywację można wykonać na miejscu?",
+        "a": "Tak. Trawienie natryskowe i pasta trawiąca pozwalają obrabiać na miejscu spawane zespoły i duże konstrukcje."
+      }
+    ]
+  },
+  "pmiPage": {
+    "metaTitle": "Badania PMI kotew ogniotrwałych | Weryfikacja stopów | Santura Engineering",
+    "metaDescription": "Badania PMI kotew ogniotrwałych analizatorami XRF i OES. Weryfikacja stopów od 1980 r., eksport do 25+ krajów. ISO 9001:2015.",
+    "eyebrow": "Usługa badań",
+    "h1": "Badania PMI kotew ogniotrwałych",
+    "subheading": "Pozytywna identyfikacja materiału, która potwierdza, że każda kotwa jest wykonana z wymaganego stopu – od przyjęcia surowca do wysyłki.",
+    "ctaHero": "Zamów badania PMI",
+    "pmiLinkFromQuality": "Więcej o naszych badaniach PMI",
+    "whatTitle": "Czym są badania PMI?",
+    "what": [
+      "Pozytywna identyfikacja materiału (PMI) to badanie nieniszczące, które mierzy skład pierwiastkowy metalu i potwierdza gatunek stopu. Wykonuje się je przenośnym analizatorem fluorescencji rentgenowskiej (XRF) lub spektrometrem emisji optycznej (OES).",
+      "Analizator odczytuje skład w kilka sekund i porównuje go z biblioteką gatunków. Nic nie jest cięte, wiercone ani uszkadzane, więc gotowe kotwy można zbadać i wysłać."
+    ],
+    "whyTitle": "Dlaczego to ważne dla kotew ogniotrwałych",
+    "why": [
+      {
+        "title": "Zły stop zawodzi w eksploatacji",
+        "text": "Kotwa z SS304 tam, gdzie wymagano SS310, może się utleniać, tracić wytrzymałość i ulec zniszczeniu w temperaturze pieca, pociągając za sobą wymurówkę."
+      },
+      {
+        "title": "Pomyłki się zdarzają",
+        "text": "Materiały mogą zostać pomylone w produkcji, magazynie lub wysyłce. Etykiety mogą być błędne, a świadectwa hutnicze przypisane do niewłaściwej partii."
+      },
+      {
+        "title": "Ostatnia kontrola przed wysyłką",
+        "text": "PMI to końcowe potwierdzenie, że każda kotwa opuszczająca zakład jest ze stopu zamówionego przez klienta."
+      },
+      {
+        "title": "Wymagane przez użytkowników końcowych",
+        "text": "Rafinerie i zakłady petrochemiczne często stosują programy weryfikacji materiałów oparte na API RP 578 i wymagają raportów PMI przed przyjęciem materiału na budowę."
+      }
+    ],
+    "methodsTitle": "Metody badań",
+    "methods": [
+      {
+        "title": "Przenośny XRF",
+        "text": "Ręczny analizator fluorescencji rentgenowskiej daje odczyt w kilka sekund w dowolnym miejscu zakładu. To standardowa metoda dla surowca, półproduktów i gotowych kotew."
+      },
+      {
+        "title": "OES (spektrometria emisji optycznej)",
+        "text": "Iskrowa OES mierzy także węgiel i lekkie pierwiastki. Jest wolniejsza, mniej mobilna i zostawia mały ślad, dlatego stosuje się ją, gdy trzeba potwierdzić zawartość węgla."
+      },
+      {
+        "title": "Analiza laboratoryjna",
+        "text": "Gdy specyfikacja wymaga pełnej analizy chemicznej, próbki bada się w zewnętrznych laboratoriach akredytowanych przez NABL."
+      }
+    ],
+    "limitationTitle": "Czego XRF nie widzi",
+    "limitationText": "XRF nie wykrywa węgla, więc nie odróżni SS316 od SS316L ani SS304 od SS304L. Gdy trzeba potwierdzić gatunki niskowęglowe, stosuje się OES lub analizę laboratoryjną.",
+    "standardsTitle": "Obowiązujące normy",
+    "colStandard": "Norma",
+    "colCovers": "Zakres",
+    "standards": {
+      "rp578": "Material Verification Program for New and Existing Alloy Piping Systems. Podstawa większości wymagań PMI w rafineriach i petrochemii.",
+      "e1476": "Standard Guide for Metals Identification, Grade Verification and Sorting.",
+      "specs": "Specyfikacje materiałowe dla blach, taśm, prętów i drutu. Wyniki PMI porównuje się z granicami składu chemicznego w tych specyfikacjach."
+    },
+    "alloysTitle": "Stopy, które weryfikujemy",
+    "colGrade": "Gatunek",
+    "colElements": "Sprawdzane pierwiastki kluczowe",
+    "colComposition": "Skład nominalny (%)",
+    "carbonSteel": "Stal węglowa",
+    "carbonSteelComposition": "Żelazo, bez istotnej zawartości chromu i niklu",
+    "alloysNote": "Zakresy nominalne według specyfikacji materiałowych ASTM. Lekkie pierwiastki, takie jak aluminium, i dodatki śladowe, takie jak cer, potwierdza się na podstawie świadectwa hutniczego. PMI sprawdza też, czy między kotwy stopowe nie trafił materiał płaszcza ze stali węglowej.",
+    "whenTitle": "Kiedy wykonujemy PMI",
+    "when": [
+      {
+        "title": "Przyjęcie surowca",
+        "text": "Blachy, drut i pręty są sprawdzane przy przyjęciu, zanim trafią do produkcji."
+      },
+      {
+        "title": "W trakcie produkcji",
+        "text": "Kontrole międzyoperacyjne wychwytują pomyłki między etapami."
+      },
+      {
+        "title": "Kontrola końcowa",
+        "text": "Gotowe kotwy są ponownie sprawdzane przed pakowaniem i wysyłką."
+      },
+      {
+        "title": "Na życzenie klienta",
+        "text": "Świadectwa PMI są dołączane do dostawy, a w badaniach może uczestniczyć Państwa inspektor."
+      }
+    ],
+    "docsTitle": "Dostarczane dokumenty",
+    "docs": [
+      "Raport PMI ze zmierzoną zawartością każdego pierwiastka",
+      "Potwierdzenie gatunku względem zamówionej specyfikacji",
+      "Identyfikowalność według numeru wytopu do świadectwa hutniczego",
+      "Oryginalne świadectwa odbioru EN 10204 3.1"
+    ],
+    "relatedTitle": "Powiązane usługi",
+    "relatedBsaText": "Obróbka cieplna przywracająca wewnętrzną strukturę kotew zgniecionych na zimno.",
+    "relatedPpText": "Czysta, spasywowana powierzchnia daje bardziej wiarygodne odczyty PMI.",
+    "qualityLink": "Zobacz, jak badamy i dokumentujemy każde zamówienie",
+    "ctaTitle": "Zamów badania PMI",
+    "ctaText": "Podaj produkty, gatunki stopów i ilości oraz informację, czy potrzebne są świadectwa PMI lub badania z udziałem inspektora – uwzględnimy to w ofercie.",
+    "ctaRfq": "Zamów badania PMI",
+    "ctaContact": "Omów swoje wymagania dotyczące weryfikacji materiałów",
+    "faqTitle": "Najczęstsze pytania",
+    "faq": [
+      {
+        "q": "Co wykrywa badanie PMI?",
+        "a": "Pierwiastki stopowe, które identyfikują gatunek, w tym chrom, nikiel, molibden, tytan, niob i mangan, a przy odpowiednich analizatorach także krzem. Analizator przypisuje zmierzony skład do gatunku stopu."
+      },
+      {
+        "q": "Dlaczego PMI jest potrzebne dla kotew ogniotrwałych?",
+        "a": "Kotwa ze złego stopu może ulec zniszczeniu w temperaturze pieca i spowodować upadek wymurówki. PMI potwierdza, że każda kotwa jest z wymaganego gatunku, a wiele rafinerii i zakładów petrochemicznych wymaga raportów PMI przed przyjęciem materiału."
+      },
+      {
+        "q": "Czy PMI odróżni SS316 od SS316L?",
+        "a": "Nie metodą XRF, która nie wykrywa węgla. Gdy trzeba potwierdzić zawartość węgla w gatunku niskowęglowym, stosuje się OES lub analizę laboratoryjną."
+      },
+      {
+        "q": "Jakie dokumenty dostarczacie?",
+        "a": "Raport PMI ze zmierzoną zawartością pierwiastków, potwierdzenie gatunku względem specyfikacji oraz identyfikowalność według numeru wytopu do oryginalnego świadectwa hutniczego."
+      }
+    ]
+  },
+  "swPage": {
+    "metaTitle": "Zgrzewanie kołków dla kotew ogniotrwałych | Santura Engineering",
+    "metaDescription": "Zgrzewanie kołków kotew ogniotrwałych: łuk ciągniony i wyładowanie kondensatorowe, pierścienie ceramiczne i procedury. Od 1980 r., eksport do 25+ krajów.",
+    "eyebrow": "Usługa montażowa",
+    "h1": "Rozwiązania do zgrzewania kołków dla kotew ogniotrwałych",
+    "subheading": "Kotwy, urządzenia do zgrzewania kołków, pierścienie ceramiczne i procedury spawania do szybkiego i niezawodnego montażu na płaszczach pieców i zbiorników.",
+    "ctaHero": "Zamów wsparcie w zgrzewaniu kołków",
+    "whatTitle": "Czym jest zgrzewanie kołków?",
+    "what": [
+      "Zgrzewanie kołków mocuje kotwę ogniotrwałą bezpośrednio do płaszcza pieca lub zbiornika łukiem elektrycznym, w ułamku sekundy i bez wiercenia otworów.",
+      "Pistolet dociska kotwę do płaszcza i zajarza łuk, który topi koniec kołka i niewielki obszar płaszcza. Następnie pistolet wciska kołek w jeziorko, które krzepnie w spoinę na całym przekroju.",
+      "Przy zgrzewaniu łukiem ciągnionym pierścień ceramiczny otacza spoinę, utrzymuje ciekły metal i chroni go przed powietrzem."
+    ],
+    "compareTitle": "Porównanie metod zgrzewania kołków",
+    "colFeature": "Cecha",
+    "processes": {
+      "da": "Łuk ciągniony",
+      "sc": "Krótki cykl",
+      "cd": "Wyładowanie kondensatorowe"
+    },
+    "compareRows": [
+      {
+        "label": "Średnica kołka",
+        "da": "3–25 mm",
+        "sc": "Kołki małe i średnie",
+        "cd": "Do 10 mm"
+      },
+      {
+        "label": "Grubość materiału podłoża",
+        "da": "Od około 2 mm",
+        "sc": "Cieńsza blacha niż przy łuku ciągnionym",
+        "cd": "Od około 0,7 mm"
+      },
+      {
+        "label": "Czas zgrzewania",
+        "da": "Od dziesiątych części sekundy do około 1 sekundy",
+        "sc": "Do 100 ms",
+        "cd": "Kilka milisekund"
+      },
+      {
+        "label": "Pierścień ceramiczny",
+        "da": "Tak",
+        "sc": "Nie; dla stali nierdzewnej można użyć gazu osłonowego",
+        "cd": "Nie"
+      },
+      {
+        "label": "Typowe zastosowanie",
+        "da": "Kotwy ogniotrwałe na płaszczach pieców; głęboki przetop, wysoka wytrzymałość",
+        "sc": "Lekkie kotwy i kołki, gdy liczy się szybkość",
+        "cd": "Szpilki izolacyjne i kołki do włókna ceramicznego; minimalny ślad po drugiej stronie"
+      }
+    ],
+    "compareNote": "Łuk ciągniony to główna metoda montażu kotew ogniotrwałych na płaszczach pieców. Prawidłowo wykonana spoina łukiem ciągnionym jest mocniejsza niż sam kołek: w próbie zginania lub rozciągania pęka kołek, a nie spoina.",
+    "whyTitle": "Dlaczego jakość spoiny ma znaczenie w pracy ogniotrwałej",
+    "why": [
+      {
+        "title": "Spoina utrzymuje wymurówkę",
+        "text": "Kotwy przyspawa się do płaszczy ze stali węglowej lub nierdzewnej przed montażem wymurówki. Każdy kilogram materiału ogniotrwałego wisi na tych spoinach."
+      },
+      {
+        "title": "Zła spoina zawodzi pierwsza",
+        "text": "Spoina z przyklejeniami lub porowatością pęka przy cyklach cieplnych na długo przed zużyciem kotwy czy materiału ogniotrwałego."
+      },
+      {
+        "title": "Właściwa metoda dla każdej kotwy",
+        "text": "Kotwy do betonów z podstawą kołkową wymagają łuku ciągnionego, kołki do włókna ceramicznego i szpilki izolacyjne – wyładowania kondensatorowego, a niektóre kotwy są przeznaczone do spawania ręcznego lub przykręcania."
+      },
+      {
+        "title": "Postoje nie dają czasu na poprawki",
+        "text": "Większość montaży odbywa się podczas postojów instalacji. Możliwość spawania na miejscu i właściwe parametry od pierwszej kotwy pozwalają dotrzymać harmonogramu."
+      }
+    ],
+    "productsTitle": "Które produkty Santura wymagają której metody",
+    "methods": {
+      "da": {
+        "title": "Zgrzewanie łukiem ciągnionym / pistoletem",
+        "text": "Kotwy z podstawą kołkową lub przystosowane do zgrzewania pistoletem. W SEPL-08 i SEPL-20 część wersji jest zgrzewana jak kołki, a część spawana ręcznie lub przykręcana; łączniki SEPL-16 dostarczane są z topnikiem aluminiowym do zgrzewania kołków."
+      },
+      "sc": {
+        "title": "Krótki cykl (Rapid Arc)",
+        "text": "Kołki szczelinowe do betonów lekkich."
+      },
+      "cd": {
+        "title": "Wyładowanie kondensatorowe",
+        "text": "Kołki do włókna ceramicznego, przyspawane szpilki gwintowane i szpilki izolacyjne."
+      },
+      "manual": {
+        "title": "Ręczne spawanie łukowe",
+        "text": "Kotwy przeznaczone do tradycyjnego spawania ręcznego."
+      },
+      "screw": {
+        "title": "Nakręcane i przykręcane",
+        "text": "Kotwy osadzone na nakrętkach lub nakręcane na wcześniej przyspawane kołki. SEPL-25 jest też dostępny w wersji przykręcanej."
+      }
+    },
+    "alloysLine": "Wszystkie metody są dostępne dla kotew ze stali węglowej, SS304, SS309, SS310, SS316, SS321, 253MA, Alloy 800H i Inconelu.",
+    "offerTitle": "Co dostarczamy",
+    "offer": [
+      {
+        "title": "Kotwy gotowe do montażu",
+        "text": "Kotwy z podstawą kołkową lub wcześniej przyspawanymi kołkami, przygotowane do spawania na miejscu."
+      },
+      {
+        "title": "Urządzenia i materiały eksploatacyjne",
+        "text": "Urządzenia do zgrzewania kołków, pierścienie ceramiczne i tuleje zaciskowe dopasowane do zamówionych kotew."
+      },
+      {
+        "title": "Wsparcie techniczne",
+        "text": "Zalecane parametry spawania dla każdego gatunku stopu i typu kotwy."
+      },
+      {
+        "title": "Instrukcje technologiczne spawania",
+        "text": "WPS dla każdego połączenia stopu kotwy i materiału płaszcza."
+      }
+    ],
+    "standardsTitle": "Obowiązujące normy",
+    "colStandard": "Norma",
+    "colCovers": "Zakres",
+    "standards": {
+      "d11": "Structural Welding Code – Steel, wraz z rozdziałem o zgrzewaniu kołków.",
+      "d16": "Structural Welding Code – Stainless Steel, wraz ze zgrzewaniem kołków ze stali nierdzewnej.",
+      "iso": "Spawanie – Zgrzewanie łukowe kołków z materiałów metalowych.",
+      "c54": "Recommended Practices for Stud Welding."
+    },
+    "relatedTitle": "Powiązane usługi",
+    "relatedBsaText": "Przywraca wewnętrzną strukturę kotew zgniecionych na zimno przed spawaniem i eksploatacją.",
+    "relatedPpText": "Usuwa naloty i przywraca odporność na korozję wokół spoin.",
+    "relatedPmiText": "Potwierdza stop każdej kotwy przed jej przyspawaniem.",
+    "ctaTitle": "Zaplanuj z nami montaż kotew",
+    "ctaText": "Podaj typy kotew, gatunki stopów, ilości i materiał płaszcza oraz informację, czy potrzebne są urządzenia, pierścienie lub WPS. Przygotujemy ofertę na cały pakiet.",
+    "ctaRfq": "Zamów wsparcie w zgrzewaniu kołków",
+    "ctaContact": "Omów montaż z naszym zespołem technicznym",
+    "faqTitle": "Najczęstsze pytania",
+    "faq": [
+      {
+        "q": "Czym różni się łuk ciągniony od wyładowania kondensatorowego?",
+        "a": "Łuk ciągniony wykorzystuje dłuższy łuk i pierścień ceramiczny do zgrzewania większych kołków, do około 25 mm, na płaszczach od około 2 mm, z głębokim przetopem i wysoką wytrzymałością. Wyładowanie kondensatorowe zgrzewa mniejsze kołki, do około 10 mm, w kilka milisekund bez pierścienia i nadaje się do cienkiego materiału od około 0,7 mm."
+      },
+      {
+        "q": "Którą metodę stosuje się do którego typu kotwy?",
+        "a": "Kotwy do betonów z podstawą kołkową lub do zgrzewania pistoletem, np. SEPL-06, SEPL-13 i SEPL-18, zgrzewa się łukiem ciągnionym. Kołki do włókna ceramicznego (SEPL-24), przyspawane szpilki gwintowane (SEPL-25) i szpilki izolacyjne – wyładowaniem kondensatorowym. Niektóre kotwy, np. SEPL-07 i SEPL-09, są przeznaczone do spawania ręcznego."
+      },
+      {
+        "q": "Czy kotwy mogą być dostarczone gotowe do spawania na miejscu?",
+        "a": "Tak. Kotwy dostarczamy z podstawą kołkową lub wcześniej przyspawanymi kołkami, gotowe do montażu na miejscu, wraz z dopasowanymi pierścieniami i zalecanymi parametrami spawania."
+      },
+      {
+        "q": "Jakie rozmiary pierścieni ceramicznych są dostępne?",
+        "a": "Pierścienie dobiera się do średnicy kołka i spawanej powierzchni, np. płaskiej blachy lub rury. Podaj średnicę kołka i geometrię płaszcza, a dostarczymy pasujące pierścienie razem z kotwami."
+      }
+    ]
   }
 }

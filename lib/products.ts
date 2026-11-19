@@ -1,7 +1,7 @@
 import type { LiningType, Product } from '@/content/products';
 import { PRODUCTS, productTitle } from '@/content/products';
 
-// Anchor ids used by the homepage category cards (/products#brick-lining etc.).
+// Anchor ids used by the homepage category cards (/refractory-anchors#brick-lining etc.).
 export const LINING_ANCHOR: Record<LiningType, string> = {
   brick: 'brick-lining',
   castable: 'castable-lining',

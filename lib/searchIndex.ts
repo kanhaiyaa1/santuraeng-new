@@ -92,6 +92,7 @@ export async function buildSearchIndex(locale: string): Promise<SearchEntry[]> {
   const PAGES = [
     ['/', 'home'],
     ['/products', 'products'],
+    ['/refractory-anchors', 'refractoryAnchors'],
     ['/rfq', 'rfq'],
     ['/about', 'about'],
     ['/quality', 'quality'],

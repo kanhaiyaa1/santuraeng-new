@@ -6,7 +6,6 @@ import Hero from '@/components/home/Hero';
 import ProductCategories from '@/components/home/ProductCategories';
 import TrustSignals from '@/components/home/TrustSignals';
 import Industries from '@/components/home/Industries';
-import CountrySelector from '@/components/home/CountrySelector';
 import RfqCta from '@/components/home/RfqCta';
 
 type Props = { params: { locale: string } };
@@ -25,7 +24,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
       url: alternates.canonical,
       locale,
       type: 'website',
-      images: [{ url: '/images/home/hero-process-plant.jpg', width: 1300, height: 448 }]
+      images: [{ url: '/images/og-factory.jpg', width: 1200, height: 630 }]
     }
   };
 }
@@ -44,7 +43,7 @@ export default async function HomePage({ params: { locale } }: Props) {
       logo: `${siteUrl}/images/logo.jpg`,
       foundingDate: String(SITE.foundingYear),
       email: SITE.generalEmail,
-      telephone: SITE.contacts[0].tel,
+      telephone: SITE.phone.tel,
       address: {
         '@type': 'PostalAddress',
         streetAddress: SITE.headOffice.street,
@@ -53,13 +52,7 @@ export default async function HomePage({ params: { locale } }: Props) {
         postalCode: SITE.headOffice.postalCode,
         addressCountry: SITE.headOffice.country
       },
-      contactPoint: SITE.contacts.map((c) => ({
-        '@type': 'ContactPoint',
-        name: c.name,
-        telephone: c.tel,
-        email: c.email,
-        contactType: 'sales'
-      }))
+      contactPoint: [{ '@type': 'ContactPoint', name: SITE.phone.contact, telephone: SITE.phone.tel, contactType: 'sales' }]
     },
     {
       '@context': 'https://schema.org',
@@ -75,7 +68,6 @@ export default async function HomePage({ params: { locale } }: Props) {
       <ProductCategories />
       <TrustSignals />
       <Industries />
-      <CountrySelector />
       <RfqCta />
     </>
   );

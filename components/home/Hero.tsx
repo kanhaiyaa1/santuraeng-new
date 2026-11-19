@@ -2,17 +2,19 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { btnPrimary, btnSecondary } from '@/lib/ui';
+import { PHOTOS } from '@/lib/photos';
 
 export default function Hero() {
   const t = useTranslations('hero');
   const cta = useTranslations('cta');
   const common = useTranslations('common');
+  const photos = useTranslations('photos');
 
   return (
     <section className="relative isolate overflow-hidden border-b border-line bg-white">
       <Image
-        src="/images/home/hero-process-plant.jpg"
-        alt={t('imageAlt')}
+        src={PHOTOS.factoryExterior.src}
+        alt={photos('factoryExterior')}
         fill
         priority
         sizes="100vw"

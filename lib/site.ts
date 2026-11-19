@@ -18,10 +18,12 @@ export const SITE = {
   // Kept on the site per client instruction (historic approval, counter-weight systems).
   linde: { name: 'Linde Engineering India Pvt Ltd', scope: 'Counter Weight System', supplierCode: '4002580', period: '2009–2012' },
   generalEmail: 'enquiries@santura-eng.com',
-  whatsappNumber: '919833222326',
+  // The one published phone / WhatsApp number (Shravan Diwan), per client instruction.
+  phone: { display: '+91 99309 68116', tel: '+919930968116', contact: 'Shravan Diwan' },
+  whatsappNumber: '919930968116',
   contacts: [
-    { name: 'Nikhil Diwan', phone: '+91 98332 22326', tel: '+919833222326', email: 'nikhil.diwan@santura-eng.com' },
-    { name: 'Shravan Diwan', phone: '+91 99309 68116', tel: '+919930968116', email: 'shravandiwan@santura-eng.com' }
+    { name: 'Nikhil Diwan', email: 'nikhil.diwan@santura-eng.com' },
+    { name: 'Shravan Diwan', email: 'shravandiwan@santura-eng.com' }
   ],
   headOffice: {
     lines: ['BPT Plot No. 200, 201, Quay Street', 'Darukhana, Reay Road', 'Mumbai 400010, Maharashtra, India'],

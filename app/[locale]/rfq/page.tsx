@@ -3,11 +3,13 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { buildAlternates } from '@/lib/seo';
 import { PRODUCTS, productTitle } from '@/content/products';
 import { getCountry } from '@/content/countries';
+import { getCategory } from '@/content/product-categories';
+import { getService } from '@/content/services';
 import RfqForm from '@/components/RfqForm';
 
 type Props = {
   params: { locale: string };
-  searchParams: { product?: string | string[]; country?: string | string[] };
+  searchParams: { product?: string | string[]; country?: string | string[]; category?: string | string[]; service?: string | string[] };
 };
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
@@ -26,7 +28,21 @@ export default async function RfqPage({ params: { locale }, searchParams }: Prop
 
   const requested = Array.isArray(searchParams.product) ? searchParams.product[0] : searchParams.product;
   const product = requested ? PRODUCTS.find((p) => p.code === requested || p.slug === requested) : undefined;
-  const defaultMessage = product ? `${form('productPrefix')}: ${productTitle(product)}\n` : '';
+  const categorySlug = Array.isArray(searchParams.category) ? searchParams.category[0] : searchParams.category;
+  const category = categorySlug ? getCategory(categorySlug) : undefined;
+  const categories = await getTranslations({ locale, namespace: 'productCategories' });
+  const serviceSlug = Array.isArray(searchParams.service) ? searchParams.service[0] : searchParams.service;
+  const service = serviceSlug ? getService(serviceSlug) : undefined;
+  const services = await getTranslations({ locale, namespace: 'services' });
+  const requestedName = product
+    ? productTitle(product)
+    : category
+      ? categories(`items.${category.slug}.name`)
+      : service
+        ? services(`items.${service.slug}.name`)
+        : '';
+  const prefix = !product && !category && service ? form('servicePrefix') : form('productPrefix');
+  const defaultMessage = requestedName ? `${prefix}: ${requestedName}\n` : '';
 
   const countrySlug = Array.isArray(searchParams.country) ? searchParams.country[0] : searchParams.country;
   const country = countrySlug ? getCountry(countrySlug) : undefined;

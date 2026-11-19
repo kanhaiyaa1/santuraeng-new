@@ -8,12 +8,14 @@
     "quality": "Qualità",
     "contact": "Contatti",
     "privacy": "Informativa sulla privacy",
-    "disclaimer": "Note legali"
+    "disclaimer": "Note legali",
+    "services": "Servizi",
+    "refractoryAnchors": "Ancoraggi Refrattari"
   },
   "hero": {
     "eyebrow": "Santura Engineering Pvt. Ltd. · Mumbai, India",
     "title": "Produttore ed Esportatore di Ancoraggi Refrattari",
-    "subtitle": "Ancoraggi refrattari, perni per fibra e fibre in acciaio inossidabile per rivestimenti in mattoni, calcestruzzo refrattario e fibra ceramica, prodotti a Mumbai e spediti a progetti internazionali dal porto di Nhava Sheva.",
+    "subtitle": "Ancoraggi refrattari, perni per fibra ceramica, sistemi di contrappeso, materiali isolanti, portine d'ispezione e accessori, prodotti a Mumbai e spediti a progetti internazionali dal porto di Nhava Sheva.",
     "imageAlt": "Unità di processo di una raffineria con colonne e forni rivestiti in refrattario"
   },
   "cta": {
@@ -247,7 +249,8 @@
     "sending": "Invio in corso…",
     "success": "Grazie. Vi ricontatteremo a breve.",
     "error": "Si è verificato un errore. Riprovate.",
-    "productPrefix": "Prodotto"
+    "productPrefix": "Prodotto",
+    "servicePrefix": "Servizio"
   },
   "rfqPage": {
     "title": "Richiedi un Preventivo per Ancoraggi Refrattari",
@@ -332,6 +335,11 @@
         "text": "Il Sig. Bharat Diwan, ingegnere di produzione, fonda l’azienda."
       },
       {
+        "year": "1981",
+        "title": "Sistemi di contrappeso",
+        "text": "Inizia la produzione di sistemi di contrappeso e altri componenti di carpenteria."
+      },
+      {
         "year": "2005",
         "title": "Ancoraggi refrattari",
         "text": "Inizia la produzione di ancoraggi refrattari."
@@ -371,7 +379,9 @@
     "productsLink": "Vedi tutti i prodotti",
     "exportTitle": "Esportazione",
     "exportText": "Esportiamo in oltre 25 paesi in Medio Oriente, Europa e nelle Americhe, con spedizione da Nhava Sheva e documentazione completa.",
-    "exportLink": "Trova il tuo paese"
+    "exportLink": "Trova il tuo paese",
+    "galleryTitle": "Dentro lo stabilimento",
+    "galleryIntro": "Materie prime, ancoraggi finiti, imballo e spedizione in Santura Engineering."
   },
   "qualityPage": {
     "metaTitle": "Qualità, prove e certificazione | Santura Engineering",
@@ -436,7 +446,8 @@
       "DIN17440": "Acciai inossidabili: condizioni tecniche di fornitura per lamiere, barre e fili"
     },
     "clientCertsTitle": "Certificati dei clienti",
-    "clientCertsText": "Qui saranno pubblicati i certificati e le lettere di referenza dei nostri clienti."
+    "clientCertsText": "Qui saranno pubblicati i certificati e le lettere di referenza dei nostri clienti.",
+    "photosTitle": "Prove sul campo"
   },
   "privacyPage": {
     "metaTitle": "Informativa sulla privacy | Santura Engineering",
@@ -613,5 +624,695 @@
       "country": "Paesi",
       "page": "Pagine"
     }
+  },
+  "photos": {
+    "cartonsBulk": "Cartoni pronti per l'imballo",
+    "containerCartons": "Cartoni da export avvolti in film in un container",
+    "xrfHandheld": "Analizzatore XRF portatile che verifica la lega",
+    "crateBulk": "Cassa da export con trucioli di legno",
+    "cartonsDispatch": "Componenti imballati in cartoni per la spedizione",
+    "componentsPacked": "Componenti metallici in cartoni foderati",
+    "anchorsWavy": "Ancoraggi refrattari in produzione",
+    "anchorsBent": "Barre di ancoraggio in acciaio piegate",
+    "tubesStock": "Scorta di tubi in acciaio",
+    "wireCoilsStock": "Rotoli di filo d'acciaio in magazzino",
+    "dispatchTeam": "Il nostro team spedizioni",
+    "cratesContainer": "Casse di legno caricate per l'export",
+    "workerPacking": "Imballo dei componenti in magazzino",
+    "truckDispatch": "Carico di un camion per la spedizione",
+    "containerPallets": "Cartoni pallettizzati in un container",
+    "factoryExterior": "Stabilimento Santura Engineering, MIDC Tarapur",
+    "xrfTesting": "Verifica della lega con analizzatore XRF",
+    "workshopStock": "Componenti in acciaio in officina",
+    "rodCaliper": "Controllo del diametro della barra con calibro",
+    "wireXrf": "Prova della lega del filo",
+    "wireCoilsBulk": "Scorta di rotoli di filo",
+    "wireCoilsInventory": "Inventario dei rotoli di filo",
+    "wireCaliper": "Misura del diametro del filo con calibro",
+    "cratePacking": "Imballo protettivo in cassa per componenti"
+  },
+  "productCategories": {
+    "items": {
+      "refractory-anchors": {
+        "name": "Ancoraggi Refrattari",
+        "description": "Ancoraggi SEPL per rivestimenti in mattoni, calcestruzzo, doppi e in fibra ceramica."
+      },
+      "observation-peep-doors": {
+        "name": "Portine d'Ispezione / Spia",
+        "description": "Portine d'ispezione e spie per forni, riscaldatori e caldaie."
+      },
+      "foundation-bolts": {
+        "name": "Tirafondi",
+        "description": "Tirafondi e bulloni di fondazione per strutture e impianti."
+      },
+      "support-plates": {
+        "name": "Piastre di Supporto",
+        "description": "Piastre di base e di supporto su disegno."
+      },
+      "industrial-stanchions": {
+        "name": "Montanti Industriali",
+        "description": "Montanti e paletti per piattaforme e parapetti."
+      },
+      "pipe-guides-sleeves": {
+        "name": "Guide e Manicotti per Tubi",
+        "description": "Guide e manicotti ad anello per tubi di forni."
+      },
+      "counter-weight-systems": {
+        "name": "Sistemi di Contrappeso",
+        "description": "Gruppi di contrappeso per il supporto dei tubi dei forni."
+      },
+      "mineral-wool": {
+        "name": "Lana Minerale",
+        "description": "Prodotti isolanti in lana di roccia e lana minerale."
+      },
+      "ceramic-gaskets": {
+        "name": "Guarnizioni Ceramiche",
+        "description": "Guarnizioni in fibra ceramica per alte temperature."
+      },
+      "glass-fibre-sheets": {
+        "name": "Fogli in Fibra di Vetro",
+        "description": "Fogli, tessuti in fibra di vetro e lana di vetro."
+      },
+      "calcium-silicate": {
+        "name": "Silicato di Calcio",
+        "description": "Pannelli e coppelle in silicato di calcio."
+      },
+      "insulation-pins": {
+        "name": "Perni per Isolamento",
+        "description": "Perni a saldare e clip per fissare l'isolamento."
+      },
+      "polystyrene-insulation": {
+        "name": "Isolamento in Polistirene",
+        "description": "Isolamento in polistirene espanso ed estruso."
+      },
+      "polyisocyanurate-insulation": {
+        "name": "Isolamento in Poliisocianurato",
+        "description": "Pannelli e coppelle isolanti in PIR."
+      },
+      "fasteners": {
+        "name": "Elementi di Fissaggio",
+        "description": "Bulloni, prigionieri, dadi e rivetti in acciaio inox e legato."
+      },
+      "insulation-accessories": {
+        "name": "Accessori per Isolamento",
+        "description": "Reggette, clip, rondelle e altri fissaggi per isolamento."
+      },
+      "steel-plates": {
+        "name": "Lamiere d'Acciaio",
+        "description": "Lamiere in acciaio inox e legato."
+      },
+      "trading-division": {
+        "name": "Divisione Commerciale",
+        "description": "Fornitura di acciaio inox e materiali industriali."
+      }
+    },
+    "allCategories": "Tutte le categorie di prodotti",
+    "viewAll": "Vedi tutti i prodotti",
+    "featured": "La nostra gamma principale",
+    "featuredCta": "Scopri la gamma SEPL",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu",
+    "browseTitle": "Tutte le Categorie di Prodotti",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "{name} di Santura Engineering, Mumbai. Informazioni dettagliate in arrivo; contattateci per disponibilità e prezzi.",
+    "comingSoon": "Prossimamente",
+    "comingSoonTitle": "Informazioni sul prodotto in arrivo",
+    "comingSoonText": "Stiamo preparando informazioni dettagliate su questa categoria. Per disponibilità, misure e prezzi, inviateci una richiesta o chiedete un preventivo.",
+    "back": "Torna a tutti i prodotti",
+    "otherCategories": "Altre categorie di prodotti",
+    "overviewTitle": "Categorie di Prodotti",
+    "overviewIntro": "Ancoraggi refrattari, materiali isolanti, elementi di fissaggio, componenti per forni e carpenteria di Santura Engineering, Mumbai.",
+    "overviewMetaTitle": "Categorie di Prodotti | Santura Engineering",
+    "overviewMetaDescription": "Categorie di prodotti Santura Engineering, Mumbai: ancoraggi refrattari, isolanti, elementi di fissaggio, componenti per forni e carpenteria."
+  },
+  "services": {
+    "items": {
+      "bright-solution-annealing": {
+        "name": "Solubilizzazione in Bianco",
+        "description": "Solubilizzazione in atmosfera protettiva che lascia l'acciaio inox brillante e privo di scaglie."
+      },
+      "pickling-and-passivation": {
+        "name": "Decapaggio e Passivazione",
+        "description": "Trattamento chimico che rimuove le scaglie e ripristina lo strato protettivo di ossido sull'acciaio inox."
+      },
+      "pmi-testing": {
+        "name": "Prove PMI",
+        "description": "Identificazione positiva dei materiali per verificare la lega dei componenti metallici."
+      },
+      "stud-welding-solutions": {
+        "name": "Saldatura di Prigionieri / a Pistola",
+        "description": "Supporto per la saldatura di prigionieri e a pistola per una posa rapida e uniforme degli ancoraggi refrattari."
+      }
+    },
+    "comingSoon": "Prossimamente",
+    "comingSoonTitle": "Informazioni sul servizio in arrivo",
+    "comingSoonText": "Stiamo preparando informazioni dettagliate su questo servizio. Contattateci per discutere le vostre esigenze.",
+    "cta": "Contattateci per questo servizio",
+    "otherServices": "Altri servizi",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "{name} di Santura Engineering, Mumbai. Informazioni dettagliate in arrivo; contattateci per discutere le vostre esigenze."
+  },
+  "bsaPage": {
+    "metaTitle": "Solubilizzazione in bianco per ancoraggi refrattari | Santura Engineering",
+    "metaDescription": "Solubilizzazione in bianco sottovuoto per ancoraggi refrattari in acciaio inox e leghe di nichel. Dal 1980, export in 25+ paesi. ISO 9001:2015.",
+    "eyebrow": "Trattamento termico",
+    "h1": "Solubilizzazione in bianco per ancoraggi refrattari",
+    "subheading": "Trattamento termico sottovuoto che ripristina l'equilibrio atomico negli ancoraggi in acciaio inox e leghe di nichel lavorati a freddo e ne prolunga la durata.",
+    "ctaHero": "Richiedi la solubilizzazione per i tuoi ancoraggi",
+    "whatTitle": "Che cos'è la solubilizzazione in bianco?",
+    "what": [
+      "La solubilizzazione riscalda l'acciaio inox o la lega di nichel oltre la temperatura di solubilizzazione, di norma tra 1040 °C e 1230 °C a seconda della lega, la mantiene il tempo necessario alla ricristallizzazione e poi la raffredda rapidamente. Carburi e altri precipitati si dissolvono e il metallo ritrova la microstruttura originale, completamente austenitica.",
+      "Nella solubilizzazione in bianco il riscaldamento avviene sottovuoto o in gas inerte come l'argon. L'ossigeno non raggiunge la superficie, quindi gli ancoraggi escono puliti e brillanti, senza scaglie di ossido.",
+      "La ricottura \"nera\" tradizionale in aria scurisce la superficie e forma scaglie di ossido. Le scaglie vanno poi rimosse e il metallo perso riduce la sezione utile dell'ancoraggio, cosa rilevante su fili e nastri sottili."
+    ],
+    "whyTitle": "Perché è importante per gli ancoraggi refrattari",
+    "whyIntro": "La produzione di un ancoraggio comporta trafilatura a freddo, piegatura, formatura e saldatura. Ogni fase deforma il reticolo cristallino e lascia tensioni interne sotto forma di dislocazioni. Senza trattamento, queste tensioni rendono l'ancoraggio vulnerabile in tre modi.",
+    "risks": [
+      {
+        "title": "Corrosione",
+        "text": "Il metallo incrudito e fortemente sollecitato è più sensibile alla tensocorrosione e all'attacco di zolfo, cloruri e alcali presenti in forni e caldaie."
+      },
+      {
+        "title": "Infragilimento da fase sigma",
+        "text": "A temperature di esercizio di circa 600–900 °C, l'inox incrudito forma più rapidamente la fase sigma. Questa fase dura e fragile riduce molto la tenacità, e l'ancoraggio può criccarsi quando l'impianto si raffredda."
+      },
+      {
+        "title": "Durata ridotta",
+        "text": "Gli ancoraggi sollecitati perdono resistenza e cedono prima sotto i cicli termici, spesso prima che il rivestimento refrattario stesso vada sostituito."
+      }
+    ],
+    "whyResult": [
+      "La solubilizzazione in bianco elimina queste tensioni e riporta gli atomi alla distanza di equilibrio, lo stato in cui la lega rende meglio ad alta temperatura. Dissolve inoltre eventuali carburi o fase sigma già presenti.",
+      "Il risultato è un ancoraggio che resiste più a lungo a corrosione e infragilimento e mantiene la resistenza meccanica alla temperatura di esercizio."
+    ],
+    "tableTitle": "Parametri di trattamento per lega",
+    "colAlloy": "Lega",
+    "colTemp": "Temperatura (°C)",
+    "colCooling": "Raffreddamento",
+    "colNotes": "Note",
+    "cooling": {
+      "waterOrAir": "Tempra in acqua o raffreddamento rapido in aria",
+      "water": "Tempra in acqua"
+    },
+    "notes": {
+      "ss304": "La lega più comune per gli ancoraggi",
+      "ss309": "Per temperature di esercizio più elevate",
+      "ss310": "La più alta temperatura di esercizio tra gli inox standard",
+      "ss316": "Al molibdeno, migliore resistenza alla corrosione",
+      "ss321": "Stabilizzato al titanio",
+      "ma253": "Inox austenitico refrattario ad alta resistenza all'ossidazione",
+      "a800": "Lega nichel-ferro-cromo",
+      "in601": "Lega nichel-cromo",
+      "in625": "Lega complessa nichel-cromo-molibdeno che richiede la temperatura più alta per ripristinare l'equilibrio"
+    },
+    "tableNote": "Ogni lega richiede temperatura e tempo di permanenza specifici; parametri errati possono danneggiare il materiale invece di migliorarlo. Il processo Santura segue la ASTM A240 e la specifica di materiale applicabile a ogni lega.",
+    "industriesTitle": "Settori che ne beneficiano",
+    "industries": [
+      {
+        "name": "Cementifici",
+        "text": "Ancoraggi del forno esposti all'attacco alcalino e a continui cicli termici."
+      },
+      {
+        "name": "Raffinerie",
+        "text": "Ancoraggi di forni e unità FCC in ambienti solforanti."
+      },
+      {
+        "name": "Petrolchimica",
+        "text": "Ancoraggi di forni di cracking in atmosfere carburanti."
+      },
+      {
+        "name": "Termovalorizzazione",
+        "text": "Ancoraggi della camera di post-combustione esposti alla corrosione da cloruri."
+      },
+      {
+        "name": "Acciaierie",
+        "text": "Ancoraggi di siviere e forni di riscaldo sotto elevato carico meccanico."
+      }
+    ],
+    "verifyTitle": "Come verificare il trattamento",
+    "verify": [
+      {
+        "title": "Prove di durezza e trazione",
+        "text": "Il materiale solubilizzato è più tenero di quello formato. La durezza deve tornare nel campo ricotto della lega (per SS304, entro il massimo ASTM A240 di 92 HRB) e la resistenza a trazione deve essere vicina al minimo specificato, con duttilità ripristinata."
+      },
+      {
+        "title": "Finitura superficiale",
+        "text": "La superficie deve essere brillante, pulita e priva di scaglie o colorazioni da calore."
+      },
+      {
+        "title": "Confronto con il certificato del materiale",
+        "text": "Il confronto dei risultati con il certificato originale conferma che il materiale ha ritrovato le proprietà di ricotto specificate."
+      }
+    ],
+    "verifyQualityLink": "Scopri come collaudiamo e documentiamo ogni ordine",
+    "productsTitle": "Prodotti Santura che possono essere solubilizzati in bianco",
+    "productGroups": [
+      {
+        "title": "Ancoraggi in acciaio inox",
+        "text": "Tutti i tipi di ancoraggio SEPL in SS304, SS309, SS310, SS316 e SS321."
+      },
+      {
+        "title": "Ancoraggi in leghe per alte temperature",
+        "text": "Tutti i tipi di ancoraggio SEPL in 253MA, Alloy 800H, Inconel 601 e Inconel 625."
+      },
+      {
+        "title": "Fibre di acciaio",
+        "text": "Fibre inox ottenute da estrazione da fuso e trafilate a freddo."
+      }
+    ],
+    "productCategoriesLabel": "Per tipo di rivestimento",
+    "productExamplesLabel": "Esempi",
+    "ctaTitle": "Richiedi la solubilizzazione in bianco",
+    "ctaText": "Inviateci disegno o codice dell'ancoraggio, lega e quantità: vi faremo un preventivo per la produzione con solubilizzazione in bianco.",
+    "ctaRfq": "Richiedi la solubilizzazione in bianco",
+    "ctaContact": "Parla con il nostro team tecnico della solubilizzazione per il tuo progetto",
+    "faqTitle": "Domande frequenti",
+    "faq": [
+      {
+        "q": "Qual è la differenza tra solubilizzazione in bianco e ricottura nera?",
+        "a": "La solubilizzazione in bianco avviene sottovuoto o in gas inerte, quindi la superficie resta pulita e priva di ossido. La ricottura nera avviene in aria e forma scaglie di ossido che vanno rimosse e riducono la sezione utile dell'ancoraggio."
+      },
+      {
+        "q": "Quali leghe possono essere solubilizzate in bianco?",
+        "a": "Tutti gli acciai inox austenitici usati per gli ancoraggi refrattari (304, 309, 310, 316 e 321), la lega refrattaria 253MA e le leghe di nichel 800H, 601 e 625."
+      },
+      {
+        "q": "Come si verifica che la solubilizzazione sia stata eseguita correttamente?",
+        "a": "Con prove di durezza e trazione. Il materiale trattato deve essere più tenero di quello non trattato, con durezza nel campo ricotto e resistenza vicina al minimo specificato. Anche la superficie deve risultare brillante e priva di scaglie."
+      },
+      {
+        "q": "La solubilizzazione in bianco aumenta la durata degli ancoraggi?",
+        "a": "Sì. Eliminando le tensioni dovute alla lavorazione a freddo e ripristinando l'equilibrio atomico, gli ancoraggi trattati resistono a corrosione e infragilimento da fase sigma molto meglio di quelli non trattati."
+      }
+    ],
+    "bothOffered": "Offriamo sia la solubilizzazione in bianco (sottovuoto) sia quella standard (in aria)."
+  },
+  "ppPage": {
+    "metaTitle": "Decapaggio e passivazione di ancoraggi refrattari | ASTM A380 A967 | Santura Engineering",
+    "metaDescription": "Decapaggio e passivazione di ancoraggi refrattari in acciaio inox secondo ASTM A380 e A967. Dal 1980, export in 25+ paesi. ISO 9001:2015.",
+    "eyebrow": "Trattamento superficiale",
+    "h1": "Decapaggio e passivazione di ancoraggi refrattari in acciaio inox",
+    "subheading": "Pulizia acida e trattamento superficiale che rimuovono scaglie di saldatura, colorazioni termiche e contaminanti incorporati, ripristinando la piena resistenza alla corrosione prima della posa.",
+    "ctaHero": "Richiedi decapaggio e passivazione",
+    "whatTitle": "Che cosa sono decapaggio e passivazione?",
+    "whatIntro": "Sono due processi distinti. Quando sono richiesti entrambi, prima si decapa e poi si passiva.",
+    "pickling": {
+      "title": "Decapaggio",
+      "points": [
+        "Un trattamento acido aggressivo, di solito con una miscela di acido nitrico e fluoridrico.",
+        "Rimuove scaglie di saldatura, colorazioni termiche, strati di ossido, particelle di ferro incorporate e altre contaminazioni lasciate da saldatura, taglio, molatura e piegatura.",
+        "Asporta un sottile strato della superficie stessa, mettendo a nudo metallo base pulito.",
+        "Lascia una finitura opaca uniforme, priva di colorazioni e contaminanti.",
+        "Si esegue a immersione in vasca per pezzi completi, a spruzzo per grandi assiemi o lavori in cantiere, oppure con gel a pennello su saldature e piccole aree."
+      ]
+    },
+    "passivation": {
+      "title": "Passivazione",
+      "points": [
+        "Un trattamento acido più blando, con acido nitrico o citrico.",
+        "Non asporta metallo: rimuove solo il ferro libero e gli altri contaminanti superficiali.",
+        "Favorisce la formazione dello strato passivo naturale di ossido di cromo che rende l'acciaio inox resistente alla corrosione.",
+        "Lo strato passivo si forma da sé all'aria, ma sulle superfici appena lavorate il processo può essere ostacolato. La passivazione fa sì che si formi in modo completo e uniforme.",
+        "Dopo il decapaggio, la passivazione ricostruisce lo strato protettivo sulla superficie pulita. Può essere richiesta anche da sola per pezzi che non necessitano di disossidazione."
+      ]
+    },
+    "whyTitle": "Perché è importante per gli ancoraggi refrattari",
+    "whyIntro": "Gli ancoraggi vengono tagliati, molati, piegati a V e a Y e saldati ai mantelli dei forni e ai condotti. Ogni fase danneggia la superficie in modo diverso.",
+    "damage": [
+      {
+        "title": "Colorazione termica di saldatura",
+        "text": "L'ossido colorato attorno a una saldatura si forma sottraendo cromo al metallo appena sottostante. In questa zona impoverita di cromo lo strato passivo non riesce a formarsi correttamente."
+      },
+      {
+        "title": "Molatura",
+        "text": "Mole e utensili in acciaio al carbonio lasciano particelle di ferro incorporate che arrugginiscono e innescano la corrosione su una superficie inox."
+      },
+      {
+        "title": "Taglio",
+        "text": "I bordi tagliati sono ruvidi e tensionati, e la corrosione comincia proprio lì."
+      }
+    ],
+    "whyResult": [
+      "Senza trattamento, queste zone danneggiate sono i primi punti di cedimento in esercizio ad alta temperatura, e le zone impoverite di cromo attorno alle saldature sono le più vulnerabili.",
+      "Il decapaggio rimuove completamente lo strato danneggiato e la passivazione ricostruisce il film di ossido di cromo sulla superficie pulita. Il risultato è un ancoraggio con resistenza alla corrosione uniforme su tutta la superficie, saldature e piegature comprese."
+    ],
+    "standardsTitle": "Norme applicabili",
+    "colStandard": "Norma",
+    "colCovers": "Oggetto",
+    "standards": {
+      "a380": "Standard Practice for Cleaning, Descaling and Passivation of Stainless Steel Parts, Equipment and Systems. Riguarda pulizia e decapaggio.",
+      "a967": "Standard Specification for Chemical Passivation Treatments for Stainless Steel Parts. Riguarda i trattamenti di passivazione e la loro verifica.",
+      "verify": "Prova al solfato di rame, che conferma che la superficie è priva di contaminazione da ferro e correttamente passivata."
+    },
+    "verifyLabel": "Verifica",
+    "materialsTitle": "Materiali trattati",
+    "materials": [
+      {
+        "title": "Acciai inox austenitici",
+        "text": "SS304, SS304L, SS309, SS310, SS310S, SS316, SS316L, SS321 e SS347."
+      },
+      {
+        "title": "Leghe per alte temperature",
+        "text": "253MA, Alloy 800H, Inconel 601 e Inconel 625. La ASTM A967 riguarda solo gli acciai inox, quindi le leghe di nichel sono trattate secondo la procedura del produttore della lega."
+      },
+      {
+        "title": "Acciai inox duplex",
+        "text": "Su richiesta, con chimica adatta alla lega."
+      }
+    ],
+    "carbonSteelNote": "I pezzi in acciaio al carbonio non vengono decapati con la stessa chimica: gli acidi di decapaggio per l'inox sono molto corrosivi per l'acciaio al carbonio.",
+    "methodsTitle": "Metodi di trattamento",
+    "methods": [
+      {
+        "title": "Immersione in vasca",
+        "text": "L'intero lotto di ancoraggi viene immerso nella vasca acida. Ideale per grandi volumi di pezzi piccoli e medi."
+      },
+      {
+        "title": "Decapaggio a spruzzo",
+        "text": "L'acido viene spruzzato su assiemi di grandi dimensioni. Adatto a lavori in cantiere e a componenti fuori misura."
+      },
+      {
+        "title": "Gel a pennello",
+        "text": "Pasta applicata su singole saldature o punti specifici. Per riparazioni in cantiere e il trattamento mirato delle zone termicamente alterate."
+      }
+    ],
+    "methodsNote": "I pezzi devono essere sgrassati e puliti da olio, grasso e altre contaminazioni organiche prima del trattamento acido. Decapaggio e passivazione non rimuovono olio né grasso.",
+    "whenTitle": "Quando richiedere decapaggio e passivazione",
+    "when": [
+      "Dopo la saldatura degli ancoraggi ai mantelli dei forni o ai condotti.",
+      "Dopo un trattamento termico: il decapaggio rimuove le scaglie della solubilizzazione in aria, e i pezzi solubilizzati in bianco possono essere passivati se richiesto.",
+      "Quando gli ancoraggi presentano colorazioni termiche o alterazioni visibili sulle saldature.",
+      "Quando gli ancoraggi sono venuti a contatto con utensili in acciaio al carbonio durante la lavorazione.",
+      "Per servizi critici in raffinerie e impianti petrolchimici, e per carpenterie inox destinate all'industria farmaceutica e alimentare.",
+      "Quando la specifica del cliente finale richiede la conformità alla ASTM A380 o A967."
+    ],
+    "relatedTitle": "Il legame con gli altri nostri servizi",
+    "relatedBsaTitle": "Dopo la solubilizzazione in bianco",
+    "relatedBsaText": "La solubilizzazione in bianco ripristina la struttura interna del metallo; la passivazione ripristina poi la protezione della superficie. I due trattamenti si completano.",
+    "relatedPmiTitle": "Prima delle prove PMI",
+    "relatedPmiText": "Una superficie pulita e passivata fornisce letture PMI più affidabili di una coperta di scaglie o contaminanti.",
+    "productsTitle": "Prodotti Santura che trattiamo",
+    "products": {
+      "anchors": "Tutti gli ancoraggi refrattari SEPL",
+      "fibres": "Fibre in acciaio inox",
+      "counterweights": "Sistemi di contrappeso",
+      "fasteners": "Elementi di fissaggio e prigionieri",
+      "fabrication": "Qualsiasi carpenteria in acciaio inox"
+    },
+    "productExamplesLabel": "Esempi",
+    "qualityLink": "Scopri come collaudiamo e documentiamo ogni ordine",
+    "ctaTitle": "Richiedi decapaggio e passivazione",
+    "ctaText": "Inviateci disegno o codice prodotto, materiale, quantità e norma da rispettare: vi faremo un preventivo per il trattamento.",
+    "ctaRfq": "Richiedi decapaggio e passivazione",
+    "ctaContact": "Parla delle tue esigenze di trattamento superficiale",
+    "faqTitle": "Domande frequenti",
+    "faq": [
+      {
+        "q": "Qual è la differenza tra decapaggio e passivazione?",
+        "a": "Il decapaggio è un trattamento acido aggressivo che rimuove scaglie di saldatura, colorazioni termiche e un sottile strato di metallo. La passivazione è un trattamento acido più blando che rimuove il ferro libero e aiuta lo strato protettivo di ossido di cromo a riformarsi. Di solito si eseguono in sequenza."
+      },
+      {
+        "q": "Perché gli ancoraggi refrattari vanno decapati e passivati?",
+        "a": "Saldatura, piegatura e taglio danneggiano la superficie e impoveriscono di cromo la zona termicamente alterata. Senza trattamento, queste aree sono le prime a corrodersi in esercizio ad alta temperatura."
+      },
+      {
+        "q": "Quali norme si applicano a decapaggio e passivazione?",
+        "a": "La ASTM A380 riguarda pulizia e decapaggio. La ASTM A967 riguarda i trattamenti di passivazione e la loro verifica; la prova al solfato di rame (Practice D) conferma che la superficie è correttamente passivata."
+      },
+      {
+        "q": "Decapaggio e passivazione si possono fare in cantiere?",
+        "a": "Sì. Il decapaggio a spruzzo e il gel a pennello consentono di trattare in cantiere assiemi saldati e grandi carpenterie."
+      }
+    ]
+  },
+  "pmiPage": {
+    "metaTitle": "Prove PMI su ancoraggi refrattari | Verifica delle leghe | Santura Engineering",
+    "metaDescription": "Prove PMI su ancoraggi refrattari con analizzatori XRF e OES. Verifica delle leghe dal 1980, export in 25+ paesi. ISO 9001:2015.",
+    "eyebrow": "Servizio di prova",
+    "h1": "Prove PMI su ancoraggi refrattari",
+    "subheading": "Identificazione positiva dei materiali che conferma che ogni ancoraggio è realizzato nella lega specificata, dal ricevimento della materia prima fino alla spedizione.",
+    "ctaHero": "Richiedi prove PMI",
+    "pmiLinkFromQuality": "Scopri il nostro servizio di prove PMI",
+    "whatTitle": "Che cos'è la prova PMI?",
+    "what": [
+      "L'identificazione positiva dei materiali (PMI) è una prova non distruttiva che misura la composizione elementare di un metallo e ne conferma la lega. Si esegue con un analizzatore portatile a fluorescenza X (XRF) o con uno spettrometro a emissione ottica (OES).",
+      "L'analizzatore legge la composizione in pochi secondi e la confronta con una libreria di leghe. Nulla viene tagliato, forato o danneggiato, quindi gli ancoraggi finiti possono essere provati e spediti."
+    ],
+    "whyTitle": "Perché è importante per gli ancoraggi refrattari",
+    "why": [
+      {
+        "title": "La lega sbagliata cede in esercizio",
+        "text": "Un ancoraggio in SS304 dove era specificato SS310 può ossidarsi, perdere resistenza e cedere alla temperatura del forno, trascinando con sé il rivestimento refrattario."
+      },
+      {
+        "title": "Gli scambi capitano",
+        "text": "I materiali possono essere scambiati in produzione, in magazzino o in spedizione. Le etichette possono essere errate e i certificati abbinati al lotto sbagliato."
+      },
+      {
+        "title": "L'ultimo controllo prima della spedizione",
+        "text": "La PMI è la verifica finale che ogni ancoraggio che lascia lo stabilimento sia della lega ordinata."
+      },
+      {
+        "title": "Richiesta dagli utenti finali",
+        "text": "Raffinerie e impianti petrolchimici applicano spesso programmi di verifica dei materiali basati sulla API RP 578 e chiedono rapporti PMI prima di accettare i materiali in cantiere."
+      }
+    ],
+    "methodsTitle": "Metodi di prova",
+    "methods": [
+      {
+        "title": "XRF portatile",
+        "text": "La fluorescenza X portatile fornisce una lettura in pochi secondi, ovunque nello stabilimento. È il metodo standard per materia prima, semilavorati e ancoraggi finiti."
+      },
+      {
+        "title": "OES (spettroscopia a emissione ottica)",
+        "text": "La OES a scintilla misura anche il carbonio e gli elementi leggeri. È più lenta, meno portatile e lascia un piccolo segno, quindi si usa quando occorre confermare il tenore di carbonio."
+      },
+      {
+        "title": "Analisi di laboratorio",
+        "text": "Quando una specifica richiede un'analisi chimica completa, i campioni vengono analizzati in laboratori terzi accreditati NABL."
+      }
+    ],
+    "limitationTitle": "Cosa l'XRF non vede",
+    "limitationText": "L'XRF non rileva il carbonio, quindi non distingue l'SS316 dall'SS316L né l'SS304 dall'SS304L. Quando occorre confermare una lega a basso carbonio si usa la OES o l'analisi di laboratorio.",
+    "standardsTitle": "Norme applicabili",
+    "colStandard": "Norma",
+    "colCovers": "Oggetto",
+    "standards": {
+      "rp578": "Material Verification Program for New and Existing Alloy Piping Systems. Base della maggior parte dei requisiti PMI in raffineria e petrolchimica.",
+      "e1476": "Standard Guide for Metals Identification, Grade Verification and Sorting.",
+      "specs": "Specifiche di materiale per lamiere, nastri, barre e fili. I risultati PMI vengono confrontati con i limiti chimici di queste specifiche."
+    },
+    "alloysTitle": "Leghe che verifichiamo",
+    "colGrade": "Lega",
+    "colElements": "Elementi chiave verificati",
+    "colComposition": "Composizione nominale (%)",
+    "carbonSteel": "Acciaio al carbonio",
+    "carbonSteelComposition": "Ferro, senza tenori significativi di cromo o nichel",
+    "alloysNote": "Campi nominali dalle specifiche di materiale ASTM. Gli elementi leggeri come l'alluminio e le aggiunte in tracce come il cerio sono confermati dal certificato del materiale. La PMI verifica anche che nessun materiale di mantello in acciaio al carbonio sia finito tra gli ancoraggi in lega.",
+    "whenTitle": "Quando eseguiamo la PMI",
+    "when": [
+      {
+        "title": "Ricevimento della materia prima",
+        "text": "Lamiere, fili e barre vengono verificati al ricevimento, prima di entrare in produzione."
+      },
+      {
+        "title": "Durante la produzione",
+        "text": "I controlli in corso di lavorazione intercettano eventuali scambi tra le fasi."
+      },
+      {
+        "title": "Collaudo finale",
+        "text": "Gli ancoraggi finiti vengono verificati di nuovo prima dell'imballo e della spedizione."
+      },
+      {
+        "title": "Su richiesta del cliente",
+        "text": "I certificati PMI accompagnano la fornitura e le prove possono essere presenziate dal vostro ispettore."
+      }
+    ],
+    "docsTitle": "Documentazione fornita",
+    "docs": [
+      "Rapporto PMI con la percentuale misurata di ogni elemento",
+      "Conferma della lega rispetto alla specifica ordinata",
+      "Tracciabilità tramite numero di colata fino al certificato del materiale",
+      "Certificati di collaudo originali EN 10204 3.1"
+    ],
+    "relatedTitle": "Servizi correlati",
+    "relatedBsaText": "Trattamento termico che ripristina la struttura interna degli ancoraggi incruditi.",
+    "relatedPpText": "Una superficie pulita e passivata fornisce letture PMI più affidabili.",
+    "qualityLink": "Scopri come collaudiamo e documentiamo ogni ordine",
+    "ctaTitle": "Richiedi prove PMI",
+    "ctaText": "Indicateci prodotti, leghe e quantità, e se servono certificati PMI o prove presenziate: lo includeremo nel preventivo.",
+    "ctaRfq": "Richiedi prove PMI",
+    "ctaContact": "Parla delle tue esigenze di verifica dei materiali",
+    "faqTitle": "Domande frequenti",
+    "faq": [
+      {
+        "q": "Che cosa rileva la prova PMI?",
+        "a": "Gli elementi di lega che identificano una qualità, tra cui cromo, nichel, molibdeno, titanio, niobio e manganese, e il silicio con analizzatori adatti. L'analizzatore abbina la composizione misurata a una lega."
+      },
+      {
+        "q": "Perché serve la PMI sugli ancoraggi refrattari?",
+        "a": "Un ancoraggio nella lega sbagliata può cedere alla temperatura del forno e far crollare il rivestimento. La PMI conferma che ogni ancoraggio è della qualità specificata, e molte raffinerie e impianti petrolchimici richiedono rapporti PMI prima di accettare il materiale."
+      },
+      {
+        "q": "La PMI distingue l'SS316 dall'SS316L?",
+        "a": "Non con l'XRF, che non rileva il carbonio. Quando occorre confermare il tenore di carbonio di una lega a basso carbonio si usano la OES o l'analisi di laboratorio."
+      },
+      {
+        "q": "Quale documentazione fornite?",
+        "a": "Un rapporto PMI con le percentuali misurate degli elementi, la conferma della lega rispetto alla specifica e la tracciabilità tramite numero di colata fino al certificato originale del materiale."
+      }
+    ]
+  },
+  "swPage": {
+    "metaTitle": "Saldatura di prigionieri per ancoraggi refrattari | Santura Engineering",
+    "metaDescription": "Saldatura di prigionieri per ancoraggi refrattari: arco sollevato e scarica di condensatori, ghiere e procedure. Dal 1980, export in 25+ paesi.",
+    "eyebrow": "Servizio di posa",
+    "h1": "Soluzioni di saldatura di prigionieri per ancoraggi refrattari",
+    "subheading": "Ancoraggi, saldatrici per prigionieri, ghiere ceramiche e procedure di saldatura per una posa rapida e affidabile su mantelli di forni e recipienti.",
+    "ctaHero": "Richiedi supporto per la saldatura di prigionieri",
+    "whatTitle": "Che cos'è la saldatura di prigionieri?",
+    "what": [
+      "La saldatura di prigionieri fissa un ancoraggio refrattario direttamente al mantello di un forno o di un recipiente con un arco elettrico, in una frazione di secondo e senza forature.",
+      "La pistola tiene l'ancoraggio contro il mantello e innesca un arco che fonde l'estremità del prigioniero e una piccola zona del mantello. Poi spinge il prigioniero nel bagno fuso, che solidifica in una saldatura a piena sezione.",
+      "Nella saldatura ad arco sollevato una ghiera ceramica circonda la saldatura, contiene il metallo fuso e lo protegge dall'aria."
+    ],
+    "compareTitle": "Processi di saldatura di prigionieri a confronto",
+    "colFeature": "Caratteristica",
+    "processes": {
+      "da": "Arco sollevato",
+      "sc": "Ciclo breve",
+      "cd": "Scarica di condensatori"
+    },
+    "compareRows": [
+      {
+        "label": "Diametro del prigioniero",
+        "da": "3–25 mm",
+        "sc": "Prigionieri piccoli e medi",
+        "cd": "Fino a 10 mm"
+      },
+      {
+        "label": "Spessore del materiale base",
+        "da": "Da circa 2 mm",
+        "sc": "Lamiera più sottile che con l'arco sollevato",
+        "cd": "Da circa 0,7 mm"
+      },
+      {
+        "label": "Tempo di saldatura",
+        "da": "Da decimi di secondo a circa 1 secondo",
+        "sc": "Fino a 100 ms",
+        "cd": "Pochi millisecondi"
+      },
+      {
+        "label": "Ghiera ceramica",
+        "da": "Sì",
+        "sc": "No; per l'inox si può usare gas di protezione",
+        "cd": "No"
+      },
+      {
+        "label": "Impiego tipico",
+        "da": "Ancoraggi refrattari su mantelli di forni; penetrazione profonda, alta resistenza",
+        "sc": "Ancoraggi e prigionieri leggeri quando conta la velocità",
+        "cd": "Perni per isolamento e prigionieri per fibra ceramica; segno minimo sul retro"
+      }
+    ],
+    "compareNote": "L'arco sollevato è il metodo principale per gli ancoraggi refrattari sui mantelli dei forni. Una saldatura ad arco sollevato eseguita correttamente è più resistente del prigioniero stesso: nella prova di piegatura o trazione cede il prigioniero, non la saldatura.",
+    "whyTitle": "Perché la qualità della saldatura conta nel servizio refrattario",
+    "why": [
+      {
+        "title": "La saldatura regge il rivestimento",
+        "text": "Gli ancoraggi vengono saldati a mantelli in acciaio al carbonio o inox prima della posa del rivestimento. Ogni chilo di refrattario è appeso a quelle saldature."
+      },
+      {
+        "title": "Una saldatura difettosa cede per prima",
+        "text": "Una saldatura con mancanza di fusione o porosità si cricca con i cicli termici molto prima che si usurino l'ancoraggio o il refrattario."
+      },
+      {
+        "title": "Il processo giusto per ogni ancoraggio",
+        "text": "Gli ancoraggi per calcestruzzo con base a prigioniero richiedono l'arco sollevato, i prigionieri per fibra ceramica e i perni per isolamento la scarica di condensatori, e alcuni ancoraggi sono pensati per la saldatura manuale o il fissaggio a vite."
+      },
+      {
+        "title": "Durante le fermate non c’è tempo per rifare",
+        "text": "La maggior parte delle pose avviene durante le fermate d'impianto. La capacità di saldare in cantiere e i parametri corretti fin dal primo ancoraggio rispettano i tempi."
+      }
+    ],
+    "productsTitle": "Quali prodotti Santura usano quale metodo",
+    "methods": {
+      "da": {
+        "title": "Saldatura ad arco sollevato / a pistola",
+        "text": "Ancoraggi con base a prigioniero o saldabili a pistola. Per SEPL-08 e SEPL-20 alcune versioni si saldano come prigioniero, altre a mano o si imbullonano; i connettori SEPL-16 sono forniti con flussante di alluminio per la saldatura di prigionieri."
+      },
+      "sc": {
+        "title": "Ciclo breve (Rapid Arc)",
+        "text": "Prigionieri fessurati per calcestruzzi leggeri."
+      },
+      "cd": {
+        "title": "Scarica di condensatori",
+        "text": "Prigionieri per fibra ceramica, perni filettati a saldare e perni per isolamento."
+      },
+      "manual": {
+        "title": "Saldatura manuale ad arco",
+        "text": "Ancoraggi progettati per la saldatura manuale tradizionale."
+      },
+      "screw": {
+        "title": "Avvitati e imbullonati",
+        "text": "Ancoraggi montati su dadi o avvitati su prigionieri presaldati. SEPL-25 è disponibile anche in versione imbullonata."
+      }
+    },
+    "alloysLine": "Tutti i metodi sono disponibili per ancoraggi in acciaio al carbonio, SS304, SS309, SS310, SS316, SS321, 253MA, Alloy 800H e Inconel.",
+    "offerTitle": "Cosa forniamo",
+    "offer": [
+      {
+        "title": "Ancoraggi pronti per la posa",
+        "text": "Ancoraggi con base a prigioniero o prigionieri presaldati, preparati per la saldatura in cantiere."
+      },
+      {
+        "title": "Attrezzature e consumabili",
+        "text": "Saldatrici per prigionieri, ghiere ceramiche e pinze adatte agli ancoraggi ordinati."
+      },
+      {
+        "title": "Supporto tecnico",
+        "text": "Parametri di saldatura consigliati per ogni lega e tipo di ancoraggio."
+      },
+      {
+        "title": "Specifiche di procedura di saldatura",
+        "text": "Una WPS per ogni combinazione di lega dell'ancoraggio e materiale del mantello."
+      }
+    ],
+    "standardsTitle": "Norme applicabili",
+    "colStandard": "Norma",
+    "colCovers": "Oggetto",
+    "standards": {
+      "d11": "Structural Welding Code – Steel, compresa la sezione sulla saldatura di prigionieri.",
+      "d16": "Structural Welding Code – Stainless Steel, compresa la saldatura di prigionieri in inox.",
+      "iso": "Saldatura – Saldatura ad arco dei prigionieri di materiali metallici.",
+      "c54": "Recommended Practices for Stud Welding."
+    },
+    "relatedTitle": "Servizi correlati",
+    "relatedBsaText": "Ripristina la struttura interna degli ancoraggi incruditi prima della saldatura e dell’esercizio.",
+    "relatedPpText": "Rimuove le colorazioni termiche e ripristina la resistenza alla corrosione attorno alle saldature.",
+    "relatedPmiText": "Conferma la lega di ogni ancoraggio prima della saldatura.",
+    "ctaTitle": "Pianifica con noi la posa degli ancoraggi",
+    "ctaText": "Indicateci tipi di ancoraggio, leghe, quantità e materiale del mantello, e se servono attrezzature, ghiere o una WPS. Vi faremo un preventivo per l'intera fornitura.",
+    "ctaRfq": "Richiedi supporto per la saldatura di prigionieri",
+    "ctaContact": "Parla della posa con il nostro team tecnico",
+    "faqTitle": "Domande frequenti",
+    "faq": [
+      {
+        "q": "Qual è la differenza tra arco sollevato e scarica di condensatori?",
+        "a": "L'arco sollevato usa un arco più lungo e una ghiera ceramica per saldare prigionieri grandi, fino a circa 25 mm, su mantelli da circa 2 mm, con penetrazione profonda e alta resistenza. La scarica di condensatori salda prigionieri più piccoli, fino a circa 10 mm, in pochi millisecondi e senza ghiera, ed è adatta a materiali sottili da circa 0,7 mm."
+      },
+      {
+        "q": "Quale metodo si usa per ogni tipo di ancoraggio?",
+        "a": "Gli ancoraggi per calcestruzzo con base a prigioniero o saldabili a pistola, come SEPL-06, SEPL-13 e SEPL-18, si saldano ad arco sollevato. I prigionieri per fibra ceramica (SEPL-24), i perni filettati a saldare (SEPL-25) e i perni per isolamento a scarica di condensatori. Alcuni ancoraggi, come SEPL-07 e SEPL-09, sono pensati per la saldatura manuale."
+      },
+      {
+        "q": "Gli ancoraggi possono essere forniti pronti per la saldatura in cantiere?",
+        "a": "Sì. Gli ancoraggi sono forniti con base a prigioniero o prigionieri presaldati pronti per la posa in cantiere, insieme alle ghiere corrispondenti e ai parametri di saldatura consigliati."
+      },
+      {
+        "q": "Quali misure di ghiere ceramiche sono disponibili?",
+        "a": "Le ghiere sono scelte in base al diametro del prigioniero e alla superficie da saldare, ad esempio lamiera piana o tubo. Indicateci il diametro del prigioniero e la geometria del mantello e forniremo le ghiere corrispondenti insieme agli ancoraggi."
+      }
+    ]
   }
 }

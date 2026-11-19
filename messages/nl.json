@@ -8,12 +8,14 @@
     "quality": "Kwaliteit",
     "contact": "Contact",
     "privacy": "Privacybeleid",
-    "disclaimer": "Disclaimer"
+    "disclaimer": "Disclaimer",
+    "services": "Diensten",
+    "refractoryAnchors": "Vuurvaste Ankers"
   },
   "hero": {
     "eyebrow": "Santura Engineering Pvt. Ltd. · Mumbai, India",
     "title": "Fabrikant en Exporteur van Vuurvaste Ankers",
-    "subtitle": "Vuurvaste ankers, vezelbouten en roestvrijstalen vezels voor steen-, beton- en keramische vezelbekledingen, gemaakt in Mumbai en via de haven Nhava Sheva naar internationale projecten verscheept.",
+    "subtitle": "Vuurvaste ankers, keramische vezelbouten, contragewichtsystemen, isolatiematerialen, kijkdeuren en toebehoren, gemaakt in Mumbai en via de haven Nhava Sheva naar internationale projecten verscheept.",
     "imageAlt": "Raffinaderij-installaties met vuurvast beklede kolommen en ovens"
   },
   "cta": {
@@ -247,7 +249,8 @@
     "sending": "Bezig met versturen…",
     "success": "Bedankt. Wij nemen spoedig contact met u op.",
     "error": "Er is iets misgegaan. Probeer het opnieuw.",
-    "productPrefix": "Product"
+    "productPrefix": "Product",
+    "servicePrefix": "Dienst"
   },
   "rfqPage": {
     "title": "Vraag een Offerte aan voor Vuurvaste Ankers",
@@ -332,6 +335,11 @@
         "text": "De heer Bharat Diwan, productie-ingenieur, richt het bedrijf op."
       },
       {
+        "year": "1981",
+        "title": "Contragewichtsystemen",
+        "text": "Start van de productie van contragewichtsystemen en andere constructiedelen."
+      },
+      {
         "year": "2005",
         "title": "Vuurvaste ankers",
         "text": "Start van de productie van vuurvaste ankers."
@@ -371,7 +379,9 @@
     "productsLink": "Alle producten bekijken",
     "exportTitle": "Export",
     "exportText": "Wij exporteren naar meer dan 25 landen in het Midden-Oosten, Europa en Amerika, met verscheping vanuit Nhava Sheva en volledige documentatie.",
-    "exportLink": "Vind uw land"
+    "exportLink": "Vind uw land",
+    "galleryTitle": "Een kijkje in onze fabriek",
+    "galleryIntro": "Grondstoffen, afgewerkte ankers, verpakking en verzending bij Santura Engineering."
   },
   "qualityPage": {
     "metaTitle": "Kwaliteit, beproeving & certificering | Santura Engineering",
@@ -436,7 +446,8 @@
       "DIN17440": "Roestvast staal: technische leveringsvoorwaarden voor plaat, staaf en draad"
     },
     "clientCertsTitle": "Klantcertificaten",
-    "clientCertsText": "Certificaten en referentiebrieven van onze klanten worden hier gepubliceerd."
+    "clientCertsText": "Certificaten en referentiebrieven van onze klanten worden hier gepubliceerd.",
+    "photosTitle": "Keuring in de praktijk"
   },
   "privacyPage": {
     "metaTitle": "Privacybeleid | Santura Engineering",
@@ -613,5 +624,695 @@
       "country": "Landen",
       "page": "Pagina’s"
     }
+  },
+  "photos": {
+    "cartonsBulk": "Dozen klaar voor verpakking",
+    "containerCartons": "Gekrompen exportdozen in een container",
+    "xrfHandheld": "Handheld XRF-analyser controleert de legering",
+    "crateBulk": "Exportkist met houtwol",
+    "cartonsDispatch": "Onderdelen in dozen verpakt voor verzending",
+    "componentsPacked": "Metalen onderdelen in beklede dozen",
+    "anchorsWavy": "Vuurvaste ankers in productie",
+    "anchorsBent": "Gebogen stalen ankerstaven",
+    "tubesStock": "Voorraad stalen buizen",
+    "wireCoilsStock": "Stalen draadrollen in opslag",
+    "dispatchTeam": "Ons verzendteam",
+    "cratesContainer": "Houten kisten geladen voor export",
+    "workerPacking": "Onderdelen verpakken in het magazijn",
+    "truckDispatch": "Een vrachtwagen laden voor verzending",
+    "containerPallets": "Gepalletiseerde dozen in een zeecontainer",
+    "factoryExterior": "Fabriek van Santura Engineering, MIDC Tarapur",
+    "xrfTesting": "Legeringscontrole met XRF-analyser",
+    "workshopStock": "Stalen onderdelen in de werkplaats",
+    "rodCaliper": "Staafdiameter meten met een schuifmaat",
+    "wireXrf": "Draadlegering testen",
+    "wireCoilsBulk": "Voorraad draadrollen",
+    "wireCoilsInventory": "Inventaris draadrollen",
+    "wireCaliper": "Draaddiameter meten met een schuifmaat",
+    "cratePacking": "Beschermende kistverpakking voor onderdelen"
+  },
+  "productCategories": {
+    "items": {
+      "refractory-anchors": {
+        "name": "Vuurvaste Ankers",
+        "description": "SEPL-ankers voor steen-, beton-, dubbele en keramische vezelbekledingen."
+      },
+      "observation-peep-doors": {
+        "name": "Kijkdeuren / Kijkgaten",
+        "description": "Kijkdeuren en kijkgaten voor ovens, fornuizen en ketels."
+      },
+      "foundation-bolts": {
+        "name": "Funderingsbouten",
+        "description": "Anker- en funderingsbouten voor constructies en installaties."
+      },
+      "support-plates": {
+        "name": "Steunplaten",
+        "description": "Voet- en steunplaten op tekening."
+      },
+      "industrial-stanchions": {
+        "name": "Industriële Staanders",
+        "description": "Staanders en palen voor bordessen en leuningen."
+      },
+      "pipe-guides-sleeves": {
+        "name": "Pijpgeleiders & Hulzen",
+        "description": "Pijpgeleiders en ringhulzen voor fornuisbuizen."
+      },
+      "counter-weight-systems": {
+        "name": "Contragewichtsystemen",
+        "description": "Contragewichtsamenstellen voor de ondersteuning van fornuisbuizen."
+      },
+      "mineral-wool": {
+        "name": "Minerale Wol",
+        "description": "Isolatieproducten van steenwol en minerale wol."
+      },
+      "ceramic-gaskets": {
+        "name": "Keramische Pakkingen",
+        "description": "Pakkingen van keramische vezel voor hoge temperaturen."
+      },
+      "glass-fibre-sheets": {
+        "name": "Glasvezelplaten",
+        "description": "Glasvezelplaten, -doek en glaswol."
+      },
+      "calcium-silicate": {
+        "name": "Calciumsilicaat",
+        "description": "Calciumsilicaatplaten en leidingschalen."
+      },
+      "insulation-pins": {
+        "name": "Isolatiepennen",
+        "description": "Laspennen en clips voor het bevestigen van isolatie."
+      },
+      "polystyrene-insulation": {
+        "name": "Polystyreenisolatie",
+        "description": "Isolatie van geëxpandeerd en geëxtrudeerd polystyreen."
+      },
+      "polyisocyanurate-insulation": {
+        "name": "Polyisocyanuraatisolatie",
+        "description": "PIR-isolatieplaten en leidingschalen."
+      },
+      "fasteners": {
+        "name": "Bevestigingsmiddelen",
+        "description": "Bouten, tapeinden, moeren en klinknagels van rvs en gelegeerd staal."
+      },
+      "insulation-accessories": {
+        "name": "Isolatietoebehoren",
+        "description": "Banden, clips, ringen en andere isolatiebevestigingen."
+      },
+      "steel-plates": {
+        "name": "Staalplaten",
+        "description": "Platen van roestvast en gelegeerd staal."
+      },
+      "trading-division": {
+        "name": "Handelsafdeling",
+        "description": "Levering van roestvast staal en industriële materialen."
+      }
+    },
+    "allCategories": "Alle productcategorieën",
+    "viewAll": "Alle producten bekijken",
+    "featured": "Ons kernassortiment",
+    "featuredCta": "Bekijk het SEPL-assortiment",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten",
+    "browseTitle": "Alle Productcategorieën",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "{name} van Santura Engineering, Mumbai. Uitgebreide productinformatie volgt binnenkort; vraag ons naar beschikbaarheid en prijzen.",
+    "comingSoon": "Binnenkort",
+    "comingSoonTitle": "Productinformatie volgt binnenkort",
+    "comingSoonText": "We bereiden uitgebreide informatie over deze categorie voor. Voor beschikbaarheid, maten en prijzen stuurt u ons een aanvraag of vraagt u een offerte aan.",
+    "back": "Terug naar alle producten",
+    "otherCategories": "Andere productcategorieën",
+    "overviewTitle": "Productcategorieën",
+    "overviewIntro": "Vuurvaste ankers, isolatiematerialen, bevestigingsmiddelen, fornuisonderdelen en constructiedelen van Santura Engineering, Mumbai.",
+    "overviewMetaTitle": "Productcategorieën | Santura Engineering",
+    "overviewMetaDescription": "Productcategorieën van Santura Engineering, Mumbai: vuurvaste ankers, isolatie, bevestigingsmiddelen, fornuisonderdelen en constructiedelen."
+  },
+  "services": {
+    "items": {
+      "bright-solution-annealing": {
+        "name": "Blank Oplosgloeien",
+        "description": "Oplosgloeien onder beschermgas, waardoor roestvast staal blank en zonder walshuid blijft."
+      },
+      "pickling-and-passivation": {
+        "name": "Beitsen & Passiveren",
+        "description": "Chemische behandeling die walshuid verwijdert en de beschermende oxidelaag op roestvast staal herstelt."
+      },
+      "pmi-testing": {
+        "name": "PMI-keuring",
+        "description": "Positieve materiaalidentificatie om de legering van metalen onderdelen te controleren."
+      },
+      "stud-welding-solutions": {
+        "name": "Stiftlassen / Pistoollassen",
+        "description": "Ondersteuning bij stift- en pistoollassen voor snelle, gelijkmatige montage van vuurvaste ankers."
+      }
+    },
+    "comingSoon": "Binnenkort",
+    "comingSoonTitle": "Informatie over deze dienst volgt binnenkort",
+    "comingSoonText": "We bereiden uitgebreide informatie over deze dienst voor. Neem contact op om uw wensen te bespreken.",
+    "cta": "Neem contact op over deze dienst",
+    "otherServices": "Andere diensten",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "{name} van Santura Engineering, Mumbai. Uitgebreide informatie volgt binnenkort; neem contact op om uw wensen te bespreken."
+  },
+  "bsaPage": {
+    "metaTitle": "Blank oplosgloeien van vuurvaste ankers | Santura Engineering",
+    "metaDescription": "Blank oplosgloeien onder vacuüm voor vuurvaste ankers van rvs en nikkellegeringen. Sinds 1980, export naar 25+ landen. ISO 9001:2015.",
+    "eyebrow": "Warmtebehandeling",
+    "h1": "Blank oplosgloeien van vuurvaste ankers",
+    "subheading": "Warmtebehandeling onder vacuüm die het atomaire evenwicht in koudvervormde ankers van roestvast staal en nikkellegeringen herstelt en hun levensduur verlengt.",
+    "ctaHero": "Vraag blank oplosgloeien aan voor uw ankers",
+    "whatTitle": "Wat is blank oplosgloeien?",
+    "what": [
+      "Bij oplosgloeien wordt roestvast staal of een nikkellegering verhit tot boven de oplosgloeitemperatuur, afhankelijk van de legering meestal tussen 1040 °C en 1230 °C, zo lang vastgehouden dat de structuur rekristalliseert en daarna snel afgekoeld. Carbiden en andere precipitaten lossen op en het metaal krijgt zijn oorspronkelijke, volledig austenitische microstructuur terug.",
+      "Bij blank oplosgloeien gebeurt het verhitten onder vacuüm of in een inert gas zoals argon. Er komt geen zuurstof bij het oppervlak, zodat de ankers schoon en blank blijven, zonder oxidehuid.",
+      "Gewoon \"zwart\" gloeien aan de lucht verkleurt het oppervlak en vormt een oxidehuid. Die moet daarna worden verwijderd, en het verloren metaal verkleint de dragende doorsnede van het anker, wat bij dunne draad en strip telt."
+    ],
+    "whyTitle": "Waarom het belangrijk is voor vuurvaste ankers",
+    "whyIntro": "Bij het maken van een anker wordt het materiaal koudgetrokken, gebogen, gevormd en gelast. Elke stap vervormt het kristalrooster en laat inwendige spanningen achter in de vorm van dislocaties. Onbehandeld maken die spanningen het anker op drie manieren kwetsbaar.",
+    "risks": [
+      {
+        "title": "Corrosie",
+        "text": "Koudvervormd, sterk gespannen metaal is gevoeliger voor spanningscorrosie en voor aantasting door zwavel, chloriden en alkaliën in ovens en ketels."
+      },
+      {
+        "title": "Verbrossing door sigmafase",
+        "text": "Bij bedrijfstemperaturen van ongeveer 600–900 °C vormt koudvervormd rvs sneller sigmafase. Deze harde, brosse fase verlaagt de taaiheid sterk, waardoor het anker kan scheuren als de installatie afkoelt."
+      },
+      {
+        "title": "Kortere levensduur",
+        "text": "Gespannen ankers verliezen sterkte en bezwijken eerder onder herhaald opwarmen en afkoelen, vaak nog voordat de vuurvaste bekleding zelf aan vervanging toe is."
+      }
+    ],
+    "whyResult": [
+      "Blank oplosgloeien neemt deze spanningen weg en brengt de atomen terug naar hun evenwichtsafstand, de toestand waarin de legering het best presteert bij hoge temperatuur. Ook lossen al aanwezige carbiden of sigmafase op.",
+      "Het resultaat is een anker dat langer bestand is tegen corrosie en verbrossing en zijn mechanische sterkte bij bedrijfstemperatuur behoudt."
+    ],
+    "tableTitle": "Behandelparameters per legering",
+    "colAlloy": "Legering",
+    "colTemp": "Temperatuur (°C)",
+    "colCooling": "Afkoeling",
+    "colNotes": "Opmerkingen",
+    "cooling": {
+      "waterOrAir": "Afschrikken in water of snel afkoelen aan de lucht",
+      "water": "Afschrikken in water"
+    },
+    "notes": {
+      "ss304": "Meest gebruikte ankerlegering",
+      "ss309": "Voor hogere bedrijfstemperaturen",
+      "ss310": "Hoogste bedrijfstemperatuur van de standaard rvs-soorten",
+      "ss316": "Molybdeenhoudend, betere corrosiebestendigheid",
+      "ss321": "Titaangestabiliseerd",
+      "ma253": "Hittebestendig austenitisch rvs met hoge oxidatiebestendigheid",
+      "a800": "Nikkel-ijzer-chroomlegering",
+      "in601": "Nikkel-chroomlegering",
+      "in625": "Complexe nikkel-chroom-molybdeenlegering die de hoogste temperatuur nodig heeft om het evenwicht te herstellen"
+    },
+    "tableNote": "Elke legering vraagt een eigen temperatuur en houdtijd; verkeerde parameters kunnen het materiaal beschadigen in plaats van verbeteren. Het proces van Santura volgt ASTM A240 en de toepasselijke materiaalspecificatie per legering.",
+    "industriesTitle": "Sectoren die er baat bij hebben",
+    "industries": [
+      {
+        "name": "Cementfabrieken",
+        "text": "Ovenankers die blootstaan aan alkali-aantasting en voortdurende temperatuurwisselingen."
+      },
+      {
+        "name": "Raffinaderijen",
+        "text": "Ankers in fornuizen en FCC-installaties in zwavelhoudende omgevingen."
+      },
+      {
+        "name": "Petrochemie",
+        "text": "Ankers in kraakfornuizen in carbonerende atmosferen."
+      },
+      {
+        "name": "Afvalenergiecentrales",
+        "text": "Ankers in de naverbrandingskamer die blootstaan aan chloridecorrosie."
+      },
+      {
+        "name": "Staalbedrijven",
+        "text": "Ankers in gietpannen en opwarmovens onder hoge mechanische belasting."
+      }
+    ],
+    "verifyTitle": "Zo controleert u de behandeling",
+    "verify": [
+      {
+        "title": "Hardheids- en trekproeven",
+        "text": "Gegloeid materiaal is zachter dan gevormd materiaal. De hardheid moet terug in het gegloeide bereik van de legering liggen (voor SS304 hooguit het ASTM A240-maximum van 92 HRB) en de treksterkte dicht bij het voorgeschreven minimum, met herstelde taaiheid."
+      },
+      {
+        "title": "Oppervlak",
+        "text": "Het oppervlak moet blank, schoon en vrij van oxidehuid of aanloopkleuren zijn."
+      },
+      {
+        "title": "Vergelijking met het materiaalcertificaat",
+        "text": "Vergelijking van de resultaten met het oorspronkelijke materiaalcertificaat bevestigt dat het materiaal weer de voorgeschreven gegloeide eigenschappen heeft."
+      }
+    ],
+    "verifyQualityLink": "Zo keuren en documenteren wij elke order",
+    "productsTitle": "Santura-producten die blank opgelosgloeid kunnen worden",
+    "productGroups": [
+      {
+        "title": "Ankers van roestvast staal",
+        "text": "Alle SEPL-ankertypen in SS304, SS309, SS310, SS316 en SS321."
+      },
+      {
+        "title": "Ankers van hogetemperatuurlegeringen",
+        "text": "Alle SEPL-ankertypen in 253MA, Alloy 800H, Inconel 601 en Inconel 625."
+      },
+      {
+        "title": "Staalvezels",
+        "text": "Smeltgeëxtraheerde en koudgetrokken rvs-vezels."
+      }
+    ],
+    "productCategoriesLabel": "Per type bekleding",
+    "productExamplesLabel": "Voorbeelden",
+    "ctaTitle": "Vraag blank oplosgloeien aan",
+    "ctaText": "Stuur de ankertekening of productcode, legering en hoeveelheid, en wij maken een offerte voor productie met blank oplosgloeien.",
+    "ctaRfq": "Blank oplosgloeien aanvragen",
+    "ctaContact": "Overleg met ons technische team over oplosgloeien voor uw project",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Wat is het verschil tussen blank en zwart oplosgloeien?",
+        "a": "Blank gloeien gebeurt onder vacuüm of inert gas, zodat het oppervlak schoon en oxidevrij blijft. Zwart gloeien gebeurt aan de lucht en vormt een oxidehuid die moet worden verwijderd en de dragende doorsnede van het anker verkleint."
+      },
+      {
+        "q": "Welke legeringen kunnen blank opgelosgloeid worden?",
+        "a": "Alle austenitische rvs-soorten voor vuurvaste ankers (304, 309, 310, 316 en 321), de hittebestendige legering 253MA en de nikkellegeringen 800H, 601 en 625."
+      },
+      {
+        "q": "Hoe controleer je of het oplosgloeien goed is uitgevoerd?",
+        "a": "Met hardheids- en trekproeven. Behandeld materiaal moet zachter zijn dan onbehandeld, met de hardheid in het gegloeide bereik en de treksterkte dicht bij het minimum. Ook moet het oppervlak blank en vrij van oxidehuid zijn."
+      },
+      {
+        "q": "Verlengt blank oplosgloeien de levensduur van ankers?",
+        "a": "Ja. Door de spanningen uit het koudvervormen weg te nemen en het atomaire evenwicht te herstellen, zijn behandelde ankers veel beter bestand tegen corrosie en sigmaverbrossing dan onbehandelde."
+      }
+    ],
+    "bothOffered": "Wij bieden zowel blank oplosgloeien (onder vacuüm) als standaard oplosgloeien (aan de lucht)."
+  },
+  "ppPage": {
+    "metaTitle": "Beitsen & passiveren van vuurvaste ankers | ASTM A380 A967 | Santura Engineering",
+    "metaDescription": "Beitsen en passiveren van vuurvaste ankers van roestvast staal volgens ASTM A380 en A967. Sinds 1980, export naar 25+ landen. ISO 9001:2015.",
+    "eyebrow": "Oppervlaktebehandeling",
+    "h1": "Beitsen & passiveren van vuurvaste ankers van roestvast staal",
+    "subheading": "Zure reiniging en oppervlaktebehandeling die lashuid, aanloopkleuren en ingebedde verontreiniging verwijderen en de volledige corrosiebestendigheid vóór montage herstellen.",
+    "ctaHero": "Beitsen & passiveren aanvragen",
+    "whatTitle": "Wat is beitsen en passiveren?",
+    "whatIntro": "Het zijn twee afzonderlijke processen. Als beide worden gevraagd, wordt eerst gebeitst en daarna gepassiveerd.",
+    "pickling": {
+      "title": "Beitsen",
+      "points": [
+        "Een agressieve zuurbehandeling, meestal met een mengsel van salpeterzuur en fluorwaterstofzuur.",
+        "Verwijdert lashuid, aanloopkleuren, oxidelagen, ingebedde ijzerdeeltjes en andere verontreiniging van lassen, snijden, slijpen en buigen.",
+        "Lost een dunne laag van het oppervlak zelf op, waardoor vers basismetaal vrijkomt.",
+        "Laat een egaal mat oppervlak achter, zonder verkleuring of verontreiniging.",
+        "Wordt uitgevoerd in een dompelbad voor complete onderdelen, met spuiten voor grote samenstellingen of werk op locatie, of met beitspasta voor lassen en kleine vlakken."
+      ]
+    },
+    "passivation": {
+      "title": "Passiveren",
+      "points": [
+        "Een mildere zuurbehandeling met salpeterzuur of citroenzuur.",
+        "Verwijdert geen metaal, alleen vrij ijzer en andere oppervlakteverontreiniging.",
+        "Helpt de natuurlijke passieve chroomoxidelaag te vormen, die roestvast staal zijn corrosiebestendigheid geeft.",
+        "De passieve laag vormt zich vanzelf aan de lucht, maar op vers bewerkte oppervlakken kan dat proces verstoord zijn. Passiveren zorgt dat de laag zich volledig en gelijkmatig vormt.",
+        "Na het beitsen bouwt passiveren de beschermlaag op het schone oppervlak weer op. Het kan ook los worden voorgeschreven voor onderdelen die niet ontzinderd hoeven te worden."
+      ]
+    },
+    "whyTitle": "Waarom het belangrijk is voor vuurvaste ankers",
+    "whyIntro": "Ankers worden gesneden, geslepen, in V- en Y-vorm gebogen en aan ovenmantels en kanalen gelast. Elke stap beschadigt het oppervlak op een andere manier.",
+    "damage": [
+      {
+        "title": "Aanloopkleuren bij lassen",
+        "text": "Het gekleurde oxide rond een las ontstaat doordat het chroom onttrekt aan het metaal er direct onder. In die chroomarme zone kan de passieve laag zich niet goed vormen."
+      },
+      {
+        "title": "Slijpen",
+        "text": "Slijpschijven en gereedschap van koolstofstaal laten ingebedde ijzerdeeltjes achter die roesten en corrosie op een roestvast oppervlak starten."
+      },
+      {
+        "title": "Snijden",
+        "text": "Snijranden zijn ruw en gespannen, en daar begint corrosie het eerst."
+      }
+    ],
+    "whyResult": [
+      "Onbehandeld zijn deze beschadigde zones de eerste zwakke plekken bij hoge bedrijfstemperaturen, en de chroomarme zones rond lassen zijn het kwetsbaarst.",
+      "Beitsen verwijdert de beschadigde laag volledig en passiveren bouwt de chroomoxidefilm op het schone oppervlak weer op. Het resultaat is een anker met een gelijkmatige corrosiebestendigheid over het hele oppervlak, inclusief lassen en bochten."
+    ],
+    "standardsTitle": "Toepasselijke normen",
+    "colStandard": "Norm",
+    "colCovers": "Onderwerp",
+    "standards": {
+      "a380": "Standard Practice for Cleaning, Descaling and Passivation of Stainless Steel Parts, Equipment and Systems. Behandelt reinigen en beitsen.",
+      "a967": "Standard Specification for Chemical Passivation Treatments for Stainless Steel Parts. Behandelt passiveerbehandelingen en de controle daarvan.",
+      "verify": "Kopersulfaattest, die bevestigt dat het oppervlak vrij is van ijzerverontreiniging en goed gepassiveerd."
+    },
+    "verifyLabel": "Controle",
+    "materialsTitle": "Materialen die wij behandelen",
+    "materials": [
+      {
+        "title": "Austenitisch roestvast staal",
+        "text": "SS304, SS304L, SS309, SS310, SS310S, SS316, SS316L, SS321 en SS347."
+      },
+      {
+        "title": "Hogetemperatuurlegeringen",
+        "text": "253MA, Alloy 800H, Inconel 601 en Inconel 625. ASTM A967 geldt alleen voor roestvast staal; de nikkellegeringen worden behandeld volgens de procedure van de legeringsfabrikant."
+      },
+      {
+        "title": "Duplex roestvast staal",
+        "text": "Op aanvraag, met een chemie die bij de legering past."
+      }
+    ],
+    "carbonSteelNote": "Onderdelen van koolstofstaal worden niet met dezelfde chemie gebeitst: beitszuren voor rvs zijn sterk corrosief voor koolstofstaal.",
+    "methodsTitle": "Behandelmethoden",
+    "methods": [
+      {
+        "title": "Dompelbeitsen",
+        "text": "De hele partij ankers wordt in het zuurbad gedompeld. Het best voor grote aantallen kleine en middelgrote onderdelen."
+      },
+      {
+        "title": "Spuitbeitsen",
+        "text": "Het zuur wordt op grotere samenstellingen gespoten. Geschikt voor werk op locatie en grote onderdelen."
+      },
+      {
+        "title": "Beitspasta",
+        "text": "Pasta aangebracht op specifieke lassen of plekken. Voor reparaties op locatie en gerichte behandeling van warmtebeïnvloede zones."
+      }
+    ],
+    "methodsNote": "Onderdelen moeten vóór de zuurbehandeling ontvet en vrij van olie, vet en andere organische verontreiniging zijn. Beitsen en passiveren verwijderen geen olie of vet.",
+    "whenTitle": "Wanneer beitsen en passiveren voorschrijven",
+    "when": [
+      "Na het lassen van ankers aan ovenmantels of kanalen.",
+      "Na een warmtebehandeling: beitsen verwijdert de oxidehuid van oplosgloeien aan de lucht, en blank gegloeide onderdelen kunnen worden gepassiveerd als dat is voorgeschreven.",
+      "Als ankers zichtbare aanloopkleuren of lasverkleuring vertonen.",
+      "Als ankers tijdens de productie in contact zijn geweest met gereedschap van koolstofstaal.",
+      "Voor kritische toepassingen in raffinaderijen en de petrochemie, en voor rvs-constructies voor de farmaceutische en voedingsmiddelenindustrie.",
+      "Als de specificatie van de eindklant ASTM A380 of A967 voorschrijft."
+    ],
+    "relatedTitle": "Samenhang met onze andere diensten",
+    "relatedBsaTitle": "Na blank oplosgloeien",
+    "relatedBsaText": "Blank oplosgloeien herstelt de inwendige structuur van het metaal; passiveren herstelt daarna de bescherming van het oppervlak. De twee vullen elkaar aan.",
+    "relatedPmiTitle": "Vóór de PMI-keuring",
+    "relatedPmiText": "Een schoon, gepassiveerd oppervlak geeft betrouwbaardere PMI-metingen dan een oppervlak met oxidehuid of verontreiniging.",
+    "productsTitle": "Santura-producten die wij behandelen",
+    "products": {
+      "anchors": "Alle SEPL vuurvaste ankers",
+      "fibres": "Roestvaststalen vezels",
+      "counterweights": "Contragewichtsystemen",
+      "fasteners": "Bevestigingsmiddelen en tapeinden",
+      "fabrication": "Elke constructie in roestvast staal"
+    },
+    "productExamplesLabel": "Voorbeelden",
+    "qualityLink": "Zo keuren en documenteren wij elke order",
+    "ctaTitle": "Vraag beitsen en passiveren aan",
+    "ctaText": "Stuur de tekening of productcode, het materiaal, de hoeveelheid en de norm waaraan moet worden voldaan, en wij maken een offerte voor de behandeling.",
+    "ctaRfq": "Beitsen & passiveren aanvragen",
+    "ctaContact": "Bespreek uw eisen voor oppervlaktebehandeling",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Wat is het verschil tussen beitsen en passiveren?",
+        "a": "Beitsen is een agressieve zuurbehandeling die lashuid, aanloopkleuren en een dunne laag metaal verwijdert. Passiveren is een mildere zuurbehandeling die vrij ijzer verwijdert en de beschermende chroomoxidelaag helpt herstellen. Meestal worden ze na elkaar uitgevoerd."
+      },
+      {
+        "q": "Waarom moeten vuurvaste ankers gebeitst en gepassiveerd worden?",
+        "a": "Lassen, buigen en snijden beschadigen het oppervlak en onttrekken chroom aan de warmtebeïnvloede zone. Onbehandeld corroderen die plekken het eerst bij hoge bedrijfstemperaturen."
+      },
+      {
+        "q": "Welke normen gelden voor beitsen en passiveren?",
+        "a": "ASTM A380 behandelt reinigen en beitsen. ASTM A967 behandelt passiveerbehandelingen en de controle daarvan; de kopersulfaattest (Practice D) bevestigt dat het oppervlak goed gepassiveerd is."
+      },
+      {
+        "q": "Kan beitsen en passiveren op locatie worden uitgevoerd?",
+        "a": "Ja. Spuitbeitsen en beitspasta maken het mogelijk om gelaste samenstellingen en grote constructies op locatie te behandelen."
+      }
+    ]
+  },
+  "pmiPage": {
+    "metaTitle": "PMI-keuring van vuurvaste ankers | Legeringscontrole | Santura Engineering",
+    "metaDescription": "PMI-keuring van vuurvaste ankers met XRF- en OES-analysers. Legeringscontrole sinds 1980, export naar 25+ landen. ISO 9001:2015.",
+    "eyebrow": "Keuringsdienst",
+    "h1": "PMI-keuring van vuurvaste ankers",
+    "subheading": "Positieve materiaalidentificatie die bevestigt dat elk anker van de voorgeschreven legering is gemaakt, van de ontvangst van het materiaal tot de verzending.",
+    "ctaHero": "PMI-keuring aanvragen",
+    "pmiLinkFromQuality": "Meer over onze PMI-keuring",
+    "whatTitle": "Wat is een PMI-keuring?",
+    "what": [
+      "Positieve materiaalidentificatie (PMI) is een niet-destructieve keuring die de chemische samenstelling van een metaal meet en de legering bevestigt. Ze wordt uitgevoerd met een draagbare röntgenfluorescentie-analyser (XRF) of een optische emissiespectrometer (OES).",
+      "De analyser meet de samenstelling in enkele seconden en vergelijkt die met een bibliotheek van legeringen. Er wordt niets gezaagd, geboord of beschadigd, zodat afgewerkte ankers gekeurd en verzonden kunnen worden."
+    ],
+    "whyTitle": "Waarom het belangrijk is voor vuurvaste ankers",
+    "why": [
+      {
+        "title": "De verkeerde legering faalt in bedrijf",
+        "text": "Een anker van SS304 waar SS310 was voorgeschreven kan bij oventemperatuur oxideren, sterkte verliezen en bezwijken, en de vuurvaste bekleding meenemen."
+      },
+      {
+        "title": "Verwisselingen gebeuren",
+        "text": "Materiaal kan in productie, opslag of verzending worden verwisseld. Labels kunnen fout zijn en materiaalcertificaten aan de verkeerde partij gekoppeld."
+      },
+      {
+        "title": "De laatste controle vóór verzending",
+        "text": "PMI is de laatste bevestiging dat elk anker dat de fabriek verlaat van de bestelde legering is."
+      },
+      {
+        "title": "Vereist door eindgebruikers",
+        "text": "Raffinaderijen en petrochemische fabrieken hanteren vaak materiaalverificatieprogramma’s op basis van API RP 578 en vragen PMI-rapporten voordat ze materiaal op locatie accepteren."
+      }
+    ],
+    "methodsTitle": "Keuringsmethoden",
+    "methods": [
+      {
+        "title": "Draagbare XRF",
+        "text": "Handheld röntgenfluorescentie geeft binnen enkele seconden een meting, overal in de fabriek. Het is de standaardmethode voor grondstof, halffabricaten en afgewerkte ankers."
+      },
+      {
+        "title": "OES (optische emissiespectroscopie)",
+        "text": "Vonk-OES meet ook koolstof en lichte elementen. De methode is trager, minder mobiel en laat een klein brandplekje achter, en wordt gebruikt als het koolstofgehalte bevestigd moet worden."
+      },
+      {
+        "title": "Laboratoriumanalyse",
+        "text": "Als een specificatie een volledige chemische analyse vraagt, worden monsters getest in NABL-geaccrediteerde externe laboratoria."
+      }
+    ],
+    "limitationTitle": "Wat XRF niet ziet",
+    "limitationText": "XRF detecteert geen koolstof en kan dus SS316 niet van SS316L of SS304 niet van SS304L onderscheiden. Als koolstofarme soorten bevestigd moeten worden, wordt OES of laboratoriumanalyse gebruikt.",
+    "standardsTitle": "Toepasselijke normen",
+    "colStandard": "Norm",
+    "colCovers": "Onderwerp",
+    "standards": {
+      "rp578": "Material Verification Program for New and Existing Alloy Piping Systems. De basis van de meeste PMI-eisen in raffinaderijen en de petrochemie.",
+      "e1476": "Standard Guide for Metals Identification, Grade Verification and Sorting.",
+      "specs": "Materiaalspecificaties voor plaat, band, staf en draad. PMI-resultaten worden getoetst aan de chemische grenswaarden in deze specificaties."
+    },
+    "alloysTitle": "Legeringen die wij controleren",
+    "colGrade": "Legering",
+    "colElements": "Gecontroleerde hoofdelementen",
+    "colComposition": "Nominale samenstelling (%)",
+    "carbonSteel": "Koolstofstaal",
+    "carbonSteelComposition": "IJzer, zonder noemenswaardig chroom of nikkel",
+    "alloysNote": "Nominale bereiken uit de ASTM-materiaalspecificaties. Lichte elementen zoals aluminium en sporentoevoegingen zoals cerium worden bevestigd via het materiaalcertificaat. PMI controleert ook dat er geen mantelmateriaal van koolstofstaal tussen de gelegeerde ankers is geraakt.",
+    "whenTitle": "Wanneer wij PMI uitvoeren",
+    "when": [
+      {
+        "title": "Ontvangst van grondstof",
+        "text": "Plaat, draad en stafmateriaal worden bij ontvangst gecontroleerd, voordat ze de productie ingaan."
+      },
+      {
+        "title": "Tijdens de productie",
+        "text": "Tussentijdse controles vangen verwisselingen tussen bewerkingen op."
+      },
+      {
+        "title": "Eindcontrole",
+        "text": "Afgewerkte ankers worden vóór verpakking en verzending opnieuw gecontroleerd."
+      },
+      {
+        "title": "Op verzoek van de klant",
+        "text": "PMI-certificaten worden met de levering meegestuurd en de keuringen kunnen door uw inspecteur worden bijgewoond."
+      }
+    ],
+    "docsTitle": "Meegeleverde documenten",
+    "docs": [
+      "PMI-rapport met het gemeten percentage van elk element",
+      "Bevestiging van de legering ten opzichte van de bestelde specificatie",
+      "Traceerbaarheid via chargenummer tot het materiaalcertificaat",
+      "Originele EN 10204 3.1 materiaalcertificaten"
+    ],
+    "relatedTitle": "Verwante diensten",
+    "relatedBsaText": "Warmtebehandeling die de inwendige structuur van koudvervormde ankers herstelt.",
+    "relatedPpText": "Een schoon, gepassiveerd oppervlak geeft betrouwbaardere PMI-metingen.",
+    "qualityLink": "Zo keuren en documenteren wij elke order",
+    "ctaTitle": "Vraag een PMI-keuring aan",
+    "ctaText": "Vertel ons de producten, legeringen en hoeveelheden, en of u PMI-certificaten of bijgewoonde keuringen nodig hebt, dan nemen wij het op in onze offerte.",
+    "ctaRfq": "PMI-keuring aanvragen",
+    "ctaContact": "Bespreek uw eisen voor materiaalverificatie",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Wat detecteert een PMI-keuring?",
+        "a": "De legeringselementen die een soort kenmerken, waaronder chroom, nikkel, molybdeen, titaan, niobium en mangaan, en silicium met geschikte analysers. De analyser koppelt de gemeten samenstelling aan een legering."
+      },
+      {
+        "q": "Waarom is PMI nodig voor vuurvaste ankers?",
+        "a": "Een anker van de verkeerde legering kan bij oventemperatuur bezwijken en de bekleding laten instorten. PMI bevestigt dat elk anker van de voorgeschreven soort is, en veel raffinaderijen en petrochemische fabrieken eisen PMI-rapporten voordat ze materiaal accepteren."
+      },
+      {
+        "q": "Kan PMI SS316 van SS316L onderscheiden?",
+        "a": "Niet met XRF, dat geen koolstof detecteert. Als het koolstofgehalte van een koolstofarme soort bevestigd moet worden, wordt OES of laboratoriumanalyse gebruikt."
+      },
+      {
+        "q": "Welke documenten leveren jullie?",
+        "a": "Een PMI-rapport met de gemeten percentages van de elementen, bevestiging van de legering ten opzichte van de specificatie en traceerbaarheid via chargenummer tot het oorspronkelijke materiaalcertificaat."
+      }
+    ]
+  },
+  "swPage": {
+    "metaTitle": "Stiftlassen voor vuurvaste ankers | Santura Engineering",
+    "metaDescription": "Stiftlassen voor vuurvaste ankers: boogontsteking en condensatorontlading, keramische ringen en lasprocedures. Sinds 1980, export naar 25+ landen.",
+    "eyebrow": "Montagedienst",
+    "h1": "Stiftlasoplossingen voor vuurvaste ankers",
+    "subheading": "Ankers, stiftlasapparatuur, keramische ringen en lasprocedures voor snelle, betrouwbare montage op oven- en vatmantels.",
+    "ctaHero": "Ondersteuning bij stiftlassen aanvragen",
+    "whatTitle": "Wat is stiftlassen?",
+    "what": [
+      "Bij stiftlassen wordt een vuurvast anker met een elektrische boog direct op de mantel van een oven of vat gelast, in een fractie van een seconde en zonder te boren.",
+      "Het laspistool houdt het anker tegen de mantel en ontsteekt een boog die het uiteinde van de stift en een kleine zone van de mantel smelt. Daarna drukt het pistool de stift in het smeltbad, dat stolt tot een las over de volle doorsnede.",
+      "Bij lassen met boogontsteking omsluit een keramische ring de las; die houdt het gesmolten metaal bijeen en beschermt het tegen de lucht."
+    ],
+    "compareTitle": "Stiftlasprocessen vergeleken",
+    "colFeature": "Kenmerk",
+    "processes": {
+      "da": "Boogontsteking",
+      "sc": "Korte cyclus",
+      "cd": "Condensatorontlading"
+    },
+    "compareRows": [
+      {
+        "label": "Stiftdiameter",
+        "da": "3–25 mm",
+        "sc": "Kleine en middelgrote stiften",
+        "cd": "Tot 10 mm"
+      },
+      {
+        "label": "Dikte basismateriaal",
+        "da": "Vanaf ongeveer 2 mm",
+        "sc": "Dunnere plaat dan bij boogontsteking",
+        "cd": "Vanaf ongeveer 0,7 mm"
+      },
+      {
+        "label": "Lastijd",
+        "da": "Tienden van een seconde tot ongeveer 1 seconde",
+        "sc": "Tot 100 ms",
+        "cd": "Enkele milliseconden"
+      },
+      {
+        "label": "Keramische ring",
+        "da": "Ja",
+        "sc": "Nee; bij rvs kan beschermgas worden gebruikt",
+        "cd": "Nee"
+      },
+      {
+        "label": "Typische toepassing",
+        "da": "Vuurvaste ankers op ovenmantels; diepe inbranding, hoge sterkte",
+        "sc": "Lichte ankers en stiften als snelheid telt",
+        "cd": "Isolatiepennen en keramische vezelstiften; nauwelijks markering op de achterzijde"
+      }
+    ],
+    "compareNote": "Boogontsteking is de belangrijkste methode voor vuurvaste ankers op ovenmantels. Een goed uitgevoerde las met boogontsteking is sterker dan de stift zelf: bij een buig- of trekproef breekt de stift, niet de las.",
+    "whyTitle": "Waarom laskwaliteit telt bij vuurvaste toepassingen",
+    "why": [
+      {
+        "title": "De las draagt de bekleding",
+        "text": "Ankers worden op mantels van koolstofstaal of rvs gelast voordat de bekleding wordt aangebracht. Elke kilo vuurvast materiaal hangt aan die lassen."
+      },
+      {
+        "title": "Een slechte las bezwijkt eerst",
+        "text": "Een las met bindingsfouten of porositeit scheurt onder temperatuurwisselingen lang voordat het anker of het vuurvaste materiaal versleten is."
+      },
+      {
+        "title": "Het juiste proces voor elk anker",
+        "text": "Betonankers met stiftvoet vragen boogontsteking, keramische vezelstiften en isolatiepennen condensatorontlading, en sommige ankers zijn bedoeld voor handlassen of vastschroeven."
+      },
+      {
+        "title": "Stops laten geen tijd voor herstel",
+        "text": "De meeste montages vinden plaats tijdens fabrieksstops. Lascapaciteit op locatie en de juiste parameters vanaf het eerste anker houden de planning."
+      }
+    ],
+    "productsTitle": "Welke Santura-producten welke methode gebruiken",
+    "methods": {
+      "da": {
+        "title": "Stiftlassen / pistoollassen met boogontsteking",
+        "text": "Ankers met stiftvoet of geschikt voor pistoollassen. Van SEPL-08 en SEPL-20 worden sommige uitvoeringen stiftgelast en andere met de hand gelast of vastgeschroefd; SEPL-16-deuvels worden geleverd met aluminiumflux voor stiftlassen."
+      },
+      "sc": {
+        "title": "Korte cyclus (Rapid Arc)",
+        "text": "Gespleten stiften voor lichtgewicht beton."
+      },
+      "cd": {
+        "title": "Condensatorontlading",
+        "text": "Keramische vezelstiften, laspennen met schroefdraad en isolatiepennen."
+      },
+      "manual": {
+        "title": "Handmatig booglassen",
+        "text": "Ankers ontworpen voor traditioneel handlassen."
+      },
+      "screw": {
+        "title": "Opschroeven en vastbouten",
+        "text": "Ankers op moeren of om op voorgelaste stiften te schroeven. SEPL-25 is ook in een boutuitvoering leverbaar."
+      }
+    },
+    "alloysLine": "Alle methoden zijn beschikbaar voor ankers van koolstofstaal, SS304, SS309, SS310, SS316, SS321, 253MA, Alloy 800H en Inconel.",
+    "offerTitle": "Wat wij leveren",
+    "offer": [
+      {
+        "title": "Montageklare ankers",
+        "text": "Ankers met stiftvoet of voorgelaste stiften, voorbereid voor lassen op locatie."
+      },
+      {
+        "title": "Apparatuur en verbruiksmateriaal",
+        "text": "Stiftlasapparatuur, keramische ringen en spantangen passend bij de bestelde ankers."
+      },
+      {
+        "title": "Technische begeleiding",
+        "text": "Aanbevolen lasparameters per legering en ankertype."
+      },
+      {
+        "title": "Lasmethodebeschrijvingen",
+        "text": "Een WPS voor elke combinatie van ankerlegering en mantelmateriaal."
+      }
+    ],
+    "standardsTitle": "Toepasselijke normen",
+    "colStandard": "Norm",
+    "colCovers": "Onderwerp",
+    "standards": {
+      "d11": "Structural Welding Code – Steel, inclusief het hoofdstuk over stiftlassen.",
+      "d16": "Structural Welding Code – Stainless Steel, inclusief stiftlassen van rvs.",
+      "iso": "Lassen – Booglassen van stiften op metalen materialen.",
+      "c54": "Recommended Practices for Stud Welding."
+    },
+    "relatedTitle": "Verwante diensten",
+    "relatedBsaText": "Herstelt de inwendige structuur van koudvervormde ankers vóór het lassen en in bedrijf.",
+    "relatedPpText": "Verwijdert aanloopkleuren en herstelt de corrosiebestendigheid rond lassen.",
+    "relatedPmiText": "Bevestigt de legering van elk anker voordat het wordt ingelast.",
+    "ctaTitle": "Plan uw ankermontage met ons",
+    "ctaText": "Geef de ankertypen, legeringen, hoeveelheden en het mantelmateriaal door, en of u apparatuur, ringen of een WPS nodig hebt. Wij maken een offerte voor het complete pakket.",
+    "ctaRfq": "Ondersteuning bij stiftlassen aanvragen",
+    "ctaContact": "Bespreek uw montage met ons technische team",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Wat is het verschil tussen boogontsteking en condensatorontlading?",
+        "a": "Boogontsteking gebruikt een langere boog en een keramische ring om grotere stiften, tot ongeveer 25 mm, te lassen op mantels vanaf ongeveer 2 mm, met diepe inbranding en hoge sterkte. Condensatorontlading last kleinere stiften, tot ongeveer 10 mm, in enkele milliseconden zonder ring en is geschikt voor dun materiaal vanaf ongeveer 0,7 mm."
+      },
+      {
+        "q": "Welke methode wordt voor welk ankertype gebruikt?",
+        "a": "Betonankers met stiftvoet of geschikt voor pistoollassen, zoals SEPL-06, SEPL-13 en SEPL-18, worden gelast met boogontsteking. Keramische vezelstiften (SEPL-24), laspennen met schroefdraad (SEPL-25) en isolatiepennen met condensatorontlading. Sommige ankers, zoals SEPL-07 en SEPL-09, zijn bedoeld voor handlassen."
+      },
+      {
+        "q": "Kunnen ankers lasklaar voor de bouwplaats worden geleverd?",
+        "a": "Ja. De ankers worden geleverd met stiftvoet of voorgelaste stiften, klaar voor montage op locatie, samen met passende keramische ringen en aanbevolen lasparameters."
+      },
+      {
+        "q": "Welke maten keramische ringen zijn er?",
+        "a": "De ringen worden afgestemd op de stiftdiameter en het te lassen oppervlak, zoals vlakke plaat of buis. Geef ons de stiftdiameter en de mantelgeometrie door, dan leveren wij de passende ringen bij de ankers."
+      }
+    ]
   }
 }

@@ -9,6 +9,9 @@ import { Link } from '@/i18n/navigation';
 import { siteUrl } from '@/lib/seo';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import SiteSearch from '@/components/SiteSearch';
+import ProductMegaMenu from '@/components/ProductMegaMenu';
+import ServicesDropdown from '@/components/ServicesDropdown';
+import MobileMenu from '@/components/MobileMenu';
 import { buildSearchIndex } from '@/lib/searchIndex';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import Footer from '@/components/Footer';
@@ -67,13 +70,18 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
                 <span className="truncate text-base font-semibold tracking-tight sm:text-lg">Santura Engineering</span>
               </Link>
               <nav className="flex shrink-0 items-center gap-3 text-sm font-medium text-ink-body sm:gap-5">
-                <Link href="/products" className="hidden hover:text-brand-500 sm:inline">
-                  {t('products')}
+                <Link href="/" className="hidden hover:text-brand-500 xl:inline">
+                  {t('home')}
                 </Link>
-                <Link href="/about" className="hidden hover:text-brand-500 md:inline">
+                <ProductMegaMenu />
+                <ServicesDropdown />
+                <Link href="/about" className="hidden hover:text-brand-500 xl:inline">
                   {t('about')}
                 </Link>
-                <Link href="/contact" className="hidden hover:text-brand-500 md:inline">
+                <Link href="/quality" className="hidden hover:text-brand-500 xl:inline">
+                  {t('quality')}
+                </Link>
+                <Link href="/contact" className="hidden hover:text-brand-500 xl:inline">
                   {t('contact')}
                 </Link>
                 <Link href="/rfq" className="hidden whitespace-nowrap rounded-md bg-brand-500 px-4 py-2 font-semibold text-white hover:bg-brand-600 sm:inline-block">
@@ -81,6 +89,7 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
                 </Link>
                 <SiteSearch index={searchIndex} />
                 <LanguageSwitcher />
+                <MobileMenu />
               </nav>
             </div>
           </header>

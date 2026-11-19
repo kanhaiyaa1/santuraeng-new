@@ -56,13 +56,18 @@ export default function Footer() {
                 </a>
               </dd>
             </div>
+            <div>
+              <dt className="text-ink-muted">{t('phone')}</dt>
+              <dd>
+                <a href={`tel:${SITE.phone.tel}`} className="block hover:text-brand-500" dir="ltr">
+                  {SITE.phone.display}
+                </a>
+              </dd>
+            </div>
             {SITE.contacts.map((c) => (
               <div key={c.name}>
                 <dt className="text-ink-muted">{c.name}</dt>
                 <dd>
-                  <a href={`tel:${c.tel}`} className="block hover:text-brand-500" dir="ltr">
-                    {c.phone}
-                  </a>
                   <a href={`mailto:${c.email}`} className="block hover:text-brand-500">
                     {c.email}
                   </a>

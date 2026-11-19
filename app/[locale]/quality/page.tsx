@@ -1,8 +1,11 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { Link } from '@/i18n/navigation';
 import { breadcrumbJsonLd, formatDate, pageMetadata } from '@/lib/page';
 import { SITE } from '@/lib/site';
 import PageHeader from '@/components/PageHeader';
+import { QUALITY_PHOTOS } from '@/lib/photos';
+import PhotoGrid from '@/components/PhotoGrid';
 
 type Props = { params: { locale: string } };
 type Item = { title: string; text: string };
@@ -24,6 +27,7 @@ export function generateMetadata({ params: { locale } }: Props): Promise<Metadat
 export default async function QualityPage({ params: { locale } }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'qualityPage' });
+  const pmi = await getTranslations({ locale, namespace: 'pmiPage' });
   const jsonLd = [await breadcrumbJsonLd(locale, '/quality', t('h1'))];
 
   const h2 = 'text-2xl font-bold tracking-tight text-ink sm:text-3xl';
@@ -89,6 +93,9 @@ export default async function QualityPage({ params: { locale } }: Props) {
                 </li>
               ))}
             </ul>
+            <Link href="/services/pmi-testing" className="mt-6 inline-block text-sm font-semibold text-brand-500 hover:text-brand-600">
+              {pmi('pmiLinkFromQuality')} →
+            </Link>
           </div>
           <div className="lg:col-span-2">
             <h2 className={h2}>{t('documentsTitle')}</h2>
@@ -100,6 +107,12 @@ export default async function QualityPage({ params: { locale } }: Props) {
                 </li>
               ))}
             </ul>
+          </div>
+        </div>
+        <div className="mx-auto mt-12 max-w-6xl px-6">
+          <h3 className="text-xl font-bold text-ink">{t('photosTitle')}</h3>
+          <div className="mt-5">
+            <PhotoGrid keys={QUALITY_PHOTOS} cols="sm:grid-cols-3 lg:grid-cols-5" />
           </div>
         </div>
       </section>

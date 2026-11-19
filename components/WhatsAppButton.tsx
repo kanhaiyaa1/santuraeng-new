@@ -1,18 +1,14 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { whatsappUrl } from '@/lib/site';
 
 export default function WhatsAppButton() {
   const t = useTranslations('common');
-  const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER;
-
-  if (!number) {
-    return null;
-  }
 
   return (
     <a
-      href={`https://wa.me/${number}`}
+      href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
       aria-label={t('whatsapp')}

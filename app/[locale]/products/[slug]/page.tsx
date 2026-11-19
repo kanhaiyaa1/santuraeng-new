@@ -9,6 +9,8 @@ import { PRODUCTS, getProduct, type Product } from '@/content/products';
 import { alloySummary, imageAltKind, productTitle, relatedProducts, truncate } from '@/lib/products';
 import ProductGallery from '@/components/products/ProductGallery';
 import AlloyTable from '@/components/products/AlloyTable';
+import CategoryPlaceholder, { categoryMetadata } from '@/components/CategoryPlaceholder';
+import { PLACEHOLDER_CATEGORIES, getCategory } from '@/content/product-categories';
 import { btnPrimary } from '@/lib/ui';
 import WhatsAppLink from '@/components/WhatsAppLink';
 
@@ -16,8 +18,9 @@ type Props = { params: { locale: string; slug: string } };
 
 export const dynamicParams = false;
 
+// One route serves both SEPL product pages and the "Coming soon" category pages (slugs never overlap).
 export function generateStaticParams() {
-  return PRODUCTS.map((p) => ({ slug: p.slug }));
+  return [...PRODUCTS.map((p) => ({ slug: p.slug })), ...PLACEHOLDER_CATEGORIES.map((c) => ({ slug: c.slug }))];
 }
 
 async function altFor(p: Product, locale: string) {
@@ -29,6 +32,8 @@ async function altFor(p: Product, locale: string) {
 }
 
 export async function generateMetadata({ params: { locale, slug } }: Props): Promise<Metadata> {
+  const category = getCategory(slug);
+  if (category) return categoryMetadata(category, locale);
   const product = getProduct(slug);
   if (!product) return {};
   const t = await getTranslations({ locale, namespace: 'productPage' });
@@ -55,6 +60,11 @@ export async function generateMetadata({ params: { locale, slug } }: Props): Pro
 }
 
 export default async function ProductPage({ params: { locale, slug } }: Props) {
+  const category = getCategory(slug);
+  if (category) {
+    setRequestLocale(locale);
+    return <CategoryPlaceholder category={category} locale={locale} />;
+  }
   const product = getProduct(slug);
   if (!product) notFound();
   setRequestLocale(locale);
@@ -62,6 +72,7 @@ export default async function ProductPage({ params: { locale, slug } }: Props) {
   const t = await getTranslations({ locale, namespace: 'productPage' });
   const tp = await getTranslations({ locale, namespace: 'products' });
   const nav = await getTranslations({ locale, namespace: 'nav' });
+  const categoryNames = await getTranslations({ locale, namespace: 'productCategories' });
   const common = await getTranslations({ locale, namespace: 'common' });
 
   const title = productTitle(product);
@@ -90,7 +101,7 @@ export default async function ProductPage({ params: { locale, slug } }: Props) {
       '@type': 'BreadcrumbList',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: nav('home'), item: buildAlternates('/', locale).canonical },
-        { '@type': 'ListItem', position: 2, name: nav('products'), item: buildAlternates('/products', locale).canonical },
+        { '@type': 'ListItem', position: 2, name: categoryNames('items.refractory-anchors.name'), item: buildAlternates('/refractory-anchors', locale).canonical },
         { '@type': 'ListItem', position: 3, name: title, item: pageUrl }
       ]
     }
@@ -110,7 +121,7 @@ export default async function ProductPage({ params: { locale, slug } }: Props) {
             </li>
             <li aria-hidden="true">/</li>
             <li>
-              <Link href="/products" className="hover:text-brand-500">{nav('products')}</Link>
+              <Link href="/refractory-anchors" className="hover:text-brand-500">{categoryNames('items.refractory-anchors.name')}</Link>
             </li>
             <li aria-hidden="true">/</li>
             <li aria-current="page" className="font-medium text-ink">{title}</li>

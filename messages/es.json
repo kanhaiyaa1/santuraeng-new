@@ -8,12 +8,14 @@
     "quality": "Calidad",
     "contact": "Contacto",
     "privacy": "Política de privacidad",
-    "disclaimer": "Aviso legal"
+    "disclaimer": "Aviso legal",
+    "services": "Servicios",
+    "refractoryAnchors": "Anclajes Refractarios"
   },
   "hero": {
     "eyebrow": "Santura Engineering Pvt. Ltd. · Mumbai, India",
     "title": "Fabricante y Exportador de Anclajes Refractarios",
-    "subtitle": "Anclajes refractarios, espárragos para fibra y fibras de acero inoxidable para revestimientos de ladrillo, hormigón refractario y fibra cerámica: fabricados en Mumbai y enviados a proyectos internacionales desde el puerto de Nhava Sheva.",
+    "subtitle": "Anclajes refractarios, espárragos para fibra cerámica, sistemas de contrapeso, materiales aislantes, mirillas de observación y accesorios: fabricados en Mumbai y enviados a proyectos internacionales desde el puerto de Nhava Sheva.",
     "imageAlt": "Unidades de proceso de refinería con columnas y hornos con revestimiento refractario"
   },
   "cta": {
@@ -247,7 +249,8 @@
     "sending": "Enviando…",
     "success": "Gracias. Nos pondremos en contacto con usted en breve.",
     "error": "Algo salió mal. Inténtelo de nuevo.",
-    "productPrefix": "Producto"
+    "productPrefix": "Producto",
+    "servicePrefix": "Servicio"
   },
   "rfqPage": {
     "title": "Solicite una Cotización de Anclajes Refractarios",
@@ -332,6 +335,11 @@
         "text": "El Sr. Bharat Diwan, ingeniero de producción, funda la empresa."
       },
       {
+        "year": "1981",
+        "title": "Sistemas de contrapeso",
+        "text": "Comienza la fabricación de sistemas de contrapeso y otros elementos fabricados."
+      },
+      {
         "year": "2005",
         "title": "Anclajes refractarios",
         "text": "Comienza la fabricación de anclajes refractarios."
@@ -371,7 +379,9 @@
     "productsLink": "Ver todos los productos",
     "exportTitle": "Exportación",
     "exportText": "Exportamos a más de 25 países de Oriente Medio, Europa y América, con envío desde Nhava Sheva y documentación completa.",
-    "exportLink": "Busque su país"
+    "exportLink": "Busque su país",
+    "galleryTitle": "Nuestra planta por dentro",
+    "galleryIntro": "Stock de materia prima, anclajes terminados, embalaje y expedición en Santura Engineering."
   },
   "qualityPage": {
     "metaTitle": "Calidad, ensayos y certificación | Santura Engineering",
@@ -436,7 +446,8 @@
       "DIN17440": "Aceros inoxidables: condiciones técnicas de suministro para chapa, barra y alambre"
     },
     "clientCertsTitle": "Certificados de clientes",
-    "clientCertsText": "Aquí se publicarán los certificados y cartas de referencia de nuestros clientes."
+    "clientCertsText": "Aquí se publicarán los certificados y cartas de referencia de nuestros clientes.",
+    "photosTitle": "Ensayos en la práctica"
   },
   "privacyPage": {
     "metaTitle": "Política de privacidad | Santura Engineering",
@@ -613,5 +624,695 @@
       "country": "Países",
       "page": "Páginas"
     }
+  },
+  "photos": {
+    "cartonsBulk": "Cajas listas para el embalaje",
+    "containerCartons": "Cajas de exportación retractiladas en un contenedor",
+    "xrfHandheld": "Analizador XRF portátil comprobando la aleación",
+    "crateBulk": "Caja de exportación con viruta de madera",
+    "cartonsDispatch": "Componentes embalados en cajas para el envío",
+    "componentsPacked": "Componentes metálicos en cajas forradas",
+    "anchorsWavy": "Anclajes refractarios en producción",
+    "anchorsBent": "Varillas de anclaje de acero dobladas",
+    "tubesStock": "Stock de tubos de acero",
+    "wireCoilsStock": "Bobinas de alambre de acero en almacén",
+    "dispatchTeam": "Nuestro equipo de expedición",
+    "cratesContainer": "Cajas de madera cargadas para exportación",
+    "workerPacking": "Embalaje de componentes en el almacén",
+    "truckDispatch": "Carga de un camión para el envío",
+    "containerPallets": "Cajas paletizadas en un contenedor marítimo",
+    "factoryExterior": "Planta de Santura Engineering, MIDC Tarapur",
+    "xrfTesting": "Verificación de la aleación con analizador XRF",
+    "workshopStock": "Componentes de acero en el taller",
+    "rodCaliper": "Medición del diámetro de la varilla con calibre",
+    "wireXrf": "Ensayo de la aleación del alambre",
+    "wireCoilsBulk": "Stock de bobinas de alambre",
+    "wireCoilsInventory": "Inventario de bobinas de alambre",
+    "wireCaliper": "Medición del diámetro del alambre con calibre",
+    "cratePacking": "Embalaje protector en caja para componentes"
+  },
+  "productCategories": {
+    "items": {
+      "refractory-anchors": {
+        "name": "Anclajes Refractarios",
+        "description": "Anclajes SEPL para revestimientos de ladrillo, hormigón, dobles y de fibra cerámica."
+      },
+      "observation-peep-doors": {
+        "name": "Mirillas / Puertas de Observación",
+        "description": "Mirillas y puertas de observación para hornos, calentadores y calderas."
+      },
+      "foundation-bolts": {
+        "name": "Pernos de Cimentación",
+        "description": "Pernos de anclaje y cimentación para estructuras y equipos."
+      },
+      "support-plates": {
+        "name": "Placas de Apoyo",
+        "description": "Placas base y de apoyo fabricadas según plano."
+      },
+      "industrial-stanchions": {
+        "name": "Montantes Industriales",
+        "description": "Montantes y postes para plataformas y barandillas."
+      },
+      "pipe-guides-sleeves": {
+        "name": "Guías y Manguitos de Tubería",
+        "description": "Guías y manguitos de anillo para tubos de hornos."
+      },
+      "counter-weight-systems": {
+        "name": "Sistemas de Contrapeso",
+        "description": "Conjuntos de contrapeso para soporte de tubos de hornos."
+      },
+      "mineral-wool": {
+        "name": "Lana Mineral",
+        "description": "Productos aislantes de lana de roca y lana mineral."
+      },
+      "ceramic-gaskets": {
+        "name": "Juntas Cerámicas",
+        "description": "Juntas y sellos de fibra cerámica para alta temperatura."
+      },
+      "glass-fibre-sheets": {
+        "name": "Láminas de Fibra de Vidrio",
+        "description": "Láminas, tejidos de fibra de vidrio y lana de vidrio."
+      },
+      "calcium-silicate": {
+        "name": "Silicato de Calcio",
+        "description": "Placas y coquillas de silicato de calcio."
+      },
+      "insulation-pins": {
+        "name": "Pines de Aislamiento",
+        "description": "Pines de soldadura y clips para fijar aislamiento."
+      },
+      "polystyrene-insulation": {
+        "name": "Aislamiento de Poliestireno",
+        "description": "Aislamiento de poliestireno expandido y extruido."
+      },
+      "polyisocyanurate-insulation": {
+        "name": "Aislamiento de Poliisocianurato",
+        "description": "Placas y coquillas de aislamiento PIR."
+      },
+      "fasteners": {
+        "name": "Fijaciones",
+        "description": "Pernos, espárragos, tuercas y remaches en acero inoxidable y aleado."
+      },
+      "insulation-accessories": {
+        "name": "Accesorios de Aislamiento",
+        "description": "Flejes, clips, arandelas y otras fijaciones de aislamiento."
+      },
+      "steel-plates": {
+        "name": "Chapas de Acero",
+        "description": "Chapas de acero inoxidable y aleado."
+      },
+      "trading-division": {
+        "name": "División Comercial",
+        "description": "Suministro de acero inoxidable y materiales industriales."
+      }
+    },
+    "allCategories": "Todas las categorías de productos",
+    "viewAll": "Ver todos los productos",
+    "featured": "Nuestra gama principal",
+    "featuredCta": "Ver la gama SEPL",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "browseTitle": "Todas las Categorías de Productos",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "{name} de Santura Engineering, Bombay. Información detallada próximamente; consúltenos disponibilidad y precios.",
+    "comingSoon": "Próximamente",
+    "comingSoonTitle": "Información del producto próximamente",
+    "comingSoonText": "Estamos preparando información detallada de esta categoría. Para disponibilidad, medidas y precios, envíenos una consulta o solicite una cotización.",
+    "back": "Volver a todos los productos",
+    "otherCategories": "Otras categorías de productos",
+    "overviewTitle": "Categorías de Productos",
+    "overviewIntro": "Anclajes refractarios, materiales aislantes, fijaciones, componentes de hornos y elementos fabricados de Santura Engineering, Bombay.",
+    "overviewMetaTitle": "Categorías de Productos | Santura Engineering",
+    "overviewMetaDescription": "Categorías de productos de Santura Engineering, Bombay: anclajes refractarios, aislamiento, fijaciones, componentes de hornos y elementos fabricados."
+  },
+  "services": {
+    "items": {
+      "bright-solution-annealing": {
+        "name": "Recocido de Solubilización Brillante",
+        "description": "Recocido de solubilización en atmósfera protectora que deja el acero inoxidable brillante y sin cascarilla."
+      },
+      "pickling-and-passivation": {
+        "name": "Decapado y Pasivado",
+        "description": "Tratamiento químico que elimina la cascarilla y restablece la capa protectora de óxido del acero inoxidable."
+      },
+      "pmi-testing": {
+        "name": "Ensayo PMI",
+        "description": "Identificación positiva de materiales para verificar la aleación de componentes metálicos."
+      },
+      "stud-welding-solutions": {
+        "name": "Soldadura de Espárragos / con Pistola",
+        "description": "Apoyo en soldadura de espárragos y con pistola para instalar anclajes refractarios de forma rápida y uniforme."
+      }
+    },
+    "comingSoon": "Próximamente",
+    "comingSoonTitle": "Información del servicio próximamente",
+    "comingSoonText": "Estamos preparando información detallada sobre este servicio. Contáctenos para hablar de sus necesidades.",
+    "cta": "Contáctenos por este servicio",
+    "otherServices": "Otros servicios",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "{name} de Santura Engineering, Bombay. Información detallada próximamente; contáctenos para hablar de sus necesidades."
+  },
+  "bsaPage": {
+    "metaTitle": "Recocido de solubilización brillante para anclajes refractarios | Santura Engineering",
+    "metaDescription": "Recocido brillante al vacío para anclajes refractarios de acero inoxidable y aleaciones de níquel. Desde 1980, exporta a 25+ países. ISO 9001:2015.",
+    "eyebrow": "Tratamiento térmico",
+    "h1": "Recocido de solubilización brillante para anclajes refractarios",
+    "subheading": "Tratamiento térmico al vacío que restablece el equilibrio atómico de los anclajes de acero inoxidable y aleaciones de níquel deformados en frío y prolonga su vida útil.",
+    "ctaHero": "Solicite recocido brillante para sus anclajes",
+    "whatTitle": "¿Qué es el recocido de solubilización brillante?",
+    "what": [
+      "El recocido de solubilización calienta el acero inoxidable o la aleación de níquel por encima de su temperatura de solubilización, normalmente entre 1040 °C y 1230 °C según la aleación, lo mantiene el tiempo necesario para que la estructura recristalice y lo enfría rápidamente. Así se disuelven los carburos y otros precipitados y el metal recupera su microestructura original, totalmente austenítica.",
+      "En el recocido brillante el calentamiento se hace al vacío o en gas inerte como el argón. El oxígeno no llega a la superficie, de modo que los anclajes salen limpios y brillantes, sin cascarilla.",
+      "El recocido \"negro\" convencional al aire oscurece la superficie y forma cascarilla. Esta debe eliminarse después, y el metal perdido reduce la sección útil del anclaje, algo importante en alambre y fleje finos."
+    ],
+    "whyTitle": "Por qué importa en los anclajes refractarios",
+    "whyIntro": "Fabricar un anclaje implica trefilado en frío, doblado, conformado y soldadura. Cada paso deforma la red cristalina y deja tensiones internas almacenadas como dislocaciones. Sin tratamiento, estas tensiones hacen al anclaje vulnerable de tres maneras.",
+    "risks": [
+      {
+        "title": "Corrosión",
+        "text": "El metal deformado en frío y muy tensionado es más sensible a la corrosión bajo tensión y al ataque del azufre, los cloruros y los álcalis presentes en hornos y calderas."
+      },
+      {
+        "title": "Fragilización por fase sigma",
+        "text": "A temperaturas de servicio de unos 600–900 °C, el inoxidable deformado en frío forma fase sigma más rápido. Esta fase dura y frágil reduce mucho la tenacidad, y el anclaje puede agrietarse al enfriarse la instalación."
+      },
+      {
+        "title": "Menor vida útil",
+        "text": "Los anclajes tensionados pierden resistencia y fallan antes bajo ciclos de calentamiento y enfriamiento, a menudo antes de que toque renovar el propio revestimiento refractario."
+      }
+    ],
+    "whyResult": [
+      "El recocido brillante libera estas tensiones y devuelve los átomos a su separación de equilibrio, el estado en que la aleación rinde mejor a alta temperatura. También disuelve los carburos o la fase sigma ya presentes.",
+      "El resultado es un anclaje que resiste más tiempo la corrosión y la fragilización y conserva su resistencia mecánica a la temperatura de servicio."
+    ],
+    "tableTitle": "Parámetros de tratamiento por aleación",
+    "colAlloy": "Aleación",
+    "colTemp": "Temperatura (°C)",
+    "colCooling": "Enfriamiento",
+    "colNotes": "Observaciones",
+    "cooling": {
+      "waterOrAir": "Temple en agua o enfriamiento rápido al aire",
+      "water": "Temple en agua"
+    },
+    "notes": {
+      "ss304": "La aleación más habitual en anclajes",
+      "ss309": "Para temperaturas de servicio más altas",
+      "ss310": "La mayor temperatura de servicio de los inoxidables estándar",
+      "ss316": "Con molibdeno, mejor resistencia a la corrosión",
+      "ss321": "Estabilizado con titanio",
+      "ma253": "Inoxidable austenítico refractario con alta resistencia a la oxidación",
+      "a800": "Aleación de níquel, hierro y cromo",
+      "in601": "Aleación de níquel y cromo",
+      "in625": "Aleación compleja de níquel, cromo y molibdeno que requiere la mayor temperatura para recuperar el equilibrio"
+    },
+    "tableNote": "Cada aleación requiere su propia temperatura y tiempo de permanencia; unos parámetros incorrectos pueden dañar el material en lugar de mejorarlo. El proceso de Santura sigue la ASTM A240 y la especificación de material aplicable a cada aleación.",
+    "industriesTitle": "Sectores que se benefician",
+    "industries": [
+      {
+        "name": "Cementeras",
+        "text": "Anclajes de horno expuestos al ataque alcalino y a ciclos térmicos constantes."
+      },
+      {
+        "name": "Refinerías",
+        "text": "Anclajes de calentadores y unidades FCC en ambientes sulfurantes."
+      },
+      {
+        "name": "Petroquímica",
+        "text": "Anclajes de hornos de craqueo en atmósferas carburantes."
+      },
+      {
+        "name": "Valorización energética",
+        "text": "Anclajes de la cámara de poscombustión expuestos a la corrosión por cloruros."
+      },
+      {
+        "name": "Acerías",
+        "text": "Anclajes de cucharas y hornos de recalentamiento bajo alta carga mecánica."
+      }
+    ],
+    "verifyTitle": "Cómo verificar el tratamiento",
+    "verify": [
+      {
+        "title": "Ensayos de dureza y tracción",
+        "text": "El material recocido es más blando que el conformado. La dureza debe volver al rango recocido de la aleación (para SS304, igual o inferior al máximo ASTM A240 de 92 HRB) y la resistencia a la tracción debe quedar cerca del mínimo especificado, con la ductilidad recuperada."
+      },
+      {
+        "title": "Acabado superficial",
+        "text": "La superficie debe estar brillante, limpia y sin cascarilla ni coloración térmica."
+      },
+      {
+        "title": "Comparación con el certificado de material",
+        "text": "Comparar los resultados con el certificado de material original confirma que el material ha recuperado sus propiedades de recocido especificadas."
+      }
+    ],
+    "verifyQualityLink": "Vea cómo ensayamos y documentamos cada pedido",
+    "productsTitle": "Productos Santura que admiten recocido brillante",
+    "productGroups": [
+      {
+        "title": "Anclajes de acero inoxidable",
+        "text": "Todos los tipos de anclaje SEPL en SS304, SS309, SS310, SS316 y SS321."
+      },
+      {
+        "title": "Anclajes de aleaciones de alta temperatura",
+        "text": "Todos los tipos de anclaje SEPL en 253MA, Alloy 800H, Inconel 601 e Inconel 625."
+      },
+      {
+        "title": "Fibras de acero",
+        "text": "Fibras inoxidables de extracción en fusión y trefiladas en frío."
+      }
+    ],
+    "productCategoriesLabel": "Por tipo de revestimiento",
+    "productExamplesLabel": "Ejemplos",
+    "ctaTitle": "Solicite recocido de solubilización brillante",
+    "ctaText": "Envíe el plano o el código del anclaje, la aleación y la cantidad, y le cotizaremos la fabricación con recocido brillante.",
+    "ctaRfq": "Solicitar recocido brillante",
+    "ctaContact": "Hable con nuestro equipo técnico sobre el recocido brillante para su proyecto",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué diferencia hay entre el recocido brillante y el recocido negro?",
+        "a": "El recocido brillante se realiza al vacío o en gas inerte, por lo que la superficie queda limpia y sin óxido. El recocido negro se realiza al aire y forma cascarilla, que debe eliminarse y reduce la sección útil del anclaje."
+      },
+      {
+        "q": "¿Qué aleaciones admiten recocido brillante?",
+        "a": "Todos los aceros inoxidables austeníticos usados en anclajes refractarios (304, 309, 310, 316 y 321), la aleación refractaria 253MA y las aleaciones de níquel 800H, 601 y 625."
+      },
+      {
+        "q": "¿Cómo se comprueba que el recocido se hizo correctamente?",
+        "a": "Con ensayos de dureza y tracción. El material tratado debe ser más blando que el no tratado, con la dureza en el rango recocido y la resistencia cerca del mínimo especificado. La superficie también debe quedar brillante y sin cascarilla."
+      },
+      {
+        "q": "¿El recocido brillante alarga la vida de los anclajes?",
+        "a": "Sí. Al eliminar las tensiones del conformado en frío y restablecer el equilibrio atómico, los anclajes tratados resisten la corrosión y la fragilización por fase sigma mucho mejor que los no tratados."
+      }
+    ],
+    "bothOffered": "Ofrecemos recocido de solubilización brillante (al vacío) y estándar (al aire)."
+  },
+  "ppPage": {
+    "metaTitle": "Decapado y pasivado de anclajes refractarios | ASTM A380 A967 | Santura Engineering",
+    "metaDescription": "Decapado y pasivado de anclajes refractarios de acero inoxidable según ASTM A380 y A967. Desde 1980, exporta a 25+ países. ISO 9001:2015.",
+    "eyebrow": "Tratamiento superficial",
+    "h1": "Decapado y pasivado de anclajes refractarios de acero inoxidable",
+    "subheading": "Limpieza ácida y tratamiento superficial que eliminan la cascarilla de soldadura, la coloración térmica y los contaminantes incrustados, y restablecen toda la resistencia a la corrosión antes de la instalación.",
+    "ctaHero": "Solicitar decapado y pasivado",
+    "whatTitle": "¿Qué son el decapado y el pasivado?",
+    "whatIntro": "Son dos procesos distintos. Cuando se piden ambos, primero se decapa y después se pasiva.",
+    "pickling": {
+      "title": "Decapado",
+      "points": [
+        "Un tratamiento ácido agresivo, normalmente con una mezcla de ácido nítrico y fluorhídrico.",
+        "Elimina la cascarilla de soldadura, la coloración térmica, las capas de óxido, las partículas de hierro incrustadas y otras contaminaciones del soldado, el corte, el amolado y el doblado.",
+        "Disuelve una fina capa de la propia superficie y deja al descubierto el metal base limpio.",
+        "Deja un acabado mate uniforme, sin decoloraciones ni contaminantes.",
+        "Se aplica por inmersión en tanque para piezas completas, por pulverización para grandes conjuntos o trabajos en obra, o con gel a brocha en soldaduras y zonas pequeñas."
+      ]
+    },
+    "passivation": {
+      "title": "Pasivado",
+      "points": [
+        "Un tratamiento ácido más suave, con ácido nítrico o cítrico.",
+        "No elimina metal: solo retira el hierro libre y otros contaminantes superficiales.",
+        "Favorece la formación de la capa pasiva natural de óxido de cromo que da al acero inoxidable su resistencia a la corrosión.",
+        "La capa pasiva se forma sola en el aire, pero en superficies recién fabricadas ese proceso puede verse afectado. El pasivado asegura que se forme de manera completa y uniforme.",
+        "Después del decapado, el pasivado reconstruye la capa protectora sobre la superficie limpia. También puede pedirse solo, para piezas que no necesitan desincrustación."
+      ]
+    },
+    "whyTitle": "Por qué importa en los anclajes refractarios",
+    "whyIntro": "Los anclajes se cortan, se amolan, se doblan en forma de V e Y y se sueldan a envolventes de hornos y conductos. Cada paso daña la superficie de una manera distinta.",
+    "damage": [
+      {
+        "title": "Coloración térmica de la soldadura",
+        "text": "El óxido coloreado alrededor de una soldadura se forma extrayendo cromo del metal que hay justo debajo. En esa zona empobrecida en cromo la capa pasiva no puede formarse bien."
+      },
+      {
+        "title": "Amolado",
+        "text": "Los discos de amolar y las herramientas de acero al carbono dejan partículas de hierro incrustadas que se oxidan e inician la corrosión en una superficie inoxidable."
+      },
+      {
+        "title": "Corte",
+        "text": "Los bordes cortados son rugosos y están tensionados, y la corrosión empieza allí primero."
+      }
+    ],
+    "whyResult": [
+      "Sin tratamiento, estas zonas dañadas son los primeros puntos de fallo en servicio a alta temperatura, y las zonas empobrecidas en cromo alrededor de las soldaduras son las más vulnerables.",
+      "El decapado elimina por completo la capa dañada y el pasivado reconstruye la película de óxido de cromo sobre la superficie limpia. El resultado es un anclaje con una resistencia a la corrosión uniforme en toda su superficie, incluidas soldaduras y doblados."
+    ],
+    "standardsTitle": "Normas aplicables",
+    "colStandard": "Norma",
+    "colCovers": "Ámbito",
+    "standards": {
+      "a380": "Standard Practice for Cleaning, Descaling and Passivation of Stainless Steel Parts, Equipment and Systems. Cubre la limpieza y el decapado.",
+      "a967": "Standard Specification for Chemical Passivation Treatments for Stainless Steel Parts. Cubre los tratamientos de pasivado y su verificación.",
+      "verify": "Ensayo de sulfato de cobre, que confirma que la superficie está libre de contaminación por hierro y correctamente pasivada."
+    },
+    "verifyLabel": "Verificación",
+    "materialsTitle": "Materiales que tratamos",
+    "materials": [
+      {
+        "title": "Aceros inoxidables austeníticos",
+        "text": "SS304, SS304L, SS309, SS310, SS310S, SS316, SS316L, SS321 y SS347."
+      },
+      {
+        "title": "Aleaciones de alta temperatura",
+        "text": "253MA, Alloy 800H, Inconel 601 e Inconel 625. La ASTM A967 solo cubre aceros inoxidables, por lo que las aleaciones de níquel se tratan según el procedimiento del fabricante de la aleación."
+      },
+      {
+        "title": "Aceros inoxidables dúplex",
+        "text": "Bajo pedido, con una química adecuada a la aleación."
+      }
+    ],
+    "carbonSteelNote": "Las piezas de acero al carbono no se decapan con la misma química: los ácidos de decapado del inoxidable son muy corrosivos para el acero al carbono.",
+    "methodsTitle": "Métodos de tratamiento",
+    "methods": [
+      {
+        "title": "Inmersión en tanque",
+        "text": "Todo el lote de anclajes se sumerge en el tanque de ácido. Ideal para grandes volúmenes de piezas pequeñas y medianas."
+      },
+      {
+        "title": "Decapado por pulverización",
+        "text": "El ácido se pulveriza sobre conjuntos fabricados grandes. Adecuado para trabajos en obra y componentes sobredimensionados."
+      },
+      {
+        "title": "Gel a brocha",
+        "text": "Pasta aplicada en soldaduras o puntos concretos. Para reparaciones en obra y el tratamiento localizado de zonas afectadas por el calor."
+      }
+    ],
+    "methodsNote": "Las piezas deben desengrasarse y limpiarse de aceite, grasa y otra contaminación orgánica antes del tratamiento ácido. El decapado y el pasivado no eliminan aceite ni grasa.",
+    "whenTitle": "Cuándo especificar decapado y pasivado",
+    "when": [
+      "Después de soldar los anclajes a envolventes de hornos o conductos.",
+      "Después de un tratamiento térmico: el decapado elimina la cascarilla del recocido de solubilización al aire, y las piezas con recocido brillante pueden pasivarse si se especifica.",
+      "Cuando los anclajes muestran coloración térmica o decoloración visible en las soldaduras.",
+      "Cuando los anclajes han estado en contacto con herramientas de acero al carbono durante la fabricación.",
+      "Para servicio crítico en refinerías y plantas petroquímicas, y en fabricaciones de inoxidable para las industrias farmacéutica y alimentaria.",
+      "Cuando la especificación del cliente final exige cumplir la ASTM A380 o A967."
+    ],
+    "relatedTitle": "Relación con nuestros otros servicios",
+    "relatedBsaTitle": "Después del recocido brillante",
+    "relatedBsaText": "El recocido de solubilización brillante restablece la estructura interna del metal; el pasivado restablece después la protección de su superficie. Ambos se complementan.",
+    "relatedPmiTitle": "Antes del ensayo PMI",
+    "relatedPmiText": "Una superficie limpia y pasivada da lecturas PMI más fiables que una cubierta de cascarilla o contaminación.",
+    "productsTitle": "Productos Santura que tratamos",
+    "products": {
+      "anchors": "Todos los anclajes refractarios SEPL",
+      "fibres": "Fibras de acero inoxidable",
+      "counterweights": "Sistemas de contrapeso",
+      "fasteners": "Fijaciones y espárragos",
+      "fabrication": "Cualquier fabricación de acero inoxidable"
+    },
+    "productExamplesLabel": "Ejemplos",
+    "qualityLink": "Vea cómo ensayamos y documentamos cada pedido",
+    "ctaTitle": "Solicite decapado y pasivado",
+    "ctaText": "Envíe el plano o el código de producto, la aleación, la cantidad y la norma que debe cumplir, y le cotizaremos el tratamiento.",
+    "ctaRfq": "Solicitar decapado y pasivado",
+    "ctaContact": "Hable de sus requisitos de tratamiento superficial",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué diferencia hay entre decapado y pasivado?",
+        "a": "El decapado es un tratamiento ácido agresivo que elimina la cascarilla de soldadura, la coloración térmica y una fina capa de metal. El pasivado es un tratamiento ácido más suave que elimina el hierro libre y ayuda a que vuelva a formarse la capa protectora de óxido de cromo. Normalmente se hacen uno tras otro."
+      },
+      {
+        "q": "¿Por qué los anclajes refractarios necesitan decapado y pasivado?",
+        "a": "La soldadura, el doblado y el corte dañan la superficie y empobrecen en cromo la zona afectada por el calor. Sin tratamiento, esas zonas son las primeras en corroerse en servicio a alta temperatura."
+      },
+      {
+        "q": "¿Qué normas se aplican al decapado y al pasivado?",
+        "a": "La ASTM A380 cubre la limpieza y el decapado. La ASTM A967 cubre los tratamientos de pasivado y su verificación; el ensayo de sulfato de cobre (Practice D) confirma que la superficie está correctamente pasivada."
+      },
+      {
+        "q": "¿Se puede decapar y pasivar en obra?",
+        "a": "Sí. El decapado por pulverización y el gel a brocha permiten tratar en obra conjuntos soldados y grandes fabricaciones."
+      }
+    ]
+  },
+  "pmiPage": {
+    "metaTitle": "Ensayo PMI de anclajes refractarios | Verificación de aleaciones | Santura Engineering",
+    "metaDescription": "Ensayo PMI de anclajes refractarios con analizadores XRF y OES. Verificación de aleaciones desde 1980, exporta a 25+ países. ISO 9001:2015.",
+    "eyebrow": "Servicio de ensayo",
+    "h1": "Ensayo PMI de anclajes refractarios",
+    "subheading": "Identificación positiva de materiales que confirma que cada anclaje está fabricado con la aleación especificada, desde la recepción de la materia prima hasta el envío.",
+    "ctaHero": "Solicitar ensayo PMI",
+    "pmiLinkFromQuality": "Más sobre nuestro servicio de ensayo PMI",
+    "whatTitle": "¿Qué es el ensayo PMI?",
+    "what": [
+      "La identificación positiva de materiales (PMI) es un ensayo no destructivo que mide la composición elemental de un metal y confirma su aleación. Se realiza con un analizador portátil de fluorescencia de rayos X (XRF) o un espectrómetro de emisión óptica (OES).",
+      "El analizador lee la composición en segundos y la compara con una biblioteca de aleaciones. No se corta, taladra ni daña nada, así que los anclajes terminados pueden ensayarse y enviarse."
+    ],
+    "whyTitle": "Por qué importa en los anclajes refractarios",
+    "why": [
+      {
+        "title": "La aleación equivocada falla en servicio",
+        "text": "Un anclaje de SS304 donde se especificó SS310 puede oxidarse, perder resistencia y fallar a la temperatura del horno, arrastrando el revestimiento refractario."
+      },
+      {
+        "title": "Las confusiones ocurren",
+        "text": "Los materiales pueden confundirse en fabricación, almacén o envío. Las etiquetas pueden estar mal y los certificados de material asignarse al lote equivocado."
+      },
+      {
+        "title": "El último control antes del envío",
+        "text": "El PMI es la verificación final de que cada anclaje que sale de fábrica es de la aleación que pidió el cliente."
+      },
+      {
+        "title": "Exigido por los usuarios finales",
+        "text": "Las refinerías y plantas petroquímicas suelen aplicar programas de verificación de materiales basados en la API RP 578 y piden informes PMI antes de aceptar materiales en obra."
+      }
+    ],
+    "methodsTitle": "Métodos de ensayo",
+    "methods": [
+      {
+        "title": "XRF portátil",
+        "text": "La fluorescencia de rayos X portátil da una lectura en segundos, en cualquier punto de la planta. Es el método estándar para materia prima, piezas en proceso y anclajes terminados."
+      },
+      {
+        "title": "OES (espectrometría de emisión óptica)",
+        "text": "La OES por chispa también mide carbono y elementos ligeros. Es más lenta, menos portátil y deja una pequeña marca, por lo que se usa cuando hay que confirmar el contenido de carbono."
+      },
+      {
+        "title": "Análisis de laboratorio",
+        "text": "Cuando una especificación exige un análisis químico completo, las muestras se analizan en laboratorios externos acreditados por NABL."
+      }
+    ],
+    "limitationTitle": "Lo que el XRF no ve",
+    "limitationText": "El XRF no detecta carbono, por lo que no distingue el SS316 del SS316L ni el SS304 del SS304L. Cuando hay que confirmar aleaciones de bajo carbono se usa OES o análisis de laboratorio.",
+    "standardsTitle": "Normas aplicables",
+    "colStandard": "Norma",
+    "colCovers": "Ámbito",
+    "standards": {
+      "rp578": "Material Verification Program for New and Existing Alloy Piping Systems. Base de la mayoría de los requisitos PMI en refinerías y petroquímicas.",
+      "e1476": "Standard Guide for Metals Identification, Grade Verification and Sorting.",
+      "specs": "Especificaciones de material para chapa, fleje, barra y alambre. Los resultados PMI se comparan con los límites químicos de estas especificaciones."
+    },
+    "alloysTitle": "Aleaciones que verificamos",
+    "colGrade": "Aleación",
+    "colElements": "Elementos clave comprobados",
+    "colComposition": "Composición nominal (%)",
+    "carbonSteel": "Acero al carbono",
+    "carbonSteelComposition": "Hierro, sin contenido significativo de cromo ni níquel",
+    "alloysNote": "Rangos nominales de las especificaciones de material ASTM. Los elementos ligeros como el aluminio y las adiciones en trazas como el cerio se confirman con el certificado de material. El PMI también comprueba que no se ha mezclado material de envolvente de acero al carbono con los anclajes de aleación.",
+    "whenTitle": "Cuándo realizamos el PMI",
+    "when": [
+      {
+        "title": "Recepción de materia prima",
+        "text": "La chapa, el alambre y la barra se verifican al recibirse, antes de entrar en producción."
+      },
+      {
+        "title": "Durante la fabricación",
+        "text": "Los controles en proceso detectan cualquier confusión entre operaciones."
+      },
+      {
+        "title": "Inspección final",
+        "text": "Los anclajes terminados se verifican de nuevo antes del embalaje y el envío."
+      },
+      {
+        "title": "A petición del cliente",
+        "text": "Los certificados PMI se entregan con el pedido, y los ensayos pueden ser presenciados por su inspector."
+      }
+    ],
+    "docsTitle": "Documentación entregada",
+    "docs": [
+      "Informe PMI con el porcentaje medido de cada elemento",
+      "Confirmación de la aleación frente a la especificación pedida",
+      "Trazabilidad por número de colada hasta el certificado de material",
+      "Certificados de material originales EN 10204 3.1"
+    ],
+    "relatedTitle": "Servicios relacionados",
+    "relatedBsaText": "Tratamiento térmico que restablece la estructura interna de los anclajes deformados en frío.",
+    "relatedPpText": "Una superficie limpia y pasivada da lecturas PMI más fiables.",
+    "qualityLink": "Vea cómo ensayamos y documentamos cada pedido",
+    "ctaTitle": "Solicite ensayo PMI",
+    "ctaText": "Indíquenos los productos, las aleaciones y las cantidades, y si necesita certificados PMI o ensayos presenciados, y lo incluiremos en nuestra cotización.",
+    "ctaRfq": "Solicitar ensayo PMI",
+    "ctaContact": "Hable de sus requisitos de verificación de materiales",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué detecta el ensayo PMI?",
+        "a": "Los elementos de aleación que identifican una calidad, como cromo, níquel, molibdeno, titanio, niobio y manganeso, y silicio con analizadores adecuados. El analizador asigna la composición medida a una aleación."
+      },
+      {
+        "q": "¿Por qué se necesita PMI en los anclajes refractarios?",
+        "a": "Un anclaje de la aleación equivocada puede fallar a la temperatura del horno y hacer caer el revestimiento. El PMI confirma que cada anclaje es de la calidad especificada, y muchas refinerías y plantas petroquímicas exigen informes PMI antes de aceptar el material."
+      },
+      {
+        "q": "¿El PMI distingue el SS316 del SS316L?",
+        "a": "No con XRF, que no detecta carbono. Cuando hay que confirmar el contenido de carbono de una aleación de bajo carbono se usa OES o análisis de laboratorio."
+      },
+      {
+        "q": "¿Qué documentación entregan?",
+        "a": "Un informe PMI con los porcentajes medidos de cada elemento, la confirmación de la aleación frente a la especificación y la trazabilidad por número de colada hasta el certificado de material original."
+      }
+    ]
+  },
+  "swPage": {
+    "metaTitle": "Soldadura de espárragos para anclajes refractarios | Santura Engineering",
+    "metaDescription": "Soldadura de espárragos para anclajes refractarios: arco estirado y descarga de condensador, férulas y procedimientos. Desde 1980, exporta a 25+ países.",
+    "eyebrow": "Servicio de instalación",
+    "h1": "Soluciones de soldadura de espárragos para anclajes refractarios",
+    "subheading": "Anclajes, equipos de soldadura de espárragos, férulas cerámicas y procedimientos de soldadura para una instalación rápida y fiable en envolventes de hornos y recipientes.",
+    "ctaHero": "Solicitar apoyo en soldadura de espárragos",
+    "whatTitle": "¿Qué es la soldadura de espárragos?",
+    "what": [
+      "La soldadura de espárragos fija un anclaje refractario directamente a la envolvente de un horno o recipiente mediante un arco eléctrico, en una fracción de segundo y sin taladrar.",
+      "La pistola sujeta el anclaje contra la envolvente y ceba un arco que funde el extremo del espárrago y una pequeña zona de la envolvente. Después introduce el espárrago en el baño fundido, que solidifica en una soldadura de sección completa.",
+      "En la soldadura por arco estirado, una férula cerámica rodea la soldadura, contiene el metal fundido y lo protege del aire."
+    ],
+    "compareTitle": "Comparación de procesos de soldadura de espárragos",
+    "colFeature": "Característica",
+    "processes": {
+      "da": "Arco estirado",
+      "sc": "Ciclo corto",
+      "cd": "Descarga de condensador"
+    },
+    "compareRows": [
+      {
+        "label": "Diámetro del espárrago",
+        "da": "3–25 mm",
+        "sc": "Espárragos pequeños y medianos",
+        "cd": "Hasta 10 mm"
+      },
+      {
+        "label": "Espesor del material base",
+        "da": "Desde unos 2 mm",
+        "sc": "Chapa más fina que en arco estirado",
+        "cd": "Desde unos 0,7 mm"
+      },
+      {
+        "label": "Tiempo de soldadura",
+        "da": "Décimas de segundo hasta 1 segundo aprox.",
+        "sc": "Hasta 100 ms",
+        "cd": "Pocos milisegundos"
+      },
+      {
+        "label": "Férula cerámica",
+        "da": "Sí",
+        "sc": "No; puede usarse gas de protección en inoxidable",
+        "cd": "No"
+      },
+      {
+        "label": "Uso típico",
+        "da": "Anclajes refractarios en envolventes de hornos; penetración profunda, alta resistencia",
+        "sc": "Anclajes y espárragos ligeros cuando prima la rapidez",
+        "cd": "Pines de aislamiento y espárragos para fibra cerámica; marca mínima en el reverso"
+      }
+    ],
+    "compareNote": "El arco estirado es el método principal para anclajes refractarios en envolventes de hornos. Una soldadura por arco estirado bien hecha es más resistente que el propio espárrago: en un ensayo de doblado o tracción rompe el espárrago, no la soldadura.",
+    "whyTitle": "Por qué importa la calidad de soldadura en servicio refractario",
+    "why": [
+      {
+        "title": "La soldadura sostiene el revestimiento",
+        "text": "Los anclajes se sueldan a envolventes de acero al carbono o inoxidable antes de instalar el revestimiento. Cada kilo de refractario cuelga de esas soldaduras."
+      },
+      {
+        "title": "Una mala soldadura falla primero",
+        "text": "Una soldadura con falta de fusión o porosidad se agrieta con los ciclos térmicos mucho antes de que se desgasten el anclaje o el refractario."
+      },
+      {
+        "title": "El proceso adecuado para cada anclaje",
+        "text": "Los anclajes para hormigón con base de espárrago requieren arco estirado, los espárragos para fibra cerámica y los pines de aislamiento descarga de condensador, y algunos anclajes están pensados para soldadura manual o atornillado."
+      },
+      {
+        "title": "En las paradas no hay tiempo para repetir",
+        "text": "La mayoría de las instalaciones se hacen en paradas de planta. La capacidad de soldar en obra y los parámetros correctos desde el primer anclaje mantienen el plazo."
+      }
+    ],
+    "productsTitle": "Qué productos Santura usan cada método",
+    "methods": {
+      "da": {
+        "title": "Soldadura por arco estirado / con pistola",
+        "text": "Anclajes con base de espárrago o soldables con pistola. En SEPL-08 y SEPL-20 algunas versiones se sueldan como espárrago y otras a mano o atornilladas; los conectores SEPL-16 se suministran con fundente de aluminio para soldadura de espárragos."
+      },
+      "sc": {
+        "title": "Ciclo corto (Rapid Arc)",
+        "text": "Espárragos ranurados para hormigones ligeros."
+      },
+      "cd": {
+        "title": "Descarga de condensador",
+        "text": "Espárragos para fibra cerámica, espárragos roscados soldables y pines de aislamiento."
+      },
+      "manual": {
+        "title": "Soldadura manual por arco",
+        "text": "Anclajes diseñados para la soldadura manual tradicional."
+      },
+      "screw": {
+        "title": "Roscados y atornillados",
+        "text": "Anclajes montados sobre tuercas o roscados sobre espárragos presoldados. El SEPL-25 también existe en versión atornillable."
+      }
+    },
+    "alloysLine": "Todos los métodos están disponibles para anclajes de acero al carbono, SS304, SS309, SS310, SS316, SS321, 253MA, Alloy 800H e Inconel.",
+    "offerTitle": "Qué suministramos",
+    "offer": [
+      {
+        "title": "Anclajes listos para instalar",
+        "text": "Anclajes con base de espárrago o espárragos presoldados, preparados para soldar en obra."
+      },
+      {
+        "title": "Equipos y consumibles",
+        "text": "Equipos de soldadura de espárragos, férulas cerámicas y pinzas adecuados a los anclajes pedidos."
+      },
+      {
+        "title": "Asesoría técnica",
+        "text": "Parámetros de soldadura recomendados para cada aleación y tipo de anclaje."
+      },
+      {
+        "title": "Especificaciones de procedimiento de soldadura",
+        "text": "Una WPS para cada combinación de aleación del anclaje y material de la envolvente."
+      }
+    ],
+    "standardsTitle": "Normas aplicables",
+    "colStandard": "Norma",
+    "colCovers": "Ámbito",
+    "standards": {
+      "d11": "Structural Welding Code – Steel, incluida la sección sobre soldadura de espárragos.",
+      "d16": "Structural Welding Code – Stainless Steel, incluida la soldadura de espárragos de inoxidable.",
+      "iso": "Soldeo – Soldeo por arco de espárragos de materiales metálicos.",
+      "c54": "Recommended Practices for Stud Welding."
+    },
+    "relatedTitle": "Servicios relacionados",
+    "relatedBsaText": "Restablece la estructura interna de los anclajes deformados en frío antes de la soldadura y el servicio.",
+    "relatedPpText": "Elimina la coloración térmica y restablece la resistencia a la corrosión alrededor de las soldaduras.",
+    "relatedPmiText": "Confirma la aleación de cada anclaje antes de soldarlo.",
+    "ctaTitle": "Planifique con nosotros la instalación de sus anclajes",
+    "ctaText": "Indíquenos los tipos de anclaje, las aleaciones, las cantidades y el material de la envolvente, y si necesita equipos, férulas o una WPS. Le cotizaremos el paquete completo.",
+    "ctaRfq": "Solicitar apoyo en soldadura de espárragos",
+    "ctaContact": "Hable de su instalación con nuestro equipo técnico",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué diferencia hay entre arco estirado y descarga de condensador?",
+        "a": "El arco estirado usa un arco más largo y una férula cerámica para soldar espárragos grandes, hasta unos 25 mm, sobre envolventes desde unos 2 mm, con penetración profunda y alta resistencia. La descarga de condensador suelda espárragos más pequeños, hasta unos 10 mm, en pocos milisegundos y sin férula, y sirve para material fino desde unos 0,7 mm."
+      },
+      {
+        "q": "¿Qué método se usa para cada tipo de anclaje?",
+        "a": "Los anclajes para hormigón con base de espárrago o soldables con pistola, como SEPL-06, SEPL-13 y SEPL-18, se sueldan por arco estirado. Los espárragos para fibra cerámica (SEPL-24), los espárragos roscados soldables (SEPL-25) y los pines de aislamiento, por descarga de condensador. Algunos anclajes, como SEPL-07 y SEPL-09, están pensados para soldadura manual."
+      },
+      {
+        "q": "¿Se pueden suministrar los anclajes listos para soldar en obra?",
+        "a": "Sí. Los anclajes se suministran con base de espárrago o espárragos presoldados preparados para la instalación en obra, junto con las férulas correspondientes y los parámetros de soldadura recomendados."
+      },
+      {
+        "q": "¿Qué tamaños de férula cerámica hay?",
+        "a": "Las férulas se ajustan al diámetro del espárrago y a la superficie que se suelda, como chapa plana o tubo. Indíquenos el diámetro del espárrago y la geometría de la envolvente y suministraremos las férulas correspondientes con los anclajes."
+      }
+    ]
   }
 }

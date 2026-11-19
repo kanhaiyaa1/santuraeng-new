@@ -10,6 +10,8 @@ import { getProduct } from '@/content/products';
 import { COUNTRIES, contentFor, getCountry, localized, type Country } from '@/content/countries';
 import { btnPrimary } from '@/lib/ui';
 import WhatsAppLink from '@/components/WhatsAppLink';
+import { SHIPPING_PHOTOS } from '@/lib/photos';
+import PhotoGrid from '@/components/PhotoGrid';
 
 type Props = { params: { locale: string; country: string } };
 
@@ -80,7 +82,7 @@ export default async function CountryPage({ params: { locale, country: slug } }:
       logo: `${siteUrl}/images/logo.jpg`,
       foundingDate: String(SITE.foundingYear),
       email: SITE.generalEmail,
-      telephone: SITE.contacts[0].tel,
+      telephone: SITE.phone.tel,
       address: {
         '@type': 'PostalAddress',
         streetAddress: SITE.headOffice.street,
@@ -317,6 +319,9 @@ export default async function CountryPage({ params: { locale, country: slug } }:
                 <li key={n}>{n}</li>
               ))}
             </ul>
+            <div className="mt-6">
+              <PhotoGrid keys={SHIPPING_PHOTOS} cols="grid-cols-2" />
+            </div>
           </div>
           <div className="lg:col-span-2">
             <h2 className={h2}>{t('qualityTitle')}</h2>

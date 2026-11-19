@@ -8,12 +8,14 @@
     "quality": "Qualität",
     "contact": "Kontakt",
     "privacy": "Datenschutz",
-    "disclaimer": "Haftungsausschluss"
+    "disclaimer": "Haftungsausschluss",
+    "services": "Leistungen",
+    "refractoryAnchors": "Feuerfestanker"
   },
   "hero": {
     "eyebrow": "Santura Engineering Pvt. Ltd. · Mumbai, Indien",
     "title": "Hersteller & Exporteur von Feuerfestankern",
-    "subtitle": "Feuerfestanker, Faserbolzen und Edelstahlfasern für Stein-, Beton- und Keramikfaserauskleidungen – gefertigt in Mumbai und über den Hafen Nhava Sheva an internationale Projekte geliefert.",
+    "subtitle": "Feuerfestanker, Keramikfaserbolzen, Gegengewichtssysteme, Dämmstoffe, Schaulochtüren und Zubehör – gefertigt in Mumbai und über den Hafen Nhava Sheva an internationale Projekte geliefert.",
     "imageAlt": "Raffinerieanlagen mit feuerfest ausgekleideten Kolonnen und Öfen"
   },
   "cta": {
@@ -247,7 +249,8 @@
     "sending": "Wird gesendet…",
     "success": "Vielen Dank. Wir melden uns in Kürze bei Ihnen.",
     "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
-    "productPrefix": "Produkt"
+    "productPrefix": "Produkt",
+    "servicePrefix": "Leistung"
   },
   "rfqPage": {
     "title": "Angebot für Feuerfestanker anfordern",
@@ -332,6 +335,11 @@
         "text": "Herr Bharat Diwan, Fertigungsingenieur, gründet das Unternehmen."
       },
       {
+        "year": "1981",
+        "title": "Gegengewichtssysteme",
+        "text": "Beginn der Fertigung von Gegengewichtssystemen und weiteren Stahlbauteilen."
+      },
+      {
         "year": "2005",
         "title": "Feuerfestanker",
         "text": "Beginn der Fertigung von Feuerfestankern."
@@ -371,7 +379,9 @@
     "productsLink": "Alle Produkte ansehen",
     "exportTitle": "Export",
     "exportText": "Wir exportieren in über 25 Länder im Nahen Osten, in Europa und auf dem amerikanischen Kontinent, mit Versand ab Nhava Sheva und vollständiger Dokumentation.",
-    "exportLink": "Ihr Land finden"
+    "exportLink": "Ihr Land finden",
+    "galleryTitle": "Einblick in unser Werk",
+    "galleryIntro": "Rohmaterial, fertige Anker, Verpackung und Versand bei Santura Engineering."
   },
   "qualityPage": {
     "metaTitle": "Qualität, Prüfung & Zertifizierung | Santura Engineering",
@@ -436,7 +446,8 @@
       "DIN17440": "Nichtrostende Stähle: technische Lieferbedingungen für Blech, Stäbe und Draht"
     },
     "clientCertsTitle": "Kundenzertifikate",
-    "clientCertsText": "Zertifikate und Referenzschreiben unserer Kunden werden hier veröffentlicht."
+    "clientCertsText": "Zertifikate und Referenzschreiben unserer Kunden werden hier veröffentlicht.",
+    "photosTitle": "Prüfung in der Praxis"
   },
   "privacyPage": {
     "metaTitle": "Datenschutzerklärung | Santura Engineering",
@@ -613,5 +624,695 @@
       "country": "Länder",
       "page": "Seiten"
     }
+  },
+  "photos": {
+    "cartonsBulk": "Kartons für die Verpackung",
+    "containerCartons": "Folienverpackte Exportkartons im Container",
+    "xrfHandheld": "Handgehaltenes RFA-Gerät prüft die Legierung",
+    "crateBulk": "Exportkiste mit Holzwolle",
+    "cartonsDispatch": "In Kartons verpackte Bauteile für den Versand",
+    "componentsPacked": "Metallbauteile in ausgekleideten Kartons",
+    "anchorsWavy": "Feuerfestanker in der Fertigung",
+    "anchorsBent": "Gebogene Stahlankerstäbe",
+    "tubesStock": "Lager für Stahlrohre",
+    "wireCoilsStock": "Stahldrahtcoils im Lager",
+    "dispatchTeam": "Unser Versandteam",
+    "cratesContainer": "Holzkisten für den Export verladen",
+    "workerPacking": "Verpackung von Bauteilen im Lager",
+    "truckDispatch": "Beladung eines Lkw für den Versand",
+    "containerPallets": "Palettierte Kartons im Seecontainer",
+    "factoryExterior": "Werk von Santura Engineering, MIDC Tarapur",
+    "xrfTesting": "Legierungsprüfung mit RFA-Analysegerät",
+    "workshopStock": "Stahlbauteile in der Werkstatt",
+    "rodCaliper": "Prüfung des Stabdurchmessers mit dem Messschieber",
+    "wireXrf": "Prüfung der Drahtlegierung",
+    "wireCoilsBulk": "Drahtcoil-Lager",
+    "wireCoilsInventory": "Drahtcoil-Bestand",
+    "wireCaliper": "Messung des Drahtdurchmessers mit dem Messschieber",
+    "cratePacking": "Schutzverpackung von Bauteilen in Kisten"
+  },
+  "productCategories": {
+    "items": {
+      "refractory-anchors": {
+        "name": "Feuerfestanker",
+        "description": "SEPL-Anker für Stein-, Beton-, Doppel- und Keramikfaserauskleidungen."
+      },
+      "observation-peep-doors": {
+        "name": "Schaulochtüren",
+        "description": "Schau- und Beobachtungstüren für Öfen, Erhitzer und Kessel."
+      },
+      "foundation-bolts": {
+        "name": "Fundamentbolzen",
+        "description": "Anker- und Fundamentbolzen für Bauwerke und Anlagen."
+      },
+      "support-plates": {
+        "name": "Auflageplatten",
+        "description": "Grund- und Auflageplatten nach Zeichnung."
+      },
+      "industrial-stanchions": {
+        "name": "Industriepfosten",
+        "description": "Pfosten und Stützen für Bühnen und Geländer."
+      },
+      "pipe-guides-sleeves": {
+        "name": "Rohrführungen & Hülsen",
+        "description": "Rohrführungen und Ringhülsen für befeuerte Erhitzer."
+      },
+      "counter-weight-systems": {
+        "name": "Gegengewichtssysteme",
+        "description": "Gegengewichtsbaugruppen zur Abstützung von Erhitzerrohren."
+      },
+      "mineral-wool": {
+        "name": "Mineralwolle",
+        "description": "Dämmprodukte aus Stein- und Mineralwolle."
+      },
+      "ceramic-gaskets": {
+        "name": "Keramikdichtungen",
+        "description": "Hochtemperaturdichtungen aus Keramikfaser."
+      },
+      "glass-fibre-sheets": {
+        "name": "Glasfaserplatten",
+        "description": "Glasfaserplatten, -gewebe und Glaswolle."
+      },
+      "calcium-silicate": {
+        "name": "Calciumsilikat",
+        "description": "Calciumsilikatplatten und Rohrschalen."
+      },
+      "insulation-pins": {
+        "name": "Dämmstoffnägel",
+        "description": "Schweißstifte und Klammern zur Befestigung von Dämmung."
+      },
+      "polystyrene-insulation": {
+        "name": "Polystyrol-Dämmung",
+        "description": "Dämmung aus expandiertem und extrudiertem Polystyrol."
+      },
+      "polyisocyanurate-insulation": {
+        "name": "Polyisocyanurat-Dämmung",
+        "description": "PIR-Dämmplatten und Rohrschalen."
+      },
+      "fasteners": {
+        "name": "Verbindungselemente",
+        "description": "Schrauben, Bolzen, Muttern und Nieten aus Edel- und legiertem Stahl."
+      },
+      "insulation-accessories": {
+        "name": "Dämmzubehör",
+        "description": "Bänder, Klammern, Scheiben und weiteres Befestigungszubehör."
+      },
+      "steel-plates": {
+        "name": "Stahlbleche",
+        "description": "Bleche aus Edelstahl und legiertem Stahl."
+      },
+      "trading-division": {
+        "name": "Handelsabteilung",
+        "description": "Lieferung von Edelstahl und Industriematerialien."
+      }
+    },
+    "allCategories": "Alle Produktkategorien",
+    "viewAll": "Alle Produkte ansehen",
+    "featured": "Unser Kernsortiment",
+    "featuredCta": "SEPL-Sortiment ansehen",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "browseTitle": "Alle Produktkategorien",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "{name} von Santura Engineering, Mumbai. Ausführliche Produktinformationen folgen in Kürze; fragen Sie Verfügbarkeit und Preise bei uns an.",
+    "comingSoon": "Demnächst",
+    "comingSoonTitle": "Produktinformationen folgen in Kürze",
+    "comingSoonText": "Wir bereiten ausführliche Informationen zu dieser Kategorie vor. Für Verfügbarkeit, Abmessungen und Preise senden Sie uns eine Anfrage.",
+    "back": "Zurück zu allen Produkten",
+    "otherCategories": "Weitere Produktkategorien",
+    "overviewTitle": "Produktkategorien",
+    "overviewIntro": "Feuerfestanker, Dämmstoffe, Verbindungselemente, Ofenkomponenten und Stahlbauteile von Santura Engineering, Mumbai.",
+    "overviewMetaTitle": "Produktkategorien | Santura Engineering",
+    "overviewMetaDescription": "Produktkategorien von Santura Engineering, Mumbai: Feuerfestanker, Dämmstoffe, Verbindungselemente, Ofenkomponenten und Stahlbauteile."
+  },
+  "services": {
+    "items": {
+      "bright-solution-annealing": {
+        "name": "Blankglühen (Lösungsglühen)",
+        "description": "Lösungsglühen unter Schutzgas, das Edelstahl blank und zunderfrei hält."
+      },
+      "pickling-and-passivation": {
+        "name": "Beizen & Passivieren",
+        "description": "Chemische Behandlung, die Zunder entfernt und die schützende Oxidschicht auf Edelstahl wiederherstellt."
+      },
+      "pmi-testing": {
+        "name": "PMI-Prüfung",
+        "description": "Positive Materialidentifikation zur Prüfung der Legierung metallischer Bauteile."
+      },
+      "stud-welding-solutions": {
+        "name": "Bolzenschweißen / Pistolenschweißen",
+        "description": "Unterstützung beim Bolzen- und Pistolenschweißen für die schnelle, gleichmäßige Montage von Feuerfestankern."
+      }
+    },
+    "comingSoon": "Demnächst",
+    "comingSoonTitle": "Informationen zur Leistung folgen in Kürze",
+    "comingSoonText": "Wir bereiten ausführliche Informationen zu dieser Leistung vor. Sprechen Sie uns an, um Ihre Anforderungen zu besprechen.",
+    "cta": "Kontakt zu dieser Leistung",
+    "otherServices": "Weitere Leistungen",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "{name} von Santura Engineering, Mumbai. Ausführliche Informationen folgen in Kürze; sprechen Sie uns zu Ihren Anforderungen an."
+  },
+  "bsaPage": {
+    "metaTitle": "Blankglühen (Lösungsglühen) für Feuerfestanker | Santura Engineering",
+    "metaDescription": "Vakuum-Blankglühen für Feuerfestanker aus Edelstahl und Nickellegierungen. Seit 1980, Export in über 25 Länder. ISO 9001:2015.",
+    "eyebrow": "Wärmebehandlung",
+    "h1": "Blankglühen (Lösungsglühen) für Feuerfestanker",
+    "subheading": "Vakuum-Wärmebehandlung, die das atomare Gleichgewicht in kaltverformten Ankern aus Edelstahl und Nickellegierungen wiederherstellt und ihre Lebensdauer verlängert.",
+    "ctaHero": "Blankglühen für Ihre Anker anfragen",
+    "whatTitle": "Was ist Blankglühen?",
+    "what": [
+      "Beim Lösungsglühen wird Edelstahl oder eine Nickellegierung über die Lösungsglühtemperatur erwärmt, je nach Legierung meist zwischen 1040 °C und 1230 °C, so lange gehalten, bis das Gefüge rekristallisiert, und anschließend schnell abgekühlt. Dabei lösen sich Karbide und andere Ausscheidungen auf, und das Metall erhält sein ursprüngliches, vollständig austenitisches Gefüge zurück.",
+      "Beim Blankglühen erfolgt die Erwärmung im Vakuum oder unter Schutzgas wie Argon. Kein Sauerstoff erreicht die Oberfläche, die Anker bleiben sauber und blank, ohne Zunder.",
+      "Beim herkömmlichen „schwarzen“ Glühen an Luft verfärbt sich die Oberfläche und es bildet sich Zunder. Er muss anschließend entfernt werden, und der Materialverlust verringert den tragenden Querschnitt des Ankers, was bei dünnem Draht und Band ins Gewicht fällt."
+    ],
+    "whyTitle": "Warum es für Feuerfestanker wichtig ist",
+    "whyIntro": "Bei der Herstellung eines Ankers wird das Material kaltgezogen, gebogen, umgeformt und geschweißt. Jeder Schritt verzerrt das Kristallgitter und hinterlässt innere Spannungen in Form von Versetzungen. Unbehandelt machen diese Spannungen den Anker auf dreifache Weise anfällig.",
+    "risks": [
+      {
+        "title": "Korrosion",
+        "text": "Kaltverformtes, stark verspanntes Metall ist anfälliger für Spannungsrisskorrosion und für den Angriff durch Schwefel, Chloride und Alkalien in Öfen, Drehrohröfen und Kesseln."
+      },
+      {
+        "title": "Versprödung durch Sigma-Phase",
+        "text": "Bei Einsatztemperaturen von etwa 600–900 °C bildet kaltverformter Edelstahl schneller Sigma-Phase. Diese harte, spröde Phase senkt die Zähigkeit stark, sodass der Anker beim Abkühlen der Anlage reißen kann."
+      },
+      {
+        "title": "Kürzere Lebensdauer",
+        "text": "Verspannte Anker verlieren unter wiederholtem Aufheizen und Abkühlen an Festigkeit und fallen früher aus, oft bevor die Feuerfestauskleidung selbst erneuert werden muss."
+      }
+    ],
+    "whyResult": [
+      "Blankglühen baut diese Spannungen ab und bringt die Atome in ihren Gleichgewichtsabstand zurück, den Zustand, in dem die Legierung bei hohen Temperaturen am besten arbeitet. Zugleich lösen sich bereits vorhandene Karbide oder Sigma-Phase auf.",
+      "Das Ergebnis ist ein Anker, der Korrosion und Versprödung länger widersteht und seine mechanische Festigkeit bei Einsatztemperatur behält."
+    ],
+    "tableTitle": "Behandlungsparameter nach Legierung",
+    "colAlloy": "Werkstoff",
+    "colTemp": "Glühtemperatur (°C)",
+    "colCooling": "Abkühlung",
+    "colNotes": "Hinweise",
+    "cooling": {
+      "waterOrAir": "Wasserabschreckung oder schnelle Luftabkühlung",
+      "water": "Wasserabschreckung"
+    },
+    "notes": {
+      "ss304": "Häufigster Werkstoff für Anker",
+      "ss309": "Für höhere Einsatztemperaturen",
+      "ss310": "Höchste Einsatztemperatur der Standard-Edelstähle",
+      "ss316": "Molybdänhaltig, verbesserte Korrosionsbeständigkeit",
+      "ss321": "Titanstabilisiert",
+      "ma253": "Hitzebeständiger austenitischer Edelstahl mit hoher Oxidationsbeständigkeit",
+      "a800": "Nickel-Eisen-Chrom-Legierung",
+      "in601": "Nickel-Chrom-Legierung",
+      "in625": "Komplexe Nickel-Chrom-Molybdän-Legierung, die die höchste Temperatur zur Wiederherstellung des Gleichgewichts benötigt"
+    },
+    "tableNote": "Jede Legierung benötigt eine eigene Temperatur und Haltezeit; falsche Parameter können das Material schädigen statt es zu verbessern. Das Verfahren von Santura folgt ASTM A240 und der jeweiligen Werkstoffspezifikation.",
+    "industriesTitle": "Branchen, die profitieren",
+    "industries": [
+      {
+        "name": "Zementwerke",
+        "text": "Anker im Drehrohrofen unter Alkaliangriff und ständigen Temperaturwechseln."
+      },
+      {
+        "name": "Raffinerien",
+        "text": "Anker in Erhitzern und FCC-Anlagen in schwefelhaltiger Atmosphäre."
+      },
+      {
+        "name": "Petrochemie",
+        "text": "Anker in Spaltöfen unter aufkohlender Atmosphäre."
+      },
+      {
+        "name": "Müllverbrennung",
+        "text": "Anker in der Nachbrennkammer unter Chloridkorrosion."
+      },
+      {
+        "name": "Stahlwerke",
+        "text": "Anker in Pfannen und Wärmöfen unter hoher mechanischer Belastung."
+      }
+    ],
+    "verifyTitle": "So wird die Behandlung geprüft",
+    "verify": [
+      {
+        "title": "Härte- und Zugprüfung",
+        "text": "Geglühtes Material ist weicher als umgeformtes. Die Härte sollte wieder im geglühten Bereich des Werkstoffs liegen (bei SS304 höchstens beim ASTM-A240-Grenzwert von 92 HRB), die Zugfestigkeit nahe am festgelegten Mindestwert, bei wiederhergestellter Duktilität."
+      },
+      {
+        "title": "Oberfläche",
+        "text": "Die Oberfläche sollte blank, sauber und frei von Zunder oder Anlauffarben sein."
+      },
+      {
+        "title": "Vergleich mit dem Werkszeugnis",
+        "text": "Der Vergleich der Prüfergebnisse mit dem ursprünglichen Werkszeugnis bestätigt, dass das Material wieder die festgelegten Glühwerte erreicht."
+      }
+    ],
+    "verifyQualityLink": "So prüfen und dokumentieren wir jeden Auftrag",
+    "productsTitle": "Santura-Produkte, die blankgeglüht werden können",
+    "productGroups": [
+      {
+        "title": "Anker aus Edelstahl",
+        "text": "Alle SEPL-Ankertypen aus SS304, SS309, SS310, SS316 und SS321."
+      },
+      {
+        "title": "Anker aus Hochtemperaturlegierungen",
+        "text": "Alle SEPL-Ankertypen aus 253MA, Alloy 800H, Inconel 601 und Inconel 625."
+      },
+      {
+        "title": "Stahlfasern",
+        "text": "Schmelzextrahierte und kaltgezogene Edelstahlfasern."
+      }
+    ],
+    "productCategoriesLabel": "Nach Auskleidungsart",
+    "productExamplesLabel": "Beispiele",
+    "ctaTitle": "Blankglühen anfragen",
+    "ctaText": "Senden Sie Ankerzeichnung oder Produktcode, Werkstoff und Menge, und wir erstellen ein Angebot für die Fertigung mit Blankglühen.",
+    "ctaRfq": "Blankglühen anfragen",
+    "ctaContact": "Sprechen Sie mit unserem Technikteam über Blankglühen für Ihr Projekt",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Was ist der Unterschied zwischen Blankglühen und Schwarzglühen?",
+        "a": "Blankglühen erfolgt im Vakuum oder unter Schutzgas, die Oberfläche bleibt sauber und oxidfrei. Schwarzglühen erfolgt an Luft; dabei bildet sich Zunder, der entfernt werden muss und den tragenden Querschnitt des Ankers verringert."
+      },
+      {
+        "q": "Welche Legierungen können blankgeglüht werden?",
+        "a": "Alle austenitischen Edelstähle für Feuerfestanker (304, 309, 310, 316 und 321), der hitzebeständige Werkstoff 253MA sowie die Nickellegierungen 800H, 601 und 625."
+      },
+      {
+        "q": "Wie lässt sich prüfen, ob richtig blankgeglüht wurde?",
+        "a": "Durch Härte- und Zugprüfung. Behandeltes Material ist weicher als unbehandeltes, die Härte liegt wieder im geglühten Bereich und die Zugfestigkeit nahe am Mindestwert. Die Oberfläche sollte zudem blank und zunderfrei sein."
+      },
+      {
+        "q": "Verlängert Blankglühen die Lebensdauer der Anker?",
+        "a": "Ja. Da die Spannungen aus der Kaltverformung abgebaut und das atomare Gleichgewicht wiederhergestellt wird, widerstehen blankgeglühte Anker Korrosion und Sigma-Versprödung deutlich besser als unbehandelte."
+      }
+    ],
+    "bothOffered": "Wir bieten sowohl Blankglühen (im Vakuum) als auch Lösungsglühen an Luft an."
+  },
+  "ppPage": {
+    "metaTitle": "Beizen & Passivieren von Feuerfestankern | ASTM A380 A967 | Santura Engineering",
+    "metaDescription": "Beizen und Passivieren von Feuerfestankern aus Edelstahl nach ASTM A380 und A967. Seit 1980, Export in über 25 Länder. ISO 9001:2015.",
+    "eyebrow": "Oberflächenbehandlung",
+    "h1": "Beizen & Passivieren von Feuerfestankern aus Edelstahl",
+    "subheading": "Saure Reinigung und Oberflächenbehandlung, die Schweißzunder, Anlauffarben und eingebettete Verunreinigungen entfernen und die volle Korrosionsbeständigkeit vor dem Einbau wiederherstellen.",
+    "ctaHero": "Beizen & Passivieren anfragen",
+    "whatTitle": "Was ist Beizen und Passivieren?",
+    "whatIntro": "Es sind zwei getrennte Verfahren. Werden beide verlangt, wird zuerst gebeizt und danach passiviert.",
+    "pickling": {
+      "title": "Beizen",
+      "points": [
+        "Eine aggressive Säurebehandlung, meist mit einer Mischung aus Salpeter- und Flusssäure.",
+        "Entfernt Schweißzunder, Anlauffarben, Oxidschichten, eingebettete Eisenpartikel und andere Verunreinigungen aus Schweißen, Schneiden, Schleifen und Biegen.",
+        "Trägt eine dünne Schicht der Oberfläche selbst ab und legt frisches Grundmetall frei.",
+        "Hinterlässt eine gleichmäßig matte Oberfläche ohne Verfärbungen und Verunreinigungen.",
+        "Erfolgt im Tauchbad für ganze Teile, im Sprühverfahren für große Baugruppen oder Arbeiten vor Ort oder als Beizpaste für Schweißnähte und kleine Flächen."
+      ]
+    },
+    "passivation": {
+      "title": "Passivieren",
+      "points": [
+        "Eine mildere Säurebehandlung mit Salpeter- oder Zitronensäure.",
+        "Trägt kein Metall ab, sondern entfernt nur freies Eisen und andere Oberflächenverunreinigungen.",
+        "Unterstützt die Bildung der natürlichen Chromoxid-Passivschicht, die Edelstahl korrosionsbeständig macht.",
+        "Die Passivschicht bildet sich an Luft von selbst, auf frisch gefertigten Oberflächen kann dieser Vorgang jedoch gestört sein. Das Passivieren sorgt dafür, dass sie sich vollständig und gleichmäßig bildet.",
+        "Nach dem Beizen baut das Passivieren die Schutzschicht auf der sauberen Oberfläche wieder auf. Es kann auch allein für Teile vorgeschrieben werden, die nicht entzundert werden müssen."
+      ]
+    },
+    "whyTitle": "Warum es für Feuerfestanker wichtig ist",
+    "whyIntro": "Anker werden geschnitten, geschliffen, zu V- und Y-Formen gebogen und an Ofenmäntel und Kanäle geschweißt. Jeder Schritt beschädigt die Oberfläche auf andere Weise.",
+    "damage": [
+      {
+        "title": "Anlauffarben an Schweißnähten",
+        "text": "Das farbige Oxid an einer Schweißnaht entsteht, indem es dem Metall direkt darunter Chrom entzieht. In dieser chromverarmten Zone kann sich die Passivschicht nicht richtig bilden."
+      },
+      {
+        "title": "Schleifen",
+        "text": "Schleifscheiben und Werkzeuge aus unlegiertem Stahl hinterlassen eingebettete Eisenpartikel, die rosten und auf der Edelstahloberfläche Korrosion auslösen."
+      },
+      {
+        "title": "Schneiden",
+        "text": "Schnittkanten sind rau und verspannt, und dort beginnt die Korrosion zuerst."
+      }
+    ],
+    "whyResult": [
+      "Unbehandelt sind diese beschädigten Bereiche die ersten Schwachstellen im Hochtemperaturbetrieb, und die chromverarmten Zonen an Schweißnähten sind am anfälligsten.",
+      "Das Beizen entfernt die geschädigte Schicht vollständig, das Passivieren baut den Chromoxidfilm auf der sauberen Oberfläche wieder auf. Das Ergebnis ist ein Anker mit gleichmäßiger Korrosionsbeständigkeit auf der gesamten Oberfläche, auch an Schweißnähten und Biegungen."
+    ],
+    "standardsTitle": "Geltende Normen",
+    "colStandard": "Norm",
+    "colCovers": "Gegenstand",
+    "standards": {
+      "a380": "Standard Practice for Cleaning, Descaling and Passivation of Stainless Steel Parts, Equipment and Systems. Behandelt Reinigung und Beizen.",
+      "a967": "Standard Specification for Chemical Passivation Treatments for Stainless Steel Parts. Behandelt Passivierverfahren und deren Prüfung.",
+      "verify": "Kupfersulfattest, der bestätigt, dass die Oberfläche frei von Eisenverunreinigungen und richtig passiviert ist."
+    },
+    "verifyLabel": "Prüfung",
+    "materialsTitle": "Werkstoffe, die wir behandeln",
+    "materials": [
+      {
+        "title": "Austenitische Edelstähle",
+        "text": "SS304, SS304L, SS309, SS310, SS310S, SS316, SS316L, SS321 und SS347."
+      },
+      {
+        "title": "Hochtemperaturlegierungen",
+        "text": "253MA, Alloy 800H, Inconel 601 und Inconel 625. ASTM A967 gilt nur für Edelstähle; die Nickellegierungen werden nach dem Verfahren des Legierungsherstellers behandelt."
+      },
+      {
+        "title": "Duplex-Edelstähle",
+        "text": "Auf Anfrage, mit auf den Werkstoff abgestimmter Chemie."
+      }
+    ],
+    "carbonSteelNote": "Teile aus unlegiertem Stahl werden nicht mit derselben Chemie gebeizt: Edelstahlbeizen greifen unlegierten Stahl stark an.",
+    "methodsTitle": "Verfahren",
+    "methods": [
+      {
+        "title": "Tauchbeizen",
+        "text": "Die gesamte Ankercharge wird in das Säurebad getaucht. Am besten für große Mengen kleiner und mittlerer Teile."
+      },
+      {
+        "title": "Sprühbeizen",
+        "text": "Die Säure wird auf größere Baugruppen gesprüht. Geeignet für Arbeiten vor Ort und übergroße Bauteile."
+      },
+      {
+        "title": "Beizpaste",
+        "text": "Auf einzelne Schweißnähte oder Stellen aufgetragene Paste. Für Reparaturen vor Ort und die gezielte Behandlung von Wärmeeinflusszonen."
+      }
+    ],
+    "methodsNote": "Die Teile müssen vor der Säurebehandlung entfettet und von Öl, Fett und anderen organischen Verunreinigungen befreit werden. Beizen und Passivieren entfernen weder Öl noch Fett.",
+    "whenTitle": "Wann Beizen und Passivieren vorzuschreiben ist",
+    "when": [
+      "Nach dem Anschweißen der Anker an Ofenmäntel oder Kanäle.",
+      "Nach einer Wärmebehandlung: Beizen entfernt den Zunder aus dem Lösungsglühen an Luft, blankgeglühte Teile können bei Bedarf passiviert werden.",
+      "Wenn Anker sichtbare Anlauffarben oder Verfärbungen an Schweißnähten zeigen.",
+      "Wenn Anker bei der Fertigung mit Werkzeugen aus unlegiertem Stahl in Berührung gekommen sind.",
+      "Für kritische Anwendungen in Raffinerien und Petrochemie sowie für Edelstahlkonstruktionen in Pharma- und Lebensmittelindustrie.",
+      "Wenn die Spezifikation des Endkunden ASTM A380 oder A967 verlangt."
+    ],
+    "relatedTitle": "Zusammenspiel mit unseren anderen Leistungen",
+    "relatedBsaTitle": "Nach dem Blankglühen",
+    "relatedBsaText": "Das Blankglühen stellt das innere Gefüge des Metalls wieder her, das Passivieren danach den Schutz seiner Oberfläche. Beide ergänzen sich.",
+    "relatedPmiTitle": "Vor der PMI-Prüfung",
+    "relatedPmiText": "Eine saubere, passivierte Oberfläche liefert zuverlässigere PMI-Messwerte als eine mit Zunder oder Verunreinigungen.",
+    "productsTitle": "Santura-Produkte, die wir behandeln",
+    "products": {
+      "anchors": "Alle SEPL-Feuerfestanker",
+      "fibres": "Edelstahlfasern",
+      "counterweights": "Gegengewichtssysteme",
+      "fasteners": "Verbindungselemente und Bolzen",
+      "fabrication": "Jede Edelstahlkonstruktion"
+    },
+    "productExamplesLabel": "Beispiele",
+    "qualityLink": "So prüfen und dokumentieren wir jeden Auftrag",
+    "ctaTitle": "Beizen und Passivieren anfragen",
+    "ctaText": "Senden Sie Zeichnung oder Produktcode, Werkstoff, Menge und die einzuhaltende Norm, und wir erstellen ein Angebot für die Behandlung.",
+    "ctaRfq": "Beizen & Passivieren anfragen",
+    "ctaContact": "Ihre Anforderungen an die Oberflächenbehandlung besprechen",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Was ist der Unterschied zwischen Beizen und Passivieren?",
+        "a": "Beizen ist eine aggressive Säurebehandlung, die Schweißzunder, Anlauffarben und eine dünne Metallschicht entfernt. Passivieren ist eine mildere Säurebehandlung, die freies Eisen entfernt und die Neubildung der schützenden Chromoxidschicht unterstützt. Meist folgen beide aufeinander."
+      },
+      {
+        "q": "Warum müssen Feuerfestanker gebeizt und passiviert werden?",
+        "a": "Schweißen, Biegen und Schneiden beschädigen die Oberfläche und verarmen die Wärmeeinflusszone an Chrom. Unbehandelt korrodieren diese Bereiche im Hochtemperaturbetrieb zuerst."
+      },
+      {
+        "q": "Welche Normen gelten für Beizen und Passivieren?",
+        "a": "ASTM A380 regelt Reinigung und Beizen. ASTM A967 regelt Passivierverfahren und deren Prüfung; der Kupfersulfattest (Practice D) bestätigt, dass die Oberfläche richtig passiviert ist."
+      },
+      {
+        "q": "Kann vor Ort gebeizt und passiviert werden?",
+        "a": "Ja. Sprühbeizen und Beizpaste ermöglichen die Behandlung geschweißter Baugruppen und großer Konstruktionen vor Ort."
+      }
+    ]
+  },
+  "pmiPage": {
+    "metaTitle": "PMI-Prüfung von Feuerfestankern | Werkstoffverwechslungsprüfung | Santura Engineering",
+    "metaDescription": "PMI-Prüfung von Feuerfestankern mit RFA- und OES-Analysegeräten. Werkstoffprüfung seit 1980, Export in über 25 Länder. ISO 9001:2015.",
+    "eyebrow": "Prüfleistung",
+    "h1": "PMI-Prüfung von Feuerfestankern",
+    "subheading": "Positive Materialidentifikation, die bestätigt, dass jeder Anker aus dem vorgeschriebenen Werkstoff besteht, vom Rohmaterialeingang bis zum Versand.",
+    "ctaHero": "PMI-Prüfung anfragen",
+    "pmiLinkFromQuality": "Mehr zu unserer PMI-Prüfung",
+    "whatTitle": "Was ist eine PMI-Prüfung?",
+    "what": [
+      "Die positive Materialidentifikation (PMI) ist eine zerstörungsfreie Prüfung, die die chemische Zusammensetzung eines Metalls misst und seine Werkstoffsorte bestätigt. Sie erfolgt mit einem tragbaren Röntgenfluoreszenz-Analysegerät (RFA) oder einem optischen Emissionsspektrometer (OES).",
+      "Das Gerät misst die Zusammensetzung in Sekunden und gleicht sie mit einer Werkstoffbibliothek ab. Nichts wird geschnitten, gebohrt oder beschädigt, sodass fertige Anker geprüft und versandt werden können."
+    ],
+    "whyTitle": "Warum es für Feuerfestanker wichtig ist",
+    "why": [
+      {
+        "title": "Der falsche Werkstoff versagt im Betrieb",
+        "text": "Ein Anker aus SS304, wo SS310 vorgeschrieben war, kann bei Ofentemperatur verzundern, an Festigkeit verlieren und versagen und dabei die Feuerfestauskleidung mitreißen."
+      },
+      {
+        "title": "Verwechslungen passieren",
+        "text": "Werkstoffe können in Fertigung, Lager oder Versand verwechselt werden. Etiketten können falsch sein und Werkszeugnisse der falschen Charge zugeordnet werden."
+      },
+      {
+        "title": "Die letzte Kontrolle vor dem Versand",
+        "text": "PMI ist die abschließende Bestätigung, dass jeder Anker, der das Werk verlässt, aus dem bestellten Werkstoff besteht."
+      },
+      {
+        "title": "Von Endkunden verlangt",
+        "text": "Raffinerien und Petrochemieanlagen wenden häufig Werkstoffprüfprogramme nach API RP 578 an und verlangen PMI-Berichte, bevor sie Material auf der Baustelle annehmen."
+      }
+    ],
+    "methodsTitle": "Prüfverfahren",
+    "methods": [
+      {
+        "title": "Tragbare RFA",
+        "text": "Handgehaltene Röntgenfluoreszenz liefert Messwerte in Sekunden, überall im Werk. Sie ist das Standardverfahren für Rohmaterial, Halbzeuge und fertige Anker."
+      },
+      {
+        "title": "OES (optische Emissionsspektroskopie)",
+        "text": "Funken-OES misst auch Kohlenstoff und leichte Elemente. Sie ist langsamer, weniger mobil und hinterlässt eine kleine Brennstelle, daher wird sie eingesetzt, wenn der Kohlenstoffgehalt bestätigt werden muss."
+      },
+      {
+        "title": "Laboranalyse",
+        "text": "Verlangt eine Spezifikation eine vollständige chemische Analyse, werden Proben in NABL-akkreditierten Fremdlaboren geprüft."
+      }
+    ],
+    "limitationTitle": "Was die RFA nicht erkennt",
+    "limitationText": "Die RFA erkennt keinen Kohlenstoff und kann daher SS316 nicht von SS316L oder SS304 nicht von SS304L unterscheiden. Müssen kohlenstoffarme Sorten bestätigt werden, kommen OES oder Laboranalyse zum Einsatz.",
+    "standardsTitle": "Geltende Normen",
+    "colStandard": "Norm",
+    "colCovers": "Gegenstand",
+    "standards": {
+      "rp578": "Material Verification Program for New and Existing Alloy Piping Systems. Grundlage der meisten PMI-Anforderungen in Raffinerien und Petrochemie.",
+      "e1476": "Standard Guide for Metals Identification, Grade Verification and Sorting.",
+      "specs": "Werkstoffspezifikationen für Blech, Band, Stab und Draht. Die PMI-Ergebnisse werden gegen die chemischen Grenzwerte dieser Spezifikationen geprüft."
+    },
+    "alloysTitle": "Werkstoffe, die wir prüfen",
+    "colGrade": "Werkstoff",
+    "colElements": "Geprüfte Leitelemente",
+    "colComposition": "Nennzusammensetzung (%)",
+    "carbonSteel": "Unlegierter Stahl",
+    "carbonSteelComposition": "Eisen, ohne nennenswerten Chrom- oder Nickelgehalt",
+    "alloysNote": "Nennbereiche aus den ASTM-Werkstoffspezifikationen. Leichte Elemente wie Aluminium und Spurenzusätze wie Cer werden über das Werkszeugnis bestätigt. Die PMI prüft auch, dass kein unlegiertes Mantelmaterial unter die Anker aus legiertem Stahl geraten ist.",
+    "whenTitle": "Wann wir PMI-Prüfungen durchführen",
+    "when": [
+      {
+        "title": "Rohmaterialeingang",
+        "text": "Blech, Draht und Stabmaterial werden bei Anlieferung geprüft, bevor sie in die Fertigung gehen."
+      },
+      {
+        "title": "Während der Fertigung",
+        "text": "Zwischenprüfungen erkennen Verwechslungen zwischen den Arbeitsgängen."
+      },
+      {
+        "title": "Endkontrolle",
+        "text": "Fertige Anker werden vor dem Verpacken und Versand erneut geprüft."
+      },
+      {
+        "title": "Auf Kundenwunsch",
+        "text": "PMI-Prüfbescheinigungen werden mit der Lieferung geliefert, und die Prüfungen können von Ihrem Inspektor abgenommen werden."
+      }
+    ],
+    "docsTitle": "Mitgelieferte Dokumente",
+    "docs": [
+      "PMI-Prüfbericht mit dem gemessenen Anteil jedes Elements",
+      "Bestätigung des Werkstoffs gegenüber der bestellten Spezifikation",
+      "Rückverfolgbarkeit über die Schmelzennummer bis zum Werkszeugnis",
+      "Originale Abnahmeprüfzeugnisse 3.1 nach EN 10204"
+    ],
+    "relatedTitle": "Verwandte Leistungen",
+    "relatedBsaText": "Wärmebehandlung, die das innere Gefüge kaltverformter Anker wiederherstellt.",
+    "relatedPpText": "Eine saubere, passivierte Oberfläche liefert zuverlässigere PMI-Messwerte.",
+    "qualityLink": "So prüfen und dokumentieren wir jeden Auftrag",
+    "ctaTitle": "PMI-Prüfung anfragen",
+    "ctaText": "Nennen Sie uns Produkte, Werkstoffe und Mengen und ob Sie PMI-Bescheinigungen oder abgenommene Prüfungen benötigen, und wir berücksichtigen es im Angebot.",
+    "ctaRfq": "PMI-Prüfung anfragen",
+    "ctaContact": "Ihre Anforderungen an die Werkstoffprüfung besprechen",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Was erkennt eine PMI-Prüfung?",
+        "a": "Die Legierungselemente, die eine Sorte kennzeichnen, darunter Chrom, Nickel, Molybdän, Titan, Niob und Mangan sowie Silizium bei geeigneten Geräten. Das Gerät ordnet die gemessene Zusammensetzung einer Werkstoffsorte zu."
+      },
+      {
+        "q": "Warum ist PMI für Feuerfestanker nötig?",
+        "a": "Ein Anker aus dem falschen Werkstoff kann bei Ofentemperatur versagen und die Auskleidung zum Einsturz bringen. PMI bestätigt, dass jeder Anker aus der vorgeschriebenen Sorte besteht, und viele Raffinerien und Petrochemieanlagen verlangen PMI-Berichte vor der Annahme."
+      },
+      {
+        "q": "Kann PMI SS316 von SS316L unterscheiden?",
+        "a": "Nicht mit RFA, die keinen Kohlenstoff erkennt. Muss der Kohlenstoffgehalt einer kohlenstoffarmen Sorte bestätigt werden, kommen OES oder Laboranalyse zum Einsatz."
+      },
+      {
+        "q": "Welche Dokumente liefern Sie?",
+        "a": "Einen PMI-Prüfbericht mit den gemessenen Elementanteilen, die Bestätigung des Werkstoffs gegenüber der Spezifikation und die Rückverfolgbarkeit über die Schmelzennummer bis zum ursprünglichen Werkszeugnis."
+      }
+    ]
+  },
+  "swPage": {
+    "metaTitle": "Bolzenschweißen für Feuerfestanker | Santura Engineering",
+    "metaDescription": "Bolzenschweißen für Feuerfestanker: Hubzündungs- und Spitzenzündungsgeräte, Keramikringe und Schweißanweisungen. Seit 1980, Export in 25+ Länder.",
+    "eyebrow": "Montageleistung",
+    "h1": "Bolzenschweißen für Feuerfestanker",
+    "subheading": "Anker, Bolzenschweißgeräte, Keramikringe und Schweißanweisungen für die schnelle, zuverlässige Montage auf Ofen- und Behältermänteln.",
+    "ctaHero": "Unterstützung beim Bolzenschweißen anfragen",
+    "whatTitle": "Was ist Bolzenschweißen?",
+    "what": [
+      "Beim Bolzenschweißen wird ein Feuerfestanker mit einem Lichtbogen direkt auf den Ofen- oder Behältermantel geschweißt, in Sekundenbruchteilen und ohne Bohrungen.",
+      "Die Schweißpistole drückt den Anker gegen den Mantel und zündet einen Lichtbogen, der das Bolzenende und eine kleine Zone des Mantels aufschmilzt. Dann taucht die Pistole den Bolzen in das Schmelzbad, das zu einer vollflächigen Schweißung erstarrt.",
+      "Beim Hubzündungsschweißen umschließt ein Keramikring die Schweißstelle, hält das flüssige Metall zusammen und schützt es vor der Luft."
+    ],
+    "compareTitle": "Bolzenschweißverfahren im Vergleich",
+    "colFeature": "Merkmal",
+    "processes": {
+      "da": "Hubzündung",
+      "sc": "Kurzzeit-Hubzündung",
+      "cd": "Spitzenzündung"
+    },
+    "compareRows": [
+      {
+        "label": "Bolzendurchmesser",
+        "da": "3–25 mm",
+        "sc": "Kleine und mittlere Bolzen",
+        "cd": "Bis 10 mm"
+      },
+      {
+        "label": "Dicke des Grundwerkstoffs",
+        "da": "Ab etwa 2 mm",
+        "sc": "Dünneres Blech als bei Hubzündung",
+        "cd": "Ab etwa 0,7 mm"
+      },
+      {
+        "label": "Schweißzeit",
+        "da": "Zehntelsekunden bis etwa 1 Sekunde",
+        "sc": "Bis 100 ms",
+        "cd": "Wenige Millisekunden"
+      },
+      {
+        "label": "Keramikring",
+        "da": "Ja",
+        "sc": "Nein; bei Edelstahl kann Schutzgas verwendet werden",
+        "cd": "Nein"
+      },
+      {
+        "label": "Typische Anwendung",
+        "da": "Feuerfestanker auf Ofenmänteln; tiefer Einbrand, hohe Festigkeit",
+        "sc": "Leichte Anker und Bolzen, wenn es auf Tempo ankommt",
+        "cd": "Dämmstoffnägel und Keramikfaserbolzen; kaum Markierung auf der Rückseite"
+      }
+    ],
+    "compareNote": "Die Hubzündung ist das Hauptverfahren für Feuerfestanker auf Ofenmänteln. Eine fachgerechte Hubzündungsschweißung ist fester als der Bolzen selbst: Im Biege- oder Zugversuch versagt der Bolzen, nicht die Schweißnaht.",
+    "whyTitle": "Warum die Schweißqualität im Feuerfestbetrieb zählt",
+    "why": [
+      {
+        "title": "Die Schweißung trägt die Auskleidung",
+        "text": "Anker werden vor dem Einbau der Auskleidung auf Mäntel aus unlegiertem Stahl oder Edelstahl geschweißt. Jedes Kilogramm Feuerfestmaterial hängt an diesen Schweißungen."
+      },
+      {
+        "title": "Eine schlechte Schweißung versagt zuerst",
+        "text": "Eine Schweißung mit Bindefehlern oder Poren reißt unter Temperaturwechseln lange bevor Anker oder Feuerfestmaterial verschlissen sind."
+      },
+      {
+        "title": "Das richtige Verfahren für jeden Anker",
+        "text": "Betonanker mit Bolzenfuß brauchen Hubzündung, Keramikfaserbolzen und Dämmstoffnägel Spitzenzündung, und manche Anker sind für Handschweißen oder Verschrauben ausgelegt."
+      },
+      {
+        "title": "Stillstände lassen keine Zeit für Nacharbeit",
+        "text": "Die meisten Montagen finden während Anlagenstillständen statt. Schweißfähigkeit vor Ort und richtige Parameter ab dem ersten Anker halten den Zeitplan."
+      }
+    ],
+    "productsTitle": "Welche Santura-Produkte welches Verfahren nutzen",
+    "methods": {
+      "da": {
+        "title": "Hubzündungs- / Pistolenschweißen",
+        "text": "Anker mit Bolzenfuß oder für Pistolenschweißen geeignet. Bei SEPL-08 und SEPL-20 werden manche Ausführungen bolzengeschweißt, andere von Hand geschweißt oder verschraubt; SEPL-16-Kopfbolzen werden mit Aluminium-Flussmittel für das Bolzenschweißen geliefert."
+      },
+      "sc": {
+        "title": "Kurzzeit-Hubzündung (Rapid Arc)",
+        "text": "Schlitzbolzen für Leichtbeton."
+      },
+      "cd": {
+        "title": "Spitzenzündung",
+        "text": "Keramikfaserbolzen, anschweißbare Gewindebolzen und Dämmstoffnägel."
+      },
+      "manual": {
+        "title": "Lichtbogenhandschweißen",
+        "text": "Anker, die für das herkömmliche Handschweißen ausgelegt sind."
+      },
+      "screw": {
+        "title": "Aufschrauben und Verschrauben",
+        "text": "Anker auf Muttern oder zum Aufschrauben auf vorgeschweißte Bolzen. SEPL-25 gibt es auch in einer Schraubausführung."
+      }
+    },
+    "alloysLine": "Alle Verfahren sind für Anker aus unlegiertem Stahl, SS304, SS309, SS310, SS316, SS321, 253MA, Alloy 800H und Inconel verfügbar.",
+    "offerTitle": "Was wir liefern",
+    "offer": [
+      {
+        "title": "Montagefertige Anker",
+        "text": "Anker mit Bolzenfuß oder vorgeschweißten Bolzen, vorbereitet für das Schweißen vor Ort."
+      },
+      {
+        "title": "Geräte und Verbrauchsmaterial",
+        "text": "Bolzenschweißgeräte, Keramikringe und Spannzangen passend zu den bestellten Ankern."
+      },
+      {
+        "title": "Technische Beratung",
+        "text": "Empfohlene Schweißparameter für jeden Werkstoff und Ankertyp."
+      },
+      {
+        "title": "Schweißanweisungen",
+        "text": "Eine WPS für jede Kombination aus Ankerwerkstoff und Mantelwerkstoff."
+      }
+    ],
+    "standardsTitle": "Geltende Normen",
+    "colStandard": "Norm",
+    "colCovers": "Gegenstand",
+    "standards": {
+      "d11": "Structural Welding Code – Steel, einschließlich des Abschnitts zum Bolzenschweißen.",
+      "d16": "Structural Welding Code – Stainless Steel, einschließlich des Bolzenschweißens von Edelstahl.",
+      "iso": "Schweißen – Lichtbogenbolzenschweißen von metallischen Werkstoffen.",
+      "c54": "Recommended Practices for Stud Welding."
+    },
+    "relatedTitle": "Verwandte Leistungen",
+    "relatedBsaText": "Stellt das innere Gefüge kaltverformter Anker vor Schweißen und Betrieb wieder her.",
+    "relatedPpText": "Entfernt Anlauffarben und stellt die Korrosionsbeständigkeit an Schweißnähten wieder her.",
+    "relatedPmiText": "Bestätigt den Werkstoff jedes Ankers, bevor er eingeschweißt wird.",
+    "ctaTitle": "Planen Sie Ihre Ankermontage mit uns",
+    "ctaText": "Nennen Sie Ankertypen, Werkstoffe, Mengen und Mantelwerkstoff und ob Sie Geräte, Keramikringe oder eine WPS benötigen. Wir erstellen ein Angebot für das Gesamtpaket.",
+    "ctaRfq": "Unterstützung beim Bolzenschweißen anfragen",
+    "ctaContact": "Ihre Montage mit unserem Technikteam besprechen",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Was ist der Unterschied zwischen Hubzündung und Spitzenzündung?",
+        "a": "Die Hubzündung arbeitet mit längerem Lichtbogen und Keramikring und schweißt größere Bolzen bis etwa 25 mm auf Mäntel ab etwa 2 mm Dicke, mit tiefem Einbrand und hoher Festigkeit. Die Spitzenzündung schweißt kleinere Bolzen bis etwa 10 mm in wenigen Millisekunden ohne Keramikring und eignet sich für dünnes Material ab etwa 0,7 mm."
+      },
+      {
+        "q": "Welches Verfahren wird für welchen Ankertyp verwendet?",
+        "a": "Betonanker mit Bolzenfuß oder für Pistolenschweißen, etwa SEPL-06, SEPL-13 und SEPL-18, werden mit Hubzündung geschweißt. Keramikfaserbolzen (SEPL-24), anschweißbare Gewindebolzen (SEPL-25) und Dämmstoffnägel mit Spitzenzündung. Manche Anker wie SEPL-07 und SEPL-09 sind für das Handschweißen ausgelegt."
+      },
+      {
+        "q": "Können Anker schweißfertig für die Baustelle geliefert werden?",
+        "a": "Ja. Die Anker werden mit Bolzenfuß oder vorgeschweißten Bolzen für die Montage vor Ort geliefert, zusammen mit passenden Keramikringen und empfohlenen Schweißparametern."
+      },
+      {
+        "q": "Welche Keramikringgrößen gibt es?",
+        "a": "Keramikringe werden auf den Bolzendurchmesser und die Schweißfläche abgestimmt, etwa ebenes Blech oder Rohr. Nennen Sie uns Bolzendurchmesser und Mantelgeometrie, und wir liefern die passenden Ringe mit den Ankern."
+      }
+    ]
   }
 }

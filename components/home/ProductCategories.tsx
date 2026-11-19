@@ -21,7 +21,7 @@ export default function ProductCategories() {
           {CATEGORIES.map((c) => (
             <Link
               key={c.key}
-              href={`/products#${c.anchor}`}
+              href={`/refractory-anchors#${c.anchor}`}
               className="group flex flex-col overflow-hidden rounded-lg border border-line bg-white shadow-sm transition hover:border-brand-500 hover:shadow-md"
             >
               <div className="relative aspect-[4/3] bg-white">

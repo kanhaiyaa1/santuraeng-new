@@ -8,12 +8,14 @@
     "quality": "Quality",
     "contact": "Contact",
     "privacy": "Privacy Policy",
-    "disclaimer": "Disclaimer"
+    "disclaimer": "Disclaimer",
+    "services": "Services",
+    "refractoryAnchors": "Refractory Anchors"
   },
   "hero": {
     "eyebrow": "Santura Engineering Pvt. Ltd. · Mumbai, India",
     "title": "Refractory Anchor Manufacturer & Exporter",
-    "subtitle": "Refractory anchors, fiber studs and stainless steel fibres for brick, castable and ceramic fiber linings — manufactured in Mumbai and shipped to international projects from Nhava Sheva port.",
+    "subtitle": "Refractory anchors, ceramic fiber studs, counter-weight systems, insulation materials, observation doors and accessories — manufactured in Mumbai and shipped to international projects from Nhava Sheva port.",
     "imageAlt": "Refinery process units with refractory-lined columns and furnaces"
   },
   "cta": {
@@ -247,7 +249,8 @@
     "sending": "Sending…",
     "success": "Thank you. We will get back to you shortly.",
     "error": "Something went wrong. Please try again.",
-    "productPrefix": "Product"
+    "productPrefix": "Product",
+    "servicePrefix": "Service"
   },
   "rfqPage": {
     "title": "Request a Quote for Refractory Anchors",
@@ -318,7 +321,7 @@
     "metaTitle": "About Santura Engineering | Refractory Anchor Manufacturer Since 1980",
     "metaDescription": "Santura Engineering, Mumbai: founded in 1980 by Bharat Diwan, refractory anchors since 2005, ISO 9001:2015 certified, exporting to 25+ countries.",
     "h1": "About Santura Engineering",
-    "intro": "A Mumbai manufacturer of refractory anchors, stud anchors and stainless steel fibres, founded in 1980 and exporting to more than 25 countries.",
+    "intro": "A Mumbai manufacturer of refractory anchors, peep doors and other fabricated items, founded in 1980 and exporting to more than 25 countries.",
     "storyTitle": "Our story",
     "story": [
       "The business was founded in Mumbai in 1980 by Mr. Bharat Diwan, a production engineer. It began as an engineering and fabrication workshop serving local industry.",
@@ -330,6 +333,11 @@
         "year": "1980",
         "title": "Founded in Mumbai",
         "text": "Mr. Bharat Diwan, a production engineer, founds the business."
+      },
+      {
+        "year": "1981",
+        "title": "Counter-weight systems",
+        "text": "Manufacturing of counter-weight systems and other fabricated items begins."
       },
       {
         "year": "2005",
@@ -371,7 +379,9 @@
     "productsLink": "View all products",
     "exportTitle": "Exports",
     "exportText": "We export to more than 25 countries across the Middle East, Europe and the Americas, shipping from Nhava Sheva with full documentation.",
-    "exportLink": "Find your country"
+    "exportLink": "Find your country",
+    "galleryTitle": "Inside our works",
+    "galleryIntro": "Raw material stock, finished anchors, packing and dispatch at Santura Engineering."
   },
   "qualityPage": {
     "metaTitle": "Quality, Testing & Certification | Santura Engineering",
@@ -436,7 +446,8 @@
       "DIN17440": "Stainless steels: technical delivery conditions for plate, bar and wire"
     },
     "clientCertsTitle": "Client certificates",
-    "clientCertsText": "Certificates and reference letters from our clients will be published here."
+    "clientCertsText": "Certificates and reference letters from our clients will be published here.",
+    "photosTitle": "Testing in practice"
   },
   "privacyPage": {
     "metaTitle": "Privacy Policy | Santura Engineering",
@@ -613,5 +624,695 @@
       "country": "Countries",
       "page": "Pages"
     }
+  },
+  "photos": {
+    "cartonsBulk": "Cartons ready for packing",
+    "containerCartons": "Shrink-wrapped export cartons loaded in a container",
+    "xrfHandheld": "Handheld XRF analyser checking alloy composition",
+    "crateBulk": "Export crate packed with wood shavings",
+    "cartonsDispatch": "Components packed in cartons for dispatch",
+    "componentsPacked": "Metal components packed in lined cartons",
+    "anchorsWavy": "Refractory anchors in production",
+    "anchorsBent": "Bent steel anchor rods",
+    "tubesStock": "Steel tube stock",
+    "wireCoilsStock": "Steel wire coils in storage",
+    "dispatchTeam": "Our dispatch team",
+    "cratesContainer": "Wooden crates loaded for export",
+    "workerPacking": "Packing components in the warehouse",
+    "truckDispatch": "Loading a truck for dispatch",
+    "containerPallets": "Palletised cartons loaded in a shipping container",
+    "factoryExterior": "Santura Engineering works, MIDC Tarapur",
+    "xrfTesting": "Alloy verification with an XRF analyser",
+    "workshopStock": "Steel components in the workshop",
+    "rodCaliper": "Checking rod diameter with a vernier caliper",
+    "wireXrf": "Testing wire alloy composition",
+    "wireCoilsBulk": "Wire coil stock",
+    "wireCoilsInventory": "Wire coil inventory",
+    "wireCaliper": "Measuring wire diameter with a vernier caliper",
+    "cratePacking": "Protective crate packing for components"
+  },
+  "productCategories": {
+    "items": {
+      "refractory-anchors": {
+        "name": "Refractory Anchors",
+        "description": "SEPL anchors for brick, castable, double and ceramic fibre linings."
+      },
+      "observation-peep-doors": {
+        "name": "Observation / Peep Doors",
+        "description": "Sight and peep doors for furnaces, heaters and boilers."
+      },
+      "foundation-bolts": {
+        "name": "Foundation Bolts",
+        "description": "Anchor and foundation bolts for structures and equipment."
+      },
+      "support-plates": {
+        "name": "Support Plates",
+        "description": "Base and support plates made to drawing."
+      },
+      "industrial-stanchions": {
+        "name": "Industrial Stanchions",
+        "description": "Stanchions and posts for platforms and handrails."
+      },
+      "pipe-guides-sleeves": {
+        "name": "Pipe Guides & Sleeves",
+        "description": "Pipe guides and ring sleeves for fired heaters."
+      },
+      "counter-weight-systems": {
+        "name": "Counter-Weight Systems",
+        "description": "Counter-weight assemblies for heater tube support."
+      },
+      "mineral-wool": {
+        "name": "Mineral Wool",
+        "description": "Rock and mineral wool insulation products."
+      },
+      "ceramic-gaskets": {
+        "name": "Ceramic Gaskets",
+        "description": "High-temperature ceramic fibre gaskets and seals."
+      },
+      "glass-fibre-sheets": {
+        "name": "Glass Fibre Sheets",
+        "description": "Glass fibre sheets, cloth and glass wool."
+      },
+      "calcium-silicate": {
+        "name": "Calcium Silicate",
+        "description": "Calcium silicate boards and pipe sections."
+      },
+      "insulation-pins": {
+        "name": "Insulation Pins",
+        "description": "Weld pins and clips for fixing insulation."
+      },
+      "polystyrene-insulation": {
+        "name": "Polystyrene Insulation",
+        "description": "Expanded and extruded polystyrene insulation."
+      },
+      "polyisocyanurate-insulation": {
+        "name": "Polyisocyanurate Insulation",
+        "description": "PIR insulation boards and pipe sections."
+      },
+      "fasteners": {
+        "name": "Fasteners",
+        "description": "Bolts, studs, nuts and rivets in stainless and alloy steels."
+      },
+      "insulation-accessories": {
+        "name": "Insulation Accessories",
+        "description": "Bands, clips, washers and other insulation fixings."
+      },
+      "steel-plates": {
+        "name": "Steel Plates",
+        "description": "Stainless and alloy steel plates and sheets."
+      },
+      "trading-division": {
+        "name": "Trading Division",
+        "description": "Stainless steel and industrial materials supply."
+      }
+    },
+    "allCategories": "All product categories",
+    "viewAll": "View all products",
+    "featured": "Our core range",
+    "featuredCta": "Browse the SEPL range",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "browseTitle": "Browse All Product Categories",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "{name} from Santura Engineering, Mumbai. Detailed product information is coming soon; contact us for availability and prices.",
+    "comingSoon": "Coming soon",
+    "comingSoonTitle": "Product information coming soon",
+    "comingSoonText": "We are preparing detailed information for this category. For availability, sizes and prices, send us an enquiry or request a quote.",
+    "back": "Back to all products",
+    "otherCategories": "Other product categories",
+    "overviewTitle": "Product Categories",
+    "overviewIntro": "Refractory anchors, insulation materials, fasteners, heater components and fabricated items from Santura Engineering, Mumbai.",
+    "overviewMetaTitle": "Product Categories | Santura Engineering",
+    "overviewMetaDescription": "Product categories from Santura Engineering, Mumbai: refractory anchors, insulation materials, fasteners, heater components and fabricated items."
+  },
+  "services": {
+    "items": {
+      "bright-solution-annealing": {
+        "name": "Bright Solution Annealing",
+        "description": "Solution annealing in a protective atmosphere that leaves stainless steel bright and scale-free."
+      },
+      "pickling-and-passivation": {
+        "name": "Pickling & Passivation",
+        "description": "Chemical treatment that removes scale and restores the protective oxide layer on stainless steel."
+      },
+      "pmi-testing": {
+        "name": "PMI Testing",
+        "description": "Positive material identification to verify the alloy grade of metal components."
+      },
+      "stud-welding-solutions": {
+        "name": "Stud Welding / Gun Welding Solutions",
+        "description": "Stud and gun welding support for fast, consistent installation of refractory anchors."
+      }
+    },
+    "comingSoon": "Coming soon",
+    "comingSoonTitle": "Service information coming soon",
+    "comingSoonText": "We are preparing detailed information about this service. Contact us to discuss your requirements.",
+    "cta": "Contact us for this service",
+    "otherServices": "Other services",
+    "metaTitle": "{name} | Santura Engineering",
+    "metaDescription": "{name} from Santura Engineering, Mumbai. Detailed service information is coming soon; contact us to discuss your requirements."
+  },
+  "bsaPage": {
+    "metaTitle": "Bright Solution Annealing for Refractory Anchors | Santura Engineering",
+    "metaDescription": "Vacuum bright solution annealing for stainless steel and nickel alloy refractory anchors. Since 1980, exporting to 25+ countries. ISO 9001:2015.",
+    "eyebrow": "Heat treatment service",
+    "h1": "Bright Solution Annealing for Refractory Anchors",
+    "subheading": "Vacuum heat treatment that restores atomic equilibrium in cold-worked stainless steel and nickel alloy anchors and extends their service life.",
+    "ctaHero": "Request BSA for Your Anchors",
+    "whatTitle": "What is bright solution annealing?",
+    "what": [
+      "Solution annealing heats stainless steel or a nickel alloy above its solution temperature, typically between 1040 °C and 1230 °C depending on the alloy, holds it long enough for the structure to recrystallise, and then cools it rapidly. This dissolves carbides and other precipitates and returns the metal to its original, fully austenitic microstructure.",
+      "In bright solution annealing the work is heated in a vacuum or under an inert gas such as argon. No oxygen reaches the surface, so the anchors come out clean and bright, with no oxide scale.",
+      "Conventional \"black\" annealing in air darkens the surface and forms oxide scale. The scale must be removed afterwards, and the metal lost to it reduces the effective cross-section of the anchor, which matters on thin wire and strip."
+    ],
+    "whyTitle": "Why it matters for refractory anchors",
+    "whyIntro": "Making an anchor involves cold drawing, bending, forming and welding. Each step distorts the crystal lattice and leaves internal stresses stored in the metal as dislocations. Left untreated, these stresses make the anchor vulnerable in three ways.",
+    "risks": [
+      {
+        "title": "Corrosion",
+        "text": "Cold-worked, highly stressed metal is more susceptible to stress corrosion cracking and to attack by the sulphur, chlorides and alkalis found in furnaces, kilns and boilers."
+      },
+      {
+        "title": "Sigma phase embrittlement",
+        "text": "At service temperatures of roughly 600–900 °C, cold-worked stainless steel forms sigma phase faster. This hard, brittle phase sharply reduces toughness, so the anchor can crack once the unit cools down."
+      },
+      {
+        "title": "Shorter service life",
+        "text": "Stressed anchors lose strength and fail earlier under repeated heating and cooling, often before the refractory lining itself is due for replacement."
+      }
+    ],
+    "whyResult": [
+      "Bright solution annealing releases these stresses and returns the atoms to their equilibrium spacing, the condition in which the alloy performs best at high temperature. It also dissolves any carbides or sigma phase already present.",
+      "The result is an anchor that resists corrosion and embrittlement for longer and keeps its mechanical strength at service temperature."
+    ],
+    "tableTitle": "Treatment parameters by alloy",
+    "colAlloy": "Alloy grade",
+    "colTemp": "BSA temperature (°C)",
+    "colCooling": "Cooling",
+    "colNotes": "Notes",
+    "cooling": {
+      "waterOrAir": "Water quench or rapid air cool",
+      "water": "Water quench"
+    },
+    "notes": {
+      "ss304": "Most common anchor grade",
+      "ss309": "For higher service temperatures",
+      "ss310": "Highest service temperature of the standard stainless grades",
+      "ss316": "Molybdenum-bearing, improved corrosion resistance",
+      "ss321": "Titanium-stabilised",
+      "ma253": "Heat-resistant austenitic stainless steel with high oxidation resistance",
+      "a800": "Nickel-iron-chromium alloy",
+      "in601": "Nickel-chromium alloy",
+      "in625": "Complex nickel-chromium-molybdenum alloy that needs the highest temperature to restore equilibrium"
+    },
+    "tableNote": "Each alloy needs its own temperature and soaking time; incorrect parameters can damage the material instead of improving it. Santura's process follows ASTM A240 and the applicable material specification for each grade.",
+    "industriesTitle": "Industries that benefit",
+    "industries": [
+      {
+        "name": "Cement plants",
+        "text": "Kiln anchors exposed to alkali attack and constant thermal cycling."
+      },
+      {
+        "name": "Oil refineries",
+        "text": "Heater and FCC unit anchors in sulphidising environments."
+      },
+      {
+        "name": "Petrochemical plants",
+        "text": "Cracker anchors in carburising atmospheres."
+      },
+      {
+        "name": "Waste-to-energy",
+        "text": "Post-combustion zone anchors exposed to chloride corrosion."
+      },
+      {
+        "name": "Steel plants",
+        "text": "Ladle and reheat furnace anchors under high mechanical load."
+      }
+    ],
+    "verifyTitle": "How to verify the treatment",
+    "verify": [
+      {
+        "title": "Hardness and tensile testing",
+        "text": "Annealed material is softer than as-formed material. Hardness should fall back into the annealed range for the grade (for SS304, at or below the ASTM A240 maximum of 92 HRB), and tensile strength should be close to the specified minimum, with ductility restored."
+      },
+      {
+        "title": "Surface finish",
+        "text": "The surface should be bright, clean and free of oxide scale or heat tint."
+      },
+      {
+        "title": "Mill certificate comparison",
+        "text": "Comparing test results with the original mill certificate confirms that the material is back to its specified annealed properties."
+      }
+    ],
+    "verifyQualityLink": "See how we test and document every order",
+    "productsTitle": "Santura products that can be bright solution annealed",
+    "productGroups": [
+      {
+        "title": "Stainless steel anchors",
+        "text": "All SEPL anchor types in SS304, SS309, SS310, SS316 and SS321."
+      },
+      {
+        "title": "High-temperature alloy anchors",
+        "text": "All SEPL anchor types in 253MA, Alloy 800H, Inconel 601 and Inconel 625."
+      },
+      {
+        "title": "Steel fibres",
+        "text": "Melt extract and cold drawn stainless steel fibres."
+      }
+    ],
+    "productCategoriesLabel": "Browse by lining type",
+    "productExamplesLabel": "Examples",
+    "ctaTitle": "Request bright solution annealing",
+    "ctaText": "Send your anchor drawing or product code, alloy grade and quantity, and we will quote for manufacture with bright solution annealing.",
+    "ctaRfq": "Request Bright Solution Annealing",
+    "ctaContact": "Contact our technical team to discuss BSA for your project",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What is the difference between bright and black solution annealing?",
+        "a": "Bright annealing is carried out in a vacuum or inert gas, so the surface stays clean and free of oxide. Black annealing is carried out in air, which forms oxide scale that must be removed and reduces the effective cross-section of the anchor."
+      },
+      {
+        "q": "Which alloys can be bright solution annealed?",
+        "a": "All the austenitic stainless steels used for refractory anchors (304, 309, 310, 316 and 321), the heat-resistant grade 253MA, and the nickel alloys 800H, 601 and 625."
+      },
+      {
+        "q": "How do you verify that BSA was done correctly?",
+        "a": "By hardness and tensile testing. Treated material should be softer than untreated material, with hardness back in the annealed range for the grade and tensile strength close to the specified minimum. The surface should also be bright and free of scale."
+      },
+      {
+        "q": "Does BSA increase anchor service life?",
+        "a": "Yes. By removing the internal stresses left by cold working and restoring atomic equilibrium, BSA-treated anchors resist corrosion and sigma phase embrittlement significantly better than untreated anchors."
+      }
+    ],
+    "bothOffered": "We offer both bright (vacuum) and standard (air) solution annealing."
+  },
+  "ppPage": {
+    "metaTitle": "Pickling & Passivation for Refractory Anchors | ASTM A380 A967 | Santura Engineering",
+    "metaDescription": "Pickling and passivation of stainless steel refractory anchors per ASTM A380 and A967. Since 1980, exporting to 25+ countries. ISO 9001:2015.",
+    "eyebrow": "Surface treatment service",
+    "h1": "Pickling & Passivation for Stainless Steel Refractory Anchors",
+    "subheading": "Acid cleaning and surface treatment that remove weld scale, heat tint and embedded contaminants, restoring full corrosion resistance before installation.",
+    "ctaHero": "Request Pickling & Passivation",
+    "whatTitle": "What is pickling and passivation?",
+    "whatIntro": "They are two distinct processes. When both are specified, pickling comes first and passivation follows.",
+    "pickling": {
+      "title": "Pickling",
+      "points": [
+        "An aggressive acid treatment, usually with a mixture of nitric and hydrofluoric acids.",
+        "Removes weld scale, heat tint, oxide layers, embedded iron particles and other contamination left by welding, cutting, grinding and bending.",
+        "Dissolves a thin layer of the surface itself, exposing fresh base metal underneath.",
+        "Leaves a uniform matte finish, free of discoloration and contaminants.",
+        "Applied by tank immersion for complete parts, by spray for large fabrications or site work, or as a brush-on gel for welds and small areas."
+      ]
+    },
+    "passivation": {
+      "title": "Passivation",
+      "points": [
+        "A milder acid treatment, using nitric or citric acid.",
+        "Does not remove metal; it removes free iron and other surface contaminants only.",
+        "Helps the natural chromium-oxide passive layer, which gives stainless steel its corrosion resistance, to form.",
+        "The passive layer forms in air on its own, but on freshly fabricated surfaces that process can be impaired. Passivation makes sure it forms completely and uniformly.",
+        "After pickling, passivation rebuilds the protective layer on the clean surface. It can also be specified on its own for parts that need no descaling."
+      ]
+    },
+    "whyTitle": "Why it matters for refractory anchors",
+    "whyIntro": "Anchors are cut, ground, bent into V and Y shapes, and welded to furnace shells and ductwork. Each step damages the surface in a different way.",
+    "damage": [
+      {
+        "title": "Weld heat tint",
+        "text": "The coloured oxide around a weld forms by drawing chromium out of the metal just beneath it. The passive layer cannot form properly in that chromium-depleted zone."
+      },
+      {
+        "title": "Grinding",
+        "text": "Grinding wheels and carbon steel tools leave embedded iron particles that rust and start corrosion on an otherwise stainless surface."
+      },
+      {
+        "title": "Cutting",
+        "text": "Cut edges are rough and stressed, and corrosion starts there first."
+      }
+    ],
+    "whyResult": [
+      "Left untreated, these damaged areas are the first points of failure in high-temperature service, and the chromium-depleted zones around welds are the most vulnerable of all.",
+      "Pickling removes the damaged layer entirely, and passivation rebuilds the chromium-oxide film on the clean surface. The result is an anchor with uniform corrosion resistance over its whole surface, including welds and bends."
+    ],
+    "standardsTitle": "Applicable standards",
+    "colStandard": "Standard",
+    "colCovers": "Covers",
+    "standards": {
+      "a380": "Standard Practice for Cleaning, Descaling and Passivation of Stainless Steel Parts, Equipment and Systems. Covers the cleaning and pickling process.",
+      "a967": "Standard Specification for Chemical Passivation Treatments for Stainless Steel Parts. Covers passivation treatments and how to verify them.",
+      "verify": "Copper sulfate test, which confirms that the surface is free of iron contamination and properly passivated."
+    },
+    "verifyLabel": "Verification",
+    "materialsTitle": "Materials we treat",
+    "materials": [
+      {
+        "title": "Austenitic stainless steels",
+        "text": "SS304, SS304L, SS309, SS310, SS310S, SS316, SS316L, SS321 and SS347."
+      },
+      {
+        "title": "High-temperature alloys",
+        "text": "253MA, Alloy 800H, Inconel 601 and Inconel 625. ASTM A967 covers stainless steels only, so the nickel alloys are treated to the alloy producer’s recommended procedure."
+      },
+      {
+        "title": "Duplex stainless steels",
+        "text": "On request, with chemistry suited to the grade."
+      }
+    ],
+    "carbonSteelNote": "Carbon steel parts are not pickled with the same chemistry: stainless steel pickling acids are highly corrosive to carbon steel.",
+    "methodsTitle": "Process methods",
+    "methods": [
+      {
+        "title": "Tank immersion",
+        "text": "The whole batch of anchors is immersed in the acid tank. Best for high volumes of small and medium parts."
+      },
+      {
+        "title": "Spray pickling",
+        "text": "Acid is sprayed onto larger fabricated assemblies. Suitable for site work and oversized components."
+      },
+      {
+        "title": "Brush-on gel",
+        "text": "Pickling paste applied to specific welds or spots. Used for field repairs and targeted treatment of heat-affected zones."
+      }
+    ],
+    "methodsNote": "Parts must be degreased and cleaned of oil, grease and other organic contamination before acid treatment. Pickling and passivation do not remove oil or grease.",
+    "whenTitle": "When to specify pickling and passivation",
+    "when": [
+      "After welding anchors to furnace shells or ductwork.",
+      "After heat treatment: pickling removes the scale left by solution annealing in air, and bright-annealed parts can be passivated where specified.",
+      "When anchors show visible heat tint or weld discoloration.",
+      "When anchors have been in contact with carbon steel tools during fabrication.",
+      "For critical service in refineries and petrochemical plants, and for stainless fabrications for the pharmaceutical and food industries.",
+      "When the end customer’s specification calls for ASTM A380 or A967 compliance."
+    ],
+    "relatedTitle": "How it works with our other services",
+    "relatedBsaTitle": "After bright solution annealing",
+    "relatedBsaText": "Bright solution annealing restores the internal structure of the metal; passivation then restores the protection of its outer surface. The two are complementary.",
+    "relatedPmiTitle": "Before PMI testing",
+    "relatedPmiText": "A clean, passivated surface gives more reliable PMI readings than one covered in scale or contamination.",
+    "productsTitle": "Santura products we treat",
+    "products": {
+      "anchors": "All SEPL refractory anchor types",
+      "fibres": "Stainless steel fibres",
+      "counterweights": "Counter-weight systems",
+      "fasteners": "Fasteners and studs",
+      "fabrication": "Any stainless steel fabrication"
+    },
+    "productExamplesLabel": "Examples",
+    "qualityLink": "See how we test and document every order",
+    "ctaTitle": "Request pickling and passivation",
+    "ctaText": "Send your drawing or product code, material grade, quantity and the standard you need to meet, and we will quote for treatment.",
+    "ctaRfq": "Request Pickling & Passivation",
+    "ctaContact": "Discuss your surface treatment requirements",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What is the difference between pickling and passivation?",
+        "a": "Pickling is an aggressive acid treatment that removes weld scale, heat tint and a thin layer of metal. Passivation is a milder acid treatment that removes free iron and helps the protective chromium-oxide layer re-form. They are usually done in sequence."
+      },
+      {
+        "q": "Why do refractory anchors need pickling and passivation?",
+        "a": "Welding, bending and cutting damage the surface and deplete chromium in the heat-affected zone. Without treatment, these areas are the first to corrode in high-temperature service."
+      },
+      {
+        "q": "What standards apply to pickling and passivation?",
+        "a": "ASTM A380 covers cleaning and pickling. ASTM A967 covers passivation treatments and their verification; the copper sulfate test (Practice D) confirms that the surface is properly passivated."
+      },
+      {
+        "q": "Can pickling and passivation be done on site?",
+        "a": "Yes. Spray pickling and brush-on gel allow welded assemblies and large fabrications to be treated on site."
+      }
+    ]
+  },
+  "pmiPage": {
+    "metaTitle": "PMI Testing for Refractory Anchors | Alloy Verification | Santura Engineering",
+    "metaDescription": "PMI testing of refractory anchors with XRF and OES analysers. Alloy verification since 1980, exporting to 25+ countries. ISO 9001:2015.",
+    "eyebrow": "Testing service",
+    "h1": "PMI Testing for Refractory Anchors",
+    "subheading": "Positive material identification that confirms every anchor is made from the alloy you specified, from incoming raw material to final dispatch.",
+    "ctaHero": "Request PMI Testing",
+    "pmiLinkFromQuality": "More about our PMI testing service",
+    "whatTitle": "What is PMI testing?",
+    "what": [
+      "Positive material identification (PMI) is a non-destructive test that measures the elemental composition of a metal and confirms its alloy grade. It is carried out with a portable X-ray fluorescence (XRF) analyser or an optical emission spectrometer (OES).",
+      "The analyser reads the composition in seconds and matches it against a library of alloy grades. Nothing is cut, drilled or damaged, so finished anchors can be tested and shipped."
+    ],
+    "whyTitle": "Why it matters for refractory anchors",
+    "why": [
+      {
+        "title": "The wrong alloy fails in service",
+        "text": "An anchor in SS304 where SS310 was specified can oxidise, lose strength and fail at furnace temperature, taking the refractory lining with it."
+      },
+      {
+        "title": "Mix-ups happen",
+        "text": "Material can be mixed up in production, storage or shipping. Labels can be wrong and mill certificates can be matched to the wrong batch."
+      },
+      {
+        "title": "The final check before dispatch",
+        "text": "PMI is the last verification that every anchor leaving the factory is the alloy the customer ordered."
+      },
+      {
+        "title": "Required by end users",
+        "text": "Refineries and petrochemical plants often apply material verification programmes based on API RP 578 and ask for PMI reports before accepting materials on site."
+      }
+    ],
+    "methodsTitle": "Testing methods",
+    "methods": [
+      {
+        "title": "Portable XRF",
+        "text": "Handheld X-ray fluorescence gives a reading in seconds, anywhere in the works. It is the standard method for checking raw material, work in progress and finished anchors."
+      },
+      {
+        "title": "OES (optical emission spectroscopy)",
+        "text": "Spark OES also measures carbon and light elements. It is slower, less portable and leaves a small burn mark, so it is used when carbon content must be confirmed."
+      },
+      {
+        "title": "Laboratory analysis",
+        "text": "Where a specification calls for full chemical analysis, samples are tested at NABL-accredited third-party laboratories."
+      }
+    ],
+    "limitationTitle": "What XRF cannot see",
+    "limitationText": "XRF does not detect carbon, so it cannot tell SS316 from SS316L, or SS304 from SS304L. When low-carbon grades must be confirmed, OES or laboratory analysis is used.",
+    "standardsTitle": "Applicable standards",
+    "colStandard": "Standard",
+    "colCovers": "Covers",
+    "standards": {
+      "rp578": "Material Verification Program for New and Existing Alloy Piping Systems. The basis of most refinery and petrochemical PMI requirements.",
+      "e1476": "Standard Guide for Metals Identification, Grade Verification and Sorting.",
+      "specs": "Material specifications for plate, sheet, bar and wire. PMI results are checked against the chemical limits in these specifications."
+    },
+    "alloysTitle": "Alloys we verify",
+    "colGrade": "Grade",
+    "colElements": "Key elements checked",
+    "colComposition": "Nominal composition (%)",
+    "carbonSteel": "Carbon steel",
+    "carbonSteelComposition": "Iron, with no significant chromium or nickel",
+    "alloysNote": "Nominal ranges from the ASTM material specifications. Light elements such as aluminium, and trace additions such as cerium, are confirmed from the mill certificate. PMI also checks that no carbon steel shell material has been mixed in with alloy anchors.",
+    "whenTitle": "When we perform PMI",
+    "when": [
+      {
+        "title": "Incoming raw material",
+        "text": "Plate, wire and bar stock are verified on receipt, before they enter production."
+      },
+      {
+        "title": "During manufacture",
+        "text": "In-process checks catch any mix-up between operations."
+      },
+      {
+        "title": "Final inspection",
+        "text": "Finished anchors are verified again before packing and dispatch."
+      },
+      {
+        "title": "On customer request",
+        "text": "PMI test certificates are supplied with the delivery, and tests can be witnessed by your inspector."
+      }
+    ],
+    "docsTitle": "Documentation provided",
+    "docs": [
+      "PMI test report with the measured percentage of each element",
+      "Alloy grade confirmation against the ordered specification",
+      "Heat number traceability back to the mill certificate",
+      "Original EN 10204 3.1 mill test certificates"
+    ],
+    "relatedTitle": "Related services",
+    "relatedBsaText": "Heat treatment that restores the internal structure of cold-worked anchors.",
+    "relatedPpText": "A clean, passivated surface gives more reliable PMI readings.",
+    "qualityLink": "See how we test and document every order",
+    "ctaTitle": "Request PMI testing",
+    "ctaText": "Tell us the products, alloy grades and quantities, and whether you need PMI certificates or witnessed testing, and we will include it in our quotation.",
+    "ctaRfq": "Request PMI Testing",
+    "ctaContact": "Discuss your material verification requirements",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What does PMI testing detect?",
+        "a": "The alloying elements that identify a grade, including chromium, nickel, molybdenum, titanium, niobium and manganese, and silicon on suitable analysers. The analyser matches the measured composition to an alloy grade."
+      },
+      {
+        "q": "Why is PMI needed for refractory anchors?",
+        "a": "An anchor in the wrong alloy can fail at furnace temperature and bring down the lining. PMI confirms that every anchor is the grade that was specified, and many refineries and petrochemical plants require PMI reports before accepting material."
+      },
+      {
+        "q": "Can PMI tell SS316 from SS316L?",
+        "a": "Not with XRF, which cannot detect carbon. OES or laboratory analysis is used when the carbon content of a low-carbon grade must be confirmed."
+      },
+      {
+        "q": "What documentation do you provide?",
+        "a": "A PMI test report with the measured element percentages, confirmation of the alloy grade against the specification, and heat number traceability back to the original mill certificate."
+      }
+    ]
+  },
+  "swPage": {
+    "metaTitle": "Stud Welding Solutions for Refractory Anchors | Santura Engineering",
+    "metaDescription": "Stud welding for refractory anchors: drawn arc and CD equipment, ferrules and welding procedures. Since 1980, exporting to 25+ countries.",
+    "eyebrow": "Installation service",
+    "h1": "Stud Welding Solutions for Refractory Anchors",
+    "subheading": "Anchors, stud welding equipment, ceramic ferrules and welding procedures for fast, reliable installation on furnace and vessel shells.",
+    "ctaHero": "Request Stud Welding Support",
+    "whatTitle": "What is stud welding?",
+    "what": [
+      "Stud welding fixes a refractory anchor directly to a furnace or vessel shell with an electric arc, in a fraction of a second and without drilling holes.",
+      "The stud welding gun holds the anchor against the shell and strikes an arc that melts the end of the stud and a small zone of the shell. The gun then plunges the stud into the molten pool, which solidifies into a full-section weld.",
+      "In drawn arc welding a ceramic ferrule surrounds the weld, containing the molten metal and shielding it from the air."
+    ],
+    "compareTitle": "Stud welding processes compared",
+    "colFeature": "Feature",
+    "processes": {
+      "da": "Drawn arc",
+      "sc": "Short cycle",
+      "cd": "Capacitor discharge"
+    },
+    "compareRows": [
+      {
+        "label": "Stud diameter",
+        "da": "3–25 mm",
+        "sc": "Small and medium studs",
+        "cd": "Up to 10 mm"
+      },
+      {
+        "label": "Base material thickness",
+        "da": "From about 2 mm",
+        "sc": "Thinner sheet than drawn arc",
+        "cd": "From about 0.7 mm"
+      },
+      {
+        "label": "Weld time",
+        "da": "Tenths of a second to about 1 second",
+        "sc": "Up to 100 ms",
+        "cd": "A few milliseconds"
+      },
+      {
+        "label": "Ceramic ferrule",
+        "da": "Yes",
+        "sc": "No; gas shielding can be used for stainless steel",
+        "cd": "No"
+      },
+      {
+        "label": "Typical use",
+        "da": "Refractory anchors on furnace shells; deep penetration, high strength",
+        "sc": "Light anchors and studs where speed matters",
+        "cd": "Insulation pins and ceramic fibre studs; minimal marking on the reverse side"
+      }
+    ],
+    "compareNote": "Drawn arc is the main method for refractory anchors on furnace shells. A correctly made drawn arc weld is stronger than the stud itself: in a bend or tensile test the stud fails, not the weld.",
+    "whyTitle": "Why weld quality matters in refractory service",
+    "why": [
+      {
+        "title": "The weld holds the lining",
+        "text": "Anchors are welded to carbon steel or stainless steel shells before the lining is installed. Every kilogram of refractory hangs on those welds."
+      },
+      {
+        "title": "A poor weld fails first",
+        "text": "A weld with poor fusion or porosity cracks under thermal cycling long before the anchor or the refractory wears out."
+      },
+      {
+        "title": "The right process for each anchor",
+        "text": "Castable anchors with stud bases need drawn arc welding, ceramic fibre studs and insulation pins need capacitor discharge, and some anchors are designed for manual welding or bolting."
+      },
+      {
+        "title": "Shutdowns leave no time for rework",
+        "text": "Most installations happen during plant shutdowns. On-site welding capability and correct parameters from the first anchor keep the schedule."
+      }
+    ],
+    "productsTitle": "Which Santura products use which method",
+    "methods": {
+      "da": {
+        "title": "Drawn arc stud / gun welding",
+        "text": "Anchors with stud or gun-weldable bases. On SEPL-08 and SEPL-20 some versions are stud-welded and others welded by hand or bolted; SEPL-16 shear connectors are supplied with an aluminium flux for stud welding."
+      },
+      "sc": {
+        "title": "Short cycle (Rapid Arc)",
+        "text": "Slit studs for lightweight castables."
+      },
+      "cd": {
+        "title": "Capacitor discharge",
+        "text": "Ceramic fibre studs, weld-on threaded studs and insulation pins."
+      },
+      "manual": {
+        "title": "Manual arc welding",
+        "text": "Anchors designed for traditional hand welding."
+      },
+      "screw": {
+        "title": "Screw-on and bolt-on",
+        "text": "Anchors mounted on nuts or threaded onto pre-welded studs. SEPL-25 is also available in a bolt-on version."
+      }
+    },
+    "alloysLine": "All methods are available for anchors in carbon steel, SS304, SS309, SS310, SS316, SS321, 253MA, Alloy 800H and Inconel.",
+    "offerTitle": "What we supply",
+    "offer": [
+      {
+        "title": "Anchors ready for installation",
+        "text": "Anchors with stud bases or pre-welded studs, prepared for welding on site."
+      },
+      {
+        "title": "Equipment and consumables",
+        "text": "Stud welding equipment, ceramic ferrules and collets matched to the anchors you order."
+      },
+      {
+        "title": "Technical guidance",
+        "text": "Recommended welding parameters for each alloy grade and anchor type."
+      },
+      {
+        "title": "Welding procedure specifications",
+        "text": "A WPS for each combination of anchor alloy and shell material."
+      }
+    ],
+    "standardsTitle": "Applicable standards",
+    "colStandard": "Standard",
+    "colCovers": "Covers",
+    "standards": {
+      "d11": "Structural Welding Code – Steel, including the clause on stud welding.",
+      "d16": "Structural Welding Code – Stainless Steel, including stud welding of stainless steel.",
+      "iso": "Welding – Arc stud welding of metallic materials.",
+      "c54": "Recommended Practices for Stud Welding."
+    },
+    "relatedTitle": "Related services",
+    "relatedBsaText": "Restores the internal structure of cold-worked anchors before welding and service.",
+    "relatedPpText": "Removes heat tint and restores corrosion resistance around welds.",
+    "relatedPmiText": "Confirms the alloy of every anchor before it is welded in.",
+    "ctaTitle": "Plan your anchor installation with us",
+    "ctaText": "Send the anchor types, alloy grades, quantities and shell material, and tell us whether you need equipment, ferrules or a WPS. We will quote for the complete package.",
+    "ctaRfq": "Request Stud Welding Support",
+    "ctaContact": "Discuss your installation with our technical team",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What is the difference between drawn arc and capacitor discharge stud welding?",
+        "a": "Drawn arc welding uses a longer arc and a ceramic ferrule to weld larger studs, up to about 25 mm, to shells from about 2 mm thick, giving deep penetration and high strength. Capacitor discharge welds smaller studs, up to about 10 mm, in a few milliseconds without a ferrule, and suits thin material down to about 0.7 mm."
+      },
+      {
+        "q": "Which method is used for which anchor type?",
+        "a": "Castable anchors with stud or gun-weldable bases, such as SEPL-06, SEPL-13 and SEPL-18, use drawn arc welding. Ceramic fibre studs (SEPL-24), weld-on threaded studs (SEPL-25) and insulation pins use capacitor discharge. Some anchors, such as SEPL-07 and SEPL-09, are designed for manual welding."
+      },
+      {
+        "q": "Can anchors be supplied ready for welding on site?",
+        "a": "Yes. Anchors are supplied with stud bases or pre-welded studs prepared for site installation, together with matching ferrules and recommended welding parameters."
+      },
+      {
+        "q": "Which ceramic ferrule sizes are available?",
+        "a": "Ferrules are matched to the stud diameter and to the surface being welded, such as flat plate or tube. Tell us the stud diameter and shell geometry and we will supply the matching ferrules with the anchors."
+      }
+    ]
   }
 }
