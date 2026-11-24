@@ -413,6 +413,10 @@
         "text": "Composition chimique vérifiée par spectrométrie par rapport à la nuance spécifiée."
       },
       {
+        "title": "Micro-attaque",
+        "text": "Micro-attaque en interne selon ASTM A262 Practice A, ASTM E407 et ASTM E112, et macrographie des soudures de goujons."
+      },
+      {
         "title": "Contrôle dimensionnel",
         "text": "Dimensions, pliages et extrémités à souder vérifiés selon le plan."
       },
@@ -447,7 +451,53 @@
     },
     "clientCertsTitle": "Certificats clients",
     "clientCertsText": "Les certificats et lettres de référence de nos clients seront publiés ici.",
-    "photosTitle": "Les contrôles en pratique"
+    "photosTitle": "Les contrôles en pratique",
+    "etch": {
+      "title": "Essai de micro-attaque",
+      "intro": [
+        "L'essai de micro-attaque révèle la structure interne du métal. Un échantillon est prélevé dans la matière ou la pièce finie, poli miroir puis traité avec une solution d'attaque qui fait apparaître les grains et les joints de grains. La surface attaquée est ensuite examinée au microscope.",
+        "Nous réalisons les essais de micro-attaque en interne sur l'acier inoxydable, l'acier au carbone et les alliages de nickel utilisés pour nos ancrages, goujons et pièces mécano-soudées. L'essai montre si le formage, le soudage ou le traitement thermique ont laissé la matière dans l'état exigé par la spécification."
+      ],
+      "testsTitle": "Essais réalisés",
+      "tests": [
+        {
+          "code": "ASTM A262 Practice A",
+          "title": "Dépistage de la corrosion intergranulaire",
+          "text": "Une attaque électrolytique à l'acide oxalique qui contrôle la sensibilisation des aciers inoxydables austénitiques comme le 304, le 310, le 316 et le 321 : des carbures de chrome aux joints de grains qui rendent la matière sensible à la corrosion intergranulaire. Elle sert à contrôler la matière après soudage ou traitement thermique et à confirmer que l'hypertrempe a dissous les carbures."
+        },
+        {
+          "code": "ASTM E407 · ASTM E112",
+          "title": "Microstructure et taille de grain",
+          "text": "La micro-attaque selon ASTM E407 révèle la microstructure de l'acier inoxydable, de l'acier au carbone et des alliages de nickel. La taille de grain moyenne est ensuite évaluée selon ASTM E112, et la structure est contrôlée pour détecter un grossissement excessif du grain ou des phases indésirables."
+        },
+        {
+          "code": "EN ISO 14555",
+          "title": "Macrographie de la soudure",
+          "text": "Un goujon ou ancrage soudé est coupé à travers la soudure, poli et attaqué pour rendre la zone fondue visible. La coupe montre si la soudure a lié toute la base du goujon et jusqu'où elle a pénétré dans le métal de base. L'EN ISO 14555 utilise cet examen macroscopique pour qualifier les modes opératoires de soudage de goujons."
+        }
+      ],
+      "readingTitle": "Lecture des résultats ASTM A262 Practice A",
+      "reading": [
+        {
+          "title": "Structure en marches",
+          "text": "Des marches entre les grains et aucun sillon aux joints de grains. Acceptable : la matière n’est pas sensibilisée."
+        },
+        {
+          "title": "Structure mixte",
+          "text": "Quelques sillons aux joints de grains, mais aucun grain entièrement entouré. Acceptable."
+        },
+        {
+          "title": "Structure en sillons",
+          "text": "Un ou plusieurs grains entièrement entourés de sillons. La matière est considérée comme suspecte et doit réussir l'essai à l'acide chaud prescrit par l'ASTM A262 pour la nuance (Practice B, C ou E) avant d'être acceptée."
+        }
+      ],
+      "readingNote": "La Practice A est un essai de dépistage : elle peut accepter une matière, mais pas la rejeter. Elle ne s'applique qu'aux aciers inoxydables austénitiques ; les alliages de nickel et l'acier au carbone sont contrôlés pour la microstructure et la taille de grain.",
+      "productsTitle": "Produits contrôlés",
+      "productsText": "L'essai s'applique à nos produits métalliques, en particulier aux pièces en acier inoxydable formées à froid, soudées ou traitées thermiquement avant livraison. Les isolants comme la laine minérale, les joints céramiques et le silicate de calcium ne sont pas métalliques : la micro-attaque ne s'y applique pas.",
+      "requestText": "Le rapport de micro-attaque peut être fourni avec les autres certificats d'essai de votre commande. Indiquez l'essai et la norme dans votre demande.",
+      "linkBsa": "Hypertrempe brillante et sensibilisation",
+      "linkSw": "Soudage de goujons et macrographie"
+    }
   },
   "privacyPage": {
     "metaTitle": "Politique de confidentialité | Santura Engineering",
@@ -615,15 +665,17 @@
   "search": {
     "open": "Rechercher",
     "label": "Rechercher sur le site",
-    "placeholder": "Recherchez produits, codes SEPL, alliages, pays…",
+    "placeholder": "Rechercher produits, services, codes SEPL, alliages, pays…",
     "noResults": "Aucun résultat pour « {query} »",
     "close": "Fermer",
     "hint": "Essayez « SEPL-24 », « 310S », « Y anchor » ou « France »",
     "groups": {
       "product": "Produits",
       "country": "Pays",
-      "page": "Pages"
-    }
+      "page": "Pages",
+      "service": "Services"
+    },
+    "viewAll": "Voir tous les résultats"
   },
   "photos": {
     "cartonsBulk": "Cartons prêts pour l'emballage",
@@ -862,6 +914,10 @@
       {
         "title": "Comparaison avec le certificat matière",
         "text": "La comparaison des résultats avec le certificat matière d'origine confirme que le matériau a retrouvé ses propriétés recuites spécifiées."
+      },
+      {
+        "title": "Essai de micro-attaque",
+        "text": "Une attaque à l'acide oxalique selon ASTM A262 Practice A, réalisée en interne, montre s'il reste des carbures de chrome aux joints de grains. Une structure en marches confirme que les ancrages ne sont plus sensibilisés."
       }
     ],
     "verifyQualityLink": "Voir comment nous contrôlons et documentons chaque commande",
@@ -898,7 +954,7 @@
       },
       {
         "q": "Comment vérifier que l'hypertrempe a été bien réalisée ?",
-        "a": "Par des essais de dureté et de traction. Le matériau traité doit être plus tendre que le matériau non traité, avec une dureté revenue dans la plage recuite et une résistance proche du minimum spécifié. La surface doit aussi être brillante et sans calamine."
+        "a": "Par des essais de dureté et de traction. Le matériau traité doit être plus tendre que le matériau non traité, avec une dureté revenue dans la plage recuite et une résistance proche du minimum spécifié. La surface doit aussi être brillante et sans calamine. Un essai de micro-attaque selon ASTM A262 Practice A, réalisé en interne, confirme que les carbures de chrome ont été dissous."
       },
       {
         "q": "L'hypertrempe prolonge-t-elle la durée de vie des ancrages ?",
@@ -1312,7 +1368,2497 @@
       {
         "q": "Quelles tailles de bagues céramiques sont disponibles ?",
         "a": "Les bagues sont adaptées au diamètre du goujon et à la surface soudée, par exemple tôle plane ou tube. Indiquez-nous le diamètre du goujon et la géométrie de la virole, et nous fournissons les bagues correspondantes avec les ancrages."
+      },
+      {
+        "q": "Comment la qualité des soudures de goujons est-elle contrôlée ?",
+        "a": "Par macrographie. Un goujon d'essai est coupé à travers la soudure, poli et attaqué en interne, ce qui montre si la soudure a lié toute la base du goujon et jusqu'où elle a pénétré dans le métal de base. Pour les ancrages en acier inoxydable, un essai de micro-attaque selon ASTM A262 Practice A contrôle aussi la sensibilisation de la matière."
       }
-    ]
+    ],
+    "etchTitle": "Macrographie de la soudure",
+    "etchText": "La qualité de soudure est contrôlée par macrographie. Un goujon d'essai est coupé à travers la soudure, poli et attaqué en interne pour examiner la zone fondue et la profondeur de pénétration. C'est l'examen macroscopique que l'EN ISO 14555 utilise pour qualifier les modes opératoires de soudage de goujons.",
+    "etchLink": "En savoir plus sur nos essais de micro-attaque"
+  },
+  "searchPage": {
+    "metaTitle": "Recherche | Santura Engineering",
+    "metaTitleQuery": "Résultats pour « {query} » | Santura Engineering",
+    "metaDescription": "Recherchez les ancrages réfractaires, codes produits SEPL, alliages, services et pages pays export de Santura Engineering.",
+    "h1": "Recherche",
+    "h1Query": "Résultats pour « {query} »",
+    "submit": "Rechercher",
+    "resultCount": "Résultats pour « {query} » : {count}",
+    "emptyText": "Recherchez par nom de produit, code SEPL, nuance d’alliage, service ou pays.",
+    "noResultsTitle": "Aucun résultat",
+    "noResultsText": "Aucun résultat pour « {query} ». Vérifiez l’orthographe, essayez un code produit comme SEPL-07 ou utilisez l’une des recherches populaires ci-dessous.",
+    "relatedTitle": "Recherches associées",
+    "popularTitle": "Recherches populaires"
+  },
+  "notFoundPage": {
+    "title": "Page introuvable",
+    "text": "La page demandée n’existe pas ou a été déplacée. Recherchez sur le site ou utilisez les liens ci-dessous.",
+    "home": "Aller à l’accueil",
+    "products": "Voir les produits"
+  },
+  "odPage": {
+    "metaTitle": "Portes de regard et regards pour fours et chaudières | Santura Engineering",
+    "metaDescription": "Portes de regard, regards et hublots pour fours, fours rotatifs et chaudières, fabriqués sur plan. Fabricant depuis 1980, exportant vers 25+ pays.",
+    "eyebrow": "Atelier de fabrication",
+    "h1": "Portes de regard et regards",
+    "subheading": "Portes de regard, regards et hublots à garnissage réfractaire pour fours, chaudières, fours rotatifs et réchauffeurs à flamme directe. Fabriqués selon votre plan, avec cadre, porte, verre, joints et ancrages réfractaires livrés en un seul ensemble.",
+    "overviewTitle": "À quoi servent les portes de regard et les regards",
+    "overview": [
+      "Les portes de regard et les regards sont des ouvertures d'accès intégrées aux parois des fours, chaudières, fours rotatifs et réchauffeurs. Ils permettent aux opérateurs de voir l'intérieur, de contrôler la flamme, d'inspecter le garnissage réfractaire et d'introduire des thermocouples ou des sondes sans ouvrir l'équipement ni arrêter le procédé.",
+      "Chaque porte comprend un cadre en acier boulonné ou soudé sur la virole, une porte ou un couvercle qui ferme l'ouverture, et un garnissage réfractaire identique à celui de la paroi qui l'entoure. Des ancrages soudés à l'intérieur du cadre maintiennent ce garnissage, comme les ancrages réfractaires maintiennent le garnissage de la paroi.",
+      "Santura fabrique les portes de regard dans son propre atelier, en acier inoxydable ou en acier doux galvanisé à chaud, avec ancrages réfractaires, verre trempé et joints selon la spécification du client."
+    ],
+    "overviewLink": "Ancrages réfractaires pour garnissages de portes et de parois",
+    "overviewCaption": "Cadre de porte avec ancrages en V soudés à l'intérieur pour maintenir le garnissage réfractaire.",
+    "typesTitle": "Types de portes de regard et de regards",
+    "types": [
+      {
+        "title": "Portes de regard",
+        "size": "Ouvertures de 250 mm (10 po) et plus",
+        "text": "Portes plus grandes, à charnières ou boulonnées, avec vantail garni de réfractaire. Utilisées pour l'inspection visuelle du foyer et un accès de maintenance limité, par exemple au-dessus de chaque zone d'air d'une chaudière."
+      },
+      {
+        "title": "Regards",
+        "size": "Généralement 100 × 100 mm (4 × 4 po)",
+        "text": "Petites ouvertures avec couvercle en fonte ou en acier, souvent à contrepoids pour se refermer seul. Utilisés pour surveiller la flamme et introduire des thermocouples et des sondes."
+      },
+      {
+        "title": "Hublots de visée",
+        "size": "50–100 mm de diamètre",
+        "text": "Équipés d'un verre teinté résistant à la chaleur, bleu cobalt ou vert, pour observer la flamme et le garnissage en continu sans rien ouvrir."
+      }
+    ],
+    "constructionTitle": "Construction et matériaux",
+    "constructionIntro": "Chaque élément est choisi selon la température de service, l'atmosphère du four et la fréquence d'ouverture de la porte.",
+    "construction": [
+      {
+        "title": "Cadre",
+        "text": "Acier doux (généralement galvanisé à chaud), acier inoxydable ou fonte, selon la température de service et l'environnement."
+      },
+      {
+        "title": "Garnissage réfractaire",
+        "text": "Béton réfractaire ou briques réfractaires dans la porte et le cadre, adapté au système réfractaire de l'équipement et maintenu par des ancrages soudés."
+      },
+      {
+        "title": "Verre de regard",
+        "text": "Verre trempé bleu cobalt, généralement de 3 mm. Il atténue l'éblouissement de la flamme pour voir clairement sa forme et l'état du garnissage. Un verre teinté vert est également disponible."
+      },
+      {
+        "title": "Étanchéité",
+        "text": "Joints haute température sur des portées usinées, pour que la porte fermée ne laisse ni sortir de gaz chaud ni entrer d'air froid."
+      },
+      {
+        "title": "Montage",
+        "text": "Bride boulonnée sur la virole. Portes à charnières pour les accès fréquents, couvercles à contrepoids pour les regards."
+      },
+      {
+        "title": "Quincaillerie",
+        "text": "Poignées de verrouillage et charnières adaptées à la température de service, avec anneaux de levage sur les portes lourdes."
+      }
+    ],
+    "specTitle": "Spécifications types",
+    "colFeature": "Caractéristique",
+    "cols": {
+      "od": "Porte de regard",
+      "pd": "Regard",
+      "sp": "Hublot de visée"
+    },
+    "specRows": [
+      {
+        "label": "Dimension d'ouverture",
+        "od": "250 mm et plus (sur mesure)",
+        "pd": "100 × 100 mm à 150 × 150 mm",
+        "sp": "50–100 mm de diamètre"
+      },
+      {
+        "label": "Matériau du cadre",
+        "od": "Acier doux / inox / fonte",
+        "pd": "Fonte / acier doux",
+        "sp": "Fonte / inox"
+      },
+      {
+        "label": "Température de service max.",
+        "od": "Jusqu'à 1200 °C (avec garnissage réfractaire)",
+        "pd": "Jusqu'à 1000 °C",
+        "sp": "Jusqu'à 800 °C (limitée par le verre)"
+      },
+      {
+        "label": "Fermeture",
+        "od": "À charnières ou boulonnée",
+        "pd": "Couvercle boulonné ou à contrepoids",
+        "sp": "Bouchon fileté ou boulonné"
+      },
+      {
+        "label": "Verre",
+        "od": "En option",
+        "pd": "En option",
+        "sp": "Standard (bleu cobalt)"
+      },
+      {
+        "label": "Garnissage réfractaire",
+        "od": "Oui",
+        "pd": "Oui (couvercle et cadre)",
+        "sp": "Non (verre seul)"
+      }
+    ],
+    "specNote": "Ces valeurs sont indicatives. La dimension d'ouverture, les matériaux et la tenue en température de chaque porte sont fixés par le plan du client et les conditions de service de l'équipement.",
+    "applicationsTitle": "Domaines d'utilisation",
+    "applications": [
+      {
+        "title": "Chaudières",
+        "text": "Chaudières AFBC, CFBC et à grille : portes de regard au-dessus de chaque zone d'air et regards pour surveiller la flamme."
+      },
+      {
+        "title": "Réchauffeurs de raffinerie",
+        "text": "Fours de procédé et reformeurs : hublots et regards pour observer les flammes des brûleurs."
+      },
+      {
+        "title": "Fours de cimenterie",
+        "text": "Regards dans la virole du four et dans la zone du brûleur pour contrôler le garnissage et la flamme."
+      },
+      {
+        "title": "Aciéries",
+        "text": "Fours de réchauffage et préchauffeurs de poches : portes d'accès pour l'inspection pendant les arrêts."
+      },
+      {
+        "title": "Incinérateurs et valorisation énergétique",
+        "text": "Fours rotatifs et chambres de post-combustion : portes de regard pour contrôler la combustion."
+      },
+      {
+        "title": "Fours de traitement thermique",
+        "text": "Fours discontinus et continus : portes de chargement équipées de hublots."
+      }
+    ],
+    "fabTitle": "Fabrication sur mesure",
+    "fab": [
+      "Chaque porte est fabriquée selon le plan et la spécification matière du client. Nous adaptons le garnissage réfractaire de la porte à celui de l'équipement, afin que la porte ne devienne pas un point faible de la paroi.",
+      "Pour les installations existantes, nous fabriquons des portes et couvercles de remplacement à partir d'un plan ou d'une porte échantillon. Les portes sont livrées seules ou dans un ensemble de fabrication plus large avec ancrages, éléments de virole et supports."
+    ],
+    "reference": "En 2006, Santura a fourni des portes de regard de four et des systèmes de contrepoids à Petron Engineering Construction Ltd, qui a émis une lettre d'appréciation pour ce travail.",
+    "processTitle": "Comment nous fabriquons une porte",
+    "process": [
+      {
+        "title": "Validation du plan",
+        "text": "Nous renvoyons le plan au client pour validation avant la fabrication, afin que toute modification soit convenue d'abord."
+      },
+      {
+        "title": "Contrôle des matières",
+        "text": "La nomenclature est vérifiée. 10 % de la matière est testée dans des laboratoires accrédités NABL, et les pièces inox sont contrôlées par PMI."
+      },
+      {
+        "title": "Découpe et formage",
+        "text": "Les tôles sont cisaillées et formées, puis tracées et assemblées à l'atelier. Nos contrôleurs vérifient l'assemblage avant le soudage."
+      },
+      {
+        "title": "Soudage et contrôle",
+        "text": "Soudage au CO2 pour une pénétration complète, suivi d'un contrôle de porosité des soudures."
+      },
+      {
+        "title": "Finition",
+        "text": "Finition et galvanisation à chaud, puis emballage pour l'expédition."
+      }
+    ],
+    "supplyTitle": "Ce que nous fournissons",
+    "supply": [
+      {
+        "title": "Ensembles de porte complets",
+        "text": "Cadre, porte, quincaillerie et ancrages réfractaires, prêts à garnir ou livrés garnis."
+      },
+      {
+        "title": "Portes et couvercles de remplacement",
+        "text": "Fabriqués selon votre plan ou un échantillon pour s'adapter aux ouvertures existantes."
+      },
+      {
+        "title": "Verre de regard",
+        "text": "Verre bleu cobalt en plusieurs dimensions."
+      },
+      {
+        "title": "Joints et quincaillerie de rechange",
+        "text": "Joints, charnières, poignées et visserie pour les portes en service."
+      }
+    ],
+    "galleryTitle": "Portes de regard de notre atelier",
+    "galleryText": "Portes fabriquées dans notre atelier, du cadre unitaire aux séries de production pour des projets de chaudières.",
+    "gallery": [
+      "Deux portes de regard avec fenêtres vitrées pour un four industriel",
+      "Cadre ouvert de porte de regard avec ancrages en V soudés pour le garnissage réfractaire",
+      "Cadre galvanisé de porte de regard avec ancrages, vue de face",
+      "Cadre à bride de porte de regard à boulonner sur la virole du four",
+      "Cadre et pièces d'une porte de regard avant assemblage",
+      "Série de portes de regard galvanisées dans l'atelier de fabrication",
+      "Portes de regard à charnières empilées pour l'expédition",
+      "Gros plan de cadres galvanisés de portes de regard d'une série"
+    ],
+    "relatedTitle": "Produits et services associés",
+    "relatedAnchorsText": "Les ancrages qui maintiennent le garnissage réfractaire de chaque porte, dans les mêmes alliages que le garnissage de votre paroi.",
+    "relatedSwText": "Équipements et procédures pour souder les ancrages sur les cadres de porte et les viroles.",
+    "relatedPmiText": "Vérification de l'alliage des pièces de porte en inox avant leur sortie de l'atelier.",
+    "relatedPpText": "Traitement de surface des cadres et portes en inox après fabrication.",
+    "countriesTitle": "Pays livrés",
+    "countriesText": "Nous exportons des portes de regard avec nos ancrages réfractaires. Les pages pays décrivent les industries et les ports que nous desservons sur chaque marché.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Quelle est la différence entre une porte de regard et un regard ?",
+        "a": "Une porte de regard a une ouverture plus grande, généralement 250 mm et plus, et sert à l'inspection visuelle et à un accès de maintenance limité. Un regard est plus petit, généralement 100 × 100 mm, et sert à observer la flamme et à introduire des thermocouples ou des sondes. Les deux sont garnis de réfractaire."
+      },
+      {
+        "q": "Quel verre est utilisé dans les portes de regard et les hublots ?",
+        "a": "Un verre teinté résistant à la chaleur, généralement du verre trempé bleu cobalt d'environ 3 mm. Il atténue l'éblouissement de la flamme pour voir clairement la flamme et le garnissage réfractaire. Un verre teinté vert est également disponible. Le verre limite un hublot à environ 800 °C."
+      },
+      {
+        "q": "Pouvez-vous fabriquer des portes selon notre plan ou copier une porte existante ?",
+        "a": "Oui. Toutes nos portes sont fabriquées selon le plan et la spécification matière du client. Pour les remplacements, nous travaillons à partir d'un plan existant ou d'une porte échantillon, et nous adaptons le garnissage réfractaire à celui de l'équipement."
+      },
+      {
+        "q": "Pour quelles températures les portes sont-elles prévues ?",
+        "a": "Avec un garnissage réfractaire, les portes de regard sont généralement utilisées jusqu'à 1200 °C et les regards jusqu'à 1000 °C. Les hublots sont limités par le verre à environ 800 °C. La tenue finale dépend des matériaux et du garnissage de votre spécification."
+      }
+    ],
+    "ctaTitle": "Besoin de portes de regard ou de regards ?",
+    "ctaText": "Envoyez-nous votre plan, la dimension d'ouverture, la température de service et la quantité. Nous vous répondrons avec un devis et un délai de livraison.",
+    "ctaRfq": "Demander un devis pour des portes de regard",
+    "ctaContact": "Ou contactez notre équipe"
+  },
+  "fbPage": {
+    "metaTitle": "Fabricant de tiges d'ancrage | Types L, J, U | Santura Engineering",
+    "metaDescription": "Tiges de scellement et d'ancrage types L, J, U, à plaque et droites, sur plan, en acier doux, B7 et inox. Depuis 1980, exportant vers 25+ pays.",
+    "eyebrow": "Atelier de fabrication",
+    "h1": "Tiges de scellement et tiges d'ancrage",
+    "subheading": "Tiges de scellement types L, J, U, à plaque et droites pour chaudières, équipements lourds et charpente métallique. Coupées, cintrées, filetées et galvanisées à chaud selon votre plan, livrées en ensembles complets avec écrous, rondelles, plaques d'ancrage et fourreaux.",
+    "overviewTitle": "Ce que sont les tiges de scellement",
+    "overview": [
+      "Les tiges de scellement sont des boulons en acier noyés dans une fondation en béton pour ancrer structures, poteaux, équipements et machines. L'extrémité noyée est coudée, en crochet ou munie d'une plaque pour ne pas pouvoir être arrachée du béton ; l'extrémité filetée dépasse de la fondation pour recevoir la platine, l'écrou et la rondelle.",
+      "Les termes désignent souvent le même produit. Tige d'ancrage désigne généralement un boulon coulé dans le béton, tige de scellement un boulon qui fixe un équipement sur son socle. Beaucoup de tiges de scellement sont munies d'un fourreau tubulaire dans leur partie haute, qui laisse un peu de jeu pour ajuster la position de la tige lors du calage de l'équipement.",
+      "Santura fabrique des tiges de scellement dans le cadre de ses fabrications sur mesure : la barre est coupée, cintrée, filetée et galvanisée à chaud selon le plan du client. Nous fabriquons des tiges à tête, coudées et filetées jusqu'à 6 pouces de diamètre et plus."
+    ],
+    "typesTitle": "Types de tiges de scellement",
+    "types": [
+      {
+        "key": "l",
+        "title": "Type L (coude à 90°)",
+        "size": "M10 à M64",
+        "text": "Le type le plus courant. L'extrémité noyée est coudée à angle droit pour que la tige se bloque dans le béton.",
+        "uses": "Poteaux de charpente, platines, mâts d'éclairage et châssis d'équipements."
+      },
+      {
+        "key": "j",
+        "title": "Type J (crochet)",
+        "size": "",
+        "text": "Un crochet arrondi en J à l'extrémité noyée accroche le béton. Semblable au type L, avec une meilleure résistance à l'arrachement dans certaines configurations.",
+        "uses": "Assemblages de charpente légers, supports de tuyauterie et garde-corps."
+      },
+      {
+        "key": "u",
+        "title": "Type U",
+        "size": "",
+        "text": "Une tige en U qui passe sous une platine, une poutre ou un tuyau, avec les deux extrémités filetées dirigées vers le haut.",
+        "uses": "Bridage d'équipements, supports de tuyauterie et pièces à boulonner de part en part."
+      },
+      {
+        "key": "plate",
+        "title": "À plaque / à tête",
+        "size": "",
+        "text": "Une tige droite avec une plaque d'ancrage carrée ou hexagonale soudée à l'extrémité noyée. Ce type offre la plus forte résistance à l'arrachement et est souvent livré avec fourreau.",
+        "uses": "Machines lourdes, turbines, compresseurs et fondations de chaudières."
+      },
+      {
+        "key": "rod",
+        "title": "Droite / tige filetée",
+        "size": "",
+        "text": "Une tige filetée sur toute sa longueur avec écrou et rondelle à chaque extrémité. Elle permet le plus de réglage sur chantier.",
+        "uses": "Utilisation avec plaques d'ancrage ou dans des réservations remplies de mortier."
+      }
+    ],
+    "materialsTitle": "Matériaux",
+    "materials": [
+      {
+        "title": "Acier doux (IS 2062 / ASTM A36)",
+        "text": "Le choix le plus courant pour la charpente générale."
+      },
+      {
+        "title": "ASTM F1554 Grade 36 / 55 / 105",
+        "text": "Acier pour tiges d'ancrage en trois classes de résistance, pour les assemblages calculés."
+      },
+      {
+        "title": "ASTM A307 Grade A / B / C",
+        "text": "Boulons et goujons en acier au carbone d'usage général."
+      },
+      {
+        "title": "ASTM A193 Grade B7",
+        "text": "Acier allié pour haute température et haute pression, comme les chaudières et appareils à pression."
+      },
+      {
+        "title": "Acier inoxydable (SS304 / SS316)",
+        "text": "Pour les environnements corrosifs, les sites côtiers et les usines chimiques."
+      }
+    ],
+    "finishesTitle": "Finitions et revêtements",
+    "finishes": [
+      {
+        "title": "Galvanisation à chaud (HDG)",
+        "text": "La finition la plus courante pour l'extérieur et le scellement, selon ASTM F2329."
+      },
+      {
+        "title": "Zingage électrolytique",
+        "text": "Passivation jaune, bleue ou blanche, pour l'intérieur et les environnements peu agressifs."
+      },
+      {
+        "title": "Brunissage (oxyde noir)",
+        "text": "Protection de base contre la corrosion."
+      },
+      {
+        "title": "Brut / sans revêtement",
+        "text": "Sur demande du client et pour les tiges en inox."
+      }
+    ],
+    "specTitle": "Spécifications",
+    "colProperty": "Caractéristique",
+    "colRange": "Plage",
+    "specRows": [
+      {
+        "label": "Diamètre",
+        "value": "M10 à M100 (3/8 po à 4 po) ; diamètres supérieurs sur plan"
+      },
+      {
+        "label": "Longueur",
+        "value": "150 mm à 3000 mm et plus (longueurs sur mesure)"
+      },
+      {
+        "label": "Filetage",
+        "value": "Métrique ISO ou Unified en pouces, filetage total ou partiel"
+      },
+      {
+        "label": "Rayon de cintrage",
+        "value": "Selon plan ou norme"
+      },
+      {
+        "label": "Normes",
+        "value": "ASTM F1554, ASTM A307, ASTM A193, IS 2062, IS 1363, IS 1364"
+      },
+      {
+        "label": "Essais",
+        "value": "Essai de traction, essai de charge d'épreuve, essai de dureté et contrôle dimensionnel"
+      },
+      {
+        "label": "Tolérances",
+        "value": "Selon IS 2062, ASTM F1554 ou le plan du client"
+      }
+    ],
+    "specNote": "Chaque commande est fabriquée selon le plan du client ou la norme indiquée. Précisez-nous le type, le diamètre, la longueur, la longueur filetée, la nuance et la finition.",
+    "applicationsTitle": "Applications par secteur",
+    "applications": [
+      {
+        "title": "Fondations de chaudières et de fours",
+        "text": "Ancrage des structures de chaudières, viroles de fours, cheminées et gaines sur des massifs en béton."
+      },
+      {
+        "title": "Équipements lourds",
+        "text": "Compresseurs, turbines, pompes, groupes électrogènes et presses."
+      },
+      {
+        "title": "Charpente métallique",
+        "text": "Platines de poteaux, portiques, rails de pont roulant et supports de convoyeurs."
+      },
+      {
+        "title": "Centrales électriques",
+        "text": "Massifs de turbines, structures de tours de refroidissement et fondations de racks de tuyauterie."
+      },
+      {
+        "title": "Cimenteries",
+        "text": "Piles d'appui de four, fondations de broyeurs et structures de tours de préchauffage."
+      },
+      {
+        "title": "Pétrole et gaz",
+        "text": "Structures de réchauffeurs à flamme directe, fondations de colonnes et pieds de racks de tuyauterie."
+      },
+      {
+        "title": "Infrastructures",
+        "text": "Mâts d'éclairage, portiques de signalisation, appareils d'appui de ponts et pylônes de lignes."
+      }
+    ],
+    "supplyTitle": "Ce que nous fournissons",
+    "supply": [
+      {
+        "title": "Tiges sur plan ou selon norme",
+        "text": "Tiges de scellement fabriquées selon votre plan ou une spécification standard."
+      },
+      {
+        "title": "Ensembles complets",
+        "text": "Tiges avec écrous, rondelles, plaques d'ancrage et fourreaux, étiquetées et prêtes à poser."
+      },
+      {
+        "title": "Tout type, toute nuance",
+        "text": "Tiges L, J, U, à plaque et droites en acier doux, F1554, A307, B7 ou inox."
+      },
+      {
+        "title": "Galvanisation à chaud",
+        "text": "Galvanisation réalisée par des galvaniseurs agréés."
+      },
+      {
+        "title": "Gabarits",
+        "text": "Gabarits qui maintiennent chaque groupe de tiges en position pendant le coulage du béton."
+      },
+      {
+        "title": "Pièces unitaires ou ensembles",
+        "text": "Tiges seules ou intégrées à un ensemble complet de charpente fabriquée."
+      }
+    ],
+    "gallery": [
+      "Tiges de scellement galvanisées avec fourreaux, en position verticale",
+      "Tiges de scellement galvanisées avec plaques d'ancrage carrées",
+      "Tiges de scellement avec fourreaux, étiquetées pour l'expédition",
+      "Tiges de scellement galvanisées avec fourreaux alignées à l'atelier",
+      "Stock de tiges de scellement galvanisées avec écrous et fourreaux",
+      "Gros plan des fourreaux et écrous de tiges de scellement"
+    ],
+    "relatedTitle": "Produits associés",
+    "relatedStanchions": "Poteaux et montants pour plateformes et garde-corps, souvent posés sur les mêmes fondations.",
+    "relatedPipeGuides": "Guides de tuyauterie et fourreaux annulaires pour réchauffeurs à flamme directe et racks.",
+    "relatedFasteners": "Vis à tête hexagonale, goujons B7, écrous et rondelles en aciers inoxydables et alliés.",
+    "relatedAnchors": "Ancrages SEPL pour les garnissages réfractaires des chaudières et fours que ces tiges ancrent.",
+    "countriesTitle": "Pays livrés",
+    "countriesText": "Nous exportons des tiges de scellement avec nos ancrages réfractaires et nos pièces fabriquées. Les pages pays décrivent les industries et les ports que nous desservons sur chaque marché.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Quelle est la différence entre les tiges de scellement de type L et de type J ?",
+        "a": "Les deux ont une extrémité noyée coudée. Une tige de type L est coudée à 90 degrés, tandis qu'une tige de type J a un crochet arrondi. Le type L est le choix le plus courant pour les poteaux et platines ; le type J sert aux assemblages plus légers comme les supports de tuyauterie et garde-corps, et peut offrir une meilleure résistance à l'arrachement dans certaines configurations."
+      },
+      {
+        "q": "Qu'est-ce que la norme ASTM F1554 ?",
+        "a": "ASTM F1554 est la norme américaine des tiges d'ancrage coulées dans le béton. Elle couvre les tiges droites, coudées et à tête en trois classes, 36, 55 et 105, qui correspondent à leur limite d'élasticité minimale en ksi. L'extrémité apparente porte un code couleur : bleu pour la classe 36, jaune pour la 55 et rouge pour la 105."
+      },
+      {
+        "q": "Pouvez-vous fabriquer des tiges de scellement sur mesure ?",
+        "a": "Oui. Nous coupons, cintrons et filetons chaque tige selon le plan du client, d'environ 150 mm à 3000 mm et plus. La longueur filetée, la longueur coudée et le rayon de cintrage sont réalisés selon la spécification."
+      },
+      {
+        "q": "Quelles finitions sont disponibles pour les tiges de scellement ?",
+        "a": "La galvanisation à chaud selon ASTM F2329 est la finition la plus courante pour les tiges extérieures et scellées. Le zingage électrolytique (jaune, bleu ou blanc) convient à l'intérieur et aux environnements peu agressifs, le brunissage donne une protection de base, et les tiges peuvent être livrées brutes sur demande ou en inox."
+      }
+    ],
+    "ctaTitle": "Besoin de tiges de scellement ?",
+    "ctaText": "Envoyez-nous votre plan ou nomenclature avec le type, le diamètre, la longueur, la nuance, la finition et la quantité. Nous vous répondrons avec un devis et un délai de livraison.",
+    "ctaRfq": "Demander un devis pour des tiges de scellement",
+    "ctaContact": "Ou contactez notre équipe"
+  },
+  "spPage": {
+    "metaTitle": "Fabricant de plaques support et platines | Fabrication sur mesure | Santura Engineering",
+    "metaDescription": "Consoles de support réfractaire, platines, plaques de montage, goussets et plaques à sceller fabriqués sur plan. Depuis 1980, exportant vers 25+ pays.",
+    "eyebrow": "Atelier de fabrication",
+    "h1": "Plaques support et platines",
+    "subheading": "Consoles de support réfractaire, platines de poteaux, plaques de montage d'équipements, goussets et plaques à sceller pour fours, chaudières et charpente métallique. Découpés, percés, usinés et soudés selon votre plan.",
+    "heroAlt": "Platine de poteau boulonnée sur une fondation en béton",
+    "overviewTitle": "Ce que sont les plaques support",
+    "overview": [
+      "Les plaques support sont des plaques et consoles en acier fabriquées qui reprennent et répartissent les charges. Dans les fours et chaudières, elles sont soudées sur la virole pour porter le poids du garnissage réfractaire. En charpente métallique, ce sont les platines, plaques de montage, goussets et plaques à sceller qui relient poteaux, équipements et éléments en acier à leurs fondations et entre eux.",
+      "Chaque plaque est fabriquée selon le plan du client. Santura découpe, perce, usine et soude les plaques support dans son propre atelier, avec les ancrages réfractaires et les tiges de scellement souvent posés en même temps."
+    ],
+    "uses": [
+      {
+        "title": "Support réfractaire",
+        "text": "Consoles soudées dans les fours et appareils pour porter le garnissage et les blocs brûleurs."
+      },
+      {
+        "title": "Platines de charpente",
+        "text": "Plaques qui relient poteaux et équipements aux fondations en béton et aux ossatures acier."
+      }
+    ],
+    "typesTitle": "Types de plaques support",
+    "types": [
+      {
+        "key": "refractory",
+        "title": "Plaques de support réfractaire / consoles de garnissage",
+        "alt": "Console de support réfractaire soudée sur la virole d'un four sous le garnissage",
+        "text": "Plaques en forme de console soudées sur la virole du four pour porter le poids du garnissage réfractaire, surtout dans les parois verticales et les zones de voûte. Elles sont constituées de pièces en acier soudées et répartissent uniformément la charge du garnissage sur la virole.",
+        "points": [
+          "Portent les blocs brûleurs indépendamment de la paroi du four",
+          "Placées à intervalles calculés sur la circonférence de la virole",
+          "Acier doux ou inox (SS304, SS310), selon la température de service",
+          "Aussi appelées consoles, supports de briques ou équerres de support"
+        ]
+      },
+      {
+        "key": "base",
+        "title": "Platines de poteaux",
+        "alt": "Platine de poteau avec tiges d'ancrage sur une fondation en béton",
+        "text": "Plaques plates soudées au pied des poteaux en acier et boulonnées à la fondation par des tiges d'ancrage. Elles répartissent uniformément la charge du poteau sur le béton.",
+        "points": [
+          "Trous percés ou poinçonnés selon l'implantation des tiges",
+          "Face d'appui usinée plane pour un contact total avec le mortier de calage",
+          "IS 2062 Grade A jusqu'à 20 mm d'épaisseur",
+          "IS 2062 Grade B (calmé) au-delà de 20 mm, comme l'exigent les codes de charpente"
+        ]
+      },
+      {
+        "key": "mounting",
+        "title": "Plaques de montage d'équipements",
+        "alt": "Plaque de montage percée pour le socle d'une pompe",
+        "text": "Plaques plates prépercées pour fixer pompes, compresseurs, moteurs et autres machines sur des socles en béton ou en acier.",
+        "points": [
+          "Percées exactement selon l'implantation des pieds de l'équipement",
+          "Dispositifs de réglage de niveau et bêches de cisaillement si nécessaire",
+          "Dispositifs antivibratoires sur demande"
+        ]
+      },
+      {
+        "key": "gusset",
+        "title": "Goussets et raidisseurs",
+        "alt": "Gousset triangulaire soudé à un assemblage poutre-poteau",
+        "text": "Plaques triangulaires ou rectangulaires soudées aux assemblages poutre-poteau pour raidir la liaison et transmettre les efforts.",
+        "points": [
+          "Ossatures métalliques, charpentes de chaudières et racks de tuyauterie",
+          "Consoles et supports de plateformes",
+          "Importants dans les structures dimensionnées pour le séisme et le vent"
+        ]
+      },
+      {
+        "key": "embed",
+        "title": "Plaques à sceller",
+        "alt": "Plaque à sceller avec goujons soudés, coulée dans un voile en béton",
+        "text": "Plaques en acier munies de goujons ou d'ancrages soudés, coulées dans le béton pour offrir un point de fixation après le bétonnage.",
+        "points": [
+          "Fixer charpente, supports de tuyauterie et équipements sur le béton",
+          "Fixer des garde-corps sur des voiles et dalles en béton",
+          "Goujons soudés sur la plaque avant le coulage"
+        ]
+      }
+    ],
+    "materialsTitle": "Matériaux",
+    "materials": [
+      {
+        "title": "Acier doux",
+        "text": "IS 2062 Grade A, B ou C et ASTM A36. Le choix le plus courant pour les plaques de charpente."
+      },
+      {
+        "title": "Acier inoxydable",
+        "text": "SS304, SS310 et SS316, pour les environnements corrosifs et les supports réfractaires chauds."
+      },
+      {
+        "title": "Acier pour chaudières",
+        "text": "IS 2002 et SA 516 Gr 70, pour appareils à pression et chaudières."
+      },
+      {
+        "title": "Acier de charpente à haute résistance",
+        "text": "ASTM A572 Grade 50, pour les fortes charges."
+      }
+    ],
+    "specTitle": "Spécifications",
+    "colProperty": "Caractéristique",
+    "colRange": "Plage",
+    "specRows": [
+      {
+        "label": "Épaisseur",
+        "value": "6 mm à 100 mm et plus"
+      },
+      {
+        "label": "Dimensions",
+        "value": "Découpe sur plan, dans des tôles jusqu'à 2000 × 6000 mm"
+      },
+      {
+        "label": "Perçage",
+        "value": "CNC ou manuel, à la tolérance du plan"
+      },
+      {
+        "label": "Surface",
+        "value": "Usinée plane, grenaillée, peinte ou galvanisée"
+      },
+      {
+        "label": "Soudage",
+        "value": "Selon AWS D1.1 ou IS 816, avec CND si spécifié"
+      },
+      {
+        "label": "Normes",
+        "value": "IS 2062, ASTM A36, ASTM A572, IS 816 (soudage), AWS D1.1"
+      },
+      {
+        "label": "Tolérances",
+        "value": "Selon IS 2062, AISC ou la spécification du client"
+      },
+      {
+        "label": "Essais",
+        "value": "Contrôle dimensionnel, contrôle par ultrasons (UT) des tôles épaisses, contrôle visuel des soudures"
+      }
+    ],
+    "specNote": "Chaque plaque est fabriquée selon le plan du client. Envoyez-nous le plan ou le croquis avec la nuance, l'épaisseur, la finition et la quantité.",
+    "applicationsTitle": "Applications par secteur",
+    "applications": [
+      {
+        "title": "Fours",
+        "text": "Consoles de support du garnissage réfractaire, plaques support de blocs brûleurs et renforts de virole."
+      },
+      {
+        "title": "Chaudières",
+        "text": "Charpente porteuse, consoles de ceinturage (buckstays) et supports d'enveloppe."
+      },
+      {
+        "title": "Raffineries",
+        "text": "Structures porteuses de réchauffeurs, platines de poteaux et de racks de tuyauterie."
+      },
+      {
+        "title": "Centrales électriques",
+        "text": "Plaques de massifs de turbines, charpente de chaudières et plateformes."
+      },
+      {
+        "title": "Cimenteries",
+        "text": "Charpente de tours de préchauffage, plaques de piles de four et de fondations de broyeurs."
+      },
+      {
+        "title": "Charpente générale",
+        "text": "Pieds de poteaux, appuis de rails de pont roulant, supports de convoyeurs et fixation de garde-corps."
+      }
+    ],
+    "supplyTitle": "Ce que nous fournissons",
+    "supply": [
+      {
+        "title": "Tous types sur plan",
+        "text": "D'une seule console à des ensembles complets, fabriqués selon le plan du client."
+      },
+      {
+        "title": "Découpe et usinage",
+        "text": "Oxycoupage, plasma ou CNC selon le besoin, avec perçage, usinage et soudage."
+      },
+      {
+        "title": "Traitement de surface",
+        "text": "Grenaillage, peinture primaire et galvanisation à chaud."
+      },
+      {
+        "title": "Plaques seules ou ensembles",
+        "text": "Plaques à l'unité ou intégrées à un ensemble complet de charpente fabriquée."
+      },
+      {
+        "title": "Sur échantillon, croquis ou plan",
+        "text": "Nous fabriquons des plaques à partir d'un échantillon, d'un croquis ou d'un plan d'ingénierie détaillé."
+      }
+    ],
+    "relatedTitle": "Produits associés",
+    "relatedFoundationBolts": "Tiges d'ancrage et de scellement qui fixent les platines au béton.",
+    "relatedStanchions": "Poteaux et montants pour plateformes et garde-corps, montés sur platines.",
+    "relatedPipeGuides": "Guides de tuyauterie et fourreaux annulaires pour réchauffeurs et racks.",
+    "relatedAnchors": "Ancrages SEPL qui maintiennent le garnissage réfractaire entre les consoles de support.",
+    "servicesTitle": "Services associés",
+    "relatedSwText": "Soudage de goujons pour les plaques à sceller et les ancrages soudés sur les plaques support.",
+    "relatedPmiText": "Vérification de l'alliage des plaques en inox avant expédition.",
+    "relatedPpText": "Traitement de surface des plaques et consoles en inox après soudage.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Que sont les plaques de support réfractaire ?",
+        "a": "Les plaques de support réfractaire, aussi appelées consoles de garnissage, sont des consoles en acier soudées à l'intérieur de la virole d'un four ou d'une chaudière. Elles portent le poids du garnissage réfractaire, surtout dans les hautes parois verticales et les zones de voûte, et répartissent cette charge uniformément sur la virole. Elles servent aussi à porter les blocs brûleurs indépendamment de la paroi."
+      },
+      {
+        "q": "En quels matériaux sont fabriquées les plaques support ?",
+        "a": "Les plaques de charpente sont généralement en acier doux IS 2062 ou ASTM A36, ou en ASTM A572 Grade 50 pour les fortes charges. Les pièces de chaudières et d'appareils à pression sont en IS 2002 ou SA 516 Gr 70. Les consoles de support réfractaire exposées à la chaleur sont en inox comme le SS304 ou le SS310, et le SS316 est utilisé en milieu corrosif."
+      },
+      {
+        "q": "Les plaques peuvent-elles être livrées usinées ?",
+        "a": "Oui. Les platines peuvent être usinées planes sur la face d'appui pour un contact total avec le mortier de calage, et les trous sont percés par CNC ou manuellement à la tolérance du plan. Nous livrons aussi des plaques grenaillées, peintes en primaire ou galvanisées à chaud."
+      },
+      {
+        "q": "Quelle est l'épaisseur maximale disponible ?",
+        "a": "Nous fournissons des plaques support de 6 mm à 100 mm d'épaisseur et plus, découpées sur plan dans des tôles jusqu'à 2000 × 6000 mm. Les tôles épaisses peuvent être contrôlées par ultrasons lorsque la spécification l'exige."
+      }
+    ],
+    "ctaTitle": "Besoin de plaques support ou de platines ?",
+    "ctaText": "Envoyez-nous votre plan, croquis ou les données de l'échantillon avec la nuance, l'épaisseur, la finition et la quantité. Nous vous répondrons avec un devis et un délai de livraison.",
+    "ctaRfq": "Demander un devis pour des plaques support",
+    "ctaContact": "Ou contactez notre équipe"
+  },
+  "stPage": {
+    "metaTitle": "Poteaux de garde-corps industriels | Rambardes de plateforme | Santura Engineering",
+    "metaDescription": "Poteaux, lisses, plinthes et portillons pour plateformes et passerelles industrielles, sur plan. Depuis 1980, exportant vers plus de 25 pays.",
+    "eyebrow": "Atelier de fabrication",
+    "h1": "Poteaux industriels et systèmes de garde-corps",
+    "subheading": "Poteaux, lisses, plinthes et portillons pour plateformes, passerelles et escaliers industriels. Découpés, soudés et galvanisés à chaud selon votre plan, livrés en poteaux seuls, modules de garde-corps ou ensembles de plateforme complets.",
+    "gallery": [
+      "Lot de poteaux industriels galvanisés à chaud avec platines raidies",
+      "Poteau galvanisé avec bras de lisse soudés et platine",
+      "Poteau industriel avec bras latéral et platine raidie",
+      "Gros plan d'un assemblage en T soudé sur un poteau"
+    ],
+    "overviewTitle": "Ce que sont les poteaux industriels",
+    "overview": [
+      "Les poteaux sont les montants verticaux en acier, pleins ou tubulaires, qui portent un garde-corps ou une barrière industrielle. Sur les poteaux à boules, les lisses horizontales traversent des boules en acier forgé et sont bloquées par des vis sans tête.",
+      "Avec les lisses, plinthes, portillons et embouts, les poteaux forment la protection de bord exigée sur les plateformes, passerelles, escaliers et autres zones en hauteur. Santura fabrique des poteaux, des systèmes de garde-corps complets et des plateformes selon le plan du client."
+    ],
+    "weldedTitle": "Poteaux soudés",
+    "weldedText": "Nos photos montrent des poteaux soudés : poteaux tubulaires avec bras de lisse soudés, platine raidie et galvanisation à chaud après soudage. Nous fabriquons des poteaux selon le plan du client, du type à boules décrit ci-dessous ou de ce type soudé.",
+    "typesTitle": "Configurations de poteaux",
+    "types": [
+      {
+        "key": "single",
+        "title": "Poteau à une boule",
+        "alt": "Poteau à une boule avec main courante",
+        "text": "Une boule en tête pour une seule main courante. Utilisé lorsque seule une lisse haute est requise, comme les passerelles à faible risque et les rambardes de guidage."
+      },
+      {
+        "key": "double",
+        "title": "Poteau à deux boules",
+        "alt": "Poteau à deux boules avec main courante et sous-lisse",
+        "text": "Deux boules pour la main courante et la sous-lisse intermédiaire. La configuration standard de la plupart des plateformes et passerelles industrielles."
+      },
+      {
+        "key": "three",
+        "title": "Poteau à trois boules",
+        "alt": "Poteau à trois boules avec main courante, sous-lisse et lisse basse",
+        "text": "Trois boules pour la main courante, la sous-lisse et une lisse basse supplémentaire. Utilisé pour une sécurité accrue ou un espacement plus serré."
+      },
+      {
+        "key": "raked",
+        "title": "Poteau rampant",
+        "alt": "Poteau rampant avec lisses inclinées suivant un escalier",
+        "text": "Boules orientées en biais pour que les lisses suivent la pente d'un escalier ou d'une rampe. Utilisé sur les escaliers industriels et passerelles inclinées."
+      }
+    ],
+    "basesTitle": "Types de fixation",
+    "bases": [
+      {
+        "key": "flat",
+        "title": "Platine plate",
+        "alt": "Poteau avec platine boulonnée sur le sol d'une plateforme",
+        "text": "Boulonnée au sol ou à la plateforme. La fixation la plus courante pour plateformes et passerelles en caillebotis ou tôle larmée."
+      },
+      {
+        "key": "side",
+        "title": "Fixation latérale",
+        "alt": "Poteau boulonné latéralement sur l'âme d'une poutre",
+        "text": "Boulonnée sur une surface verticale comme l'âme d'une poutre, la virole d'un réservoir ou un mur, quand la fixation au sol est impossible."
+      },
+      {
+        "key": "collar",
+        "title": "Fourreau soudé",
+        "alt": "Poteau inséré dans un fourreau soudé à la structure",
+        "text": "Le poteau se loge dans un fourreau soudé directement à la structure. Pour les installations permanentes."
+      },
+      {
+        "key": "cored",
+        "title": "Scellement en réservation",
+        "alt": "Poteau scellé au mortier dans un carottage de dalle béton",
+        "text": "Le poteau est placé dans un carottage du béton et scellé au mortier. Pour plateformes et paliers en béton."
+      },
+      {
+        "key": "angle",
+        "title": "Fixation sur cornière",
+        "alt": "Poteau avec équerre de fixation sur un cadre en cornières",
+        "text": "Une équerre de fixation sur cornière ou profilé en U. Pour les plateformes à ossature en cornières."
+      }
+    ],
+    "specTitle": "Dimensions et spécifications",
+    "colSpec": "Caractéristique",
+    "colRange": "Plage standard",
+    "specRows": [
+      {
+        "label": "Diamètre du poteau",
+        "value": "33,7 mm (1 po DN), 42,4 mm (1¼ po DN), 48,3 mm (1½ po DN)"
+      },
+      {
+        "label": "Épaisseur de paroi",
+        "value": "3,0 mm à 5,0 mm (tubulaire) ou plein"
+      },
+      {
+        "label": "Diamètre de boule",
+        "value": "60 mm, 63 mm, 76 mm"
+      },
+      {
+        "label": "Diamètre de lisse",
+        "value": "33,7 mm ou 42,4 mm"
+      },
+      {
+        "label": "Hauteur standard",
+        "value": "1000 mm à 1100 mm (dessus de main courante depuis le sol)"
+      },
+      {
+        "label": "Entraxe des boules",
+        "value": "450 mm à 550 mm typique"
+      },
+      {
+        "label": "Hauteur de plinthe",
+        "value": "100 mm à 150 mm"
+      },
+      {
+        "label": "Platine",
+        "value": "100 × 100 mm à 172 × 150 mm, 6 mm à 10 mm d'épaisseur, trous de 18 mm"
+      },
+      {
+        "label": "Entraxe des poteaux",
+        "value": "1500 mm à 1800 mm maximum"
+      }
+    ],
+    "specNote": "Ce sont des plages standard. Hauteurs, position des lisses et entraxes sont réalisés selon le plan du client et la norme de sécurité applicable au projet.",
+    "materialsTitle": "Matériaux",
+    "materials": [
+      {
+        "title": "Acier doux (IS 2062 / ASTM A36)",
+        "text": "Le choix le plus courant, peint ou galvanisé."
+      },
+      {
+        "title": "Acier inoxydable (SS304 / SS316)",
+        "text": "Pour environnements corrosifs, offshore, agroalimentaire et usines chimiques."
+      },
+      {
+        "title": "Aluminium",
+        "text": "Léger, pour usages non structurels ou sensibles au poids."
+      }
+    ],
+    "finishesTitle": "Finitions",
+    "finishes": [
+      {
+        "title": "Galvanisé à chaud",
+        "text": "La finition standard en extérieur et en milieu industriel, qui protège généralement l'acier 20 ans ou plus selon l'environnement."
+      },
+      {
+        "title": "Thermolaqué",
+        "text": "Pour l'intérieur ou un code couleur ; le jaune sécurité est courant."
+      },
+      {
+        "title": "Brut / primaire",
+        "text": "Pour les fabricants qui peindront sur site."
+      },
+      {
+        "title": "Acier inoxydable",
+        "text": "Brut de laminage ou poli, sans revêtement."
+      }
+    ],
+    "standardsTitle": "Normes et conformité",
+    "colStandard": "Norme",
+    "colCovers": "Objet",
+    "standards": [
+      {
+        "code": "OSHA 1910.29",
+        "text": "Règle américaine sur les surfaces de circulation et de travail : main courante à 42 po (1067 mm) ± 3 po, sous-lisse en l'absence de mur, plinthes d'au moins 3,5 po (89 mm) sur les côtés ouverts, et main courante résistant à 200 lb (890 N) vers l'extérieur ou vers le bas."
+      },
+      {
+        "code": "EN ISO 14122-3",
+        "text": "Norme européenne des garde-corps et escaliers comme moyens d'accès permanents aux machines et installations."
+      },
+      {
+        "code": "BS 6180",
+        "text": "Code de pratique britannique pour les barrières dans et autour des bâtiments."
+      },
+      {
+        "code": "IS 1161",
+        "text": "Norme indienne des tubes en acier pour usage structurel (dimensions des poteaux et lisses)."
+      },
+      {
+        "code": "IS 2062",
+        "text": "Norme indienne de l'acier de construction laminé à chaud."
+      }
+    ],
+    "standardsNote": "Nous fabriquons selon le plan et la norme indiquée dans votre spécification. Précisez-nous la norme applicable à votre projet.",
+    "componentsTitle": "Composants du système de garde-corps",
+    "componentsIntro": "Tout ce qu'il faut pour un garde-corps complet peut être livré avec les poteaux.",
+    "components": [
+      {
+        "title": "Poteaux",
+        "text": "À une, deux ou trois boules, ou soudés, avec tout type de fixation."
+      },
+      {
+        "title": "Lisses",
+        "text": "Longueurs droites, généralement de 6,4 m."
+      },
+      {
+        "title": "Embouts et coudes",
+        "text": "Coudes de fermeture horizontaux et angulaires, coudes de retour et retours d'escalier."
+      },
+      {
+        "title": "Portillons",
+        "text": "Portillons de sécurité à ressort et fermeture automatique pour les accès aux plateformes."
+      },
+      {
+        "title": "Plinthes",
+        "text": "Tôles de 100 mm à 150 mm au niveau du sol qui empêchent la chute d'objets."
+      },
+      {
+        "title": "Supports de plinthe",
+        "text": "Pattes qui fixent les plinthes aux poteaux."
+      },
+      {
+        "title": "Raccords",
+        "text": "Manchons intérieurs expansibles et raccords extérieurs pour abouter les lisses."
+      }
+    ],
+    "applicationsTitle": "Applications par secteur",
+    "applications": [
+      {
+        "title": "Raffineries et pétrochimie",
+        "text": "Passerelles de racks, plateformes d'appareils, plateformes de chargement et accès aux parcs de stockage."
+      },
+      {
+        "title": "Centrales électriques",
+        "text": "Plateformes de chaudière, accès au plancher turbine, plateformes de manutention du charbon et accès aux cheminées."
+      },
+      {
+        "title": "Cimenteries",
+        "text": "Plateformes de tour de préchauffage, passerelles autour du four, plancher des broyeurs et dessus de silos."
+      },
+      {
+        "title": "Aciéries",
+        "text": "Barrières au plancher des fours, passerelles de laminoir et plateformes d'accès aux ponts roulants."
+      },
+      {
+        "title": "Chaufferies",
+        "text": "Accès au ballon, plateformes d'économiseur et accès au réchauffeur d'air."
+      },
+      {
+        "title": "Industrie générale",
+        "text": "Protection de machines, mezzanines, quais de chargement et rampes d'escaliers."
+      }
+    ],
+    "supplyTitle": "Ce que nous fournissons",
+    "supply": [
+      {
+        "title": "Poteaux et composants",
+        "text": "Poteaux seuls et pièces à assembler sur site par le monteur."
+      },
+      {
+        "title": "Modules de garde-corps",
+        "text": "Poteaux avec lisses et plinthes, préfabriqués et prêts à boulonner."
+      },
+      {
+        "title": "Plateformes complètes",
+        "text": "Ossatures, caillebotis, garde-corps, échelles et portillons en un seul ensemble."
+      },
+      {
+        "title": "Sur plan ou standard",
+        "text": "Poteaux et lisses selon votre plan ou aux dimensions standard."
+      },
+      {
+        "title": "Portillons montés",
+        "text": "Portillons de sécurité avec charnières à fermeture automatique."
+      },
+      {
+        "title": "Tous types de fixation",
+        "text": "Platine plate, fixation latérale, fourreau soudé, scellement et fixation sur cornière."
+      }
+    ],
+    "relatedTitle": "Produits associés",
+    "relatedSupportPlates": "Platines et plaques de montage pour poteaux, plateformes et charpente.",
+    "relatedFoundationBolts": "Tiges d'ancrage pour fixer les pieds de poteaux et les colonnes de plateformes au béton.",
+    "relatedPipeGuides": "Guides et fourreaux de tuyauterie pour les racks le long desquels courent souvent les passerelles.",
+    "servicesTitle": "Services associés",
+    "relatedPmiText": "Vérification de l'alliage des poteaux et lisses en inox.",
+    "relatedPpText": "Décapage et passivation des garde-corps en inox après soudage.",
+    "relatedQualityText": "Notre contrôle et nos essais des pièces fabriquées.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Qu'est-ce qu'un poteau à boules ?",
+        "a": "Un poteau à boules est un poteau de garde-corps muni de boules en acier forgé sur sa hauteur. Les lisses horizontales traversent les boules et sont bloquées par des vis sans tête. Le garde-corps se monte ainsi rapidement, et les lisses peuvent rejoindre le poteau selon l'angle voulu dans les escaliers et les angles."
+      },
+      {
+        "q": "Quelle hauteur de garde-corps l'OSHA exige-t-elle ?",
+        "a": "L'OSHA 1910.29 exige que le dessus de la main courante soit à 42 pouces (1067 mm) au-dessus de la surface de circulation, à 3 pouces près. Une sous-lisse est nécessaire en l'absence de mur ou d'acrotère, les plinthes doivent mesurer au moins 3,5 pouces (89 mm), et la main courante doit résister à une force de 200 lb (890 N)."
+      },
+      {
+        "q": "Quelle est la différence entre un poteau à une boule et à deux boules ?",
+        "a": "Un poteau à une boule ne porte que la main courante. Un poteau à deux boules porte la main courante et une sous-lisse à mi-hauteur ; c'est la disposition standard de la plupart des plateformes et passerelles industrielles car la sous-lisse ferme l'espace sous la main courante."
+      },
+      {
+        "q": "Les poteaux peuvent-ils être livrés galvanisés ?",
+        "a": "Oui. La galvanisation à chaud après fabrication est notre finition standard pour les poteaux en acier doux en extérieur et en usine. Nous livrons aussi des poteaux thermolaqués, en primaire à peindre sur site, ou en inox sans revêtement."
+      }
+    ],
+    "ctaTitle": "Besoin de poteaux ou de garde-corps ?",
+    "ctaText": "Envoyez-nous votre plan ou implantation avec le type de poteau, la fixation, la hauteur, le matériau, la finition et la quantité. Nous vous répondrons avec un devis et un délai de livraison.",
+    "ctaRfq": "Demander un devis pour des poteaux",
+    "ctaContact": "Ou contactez notre équipe"
+  },
+  "pgPage": {
+    "metaTitle": "Guides de tuyauterie et fourreaux pour réchauffeurs et chaudières | Santura Engineering",
+    "metaDescription": "Guides de tuyauterie, fourreaux annulaires et supports de tubes pour réchauffeurs, chaudières et fours, sur plan. Depuis 1980, exportant vers 25+ pays.",
+    "eyebrow": "Atelier de fabrication",
+    "h1": "Guides de tuyauterie et fourreaux annulaires",
+    "subheading": "Guides de tuyauterie, fourreaux annulaires et pièces de support de tubes pour réchauffeurs à flamme directe, reformeurs, chaudières et tuyauteries de procédé. Fabriqués selon votre plan en acier carbone, inox et alliages réfractaires.",
+    "gallery": [
+      "Lot de guides de tuyauterie galvanisés avec bagues de guidage à collerette pour réchauffeurs",
+      "Guide de tuyauterie avec collerette et corps conique pour un réchauffeur",
+      "Stock de guides de tuyauterie galvanisés à l'atelier",
+      "Fourreaux annulaires en inox empilés en stock",
+      "Fourreau annulaire fendu en inox marqué SS310",
+      "Fourreaux annulaires en inox marqués de la nuance et de la dimension",
+      "Fourreaux annulaires en inox empilés avec fentes de dilatation",
+      "Fourreaux annulaires en inox emboîtés pour l'expédition",
+      "Botte de fourreaux annulaires en inox emboîtés",
+      "Fourreau annulaire avec fente de dilatation",
+      "Segment de fourreau annulaire fendu"
+    ],
+    "overviewTitle": "Ce que sont les guides de tuyauterie et les fourreaux",
+    "overview": [
+      "Les guides de tuyauterie et les fourreaux annulaires sont des pièces en acier fabriquées qui supportent, guident et protègent les tuyauteries et les tubes de four. Un guide empêche la tuyauterie de se déplacer latéralement tout en la laissant s'allonger et se raccourcir dans son axe quand la température varie.",
+      "Un fourreau annulaire, aussi appelé manchon ou fourreau de traversée, est un cylindre placé là où une tuyauterie traverse un mur, un plancher ou une virole. Il protège la tuyauterie, ferme l'ouverture et laisse de la place pour le mouvement.",
+      "Les deux sont essentiels dans les réchauffeurs, chaudières et fours, où les tuyauteries travaillent à chaud et subissent des cycles répétés de chauffe et de refroidissement. Santura fabrique guides et fourreaux selon le plan du client, y compris pour des réchauffeurs conçus selon l'API 560."
+    ],
+    "madeTitle": "Ce que montrent nos photos",
+    "made": [
+      "Guides de tuyauterie : bagues de guidage forgées, usinées et soudées sur un tube, puis galvanisées.",
+      "Fourreaux annulaires : tôle inox (SS304, SS310, SS316) cisaillée sur plan et roulée en anneaux fendus ou rainurés, chacun marqué de sa nuance et de sa dimension.",
+      "Tout est fabriqué dans notre atelier pour reformeurs et réchauffeurs à flamme directe."
+    ],
+    "guidesTitle": "Types de guides de tuyauterie",
+    "guides": [
+      {
+        "key": "spider",
+        "title": "Guides cylindriques / à araignée",
+        "size": "Tuyauteries de 6 po à 36 po et plus",
+        "alt": "Guide cylindrique avec bras intérieurs en araignée autour d'un tube",
+        "text": "Une cage cylindrique soudée à un support, avec des bras intérieurs en araignée qui laissent glisser la tuyauterie dans son axe mais bloquent le mouvement latéral. Utilisé sur les longues lignes et près des compensateurs."
+      },
+      {
+        "key": "ubolt",
+        "title": "Guides à étrier en U",
+        "size": "Petits diamètres",
+        "alt": "Guide à étrier en U avec platine sur une poutre support",
+        "text": "Un étrier en U enjambe la tuyauterie et sa platine est boulonnée au support. Guide simple et économique qui laisse le mouvement axial dans le jeu de l'étrier."
+      },
+      {
+        "key": "structural",
+        "title": "Guides en profilés",
+        "size": "Gros diamètres et tuyauteries lourdes",
+        "alt": "Cadre en profilés enjambant une grosse tuyauterie",
+        "text": "Cornières, profilés en U ou tôles soudés en cadre enjambant la tuyauterie. Pour gros diamètres ou tuyauteries lourdes, calorifugées ou nues."
+      },
+      {
+        "key": "slide",
+        "title": "Guides à plaque de glissement",
+        "size": "",
+        "alt": "Patin de tuyauterie sur une plaque de glissement à faible frottement",
+        "text": "Le patin repose sur une plaque de glissement en PTFE ou graphite à faible frottement. Utilisé là où le frottement doit rester minimal pour protéger compensateurs ou raccordements sensibles."
+      },
+      {
+        "key": "tube",
+        "title": "Supports de tubes (réchauffeurs)",
+        "size": "API 560",
+        "alt": "Supports maintenant les faisceaux de tubes dans un réchauffeur",
+        "text": "Supports dans la zone de combustion qui maintiennent les faisceaux de tubes en place. L'API 560 limite la longueur horizontale non supportée à 35 diamètres extérieurs du tube ou 6 m (20 ft), la plus petite valeur étant retenue. Fabriqués en alliages réfractaires comme l'Alloy 800H ; des supports moulés en 25Cr-20Ni (HK40) sont aussi utilisés."
+      }
+    ],
+    "sleevesTitle": "Types de fourreaux annulaires",
+    "sleeves": [
+      {
+        "key": "floor",
+        "title": "Fourreaux de traversée de plancher et de mur",
+        "size": "2 à 4 po de plus que le diamètre extérieur du tube",
+        "alt": "Fourreau de traversée noyé dans un plancher béton avec une tuyauterie qui le traverse",
+        "text": "Fourreaux posés dans les planchers et murs en béton ou acier aux passages de tuyauteries, étanchés par garniture ou matériau coupe-feu. Le surdimensionnement laisse la place au calorifuge et au mouvement."
+      },
+      {
+        "key": "shell",
+        "title": "Fourreaux de traversée de virole",
+        "size": "",
+        "alt": "Fourreau soudé dans la virole d'un four autour d'un tube",
+        "text": "Fourreaux soudés dans les viroles de fours ou chaudières aux entrées de tubes ou tuyauteries. Une plaque d'étanchéité et une garniture empêchent les fuites de fumées tout en laissant le tube se dilater."
+      },
+      {
+        "key": "anchor",
+        "title": "Fourreaux d'ancrage réfractaire",
+        "size": "",
+        "alt": "Fourreau annulaire noyé dans le garnissage réfractaire à une ouverture",
+        "text": "Fourreaux noyés dans le garnissage réfractaire qui ancrent le garnissage aux traversées et offrent une ouverture finie pour une tuyauterie ou un instrument."
+      }
+    ],
+    "materialsTitle": "Matériaux",
+    "materials": [
+      {
+        "title": "Acier carbone (IS 2062 / ASTM A36)",
+        "text": "Standard pour les guides extérieurs et les supports de charpente."
+      },
+      {
+        "title": "Acier inoxydable (SS304, SS310, SS316)",
+        "text": "Pour service corrosif ou à haute température, ou à la demande du bailleur de licence. Nos fourreaux sont fabriqués dans ces nuances."
+      },
+      {
+        "title": "Alliages réfractaires (Alloy 800H, HK40, 25Cr-20Ni)",
+        "text": "Pour les supports de tubes dans la zone de combustion des réchauffeurs selon l'API 560."
+      },
+      {
+        "title": "Acier galvanisé",
+        "text": "Pour les guides de racks exposés aux intempéries."
+      }
+    ],
+    "specTitle": "Spécifications",
+    "colProperty": "Caractéristique",
+    "colRange": "Plage",
+    "specRows": [
+      {
+        "label": "Diamètres de tuyauterie",
+        "value": "1/2 po DN à 48 po DN et plus (sur mesure)"
+      },
+      {
+        "label": "Jeu du guide",
+        "value": "Généralement 3 mm à 6 mm de jeu radial pour la dilatation"
+      },
+      {
+        "label": "Épaisseur de fourreau",
+        "value": "Paroi de 6 mm à 12 mm selon la dimension et l'application"
+      },
+      {
+        "label": "Température de service",
+        "value": "Jusqu'à 400 °C pour les guides extérieurs ; jusqu'à 1100 °C pour les supports intérieurs en alliages réfractaires"
+      },
+      {
+        "label": "Normes",
+        "value": "API 560 (réchauffeurs), ASME B31.3 (tuyauteries de procédé), IS 2062, ASTM A36"
+      },
+      {
+        "label": "Capacité de charge",
+        "value": "Par calcul, selon le poids de la tuyauterie, du calorifuge et du contenu"
+      },
+      {
+        "label": "Finition",
+        "value": "Primaire, galvanisé à chaud ou brut pour les alliages haute température"
+      }
+    ],
+    "specNote": "Chaque pièce est fabriquée selon le plan du client. Envoyez-nous le plan avec le diamètre, la matière, la température de calcul et la quantité.",
+    "applicationsTitle": "Applications par secteur",
+    "applications": [
+      {
+        "title": "Réchauffeurs de raffinerie",
+        "text": "Supports de tubes en radiation et convection, guides de tubes, supports de coudes de retour et fourreaux de virole, selon l'API 560."
+      },
+      {
+        "title": "Chaudières",
+        "text": "Supports de tubes de surchauffeur, resurchauffeur et économiseur, et fourreaux de traversée de l'enveloppe."
+      },
+      {
+        "title": "Pétrochimie",
+        "text": "Guides de racks pour tuyauteries de procédé, guides de lyres de dilatation et de raccordements d'équipements."
+      },
+      {
+        "title": "Centrales électriques",
+        "text": "Guides des tuyauteries de vapeur principale, d'alimentation et de turbine."
+      },
+      {
+        "title": "Cimenteries",
+        "text": "Fourreaux de virole de four pour cannes de brûleur et instruments, et supports de gaines."
+      },
+      {
+        "title": "Tuyauterie générale",
+        "text": "Guides de dilatation près des compensateurs et lyres, et fourreaux de plancher et de mur dans les racks."
+      }
+    ],
+    "supplyTitle": "Ce que nous fournissons",
+    "supply": [
+      {
+        "title": "Guides de tuyauterie",
+        "text": "Selon plans d'ingénierie ou modèles standard de catalogue."
+      },
+      {
+        "title": "Fourreaux annulaires",
+        "text": "Pour traversées de virole, de plancher et de mur."
+      },
+      {
+        "title": "Supports de tubes de réchauffeur",
+        "text": "Composants de support pour réchauffeurs selon l'API 560."
+      },
+      {
+        "title": "Ensembles de guidage complets",
+        "text": "Cadre de guide, plaques de glissement et visserie ensemble."
+      },
+      {
+        "title": "Choix des matériaux",
+        "text": "De l'acier carbone à l'inox et aux alliages réfractaires."
+      },
+      {
+        "title": "Pièces seules ou ensembles",
+        "text": "Pièces unitaires ou intégrées à un ensemble de supportage ou de fabrication de réchauffeur."
+      }
+    ],
+    "relatedTitle": "Produits associés",
+    "relatedSupportPlates": "Platines et consoles pour supports de tuyauterie et structures de guidage.",
+    "relatedFoundationBolts": "Tiges d'ancrage pour fondations de racks et supports de guides.",
+    "relatedStanchions": "Garde-corps et poteaux pour passerelles de racks et plateformes de réchauffeurs.",
+    "relatedAnchors": "Ancrages SEPL pour le garnissage réfractaire traversé par les fourreaux.",
+    "servicesTitle": "Services associés",
+    "relatedPmiText": "Vérification de l'alliage des fourreaux SS310 et des supports en alliage réfractaire.",
+    "relatedPpText": "Décapage et passivation des fourreaux inox après fabrication.",
+    "relatedSwText": "Soudage de goujons des ancrages autour des traversées de virole.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "À quoi sert un guide de tuyauterie ?",
+        "a": "Un guide maintient la tuyauterie sur son tracé. Il empêche le mouvement latéral mais laisse la tuyauterie glisser dans son axe quand elle se dilate à chaud et se contracte en refroidissant. Les guides sont placés le long des longues lignes et près des compensateurs et lyres afin que la dilatation se fasse là où le concepteur l'a prévue."
+      },
+      {
+        "q": "Qu'est-ce que l'API 560 ?",
+        "a": "L'API 560 est la norme de l'American Petroleum Institute pour les réchauffeurs à flamme directe des raffineries et usines pétrochimiques. Elle couvre la conception, les matériaux, la fabrication et les essais, y compris les supports et guides de tubes dans la zone de combustion. Elle limite par exemple la longueur horizontale non supportée à 35 diamètres de tube ou 6 m, la plus petite valeur étant retenue."
+      },
+      {
+        "q": "Quelle est la différence entre un guide et un support de tuyauterie ?",
+        "a": "Un support porte le poids de la tuyauterie. Un guide contrôle la direction dans laquelle elle peut bouger : il empêche le mouvement latéral et laisse la dilatation axiale. Beaucoup de guides portent aussi du poids ; un guide est donc un support qui bloque en plus la tuyauterie dans une ou plusieurs directions."
+      },
+      {
+        "q": "Qu'est-ce qu'un fourreau annulaire ?",
+        "a": "Un fourreau annulaire, aussi appelé manchon ou fourreau de traversée, est un cylindre en acier placé là où une tuyauterie ou un tube traverse un mur, un plancher, un garnissage réfractaire ou une virole. Il protège la tuyauterie, ferme l'ouverture par une garniture ou une plaque d'étanchéité et laisse la place à la dilatation. Nos fourreaux sont généralement roulés dans de la tôle SS304, SS310 ou SS316."
+      }
+    ],
+    "ctaTitle": "Besoin de guides de tuyauterie ou de fourreaux ?",
+    "ctaText": "Envoyez-nous votre plan avec le diamètre, la nuance, la température de calcul et la quantité. Nous vous répondrons avec un devis et un délai de livraison.",
+    "ctaRfq": "Demander un devis pour guides et fourreaux",
+    "ctaContact": "Ou contactez notre équipe"
+  },
+  "cwPage": {
+    "metaTitle": "Systèmes à contrepoids pour fours de reformage | Agréé Linde | Santura Engineering",
+    "metaDescription": "Systèmes à contrepoids pour reformeurs d'hydrogène et fours de craquage. Fournisseur agréé Linde. Depuis 1980, exportant vers plus de 25 pays.",
+    "eyebrow": "Fours de reformage et de craquage",
+    "h1": "Systèmes à contrepoids pour fours de reformage et de craquage",
+    "subheading": "Systèmes à contrepoids à bras de levier qui portent le poids des tubes radiants dans les reformeurs d'hydrogène et les fours de vapocraquage d'éthylène. Fabriqués par Santura depuis la fin des années 1990, selon les plans d'ingénierie du client.",
+    "lindeBadge": "Fournisseur agréé de Linde Engineering India, {period}",
+    "photoAlt": "Ensemble de bras de contrepoids galvanisé avec piles de masses",
+    "photoCaption": "Ensemble de bras de levier galvanisé avec piles de masses dans notre atelier.",
+    "whatTitle": "Le rôle d'un système à contrepoids",
+    "what": [
+      "Dans les reformeurs d'hydrogène et les fours de vapocraquage d'éthylène, des tubes verticaux sont suspendus dans la zone de combustion à très haute température. Les tubes de reformage sont remplis de catalyseur, et chaque tube avec son catalyseur peut peser plus d'une tonne. Les tubes s'allongent nettement en chauffant.",
+      "Un système à contrepoids porte ce poids afin que le tube pende librement et se dilate ou se contracte sans contrainte. Il fonctionne sur le principe du levier : une masse à une extrémité d'un bras pivotant équilibre le tube à l'autre extrémité.",
+      "Les pivots doivent bouger pratiquement sans frottement. Même de faibles efforts de frottement transmettraient une charge indésirable aux tubes et réduiraient leur durée de vie."
+    ],
+    "howTitle": "Fonctionnement",
+    "how": [
+      "Des tiges de suspension partent du haut de chaque tube, traversent la voûte du four et rejoignent un palonnier.",
+      "Le palonnier est relié à une extrémité d'un bras de levier horizontal qui pivote sur un chevalet monté sur la structure de voûte.",
+      "Une masse calculée est suspendue à l'autre extrémité du bras.",
+      "La masse équilibre le tube rempli de catalyseur, le pigtail inférieur, sa part du collecteur flottant, la moitié du pigtail supérieur et la suspension elle-même.",
+      "Quand le tube chauffe et s'allonge vers le bas, le bras s'incline légèrement et la masse monte, de sorte que l'effort porté par le tube reste constant."
+    ],
+    "diagramAlt": "Schéma d'un système à contrepoids : tube, tige de suspension, palonnier, bras de levier, chevalet et masse",
+    "diagram": [
+      "Tube de reformage (s'allonge vers le bas à chaud)",
+      "Tige de suspension",
+      "Palonnier",
+      "Bras de levier",
+      "Chevalet avec pivot bagué",
+      "Masse de contrepoids",
+      "Voûte du four"
+    ],
+    "buildTitle": "Comment Santura les construit",
+    "buildIntro": "Chaque système est fabriqué selon les plans d'ingénierie du client. Voici notre construction :",
+    "build": [
+      {
+        "title": "Masses",
+        "text": "Blocs en acier carbone et en fonte, dimensionnés pour la charge d'équilibrage calculée."
+      },
+      {
+        "title": "Cadres en H et en I",
+        "text": "Cadres en profilés creux avec bagues Graphalloy importées sans huile, logées dans des boîtiers en acier carbone à chaque pivot."
+      },
+      {
+        "title": "Axes de pivot",
+        "text": "Acier inoxydable 410S de qualité spéciale, un inox martensitique offrant une bonne résistance à la corrosion et à la chaleur."
+      },
+      {
+        "title": "Chapes",
+        "text": "En inox, usinées dans notre atelier de Mumbai."
+      },
+      {
+        "title": "Boulons de classe 8.8",
+        "text": "Traités thermiquement par un sous-traitant sous notre étroite surveillance, avec contrôle de la dureté et du revenu."
+      },
+      {
+        "title": "Sous-ensembles importés",
+        "text": "Certaines pièces sont importées pour respecter les exigences de qualité et de spécification."
+      },
+      {
+        "title": "Galvanisation à chaud",
+        "text": "Le système complet est galvanisé à chaud après soudage pour le protéger de la corrosion."
+      }
+    ],
+    "lindeEyebrow": "Fournisseur agréé",
+    "lindeTitle": "Linde Engineering India",
+    "lindeText": "Santura a été fournisseur agréé de systèmes à contrepoids pour Linde Engineering India Pvt Ltd de {period}, sous le code fournisseur {code}. C'est le seul agrément nominatif d'un client pour un produit précis dans nos dossiers.",
+    "lindeCodeLabel": "Code fournisseur",
+    "lindePeriodLabel": "Période d'agrément",
+    "lindeNote": "Agrément historique, présenté avec l'autorisation du client.",
+    "lindeCert": "Voir le certificat Linde (PDF)",
+    "petron": "En 2006, nous avons aussi fourni des systèmes à contrepoids et des portes de regard de four à Petron Engineering Construction Ltd, qui a émis une lettre d'appréciation pour ce travail.",
+    "componentsTitle": "Composants du système",
+    "components": [
+      {
+        "title": "Ensemble bras de levier",
+        "text": "Cadre en poutre H ou I avec bagues de pivot ; le fléau du système."
+      },
+      {
+        "title": "Pile de masses",
+        "text": "Masse calculée de blocs en acier carbone ou en fonte, boulonnés ou goupillés sur le bras."
+      },
+      {
+        "title": "Tiges de suspension",
+        "text": "Relient le tube au bras à travers la voûte et absorbent la dilatation thermique."
+      },
+      {
+        "title": "Ensemble palonnier",
+        "text": "Relie les tiges de suspension à l'extrémité du bras de levier."
+      },
+      {
+        "title": "Articulations chape et axe",
+        "text": "Chapes en inox avec axes SS 410S à chaque liaison, pour que chaque articulation pivote librement."
+      },
+      {
+        "title": "Bagues Graphalloy",
+        "text": "Paliers importés sans huile et autolubrifiants, logés dans des boîtiers en acier carbone à tous les pivots."
+      },
+      {
+        "title": "Chevalet",
+        "text": "Structure sur la voûte du four qui porte le pivot du bras."
+      },
+      {
+        "title": "Boulonnerie 8.8",
+        "text": "Boulons haute résistance traités thermiquement pour toutes les liaisons de structure."
+      }
+    ],
+    "applicationsTitle": "Applications",
+    "applications": [
+      {
+        "title": "Reformeurs d'hydrogène",
+        "text": "Reformeurs de méthane à la vapeur, l'application principale. Les tubes remplis de catalyseur pendent verticalement dans la zone de combustion. Utilisés dans les unités d'hydrogène, d'ammoniac et de méthanol."
+      },
+      {
+        "title": "Fours de vapocraquage d'éthylène",
+        "text": "Vapocraqueurs, où un bon supportage des serpentins radiants est déterminant pour leur durée de vie."
+      },
+      {
+        "title": "Autres reformeurs",
+        "text": "Reformeurs autothermes et secondaires."
+      },
+      {
+        "title": "Secteurs",
+        "text": "Raffineries, pétrochimie, usines d'ammoniac et d'engrais, usines de méthanol et production d'hydrogène."
+      }
+    ],
+    "whyTitle": "Pourquoi la qualité de fabrication compte",
+    "why": [
+      {
+        "title": "Durée de vie des tubes",
+        "text": "Les tubes de reformage sont coûteux et leur remplacement impose un arrêt imprévu. Un système mal équilibré soumet les tubes à des contraintes inégales et provoque une rupture prématurée par fluage."
+      },
+      {
+        "title": "Frottement",
+        "text": "Le frottement aux pivots transmet une charge supplémentaire aux tubes. Les bagues Graphalloy sans huile sont spécifiées car les paliers lubrifiés ne fonctionnent pas de façon fiable à ces températures."
+      },
+      {
+        "title": "Boulonnerie",
+        "text": "Des boulons mal traités thermiquement peuvent rompre sous charge prolongée à haute température ; c'est pourquoi nous contrôlons dureté et revenu."
+      },
+      {
+        "title": "Des milliers de cycles",
+        "text": "Le système doit rester équilibré pendant des milliers de cycles de chauffe et de refroidissement sur de nombreuses années de service."
+      }
+    ],
+    "specTitle": "Spécifications",
+    "colComponent": "Composant",
+    "colSpec": "Spécification",
+    "specRows": [
+      {
+        "label": "Matériau des masses",
+        "value": "Acier carbone / fonte"
+      },
+      {
+        "label": "Construction des cadres",
+        "value": "Profilés H et I creux, avec bagues Graphalloy intégrées"
+      },
+      {
+        "label": "Axes de pivot",
+        "value": "SS 410S (acier inoxydable martensitique)"
+      },
+      {
+        "label": "Chapes",
+        "value": "Acier inoxydable, usinées"
+      },
+      {
+        "label": "Bagues",
+        "value": "Paliers Graphalloy importés, sans huile et autolubrifiants"
+      },
+      {
+        "label": "Boulonnerie",
+        "value": "Classe 8.8, traitée thermiquement, dureté et revenu contrôlés"
+      },
+      {
+        "label": "Traitement de surface",
+        "value": "Galvanisé à chaud après soudage"
+      },
+      {
+        "label": "Fabrication",
+        "value": "Selon les plans d'ingénierie du client"
+      },
+      {
+        "label": "Base de conception",
+        "value": "Spécifications du client et du bailleur de licence pour réchauffeurs conçus selon l'API 560"
+      }
+    ],
+    "relatedTitle": "Produits et services associés",
+    "relatedPipeGuides": "Guides de tuyauterie, fourreaux et supports de tubes pour réchauffeurs.",
+    "relatedSupportPlates": "Consoles de support et platines pour la charpente des fours.",
+    "relatedAnchors": "Ancrages SEPL pour les garnissages des fours de reformage et de craquage.",
+    "relatedSwText": "Soudage de goujons des ancrages sur les viroles de four.",
+    "relatedPmiText": "Vérification de l'alliage des axes et chapes en inox.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Qu'est-ce qu'un système à contrepoids dans un reformeur ?",
+        "a": "C'est un système de leviers sur la voûte du four qui porte le poids de chaque tube de reformage. Une tige de suspension relie le tube à une extrémité d'un bras pivotant, et une masse calculée à l'autre extrémité l'équilibre. Quand le tube chauffe et s'allonge, le levier s'incline et l'effort porté reste le même, ce qui permet au tube de se dilater sans contrainte."
+      },
+      {
+        "q": "Pourquoi utilise-t-on des bagues Graphalloy ?",
+        "a": "Le Graphalloy est un matériau de palier composite graphite-métal qui fonctionne sans huile ni graisse et reste efficace à haute température. Chaque pivot d'un système à contrepoids doit bouger presque sans frottement, car le frottement transmettrait une charge supplémentaire aux tubes. Les paliers lubrifiés sèchent ou grippent dans ce service, d'où l'emploi de bagues Graphalloy sans huile."
+      },
+      {
+        "q": "En quel matériau sont les axes de pivot ?",
+        "a": "Nos axes de pivot sont en acier inoxydable 410S de qualité spéciale, un inox martensitique offrant une bonne résistance à la corrosion et à la chaleur. Ils travaillent dans des chapes en inox usinées dans notre atelier de Mumbai."
+      },
+      {
+        "q": "Qu'est-ce que l'agrément Linde ?",
+        "a": "Linde Engineering India Pvt Ltd a agréé Santura comme fournisseur de systèmes à contrepoids de {period}, sous le code fournisseur {code}. L'agrément portait précisément sur ce produit. C'est un agrément historique, et le certificat est présenté sur cette page avec l'autorisation du client."
+      }
+    ],
+    "ctaTitle": "Besoin de systèmes à contrepoids ?",
+    "ctaText": "Envoyez-nous vos plans d'ingénierie avec le nombre de tubes, les charges d'équilibrage et le planning de livraison. Nous vous répondrons avec un devis et un délai de livraison.",
+    "ctaRfq": "Demander un devis pour des systèmes à contrepoids",
+    "ctaContact": "Ou contactez notre équipe"
+  },
+  "mwPage": {
+    "metaTitle": "Fournisseur d'isolant en laine minérale | Laine de roche et de verre",
+    "metaDescription": "Isolation en laine minérale : panneaux, rouleaux et coquilles en laine de roche et de verre. Fournisseur depuis 1980, export vers 25+ pays. Devis rapide.",
+    "eyebrow": "Matériaux isolants",
+    "h1": "Isolation en laine minérale",
+    "subheading": "Laine de roche et laine de verre en rouleaux, panneaux, matelas, matelas grillagés, coquilles et laine en vrac, pour raffineries, centrales, navires et bâtiments. Fournies selon la spécification du projet, avec les pointes d'isolation pour les fixer.",
+    "gallery": [
+      "Panneaux et rouleaux de laine minérale",
+      "Coquilles préformées en laine minérale",
+      "Rouleau de laine de roche avec parement aluminium",
+      "Gros plan de fibres de laine minérale"
+    ],
+    "overviewTitle": "Ce qu'est la laine minérale",
+    "overview": "La laine minérale désigne les isolants fibreux obtenus en fondant des minéraux naturels ou recyclés puis en les fibrant. Les fibres sont liées par une résine pour que le produit garde sa forme. Santura fournit les deux grands types : la laine de roche pour l'isolation industrielle à haute température et la laine de verre pour le bâtiment, le CVC et l'acoustique.",
+    "types": [
+      {
+        "title": "Laine de roche",
+        "tag": "Jusqu'à 750 °C · 30–200 kg/m³",
+        "text": "Fabriquée à partir de roche sélectionnée comme le basalte, fondue vers 1500 °C dans un cubilot puis fibrée à grande vitesse. Fournie en rouleaux, panneaux, matelas, matelas grillagés, coquilles et laine en vrac. Le choix courant pour les tuyauteries chaudes, appareils, chaudières et gaines."
+      },
+      {
+        "title": "Laine de verre",
+        "tag": "Jusqu'à environ 450 °C · plus légère",
+        "text": "Fabriquée à partir de jusqu'à 70 % de verre recyclé et de sable, fondue vers 1550 °C puis fibrée. Légère, facile à poser et bonne absorbante acoustique. Très utilisée pour les toitures, murs, gaines CVC et l'isolation acoustique."
+      }
+    ],
+    "traits": [
+      "Incombustible",
+      "Sans amiante",
+      "Non dangereuse",
+      "Imputrescible",
+      "Résistante aux insectes et rongeurs",
+      "Pas de retrait en service"
+    ],
+    "rwTitle": "Produits en laine de roche",
+    "rwIntro": "La laine de roche est fournie sous six formes. L'épaisseur et la masse volumique sont choisies selon la température de service, la surface et la charge mécanique.",
+    "colForm": "Forme",
+    "colThickness": "Épaisseur",
+    "colDensity": "Masse volumique",
+    "colUse": "Usage courant",
+    "rwForms": [
+      {
+        "form": "Rouleaux bâtiment",
+        "thickness": "40–100 mm",
+        "density": "36, 48, 64 kg/m³ et plus",
+        "text": "Isolation thermique et acoustique des bâtiments métalliques : sur et sous pannes de toiture, murs, cloisons et faux plafonds."
+      },
+      {
+        "form": "Panneaux",
+        "thickness": "25–200 mm",
+        "density": "30–200 kg/m³",
+        "text": "Panneaux rigides ou semi-rigides pour gaines, appareils, équipements et surfaces planes ou légèrement courbes ; aussi bâtiment, construction navale et protection incendie."
+      },
+      {
+        "form": "Panneaux nus (batts)",
+        "thickness": "25–118 mm",
+        "density": "100–150 kg/m³",
+        "text": "Panneaux nus très rigides pour l'isolation thermique et la protection incendie, et comme âme de panneaux sandwich."
+      },
+      {
+        "form": "Matelas grillagés",
+        "thickness": "25–100 mm",
+        "density": "70–150 kg/m³",
+        "text": "Parementés d'un grillage hexagonal galvanisé ou inox et piqués à dimension. Pour chaudières, réservoirs et tuyauteries jusqu'à 750 °C, et usage naval."
+      },
+      {
+        "form": "Coquilles",
+        "thickness": "25–100 mm",
+        "density": "100, 128, 136, 144 kg/m³",
+        "text": "Coquilles préformées pour tuyauteries jusqu'à 750 °C, avec ou sans feuille d'aluminium. Utilisées en centrales et raffineries."
+      },
+      {
+        "form": "Laine en vrac",
+        "thickness": "—",
+        "density": "Diverses",
+        "text": "Laine de roche faiblement liée pour le bourrage autour des faisceaux de tubes et des espaces irréguliers."
+      }
+    ],
+    "pipeNote": "Les coquilles sont enroulées sur mandrin et formées de façon concentrique pour s'adapter aux diamètres de tuyauterie standard. Elles isolent uniformément sur 360°, résistent à la compression en service et se posent rapidement sur chantier.",
+    "gwTitle": "Produits en laine de verre",
+    "gwIntro": "La laine de verre est plus légère que la laine de roche et s'utilise surtout à plus basse température et là où l'absorption acoustique compte.",
+    "gwForms": [
+      {
+        "title": "Rouleaux et feutres",
+        "text": "Murs creux, isolation des combles et toitures, et enveloppe de gaines CVC."
+      },
+      {
+        "title": "Panneaux rigides et semi-rigides",
+        "text": "Murs-rideaux, remplissage de cloisons et dalles de plafond."
+      },
+      {
+        "title": "Coquilles",
+        "text": "Isolation des tuyauteries à plus basse température."
+      },
+      {
+        "title": "Laine à souffler",
+        "text": "Isolation soufflée des cavités et combles."
+      }
+    ],
+    "compareTitle": "Laine de roche et laine de verre comparées",
+    "colProperty": "Caractéristique",
+    "colRockwool": "Laine de roche",
+    "colGlassWool": "Laine de verre",
+    "compareRows": [
+      {
+        "label": "Matière première",
+        "rw": "Basalte / diabase",
+        "gw": "Jusqu'à 70 % de verre recyclé avec du sable"
+      },
+      {
+        "label": "Température de fusion",
+        "rw": "Environ 1500 °C",
+        "gw": "Environ 1550 °C"
+      },
+      {
+        "label": "Température de service max.",
+        "rw": "750 °C",
+        "gw": "Environ 450 °C (selon le produit)"
+      },
+      {
+        "label": "Masse volumique",
+        "rw": "30–200 kg/m³",
+        "gw": "10–80 kg/m³"
+      },
+      {
+        "label": "Épaisseur",
+        "rw": "25–200 mm",
+        "gw": "25–150 mm"
+      },
+      {
+        "label": "Conductivité thermique (λ)",
+        "rw": "0,034–0,045 W/m·K",
+        "gw": "0,030–0,040 W/m·K"
+      },
+      {
+        "label": "Réaction au feu",
+        "rw": "Incombustible (Euroclasse A1)",
+        "gw": "Incombustible (Euroclasse A1 ou A2)"
+      },
+      {
+        "label": "Performance acoustique",
+        "rw": "Excellente (NRC 0,90–1,05)",
+        "gw": "Excellente (NRC 0,85–1,00)"
+      },
+      {
+        "label": "Humidité",
+        "rw": "Traitement hydrofuge disponible",
+        "gw": "Traitement hydrofuge disponible"
+      },
+      {
+        "label": "Comportement à la corrosion",
+        "rw": "Exempte d'halogénures et de sulfures ; sûre sous tôlage inox",
+        "gw": "Faible teneur en chlorures"
+      }
+    ],
+    "compareNote": "Valeurs indicatives. Les chiffres exacts dépendent du produit, de la masse volumique et du fabricant ; la fiche technique et les certificats d'essai du fabricant accompagnent chaque commande.",
+    "traitsTitle": "Caractéristiques",
+    "characteristics": [
+      "Sans amiante et sans danger pour la santé",
+      "Imputrescible, inodore et résistante aux champignons, insectes et rongeurs",
+      "Ne se rétracte pas et ne se tasse pas dans le temps",
+      "N'absorbe pas l'humidité de l'air ; l'eau qui pénètre sous pression sèche vite grâce à la structure fibreuse ouverte",
+      "Chimiquement inerte, ne favorise pas les moisissures",
+      "Fabriquée sans CFC ni HCFC"
+    ],
+    "corrosionTitle": "Protection contre la corrosion",
+    "corrosionText": "Les fibres de laine de roche sont exemptes d'halogénures (chlorures et fluorures) et de sulfures, impuretés présentes dans certains autres isolants. Fabriquée par voie sèche et légèrement alcaline, elle s'oppose à la corrosion. Elle est donc sûre sur l'acier inoxydable, où les chlorures peuvent provoquer une corrosion sous contrainte sous l'isolant. Elle satisfait à l'ASTM C795 lorsque c'est spécifié.",
+    "standardsTitle": "Normes et essais",
+    "standards": [
+      "Transfert thermique en régime permanent des isolants de tuyauterie",
+      "Conductivité thermique par plaque chaude gardée",
+      "Conductivité thermique par fluxmètre",
+      "Isolant en fibres minérales pour tuyauteries",
+      "Matelas en fibres minérales à usage industriel",
+      "Blocs et panneaux en fibres minérales",
+      "Matelas en fibres minérales pour le bâtiment",
+      "Isolants destinés à l'acier inoxydable austénitique",
+      "Produits manufacturés en laine minérale pour le bâtiment",
+      "Coquilles préformées en fibres minérales et matériaux isolants thermiques"
+    ],
+    "applicationsTitle": "Applications par secteur",
+    "applications": [
+      {
+        "title": "Pétrole, gaz et pétrochimie",
+        "items": [
+          "Isolation chaude et froide des tuyauteries de procédé",
+          "Appareils, colonnes, réservoirs et échangeurs",
+          "Isolation extérieure des réchauffeurs et fours"
+        ]
+      },
+      {
+        "title": "Production d'énergie",
+        "items": [
+          "Isolation des chaudières et habillage des turbines",
+          "Isolation des gaines de fumées",
+          "Isolation des chaudières de récupération en cycle combiné"
+        ]
+      },
+      {
+        "title": "Bâtiment et CVC",
+        "items": [
+          "Murs, toitures et planchers",
+          "Enveloppe et doublage intérieur des gaines",
+          "Isolation acoustique des cloisons et plafonds",
+          "Murs et planchers coupe-feu"
+        ]
+      },
+      {
+        "title": "Naval et offshore",
+        "items": [
+          "Isolation des cloisons et ponts",
+          "Isolation thermique et acoustique des salles des machines",
+          "Isolation des tuyauteries sur plateformes offshore"
+        ]
+      },
+      {
+        "title": "Industrie et fabrication",
+        "items": [
+          "Isolation extérieure des fours et étuves",
+          "Entrepôts frigorifiques et agroalimentaire",
+          "Lutte contre le bruit en usine"
+        ]
+      }
+    ],
+    "supplyTitle": "Ce que nous fournissons",
+    "supply": [
+      "Santura fournit des isolants en laine de roche et laine de verre aux raffineries, usines pétrochimiques, centrales électriques et chantiers de construction, et exporte vers plus de 25 pays. Les produits proviennent de fabricants reconnus et sont livrés selon la spécification de votre projet, avec les certificats d'essai du fabricant.",
+      "Comme nous fabriquons nous-mêmes les pointes d'isolation et les rondelles, nous pouvons livrer l'isolant et ses fixations ensemble, en ensemble complet."
+    ],
+    "relatedTitle": "Produits et services associés",
+    "relatedPins": "Pointes à souder et rondelles pour fixer les panneaux et matelas de laine minérale.",
+    "relatedCalsil": "Panneaux et coquilles rigides en silicate de calcium pour l'isolation haute température.",
+    "relatedAnchors": "Ancrages SEPL pour les garnissages réfractaires derrière l'isolation haute température.",
+    "relatedSwText": "Équipements de soudage de goujons pour poser les pointes d'isolation.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Quelle est la différence entre laine de roche et laine de verre ?",
+        "a": "La laine de roche est fabriquée à partir de basalte, supporte jusqu'à 750 °C et présente une masse volumique plus élevée (30–200 kg/m³), ce qui en fait le choix pour l'isolation industrielle à haute température. La laine de verre est faite de verre recyclé, est plus légère (10–80 kg/m³) et convient jusqu'à environ 450 °C. Elle est privilégiée pour le CVC, l'acoustique et le bâtiment."
+      },
+      {
+        "q": "Quelle température la laine minérale supporte-t-elle ?",
+        "a": "La laine de roche peut être utilisée en continu jusqu'à 750 °C, la laine de verre jusqu'à environ 450 °C selon le produit. Les deux sont incombustibles : la laine de roche nue est Euroclasse A1, la laine de verre A1 ou A2 selon le produit."
+      },
+      {
+        "q": "Quelles épaisseurs et masses volumiques sont disponibles ?",
+        "a": "La laine de roche est disponible de 25 mm à 200 mm d'épaisseur et de 30 à 200 kg/m³. La laine de verre va de 25 mm à 150 mm d'épaisseur et de 10 à 80 kg/m³. Autres spécifications sur demande."
+      },
+      {
+        "q": "La laine minérale est-elle sûre et sans amiante ?",
+        "a": "Oui. La laine minérale que nous fournissons est sans amiante, non dangereuse, fabriquée sans CFC ni HCFC, imputrescible et chimiquement inerte. Elle se manipule sans risque avec les EPI habituels, et la laine de roche est exempte des chlorures qui provoquent la corrosion sous tôlage inox."
+      }
+    ],
+    "ctaTitle": "Besoin d'isolant en laine minérale ?",
+    "ctaText": "Indiquez-nous la forme, l'épaisseur, la masse volumique, le parement, la quantité et la température de service. Nous vous répondrons avec un devis et un délai de livraison.",
+    "ctaRfq": "Demander un devis pour de la laine minérale",
+    "ctaContact": "Ou contactez notre équipe"
+  },
+  "cgPage": {
+    "metaTitle": "Joints céramiques et étanchéité haute température | Fournisseur",
+    "metaDescription": "Joints, tresses et rubans en fibre céramique et joints industriels pour fours et raffineries. Fournisseur depuis 1980, export vers 25+ pays. Devis rapide.",
+    "eyebrow": "Isolation et étanchéité",
+    "h1": "Joints céramiques et produits d'étanchéité haute température",
+    "subheading": "Tresse, ruban, papier, couverture, panneau, tissu et joints tadpole en fibre céramique pour portes de four, joints de dilatation et étanchéité des fumées, ainsi que joints sans amiante, PTFE, graphite et spiralés pour brides. Un seul fournisseur pour l'étanchéité haute température et les joints de bride.",
+    "gallery": [
+      "Joints industriels variés, dont des joints spiralés",
+      "Joints de bride sans amiante",
+      "Feuille de joint noire en fibres comprimées"
+    ],
+    "overviewTitle": "Ce que sont les joints céramiques",
+    "overview": [
+      "Les joints céramiques sont des joints haute température en fibre céramique, un matériau alumino-silicaté. Ils assurent l'étanchéité des joints, portes, brides et jeux de dilatation dans les fours, fours rotatifs, réchauffeurs et chaudières. La fibre céramique standard est classée à 1260 °C et les nuances à la zircone vont plus haut, bien au-delà des joints en caoutchouc ou en fibres comprimées.",
+      "Pour les brides de tuyauterie et les appareils à pression à plus basse température, nous fournissons aussi des joints industriels classiques : sans amiante, PTFE, graphite, spiralés, RTJ et double enveloppe. Les raffineries, usines pétrochimiques et centrales disposent ainsi d'une seule source pour leurs besoins d'étanchéité."
+    ],
+    "ceramicTitle": "Produits d'étanchéité en fibre céramique",
+    "ceramicIntro": "Tous les produits en fibre céramique sont sans amiante et chimiquement inertes. Le choix de la forme dépend de la géométrie du joint et de la fréquence d'ouverture.",
+    "ceramic": [
+      {
+        "name": "Tresse en fibre céramique (ronde)",
+        "text": "Tresse ronde tressée ou torsadée pour joints de porte, joints de dilatation et presse-étoupes.",
+        "sizes": "Ø 6–50 mm · longueurs sur mesure"
+      },
+      {
+        "name": "Tresse en fibre céramique (carrée)",
+        "text": "Tresse carrée pour cadres de portes de four et joints d'étuves.",
+        "sizes": "6 × 6 mm à 50 × 50 mm"
+      },
+      {
+        "name": "Ruban en fibre céramique",
+        "text": "Ruban tissé plat pour envelopper brides et raccords, et pour la protection des câbles.",
+        "sizes": "25–150 mm de large · 2–5 mm d'épaisseur"
+      },
+      {
+        "name": "Papier en fibre céramique",
+        "text": "Feuille fine et souple pour joints découpés, joints de bride et isolation électrique.",
+        "sizes": "1–6 mm d'épaisseur · rouleaux jusqu'à 1000 mm"
+      },
+      {
+        "name": "Couverture en fibre céramique",
+        "text": "Couverture aiguilletée souple pour garnissages, enveloppes et isolation arrière.",
+        "sizes": "6–50 mm d'épaisseur · 64–192 kg/m³"
+      },
+      {
+        "name": "Panneau en fibre céramique",
+        "text": "Panneau rigide formé sous vide pour garnissages de four, chicanes et étanchéité des fumées.",
+        "sizes": "6–50 mm d'épaisseur · 280–400 kg/m³"
+      },
+      {
+        "name": "Tissu en fibre céramique",
+        "text": "Tissu pour rideaux, couvertures de soudage et housses isolantes démontables.",
+        "sizes": "1,5–5 mm d'épaisseur"
+      },
+      {
+        "name": "Joints tadpole",
+        "text": "Profil à bourrelet et languette pour portes de fours et étuves ; la languette est pincée ou rivetée sur le cadre.",
+        "sizes": "Bourrelet Ø 10–40 mm · languette 25–100 mm"
+      }
+    ],
+    "convTitle": "Joints industriels",
+    "convIntro": "Nous fournissons ces joints par l'intermédiaire d'un fabricant de joints reconnu, selon votre spécification et votre norme de bride.",
+    "colType": "Type",
+    "colMaterial": "Matériau",
+    "colMaxTemp": "Temp. max.",
+    "colUse": "Usage courant",
+    "conventional": [
+      {
+        "name": "Sans amiante (remplacement du CAF)",
+        "material": "Fibre aramide ou de verre avec liant NBR",
+        "temp": "Environ 450 °C",
+        "text": "Remplace les joints en fibres d'amiante comprimées. Compresseurs d'air, tuyauteries de moteurs diesel, industrie et marine."
+      },
+      {
+        "name": "Joints PTFE",
+        "material": "PTFE vierge ou chargé",
+        "temp": "Environ 260 °C",
+        "text": "Brides exposées à des produits agressifs : acides, bases et solvants."
+      },
+      {
+        "name": "Joints graphite",
+        "material": "Graphite souple, lisse ou à insert crampon, avec renfort inox ou nickel en option",
+        "temp": "Environ 450 °C à l'air, 650 °C en vapeur",
+        "text": "Conditions sévères. Autolubrifiant, n'adhère pas aux brides."
+      },
+      {
+        "name": "Joints spiralés",
+        "material": "Spires SS304 / SS316 avec garniture graphite ou PTFE",
+        "temp": "Environ 600 °C",
+        "text": "Brides de raffinerie et pétrochimie, haute pression et cycles thermiques."
+      },
+      {
+        "name": "Joints RTJ",
+        "material": "Inox massif ou Inconel",
+        "temp": "600 °C et plus",
+        "text": "Brides RTJ haute pression dans le pétrole et le gaz."
+      },
+      {
+        "name": "Joints double enveloppe",
+        "material": "Enveloppe métallique avec garniture souple",
+        "temp": "Environ 550 °C",
+        "text": "Échangeurs de chaleur et brides de grand diamètre."
+      },
+      {
+        "name": "Joints caoutchouc et nitrile",
+        "material": "Caoutchouc naturel, NBR et autres élastomères",
+        "temp": "Environ 100–120 °C",
+        "text": "Eau, huile et service général à basse température."
+      }
+    ],
+    "specTitle": "Propriétés de la fibre céramique",
+    "specRows": [
+      {
+        "label": "Température de classification",
+        "value": "1260 °C (standard), jusqu'à 1400 °C (nuance à la zircone)"
+      },
+      {
+        "label": "Température de service continu",
+        "value": "1000–1260 °C selon la nuance"
+      },
+      {
+        "label": "Composition chimique",
+        "value": "Al₂O₃ 45–55 %, SiO₂ 45–55 % (standard) ; ZrO₂ 15–17 % (nuance à la zircone)"
+      },
+      {
+        "label": "Couleur",
+        "value": "Blanc"
+      },
+      {
+        "label": "Conductivité thermique",
+        "value": "0,08–0,23 W/m·K à des températures moyennes de 200–1000 °C"
+      },
+      {
+        "label": "Teneur en amiante",
+        "value": "Aucune : 100 % sans amiante"
+      }
+    ],
+    "specNote": "Valeurs indicatives. Les chiffres exacts dépendent de la forme, de la nuance et du fabricant ; la fiche technique et les certificats d'essai du fabricant accompagnent chaque commande.",
+    "dimTitle": "Dimensions des joints prédécoupés",
+    "dimIntro": "Joints de bride en fibres comprimées selon le gabarit ASME B16.21. Toutes les dimensions en millimètres.",
+    "colNps": "Diamètre nominal",
+    "colId": "Diamètre intérieur",
+    "colOd": "Diamètre extérieur par classe de pression",
+    "colClass": "Classe {cls}",
+    "dimNote": "Les joints prédécoupés sont disponibles aux dimensions ASME standard. Dimensions et classes de pression spéciales sur plan.",
+    "standardsTitle": "Normes",
+    "standards": [
+      "Couvertures en fibres pour isolation haute température",
+      "Méthodes d'essai des produits en fibre céramique",
+      "Produits réfractaires isolants : produits en fibre céramique",
+      "Joints métalliques pour brides (spiralés, RTJ, à enveloppe)",
+      "Joints plats non métalliques pour brides",
+      "Joints plats non métalliques : valeurs caractéristiques"
+    ],
+    "applicationsTitle": "Applications par secteur",
+    "applications": [
+      {
+        "title": "Pétrole, gaz et pétrochimie",
+        "items": [
+          "Joints de portes et de regards de réchauffeurs",
+          "Garnitures de joints de dilatation de fours",
+          "Joints de bride sur lignes de procédé chaudes",
+          "Joints de régénérateurs de catalyseur et de torches"
+        ]
+      },
+      {
+        "title": "Production d'énergie",
+        "items": [
+          "Joints de portes et trappes de visite de chaudières",
+          "Joints de dilatation des gaines de chaudières de récupération",
+          "Joints d'échappement de turbines",
+          "Joints d'économiseurs et de réchauffeurs d'air"
+        ]
+      },
+      {
+        "title": "Acier, métaux et ciment",
+        "items": [
+          "Joints de portes et de wagonnets de fours",
+          "Tresses de portes de fours de recuit",
+          "Joints de couvercles de poches",
+          "Joints de refroidisseurs à clinker"
+        ]
+      },
+      {
+        "title": "Verre et céramique",
+        "items": [
+          "Joints de voûte et de brûleurs de fours verriers",
+          "Joints de canaux de feeders",
+          "Joints de portes de fours céramiques"
+        ]
+      },
+      {
+        "title": "Industrie générale",
+        "items": [
+          "Joints d'incinérateurs et d'unités de valorisation",
+          "Joints de portes de fours de traitement thermique",
+          "Joints de fentes de convoyeurs d'étuves",
+          "Joints de systèmes d'échappement"
+        ]
+      }
+    ],
+    "supplyTitle": "Ce que nous fournissons",
+    "supply": [
+      "Santura fournit joints, tresses, rubans, papiers et couvertures en fibre céramique, ainsi que des joints sans amiante, PTFE, graphite et spiralés, aux raffineries, usines pétrochimiques, centrales, aciéries et cimenteries, et exporte vers plus de 25 pays. Les produits proviennent de fabricants reconnus et sont fournis selon votre spécification, avec les certificats d'essai du fabricant.",
+      "Comme nous fabriquons nous-mêmes les ancrages réfractaires, les pointes d'isolation et les ancrages à goujon pour fibre céramique SEPL-24, nous fournissons un ensemble complet de garnissage de four auprès d'une seule source : ancrages, goujons, joints et isolants."
+    ],
+    "relatedTitle": "Produits associés",
+    "relatedMineralWool": "Isolation en laine de roche et de verre pour tuyauteries, appareils et gaines.",
+    "relatedPins": "Pointes à souder et rondelles pour fixer couvertures et isolants.",
+    "relatedAnchors": "Ancrages SEPL pour garnissages de four complets.",
+    "relatedSepl24": "Ancrages soudés par goujon pour garnissages en couverture et modules de fibre céramique.",
+    "relatedDoors": "Portes de regard et regards, étanchés par tresses et joints en fibre céramique.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Quelle température les joints en fibre céramique supportent-ils ?",
+        "a": "Les joints en fibre céramique alumino-silicatée standard sont classés à 1260 °C, avec un service continu généralement jusqu'à environ 1000 °C. Les nuances à la zircone supportent jusqu'à 1400 °C. Ils sont incombustibles et conviennent aux portes de four, joints de dilatation et étanchéité des fumées."
+      },
+      {
+        "q": "Quels types de joints céramiques existe-t-il ?",
+        "a": "Les produits d'étanchéité en fibre céramique comprennent tresses rondes et carrées, ruban tissé, papier céramique pour joints découpés, joints tadpole pour portes, tissu et couverture, et panneau rigide pour l'étanchéité des chicanes. Tous sont sans amiante et chimiquement inertes."
+      },
+      {
+        "q": "Quelle est la différence entre joints céramiques et joints industriels classiques ?",
+        "a": "Les joints en fibre céramique tiennent 1000–1260 °C et servent aux portes de four et joints de dilatation, où la pression est faible. Les joints classiques (sans amiante jusqu'à environ 450 °C, PTFE environ 260 °C, graphite environ 450 °C à l'air, spiralés environ 600 °C) assurent l'étanchéité des brides et appareils à pression à plus basse température. Santura fournit les deux."
+      },
+      {
+        "q": "Fournissez-vous des joints selon les normes ASME ?",
+        "a": "Oui. Nous fournissons des joints spiralés, RTJ et à enveloppe selon l'ASME B16.20 et des joints plats non métalliques selon l'ASME B16.21. Des joints prédécoupés existent aux dimensions de brides ASME standard ; les autres dimensions et classes de pression sont réalisées sur plan."
+      }
+    ],
+    "ctaTitle": "Besoin de joints céramiques ou de joints de bride ?",
+    "ctaText": "Indiquez-nous le produit, la dimension ou la norme de bride, la classe de pression, la température et la quantité. Nous vous répondrons avec un devis et un délai de livraison.",
+    "ctaRfq": "Demander un devis pour des joints",
+    "ctaContact": "Ou contactez notre équipe"
+  },
+  "gfPage": {
+    "metaTitle": "Panneaux en fibre de verre, tissu et laine de verre",
+    "metaDescription": "Panneaux en fibre de verre, tissu, ruban et isolation en laine de verre pour l'industrie. Fournisseur depuis 1980, export vers 25+ pays. Devis rapide.",
+    "eyebrow": "Matériaux isolants",
+    "h1": "Panneaux en fibre de verre, tissu et laine de verre",
+    "subheading": "Panneaux et stratifiés en fibre de verre, tissu et ruban de verre, ainsi que rouleaux, coquilles et matelas grillagés en laine de verre pour l'isolation, le calorifugeage et le renforcement. Fournis selon la spécification du projet, avec les pointes et goujons pour les fixer.",
+    "gallery": [
+      "Rouleau de mat à fils coupés en fibre de verre",
+      "Bobines de roving en fibre de verre",
+      "Gros plan de brins de fibre de verre"
+    ],
+    "overviewTitle": "Ce que sont les produits en fibre de verre",
+    "overview": "Les produits en fibre de verre sont obtenus en fondant du verre vers 1550 °C puis en le fibrant ou l'étirant en fibres fines. La laine de verre contient jusqu'à 70 % de verre recyclé. Selon la mise en forme des fibres, on obtient une laine isolante souple, un panneau rigide ou semi-rigide, ou un fil tissé en toile et en ruban.",
+    "functions": [
+      {
+        "title": "Isolation",
+        "text": "Rouleaux, panneaux, coquilles et matelas en laine de verre pour l'isolation thermique et acoustique des tuyauteries, gaines, murs, toitures et équipements."
+      },
+      {
+        "title": "Renforcement et protection",
+        "text": "Tissu de verre, ruban, roving et stratifiés pour enveloppes et calorifugeages résistant à la chaleur, matériaux de joints, renforcement de composites et rideaux coupe-feu."
+      }
+    ],
+    "glassTypes": "Le tissu et le ruban de verre sont tissés en fil de verre E, le verre textile le plus courant et le plus économique. Le verre S offre une résistance à la traction environ 30 % supérieure et de meilleures performances à température élevée, pour un coût plus élevé. La laine de verre est fabriquée à partir d'un verre sodocalcique-borosilicaté intégrant du calcin recyclé.",
+    "groups": [
+      {
+        "title": "Panneaux en fibre de verre",
+        "intro": "Panneaux rigides et semi-rigides pour l'isolation, et stratifiés à la résine pour pièces électriques et structurelles.",
+        "rows": [
+          {
+            "name": "Panneau rigide en fibre de verre",
+            "text": "Panneau lié à la résine pour doublage de gaines, murs-rideaux et dalles de plafond.",
+            "spec": "25–100 mm d'épaisseur · 48–96 kg/m³"
+          },
+          {
+            "name": "Panneau semi-rigide en fibre de verre",
+            "text": "Assez souple pour les surfaces courbes et l'enveloppe d'équipements.",
+            "spec": "25–75 mm d'épaisseur · 24–64 kg/m³"
+          },
+          {
+            "name": "Stratifié verre (G10 / FR4)",
+            "text": "Plaque imprégnée d'époxy pour isolation électrique et pièces structurelles.",
+            "spec": "0,5–50 mm d'épaisseur"
+          },
+          {
+            "name": "Panneau à parement aluminium",
+            "text": "Panneau rigide avec pare-vapeur réfléchissant.",
+            "spec": "25–100 mm d'épaisseur"
+          }
+        ]
+      },
+      {
+        "title": "Tissus et textiles en fibre de verre",
+        "intro": "Textiles de verre tissés pour calorifugeage, enveloppe, étanchéité et composites.",
+        "rows": [
+          {
+            "name": "Tissu de verre (toile)",
+            "text": "Tissu industriel standard pour enveloppe et calorifugeage.",
+            "spec": "200–800 g/m² · 0,2–1,0 mm"
+          },
+          {
+            "name": "Tissu de verre (sergé)",
+            "text": "Meilleur drapé sur surfaces courbes et pour le moulage de composites.",
+            "spec": "200–600 g/m² · 0,2–0,8 mm"
+          },
+          {
+            "name": "Tissu de verre texturé",
+            "text": "Fil texturé pour un tissu de calorifugeage plus épais et plus souple.",
+            "spec": "400–1200 g/m² · 0,5–3,0 mm"
+          },
+          {
+            "name": "Tissu de verre enduit silicone ou PTFE",
+            "text": "Tissu antiadhésif résistant aux produits chimiques pour enveloppes et joints.",
+            "spec": "Jusqu'à 260 °C (PTFE) / environ 300 °C (silicone)"
+          },
+          {
+            "name": "Ruban en fibre de verre",
+            "text": "Ruban tissé étroit pour l'enveloppe de tuyauteries et le liage de câbles.",
+            "spec": "20–150 mm de large · 0,2–1,0 mm"
+          },
+          {
+            "name": "Tissu de roving",
+            "text": "Tissu lourd pour le renforcement de composites (PRV).",
+            "spec": "200–800 g/m²"
+          }
+        ]
+      },
+      {
+        "title": "Isolation en laine de verre",
+        "intro": "Isolation légère pour bâtiments, CVC et équipements de procédé à plus basse température.",
+        "rows": [
+          {
+            "name": "Rouleaux et feutres de laine de verre",
+            "text": "Isolation souple pour murs, toitures et gaines CVC.",
+            "spec": "25–150 mm d'épaisseur · 10–48 kg/m³"
+          },
+          {
+            "name": "Coquilles en laine de verre",
+            "text": "Coquilles préformées pour l'isolation des tuyauteries.",
+            "spec": "Ø int. 15–600 mm · 25–100 mm d'épaisseur"
+          },
+          {
+            "name": "Matelas grillagés en laine de verre",
+            "text": "Matelas avec grillage pour isoler équipements, appareils et colonnes.",
+            "spec": "25–100 mm d'épaisseur · 24–80 kg/m³"
+          },
+          {
+            "name": "Laine de verre en vrac",
+            "text": "Isolation soufflée pour cavités et zones difficiles d'accès.",
+            "spec": "Densité selon l'application"
+          }
+        ]
+      }
+    ],
+    "colProduct": "Produit",
+    "colDescription": "Description",
+    "colSpec": "Spécification courante",
+    "compareTitle": "Propriétés comparées",
+    "colProperty": "Caractéristique",
+    "colWool": "Laine de verre",
+    "colCloth": "Tissu de verre",
+    "colBoard": "Panneau en fibre de verre",
+    "compareRows": [
+      {
+        "label": "Matière première",
+        "wool": "Verre sodocalcique-borosilicaté, jusqu'à 70 % recyclé",
+        "cloth": "Fil de verre E ou S",
+        "board": "Laine de verre avec liant résine"
+      },
+      {
+        "label": "Température max. en continu",
+        "wool": "230–450 °C selon le liant",
+        "cloth": "Environ 550 °C (verre E non enduit)",
+        "board": "230–450 °C"
+      },
+      {
+        "label": "Point de ramollissement",
+        "wool": "Environ 650–700 °C",
+        "cloth": "Environ 840 °C (verre E)",
+        "board": "Environ 650–700 °C"
+      },
+      {
+        "label": "Masse volumique",
+        "wool": "10–96 kg/m³",
+        "cloth": "Mesurée en g/m²",
+        "board": "24–96 kg/m³"
+      },
+      {
+        "label": "Conductivité thermique (λ)",
+        "wool": "0,030–0,045 W/m·K à 24 °C",
+        "cloth": "—",
+        "board": "0,032–0,040 W/m·K"
+      },
+      {
+        "label": "Performance acoustique",
+        "wool": "NRC 0,80–1,00",
+        "cloth": "—",
+        "board": "NRC 0,75–0,95"
+      },
+      {
+        "label": "Réaction au feu",
+        "wool": "Incombustible (Euroclasse A1 ou A2)",
+        "cloth": "Incombustible (non enduit)",
+        "board": "Incombustible (A1 ou A2)"
+      },
+      {
+        "label": "Humidité",
+        "wool": "Traitement hydrofuge disponible",
+        "cloth": "N'absorbe pas l'humidité",
+        "board": "Traitement hydrofuge disponible"
+      },
+      {
+        "label": "Diamètre des fibres",
+        "wool": "4–9 µm",
+        "cloth": "6–13 µm selon le fil",
+        "board": "4–9 µm"
+      },
+      {
+        "label": "Amiante",
+        "wool": "Aucun",
+        "cloth": "Aucun",
+        "board": "Aucun"
+      }
+    ],
+    "compareNote": "Valeurs indicatives. Les chiffres exacts dépendent du produit, du liant et du fabricant ; la fiche technique et les certificats d'essai du fabricant accompagnent chaque commande. Au-delà de ces limites, utiliser la laine de roche ou la fibre céramique.",
+    "traitsTitle": "Caractéristiques",
+    "characteristics": [
+      "Laine de verre fabriquée avec jusqu'à 70 % de verre recyclé",
+      "Sans amiante et non dangereuse",
+      "Fabriquée sans CFC, HCFC ni HFC",
+      "Incombustible (produits non enduits)",
+      "Ne se rétracte pas, ne s'affaisse pas et ne se tasse pas",
+      "Imputrescible et résistante aux insectes et rongeurs",
+      "Bonne absorption acoustique (NRC 0,80–1,00)",
+      "Faible conductivité thermique pour des économies d'énergie",
+      "Légère, facile à manipuler et à poser",
+      "Résiste à la plupart des produits chimiques, sauf l'acide fluorhydrique et les bases fortes"
+    ],
+    "standardsTitle": "Normes et essais",
+    "standards": [
+      "Matelas et feutres en fibres minérales",
+      "Blocs et panneaux en fibres minérales",
+      "Isolant en fibres minérales pour tuyauteries",
+      "Conductivité thermique par plaque chaude gardée et fluxmètre",
+      "Tissus de verre finis tissés à partir de rovings",
+      "Caractéristiques de propagation de flamme en surface",
+      "Produits manufacturés en laine minérale pour le bâtiment",
+      "Résistance à la traction des tissus enduits",
+      "Matériaux isolants thermiques",
+      "Coquilles préformées en fibres minérales"
+    ],
+    "applicationsTitle": "Applications par secteur",
+    "applications": [
+      {
+        "title": "Pétrole, gaz et pétrochimie",
+        "items": [
+          "Isolation des tuyauteries et équipements",
+          "Calorifugeage en tissu de verre sur laine minérale",
+          "Isolation d'appareils et colonnes par matelas grillagés",
+          "Ruban de verre pour maintenir les couches d'isolant"
+        ]
+      },
+      {
+        "title": "Production d'énergie",
+        "items": [
+          "Isolation de chaudières et doublage de gaines",
+          "Capotages acoustiques de turbines et alternateurs",
+          "Matelas isolants pour chaudières de récupération",
+          "Isolation des gaines de fumées"
+        ]
+      },
+      {
+        "title": "Bâtiment et CVC",
+        "items": [
+          "Murs, toitures et planchers",
+          "Enveloppe et doublage intérieur des gaines",
+          "Plafonds acoustiques et remplissage de cloisons",
+          "Isolation des réseaux d'eau chaude et glacée"
+        ]
+      },
+      {
+        "title": "Naval et offshore",
+        "items": [
+          "Isolation des cloisons et ponts",
+          "Isolation thermique et acoustique des salles des machines",
+          "Renforcement en tissu de verre des structures PRV"
+        ]
+      },
+      {
+        "title": "Industrie et fabrication",
+        "items": [
+          "Entrepôts frigorifiques et agroalimentaire",
+          "Écrans et capotages antibruit",
+          "Enveloppe en tissu de verre à l'extérieur des fours et étuves",
+          "Panneaux d'isolation électrique (G10 / FR4)"
+        ]
+      }
+    ],
+    "supplyTitle": "Ce que nous fournissons",
+    "supply": [
+      "Santura fournit des panneaux en fibre de verre, du tissu de verre, du ruban de verre et des isolants en laine de verre aux raffineries, usines pétrochimiques, centrales et chantiers de construction, et exporte vers plus de 25 pays. Les produits proviennent de fabricants reconnus et sont livrés selon la spécification de votre projet, avec les certificats d'essai du fabricant.",
+      "Comme nous fabriquons nous-mêmes les pointes d'isolation, les goujons à souder et les ancrages réfractaires, nous livrons l'isolant, ses fixations et le tissu de calorifugeage en un seul ensemble."
+    ],
+    "relatedTitle": "Produits associés",
+    "relatedMineralWool": "Isolation en laine de roche pour des températures plus élevées, jusqu'à 750 °C.",
+    "relatedPins": "Pointes à souder et rondelles pour fixer laine de verre et panneaux.",
+    "relatedGaskets": "Tresses, rubans et joints en fibre céramique, utilisés avec le ruban de verre.",
+    "relatedAnchors": "Ancrages SEPL pour garnissages de fours.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Quelle est la différence entre le tissu de verre et la laine de verre ?",
+        "a": "Le tissu de verre est un textile tissé en fil de verre, utilisé pour le calorifugeage, l'enveloppe et le renforcement de composites. La laine de verre est un isolant souple fait de fibres de verre, utilisé pour l'isolation thermique et acoustique des tuyauteries, gaines, murs et toitures. Le tissu est tissé en fil de verre E, tandis que la laine de verre utilise un verre sodocalcique-borosilicaté à contenu recyclé."
+      },
+      {
+        "q": "Quelle température les produits en fibre de verre supportent-ils ?",
+        "a": "La laine de verre supporte 230–450 °C selon le liant. Le tissu de verre E non enduit tient environ 550 °C en continu. La laine de verre ramollit vers 650–700 °C et le verre E vers 840 °C. Pour des températures plus élevées, la laine de roche (jusqu'à 750 °C) ou les produits en fibre céramique sont recommandés."
+      },
+      {
+        "q": "L'isolation en fibre de verre est-elle sûre et sans amiante ?",
+        "a": "Oui. Les produits en fibre de verre et laine de verre que nous fournissons sont sans amiante, non dangereux et fabriqués sans CFC. La laine de verre contient jusqu'à 70 % de verre recyclé. Ils se manipulent sans risque avec les EPI habituels et sont chimiquement stables, imputrescibles et résistants aux insectes."
+      },
+      {
+        "q": "Quelles épaisseurs et masses volumiques de laine de verre sont disponibles ?",
+        "a": "Les rouleaux et feutres de laine de verre existent de 25 mm à 150 mm d'épaisseur et de 10 à 48 kg/m³. Les coquilles vont de 15 mm à 600 mm de diamètre intérieur. Les matelas grillagés existent de 25 à 100 mm avec des masses volumiques jusqu'à 80 kg/m³. Autres spécifications sur demande."
+      }
+    ],
+    "ctaTitle": "Besoin de fibre de verre ou de laine de verre ?",
+    "ctaText": "Indiquez-nous le produit, l'épaisseur ou le grammage, la masse volumique, les dimensions, le parement et la quantité. Nous vous répondrons avec un devis et un délai de livraison.",
+    "ctaRfq": "Demander un devis pour des produits en fibre de verre",
+    "ctaContact": "Ou contactez notre équipe"
+  },
+  "csPage": {
+    "metaTitle": "Panneaux et coquilles en silicate de calcium | Fournisseur",
+    "metaDescription": "Isolation en silicate de calcium : panneaux et coquilles selon ASTM C-533 jusqu'à 1100 °C. Depuis 1980, export vers plus de 25 pays. Devis rapide.",
+    "eyebrow": "Matériaux isolants",
+    "h1": "Isolation en silicate de calcium",
+    "subheading": "Panneaux rigides, coquilles préformées, segments et poudre de silicate de calcium pour l'isolation industrielle jusqu'à 1100 °C. Conformes aux normes IS 8154, IS 9428, BS 3958 partie II et ASTM C-533.",
+    "gallery": [
+      "Panneaux isolants et demi-coquilles en silicate de calcium",
+      "Coquilles et panneaux plats en silicate de calcium",
+      "Coquille en silicate de calcium en deux parties"
+    ],
+    "overviewTitle": "Ce qu'est l'isolation en silicate de calcium",
+    "overview": [
+      "Le silicate de calcium est un isolant industriel haute température, léger, résistant aux chocs et sans amiante. Il est composé de silicate de calcium hydraté renforcé de fibres et mis en forme en pièces rigides : panneaux, coquilles préformées, segments et poudre. Il conserve ses propriétés isolantes même après mouillage et séchage.",
+      "Il comble l'écart entre la laine minérale souple et la fibre céramique. Contrairement aux isolants souples, il est rigide et autoportant : il résiste au piétinement et aux chocs sur les racks et équipements, tout en gardant une faible conductivité thermique, une forte résistance à la compression et un retrait très faible pendant toute sa durée de vie."
+    ],
+    "tempTitle": "Température de service maximale",
+    "temps": {
+      "mw": "Laine de roche",
+      "cs": "Silicate de calcium",
+      "cf": "Fibre céramique"
+    },
+    "tempNote": "Valeurs maximales indicatives ; la limite de chaque produit dépend de sa nuance.",
+    "formsTitle": "Formes disponibles",
+    "colForm": "Forme",
+    "colDescription": "Description",
+    "colSizes": "Dimensions courantes",
+    "forms": [
+      {
+        "name": "Panneaux",
+        "text": "Panneaux rigides pour surfaces planes : parois d'appareils, panneaux de gaines et viroles de fours.",
+        "sizes": "25–100 mm d'épaisseur · 300–1000 mm de long · 150–600 mm de large"
+      },
+      {
+        "name": "Coquilles préformées",
+        "text": "Demi-coquilles en deux parties ou coquilles segmentées pour l'isolation des tuyauteries.",
+        "sizes": "Ø int. 15–600 mm · 25–100 mm d'épaisseur · longueur standard 600 mm"
+      },
+      {
+        "name": "Segments biseautés",
+        "text": "Segments trapézoïdaux pour tuyauteries et appareils de grand diamètre.",
+        "sizes": "Selon le diamètre de l'appareil et l'épaisseur d'isolant"
+      },
+      {
+        "name": "Segments cintrés",
+        "text": "Segments pour colonnes, réservoirs et grands équipements cylindriques.",
+        "sizes": "Rayon et épaisseur sur commande"
+      },
+      {
+        "name": "Poudre / vrac",
+        "text": "Pour remplir les cavités irrégulières et les zones difficiles d'accès.",
+        "sizes": "Livraison en vrac"
+      }
+    ],
+    "specTitle": "Spécifications",
+    "specRows": [
+      {
+        "label": "Composition",
+        "value": "Silicate de calcium hydraté renforcé de fibres"
+      },
+      {
+        "label": "Température max. en continu",
+        "value": "1000–1100 °C selon la nuance"
+      },
+      {
+        "label": "Masse volumique",
+        "value": "240–350 kg/m³ (environ 256 kg/m³ pour la nuance haute température)"
+      },
+      {
+        "label": "Conductivité thermique à 200 °C moyen",
+        "value": "0,065–0,080 W/m·K"
+      },
+      {
+        "label": "Conductivité thermique à 400 °C moyen",
+        "value": "0,085–0,105 W/m·K"
+      },
+      {
+        "label": "Conductivité thermique à 600 °C moyen",
+        "value": "0,100–0,130 W/m·K"
+      },
+      {
+        "label": "Résistance à la compression",
+        "value": "0,7 MPa ou plus à 5 % de déformation"
+      },
+      {
+        "label": "Retrait linéaire à la temp. max.",
+        "value": "2 % ou moins"
+      },
+      {
+        "label": "Humidité",
+        "value": "Retrouve ses performances thermiques d'origine après mouillage et séchage"
+      },
+      {
+        "label": "pH",
+        "value": "Environ 10 (alcalin)"
+      },
+      {
+        "label": "Amiante",
+        "value": "Aucun : 100 % sans amiante"
+      },
+      {
+        "label": "COV",
+        "value": "Aucun"
+      },
+      {
+        "label": "Contenu recyclé",
+        "value": "Contient des matériaux recyclés post-consommation"
+      },
+      {
+        "label": "Couleur",
+        "value": "Blanc à blanc cassé"
+      }
+    ],
+    "specNote": "Valeurs indicatives. Les chiffres exacts dépendent de la nuance et du fabricant ; la fiche technique et les certificats d'essai du fabricant accompagnent chaque commande.",
+    "standardsTitle": "Normes",
+    "standards": [
+      "Blocs et coquilles isolants en silicate de calcium",
+      "Blocs plats en silicate de calcium (norme indienne)",
+      "Coquilles en silicate de calcium (norme indienne)",
+      "Matériaux isolants thermiques : silicate de calcium",
+      "Produits manufacturés en silicate de calcium pour équipements industriels",
+      "Mesure de la conductivité thermique",
+      "Caractéristiques de propagation de flamme en surface"
+    ],
+    "advantagesTitle": "Avantages",
+    "advantages": [
+      {
+        "title": "Stable après mouillage",
+        "text": "Conserve ses propriétés isolantes au fil des cycles de mouillage et de séchage."
+      },
+      {
+        "title": "Performance constante",
+        "text": "Faible conductivité thermique pendant toute la durée de vie, pour des économies d'énergie durables."
+      },
+      {
+        "title": "Résistant et rigide",
+        "text": "Supporte les sollicitations mécaniques, le piétinement sur les racks et les chocs sans dommage."
+      },
+      {
+        "title": "Léger",
+        "text": "Haute performance pour un faible poids, pour un isolant rigide haute température."
+      },
+      {
+        "title": "Facile à poser",
+        "text": "Se découpe et s'ajuste facilement sur chantier, ce qui réduit le temps et le coût de pose."
+      },
+      {
+        "title": "Longue durée et réemploi",
+        "text": "Peu d'entretien ; il peut être déposé et réutilisé lors des arrêts."
+      },
+      {
+        "title": "Environnement",
+        "text": "Zéro COV et contient des matériaux recyclés post-consommation."
+      },
+      {
+        "title": "Alcalin",
+        "text": "Son alcalinité naturelle (pH d'environ 10) aide à protéger l'acier carbone contre la corrosion sous isolant."
+      },
+      {
+        "title": "Incombustible",
+        "text": "Propagation de flamme et dégagement de fumée nuls lors des essais de comportement au feu en surface."
+      }
+    ],
+    "applicationsTitle": "Applications par secteur",
+    "applications": [
+      {
+        "title": "Sidérurgie",
+        "items": [
+          "Hauts fourneaux et cowpers",
+          "Fours pits et fours à coke",
+          "Fours de réchauffage et de recuit",
+          "Préchauffeurs de poches et de répartiteurs"
+        ]
+      },
+      {
+        "title": "Ciment",
+        "items": [
+          "Préchauffeurs, cyclones et gaines",
+          "Fours",
+          "Générateurs d'air chaud et pyroclones"
+        ]
+      },
+      {
+        "title": "Aluminium",
+        "items": [
+          "Chenaux de coulée et flotteurs",
+          "Fours pits et garnissage de cuves",
+          "Fours de maintien et d'homogénéisation"
+        ]
+      },
+      {
+        "title": "Pétrole, gaz et pétrochimie",
+        "items": [
+          "Réchauffeurs et fours de reformage",
+          "Échangeurs de chaleur et tuyauteries de vapeur",
+          "Colonnes, appareils et réacteurs"
+        ]
+      },
+      {
+        "title": "Production d'énergie",
+        "items": [
+          "Enveloppes de foyer de chaudière et de turbine",
+          "Isolation des tuyauteries de vapeur haute température",
+          "Isolation des gaines de chaudières de récupération",
+          "Échappements de turbines à gaz"
+        ]
+      },
+      {
+        "title": "Céramique et verre",
+        "items": [
+          "Garnissage de fours tunnels",
+          "Isolation des fours de fusion du verre",
+          "Arches de recuisson et régénérateurs"
+        ]
+      },
+      {
+        "title": "Industrie générale",
+        "items": [
+          "Fours de traitement thermique et de détensionnement",
+          "Fours de réchauffage et de fusion",
+          "Réacteurs chimiques et colonnes de distillation",
+          "Équipements agroalimentaires haute température"
+        ]
+      }
+    ],
+    "supplyTitle": "Ce que nous fournissons",
+    "supply": [
+      "Santura fournit des panneaux et coquilles en silicate de calcium conformes aux normes IS 8154, IS 9428, BS 3958 partie II et ASTM C-533. Ils présentent une faible conductivité thermique, une forte résistance à la compression et un faible retrait, et constituent une isolation économique pour des températures de service jusqu'à 1100 °C.",
+      "Comme nous fabriquons des ancrages réfractaires et des pointes d'isolation, et fournissons aussi laine minérale, fibre de verre et joints céramiques, nous livrons des ensembles d'isolation complets aux raffineries, aciéries, cimenteries et centrales dans plus de 25 pays."
+    ],
+    "relatedTitle": "Produits associés",
+    "relatedMineralWool": "Laine de roche et laine de verre pour des températures jusqu'à 750 °C.",
+    "relatedGlassFibre": "Tissu de verre pour le calorifugeage par-dessus l'isolant.",
+    "relatedPins": "Pointes à souder et rondelles pour fixer l'isolant.",
+    "relatedAnchors": "Ancrages SEPL pour garnissages haute température.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Quelle température l'isolation en silicate de calcium supporte-t-elle ?",
+        "a": "L'isolation en silicate de calcium est prévue pour un service continu jusqu'à 1000–1100 °C selon la nuance. Elle conserve sa structure, sa faible conductivité thermique et sa résistance à la compression sur toute sa plage, et garde ses propriétés isolantes même après mouillage et séchage."
+      },
+      {
+        "q": "Quelles formes de silicate de calcium sont disponibles ?",
+        "a": "Le silicate de calcium existe en panneaux rigides, coquilles préformées (demi-coquilles), segments biseautés pour grosses tuyauteries, segments cintrés pour appareils et colonnes, et poudre pour le remplissage des cavités. Les coquilles standard couvrent des diamètres intérieurs de 15 mm à 600 mm en épaisseurs de 25 à 100 mm. Autres dimensions sur plan."
+      },
+      {
+        "q": "À quelles normes votre silicate de calcium est-il conforme ?",
+        "a": "Notre silicate de calcium est conforme aux normes ASTM C-533, IS 8154 (blocs plats), IS 9428 (coquilles) et BS 3958 partie II. Il est incombustible avec une propagation de flamme nulle selon l'essai ASTM E-84, sans amiante et sans COV."
+      },
+      {
+        "q": "Quels sont les avantages du silicate de calcium par rapport à la laine minérale ?",
+        "a": "Le silicate de calcium supporte des températures plus élevées (jusqu'à 1100 °C contre 750 °C pour la laine de roche), il est beaucoup plus résistant aux sollicitations, rigide et autoportant, donc il résiste au piétinement et aux chocs, et ses performances restent stables après des cycles de mouillage et séchage. La laine minérale est plus souple et moins chère en dessous de 750 °C. Nous fournissons les deux."
+      }
+    ],
+    "ctaTitle": "Besoin d'isolation en silicate de calcium ?",
+    "ctaText": "Indiquez-nous la forme, les diamètres de tuyauterie ou dimensions de panneaux, l'épaisseur, la température de service et la quantité. Nous vous répondrons avec un devis et un délai de livraison.",
+    "ctaRfq": "Demander un devis pour du silicate de calcium",
+    "ctaContact": "Ou contactez notre équipe"
   }
 }

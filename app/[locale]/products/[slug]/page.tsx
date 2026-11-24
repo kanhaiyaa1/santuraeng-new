@@ -10,7 +10,7 @@ import { alloySummary, imageAltKind, productTitle, relatedProducts, truncate } f
 import ProductGallery from '@/components/products/ProductGallery';
 import AlloyTable from '@/components/products/AlloyTable';
 import CategoryPlaceholder, { categoryMetadata } from '@/components/CategoryPlaceholder';
-import { PLACEHOLDER_CATEGORIES, getCategory } from '@/content/product-categories';
+import { PLACEHOLDER_CATEGORIES, getPlaceholderCategory } from '@/content/product-categories';
 import { btnPrimary } from '@/lib/ui';
 import WhatsAppLink from '@/components/WhatsAppLink';
 
@@ -32,7 +32,7 @@ async function altFor(p: Product, locale: string) {
 }
 
 export async function generateMetadata({ params: { locale, slug } }: Props): Promise<Metadata> {
-  const category = getCategory(slug);
+  const category = getPlaceholderCategory(slug);
   if (category) return categoryMetadata(category, locale);
   const product = getProduct(slug);
   if (!product) return {};
@@ -60,7 +60,7 @@ export async function generateMetadata({ params: { locale, slug } }: Props): Pro
 }
 
 export default async function ProductPage({ params: { locale, slug } }: Props) {
-  const category = getCategory(slug);
+  const category = getPlaceholderCategory(slug);
   if (category) {
     setRequestLocale(locale);
     return <CategoryPlaceholder category={category} locale={locale} />;

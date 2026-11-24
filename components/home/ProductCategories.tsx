@@ -4,10 +4,10 @@ import { Link } from '@/i18n/navigation';
 import SectionHeading from './SectionHeading';
 
 const CATEGORIES = [
-  { key: 'brick', anchor: 'brick-lining', codes: 'SEPL-01 – SEPL-05', image: '/images/home/categories/sepl-01-brick-staple.jpg' },
-  { key: 'castable', anchor: 'castable-lining', codes: 'SEPL-06 – SEPL-19', image: '/images/home/categories/sepl-06-split-y.jpg' },
-  { key: 'double', anchor: 'double-lining', codes: 'SEPL-20 – SEPL-23', image: '/images/home/categories/sepl-20-dual-pin.jpg' },
-  { key: 'ceramic', anchor: 'ceramic-fiber-lining', codes: 'SEPL-24 – SEPL-26', image: '/images/home/categories/sepl-24-fiber-stud.jpg' }
+  { key: 'brick', anchor: 'brick-lining', codes: 'SEPL-01 – SEPL-05', image: '/images/home/categories/sepl-01-brick-staple-refractory-anchor-drawing.jpg' },
+  { key: 'castable', anchor: 'castable-lining', codes: 'SEPL-06 – SEPL-19', image: '/images/home/categories/sepl-06-split-y-refractory-anchor-drawing.jpg' },
+  { key: 'double', anchor: 'double-lining', codes: 'SEPL-20 – SEPL-23', image: '/images/home/categories/sepl-20-dual-pin-refractory-anchor-drawing.jpg' },
+  { key: 'ceramic', anchor: 'ceramic-fiber-lining', codes: 'SEPL-24 – SEPL-26', image: '/images/home/categories/sepl-24-fiber-stud-anchor-threaded-pins.jpg' }
 ] as const;
 
 export default function ProductCategories() {

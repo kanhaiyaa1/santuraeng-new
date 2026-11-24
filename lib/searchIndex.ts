@@ -1,20 +1,12 @@
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import { PRODUCTS, productTitle } from '@/content/products';
-import { COUNTRIES } from '@/content/countries';
+import { COUNTRIES, contentFor, localized } from '@/content/countries';
+import { SERVICES } from '@/content/services';
+import { PRODUCT_CATEGORIES, categoryHref } from '@/content/product-categories';
+import type { SearchDoc, SearchEntry } from '@/lib/searchCore';
 
-export type SearchEntry = {
-  type: 'product' | 'country' | 'page';
-  /** Shown as the result title. */
-  title: string;
-  /** Shown under the title (code, lining type, ...). */
-  subtitle: string;
-  href: string;
-  /** Matched by Fuse but never shown: codes, alloys, names in other languages. */
-  code?: string;
-  alloys?: string;
-  keywords: string;
-};
+export type { SearchDoc, SearchEntry } from '@/lib/searchCore';
 
 /** "SEPL-06" → "SEPL-06 SEPL06 SEPL 06 SEPL-6 SEPL 6" so any common spelling matches. */
 function codeVariants(code: string | null) {
@@ -37,9 +29,17 @@ const ALLOY_ALIASES: Record<string, string> = {
   C22: 'Hastelloy C22',
   C276: 'Hastelloy C276'
 };
+// Nickel alloys share the 3-digit pattern of stainless grades but are never written "SS600".
+const NOT_STAINLESS = new Set(['600', '601', '625', '800']);
 
 function alloyTerms(grades: Iterable<string>) {
-  return Array.from(grades, (g) => [g, ALLOY_ALIASES[g.replace(/\s+/g, '')] ?? ''].join(' ')).join(' ');
+  return Array.from(grades, (g) => {
+    const compact = g.replace(/\s+/g, '');
+    const num = compact.match(/^(\d{3})/)?.[1];
+    // "310" and "310SS" also answer to "SS310", the way buyers usually write it.
+    const ss = num && !NOT_STAINLESS.has(num) ? `SS${num}` : '';
+    return [g, ALLOY_ALIASES[compact] ?? '', ss].join(' ');
+  }).join(' ');
 }
 
 /** Country names in every site language, so "Deutschland" finds Germany on the English site. */
@@ -49,69 +49,203 @@ function countryNames(code: string) {
   ).join(' ');
 }
 
-/** Builds the search index for one locale. Runs on the server; the result is sent to the client once per page. */
-export async function buildSearchIndex(locale: string): Promise<SearchEntry[]> {
-  const [products, productsEn, nav, navEn, countries, countryPage] = await Promise.all([
-    getTranslations({ locale, namespace: 'products' }),
-    getTranslations({ locale: 'en', namespace: 'products' }),
-    getTranslations({ locale, namespace: 'nav' }),
-    getTranslations({ locale: 'en', namespace: 'nav' }),
-    getTranslations({ locale, namespace: 'countries' }),
-    getTranslations({ locale, namespace: 'countryPage' })
-  ]);
+// Service pages with full content keep their meta description in their own namespace.
+const SERVICE_NAMESPACES: Record<string, string> = {
+  'bright-solution-annealing': 'bsaPage',
+  'pickling-and-passivation': 'ppPage',
+  'pmi-testing': 'pmiPage',
+  'stud-welding-solutions': 'swPage'
+};
 
-  const productEntries: SearchEntry[] = PRODUCTS.map((p) => {
+async function buildSearchIndex(locale: string): Promise<SearchDoc[]> {
+  const t = (namespace: string, l = locale) => getTranslations({ locale: l, namespace });
+  const [products, productsEn, nav, navEn, countries, countryPage, categories, categoriesEn, services, servicesEn, meta] =
+    await Promise.all([
+      t('products'), t('products', 'en'), t('nav'), t('nav', 'en'), t('countries'), t('countryPage'),
+      t('productCategories'), t('productCategories', 'en'), t('services'), t('services', 'en'), t('meta')
+    ]);
+
+  const productEntries: SearchDoc[] = PRODUCTS.map((p) => {
     const grades = new Set([...p.alloys.flatMap((a) => a.grades), ...p.alloyTable.map((r) => r.grade)]);
+    const lining = products(`linings.${p.lining}`);
+    const firstParagraph = p.description.find((b) => b.type === 'paragraph');
     return {
-      type: 'product',
+      group: 'product',
       title: productTitle(p),
-      subtitle: products(`linings.${p.lining}`),
+      subtitle: lining,
       href: `/products/${p.slug}`,
       code: codeVariants(p.code),
       alloys: alloyTerms(grades),
       // The localised catalogue title ("Refrakter Ankrajlar…") lets a search for "anchor" in any language reach products.
-      keywords: [p.name, products(`linings.${p.lining}`), productsEn(`linings.${p.lining}`), products('title'), p.material ?? ''].join(' ')
+      keywords: [p.name, lining, productsEn(`linings.${p.lining}`), products('title'), p.material ?? ''].join(' '),
+      description: firstParagraph?.type === 'paragraph' ? firstParagraph.text : '',
+      breadcrumb: [nav('home'), nav('products'), lining],
+      related: [p.name, lining]
     };
   });
 
-  const countryEntries: SearchEntry[] = COUNTRIES.map((c) => ({
-    type: 'country',
-    title: countries(`names.${c.code}`),
-    subtitle: countryPage('eyebrow', { country: countries(`names.${c.code}`) }),
-    href: `/${c.slug}`,
-    keywords: [
-      countryNames(c.code),
-      c.sentenceNameEn,
-      c.slug.replace(/-/g, ' '),
-      c.keywords.join(' '),
-      c.regions.map((r) => r.name).join(' '),
-      c.industries.map((i) => i.name).join(' ')
-    ].join(' ')
-  }));
+  // Category pages with their own content: richer description and extra search terms.
+  const od = await t('odPage');
+  const odEn = await t('odPage', 'en');
+  const fb = await t('fbPage');
+  const fbEn = await t('fbPage', 'en');
+  const sp = await t('spPage');
+  const spEn = await t('spPage', 'en');
+  const st = await t('stPage');
+  const stEn = await t('stPage', 'en');
+  const pg = await t('pgPage');
+  const pgEn = await t('pgPage', 'en');
+  const cw = await t('cwPage');
+  const cwEn = await t('cwPage', 'en');
+  const mw = await t('mwPage');
+  const mwEn = await t('mwPage', 'en');
+  const cg = await t('cgPage');
+  const cgEn = await t('cgPage', 'en');
+  const gf = await t('gfPage');
+  const gfEn = await t('gfPage', 'en');
+  const cs = await t('csPage');
+  const csEn = await t('csPage', 'en');
+  const categoryExtra: Record<string, { description: string; keywords: string }> = {
+    'observation-peep-doors': {
+      description: od('subheading'),
+      keywords: [od('h1'), odEn('h1'), 'observation door peep door peep hole sight port viewing port sight door furnace door boiler kiln'].join(' ')
+    },
+    'foundation-bolts': {
+      description: fb('subheading'),
+      keywords: [fb('h1'), fbEn('h1'), 'anchor bolt foundation bolt L type J type U type plate headed all thread rod F1554 A307 B7 galvanized'].join(' ')
+    },
+    'support-plates': {
+      description: sp('subheading'),
+      keywords: [sp('h1'), spEn('h1'), 'base plate support plate refractory support bracket burner block column base plate mounting plate gusset stiffener embed plate IS 2062'].join(' ')
+    },
+    'industrial-stanchions': {
+      description: st('subheading'),
+      keywords: [st('h1'), stEn('h1'), 'stanchion handrail post railing ball stanchion guard rail toe plate kick plate platform walkway OSHA'].join(' ')
+    },
+    'pipe-guides-sleeves': {
+      description: pg('subheading'),
+      keywords: [pg('h1'), pgEn('h1'), 'pipe guide ring sleeve pipe sleeve penetration sleeve tube support fired heater API 560 SS310 spider guide U-bolt'].join(' ')
+    },
+    'counter-weight-systems': {
+      description: cw('subheading'),
+      keywords: [cw('h1'), cwEn('h1'), 'counterweight counter weight reformer tube support lever arm dead weight Graphalloy Linde hydrogen reformer cracker'].join(' ')
+    },
+    'mineral-wool': {
+      description: mw('subheading'),
+      keywords: [mw('h1'), mwEn('h1'), 'rockwool rock wool stone wool glass wool fibreglass fiberglass insulation slab roll mattress pipe section'].join(' ')
+    },
+    'ceramic-gaskets': {
+      description: cg('subheading'),
+      keywords: [cg('h1'), cgEn('h1'), 'gasket ceramic fibre rope tape paper tadpole door seal spiral wound PTFE graphite non-asbestos flange gasket'].join(' ')
+    },
+    'glass-fibre-sheets': {
+      description: gf('subheading'),
+      keywords: [gf('h1'), gfEn('h1'), 'glass fibre fiberglass fibreglass cloth glass cloth tape glass wool board roving E-glass lagging'].join(' ')
+    },
+    'calcium-silicate': {
+      description: cs('subheading'),
+      keywords: [cs('h1'), csEn('h1'), 'calcium silicate calsil block board slab pipe section lag ASTM C533 IS 8154 IS 9428 high temperature insulation'].join(' ')
+    }
+  };
+
+  const categoryEntries: SearchDoc[] = PRODUCT_CATEGORIES.map((c) => {
+    const name = categories(`items.${c.slug}.name`);
+    const extra = categoryExtra[c.slug];
+    return {
+      group: 'product',
+      title: name,
+      subtitle: nav('products'),
+      href: categoryHref(c),
+      keywords: [categoriesEn(`items.${c.slug}.name`), categoriesEn(`items.${c.slug}.description`), c.slug.replace(/-/g, ' '), extra?.keywords ?? ''].join(' '),
+      description: extra?.description ?? categories(`items.${c.slug}.description`),
+      breadcrumb: [nav('home'), nav('products')],
+      related: [name]
+    };
+  });
+
+  const serviceMeta = Object.fromEntries(
+    await Promise.all(Object.values(SERVICE_NAMESPACES).map(async (ns) => [ns, (await t(ns))('metaDescription')] as const))
+  );
+  const serviceEntries: SearchDoc[] = SERVICES.map((s) => {
+    const name = services(`items.${s.slug}.name`);
+    const ns = SERVICE_NAMESPACES[s.slug];
+    const description = s.hasContent && ns ? serviceMeta[ns] : services(`items.${s.slug}.description`);
+    return {
+      group: 'service',
+      title: name,
+      subtitle: nav('services'),
+      href: `/services/${s.slug}`,
+      keywords: [servicesEn(`items.${s.slug}.name`), servicesEn(`items.${s.slug}.description`), s.slug.replace(/-/g, ' ')].join(' '),
+      description,
+      breadcrumb: [nav('home'), nav('services')],
+      related: [name]
+    };
+  });
+
+  const countryEntries: SearchDoc[] = COUNTRIES.map((c) => {
+    const name = countries(`names.${c.code}`);
+    return {
+      group: 'country',
+      title: name,
+      subtitle: countryPage('eyebrow', { country: name }),
+      href: `/${c.slug}`,
+      keywords: [
+        countryNames(c.code),
+        c.sentenceNameEn,
+        c.slug.replace(/-/g, ' '),
+        c.keywords.join(' '),
+        c.regions.map((r) => r.name).join(' '),
+        c.industries.map((i) => i.name).join(' ')
+      ].join(' '),
+      description: localized(contentFor(c, locale).metaDescription, locale).text,
+      breadcrumb: [nav('home')],
+      related: []
+    };
+  });
 
   const PAGES = [
-    ['/', 'home'],
-    ['/products', 'products'],
-    ['/refractory-anchors', 'refractoryAnchors'],
-    ['/rfq', 'rfq'],
-    ['/about', 'about'],
-    ['/quality', 'quality'],
-    ['/contact', 'contact'],
-    ['/privacy-policy', 'privacy'],
-    ['/disclaimer', 'disclaimer']
+    ['/', 'home', meta('home.description')],
+    ['/products', 'products', categories('overviewMetaDescription')],
+    ['/rfq', 'rfq', (await t('rfqPage'))('description')],
+    ['/about', 'about', (await t('aboutPage'))('metaDescription')],
+    ['/quality', 'quality', (await t('qualityPage'))('metaDescription')],
+    ['/contact', 'contact', (await t('contactPage'))('metaDescription')],
+    ['/privacy-policy', 'privacy', (await t('privacyPage'))('metaDescription')],
+    ['/disclaimer', 'disclaimer', (await t('disclaimerPage'))('metaDescription')]
   ] as const;
   const extra: Partial<Record<(typeof PAGES)[number][1], string>> = {
-    quality: 'ISO 9001 certificate PMI EN 10204 3.1 ASTM DIN Linde',
+    quality: 'ISO 9001 certificate PMI EN 10204 3.1 ASTM DIN Linde micro etching A262 intergranular',
     contact: 'email phone WhatsApp address map Mumbai',
     rfq: 'quote quotation price RFQ'
   };
-  const pageEntries: SearchEntry[] = PAGES.map(([href, key]) => ({
-    type: 'page',
+  const pageEntries: SearchDoc[] = PAGES.map(([href, key, description]) => ({
+    group: 'page',
     title: nav(key),
     subtitle: href,
     href,
-    keywords: [navEn(key), extra[key] ?? ''].join(' ')
+    keywords: [navEn(key), extra[key] ?? ''].join(' '),
+    description,
+    breadcrumb: href === '/' ? [] : [nav('home')],
+    related: []
   }));
 
-  return [...productEntries, ...countryEntries, ...pageEntries];
+  return [...productEntries, ...categoryEntries, ...serviceEntries, ...countryEntries, ...pageEntries];
+}
+
+const cache = new Map<string, Promise<SearchDoc[]>>();
+
+/** The full index for one locale. Built once per server process in production; rebuilt per request in development. */
+export function getSearchIndex(locale: string): Promise<SearchDoc[]> {
+  if (process.env.NODE_ENV !== 'production') return buildSearchIndex(locale);
+  let built = cache.get(locale);
+  if (!built) {
+    built = buildSearchIndex(locale);
+    cache.set(locale, built);
+  }
+  return built;
+}
+
+/** The dropdown only needs the matching fields, not snippets or breadcrumbs. */
+export function toClientIndex(docs: SearchDoc[]): SearchEntry[] {
+  return docs.map(({ group, title, subtitle, href, code, alloys, keywords }) => ({ group, title, subtitle, href, code, alloys, keywords }));
 }

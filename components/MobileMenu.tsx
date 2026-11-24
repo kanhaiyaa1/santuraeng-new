@@ -12,6 +12,7 @@ export default function MobileMenu() {
   const nav = useTranslations('nav');
   const t = useTranslations('productCategories');
   const ts = useTranslations('services');
+  const search = useTranslations('search');
   const pathname = usePathname();
   const id = useId();
   const [open, setOpen] = useState(false);
@@ -108,6 +109,13 @@ export default function MobileMenu() {
             <Link href="/about" className={link}>{nav('about')}</Link>
             <Link href="/quality" className={link}>{nav('quality')}</Link>
             <Link href="/contact" className={link}>{nav('contact')}</Link>
+            <Link href="/search" className={`${link} flex items-center gap-2`}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" className="h-4 w-4 text-ink-muted" aria-hidden="true">
+                <circle cx="11" cy="11" r="7" />
+                <path d="M20 20l-3.5-3.5" />
+              </svg>
+              {search('open')}
+            </Link>
             <div className="p-4">
               <Link href="/rfq" className={`${btnPrimary} w-full`}>{nav('rfq')}</Link>
             </div>

@@ -413,6 +413,10 @@
         "text": "Chemische Zusammensetzung per Spektralanalyse gegen den vorgegebenen Werkstoff geprüft."
       },
       {
+        "title": "Mikroätzung",
+        "text": "Mikroätzprüfung im eigenen Haus nach ASTM A262 Practice A, ASTM E407 und ASTM E112 sowie Makroschliffe von Bolzenschweißungen."
+      },
+      {
         "title": "Maßkontrolle",
         "text": "Maße, Biegungen und Schweißenden werden gegen die Zeichnung geprüft."
       },
@@ -447,7 +451,53 @@
     },
     "clientCertsTitle": "Kundenzertifikate",
     "clientCertsText": "Zertifikate und Referenzschreiben unserer Kunden werden hier veröffentlicht.",
-    "photosTitle": "Prüfung in der Praxis"
+    "photosTitle": "Prüfung in der Praxis",
+    "etch": {
+      "title": "Mikroätzprüfung",
+      "intro": [
+        "Eine Mikroätzprüfung macht das innere Gefüge des Metalls sichtbar. Eine Probe wird aus dem Material oder dem fertigen Teil entnommen, auf Hochglanz poliert und mit einer Ätzlösung behandelt, die Körner und Korngrenzen hervortreten lässt. Die geätzte Fläche wird anschließend unter dem Mikroskop untersucht.",
+        "Wir führen Mikroätzprüfungen im eigenen Haus an dem Edelstahl, Kohlenstoffstahl und den Nickellegierungen durch, aus denen unsere Anker, Bolzen und Schweißteile bestehen. Die Prüfung zeigt, ob Umformen, Schweißen oder Wärmebehandlung das Material in dem Zustand belassen haben, den die Spezifikation verlangt."
+      ],
+      "testsTitle": "Unsere Prüfungen",
+      "tests": [
+        {
+          "code": "ASTM A262 Practice A",
+          "title": "Prüfung auf interkristallinen Angriff",
+          "text": "Eine elektrolytische Oxalsäureätzung, mit der austenitische Edelstähle wie 304, 310, 316 und 321 auf Sensibilisierung geprüft werden: Chromkarbide an den Korngrenzen, die das Material anfällig für interkristalline Korrosion machen. Sie dient zur Prüfung nach dem Schweißen oder der Wärmebehandlung und bestätigt, dass das Lösungsglühen die Karbide aufgelöst hat."
+        },
+        {
+          "code": "ASTM E407 · ASTM E112",
+          "title": "Gefüge und Korngröße",
+          "text": "Die Mikroätzung nach ASTM E407 macht das Gefüge von Edelstahl, Kohlenstoffstahl und Nickellegierungen sichtbar. Anschließend wird die mittlere Korngröße nach ASTM E112 bestimmt und das Gefüge auf übermäßiges Kornwachstum und unerwünschte Phasen geprüft."
+        },
+        {
+          "code": "EN ISO 14555",
+          "title": "Makroschliff der Schweißung",
+          "text": "Ein geschweißter Bolzen oder Anker wird durch die Schweißung getrennt, poliert und geätzt, sodass die Schmelzzone sichtbar wird. Der Schliff zeigt, ob die Schweißung über den gesamten Bolzenfuß gebunden hat und wie tief sie in den Grundwerkstoff eingebrannt ist. EN ISO 14555 nutzt diese Makrountersuchung zur Qualifizierung von Bolzenschweißverfahren."
+        }
+      ],
+      "readingTitle": "So werden die Ergebnisse nach ASTM A262 Practice A bewertet",
+      "reading": [
+        {
+          "title": "Stufengefüge",
+          "text": "Stufen zwischen den Körnern und keine Gräben an den Korngrenzen. Annehmbar: Das Material ist nicht sensibilisiert."
+        },
+        {
+          "title": "Mischgefüge",
+          "text": "Einige Gräben an den Korngrenzen, aber kein Korn vollständig davon umschlossen. Annehmbar."
+        },
+        {
+          "title": "Grabengefüge",
+          "text": "Ein oder mehrere Körner vollständig von Gräben umschlossen. Das Material gilt als verdächtig und muss die in ASTM A262 für die Güte vorgeschriebene Heißsäureprüfung (Practice B, C oder E) bestehen, bevor es angenommen werden kann."
+        }
+      ],
+      "readingNote": "Practice A ist eine Screeningprüfung: Sie kann Material annehmen, aber nicht zurückweisen. Sie gilt nur für austenitische Edelstähle; Nickellegierungen und Kohlenstoffstahl werden stattdessen auf Gefüge und Korngröße geprüft.",
+      "productsTitle": "Geprüfte Produkte",
+      "productsText": "Die Prüfung gilt für unsere Metallprodukte, insbesondere für Edelstahlteile, die vor der Lieferung kalt umgeformt, geschweißt oder wärmebehandelt werden. Dämmstoffe wie Mineralwolle, Keramikdichtungen und Calciumsilikat sind nicht metallisch, daher ist die Mikroätzung für sie nicht anwendbar.",
+      "requestText": "Der Bericht zur Mikroätzprüfung kann zusammen mit den übrigen Prüfzeugnissen Ihres Auftrags geliefert werden. Nennen Sie die Prüfung und die Norm in Ihrer Anfrage.",
+      "linkBsa": "Blankes Lösungsglühen und Sensibilisierung",
+      "linkSw": "Bolzenschweißen und Makroschliff"
+    }
   },
   "privacyPage": {
     "metaTitle": "Datenschutzerklärung | Santura Engineering",
@@ -615,15 +665,17 @@
   "search": {
     "open": "Suche",
     "label": "Website durchsuchen",
-    "placeholder": "Produkte, SEPL-Codes, Werkstoffe, Länder suchen…",
+    "placeholder": "Produkte, Leistungen, SEPL-Codes, Legierungen, Länder suchen…",
     "noResults": "Keine Ergebnisse für „{query}“",
     "close": "Schließen",
     "hint": "Versuchen Sie „SEPL-24“, „310S“, „Y anchor“ oder „Deutschland“",
     "groups": {
       "product": "Produkte",
       "country": "Länder",
-      "page": "Seiten"
-    }
+      "page": "Seiten",
+      "service": "Leistungen"
+    },
+    "viewAll": "Alle Ergebnisse anzeigen"
   },
   "photos": {
     "cartonsBulk": "Kartons für die Verpackung",
@@ -862,6 +914,10 @@
       {
         "title": "Vergleich mit dem Werkszeugnis",
         "text": "Der Vergleich der Prüfergebnisse mit dem ursprünglichen Werkszeugnis bestätigt, dass das Material wieder die festgelegten Glühwerte erreicht."
+      },
+      {
+        "title": "Mikroätzprüfung",
+        "text": "Eine Oxalsäureätzung nach ASTM A262 Practice A, im eigenen Haus durchgeführt, zeigt, ob Chromkarbide an den Korngrenzen verblieben sind. Ein Stufengefüge bestätigt, dass die Anker nicht mehr sensibilisiert sind."
       }
     ],
     "verifyQualityLink": "So prüfen und dokumentieren wir jeden Auftrag",
@@ -898,7 +954,7 @@
       },
       {
         "q": "Wie lässt sich prüfen, ob richtig blankgeglüht wurde?",
-        "a": "Durch Härte- und Zugprüfung. Behandeltes Material ist weicher als unbehandeltes, die Härte liegt wieder im geglühten Bereich und die Zugfestigkeit nahe am Mindestwert. Die Oberfläche sollte zudem blank und zunderfrei sein."
+        "a": "Durch Härte- und Zugprüfung. Behandeltes Material ist weicher als unbehandeltes, die Härte liegt wieder im geglühten Bereich und die Zugfestigkeit nahe am Mindestwert. Die Oberfläche sollte zudem blank und zunderfrei sein. Eine Mikroätzprüfung nach ASTM A262 Practice A im eigenen Haus bestätigt, dass die Chromkarbide aufgelöst sind."
       },
       {
         "q": "Verlängert Blankglühen die Lebensdauer der Anker?",
@@ -1312,7 +1368,2497 @@
       {
         "q": "Welche Keramikringgrößen gibt es?",
         "a": "Keramikringe werden auf den Bolzendurchmesser und die Schweißfläche abgestimmt, etwa ebenes Blech oder Rohr. Nennen Sie uns Bolzendurchmesser und Mantelgeometrie, und wir liefern die passenden Ringe mit den Ankern."
+      },
+      {
+        "q": "Wie wird die Qualität der Bolzenschweißung geprüft?",
+        "a": "Per Makroätzung. Ein Probebolzen wird im eigenen Haus durch die Schweißung getrennt, poliert und geätzt. So zeigt sich, ob die Schweißung über den gesamten Bolzenfuß gebunden hat und wie tief sie in den Grundwerkstoff eingebrannt ist. Bei Edelstahlankern prüft zusätzlich eine Mikroätzprüfung nach ASTM A262 Practice A das Material auf Sensibilisierung."
       }
-    ]
+    ],
+    "etchTitle": "Makroschliff der Schweißung",
+    "etchText": "Die Schweißqualität wird per Makroätzung geprüft. Ein Probebolzen wird im eigenen Haus durch die Schweißung getrennt, poliert und geätzt, sodass Schmelzzone und Einbrandtiefe untersucht werden können. Dies ist die Makrountersuchung, mit der EN ISO 14555 Bolzenschweißverfahren qualifiziert.",
+    "etchLink": "Mehr zu unseren Mikroätzprüfungen"
+  },
+  "searchPage": {
+    "metaTitle": "Suche | Santura Engineering",
+    "metaTitleQuery": "Suchergebnisse für „{query}“ | Santura Engineering",
+    "metaDescription": "Durchsuchen Sie Feuerfestanker, SEPL-Produktcodes, Legierungen, Leistungen und Exportländerseiten von Santura Engineering.",
+    "h1": "Suche",
+    "h1Query": "Suchergebnisse für „{query}“",
+    "submit": "Suchen",
+    "resultCount": "Ergebnisse für „{query}“: {count}",
+    "emptyText": "Suchen Sie nach Produktname, SEPL-Code, Werkstoffgüte, Leistung oder Land.",
+    "noResultsTitle": "Keine Ergebnisse gefunden",
+    "noResultsText": "Zu „{query}“ wurde nichts gefunden. Prüfen Sie die Schreibweise, versuchen Sie einen Produktcode wie SEPL-07 oder nutzen Sie eine der beliebten Suchen unten.",
+    "relatedTitle": "Verwandte Suchen",
+    "popularTitle": "Beliebte Suchen"
+  },
+  "notFoundPage": {
+    "title": "Seite nicht gefunden",
+    "text": "Die gesuchte Seite existiert nicht oder wurde verschoben. Durchsuchen Sie die Website oder nutzen Sie die Links unten.",
+    "home": "Zur Startseite",
+    "products": "Produkte ansehen"
+  },
+  "odPage": {
+    "metaTitle": "Schau- und Peeptüren für Öfen, Drehrohröfen & Kessel | Santura Engineering",
+    "metaDescription": "Schautüren, Peeptüren und Schaugläser für Industrieöfen, Drehrohröfen und Kessel nach Zeichnung. Hersteller seit 1980, Export in über 25 Länder.",
+    "eyebrow": "Fertigung",
+    "h1": "Schau- und Peeptüren",
+    "subheading": "Feuerfest ausgekleidete Schautüren, Peeptüren und Schaugläser für Industrieöfen, Kessel, Drehrohröfen und befeuerte Erhitzer. Nach Ihrer Zeichnung gefertigt, mit Rahmen, Tür, Glas, Dichtungen und Feuerfestankern als komplette Baugruppe.",
+    "overviewTitle": "Wozu Schau- und Peeptüren dienen",
+    "overview": [
+      "Schautüren und Peeptüren sind Zugangsöffnungen in den Wänden von Industrieöfen, Kesseln, Drehrohröfen und Erhitzern. Sie ermöglichen es dem Bedienpersonal, in den Brennraum zu sehen, die Flamme zu kontrollieren, die Feuerfestauskleidung zu prüfen und Thermoelemente oder Sonden einzuführen, ohne den Ofen zu öffnen oder den Prozess zu unterbrechen.",
+      "Jede Tür besteht aus einem Stahlrahmen, der mit dem Ofenmantel verschraubt oder verschweißt wird, einer Tür oder Abdeckung, die die Öffnung verschließt, und einer Feuerfestauskleidung, die zur umgebenden Wandauskleidung passt. Im Rahmen eingeschweißte Anker halten diese Auskleidung, genauso wie Feuerfestanker die Auskleidung der Ofenwand halten.",
+      "Santura fertigt Schautüren in der eigenen Fertigung aus Edelstahl oder feuerverzinktem Baustahl, mit Feuerfestankern, gehärtetem Glas und Dichtungen nach Kundenspezifikation."
+    ],
+    "overviewLink": "Feuerfestanker für Tür- und Wandauskleidungen",
+    "overviewCaption": "Türrahmen mit eingeschweißten V-Ankern zur Aufnahme der Feuerfestauskleidung.",
+    "typesTitle": "Arten von Schau- und Peeptüren",
+    "types": [
+      {
+        "title": "Schautüren",
+        "size": "Öffnungen ab 250 mm (10 Zoll)",
+        "text": "Größere Türen, mit Scharnier oder verschraubt, mit feuerfest ausgekleidetem Türblatt. Für die Sichtprüfung des Feuerraums und begrenzte Wartungszugänge, zum Beispiel oberhalb jeder Luftzone eines Kessels."
+      },
+      {
+        "title": "Peeptüren / Gucklöcher",
+        "size": "Typisch 100 × 100 mm (4 × 4 Zoll)",
+        "text": "Kleine Öffnungen mit Abdeckung aus Gusseisen oder Stahl, oft mit Gegengewicht, damit sie selbsttätig schließt. Für die Flammenüberwachung und das Einführen von Thermoelementen und Sonden."
+      },
+      {
+        "title": "Schaugläser / Sichtfenster",
+        "size": "50–100 mm Durchmesser",
+        "text": "Mit hitzebeständigem, getöntem Glas in Kobaltblau oder Grün, sodass Flamme und Auskleidung ständig beobachtet werden können, ohne etwas zu öffnen."
+      }
+    ],
+    "constructionTitle": "Aufbau und Werkstoffe",
+    "constructionIntro": "Jedes Bauteil wird nach Betriebstemperatur, Ofenatmosphäre und Öffnungshäufigkeit der Tür ausgewählt.",
+    "construction": [
+      {
+        "title": "Rahmen",
+        "text": "Baustahl (meist feuerverzinkt), Edelstahl oder Gusseisen, je nach Betriebstemperatur und Umgebung."
+      },
+      {
+        "title": "Feuerfestauskleidung",
+        "text": "Feuerbeton- oder Schamottesteinauskleidung in Tür und Rahmen, abgestimmt auf das Feuerfestsystem des Ofens und von eingeschweißten Ankern gehalten."
+      },
+      {
+        "title": "Schauglas",
+        "text": "Gehärtetes Kobaltglas, typisch 3 mm dick. Es dämpft die Blendung der Flamme, sodass Flammenbild und Zustand der Auskleidung deutlich zu erkennen sind. Grün getöntes Glas ist ebenfalls erhältlich."
+      },
+      {
+        "title": "Abdichtung",
+        "text": "Hochtemperaturdichtungen auf bearbeiteten Dichtflächen, damit die geschlossene Tür kein heißes Gas austreten und keine Falschluft eintreten lässt."
+      },
+      {
+        "title": "Montage",
+        "text": "Verschraubter Flansch am Ofenmantel. Türen mit Scharnier für häufigen Zugang, Abdeckungen mit Gegengewicht für Gucklöcher."
+      },
+      {
+        "title": "Beschläge",
+        "text": "Verschlussgriffe und Scharniere für die Betriebstemperatur, mit Hebeösen an schweren Türen."
+      }
+    ],
+    "specTitle": "Typische Spezifikationen",
+    "colFeature": "Merkmal",
+    "cols": {
+      "od": "Schautür",
+      "pd": "Peeptür",
+      "sp": "Schauglas"
+    },
+    "specRows": [
+      {
+        "label": "Öffnungsgröße",
+        "od": "Ab 250 mm (nach Maß)",
+        "pd": "100 × 100 mm bis 150 × 150 mm",
+        "sp": "50–100 mm Durchmesser"
+      },
+      {
+        "label": "Rahmenwerkstoff",
+        "od": "Baustahl / Edelstahl / Gusseisen",
+        "pd": "Gusseisen / Baustahl",
+        "sp": "Gusseisen / Edelstahl"
+      },
+      {
+        "label": "Max. Betriebstemperatur",
+        "od": "Bis 1200 °C (mit Feuerfestauskleidung)",
+        "pd": "Bis 1000 °C",
+        "sp": "Bis 800 °C (durch das Glas begrenzt)"
+      },
+      {
+        "label": "Verschluss",
+        "od": "Scharnier oder verschraubt",
+        "pd": "Verschraubte Abdeckung oder Gegengewicht",
+        "sp": "Schraubkappe oder verschraubt"
+      },
+      {
+        "label": "Glas",
+        "od": "Optional",
+        "pd": "Optional",
+        "sp": "Standard (Kobaltblau)"
+      },
+      {
+        "label": "Feuerfest ausgekleidet",
+        "od": "Ja",
+        "pd": "Ja (Abdeckung und Rahmen)",
+        "sp": "Nein (nur Glas)"
+      }
+    ],
+    "specNote": "Dies sind typische Werte. Öffnungsgröße, Werkstoffe und Temperaturbereich jeder Tür richten sich nach der Kundenzeichnung und den Betriebsbedingungen des Ofens.",
+    "applicationsTitle": "Einsatzbereiche",
+    "applications": [
+      {
+        "title": "Kessel",
+        "text": "AFBC-, CFBC- und Rostfeuerungskessel: Schautüren oberhalb jeder Luftzone und Peeptüren zur Flammenüberwachung."
+      },
+      {
+        "title": "Befeuerte Erhitzer in Raffinerien",
+        "text": "Röhrenöfen und Reformer: Schaugläser und Peeptüren zur Beobachtung der Brennerflammen."
+      },
+      {
+        "title": "Zementdrehrohröfen",
+        "text": "Gucklöcher im Ofenmantel und im Brennerbereich zur Kontrolle von Auskleidung und Flamme."
+      },
+      {
+        "title": "Stahlwerke",
+        "text": "Wärmöfen und Pfannenvorwärmer: Zugangstüren für Inspektionen während Stillständen."
+      },
+      {
+        "title": "Verbrennungs- und Müllheizkraftwerke",
+        "text": "Drehrohröfen und Nachbrennkammern: Schautüren zur Kontrolle der Verbrennung."
+      },
+      {
+        "title": "Wärmebehandlungsöfen",
+        "text": "Chargen- und Durchlauföfen: Beschickungstüren mit Sichtfenstern."
+      }
+    ],
+    "fabTitle": "Fertigung nach Maß",
+    "fab": [
+      "Jede Tür wird nach Kundenzeichnung und Werkstoffspezifikation gefertigt. Die Feuerfestauskleidung der Tür stimmen wir auf die vorhandene Ofenauskleidung ab, damit die Tür keine Schwachstelle in der Wand wird.",
+      "Für bestehende Anlagen fertigen wir Ersatztüren und Abdeckungen nach Zeichnung oder nach Mustertür. Türen liefern wir einzeln oder als Teil eines größeren Ofenfertigungspakets mit Ankern, Mantelteilen und Halterungen."
+    ],
+    "reference": "2006 lieferte Santura Ofenschautüren und Gegengewichtssysteme an Petron Engineering Construction Ltd, die dafür ein Anerkennungsschreiben ausstellte.",
+    "processTitle": "So fertigen wir eine Tür",
+    "process": [
+      {
+        "title": "Zeichnungsfreigabe",
+        "text": "Vor der Fertigung geht die Zeichnung zur Freigabe an den Kunden zurück, damit Änderungen vorab abgestimmt sind."
+      },
+      {
+        "title": "Materialprüfung",
+        "text": "Die Stückliste wird geprüft. 10 % des Materials werden in NABL-akkreditierten Laboren getestet, Edelstahlteile werden per PMI geprüft."
+      },
+      {
+        "title": "Zuschnitt und Umformung",
+        "text": "Bleche werden geschert und umgeformt, dann in der Fertigungshalle angerissen und montiert. Unsere Prüfer kontrollieren die Baugruppe vor dem Schweißen."
+      },
+      {
+        "title": "Schweißen und Prüfung",
+        "text": "CO2-Schweißen für volle Durchschweißung, anschließend Prüfung der Nähte auf Porosität."
+      },
+      {
+        "title": "Endbearbeitung",
+        "text": "Endbearbeitung und Feuerverzinkung, dann Verpackung für den Versand."
+      }
+    ],
+    "supplyTitle": "Unser Lieferumfang",
+    "supply": [
+      {
+        "title": "Komplette Türbaugruppen",
+        "text": "Rahmen, Tür, Beschläge und Feuerfestanker, bereit zum Auskleiden oder bereits ausgekleidet."
+      },
+      {
+        "title": "Ersatztüren und Abdeckungen",
+        "text": "Nach Ihrer Zeichnung oder einem Muster, passend für bestehende Öffnungen."
+      },
+      {
+        "title": "Schauglas",
+        "text": "Kobaltglas in verschiedenen Größen."
+      },
+      {
+        "title": "Ersatzdichtungen und Beschläge",
+        "text": "Dichtungen, Scharniere, Griffe und Befestigungsteile für Türen im Betrieb."
+      }
+    ],
+    "galleryTitle": "Schautüren aus unserer Werkstatt",
+    "galleryText": "In unserer Fertigung hergestellte Türen, vom einzelnen Rahmen bis zur Serienfertigung für Kesselprojekte.",
+    "gallery": [
+      "Zwei Schautüren mit Sichtfenstern aus Glas für einen Industrieofen",
+      "Offener Schautürrahmen mit eingeschweißten V-Ankern für die Feuerfestauskleidung",
+      "Feuerverzinkter Schautürrahmen mit Ankern, Vorderansicht",
+      "Schautürrahmen mit Flansch zum Verschrauben am Ofenmantel",
+      "Schautürrahmen und Türteile vor der Montage",
+      "Serie feuerverzinkter Schautüren in der Fertigungshalle",
+      "Schautüren mit Scharnier, für den Versand gestapelt",
+      "Nahaufnahme feuerverzinkter Schautürrahmen aus einer Serie"
+    ],
+    "relatedTitle": "Verwandte Produkte und Leistungen",
+    "relatedAnchorsText": "Die Anker, die die Feuerfestauskleidung in jeder Tür halten, in denselben Legierungen wie Ihre Wandauskleidung.",
+    "relatedSwText": "Geräte und Verfahren zum Anschweißen von Ankern an Türrahmen und Ofenmäntel.",
+    "relatedPmiText": "Legierungsprüfung der Edelstahl-Türteile, bevor sie die Werkstatt verlassen.",
+    "relatedPpText": "Oberflächenbehandlung von Edelstahlrahmen und -türen nach der Fertigung.",
+    "countriesTitle": "Lieferländer",
+    "countriesText": "Wir exportieren Schautüren zusammen mit unseren Feuerfestankern. Die Länderseiten beschreiben die Branchen und Häfen, die wir in jedem Markt beliefern.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Was ist der Unterschied zwischen einer Schautür und einer Peeptür?",
+        "a": "Eine Schautür hat eine größere Öffnung, meist ab 250 mm, und dient der Sichtprüfung und begrenzten Wartungszugängen. Eine Peeptür ist kleiner, typisch 100 × 100 mm, und dient der Flammenbeobachtung und dem Einführen von Thermoelementen oder Sonden. Beide sind feuerfest ausgekleidet."
+      },
+      {
+        "q": "Welches Glas wird in Schautüren und Schaugläsern verwendet?",
+        "a": "Hitzebeständiges, getöntes Glas, meist gehärtetes Kobaltglas mit etwa 3 mm Dicke. Es dämpft die Blendung der Flamme, sodass Flamme und Feuerfestauskleidung deutlich zu sehen sind. Grün getöntes Glas ist ebenfalls erhältlich. Das Glas begrenzt ein Schauglas auf etwa 800 °C."
+      },
+      {
+        "q": "Können Sie Türen nach unserer Zeichnung fertigen oder eine vorhandene Tür nachbauen?",
+        "a": "Ja. Alle Türen fertigen wir nach Kundenzeichnung und Werkstoffspezifikation. Für Ersatzteile arbeiten wir nach vorhandener Zeichnung oder nach einer Mustertür und stimmen die Feuerfestauskleidung auf die bestehende Ofenauskleidung ab."
+      },
+      {
+        "q": "Für welche Temperaturen sind die Türen ausgelegt?",
+        "a": "Mit Feuerfestauskleidung werden Schautüren typisch bis 1200 °C und Peeptüren bis 1000 °C eingesetzt. Schaugläser sind durch das Glas auf etwa 800 °C begrenzt. Der endgültige Bereich hängt von Werkstoffen und Auskleidung Ihrer Spezifikation ab."
+      }
+    ],
+    "ctaTitle": "Sie benötigen Schau- oder Peeptüren?",
+    "ctaText": "Senden Sie uns Zeichnung, Öffnungsgröße, Betriebstemperatur und Stückzahl. Wir antworten mit Angebot und Lieferzeit.",
+    "ctaRfq": "Angebot für Schautüren anfordern",
+    "ctaContact": "Oder kontaktieren Sie unser Team"
+  },
+  "fbPage": {
+    "metaTitle": "Fundamentschrauben Hersteller | L-, J-, U-Ankerbolzen | Santura Engineering",
+    "metaDescription": "Fundament- und Ankerschrauben in L-, J-, U-, Platten- und gerader Form nach Zeichnung, aus Baustahl, B7 und Edelstahl. Seit 1980, Export in 25+ Länder.",
+    "eyebrow": "Fertigung",
+    "h1": "Fundamentschrauben und Ankerbolzen",
+    "subheading": "Fundamentschrauben in L-, J-, U-, Platten- und gerader Ausführung für Kessel, Schwermaschinen und Stahlbau. Nach Ihrer Zeichnung abgelängt, gebogen, mit Gewinde versehen und feuerverzinkt, geliefert als komplette Sätze mit Muttern, Scheiben, Ankerplatten und Hülsen.",
+    "overviewTitle": "Was Fundamentschrauben sind",
+    "overview": [
+      "Fundamentschrauben sind Stahlbolzen, die in ein Betonfundament eingebettet werden, um Bauwerke, Stützen, Anlagen und Maschinen zu verankern. Das eingebettete Ende ist gebogen, hakenförmig oder mit einer Platte versehen, damit es nicht aus dem Beton gezogen werden kann; das Gewindeende ragt über das Fundament und nimmt Fußplatte, Mutter und Scheibe auf.",
+      "Die Begriffe werden oft für dasselbe Produkt verwendet. Ankerbolzen bezeichnet meist einen einbetonierten Bolzen, Fundamentschraube einen Bolzen, der eine Anlage auf ihrem Sockel befestigt. Viele Fundamentschrauben haben im oberen Bereich eine Rohrhülse, die beim Ausrichten der Anlage etwas Spiel für die Bolzenposition lässt.",
+      "Santura fertigt Fundamentschrauben im Rahmen seiner Sonderfertigung: Stabstahl wird nach Kundenzeichnung abgelängt, gebogen, mit Gewinde versehen und feuerverzinkt. Wir fertigen Fundamentschrauben mit Kopf, gebogen und mit Gewinde bis 6 Zoll Durchmesser und mehr."
+    ],
+    "typesTitle": "Arten von Fundamentschrauben",
+    "types": [
+      {
+        "key": "l",
+        "title": "L-Form (90°-Biegung)",
+        "size": "M10 bis M64",
+        "text": "Die häufigste Ausführung. Das eingebettete Ende ist rechtwinklig gebogen, sodass sich der Bolzen im Beton verankert.",
+        "uses": "Stahlstützen, Fußplatten, Lichtmasten und Anlagenrahmen."
+      },
+      {
+        "key": "j",
+        "title": "J-Form (Haken)",
+        "size": "",
+        "text": "Ein gebogener J-Haken am eingebetteten Ende greift in den Beton. Ähnlich der L-Form, in manchen Anordnungen mit besserem Auszugswiderstand.",
+        "uses": "Leichtere Stahlbauverbindungen, Rohrhalterungen und Geländer."
+      },
+      {
+        "key": "u",
+        "title": "U-Form",
+        "size": "",
+        "text": "Ein U-förmiger Bolzen, der unter einer Fußplatte, einem Träger oder einem Rohr hindurchgeht, mit zwei nach oben ragenden Gewindeenden.",
+        "uses": "Klemmen von Anlagen, Rohrhalterungen und Teile, die durchgeschraubt werden müssen."
+      },
+      {
+        "key": "plate",
+        "title": "Plattenanker / mit Kopf",
+        "size": "",
+        "text": "Ein gerader Bolzen mit angeschweißter quadratischer oder sechseckiger Ankerplatte am eingebetteten Ende. Diese Ausführung bietet den höchsten Auszugswiderstand und wird oft mit Rohrhülse geliefert.",
+        "uses": "Schwermaschinen, Turbinen, Verdichter und Kesselfundamente."
+      },
+      {
+        "key": "rod",
+        "title": "Gerade / Gewindestange",
+        "size": "",
+        "text": "Eine durchgehende Gewindestange mit Mutter und Scheibe an beiden Enden. Sie erlaubt die meiste Justierung vor Ort.",
+        "uses": "Einsatz mit Ankerplatten oder in vergossenen Aussparungen."
+      }
+    ],
+    "materialsTitle": "Werkstoffe",
+    "materials": [
+      {
+        "title": "Baustahl (IS 2062 / ASTM A36)",
+        "text": "Die häufigste Wahl für den allgemeinen Stahlbau."
+      },
+      {
+        "title": "ASTM F1554 Grade 36 / 55 / 105",
+        "text": "Ankerstangenstahl in drei Festigkeitsklassen für berechnete Stahlbauverbindungen."
+      },
+      {
+        "title": "ASTM A307 Grade A / B / C",
+        "text": "Schrauben und Stehbolzen aus Kohlenstoffstahl für allgemeine Zwecke."
+      },
+      {
+        "title": "ASTM A193 Grade B7",
+        "text": "Legierter Stahl für hohe Temperaturen und Drücke, etwa in Kesseln und Druckbehältern."
+      },
+      {
+        "title": "Edelstahl (SS304 / SS316)",
+        "text": "Für korrosive Umgebungen, Küstenstandorte und Chemieanlagen."
+      }
+    ],
+    "finishesTitle": "Oberflächen und Beschichtungen",
+    "finishes": [
+      {
+        "title": "Feuerverzinkt (HDG)",
+        "text": "Die häufigste Oberfläche für Außen- und Einbetonier-Einsatz, nach ASTM F2329."
+      },
+      {
+        "title": "Galvanisch verzinkt",
+        "text": "Gelb, blau oder weiß passiviert, für Innenräume und milde Umgebungen."
+      },
+      {
+        "title": "Brüniert",
+        "text": "Einfacher Korrosionsschutz."
+      },
+      {
+        "title": "Blank / unbeschichtet",
+        "text": "Auf Kundenwunsch und für Edelstahlschrauben."
+      }
+    ],
+    "specTitle": "Spezifikationen",
+    "colProperty": "Eigenschaft",
+    "colRange": "Bereich",
+    "specRows": [
+      {
+        "label": "Durchmesser",
+        "value": "M10 bis M100 (3/8 Zoll bis 4 Zoll); größere Durchmesser nach Zeichnung"
+      },
+      {
+        "label": "Länge",
+        "value": "150 mm bis 3000 mm und mehr (Sonderlängen)"
+      },
+      {
+        "label": "Gewinde",
+        "value": "ISO-metrisch oder Unified-Zoll, Voll- oder Teilgewinde"
+      },
+      {
+        "label": "Biegeradius",
+        "value": "Nach Zeichnung oder Norm"
+      },
+      {
+        "label": "Normen",
+        "value": "ASTM F1554, ASTM A307, ASTM A193, IS 2062, IS 1363, IS 1364"
+      },
+      {
+        "label": "Prüfung",
+        "value": "Zugversuch, Prüfkraftversuch, Härteprüfung und Maßkontrolle"
+      },
+      {
+        "label": "Toleranzen",
+        "value": "Nach IS 2062, ASTM F1554 oder Kundenzeichnung"
+      }
+    ],
+    "specNote": "Jeder Auftrag wird nach Kundenzeichnung oder der angegebenen Norm gefertigt. Nennen Sie uns Ausführung, Durchmesser, Länge, Gewindelänge, Werkstoff und Oberfläche.",
+    "applicationsTitle": "Anwendungen nach Branche",
+    "applications": [
+      {
+        "title": "Kessel- und Ofenfundamente",
+        "text": "Verankerung von Kesselgerüsten, Ofenmänteln, Kaminen und Kanälen auf Betonsockeln."
+      },
+      {
+        "title": "Schwermaschinen",
+        "text": "Verdichter, Turbinen, Pumpen, Generatoren und Pressen."
+      },
+      {
+        "title": "Stahlbau",
+        "text": "Stützenfußplatten, Rahmenbinder, Kranschienen und Förderbandstützen."
+      },
+      {
+        "title": "Kraftwerke",
+        "text": "Turbinentische, Kühlturmkonstruktionen und Rohrbrückenfundamente."
+      },
+      {
+        "title": "Zementwerke",
+        "text": "Ofenstützpfeiler, Mühlenfundamente und Vorwärmerturmkonstruktionen."
+      },
+      {
+        "title": "Öl und Gas",
+        "text": "Gerüste befeuerter Erhitzer, Kolonnenfundamente und Rohrbrückenfüße."
+      },
+      {
+        "title": "Infrastruktur",
+        "text": "Lichtmasten, Schilderbrücken, Brückenlager und Freileitungsmaste."
+      }
+    ],
+    "supplyTitle": "Unser Lieferumfang",
+    "supply": [
+      {
+        "title": "Schrauben nach Zeichnung oder Norm",
+        "text": "Fundamentschrauben nach Ihrer Zeichnung oder einer Standardspezifikation."
+      },
+      {
+        "title": "Komplette Schraubensätze",
+        "text": "Bolzen mit Muttern, Scheiben, Ankerplatten und Rohrhülsen, gekennzeichnet und einbaufertig."
+      },
+      {
+        "title": "Jede Form, jede Güte",
+        "text": "L-, J-, U-, Platten- und gerade Bolzen aus Baustahl, F1554, A307, B7 oder Edelstahl."
+      },
+      {
+        "title": "Feuerverzinkung",
+        "text": "Verzinkung über zugelassene Verzinkereien."
+      },
+      {
+        "title": "Schablonenplatten",
+        "text": "Schablonen, die jede Schraubengruppe beim Betonieren in Position halten."
+      },
+      {
+        "title": "Einzelteile oder Pakete",
+        "text": "Einzelne Schrauben oder Schrauben als Teil eines kompletten Stahlbaupakets."
+      }
+    ],
+    "gallery": [
+      "Feuerverzinkte Fundamentschrauben mit Rohrhülsen, stehend",
+      "Feuerverzinkte Fundamentschrauben mit quadratischen Ankerplatten",
+      "Fundamentschrauben mit Rohrhülsen, für den Versand gekennzeichnet",
+      "Feuerverzinkte Fundamentschrauben mit Rohrhülsen in der Werkstatt ausgelegt",
+      "Bestand feuerverzinkter Fundamentschrauben mit Muttern und Hülsen",
+      "Nahaufnahme von Rohrhülsen und Muttern an Fundamentschrauben"
+    ],
+    "relatedTitle": "Verwandte Produkte",
+    "relatedStanchions": "Stützen und Pfosten für Bühnen und Geländer, oft auf denselben Fundamenten montiert.",
+    "relatedPipeGuides": "Rohrführungen und Ringhülsen für befeuerte Erhitzer und Rohrbrücken.",
+    "relatedFasteners": "Sechskantschrauben, B7-Stehbolzen, Muttern und Scheiben aus Edel- und legiertem Stahl.",
+    "relatedAnchors": "SEPL-Anker für die Feuerfestauskleidung der Kessel und Öfen, die diese Schrauben verankern.",
+    "countriesTitle": "Lieferländer",
+    "countriesText": "Wir exportieren Fundamentschrauben zusammen mit unseren Feuerfestankern und Fertigungsteilen. Die Länderseiten beschreiben die Branchen und Häfen, die wir in jedem Markt beliefern.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Was ist der Unterschied zwischen L- und J-Fundamentschrauben?",
+        "a": "Beide haben ein gebogenes eingebettetes Ende. Eine L-Schraube ist um 90 Grad gebogen, eine J-Schraube hat einen runden Haken. Die L-Form ist die übliche Wahl für Stützen und Fußplatten; die J-Form wird für leichtere Verbindungen wie Rohrhalterungen und Geländer verwendet und kann in manchen Anordnungen einen besseren Auszugswiderstand bieten."
+      },
+      {
+        "q": "Was ist ASTM F1554?",
+        "a": "ASTM F1554 ist die amerikanische Norm für einbetonierte Ankerstangen. Sie umfasst gerade, gebogene und Ankerstangen mit Kopf in drei Güten, 36, 55 und 105, benannt nach ihrer Mindeststreckgrenze in ksi. Das herausragende Ende ist farbcodiert: blau für Grade 36, gelb für Grade 55 und rot für Grade 105."
+      },
+      {
+        "q": "Können Sie Fundamentschrauben in Sonderlängen fertigen?",
+        "a": "Ja. Jede Schraube wird nach Kundenzeichnung abgelängt, gebogen und mit Gewinde versehen, von etwa 150 mm bis 3000 mm und länger. Gewindelänge, Biegelänge und Biegeradius werden nach Vorgabe gefertigt."
+      },
+      {
+        "q": "Welche Oberflächen gibt es für Fundamentschrauben?",
+        "a": "Feuerverzinkung nach ASTM F2329 ist die häufigste Oberfläche für Schrauben im Freien und im Beton. Galvanische Verzinkung (gelb, blau oder weiß) eignet sich für Innenräume und milde Umgebungen, Brünieren bietet einfachen Schutz, und auf Wunsch oder bei Edelstahl liefern wir blank."
+      }
+    ],
+    "ctaTitle": "Sie benötigen Fundamentschrauben?",
+    "ctaText": "Senden Sie uns Zeichnung oder Schraubenliste mit Ausführung, Durchmesser, Länge, Werkstoff, Oberfläche und Stückzahl. Wir antworten mit Angebot und Lieferzeit.",
+    "ctaRfq": "Angebot für Fundamentschrauben anfordern",
+    "ctaContact": "Oder kontaktieren Sie unser Team"
+  },
+  "spPage": {
+    "metaTitle": "Tragplatten & Fußplatten Hersteller | Sonderfertigung | Santura Engineering",
+    "metaDescription": "Feuerfest-Tragkonsolen, Fußplatten, Montage-, Knoten- und Ankerplatten nach Zeichnung gefertigt. Seit 1980, Export in über 25 Länder.",
+    "eyebrow": "Fertigung",
+    "h1": "Tragplatten und Fußplatten",
+    "subheading": "Feuerfest-Tragkonsolen, Stützenfußplatten, Maschinenmontageplatten, Knotenbleche und Ankerplatten für Öfen, Kessel und Stahlbau. Nach Ihrer Zeichnung zugeschnitten, gebohrt, bearbeitet und geschweißt.",
+    "heroAlt": "Stützenfußplatte, auf einem Betonfundament verschraubt",
+    "overviewTitle": "Was Tragplatten sind",
+    "overview": [
+      "Tragplatten sind gefertigte Stahlplatten und Konsolen, die Lasten aufnehmen und verteilen. In Öfen und Kesseln werden sie an den Mantel geschweißt und tragen das Gewicht der Feuerfestauskleidung. Im Stahlbau sind es die Fußplatten, Montageplatten, Knotenbleche und Ankerplatten, die Stützen, Anlagen und Stahlbauteile mit ihren Fundamenten und untereinander verbinden.",
+      "Jede Platte wird nach Kundenzeichnung gefertigt. Santura schneidet, bohrt, bearbeitet und schweißt Tragplatten in der eigenen Werkstatt, zusammen mit den Feuerfestankern und Fundamentschrauben, die oft gemeinsam mit ihnen eingebaut werden."
+    ],
+    "uses": [
+      {
+        "title": "Feuerfest-Abstützung",
+        "text": "In Öfen und Behältern eingeschweißte Konsolen, die Auskleidung und Brennersteine tragen."
+      },
+      {
+        "title": "Fußplatten im Stahlbau",
+        "text": "Platten, die Stützen und Anlagen mit Betonfundamenten und Stahlrahmen verbinden."
+      }
+    ],
+    "typesTitle": "Arten von Tragplatten",
+    "types": [
+      {
+        "key": "refractory",
+        "title": "Feuerfest-Tragplatten / Auskleidungskonsolen",
+        "alt": "Feuerfest-Tragkonsole, unter der Auskleidung an einen Ofenmantel geschweißt",
+        "text": "Konsolenförmige Platten, die an den Ofenmantel geschweißt werden und das Gewicht der Feuerfestauskleidung tragen, besonders in senkrechten Wänden und Deckenbereichen. Sie bestehen aus verschweißten Stahlteilen und verteilen die Last der Auskleidung gleichmäßig auf den Mantel.",
+        "points": [
+          "Tragen Brennersteine unabhängig vom Ofenmauerwerk",
+          "In berechneten Abständen am Mantelumfang angeordnet",
+          "Baustahl oder Edelstahl (SS304, SS310), je nach Betriebstemperatur",
+          "Auch Konsolen, Steinträger oder Tragwinkel genannt"
+        ]
+      },
+      {
+        "key": "base",
+        "title": "Stützenfußplatten",
+        "alt": "Stützenfußplatte mit Ankerschrauben auf einem Betonfundament",
+        "text": "Flache Platten, die unten an Stahlstützen geschweißt und mit Anker- oder Fundamentschrauben am Fundament verschraubt werden. Sie verteilen die Stützenlast gleichmäßig auf den Beton.",
+        "points": [
+          "Bohrungen gebohrt oder gestanzt passend zum Schraubenbild",
+          "Auflagefläche plan bearbeitet für vollen Kontakt mit dem Verguss",
+          "IS 2062 Grade A bis 20 mm Dicke",
+          "IS 2062 Grade B (beruhigt) über 20 mm, wie von Stahlbaunormen gefordert"
+        ]
+      },
+      {
+        "key": "mounting",
+        "title": "Maschinenmontageplatten",
+        "alt": "Maschinenmontageplatte mit Bohrungen für einen Pumpensockel",
+        "text": "Flache Platten mit vorgebohrten Löchern zur Befestigung von Pumpen, Verdichtern, Motoren und anderen Maschinen auf Beton- oder Stahlsockeln.",
+        "points": [
+          "Genau passend zum Fußbild der Maschine gebohrt",
+          "Nivellierelemente und Schubdübel nach Bedarf",
+          "Schwingungsdämpfende Ausführung auf Wunsch"
+        ]
+      },
+      {
+        "key": "gusset",
+        "title": "Knotenbleche und Steifen",
+        "alt": "Dreieckiges Knotenblech an einem Träger-Stützen-Anschluss",
+        "text": "Dreieckige oder rechteckige Bleche, die an Träger-Stützen-Anschlüssen eingeschweißt werden, um die Verbindung auszusteifen und Lasten zu übertragen.",
+        "points": [
+          "Stahlrahmen, Kesselgerüste und Rohrbrücken",
+          "Bühnenkonsolen und Halterungen",
+          "Wichtig bei Tragwerken für Erdbeben- und Windlasten"
+        ]
+      },
+      {
+        "key": "embed",
+        "title": "Ankerplatten (Einbauteile)",
+        "alt": "Ankerplatte mit angeschweißten Kopfbolzen, in eine Betonwand eingegossen",
+        "text": "Stahlplatten mit angeschweißten Kopfbolzen oder Ankern, die einbetoniert werden und nach dem Betonieren einen Anschlusspunkt bieten.",
+        "points": [
+          "Befestigung von Stahlbau, Rohrhalterungen und Anlagen am Beton",
+          "Befestigung von Geländern an Betonwänden und -decken",
+          "Bolzen vor dem Einbetonieren an die Platte geschweißt"
+        ]
+      }
+    ],
+    "materialsTitle": "Werkstoffe",
+    "materials": [
+      {
+        "title": "Baustahl",
+        "text": "IS 2062 Grade A, B oder C und ASTM A36. Die häufigste Wahl für Stahlbauplatten."
+      },
+      {
+        "title": "Edelstahl",
+        "text": "SS304, SS310 und SS316, für korrosive Umgebungen und heiße Feuerfest-Abstützungen."
+      },
+      {
+        "title": "Kesselblech",
+        "text": "IS 2002 und SA 516 Gr 70, für Druckbehälter und Kessel."
+      },
+      {
+        "title": "Hochfester Baustahl",
+        "text": "ASTM A572 Grade 50, für hohe Lasten."
+      }
+    ],
+    "specTitle": "Spezifikationen",
+    "colProperty": "Eigenschaft",
+    "colRange": "Bereich",
+    "specRows": [
+      {
+        "label": "Dicke",
+        "value": "6 mm bis 100 mm und mehr"
+      },
+      {
+        "label": "Größe",
+        "value": "Nach Zeichnung zugeschnitten, aus Blechen bis 2000 × 6000 mm"
+      },
+      {
+        "label": "Bohrungen",
+        "value": "CNC oder manuell, nach Zeichnungstoleranz"
+      },
+      {
+        "label": "Oberfläche",
+        "value": "Plan bearbeitet, gestrahlt, lackiert oder verzinkt"
+      },
+      {
+        "label": "Schweißen",
+        "value": "Nach AWS D1.1 oder IS 816, mit ZfP nach Vorgabe"
+      },
+      {
+        "label": "Normen",
+        "value": "IS 2062, ASTM A36, ASTM A572, IS 816 (Schweißen), AWS D1.1"
+      },
+      {
+        "label": "Toleranzen",
+        "value": "Nach IS 2062, AISC oder Kundenspezifikation"
+      },
+      {
+        "label": "Prüfung",
+        "value": "Maßkontrolle, Ultraschallprüfung (UT) dicker Bleche, Sichtprüfung der Nähte"
+      }
+    ],
+    "specNote": "Jede Platte wird nach Kundenzeichnung gefertigt. Senden Sie uns Zeichnung oder Skizze mit Werkstoff, Dicke, Oberfläche und Stückzahl.",
+    "applicationsTitle": "Anwendungen nach Branche",
+    "applications": [
+      {
+        "title": "Öfen und Drehrohröfen",
+        "text": "Tragkonsolen für Feuerfestauskleidungen, Tragplatten für Brennersteine und Verstärkungen des Ofenmantels."
+      },
+      {
+        "title": "Kessel",
+        "text": "Tragende Stahlkonstruktion, Bandagenkonsolen und Mantelhalterungen."
+      },
+      {
+        "title": "Raffinerien",
+        "text": "Tragkonstruktionen befeuerter Erhitzer, Stützenfußplatten und Fußplatten für Rohrbrücken."
+      },
+      {
+        "title": "Kraftwerke",
+        "text": "Platten für Turbinentische, Kesselgerüste und Stahlbühnen."
+      },
+      {
+        "title": "Zementwerke",
+        "text": "Stahlbau für Vorwärmertürme, Platten für Ofenstützpfeiler und Mühlenfundamente."
+      },
+      {
+        "title": "Allgemeiner Stahlbau",
+        "text": "Stützenfüße, Kranschienenauflager, Förderbandstützen und Geländerbefestigungen."
+      }
+    ],
+    "supplyTitle": "Unser Lieferumfang",
+    "supply": [
+      {
+        "title": "Alle Arten nach Zeichnung",
+        "text": "Von einer einzelnen Konsole bis zu kompletten Sätzen, nach Kundenzeichnung gefertigt."
+      },
+      {
+        "title": "Zuschnitt und Bearbeitung",
+        "text": "Brenn-, Plasma- oder CNC-Schneiden nach Bedarf, mit Bohren, Bearbeiten und Schweißen."
+      },
+      {
+        "title": "Oberflächenbehandlung",
+        "text": "Strahlen, Grundieren und Feuerverzinken."
+      },
+      {
+        "title": "Einzelplatten oder Pakete",
+        "text": "Einzelne Platten oder Platten als Teil eines kompletten Stahlbaupakets."
+      },
+      {
+        "title": "Nach Muster, Skizze oder Zeichnung",
+        "text": "Wir fertigen Platten nach Muster, Skizze oder detaillierter Konstruktionszeichnung."
+      }
+    ],
+    "relatedTitle": "Verwandte Produkte",
+    "relatedFoundationBolts": "Anker- und Fundamentschrauben, die Fußplatten am Beton befestigen.",
+    "relatedStanchions": "Stützen und Pfosten für Bühnen und Geländer, auf Fußplatten montiert.",
+    "relatedPipeGuides": "Rohrführungen und Ringhülsen für befeuerte Erhitzer und Rohrbrücken.",
+    "relatedAnchors": "SEPL-Anker, die die Feuerfestauskleidung zwischen den Tragkonsolen halten.",
+    "servicesTitle": "Verwandte Leistungen",
+    "relatedSwText": "Bolzenschweißen für Ankerplatten und für an Tragplatten geschweißte Anker.",
+    "relatedPmiText": "Legierungsprüfung von Edelstahlplatten vor dem Versand.",
+    "relatedPpText": "Oberflächenbehandlung von Edelstahlplatten und -konsolen nach dem Schweißen.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Was sind Feuerfest-Tragplatten?",
+        "a": "Feuerfest-Tragplatten, auch Auskleidungskonsolen genannt, sind Stahlkonsolen, die innen an den Mantel eines Ofens oder Kessels geschweißt werden. Sie tragen das Gewicht der Feuerfestauskleidung, besonders in hohen senkrechten Wänden und Deckenbereichen, und verteilen diese Last gleichmäßig auf den Mantel. Sie dienen auch dazu, Brennersteine getrennt von der Wand abzustützen."
+      },
+      {
+        "q": "Aus welchen Werkstoffen werden Tragplatten gefertigt?",
+        "a": "Stahlbauplatten bestehen meist aus Baustahl nach IS 2062 oder ASTM A36, bei hohen Lasten aus ASTM A572 Grade 50. Kessel- und Druckbehälterteile werden aus IS 2002 oder SA 516 Gr 70 gefertigt. Heiß betriebene Feuerfest-Tragkonsolen bestehen aus Edelstahl wie SS304 oder SS310, in korrosiven Umgebungen wird SS316 eingesetzt."
+      },
+      {
+        "q": "Können die Platten bearbeitet geliefert werden?",
+        "a": "Ja. Fußplatten können an der Auflagefläche plan bearbeitet werden, damit sie vollflächig auf dem Verguss aufliegen, und Bohrungen werden per CNC oder manuell nach Zeichnungstoleranz gebohrt. Platten liefern wir auch gestrahlt, grundiert oder feuerverzinkt."
+      },
+      {
+        "q": "Welche maximale Plattendicke ist lieferbar?",
+        "a": "Wir liefern Tragplatten von 6 mm bis 100 mm Dicke und mehr, nach Zeichnung aus Blechen bis 2000 × 6000 mm zugeschnitten. Dicke Bleche können ultraschallgeprüft werden, wenn die Spezifikation es verlangt."
+      }
+    ],
+    "ctaTitle": "Sie benötigen Trag- oder Fußplatten?",
+    "ctaText": "Senden Sie uns Zeichnung, Skizze oder Musterangaben mit Werkstoff, Dicke, Oberfläche und Stückzahl. Wir antworten mit Angebot und Lieferzeit.",
+    "ctaRfq": "Angebot für Tragplatten anfordern",
+    "ctaContact": "Oder kontaktieren Sie unser Team"
+  },
+  "stPage": {
+    "metaTitle": "Industrie-Geländerpfosten & Stützen | Bühnengeländer | Santura Engineering",
+    "metaDescription": "Geländerpfosten, Handläufe, Fußleisten und Tore für Bühnen und Laufstege, nach Zeichnung gefertigt. Seit 1980, Export in über 25 Länder.",
+    "eyebrow": "Fertigung",
+    "h1": "Industrie-Geländerpfosten und Geländersysteme",
+    "subheading": "Geländerpfosten, Handläufe, Fußleisten und Tore für Industriebühnen, Laufstege und Treppen. Nach Ihrer Zeichnung zugeschnitten, geschweißt und feuerverzinkt, als einzelne Pfosten, Geländermodule oder komplette Bühnenpakete.",
+    "gallery": [
+      "Serie feuerverzinkter Geländerpfosten mit ausgesteiften Fußplatten",
+      "Feuerverzinkter Geländerpfosten mit angeschweißten Handlaufarmen und Fußplatte",
+      "Geländerpfosten mit seitlichem Handlaufarm und ausgesteifter Fußplatte",
+      "Nahaufnahme einer geschweißten T-Verbindung an einem Pfosten"
+    ],
+    "overviewTitle": "Was Geländerpfosten sind",
+    "overview": [
+      "Geländerpfosten (Stützen) sind die senkrechten Stahlpfosten, massiv oder aus Rohr, die ein Industriegeländer tragen. Bei Kugelpfosten laufen die waagerechten Handläufe durch geschmiedete Stahlkugeln am Pfosten und werden mit Gewindestiften fixiert.",
+      "Zusammen mit Handläufen, Fußleisten, Toren und Abschlüssen bilden die Pfosten die Absturzsicherung, die auf Industriebühnen, Laufstegen, Treppen und anderen erhöhten Bereichen vorgeschrieben ist. Santura fertigt Pfosten, komplette Geländersysteme und Bühnenkonstruktionen nach Kundenzeichnung."
+    ],
+    "weldedTitle": "Geschweißte Pfosten",
+    "weldedText": "Unsere Fotos zeigen geschweißte Pfosten: Rohrpfosten mit angeschweißten Handlaufarmen, ausgesteifter Fußplatte und Feuerverzinkung nach dem Schweißen. Wir fertigen Pfosten nach Kundenzeichnung, als unten beschriebene Kugelpfosten oder in dieser geschweißten Ausführung.",
+    "typesTitle": "Pfostenausführungen",
+    "types": [
+      {
+        "key": "single",
+        "title": "Pfosten mit einer Kugel",
+        "alt": "Kugelpfosten mit einer Kugel für den oberen Handlauf",
+        "text": "Eine Kugel oben für einen einzelnen Handlauf. Für Bereiche, in denen nur ein oberer Handlauf nötig ist, etwa Laufwege mit geringem Risiko und Führungsgeländer."
+      },
+      {
+        "key": "double",
+        "title": "Pfosten mit zwei Kugeln",
+        "alt": "Kugelpfosten mit oberem Handlauf und Knieleiste",
+        "text": "Zwei Kugeln für Handlauf und Knieleiste (Zwischenholm). Die Standardausführung für die meisten Industriebühnen und Laufstege."
+      },
+      {
+        "key": "three",
+        "title": "Pfosten mit drei Kugeln",
+        "alt": "Kugelpfosten mit Handlauf, Knieleiste und unterem Holm",
+        "text": "Drei Kugeln für Handlauf, Knieleiste und einen zusätzlichen unteren Holm. Für höhere Sicherheit oder engere Holmabstände."
+      },
+      {
+        "key": "raked",
+        "title": "Treppenpfosten (geneigt)",
+        "alt": "Geneigter Pfosten mit schrägen Holmen entlang einer Treppe",
+        "text": "Die Kugeln sind schräg gesetzt, sodass die Holme der Neigung von Treppe oder Rampe folgen. Für Industrietreppen und geneigte Laufstege."
+      }
+    ],
+    "basesTitle": "Fußausführungen",
+    "bases": [
+      {
+        "key": "flat",
+        "title": "Fußplatte",
+        "alt": "Pfosten mit Fußplatte, auf einen Bühnenboden geschraubt",
+        "text": "Auf Boden oder Bühne geschraubt. Der häufigste Fuß für Bühnen und Laufstege auf Gitterrost oder Riffelblech."
+      },
+      {
+        "key": "side",
+        "title": "Seitliche Befestigung",
+        "alt": "Seitlich an einen Trägersteg geschraubter Pfosten",
+        "text": "An eine senkrechte Fläche geschraubt, etwa Trägersteg, Behältermantel oder Wand, wenn eine Bodenbefestigung nicht möglich ist."
+      },
+      {
+        "key": "collar",
+        "title": "Angeschweißte Hülse",
+        "alt": "Pfosten in einer an die Konstruktion geschweißten Hülse",
+        "text": "Der Pfosten sitzt in einer direkt an die Konstruktion geschweißten Hülse. Für dauerhafte Installationen."
+      },
+      {
+        "key": "cored",
+        "title": "Einbetonierter Fuß",
+        "alt": "In eine Kernbohrung im Beton vergossener Pfosten",
+        "text": "Der Pfosten wird in eine Kernbohrung im Beton gesetzt und vergossen. Für Betonbühnen und Podeste."
+      },
+      {
+        "key": "angle",
+        "title": "Winkelfuß",
+        "alt": "Pfosten mit Winkelfuß auf einem Stahlwinkelrahmen",
+        "text": "Ein Winkelfuß zur Befestigung an einem Winkel- oder U-Profil. Für Bühnen mit Rahmen aus Winkelstahl."
+      }
+    ],
+    "specTitle": "Maße und Spezifikationen",
+    "colSpec": "Merkmal",
+    "colRange": "Standardbereich",
+    "specRows": [
+      {
+        "label": "Pfostendurchmesser",
+        "value": "33,7 mm (1 Zoll NW), 42,4 mm (1¼ Zoll NW), 48,3 mm (1½ Zoll NW)"
+      },
+      {
+        "label": "Wanddicke",
+        "value": "3,0 mm bis 5,0 mm (Rohr) oder massiv"
+      },
+      {
+        "label": "Kugelgröße",
+        "value": "60 mm, 63 mm, 76 mm"
+      },
+      {
+        "label": "Holmdurchmesser",
+        "value": "33,7 mm oder 42,4 mm"
+      },
+      {
+        "label": "Standardhöhe",
+        "value": "1000 mm bis 1100 mm (Oberkante Handlauf über Boden)"
+      },
+      {
+        "label": "Kugelabstand",
+        "value": "Typisch 450 mm bis 550 mm"
+      },
+      {
+        "label": "Fußleistenhöhe",
+        "value": "100 mm bis 150 mm"
+      },
+      {
+        "label": "Fußplatte",
+        "value": "100 × 100 mm bis 172 × 150 mm, 6 mm bis 10 mm dick, mit 18-mm-Bohrungen"
+      },
+      {
+        "label": "Pfostenabstand",
+        "value": "Maximal 1500 mm bis 1800 mm"
+      }
+    ],
+    "specNote": "Dies sind Standardbereiche. Höhen, Holmlagen und Pfostenabstände richten sich nach der Kundenzeichnung und der für das Projekt geltenden Sicherheitsnorm.",
+    "materialsTitle": "Werkstoffe",
+    "materials": [
+      {
+        "title": "Baustahl (IS 2062 / ASTM A36)",
+        "text": "Die häufigste Wahl, lackiert oder verzinkt."
+      },
+      {
+        "title": "Edelstahl (SS304 / SS316)",
+        "text": "Für korrosive Umgebungen, Offshore, Lebensmittelverarbeitung und Chemieanlagen."
+      },
+      {
+        "title": "Aluminium",
+        "text": "Leicht, für nicht tragende oder gewichtskritische Anwendungen."
+      }
+    ],
+    "finishesTitle": "Oberflächen",
+    "finishes": [
+      {
+        "title": "Feuerverzinkt",
+        "text": "Die Standardoberfläche für Außen- und Industrieeinsatz, schützt Stahl je nach Umgebung typisch 20 Jahre und länger."
+      },
+      {
+        "title": "Pulverbeschichtet",
+        "text": "Für Innenräume oder farbliche Kennzeichnung; Sicherheitsgelb ist üblich."
+      },
+      {
+        "title": "Blank / grundiert",
+        "text": "Für Verarbeiter, die vor Ort lackieren."
+      },
+      {
+        "title": "Edelstahl",
+        "text": "Walzblank oder poliert, ohne Beschichtung."
+      }
+    ],
+    "standardsTitle": "Normen und Vorschriften",
+    "colStandard": "Norm",
+    "colCovers": "Inhalt",
+    "standards": [
+      {
+        "code": "OSHA 1910.29",
+        "text": "US-Vorschrift für Verkehrs- und Arbeitsflächen: Handlauf auf 42 Zoll (1067 mm) ± 3 Zoll, Zwischenholm wo keine Wand vorhanden ist, Fußleisten mindestens 3,5 Zoll (89 mm) hoch an offenen Seiten, und ein Handlauf, der 200 lb (890 N) nach außen oder unten aufnimmt."
+      },
+      {
+        "code": "EN ISO 14122-3",
+        "text": "Europäische Norm für Geländer und Treppen als ortsfeste Zugänge zu Maschinen und Anlagen."
+      },
+      {
+        "code": "BS 6180",
+        "text": "Britischer Leitfaden für Absturzsicherungen in und an Gebäuden."
+      },
+      {
+        "code": "IS 1161",
+        "text": "Indische Norm für Stahlrohre für Tragzwecke (Rohrmaße für Pfosten und Holme)."
+      },
+      {
+        "code": "IS 2062",
+        "text": "Indische Norm für warmgewalzten Baustahl."
+      }
+    ],
+    "standardsNote": "Wir fertigen nach Zeichnung und nach der in Ihrer Spezifikation genannten Norm. Nennen Sie uns die für Ihr Projekt geltende Norm.",
+    "componentsTitle": "Komponenten des Geländersystems",
+    "componentsIntro": "Alles, was für ein komplettes Geländersystem nötig ist, kann mit den Pfosten geliefert werden.",
+    "components": [
+      {
+        "title": "Pfosten",
+        "text": "Mit einer, zwei oder drei Kugeln oder geschweißt, mit jeder Fußausführung."
+      },
+      {
+        "title": "Holme",
+        "text": "Gerade Längen, typisch 6,4 m."
+      },
+      {
+        "title": "Abschlüsse und Bögen",
+        "text": "Waagerechte und gewinkelte Abschlussbögen, Rückführbögen und Treppenabschlüsse."
+      },
+      {
+        "title": "Tore",
+        "text": "Selbstschließende, federbelastete Sicherheitstore für Bühnenzugänge."
+      },
+      {
+        "title": "Fußleisten",
+        "text": "100 mm bis 150 mm hohe Bleche am Boden, die das Herabfallen von Gegenständen verhindern."
+      },
+      {
+        "title": "Fußleistenhalter",
+        "text": "Klemmen, die die Fußleisten an den Pfosten befestigen."
+      },
+      {
+        "title": "Verbinder",
+        "text": "Innenliegende Spreizverbinder und Außenverbinder zum Stoßen der Holme."
+      }
+    ],
+    "applicationsTitle": "Anwendungen nach Branche",
+    "applications": [
+      {
+        "title": "Raffinerien und Petrochemie",
+        "text": "Laufstege auf Rohrbrücken, Behälterbühnen, Verladebühnen und Zugänge im Tanklager."
+      },
+      {
+        "title": "Kraftwerke",
+        "text": "Kesselbühnen, Turbinenflur, Kohlehandling-Bühnen und Kaminzugänge."
+      },
+      {
+        "title": "Zementwerke",
+        "text": "Bühnen am Vorwärmerturm, Laufwege im Ofenbereich, Mühlenflur und Silodecken."
+      },
+      {
+        "title": "Stahlwerke",
+        "text": "Absperrungen am Ofenflur, Laufstege im Walzwerk und Kranzugangsbühnen."
+      },
+      {
+        "title": "Kesselhäuser",
+        "text": "Zugang zur Kesseltrommel, Economiser-Bühnen und Zugang zum Luftvorwärmer."
+      },
+      {
+        "title": "Allgemeine Industrie",
+        "text": "Maschinenabsicherung, Zwischengeschosse, Laderampen und Treppengeländer."
+      }
+    ],
+    "supplyTitle": "Unser Lieferumfang",
+    "supply": [
+      {
+        "title": "Pfosten und Komponenten",
+        "text": "Einzelne Pfosten und Teile zur Montage durch den Verarbeiter vor Ort."
+      },
+      {
+        "title": "Geländermodule",
+        "text": "Pfosten mit Holmen und Fußleisten, vorgefertigt und schraubfertig."
+      },
+      {
+        "title": "Komplette Bühnen",
+        "text": "Tragrahmen, Gitterroste, Geländer, Leitern und Tore als ein Paket."
+      },
+      {
+        "title": "Nach Zeichnung oder Standard",
+        "text": "Pfosten und Holme nach Ihrer Zeichnung oder nach Standardmaßen."
+      },
+      {
+        "title": "Torbaugruppen",
+        "text": "Sicherheitstore mit selbstschließenden Scharnieren."
+      },
+      {
+        "title": "Alle Fußausführungen",
+        "text": "Fußplatte, seitliche Befestigung, Schweißhülse, einbetonierter Fuß und Winkelfuß."
+      }
+    ],
+    "relatedTitle": "Verwandte Produkte",
+    "relatedSupportPlates": "Fuß- und Montageplatten für Pfosten, Bühnen und Stahlbau.",
+    "relatedFoundationBolts": "Ankerschrauben zur Befestigung von Pfostenfüßen und Bühnenstützen am Beton.",
+    "relatedPipeGuides": "Rohrführungen und Hülsen für die Rohrbrücken, entlang derer Laufstege oft verlaufen.",
+    "servicesTitle": "Verwandte Leistungen",
+    "relatedPmiText": "Legierungsprüfung von Edelstahlpfosten und -holmen.",
+    "relatedPpText": "Beizen und Passivieren von Edelstahlgeländern nach dem Schweißen.",
+    "relatedQualityText": "Unsere Prüfung und Inspektion gefertigter Teile.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Was ist ein Kugelpfosten?",
+        "a": "Ein Kugelpfosten ist ein Geländerpfosten mit geschmiedeten Stahlkugeln entlang seiner Länge. Die waagerechten Holme laufen durch Bohrungen in den Kugeln und werden mit Gewindestiften fixiert. So lässt sich das Geländer schnell montieren, und die Holme können im nötigen Winkel für Treppen und Ecken an den Pfosten anschließen."
+      },
+      {
+        "q": "Welche Geländerhöhe verlangt OSHA?",
+        "a": "OSHA 1910.29 verlangt, dass die Oberkante des Handlaufs 42 Zoll (1067 mm) über der Lauffläche liegt, plus oder minus 3 Zoll. Wo keine Wand oder Brüstung vorhanden ist, ist ein Zwischenholm nötig, Fußleisten müssen mindestens 3,5 Zoll (89 mm) hoch sein, und der Handlauf muss einer Kraft von 200 lb (890 N) standhalten."
+      },
+      {
+        "q": "Was ist der Unterschied zwischen Pfosten mit einer und zwei Kugeln?",
+        "a": "Ein Pfosten mit einer Kugel trägt nur den Handlauf. Ein Pfosten mit zwei Kugeln trägt Handlauf und Knieleiste auf halber Höhe; das ist die Standardausführung für die meisten Industriebühnen und Laufstege, weil die Knieleiste die Lücke unter dem Handlauf schließt."
+      },
+      {
+        "q": "Können Pfosten feuerverzinkt geliefert werden?",
+        "a": "Ja. Feuerverzinkung nach der Fertigung ist unsere Standardoberfläche für Baustahlpfosten im Freien und in Industrieanlagen. Pfosten liefern wir auch pulverbeschichtet, grundiert zum Lackieren vor Ort oder in Edelstahl ohne Beschichtung."
+      }
+    ],
+    "ctaTitle": "Sie benötigen Pfosten oder Geländer?",
+    "ctaText": "Senden Sie uns Zeichnung oder Lageplan mit Pfostenart, Fußausführung, Höhe, Werkstoff, Oberfläche und Stückzahl. Wir antworten mit Angebot und Lieferzeit.",
+    "ctaRfq": "Angebot für Geländerpfosten anfordern",
+    "ctaContact": "Oder kontaktieren Sie unser Team"
+  },
+  "pgPage": {
+    "metaTitle": "Rohrführungen & Ringhülsen für befeuerte Erhitzer & Kessel | Santura Engineering",
+    "metaDescription": "Rohrführungen, Ringhülsen und Rohrhalterungen für befeuerte Erhitzer, Kessel und Öfen nach Zeichnung. Seit 1980, Export in über 25 Länder.",
+    "eyebrow": "Fertigung",
+    "h1": "Rohrführungen und Ringhülsen",
+    "subheading": "Rohrführungen, Ringhülsen und Rohrhalterungsteile für befeuerte Erhitzer, Reformer, Kessel und Prozessrohrleitungen. Nach Ihrer Zeichnung aus Kohlenstoffstahl, Edelstahl und hitzebeständigen Legierungen gefertigt.",
+    "gallery": [
+      "Serie feuerverzinkter Rohrführungen mit Flansch-Führungsringen für befeuerte Erhitzer",
+      "Rohrführung mit Flanschkragen und konischem Körper für einen befeuerten Erhitzer",
+      "Bestand feuerverzinkter Rohrführungen in der Werkstatt",
+      "Gestapelte Ringhülsen aus Edelstahl im Lager",
+      "Geteilte Ringhülse aus Edelstahl mit Markierung SS310",
+      "Ringhülsen aus Edelstahl mit Güte- und Größenmarkierung",
+      "Gestapelte Edelstahl-Ringhülsen mit Dehnschlitzen",
+      "Ineinander gesetzte Edelstahl-Ringhülsen für den Versand",
+      "Bündel ineinander gesetzter Edelstahl-Ringhülsen",
+      "Ringhülse mit Dehnschlitz",
+      "Geteiltes Ringhülsensegment"
+    ],
+    "overviewTitle": "Was Rohrführungen und Ringhülsen sind",
+    "overview": [
+      "Rohrführungen und Ringhülsen sind gefertigte Stahlteile, die Rohrleitungen und Ofenrohre stützen, führen und schützen. Eine Rohrführung verhindert, dass sich ein Rohr seitlich bewegt, lässt es aber in Längsrichtung wachsen und schrumpfen, wenn sich die Temperatur ändert.",
+      "Eine Ringhülse, auch Rohrhülse oder Durchführungshülse genannt, ist ein Zylinder, der dort eingesetzt wird, wo ein Rohr durch eine Wand, einen Boden oder einen Behältermantel geht. Sie schützt das Rohr, dichtet die Öffnung ab und lässt Raum für Bewegung.",
+      "Beide sind vor allem in befeuerten Erhitzern, Kesseln und Öfen wichtig, wo Rohrleitungen heiß laufen und wiederholt aufgeheizt und abgekühlt werden. Santura fertigt Rohrführungen und Ringhülsen nach Kundenzeichnung, auch für Erhitzer nach API 560."
+    ],
+    "madeTitle": "Was unsere Fotos zeigen",
+    "made": [
+      "Rohrführungen: Führungsringe geschmiedet, bearbeitet und auf ein Rohr geschweißt, anschließend feuerverzinkt.",
+      "Ringhülsen: Edelstahlblech (SS304, SS310, SS316) nach Zeichnung geschert und zu geteilten oder geschlitzten Ringen gerollt, jede mit Güte und Größe markiert.",
+      "Alles in der eigenen Werkstatt für Reformer und befeuerte Erhitzer gefertigt."
+    ],
+    "guidesTitle": "Arten von Rohrführungen",
+    "guides": [
+      {
+        "key": "spider",
+        "title": "Zylinder- / Spinnenführungen",
+        "size": "Rohre von 6 Zoll bis 36 Zoll und größer",
+        "alt": "Zylindrische Rohrführung mit innenliegenden Spinnenarmen um ein Rohr",
+        "text": "Ein zylindrischer Käfig, an eine Stütze geschweißt, mit innenliegenden Spinnenarmen, die das Rohr in Längsrichtung gleiten lassen, seitliche Bewegung aber verhindern. Für lange Rohrstrecken und in der Nähe von Kompensatoren."
+      },
+      {
+        "key": "ubolt",
+        "title": "U-Bügel-Führungen",
+        "size": "Kleinere Rohrgrößen",
+        "alt": "U-Bügel-Rohrführung mit Fußplatte auf einem Träger",
+        "text": "Ein U-Bügel umgreift das Rohr, seine Fußplatte ist mit der Stütze verschraubt. Eine einfache, günstige Führung, die Längsbewegung innerhalb des Bügelspiels zulässt."
+      },
+      {
+        "key": "structural",
+        "title": "Stahlbauführungen",
+        "size": "Große und schwere Rohre",
+        "alt": "Stahlbau-Führungsrahmen über einem großen Rohr",
+        "text": "Winkel, U-Profil oder Blech, zu einem Rahmen über dem Rohr verschweißt. Für große oder schwere Rohre, isoliert oder blank."
+      },
+      {
+        "key": "slide",
+        "title": "Gleitplattenführungen",
+        "size": "",
+        "alt": "Rohrschuh auf einer reibungsarmen Gleitplatte",
+        "text": "Der Rohrschuh gleitet auf einer reibungsarmen PTFE- oder Graphitplatte. Wo die Reibung niedrig bleiben muss, um Kompensatoren oder empfindliche Anschlüsse zu schützen."
+      },
+      {
+        "key": "tube",
+        "title": "Rohrhalterungen (befeuerte Erhitzer)",
+        "size": "API 560",
+        "alt": "Rohrhalterungen, die Ofenrohrschlangen in einem befeuerten Erhitzer halten",
+        "text": "Halterungen im Feuerraum, die die Rohrschlangen in Position halten. API 560 begrenzt die ungestützte waagerechte Rohrlänge auf 35 Rohraußendurchmesser oder 6 m (20 ft), je nachdem, was kleiner ist. Aus hitzebeständigen Legierungen wie Alloy 800H; gegossene 25Cr-20Ni-Halterungen (HK40) werden ebenfalls eingesetzt."
+      }
+    ],
+    "sleevesTitle": "Arten von Ringhülsen",
+    "sleeves": [
+      {
+        "key": "floor",
+        "title": "Boden- und Wanddurchführungen",
+        "size": "2 bis 4 Zoll größer als der Rohraußendurchmesser",
+        "alt": "In einen Betonboden eingesetzte Durchführungshülse mit durchgehendem Rohr",
+        "text": "Hülsen in Beton- oder Stahlböden und -wänden, wo Rohre hindurchgehen, abgedichtet mit Packung oder Brandschutzmaterial. Das Übermaß lässt Raum für Isolierung und Bewegung."
+      },
+      {
+        "key": "shell",
+        "title": "Ofenmantel-Durchführungen",
+        "size": "",
+        "alt": "In einen Ofenmantel eingeschweißte Durchführungshülse um ein Rohr",
+        "text": "In Ofen- oder Kesselmäntel eingeschweißte Hülsen, wo Rohre in das Gehäuse eintreten. Dichtplatte und Packung verhindern Rauchgasaustritt, während sich das Rohr ausdehnt."
+      },
+      {
+        "key": "anchor",
+        "title": "Ringhülsen mit Feuerfestverankerung",
+        "size": "",
+        "alt": "In die Feuerfestauskleidung eingebettete Ringhülse an einer Rohröffnung",
+        "text": "In die Feuerfestauskleidung eingebettete Ringhülsen, die die Auskleidung an Durchführungen verankern und eine saubere Öffnung für Rohr oder Messgerät bilden."
+      }
+    ],
+    "materialsTitle": "Werkstoffe",
+    "materials": [
+      {
+        "title": "Kohlenstoffstahl (IS 2062 / ASTM A36)",
+        "text": "Standard für äußere Rohrführungen und Stahlbauhalterungen."
+      },
+      {
+        "title": "Edelstahl (SS304, SS310, SS316)",
+        "text": "Für korrosiven oder heißen Betrieb oder wenn der Verfahrensgeber es vorschreibt. Unsere Ringhülsen werden in diesen Güten gefertigt."
+      },
+      {
+        "title": "Hitzebeständige Legierungen (Alloy 800H, HK40, 25Cr-20Ni)",
+        "text": "Für Rohrhalterungen im Feuerraum von Erhitzern nach API 560."
+      },
+      {
+        "title": "Verzinkter Stahl",
+        "text": "Für Rohrbrückenführungen im Freien."
+      }
+    ],
+    "specTitle": "Spezifikationen",
+    "colProperty": "Eigenschaft",
+    "colRange": "Bereich",
+    "specRows": [
+      {
+        "label": "Rohrgrößen",
+        "value": "1/2 Zoll NW bis 48 Zoll NW und größer (nach Maß)"
+      },
+      {
+        "label": "Führungsspiel",
+        "value": "Typisch 3 mm bis 6 mm radial für Wärmedehnung"
+      },
+      {
+        "label": "Hülsendicke",
+        "value": "6 mm bis 12 mm Wand, je nach Größe und Anwendung"
+      },
+      {
+        "label": "Betriebstemperatur",
+        "value": "Bis 400 °C für äußere Führungen; bis 1100 °C für innere Rohrhalterungen aus hitzebeständigen Legierungen"
+      },
+      {
+        "label": "Normen",
+        "value": "API 560 (befeuerte Erhitzer), ASME B31.3 (Prozessrohrleitungen), IS 2062, ASTM A36"
+      },
+      {
+        "label": "Belastbarkeit",
+        "value": "Nach statischer Berechnung aus Rohrgewicht, Isolierung und Inhalt"
+      },
+      {
+        "label": "Oberfläche",
+        "value": "Grundiert, feuerverzinkt oder blank bei Hochtemperaturlegierungen"
+      }
+    ],
+    "specNote": "Jedes Teil wird nach Kundenzeichnung gefertigt. Senden Sie uns die Zeichnung mit Rohrgröße, Werkstoff, Auslegungstemperatur und Stückzahl.",
+    "applicationsTitle": "Anwendungen nach Branche",
+    "applications": [
+      {
+        "title": "Befeuerte Erhitzer in Raffinerien",
+        "text": "Rohrhalterungen in Strahlungs- und Konvektionsteil, Rohrführungen, Bogenhalterungen und Manteldurchführungen nach API 560."
+      },
+      {
+        "title": "Kessel",
+        "text": "Rohrhalterungen für Überhitzer, Zwischenüberhitzer und Economiser sowie Rohrdurchführungen durch das Kesselgehäuse."
+      },
+      {
+        "title": "Petrochemie",
+        "text": "Rohrbrückenführungen für Prozessleitungen, Führungen an Dehnungsbögen und an Apparateanschlüssen."
+      },
+      {
+        "title": "Kraftwerke",
+        "text": "Führungen für Frischdampf-, Speisewasser- und Turbinenleitungen."
+      },
+      {
+        "title": "Zementwerke",
+        "text": "Ofenmantel-Durchführungen für Brennerrohre und Messgeräte sowie Kanalhalterungen."
+      },
+      {
+        "title": "Allgemeiner Rohrleitungsbau",
+        "text": "Dehnungsführungen an Kompensatoren und Dehnungsbögen sowie Boden- und Wanddurchführungen in Rohrbrücken."
+      }
+    ],
+    "supplyTitle": "Unser Lieferumfang",
+    "supply": [
+      {
+        "title": "Rohrführungen",
+        "text": "Nach Konstruktionszeichnung oder Standardkatalog."
+      },
+      {
+        "title": "Ringhülsen",
+        "text": "Für Mantel-, Boden- und Wanddurchführungen."
+      },
+      {
+        "title": "Rohrhalterungen für Erhitzer",
+        "text": "Halterungsteile für Erhitzer nach API 560."
+      },
+      {
+        "title": "Komplette Führungsbaugruppen",
+        "text": "Führungsrahmen, Gleitplatten und Kleinteile zusammen."
+      },
+      {
+        "title": "Werkstoffauswahl",
+        "text": "Von Kohlenstoffstahl bis Edelstahl und hitzebeständigen Legierungen."
+      },
+      {
+        "title": "Einzelteile oder Pakete",
+        "text": "Einzelteile oder Teile als Bestandteil eines Rohrhalterungs- oder Erhitzerpakets."
+      }
+    ],
+    "relatedTitle": "Verwandte Produkte",
+    "relatedSupportPlates": "Fußplatten und Konsolen für Rohrhalterungen und Führungskonstruktionen.",
+    "relatedFoundationBolts": "Ankerschrauben für Fundamente von Rohrbrücken und Führungsstützen.",
+    "relatedStanchions": "Geländer und Pfosten für Laufstege auf Rohrbrücken und Erhitzerbühnen.",
+    "relatedAnchors": "SEPL-Anker für die Feuerfestauskleidung, durch die Ringhülsen geführt werden.",
+    "servicesTitle": "Verwandte Leistungen",
+    "relatedPmiText": "Legierungsprüfung von SS310-Hülsen und hitzebeständigen Rohrhalterungen.",
+    "relatedPpText": "Beizen und Passivieren von Edelstahlhülsen nach der Fertigung.",
+    "relatedSwText": "Bolzenschweißen von Ankern rund um Manteldurchführungen.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Wofür wird eine Rohrführung verwendet?",
+        "a": "Eine Rohrführung hält ein Rohr auf seiner Linie. Sie verhindert seitliche Bewegung, lässt das Rohr aber in Längsrichtung gleiten, wenn es sich bei Hitze ausdehnt und beim Abkühlen zusammenzieht. Führungen sitzen entlang langer Rohrstrecken und an Kompensatoren und Dehnungsbögen, damit die Wärmedehnung dorthin geht, wo der Planer sie vorgesehen hat."
+      },
+      {
+        "q": "Was ist API 560?",
+        "a": "API 560 ist die Norm des American Petroleum Institute für befeuerte Erhitzer in Raffinerien und Petrochemieanlagen. Sie regelt Auslegung, Werkstoffe, Fertigung und Prüfung, einschließlich der Rohrhalterungen und Führungen im Feuerraum. Zum Beispiel begrenzt sie die ungestützte waagerechte Rohrlänge auf 35 Rohrdurchmesser oder 6 m, je nachdem, was kleiner ist."
+      },
+      {
+        "q": "Was ist der Unterschied zwischen Rohrführung und Rohrhalterung?",
+        "a": "Eine Rohrhalterung trägt das Gewicht des Rohrs. Eine Rohrführung bestimmt, in welche Richtung es sich bewegen kann: Sie verhindert seitliche Bewegung und erlaubt Längsdehnung. Viele Führungen tragen auch Gewicht, eine Führung ist also eine Halterung, die das Rohr zusätzlich in einer oder mehreren Richtungen festhält."
+      },
+      {
+        "q": "Was ist eine Ringhülse?",
+        "a": "Eine Ringhülse, auch Rohrhülse oder Durchführungshülse genannt, ist ein Stahlzylinder, der dort eingesetzt wird, wo ein Rohr durch eine Wand, einen Boden, eine Feuerfestauskleidung oder einen Behältermantel geht. Sie schützt das Rohr, dichtet die Öffnung mit Packung oder Dichtplatte ab und lässt Raum für die Ausdehnung. Unsere Ringhülsen werden meist aus SS304-, SS310- oder SS316-Blech gerollt."
+      }
+    ],
+    "ctaTitle": "Sie benötigen Rohrführungen oder Ringhülsen?",
+    "ctaText": "Senden Sie uns Ihre Zeichnung mit Rohrgröße, Werkstoff, Auslegungstemperatur und Stückzahl. Wir antworten mit Angebot und Lieferzeit.",
+    "ctaRfq": "Angebot für Rohrführungen & Hülsen anfordern",
+    "ctaContact": "Oder kontaktieren Sie unser Team"
+  },
+  "cwPage": {
+    "metaTitle": "Gegengewichtssysteme für Reformeröfen | Linde-zugelassen | Santura Engineering",
+    "metaDescription": "Gegengewichtssysteme für Wasserstoff-Reformer und Spaltöfen. Zugelassener Linde-Lieferant. Seit 1980, Export in über 25 Länder.",
+    "eyebrow": "Reformer- und Spaltöfen",
+    "h1": "Gegengewichtssysteme für Reformer- und Spaltöfen",
+    "subheading": "Hebelarm-Gegengewichtssysteme, die das Gewicht der Strahlungsrohre in Wasserstoff-Reformern und Ethylen-Spaltöfen tragen. Von Santura seit Ende der 1990er-Jahre nach den Konstruktionszeichnungen des Kunden gefertigt.",
+    "lindeBadge": "Zugelassener Lieferant von Linde Engineering India, {period}",
+    "photoAlt": "Feuerverzinkte Gegengewichts-Hebelarmbaugruppe mit Gewichtsstapeln",
+    "photoCaption": "Feuerverzinkte Hebelarmbaugruppe mit Gewichtsstapeln in unserer Werkstatt.",
+    "whatTitle": "Was ein Gegengewichtssystem leistet",
+    "what": [
+      "In Wasserstoff-Reformern und Ethylen-Spaltöfen hängen senkrechte Rohre bei sehr hohen Temperaturen im Feuerraum. Reformerrohre sind mit Katalysator gefüllt, und jedes Rohr kann mit Katalysator mehr als eine Tonne wiegen. Beim Aufheizen werden die Rohre deutlich länger.",
+      "Ein Gegengewichtssystem trägt dieses Gewicht, sodass das Rohr frei hängen und sich ohne Spannung ausdehnen und zusammenziehen kann. Es arbeitet nach dem Hebelprinzip: Ein Gewicht an einem Ende eines gelagerten Hebelarms gleicht das Rohr am anderen Ende aus.",
+      "Die Gelenke müssen sich nahezu reibungsfrei bewegen. Schon kleine Reibungskräfte würden zusätzliche Last in die Rohre leiten und ihre Lebensdauer verkürzen."
+    ],
+    "howTitle": "So funktioniert es",
+    "how": [
+      "Hängestangen führen vom oberen Ende jedes Rohrs durch die Ofendecke zu einem Joch.",
+      "Das Joch ist mit einem Ende eines waagerechten Hebelarms verbunden, der auf einem Lagerbock auf der Deckenkonstruktion gelagert ist.",
+      "Am anderen Ende des Hebelarms hängt ein berechnetes Gegengewicht.",
+      "Das Gegengewicht gleicht das katalysatorgefüllte Rohr, den unteren Pigtail, seinen Anteil am schwimmenden Sammler, die Hälfte des oberen Pigtails und die Aufhängeteile aus.",
+      "Wenn sich das Rohr beim Aufheizen nach unten ausdehnt, neigt sich der Hebelarm leicht und das Gewicht hebt sich, sodass die Tragkraft am Rohr konstant bleibt."
+    ],
+    "diagramAlt": "Schema eines Gegengewichtssystems: Rohr, Hängestange, Joch, Hebelarm, Lagerbock und Gegengewicht",
+    "diagram": [
+      "Reformerrohr (dehnt sich bei Hitze nach unten)",
+      "Hängestange",
+      "Joch",
+      "Hebelarm",
+      "Lagerbock mit Buchsenlager",
+      "Gegengewicht",
+      "Ofendecke"
+    ],
+    "buildTitle": "So baut Santura sie",
+    "buildIntro": "Jedes System wird nach den Konstruktionszeichnungen des Kunden gefertigt. So bauen wir sie:",
+    "build": [
+      {
+        "title": "Gegengewichte",
+        "text": "Blöcke aus Kohlenstoffstahl und Gusseisen, auf die berechnete Ausgleichslast ausgelegt."
+      },
+      {
+        "title": "H- und I-Rahmen",
+        "text": "Hohlprofilrahmen mit importierten ölfreien Graphalloy-Buchsen in Gehäusen aus Kohlenstoffstahl an jedem Gelenk."
+      },
+      {
+        "title": "Gelenkbolzen",
+        "text": "Sondergüte Edelstahl 410S, ein martensitischer Edelstahl mit guter Korrosions- und Hitzebeständigkeit."
+      },
+      {
+        "title": "Gabelköpfe",
+        "text": "Edelstahl, in unserer Werkstatt in Mumbai bearbeitet."
+      },
+      {
+        "title": "Schrauben der Festigkeitsklasse 8.8",
+        "text": "Von einem Unterlieferanten unter unserer engen Überwachung wärmebehandelt, mit geprüfter Härte und Anlassbehandlung."
+      },
+      {
+        "title": "Importierte Unterkomponenten",
+        "text": "Bestimmte Teile werden importiert, um Qualitäts- und Spezifikationsanforderungen zu erfüllen."
+      },
+      {
+        "title": "Feuerverzinkung",
+        "text": "Das komplette System wird nach dem Schweißen zum Korrosionsschutz feuerverzinkt."
+      }
+    ],
+    "lindeEyebrow": "Zugelassener Lieferant",
+    "lindeTitle": "Linde Engineering India",
+    "lindeText": "Santura war von {period} unter der Lieferantennummer {code} zugelassener Lieferant von Gegengewichtssystemen für Linde Engineering India Pvt Ltd. Es ist die einzige namentliche Kundenzulassung für ein bestimmtes Produkt in unseren Unterlagen.",
+    "lindeCodeLabel": "Lieferantennummer",
+    "lindePeriodLabel": "Zulassungszeitraum",
+    "lindeNote": "Historische Zulassung, mit Erlaubnis des Kunden gezeigt.",
+    "lindeCert": "Linde-Zertifikat ansehen (PDF)",
+    "petron": "2006 lieferten wir außerdem Gegengewichtssysteme und Ofenschautüren an Petron Engineering Construction Ltd, die dafür ein Anerkennungsschreiben ausstellte.",
+    "componentsTitle": "Systemkomponenten",
+    "components": [
+      {
+        "title": "Hebelarmbaugruppe",
+        "text": "H- oder I-Trägerrahmen mit Gelenkbuchsen; der Waagebalken des Systems."
+      },
+      {
+        "title": "Gewichtsstapel",
+        "text": "Berechnete Masse aus Kohlenstoffstahl- oder Gusseisenblöcken, mit dem Hebelarm verschraubt oder verstiftet."
+      },
+      {
+        "title": "Hängestangen",
+        "text": "Verbinden das Rohr durch die Ofendecke mit dem Hebelarm und nehmen die Wärmedehnung auf."
+      },
+      {
+        "title": "Jochbaugruppe",
+        "text": "Verbindet die Hängestangen mit dem Ende des Hebelarms."
+      },
+      {
+        "title": "Gabelkopf- und Bolzengelenke",
+        "text": "Edelstahl-Gabelköpfe mit SS-410S-Bolzen an jeder Verbindung, damit jedes Gelenk frei schwenkt."
+      },
+      {
+        "title": "Graphalloy-Buchsen",
+        "text": "Importierte ölfreie, selbstschmierende Lager in Gehäusen aus Kohlenstoffstahl an allen Gelenken."
+      },
+      {
+        "title": "Lagerbock",
+        "text": "Tragrahmen auf der Ofendecke, der das Hebelarmgelenk aufnimmt."
+      },
+      {
+        "title": "Schrauben 8.8",
+        "text": "Wärmebehandelte hochfeste Schrauben für alle tragenden Verbindungen."
+      }
+    ],
+    "applicationsTitle": "Anwendungen",
+    "applications": [
+      {
+        "title": "Wasserstoff-Reformer",
+        "text": "Dampfreformer, die Hauptanwendung. Katalysatorgefüllte Rohre hängen senkrecht im Feuerraum. Eingesetzt in Wasserstoff-, Ammoniak- und Methanolanlagen."
+      },
+      {
+        "title": "Ethylen-Spaltöfen",
+        "text": "Steamcracker, bei denen eine gute Abstützung der Strahlungsrohrschlangen entscheidend für ihre Lebensdauer ist."
+      },
+      {
+        "title": "Weitere Reformer",
+        "text": "Autotherme und Sekundärreformer."
+      },
+      {
+        "title": "Branchen",
+        "text": "Raffinerien, Petrochemie, Ammoniak- und Düngemittelanlagen, Methanolanlagen und Wasserstofferzeugung."
+      }
+    ],
+    "whyTitle": "Warum Fertigungsqualität zählt",
+    "why": [
+      {
+        "title": "Rohrlebensdauer",
+        "text": "Reformerrohre sind teuer, und ein Austausch bedeutet einen ungeplanten Stillstand. Ein System, das nicht genau ausgleicht, belastet die Rohre ungleichmäßig und führt zu frühem Kriechversagen."
+      },
+      {
+        "title": "Reibung",
+        "text": "Reibung in den Gelenken leitet zusätzliche Last in die Rohre. Ölfreie Graphalloy-Buchsen werden vorgeschrieben, weil geschmierte Lager bei diesen Temperaturen nicht zuverlässig arbeiten."
+      },
+      {
+        "title": "Schrauben",
+        "text": "Falsch wärmebehandelte Schrauben können unter Dauerlast bei hoher Temperatur versagen; deshalb überwachen wir Härte und Anlassbehandlung."
+      },
+      {
+        "title": "Tausende Zyklen",
+        "text": "Das System muss über viele Betriebsjahre Tausende Aufheiz- und Abkühlzyklen hinweg im Gleichgewicht bleiben."
+      }
+    ],
+    "specTitle": "Spezifikationen",
+    "colComponent": "Komponente",
+    "colSpec": "Spezifikation",
+    "specRows": [
+      {
+        "label": "Werkstoff der Gewichte",
+        "value": "Kohlenstoffstahl / Gusseisen"
+      },
+      {
+        "label": "Rahmenbauart",
+        "value": "H- und I-Profil, hohl, mit eingebetteten Graphalloy-Buchsen"
+      },
+      {
+        "label": "Gelenkbolzen",
+        "value": "SS 410S (martensitischer Edelstahl)"
+      },
+      {
+        "label": "Gabelköpfe",
+        "value": "Edelstahl, bearbeitet"
+      },
+      {
+        "label": "Buchsen",
+        "value": "Importierte ölfreie, selbstschmierende Graphalloy-Lager"
+      },
+      {
+        "label": "Schrauben",
+        "value": "Festigkeitsklasse 8.8, wärmebehandelt, Härte und Anlassen kontrolliert"
+      },
+      {
+        "label": "Oberfläche",
+        "value": "Nach dem Schweißen feuerverzinkt"
+      },
+      {
+        "label": "Fertigung",
+        "value": "Nach den Konstruktionszeichnungen des Kunden"
+      },
+      {
+        "label": "Auslegungsgrundlage",
+        "value": "Kunden- und Lizenzgeberspezifikationen für Erhitzer nach API 560"
+      }
+    ],
+    "relatedTitle": "Verwandte Produkte und Leistungen",
+    "relatedPipeGuides": "Rohrführungen, Ringhülsen und Rohrhalterungen für befeuerte Erhitzer.",
+    "relatedSupportPlates": "Tragkonsolen und Fußplatten für den Ofenstahlbau.",
+    "relatedAnchors": "SEPL-Anker für die Auskleidung von Reformer- und Spaltöfen.",
+    "relatedSwText": "Bolzenschweißen von Ankern an Ofenmänteln.",
+    "relatedPmiText": "Legierungsprüfung von Edelstahlbolzen und Gabelköpfen.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Was ist ein Gegengewichtssystem in einem Reformer?",
+        "a": "Es ist ein Hebelsystem auf der Ofendecke, das das Gewicht jedes Reformerrohrs trägt. Eine Hängestange verbindet das Rohr mit einem Ende eines gelagerten Hebelarms, ein berechnetes Gewicht am anderen Ende gleicht es aus. Wenn sich das Rohr erwärmt und länger wird, neigt sich der Hebel und die Tragkraft bleibt gleich, sodass sich das Rohr spannungsfrei ausdehnen kann."
+      },
+      {
+        "q": "Warum werden Graphalloy-Buchsen verwendet?",
+        "a": "Graphalloy ist ein Lagerwerkstoff aus Graphit und Metall, der ohne Öl oder Fett läuft und auch bei hohen Temperaturen funktioniert. Jedes Gelenk eines Gegengewichtssystems muss sich nahezu reibungsfrei bewegen, weil Reibung zusätzliche Last in die Rohre leiten würde. Geschmierte Lager trocknen in diesem Einsatz aus oder fressen sich fest, daher werden ölfreie Graphalloy-Buchsen eingesetzt."
+      },
+      {
+        "q": "Aus welchem Werkstoff sind die Gelenkbolzen?",
+        "a": "Unsere Gelenkbolzen bestehen aus Sondergüte Edelstahl 410S, einem martensitischen Edelstahl mit guter Korrosions- und Hitzebeständigkeit. Sie laufen in Edelstahl-Gabelköpfen, die in unserer Werkstatt in Mumbai bearbeitet werden."
+      },
+      {
+        "q": "Was ist die Linde-Zulassung?",
+        "a": "Linde Engineering India Pvt Ltd hat Santura von {period} unter der Lieferantennummer {code} als Lieferanten von Gegengewichtssystemen zugelassen. Die Zulassung galt genau für dieses Produkt. Es ist eine historische Zulassung, und das Zertifikat wird auf dieser Seite mit Erlaubnis des Kunden gezeigt."
+      }
+    ],
+    "ctaTitle": "Sie benötigen Gegengewichtssysteme?",
+    "ctaText": "Senden Sie uns Ihre Konstruktionszeichnungen mit Rohranzahl, Ausgleichslasten und Lieferplan. Wir antworten mit Angebot und Lieferzeit.",
+    "ctaRfq": "Angebot für Gegengewichtssysteme anfordern",
+    "ctaContact": "Oder kontaktieren Sie unser Team"
+  },
+  "mwPage": {
+    "metaTitle": "Mineralwolle-Dämmung Lieferant | Steinwolle & Glaswolle",
+    "metaDescription": "Mineralwolle-Dämmung: Steinwolle- und Glaswolle-Platten, -Rollen und -Rohrschalen. Lieferant seit 1980, Export in über 25 Länder. Angebot anfordern.",
+    "eyebrow": "Dämmstoffe",
+    "h1": "Mineralwolle-Dämmung",
+    "subheading": "Steinwolle und Glaswolle als Rollen, Platten, Matten, Drahtnetzmatten, Rohrschalen und lose Wolle für Raffinerien, Kraftwerke, Schiffe und Gebäude. Nach Projektspezifikation geliefert, zusammen mit den Dämmstoffhaltern zur Befestigung.",
+    "gallery": [
+      "Mineralwolle-Dämmplatten und -Rollen",
+      "Vorgeformte Rohrschalen aus Mineralwolle",
+      "Steinwolle-Rolle mit Aluminiumkaschierung",
+      "Nahaufnahme von Mineralwollefasern"
+    ],
+    "overviewTitle": "Was Mineralwolle ist",
+    "overview": "Mineralwolle ist der Oberbegriff für faserförmige Dämmstoffe, die durch Schmelzen natürlicher oder recycelter Mineralien und Verspinnen zu feinen Fasern entstehen. Die Fasern werden mit einem Harzbinder gebunden, damit das Produkt formstabil bleibt. Santura liefert die beiden Hauptarten: Steinwolle für die industrielle Hochtemperaturdämmung und Glaswolle für Gebäude, Lüftungstechnik und Schallschutz.",
+    "types": [
+      {
+        "title": "Steinwolle",
+        "tag": "Bis 750 °C · 30–200 kg/m³",
+        "text": "Aus ausgewähltem Gestein wie Basalt, bei etwa 1500 °C im Kupolofen geschmolzen und mit hoher Geschwindigkeit zu Fasern versponnen. Lieferbar als Rollen, Platten, Matten, Drahtnetzmatten, Rohrschalen und lose Wolle. Die Standardwahl für heiße Rohrleitungen, Behälter, Kessel und Kanäle."
+      },
+      {
+        "title": "Glaswolle",
+        "tag": "Bis etwa 450 °C · geringeres Gewicht",
+        "text": "Aus bis zu 70 % Recyclingglas mit Sand, bei etwa 1550 °C geschmolzen und zu feinen Fasern versponnen. Leicht, einfach zu verlegen und gut schallabsorbierend. Weit verbreitet für Dächer, Wände, Lüftungskanäle und Schalldämmung."
+      }
+    ],
+    "traits": [
+      "Nicht brennbar",
+      "Asbestfrei",
+      "Gesundheitlich unbedenklich",
+      "Verrottungsfest",
+      "Beständig gegen Insekten und Ungeziefer",
+      "Kein Schrumpfen im Betrieb"
+    ],
+    "rwTitle": "Steinwolle-Produkte",
+    "rwIntro": "Steinwolle wird in sechs Formen geliefert. Dicke und Rohdichte richten sich nach Betriebstemperatur, Oberfläche und mechanischer Belastung.",
+    "colForm": "Form",
+    "colThickness": "Dicke",
+    "colDensity": "Rohdichte",
+    "colUse": "Typische Anwendung",
+    "rwForms": [
+      {
+        "form": "Rollen für Gebäude",
+        "thickness": "40–100 mm",
+        "density": "36, 48, 64 kg/m³ und mehr",
+        "text": "Wärme- und Schalldämmung von Metallgebäuden: über und unter Dachpfetten, Wände, Trennwände und Abhangdecken."
+      },
+      {
+        "form": "Platten",
+        "thickness": "25–200 mm",
+        "density": "30–200 kg/m³",
+        "text": "Starre oder halbstarre Platten für Kanäle, Behälter, Apparate und ebene oder leicht gewölbte Flächen; auch Bau, Schiffbau und Brandschutz."
+      },
+      {
+        "form": "Dämmmatten (Batts)",
+        "thickness": "25–118 mm",
+        "density": "100–150 kg/m³",
+        "text": "Unkaschierte, besonders steife Matten für Wärme- und Brandschutz und als Kern von Sandwichpaneelen."
+      },
+      {
+        "form": "Drahtnetzmatten",
+        "thickness": "25–100 mm",
+        "density": "70–150 kg/m³",
+        "text": "Mit verzinktem oder Edelstahl-Sechseckgeflecht kaschiert und auf Maß versteppt. Für Kessel, Lagertanks und Rohrleitungen bis 750 °C sowie im Schiffbau."
+      },
+      {
+        "form": "Rohrschalen",
+        "thickness": "25–100 mm",
+        "density": "100, 128, 136, 144 kg/m³",
+        "text": "Vorgeformte Schalen für Rohrleitungen bis 750 °C, mit oder ohne Aluminiumkaschierung. Eingesetzt in Kraftwerken und Raffinerien."
+      },
+      {
+        "form": "Lose Wolle",
+        "thickness": "—",
+        "density": "Verschieden",
+        "text": "Leicht gebundene Steinwolle zum Ausstopfen um Rohrbündel und unregelmäßige Hohlräume."
+      }
+    ],
+    "pipeNote": "Rohrschalen werden auf einem Dorn gewickelt und konzentrisch geformt, passend zu Standardrohrdurchmessern. Sie dämmen gleichmäßig über den vollen Umfang von 360°, sind im Betrieb druckfest und schnell zu montieren.",
+    "gwTitle": "Glaswolle-Produkte",
+    "gwIntro": "Glaswolle ist leichter als Steinwolle und wird vor allem bei niedrigeren Temperaturen und dort eingesetzt, wo Schallabsorption wichtig ist.",
+    "gwForms": [
+      {
+        "title": "Rollen und Filze",
+        "text": "Hohlwände, Dach- und Dachbodendämmung sowie Ummantelung von Lüftungskanälen."
+      },
+      {
+        "title": "Starre und halbstarre Platten",
+        "text": "Vorhangfassaden, Trennwandfüllung und Deckenplatten."
+      },
+      {
+        "title": "Rohrschalen",
+        "text": "Dämmung von Rohrleitungen mit niedrigerer Temperatur."
+      },
+      {
+        "title": "Einblasdämmung",
+        "text": "Eingeblasene Dämmung für Hohlräume und Dachböden."
+      }
+    ],
+    "compareTitle": "Steinwolle und Glaswolle im Vergleich",
+    "colProperty": "Eigenschaft",
+    "colRockwool": "Steinwolle",
+    "colGlassWool": "Glaswolle",
+    "compareRows": [
+      {
+        "label": "Rohstoff",
+        "rw": "Basalt / Diabas",
+        "gw": "Bis 70 % Recyclingglas mit Sand"
+      },
+      {
+        "label": "Schmelztemperatur",
+        "rw": "Etwa 1500 °C",
+        "gw": "Etwa 1550 °C"
+      },
+      {
+        "label": "Max. Anwendungstemperatur",
+        "rw": "750 °C",
+        "gw": "Etwa 450 °C (produktabhängig)"
+      },
+      {
+        "label": "Rohdichte",
+        "rw": "30–200 kg/m³",
+        "gw": "10–80 kg/m³"
+      },
+      {
+        "label": "Dicke",
+        "rw": "25–200 mm",
+        "gw": "25–150 mm"
+      },
+      {
+        "label": "Wärmeleitfähigkeit (λ)",
+        "rw": "0,034–0,045 W/m·K",
+        "gw": "0,030–0,040 W/m·K"
+      },
+      {
+        "label": "Brandverhalten",
+        "rw": "Nicht brennbar (Euroklasse A1)",
+        "gw": "Nicht brennbar (Euroklasse A1 oder A2)"
+      },
+      {
+        "label": "Schallabsorption",
+        "rw": "Sehr gut (NRC 0,90–1,05)",
+        "gw": "Sehr gut (NRC 0,85–1,00)"
+      },
+      {
+        "label": "Feuchte",
+        "rw": "Wasserabweisende Ausrüstung lieferbar",
+        "gw": "Wasserabweisende Ausrüstung lieferbar"
+      },
+      {
+        "label": "Korrosionsverhalten",
+        "rw": "Frei von Halogeniden und Sulfiden; sicher unter Edelstahlummantelung",
+        "gw": "Geringer Chloridgehalt"
+      }
+    ],
+    "compareNote": "Typische Werte. Die genauen Angaben hängen von Produkt, Rohdichte und Hersteller ab; Datenblatt und Prüfzeugnisse des Herstellers werden mit jeder Lieferung mitgeliefert.",
+    "traitsTitle": "Eigenschaften",
+    "characteristics": [
+      "Asbestfrei und gesundheitlich unbedenklich",
+      "Verrottungsfest, geruchlos und beständig gegen Pilze, Insekten und Ungeziefer",
+      "Schrumpft und setzt sich nicht",
+      "Nimmt keine Feuchtigkeit aus der Luft auf; unter Druck eingedrungenes Wasser trocknet durch die offene Faserstruktur schnell ab",
+      "Chemisch inert und fördert keine Schimmelbildung",
+      "Ohne FCKW oder HFCKW hergestellt"
+    ],
+    "corrosionTitle": "Korrosionsschutz",
+    "corrosionText": "Steinwollefasern sind frei von Halogeniden (Chloriden und Fluoriden) und Sulfiden, Verunreinigungen, die in manchen anderen Dämmstoffen vorkommen. Sie wird im Trockenverfahren hergestellt und ist leicht alkalisch, was Korrosion entgegenwirkt. Dadurch ist sie sicher auf Edelstahl, wo Chloride Spannungsrisskorrosion unter der Dämmung verursachen können. Sie erfüllt bei Bedarf ASTM C795.",
+    "standardsTitle": "Normen und Prüfung",
+    "standards": [
+      "Stationäre Wärmeübertragung von Rohrdämmungen",
+      "Wärmeleitfähigkeit mit dem Plattengerät (Guarded Hot Plate)",
+      "Wärmeleitfähigkeit mit dem Wärmestrommessgerät",
+      "Rohrdämmung aus Mineralfasern",
+      "Mineralfasermatten für die Industrie",
+      "Mineralfaser-Blöcke und -Platten",
+      "Mineralfasermatten für Gebäude",
+      "Dämmstoffe für den Einsatz auf austenitischem Edelstahl",
+      "Werkmäßig hergestellte Mineralwolleprodukte für Gebäude",
+      "Vorgeformte Mineralfaser-Rohrschalen und Wärmedämmstoffe"
+    ],
+    "applicationsTitle": "Anwendungen nach Branche",
+    "applications": [
+      {
+        "title": "Öl, Gas und Petrochemie",
+        "items": [
+          "Warm- und Kältedämmung von Prozessleitungen",
+          "Behälter, Kolonnen, Tanks und Wärmetauscher",
+          "Außendämmung befeuerter Erhitzer und Öfen"
+        ]
+      },
+      {
+        "title": "Energieerzeugung",
+        "items": [
+          "Kesseldämmung und Turbinenverkleidung",
+          "Dämmung von Rauchgaskanälen",
+          "Dämmung von Abhitzekesseln in GuD-Kraftwerken"
+        ]
+      },
+      {
+        "title": "Bau und Lüftungstechnik",
+        "items": [
+          "Wände, Dächer und Böden",
+          "Ummantelung und Auskleidung von Lüftungskanälen",
+          "Schalldämmung von Trennwänden und Decken",
+          "Feuerwiderstandsfähige Wand- und Deckenaufbauten"
+        ]
+      },
+      {
+        "title": "Schiffbau und Offshore",
+        "items": [
+          "Dämmung von Schotten und Decks",
+          "Wärme- und Schalldämmung von Maschinenräumen",
+          "Rohrdämmung auf Offshore-Plattformen"
+        ]
+      },
+      {
+        "title": "Industrie und Fertigung",
+        "items": [
+          "Außendämmung von Brennöfen und Trockenöfen",
+          "Kühlhäuser und Lebensmittelverarbeitung",
+          "Lärmschutz in Fabriken"
+        ]
+      }
+    ],
+    "supplyTitle": "Unser Lieferumfang",
+    "supply": [
+      "Santura liefert Steinwolle- und Glaswolle-Dämmung an Raffinerien, Petrochemieanlagen, Kraftwerke und Bauprojekte und exportiert in mehr als 25 Länder. Die Produkte stammen von etablierten Herstellern und werden nach Ihrer Projektspezifikation mit den Prüfzeugnissen des Herstellers geliefert.",
+      "Da wir Dämmstoffhalter und Scheiben selbst herstellen, können wir Dämmung und Befestigung zusammen als komplettes Dämmpaket liefern."
+    ],
+    "relatedTitle": "Verwandte Produkte und Leistungen",
+    "relatedPins": "Schweißstifte und Scheiben zur Befestigung von Mineralwolleplatten und -matten.",
+    "relatedCalsil": "Starre Calciumsilikatplatten und -schalen für die Hochtemperaturdämmung.",
+    "relatedAnchors": "SEPL-Anker für die Feuerfestauskleidung hinter der Hochtemperaturdämmung.",
+    "relatedSwText": "Bolzenschweißgeräte zum Setzen von Dämmstoffhaltern.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Was ist der Unterschied zwischen Steinwolle und Glaswolle?",
+        "a": "Steinwolle wird aus Basalt hergestellt, verträgt Temperaturen bis 750 °C und hat eine höhere Rohdichte (30–200 kg/m³); sie ist daher die Wahl für die industrielle Hochtemperaturdämmung. Glaswolle besteht aus Recyclingglas, ist leichter (10–80 kg/m³) und eignet sich bis etwa 450 °C. Sie wird für Lüftungstechnik, Schall- und Gebäudedämmung bevorzugt."
+      },
+      {
+        "q": "Welche Temperaturen hält Mineralwolle aus?",
+        "a": "Steinwolle kann dauerhaft bis 750 °C eingesetzt werden, Glaswolle je nach Produkt bis etwa 450 °C. Beide sind nicht brennbar: unkaschierte Steinwolle ist Euroklasse A1, Glaswolle je nach Produkt A1 oder A2."
+      },
+      {
+        "q": "Welche Dicken und Rohdichten sind lieferbar?",
+        "a": "Steinwolle ist von 25 mm bis 200 mm Dicke und von 30 bis 200 kg/m³ lieferbar. Glaswolle reicht von 25 mm bis 150 mm Dicke und von 10 bis 80 kg/m³. Andere Ausführungen auf Anfrage."
+      },
+      {
+        "q": "Ist Mineralwolle sicher und asbestfrei?",
+        "a": "Ja. Die von uns gelieferte Mineralwolle ist asbestfrei, gesundheitlich unbedenklich, ohne FCKW oder HFCKW hergestellt, verrottungsfest und chemisch inert. Mit üblicher Schutzausrüstung ist sie sicher zu verarbeiten, und Steinwolle ist frei von den Chloriden, die unter Edelstahlummantelungen Korrosion verursachen."
+      }
+    ],
+    "ctaTitle": "Sie benötigen Mineralwolle-Dämmung?",
+    "ctaText": "Nennen Sie uns Produktform, Dicke, Rohdichte, Kaschierung, Menge und Betriebstemperatur. Wir antworten mit Angebot und Lieferzeit.",
+    "ctaRfq": "Angebot für Mineralwolle anfordern",
+    "ctaContact": "Oder kontaktieren Sie unser Team"
+  },
+  "cgPage": {
+    "metaTitle": "Keramikdichtungen & Hochtemperaturdichtungen | Lieferant",
+    "metaDescription": "Keramikfaser-Dichtungen, -Schnüre, -Bänder und Industriedichtungen für Öfen und Raffinerien. Lieferant seit 1980, Export in 25+ Länder. Angebot anfordern.",
+    "eyebrow": "Dämmung und Dichtung",
+    "h1": "Keramikdichtungen und Hochtemperatur-Dichtprodukte",
+    "subheading": "Keramikfaserschnur, -band, -papier, -matte, -platte, -gewebe und Tadpole-Dichtungen für Ofentüren, Dehnfugen und Rauchgasdichtungen, dazu asbestfreie, PTFE-, Graphit- und Spiraldichtungen für Rohrflansche. Ein Lieferant für Hochtemperatur- und Flanschdichtungen.",
+    "gallery": [
+      "Verschiedene Industriedichtungen, darunter Spiraldichtungen",
+      "Asbestfreie Flanschdichtungen",
+      "Schwarze Dichtungsplatte aus Faserwerkstoff"
+    ],
+    "overviewTitle": "Was Keramikdichtungen sind",
+    "overview": [
+      "Keramikdichtungen sind Hochtemperaturdichtungen aus Keramikfaser, einem Alumosilikat. Sie dichten Fugen, Türen, Flansche und Dehnspalte in Öfen, Brennöfen, befeuerten Erhitzern und Kesseln ab. Standard-Keramikfaser ist bis 1260 °C klassifiziert, Zirkonsorten noch höher, weit über dem Bereich von Gummi- oder Faserstoffdichtungen.",
+      "Für Rohrflansche und Druckgeräte bei niedrigeren Temperaturen liefern wir auch konventionelle Industriedichtungen: asbestfrei, PTFE, Graphit, Spiraldichtungen, Ringjoint- und Doppelmanteldichtungen. So haben Raffinerien, Petrochemieanlagen und Kraftwerke eine Bezugsquelle für ihren Dichtungsbedarf."
+    ],
+    "ceramicTitle": "Keramikfaser-Dichtprodukte",
+    "ceramicIntro": "Alle Keramikfaserprodukte sind asbestfrei und chemisch inert. Die Form richtet sich nach der Fugengeometrie und danach, wie oft geöffnet wird.",
+    "ceramic": [
+      {
+        "name": "Keramikfaserschnur (rund)",
+        "text": "Geflochtene oder gedrehte Rundschnur für Türdichtungen, Dehnfugen und Stopfbuchsen.",
+        "sizes": "Ø 6–50 mm · Längen nach Wunsch"
+      },
+      {
+        "name": "Keramikfaserschnur (vierkant)",
+        "text": "Geflochtene Vierkantschnur für Ofentürrahmen und Ofendichtungen.",
+        "sizes": "6 × 6 mm bis 50 × 50 mm"
+      },
+      {
+        "name": "Keramikfaserband",
+        "text": "Gewebtes Flachband zum Umwickeln von Flanschen und Rohrverbindungen sowie als Kabelschutz.",
+        "sizes": "25–150 mm breit · 2–5 mm dick"
+      },
+      {
+        "name": "Keramikfaserpapier",
+        "text": "Dünnes, flexibles Material für gestanzte Dichtungen, Flanschdichtungen und Elektroisolation.",
+        "sizes": "1–6 mm dick · Rollen bis 1000 mm breit"
+      },
+      {
+        "name": "Keramikfasermatte",
+        "text": "Genadelte, flexible Matte für Auskleidungen, Umwicklungen und Hinterdämmung.",
+        "sizes": "6–50 mm dick · 64–192 kg/m³"
+      },
+      {
+        "name": "Keramikfaserplatte",
+        "text": "Starre, vakuumgeformte Platte für Ofenauskleidungen, Leitbleche und Rauchgasdichtungen.",
+        "sizes": "6–50 mm dick · 280–400 kg/m³"
+      },
+      {
+        "name": "Keramikfasergewebe",
+        "text": "Gewebter Stoff für Vorhänge, Schweißdecken und abnehmbare Dämmhauben.",
+        "sizes": "1,5–5 mm dick"
+      },
+      {
+        "name": "Tadpole-Dichtungen",
+        "text": "Dichtungen mit Wulst und Fahne für Ofen- und Industrieofentüren; die Fahne wird am Rahmen geklemmt oder vernietet.",
+        "sizes": "Wulst Ø 10–40 mm · Fahne 25–100 mm"
+      }
+    ],
+    "convTitle": "Industriedichtungen",
+    "convIntro": "Diese Dichtungen liefern wir über einen etablierten Dichtungshersteller nach Ihrer Spezifikation und Flanschnorm.",
+    "colType": "Art",
+    "colMaterial": "Werkstoff",
+    "colMaxTemp": "Max. Temperatur",
+    "colUse": "Typische Anwendung",
+    "conventional": [
+      {
+        "name": "Asbestfrei (Ersatz für CAF)",
+        "material": "Aramid- oder Glasfaser mit NBR-Binder",
+        "temp": "Etwa 450 °C",
+        "text": "Ersatz für Asbestfaserdichtungen. Luftverdichter, Leitungen von Dieselmotoren, Industrie und Schifffahrt."
+      },
+      {
+        "name": "PTFE-Dichtungen",
+        "material": "Reines oder gefülltes PTFE",
+        "temp": "Etwa 260 °C",
+        "text": "Flansche mit aggressiven Medien wie Säuren, Laugen und Lösemitteln."
+      },
+      {
+        "name": "Graphitdichtungen",
+        "material": "Flexibler Graphit, glatt oder mit Spießblech, wahlweise mit Edelstahl- oder Nickeleinlage",
+        "temp": "Etwa 450 °C an Luft, 650 °C in Dampf",
+        "text": "Schwere Betriebsbedingungen. Selbstschmierend und klebt nicht an Flanschen."
+      },
+      {
+        "name": "Spiraldichtungen",
+        "material": "Windungen aus SS304 / SS316 mit Graphit- oder PTFE-Füllung",
+        "temp": "Etwa 600 °C",
+        "text": "Flansche in Raffinerie und Petrochemie, hoher Druck und Temperaturwechsel."
+      },
+      {
+        "name": "Ringjoint-Dichtungen (RTJ)",
+        "material": "Massiver Edelstahl oder Inconel",
+        "temp": "600 °C und mehr",
+        "text": "Hochdruck-RTJ-Flansche in der Öl- und Gasindustrie."
+      },
+      {
+        "name": "Doppelmanteldichtungen",
+        "material": "Metallmantel mit weicher Füllung",
+        "temp": "Etwa 550 °C",
+        "text": "Wärmetauscher und Flansche großer Nennweite."
+      },
+      {
+        "name": "Gummi- und NBR-Dichtungen",
+        "material": "Naturkautschuk, NBR und andere Elastomere",
+        "temp": "Etwa 100–120 °C",
+        "text": "Wasser, Öl und allgemeine Anwendungen bei niedriger Temperatur."
+      }
+    ],
+    "specTitle": "Eigenschaften der Keramikfaser",
+    "specRows": [
+      {
+        "label": "Klassifizierungstemperatur",
+        "value": "1260 °C (Standard), bis 1400 °C (Zirkonsorte)"
+      },
+      {
+        "label": "Dauerbetriebstemperatur",
+        "value": "1000–1260 °C, je nach Sorte"
+      },
+      {
+        "label": "Chemische Zusammensetzung",
+        "value": "Al₂O₃ 45–55 %, SiO₂ 45–55 % (Standard); ZrO₂ 15–17 % (Zirkonsorte)"
+      },
+      {
+        "label": "Farbe",
+        "value": "Weiß"
+      },
+      {
+        "label": "Wärmeleitfähigkeit",
+        "value": "0,08–0,23 W/m·K bei Mitteltemperaturen von 200–1000 °C"
+      },
+      {
+        "label": "Asbestgehalt",
+        "value": "Keiner: 100 % asbestfrei"
+      }
+    ],
+    "specNote": "Typische Werte. Die genauen Angaben hängen von Produktform, Sorte und Hersteller ab; Datenblatt und Prüfzeugnisse des Herstellers werden mit jeder Lieferung mitgeliefert.",
+    "dimTitle": "Maße zugeschnittener Dichtungen",
+    "dimIntro": "Flanschdichtungen aus Faserstoff nach dem Muster ASME B16.21. Alle Maße in Millimetern.",
+    "colNps": "Nennweite",
+    "colId": "Innendurchmesser",
+    "colOd": "Außendurchmesser je Druckstufe",
+    "colClass": "Class {cls}",
+    "dimNote": "Zugeschnittene Dichtungen sind in ASME-Standardgrößen lieferbar. Sondergrößen und andere Druckstufen nach Zeichnung.",
+    "standardsTitle": "Normen",
+    "standards": [
+      "Hochtemperatur-Fasermatten zur Wärmedämmung",
+      "Prüfverfahren für Keramikfaserprodukte",
+      "Feuerfeste Dämmstoffe: Keramikfaserprodukte",
+      "Metallische Dichtungen für Rohrflansche (Spiral-, Ringjoint-, Manteldichtungen)",
+      "Nichtmetallische Flachdichtungen für Rohrflansche",
+      "Nichtmetallische Flachdichtungen: Kennwerte"
+    ],
+    "applicationsTitle": "Anwendungen nach Branche",
+    "applications": [
+      {
+        "title": "Öl, Gas und Petrochemie",
+        "items": [
+          "Türdichtungen und Schauloch-Dichtungen an befeuerten Erhitzern",
+          "Packungen für Ofendehnfugen",
+          "Flanschdichtungen an heißen Prozessleitungen",
+          "Dichtungen an Katalysator-Regeneratoren und Fackeln"
+        ]
+      },
+      {
+        "title": "Energieerzeugung",
+        "items": [
+          "Dichtungen an Kesseltüren und Inspektionsöffnungen",
+          "Dehnfugen in Abhitzekesselkanälen",
+          "Dichtungen am Turbinenabgas",
+          "Dichtungen an Economisern und Luftvorwärmern"
+        ]
+      },
+      {
+        "title": "Stahl, Metalle und Zement",
+        "items": [
+          "Dichtungen an Brennofentüren und Ofenwagen",
+          "Schnurdichtungen an Glühofentüren",
+          "Dichtungen an Pfannendeckeln",
+          "Dichtungen am Klinkerkühler"
+        ]
+      },
+      {
+        "title": "Glas und Keramik",
+        "items": [
+          "Dichtungen an Gewölbe und Brennerports von Glaswannen",
+          "Dichtungen an Speiserkanälen",
+          "Türdichtungen an Keramikbrennöfen"
+        ]
+      },
+      {
+        "title": "Allgemeine Industrie",
+        "items": [
+          "Dichtungen in Verbrennungs- und Müllheizkraftwerken",
+          "Türdichtungen an Wärmebehandlungsöfen",
+          "Dichtungen an Förderschlitzen von Öfen",
+          "Dichtungen in Abgasanlagen"
+        ]
+      }
+    ],
+    "supplyTitle": "Unser Lieferumfang",
+    "supply": [
+      "Santura liefert Keramikfaserdichtungen, -schnüre, -bänder, -papiere und -matten sowie asbestfreie, PTFE-, Graphit- und Spiraldichtungen an Raffinerien, Petrochemieanlagen, Kraftwerke, Stahl- und Zementwerke und exportiert in mehr als 25 Länder. Die Produkte stammen von etablierten Herstellern und werden nach Ihrer Spezifikation mit den Prüfzeugnissen des Herstellers geliefert.",
+      "Da wir Feuerfestanker, Dämmstoffhalter und SEPL-24-Keramikfaser-Bolzenanker selbst herstellen, liefern wir ein komplettes Ofenauskleidungspaket aus einer Hand: Anker, Bolzen, Dichtungen und Dämmstoffe."
+    ],
+    "relatedTitle": "Verwandte Produkte",
+    "relatedMineralWool": "Steinwolle- und Glaswolledämmung für Rohre, Behälter und Kanäle.",
+    "relatedPins": "Schweißstifte und Scheiben zur Befestigung von Matten und Dämmung.",
+    "relatedAnchors": "SEPL-Anker für komplette Ofenauskleidungen.",
+    "relatedSepl24": "Bolzengeschweißte Anker für Keramikfasermatten- und Modulauskleidungen.",
+    "relatedDoors": "Schau- und Peeptüren, abgedichtet mit Keramikfaserschnur und -dichtungen.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Welche Temperatur halten Keramikfaserdichtungen aus?",
+        "a": "Standard-Keramikfaserdichtungen aus Alumosilikat sind bis 1260 °C klassifiziert, im Dauerbetrieb typischerweise bis etwa 1000 °C. Zirkonsorten halten bis 1400 °C stand. Sie sind nicht brennbar und eignen sich für Ofentüren, Dehnfugen und Rauchgasdichtungen."
+      },
+      {
+        "q": "Welche Arten von Keramikdichtungen gibt es?",
+        "a": "Zu den Keramikfaser-Dichtprodukten gehören runde und vierkantige Flechtschnur, gewebtes Band, Keramikpapier für Stanzdichtungen, Tadpole-Türdichtungen, Gewebe und Matten sowie starre Platten für Leitblechdichtungen. Alle sind asbestfrei und chemisch inert."
+      },
+      {
+        "q": "Was ist der Unterschied zwischen Keramikdichtungen und konventionellen Industriedichtungen?",
+        "a": "Keramikfaserdichtungen halten 1000–1260 °C und werden für Ofentüren und Dehnfugen bei geringem Druck eingesetzt. Konventionelle Dichtungen (asbestfrei bis etwa 450 °C, PTFE etwa 260 °C, Graphit etwa 450 °C an Luft, Spiraldichtungen etwa 600 °C) dichten Rohrflansche und Druckbehälter bei niedrigeren Temperaturen. Santura liefert beides."
+      },
+      {
+        "q": "Liefern Sie Dichtungen nach ASME-Normen?",
+        "a": "Ja. Wir liefern Spiral-, Ringjoint- und Manteldichtungen nach ASME B16.20 und nichtmetallische Flachdichtungen nach ASME B16.21. Zugeschnittene Dichtungen gibt es in ASME-Standardflanschgrößen; andere Größen und Druckstufen werden nach Zeichnung gefertigt."
+      }
+    ],
+    "ctaTitle": "Sie benötigen Keramik- oder Flanschdichtungen?",
+    "ctaText": "Nennen Sie uns Produkt, Größe oder Flanschnorm, Druckstufe, Temperatur und Menge. Wir antworten mit Angebot und Lieferzeit.",
+    "ctaRfq": "Angebot für Dichtungen anfordern",
+    "ctaContact": "Oder kontaktieren Sie unser Team"
+  },
+  "gfPage": {
+    "metaTitle": "Glasfaserplatten, Glasgewebe & Glaswolle | Lieferant",
+    "metaDescription": "Glasfaserplatten, Glasgewebe, Glasfaserband und Glaswolle-Dämmung für die Industrie. Lieferant seit 1980, Export in über 25 Länder. Angebot anfordern.",
+    "eyebrow": "Dämmstoffe",
+    "h1": "Glasfaserplatten, Glasgewebe und Glaswolle",
+    "subheading": "Glasfaserplatten und -laminate, Glasgewebe und -bänder sowie Glaswolle-Rollen, -Rohrschalen und -Drahtnetzmatten für Dämmung, Ummantelung und Verstärkung. Nach Projektspezifikation geliefert, mit den passenden Stiften und Bolzen zur Befestigung.",
+    "gallery": [
+      "Rolle Glasfaser-Schnittmatte",
+      "Spulen mit Glasfaser-Roving",
+      "Nahaufnahme von Glasfasersträngen"
+    ],
+    "overviewTitle": "Was Glasfaserprodukte sind",
+    "overview": "Glasfaserprodukte entstehen, indem Glas bei etwa 1550 °C geschmolzen und zu feinen Fasern versponnen oder gezogen wird. Glaswolle enthält bis zu 70 % Recyclingglas. Je nach Faserbildung entsteht eine weiche Dämmwolle, eine starre oder halbstarre Platte oder ein Garn, das zu Gewebe und Band verwebt wird.",
+    "functions": [
+      {
+        "title": "Dämmung",
+        "text": "Glaswolle-Rollen, -Platten, -Rohrschalen und -Matten zur Wärme- und Schalldämmung von Rohren, Kanälen, Wänden, Dächern und Anlagen."
+      },
+      {
+        "title": "Verstärkung und Schutz",
+        "text": "Glasgewebe, Band, Roving und Laminate für hitzebeständige Umwicklung und Ummantelung, Dichtungsmaterial, Faserverbundverstärkung und Brandschutzvorhänge."
+      }
+    ],
+    "glassTypes": "Glasgewebe und -bänder werden aus E-Glas-Garn gewebt, dem am weitesten verbreiteten und wirtschaftlichsten Textilglas. S-Glas hat eine etwa 30 % höhere Zugfestigkeit und bessere Eigenschaften bei erhöhter Temperatur, ist aber teurer. Glaswolle wird aus einem Natron-Kalk-Borosilikatglas mit Recyclingscherben hergestellt.",
+    "groups": [
+      {
+        "title": "Glasfaserplatten",
+        "intro": "Starre und halbstarre Dämmplatten sowie Harzlaminate für elektrische und tragende Bauteile.",
+        "rows": [
+          {
+            "name": "Starre Glasfaserplatte",
+            "text": "Harzgebundene Platte für Kanalauskleidung, Vorhangfassaden und Deckenplatten.",
+            "spec": "25–100 mm dick · 48–96 kg/m³"
+          },
+          {
+            "name": "Halbstarre Glasfaserplatte",
+            "text": "Flexibel genug für gewölbte Flächen und Apparateummantelung.",
+            "spec": "25–75 mm dick · 24–64 kg/m³"
+          },
+          {
+            "name": "Glasfaserlaminat (G10 / FR4)",
+            "text": "Epoxidharzgetränkte Platte für Elektroisolation und tragende Bauteile.",
+            "spec": "0,5–50 mm dick"
+          },
+          {
+            "name": "Aluminiumkaschierte Platte",
+            "text": "Starre Platte mit reflektierender Dampfsperre.",
+            "spec": "25–100 mm dick"
+          }
+        ]
+      },
+      {
+        "title": "Glasgewebe und Textilien",
+        "intro": "Gewebte Glastextilien für Ummantelung, Umwicklung, Abdichtung und Faserverbundbau.",
+        "rows": [
+          {
+            "name": "Glasgewebe (Leinwandbindung)",
+            "text": "Standardgewebe für Umwicklung und Ummantelung in der Industrie.",
+            "spec": "200–800 g/m² · 0,2–1,0 mm"
+          },
+          {
+            "name": "Glasgewebe (Köperbindung)",
+            "text": "Bessere Drapierbarkeit auf gewölbten Flächen und für Laminate.",
+            "spec": "200–600 g/m² · 0,2–0,8 mm"
+          },
+          {
+            "name": "Texturiertes Glasgewebe",
+            "text": "Bauschgarn für ein dickeres, weicheres Ummantelungsgewebe.",
+            "spec": "400–1200 g/m² · 0,5–3,0 mm"
+          },
+          {
+            "name": "Silikon- oder PTFE-beschichtetes Glasgewebe",
+            "text": "Chemikalienbeständiges, antihaftendes Gewebe für Umwicklung und Dichtungen.",
+            "spec": "Bis 260 °C (PTFE) / etwa 300 °C (Silikon)"
+          },
+          {
+            "name": "Glasfaserband",
+            "text": "Schmales Gewebeband zum Umwickeln von Rohren und Bündeln von Kabeln.",
+            "spec": "20–150 mm breit · 0,2–1,0 mm"
+          },
+          {
+            "name": "Glasfaser-Rovinggewebe",
+            "text": "Schweres Gewebe zur Verstärkung von Faserverbundteilen (GFK).",
+            "spec": "200–800 g/m²"
+          }
+        ]
+      },
+      {
+        "title": "Glaswolle-Dämmung",
+        "intro": "Leichte Dämmung für Gebäude, Lüftungstechnik und Prozessanlagen mit niedrigerer Temperatur.",
+        "rows": [
+          {
+            "name": "Glaswolle-Rollen und -Filze",
+            "text": "Flexible Dämmung für Wände, Dächer und Lüftungskanäle.",
+            "spec": "25–150 mm dick · 10–48 kg/m³"
+          },
+          {
+            "name": "Glaswolle-Rohrschalen",
+            "text": "Vorgeformte Schalen für die Rohrdämmung.",
+            "spec": "Innen-Ø 15–600 mm · 25–100 mm dick"
+          },
+          {
+            "name": "Glaswolle-Drahtnetzmatten",
+            "text": "Matten mit Drahtgeflecht zur Dämmung von Apparaten, Behältern und Kolonnen.",
+            "spec": "25–100 mm dick · 24–80 kg/m³"
+          },
+          {
+            "name": "Lose Glaswolle",
+            "text": "Einblasdämmung für Hohlräume und schwer zugängliche Stellen.",
+            "spec": "Rohdichte je nach Anwendung"
+          }
+        ]
+      }
+    ],
+    "colProduct": "Produkt",
+    "colDescription": "Beschreibung",
+    "colSpec": "Typische Ausführung",
+    "compareTitle": "Eigenschaften im Vergleich",
+    "colProperty": "Eigenschaft",
+    "colWool": "Glaswolle",
+    "colCloth": "Glasgewebe",
+    "colBoard": "Glasfaserplatte",
+    "compareRows": [
+      {
+        "label": "Rohstoff",
+        "wool": "Natron-Kalk-Borosilikatglas, bis 70 % Recyclinganteil",
+        "cloth": "E-Glas- oder S-Glas-Garn",
+        "board": "Glaswolle mit Harzbinder"
+      },
+      {
+        "label": "Max. Dauertemperatur",
+        "wool": "230–450 °C, je nach Binder",
+        "cloth": "Etwa 550 °C (unbeschichtetes E-Glas)",
+        "board": "230–450 °C"
+      },
+      {
+        "label": "Erweichungspunkt",
+        "wool": "Etwa 650–700 °C",
+        "cloth": "Etwa 840 °C (E-Glas)",
+        "board": "Etwa 650–700 °C"
+      },
+      {
+        "label": "Rohdichte",
+        "wool": "10–96 kg/m³",
+        "cloth": "Angabe in g/m²",
+        "board": "24–96 kg/m³"
+      },
+      {
+        "label": "Wärmeleitfähigkeit (λ)",
+        "wool": "0,030–0,045 W/m·K bei 24 °C",
+        "cloth": "—",
+        "board": "0,032–0,040 W/m·K"
+      },
+      {
+        "label": "Schallabsorption",
+        "wool": "NRC 0,80–1,00",
+        "cloth": "—",
+        "board": "NRC 0,75–0,95"
+      },
+      {
+        "label": "Brandverhalten",
+        "wool": "Nicht brennbar (Euroklasse A1 oder A2)",
+        "cloth": "Nicht brennbar (unbeschichtet)",
+        "board": "Nicht brennbar (A1 oder A2)"
+      },
+      {
+        "label": "Feuchte",
+        "wool": "Wasserabweisende Ausrüstung lieferbar",
+        "cloth": "Nimmt keine Feuchtigkeit auf",
+        "board": "Wasserabweisende Ausrüstung lieferbar"
+      },
+      {
+        "label": "Faserdurchmesser",
+        "wool": "4–9 µm",
+        "cloth": "6–13 µm, je nach Garn",
+        "board": "4–9 µm"
+      },
+      {
+        "label": "Asbest",
+        "wool": "Keiner",
+        "cloth": "Keiner",
+        "board": "Keiner"
+      }
+    ],
+    "compareNote": "Typische Werte. Die genauen Angaben hängen von Produkt, Binder und Hersteller ab; Datenblatt und Prüfzeugnisse des Herstellers werden mit jeder Lieferung mitgeliefert. Für höhere Temperaturen Steinwolle oder Keramikfaser verwenden.",
+    "traitsTitle": "Eigenschaften",
+    "characteristics": [
+      "Glaswolle mit bis zu 70 % Recyclingglas",
+      "Asbestfrei und gesundheitlich unbedenklich",
+      "Ohne FCKW, HFCKW oder HFKW hergestellt",
+      "Nicht brennbar (unbeschichtete Produkte)",
+      "Schrumpft, sackt und setzt sich nicht",
+      "Verrottungsfest und beständig gegen Insekten und Ungeziefer",
+      "Gute Schallabsorption (NRC 0,80–1,00)",
+      "Niedrige Wärmeleitfähigkeit für Energieeinsparung",
+      "Leicht und einfach zu handhaben und zu verlegen",
+      "Beständig gegen die meisten Chemikalien außer Flusssäure und starken Laugen"
+    ],
+    "standardsTitle": "Normen und Prüfung",
+    "standards": [
+      "Mineralfasermatten und -filze",
+      "Mineralfaser-Blöcke und -Platten",
+      "Rohrdämmung aus Mineralfasern",
+      "Wärmeleitfähigkeit mit Plattengerät und Wärmestrommessgerät",
+      "Fertige Glasgewebe aus Rovings",
+      "Oberflächen-Brandverhalten",
+      "Werkmäßig hergestellte Mineralwolleprodukte für Gebäude",
+      "Zugfestigkeit beschichteter Textilien",
+      "Wärmedämmstoffe",
+      "Vorgeformte Mineralfaser-Rohrschalen"
+    ],
+    "applicationsTitle": "Anwendungen nach Branche",
+    "applications": [
+      {
+        "title": "Öl, Gas und Petrochemie",
+        "items": [
+          "Dämmung von Rohrleitungen und Apparaten",
+          "Glasgewebe-Ummantelung über Mineralwolledämmung",
+          "Behälter- und Kolonnendämmung mit Drahtnetzmatten",
+          "Glasfaserband zum Sichern von Dämmlagen"
+        ]
+      },
+      {
+        "title": "Energieerzeugung",
+        "items": [
+          "Kesseldämmung und Kanalauskleidung",
+          "Schallschutzhauben für Turbinen und Generatoren",
+          "Dämmmatten für Abhitzekessel",
+          "Dämmung von Rauchgaskanälen"
+        ]
+      },
+      {
+        "title": "Bau und Lüftungstechnik",
+        "items": [
+          "Wände, Dächer und Böden",
+          "Ummantelung und Innenauskleidung von Lüftungskanälen",
+          "Akustikdecken und Trennwandfüllung",
+          "Dämmung von Warm- und Kaltwasserleitungen"
+        ]
+      },
+      {
+        "title": "Schiffbau und Offshore",
+        "items": [
+          "Dämmung von Schotten und Decks",
+          "Wärme- und Schalldämmung von Maschinenräumen",
+          "Glasgewebe-Verstärkung für GFK-Konstruktionen"
+        ]
+      },
+      {
+        "title": "Industrie und Fertigung",
+        "items": [
+          "Kühlhäuser und Lebensmittelverarbeitung",
+          "Lärmschutzwände und Schallschutzhauben",
+          "Glasgewebe-Umwicklung an Ofenaußenseiten",
+          "Elektroisolierplatten (G10 / FR4)"
+        ]
+      }
+    ],
+    "supplyTitle": "Unser Lieferumfang",
+    "supply": [
+      "Santura liefert Glasfaserplatten, Glasgewebe, Glasfaserband und Glaswolle-Dämmung an Raffinerien, Petrochemieanlagen, Kraftwerke und Bauprojekte und exportiert in mehr als 25 Länder. Die Produkte stammen von etablierten Herstellern und werden nach Ihrer Projektspezifikation mit den Prüfzeugnissen des Herstellers geliefert.",
+      "Da wir Dämmstoffhalter, Schweißbolzen und Feuerfestanker selbst herstellen, liefern wir Dämmstoff, Befestigung und Ummantelungsgewebe zusammen als ein Paket."
+    ],
+    "relatedTitle": "Verwandte Produkte",
+    "relatedMineralWool": "Steinwolle-Dämmung für höhere Temperaturen bis 750 °C.",
+    "relatedPins": "Schweißstifte und Scheiben zur Befestigung von Glaswolle und Platten.",
+    "relatedGaskets": "Keramikfaserschnur, -band und -dichtungen, eingesetzt zusammen mit Glasfaserband.",
+    "relatedAnchors": "SEPL-Anker für Ofenauskleidungen.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Was ist der Unterschied zwischen Glasgewebe und Glaswolle?",
+        "a": "Glasgewebe ist ein gewebtes Textil aus Glasgarn für Ummantelung, Umwicklung und Faserverbundverstärkung. Glaswolle ist eine weiche Dämmung aus versponnenen Glasfasern zur Wärme- und Schalldämmung von Rohren, Kanälen, Wänden und Dächern. Gewebe wird aus E-Glas-Garn gewebt, Glaswolle besteht aus einem Natron-Kalk-Borosilikatglas mit Recyclinganteil."
+      },
+      {
+        "q": "Welche Temperaturen halten Glasfaserprodukte aus?",
+        "a": "Glaswolle hält je nach Binder 230–450 °C aus. Unbeschichtetes E-Glas-Gewebe verträgt dauerhaft etwa 550 °C. Glaswolle erweicht bei etwa 650–700 °C, E-Glas bei etwa 840 °C. Für höhere Temperaturen empfehlen sich Steinwolle (bis 750 °C) oder Keramikfaserprodukte."
+      },
+      {
+        "q": "Ist Glasfaserdämmung sicher und asbestfrei?",
+        "a": "Ja. Die von uns gelieferten Glasfaser- und Glaswolleprodukte sind asbestfrei, gesundheitlich unbedenklich und ohne FCKW hergestellt. Glaswolle enthält bis zu 70 % Recyclingglas. Die Produkte sind mit üblicher Schutzausrüstung sicher zu verarbeiten, chemisch stabil, verrottungsfest und insektenbeständig."
+      },
+      {
+        "q": "Welche Dicken und Rohdichten gibt es bei Glaswolle?",
+        "a": "Glaswolle-Rollen und -Filze gibt es von 25 mm bis 150 mm Dicke und 10 bis 48 kg/m³. Rohrschalen reichen von 15 mm bis 600 mm Innendurchmesser. Drahtnetzmatten gibt es in 25 bis 100 mm Dicke mit Rohdichten bis 80 kg/m³. Andere Ausführungen auf Anfrage."
+      }
+    ],
+    "ctaTitle": "Sie benötigen Glasfaser oder Glaswolle?",
+    "ctaText": "Nennen Sie uns Produkt, Dicke oder Flächengewicht, Rohdichte, Abmessungen, Kaschierung und Menge. Wir antworten mit Angebot und Lieferzeit.",
+    "ctaRfq": "Angebot für Glasfaserprodukte anfordern",
+    "ctaContact": "Oder kontaktieren Sie unser Team"
+  },
+  "csPage": {
+    "metaTitle": "Calciumsilikat-Platten & Rohrschalen | Industrielieferant",
+    "metaDescription": "Calciumsilikat-Dämmung: Platten und Rohrschalen nach ASTM C-533 bis 1100 °C. Lieferant seit 1980, Export in über 25 Länder. Angebot anfordern.",
+    "eyebrow": "Dämmstoffe",
+    "h1": "Calciumsilikat-Dämmung",
+    "subheading": "Starre Calciumsilikat-Platten, vorgeformte Rohrschalen, Segmente und Pulver für die Industriedämmung bis 1100 °C. Nach IS 8154, IS 9428, BS 3958 Teil II und ASTM C-533.",
+    "gallery": [
+      "Calciumsilikat-Dämmplatten und halbrunde Rohrschalen",
+      "Calciumsilikat-Rohrschalen und flache Platten",
+      "Zweiteilige Calciumsilikat-Rohrschale"
+    ],
+    "overviewTitle": "Was Calciumsilikat-Dämmung ist",
+    "overview": [
+      "Calciumsilikat ist eine hochtemperaturbeständige, leichte, robuste und asbestfreie Industriedämmung. Sie besteht aus hydratisiertem Calciumsilikat mit Verstärkungsfasern und wird zu starren Formteilen verarbeitet: Platten, vorgeformte Rohrschalen, Segmente und Pulver. Ihre Dämmeigenschaften bleiben auch nach Befeuchten und Trocknen erhalten.",
+      "Sie schließt die Lücke zwischen weicher Mineralwolle und Keramikfaser. Anders als weiche Dämmung ist sie starr und selbsttragend, hält Begehung und Stößen auf Rohrbrücken und Apparaten stand und behält dabei niedrige Wärmeleitfähigkeit, hohe Druckfestigkeit und sehr geringe Schwindung über die gesamte Lebensdauer."
+    ],
+    "tempTitle": "Maximale Anwendungstemperatur",
+    "temps": {
+      "mw": "Steinwolle",
+      "cs": "Calciumsilikat",
+      "cf": "Keramikfaser"
+    },
+    "tempNote": "Typische Höchstwerte; die Grenze jedes Produkts hängt von seiner Sorte ab.",
+    "formsTitle": "Lieferformen",
+    "colForm": "Form",
+    "colDescription": "Beschreibung",
+    "colSizes": "Typische Maße",
+    "forms": [
+      {
+        "name": "Platten",
+        "text": "Starre Platten für ebene Flächen: Behälterwände, Kanalpaneele und Ofenmäntel.",
+        "sizes": "25–100 mm dick · 300–1000 mm lang · 150–600 mm breit"
+      },
+      {
+        "name": "Vorgeformte Rohrschalen",
+        "text": "Zweiteilige Halbschalen oder Segmentschalen für die Rohrdämmung.",
+        "sizes": "Innen-Ø 15–600 mm · 25–100 mm dick · Standardlänge 600 mm"
+      },
+      {
+        "name": "Segmente (Lags)",
+        "text": "Trapezförmige Segmente für Rohre und Behälter mit großem Durchmesser.",
+        "sizes": "Nach Behälterdurchmesser und Dämmdicke"
+      },
+      {
+        "name": "Gebogene Segmente",
+        "text": "Segmente für Kolonnen, Tanks und große zylindrische Apparate.",
+        "sizes": "Radius und Dicke nach Auftrag"
+      },
+      {
+        "name": "Pulver / Schüttung",
+        "text": "Zum Füllen unregelmäßiger Hohlräume und schwer zugänglicher Stellen.",
+        "sizes": "Lose Lieferung"
+      }
+    ],
+    "specTitle": "Spezifikationen",
+    "specRows": [
+      {
+        "label": "Zusammensetzung",
+        "value": "Hydratisiertes Calciumsilikat mit Verstärkungsfasern"
+      },
+      {
+        "label": "Max. Dauertemperatur",
+        "value": "1000–1100 °C, je nach Sorte"
+      },
+      {
+        "label": "Rohdichte",
+        "value": "240–350 kg/m³ (etwa 256 kg/m³ für die Hochtemperatursorte)"
+      },
+      {
+        "label": "Wärmeleitfähigkeit bei 200 °C Mitteltemperatur",
+        "value": "0,065–0,080 W/m·K"
+      },
+      {
+        "label": "Wärmeleitfähigkeit bei 400 °C Mitteltemperatur",
+        "value": "0,085–0,105 W/m·K"
+      },
+      {
+        "label": "Wärmeleitfähigkeit bei 600 °C Mitteltemperatur",
+        "value": "0,100–0,130 W/m·K"
+      },
+      {
+        "label": "Druckfestigkeit",
+        "value": "Mindestens 0,7 MPa bei 5 % Stauchung"
+      },
+      {
+        "label": "Lineare Schwindung bei max. Temperatur",
+        "value": "Höchstens 2 %"
+      },
+      {
+        "label": "Feuchte",
+        "value": "Erreicht nach Befeuchten und Trocknen wieder seine ursprüngliche Dämmleistung"
+      },
+      {
+        "label": "pH-Wert",
+        "value": "Etwa 10 (alkalisch)"
+      },
+      {
+        "label": "Asbest",
+        "value": "Keiner: 100 % asbestfrei"
+      },
+      {
+        "label": "VOC",
+        "value": "Keine"
+      },
+      {
+        "label": "Recyclinganteil",
+        "value": "Enthält Post-Consumer-Recyclingmaterial"
+      },
+      {
+        "label": "Farbe",
+        "value": "Weiß bis gebrochen weiß"
+      }
+    ],
+    "specNote": "Typische Werte. Die genauen Angaben hängen von Sorte und Hersteller ab; Datenblatt und Prüfzeugnisse des Herstellers werden mit jeder Lieferung mitgeliefert.",
+    "standardsTitle": "Normen",
+    "standards": [
+      "Calciumsilikat-Blöcke und -Rohrschalen",
+      "Calciumsilikat-Flachblöcke (indische Norm)",
+      "Calciumsilikat-Rohrschalen (indische Norm)",
+      "Wärmedämmstoffe: Calciumsilikat",
+      "Werkmäßig hergestellte Calciumsilikatprodukte für Betriebseinrichtungen",
+      "Messung der Wärmeleitfähigkeit",
+      "Oberflächen-Brandverhalten"
+    ],
+    "advantagesTitle": "Vorteile",
+    "advantages": [
+      {
+        "title": "Stabil nach Befeuchtung",
+        "text": "Behält seine Dämmeigenschaften über Befeuchtungs- und Trocknungszyklen."
+      },
+      {
+        "title": "Gleichbleibende Leistung",
+        "text": "Niedrige Wärmeleitfähigkeit über die gesamte Lebensdauer für dauerhafte Energieeinsparung."
+      },
+      {
+        "title": "Fest und starr",
+        "text": "Hält mechanischer Belastung, Begehung auf Rohrbrücken und Stößen ohne Schaden stand."
+      },
+      {
+        "title": "Leicht",
+        "text": "Hohe Leistung bei geringem Gewicht für eine starre Hochtemperaturdämmung."
+      },
+      {
+        "title": "Einfach zu montieren",
+        "text": "Vor Ort leicht zu schneiden und anzupassen, das senkt Montagezeit und -kosten."
+      },
+      {
+        "title": "Langlebig und wiederverwendbar",
+        "text": "Wartungsarm und bei Stillständen demontier- und wiederverwendbar."
+      },
+      {
+        "title": "Umwelt",
+        "text": "Keine VOC und mit Post-Consumer-Recyclinganteil."
+      },
+      {
+        "title": "Alkalisch",
+        "text": "Die natürliche Alkalität (pH etwa 10) hilft, Kohlenstoffstahl vor Korrosion unter der Dämmung zu schützen."
+      },
+      {
+        "title": "Nicht brennbar",
+        "text": "Keine Flammenausbreitung und keine Rauchentwicklung bei Prüfungen des Oberflächen-Brandverhaltens."
+      }
+    ],
+    "applicationsTitle": "Anwendungen nach Branche",
+    "applications": [
+      {
+        "title": "Eisen und Stahl",
+        "items": [
+          "Hochöfen und Winderhitzer",
+          "Tieföfen und Koksöfen",
+          "Wärm- und Glühöfen",
+          "Vorwärmer für Pfannen und Verteiler"
+        ]
+      },
+      {
+        "title": "Zement",
+        "items": [
+          "Vorwärmer, Zyklone und Kanäle",
+          "Drehrohröfen und Öfen",
+          "Heißlufterzeuger und Pyroclone"
+        ]
+      },
+      {
+        "title": "Aluminium",
+        "items": [
+          "Gießrinnen und Schwimmer",
+          "Tieföfen und Zellenauskleidung",
+          "Warmhalte- und Homogenisierungsöfen"
+        ]
+      },
+      {
+        "title": "Öl, Gas und Petrochemie",
+        "items": [
+          "Befeuerte Erhitzer und Reformeröfen",
+          "Wärmetauscher und Dampfleitungen",
+          "Kolonnen, Behälter und Reaktoren"
+        ]
+      },
+      {
+        "title": "Energieerzeugung",
+        "items": [
+          "Kesselfeuerraum- und Turbinengehäuse",
+          "Dämmung heißer Dampfleitungen",
+          "Dämmung von Abhitzekesselkanälen",
+          "Abgassysteme von Gasturbinen"
+        ]
+      },
+      {
+        "title": "Keramik und Glas",
+        "items": [
+          "Auskleidung von Tunnelöfen",
+          "Dämmung von Glasschmelzwannen",
+          "Kühlöfen und Regeneratoren"
+        ]
+      },
+      {
+        "title": "Allgemeine Industrie",
+        "items": [
+          "Wärmebehandlungs- und Spannungsarmglühöfen",
+          "Wärm- und Schmelzöfen",
+          "Chemische Reaktoren und Destillationskolonnen",
+          "Hochtemperatur-Anlagen der Lebensmittelindustrie"
+        ]
+      }
+    ],
+    "supplyTitle": "Unser Lieferumfang",
+    "supply": [
+      "Santura liefert Calciumsilikat-Platten und -Rohrschalen nach IS 8154, IS 9428, BS 3958 Teil II und ASTM C-533. Sie haben eine niedrige Wärmeleitfähigkeit, hohe Druckfestigkeit und geringe Schwindung und bieten eine wirtschaftliche Dämmung für Anwendungstemperaturen bis 1100 °C.",
+      "Da wir Feuerfestanker und Dämmstoffhalter selbst herstellen und auch Mineralwolle, Glasfaser und Keramikdichtungen liefern, bieten wir Raffinerien, Stahlwerken, Zementwerken und Kraftwerken in mehr als 25 Ländern komplette Dämmpakete."
+    ],
+    "relatedTitle": "Verwandte Produkte",
+    "relatedMineralWool": "Steinwolle und Glaswolle für Temperaturen bis 750 °C.",
+    "relatedGlassFibre": "Glasgewebe für die Ummantelung über der Dämmung.",
+    "relatedPins": "Schweißstifte und Scheiben zur Befestigung der Dämmung.",
+    "relatedAnchors": "SEPL-Anker für Hochtemperaturauskleidungen.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Welche Temperatur hält Calciumsilikat-Dämmung aus?",
+        "a": "Calciumsilikat-Dämmung ist je nach Sorte für Dauertemperaturen bis 1000–1100 °C ausgelegt. Sie behält über ihren gesamten Bereich Struktur, niedrige Wärmeleitfähigkeit und Druckfestigkeit und behält ihre Dämmeigenschaften auch nach Befeuchten und Trocknen."
+      },
+      {
+        "q": "Welche Lieferformen gibt es?",
+        "a": "Calciumsilikat gibt es als starre Platten, vorgeformte Rohrschalen (Halbschalen), Segmente für große Rohre, gebogene Segmente für Behälter und Kolonnen sowie als Pulver zum Füllen von Hohlräumen. Standardrohrschalen passen für Innendurchmesser von 15 mm bis 600 mm in Dicken von 25 bis 100 mm. Andere Maße nach Zeichnung."
+      },
+      {
+        "q": "Welchen Normen entspricht Ihr Calciumsilikat?",
+        "a": "Unser Calciumsilikat entspricht ASTM C-533, IS 8154 (Flachblöcke), IS 9428 (Rohrschalen) und BS 3958 Teil II. Es ist nicht brennbar mit null Flammenausbreitung in der Prüfung nach ASTM E-84, asbestfrei und frei von VOC."
+      },
+      {
+        "q": "Welche Vorteile hat Calciumsilikat gegenüber Mineralwolle?",
+        "a": "Calciumsilikat arbeitet bei höheren Temperaturen (bis 1100 °C gegenüber 750 °C bei Steinwolle), ist deutlich fester und robuster, starr und selbsttragend und hält daher Begehung und Stößen stand, und es arbeitet nach Nass-Trocken-Zyklen gleichbleibend. Mineralwolle ist flexibler und unter 750 °C günstiger. Wir liefern beides."
+      }
+    ],
+    "ctaTitle": "Sie benötigen Calciumsilikat-Dämmung?",
+    "ctaText": "Nennen Sie uns Form, Rohrgrößen oder Plattenmaße, Dicke, Anwendungstemperatur und Menge. Wir antworten mit Angebot und Lieferzeit.",
+    "ctaRfq": "Angebot für Calciumsilikat anfordern",
+    "ctaContact": "Oder kontaktieren Sie unser Team"
   }
 }

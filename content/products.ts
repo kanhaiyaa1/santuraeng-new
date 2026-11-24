@@ -63,16 +63,16 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-01-brick-staples/01.jpg",
-      "/images/products/sepl-01-brick-staples/02.jpg",
-      "/images/products/sepl-01-brick-staples/03.jpg",
-      "/images/products/sepl-01-brick-staples/04.jpg",
-      "/images/products/sepl-01-brick-staples/05.jpg",
-      "/images/products/sepl-01-brick-staples/06.jpg",
-      "/images/products/sepl-01-brick-staples/07.jpg",
-      "/images/products/sepl-01-brick-staples/08.jpg",
-      "/images/products/sepl-01-brick-staples/09.jpg",
-      "/images/products/sepl-01-brick-staples/10.jpg"
+      "/images/products/sepl-01-brick-staples/sepl-01-brick-staple-stainless-steel-render-group.jpg",
+      "/images/products/sepl-01-brick-staples/sepl-01-brick-staple-u-and-v-types-render.jpg",
+      "/images/products/sepl-01-brick-staples/sepl-01-brick-staple-render-yellow.jpg",
+      "/images/products/sepl-01-brick-staples/sepl-01-brick-staple-flat-bar-pin-render.jpg",
+      "/images/products/sepl-01-brick-staples/sepl-01-brick-staple-v-type-drawing.jpg",
+      "/images/products/sepl-01-brick-staples/sepl-01-brick-staple-u-type-drawing.jpg",
+      "/images/products/sepl-01-brick-staples/sepl-01-brick-staple-sharp-ends-drawing.jpg",
+      "/images/products/sepl-01-brick-staples/sepl-01-brick-staple-round-wire-side.jpg",
+      "/images/products/sepl-01-brick-staples/sepl-01-brick-staple-v-shape-round-wire.jpg",
+      "/images/products/sepl-01-brick-staples/sepl-01-brick-staple-u-shape-round-wire.jpg"
     ]
   },
   {
@@ -108,16 +108,16 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-02-brick-supports-consoles/01.jpg",
-      "/images/products/sepl-02-brick-supports-consoles/02.jpg",
-      "/images/products/sepl-02-brick-supports-consoles/03.jpg",
-      "/images/products/sepl-02-brick-supports-consoles/04.jpg",
-      "/images/products/sepl-02-brick-supports-consoles/05.jpg",
-      "/images/products/sepl-02-brick-supports-consoles/06.jpg",
-      "/images/products/sepl-02-brick-supports-consoles/07.jpg",
-      "/images/products/sepl-02-brick-supports-consoles/08.jpg",
-      "/images/products/sepl-02-brick-supports-consoles/09.jpg",
-      "/images/products/sepl-02-brick-supports-consoles/10.jpg"
+      "/images/products/sepl-02-brick-supports-consoles/sepl-02-brick-support-console-render-green.jpg",
+      "/images/products/sepl-02-brick-supports-consoles/sepl-02-brick-support-console-render-red.jpg",
+      "/images/products/sepl-02-brick-supports-consoles/sepl-02-brick-support-console-render-yellow.jpg",
+      "/images/products/sepl-02-brick-supports-consoles/sepl-02-brick-support-console-render-blue.jpg",
+      "/images/products/sepl-02-brick-supports-consoles/sepl-02-brick-support-console-render-orange.jpg",
+      "/images/products/sepl-02-brick-supports-consoles/sepl-02-brick-support-consoles-stainless-steel-plate.jpg",
+      "/images/products/sepl-02-brick-supports-consoles/sepl-02-brick-support-consoles-installed-on-shell.jpg",
+      "/images/products/sepl-02-brick-supports-consoles/sepl-02-brick-support-console-drawing-flat.jpg",
+      "/images/products/sepl-02-brick-supports-consoles/sepl-02-brick-support-console-drawing-curved.jpg",
+      "/images/products/sepl-02-brick-supports-consoles/sepl-02-brick-support-clip-galvanized-eye-lug.jpg"
     ]
   },
   {
@@ -153,14 +153,14 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-03-brick-claws/01.jpg",
-      "/images/products/sepl-03-brick-claws/02.jpg",
-      "/images/products/sepl-03-brick-claws/03.jpg",
-      "/images/products/sepl-03-brick-claws/04.jpg",
-      "/images/products/sepl-03-brick-claws/05.jpg",
-      "/images/products/sepl-03-brick-claws/06.jpg",
-      "/images/products/sepl-03-brick-claws/07.jpg",
-      "/images/products/sepl-03-brick-claws/08.jpg"
+      "/images/products/sepl-03-brick-claws/sepl-03-brick-claw-render-red.jpg",
+      "/images/products/sepl-03-brick-claws/sepl-03-brick-claw-render-green.jpg",
+      "/images/products/sepl-03-brick-claws/sepl-03-brick-claw-hook-render-blue.jpg",
+      "/images/products/sepl-03-brick-claws/sepl-03-brick-claw-threaded-stud-render.jpg",
+      "/images/products/sepl-03-brick-claws/sepl-03-brick-claws-stainless-steel-pair.jpg",
+      "/images/products/sepl-03-brick-claws/sepl-03-brick-claw-threaded-drawing.jpg",
+      "/images/products/sepl-03-brick-claws/sepl-03-brick-claw-hook-drawing.jpg",
+      "/images/products/sepl-03-brick-claws/sepl-03-brick-claw-galvanized-eye-lug.jpg"
     ]
   },
   {
@@ -202,11 +202,11 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-04-scissor-clips/01.jpg",
-      "/images/products/sepl-04-scissor-clips/02.jpg",
-      "/images/products/sepl-04-scissor-clips/03.jpg",
-      "/images/products/sepl-04-scissor-clips/04.jpg",
-      "/images/products/sepl-04-scissor-clips/05.jpg"
+      "/images/products/sepl-04-scissor-clips/sepl-04-scissor-clip-render-color.jpg",
+      "/images/products/sepl-04-scissor-clips/sepl-04-scissor-clip-stainless-steel-render.jpg",
+      "/images/products/sepl-04-scissor-clips/sepl-04-scissor-clip-single-wire-render.jpg",
+      "/images/products/sepl-04-scissor-clips/sepl-04-scissor-clip-installed-on-beam-render.jpg",
+      "/images/products/sepl-04-scissor-clips/sepl-04-scissor-clip-technical-drawing.jpg"
     ]
   },
   {
@@ -259,11 +259,11 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-05-tie-back-anchors/01.jpg",
-      "/images/products/sepl-05-tie-back-anchors/02.jpg",
-      "/images/products/sepl-05-tie-back-anchors/03.jpg",
-      "/images/products/sepl-05-tie-back-anchors/04.jpg",
-      "/images/products/sepl-05-tie-back-anchors/05.jpg"
+      "/images/products/sepl-05-tie-back-anchors/sepl-05-tie-back-anchor-threaded-plate-render.jpg",
+      "/images/products/sepl-05-tie-back-anchors/sepl-05-tie-back-anchors-threaded-pair-render.jpg",
+      "/images/products/sepl-05-tie-back-anchors/sepl-05-tie-back-anchors-bent-pair-render.jpg",
+      "/images/products/sepl-05-tie-back-anchors/sepl-05-tie-back-anchor-bent-drawing.jpg",
+      "/images/products/sepl-05-tie-back-anchors/sepl-05-tie-back-anchor-threaded-drawing.jpg"
     ]
   },
   {
@@ -303,16 +303,16 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-06-split-y-anchors/01.jpg",
-      "/images/products/sepl-06-split-y-anchors/02.jpg",
-      "/images/products/sepl-06-split-y-anchors/03.jpg",
-      "/images/products/sepl-06-split-y-anchors/04.jpg",
-      "/images/products/sepl-06-split-y-anchors/05.jpg",
-      "/images/products/sepl-06-split-y-anchors/06.jpg",
-      "/images/products/sepl-06-split-y-anchors/07.jpg",
-      "/images/products/sepl-06-split-y-anchors/08.jpg",
-      "/images/products/sepl-06-split-y-anchors/09.jpg",
-      "/images/products/sepl-06-split-y-anchors/10.jpg"
+      "/images/products/sepl-06-split-y-anchors/sepl-06-split-y-anchor-flat-render-green.jpg",
+      "/images/products/sepl-06-split-y-anchors/sepl-06-split-y-anchor-corrugated-l-render.jpg",
+      "/images/products/sepl-06-split-y-anchors/sepl-06-split-y-anchor-flat-pair-render.jpg",
+      "/images/products/sepl-06-split-y-anchors/sepl-06-split-y-anchor-straight-pair-render.jpg",
+      "/images/products/sepl-06-split-y-anchors/sepl-06-split-y-anchor-twisted-pair-render.jpg",
+      "/images/products/sepl-06-split-y-anchors/sepl-06-split-y-anchor-technical-drawing.jpg",
+      "/images/products/sepl-06-split-y-anchors/sepl-06-split-y-anchor-corrugated-drawing.jpg",
+      "/images/products/sepl-06-split-y-anchors/sepl-06-split-y-anchor-flat-dimension-drawing.jpg",
+      "/images/products/sepl-06-split-y-anchors/sepl-06-split-y-anchor-slit-strip-drawing.jpg",
+      "/images/products/sepl-06-split-y-anchors/sepl-06-split-y-anchor-corrugated-strip-drawing.jpg"
     ]
   },
   {
@@ -350,16 +350,16 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-07-v-anchors/01.jpg",
-      "/images/products/sepl-07-v-anchors/02.jpg",
-      "/images/products/sepl-07-v-anchors/03.jpg",
-      "/images/products/sepl-07-v-anchors/04.jpg",
-      "/images/products/sepl-07-v-anchors/05.jpg",
-      "/images/products/sepl-07-v-anchors/06.jpg",
-      "/images/products/sepl-07-v-anchors/07.jpg",
-      "/images/products/sepl-07-v-anchors/08.jpg",
-      "/images/products/sepl-07-v-anchors/09.jpg",
-      "/images/products/sepl-07-v-anchors/10.jpg"
+      "/images/products/sepl-07-v-anchors/sepl-07-v-anchor-round-wire-render-yellow.jpg",
+      "/images/products/sepl-07-v-anchors/sepl-07-v-anchor-round-wire-render-teal.jpg",
+      "/images/products/sepl-07-v-anchors/sepl-07-v-anchor-corrugated-render-blue.jpg",
+      "/images/products/sepl-07-v-anchors/sepl-07-v-anchor-corrugated-legs-render.jpg",
+      "/images/products/sepl-07-v-anchors/sepl-07-v-anchor-corrugated-tips-render-teal.jpg",
+      "/images/products/sepl-07-v-anchors/sepl-07-v-anchor-y-type-render-yellow.jpg",
+      "/images/products/sepl-07-v-anchors/sepl-07-v-anchor-stainless-steel-pair.jpg",
+      "/images/products/sepl-07-v-anchors/sepl-07-v-anchors-installed-castable-lining-render.jpg",
+      "/images/products/sepl-07-v-anchors/sepl-07-v-anchors-installed-corner-render.jpg",
+      "/images/products/sepl-07-v-anchors/sepl-07-v-anchors-installed-lining-blue-render.jpg"
     ]
   },
   {
@@ -397,16 +397,16 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-08-corrugated-bullhorn-anchors/01.jpg",
-      "/images/products/sepl-08-corrugated-bullhorn-anchors/02.jpg",
-      "/images/products/sepl-08-corrugated-bullhorn-anchors/03.jpg",
-      "/images/products/sepl-08-corrugated-bullhorn-anchors/04.jpg",
-      "/images/products/sepl-08-corrugated-bullhorn-anchors/05.jpg",
-      "/images/products/sepl-08-corrugated-bullhorn-anchors/06.jpg",
-      "/images/products/sepl-08-corrugated-bullhorn-anchors/07.jpg",
-      "/images/products/sepl-08-corrugated-bullhorn-anchors/08.jpg",
-      "/images/products/sepl-08-corrugated-bullhorn-anchors/09.jpg",
-      "/images/products/sepl-08-corrugated-bullhorn-anchors/10.jpg"
+      "/images/products/sepl-08-corrugated-bullhorn-anchors/sepl-08-corrugated-bullhorn-anchor-stainless-steel-pair.jpg",
+      "/images/products/sepl-08-corrugated-bullhorn-anchors/sepl-08-corrugated-bullhorn-anchor-stainless-steel-angled.jpg",
+      "/images/products/sepl-08-corrugated-bullhorn-anchors/sepl-08-corrugated-bullhorn-anchor-render-red.jpg",
+      "/images/products/sepl-08-corrugated-bullhorn-anchors/sepl-08-corrugated-bullhorn-anchor-render-magenta.jpg",
+      "/images/products/sepl-08-corrugated-bullhorn-anchors/sepl-08-corrugated-bullhorn-anchors-installed-lining-render.jpg",
+      "/images/products/sepl-08-corrugated-bullhorn-anchors/sepl-08-threaded-stud-welded-casing-diagram.jpg",
+      "/images/products/sepl-08-corrugated-bullhorn-anchors/sepl-08-corrugated-bullhorn-anchor-technical-drawing.jpg",
+      "/images/products/sepl-08-corrugated-bullhorn-anchors/sepl-08-corrugated-bullhorn-anchor-straight-v-drawing.jpg",
+      "/images/products/sepl-08-corrugated-bullhorn-anchors/sepl-08-corrugated-bullhorn-anchor-corrugated-v-drawing.jpg",
+      "/images/products/sepl-08-corrugated-bullhorn-anchors/sepl-08-corrugated-bullhorn-anchor-m8-thread-drawing.jpg"
     ]
   },
   {
@@ -444,16 +444,16 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-09-corrugated-h-anchors/01.jpg",
-      "/images/products/sepl-09-corrugated-h-anchors/02.jpg",
-      "/images/products/sepl-09-corrugated-h-anchors/03.jpg",
-      "/images/products/sepl-09-corrugated-h-anchors/04.jpg",
-      "/images/products/sepl-09-corrugated-h-anchors/05.jpg",
-      "/images/products/sepl-09-corrugated-h-anchors/06.jpg",
-      "/images/products/sepl-09-corrugated-h-anchors/07.jpg",
-      "/images/products/sepl-09-corrugated-h-anchors/08.jpg",
-      "/images/products/sepl-09-corrugated-h-anchors/09.jpg",
-      "/images/products/sepl-09-corrugated-h-anchors/10.jpg"
+      "/images/products/sepl-09-corrugated-h-anchors/sepl-09-corrugated-h-anchor-render-blue.jpg",
+      "/images/products/sepl-09-corrugated-h-anchors/sepl-09-corrugated-h-anchor-render-teal-flat.jpg",
+      "/images/products/sepl-09-corrugated-h-anchors/sepl-09-corrugated-h-anchor-render-cyan.jpg",
+      "/images/products/sepl-09-corrugated-h-anchors/sepl-09-corrugated-h-anchor-render-blue-corrugated.jpg",
+      "/images/products/sepl-09-corrugated-h-anchors/sepl-09-corrugated-h-anchor-render-green.jpg",
+      "/images/products/sepl-09-corrugated-h-anchors/sepl-09-corrugated-h-anchor-stainless-steel-pair.jpg",
+      "/images/products/sepl-09-corrugated-h-anchors/sepl-09-corrugated-h-anchor-stainless-steel-corrugated-pair.jpg",
+      "/images/products/sepl-09-corrugated-h-anchors/sepl-09-corrugated-h-anchor-straight-v-drawing.jpg",
+      "/images/products/sepl-09-corrugated-h-anchors/sepl-09-corrugated-h-anchor-m8-thread-drawing.jpg",
+      "/images/products/sepl-09-corrugated-h-anchors/sepl-09-corrugated-h-anchor-corrugated-v-drawing.jpg"
     ]
   },
   {
@@ -493,16 +493,16 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-10-y-anchors-flat/01.jpg",
-      "/images/products/sepl-10-y-anchors-flat/02.jpg",
-      "/images/products/sepl-10-y-anchors-flat/03.jpg",
-      "/images/products/sepl-10-y-anchors-flat/04.jpg",
-      "/images/products/sepl-10-y-anchors-flat/05.jpg",
-      "/images/products/sepl-10-y-anchors-flat/06.jpg",
-      "/images/products/sepl-10-y-anchors-flat/07.jpg",
-      "/images/products/sepl-10-y-anchors-flat/08.jpg",
-      "/images/products/sepl-10-y-anchors-flat/09.jpg",
-      "/images/products/sepl-10-y-anchors-flat/10.jpg"
+      "/images/products/sepl-10-y-anchors-flat/sepl-10-y-anchor-flat-corrugated-pair-render.jpg",
+      "/images/products/sepl-10-y-anchors-flat/sepl-10-y-anchor-flat-corrugated-render-blue.jpg",
+      "/images/products/sepl-10-y-anchors-flat/sepl-10-y-anchor-flat-render-yellow.jpg",
+      "/images/products/sepl-10-y-anchors-flat/sepl-10-y-anchor-flat-wavy-pair-render.jpg",
+      "/images/products/sepl-10-y-anchors-flat/sepl-10-y-anchor-flat-straight-pair-render.jpg",
+      "/images/products/sepl-10-y-anchors-flat/sepl-10-y-anchor-flat-types-a-b-c-drawing.jpg",
+      "/images/products/sepl-10-y-anchors-flat/sepl-10-y-anchor-flat-dimension-drawing.jpg",
+      "/images/products/sepl-10-y-anchors-flat/sepl-10-y-anchors-flat-welded-plate-render.jpg",
+      "/images/products/sepl-10-y-anchors-flat/sepl-10-y-anchor-flat-installed-lining-render.jpg",
+      "/images/products/sepl-10-y-anchors-flat/sepl-10-l-shaped-rod-stainless-steel.jpg"
     ]
   },
   {
@@ -542,14 +542,14 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-11-flat-sectioned-anchors/01.jpg",
-      "/images/products/sepl-11-flat-sectioned-anchors/02.jpg",
-      "/images/products/sepl-11-flat-sectioned-anchors/03.jpg",
-      "/images/products/sepl-11-flat-sectioned-anchors/04.jpg",
-      "/images/products/sepl-11-flat-sectioned-anchors/05.jpg",
-      "/images/products/sepl-11-flat-sectioned-anchors/06.jpg",
-      "/images/products/sepl-11-flat-sectioned-anchors/07.jpg",
-      "/images/products/sepl-11-flat-sectioned-anchors/08.jpg"
+      "/images/products/sepl-11-flat-sectioned-anchors/sepl-11-flat-sectioned-anchor-render-yellow.jpg",
+      "/images/products/sepl-11-flat-sectioned-anchors/sepl-11-flat-sectioned-anchor-render-red.jpg",
+      "/images/products/sepl-11-flat-sectioned-anchors/sepl-11-flat-sectioned-anchor-corrugated-pair-render.jpg",
+      "/images/products/sepl-11-flat-sectioned-anchors/sepl-11-flat-sectioned-anchor-straight-pair-render.jpg",
+      "/images/products/sepl-11-flat-sectioned-anchors/sepl-11-flat-sectioned-anchor-slit-pair-render.jpg",
+      "/images/products/sepl-11-flat-sectioned-anchors/sepl-11-flat-sectioned-anchor-tapered-pair-render.jpg",
+      "/images/products/sepl-11-flat-sectioned-anchors/sepl-11-flat-sectioned-anchors-welded-plate-render.jpg",
+      "/images/products/sepl-11-flat-sectioned-anchors/sepl-11-flat-sectioned-anchor-installed-lining-render.jpg"
     ]
   },
   {
@@ -587,16 +587,16 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-13-corrugated-v-round-anchors/01.jpg",
-      "/images/products/sepl-13-corrugated-v-round-anchors/02.jpg",
-      "/images/products/sepl-13-corrugated-v-round-anchors/03.jpg",
-      "/images/products/sepl-13-corrugated-v-round-anchors/04.jpg",
-      "/images/products/sepl-13-corrugated-v-round-anchors/05.jpg",
-      "/images/products/sepl-13-corrugated-v-round-anchors/06.jpg",
-      "/images/products/sepl-13-corrugated-v-round-anchors/07.jpg",
-      "/images/products/sepl-13-corrugated-v-round-anchors/08.jpg",
-      "/images/products/sepl-13-corrugated-v-round-anchors/09.jpg",
-      "/images/products/sepl-13-corrugated-v-round-anchors/10.jpg"
+      "/images/products/sepl-13-corrugated-v-round-anchors/sepl-13-corrugated-v-round-anchor-render-blue.jpg",
+      "/images/products/sepl-13-corrugated-v-round-anchors/sepl-13-corrugated-v-round-anchor-render-blue-short.jpg",
+      "/images/products/sepl-13-corrugated-v-round-anchors/sepl-13-corrugated-v-round-anchor-render-teal.jpg",
+      "/images/products/sepl-13-corrugated-v-round-anchors/sepl-13-corrugated-v-round-anchor-render-blue-wide.jpg",
+      "/images/products/sepl-13-corrugated-v-round-anchors/sepl-13-corrugated-v-round-anchor-stainless-steel-pair.jpg",
+      "/images/products/sepl-13-corrugated-v-round-anchors/sepl-13-corrugated-v-round-anchor-stainless-steel-corrugated-pair.jpg",
+      "/images/products/sepl-13-corrugated-v-round-anchors/sepl-13-corrugated-v-round-anchor-weld-base-drawing.jpg",
+      "/images/products/sepl-13-corrugated-v-round-anchors/sepl-13-corrugated-v-round-anchor-corrugated-tip-drawing.jpg",
+      "/images/products/sepl-13-corrugated-v-round-anchors/sepl-13-corrugated-v-round-anchor-bent-legs-drawing.jpg",
+      "/images/products/sepl-13-corrugated-v-round-anchors/sepl-13-corrugated-v-round-anchor-angled-legs-drawing.jpg"
     ]
   },
   {
@@ -634,16 +634,16 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-14-multipurpose-anchors/01.jpg",
-      "/images/products/sepl-14-multipurpose-anchors/02.jpg",
-      "/images/products/sepl-14-multipurpose-anchors/03.jpg",
-      "/images/products/sepl-14-multipurpose-anchors/04.jpg",
-      "/images/products/sepl-14-multipurpose-anchors/05.jpg",
-      "/images/products/sepl-14-multipurpose-anchors/06.jpg",
-      "/images/products/sepl-14-multipurpose-anchors/07.jpg",
-      "/images/products/sepl-14-multipurpose-anchors/08.jpg",
-      "/images/products/sepl-14-multipurpose-anchors/09.jpg",
-      "/images/products/sepl-14-multipurpose-anchors/10.jpg"
+      "/images/products/sepl-14-multipurpose-anchors/sepl-14-multipurpose-anchor-stainless-steel-bent.jpg",
+      "/images/products/sepl-14-multipurpose-anchors/sepl-14-multipurpose-anchor-corrugated-pair.jpg",
+      "/images/products/sepl-14-multipurpose-anchors/sepl-14-multipurpose-anchor-corrugated-side.jpg",
+      "/images/products/sepl-14-multipurpose-anchors/sepl-14-multipurpose-anchor-twisted-drawing.jpg",
+      "/images/products/sepl-14-multipurpose-anchors/sepl-14-multipurpose-anchor-l-base-drawing.jpg",
+      "/images/products/sepl-14-multipurpose-anchors/sepl-14-multipurpose-anchor-corrugated-l-base-drawing.jpg",
+      "/images/products/sepl-14-multipurpose-anchors/sepl-14-multipurpose-anchor-twisted-l-base-drawing.jpg",
+      "/images/products/sepl-14-multipurpose-anchors/sepl-14-multipurpose-anchor-corrugated-v-drawing.jpg",
+      "/images/products/sepl-14-multipurpose-anchors/sepl-14-multipurpose-anchor-twisted-v-drawing.jpg",
+      "/images/products/sepl-14-multipurpose-anchors/sepl-14-threaded-stud-welded-casing-diagram.jpg"
     ]
   },
   {
@@ -679,16 +679,16 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-15-moveable-anchors/01.jpg",
-      "/images/products/sepl-15-moveable-anchors/02.jpg",
-      "/images/products/sepl-15-moveable-anchors/03.jpg",
-      "/images/products/sepl-15-moveable-anchors/04.jpg",
-      "/images/products/sepl-15-moveable-anchors/05.jpg",
-      "/images/products/sepl-15-moveable-anchors/06.jpg",
-      "/images/products/sepl-15-moveable-anchors/07.jpg",
-      "/images/products/sepl-15-moveable-anchors/08.jpg",
-      "/images/products/sepl-15-moveable-anchors/09.jpg",
-      "/images/products/sepl-15-moveable-anchors/10.jpg"
+      "/images/products/sepl-15-moveable-anchors/sepl-15-moveable-anchor-corrugated-pair.jpg",
+      "/images/products/sepl-15-moveable-anchors/sepl-15-moveable-anchor-corrugated-side.jpg",
+      "/images/products/sepl-15-moveable-anchors/sepl-15-moveable-anchor-three-leg-red-tips.jpg",
+      "/images/products/sepl-15-moveable-anchors/sepl-15-moveable-anchor-u-hook-pair.jpg",
+      "/images/products/sepl-15-moveable-anchors/sepl-15-moveable-anchor-corrugated-v-pair.jpg",
+      "/images/products/sepl-15-moveable-anchors/sepl-15-moveable-anchor-nut-base-drawing.jpg",
+      "/images/products/sepl-15-moveable-anchors/sepl-15-moveable-anchor-twisted-drawing.jpg",
+      "/images/products/sepl-15-moveable-anchors/sepl-15-moveable-anchor-t-base-drawing.jpg",
+      "/images/products/sepl-15-moveable-anchors/sepl-15-moveable-anchor-t-base-angled-drawing.jpg",
+      "/images/products/sepl-15-moveable-anchors/sepl-15-moveable-anchor-twisted-t-base-drawing.jpg"
     ]
   },
   {
@@ -730,12 +730,12 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-16-shear-connectors/01.jpg",
-      "/images/products/sepl-16-shear-connectors/02.jpg",
-      "/images/products/sepl-16-shear-connectors/03.jpg",
-      "/images/products/sepl-16-shear-connectors/04.jpg",
-      "/images/products/sepl-16-shear-connectors/05.jpg",
-      "/images/products/sepl-16-shear-connectors/06.jpg"
+      "/images/products/sepl-16-shear-connectors/sepl-16-shear-connector-studs-ceramic-ferrules.jpg",
+      "/images/products/sepl-16-shear-connectors/sepl-16-shear-connector-stud-ferrule-render.jpg",
+      "/images/products/sepl-16-shear-connectors/sepl-16-shear-connector-three-leg-anchor-render.jpg",
+      "/images/products/sepl-16-shear-connectors/sepl-16-shear-connectors-installed-castable-render.jpg",
+      "/images/products/sepl-16-shear-connectors/sepl-16-shear-connector-technical-drawing.jpg",
+      "/images/products/sepl-16-shear-connectors/sepl-16-shear-connector-threaded-stud-render.jpg"
     ]
   },
   {
@@ -784,16 +784,16 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-18-strip-corrugated-anchors/01.jpg",
-      "/images/products/sepl-18-strip-corrugated-anchors/02.jpg",
-      "/images/products/sepl-18-strip-corrugated-anchors/03.jpg",
-      "/images/products/sepl-18-strip-corrugated-anchors/04.jpg",
-      "/images/products/sepl-18-strip-corrugated-anchors/05.jpg",
-      "/images/products/sepl-18-strip-corrugated-anchors/06.jpg",
-      "/images/products/sepl-18-strip-corrugated-anchors/07.jpg",
-      "/images/products/sepl-18-strip-corrugated-anchors/08.jpg",
-      "/images/products/sepl-18-strip-corrugated-anchors/09.jpg",
-      "/images/products/sepl-18-strip-corrugated-anchors/10.jpg"
+      "/images/products/sepl-18-strip-corrugated-anchors/sepl-18-strip-corrugated-anchor-l-base-render.jpg",
+      "/images/products/sepl-18-strip-corrugated-anchors/sepl-18-strip-corrugated-anchor-flat-render.jpg",
+      "/images/products/sepl-18-strip-corrugated-anchors/sepl-18-strip-corrugated-anchor-wide-render.jpg",
+      "/images/products/sepl-18-strip-corrugated-anchors/sepl-18-strip-corrugated-anchor-notched-render.jpg",
+      "/images/products/sepl-18-strip-corrugated-anchors/sepl-18-strip-corrugated-anchor-straight-render.jpg",
+      "/images/products/sepl-18-strip-corrugated-anchors/sepl-18-strip-corrugated-anchor-straight-drawing.jpg",
+      "/images/products/sepl-18-strip-corrugated-anchors/sepl-18-strip-corrugated-anchor-tapered-drawing.jpg",
+      "/images/products/sepl-18-strip-corrugated-anchors/sepl-18-strip-corrugated-anchor-curved-drawing.jpg",
+      "/images/products/sepl-18-strip-corrugated-anchors/sepl-18-strip-corrugated-anchor-curved-tapered-drawing.jpg",
+      "/images/products/sepl-18-strip-corrugated-anchors/sepl-18-strip-corrugated-anchor-flat-y-drawing.jpg"
     ]
   },
   {
@@ -846,16 +846,16 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-19-miscellaneous-anchors/01.jpg",
-      "/images/products/sepl-19-miscellaneous-anchors/02.jpg",
-      "/images/products/sepl-19-miscellaneous-anchors/03.jpg",
-      "/images/products/sepl-19-miscellaneous-anchors/04.jpg",
-      "/images/products/sepl-19-miscellaneous-anchors/05.jpg",
-      "/images/products/sepl-19-miscellaneous-anchors/06.jpg",
-      "/images/products/sepl-19-miscellaneous-anchors/07.jpg",
-      "/images/products/sepl-19-miscellaneous-anchors/08.jpg",
-      "/images/products/sepl-19-miscellaneous-anchors/09.jpg",
-      "/images/products/sepl-19-miscellaneous-anchors/10.jpg"
+      "/images/products/sepl-19-miscellaneous-anchors/sepl-19-miscellaneous-anchor-corrugated-y-render-teal.jpg",
+      "/images/products/sepl-19-miscellaneous-anchors/sepl-19-miscellaneous-anchor-corrugated-clip-render-red.jpg",
+      "/images/products/sepl-19-miscellaneous-anchors/sepl-19-miscellaneous-anchor-multi-tine-render-green.jpg",
+      "/images/products/sepl-19-miscellaneous-anchors/sepl-19-miscellaneous-anchor-y-render-yellow.jpg",
+      "/images/products/sepl-19-miscellaneous-anchors/sepl-19-miscellaneous-anchor-multi-tine-render-orange.jpg",
+      "/images/products/sepl-19-miscellaneous-anchors/sepl-19-miscellaneous-anchor-flat-hook-bar-render-red.jpg",
+      "/images/products/sepl-19-miscellaneous-anchors/sepl-19-miscellaneous-anchor-z-wire-render-yellow.jpg",
+      "/images/products/sepl-19-miscellaneous-anchors/sepl-19-miscellaneous-anchor-corrugated-y-render-red.jpg",
+      "/images/products/sepl-19-miscellaneous-anchors/sepl-19-miscellaneous-anchor-corrugated-y-clip-render-red.jpg",
+      "/images/products/sepl-19-miscellaneous-anchors/sepl-19-miscellaneous-anchor-corrugated-y-render-blue.jpg"
     ]
   },
   {
@@ -893,16 +893,16 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-20-dual-pin-anchors/01.jpg",
-      "/images/products/sepl-20-dual-pin-anchors/02.jpg",
-      "/images/products/sepl-20-dual-pin-anchors/03.jpg",
-      "/images/products/sepl-20-dual-pin-anchors/04.jpg",
-      "/images/products/sepl-20-dual-pin-anchors/05.jpg",
-      "/images/products/sepl-20-dual-pin-anchors/06.jpg",
-      "/images/products/sepl-20-dual-pin-anchors/07.jpg",
-      "/images/products/sepl-20-dual-pin-anchors/08.jpg",
-      "/images/products/sepl-20-dual-pin-anchors/09.jpg",
-      "/images/products/sepl-20-dual-pin-anchors/10.jpg"
+      "/images/products/sepl-20-dual-pin-anchors/sepl-20-dual-pin-anchor-corrugated-stainless-steel-render.jpg",
+      "/images/products/sepl-20-dual-pin-anchors/sepl-20-dual-pin-anchor-corrugated-single-render.jpg",
+      "/images/products/sepl-20-dual-pin-anchors/sepl-20-dual-pin-anchor-corrugated-double-render.jpg",
+      "/images/products/sepl-20-dual-pin-anchors/sepl-20-dual-pin-anchor-corrugated-long-render.jpg",
+      "/images/products/sepl-20-dual-pin-anchors/sepl-20-dual-pin-anchor-straight-l-render.jpg",
+      "/images/products/sepl-20-dual-pin-anchors/sepl-20-dual-pin-anchor-straight-pins-render.jpg",
+      "/images/products/sepl-20-dual-pin-anchors/sepl-20-dual-pin-anchor-u-loop-render.jpg",
+      "/images/products/sepl-20-dual-pin-anchors/sepl-20-dual-pin-anchor-straight-l-drawing.jpg",
+      "/images/products/sepl-20-dual-pin-anchors/sepl-20-dual-pin-anchor-corrugated-l-drawing.jpg",
+      "/images/products/sepl-20-dual-pin-anchors/sepl-20-dual-pin-anchor-corrugated-l-40mm-drawing.jpg"
     ]
   },
   {
@@ -938,16 +938,16 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-21-v-anchor-with-nut/01.jpg",
-      "/images/products/sepl-21-v-anchor-with-nut/02.jpg",
-      "/images/products/sepl-21-v-anchor-with-nut/03.jpg",
-      "/images/products/sepl-21-v-anchor-with-nut/04.jpg",
-      "/images/products/sepl-21-v-anchor-with-nut/05.jpg",
-      "/images/products/sepl-21-v-anchor-with-nut/06.jpg",
-      "/images/products/sepl-21-v-anchor-with-nut/07.jpg",
-      "/images/products/sepl-21-v-anchor-with-nut/08.jpg",
-      "/images/products/sepl-21-v-anchor-with-nut/09.jpg",
-      "/images/products/sepl-21-v-anchor-with-nut/10.jpg"
+      "/images/products/sepl-21-v-anchor-with-nut/sepl-21-v-anchor-with-nut-corrugated-render-blue.jpg",
+      "/images/products/sepl-21-v-anchor-with-nut/sepl-21-v-anchor-with-nut-v-render-purple.jpg",
+      "/images/products/sepl-21-v-anchor-with-nut/sepl-21-v-anchor-with-nut-closeup-render.jpg",
+      "/images/products/sepl-21-v-anchor-with-nut/sepl-21-v-anchor-with-nut-threaded-stud-render.jpg",
+      "/images/products/sepl-21-v-anchor-with-nut/sepl-21-v-anchors-with-nut-stainless-steel-group-render.jpg",
+      "/images/products/sepl-21-v-anchor-with-nut/sepl-21-v-anchor-with-nut-wide-v-drawing.jpg",
+      "/images/products/sepl-21-v-anchor-with-nut/sepl-21-v-anchor-with-nut-corrugated-drawing.jpg",
+      "/images/products/sepl-21-v-anchor-with-nut/sepl-21-v-anchor-with-nut-twisted-drawing.jpg",
+      "/images/products/sepl-21-v-anchor-with-nut/sepl-21-v-anchor-with-nut-straight-drawing.jpg",
+      "/images/products/sepl-21-v-anchor-with-nut/sepl-21-v-anchor-with-nut-corrugated-tips-drawing.jpg"
     ]
   },
   {
@@ -985,7 +985,7 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-22-screw-on-anchors/01.jpg"
+      "/images/products/sepl-22-screw-on-anchors/sepl-22-screw-on-anchor-stainless-steel-render.jpg"
     ]
   },
   {
@@ -1023,10 +1023,10 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-23-slit-stud-anchors/01.jpg",
-      "/images/products/sepl-23-slit-stud-anchors/02.jpg",
-      "/images/products/sepl-23-slit-stud-anchors/03.jpg",
-      "/images/products/sepl-23-slit-stud-anchors/04.jpg"
+      "/images/products/sepl-23-slit-stud-anchors/sepl-23-slit-stud-anchors-stainless-steel-render.jpg",
+      "/images/products/sepl-23-slit-stud-anchors/sepl-23-slit-stud-anchor-plain-drawing.jpg",
+      "/images/products/sepl-23-slit-stud-anchors/sepl-23-slit-stud-anchor-threaded-drawing.jpg",
+      "/images/products/sepl-23-slit-stud-anchors/sepl-23-slit-stud-anchor-weld-end-drawing.jpg"
     ]
   },
   {
@@ -1118,9 +1118,9 @@ export const PRODUCTS: Product[] = [
     ],
     "material": null,
     "images": [
-      "/images/products/sepl-24-fiber-stud-anchors/01.jpg",
-      "/images/products/sepl-24-fiber-stud-anchors/02.jpg",
-      "/images/products/sepl-24-fiber-stud-anchors/03.jpg"
+      "/images/products/sepl-24-fiber-stud-anchors/sepl-24-fiber-stud-anchor-threaded-pins-stainless-steel.jpg",
+      "/images/products/sepl-24-fiber-stud-anchors/sepl-24-fiber-stud-anchor-l-pin-stainless-steel.jpg",
+      "/images/products/sepl-24-fiber-stud-anchors/sepl-24-fiber-stud-anchor-speed-washers-assortment.jpg"
     ]
   },
   {
@@ -1178,11 +1178,11 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-25-threaded-studs/01.jpg",
-      "/images/products/sepl-25-threaded-studs/02.jpg",
-      "/images/products/sepl-25-threaded-studs/03.jpg",
-      "/images/products/sepl-25-threaded-studs/04.jpg",
-      "/images/products/sepl-25-threaded-studs/05.jpg"
+      "/images/products/sepl-25-threaded-studs/sepl-25-threaded-stud-speed-washers-assortment.jpg",
+      "/images/products/sepl-25-threaded-studs/sepl-25-threaded-stud-short-render.jpg",
+      "/images/products/sepl-25-threaded-studs/sepl-25-threaded-studs-assorted-lengths.jpg",
+      "/images/products/sepl-25-threaded-studs/sepl-25-threaded-stud-notched-pin.jpg",
+      "/images/products/sepl-25-threaded-studs/sepl-25-threaded-stud-long-pin.jpg"
     ]
   },
   {
@@ -1197,7 +1197,7 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": "High-alumina ceramic (Al₂O₃ ≥ 60%)",
     "images": [
-      "/images/products/sepl-26-ceramic-ferrule-washers/01.jpg"
+      "/images/products/sepl-26-ceramic-ferrule-washers/sepl-26-ceramic-ferrules-and-washers.jpg"
     ]
   },
   {
@@ -1240,8 +1240,8 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-27-melt-extract-needles/01.jpg",
-      "/images/products/sepl-27-melt-extract-needles/02.jpg"
+      "/images/products/sepl-27-melt-extract-needles/sepl-27-melt-extract-stainless-steel-fibres-pile.jpg",
+      "/images/products/sepl-27-melt-extract-needles/sepl-27-melt-extract-stainless-steel-fibres-closeup.jpg"
     ]
   },
   {
@@ -1275,8 +1275,8 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-28-cold-drawn-needles-straight/01.jpg",
-      "/images/products/sepl-28-cold-drawn-needles-straight/02.jpg"
+      "/images/products/sepl-28-cold-drawn-needles-straight/sepl-28-cold-drawn-straight-steel-fibres.jpg",
+      "/images/products/sepl-28-cold-drawn-needles-straight/sepl-28-cold-drawn-straight-steel-fibres-pile.jpg"
     ]
   },
   {
@@ -1310,8 +1310,8 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-29-cold-drawn-needles-hooked/01.jpg",
-      "/images/products/sepl-29-cold-drawn-needles-hooked/02.jpg"
+      "/images/products/sepl-29-cold-drawn-needles-hooked/sepl-29-cold-drawn-hooked-steel-fibres-closeup.jpg",
+      "/images/products/sepl-29-cold-drawn-needles-hooked/sepl-29-cold-drawn-hooked-steel-fibres-row.jpg"
     ]
   },
   {
@@ -1345,8 +1345,8 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/sepl-30-cold-drawn-needles-wavy/01.jpg",
-      "/images/products/sepl-30-cold-drawn-needles-wavy/02.jpg"
+      "/images/products/sepl-30-cold-drawn-needles-wavy/sepl-30-cold-drawn-wavy-steel-fibres-closeup.jpg",
+      "/images/products/sepl-30-cold-drawn-needles-wavy/sepl-30-cold-drawn-wavy-steel-fibres-pile.jpg"
     ]
   },
   {
@@ -1393,16 +1393,16 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": null,
     "images": [
-      "/images/products/washers/01.jpg",
-      "/images/products/washers/02.jpg",
-      "/images/products/washers/03.jpg",
-      "/images/products/washers/04.jpg",
-      "/images/products/washers/05.jpg",
-      "/images/products/washers/06.jpg",
-      "/images/products/washers/07.jpg",
-      "/images/products/washers/08.jpg",
-      "/images/products/washers/09.jpg",
-      "/images/products/washers/10.jpg"
+      "/images/products/washers/anchor-washer-round-render-magenta.jpg",
+      "/images/products/washers/anchor-washer-u-clip-render-blue.jpg",
+      "/images/products/washers/anchor-washer-slotted-clip-render-red.jpg",
+      "/images/products/washers/anchor-washer-speed-dome-render-blue.jpg",
+      "/images/products/washers/anchor-washer-square-render-orange.jpg",
+      "/images/products/washers/anchor-washer-clip-render-green.jpg",
+      "/images/products/washers/anchor-washer-flat-ring-render-orange.jpg",
+      "/images/products/washers/anchor-washer-speed-washers-stainless-steel-render.jpg",
+      "/images/products/washers/anchor-washers-brass-hex-and-round.jpg",
+      "/images/products/washers/anchor-washers-speed-assortment-photo.jpg"
     ]
   }
 ];

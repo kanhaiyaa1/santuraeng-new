@@ -79,7 +79,7 @@ export default async function CountryPage({ params: { locale, country: slug } }:
       '@type': 'Organization',
       name: SITE.legalName,
       url: siteUrl,
-      logo: `${siteUrl}/images/logo.jpg`,
+      logo: `${siteUrl}/images/santura-engineering-logo.jpg`,
       foundingDate: String(SITE.foundingYear),
       email: SITE.generalEmail,
       telephone: SITE.phone.tel,

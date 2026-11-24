@@ -413,6 +413,10 @@
         "text": "Composición química verificada por espectrometría frente a la aleación especificada."
       },
       {
+        "title": "Microataque",
+        "text": "Microataque en nuestras instalaciones según ASTM A262 Practice A, ASTM E407 y ASTM E112, y macroataque de soldaduras de espárragos."
+      },
+      {
         "title": "Control dimensional",
         "text": "Dimensiones, doblados y extremos de soldadura comprobados según el plano."
       },
@@ -447,7 +451,53 @@
     },
     "clientCertsTitle": "Certificados de clientes",
     "clientCertsText": "Aquí se publicarán los certificados y cartas de referencia de nuestros clientes.",
-    "photosTitle": "Ensayos en la práctica"
+    "photosTitle": "Ensayos en la práctica",
+    "etch": {
+      "title": "Ensayo de microataque",
+      "intro": [
+        "El ensayo de microataque muestra la estructura interna del metal. Se corta una muestra del material o de la pieza terminada, se pule a espejo y se trata con una solución de ataque que revela los granos y los límites de grano. Después, la superficie atacada se examina al microscopio.",
+        "Realizamos ensayos de microataque en nuestras instalaciones sobre el acero inoxidable, el acero al carbono y las aleaciones de níquel con que fabricamos anclajes, espárragos y piezas soldadas. El ensayo muestra si el conformado, la soldadura o el tratamiento térmico han dejado el material en el estado que exige la especificación."
+      ],
+      "testsTitle": "Ensayos que realizamos",
+      "tests": [
+        {
+          "code": "ASTM A262 Practice A",
+          "title": "Detección de ataque intergranular",
+          "text": "Un ataque electrolítico con ácido oxálico que comprueba la sensibilización de los aceros inoxidables austeníticos, como 304, 310, 316 y 321: carburos de cromo en los límites de grano que hacen al material propenso a la corrosión intergranular. Se usa para controlar el material tras la soldadura o el tratamiento térmico y para confirmar que el recocido de solubilización ha disuelto los carburos."
+        },
+        {
+          "code": "ASTM E407 · ASTM E112",
+          "title": "Microestructura y tamaño de grano",
+          "text": "El microataque según ASTM E407 revela la microestructura del acero inoxidable, el acero al carbono y las aleaciones de níquel. Después se determina el tamaño de grano medio según ASTM E112 y se revisa la estructura en busca de crecimiento excesivo de grano y fases no deseadas."
+        },
+        {
+          "code": "EN ISO 14555",
+          "title": "Macroataque de la soldadura",
+          "text": "Se corta un espárrago o anclaje soldado a través de la soldadura, se pule y se ataca para que la zona fundida sea visible. La sección muestra si la soldadura ha unido toda la base del espárrago y cuánto ha penetrado en el metal base. La EN ISO 14555 utiliza este examen macroscópico para cualificar procedimientos de soldadura de espárragos."
+        }
+      ],
+      "readingTitle": "Cómo se interpretan los resultados de ASTM A262 Practice A",
+      "reading": [
+        {
+          "title": "Estructura escalonada",
+          "text": "Escalones entre los granos y ninguna zanja en los límites de grano. Aceptable: el material no está sensibilizado."
+        },
+        {
+          "title": "Estructura dual",
+          "text": "Algunas zanjas en los límites de grano, pero ningún grano rodeado por completo. Aceptable."
+        },
+        {
+          "title": "Estructura de zanjas",
+          "text": "Uno o más granos rodeados por completo de zanjas. El material se clasifica como sospechoso y debe superar el ensayo en ácido caliente que ASTM A262 indica para el grado (Practice B, C o E) antes de poder aceptarse."
+        }
+      ],
+      "readingNote": "La Practice A es un ensayo de cribado: puede aceptar material, pero no rechazarlo. Solo se aplica a aceros inoxidables austeníticos; las aleaciones de níquel y el acero al carbono se revisan por microestructura y tamaño de grano.",
+      "productsTitle": "Productos que ensayamos",
+      "productsText": "El ensayo se aplica a nuestros productos metálicos, en especial a las piezas de acero inoxidable conformadas en frío, soldadas o tratadas térmicamente antes de la entrega. Los materiales aislantes como la lana mineral, las juntas cerámicas y el silicato de calcio no son metálicos, por lo que el microataque no se aplica a ellos.",
+      "requestText": "El informe de microataque puede entregarse junto con los demás certificados de ensayo de su pedido. Indique el ensayo y la norma en su consulta.",
+      "linkBsa": "Recocido brillante de solubilización y sensibilización",
+      "linkSw": "Soldadura de espárragos y macroataque"
+    }
   },
   "privacyPage": {
     "metaTitle": "Política de privacidad | Santura Engineering",
@@ -615,15 +665,17 @@
   "search": {
     "open": "Buscar",
     "label": "Buscar en el sitio",
-    "placeholder": "Busque productos, códigos SEPL, aleaciones, países…",
+    "placeholder": "Buscar productos, servicios, códigos SEPL, aleaciones, países…",
     "noResults": "Sin resultados para «{query}»",
     "close": "Cerrar",
     "hint": "Pruebe «SEPL-24», «310S», «Y anchor» o «España»",
     "groups": {
       "product": "Productos",
       "country": "Países",
-      "page": "Páginas"
-    }
+      "page": "Páginas",
+      "service": "Servicios"
+    },
+    "viewAll": "Ver todos los resultados"
   },
   "photos": {
     "cartonsBulk": "Cajas listas para el embalaje",
@@ -862,6 +914,10 @@
       {
         "title": "Comparación con el certificado de material",
         "text": "Comparar los resultados con el certificado de material original confirma que el material ha recuperado sus propiedades de recocido especificadas."
+      },
+      {
+        "title": "Ensayo de microataque",
+        "text": "Un ataque con ácido oxálico según ASTM A262 Practice A, realizado en nuestras instalaciones, muestra si quedan carburos de cromo en los límites de grano. Una estructura escalonada confirma que los anclajes ya no están sensibilizados."
       }
     ],
     "verifyQualityLink": "Vea cómo ensayamos y documentamos cada pedido",
@@ -898,7 +954,7 @@
       },
       {
         "q": "¿Cómo se comprueba que el recocido se hizo correctamente?",
-        "a": "Con ensayos de dureza y tracción. El material tratado debe ser más blando que el no tratado, con la dureza en el rango recocido y la resistencia cerca del mínimo especificado. La superficie también debe quedar brillante y sin cascarilla."
+        "a": "Con ensayos de dureza y tracción. El material tratado debe ser más blando que el no tratado, con la dureza en el rango recocido y la resistencia cerca del mínimo especificado. La superficie también debe quedar brillante y sin cascarilla. Un ensayo de microataque según ASTM A262 Practice A, realizado en nuestras instalaciones, confirma que los carburos de cromo se han disuelto."
       },
       {
         "q": "¿El recocido brillante alarga la vida de los anclajes?",
@@ -1312,7 +1368,2497 @@
       {
         "q": "¿Qué tamaños de férula cerámica hay?",
         "a": "Las férulas se ajustan al diámetro del espárrago y a la superficie que se suelda, como chapa plana o tubo. Indíquenos el diámetro del espárrago y la geometría de la envolvente y suministraremos las férulas correspondientes con los anclajes."
+      },
+      {
+        "q": "¿Cómo se comprueba la calidad de la soldadura de espárragos?",
+        "a": "Mediante macroataque. En nuestras instalaciones se corta un espárrago de prueba a través de la soldadura, se pule y se ataca, lo que muestra si la soldadura ha unido toda la base del espárrago y cuánto ha penetrado en el metal base. En los anclajes de acero inoxidable, un ensayo de microataque según ASTM A262 Practice A comprueba además la sensibilización del material."
       }
-    ]
+    ],
+    "etchTitle": "Macroataque de la soldadura",
+    "etchText": "La calidad de la soldadura se comprueba mediante macroataque. En nuestras instalaciones se corta un espárrago de prueba a través de la soldadura, se pule y se ataca para examinar la zona fundida y la profundidad de penetración. Es el examen macroscópico que la EN ISO 14555 utiliza para cualificar procedimientos de soldadura de espárragos.",
+    "etchLink": "Más sobre nuestros ensayos de microataque"
+  },
+  "searchPage": {
+    "metaTitle": "Búsqueda | Santura Engineering",
+    "metaTitleQuery": "Resultados para «{query}» | Santura Engineering",
+    "metaDescription": "Busque anclajes refractarios, códigos de producto SEPL, aleaciones, servicios y páginas de países de exportación de Santura Engineering.",
+    "h1": "Búsqueda",
+    "h1Query": "Resultados para «{query}»",
+    "submit": "Buscar",
+    "resultCount": "Resultados para «{query}»: {count}",
+    "emptyText": "Busque por nombre de producto, código SEPL, grado de aleación, servicio o país.",
+    "noResultsTitle": "No se encontraron resultados",
+    "noResultsText": "No hay resultados para «{query}». Revise la ortografía, pruebe un código de producto como SEPL-07 o use una de las búsquedas populares de abajo.",
+    "relatedTitle": "Búsquedas relacionadas",
+    "popularTitle": "Búsquedas populares"
+  },
+  "notFoundPage": {
+    "title": "Página no encontrada",
+    "text": "La página que busca no existe o se ha movido. Busque en el sitio o use los enlaces de abajo.",
+    "home": "Ir a la página de inicio",
+    "products": "Ver productos"
+  },
+  "odPage": {
+    "metaTitle": "Puertas de observación y mirillas para hornos y calderas | Santura Engineering",
+    "metaDescription": "Puertas de observación, mirillas y visores para hornos, hornos rotatorios y calderas, según plano. Fabricante desde 1980, exporta a más de 25 países.",
+    "eyebrow": "Taller de fabricación",
+    "h1": "Puertas de observación y mirillas",
+    "subheading": "Puertas de observación, mirillas y visores con revestimiento refractario para hornos, calderas, hornos rotatorios y calentadores de fuego directo. Fabricados según su plano, con marco, puerta, vidrio, juntas y anclajes refractarios suministrados como un solo conjunto.",
+    "overviewTitle": "Para qué sirven las puertas de observación y las mirillas",
+    "overview": [
+      "Las puertas de observación y las mirillas son aberturas de acceso integradas en las paredes de hornos, calderas, hornos rotatorios y calentadores. Permiten a los operadores ver el interior, controlar la llama, inspeccionar el revestimiento refractario e introducir termopares o sondas sin abrir el equipo ni detener el proceso.",
+      "Cada puerta tiene un marco de acero atornillado o soldado a la carcasa, una puerta o tapa que cierra la abertura y un revestimiento refractario que coincide con el de la pared que la rodea. Los anclajes soldados dentro del marco sujetan ese revestimiento, igual que los anclajes refractarios sujetan el revestimiento de la pared.",
+      "Santura fabrica las puertas de observación en su propio taller, en acero inoxidable o acero al carbono galvanizado en caliente, con anclajes refractarios, vidrio templado y juntas según la especificación del cliente."
+    ],
+    "overviewLink": "Anclajes refractarios para revestimientos de puertas y paredes",
+    "overviewCaption": "Marco de puerta con anclajes en V soldados en su interior para sujetar el revestimiento refractario.",
+    "typesTitle": "Tipos de puertas de observación y mirillas",
+    "types": [
+      {
+        "title": "Puertas de observación",
+        "size": "Aberturas de 250 mm (10 in) o más",
+        "text": "Puertas más grandes, con bisagra o atornilladas, con hoja revestida de refractario. Se usan para la inspección visual del hogar y para un acceso de mantenimiento limitado, por ejemplo sobre cada zona de aire de una caldera."
+      },
+      {
+        "title": "Mirillas",
+        "size": "Normalmente 100 × 100 mm (4 × 4 in)",
+        "text": "Aberturas pequeñas con tapa de fundición o de acero, a menudo con contrapeso para que se cierre sola. Se usan para vigilar la llama y para introducir termopares y sondas."
+      },
+      {
+        "title": "Visores",
+        "size": "50–100 mm de diámetro",
+        "text": "Equipados con vidrio tintado resistente al calor, azul cobalto o verde, para observar la llama y el revestimiento de forma continua sin abrir nada."
+      }
+    ],
+    "constructionTitle": "Construcción y materiales",
+    "constructionIntro": "Cada componente se elige según la temperatura de servicio, la atmósfera del horno y la frecuencia con que se abrirá la puerta.",
+    "construction": [
+      {
+        "title": "Marco",
+        "text": "Acero al carbono (normalmente galvanizado en caliente), acero inoxidable o fundición, según la temperatura de servicio y el entorno."
+      },
+      {
+        "title": "Revestimiento refractario",
+        "text": "Hormigón refractario o ladrillo refractario dentro de la puerta y el marco, adaptado al sistema refractario del equipo y sujeto por anclajes soldados."
+      },
+      {
+        "title": "Vidrio de observación",
+        "text": "Vidrio templado azul cobalto, normalmente de 3 mm. Reduce el deslumbramiento de la llama para ver con claridad su forma y el estado del revestimiento. También hay vidrio tintado verde."
+      },
+      {
+        "title": "Sellado",
+        "text": "Juntas de alta temperatura sobre caras de asiento mecanizadas, para que la puerta cerrada no deje escapar gas caliente ni entrar aire frío."
+      },
+      {
+        "title": "Montaje",
+        "text": "Brida atornillada a la carcasa. Puertas con bisagra para accesos frecuentes y tapas con contrapeso para mirillas."
+      },
+      {
+        "title": "Herrajes",
+        "text": "Manijas de cierre y bisagras aptas para la temperatura de servicio, con orejetas de izado en puertas pesadas."
+      }
+    ],
+    "specTitle": "Especificaciones típicas",
+    "colFeature": "Característica",
+    "cols": {
+      "od": "Puerta de observación",
+      "pd": "Mirilla",
+      "sp": "Visor"
+    },
+    "specRows": [
+      {
+        "label": "Tamaño de abertura",
+        "od": "250 mm o más (a medida)",
+        "pd": "100 × 100 mm a 150 × 150 mm",
+        "sp": "50–100 mm de diámetro"
+      },
+      {
+        "label": "Material del marco",
+        "od": "Acero al carbono / inoxidable / fundición",
+        "pd": "Fundición / acero al carbono",
+        "sp": "Fundición / inoxidable"
+      },
+      {
+        "label": "Temperatura máxima de servicio",
+        "od": "Hasta 1200 °C (con revestimiento refractario)",
+        "pd": "Hasta 1000 °C",
+        "sp": "Hasta 800 °C (limitada por el vidrio)"
+      },
+      {
+        "label": "Cierre",
+        "od": "Con bisagra o atornillado",
+        "pd": "Tapa atornillada o con contrapeso",
+        "sp": "Tapa roscada o atornillada"
+      },
+      {
+        "label": "Vidrio",
+        "od": "Opcional",
+        "pd": "Opcional",
+        "sp": "Estándar (azul cobalto)"
+      },
+      {
+        "label": "Revestimiento refractario",
+        "od": "Sí",
+        "pd": "Sí (tapa y marco)",
+        "sp": "No (solo vidrio)"
+      }
+    ],
+    "specNote": "Son valores típicos. El tamaño de abertura, los materiales y la temperatura de cada puerta los definen el plano del cliente y las condiciones de operación del equipo.",
+    "applicationsTitle": "Dónde se utilizan",
+    "applications": [
+      {
+        "title": "Calderas",
+        "text": "Calderas AFBC, CFBC y de parrilla: puertas de observación sobre cada zona de aire y mirillas para vigilar la llama."
+      },
+      {
+        "title": "Calentadores de refinería",
+        "text": "Hornos de proceso y reformadores: visores y mirillas para observar las llamas de los quemadores."
+      },
+      {
+        "title": "Hornos de cemento",
+        "text": "Mirillas en la carcasa del horno y en la zona del quemador para revisar el revestimiento y la llama."
+      },
+      {
+        "title": "Plantas siderúrgicas",
+        "text": "Hornos de recalentamiento y precalentadores de cucharas: puertas de acceso para inspección durante las paradas."
+      },
+      {
+        "title": "Incineradoras y valorización energética",
+        "text": "Hornos rotatorios y cámaras de postcombustión: puertas de observación para comprobar la combustión."
+      },
+      {
+        "title": "Hornos de tratamiento térmico",
+        "text": "Hornos discontinuos y continuos: puertas de carga con visores."
+      }
+    ],
+    "fabTitle": "Fabricación a medida",
+    "fab": [
+      "Cada puerta se fabrica según el plano y la especificación de material del cliente. Adaptamos el revestimiento refractario de la puerta al revestimiento existente del equipo, para que la puerta no sea un punto débil de la pared.",
+      "Para instalaciones existentes fabricamos puertas y tapas de repuesto a partir de un plano o de una puerta de muestra. Las puertas se suministran sueltas o como parte de un paquete de fabricación más amplio con anclajes, piezas de carcasa y soportes."
+    ],
+    "reference": "En 2006 Santura suministró puertas de observación para hornos y sistemas de contrapeso a Petron Engineering Construction Ltd, que emitió una carta de reconocimiento por el trabajo.",
+    "processTitle": "Cómo fabricamos una puerta",
+    "process": [
+      {
+        "title": "Aprobación del plano",
+        "text": "Enviamos el plano al cliente para su aprobación antes de fabricar, de modo que cualquier cambio se acuerde primero."
+      },
+      {
+        "title": "Control de material",
+        "text": "Se revisa la lista de materiales. El 10 % del material se ensaya en laboratorios acreditados por NABL y las piezas de acero inoxidable se verifican por PMI."
+      },
+      {
+        "title": "Corte y conformado",
+        "text": "Las chapas se cizallan y conforman, y después se trazan y montan en el taller. Nuestros inspectores revisan el conjunto antes de soldar."
+      },
+      {
+        "title": "Soldadura e inspección",
+        "text": "Soldadura con CO2 para penetración completa, seguida de inspección de porosidad en las soldaduras."
+      },
+      {
+        "title": "Acabado",
+        "text": "Acabado y galvanizado en caliente, y después embalaje para el envío."
+      }
+    ],
+    "supplyTitle": "Qué suministramos",
+    "supply": [
+      {
+        "title": "Conjuntos de puerta completos",
+        "text": "Marco, puerta, herrajes y anclajes refractarios, listos para revestir o ya revestidos."
+      },
+      {
+        "title": "Puertas y tapas de repuesto",
+        "text": "Fabricadas según su plano o una muestra para encajar en aberturas existentes."
+      },
+      {
+        "title": "Vidrio de observación",
+        "text": "Vidrio azul cobalto en varios tamaños."
+      },
+      {
+        "title": "Juntas y herrajes de repuesto",
+        "text": "Juntas, bisagras, manijas y tornillería para puertas en servicio."
+      }
+    ],
+    "galleryTitle": "Puertas de observación de nuestro taller",
+    "galleryText": "Puertas fabricadas en nuestro taller, desde marcos individuales hasta series de producción para proyectos de calderas.",
+    "gallery": [
+      "Dos puertas de observación con ventanas de vidrio para un horno industrial",
+      "Marco abierto de puerta de observación con anclajes en V soldados para el revestimiento refractario",
+      "Marco galvanizado de puerta de observación con anclajes, vista frontal",
+      "Marco embridado de puerta de observación para atornillar a la carcasa del horno",
+      "Marco y piezas de una puerta de observación antes del montaje",
+      "Serie de puertas de observación galvanizadas en el taller de fabricación",
+      "Puertas de observación con bisagra apiladas para el envío",
+      "Detalle de marcos galvanizados de puertas de observación de una serie"
+    ],
+    "relatedTitle": "Productos y servicios relacionados",
+    "relatedAnchorsText": "Los anclajes que sujetan el revestimiento refractario dentro de cada puerta, en las mismas aleaciones que el revestimiento de su pared.",
+    "relatedSwText": "Equipos y procedimientos para soldar anclajes a marcos de puertas y carcasas.",
+    "relatedPmiText": "Verificación de aleación de las piezas de acero inoxidable antes de que salgan del taller.",
+    "relatedPpText": "Tratamiento superficial de marcos y puertas de acero inoxidable después de la fabricación.",
+    "countriesTitle": "Países que abastecemos",
+    "countriesText": "Exportamos puertas de observación junto con nuestros anclajes refractarios. Las páginas de cada país describen los sectores y puertos que atendemos en cada mercado.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué diferencia hay entre una puerta de observación y una mirilla?",
+        "a": "Una puerta de observación tiene una abertura mayor, normalmente de 250 mm o más, y se usa para inspección visual y acceso de mantenimiento limitado. Una mirilla es más pequeña, normalmente de 100 × 100 mm, y se usa para vigilar la llama e introducir termopares o sondas. Ambas llevan revestimiento refractario."
+      },
+      {
+        "q": "¿Qué vidrio se utiliza en puertas de observación y visores?",
+        "a": "Vidrio tintado resistente al calor, normalmente vidrio templado azul cobalto de unos 3 mm. Reduce el deslumbramiento de la llama para ver con claridad la llama y el revestimiento refractario. También hay vidrio tintado verde. El vidrio limita un visor a unos 800 °C."
+      },
+      {
+        "q": "¿Pueden fabricar puertas según nuestro plano o copiar una puerta existente?",
+        "a": "Sí. Todas nuestras puertas se fabrican según el plano y la especificación de material del cliente. Para repuestos trabajamos con un plano existente o con una puerta de muestra, y adaptamos el revestimiento refractario al revestimiento actual del equipo."
+      },
+      {
+        "q": "¿Para qué temperaturas están diseñadas las puertas?",
+        "a": "Con revestimiento refractario, las puertas de observación se usan normalmente hasta 1200 °C y las mirillas hasta 1000 °C. Los visores están limitados por el vidrio a unos 800 °C. La temperatura final depende de los materiales y del revestimiento de su especificación."
+      }
+    ],
+    "ctaTitle": "¿Necesita puertas de observación o mirillas?",
+    "ctaText": "Envíenos su plano, el tamaño de abertura, la temperatura de servicio y la cantidad. Le responderemos con una cotización y el plazo de entrega.",
+    "ctaRfq": "Solicitar cotización de puertas de observación",
+    "ctaContact": "O contacte con nuestro equipo"
+  },
+  "fbPage": {
+    "metaTitle": "Fabricante de pernos de anclaje | Tipo L, J y U | Santura Engineering",
+    "metaDescription": "Pernos de cimentación y anclaje tipo L, J, U, de placa y rectos, según plano, en acero al carbono, B7 e inoxidable. Desde 1980, exporta a 25+ países.",
+    "eyebrow": "Taller de fabricación",
+    "h1": "Pernos de cimentación y pernos de anclaje",
+    "subheading": "Pernos de cimentación tipo L, J, U, de placa y rectos para calderas, equipos pesados y estructuras metálicas. Cortados, doblados, roscados y galvanizados en caliente según su plano, y suministrados como juegos completos con tuercas, arandelas, placas de anclaje y camisas.",
+    "overviewTitle": "Qué son los pernos de cimentación",
+    "overview": [
+      "Los pernos de cimentación son pernos de acero embebidos en una cimentación de hormigón para fijar estructuras, columnas, equipos y maquinaria. El extremo embebido va doblado, en gancho o con una placa para que no se pueda arrancar del hormigón; el extremo roscado sobresale de la cimentación para recibir la placa base, la tuerca y la arandela.",
+      "Los términos se usan a menudo para el mismo producto. Perno de anclaje suele referirse a un perno hormigonado, y perno de cimentación a un perno que fija un equipo a su base. Muchos pernos de cimentación llevan una camisa de tubo en la parte superior, que deja margen para ajustar ligeramente la posición del perno al montar el equipo.",
+      "Santura fabrica pernos de cimentación dentro de su trabajo de fabricación a medida: la barra se corta, se dobla, se rosca y se galvaniza en caliente según el plano del cliente. Fabricamos pernos con cabeza, doblados y roscados en diámetros de hasta 6 pulgadas y más."
+    ],
+    "typesTitle": "Tipos de pernos de cimentación",
+    "types": [
+      {
+        "key": "l",
+        "title": "Tipo L (doblez a 90°)",
+        "size": "M10 a M64",
+        "text": "El tipo más común. El extremo embebido está doblado en ángulo recto para que el perno quede trabado en el hormigón.",
+        "uses": "Columnas estructurales, placas base, postes de alumbrado y bancadas de equipos."
+      },
+      {
+        "key": "j",
+        "title": "Tipo J (gancho)",
+        "size": "",
+        "text": "Un gancho curvo en forma de J en el extremo embebido agarra el hormigón. Similar al tipo L, con mejor resistencia al arrancamiento en algunas configuraciones.",
+        "uses": "Uniones estructurales ligeras, soportes de tubería y barandillas."
+      },
+      {
+        "key": "u",
+        "title": "Tipo U",
+        "size": "",
+        "text": "Perno en forma de U que pasa por debajo de una placa base, viga o tubo, con ambos extremos roscados hacia arriba.",
+        "uses": "Sujeción de equipos, soportes de tubería y piezas que requieren atornillado pasante."
+      },
+      {
+        "key": "plate",
+        "title": "Tipo placa / con cabeza",
+        "size": "",
+        "text": "Perno recto con una placa de anclaje cuadrada o hexagonal soldada en el extremo embebido. Ofrece la mayor resistencia al arrancamiento y se suministra a menudo con camisa de tubo.",
+        "uses": "Maquinaria pesada, turbinas, compresores y cimentaciones de calderas."
+      },
+      {
+        "key": "rod",
+        "title": "Recto / varilla roscada",
+        "size": "",
+        "text": "Varilla roscada en toda su longitud con tuerca y arandela en ambos extremos. Permite el mayor ajuste en obra.",
+        "uses": "Uso con placas de anclaje o en cajeados rellenos con grout."
+      }
+    ],
+    "materialsTitle": "Materiales",
+    "materials": [
+      {
+        "title": "Acero al carbono (IS 2062 / ASTM A36)",
+        "text": "La opción más común para uso estructural general."
+      },
+      {
+        "title": "ASTM F1554 Grado 36 / 55 / 105",
+        "text": "Acero para barras de anclaje en tres grados de resistencia para uniones estructurales calculadas."
+      },
+      {
+        "title": "ASTM A307 Grado A / B / C",
+        "text": "Pernos y espárragos de acero al carbono de uso general."
+      },
+      {
+        "title": "ASTM A193 Grado B7",
+        "text": "Acero aleado para alta temperatura y alta presión, como calderas y recipientes a presión."
+      },
+      {
+        "title": "Acero inoxidable (SS304 / SS316)",
+        "text": "Para ambientes corrosivos, zonas costeras y plantas químicas."
+      }
+    ],
+    "finishesTitle": "Acabados y recubrimientos",
+    "finishes": [
+      {
+        "title": "Galvanizado en caliente (HDG)",
+        "text": "El acabado más común para uso exterior y embebido, según ASTM F2329."
+      },
+      {
+        "title": "Cincado electrolítico",
+        "text": "Pasivado amarillo, azul o blanco, para interiores y ambientes suaves."
+      },
+      {
+        "title": "Pavonado (óxido negro)",
+        "text": "Protección básica contra la corrosión."
+      },
+      {
+        "title": "Natural / sin recubrimiento",
+        "text": "Cuando lo especifica el cliente y para pernos de acero inoxidable."
+      }
+    ],
+    "specTitle": "Especificaciones",
+    "colProperty": "Propiedad",
+    "colRange": "Rango",
+    "specRows": [
+      {
+        "label": "Diámetro",
+        "value": "M10 a M100 (3/8 in a 4 in); diámetros mayores según plano"
+      },
+      {
+        "label": "Longitud",
+        "value": "150 mm a 3000 mm o más (longitudes a medida)"
+      },
+      {
+        "label": "Rosca",
+        "value": "Métrica ISO o Unified en pulgadas, rosca total o parcial"
+      },
+      {
+        "label": "Radio de doblado",
+        "value": "Según plano o norma"
+      },
+      {
+        "label": "Normas",
+        "value": "ASTM F1554, ASTM A307, ASTM A193, IS 2062, IS 1363, IS 1364"
+      },
+      {
+        "label": "Ensayos",
+        "value": "Ensayo de tracción, de carga de prueba, de dureza e inspección dimensional"
+      },
+      {
+        "label": "Tolerancias",
+        "value": "Según IS 2062, ASTM F1554 o el plano del cliente"
+      }
+    ],
+    "specNote": "Cada pedido se fabrica según el plano del cliente o la norma indicada. Indíquenos tipo de perno, diámetro, longitud, longitud de rosca, grado de material y acabado.",
+    "applicationsTitle": "Aplicaciones por sector",
+    "applications": [
+      {
+        "title": "Cimentaciones de calderas y hornos",
+        "text": "Fijación de estructuras de calderas, carcasas de hornos, chimeneas y conductos sobre pedestales de hormigón."
+      },
+      {
+        "title": "Equipos pesados",
+        "text": "Compresores, turbinas, bombas, generadores y prensas."
+      },
+      {
+        "title": "Estructuras metálicas",
+        "text": "Placas base de columnas, pórticos, carriles de grúa y soportes de cintas transportadoras."
+      },
+      {
+        "title": "Centrales eléctricas",
+        "text": "Pedestales de turbina, estructuras de torres de refrigeración y cimentaciones de racks de tuberías."
+      },
+      {
+        "title": "Plantas de cemento",
+        "text": "Pilares de apoyo del horno, cimentaciones de molinos y estructuras de torres de precalentador."
+      },
+      {
+        "title": "Petróleo y gas",
+        "text": "Estructuras de calentadores de fuego directo, cimentaciones de columnas y bases de racks de tuberías."
+      },
+      {
+        "title": "Infraestructura",
+        "text": "Postes de alumbrado, pórticos de señalización, apoyos de puentes y torres de transmisión."
+      }
+    ],
+    "supplyTitle": "Qué suministramos",
+    "supply": [
+      {
+        "title": "Pernos según plano o norma",
+        "text": "Pernos de cimentación fabricados según su plano o una especificación estándar."
+      },
+      {
+        "title": "Juegos completos",
+        "text": "Pernos con tuercas, arandelas, placas de anclaje y camisas de tubo, etiquetados y listos para colocar."
+      },
+      {
+        "title": "Cualquier tipo y grado",
+        "text": "Pernos L, J, U, de placa y rectos en acero al carbono, F1554, A307, B7 o inoxidable."
+      },
+      {
+        "title": "Galvanizado en caliente",
+        "text": "Galvanizado a través de galvanizadores aprobados."
+      },
+      {
+        "title": "Plantillas",
+        "text": "Plantillas que mantienen cada grupo de pernos en posición durante el hormigonado."
+      },
+      {
+        "title": "Piezas sueltas o paquetes",
+        "text": "Pernos individuales o como parte de un paquete completo de fabricación estructural."
+      }
+    ],
+    "gallery": [
+      "Pernos de cimentación galvanizados con camisas de tubo, en posición vertical",
+      "Pernos de cimentación galvanizados con placas de anclaje cuadradas",
+      "Pernos de cimentación con camisas de tubo, etiquetados para el envío",
+      "Pernos de cimentación galvanizados con camisas de tubo dispuestos en el taller",
+      "Existencias de pernos de cimentación galvanizados con tuercas y camisas",
+      "Detalle de camisas de tubo y tuercas de pernos de cimentación"
+    ],
+    "relatedTitle": "Productos relacionados",
+    "relatedStanchions": "Montantes y postes para plataformas y barandillas, a menudo instalados sobre las mismas cimentaciones.",
+    "relatedPipeGuides": "Guías de tubería y camisas anulares para calentadores de fuego directo y racks de tuberías.",
+    "relatedFasteners": "Tornillos hexagonales, espárragos B7, tuercas y arandelas en aceros inoxidables y aleados.",
+    "relatedAnchors": "Anclajes SEPL para los revestimientos refractarios de las calderas y hornos que fijan estos pernos.",
+    "countriesTitle": "Países que abastecemos",
+    "countriesText": "Exportamos pernos de cimentación junto con nuestros anclajes refractarios y piezas fabricadas. Las páginas de cada país describen los sectores y puertos que atendemos en cada mercado.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué diferencia hay entre los pernos de cimentación tipo L y tipo J?",
+        "a": "Ambos tienen el extremo embebido doblado. El perno tipo L está doblado a 90 grados, mientras que el tipo J tiene un gancho curvo. El tipo L es la opción más común para columnas y placas base; el tipo J se usa para uniones más ligeras como soportes de tubería y barandillas, y puede ofrecer mejor resistencia al arrancamiento en algunas configuraciones."
+      },
+      {
+        "q": "¿Qué es ASTM F1554?",
+        "a": "ASTM F1554 es la norma estadounidense para barras de anclaje hormigonadas. Cubre barras rectas, dobladas y con cabeza en tres grados, 36, 55 y 105, que corresponden a su límite elástico mínimo en ksi. El extremo visible lleva un código de color: azul para el grado 36, amarillo para el 55 y rojo para el 105."
+      },
+      {
+        "q": "¿Pueden fabricar pernos de cimentación a medida?",
+        "a": "Sí. Cortamos, doblamos y roscamos cada perno según el plano del cliente, desde unos 150 mm hasta 3000 mm o más. La longitud de rosca, la longitud de doblado y el radio se fabrican según lo especificado."
+      },
+      {
+        "q": "¿Qué acabados hay para los pernos de cimentación?",
+        "a": "El galvanizado en caliente según ASTM F2329 es el acabado más común para pernos exteriores y embebidos. El cincado electrolítico (amarillo, azul o blanco) es adecuado para interiores y ambientes suaves, el pavonado da una protección básica, y los pernos se suministran sin recubrimiento cuando se especifica o cuando son de acero inoxidable."
+      }
+    ],
+    "ctaTitle": "¿Necesita pernos de cimentación?",
+    "ctaText": "Envíenos su plano o lista de pernos con tipo, diámetro, longitud, grado de material, acabado y cantidad. Le responderemos con una cotización y el plazo de entrega.",
+    "ctaRfq": "Solicitar cotización de pernos de cimentación",
+    "ctaContact": "O contacte con nuestro equipo"
+  },
+  "spPage": {
+    "metaTitle": "Fabricante de placas soporte y placas base | Fabricación a medida | Santura Engineering",
+    "metaDescription": "Ménsulas de soporte refractario, placas base, de montaje, cartelas y placas embebidas fabricadas según plano. Desde 1980, exporta a más de 25 países.",
+    "eyebrow": "Taller de fabricación",
+    "h1": "Placas soporte y placas base",
+    "subheading": "Ménsulas de soporte refractario, placas base de columnas, placas de montaje de equipos, cartelas y placas embebidas para hornos, calderas y estructuras metálicas. Cortadas, taladradas, mecanizadas y soldadas según su plano.",
+    "heroAlt": "Placa base de columna atornillada a una cimentación de hormigón",
+    "overviewTitle": "Qué son las placas soporte",
+    "overview": [
+      "Las placas soporte son placas y ménsulas de acero fabricadas que reciben y reparten cargas. Dentro de hornos y calderas se sueldan a la carcasa para sostener el peso del revestimiento refractario. En las estructuras metálicas son las placas base, placas de montaje, cartelas y placas embebidas que unen columnas, equipos y elementos de acero a sus cimentaciones y entre sí.",
+      "Cada placa se fabrica según el plano del cliente. Santura corta, taladra, mecaniza y suelda placas soporte en su propio taller, junto con los anclajes refractarios y los pernos de cimentación que a menudo se instalan con ellas."
+    ],
+    "uses": [
+      {
+        "title": "Soporte refractario",
+        "text": "Ménsulas soldadas dentro de hornos y recipientes que sostienen el revestimiento y los bloques de quemador."
+      },
+      {
+        "title": "Placas base estructurales",
+        "text": "Placas que unen columnas y equipos a cimentaciones de hormigón y bastidores de acero."
+      }
+    ],
+    "typesTitle": "Tipos de placas soporte",
+    "types": [
+      {
+        "key": "refractory",
+        "title": "Placas de soporte refractario / ménsulas de revestimiento",
+        "alt": "Ménsula de soporte refractario soldada a la carcasa de un horno bajo el revestimiento",
+        "text": "Placas en forma de ménsula soldadas a la carcasa del horno para sostener el peso del revestimiento refractario, sobre todo en paredes verticales y zonas de techo. Se fabrican con piezas de acero soldadas y reparten la carga del revestimiento de forma uniforme sobre la carcasa.",
+        "points": [
+          "Sostienen los bloques de quemador independientemente de la pared del horno",
+          "Colocadas a intervalos calculados alrededor de la carcasa",
+          "Acero al carbono o inoxidable (SS304, SS310), según la temperatura de servicio",
+          "También llamadas consolas, soportes de ladrillo o ménsulas de apoyo"
+        ]
+      },
+      {
+        "key": "base",
+        "title": "Placas base de columnas",
+        "alt": "Placa base de columna con pernos de anclaje sobre una cimentación de hormigón",
+        "text": "Placas planas soldadas en la base de columnas de acero y atornilladas a la cimentación con pernos de anclaje. Reparten la carga de la columna de forma uniforme sobre el hormigón.",
+        "points": [
+          "Agujeros taladrados o punzonados según el patrón de pernos",
+          "Cara de apoyo mecanizada plana para contacto total con el grout",
+          "IS 2062 Grado A hasta 20 mm de espesor",
+          "IS 2062 Grado B (calmado) por encima de 20 mm, según las normas estructurales"
+        ]
+      },
+      {
+        "key": "mounting",
+        "title": "Placas de montaje de equipos",
+        "alt": "Placa de montaje de equipo con agujeros taladrados para la bancada de una bomba",
+        "text": "Placas planas con agujeros pretaladrados para fijar bombas, compresores, motores y otra maquinaria sobre bases de hormigón o acero.",
+        "points": [
+          "Taladradas exactamente según el patrón de patas del equipo",
+          "Elementos de nivelación y llaves de cortante cuando se requieren",
+          "Elementos antivibratorios a petición"
+        ]
+      },
+      {
+        "key": "gusset",
+        "title": "Cartelas y rigidizadores",
+        "alt": "Cartela triangular soldada en una unión viga-columna",
+        "text": "Placas triangulares o rectangulares soldadas en uniones viga-columna para rigidizar la unión y transmitir cargas.",
+        "points": [
+          "Estructuras metálicas, estructuras soporte de calderas y racks de tuberías",
+          "Ménsulas y soportes de plataformas",
+          "Importantes en estructuras diseñadas para cargas sísmicas y de viento"
+        ]
+      },
+      {
+        "key": "embed",
+        "title": "Placas embebidas",
+        "alt": "Placa embebida con pernos conectores soldados, hormigonada en un muro",
+        "text": "Placas de acero con pernos conectores o anclajes soldados que se hormigonan para ofrecer un punto de conexión después del vertido.",
+        "points": [
+          "Fijar estructura metálica, soportes de tubería y equipos al hormigón",
+          "Fijar barandillas a muros y forjados de hormigón",
+          "Pernos soldados a la placa antes del hormigonado"
+        ]
+      }
+    ],
+    "materialsTitle": "Materiales",
+    "materials": [
+      {
+        "title": "Acero al carbono",
+        "text": "IS 2062 Grado A, B o C y ASTM A36. La opción más común para placas estructurales."
+      },
+      {
+        "title": "Acero inoxidable",
+        "text": "SS304, SS310 y SS316, para ambientes corrosivos y soportes refractarios a alta temperatura."
+      },
+      {
+        "title": "Acero para calderas",
+        "text": "IS 2002 y SA 516 Gr 70, para recipientes a presión y calderas."
+      },
+      {
+        "title": "Acero estructural de alta resistencia",
+        "text": "ASTM A572 Grado 50, para cargas elevadas."
+      }
+    ],
+    "specTitle": "Especificaciones",
+    "colProperty": "Propiedad",
+    "colRange": "Rango",
+    "specRows": [
+      {
+        "label": "Espesor",
+        "value": "6 mm a 100 mm o más"
+      },
+      {
+        "label": "Tamaño",
+        "value": "Cortado según plano, a partir de chapas de hasta 2000 × 6000 mm"
+      },
+      {
+        "label": "Taladrado",
+        "value": "CNC o manual, con la tolerancia del plano"
+      },
+      {
+        "label": "Superficie",
+        "value": "Mecanizada plana, granallada, pintada o galvanizada"
+      },
+      {
+        "label": "Soldadura",
+        "value": "Según AWS D1.1 o IS 816, con END cuando se especifica"
+      },
+      {
+        "label": "Normas",
+        "value": "IS 2062, ASTM A36, ASTM A572, IS 816 (soldadura), AWS D1.1"
+      },
+      {
+        "label": "Tolerancias",
+        "value": "Según IS 2062, AISC o la especificación del cliente"
+      },
+      {
+        "label": "Ensayos",
+        "value": "Inspección dimensional, ultrasonidos (UT) en chapas gruesas, inspección visual de soldaduras"
+      }
+    ],
+    "specNote": "Cada placa se fabrica según el plano del cliente. Envíenos el plano o croquis con el grado de material, espesor, acabado y cantidad.",
+    "applicationsTitle": "Aplicaciones por sector",
+    "applications": [
+      {
+        "title": "Hornos",
+        "text": "Ménsulas de soporte del revestimiento refractario, placas soporte de bloques de quemador y refuerzos de la carcasa del horno."
+      },
+      {
+        "title": "Calderas",
+        "text": "Estructura soporte, ménsulas de buckstays y soportes de envolvente."
+      },
+      {
+        "title": "Refinerías",
+        "text": "Estructuras soporte de calentadores, placas base de columnas y de racks de tuberías."
+      },
+      {
+        "title": "Centrales eléctricas",
+        "text": "Placas de pedestales de turbina, estructura soporte de calderas y plataformas."
+      },
+      {
+        "title": "Plantas de cemento",
+        "text": "Estructura de torres de precalentador, placas de pilares del horno y de cimentaciones de molinos."
+      },
+      {
+        "title": "Estructuras en general",
+        "text": "Bases de columnas, apoyos de carriles de grúa, soportes de cintas transportadoras y fijación de barandillas."
+      }
+    ],
+    "supplyTitle": "Qué suministramos",
+    "supply": [
+      {
+        "title": "Todos los tipos según plano",
+        "text": "Desde una sola ménsula hasta juegos completos, fabricados según el plano del cliente."
+      },
+      {
+        "title": "Corte y mecanizado",
+        "text": "Oxicorte, plasma o CNC según convenga, con taladrado, mecanizado y soldadura."
+      },
+      {
+        "title": "Tratamiento superficial",
+        "text": "Granallado, imprimación y galvanizado en caliente."
+      },
+      {
+        "title": "Placas sueltas o paquetes",
+        "text": "Placas individuales o como parte de un paquete completo de fabricación estructural."
+      },
+      {
+        "title": "Desde muestra, croquis o plano",
+        "text": "Fabricamos placas a partir de una muestra, un croquis o un plano de ingeniería detallado."
+      }
+    ],
+    "relatedTitle": "Productos relacionados",
+    "relatedFoundationBolts": "Pernos de anclaje y de cimentación que fijan las placas base al hormigón.",
+    "relatedStanchions": "Montantes y postes para plataformas y barandillas, montados sobre placas base.",
+    "relatedPipeGuides": "Guías de tubería y camisas anulares para calentadores y racks de tuberías.",
+    "relatedAnchors": "Anclajes SEPL que sujetan el revestimiento refractario entre las ménsulas de soporte.",
+    "servicesTitle": "Servicios relacionados",
+    "relatedSwText": "Soldadura de pernos para placas embebidas y para anclajes soldados a placas soporte.",
+    "relatedPmiText": "Verificación de aleación de placas de acero inoxidable antes del envío.",
+    "relatedPpText": "Tratamiento superficial de placas y ménsulas de acero inoxidable después de soldar.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué son las placas de soporte refractario?",
+        "a": "Las placas de soporte refractario, también llamadas ménsulas de revestimiento o consolas, son ménsulas de acero soldadas al interior de la carcasa de un horno o caldera. Sostienen el peso del revestimiento refractario, sobre todo en paredes verticales altas y zonas de techo, y reparten esa carga de forma uniforme sobre la carcasa. También se usan para sostener los bloques de quemador por separado de la pared."
+      },
+      {
+        "q": "¿De qué materiales se fabrican las placas soporte?",
+        "a": "Las placas estructurales suelen ser de acero al carbono IS 2062 o ASTM A36, o ASTM A572 Grado 50 para cargas elevadas. Las piezas de calderas y recipientes a presión se fabrican en IS 2002 o SA 516 Gr 70. Las ménsulas de soporte refractario que trabajan en caliente son de acero inoxidable como SS304 o SS310, y se usa SS316 en ambientes corrosivos."
+      },
+      {
+        "q": "¿Pueden suministrarse las placas mecanizadas?",
+        "a": "Sí. Las placas base pueden mecanizarse planas en la cara de apoyo para un contacto total con el grout, y los agujeros se taladran por CNC o manualmente con la tolerancia del plano. También suministramos placas granalladas, imprimadas o galvanizadas en caliente."
+      },
+      {
+        "q": "¿Cuál es el espesor máximo disponible?",
+        "a": "Suministramos placas soporte desde 6 mm hasta 100 mm de espesor o más, cortadas según plano a partir de chapas de hasta 2000 × 6000 mm. Las chapas gruesas pueden ensayarse por ultrasonidos cuando la especificación lo exige."
+      }
+    ],
+    "ctaTitle": "¿Necesita placas soporte o placas base?",
+    "ctaText": "Envíenos su plano, croquis o datos de la muestra con el grado de material, espesor, acabado y cantidad. Le responderemos con una cotización y el plazo de entrega.",
+    "ctaRfq": "Solicitar cotización de placas soporte",
+    "ctaContact": "O contacte con nuestro equipo"
+  },
+  "stPage": {
+    "metaTitle": "Montantes industriales y postes de barandilla | Santura Engineering",
+    "metaDescription": "Montantes, barandillas, rodapiés y puertas para plataformas y pasarelas industriales, según plano. Desde 1980, exporta a más de 25 países.",
+    "eyebrow": "Taller de fabricación",
+    "h1": "Montantes industriales y sistemas de barandilla",
+    "subheading": "Montantes, pasamanos, rodapiés y puertas para plataformas, pasarelas y escaleras industriales. Cortados, soldados y galvanizados en caliente según su plano, en postes sueltos, módulos de barandilla o paquetes completos de plataforma.",
+    "gallery": [
+      "Lote de montantes industriales galvanizados con placas base rigidizadas",
+      "Montante galvanizado con brazos de pasamanos soldados y placa base",
+      "Montante industrial con brazo lateral y placa base rigidizada",
+      "Detalle de una unión en T soldada en un montante"
+    ],
+    "overviewTitle": "Qué son los montantes industriales",
+    "overview": [
+      "Los montantes son los postes verticales de acero, macizos o tubulares, que forman los apoyos de una barandilla o barrera industrial. En los montantes de bola, los pasamanos horizontales atraviesan bolas de acero forjado del poste y se bloquean con tornillos prisioneros.",
+      "Junto con pasamanos, rodapiés, puertas y cierres, los montantes forman la protección de borde exigida en plataformas, pasarelas, escaleras y otras zonas elevadas. Santura fabrica montantes, sistemas completos de barandilla y estructuras de plataforma según el plano del cliente."
+    ],
+    "weldedTitle": "Montantes soldados",
+    "weldedText": "Nuestras fotos muestran montantes soldados: postes tubulares con brazos de pasamanos soldados, placa base rigidizada y galvanizado en caliente después de soldar. Fabricamos montantes según el plano del cliente, del tipo de bola descrito abajo o de este tipo soldado.",
+    "typesTitle": "Configuraciones de montantes",
+    "types": [
+      {
+        "key": "single",
+        "title": "Montante de una bola",
+        "alt": "Montante de una bola con pasamanos superior",
+        "text": "Una bola arriba para un solo pasamanos. Se usa donde solo se requiere pasamanos superior, como pasarelas de bajo riesgo y barandillas guía."
+      },
+      {
+        "key": "double",
+        "title": "Montante de dos bolas",
+        "alt": "Montante de dos bolas con pasamanos y barra intermedia",
+        "text": "Dos bolas para el pasamanos y la barra intermedia. La configuración estándar para la mayoría de plataformas y pasarelas industriales."
+      },
+      {
+        "key": "three",
+        "title": "Montante de tres bolas",
+        "alt": "Montante de tres bolas con pasamanos, barra intermedia y barra inferior",
+        "text": "Tres bolas para pasamanos, barra intermedia y una barra inferior adicional. Se usa cuando se necesita más seguridad o menor separación entre barras."
+      },
+      {
+        "key": "raked",
+        "title": "Montante inclinado",
+        "alt": "Montante inclinado con barras que siguen la pendiente de una escalera",
+        "text": "Bolas orientadas en ángulo para que las barras sigan la pendiente de una escalera o rampa. Se usa en escaleras industriales y pasarelas inclinadas."
+      }
+    ],
+    "basesTitle": "Tipos de base",
+    "bases": [
+      {
+        "key": "flat",
+        "title": "Placa base plana",
+        "alt": "Montante con placa base atornillada al suelo de una plataforma",
+        "text": "Atornillada al suelo o a la plataforma. La base más común en plataformas y pasarelas de rejilla o chapa estriada."
+      },
+      {
+        "key": "side",
+        "title": "Fijación lateral",
+        "alt": "Montante atornillado lateralmente al alma de una viga",
+        "text": "Atornillada a una superficie vertical, como el alma de una viga, la virola de un tanque o un muro, cuando no es posible fijarla al suelo."
+      },
+      {
+        "key": "collar",
+        "title": "Base con casquillo soldado",
+        "alt": "Montante insertado en un casquillo soldado a la estructura",
+        "text": "El poste se aloja en un casquillo soldado directamente a la estructura. Para instalaciones permanentes."
+      },
+      {
+        "key": "cored",
+        "title": "Base empotrada",
+        "alt": "Montante recibido con grout en un taladro de una losa de hormigón",
+        "text": "El poste se coloca en un taladro en el hormigón y se rellena con grout. Para plataformas y descansillos de hormigón."
+      },
+      {
+        "key": "angle",
+        "title": "Base de angular",
+        "alt": "Montante con base de angular sobre un bastidor de perfiles",
+        "text": "Base con escuadra para fijar a un angular o perfil en U. Para plataformas con bastidor de angulares."
+      }
+    ],
+    "specTitle": "Dimensiones y especificaciones",
+    "colSpec": "Especificación",
+    "colRange": "Rango estándar",
+    "specRows": [
+      {
+        "label": "Diámetro del poste",
+        "value": "33,7 mm (1 in DN), 42,4 mm (1¼ in DN), 48,3 mm (1½ in DN)"
+      },
+      {
+        "label": "Espesor de pared",
+        "value": "3,0 mm a 5,0 mm (tubular) o macizo"
+      },
+      {
+        "label": "Tamaño de bola",
+        "value": "60 mm, 63 mm, 76 mm"
+      },
+      {
+        "label": "Diámetro de barra",
+        "value": "33,7 mm o 42,4 mm"
+      },
+      {
+        "label": "Altura estándar",
+        "value": "1000 mm a 1100 mm (parte superior del pasamanos sobre el suelo)"
+      },
+      {
+        "label": "Distancia entre bolas",
+        "value": "450 mm a 550 mm típica"
+      },
+      {
+        "label": "Altura del rodapié",
+        "value": "100 mm a 150 mm"
+      },
+      {
+        "label": "Placa base",
+        "value": "100 × 100 mm a 172 × 150 mm, de 6 mm a 10 mm de espesor, con agujeros de 18 mm"
+      },
+      {
+        "label": "Separación entre postes",
+        "value": "1500 mm a 1800 mm como máximo"
+      }
+    ],
+    "specNote": "Son rangos estándar. Alturas, posición de las barras y separación de postes se ajustan al plano del cliente y a la norma de seguridad aplicable al proyecto.",
+    "materialsTitle": "Materiales",
+    "materials": [
+      {
+        "title": "Acero al carbono (IS 2062 / ASTM A36)",
+        "text": "La opción más común, pintado o galvanizado."
+      },
+      {
+        "title": "Acero inoxidable (SS304 / SS316)",
+        "text": "Para ambientes corrosivos, offshore, industria alimentaria y plantas químicas."
+      },
+      {
+        "title": "Aluminio",
+        "text": "Ligero, para usos no estructurales o donde el peso es determinante."
+      }
+    ],
+    "finishesTitle": "Acabados",
+    "finishes": [
+      {
+        "title": "Galvanizado en caliente",
+        "text": "El acabado estándar para uso exterior e industrial; suele proteger el acero 20 años o más según el ambiente."
+      },
+      {
+        "title": "Pintura en polvo",
+        "text": "Para interiores o cuando se requiere código de color; el amarillo de seguridad es habitual."
+      },
+      {
+        "title": "Negro / imprimado",
+        "text": "Para fabricantes que pintarán en obra."
+      },
+      {
+        "title": "Acero inoxidable",
+        "text": "Acabado de laminación o pulido, sin recubrimiento."
+      }
+    ],
+    "standardsTitle": "Normas y cumplimiento",
+    "colStandard": "Norma",
+    "colCovers": "Qué cubre",
+    "standards": [
+      {
+        "code": "OSHA 1910.29",
+        "text": "Norma de EE. UU. para superficies de trabajo y tránsito: pasamanos a 42 in (1067 mm) ± 3 in, barra intermedia donde no hay muro, rodapiés de al menos 3,5 in (89 mm) en lados abiertos, y un pasamanos que resista 200 lb (890 N) hacia fuera o hacia abajo."
+      },
+      {
+        "code": "EN ISO 14122-3",
+        "text": "Norma europea de barandillas y escaleras como medios de acceso permanentes a máquinas e instalaciones."
+      },
+      {
+        "code": "BS 6180",
+        "text": "Código británico de práctica para barreras en edificios y su entorno."
+      },
+      {
+        "code": "IS 1161",
+        "text": "Norma india de tubos de acero para uso estructural (medidas de postes y barras)."
+      },
+      {
+        "code": "IS 2062",
+        "text": "Norma india de acero estructural laminado en caliente."
+      }
+    ],
+    "standardsNote": "Fabricamos según el plano y la norma indicada en su especificación. Indíquenos qué norma aplica a su proyecto.",
+    "componentsTitle": "Componentes del sistema de barandilla",
+    "componentsIntro": "Todo lo necesario para un sistema de barandilla completo puede suministrarse junto con los montantes.",
+    "components": [
+      {
+        "title": "Montantes",
+        "text": "De una, dos o tres bolas, o soldados, con cualquier tipo de base."
+      },
+      {
+        "title": "Barras",
+        "text": "Tramos rectos, normalmente de 6,4 m."
+      },
+      {
+        "title": "Cierres y curvas",
+        "text": "Curvas de cierre horizontales y en ángulo, curvas de retorno y remates de escalera."
+      },
+      {
+        "title": "Puertas",
+        "text": "Puertas de seguridad con muelle y cierre automático para accesos a plataformas."
+      },
+      {
+        "title": "Rodapiés",
+        "text": "Chapas de 100 mm a 150 mm a nivel del suelo que evitan la caída de objetos por el borde."
+      },
+      {
+        "title": "Soportes de rodapié",
+        "text": "Grapas que fijan los rodapiés a los montantes."
+      },
+      {
+        "title": "Conectores",
+        "text": "Uniones interiores expansivas y conectores exteriores para empalmar barras."
+      }
+    ],
+    "applicationsTitle": "Aplicaciones por sector",
+    "applications": [
+      {
+        "title": "Refinerías y petroquímica",
+        "text": "Pasarelas en racks de tuberías, plataformas de recipientes, plataformas de carga y accesos en parques de tanques."
+      },
+      {
+        "title": "Centrales eléctricas",
+        "text": "Plataformas de caldera, acceso a la sala de turbinas, plataformas de manejo de carbón y acceso a chimeneas."
+      },
+      {
+        "title": "Plantas de cemento",
+        "text": "Plataformas de la torre de precalentador, pasarelas en la zona del horno, planta de molinos y techos de silos."
+      },
+      {
+        "title": "Plantas siderúrgicas",
+        "text": "Barreras en la planta de hornos, pasarelas de laminación y plataformas de acceso a grúas."
+      },
+      {
+        "title": "Salas de calderas",
+        "text": "Acceso al calderín, plataformas del economizador y acceso al precalentador de aire."
+      },
+      {
+        "title": "Industria en general",
+        "text": "Protección de máquinas, entreplantas, muelles de carga y barandillas de escaleras."
+      }
+    ],
+    "supplyTitle": "Qué suministramos",
+    "supply": [
+      {
+        "title": "Montantes y componentes",
+        "text": "Montantes sueltos y piezas para que el montador los ensamble en obra."
+      },
+      {
+        "title": "Módulos de barandilla",
+        "text": "Postes con barras y rodapiés, prefabricados y listos para atornillar."
+      },
+      {
+        "title": "Plataformas completas",
+        "text": "Bastidores, rejillas, barandillas, escaleras de gato y puertas en un solo paquete."
+      },
+      {
+        "title": "Según plano o estándar",
+        "text": "Montantes y barras según su plano o con dimensiones estándar."
+      },
+      {
+        "title": "Conjuntos de puerta",
+        "text": "Puertas de seguridad con bisagras de cierre automático."
+      },
+      {
+        "title": "Todos los tipos de base",
+        "text": "Placa plana, fijación lateral, casquillo soldado, base empotrada y base de angular."
+      }
+    ],
+    "relatedTitle": "Productos relacionados",
+    "relatedSupportPlates": "Placas base y de montaje para postes, plataformas y estructura metálica.",
+    "relatedFoundationBolts": "Pernos de anclaje para fijar bases de montantes y pilares de plataformas al hormigón.",
+    "relatedPipeGuides": "Guías y camisas de tubería para los racks junto a los que suelen ir las pasarelas.",
+    "servicesTitle": "Servicios relacionados",
+    "relatedPmiText": "Verificación de aleación de montantes y barras de acero inoxidable.",
+    "relatedPpText": "Decapado y pasivado de barandillas de acero inoxidable después de soldar.",
+    "relatedQualityText": "Nuestra inspección y ensayos de piezas fabricadas.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué es un montante de bola?",
+        "a": "Un montante de bola es un poste de barandilla con bolas de acero forjado a lo largo de su altura. Las barras horizontales atraviesan los agujeros de las bolas y se bloquean con tornillos prisioneros. Así la barandilla se monta rápido y las barras pueden llegar al poste con el ángulo necesario en escaleras y esquinas."
+      },
+      {
+        "q": "¿Qué altura de barandilla exige OSHA?",
+        "a": "OSHA 1910.29 exige que el borde superior del pasamanos esté a 42 pulgadas (1067 mm) sobre la superficie de tránsito, con una tolerancia de 3 pulgadas. Se necesita barra intermedia donde no hay muro o antepecho, los rodapiés deben medir al menos 3,5 pulgadas (89 mm) y el pasamanos debe resistir una fuerza de 200 lb (890 N)."
+      },
+      {
+        "q": "¿Qué diferencia hay entre un montante de una y de dos bolas?",
+        "a": "El montante de una bola solo lleva el pasamanos superior. El de dos bolas lleva el pasamanos y una barra intermedia a media altura; es la disposición estándar en la mayoría de plataformas y pasarelas industriales porque la barra intermedia cierra el hueco bajo el pasamanos."
+      },
+      {
+        "q": "¿Pueden suministrarse los montantes galvanizados?",
+        "a": "Sí. El galvanizado en caliente después de fabricar es nuestro acabado estándar para montantes de acero al carbono en exterior y plantas industriales. También los suministramos con pintura en polvo, imprimados para pintar en obra o en acero inoxidable sin recubrimiento."
+      }
+    ],
+    "ctaTitle": "¿Necesita montantes o barandillas?",
+    "ctaText": "Envíenos su plano o distribución con el tipo de montante, tipo de base, altura, material, acabado y cantidad. Le responderemos con una cotización y el plazo de entrega.",
+    "ctaRfq": "Solicitar cotización de montantes",
+    "ctaContact": "O contacte con nuestro equipo"
+  },
+  "pgPage": {
+    "metaTitle": "Guías de tubería y camisas anulares para calentadores y calderas | Santura Engineering",
+    "metaDescription": "Guías de tubería, camisas anulares y soportes de tubos para calentadores, calderas y hornos, según plano. Desde 1980, exporta a más de 25 países.",
+    "eyebrow": "Taller de fabricación",
+    "h1": "Guías de tubería y camisas anulares",
+    "subheading": "Guías de tubería, camisas anulares y piezas de soporte de tubos para calentadores de fuego directo, reformadores, calderas y tuberías de proceso. Fabricadas según su plano en acero al carbono, acero inoxidable y aleaciones refractarias.",
+    "gallery": [
+      "Lote de guías de tubería galvanizadas con anillos guía embridados para calentadores",
+      "Guía de tubería con collarín embridado y cuerpo cónico para un calentador",
+      "Existencias de guías de tubería galvanizadas en el taller",
+      "Camisas anulares de acero inoxidable apiladas en almacén",
+      "Camisa anular partida de acero inoxidable marcada SS310",
+      "Camisas anulares de acero inoxidable marcadas con grado y tamaño",
+      "Camisas anulares de inoxidable apiladas con ranuras de dilatación",
+      "Camisas anulares de inoxidable encajadas para el envío",
+      "Paquete de camisas anulares de inoxidable encajadas",
+      "Camisa anular con ranura de dilatación",
+      "Sección de camisa anular partida"
+    ],
+    "overviewTitle": "Qué son las guías de tubería y las camisas anulares",
+    "overview": [
+      "Las guías de tubería y las camisas anulares son piezas de acero fabricadas que soportan, guían y protegen tuberías y tubos de horno. Una guía impide que la tubería se desplace lateralmente, pero le permite alargarse y acortarse a lo largo de su eje cuando cambia la temperatura.",
+      "Una camisa anular, también llamada manguito o pasamuros, es un cilindro que se coloca donde una tubería atraviesa un muro, un forjado o la carcasa de un equipo. Protege la tubería, sella la abertura y deja espacio para que la tubería se mueva.",
+      "Ambas son especialmente importantes en calentadores, calderas y hornos, donde las tuberías trabajan calientes y sufren ciclos repetidos de calentamiento y enfriamiento. Santura fabrica guías y camisas según el plano del cliente, incluidas piezas para calentadores diseñados según API 560."
+    ],
+    "madeTitle": "Qué muestran nuestras fotos",
+    "made": [
+      "Guías de tubería: anillos guía forjados, mecanizados y soldados a un tubo, y después galvanizados.",
+      "Camisas anulares: chapa de acero inoxidable (SS304, SS310, SS316) cizallada según plano y curvada en anillos partidos o ranurados, cada uno marcado con su grado y tamaño.",
+      "Todo fabricado en nuestro taller para reformadores y calentadores de fuego directo."
+    ],
+    "guidesTitle": "Tipos de guías de tubería",
+    "guides": [
+      {
+        "key": "spider",
+        "title": "Guías cilíndricas / de araña",
+        "size": "Tuberías de 6 in a 36 in y mayores",
+        "alt": "Guía cilíndrica con brazos de araña interiores alrededor de una tubería",
+        "text": "Jaula cilíndrica soldada a un soporte, con brazos interiores en araña que dejan deslizar la tubería longitudinalmente pero impiden el movimiento lateral. Se usa en tramos largos y cerca de juntas de dilatación."
+      },
+      {
+        "key": "ubolt",
+        "title": "Guías de abarcón en U",
+        "size": "Tamaños de tubería menores",
+        "alt": "Guía de abarcón en U con placa base sobre una viga",
+        "text": "Un abarcón en U rodea la tubería y su placa base se atornilla al soporte. Guía sencilla y económica que permite el movimiento longitudinal dentro de la holgura del abarcón."
+      },
+      {
+        "key": "structural",
+        "title": "Guías de perfilería",
+        "size": "Tuberías grandes y pesadas",
+        "alt": "Bastidor de perfiles que abraza una tubería grande",
+        "text": "Angulares, perfiles en U o chapa soldados en un bastidor que abraza la tubería. Para tuberías de gran diámetro o pesadas, aisladas o desnudas."
+      },
+      {
+        "key": "slide",
+        "title": "Guías con placa deslizante",
+        "size": "",
+        "alt": "Patín de tubería sobre una placa deslizante de baja fricción",
+        "text": "El patín de la tubería apoya sobre una placa deslizante de PTFE o grafito de baja fricción. Se usa donde la fricción debe ser mínima para proteger juntas de dilatación o conexiones sensibles."
+      },
+      {
+        "key": "tube",
+        "title": "Soportes de tubos (calentadores)",
+        "size": "API 560",
+        "alt": "Soportes que sujetan los serpentines de tubos dentro de un calentador",
+        "text": "Soportes dentro del hogar que mantienen en posición los serpentines. API 560 limita la longitud horizontal sin apoyo a 35 diámetros exteriores del tubo o 6 m (20 ft), lo que sea menor. Se fabrican en aleaciones refractarias como Alloy 800H; también se usan soportes fundidos de 25Cr-20Ni (HK40)."
+      }
+    ],
+    "sleevesTitle": "Tipos de camisas anulares",
+    "sleeves": [
+      {
+        "key": "floor",
+        "title": "Pasamuros de forjado y muro",
+        "size": "2 a 4 in mayores que el diámetro exterior del tubo",
+        "alt": "Pasamuros embebido en un forjado de hormigón con una tubería que lo atraviesa",
+        "text": "Camisas colocadas en forjados y muros de hormigón o acero donde pasan las tuberías, selladas con empaquetadura o material cortafuego. El sobretamaño deja espacio para el aislamiento y el movimiento."
+      },
+      {
+        "key": "shell",
+        "title": "Pasamuros en carcasa de horno",
+        "size": "",
+        "alt": "Camisa soldada en la carcasa de un horno alrededor de un tubo",
+        "text": "Camisas soldadas en carcasas de hornos o calderas donde entran tubos o tuberías. Una placa de sellado y empaquetadura evitan fugas de gases mientras el tubo se dilata."
+      },
+      {
+        "key": "anchor",
+        "title": "Camisas anulares de anclaje refractario",
+        "size": "",
+        "alt": "Camisa anular embebida en el revestimiento refractario en una abertura",
+        "text": "Camisas embebidas en el revestimiento refractario que anclan el revestimiento en las penetraciones y dejan una abertura acabada para tubería o instrumento."
+      }
+    ],
+    "materialsTitle": "Materiales",
+    "materials": [
+      {
+        "title": "Acero al carbono (IS 2062 / ASTM A36)",
+        "text": "Estándar para guías exteriores y soportes estructurales."
+      },
+      {
+        "title": "Acero inoxidable (SS304, SS310, SS316)",
+        "text": "Para servicio corrosivo o a alta temperatura, o cuando lo exige el licenciante del proceso. Nuestras camisas se fabrican en estos grados."
+      },
+      {
+        "title": "Aleaciones refractarias (Alloy 800H, HK40, 25Cr-20Ni)",
+        "text": "Para soportes de tubos dentro del hogar de calentadores según API 560."
+      },
+      {
+        "title": "Acero galvanizado",
+        "text": "Para guías en racks de tuberías a la intemperie."
+      }
+    ],
+    "specTitle": "Especificaciones",
+    "colProperty": "Propiedad",
+    "colRange": "Rango",
+    "specRows": [
+      {
+        "label": "Tamaños de tubería",
+        "value": "1/2 in DN a 48 in DN y mayores (a medida)"
+      },
+      {
+        "label": "Holgura de guía",
+        "value": "Normalmente 3 mm a 6 mm radial para la dilatación"
+      },
+      {
+        "label": "Espesor de camisa",
+        "value": "6 mm a 12 mm de pared, según tamaño y aplicación"
+      },
+      {
+        "label": "Temperatura de servicio",
+        "value": "Hasta 400 °C en guías exteriores; hasta 1100 °C en soportes interiores de aleaciones refractarias"
+      },
+      {
+        "label": "Normas",
+        "value": "API 560 (calentadores), ASME B31.3 (tuberías de proceso), IS 2062, ASTM A36"
+      },
+      {
+        "label": "Capacidad de carga",
+        "value": "Según cálculo, a partir del peso de tubería, aislamiento y contenido"
+      },
+      {
+        "label": "Acabado",
+        "value": "Imprimado, galvanizado en caliente o sin recubrimiento en aleaciones de alta temperatura"
+      }
+    ],
+    "specNote": "Cada pieza se fabrica según el plano del cliente. Envíenos el plano con el tamaño de tubería, material, temperatura de diseño y cantidad.",
+    "applicationsTitle": "Aplicaciones por sector",
+    "applications": [
+      {
+        "title": "Calentadores de refinería",
+        "text": "Soportes de tubos de radiación y convección, guías, soportes de codos de retorno y camisas en la carcasa, según API 560."
+      },
+      {
+        "title": "Calderas",
+        "text": "Soportes de tubos de sobrecalentador, recalentador y economizador, y pasamuros en la envolvente de la caldera."
+      },
+      {
+        "title": "Plantas petroquímicas",
+        "text": "Guías en racks para tuberías de proceso, guías en liras de dilatación y en conexiones de equipos."
+      },
+      {
+        "title": "Centrales eléctricas",
+        "text": "Guías de tuberías de vapor principal, agua de alimentación y turbina."
+      },
+      {
+        "title": "Plantas de cemento",
+        "text": "Pasamuros en la carcasa del horno para tuberías de quemador e instrumentos, y soportes de conductos."
+      },
+      {
+        "title": "Tuberías en general",
+        "text": "Guías de dilatación junto a juntas y liras, y pasamuros de forjado y muro en racks de tuberías."
+      }
+    ],
+    "supplyTitle": "Qué suministramos",
+    "supply": [
+      {
+        "title": "Guías de tubería",
+        "text": "Según planos de ingeniería o diseños estándar de catálogo."
+      },
+      {
+        "title": "Camisas anulares",
+        "text": "Para penetraciones en carcasas, forjados y muros."
+      },
+      {
+        "title": "Soportes de tubos para calentadores",
+        "text": "Componentes de soporte para calentadores según API 560."
+      },
+      {
+        "title": "Conjuntos de guía completos",
+        "text": "Bastidor de guía, placas deslizantes y tornillería juntos."
+      },
+      {
+        "title": "Elección de material",
+        "text": "Desde acero al carbono hasta inoxidable y aleaciones refractarias."
+      },
+      {
+        "title": "Piezas sueltas o paquetes",
+        "text": "Piezas individuales o dentro de un paquete de soportes de tubería o de fabricación de calentadores."
+      }
+    ],
+    "relatedTitle": "Productos relacionados",
+    "relatedSupportPlates": "Placas base y ménsulas para soportes de tubería y estructuras de guía.",
+    "relatedFoundationBolts": "Pernos de anclaje para cimentaciones de racks y soportes de guías.",
+    "relatedStanchions": "Barandillas y montantes para pasarelas de racks y plataformas de calentadores.",
+    "relatedAnchors": "Anclajes SEPL para el revestimiento refractario que atraviesan las camisas.",
+    "servicesTitle": "Servicios relacionados",
+    "relatedPmiText": "Verificación de aleación de camisas SS310 y soportes de aleación refractaria.",
+    "relatedPpText": "Decapado y pasivado de camisas de inoxidable después de fabricar.",
+    "relatedSwText": "Soldadura de pernos de anclajes alrededor de penetraciones en la carcasa.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Para qué sirve una guía de tubería?",
+        "a": "Una guía mantiene la tubería en su trazado. Impide el movimiento lateral pero deja que la tubería se deslice a lo largo de su eje cuando se dilata en caliente y se contrae al enfriarse. Las guías se colocan en tramos largos y cerca de juntas y liras de dilatación para que el movimiento térmico vaya donde el proyectista lo previó."
+      },
+      {
+        "q": "¿Qué es API 560?",
+        "a": "API 560 es la norma del American Petroleum Institute para calentadores de fuego directo en refinerías y plantas petroquímicas. Cubre diseño, materiales, fabricación y ensayos, incluidos los soportes y guías de tubos dentro del hogar. Por ejemplo, limita la longitud horizontal sin apoyo a 35 diámetros del tubo o 6 m, lo que sea menor."
+      },
+      {
+        "q": "¿Qué diferencia hay entre una guía y un soporte de tubería?",
+        "a": "Un soporte carga el peso de la tubería. Una guía controla en qué dirección puede moverse: impide el movimiento lateral y permite la dilatación longitudinal. Muchas guías también cargan peso, así que una guía es un soporte que además restringe la tubería en una o más direcciones."
+      },
+      {
+        "q": "¿Qué es una camisa anular?",
+        "a": "Una camisa anular, también llamada manguito o pasamuros, es un cilindro de acero que se coloca donde una tubería atraviesa un muro, un forjado, un revestimiento refractario o la carcasa de un equipo. Protege la tubería, sella la abertura con empaquetadura o placa de sellado y deja espacio para la dilatación. Nuestras camisas suelen fabricarse con chapa SS304, SS310 o SS316."
+      }
+    ],
+    "ctaTitle": "¿Necesita guías de tubería o camisas anulares?",
+    "ctaText": "Envíenos su plano con el tamaño de tubería, grado de material, temperatura de diseño y cantidad. Le responderemos con una cotización y el plazo de entrega.",
+    "ctaRfq": "Solicitar cotización de guías y camisas",
+    "ctaContact": "O contacte con nuestro equipo"
+  },
+  "cwPage": {
+    "metaTitle": "Sistemas de contrapeso para hornos reformadores | Aprobado por Linde | Santura Engineering",
+    "metaDescription": "Sistemas de contrapeso para reformadores de hidrógeno y hornos de craqueo. Proveedor aprobado por Linde. Desde 1980, exporta a más de 25 países.",
+    "eyebrow": "Hornos reformadores y de craqueo",
+    "h1": "Sistemas de contrapeso para hornos reformadores y de craqueo",
+    "subheading": "Sistemas de contrapeso de brazo de palanca que soportan el peso de los tubos radiantes en reformadores de hidrógeno y hornos de craqueo de etileno. Fabricados por Santura desde finales de los años noventa, según los planos de ingeniería del cliente.",
+    "lindeBadge": "Proveedor aprobado por Linde Engineering India, {period}",
+    "photoAlt": "Conjunto de brazo de contrapeso galvanizado con pilas de pesos muertos",
+    "photoCaption": "Conjunto de brazo de palanca galvanizado con pilas de pesos en nuestro taller.",
+    "whatTitle": "Qué hace un sistema de contrapeso",
+    "what": [
+      "En los reformadores de hidrógeno y los hornos de craqueo de etileno, tubos verticales cuelgan dentro del hogar a temperaturas muy altas. Los tubos del reformador van llenos de catalizador, y cada tubo con su catalizador puede pesar más de una tonelada. Los tubos se alargan notablemente al calentarse.",
+      "Un sistema de contrapeso soporta este peso para que el tubo cuelgue libremente y se dilate y contraiga sin tensiones. Funciona según el principio de la palanca: un peso muerto en un extremo de un brazo pivotante equilibra el tubo en el otro extremo.",
+      "Los pivotes deben moverse prácticamente sin fricción. Incluso fuerzas de fricción pequeñas transmitirían carga no deseada a los tubos y acortarían su vida."
+    ],
+    "howTitle": "Cómo funciona",
+    "how": [
+      "Las varillas de suspensión suben desde la parte superior de cada tubo, a través del techo del horno, hasta un yugo.",
+      "El yugo se une a un extremo de un brazo de palanca horizontal que pivota sobre un bastidor de apoyo en la estructura del techo.",
+      "Del otro extremo del brazo cuelga un peso muerto calculado.",
+      "El peso muerto equilibra el tubo lleno de catalizador, el pigtail inferior, su parte del colector flotante, la mitad del pigtail superior y los elementos de suspensión.",
+      "Cuando el tubo se calienta y crece hacia abajo, el brazo se inclina ligeramente y el peso sube, de modo que la fuerza de soporte sobre el tubo se mantiene constante."
+    ],
+    "diagramAlt": "Esquema de un sistema de contrapeso: tubo, varilla de suspensión, yugo, brazo de palanca, apoyo y peso muerto",
+    "diagram": [
+      "Tubo del reformador (crece hacia abajo en caliente)",
+      "Varilla de suspensión",
+      "Yugo",
+      "Brazo de palanca",
+      "Bastidor de apoyo con pivote casquillado",
+      "Peso muerto",
+      "Techo del horno"
+    ],
+    "buildTitle": "Cómo los fabrica Santura",
+    "buildIntro": "Cada sistema se fabrica según los planos de ingeniería del cliente. Así es nuestra construcción:",
+    "build": [
+      {
+        "title": "Pesos muertos",
+        "text": "Bloques de acero al carbono y fundición, dimensionados para la carga de equilibrio calculada."
+      },
+      {
+        "title": "Bastidores en H y en I",
+        "text": "Bastidores de perfil hueco con casquillos Graphalloy importados sin aceite, alojados en carcasas de acero al carbono en cada pivote."
+      },
+      {
+        "title": "Pasadores de pivote",
+        "text": "Acero inoxidable 410S de calidad especial, un inoxidable martensítico con buena resistencia a la corrosión y al calor."
+      },
+      {
+        "title": "Horquillas",
+        "text": "De acero inoxidable, mecanizadas en nuestro taller de Bombay."
+      },
+      {
+        "title": "Tornillos de grado 8.8",
+        "text": "Tratados térmicamente por un subcontratista bajo nuestra estrecha supervisión, con dureza y revenido verificados."
+      },
+      {
+        "title": "Subcomponentes importados",
+        "text": "Algunas piezas se importan para cumplir los requisitos de calidad y especificación."
+      },
+      {
+        "title": "Galvanizado en caliente",
+        "text": "El sistema completo se galvaniza en caliente después de soldar para protegerlo de la corrosión."
+      }
+    ],
+    "lindeEyebrow": "Proveedor aprobado",
+    "lindeTitle": "Linde Engineering India",
+    "lindeText": "Santura fue proveedor aprobado de sistemas de contrapeso de Linde Engineering India Pvt Ltd en {period}, con el código de proveedor {code}. Es la única aprobación nominal de un cliente para un producto concreto en nuestros registros.",
+    "lindeCodeLabel": "Código de proveedor",
+    "lindePeriodLabel": "Periodo de aprobación",
+    "lindeNote": "Aprobación histórica, mostrada con el permiso del cliente.",
+    "lindeCert": "Ver el certificado de Linde (PDF)",
+    "petron": "En 2006 también suministramos sistemas de contrapeso y puertas de observación para hornos a Petron Engineering Construction Ltd, que emitió una carta de reconocimiento por el trabajo.",
+    "componentsTitle": "Componentes del sistema",
+    "components": [
+      {
+        "title": "Conjunto de brazo de palanca",
+        "text": "Bastidor de viga H o I con casquillos de pivote; el balancín del sistema."
+      },
+      {
+        "title": "Pila de pesos muertos",
+        "text": "Masa calculada de bloques de acero al carbono o fundición, atornillados o pasadores al brazo."
+      },
+      {
+        "title": "Varillas de suspensión",
+        "text": "Unen el tubo al brazo a través del techo del horno y absorben la dilatación térmica."
+      },
+      {
+        "title": "Conjunto de yugo",
+        "text": "Une las varillas de suspensión al extremo del brazo de palanca."
+      },
+      {
+        "title": "Uniones de horquilla y pasador",
+        "text": "Horquillas de inoxidable con pasadores SS 410S en cada unión, para que cada articulación gire libremente."
+      },
+      {
+        "title": "Casquillos Graphalloy",
+        "text": "Cojinetes importados sin aceite y autolubricantes, alojados en carcasas de acero al carbono en todos los pivotes."
+      },
+      {
+        "title": "Bastidor de apoyo",
+        "text": "Estructura sobre el techo del horno que soporta el pivote del brazo."
+      },
+      {
+        "title": "Tornillería de grado 8.8",
+        "text": "Tornillos de alta resistencia tratados térmicamente para todas las uniones estructurales."
+      }
+    ],
+    "applicationsTitle": "Aplicaciones",
+    "applications": [
+      {
+        "title": "Reformadores de hidrógeno",
+        "text": "Reformadores de metano con vapor, la aplicación principal. Los tubos llenos de catalizador cuelgan verticalmente en el hogar. Se usan en plantas de hidrógeno, amoníaco y metanol."
+      },
+      {
+        "title": "Hornos de craqueo de etileno",
+        "text": "Steam crackers, donde un buen soporte de los serpentines radiantes es clave para su vida útil."
+      },
+      {
+        "title": "Otros reformadores",
+        "text": "Reformadores autotérmicos y secundarios."
+      },
+      {
+        "title": "Sectores",
+        "text": "Refinerías, plantas petroquímicas, plantas de amoníaco y fertilizantes, plantas de metanol y producción de hidrógeno."
+      }
+    ],
+    "whyTitle": "Por qué importa la calidad de fabricación",
+    "why": [
+      {
+        "title": "Vida de los tubos",
+        "text": "Los tubos del reformador son caros y sustituir uno supone una parada no programada. Un sistema que no equilibra con precisión somete a los tubos a tensiones desiguales y provoca fallos prematuros por fluencia."
+      },
+      {
+        "title": "Fricción",
+        "text": "La fricción en los pivotes transmite carga adicional a los tubos. Se especifican casquillos Graphalloy sin aceite porque los cojinetes lubricados no funcionan de forma fiable a estas temperaturas."
+      },
+      {
+        "title": "Tornillería",
+        "text": "Los tornillos con un tratamiento térmico incorrecto pueden fallar bajo carga sostenida a alta temperatura; por eso controlamos dureza y revenido."
+      },
+      {
+        "title": "Miles de ciclos",
+        "text": "El sistema debe mantenerse equilibrado durante miles de ciclos de calentamiento y enfriamiento a lo largo de muchos años de servicio."
+      }
+    ],
+    "specTitle": "Especificaciones",
+    "colComponent": "Componente",
+    "colSpec": "Especificación",
+    "specRows": [
+      {
+        "label": "Material de los pesos",
+        "value": "Acero al carbono / fundición"
+      },
+      {
+        "label": "Construcción del bastidor",
+        "value": "Perfil H e I, hueco, con casquillos Graphalloy alojados"
+      },
+      {
+        "label": "Pasadores de pivote",
+        "value": "SS 410S (acero inoxidable martensítico)"
+      },
+      {
+        "label": "Horquillas",
+        "value": "Acero inoxidable, mecanizadas"
+      },
+      {
+        "label": "Casquillos",
+        "value": "Cojinetes Graphalloy importados, sin aceite y autolubricantes"
+      },
+      {
+        "label": "Tornillería",
+        "value": "Grado 8.8, tratada térmicamente, dureza y revenido controlados"
+      },
+      {
+        "label": "Tratamiento superficial",
+        "value": "Galvanizado en caliente después de soldar"
+      },
+      {
+        "label": "Fabricación",
+        "value": "Según los planos de ingeniería del cliente"
+      },
+      {
+        "label": "Base de diseño",
+        "value": "Especificaciones del cliente y del licenciante para calentadores según API 560"
+      }
+    ],
+    "relatedTitle": "Productos y servicios relacionados",
+    "relatedPipeGuides": "Guías de tubería, camisas anulares y soportes de tubos para calentadores.",
+    "relatedSupportPlates": "Ménsulas de soporte y placas base para la estructura del horno.",
+    "relatedAnchors": "Anclajes SEPL para revestimientos de hornos reformadores y de craqueo.",
+    "relatedSwText": "Soldadura de pernos de anclajes a carcasas de horno.",
+    "relatedPmiText": "Verificación de aleación de pasadores y horquillas de inoxidable.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué es un sistema de contrapeso en un reformador?",
+        "a": "Es un sistema de palancas sobre el techo del horno que soporta el peso de cada tubo del reformador. Una varilla de suspensión une el tubo a un extremo de un brazo pivotante, y un peso muerto calculado en el otro extremo lo equilibra. Cuando el tubo se calienta y crece, la palanca se inclina y la fuerza de soporte no cambia, de modo que el tubo se dilata sin tensiones."
+      },
+      {
+        "q": "¿Por qué se usan casquillos Graphalloy?",
+        "a": "Graphalloy es un material de cojinete compuesto de grafito y metal que funciona sin aceite ni grasa y sigue trabajando a altas temperaturas. Cada pivote de un sistema de contrapeso debe moverse casi sin fricción, porque la fricción transmitiría carga adicional a los tubos. Los cojinetes lubricados se secan o se agarrotan en este servicio, por eso se usan casquillos Graphalloy sin aceite."
+      },
+      {
+        "q": "¿De qué material son los pasadores de pivote?",
+        "a": "Nuestros pasadores son de acero inoxidable 410S de calidad especial, un inoxidable martensítico con buena resistencia a la corrosión y al calor. Trabajan en horquillas de inoxidable mecanizadas en nuestro taller de Bombay."
+      },
+      {
+        "q": "¿Qué es la aprobación de Linde?",
+        "a": "Linde Engineering India Pvt Ltd aprobó a Santura como proveedor de sistemas de contrapeso en {period}, con el código de proveedor {code}. La aprobación correspondía específicamente a este producto. Es una aprobación histórica, y el certificado se muestra en esta página con el permiso del cliente."
+      }
+    ],
+    "ctaTitle": "¿Necesita sistemas de contrapeso?",
+    "ctaText": "Envíenos sus planos de ingeniería con el número de tubos, las cargas de equilibrio y el programa de entrega. Le responderemos con una cotización y el plazo de entrega.",
+    "ctaRfq": "Solicitar cotización de sistemas de contrapeso",
+    "ctaContact": "O contacte con nuestro equipo"
+  },
+  "mwPage": {
+    "metaTitle": "Proveedor de aislamiento de lana mineral | Lana de roca y vidrio",
+    "metaDescription": "Aislamiento de lana mineral: paneles, rollos y coquillas de lana de roca y de vidrio. Proveedor desde 1980, exporta a más de 25 países. Pida cotización.",
+    "eyebrow": "Materiales aislantes",
+    "h1": "Aislamiento de lana mineral",
+    "subheading": "Lana de roca y lana de vidrio en rollos, paneles, mantas, colchonetas con malla metálica, coquillas y lana a granel, para refinerías, centrales eléctricas, buques y edificios. Suministradas según la especificación del proyecto, junto con los pernos aislantes para fijarlas.",
+    "gallery": [
+      "Paneles y rollos de lana mineral",
+      "Coquillas preformadas de lana mineral",
+      "Rollo de lana de roca con revestimiento de aluminio",
+      "Detalle de fibras de lana mineral"
+    ],
+    "overviewTitle": "Qué es la lana mineral",
+    "overview": "Lana mineral es el nombre general del aislamiento fibroso que se obtiene fundiendo minerales naturales o reciclados y convirtiéndolos en fibras finas. Las fibras se aglomeran con una resina para que el producto mantenga su forma. Santura suministra los dos tipos principales: lana de roca para aislamiento industrial a alta temperatura y lana de vidrio para edificios, climatización y aislamiento acústico.",
+    "types": [
+      {
+        "title": "Lana de roca",
+        "tag": "Hasta 750 °C · 30–200 kg/m³",
+        "text": "Fabricada con roca seleccionada, como el basalto, fundida a unos 1500 °C en un cubilote y centrifugada a alta velocidad para formar fibras. Se suministra en rollos, paneles, mantas, colchonetas, coquillas y lana a granel. La opción habitual para tuberías calientes, recipientes, calderas y conductos."
+      },
+      {
+        "title": "Lana de vidrio",
+        "tag": "Hasta unos 450 °C · más ligera",
+        "text": "Fabricada con hasta un 70 % de vidrio reciclado y arena, fundida a unos 1550 °C y convertida en fibras finas. Ligera, fácil de instalar y buena absorbente acústica. Muy usada en cubiertas, muros, conductos de climatización y aislamiento acústico."
+      }
+    ],
+    "traits": [
+      "Incombustible",
+      "Sin amianto",
+      "No peligrosa",
+      "Imputrescible",
+      "Resistente a insectos y roedores",
+      "No se contrae en servicio"
+    ],
+    "rwTitle": "Productos de lana de roca",
+    "rwIntro": "La lana de roca se suministra en seis formatos. El espesor y la densidad se eligen según la temperatura de servicio, la superficie y la carga mecánica.",
+    "colForm": "Formato",
+    "colThickness": "Espesor",
+    "colDensity": "Densidad",
+    "colUse": "Uso típico",
+    "rwForms": [
+      {
+        "form": "Rollos para edificación",
+        "thickness": "40–100 mm",
+        "density": "36, 48, 64 kg/m³ y más",
+        "text": "Aislamiento térmico y acústico de naves metálicas: sobre y bajo correas de cubierta, muros, tabiques y falsos techos."
+      },
+      {
+        "form": "Paneles",
+        "thickness": "25–200 mm",
+        "density": "30–200 kg/m³",
+        "text": "Paneles rígidos o semirrígidos para conductos, recipientes, equipos y superficies planas o ligeramente curvas; también construcción, naval y protección contra incendios."
+      },
+      {
+        "form": "Mantas rígidas (batts)",
+        "thickness": "25–118 mm",
+        "density": "100–150 kg/m³",
+        "text": "Mantas sin revestir, extra rígidas, para aislamiento térmico y protección contra incendios, y como núcleo de paneles sándwich."
+      },
+      {
+        "form": "Colchonetas",
+        "thickness": "25–100 mm",
+        "density": "70–150 kg/m³",
+        "text": "Revestidas con malla hexagonal galvanizada o de acero inoxidable y cosidas a medida. Para calderas, tanques de almacenamiento y tuberías hasta 750 °C, y uso naval."
+      },
+      {
+        "form": "Coquillas",
+        "thickness": "25–100 mm",
+        "density": "100, 128, 136, 144 kg/m³",
+        "text": "Coquillas preformadas para tuberías hasta 750 °C, con o sin lámina de aluminio. Se usan en centrales eléctricas y refinerías."
+      },
+      {
+        "form": "Lana a granel",
+        "thickness": "—",
+        "density": "Varias",
+        "text": "Lana de roca ligeramente aglomerada para relleno alrededor de haces de tubos y huecos irregulares."
+      }
+    ],
+    "pipeNote": "Las coquillas se enrollan sobre mandril y se conforman de forma concéntrica para ajustarse a los diámetros estándar de tubería. Aíslan de forma uniforme en los 360° del tubo, resisten la compresión en servicio y se colocan rápidamente en obra.",
+    "gwTitle": "Productos de lana de vidrio",
+    "gwIntro": "La lana de vidrio es más ligera que la de roca y se usa sobre todo a temperaturas más bajas y donde importa la absorción acústica.",
+    "gwForms": [
+      {
+        "title": "Rollos y mantas",
+        "text": "Cámaras de muros, aislamiento de cubiertas y desvanes, y envolvente de conductos de climatización."
+      },
+      {
+        "title": "Paneles rígidos y semirrígidos",
+        "text": "Muros cortina, relleno de tabiques y placas de techo."
+      },
+      {
+        "title": "Coquillas",
+        "text": "Aislamiento de tuberías de menor temperatura."
+      },
+      {
+        "title": "Lana para insuflar",
+        "text": "Aislamiento insuflado en cámaras y desvanes."
+      }
+    ],
+    "compareTitle": "Lana de roca y lana de vidrio comparadas",
+    "colProperty": "Propiedad",
+    "colRockwool": "Lana de roca",
+    "colGlassWool": "Lana de vidrio",
+    "compareRows": [
+      {
+        "label": "Materia prima",
+        "rw": "Basalto / diabasa",
+        "gw": "Hasta 70 % de vidrio reciclado con arena"
+      },
+      {
+        "label": "Temperatura de fusión",
+        "rw": "Unos 1500 °C",
+        "gw": "Unos 1550 °C"
+      },
+      {
+        "label": "Temperatura máxima de servicio",
+        "rw": "750 °C",
+        "gw": "Unos 450 °C (según producto)"
+      },
+      {
+        "label": "Densidad",
+        "rw": "30–200 kg/m³",
+        "gw": "10–80 kg/m³"
+      },
+      {
+        "label": "Espesor",
+        "rw": "25–200 mm",
+        "gw": "25–150 mm"
+      },
+      {
+        "label": "Conductividad térmica (λ)",
+        "rw": "0,034–0,045 W/m·K",
+        "gw": "0,030–0,040 W/m·K"
+      },
+      {
+        "label": "Clasificación al fuego",
+        "rw": "Incombustible (Euroclase A1)",
+        "gw": "Incombustible (Euroclase A1 o A2)"
+      },
+      {
+        "label": "Comportamiento acústico",
+        "rw": "Excelente (NRC 0,90–1,05)",
+        "gw": "Excelente (NRC 0,85–1,00)"
+      },
+      {
+        "label": "Humedad",
+        "rw": "Tratamiento hidrófugo disponible",
+        "gw": "Tratamiento hidrófugo disponible"
+      },
+      {
+        "label": "Comportamiento frente a la corrosión",
+        "rw": "Libre de haluros y sulfuros; segura bajo revestimiento de inoxidable",
+        "gw": "Bajo contenido de cloruros"
+      }
+    ],
+    "compareNote": "Valores típicos. Las cifras exactas dependen del producto, la densidad y el fabricante; la ficha técnica y los certificados de ensayo del fabricante se entregan con cada pedido.",
+    "traitsTitle": "Características",
+    "characteristics": [
+      "Sin amianto y no peligrosa para la salud",
+      "Imputrescible, inodora y resistente a hongos, insectos y roedores",
+      "No se contrae ni se asienta con el tiempo",
+      "No absorbe humedad del aire; el agua que entra a presión se seca rápidamente gracias a su estructura fibrosa abierta",
+      "Químicamente inerte; no favorece la aparición de moho",
+      "Fabricada sin CFC ni HCFC"
+    ],
+    "corrosionTitle": "Protección contra la corrosión",
+    "corrosionText": "Las fibras de lana de roca están libres de haluros (cloruros y fluoruros) y sulfuros, impurezas presentes en otros materiales aislantes. Se fabrica por vía seca y es ligeramente alcalina, lo que contrarresta la corrosión. Por eso es segura sobre acero inoxidable, donde los cloruros pueden causar corrosión bajo tensión bajo el aislamiento. Cumple ASTM C795 cuando se especifica.",
+    "standardsTitle": "Normas y ensayos",
+    "standards": [
+      "Transferencia de calor en régimen estacionario de aislamiento de tuberías",
+      "Conductividad térmica por placa caliente guardada",
+      "Conductividad térmica por medidor de flujo de calor",
+      "Aislamiento de fibra mineral para tuberías",
+      "Mantas de fibra mineral para uso industrial",
+      "Bloques y paneles de fibra mineral",
+      "Mantas de fibra mineral para edificios",
+      "Aislamiento para uso sobre acero inoxidable austenítico",
+      "Productos de lana mineral fabricados en taller para edificios",
+      "Coquillas preformadas de fibra mineral y materiales aislantes térmicos"
+    ],
+    "applicationsTitle": "Aplicaciones por sector",
+    "applications": [
+      {
+        "title": "Petróleo, gas y petroquímica",
+        "items": [
+          "Aislamiento en caliente y en frío de tuberías de proceso",
+          "Recipientes, columnas, tanques e intercambiadores",
+          "Aislamiento exterior de calentadores y hornos"
+        ]
+      },
+      {
+        "title": "Generación eléctrica",
+        "items": [
+          "Aislamiento de calderas y revestimiento de turbinas",
+          "Aislamiento de conductos de gases",
+          "Aislamiento de calderas de recuperación en ciclos combinados"
+        ]
+      },
+      {
+        "title": "Construcción y climatización",
+        "items": [
+          "Muros, cubiertas y suelos",
+          "Envolvente y revestimiento interior de conductos",
+          "Aislamiento acústico de tabiques y techos",
+          "Soluciones de muros y forjados resistentes al fuego"
+        ]
+      },
+      {
+        "title": "Naval y offshore",
+        "items": [
+          "Aislamiento de mamparos y cubiertas",
+          "Aislamiento térmico y acústico de salas de máquinas",
+          "Aislamiento de tuberías en plataformas offshore"
+        ]
+      },
+      {
+        "title": "Industria y fabricación",
+        "items": [
+          "Aislamiento exterior de hornos y estufas",
+          "Cámaras frigoríficas e industria alimentaria",
+          "Control de ruido en fábricas"
+        ]
+      }
+    ],
+    "supplyTitle": "Qué suministramos",
+    "supply": [
+      "Santura suministra aislamiento de lana de roca y lana de vidrio a refinerías, plantas petroquímicas, centrales eléctricas y proyectos de construcción, y exporta a más de 25 países. Los productos proceden de fabricantes reconocidos y se suministran según la especificación de su proyecto, con los certificados de ensayo del fabricante.",
+      "Como fabricamos nuestros propios pernos aislantes y arandelas, podemos suministrar el aislamiento y sus fijaciones juntos en un paquete completo."
+    ],
+    "relatedTitle": "Productos y servicios relacionados",
+    "relatedPins": "Pernos para soldar y arandelas para fijar paneles y colchonetas de lana mineral.",
+    "relatedCalsil": "Paneles y coquillas rígidas de silicato cálcico para aislamiento a alta temperatura.",
+    "relatedAnchors": "Anclajes SEPL para los revestimientos refractarios detrás del aislamiento de alta temperatura.",
+    "relatedSwText": "Equipos de soldadura de pernos para fijar pernos aislantes.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué diferencia hay entre la lana de roca y la lana de vidrio?",
+        "a": "La lana de roca se fabrica con basalto, soporta temperaturas de hasta 750 °C y tiene mayor densidad (30–200 kg/m³), por lo que es la opción para aislamiento industrial a alta temperatura. La lana de vidrio se fabrica con vidrio reciclado, es más ligera (10–80 kg/m³) y sirve hasta unos 450 °C. Se prefiere en climatización, aislamiento acústico y edificación."
+      },
+      {
+        "q": "¿Qué temperatura soporta la lana mineral?",
+        "a": "La lana de roca puede usarse de forma continua hasta 750 °C, y la lana de vidrio hasta unos 450 °C según el producto. Ambas son incombustibles: la lana de roca sin revestir es Euroclase A1 y la lana de vidrio A1 o A2 según el producto."
+      },
+      {
+        "q": "¿Qué espesores y densidades hay disponibles?",
+        "a": "La lana de roca se suministra de 25 mm a 200 mm de espesor y de 30 a 200 kg/m³. La lana de vidrio va de 25 mm a 150 mm de espesor y de 10 a 80 kg/m³. Otras especificaciones bajo pedido."
+      },
+      {
+        "q": "¿Es segura la lana mineral y está libre de amianto?",
+        "a": "Sí. La lana mineral que suministramos no contiene amianto, no es peligrosa, se fabrica sin CFC ni HCFC, es imputrescible y químicamente inerte. Se manipula con seguridad con el EPI habitual, y la lana de roca está libre de los cloruros que causan corrosión bajo revestimientos de acero inoxidable."
+      }
+    ],
+    "ctaTitle": "¿Necesita aislamiento de lana mineral?",
+    "ctaText": "Indíquenos el formato, espesor, densidad, revestimiento, cantidad y temperatura de servicio. Le responderemos con una cotización y el plazo de entrega.",
+    "ctaRfq": "Solicitar cotización de lana mineral",
+    "ctaContact": "O contacte con nuestro equipo"
+  },
+  "cgPage": {
+    "metaTitle": "Juntas cerámicas y sellado de alta temperatura | Proveedor",
+    "metaDescription": "Juntas, cordones y cintas de fibra cerámica y juntas industriales para hornos y refinerías. Proveedor desde 1980, exporta a 25+ países. Pida cotización.",
+    "eyebrow": "Aislamiento y sellado",
+    "h1": "Juntas cerámicas y productos de sellado de alta temperatura",
+    "subheading": "Cordón, cinta, papel, manta, placa, tejido y juntas tadpole de fibra cerámica para puertas de horno, juntas de dilatación y sellos de gases, además de juntas sin amianto, de PTFE, de grafito y espirometálicas para bridas. Un solo proveedor para sellos de alta temperatura y juntas de brida.",
+    "gallery": [
+      "Juntas industriales variadas, incluidas juntas espirometálicas",
+      "Juntas de brida sin amianto",
+      "Plancha negra de junta de fibra comprimida"
+    ],
+    "overviewTitle": "Qué son las juntas cerámicas",
+    "overview": [
+      "Las juntas cerámicas son sellos de alta temperatura fabricados con fibra cerámica, un material de aluminosilicato. Sellan juntas, puertas, bridas y holguras de dilatación en hornos, hornos rotatorios, calentadores y calderas. La fibra cerámica estándar está clasificada a 1260 °C y los grados con circonio llegan más alto, muy por encima del rango de las juntas de caucho o de fibra comprimida.",
+      "Para bridas de tubería y equipos a presión a temperaturas más bajas, también suministramos juntas industriales convencionales: sin amianto, de PTFE, de grafito, espirometálicas, de anillo (RTJ) y de doble envoltura. Así, refinerías, plantas petroquímicas y centrales eléctricas tienen un único proveedor para sus necesidades de sellado."
+    ],
+    "ceramicTitle": "Productos de sellado de fibra cerámica",
+    "ceramicIntro": "Todos los productos de fibra cerámica son sin amianto y químicamente inertes. El formato se elige según la forma de la junta y la frecuencia con que se abre.",
+    "ceramic": [
+      {
+        "name": "Cordón de fibra cerámica (redondo)",
+        "text": "Cordón trenzado o torcido para sellos de puertas, juntas de dilatación y prensaestopas.",
+        "sizes": "Ø 6–50 mm · longitudes a medida"
+      },
+      {
+        "name": "Cordón de fibra cerámica (cuadrado)",
+        "text": "Cordón trenzado de sección cuadrada para marcos de puertas de horno y sellos de estufas.",
+        "sizes": "6 × 6 mm a 50 × 50 mm"
+      },
+      {
+        "name": "Cinta de fibra cerámica",
+        "text": "Cinta tejida plana para envolver bridas y uniones de tubería, y para protección de cables.",
+        "sizes": "25–150 mm de ancho · 2–5 mm de espesor"
+      },
+      {
+        "name": "Papel de fibra cerámica",
+        "text": "Lámina fina y flexible para juntas troqueladas, sellos de brida y aislamiento eléctrico.",
+        "sizes": "1–6 mm de espesor · rollos de hasta 1000 mm"
+      },
+      {
+        "name": "Manta de fibra cerámica",
+        "text": "Manta flexible punzonada para revestimientos, envolturas y aislamiento de respaldo.",
+        "sizes": "6–50 mm de espesor · 64–192 kg/m³"
+      },
+      {
+        "name": "Placa de fibra cerámica",
+        "text": "Placa rígida conformada al vacío para revestimientos de horno, deflectores y sellos de gases.",
+        "sizes": "6–50 mm de espesor · 280–400 kg/m³"
+      },
+      {
+        "name": "Tejido de fibra cerámica",
+        "text": "Tela tejida para cortinas, mantas de soldadura y fundas aislantes desmontables.",
+        "sizes": "1,5–5 mm de espesor"
+      },
+      {
+        "name": "Juntas tadpole",
+        "text": "Perfil de bulbo y cola para puertas de hornos y estufas; la cola se fija o remacha al marco.",
+        "sizes": "Bulbo Ø 10–40 mm · cola 25–100 mm"
+      }
+    ],
+    "convTitle": "Juntas industriales",
+    "convIntro": "Suministramos estas juntas a través de un fabricante de juntas reconocido, según su especificación y norma de brida.",
+    "colType": "Tipo",
+    "colMaterial": "Material",
+    "colMaxTemp": "Temp. máxima",
+    "colUse": "Uso típico",
+    "conventional": [
+      {
+        "name": "Sin amianto (sustituto del CAF)",
+        "material": "Fibra de aramida o vidrio con aglomerante NBR",
+        "temp": "Unos 450 °C",
+        "text": "Sustituye a las juntas de fibra de amianto comprimida. Compresores de aire, tuberías de motores diésel, servicio industrial y naval."
+      },
+      {
+        "name": "Juntas de PTFE",
+        "material": "PTFE virgen o cargado",
+        "temp": "Unos 260 °C",
+        "text": "Bridas expuestas a productos químicos agresivos como ácidos, álcalis y disolventes."
+      },
+      {
+        "name": "Juntas de grafito",
+        "material": "Grafito flexible, liso o con chapa dentada, con refuerzo opcional de inoxidable o níquel",
+        "temp": "Unos 450 °C en aire, 650 °C en vapor",
+        "text": "Servicio severo. Autolubricante y no se pega a las bridas."
+      },
+      {
+        "name": "Juntas espirometálicas",
+        "material": "Espiras de SS304 / SS316 con relleno de grafito o PTFE",
+        "temp": "Unos 600 °C",
+        "text": "Bridas de refinería y petroquímica, alta presión y ciclos térmicos."
+      },
+      {
+        "name": "Juntas de anillo (RTJ)",
+        "material": "Acero inoxidable macizo o Inconel",
+        "temp": "600 °C o más",
+        "text": "Bridas RTJ de alta presión en servicio de petróleo y gas."
+      },
+      {
+        "name": "Juntas de doble envoltura",
+        "material": "Envoltura metálica con relleno blando",
+        "temp": "Unos 550 °C",
+        "text": "Intercambiadores de calor y bridas de gran diámetro."
+      },
+      {
+        "name": "Juntas de caucho y nitrilo",
+        "material": "Caucho natural, NBR y otros elastómeros",
+        "temp": "Unos 100–120 °C",
+        "text": "Agua, aceite y servicio general a baja temperatura."
+      }
+    ],
+    "specTitle": "Propiedades de la fibra cerámica",
+    "specRows": [
+      {
+        "label": "Temperatura de clasificación",
+        "value": "1260 °C (estándar), hasta 1400 °C (grado con circonio)"
+      },
+      {
+        "label": "Temperatura de servicio continuo",
+        "value": "1000–1260 °C, según el grado"
+      },
+      {
+        "label": "Composición química",
+        "value": "Al₂O₃ 45–55 %, SiO₂ 45–55 % (estándar); ZrO₂ 15–17 % (grado con circonio)"
+      },
+      {
+        "label": "Color",
+        "value": "Blanco"
+      },
+      {
+        "label": "Conductividad térmica",
+        "value": "0,08–0,23 W/m·K a temperaturas medias de 200–1000 °C"
+      },
+      {
+        "label": "Contenido de amianto",
+        "value": "Ninguno: 100 % sin amianto"
+      }
+    ],
+    "specNote": "Valores típicos. Las cifras exactas dependen del formato, el grado y el fabricante; la ficha técnica y los certificados de ensayo del fabricante se entregan con cada pedido.",
+    "dimTitle": "Dimensiones de juntas precortadas",
+    "dimIntro": "Juntas de brida de fibra comprimida según el patrón ASME B16.21. Todas las dimensiones en milímetros.",
+    "colNps": "Diámetro nominal",
+    "colId": "Diámetro interior",
+    "colOd": "Diámetro exterior por clase de presión",
+    "colClass": "Clase {cls}",
+    "dimNote": "Las juntas precortadas están disponibles en tamaños ASME estándar. Tamaños y clases de presión especiales se fabrican según plano.",
+    "standardsTitle": "Normas",
+    "standards": [
+      "Mantas de fibra para aislamiento de alta temperatura",
+      "Métodos de ensayo para productos de fibra cerámica",
+      "Productos refractarios aislantes: productos de fibra cerámica",
+      "Juntas metálicas para bridas de tubería (espirometálicas, de anillo, con envoltura)",
+      "Juntas planas no metálicas para bridas de tubería",
+      "Juntas planas no metálicas: valores característicos"
+    ],
+    "applicationsTitle": "Aplicaciones por sector",
+    "applications": [
+      {
+        "title": "Petróleo, gas y petroquímica",
+        "items": [
+          "Sellos de puertas y mirillas de calentadores",
+          "Empaquetadura de juntas de dilatación de hornos",
+          "Juntas de brida en líneas de proceso calientes",
+          "Sellos de regeneradores de catalizador y antorchas"
+        ]
+      },
+      {
+        "title": "Generación eléctrica",
+        "items": [
+          "Sellos de puertas y registros de caldera",
+          "Juntas de dilatación en conductos de calderas de recuperación",
+          "Juntas de escape de turbina",
+          "Sellos de economizadores y precalentadores de aire"
+        ]
+      },
+      {
+        "title": "Acero, metales y cemento",
+        "items": [
+          "Sellos de puertas y vagonetas de horno",
+          "Cordones para puertas de hornos de recocido",
+          "Juntas de tapas de cuchara",
+          "Sellos de enfriadores de clínker"
+        ]
+      },
+      {
+        "title": "Vidrio y cerámica",
+        "items": [
+          "Sellos de bóveda y quemadores de hornos de vidrio",
+          "Juntas de canales de alimentación",
+          "Sellos de puertas de hornos cerámicos"
+        ]
+      },
+      {
+        "title": "Industria en general",
+        "items": [
+          "Sellos en incineradoras y plantas de valorización",
+          "Juntas de puertas de hornos de tratamiento térmico",
+          "Sellos de ranuras de transportadores en estufas",
+          "Juntas de sistemas de escape"
+        ]
+      }
+    ],
+    "supplyTitle": "Qué suministramos",
+    "supply": [
+      "Santura suministra juntas, cordones, cintas, papeles y mantas de fibra cerámica, junto con juntas sin amianto, de PTFE, de grafito y espirometálicas, a refinerías, plantas petroquímicas, centrales eléctricas, acerías y cementeras, y exporta a más de 25 países. Los productos proceden de fabricantes reconocidos y se suministran según su especificación, con los certificados de ensayo del fabricante.",
+      "Como fabricamos nosotros mismos anclajes refractarios, pernos aislantes y anclajes de espárrago para fibra cerámica SEPL-24, ofrecemos un paquete completo de revestimiento de hornos de un solo proveedor: anclajes, espárragos, juntas y materiales aislantes."
+    ],
+    "relatedTitle": "Productos relacionados",
+    "relatedMineralWool": "Aislamiento de lana de roca y de vidrio para tuberías, recipientes y conductos.",
+    "relatedPins": "Pernos para soldar y arandelas para fijar mantas y aislamiento.",
+    "relatedAnchors": "Anclajes SEPL para revestimientos completos de hornos.",
+    "relatedSepl24": "Anclajes soldados por espárrago para revestimientos de manta y módulos de fibra cerámica.",
+    "relatedDoors": "Puertas de observación y mirillas, selladas con cordón y juntas de fibra cerámica.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué temperatura soportan las juntas de fibra cerámica?",
+        "a": "Las juntas de fibra cerámica estándar de aluminosilicato están clasificadas a 1260 °C, con servicio continuo normalmente hasta unos 1000 °C. Los grados con circonio soportan hasta 1400 °C. Son incombustibles y adecuadas para puertas de horno, juntas de dilatación y sellos de gases."
+      },
+      {
+        "q": "¿Qué tipos de juntas cerámicas hay?",
+        "a": "Los productos de sellado de fibra cerámica incluyen cordón trenzado redondo y cuadrado, cinta tejida, papel cerámico para juntas troqueladas, juntas tadpole para puertas, tejido y manta, y placa rígida para sellos de deflectores. Todos son sin amianto y químicamente inertes."
+      },
+      {
+        "q": "¿Qué diferencia hay entre las juntas cerámicas y las juntas industriales convencionales?",
+        "a": "Las juntas de fibra cerámica soportan 1000–1260 °C y se usan en puertas de horno y juntas de dilatación, donde la presión es baja. Las juntas convencionales (sin amianto hasta unos 450 °C, PTFE unos 260 °C, grafito unos 450 °C en aire, espirometálicas unos 600 °C) sellan bridas y recipientes a presión a temperaturas más bajas. Santura suministra ambas."
+      },
+      {
+        "q": "¿Suministran juntas según normas ASME?",
+        "a": "Sí. Suministramos juntas espirometálicas, de anillo y con envoltura según ASME B16.20, y juntas planas no metálicas según ASME B16.21. Hay juntas precortadas en tamaños de brida ASME estándar; otros tamaños y clases de presión se fabrican según plano."
+      }
+    ],
+    "ctaTitle": "¿Necesita juntas cerámicas o juntas de brida?",
+    "ctaText": "Indíquenos el producto, tamaño o norma de brida, clase de presión, temperatura y cantidad. Le responderemos con una cotización y el plazo de entrega.",
+    "ctaRfq": "Solicitar cotización de juntas",
+    "ctaContact": "O contacte con nuestro equipo"
+  },
+  "gfPage": {
+    "metaTitle": "Placas de fibra de vidrio, tejido y lana de vidrio | Proveedor",
+    "metaDescription": "Placas de fibra de vidrio, tejido, cinta y aislamiento de lana de vidrio para la industria. Desde 1980, exporta a más de 25 países. Pida cotización.",
+    "eyebrow": "Materiales aislantes",
+    "h1": "Placas de fibra de vidrio, tejido y lana de vidrio",
+    "subheading": "Placas y laminados de fibra de vidrio, tejido y cinta de vidrio, y rollos, coquillas y colchonetas de lana de vidrio para aislamiento, recubrimiento y refuerzo. Suministrados según la especificación del proyecto, con los pernos y espárragos para fijarlos.",
+    "gallery": [
+      "Rollo de mat de hilos cortados de fibra de vidrio",
+      "Bobinas de roving de fibra de vidrio",
+      "Detalle de hebras de fibra de vidrio"
+    ],
+    "overviewTitle": "Qué son los productos de fibra de vidrio",
+    "overview": "Los productos de fibra de vidrio se fabrican fundiendo vidrio a unos 1550 °C y centrifugándolo o estirándolo en fibras finas. La lana de vidrio contiene hasta un 70 % de vidrio reciclado. Según cómo se formen las fibras, se obtiene una lana aislante blanda, una placa rígida o semirrígida, o un hilo que se teje en tejido y cinta.",
+    "functions": [
+      {
+        "title": "Aislamiento",
+        "text": "Rollos, placas, coquillas y colchonetas de lana de vidrio para el aislamiento térmico y acústico de tuberías, conductos, muros, cubiertas y equipos."
+      },
+      {
+        "title": "Refuerzo y protección",
+        "text": "Tejido de vidrio, cinta, roving y laminados para envolturas y recubrimientos resistentes al calor, material de juntas, refuerzo de composites y cortinas cortafuego."
+      }
+    ],
+    "glassTypes": "El tejido y la cinta de vidrio se tejen con hilo de vidrio E, el vidrio textil más usado y económico. El vidrio S tiene una resistencia a la tracción un 30 % mayor y mejor comportamiento a temperatura elevada, a un coste superior. La lana de vidrio se fabrica con un vidrio sodocálcico-borosilicato que utiliza calcín reciclado.",
+    "groups": [
+      {
+        "title": "Placas de fibra de vidrio",
+        "intro": "Placas rígidas y semirrígidas para aislamiento y laminados de resina para piezas eléctricas y estructurales.",
+        "rows": [
+          {
+            "name": "Placa rígida de fibra de vidrio",
+            "text": "Placa aglomerada con resina para revestimiento de conductos, muros cortina y placas de techo.",
+            "spec": "25–100 mm de espesor · 48–96 kg/m³"
+          },
+          {
+            "name": "Placa semirrígida de fibra de vidrio",
+            "text": "Suficientemente flexible para superficies curvas y envolvente de equipos.",
+            "spec": "25–75 mm de espesor · 24–64 kg/m³"
+          },
+          {
+            "name": "Laminado de fibra de vidrio (G10 / FR4)",
+            "text": "Placa impregnada de epoxi para aislamiento eléctrico y piezas estructurales.",
+            "spec": "0,5–50 mm de espesor"
+          },
+          {
+            "name": "Placa con revestimiento de aluminio",
+            "text": "Placa rígida con barrera de vapor reflectante.",
+            "spec": "25–100 mm de espesor"
+          }
+        ]
+      },
+      {
+        "title": "Tejidos y textiles de fibra de vidrio",
+        "intro": "Textiles de vidrio tejidos para recubrimiento, envoltura, sellado y composites.",
+        "rows": [
+          {
+            "name": "Tejido de vidrio (tafetán)",
+            "text": "Tejido industrial estándar para envoltura y recubrimiento.",
+            "spec": "200–800 g/m² · 0,2–1,0 mm"
+          },
+          {
+            "name": "Tejido de vidrio (sarga)",
+            "text": "Mejor adaptación a superficies curvas y para laminado de composites.",
+            "spec": "200–600 g/m² · 0,2–0,8 mm"
+          },
+          {
+            "name": "Tejido de vidrio texturizado",
+            "text": "Hilo voluminizado para un tejido de recubrimiento más grueso y suave.",
+            "spec": "400–1200 g/m² · 0,5–3,0 mm"
+          },
+          {
+            "name": "Tejido de vidrio con silicona o PTFE",
+            "text": "Tejido antiadherente y resistente a químicos para envolturas y juntas.",
+            "spec": "Hasta 260 °C (PTFE) / unos 300 °C (silicona)"
+          },
+          {
+            "name": "Cinta de fibra de vidrio",
+            "text": "Cinta tejida estrecha para envolver tuberías y atar cables.",
+            "spec": "20–150 mm de ancho · 0,2–1,0 mm"
+          },
+          {
+            "name": "Tejido de roving",
+            "text": "Tejido pesado para refuerzo de composites (PRFV).",
+            "spec": "200–800 g/m²"
+          }
+        ]
+      },
+      {
+        "title": "Aislamiento de lana de vidrio",
+        "intro": "Aislamiento ligero para edificios, climatización y equipos de proceso de menor temperatura.",
+        "rows": [
+          {
+            "name": "Rollos y mantas de lana de vidrio",
+            "text": "Aislamiento flexible para muros, cubiertas y conductos de climatización.",
+            "spec": "25–150 mm de espesor · 10–48 kg/m³"
+          },
+          {
+            "name": "Coquillas de lana de vidrio",
+            "text": "Coquillas preformadas para aislamiento de tuberías.",
+            "spec": "Ø int. 15–600 mm · 25–100 mm de espesor"
+          },
+          {
+            "name": "Colchonetas de lana de vidrio",
+            "text": "Colchonetas con malla metálica para aislar equipos, recipientes y columnas.",
+            "spec": "25–100 mm de espesor · 24–80 kg/m³"
+          },
+          {
+            "name": "Lana de vidrio a granel",
+            "text": "Aislamiento insuflado para cámaras y zonas de difícil acceso.",
+            "spec": "Densidad según aplicación"
+          }
+        ]
+      }
+    ],
+    "colProduct": "Producto",
+    "colDescription": "Descripción",
+    "colSpec": "Especificación típica",
+    "compareTitle": "Propiedades comparadas",
+    "colProperty": "Propiedad",
+    "colWool": "Lana de vidrio",
+    "colCloth": "Tejido de vidrio",
+    "colBoard": "Placa de fibra de vidrio",
+    "compareRows": [
+      {
+        "label": "Materia prima",
+        "wool": "Vidrio sodocálcico-borosilicato, hasta 70 % reciclado",
+        "cloth": "Hilo de vidrio E o S",
+        "board": "Lana de vidrio con aglomerante de resina"
+      },
+      {
+        "label": "Temp. máx. de servicio continuo",
+        "wool": "230–450 °C, según aglomerante",
+        "cloth": "Unos 550 °C (vidrio E sin recubrir)",
+        "board": "230–450 °C"
+      },
+      {
+        "label": "Punto de reblandecimiento",
+        "wool": "Unos 650–700 °C",
+        "cloth": "Unos 840 °C (vidrio E)",
+        "board": "Unos 650–700 °C"
+      },
+      {
+        "label": "Densidad",
+        "wool": "10–96 kg/m³",
+        "cloth": "Se mide en g/m²",
+        "board": "24–96 kg/m³"
+      },
+      {
+        "label": "Conductividad térmica (λ)",
+        "wool": "0,030–0,045 W/m·K a 24 °C",
+        "cloth": "—",
+        "board": "0,032–0,040 W/m·K"
+      },
+      {
+        "label": "Comportamiento acústico",
+        "wool": "NRC 0,80–1,00",
+        "cloth": "—",
+        "board": "NRC 0,75–0,95"
+      },
+      {
+        "label": "Clasificación al fuego",
+        "wool": "Incombustible (Euroclase A1 o A2)",
+        "cloth": "Incombustible (sin recubrir)",
+        "board": "Incombustible (A1 o A2)"
+      },
+      {
+        "label": "Humedad",
+        "wool": "Tratamiento hidrófugo disponible",
+        "cloth": "No absorbe humedad",
+        "board": "Tratamiento hidrófugo disponible"
+      },
+      {
+        "label": "Diámetro de fibra",
+        "wool": "4–9 µm",
+        "cloth": "6–13 µm, según el hilo",
+        "board": "4–9 µm"
+      },
+      {
+        "label": "Amianto",
+        "wool": "Ninguno",
+        "cloth": "Ninguno",
+        "board": "Ninguno"
+      }
+    ],
+    "compareNote": "Valores típicos. Las cifras exactas dependen del producto, el aglomerante y el fabricante; la ficha técnica y los certificados de ensayo del fabricante se entregan con cada pedido. Para temperaturas superiores, utilice lana de roca o fibra cerámica.",
+    "traitsTitle": "Características",
+    "characteristics": [
+      "Lana de vidrio con hasta un 70 % de vidrio reciclado",
+      "Sin amianto y no peligrosa",
+      "Fabricada sin CFC, HCFC ni HFC",
+      "Incombustible (productos sin recubrir)",
+      "No se contrae, no se descuelga ni se asienta con el tiempo",
+      "Imputrescible y resistente a insectos y roedores",
+      "Buena absorción acústica (NRC 0,80–1,00)",
+      "Baja conductividad térmica para ahorrar energía",
+      "Ligera y fácil de manipular e instalar",
+      "Resistente a la mayoría de productos químicos, salvo el ácido fluorhídrico y los álcalis fuertes"
+    ],
+    "standardsTitle": "Normas y ensayos",
+    "standards": [
+      "Mantas y fieltros de fibra mineral",
+      "Bloques y paneles de fibra mineral",
+      "Aislamiento de fibra mineral para tuberías",
+      "Conductividad térmica por placa caliente guardada y medidor de flujo de calor",
+      "Tejidos de vidrio acabados fabricados con roving",
+      "Características de combustión superficial",
+      "Productos de lana mineral fabricados para edificios",
+      "Resistencia a la tracción de tejidos recubiertos",
+      "Materiales aislantes térmicos",
+      "Coquillas preformadas de fibra mineral"
+    ],
+    "applicationsTitle": "Aplicaciones por sector",
+    "applications": [
+      {
+        "title": "Petróleo, gas y petroquímica",
+        "items": [
+          "Aislamiento de tuberías y equipos",
+          "Recubrimiento con tejido de vidrio sobre lana mineral",
+          "Aislamiento de recipientes y columnas con colchonetas de malla",
+          "Cinta de fibra de vidrio para sujetar capas de aislamiento"
+        ]
+      },
+      {
+        "title": "Generación eléctrica",
+        "items": [
+          "Aislamiento de calderas y revestimiento de conductos",
+          "Cabinas acústicas para turbinas y generadores",
+          "Mantas aislantes para calderas de recuperación",
+          "Aislamiento de conductos de gases"
+        ]
+      },
+      {
+        "title": "Construcción y climatización",
+        "items": [
+          "Muros, cubiertas y suelos",
+          "Envolvente y revestimiento interior de conductos",
+          "Techos acústicos y relleno de tabiques",
+          "Aislamiento de tuberías de agua caliente y fría"
+        ]
+      },
+      {
+        "title": "Naval y offshore",
+        "items": [
+          "Aislamiento de mamparos y cubiertas",
+          "Aislamiento térmico y acústico de salas de máquinas",
+          "Refuerzo con tejido de vidrio para estructuras de PRFV"
+        ]
+      },
+      {
+        "title": "Industria y fabricación",
+        "items": [
+          "Cámaras frigoríficas e industria alimentaria",
+          "Barreras y cabinas contra el ruido",
+          "Envoltura con tejido de vidrio en el exterior de hornos y estufas",
+          "Paneles de aislamiento eléctrico (G10 / FR4)"
+        ]
+      }
+    ],
+    "supplyTitle": "Qué suministramos",
+    "supply": [
+      "Santura suministra placas de fibra de vidrio, tejido de vidrio, cinta de fibra de vidrio y aislamiento de lana de vidrio a refinerías, plantas petroquímicas, centrales eléctricas y proyectos de construcción, y exporta a más de 25 países. Los productos proceden de fabricantes reconocidos y se suministran según la especificación de su proyecto, con los certificados de ensayo del fabricante.",
+      "Como fabricamos nosotros mismos pernos aislantes, espárragos de soldadura y anclajes refractarios, podemos suministrar el material aislante, sus fijaciones y el tejido de recubrimiento en un solo paquete."
+    ],
+    "relatedTitle": "Productos relacionados",
+    "relatedMineralWool": "Aislamiento de lana de roca para temperaturas más altas, hasta 750 °C.",
+    "relatedPins": "Pernos para soldar y arandelas para fijar lana de vidrio y placas.",
+    "relatedGaskets": "Cordón, cinta y juntas de fibra cerámica, usados junto con la cinta de fibra de vidrio.",
+    "relatedAnchors": "Anclajes SEPL para revestimientos de hornos.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué diferencia hay entre el tejido de fibra de vidrio y la lana de vidrio?",
+        "a": "El tejido de fibra de vidrio es un textil tejido con hilo de vidrio, usado para recubrimiento, envoltura y refuerzo de composites. La lana de vidrio es un aislante blando de fibras de vidrio centrifugadas, usado para el aislamiento térmico y acústico de tuberías, conductos, muros y cubiertas. El tejido se hace con hilo de vidrio E, mientras que la lana de vidrio usa un vidrio sodocálcico-borosilicato con contenido reciclado."
+      },
+      {
+        "q": "¿Qué temperatura soportan los productos de fibra de vidrio?",
+        "a": "La lana de vidrio soporta 230–450 °C según el aglomerante. El tejido de vidrio E sin recubrir aguanta unos 550 °C de forma continua. La lana de vidrio se reblandece a unos 650–700 °C y el vidrio E a unos 840 °C. Para temperaturas mayores se recomiendan la lana de roca (hasta 750 °C) o los productos de fibra cerámica."
+      },
+      {
+        "q": "¿Es seguro el aislamiento de fibra de vidrio y está libre de amianto?",
+        "a": "Sí. Los productos de fibra de vidrio y lana de vidrio que suministramos no contienen amianto, no son peligrosos y se fabrican sin CFC. La lana de vidrio contiene hasta un 70 % de vidrio reciclado. Se manipulan con seguridad con el EPI habitual y son químicamente estables, imputrescibles y resistentes a insectos."
+      },
+      {
+        "q": "¿Qué espesores y densidades de lana de vidrio hay disponibles?",
+        "a": "Los rollos y mantas de lana de vidrio van de 25 mm a 150 mm de espesor y de 10 a 48 kg/m³. Las coquillas van de 15 mm a 600 mm de diámetro interior. Las colchonetas con malla se fabrican de 25 a 100 mm con densidades de hasta 80 kg/m³. Otras especificaciones bajo pedido."
+      }
+    ],
+    "ctaTitle": "¿Necesita fibra de vidrio o lana de vidrio?",
+    "ctaText": "Indíquenos el producto, espesor o gramaje, densidad, medidas, revestimiento y cantidad. Le responderemos con una cotización y el plazo de entrega.",
+    "ctaRfq": "Solicitar cotización de productos de fibra de vidrio",
+    "ctaContact": "O contacte con nuestro equipo"
+  },
+  "csPage": {
+    "metaTitle": "Placas y coquillas de silicato cálcico | Proveedor industrial",
+    "metaDescription": "Aislamiento de silicato cálcico: placas y coquillas según ASTM C-533 hasta 1100 °C. Desde 1980, exporta a más de 25 países. Pida cotización.",
+    "eyebrow": "Materiales aislantes",
+    "h1": "Aislamiento de silicato cálcico",
+    "subheading": "Placas rígidas, coquillas preformadas, segmentos y polvo de silicato cálcico para aislamiento industrial hasta 1100 °C. Conforme a IS 8154, IS 9428, BS 3958 Parte II y ASTM C-533.",
+    "gallery": [
+      "Placas aislantes y coquillas semicirculares de silicato cálcico",
+      "Coquillas y placas planas de silicato cálcico",
+      "Coquilla de silicato cálcico de dos piezas"
+    ],
+    "overviewTitle": "Qué es el aislamiento de silicato cálcico",
+    "overview": [
+      "El silicato cálcico es un aislamiento industrial de alta temperatura, ligero, resistente a los golpes y sin amianto. Está compuesto de silicato cálcico hidratado con fibras de refuerzo y se conforma en piezas rígidas: placas, coquillas preformadas, segmentos y polvo. Conserva sus propiedades aislantes incluso después de mojarse y secarse.",
+      "Cubre el hueco entre la lana mineral blanda y la fibra cerámica. A diferencia del aislamiento blando, es rígido y autoportante, por lo que resiste el tránsito y los golpes en racks de tuberías y equipos, manteniendo baja conductividad térmica, alta resistencia a la compresión y muy poca contracción durante su vida útil."
+    ],
+    "tempTitle": "Temperatura máxima de servicio",
+    "temps": {
+      "mw": "Lana de roca",
+      "cs": "Silicato cálcico",
+      "cf": "Fibra cerámica"
+    },
+    "tempNote": "Valores máximos típicos; el límite de cada producto depende de su grado.",
+    "formsTitle": "Formatos",
+    "colForm": "Formato",
+    "colDescription": "Descripción",
+    "colSizes": "Medidas típicas",
+    "forms": [
+      {
+        "name": "Placas",
+        "text": "Placas rígidas para superficies planas: paredes de recipientes, paneles de conductos y carcasas de hornos.",
+        "sizes": "25–100 mm de espesor · 300–1000 mm de largo · 150–600 mm de ancho"
+      },
+      {
+        "name": "Coquillas preformadas",
+        "text": "Medias cañas de dos piezas o coquillas segmentadas para aislamiento de tuberías.",
+        "sizes": "Ø int. 15–600 mm · 25–100 mm de espesor · 600 mm de longitud estándar"
+      },
+      {
+        "name": "Segmentos biselados",
+        "text": "Segmentos trapezoidales para tuberías y recipientes de gran diámetro.",
+        "sizes": "Según el diámetro del recipiente y el espesor de aislamiento"
+      },
+      {
+        "name": "Segmentos curvos",
+        "text": "Segmentos para columnas, tanques y grandes equipos cilíndricos.",
+        "sizes": "Radio y espesor a medida"
+      },
+      {
+        "name": "Polvo / relleno suelto",
+        "text": "Para rellenar cavidades irregulares y zonas de difícil acceso.",
+        "sizes": "Suministro a granel"
+      }
+    ],
+    "specTitle": "Especificaciones",
+    "specRows": [
+      {
+        "label": "Composición",
+        "value": "Silicato cálcico hidratado con fibras de refuerzo"
+      },
+      {
+        "label": "Temp. máx. de servicio continuo",
+        "value": "1000–1100 °C, según el grado"
+      },
+      {
+        "label": "Densidad",
+        "value": "240–350 kg/m³ (unos 256 kg/m³ en el grado de alta temperatura)"
+      },
+      {
+        "label": "Conductividad térmica a 200 °C media",
+        "value": "0,065–0,080 W/m·K"
+      },
+      {
+        "label": "Conductividad térmica a 400 °C media",
+        "value": "0,085–0,105 W/m·K"
+      },
+      {
+        "label": "Conductividad térmica a 600 °C media",
+        "value": "0,100–0,130 W/m·K"
+      },
+      {
+        "label": "Resistencia a la compresión",
+        "value": "0,7 MPa o más al 5 % de deformación"
+      },
+      {
+        "label": "Contracción lineal a temp. máx.",
+        "value": "2 % o menos"
+      },
+      {
+        "label": "Humedad",
+        "value": "Recupera su comportamiento térmico original tras mojarse y secarse"
+      },
+      {
+        "label": "pH",
+        "value": "Aproximadamente 10 (alcalino)"
+      },
+      {
+        "label": "Amianto",
+        "value": "Ninguno: 100 % sin amianto"
+      },
+      {
+        "label": "COV",
+        "value": "Ninguno"
+      },
+      {
+        "label": "Contenido reciclado",
+        "value": "Contiene material reciclado posconsumo"
+      },
+      {
+        "label": "Color",
+        "value": "Blanco a blanquecino"
+      }
+    ],
+    "specNote": "Valores típicos. Las cifras exactas dependen del grado y del fabricante; la ficha técnica y los certificados de ensayo del fabricante se entregan con cada pedido.",
+    "standardsTitle": "Normas",
+    "standards": [
+      "Bloques y coquillas aislantes de silicato cálcico",
+      "Bloques planos de silicato cálcico (norma india)",
+      "Coquillas de silicato cálcico (norma india)",
+      "Materiales aislantes térmicos: silicato cálcico",
+      "Productos de silicato cálcico fabricados para equipos industriales",
+      "Medición de la conductividad térmica",
+      "Características de combustión superficial"
+    ],
+    "advantagesTitle": "Ventajas",
+    "advantages": [
+      {
+        "title": "Estable tras mojarse",
+        "text": "Conserva sus propiedades aislantes a lo largo de ciclos de mojado y secado."
+      },
+      {
+        "title": "Rendimiento constante",
+        "text": "Baja conductividad térmica durante toda su vida útil, para un ahorro energético duradero."
+      },
+      {
+        "title": "Resistente y rígido",
+        "text": "Soporta el maltrato mecánico, el tránsito sobre racks de tuberías y los golpes sin dañarse."
+      },
+      {
+        "title": "Ligero",
+        "text": "Alto rendimiento con poco peso para un aislamiento rígido de alta temperatura."
+      },
+      {
+        "title": "Fácil de instalar",
+        "text": "Se corta y adapta fácilmente en obra, lo que reduce el tiempo y el coste de instalación."
+      },
+      {
+        "title": "Larga vida y reutilización",
+        "text": "Poco mantenimiento; puede desmontarse y reutilizarse en las paradas."
+      },
+      {
+        "title": "Medio ambiente",
+        "text": "Sin COV y con contenido reciclado posconsumo."
+      },
+      {
+        "title": "Alcalino",
+        "text": "Su alcalinidad natural (pH en torno a 10) ayuda a proteger el acero al carbono de la corrosión bajo el aislamiento."
+      },
+      {
+        "title": "Incombustible",
+        "text": "Propagación de llama y desarrollo de humo nulos en los ensayos de combustión superficial."
+      }
+    ],
+    "applicationsTitle": "Aplicaciones por sector",
+    "applications": [
+      {
+        "title": "Hierro y acero",
+        "items": [
+          "Altos hornos y estufas de viento caliente",
+          "Hornos de foso y baterías de coque",
+          "Hornos de recalentamiento y recocido",
+          "Precalentadores de cucharas y artesas"
+        ]
+      },
+      {
+        "title": "Cemento",
+        "items": [
+          "Precalentadores, ciclones y conductos",
+          "Hornos",
+          "Generadores de aire caliente y pirociclones"
+        ]
+      },
+      {
+        "title": "Aluminio",
+        "items": [
+          "Canales de colada y flotadores",
+          "Hornos de foso y revestimiento de cubas",
+          "Hornos de mantenimiento y homogeneización"
+        ]
+      },
+      {
+        "title": "Petróleo, gas y petroquímica",
+        "items": [
+          "Calentadores y hornos reformadores",
+          "Intercambiadores de calor y tuberías de vapor",
+          "Columnas, recipientes y reactores"
+        ]
+      },
+      {
+        "title": "Generación eléctrica",
+        "items": [
+          "Carcasas de hogar de caldera y de turbina",
+          "Aislamiento de tuberías de vapor a alta temperatura",
+          "Aislamiento de conductos de calderas de recuperación",
+          "Sistemas de escape de turbinas de gas"
+        ]
+      },
+      {
+        "title": "Cerámica y vidrio",
+        "items": [
+          "Revestimiento de hornos túnel",
+          "Aislamiento de hornos de fusión de vidrio",
+          "Arcas de recocido y regeneradores"
+        ]
+      },
+      {
+        "title": "Industria en general",
+        "items": [
+          "Hornos de tratamiento térmico y alivio de tensiones",
+          "Hornos de recalentamiento y fusión",
+          "Reactores químicos y columnas de destilación",
+          "Equipos alimentarios de alta temperatura"
+        ]
+      }
+    ],
+    "supplyTitle": "Qué suministramos",
+    "supply": [
+      "Santura suministra placas y coquillas de silicato cálcico conformes a IS 8154, IS 9428, BS 3958 Parte II y ASTM C-533. Tienen baja conductividad térmica, alta resistencia a la compresión y baja contracción, y ofrecen un aislamiento rentable para temperaturas de servicio de hasta 1100 °C.",
+      "Como fabricamos anclajes refractarios y pernos aislantes, y también suministramos lana mineral, fibra de vidrio y juntas cerámicas, entregamos paquetes completos de aislamiento a refinerías, acerías, cementeras y centrales eléctricas en más de 25 países."
+    ],
+    "relatedTitle": "Productos relacionados",
+    "relatedMineralWool": "Lana de roca y de vidrio para temperaturas de hasta 750 °C.",
+    "relatedGlassFibre": "Tejido de vidrio para recubrimiento sobre el aislamiento.",
+    "relatedPins": "Pernos para soldar y arandelas para fijar el aislamiento.",
+    "relatedAnchors": "Anclajes SEPL para revestimientos de alta temperatura.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué temperatura soporta el aislamiento de silicato cálcico?",
+        "a": "El aislamiento de silicato cálcico está clasificado para servicio continuo hasta 1000–1100 °C, según el grado. Mantiene su estructura, baja conductividad térmica y resistencia a la compresión en todo su rango, y conserva sus propiedades aislantes incluso después de mojarse y secarse."
+      },
+      {
+        "q": "¿Qué formatos de silicato cálcico hay disponibles?",
+        "a": "El silicato cálcico se suministra en placas rígidas, coquillas preformadas (medias cañas), segmentos biselados para tuberías grandes, segmentos curvos para recipientes y columnas, y polvo para rellenar cavidades. Las coquillas estándar abarcan diámetros interiores de 15 mm a 600 mm con espesores de 25 a 100 mm. Otras medidas según plano."
+      },
+      {
+        "q": "¿Qué normas cumple su silicato cálcico?",
+        "a": "Nuestro silicato cálcico cumple ASTM C-533, IS 8154 (bloques planos), IS 9428 (coquillas) y BS 3958 Parte II. Es incombustible, con propagación de llama nula en el ensayo ASTM E-84, sin amianto y sin COV."
+      },
+      {
+        "q": "¿Qué ventajas tiene el silicato cálcico frente a la lana mineral?",
+        "a": "El silicato cálcico trabaja a temperaturas más altas (hasta 1100 °C frente a 750 °C de la lana de roca), es mucho más resistente al maltrato, es rígido y autoportante, por lo que soporta el tránsito y los golpes, y mantiene su rendimiento tras ciclos de mojado y secado. La lana mineral es más flexible y más económica por debajo de 750 °C. Suministramos ambos."
+      }
+    ],
+    "ctaTitle": "¿Necesita aislamiento de silicato cálcico?",
+    "ctaText": "Indíquenos el formato, diámetros de tubería o medidas de placa, espesor, temperatura de servicio y cantidad. Le responderemos con una cotización y el plazo de entrega.",
+    "ctaRfq": "Solicitar cotización de silicato cálcico",
+    "ctaContact": "O contacte con nuestro equipo"
   }
 }

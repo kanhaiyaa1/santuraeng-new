@@ -12,7 +12,7 @@ import SiteSearch from '@/components/SiteSearch';
 import ProductMegaMenu from '@/components/ProductMegaMenu';
 import ServicesDropdown from '@/components/ServicesDropdown';
 import MobileMenu from '@/components/MobileMenu';
-import { buildSearchIndex } from '@/lib/searchIndex';
+import { getSearchIndex, toClientIndex } from '@/lib/searchIndex';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import Footer from '@/components/Footer';
 import 'flag-icons/css/flag-icons.min.css';
@@ -54,7 +54,7 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
 
   const messages = await getMessages();
   const t = await getTranslations({ locale, namespace: 'nav' });
-  const searchIndex = await buildSearchIndex(locale);
+  const searchIndex = toClientIndex(await getSearchIndex(locale));
   const dir = locale === 'ar' ? 'rtl' : 'ltr';
 
   return (
@@ -65,7 +65,7 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
             <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
               <Link href="/" className="flex min-w-0 items-center gap-3">
                 <span className="p-1">
-                  <Image src="/images/logo.jpg" alt="Santura Engineering" width={20} height={32} priority />
+                  <Image src="/images/santura-engineering-logo.jpg" alt="Santura Engineering" width={20} height={32} priority />
                 </span>
                 <span className="truncate text-base font-semibold tracking-tight sm:text-lg">Santura Engineering</span>
               </Link>

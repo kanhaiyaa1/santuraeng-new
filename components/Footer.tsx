@@ -15,7 +15,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-3">
             <span className="p-1">
-              <Image src="/images/logo.jpg" alt={SITE.legalName} width={20} height={32} />
+              <Image src="/images/santura-engineering-logo.jpg" alt={SITE.legalName} width={20} height={32} />
             </span>
             <span className="text-lg font-semibold text-ink">{SITE.legalName}</span>
           </div>

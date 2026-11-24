@@ -3,16 +3,17 @@
 import { useState } from 'react';
 import Image from 'next/image';
 
-type Props = { images: string[]; alt: string; label: string };
+/** `alts` (optional) gives each image its own alt text; otherwise `alt` is used for all. */
+type Props = { images: string[]; alt: string; label: string; alts?: string[] };
 
-export default function ProductGallery({ images, alt, label }: Props) {
+export default function ProductGallery({ images, alt, label, alts }: Props) {
   const [index, setIndex] = useState(0);
   if (!images.length) return null;
 
   return (
     <div>
       <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-line bg-white">
-        <Image src={images[index]} alt={alt} fill priority sizes="(min-width: 1024px) 60vw, 100vw" className="object-contain p-6" />
+        <Image src={images[index]} alt={alts?.[index] ?? alt} fill priority sizes="(min-width: 1024px) 60vw, 100vw" className="object-contain p-6" />
       </div>
       {images.length > 1 && (
         <ul aria-label={label} className="mt-3 grid grid-cols-5 gap-2 sm:grid-cols-6">
@@ -22,7 +23,7 @@ export default function ProductGallery({ images, alt, label }: Props) {
                 type="button"
                 onClick={() => setIndex(i)}
                 aria-current={i === index}
-                aria-label={`${alt} (${i + 1}/${images.length})`}
+                aria-label={`${alts?.[i] ?? alt} (${i + 1}/${images.length})`}
                 className={`relative block aspect-square w-full overflow-hidden rounded-md border bg-white transition ${
                   i === index ? 'border-brand-500 ring-2 ring-brand-500' : 'border-line hover:border-brand-500'
                 }`}

@@ -247,6 +247,13 @@ export default async function StudWeldingPage({ params: { locale } }: Props) {
             </tbody>
           </table>
         </div>
+        <div className="mt-8 rounded-lg border-s-4 border-brand-500 bg-surface-alt p-6">
+          <h3 className="font-bold text-ink">{t('etchTitle')}</h3>
+          <p className="mt-2 max-w-4xl text-sm leading-relaxed text-ink-body">{t('etchText')}</p>
+          <Link href="/quality#micro-etching" className="mt-3 inline-block text-sm font-semibold text-brand-500 hover:text-brand-600">
+            {t('etchLink')} →
+          </Link>
+        </div>
       </section>
 
       {/* Related services */}

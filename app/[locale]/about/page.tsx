@@ -30,7 +30,7 @@ export default async function AboutPage({ params: { locale } }: Props) {
         '@type': 'Organization',
         name: SITE.legalName,
         url: siteUrl,
-        logo: `${siteUrl}/images/logo.jpg`,
+        logo: `${siteUrl}/images/santura-engineering-logo.jpg`,
         foundingDate: String(SITE.foundingYear),
         founder: { '@type': 'Person', name: SITE.founder.name, jobTitle: SITE.founder.jobTitle },
         address: {

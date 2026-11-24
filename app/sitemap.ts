@@ -4,6 +4,7 @@ import { buildAlternates, buildCountryAlternates } from '@/lib/seo';
 import { PRODUCTS } from '@/content/products';
 import { COUNTRIES } from '@/content/countries';
 import { SERVICES } from '@/content/services';
+import { CONTENT_CATEGORY_PATHS } from '@/content/product-categories';
 
 type Alternates = ReturnType<typeof buildAlternates>;
 
@@ -23,7 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const servicePaths = SERVICES.filter((s) => s.hasContent).map((s) => `/services/${s.slug}`);
 
   return [
-    ...[...staticPaths, ...productPaths, ...servicePaths].flatMap((path) => entries((locale) => buildAlternates(path, locale))),
+    ...[...staticPaths, ...CONTENT_CATEGORY_PATHS, ...productPaths, ...servicePaths].flatMap((path) => entries((locale) => buildAlternates(path, locale))),
     ...COUNTRIES.flatMap((c) =>
       entries((locale) => buildCountryAlternates(`/${c.slug}`, locale, c.hreflang))
     )

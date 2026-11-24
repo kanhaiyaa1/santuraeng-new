@@ -4,12 +4,9 @@ import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react'
 import type Fuse from 'fuse.js';
 import { useTranslations } from 'next-intl';
 import { Link, useRouter } from '@/i18n/navigation';
-import type { SearchEntry } from '@/lib/searchIndex';
+import { FUSE_OPTIONS, GROUP_ORDER, normalizeQuery, runSearch, type SearchEntry } from '@/lib/searchCore';
 
 const MAX_RESULTS = 8;
-const GROUP_ORDER: SearchEntry['type'][] = ['product', 'country', 'page'];
-// "SEPL-24", "sepl 24", "SEPL24", "sepl-6" → an exact product code.
-const CODE_QUERY = /^sepl[\s-]*0*(\d{1,2})$/i;
 
 export default function SiteSearch({ index }: { index: SearchEntry[] }) {
   const t = useTranslations('search');
@@ -17,7 +14,8 @@ export default function SiteSearch({ index }: { index: SearchEntry[] }) {
   const id = useId();
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState('');
-  const [active, setActive] = useState(0);
+  // -1 = nothing picked with the arrow keys, so Enter opens the full results page.
+  const [active, setActive] = useState(-1);
   const [fuse, setFuse] = useState<Fuse<SearchEntry> | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
@@ -29,19 +27,7 @@ export default function SiteSearch({ index }: { index: SearchEntry[] }) {
     let cancelled = false;
     import('fuse.js').then(({ default: FuseCtor }) => {
       if (cancelled) return;
-      setFuse(
-        new FuseCtor(index, {
-          keys: [
-            { name: 'code', weight: 3 },
-            { name: 'title', weight: 2 },
-            { name: 'alloys', weight: 1 },
-            { name: 'keywords', weight: 1 }
-          ],
-          threshold: 0.25,
-          ignoreLocation: true,
-          minMatchCharLength: 2
-        })
-      );
+      setFuse(new FuseCtor(index, FUSE_OPTIONS));
     });
     return () => {
       cancelled = true;
@@ -49,22 +35,16 @@ export default function SiteSearch({ index }: { index: SearchEntry[] }) {
   }, [open, fuse, index]);
 
   const results = useMemo(() => {
-    const q = query.trim();
-    if (!fuse || q.length < 2) return [];
-    const code = q.match(CODE_QUERY);
-    if (code) {
-      const exact = index.filter((e) => e.code?.split(' ')[0] === `SEPL-${code[1].padStart(2, '0')}`);
-      if (exact.length) return exact;
-    }
-    // Keep Fuse's ranking, but list groups in a fixed order so the dropdown is predictable.
-    const hits = fuse.search(q, { limit: MAX_RESULTS }).map((r) => r.item);
-    return GROUP_ORDER.flatMap((type) => hits.filter((h) => h.type === type));
+    if (!fuse) return [];
+    // Keep the ranking, but list groups in a fixed order so the dropdown is predictable.
+    const hits = runSearch(fuse, index, query, MAX_RESULTS);
+    return GROUP_ORDER.flatMap((group) => hits.filter((h) => h.group === group));
   }, [fuse, query, index]);
 
   const close = useCallback((restoreFocus = false) => {
     setOpen(false);
     setQuery('');
-    setActive(0);
+    setActive(-1);
     if (restoreFocus) buttonRef.current?.focus();
   }, []);
 
@@ -96,24 +76,32 @@ export default function SiteSearch({ index }: { index: SearchEntry[] }) {
     if (open) inputRef.current?.focus();
   }, [open]);
 
+  const q = normalizeQuery(query);
+  const allResultsHref = { pathname: '/search', query: { q } } as const;
+
   function onInputKey(e: React.KeyboardEvent<HTMLInputElement>) {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      const picked = results[active];
+      if (picked) router.push(picked.href);
+      else if (q.length >= 2) router.push(allResultsHref);
+      else return;
+      close();
+      return;
+    }
     if (!results.length) return;
     if (e.key === 'ArrowDown') {
       e.preventDefault();
       setActive((a) => (a + 1) % results.length);
     } else if (e.key === 'ArrowUp') {
       e.preventDefault();
-      setActive((a) => (a - 1 + results.length) % results.length);
-    } else if (e.key === 'Enter') {
-      e.preventDefault();
-      router.push(results[active].href);
-      close();
+      setActive((a) => (a <= 0 ? results.length - 1 : a - 1));
     }
   }
 
   const listId = `${id}-results`;
   const optionId = (i: number) => `${id}-option-${i}`;
-  const showList = query.trim().length >= 2;
+  const showList = q.length >= 2;
 
   return (
     <>
@@ -153,11 +141,11 @@ export default function SiteSearch({ index }: { index: SearchEntry[] }) {
                 aria-expanded={showList && results.length > 0}
                 aria-controls={listId}
                 aria-autocomplete="list"
-                aria-activedescendant={results.length ? optionId(active) : undefined}
+                aria-activedescendant={results[active] ? optionId(active) : undefined}
                 value={query}
                 onChange={(e) => {
                   setQuery(e.target.value);
-                  setActive(0);
+                  setActive(-1);
                 }}
                 onKeyDown={onInputKey}
                 placeholder={t('placeholder')}
@@ -172,17 +160,17 @@ export default function SiteSearch({ index }: { index: SearchEntry[] }) {
             {!showList && <p className="mt-3 text-xs text-ink-muted">{t('hint')}</p>}
 
             {showList && results.length === 0 && fuse && (
-              <p className="mt-3 text-sm text-ink-body" role="status">{t('noResults', { query: query.trim() })}</p>
+              <p className="mt-3 text-sm text-ink-body" role="status">{t('noResults', { query: q })}</p>
             )}
 
             {results.length > 0 && (
               <ul id={listId} role="listbox" aria-label={t('label')} className="mt-3 max-h-[60vh] overflow-y-auto">
                 {results.map((r, i) => {
-                  const firstOfGroup = i === 0 || results[i - 1].type !== r.type;
+                  const firstOfGroup = i === 0 || results[i - 1].group !== r.group;
                   return (
-                    <li key={`${r.type}-${r.href}`} role="presentation">
+                    <li key={`${r.group}-${r.href}`} role="presentation">
                       {firstOfGroup && (
-                        <p className="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wider text-brand-500">{t(`groups.${r.type}`)}</p>
+                        <p className="px-3 pb-1 pt-3 text-xs font-semibold uppercase tracking-wider text-brand-500">{t(`groups.${r.group}`)}</p>
                       )}
                       <Link
                         id={optionId(i)}
@@ -200,6 +188,14 @@ export default function SiteSearch({ index }: { index: SearchEntry[] }) {
                   );
                 })}
               </ul>
+            )}
+
+            {showList && fuse && (
+              <div className="mt-2 border-t border-line pt-3">
+                <Link href={allResultsHref} onClick={() => close()} className="text-sm font-semibold text-brand-500 hover:text-brand-600">
+                  {t('viewAll')} →
+                </Link>
+              </div>
             )}
           </div>
         </div>

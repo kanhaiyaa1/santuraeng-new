@@ -413,6 +413,10 @@
         "text": "Chemische samenstelling met spectrometrie getoetst aan de voorgeschreven legering."
       },
       {
+        "title": "Micro-etsen",
+        "text": "Micro-etsen in eigen huis volgens ASTM A262 Practice A, ASTM E407 en ASTM E112, en macro-etsen van stiftlassen."
+      },
+      {
         "title": "Maatcontrole",
         "text": "Afmetingen, buigingen en laseinden gecontroleerd volgens de tekening."
       },
@@ -447,7 +451,53 @@
     },
     "clientCertsTitle": "Klantcertificaten",
     "clientCertsText": "Certificaten en referentiebrieven van onze klanten worden hier gepubliceerd.",
-    "photosTitle": "Keuring in de praktijk"
+    "photosTitle": "Keuring in de praktijk",
+    "etch": {
+      "title": "Micro-etstest",
+      "intro": [
+        "Een micro-etstest maakt de inwendige structuur van het metaal zichtbaar. Er wordt een monster uit het materiaal of het eindproduct genomen, spiegelglad gepolijst en behandeld met een etsvloeistof die de korrels en korrelgrenzen zichtbaar maakt. Het geëtste oppervlak wordt daarna onder de microscoop onderzocht.",
+        "Wij voeren micro-etstests in eigen huis uit op het roestvast staal, koolstofstaal en de nikkellegeringen waarvan onze ankers, stiften en laswerk worden gemaakt. De test laat zien of vervormen, lassen of warmtebehandeling het materiaal in de toestand heeft gelaten die de specificatie vraagt."
+      ],
+      "testsTitle": "Tests die wij uitvoeren",
+      "tests": [
+        {
+          "code": "ASTM A262 Practice A",
+          "title": "Screening op interkristallijne aantasting",
+          "text": "Een elektrolytische ets met oxaalzuur die austenitisch roestvast staal, zoals 304, 310, 316 en 321, controleert op sensibilisatie: chroomcarbiden op de korrelgrenzen die het materiaal gevoelig maken voor interkristallijne corrosie. De test wordt gebruikt na lassen of warmtebehandeling en bevestigt dat oplosgloeien de carbiden heeft opgelost."
+        },
+        {
+          "code": "ASTM E407 · ASTM E112",
+          "title": "Microstructuur en korrelgrootte",
+          "text": "Micro-etsen volgens ASTM E407 maakt de microstructuur van roestvast staal, koolstofstaal en nikkellegeringen zichtbaar. Daarna wordt de gemiddelde korrelgrootte bepaald volgens ASTM E112 en wordt de structuur gecontroleerd op overmatige korrelgroei en ongewenste fasen."
+        },
+        {
+          "code": "EN ISO 14555",
+          "title": "Macro-ets van de las",
+          "text": "Een gelaste stift of een gelast anker wordt door de las doorgezaagd, gepolijst en geëtst, zodat de smeltzone zichtbaar wordt. De doorsnede toont of de las over de volledige stiftvoet is versmolten en hoe diep hij in het basismateriaal is ingebrand. EN ISO 14555 gebruikt dit macro-onderzoek voor de kwalificatie van stiftlasprocedures."
+        }
+      ],
+      "readingTitle": "Zo worden de resultaten van ASTM A262 Practice A beoordeeld",
+      "reading": [
+        {
+          "title": "Trapstructuur",
+          "text": "Treden tussen de korrels en geen groeven op de korrelgrenzen. Acceptabel: het materiaal is niet gesensibiliseerd."
+        },
+        {
+          "title": "Gemengde structuur",
+          "text": "Enkele groeven op de korrelgrenzen, maar geen korrel volledig omsloten. Acceptabel."
+        },
+        {
+          "title": "Groefstructuur",
+          "text": "Een of meer korrels volledig door groeven omsloten. Het materiaal geldt als verdacht en moet de heet-zuurtest doorstaan die ASTM A262 voor de kwaliteit voorschrijft (Practice B, C of E) voordat het kan worden geaccepteerd."
+        }
+      ],
+      "readingNote": "Practice A is een screeningtest: hij kan materiaal accepteren, maar niet afkeuren. De test geldt alleen voor austenitisch roestvast staal; nikkellegeringen en koolstofstaal worden in plaats daarvan gecontroleerd op microstructuur en korrelgrootte.",
+      "productsTitle": "Producten die wij testen",
+      "productsText": "De test geldt voor onze metalen producten, vooral roestvaststalen onderdelen die vóór levering koud worden vervormd, gelast of warmtebehandeld. Isolatiematerialen zoals minerale wol, keramische pakkingen en calciumsilicaat zijn niet metallisch, dus micro-etsen is daarop niet van toepassing.",
+      "requestText": "Het micro-etsrapport kan samen met de overige testcertificaten van uw order worden geleverd. Vermeld de test en de norm in uw aanvraag.",
+      "linkBsa": "Blank oplosgloeien en sensibilisatie",
+      "linkSw": "Stiftlassen en macro-ets"
+    }
   },
   "privacyPage": {
     "metaTitle": "Privacybeleid | Santura Engineering",
@@ -615,15 +665,17 @@
   "search": {
     "open": "Zoeken",
     "label": "Zoeken op de site",
-    "placeholder": "Zoek producten, SEPL-codes, legeringen, landen…",
+    "placeholder": "Zoek producten, diensten, SEPL-codes, legeringen, landen…",
     "noResults": "Geen resultaten voor ‘{query}’",
     "close": "Sluiten",
     "hint": "Probeer ‘SEPL-24’, ‘310S’, ‘Y anchor’ of ‘Nederland’",
     "groups": {
       "product": "Producten",
       "country": "Landen",
-      "page": "Pagina’s"
-    }
+      "page": "Pagina’s",
+      "service": "Diensten"
+    },
+    "viewAll": "Alle resultaten bekijken"
   },
   "photos": {
     "cartonsBulk": "Dozen klaar voor verpakking",
@@ -862,6 +914,10 @@
       {
         "title": "Vergelijking met het materiaalcertificaat",
         "text": "Vergelijking van de resultaten met het oorspronkelijke materiaalcertificaat bevestigt dat het materiaal weer de voorgeschreven gegloeide eigenschappen heeft."
+      },
+      {
+        "title": "Micro-etstest",
+        "text": "Een oxaalzuurets volgens ASTM A262 Practice A, in eigen huis uitgevoerd, toont of er nog chroomcarbiden op de korrelgrenzen zitten. Een trapstructuur bevestigt dat de ankers niet meer gesensibiliseerd zijn."
       }
     ],
     "verifyQualityLink": "Zo keuren en documenteren wij elke order",
@@ -898,7 +954,7 @@
       },
       {
         "q": "Hoe controleer je of het oplosgloeien goed is uitgevoerd?",
-        "a": "Met hardheids- en trekproeven. Behandeld materiaal moet zachter zijn dan onbehandeld, met de hardheid in het gegloeide bereik en de treksterkte dicht bij het minimum. Ook moet het oppervlak blank en vrij van oxidehuid zijn."
+        "a": "Met hardheids- en trekproeven. Behandeld materiaal moet zachter zijn dan onbehandeld, met de hardheid in het gegloeide bereik en de treksterkte dicht bij het minimum. Ook moet het oppervlak blank en vrij van oxidehuid zijn. Een micro-etstest volgens ASTM A262 Practice A, in eigen huis uitgevoerd, bevestigt dat de chroomcarbiden zijn opgelost."
       },
       {
         "q": "Verlengt blank oplosgloeien de levensduur van ankers?",
@@ -1312,7 +1368,2497 @@
       {
         "q": "Welke maten keramische ringen zijn er?",
         "a": "De ringen worden afgestemd op de stiftdiameter en het te lassen oppervlak, zoals vlakke plaat of buis. Geef ons de stiftdiameter en de mantelgeometrie door, dan leveren wij de passende ringen bij de ankers."
+      },
+      {
+        "q": "Hoe wordt de kwaliteit van stiftlassen gecontroleerd?",
+        "a": "Met een macro-ets. Een proefstift wordt in eigen huis door de las doorgezaagd, gepolijst en geëtst. Zo is te zien of de las over de volledige stiftvoet is versmolten en hoe diep hij in het basismateriaal is ingebrand. Bij roestvaststalen ankers controleert een micro-etstest volgens ASTM A262 Practice A het materiaal bovendien op sensibilisatie."
       }
-    ]
+    ],
+    "etchTitle": "Macro-ets van de las",
+    "etchText": "De laskwaliteit wordt gecontroleerd met een macro-ets. Een proefstift wordt in eigen huis door de las doorgezaagd, gepolijst en geëtst, zodat de smeltzone en de inbranddiepte kunnen worden onderzocht. Dit is het macro-onderzoek dat EN ISO 14555 gebruikt voor de kwalificatie van stiftlasprocedures.",
+    "etchLink": "Meer over onze micro-etstests"
+  },
+  "searchPage": {
+    "metaTitle": "Zoeken | Santura Engineering",
+    "metaTitleQuery": "Zoekresultaten voor ‘{query}’ | Santura Engineering",
+    "metaDescription": "Doorzoek vuurvaste ankers, SEPL-productcodes, legeringen, diensten en exportlandpagina’s van Santura Engineering.",
+    "h1": "Zoeken",
+    "h1Query": "Zoekresultaten voor ‘{query}’",
+    "submit": "Zoeken",
+    "resultCount": "Resultaten voor ‘{query}’: {count}",
+    "emptyText": "Zoek op productnaam, SEPL-code, legering, dienst of land.",
+    "noResultsTitle": "Geen resultaten gevonden",
+    "noResultsText": "Niets gevonden voor ‘{query}’. Controleer de spelling, probeer een productcode zoals SEPL-07 of gebruik een van de populaire zoekopdrachten hieronder.",
+    "relatedTitle": "Gerelateerde zoekopdrachten",
+    "popularTitle": "Populaire zoekopdrachten"
+  },
+  "notFoundPage": {
+    "title": "Pagina niet gevonden",
+    "text": "De pagina die u zoekt bestaat niet of is verplaatst. Doorzoek de website of gebruik de links hieronder.",
+    "home": "Naar de homepage",
+    "products": "Producten bekijken"
+  },
+  "odPage": {
+    "metaTitle": "Kijkdeuren en kijkgaten voor ovens, draaitrommelovens en ketels | Santura Engineering",
+    "metaDescription": "Kijkdeuren, kijkgaten en kijkglazen voor industriële ovens, draaitrommelovens en ketels, op tekening. Fabrikant sinds 1980, export naar 25+ landen.",
+    "eyebrow": "Constructiewerkplaats",
+    "h1": "Kijkdeuren en kijkgaten",
+    "subheading": "Vuurvast beklede kijkdeuren, kijkgaten en kijkglazen voor industriële ovens, ketels, draaitrommelovens en gestookte verhitters. Gemaakt volgens uw tekening, met frame, deur, glas, pakkingen en vuurvaste ankers geleverd als één samenstel.",
+    "overviewTitle": "Waarvoor kijkdeuren en kijkgaten dienen",
+    "overview": [
+      "Kijkdeuren en kijkgaten zijn toegangsopeningen in de wanden van ovens, ketels, draaitrommelovens en verhitters. Ze laten operators in de installatie kijken, de vlam controleren, de vuurvaste bekleding inspecteren en thermokoppels of sondes inbrengen, zonder de installatie te openen of het proces te stoppen.",
+      "Elke deur heeft een stalen frame dat aan de mantel wordt gebout of gelast, een deur of deksel die de opening sluit, en een vuurvaste bekleding die overeenkomt met de bekleding van de omringende wand. In het frame gelaste ankers houden die bekleding vast, zoals vuurvaste ankers de bekleding van de wand vasthouden.",
+      "Santura maakt kijkdeuren in de eigen werkplaats, in roestvast staal of thermisch verzinkt constructiestaal, met vuurvaste ankers, gehard glas en pakkingen volgens de specificatie van de klant."
+    ],
+    "overviewLink": "Vuurvaste ankers voor deur- en wandbekledingen",
+    "overviewCaption": "Deurframe met ingelaste V-ankers die de vuurvaste bekleding vasthouden.",
+    "typesTitle": "Soorten kijkdeuren en kijkgaten",
+    "types": [
+      {
+        "title": "Kijkdeuren",
+        "size": "Openingen vanaf 250 mm (10 inch)",
+        "text": "Grotere deuren, scharnierend of gebout, met vuurvast beklede deur. Voor visuele inspectie van de vuurhaard en beperkte toegang voor onderhoud, bijvoorbeeld boven elke luchtzone van een ketel."
+      },
+      {
+        "title": "Kijkgaten",
+        "size": "Meestal 100 × 100 mm (4 × 4 inch)",
+        "text": "Kleine openingen met een deksel van gietijzer of staal, vaak met contragewicht zodat het vanzelf sluit. Voor vlambewaking en het inbrengen van thermokoppels en sondes."
+      },
+      {
+        "title": "Kijkglazen",
+        "size": "50–100 mm diameter",
+        "text": "Voorzien van hittebestendig getint glas, kobaltblauw of groen, zodat vlam en bekleding continu te volgen zijn zonder iets te openen."
+      }
+    ],
+    "constructionTitle": "Constructie en materialen",
+    "constructionIntro": "Elk onderdeel wordt gekozen op basis van de bedrijfstemperatuur, de ovenatmosfeer en hoe vaak de deur wordt geopend.",
+    "construction": [
+      {
+        "title": "Frame",
+        "text": "Constructiestaal (meestal thermisch verzinkt), roestvast staal of gietijzer, afhankelijk van bedrijfstemperatuur en omgeving."
+      },
+      {
+        "title": "Vuurvaste bekleding",
+        "text": "Vuurvast beton of vuurvaste steen in deur en frame, afgestemd op het vuurvaste systeem van de installatie en vastgehouden door ingelaste ankers."
+      },
+      {
+        "title": "Kijkglas",
+        "text": "Gehard kobaltblauw glas, meestal 3 mm dik. Het dempt de verblinding door de vlam, zodat vlambeeld en staat van de bekleding duidelijk te zien zijn. Groen getint glas is ook leverbaar."
+      },
+      {
+        "title": "Afdichting",
+        "text": "Hogetemperatuurpakkingen op bewerkte zittingvlakken, zodat de gesloten deur geen heet gas laat ontsnappen en geen koude lucht binnenlaat."
+      },
+      {
+        "title": "Montage",
+        "text": "Geboute flens op de mantel. Scharnierende deuren voor frequente toegang, deksels met contragewicht voor kijkgaten."
+      },
+      {
+        "title": "Beslag",
+        "text": "Sluitgrepen en scharnieren geschikt voor de bedrijfstemperatuur, met hijsogen op zware deuren."
+      }
+    ],
+    "specTitle": "Typische specificaties",
+    "colFeature": "Kenmerk",
+    "cols": {
+      "od": "Kijkdeur",
+      "pd": "Kijkgat",
+      "sp": "Kijkglas"
+    },
+    "specRows": [
+      {
+        "label": "Openingsmaat",
+        "od": "Vanaf 250 mm (op maat)",
+        "pd": "100 × 100 mm tot 150 × 150 mm",
+        "sp": "50–100 mm diameter"
+      },
+      {
+        "label": "Framemateriaal",
+        "od": "Constructiestaal / rvs / gietijzer",
+        "pd": "Gietijzer / constructiestaal",
+        "sp": "Gietijzer / rvs"
+      },
+      {
+        "label": "Max. bedrijfstemperatuur",
+        "od": "Tot 1200 °C (met vuurvaste bekleding)",
+        "pd": "Tot 1000 °C",
+        "sp": "Tot 800 °C (begrensd door het glas)"
+      },
+      {
+        "label": "Sluiting",
+        "od": "Scharnierend of gebout",
+        "pd": "Gebout deksel of contragewicht",
+        "sp": "Schroefdop of gebout"
+      },
+      {
+        "label": "Glas",
+        "od": "Optioneel",
+        "pd": "Optioneel",
+        "sp": "Standaard (kobaltblauw)"
+      },
+      {
+        "label": "Vuurvast bekleed",
+        "od": "Ja",
+        "pd": "Ja (deksel en frame)",
+        "sp": "Nee (alleen glas)"
+      }
+    ],
+    "specNote": "Dit zijn typische waarden. Openingsmaat, materialen en temperatuurbereik van elke deur volgen uit de tekening van de klant en de bedrijfsomstandigheden van de installatie.",
+    "applicationsTitle": "Toepassingen",
+    "applications": [
+      {
+        "title": "Ketels",
+        "text": "AFBC-, CFBC- en roosterketels: kijkdeuren boven elke luchtzone en kijkgaten voor vlambewaking."
+      },
+      {
+        "title": "Gestookte verhitters in raffinaderijen",
+        "text": "Procesovens en reformers: kijkglazen en kijkgaten om de branders te volgen."
+      },
+      {
+        "title": "Cementovens",
+        "text": "Kijkgaten in de ovenmantel en bij de brander om bekleding en vlam te controleren."
+      },
+      {
+        "title": "Staalbedrijven",
+        "text": "Herverhittingsovens en pannenvoorverwarmers: toegangsdeuren voor inspectie tijdens stops."
+      },
+      {
+        "title": "Verbrandings- en afvalenergiecentrales",
+        "text": "Draaitrommelovens en naverbrandingskamers: kijkdeuren om de verbranding te controleren."
+      },
+      {
+        "title": "Warmtebehandelingsovens",
+        "text": "Batch- en doorloopovens: laaddeuren met kijkglazen."
+      }
+    ],
+    "fabTitle": "Maatwerk",
+    "fab": [
+      "Elke deur wordt gemaakt volgens de tekening en materiaalspecificatie van de klant. We stemmen de vuurvaste bekleding van de deur af op de bestaande bekleding van de installatie, zodat de deur geen zwak punt in de wand wordt.",
+      "Voor bestaande installaties maken we vervangende deuren en deksels op basis van een tekening of een monsterdeur. Deuren leveren we los of als onderdeel van een groter constructiepakket met ankers, mantelonderdelen en steunen."
+    ],
+    "reference": "In 2006 leverde Santura kijkdeuren voor ovens en contragewichtsystemen aan Petron Engineering Construction Ltd, dat hiervoor een waarderingsbrief uitgaf.",
+    "processTitle": "Zo maken we een deur",
+    "process": [
+      {
+        "title": "Goedkeuring tekening",
+        "text": "We sturen de tekening vóór productie ter goedkeuring terug naar de klant, zodat wijzigingen vooraf zijn afgesproken."
+      },
+      {
+        "title": "Materiaalcontrole",
+        "text": "De stuklijst wordt gecontroleerd. 10% van het materiaal wordt getest in NABL-geaccrediteerde laboratoria en rvs-onderdelen worden met PMI gecontroleerd."
+      },
+      {
+        "title": "Knippen en vormen",
+        "text": "Platen worden geknipt en gevormd, daarna afgeschreven en samengebouwd in de werkplaats. Onze inspecteurs controleren het samenstel vóór het lassen."
+      },
+      {
+        "title": "Lassen en inspectie",
+        "text": "CO2-lassen voor volledige doorlassing, gevolgd door inspectie van de lassen op porositeit."
+      },
+      {
+        "title": "Afwerking",
+        "text": "Afwerking en thermisch verzinken, daarna verpakken voor verzending."
+      }
+    ],
+    "supplyTitle": "Wat we leveren",
+    "supply": [
+      {
+        "title": "Complete deursamenstellen",
+        "text": "Frame, deur, beslag en vuurvaste ankers, klaar om te bekleden of al bekleed."
+      },
+      {
+        "title": "Vervangende deuren en deksels",
+        "text": "Gemaakt volgens uw tekening of een monster, passend in bestaande openingen."
+      },
+      {
+        "title": "Kijkglas",
+        "text": "Kobaltblauw glas in verschillende maten."
+      },
+      {
+        "title": "Reservepakkingen en beslag",
+        "text": "Pakkingen, scharnieren, grepen en bevestigingsmiddelen voor deuren in gebruik."
+      }
+    ],
+    "galleryTitle": "Kijkdeuren uit onze werkplaats",
+    "galleryText": "Deuren gemaakt in onze werkplaats, van losse frames tot productieseries voor ketelprojecten.",
+    "gallery": [
+      "Twee kijkdeuren met glazen kijkvensters voor een industriële oven",
+      "Open kijkdeurframe met ingelaste V-ankers voor de vuurvaste bekleding",
+      "Verzinkt kijkdeurframe met ankers, vooraanzicht",
+      "Kijkdeurframe met flens om op de ovenmantel te bouten",
+      "Kijkdeurframe en deuronderdelen vóór montage",
+      "Productieserie verzinkte kijkdeuren in de werkplaats",
+      "Scharnierende kijkdeuren gestapeld voor verzending",
+      "Close-up van verzinkte kijkdeurframes uit een productieserie"
+    ],
+    "relatedTitle": "Gerelateerde producten en diensten",
+    "relatedAnchorsText": "De ankers die de vuurvaste bekleding in elke deur vasthouden, in dezelfde legeringen als uw wandbekleding.",
+    "relatedSwText": "Apparatuur en procedures om ankers op deurframes en mantels te lassen.",
+    "relatedPmiText": "Legeringscontrole van rvs-deuronderdelen voordat ze de werkplaats verlaten.",
+    "relatedPpText": "Oppervlaktebehandeling van rvs-frames en -deuren na fabricage.",
+    "countriesTitle": "Landen die we beleveren",
+    "countriesText": "We exporteren kijkdeuren samen met onze vuurvaste ankers. De landenpagina's beschrijven de sectoren en havens die we in elke markt bedienen.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Wat is het verschil tussen een kijkdeur en een kijkgat?",
+        "a": "Een kijkdeur heeft een grotere opening, meestal vanaf 250 mm, en dient voor visuele inspectie en beperkte toegang voor onderhoud. Een kijkgat is kleiner, meestal 100 × 100 mm, en dient om de vlam te volgen en thermokoppels of sondes in te brengen. Beide zijn vuurvast bekleed."
+      },
+      {
+        "q": "Welk glas wordt in kijkdeuren en kijkglazen gebruikt?",
+        "a": "Hittebestendig getint glas, meestal gehard kobaltblauw glas van ongeveer 3 mm. Het dempt de verblinding door de vlam, zodat vlam en vuurvaste bekleding duidelijk te zien zijn. Groen getint glas is ook leverbaar. Het glas begrenst een kijkglas tot ongeveer 800 °C."
+      },
+      {
+        "q": "Kunt u deuren maken volgens onze tekening of een bestaande deur namaken?",
+        "a": "Ja. Al onze deuren worden gemaakt volgens de tekening en materiaalspecificatie van de klant. Voor vervanging werken we vanaf een bestaande tekening of een monsterdeur, en we stemmen de vuurvaste bekleding af op de bestaande bekleding van de installatie."
+      },
+      {
+        "q": "Voor welke temperaturen zijn de deuren geschikt?",
+        "a": "Met vuurvaste bekleding worden kijkdeuren meestal tot 1200 °C en kijkgaten tot 1000 °C gebruikt. Kijkglazen zijn door het glas begrensd tot ongeveer 800 °C. Het uiteindelijke bereik hangt af van de materialen en bekleding in uw specificatie."
+      }
+    ],
+    "ctaTitle": "Kijkdeuren of kijkgaten nodig?",
+    "ctaText": "Stuur ons uw tekening, de openingsmaat, de bedrijfstemperatuur en het aantal. We reageren met een offerte en levertijd.",
+    "ctaRfq": "Offerte aanvragen voor kijkdeuren",
+    "ctaContact": "Of neem contact op met ons team"
+  },
+  "fbPage": {
+    "metaTitle": "Fabrikant van funderingsbouten | L-, J-, U-ankerbouten | Santura Engineering",
+    "metaDescription": "Funderings- en ankerbouten in L-, J-, U-, plaat- en rechte uitvoering op tekening, in constructiestaal, B7 en rvs. Sinds 1980, export naar 25+ landen.",
+    "eyebrow": "Constructiewerkplaats",
+    "h1": "Funderingsbouten en ankerbouten",
+    "subheading": "Funderingsbouten in L-, J-, U-, plaat- en rechte uitvoering voor ketels, zware machines en staalconstructies. Op lengte gezaagd, gebogen, van draad voorzien en thermisch verzinkt volgens uw tekening, en geleverd als complete sets met moeren, ringen, ankerplaten en hulzen.",
+    "overviewTitle": "Wat funderingsbouten zijn",
+    "overview": [
+      "Funderingsbouten zijn stalen bouten die in een betonfundering worden ingestort om constructies, kolommen, installaties en machines te verankeren. Het ingestorte uiteinde is gebogen, haakvormig of voorzien van een plaat, zodat het niet uit het beton kan worden getrokken; het draadeinde steekt boven de fundering uit voor voetplaat, moer en ring.",
+      "De termen worden vaak voor hetzelfde product gebruikt. Ankerbout duidt meestal op een ingestorte bout, funderingsbout op een bout die een installatie aan de sokkel bevestigt. Veel funderingsbouten hebben bovenaan een buishuls, die ruimte laat om de positie van de bout iets bij te stellen bij het stellen van de installatie.",
+      "Santura maakt funderingsbouten als onderdeel van zijn maatwerk: staf wordt op lengte gezaagd, gebogen, van draad voorzien en thermisch verzinkt volgens de tekening van de klant. We maken funderingsbouten met kop, gebogen en met draad tot 6 inch diameter en groter."
+    ],
+    "typesTitle": "Soorten funderingsbouten",
+    "types": [
+      {
+        "key": "l",
+        "title": "L-type (90° bocht)",
+        "size": "M10 tot M64",
+        "text": "Het meest gebruikte type. Het ingestorte uiteinde is haaks gebogen, zodat de bout zich in het beton vastzet.",
+        "uses": "Staalkolommen, voetplaten, lichtmasten en installatieframes."
+      },
+      {
+        "key": "j",
+        "title": "J-type (haak)",
+        "size": "",
+        "text": "Een gebogen J-haak aan het ingestorte uiteinde grijpt in het beton. Vergelijkbaar met het L-type, met in sommige opstellingen een betere uittrekweerstand.",
+        "uses": "Lichtere staalverbindingen, leidingsteunen en leuningen."
+      },
+      {
+        "key": "u",
+        "title": "U-type",
+        "size": "",
+        "text": "Een U-vormige bout die onder een voetplaat, ligger of buis door loopt, met beide draadeinden naar boven.",
+        "uses": "Klemmen van installaties, leidingsteunen en onderdelen die doorgebout moeten worden."
+      },
+      {
+        "key": "plate",
+        "title": "Plaattype / met kop",
+        "size": "",
+        "text": "Een rechte bout met een vierkante of zeskantige ankerplaat gelast aan het ingestorte uiteinde. Dit type geeft de hoogste uittrekweerstand en wordt vaak met buishuls geleverd.",
+        "uses": "Zware machines, turbines, compressoren en ketelfunderingen."
+      },
+      {
+        "key": "rod",
+        "title": "Recht / draadeind",
+        "size": "",
+        "text": "Een over de hele lengte van draad voorziene staaf met moer en ring aan beide uiteinden. Biedt de meeste stelruimte op de bouwplaats.",
+        "uses": "Gebruik met ankerplaten of in aangegoten sparingen."
+      }
+    ],
+    "materialsTitle": "Materialen",
+    "materials": [
+      {
+        "title": "Constructiestaal (IS 2062 / ASTM A36)",
+        "text": "De meest gebruikte keuze voor algemene staalbouw."
+      },
+      {
+        "title": "ASTM F1554 Grade 36 / 55 / 105",
+        "text": "Ankerstaafstaal in drie sterkteklassen voor berekende staalverbindingen."
+      },
+      {
+        "title": "ASTM A307 Grade A / B / C",
+        "text": "Bouten en tapeinden van koolstofstaal voor algemeen gebruik."
+      },
+      {
+        "title": "ASTM A193 Grade B7",
+        "text": "Gelegeerd staal voor hoge temperatuur en hoge druk, zoals ketels en drukvaten."
+      },
+      {
+        "title": "Roestvast staal (SS304 / SS316)",
+        "text": "Voor corrosieve omgevingen, kustlocaties en chemische fabrieken."
+      }
+    ],
+    "finishesTitle": "Afwerkingen en coatings",
+    "finishes": [
+      {
+        "title": "Thermisch verzinkt (HDG)",
+        "text": "De meest gebruikte afwerking voor buiten en ingestort gebruik, volgens ASTM F2329."
+      },
+      {
+        "title": "Elektrolytisch verzinkt",
+        "text": "Geel, blauw of wit gepassiveerd, voor binnen en milde omgevingen."
+      },
+      {
+        "title": "Gebruineerd (zwart oxide)",
+        "text": "Basisbescherming tegen corrosie."
+      },
+      {
+        "title": "Blank / onbehandeld",
+        "text": "Op verzoek van de klant en voor rvs-bouten."
+      }
+    ],
+    "specTitle": "Specificaties",
+    "colProperty": "Eigenschap",
+    "colRange": "Bereik",
+    "specRows": [
+      {
+        "label": "Diameter",
+        "value": "M10 tot M100 (3/8 inch tot 4 inch); grotere diameters op tekening"
+      },
+      {
+        "label": "Lengte",
+        "value": "150 mm tot 3000 mm en langer (maatlengtes)"
+      },
+      {
+        "label": "Schroefdraad",
+        "value": "ISO-metrisch of Unified inch, volledige of gedeeltelijke draad"
+      },
+      {
+        "label": "Buigradius",
+        "value": "Volgens tekening of norm"
+      },
+      {
+        "label": "Normen",
+        "value": "ASTM F1554, ASTM A307, ASTM A193, IS 2062, IS 1363, IS 1364"
+      },
+      {
+        "label": "Beproeving",
+        "value": "Trekproef, proefbelasting, hardheidsmeting en maatcontrole"
+      },
+      {
+        "label": "Toleranties",
+        "value": "Volgens IS 2062, ASTM F1554 of de tekening van de klant"
+      }
+    ],
+    "specNote": "Elke order wordt gemaakt volgens de tekening van de klant of de opgegeven norm. Geef ons het type, de diameter, lengte, draadlengte, materiaalsoort en afwerking door.",
+    "applicationsTitle": "Toepassingen per sector",
+    "applications": [
+      {
+        "title": "Ketel- en ovenfunderingen",
+        "text": "Verankeren van ketelconstructies, ovenmantels, schoorstenen en kanalen op betonsokkels."
+      },
+      {
+        "title": "Zware installaties",
+        "text": "Compressoren, turbines, pompen, generatoren en persen."
+      },
+      {
+        "title": "Staalconstructies",
+        "text": "Kolomvoetplaten, portaalspanten, kraanbanen en transportbandsteunen."
+      },
+      {
+        "title": "Energiecentrales",
+        "text": "Turbinetafels, koeltorenconstructies en funderingen van pijpenbruggen."
+      },
+      {
+        "title": "Cementfabrieken",
+        "text": "Steunpijlers van de oven, molenfunderingen en voorverwarmertorens."
+      },
+      {
+        "title": "Olie en gas",
+        "text": "Constructies van gestookte verhitters, kolomfunderingen en voeten van pijpenbruggen."
+      },
+      {
+        "title": "Infrastructuur",
+        "text": "Lichtmasten, bewegwijzeringsportalen, brugopleggingen en hoogspanningsmasten."
+      }
+    ],
+    "supplyTitle": "Wat we leveren",
+    "supply": [
+      {
+        "title": "Bouten op tekening of volgens norm",
+        "text": "Funderingsbouten gemaakt volgens uw tekening of een standaardspecificatie."
+      },
+      {
+        "title": "Complete sets",
+        "text": "Bouten met moeren, ringen, ankerplaten en buishulzen, gelabeld en klaar om te plaatsen."
+      },
+      {
+        "title": "Elk type, elke kwaliteit",
+        "text": "L-, J-, U-, plaat- en rechte bouten in constructiestaal, F1554, A307, B7 of rvs."
+      },
+      {
+        "title": "Thermisch verzinken",
+        "text": "Verzinken via goedgekeurde verzinkerijen."
+      },
+      {
+        "title": "Stelmallen",
+        "text": "Mallen die elke boutgroep op zijn plaats houden tijdens het storten van het beton."
+      },
+      {
+        "title": "Losse stuks of pakketten",
+        "text": "Losse bouten of bouten als onderdeel van een compleet staalconstructiepakket."
+      }
+    ],
+    "gallery": [
+      "Verzinkte funderingsbouten met buishulzen, rechtop",
+      "Verzinkte funderingsbouten met vierkante ankerplaten",
+      "Funderingsbouten met buishulzen, gelabeld voor verzending",
+      "Verzinkte funderingsbouten met buishulzen uitgelegd in de werkplaats",
+      "Voorraad verzinkte funderingsbouten met moeren en hulzen",
+      "Close-up van buishulzen en moeren van funderingsbouten"
+    ],
+    "relatedTitle": "Gerelateerde producten",
+    "relatedStanchions": "Staanders en palen voor bordessen en leuningen, vaak op dezelfde funderingen geplaatst.",
+    "relatedPipeGuides": "Leidinggeleiders en ringhulzen voor gestookte verhitters en pijpenbruggen.",
+    "relatedFasteners": "Zeskantbouten, B7-tapeinden, moeren en ringen in roestvast en gelegeerd staal.",
+    "relatedAnchors": "SEPL-ankers voor de vuurvaste bekleding van de ketels en ovens die deze bouten verankeren.",
+    "countriesTitle": "Landen die we beleveren",
+    "countriesText": "We exporteren funderingsbouten samen met onze vuurvaste ankers en constructiedelen. De landenpagina's beschrijven de sectoren en havens die we in elke markt bedienen.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Wat is het verschil tussen L-type en J-type funderingsbouten?",
+        "a": "Beide hebben een gebogen ingestort uiteinde. Een L-bout is 90 graden gebogen, een J-bout heeft een ronde haak. Het L-type is de gangbare keuze voor kolommen en voetplaten; het J-type wordt gebruikt voor lichtere verbindingen zoals leidingsteunen en leuningen, en kan in sommige opstellingen een betere uittrekweerstand geven."
+      },
+      {
+        "q": "Wat is ASTM F1554?",
+        "a": "ASTM F1554 is de Amerikaanse norm voor ankerstaven die in beton worden ingestort. Ze omvat rechte, gebogen en staven met kop in drie kwaliteiten, 36, 55 en 105, genoemd naar hun minimale vloeigrens in ksi. Het uitstekende einde heeft een kleurcode: blauw voor Grade 36, geel voor Grade 55 en rood voor Grade 105."
+      },
+      {
+        "q": "Kunt u funderingsbouten op maatlengte maken?",
+        "a": "Ja. Elke bout wordt volgens de tekening van de klant op lengte gezaagd, gebogen en van draad voorzien, van ongeveer 150 mm tot 3000 mm en langer. Draadlengte, buiglengte en buigradius worden gemaakt zoals opgegeven."
+      },
+      {
+        "q": "Welke afwerkingen zijn er voor funderingsbouten?",
+        "a": "Thermisch verzinken volgens ASTM F2329 is de meest gebruikte afwerking voor bouten buiten en in beton. Elektrolytisch verzinken (geel, blauw of wit) past bij binnen en milde omgevingen, gebruineren geeft basisbescherming, en bouten kunnen blank worden geleverd als dat is gespecificeerd of als ze van rvs zijn."
+      }
+    ],
+    "ctaTitle": "Funderingsbouten nodig?",
+    "ctaText": "Stuur ons uw tekening of boutenlijst met type, diameter, lengte, materiaalsoort, afwerking en aantal. We reageren met een offerte en levertijd.",
+    "ctaRfq": "Offerte aanvragen voor funderingsbouten",
+    "ctaContact": "Of neem contact op met ons team"
+  },
+  "spPage": {
+    "metaTitle": "Fabrikant van steunplaten en voetplaten | Maatwerk | Santura Engineering",
+    "metaDescription": "Vuurvaste steunconsoles, voetplaten, montageplaten, knooppunt- en instortplaten op tekening gemaakt. Sinds 1980, export naar meer dan 25 landen.",
+    "eyebrow": "Constructiewerkplaats",
+    "h1": "Steunplaten en voetplaten",
+    "subheading": "Vuurvaste steunconsoles, kolomvoetplaten, montageplaten voor machines, knooppuntplaten en instortplaten voor ovens, ketels en staalconstructies. Gesneden, geboord, bewerkt en gelast volgens uw tekening.",
+    "heroAlt": "Kolomvoetplaat gebout op een betonfundering",
+    "overviewTitle": "Wat steunplaten zijn",
+    "overview": [
+      "Steunplaten zijn gefabriceerde stalen platen en consoles die belasting opnemen en verdelen. In ovens en ketels worden ze aan de mantel gelast om het gewicht van de vuurvaste bekleding te dragen. In staalconstructies zijn het de voetplaten, montageplaten, knooppuntplaten en instortplaten die kolommen, installaties en staaldelen met hun fundering en met elkaar verbinden.",
+      "Elke plaat wordt gemaakt volgens de tekening van de klant. Santura snijdt, boort, bewerkt en last steunplaten in de eigen werkplaats, samen met de vuurvaste ankers en funderingsbouten die er vaak mee worden geplaatst."
+    ],
+    "uses": [
+      {
+        "title": "Vuurvaste ondersteuning",
+        "text": "In ovens en vaten gelaste consoles die de bekleding en branderstenen dragen."
+      },
+      {
+        "title": "Constructieve voetplaten",
+        "text": "Platen die kolommen en installaties verbinden met betonfunderingen en stalen frames."
+      }
+    ],
+    "typesTitle": "Soorten steunplaten",
+    "types": [
+      {
+        "key": "refractory",
+        "title": "Vuurvaste steunplaten / bekledingsconsoles",
+        "alt": "Vuurvaste steunconsole gelast aan een ovenmantel onder de bekleding",
+        "text": "Consolevormige platen die aan de ovenmantel worden gelast om het gewicht van de vuurvaste bekleding te dragen, vooral in verticale wanden en plafonddelen. Ze zijn gemaakt van aan elkaar gelaste staaldelen en verdelen de belasting van de bekleding gelijkmatig over de mantel.",
+        "points": [
+          "Dragen branderstenen los van de ovenwand",
+          "Op berekende afstanden rond de mantel geplaatst",
+          "Constructiestaal of rvs (SS304, SS310), afhankelijk van de bedrijfstemperatuur",
+          "Ook consoles, steendragers of steunbeugels genoemd"
+        ]
+      },
+      {
+        "key": "base",
+        "title": "Kolomvoetplaten",
+        "alt": "Kolomvoetplaat met ankerbouten op een betonfundering",
+        "text": "Vlakke platen die onder aan stalen kolommen worden gelast en met anker- of funderingsbouten aan de fundering worden gebout. Ze verdelen de kolombelasting gelijkmatig over het beton.",
+        "points": [
+          "Gaten geboord of geponst volgens het boutpatroon",
+          "Draagvlak vlak bewerkt voor volledig contact met de ondergieting",
+          "IS 2062 Grade A tot 20 mm dik",
+          "IS 2062 Grade B (gekalmeerd) boven 20 mm, zoals constructienormen vereisen"
+        ]
+      },
+      {
+        "key": "mounting",
+        "title": "Montageplaten voor machines",
+        "alt": "Montageplaat met geboorde gaten voor een pompsokkel",
+        "text": "Vlakke platen met voorgeboorde gaten voor het bevestigen van pompen, compressoren, motoren en andere machines op beton- of staalsokkels.",
+        "points": [
+          "Geboord exact volgens het voetpatroon van de machine",
+          "Stelvoorzieningen en schuifnokken waar nodig",
+          "Trillingsdempende uitvoering op verzoek"
+        ]
+      },
+      {
+        "key": "gusset",
+        "title": "Knooppuntplaten en verstijvers",
+        "alt": "Driehoekige knooppuntplaat gelast in een ligger-kolomverbinding",
+        "text": "Driehoekige of rechthoekige platen die in ligger-kolomverbindingen worden gelast om de verbinding te verstijven en krachten over te dragen.",
+        "points": [
+          "Staalframes, ketelondersteuningen en pijpenbruggen",
+          "Bordesconsoles en steunen",
+          "Belangrijk in constructies ontworpen op aardbevings- en windbelasting"
+        ]
+      },
+      {
+        "key": "embed",
+        "title": "Instortplaten",
+        "alt": "Instortplaat met gelaste deuvels, ingestort in een betonwand",
+        "text": "Stalen platen met gelaste deuvels of ankers die in beton worden ingestort om na het storten een aansluitpunt te bieden.",
+        "points": [
+          "Staalconstructie, leidingsteunen en installaties op beton bevestigen",
+          "Leuningen bevestigen aan betonwanden en -vloeren",
+          "Deuvels vóór het storten op de plaat gelast"
+        ]
+      }
+    ],
+    "materialsTitle": "Materialen",
+    "materials": [
+      {
+        "title": "Constructiestaal",
+        "text": "IS 2062 Grade A, B of C en ASTM A36. De meest gebruikte keuze voor constructieve platen."
+      },
+      {
+        "title": "Roestvast staal",
+        "text": "SS304, SS310 en SS316, voor corrosieve omgevingen en hete vuurvaste ondersteuning."
+      },
+      {
+        "title": "Ketelplaat",
+        "text": "IS 2002 en SA 516 Gr 70, voor drukvaten en ketels."
+      },
+      {
+        "title": "Hogesterkte constructiestaal",
+        "text": "ASTM A572 Grade 50, voor zware belastingen."
+      }
+    ],
+    "specTitle": "Specificaties",
+    "colProperty": "Eigenschap",
+    "colRange": "Bereik",
+    "specRows": [
+      {
+        "label": "Dikte",
+        "value": "6 mm tot 100 mm en meer"
+      },
+      {
+        "label": "Afmeting",
+        "value": "Op tekening gesneden, uit platen tot 2000 × 6000 mm"
+      },
+      {
+        "label": "Boren",
+        "value": "CNC of handmatig, volgens tekeningtolerantie"
+      },
+      {
+        "label": "Oppervlak",
+        "value": "Vlak bewerkt, gestraald, geschilderd of verzinkt"
+      },
+      {
+        "label": "Lassen",
+        "value": "Volgens AWS D1.1 of IS 816, met NDO waar gespecificeerd"
+      },
+      {
+        "label": "Normen",
+        "value": "IS 2062, ASTM A36, ASTM A572, IS 816 (lassen), AWS D1.1"
+      },
+      {
+        "label": "Toleranties",
+        "value": "Volgens IS 2062, AISC of de specificatie van de klant"
+      },
+      {
+        "label": "Beproeving",
+        "value": "Maatcontrole, ultrasoon onderzoek (UT) van dikke platen, visuele lasinspectie"
+      }
+    ],
+    "specNote": "Elke plaat wordt gemaakt volgens de tekening van de klant. Stuur ons de tekening of schets met materiaalsoort, dikte, afwerking en aantal.",
+    "applicationsTitle": "Toepassingen per sector",
+    "applications": [
+      {
+        "title": "Ovens",
+        "text": "Steunconsoles voor vuurvaste bekleding, steunplaten voor branderstenen en versterkingen van de ovenmantel."
+      },
+      {
+        "title": "Ketels",
+        "text": "Dragende staalconstructie, buckstayconsoles en mantelsteunen."
+      },
+      {
+        "title": "Raffinaderijen",
+        "text": "Draagconstructies van gestookte verhitters, kolomvoetplaten en voetplaten van pijpenbruggen."
+      },
+      {
+        "title": "Energiecentrales",
+        "text": "Platen voor turbinetafels, ketelondersteuning en bordessen."
+      },
+      {
+        "title": "Cementfabrieken",
+        "text": "Staalconstructie van voorverwarmertorens, platen voor ovenpijlers en molenfunderingen."
+      },
+      {
+        "title": "Algemene staalbouw",
+        "text": "Kolomvoeten, kraanbaansteunen, transportbandsteunen en leuningbevestigingen."
+      }
+    ],
+    "supplyTitle": "Wat we leveren",
+    "supply": [
+      {
+        "title": "Alle soorten op tekening",
+        "text": "Van één console tot complete sets, gemaakt volgens de tekening van de klant."
+      },
+      {
+        "title": "Snijden en bewerken",
+        "text": "Autogeen, plasma of CNC snijden naar behoefte, met boren, bewerken en lassen."
+      },
+      {
+        "title": "Oppervlaktebehandeling",
+        "text": "Stralen, gronden en thermisch verzinken."
+      },
+      {
+        "title": "Losse platen of pakketten",
+        "text": "Losse platen of platen als onderdeel van een compleet staalconstructiepakket."
+      },
+      {
+        "title": "Op basis van monster, schets of tekening",
+        "text": "We maken platen op basis van een monster, een schets of een gedetailleerde technische tekening."
+      }
+    ],
+    "relatedTitle": "Gerelateerde producten",
+    "relatedFoundationBolts": "Anker- en funderingsbouten die voetplaten aan het beton bevestigen.",
+    "relatedStanchions": "Staanders en palen voor bordessen en leuningen, gemonteerd op voetplaten.",
+    "relatedPipeGuides": "Leidinggeleiders en ringhulzen voor gestookte verhitters en pijpenbruggen.",
+    "relatedAnchors": "SEPL-ankers die de vuurvaste bekleding tussen de steunconsoles vasthouden.",
+    "servicesTitle": "Gerelateerde diensten",
+    "relatedSwText": "Boutlassen voor instortplaten en voor ankers die op steunplaten worden gelast.",
+    "relatedPmiText": "Legeringscontrole van rvs-platen vóór verzending.",
+    "relatedPpText": "Oppervlaktebehandeling van rvs-platen en -consoles na het lassen.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Wat zijn vuurvaste steunplaten?",
+        "a": "Vuurvaste steunplaten, ook bekledingsconsoles genoemd, zijn stalen consoles die aan de binnenkant van een oven- of ketelmantel worden gelast. Ze dragen het gewicht van de vuurvaste bekleding, vooral in hoge verticale wanden en plafonddelen, en verdelen die belasting gelijkmatig over de mantel. Ze worden ook gebruikt om branderstenen los van de wand te ondersteunen."
+      },
+      {
+        "q": "Van welke materialen worden steunplaten gemaakt?",
+        "a": "Constructieve platen zijn meestal van constructiestaal volgens IS 2062 of ASTM A36, of ASTM A572 Grade 50 voor zware belastingen. Ketel- en drukvatonderdelen worden gemaakt van IS 2002 of SA 516 Gr 70. Vuurvaste steunconsoles die heet worden, zijn van roestvast staal zoals SS304 of SS310, en in corrosieve omgevingen wordt SS316 gebruikt."
+      },
+      {
+        "q": "Kunnen platen bewerkt worden geleverd?",
+        "a": "Ja. Voetplaten kunnen aan het draagvlak vlak worden bewerkt voor volledig contact met de ondergieting, en gaten worden met CNC of handmatig volgens de tekeningtolerantie geboord. Platen leveren we ook gestraald, gegrond of thermisch verzinkt."
+      },
+      {
+        "q": "Wat is de maximale plaatdikte?",
+        "a": "We leveren steunplaten van 6 mm tot 100 mm dik en meer, op tekening gesneden uit platen tot 2000 × 6000 mm. Dikke platen kunnen ultrasoon worden onderzocht als de specificatie dat vereist."
+      }
+    ],
+    "ctaTitle": "Steunplaten of voetplaten nodig?",
+    "ctaText": "Stuur ons uw tekening, schets of monstergegevens met materiaalsoort, dikte, afwerking en aantal. We reageren met een offerte en levertijd.",
+    "ctaRfq": "Offerte aanvragen voor steunplaten",
+    "ctaContact": "Of neem contact op met ons team"
+  },
+  "stPage": {
+    "metaTitle": "Industriële leuningstaanders | Bordesleuningen | Santura Engineering",
+    "metaDescription": "Staanders, leuningen, schopplinten en hekjes voor industriële bordessen en looppaden, op tekening. Sinds 1980, export naar meer dan 25 landen.",
+    "eyebrow": "Constructiewerkplaats",
+    "h1": "Industriële staanders en leuningsystemen",
+    "subheading": "Staanders, leuningen, schopplinten en hekjes voor industriële bordessen, looppaden en trappen. Gezaagd, gelast en thermisch verzinkt volgens uw tekening, geleverd als losse staanders, leuningmodules of complete bordespakketten.",
+    "gallery": [
+      "Partij thermisch verzinkte industriële staanders met verstijfde voetplaten",
+      "Verzinkte staander met gelaste leuningarmen en voetplaat",
+      "Industriële staander met zijarm en verstijfde voetplaat",
+      "Close-up van een gelaste T-verbinding op een staander"
+    ],
+    "overviewTitle": "Wat industriële staanders zijn",
+    "overview": [
+      "Staanders zijn de verticale stalen palen, massief of buisvormig, die een industriële leuning of afscheiding dragen. Bij kogelstaanders lopen de horizontale regels door gesmede stalen kogels op de staander en worden ze met stelschroeven vastgezet.",
+      "Samen met regels, schopplinten, hekjes en afsluitingen vormen staanders de randbeveiliging die verplicht is op industriële bordessen, looppaden, trappen en andere verhoogde plaatsen. Santura maakt staanders, complete leuningsystemen en bordesconstructies volgens de tekening van de klant."
+    ],
+    "weldedTitle": "Gelaste staanders",
+    "weldedText": "Onze foto's tonen gelaste staanders: buisstaanders met gelaste leuningarmen, een verstijfde voetplaat en thermisch verzinken na het lassen. We maken staanders volgens de tekening van de klant, in het hieronder beschreven kogeltype of in dit gelaste type.",
+    "typesTitle": "Staanderuitvoeringen",
+    "types": [
+      {
+        "key": "single",
+        "title": "Staander met één kogel",
+        "alt": "Kogelstaander met één kogel voor de bovenregel",
+        "text": "Eén kogel bovenaan voor één leuning. Voor plaatsen waar alleen een bovenregel nodig is, zoals looppaden met laag risico en geleideleuningen."
+      },
+      {
+        "key": "double",
+        "title": "Staander met twee kogels",
+        "alt": "Kogelstaander met bovenregel en knieregel",
+        "text": "Twee kogels voor de bovenregel en de knieregel (tussenregel). De standaarduitvoering voor de meeste industriële bordessen en looppaden."
+      },
+      {
+        "key": "three",
+        "title": "Staander met drie kogels",
+        "alt": "Kogelstaander met bovenregel, knieregel en onderregel",
+        "text": "Drie kogels voor bovenregel, knieregel en een extra onderregel. Voor hogere veiligheid of een kleinere regelafstand."
+      },
+      {
+        "key": "raked",
+        "title": "Trapstaander (schuin)",
+        "alt": "Schuine staander met regels die de helling van een trap volgen",
+        "text": "Kogels schuin geplaatst zodat de regels de helling van een trap of hellingbaan volgen. Voor industriële trappen en hellende looppaden."
+      }
+    ],
+    "basesTitle": "Voetuitvoeringen",
+    "bases": [
+      {
+        "key": "flat",
+        "title": "Vlakke voetplaat",
+        "alt": "Staander met voetplaat geschroefd op een bordesvloer",
+        "text": "Op de vloer of het bordes geschroefd. De meest gebruikte voet voor bordessen en looppaden op roosters of traanplaat."
+      },
+      {
+        "key": "side",
+        "title": "Zijmontage",
+        "alt": "Staander zijdelings tegen het lijf van een ligger geschroefd",
+        "text": "Tegen een verticaal vlak geschroefd, zoals het lijf van een ligger, een tankmantel of een wand, als vloermontage niet mogelijk is."
+      },
+      {
+        "key": "collar",
+        "title": "Gelaste huls",
+        "alt": "Staander in een op de constructie gelaste huls",
+        "text": "De staander zit in een huls die direct op de constructie is gelast. Voor permanente installaties."
+      },
+      {
+        "key": "cored",
+        "title": "Ingegoten voet",
+        "alt": "Staander ingegoten in een kernboring in een betonvloer",
+        "text": "De staander wordt in een kernboring in het beton gezet en ingegoten. Voor betonnen bordessen en overlopen."
+      },
+      {
+        "key": "angle",
+        "title": "Hoekvoet",
+        "alt": "Staander met hoekbeugelvoet op een frame van hoekstaal",
+        "text": "Een hoekbeugel voor montage op een hoek- of U-profiel. Voor bordessen met een frame van hoekstaal."
+      }
+    ],
+    "specTitle": "Afmetingen en specificaties",
+    "colSpec": "Specificatie",
+    "colRange": "Standaardbereik",
+    "specRows": [
+      {
+        "label": "Staanderdiameter",
+        "value": "33,7 mm (1 inch NB), 42,4 mm (1¼ inch NB), 48,3 mm (1½ inch NB)"
+      },
+      {
+        "label": "Wanddikte",
+        "value": "3,0 mm tot 5,0 mm (buis) of massief"
+      },
+      {
+        "label": "Kogelmaat",
+        "value": "60 mm, 63 mm, 76 mm"
+      },
+      {
+        "label": "Regeldiameter",
+        "value": "33,7 mm of 42,4 mm"
+      },
+      {
+        "label": "Standaardhoogte",
+        "value": "1000 mm tot 1100 mm (bovenkant leuning vanaf de vloer)"
+      },
+      {
+        "label": "Kogelafstand",
+        "value": "Meestal 450 mm tot 550 mm"
+      },
+      {
+        "label": "Hoogte schopplint",
+        "value": "100 mm tot 150 mm"
+      },
+      {
+        "label": "Voetplaat",
+        "value": "100 × 100 mm tot 172 × 150 mm, 6 mm tot 10 mm dik, met gaten van 18 mm"
+      },
+      {
+        "label": "Staanderafstand",
+        "value": "Maximaal 1500 mm tot 1800 mm"
+      }
+    ],
+    "specNote": "Dit zijn standaardbereiken. Hoogtes, regelposities en staanderafstand volgen de tekening van de klant en de veiligheidsnorm die voor het project geldt.",
+    "materialsTitle": "Materialen",
+    "materials": [
+      {
+        "title": "Constructiestaal (IS 2062 / ASTM A36)",
+        "text": "De meest gebruikte keuze, geschilderd of verzinkt."
+      },
+      {
+        "title": "Roestvast staal (SS304 / SS316)",
+        "text": "Voor corrosieve omgevingen, offshore, voedingsmiddelenindustrie en chemische fabrieken."
+      },
+      {
+        "title": "Aluminium",
+        "text": "Licht, voor niet-dragende of gewichtsgevoelige toepassingen."
+      }
+    ],
+    "finishesTitle": "Afwerkingen",
+    "finishes": [
+      {
+        "title": "Thermisch verzinkt",
+        "text": "De standaardafwerking voor buiten en industrie, die staal afhankelijk van de omgeving meestal 20 jaar of langer beschermt."
+      },
+      {
+        "title": "Gepoedercoat",
+        "text": "Voor binnen of waar kleurcodering nodig is; veiligheidsgeel is gebruikelijk."
+      },
+      {
+        "title": "Onbehandeld / gegrond",
+        "text": "Voor constructeurs die op locatie schilderen."
+      },
+      {
+        "title": "Roestvast staal",
+        "text": "Walshuid of gepolijst, zonder coating."
+      }
+    ],
+    "standardsTitle": "Normen en regelgeving",
+    "colStandard": "Norm",
+    "colCovers": "Onderwerp",
+    "standards": [
+      {
+        "code": "OSHA 1910.29",
+        "text": "Amerikaanse regel voor loop- en werkoppervlakken: bovenregel op 42 inch (1067 mm) ± 3 inch, tussenregel waar geen wand is, schopplinten van minstens 3,5 inch (89 mm) aan open zijden, en een bovenregel die 200 lb (890 N) naar buiten of naar beneden weerstaat."
+      },
+      {
+        "code": "EN ISO 14122-3",
+        "text": "Europese norm voor leuningen en trappen als vaste toegangsmiddelen tot machines en installaties."
+      },
+      {
+        "code": "BS 6180",
+        "text": "Britse praktijkcode voor afscheidingen in en rond gebouwen."
+      },
+      {
+        "code": "IS 1161",
+        "text": "Indiase norm voor stalen buizen voor constructieve doeleinden (maten van staanders en regels)."
+      },
+      {
+        "code": "IS 2062",
+        "text": "Indiase norm voor warmgewalst constructiestaal."
+      }
+    ],
+    "standardsNote": "We maken volgens de tekening en de norm in uw specificatie. Laat ons weten welke norm voor uw project geldt.",
+    "componentsTitle": "Onderdelen van het leuningsysteem",
+    "componentsIntro": "Alles wat nodig is voor een compleet leuningsysteem kan samen met de staanders worden geleverd.",
+    "components": [
+      {
+        "title": "Staanders",
+        "text": "Met één, twee of drie kogels, of gelast, met elke voetuitvoering."
+      },
+      {
+        "title": "Regels",
+        "text": "Rechte lengtes, meestal 6,4 m."
+      },
+      {
+        "title": "Afsluitingen en bochten",
+        "text": "Horizontale en schuine afsluitbochten, retourbochten en trapafsluitingen."
+      },
+      {
+        "title": "Hekjes",
+        "text": "Zelfsluitende veiligheidshekjes met veer voor toegangen tot bordessen."
+      },
+      {
+        "title": "Schopplinten",
+        "text": "Platen van 100 mm tot 150 mm hoog op vloerniveau die voorkomen dat voorwerpen over de rand vallen."
+      },
+      {
+        "title": "Schopplinthouders",
+        "text": "Klemmen die de schopplinten aan de staanders bevestigen."
+      },
+      {
+        "title": "Verbinders",
+        "text": "Inwendige spreidverbinders en uitwendige koppelingen voor het verbinden van regels."
+      }
+    ],
+    "applicationsTitle": "Toepassingen per sector",
+    "applications": [
+      {
+        "title": "Raffinaderijen en petrochemie",
+        "text": "Looppaden op pijpenbruggen, vatbordessen, laadbordessen en toegangen in tankparken."
+      },
+      {
+        "title": "Energiecentrales",
+        "text": "Ketelbordessen, toegang tot de turbinevloer, kolenbehandelingsbordessen en schoorsteentoegang."
+      },
+      {
+        "title": "Cementfabrieken",
+        "text": "Bordessen van de voorverwarmertoren, looppaden bij de oven, molenvloer en silodaken."
+      },
+      {
+        "title": "Staalbedrijven",
+        "text": "Afscheidingen op de ovenvloer, looppaden in de walserij en toegangsbordessen voor kranen."
+      },
+      {
+        "title": "Ketelhuizen",
+        "text": "Toegang tot de ketelstoomdrum, economiserbordessen en toegang tot de luchtvoorverwarmer."
+      },
+      {
+        "title": "Algemene industrie",
+        "text": "Machineafscherming, entresols, laadperrons en trapleuningen."
+      }
+    ],
+    "supplyTitle": "Wat we leveren",
+    "supply": [
+      {
+        "title": "Staanders en onderdelen",
+        "text": "Losse staanders en onderdelen die de monteur op locatie samenbouwt."
+      },
+      {
+        "title": "Leuningmodules",
+        "text": "Staanders met regels en schopplinten, geprefabriceerd en klaar om vast te schroeven."
+      },
+      {
+        "title": "Complete bordessen",
+        "text": "Draagframes, roosters, leuningen, ladders en hekjes als één pakket."
+      },
+      {
+        "title": "Op tekening of standaard",
+        "text": "Staanders en regels volgens uw tekening of in standaardmaten."
+      },
+      {
+        "title": "Hekjes compleet",
+        "text": "Veiligheidshekjes met zelfsluitende scharnieren."
+      },
+      {
+        "title": "Alle voetuitvoeringen",
+        "text": "Vlakke voetplaat, zijmontage, gelaste huls, ingegoten voet en hoekvoet."
+      }
+    ],
+    "relatedTitle": "Gerelateerde producten",
+    "relatedSupportPlates": "Voet- en montageplaten voor staanders, bordessen en staalconstructies.",
+    "relatedFoundationBolts": "Ankerbouten om staandervoeten en bordeskolommen op beton te bevestigen.",
+    "relatedPipeGuides": "Leidinggeleiders en hulzen voor de pijpenbruggen waarlangs looppaden vaak lopen.",
+    "servicesTitle": "Gerelateerde diensten",
+    "relatedPmiText": "Legeringscontrole van rvs-staanders en -regels.",
+    "relatedPpText": "Beitsen en passiveren van rvs-leuningen na het lassen.",
+    "relatedQualityText": "Onze inspectie en beproeving van gefabriceerde onderdelen.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Wat is een kogelstaander?",
+        "a": "Een kogelstaander is een leuningpaal met gesmede stalen kogels over de hoogte. De horizontale regels lopen door gaten in de kogels en worden vastgezet met stelschroeven. Zo is de leuning snel te monteren en kunnen de regels onder de juiste hoek op de staander aansluiten bij trappen en hoeken."
+      },
+      {
+        "q": "Welke leuninghoogte eist OSHA?",
+        "a": "OSHA 1910.29 eist dat de bovenkant van de bovenregel 42 inch (1067 mm) boven het loopvlak ligt, met een tolerantie van 3 inch. Waar geen wand of borstwering is, is een tussenregel nodig, schopplinten moeten minstens 3,5 inch (89 mm) hoog zijn en de bovenregel moet een kracht van 200 lb (890 N) weerstaan."
+      },
+      {
+        "q": "Wat is het verschil tussen een staander met één en met twee kogels?",
+        "a": "Een staander met één kogel draagt alleen de bovenregel. Een staander met twee kogels draagt de bovenregel en een knieregel halverwege; dat is de standaard voor de meeste industriële bordessen en looppaden, omdat de knieregel de opening onder de bovenregel afsluit."
+      },
+      {
+        "q": "Kunnen staanders verzinkt worden geleverd?",
+        "a": "Ja. Thermisch verzinken na fabricage is onze standaardafwerking voor staanders van constructiestaal buiten en in industriële installaties. We leveren staanders ook gepoedercoat, gegrond om op locatie te schilderen, of in roestvast staal zonder coating."
+      }
+    ],
+    "ctaTitle": "Staanders of leuningen nodig?",
+    "ctaText": "Stuur ons uw tekening of indeling met staandertype, voettype, hoogte, materiaal, afwerking en aantal. We reageren met een offerte en levertijd.",
+    "ctaRfq": "Offerte aanvragen voor staanders",
+    "ctaContact": "Of neem contact op met ons team"
+  },
+  "pgPage": {
+    "metaTitle": "Leidinggeleiders en ringhulzen voor gestookte verhitters en ketels | Santura Engineering",
+    "metaDescription": "Leidinggeleiders, ringhulzen en pijpondersteuningen voor gestookte verhitters, ketels en ovens, op tekening. Sinds 1980, export naar 25+ landen.",
+    "eyebrow": "Constructiewerkplaats",
+    "h1": "Leidinggeleiders en ringhulzen",
+    "subheading": "Leidinggeleiders, ringhulzen en pijpondersteuningsdelen voor gestookte verhitters, reformers, ketels en procesleidingen. Gemaakt volgens uw tekening in koolstofstaal, roestvast staal en hittebestendige legeringen.",
+    "gallery": [
+      "Partij verzinkte leidinggeleiders met geflensde geleideringen voor gestookte verhitters",
+      "Leidinggeleider met flenskraag en conisch lichaam voor een gestookte verhitter",
+      "Voorraad verzinkte leidinggeleiders in de werkplaats",
+      "Rvs-ringhulzen gestapeld op voorraad",
+      "Gedeelde rvs-ringhuls gemarkeerd SS310",
+      "Rvs-ringhulzen gemarkeerd met kwaliteit en maat",
+      "Gestapelde rvs-ringhulzen met uitzettingssleuven",
+      "In elkaar geschoven rvs-ringhulzen voor verzending",
+      "Bundel in elkaar geschoven rvs-ringhulzen",
+      "Ringhuls met uitzettingssleuf",
+      "Segment van een gedeelde ringhuls"
+    ],
+    "overviewTitle": "Wat leidinggeleiders en ringhulzen zijn",
+    "overview": [
+      "Leidinggeleiders en ringhulzen zijn gefabriceerde stalen delen die leidingen en ovenpijpen ondersteunen, geleiden en beschermen. Een geleider voorkomt dat een leiding zijdelings beweegt, maar laat haar in de lengte groeien en krimpen als de temperatuur verandert.",
+      "Een ringhuls, ook pijphuls of doorvoerhuls genoemd, is een cilinder die wordt geplaatst waar een leiding door een wand, vloer of mantel gaat. Ze beschermt de leiding, dicht de opening af en laat ruimte voor beweging.",
+      "Beide zijn vooral belangrijk in gestookte verhitters, ketels en ovens, waar leidingen heet zijn en steeds opnieuw opwarmen en afkoelen. Santura maakt leidinggeleiders en ringhulzen volgens de tekening van de klant, ook voor verhitters volgens API 560."
+    ],
+    "madeTitle": "Wat onze foto's tonen",
+    "made": [
+      "Leidinggeleiders: geleideringen gesmeed, bewerkt en op een pijp gelast, daarna verzinkt.",
+      "Ringhulzen: rvs-plaat (SS304, SS310, SS316) op tekening geknipt en tot gedeelde of gesleufde ringen gewalst, elk gemarkeerd met kwaliteit en maat.",
+      "Alles in eigen werkplaats gemaakt voor reformers en gestookte verhitters."
+    ],
+    "guidesTitle": "Soorten leidinggeleiders",
+    "guides": [
+      {
+        "key": "spider",
+        "title": "Cilinder- / spingeleiders",
+        "size": "Leidingen van 6 tot 36 inch en groter",
+        "alt": "Cilindrische geleider met inwendige spinarmen rond een leiding",
+        "text": "Een cilindrische kooi gelast op een steun, met inwendige spinarmen die de leiding in de lengte laten glijden maar zijdelingse beweging tegenhouden. Voor lange leidingtracés en bij compensatoren."
+      },
+      {
+        "key": "ubolt",
+        "title": "U-beugelgeleiders",
+        "size": "Kleinere leidingmaten",
+        "alt": "U-beugelgeleider met voetplaat op een steunligger",
+        "text": "Een U-beugel omvat de leiding en de voetplaat wordt op de steun gebout. Een eenvoudige, goedkope geleider die lengtebeweging binnen de speling van de beugel toelaat."
+      },
+      {
+        "key": "structural",
+        "title": "Staalconstructiegeleiders",
+        "size": "Grote en zware leidingen",
+        "alt": "Stalen geleideframe over een grote leiding",
+        "text": "Hoekstaal, U-profiel of plaat gelast tot een frame over de leiding. Voor grote of zware leidingen, geïsoleerd of kaal."
+      },
+      {
+        "key": "slide",
+        "title": "Glijplaatgeleiders",
+        "size": "",
+        "alt": "Leidingschoen op een glijplaat met lage wrijving",
+        "text": "De leidingschoen glijdt over een PTFE- of grafietplaat met lage wrijving. Waar de wrijving laag moet blijven om compensatoren of gevoelige aansluitingen te beschermen."
+      },
+      {
+        "key": "tube",
+        "title": "Pijpondersteuningen (gestookte verhitters)",
+        "size": "API 560",
+        "alt": "Ondersteuningen die pijpenbundels in een gestookte verhitter vasthouden",
+        "text": "Ondersteuningen in de vuurhaard die de pijpenbundels op hun plaats houden. API 560 beperkt de niet-ondersteunde horizontale pijplengte tot 35 keer de buitendiameter of 6 m (20 ft), welke kleiner is. Gemaakt van hittebestendige legeringen zoals Alloy 800H; gegoten 25Cr-20Ni-ondersteuningen (HK40) worden ook gebruikt."
+      }
+    ],
+    "sleevesTitle": "Soorten ringhulzen",
+    "sleeves": [
+      {
+        "key": "floor",
+        "title": "Vloer- en wanddoorvoeren",
+        "size": "2 tot 4 inch groter dan de buitendiameter van de leiding",
+        "alt": "Doorvoerhuls in een betonvloer met een leiding erdoor",
+        "text": "Hulzen in beton- of staalvloeren en -wanden waar leidingen doorheen gaan, afgedicht met pakking of brandwerend materiaal. De overmaat laat ruimte voor isolatie en beweging."
+      },
+      {
+        "key": "shell",
+        "title": "Ovenmanteldoorvoeren",
+        "size": "",
+        "alt": "In een ovenmantel gelaste doorvoerhuls rond een pijp",
+        "text": "Hulzen gelast in oven- of ketelmantels waar pijpen of leidingen de behuizing binnengaan. Een afdichtplaat en pakking voorkomen rookgaslekkage terwijl de pijp uitzet."
+      },
+      {
+        "key": "anchor",
+        "title": "Ringhulzen met vuurvaste verankering",
+        "size": "",
+        "alt": "Ringhuls ingebed in vuurvaste bekleding bij een leidingopening",
+        "text": "Ringhulzen ingebed in de vuurvaste bekleding die de bekleding bij doorvoeren verankeren en een afgewerkte opening bieden voor een leiding of instrument."
+      }
+    ],
+    "materialsTitle": "Materialen",
+    "materials": [
+      {
+        "title": "Koolstofstaal (IS 2062 / ASTM A36)",
+        "text": "Standaard voor uitwendige leidinggeleiders en constructieve steunen."
+      },
+      {
+        "title": "Roestvast staal (SS304, SS310, SS316)",
+        "text": "Voor corrosieve of hete omstandigheden, of als de proceslicentiegever het voorschrijft. Onze ringhulzen worden in deze kwaliteiten gemaakt."
+      },
+      {
+        "title": "Hittebestendige legeringen (Alloy 800H, HK40, 25Cr-20Ni)",
+        "text": "Voor pijpondersteuningen in de vuurhaard van verhitters volgens API 560."
+      },
+      {
+        "title": "Verzinkt staal",
+        "text": "Voor geleiders op pijpenbruggen in de buitenlucht."
+      }
+    ],
+    "specTitle": "Specificaties",
+    "colProperty": "Eigenschap",
+    "colRange": "Bereik",
+    "specRows": [
+      {
+        "label": "Leidingmaten",
+        "value": "1/2 inch NB tot 48 inch NB en groter (maatwerk)"
+      },
+      {
+        "label": "Geleiderspeling",
+        "value": "Meestal 3 mm tot 6 mm radiaal voor thermische beweging"
+      },
+      {
+        "label": "Hulsdikte",
+        "value": "6 mm tot 12 mm wand, afhankelijk van maat en toepassing"
+      },
+      {
+        "label": "Bedrijfstemperatuur",
+        "value": "Tot 400 °C voor uitwendige geleiders; tot 1100 °C voor inwendige pijpondersteuningen in hittebestendige legeringen"
+      },
+      {
+        "label": "Normen",
+        "value": "API 560 (gestookte verhitters), ASME B31.3 (procesleidingen), IS 2062, ASTM A36"
+      },
+      {
+        "label": "Belastbaarheid",
+        "value": "Volgens berekening, op basis van leidinggewicht, isolatie en inhoud"
+      },
+      {
+        "label": "Afwerking",
+        "value": "Gegrond, thermisch verzinkt of kaal voor hogetemperatuurlegeringen"
+      }
+    ],
+    "specNote": "Elk onderdeel wordt gemaakt volgens de tekening van de klant. Stuur ons de tekening met leidingmaat, materiaal, ontwerptemperatuur en aantal.",
+    "applicationsTitle": "Toepassingen per sector",
+    "applications": [
+      {
+        "title": "Gestookte verhitters in raffinaderijen",
+        "text": "Pijpondersteuningen in stralings- en convectiesectie, pijpgeleiders, bochtsteunen en manteldoorvoeren volgens API 560."
+      },
+      {
+        "title": "Ketels",
+        "text": "Pijpondersteuningen voor oververhitter, heroververhitter en economiser, en leidingdoorvoeren door de ketelmantel."
+      },
+      {
+        "title": "Petrochemie",
+        "text": "Geleiders op pijpenbruggen voor procesleidingen, bij uitzetlussen en bij apparaataansluitingen."
+      },
+      {
+        "title": "Energiecentrales",
+        "text": "Geleiders voor hoofdstoom-, voedingswater- en turbineleidingen."
+      },
+      {
+        "title": "Cementfabrieken",
+        "text": "Ovenmanteldoorvoeren voor branderlansen en instrumenten, en kanaalsteunen."
+      },
+      {
+        "title": "Algemene leidingbouw",
+        "text": "Uitzetgeleiders bij compensatoren en lussen, en vloer- en wanddoorvoeren in pijpenbruggen."
+      }
+    ],
+    "supplyTitle": "Wat we leveren",
+    "supply": [
+      {
+        "title": "Leidinggeleiders",
+        "text": "Volgens engineeringtekeningen of standaard catalogusontwerpen."
+      },
+      {
+        "title": "Ringhulzen",
+        "text": "Voor mantel-, vloer- en wanddoorvoeren."
+      },
+      {
+        "title": "Pijpondersteuningen voor verhitters",
+        "text": "Ondersteuningsdelen voor verhitters volgens API 560."
+      },
+      {
+        "title": "Complete geleidersamenstellen",
+        "text": "Geleiderframe, glijplaten en bevestigingsmateriaal samen."
+      },
+      {
+        "title": "Materiaalkeuze",
+        "text": "Van koolstofstaal tot rvs en hittebestendige legeringen."
+      },
+      {
+        "title": "Losse delen of pakketten",
+        "text": "Losse onderdelen of als deel van een leidingondersteunings- of verhitterpakket."
+      }
+    ],
+    "relatedTitle": "Gerelateerde producten",
+    "relatedSupportPlates": "Voetplaten en consoles voor leidingsteunen en geleiderconstructies.",
+    "relatedFoundationBolts": "Ankerbouten voor funderingen van pijpenbruggen en geleidersteunen.",
+    "relatedStanchions": "Leuningen en staanders voor looppaden op pijpenbruggen en verhitterbordessen.",
+    "relatedAnchors": "SEPL-ankers voor de vuurvaste bekleding waar ringhulzen doorheen gaan.",
+    "servicesTitle": "Gerelateerde diensten",
+    "relatedPmiText": "Legeringscontrole van SS310-hulzen en hittebestendige pijpondersteuningen.",
+    "relatedPpText": "Beitsen en passiveren van rvs-hulzen na fabricage.",
+    "relatedSwText": "Boutlassen van ankers rond manteldoorvoeren.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Waarvoor wordt een leidinggeleider gebruikt?",
+        "a": "Een geleider houdt een leiding op haar tracé. Hij voorkomt zijdelingse beweging maar laat de leiding in de lengte glijden als ze heet uitzet en bij afkoelen krimpt. Geleiders worden langs lange tracés en bij compensatoren en uitzetlussen geplaatst, zodat de thermische beweging gaat waar de ontwerper die heeft voorzien."
+      },
+      {
+        "q": "Wat is API 560?",
+        "a": "API 560 is de norm van het American Petroleum Institute voor gestookte verhitters in raffinaderijen en petrochemische fabrieken. De norm behandelt ontwerp, materialen, fabricage en beproeving, inclusief de pijpondersteuningen en geleiders in de vuurhaard. Zo beperkt ze de niet-ondersteunde horizontale pijplengte tot 35 pijpdiameters of 6 m, welke kleiner is."
+      },
+      {
+        "q": "Wat is het verschil tussen een leidinggeleider en een leidingsteun?",
+        "a": "Een leidingsteun draagt het gewicht van de leiding. Een geleider bepaalt in welke richting de leiding kan bewegen: hij voorkomt zijdelingse beweging en laat uitzetting in de lengte toe. Veel geleiders dragen ook gewicht; een geleider is dus een steun die de leiding bovendien in één of meer richtingen vasthoudt."
+      },
+      {
+        "q": "Wat is een ringhuls?",
+        "a": "Een ringhuls, ook pijphuls of doorvoerhuls genoemd, is een stalen cilinder die wordt geplaatst waar een leiding of pijp door een wand, vloer, vuurvaste bekleding of mantel gaat. Ze beschermt de leiding, dicht de opening af met pakking of een afdichtplaat en laat ruimte voor uitzetting. Onze ringhulzen worden meestal gewalst uit SS304-, SS310- of SS316-plaat."
+      }
+    ],
+    "ctaTitle": "Leidinggeleiders of ringhulzen nodig?",
+    "ctaText": "Stuur ons uw tekening met leidingmaat, materiaalsoort, ontwerptemperatuur en aantal. We reageren met een offerte en levertijd.",
+    "ctaRfq": "Offerte aanvragen voor geleiders en hulzen",
+    "ctaContact": "Of neem contact op met ons team"
+  },
+  "cwPage": {
+    "metaTitle": "Contragewichtsystemen voor reformerovens | Linde-goedgekeurd | Santura Engineering",
+    "metaDescription": "Contragewichtsystemen voor waterstofreformers en kraakovens. Door Linde goedgekeurde leverancier. Sinds 1980, export naar meer dan 25 landen.",
+    "eyebrow": "Reformer- en kraakovens",
+    "h1": "Contragewichtsystemen voor reformer- en kraakovens",
+    "subheading": "Contragewichtsystemen met hefboomarm die het gewicht van de stralingspijpen in waterstofreformers en ethyleenkraakovens dragen. Sinds eind jaren negentig door Santura gemaakt volgens de engineeringtekeningen van de klant.",
+    "lindeBadge": "Goedgekeurd leverancier van Linde Engineering India, {period}",
+    "photoAlt": "Verzinkte contragewicht-hefboomarm met gewichtenstapels",
+    "photoCaption": "Verzinkte hefboomarm met gewichtenstapels in onze werkplaats.",
+    "whatTitle": "Wat een contragewichtsysteem doet",
+    "what": [
+      "In waterstofreformers en ethyleenkraakovens hangen verticale pijpen bij zeer hoge temperaturen in de vuurhaard. Reformerpijpen zijn gevuld met katalysator, en elke pijp kan met katalysator meer dan een ton wegen. Bij het opwarmen worden de pijpen merkbaar langer.",
+      "Een contragewichtsysteem draagt dit gewicht, zodat de pijp vrij kan hangen en spanningsvrij kan uitzetten en krimpen. Het werkt volgens het hefboomprincipe: een gewicht aan het ene eind van een scharnierende hefboomarm houdt de pijp aan het andere eind in evenwicht.",
+      "De scharnierpunten moeten vrijwel wrijvingsloos bewegen. Zelfs kleine wrijvingskrachten zouden ongewenste belasting op de pijpen overbrengen en hun levensduur verkorten."
+    ],
+    "howTitle": "Zo werkt het",
+    "how": [
+      "Hangstangen lopen van de bovenkant van elke pijp door het ovendak naar een juk.",
+      "Het juk is verbonden met het ene eind van een horizontale hefboomarm, die scharniert op een steunbok op de dakconstructie.",
+      "Aan het andere eind van de arm hangt een berekend contragewicht.",
+      "Het gewicht houdt de met katalysator gevulde pijp, de onderste pigtail, zijn deel van de zwevende verzamelleiding, de helft van de bovenste pigtail en de ophanging zelf in evenwicht.",
+      "Als de pijp opwarmt en naar beneden groeit, kantelt de arm iets en komt het gewicht omhoog, zodat de draagkracht op de pijp gelijk blijft."
+    ],
+    "diagramAlt": "Schema van een contragewichtsysteem: pijp, hangstang, juk, hefboomarm, steunbok en contragewicht",
+    "diagram": [
+      "Reformerpijp (groeit naar beneden bij warmte)",
+      "Hangstang",
+      "Juk",
+      "Hefboomarm",
+      "Steunbok met bus-scharnier",
+      "Contragewicht",
+      "Ovendak"
+    ],
+    "buildTitle": "Zo bouwt Santura ze",
+    "buildIntro": "Elk systeem wordt gemaakt volgens de engineeringtekeningen van de klant. Zo bouwen we ze:",
+    "build": [
+      {
+        "title": "Contragewichten",
+        "text": "Blokken van koolstofstaal en gietijzer, berekend op de evenwichtsbelasting."
+      },
+      {
+        "title": "H- en I-frames",
+        "text": "Kokerprofielframes met geïmporteerde olievrije Graphalloy-bussen in huizen van koolstofstaal bij elk scharnier."
+      },
+      {
+        "title": "Scharnierpennen",
+        "text": "Speciale kwaliteit roestvast staal 410S, een martensitisch rvs met goede corrosie- en hittebestendigheid."
+      },
+      {
+        "title": "Vorkkoppen",
+        "text": "Roestvast staal, bewerkt in onze werkplaats in Mumbai."
+      },
+      {
+        "title": "Bouten klasse 8.8",
+        "text": "Warmtebehandeld door een onderaannemer onder ons nauwe toezicht, met controle van hardheid en ontlaten."
+      },
+      {
+        "title": "Geïmporteerde onderdelen",
+        "text": "Bepaalde delen worden geïmporteerd om aan de kwaliteits- en specificatie-eisen te voldoen."
+      },
+      {
+        "title": "Thermisch verzinken",
+        "text": "Het complete systeem wordt na het lassen thermisch verzinkt tegen corrosie."
+      }
+    ],
+    "lindeEyebrow": "Goedgekeurd leverancier",
+    "lindeTitle": "Linde Engineering India",
+    "lindeText": "Santura was van {period} goedgekeurd leverancier van contragewichtsystemen voor Linde Engineering India Pvt Ltd, onder leveranciersnummer {code}. Het is de enige goedkeuring op naam van een klant voor een specifiek product in onze dossiers.",
+    "lindeCodeLabel": "Leveranciersnummer",
+    "lindePeriodLabel": "Goedkeuringsperiode",
+    "lindeNote": "Historische goedkeuring, getoond met toestemming van de klant.",
+    "lindeCert": "Bekijk het Linde-certificaat (PDF)",
+    "petron": "In 2006 leverden we ook contragewichtsystemen en kijkdeuren voor ovens aan Petron Engineering Construction Ltd, dat hiervoor een waarderingsbrief uitgaf.",
+    "componentsTitle": "Systeemonderdelen",
+    "components": [
+      {
+        "title": "Hefboomarm",
+        "text": "Frame van H- of I-balk met scharnierbussen; de balans van het systeem."
+      },
+      {
+        "title": "Gewichtenstapel",
+        "text": "Berekende massa van koolstofstaal- of gietijzerblokken, aan de arm gebout of gepend."
+      },
+      {
+        "title": "Hangstangen",
+        "text": "Verbinden de pijp door het ovendak met de arm en vangen de thermische uitzetting op."
+      },
+      {
+        "title": "Juk",
+        "text": "Verbindt de hangstangen met het eind van de hefboomarm."
+      },
+      {
+        "title": "Vork- en penverbindingen",
+        "text": "Rvs-vorkkoppen met SS-410S-pennen bij elke verbinding, zodat elk scharnier vrij draait."
+      },
+      {
+        "title": "Graphalloy-bussen",
+        "text": "Geïmporteerde olievrije, zelfsmerende lagers in huizen van koolstofstaal bij alle scharnieren."
+      },
+      {
+        "title": "Steunbok",
+        "text": "Constructie op het ovendak die het scharnier van de arm draagt."
+      },
+      {
+        "title": "Bevestigingsmiddelen 8.8",
+        "text": "Warmtebehandelde hogesterktebouten voor alle constructieve verbindingen."
+      }
+    ],
+    "applicationsTitle": "Toepassingen",
+    "applications": [
+      {
+        "title": "Waterstofreformers",
+        "text": "Stoom-methaanreformers, de belangrijkste toepassing. Met katalysator gevulde pijpen hangen verticaal in de vuurhaard. Gebruikt in waterstof-, ammoniak- en methanolfabrieken."
+      },
+      {
+        "title": "Ethyleenkraakovens",
+        "text": "Stoomkrakers, waar goede ondersteuning van de stralingsspiralen bepalend is voor hun levensduur."
+      },
+      {
+        "title": "Andere reformers",
+        "text": "Autotherme en secundaire reformers."
+      },
+      {
+        "title": "Sectoren",
+        "text": "Raffinaderijen, petrochemie, ammoniak- en kunstmestfabrieken, methanolfabrieken en waterstofproductie."
+      }
+    ],
+    "whyTitle": "Waarom bouwkwaliteit telt",
+    "why": [
+      {
+        "title": "Levensduur van pijpen",
+        "text": "Reformerpijpen zijn duur, en vervanging betekent een ongeplande stop. Een systeem dat niet precies in evenwicht is, belast de pijpen ongelijk en leidt tot vroegtijdig kruipfalen."
+      },
+      {
+        "title": "Wrijving",
+        "text": "Wrijving in de scharnieren brengt extra belasting op de pijpen over. Olievrije Graphalloy-bussen worden voorgeschreven omdat gesmeerde lagers bij deze temperaturen niet betrouwbaar werken."
+      },
+      {
+        "title": "Bevestigingsmiddelen",
+        "text": "Bouten met een verkeerde warmtebehandeling kunnen bezwijken onder langdurige belasting bij hoge temperatuur; daarom bewaken we hardheid en ontlaten."
+      },
+      {
+        "title": "Duizenden cycli",
+        "text": "Het systeem moet in evenwicht blijven gedurende duizenden opwarm- en afkoelcycli over vele jaren bedrijf."
+      }
+    ],
+    "specTitle": "Specificaties",
+    "colComponent": "Onderdeel",
+    "colSpec": "Specificatie",
+    "specRows": [
+      {
+        "label": "Materiaal contragewicht",
+        "value": "Koolstofstaal / gietijzer"
+      },
+      {
+        "label": "Frameconstructie",
+        "value": "H- en I-profiel, hol, met ingebouwde Graphalloy-bussen"
+      },
+      {
+        "label": "Scharnierpennen",
+        "value": "SS 410S (martensitisch roestvast staal)"
+      },
+      {
+        "label": "Vorkkoppen",
+        "value": "Roestvast staal, bewerkt"
+      },
+      {
+        "label": "Bussen",
+        "value": "Geïmporteerde olievrije, zelfsmerende Graphalloy-lagers"
+      },
+      {
+        "label": "Bevestigingsmiddelen",
+        "value": "Klasse 8.8, warmtebehandeld, hardheid en ontlaten gecontroleerd"
+      },
+      {
+        "label": "Oppervlaktebehandeling",
+        "value": "Thermisch verzinkt na het lassen"
+      },
+      {
+        "label": "Fabricage",
+        "value": "Volgens de engineeringtekeningen van de klant"
+      },
+      {
+        "label": "Ontwerpbasis",
+        "value": "Specificaties van klant en licentiegever voor verhitters volgens API 560"
+      }
+    ],
+    "relatedTitle": "Gerelateerde producten en diensten",
+    "relatedPipeGuides": "Leidinggeleiders, ringhulzen en pijpondersteuningen voor gestookte verhitters.",
+    "relatedSupportPlates": "Steunconsoles en voetplaten voor de staalconstructie van ovens.",
+    "relatedAnchors": "SEPL-ankers voor de bekleding van reformer- en kraakovens.",
+    "relatedSwText": "Boutlassen van ankers op ovenmantels.",
+    "relatedPmiText": "Legeringscontrole van rvs-pennen en vorkkoppen.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Wat is een contragewichtsysteem in een reformer?",
+        "a": "Het is een hefboomsysteem op het ovendak dat het gewicht van elke reformerpijp draagt. Een hangstang verbindt de pijp met het ene eind van een scharnierende arm, en een berekend gewicht aan het andere eind houdt die in evenwicht. Als de pijp opwarmt en langer wordt, kantelt de hefboom en blijft de draagkracht gelijk, zodat de pijp spanningsvrij kan uitzetten."
+      },
+      {
+        "q": "Waarom worden Graphalloy-bussen gebruikt?",
+        "a": "Graphalloy is een lagermateriaal van grafiet en metaal dat zonder olie of vet werkt en ook bij hoge temperaturen blijft functioneren. Elk scharnier van een contragewichtsysteem moet vrijwel wrijvingsloos bewegen, omdat wrijving extra belasting op de pijpen zou overbrengen. Gesmeerde lagers drogen uit of lopen vast in deze toepassing, daarom worden olievrije Graphalloy-bussen gebruikt."
+      },
+      {
+        "q": "Van welk materiaal zijn de scharnierpennen?",
+        "a": "Onze scharnierpennen zijn van speciale kwaliteit roestvast staal 410S, een martensitisch rvs met goede corrosie- en hittebestendigheid. Ze draaien in rvs-vorkkoppen die in onze werkplaats in Mumbai worden bewerkt."
+      },
+      {
+        "q": "Wat is de Linde-goedkeuring?",
+        "a": "Linde Engineering India Pvt Ltd keurde Santura van {period} goed als leverancier van contragewichtsystemen, onder leveranciersnummer {code}. De goedkeuring gold specifiek voor dit product. Het is een historische goedkeuring, en het certificaat wordt op deze pagina getoond met toestemming van de klant."
+      }
+    ],
+    "ctaTitle": "Contragewichtsystemen nodig?",
+    "ctaText": "Stuur ons uw engineeringtekeningen met het aantal pijpen, de evenwichtsbelastingen en de leverplanning. We reageren met een offerte en levertijd.",
+    "ctaRfq": "Offerte aanvragen voor contragewichtsystemen",
+    "ctaContact": "Of neem contact op met ons team"
+  },
+  "mwPage": {
+    "metaTitle": "Leverancier van minerale wol isolatie | Steenwol en glaswol",
+    "metaDescription": "Minerale wol isolatie: platen, rollen en buisschalen van steenwol en glaswol. Leverancier sinds 1980, export naar meer dan 25 landen. Vraag een offerte.",
+    "eyebrow": "Isolatiematerialen",
+    "h1": "Minerale wol isolatie",
+    "subheading": "Steenwol en glaswol als rollen, platen, dekens, draadgaasmatten, buisschalen en losse wol, voor raffinaderijen, energiecentrales, schepen en gebouwen. Geleverd volgens projectspecificatie, samen met de isolatiepennen om ze te bevestigen.",
+    "gallery": [
+      "Minerale wol isolatieplaten en -rollen",
+      "Voorgevormde buisschalen van minerale wol",
+      "Steenwolrol met aluminium cachering",
+      "Close-up van minerale wolvezels"
+    ],
+    "overviewTitle": "Wat minerale wol is",
+    "overview": "Minerale wol is de algemene naam voor vezelvormige isolatie die ontstaat door natuurlijke of gerecyclede mineralen te smelten en tot fijne vezels te spinnen. De vezels worden met een harsbindmiddel gebonden zodat het product zijn vorm houdt. Santura levert de twee hoofdsoorten: steenwol voor industriële hogetemperatuurisolatie en glaswol voor gebouwen, HVAC en akoestiek.",
+    "types": [
+      {
+        "title": "Steenwol",
+        "tag": "Tot 750 °C · 30–200 kg/m³",
+        "text": "Gemaakt van geselecteerd gesteente zoals basalt, bij ongeveer 1500 °C gesmolten in een koepeloven en met hoge snelheid tot vezels gesponnen. Leverbaar als rollen, platen, dekens, draadgaasmatten, buisschalen en losse wol. De standaardkeuze voor hete leidingen, vaten, ketels en kanalen."
+      },
+      {
+        "title": "Glaswol",
+        "tag": "Tot ongeveer 450 °C · lichter",
+        "text": "Gemaakt van tot 70% gerecycled glas met zand, bij ongeveer 1550 °C gesmolten en tot fijne vezels gesponnen. Licht, makkelijk te plaatsen en goed geluidsabsorberend. Veel gebruikt voor daken, wanden, HVAC-kanalen en akoestische isolatie."
+      }
+    ],
+    "traits": [
+      "Onbrandbaar",
+      "Asbestvrij",
+      "Niet gevaarlijk",
+      "Rotbestendig",
+      "Bestand tegen insecten en ongedierte",
+      "Krimpt niet in gebruik"
+    ],
+    "rwTitle": "Steenwolproducten",
+    "rwIntro": "Steenwol wordt in zes vormen geleverd. Dikte en dichtheid worden gekozen op basis van bedrijfstemperatuur, oppervlak en mechanische belasting.",
+    "colForm": "Vorm",
+    "colThickness": "Dikte",
+    "colDensity": "Dichtheid",
+    "colUse": "Typisch gebruik",
+    "rwForms": [
+      {
+        "form": "Rollen voor gebouwen",
+        "thickness": "40–100 mm",
+        "density": "36, 48, 64 kg/m³ en meer",
+        "text": "Thermische en akoestische isolatie van stalen gebouwen: boven en onder dakgordingen, wanden, scheidingswanden en verlaagde plafonds."
+      },
+      {
+        "form": "Platen",
+        "thickness": "25–200 mm",
+        "density": "30–200 kg/m³",
+        "text": "Stijve of halfstijve platen voor kanalen, vaten, apparatuur en vlakke of licht gebogen oppervlakken; ook bouw, scheepsbouw en brandwering."
+      },
+      {
+        "form": "Dekens (batts)",
+        "thickness": "25–118 mm",
+        "density": "100–150 kg/m³",
+        "text": "Ongecacheerde, extra stijve dekens voor thermische isolatie en brandveiligheid, en als kern van sandwichpanelen."
+      },
+      {
+        "form": "Draadgaasmatten",
+        "thickness": "25–100 mm",
+        "density": "70–150 kg/m³",
+        "text": "Bekleed met verzinkt of rvs zeskantgaas en op maat gestikt. Voor ketels, opslagtanks en leidingen tot 750 °C, en scheepsbouw."
+      },
+      {
+        "form": "Buisschalen",
+        "thickness": "25–100 mm",
+        "density": "100, 128, 136, 144 kg/m³",
+        "text": "Voorgevormde schalen voor leidingen tot 750 °C, met of zonder aluminiumfolie. Gebruikt in energiecentrales en raffinaderijen."
+      },
+      {
+        "form": "Losse wol",
+        "thickness": "—",
+        "density": "Diverse",
+        "text": "Licht gebonden steenwol voor opvulling rond pijpenbundels en onregelmatige ruimtes."
+      }
+    ],
+    "pipeNote": "Buisschalen worden op een doorn gewikkeld en concentrisch gevormd, passend op standaard leidingdiameters. Ze isoleren gelijkmatig over de volle 360° van de leiding, zijn drukvast in gebruik en snel te monteren.",
+    "gwTitle": "Glaswolproducten",
+    "gwIntro": "Glaswol is lichter dan steenwol en wordt vooral gebruikt bij lagere temperaturen en waar geluidsabsorptie belangrijk is.",
+    "gwForms": [
+      {
+        "title": "Rollen en dekens",
+        "text": "Spouwmuren, zolder- en dakisolatie en omwikkeling van HVAC-kanalen."
+      },
+      {
+        "title": "Stijve en halfstijve platen",
+        "text": "Vliesgevels, vulling van scheidingswanden en plafondplaten."
+      },
+      {
+        "title": "Buisschalen",
+        "text": "Isolatie van leidingen met lagere temperatuur."
+      },
+      {
+        "title": "Inblaaswol",
+        "text": "Ingeblazen isolatie voor spouwen en zolders."
+      }
+    ],
+    "compareTitle": "Steenwol en glaswol vergeleken",
+    "colProperty": "Eigenschap",
+    "colRockwool": "Steenwol",
+    "colGlassWool": "Glaswol",
+    "compareRows": [
+      {
+        "label": "Grondstof",
+        "rw": "Basalt / diabaas",
+        "gw": "Tot 70% gerecycled glas met zand"
+      },
+      {
+        "label": "Smelttemperatuur",
+        "rw": "Ongeveer 1500 °C",
+        "gw": "Ongeveer 1550 °C"
+      },
+      {
+        "label": "Max. gebruikstemperatuur",
+        "rw": "750 °C",
+        "gw": "Ongeveer 450 °C (afhankelijk van product)"
+      },
+      {
+        "label": "Dichtheid",
+        "rw": "30–200 kg/m³",
+        "gw": "10–80 kg/m³"
+      },
+      {
+        "label": "Dikte",
+        "rw": "25–200 mm",
+        "gw": "25–150 mm"
+      },
+      {
+        "label": "Warmtegeleiding (λ)",
+        "rw": "0,034–0,045 W/m·K",
+        "gw": "0,030–0,040 W/m·K"
+      },
+      {
+        "label": "Brandklasse",
+        "rw": "Onbrandbaar (Euroklasse A1)",
+        "gw": "Onbrandbaar (Euroklasse A1 of A2)"
+      },
+      {
+        "label": "Akoestische prestatie",
+        "rw": "Uitstekend (NRC 0,90–1,05)",
+        "gw": "Uitstekend (NRC 0,85–1,00)"
+      },
+      {
+        "label": "Vocht",
+        "rw": "Waterafstotende behandeling leverbaar",
+        "gw": "Waterafstotende behandeling leverbaar"
+      },
+      {
+        "label": "Corrosiegedrag",
+        "rw": "Vrij van halogeniden en sulfiden; veilig onder rvs-beplating",
+        "gw": "Laag chloridegehalte"
+      }
+    ],
+    "compareNote": "Typische waarden. De exacte cijfers hangen af van product, dichtheid en fabrikant; het productblad en de testcertificaten van de fabrikant worden bij elke levering meegeleverd.",
+    "traitsTitle": "Eigenschappen",
+    "characteristics": [
+      "Asbestvrij en niet schadelijk voor de gezondheid",
+      "Rotbestendig, geurloos en bestand tegen schimmel, insecten en ongedierte",
+      "Krimpt en zakt niet in de loop van de tijd",
+      "Neemt geen vocht op uit de lucht; water dat onder druk binnendringt droogt snel op door de open vezelstructuur",
+      "Chemisch inert en bevordert geen schimmelgroei",
+      "Geproduceerd zonder CFK's of HCFK's"
+    ],
+    "corrosionTitle": "Corrosiebescherming",
+    "corrosionText": "Steenwolvezels zijn vrij van halogeniden (chloriden en fluoriden) en sulfiden, onzuiverheden die in sommige andere isolatiematerialen voorkomen. Steenwol wordt via een droog proces gemaakt en is licht alkalisch, wat corrosie tegengaat. Daardoor is het veilig op roestvast staal, waar chloriden spanningscorrosie onder de isolatie kunnen veroorzaken. Voldoet aan ASTM C795 indien voorgeschreven.",
+    "standardsTitle": "Normen en beproeving",
+    "standards": [
+      "Stationaire warmteoverdracht van leidingisolatie",
+      "Warmtegeleiding met de afgeschermde hete plaat",
+      "Warmtegeleiding met de warmtestroommeter",
+      "Leidingisolatie van minerale vezels",
+      "Dekens van minerale vezels voor industrieel gebruik",
+      "Blokken en platen van minerale vezels",
+      "Dekens van minerale vezels voor gebouwen",
+      "Isolatie voor gebruik op austenitisch roestvast staal",
+      "In de fabriek vervaardigde minerale wolproducten voor gebouwen",
+      "Voorgevormde buisschalen van minerale vezels en thermische isolatiematerialen"
+    ],
+    "applicationsTitle": "Toepassingen per sector",
+    "applications": [
+      {
+        "title": "Olie, gas en petrochemie",
+        "items": [
+          "Warme en koude isolatie van procesleidingen",
+          "Vaten, kolommen, tanks en warmtewisselaars",
+          "Uitwendige isolatie van gestookte verhitters en ovens"
+        ]
+      },
+      {
+        "title": "Energieopwekking",
+        "items": [
+          "Ketelisolatie en turbinebekleding",
+          "Isolatie van rookgaskanalen",
+          "Isolatie van afgassenketels in STEG-centrales"
+        ]
+      },
+      {
+        "title": "Bouw en HVAC",
+        "items": [
+          "Wanden, daken en vloeren",
+          "Omwikkeling en binnenbekleding van kanalen",
+          "Akoestische isolatie van scheidingswanden en plafonds",
+          "Brandwerende wand- en vloeropbouwen"
+        ]
+      },
+      {
+        "title": "Scheepsbouw en offshore",
+        "items": [
+          "Isolatie van schotten en dekken",
+          "Thermische en akoestische isolatie van machinekamers",
+          "Leidingisolatie op offshoreplatforms"
+        ]
+      },
+      {
+        "title": "Industrie en productie",
+        "items": [
+          "Uitwendige isolatie van ovens en drogers",
+          "Koelhuizen en voedingsmiddelenindustrie",
+          "Geluidsbeheersing in fabrieken"
+        ]
+      }
+    ],
+    "supplyTitle": "Wat we leveren",
+    "supply": [
+      "Santura levert steenwol- en glaswolisolatie aan raffinaderijen, petrochemische fabrieken, energiecentrales en bouwprojecten, en exporteert naar meer dan 25 landen. De producten komen van gevestigde fabrikanten en worden geleverd volgens uw projectspecificatie, met de testcertificaten van de fabrikant.",
+      "Omdat we isolatiepennen en -ringen zelf maken, kunnen we de isolatie en de bevestiging samen leveren als compleet isolatiepakket."
+    ],
+    "relatedTitle": "Gerelateerde producten en diensten",
+    "relatedPins": "Laspennen en ringen om minerale wol platen en matten te bevestigen.",
+    "relatedCalsil": "Stijve calciumsilicaatplaten en -schalen voor hogetemperatuurisolatie.",
+    "relatedAnchors": "SEPL-ankers voor de vuurvaste bekleding achter hogetemperatuurisolatie.",
+    "relatedSwText": "Boutlasapparatuur voor het plaatsen van isolatiepennen.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Wat is het verschil tussen steenwol en glaswol?",
+        "a": "Steenwol wordt gemaakt van basalt, verdraagt temperaturen tot 750 °C en heeft een hogere dichtheid (30–200 kg/m³), waardoor het de keuze is voor industriële hogetemperatuurisolatie. Glaswol wordt gemaakt van gerecycled glas, is lichter (10–80 kg/m³) en is geschikt tot ongeveer 450 °C. Het wordt bij voorkeur gebruikt voor HVAC, akoestiek en gebouwisolatie."
+      },
+      {
+        "q": "Welke temperatuur verdraagt minerale wol?",
+        "a": "Steenwol kan continu tot 750 °C worden gebruikt, glaswol tot ongeveer 450 °C afhankelijk van het product. Beide zijn onbrandbaar: ongecacheerde steenwol is Euroklasse A1, glaswol A1 of A2 afhankelijk van het product."
+      },
+      {
+        "q": "Welke diktes en dichtheden zijn leverbaar?",
+        "a": "Steenwol is leverbaar van 25 mm tot 200 mm dik en van 30 tot 200 kg/m³. Glaswol loopt van 25 mm tot 150 mm dik en van 10 tot 80 kg/m³. Andere specificaties op aanvraag."
+      },
+      {
+        "q": "Is minerale wol veilig en asbestvrij?",
+        "a": "Ja. De minerale wol die we leveren is asbestvrij, niet gevaarlijk, geproduceerd zonder CFK's of HCFK's, rotbestendig en chemisch inert. Met standaard PBM is het veilig te verwerken, en steenwol is vrij van de chloriden die corrosie onder rvs-beplating veroorzaken."
+      }
+    ],
+    "ctaTitle": "Minerale wol isolatie nodig?",
+    "ctaText": "Laat ons de productvorm, dikte, dichtheid, cachering, hoeveelheid en bedrijfstemperatuur weten. We reageren met een offerte en levertijd.",
+    "ctaRfq": "Offerte aanvragen voor minerale wol",
+    "ctaContact": "Of neem contact op met ons team"
+  },
+  "cgPage": {
+    "metaTitle": "Keramische pakkingen en hogetemperatuurafdichting | Leverancier",
+    "metaDescription": "Keramische vezelpakkingen, -koorden, -banden en industriële pakkingen voor ovens en raffinaderijen. Leverancier sinds 1980, export naar 25+ landen.",
+    "eyebrow": "Isolatie en afdichting",
+    "h1": "Keramische pakkingen en hogetemperatuurafdichtingen",
+    "subheading": "Keramisch vezelkoord, -band, -papier, -deken, -plaat, -weefsel en tadpole-pakkingen voor ovendeuren, dilatatievoegen en rookgasafdichtingen, plus asbestvrije, PTFE-, grafiet- en spiraalpakkingen voor flenzen. Eén leverancier voor hogetemperatuurafdichtingen en flenspakkingen.",
+    "gallery": [
+      "Diverse industriële pakkingen, waaronder spiraalpakkingen",
+      "Asbestvrije flenspakkingen",
+      "Zwarte pakkingplaat van samengeperste vezel"
+    ],
+    "overviewTitle": "Wat keramische pakkingen zijn",
+    "overview": [
+      "Keramische pakkingen zijn hogetemperatuurafdichtingen van keramische vezel, een alumino-silicaatmateriaal. Ze dichten voegen, deuren, flenzen en dilatatiespleten af in ovens, draaitrommelovens, gestookte verhitters en ketels. Standaard keramische vezel is geclassificeerd tot 1260 °C en zirkoniumkwaliteiten gaan hoger, ver boven het bereik van rubber- of vezelpakkingen.",
+      "Voor leidingflenzen en drukapparatuur bij lagere temperaturen leveren we ook conventionele industriële pakkingen: asbestvrij, PTFE, grafiet, spiraalpakkingen, ring joint (RTJ) en dubbel ommantelde pakkingen. Zo hebben raffinaderijen, petrochemische fabrieken en energiecentrales één bron voor hun afdichtingen."
+    ],
+    "ceramicTitle": "Keramische vezelafdichtingen",
+    "ceramicIntro": "Alle keramische vezelproducten zijn asbestvrij en chemisch inert. De vorm hangt af van de voeggeometrie en hoe vaak de verbinding wordt geopend.",
+    "ceramic": [
+      {
+        "name": "Keramisch vezelkoord (rond)",
+        "text": "Gevlochten of getwist rond koord voor deurafdichtingen, dilatatievoegen en pakkingbussen.",
+        "sizes": "Ø 6–50 mm · lengtes op maat"
+      },
+      {
+        "name": "Keramisch vezelkoord (vierkant)",
+        "text": "Gevlochten vierkant koord voor ovendeurkozijnen en ovenafdichtingen.",
+        "sizes": "6 × 6 mm tot 50 × 50 mm"
+      },
+      {
+        "name": "Keramisch vezelband",
+        "text": "Geweven plat band voor het omwikkelen van flenzen en leidingverbindingen en als kabelbescherming.",
+        "sizes": "25–150 mm breed · 2–5 mm dik"
+      },
+      {
+        "name": "Keramisch vezelpapier",
+        "text": "Dun, flexibel vel voor gestanste pakkingen, flensafdichtingen en elektrische isolatie.",
+        "sizes": "1–6 mm dik · rollen tot 1000 mm breed"
+      },
+      {
+        "name": "Keramische vezeldeken",
+        "text": "Genaalde flexibele deken voor bekledingen, omwikkeling en achterisolatie.",
+        "sizes": "6–50 mm dik · 64–192 kg/m³"
+      },
+      {
+        "name": "Keramische vezelplaat",
+        "text": "Stijve, vacuümgevormde plaat voor ovenbekledingen, schotten en rookgasafdichtingen.",
+        "sizes": "6–50 mm dik · 280–400 kg/m³"
+      },
+      {
+        "name": "Keramisch vezelweefsel",
+        "text": "Geweven stof voor gordijnen, lasdekens en afneembare isolatiehoezen.",
+        "sizes": "1,5–5 mm dik"
+      },
+      {
+        "name": "Tadpole-pakkingen",
+        "text": "Profiel met bol en staart voor oven- en ovendeuren; de staart wordt aan het kozijn geklemd of geklonken.",
+        "sizes": "Bol Ø 10–40 mm · staart 25–100 mm"
+      }
+    ],
+    "convTitle": "Industriële pakkingen",
+    "convIntro": "Deze pakkingen leveren we via een gevestigde pakkingfabrikant, volgens uw specificatie en flensnorm.",
+    "colType": "Type",
+    "colMaterial": "Materiaal",
+    "colMaxTemp": "Max. temperatuur",
+    "colUse": "Typisch gebruik",
+    "conventional": [
+      {
+        "name": "Asbestvrij (vervanger van CAF)",
+        "material": "Aramide- of glasvezel met NBR-binder",
+        "temp": "Ongeveer 450 °C",
+        "text": "Vervangt pakkingen van samengeperste asbestvezel. Luchtcompressoren, leidingen van dieselmotoren, industrie en scheepvaart."
+      },
+      {
+        "name": "PTFE-pakkingen",
+        "material": "Zuiver of gevuld PTFE",
+        "temp": "Ongeveer 260 °C",
+        "text": "Flenzen die blootstaan aan agressieve chemicaliën zoals zuren, logen en oplosmiddelen."
+      },
+      {
+        "name": "Grafietpakkingen",
+        "material": "Flexibel grafiet, glad of met spijkerplaat, optioneel met rvs- of nikkelversterking",
+        "temp": "Ongeveer 450 °C in lucht, 650 °C in stoom",
+        "text": "Zware omstandigheden. Zelfsmerend en kleeft niet aan flenzen."
+      },
+      {
+        "name": "Spiraalpakkingen",
+        "material": "Windingen van SS304 / SS316 met grafiet- of PTFE-vulling",
+        "temp": "Ongeveer 600 °C",
+        "text": "Flenzen in raffinaderijen en petrochemie, hoge druk en temperatuurwisselingen."
+      },
+      {
+        "name": "Ring joint-pakkingen (RTJ)",
+        "material": "Massief roestvast staal of Inconel",
+        "temp": "600 °C en hoger",
+        "text": "Hogedruk-RTJ-flenzen in olie en gas."
+      },
+      {
+        "name": "Dubbel ommantelde pakkingen",
+        "material": "Metalen mantel met zachte vulling",
+        "temp": "Ongeveer 550 °C",
+        "text": "Warmtewisselaars en flenzen met grote diameter."
+      },
+      {
+        "name": "Rubber- en nitrilpakkingen",
+        "material": "Natuurrubber, NBR en andere elastomeren",
+        "temp": "Ongeveer 100–120 °C",
+        "text": "Water, olie en algemene toepassingen bij lage temperatuur."
+      }
+    ],
+    "specTitle": "Eigenschappen van keramische vezel",
+    "specRows": [
+      {
+        "label": "Classificatietemperatuur",
+        "value": "1260 °C (standaard), tot 1400 °C (zirkoniumkwaliteit)"
+      },
+      {
+        "label": "Continue gebruikstemperatuur",
+        "value": "1000–1260 °C, afhankelijk van kwaliteit"
+      },
+      {
+        "label": "Chemische samenstelling",
+        "value": "Al₂O₃ 45–55%, SiO₂ 45–55% (standaard); ZrO₂ 15–17% (zirkoniumkwaliteit)"
+      },
+      {
+        "label": "Kleur",
+        "value": "Wit"
+      },
+      {
+        "label": "Warmtegeleiding",
+        "value": "0,08–0,23 W/m·K bij gemiddelde temperaturen van 200–1000 °C"
+      },
+      {
+        "label": "Asbestgehalte",
+        "value": "Geen: 100% asbestvrij"
+      }
+    ],
+    "specNote": "Typische waarden. De exacte cijfers hangen af van productvorm, kwaliteit en fabrikant; het productblad en de testcertificaten van de fabrikant worden bij elke levering meegeleverd.",
+    "dimTitle": "Afmetingen van voorgesneden pakkingen",
+    "dimIntro": "Flenspakkingen van samengeperste vezel volgens het ASME B16.21-patroon. Alle maten in millimeters.",
+    "colNps": "Nominale leidingmaat",
+    "colId": "Binnendiameter",
+    "colOd": "Buitendiameter per drukklasse",
+    "colClass": "Class {cls}",
+    "dimNote": "Voorgesneden pakkingen zijn leverbaar in standaard ASME-maten. Afwijkende maten en drukklassen op tekening.",
+    "standardsTitle": "Normen",
+    "standards": [
+      "Vezeldekens voor hogetemperatuurisolatie",
+      "Beproevingsmethoden voor keramische vezelproducten",
+      "Isolerende vuurvaste producten: keramische vezelproducten",
+      "Metalen pakkingen voor leidingflenzen (spiraal, ring joint, ommanteld)",
+      "Niet-metalen vlakke pakkingen voor leidingflenzen",
+      "Niet-metalen vlakke pakkingen: karakteristieke waarden"
+    ],
+    "applicationsTitle": "Toepassingen per sector",
+    "applications": [
+      {
+        "title": "Olie, gas en petrochemie",
+        "items": [
+          "Afdichting van deuren en kijkgaten van gestookte verhitters",
+          "Pakking voor dilatatievoegen van ovens",
+          "Flenspakkingen op hete procesleidingen",
+          "Afdichtingen van katalysatorregeneratoren en fakkels"
+        ]
+      },
+      {
+        "title": "Energieopwekking",
+        "items": [
+          "Afdichting van keteldeuren en inspectieluiken",
+          "Dilatatievoegen in kanalen van afgassenketels",
+          "Pakkingen van turbine-uitlaten",
+          "Afdichtingen van economisers en luchtvoorverwarmers"
+        ]
+      },
+      {
+        "title": "Staal, metalen en cement",
+        "items": [
+          "Afdichtingen van ovendeuren en ovenwagens",
+          "Koordafdichtingen van gloeiovendeuren",
+          "Pakkingen van pandeksels",
+          "Afdichtingen van klinkerkoelers"
+        ]
+      },
+      {
+        "title": "Glas en keramiek",
+        "items": [
+          "Afdichtingen van gewelf en branderpoorten van glasovens",
+          "Pakkingen van voedingskanalen",
+          "Deurafdichtingen van keramische ovens"
+        ]
+      },
+      {
+        "title": "Algemene industrie",
+        "items": [
+          "Afdichtingen in verbrandings- en afvalenergiecentrales",
+          "Deurpakkingen van warmtebehandelingsovens",
+          "Afdichtingen van transportsleuven in ovens",
+          "Pakkingen in uitlaatsystemen"
+        ]
+      }
+    ],
+    "supplyTitle": "Wat we leveren",
+    "supply": [
+      "Santura levert keramische vezelpakkingen, -koorden, -banden, -papier en -dekens, samen met asbestvrije, PTFE-, grafiet- en spiraalpakkingen, aan raffinaderijen, petrochemische fabrieken, energiecentrales, staalbedrijven en cementfabrieken, en exporteert naar meer dan 25 landen. De producten komen van gevestigde fabrikanten en worden geleverd volgens uw specificatie, met de testcertificaten van de fabrikant.",
+      "Omdat we vuurvaste ankers, isolatiepennen en SEPL-24-boutankers voor keramische vezel zelf maken, leveren we een compleet ovenbekledingspakket uit één hand: ankers, bouten, pakkingen en isolatiematerialen."
+    ],
+    "relatedTitle": "Gerelateerde producten",
+    "relatedMineralWool": "Steenwol- en glaswolisolatie voor leidingen, vaten en kanalen.",
+    "relatedPins": "Laspennen en ringen voor het bevestigen van dekens en isolatie.",
+    "relatedAnchors": "SEPL-ankers voor complete ovenbekledingen.",
+    "relatedSepl24": "Boutgelaste ankers voor bekledingen van keramische vezeldekens en -modules.",
+    "relatedDoors": "Kijkdeuren en kijkgaten, afgedicht met keramisch vezelkoord en pakkingen.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Welke temperatuur verdragen keramische vezelpakkingen?",
+        "a": "Standaard alumino-silicaat vezelpakkingen zijn geclassificeerd tot 1260 °C, met continu gebruik meestal tot ongeveer 1000 °C. Zirkoniumkwaliteiten verdragen tot 1400 °C. Ze zijn onbrandbaar en geschikt voor ovendeuren, dilatatievoegen en rookgasafdichtingen."
+      },
+      {
+        "q": "Welke soorten keramische pakkingen zijn er?",
+        "a": "Keramische vezelafdichtingen omvatten rond en vierkant gevlochten koord, geweven band, keramisch papier voor gestanste pakkingen, tadpole-deurafdichtingen, weefsel en deken, en stijve plaat voor schotafdichtingen. Alle zijn asbestvrij en chemisch inert."
+      },
+      {
+        "q": "Wat is het verschil tussen keramische pakkingen en conventionele industriële pakkingen?",
+        "a": "Keramische vezelpakkingen verdragen 1000–1260 °C en worden gebruikt voor ovendeuren en dilatatievoegen, waar de druk laag is. Conventionele pakkingen (asbestvrij tot ongeveer 450 °C, PTFE ongeveer 260 °C, grafiet ongeveer 450 °C in lucht, spiraalpakkingen ongeveer 600 °C) dichten leidingflenzen en drukvaten af bij lagere temperaturen. Santura levert beide."
+      },
+      {
+        "q": "Leveren jullie pakkingen volgens ASME-normen?",
+        "a": "Ja. We leveren spiraal-, ring joint- en ommantelde pakkingen volgens ASME B16.20 en niet-metalen vlakke pakkingen volgens ASME B16.21. Voorgesneden pakkingen zijn leverbaar in standaard ASME-flensmaten; andere maten en drukklassen worden op tekening gemaakt."
+      }
+    ],
+    "ctaTitle": "Keramische of flenspakkingen nodig?",
+    "ctaText": "Laat ons het product, de maat of flensnorm, drukklasse, temperatuur en hoeveelheid weten. We reageren met een offerte en levertijd.",
+    "ctaRfq": "Offerte aanvragen voor pakkingen",
+    "ctaContact": "Of neem contact op met ons team"
+  },
+  "gfPage": {
+    "metaTitle": "Glasvezelplaten, glasweefsel en glaswol | Leverancier",
+    "metaDescription": "Glasvezelplaten, glasweefsel, glasvezelband en glaswolisolatie voor de industrie. Sinds 1980, export naar meer dan 25 landen. Vraag een offerte.",
+    "eyebrow": "Isolatiematerialen",
+    "h1": "Glasvezelplaten, glasweefsel en glaswol",
+    "subheading": "Glasvezelplaten en -laminaten, glasweefsel en -band, en glaswolrollen, -buisschalen en -draadgaasmatten voor isolatie, bekleding en versterking. Geleverd volgens projectspecificatie, met de pennen en bouten om ze te bevestigen.",
+    "gallery": [
+      "Rol glasvezelmat van gehakte strengen",
+      "Spoelen glasvezelroving",
+      "Close-up van glasvezelstrengen"
+    ],
+    "overviewTitle": "Wat glasvezelproducten zijn",
+    "overview": "Glasvezelproducten ontstaan door glas bij ongeveer 1550 °C te smelten en tot fijne vezels te spinnen of te trekken. Glaswol bevat tot 70% gerecycled glas. Afhankelijk van hoe de vezels worden gevormd, ontstaat een zachte isolatiewol, een stijve of halfstijve plaat, of een garen dat tot weefsel en band wordt geweven.",
+    "functions": [
+      {
+        "title": "Isolatie",
+        "text": "Glaswolrollen, -platen, -buisschalen en -matten voor thermische en akoestische isolatie van leidingen, kanalen, wanden, daken en apparatuur."
+      },
+      {
+        "title": "Versterking en bescherming",
+        "text": "Glasweefsel, band, roving en laminaten voor hittebestendige omwikkeling en bekleding, pakkingmateriaal, composietversterking en brandwerende gordijnen."
+      }
+    ],
+    "glassTypes": "Glasweefsel en -band worden geweven van E-glasgaren, het meest gebruikte en voordeligste textielglas. S-glas heeft een ongeveer 30% hogere treksterkte en presteert beter bij hoge temperatuur, tegen hogere kosten. Glaswol wordt gemaakt van natronkalk-borosilicaatglas met gerecycled scherven.",
+    "groups": [
+      {
+        "title": "Glasvezelplaten",
+        "intro": "Stijve en halfstijve isolatieplaten en harslaminaten voor elektrische en constructieve onderdelen.",
+        "rows": [
+          {
+            "name": "Stijve glasvezelplaat",
+            "text": "Harsgebonden plaat voor kanaalbekleding, vliesgevels en plafondplaten.",
+            "spec": "25–100 mm dik · 48–96 kg/m³"
+          },
+          {
+            "name": "Halfstijve glasvezelplaat",
+            "text": "Flexibel genoeg voor gebogen oppervlakken en omhulling van apparatuur.",
+            "spec": "25–75 mm dik · 24–64 kg/m³"
+          },
+          {
+            "name": "Glasvezellaminaat (G10 / FR4)",
+            "text": "Met epoxy geïmpregneerde plaat voor elektrische isolatie en constructieve onderdelen.",
+            "spec": "0,5–50 mm dik"
+          },
+          {
+            "name": "Plaat met aluminium cachering",
+            "text": "Stijve plaat met reflecterende dampremmer.",
+            "spec": "25–100 mm dik"
+          }
+        ]
+      },
+      {
+        "title": "Glasweefsels en textiel",
+        "intro": "Geweven glastextiel voor bekleding, omwikkeling, afdichting en composietwerk.",
+        "rows": [
+          {
+            "name": "Glasweefsel (linnenbinding)",
+            "text": "Standaard industrieel weefsel voor omwikkeling en bekleding.",
+            "spec": "200–800 g/m² · 0,2–1,0 mm"
+          },
+          {
+            "name": "Glasweefsel (keperbinding)",
+            "text": "Betere drapering over gebogen oppervlakken en voor composietopbouw.",
+            "spec": "200–600 g/m² · 0,2–0,8 mm"
+          },
+          {
+            "name": "Getextureerd glasweefsel",
+            "text": "Volumineus garen voor een dikker, zachter bekledingsweefsel.",
+            "spec": "400–1200 g/m² · 0,5–3,0 mm"
+          },
+          {
+            "name": "Siliconen- of PTFE-gecoat glasweefsel",
+            "text": "Chemisch bestendig, antiaanbak weefsel voor omwikkeling en pakkingen.",
+            "spec": "Tot 260 °C (PTFE) / ongeveer 300 °C (siliconen)"
+          },
+          {
+            "name": "Glasvezelband",
+            "text": "Smal geweven band voor het omwikkelen van leidingen en het bundelen van kabels.",
+            "spec": "20–150 mm breed · 0,2–1,0 mm"
+          },
+          {
+            "name": "Rovingweefsel",
+            "text": "Zwaar weefsel voor composietversterking (GVK).",
+            "spec": "200–800 g/m²"
+          }
+        ]
+      },
+      {
+        "title": "Glaswolisolatie",
+        "intro": "Lichte isolatie voor gebouwen, HVAC en procesapparatuur met lagere temperatuur.",
+        "rows": [
+          {
+            "name": "Glaswolrollen en -dekens",
+            "text": "Flexibele isolatie voor wanden, daken en HVAC-kanalen.",
+            "spec": "25–150 mm dik · 10–48 kg/m³"
+          },
+          {
+            "name": "Glaswol buisschalen",
+            "text": "Voorgevormde schalen voor leidingisolatie.",
+            "spec": "Binnen-Ø 15–600 mm · 25–100 mm dik"
+          },
+          {
+            "name": "Glaswol draadgaasmatten",
+            "text": "Matten met draadgaas voor isolatie van apparatuur, vaten en kolommen.",
+            "spec": "25–100 mm dik · 24–80 kg/m³"
+          },
+          {
+            "name": "Losse glaswol",
+            "text": "Inblaasisolatie voor spouwen en moeilijk bereikbare plaatsen.",
+            "spec": "Dichtheid afhankelijk van toepassing"
+          }
+        ]
+      }
+    ],
+    "colProduct": "Product",
+    "colDescription": "Omschrijving",
+    "colSpec": "Typische specificatie",
+    "compareTitle": "Eigenschappen vergeleken",
+    "colProperty": "Eigenschap",
+    "colWool": "Glaswol",
+    "colCloth": "Glasweefsel",
+    "colBoard": "Glasvezelplaat",
+    "compareRows": [
+      {
+        "label": "Grondstof",
+        "wool": "Natronkalk-borosilicaatglas, tot 70% gerecycled",
+        "cloth": "E-glas- of S-glasgaren",
+        "board": "Glaswol met harsbindmiddel"
+      },
+      {
+        "label": "Max. continue gebruikstemperatuur",
+        "wool": "230–450 °C, afhankelijk van bindmiddel",
+        "cloth": "Ongeveer 550 °C (ongecoat E-glas)",
+        "board": "230–450 °C"
+      },
+      {
+        "label": "Verwekingspunt",
+        "wool": "Ongeveer 650–700 °C",
+        "cloth": "Ongeveer 840 °C (E-glas)",
+        "board": "Ongeveer 650–700 °C"
+      },
+      {
+        "label": "Dichtheid",
+        "wool": "10–96 kg/m³",
+        "cloth": "Uitgedrukt in g/m²",
+        "board": "24–96 kg/m³"
+      },
+      {
+        "label": "Warmtegeleiding (λ)",
+        "wool": "0,030–0,045 W/m·K bij 24 °C",
+        "cloth": "—",
+        "board": "0,032–0,040 W/m·K"
+      },
+      {
+        "label": "Akoestische prestatie",
+        "wool": "NRC 0,80–1,00",
+        "cloth": "—",
+        "board": "NRC 0,75–0,95"
+      },
+      {
+        "label": "Brandklasse",
+        "wool": "Onbrandbaar (Euroklasse A1 of A2)",
+        "cloth": "Onbrandbaar (ongecoat)",
+        "board": "Onbrandbaar (A1 of A2)"
+      },
+      {
+        "label": "Vocht",
+        "wool": "Waterafstotende behandeling leverbaar",
+        "cloth": "Neemt geen vocht op",
+        "board": "Waterafstotende behandeling leverbaar"
+      },
+      {
+        "label": "Vezeldiameter",
+        "wool": "4–9 µm",
+        "cloth": "6–13 µm, afhankelijk van garen",
+        "board": "4–9 µm"
+      },
+      {
+        "label": "Asbest",
+        "wool": "Geen",
+        "cloth": "Geen",
+        "board": "Geen"
+      }
+    ],
+    "compareNote": "Typische waarden. De exacte cijfers hangen af van product, bindmiddel en fabrikant; het productblad en de testcertificaten van de fabrikant worden bij elke levering meegeleverd. Gebruik voor hogere temperaturen steenwol of keramische vezel.",
+    "traitsTitle": "Eigenschappen",
+    "characteristics": [
+      "Glaswol gemaakt met tot 70% gerecycled glas",
+      "Asbestvrij en niet gevaarlijk",
+      "Geproduceerd zonder CFK's, HCFK's of HFK's",
+      "Onbrandbaar (ongecoate producten)",
+      "Krimpt, zakt en verzakt niet in de loop van de tijd",
+      "Rotbestendig en bestand tegen insecten en ongedierte",
+      "Goede geluidsabsorptie (NRC 0,80–1,00)",
+      "Lage warmtegeleiding voor energiebesparing",
+      "Licht en makkelijk te hanteren en te plaatsen",
+      "Bestand tegen de meeste chemicaliën, behalve fluorwaterstofzuur en sterke logen"
+    ],
+    "standardsTitle": "Normen en beproeving",
+    "standards": [
+      "Dekens en vilt van minerale vezels",
+      "Blokken en platen van minerale vezels",
+      "Leidingisolatie van minerale vezels",
+      "Warmtegeleiding met hete plaat en warmtestroommeter",
+      "Afgewerkte glasweefsels van rovings",
+      "Oppervlakte-brandgedrag",
+      "In de fabriek vervaardigde minerale wolproducten voor gebouwen",
+      "Treksterkte van gecoate weefsels",
+      "Thermische isolatiematerialen",
+      "Voorgevormde buisschalen van minerale vezels"
+    ],
+    "applicationsTitle": "Toepassingen per sector",
+    "applications": [
+      {
+        "title": "Olie, gas en petrochemie",
+        "items": [
+          "Isolatie van leidingen en apparatuur",
+          "Glasweefselbekleding over minerale wolisolatie",
+          "Isolatie van vaten en kolommen met draadgaasmatten",
+          "Glasvezelband om isolatielagen vast te zetten"
+        ]
+      },
+      {
+        "title": "Energieopwekking",
+        "items": [
+          "Ketelisolatie en kanaalbekleding",
+          "Geluidskappen voor turbines en generatoren",
+          "Isolatiedekens voor afgassenketels",
+          "Isolatie van rookgaskanalen"
+        ]
+      },
+      {
+        "title": "Bouw en HVAC",
+        "items": [
+          "Wanden, daken en vloeren",
+          "Omwikkeling en binnenbekleding van kanalen",
+          "Akoestische plafonds en vulling van scheidingswanden",
+          "Isolatie van warm- en koudwaterleidingen"
+        ]
+      },
+      {
+        "title": "Scheepsbouw en offshore",
+        "items": [
+          "Isolatie van schotten en dekken",
+          "Thermische en akoestische isolatie van machinekamers",
+          "Glasweefselversterking voor GVK-constructies"
+        ]
+      },
+      {
+        "title": "Industrie en productie",
+        "items": [
+          "Koelhuizen en voedingsmiddelenindustrie",
+          "Geluidsschermen en geluidskappen",
+          "Glasweefselomwikkeling aan de buitenkant van ovens",
+          "Elektrische isolatiepanelen (G10 / FR4)"
+        ]
+      }
+    ],
+    "supplyTitle": "Wat we leveren",
+    "supply": [
+      "Santura levert glasvezelplaten, glasweefsel, glasvezelband en glaswolisolatie aan raffinaderijen, petrochemische fabrieken, energiecentrales en bouwprojecten, en exporteert naar meer dan 25 landen. De producten komen van gevestigde fabrikanten en worden geleverd volgens uw projectspecificatie, met de testcertificaten van de fabrikant.",
+      "Omdat we isolatiepennen, lasbouten en vuurvaste ankers zelf maken, kunnen we isolatiemateriaal, bevestiging en bekledingsweefsel samen als één pakket leveren."
+    ],
+    "relatedTitle": "Gerelateerde producten",
+    "relatedMineralWool": "Steenwolisolatie voor hogere temperaturen, tot 750 °C.",
+    "relatedPins": "Laspennen en ringen om glaswol en platen te bevestigen.",
+    "relatedGaskets": "Keramisch vezelkoord, -band en pakkingen, gebruikt samen met glasvezelband.",
+    "relatedAnchors": "SEPL-ankers voor ovenbekledingen.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Wat is het verschil tussen glasweefsel en glaswol?",
+        "a": "Glasweefsel is een geweven textiel van glasgaren, gebruikt voor bekleding, omwikkeling en composietversterking. Glaswol is een zachte isolatie van gesponnen glasvezels, gebruikt voor thermische en akoestische isolatie van leidingen, kanalen, wanden en daken. Weefsel wordt geweven van E-glasgaren, terwijl glaswol natronkalk-borosilicaatglas met gerecycled aandeel gebruikt."
+      },
+      {
+        "q": "Welke temperatuur verdragen glasvezelproducten?",
+        "a": "Glaswol verdraagt 230–450 °C, afhankelijk van het bindmiddel. Ongecoat E-glasweefsel kan continu ongeveer 550 °C aan. Glaswol wordt zacht bij ongeveer 650–700 °C en E-glas bij ongeveer 840 °C. Voor hogere temperaturen worden steenwol (tot 750 °C) of keramische vezelproducten aanbevolen."
+      },
+      {
+        "q": "Is glasvezelisolatie veilig en asbestvrij?",
+        "a": "Ja. De glasvezel- en glaswolproducten die we leveren zijn asbestvrij, niet gevaarlijk en geproduceerd zonder CFK's. Glaswol bevat tot 70% gerecycled glas. Met standaard PBM zijn ze veilig te verwerken, en ze zijn chemisch stabiel, rotbestendig en insectbestendig."
+      },
+      {
+        "q": "Welke diktes en dichtheden glaswol zijn leverbaar?",
+        "a": "Glaswolrollen en -dekens zijn leverbaar van 25 mm tot 150 mm dik en 10 tot 48 kg/m³. Buisschalen lopen van 15 mm tot 600 mm binnendiameter. Draadgaasmatten zijn leverbaar van 25 tot 100 mm met dichtheden tot 80 kg/m³. Andere specificaties op aanvraag."
+      }
+    ],
+    "ctaTitle": "Glasvezel of glaswol nodig?",
+    "ctaText": "Laat ons het product, de dikte of het gewicht, de dichtheid, afmetingen, cachering en hoeveelheid weten. We reageren met een offerte en levertijd.",
+    "ctaRfq": "Offerte aanvragen voor glasvezelproducten",
+    "ctaContact": "Of neem contact op met ons team"
+  },
+  "csPage": {
+    "metaTitle": "Calciumsilicaatplaten en buisschalen | Industriële leverancier",
+    "metaDescription": "Calciumsilicaatisolatie: platen en buisschalen volgens ASTM C-533 tot 1100 °C. Sinds 1980, export naar meer dan 25 landen. Vraag een offerte.",
+    "eyebrow": "Isolatiematerialen",
+    "h1": "Calciumsilicaatisolatie",
+    "subheading": "Stijve calciumsilicaatplaten, voorgevormde buisschalen, segmenten en poeder voor industriële isolatie tot 1100 °C. Volgens IS 8154, IS 9428, BS 3958 deel II en ASTM C-533.",
+    "gallery": [
+      "Calciumsilicaat isolatieplaten en halfronde buisschalen",
+      "Calciumsilicaat buisschalen en vlakke platen",
+      "Tweedelige calciumsilicaat buisschaal"
+    ],
+    "overviewTitle": "Wat calciumsilicaatisolatie is",
+    "overview": [
+      "Calciumsilicaat is een hogetemperatuur-, lichte, slagvaste en asbestvrije industriële isolatie. Het bestaat uit gehydrateerd calciumsilicaat met versterkingsvezels en wordt gevormd tot stijve delen: platen, voorgevormde buisschalen, segmenten en poeder. Het behoudt zijn isolerende eigenschappen ook na nat worden en drogen.",
+      "Het vult de ruimte tussen zachte minerale wol en keramische vezel. Anders dan zachte isolatie is het stijf en zelfdragend, zodat het belopen en stoten op pijpenbruggen en apparatuur doorstaat, met behoud van lage warmtegeleiding, hoge druksterkte en zeer weinig krimp gedurende de levensduur."
+    ],
+    "tempTitle": "Maximale gebruikstemperatuur",
+    "temps": {
+      "mw": "Steenwol",
+      "cs": "Calciumsilicaat",
+      "cf": "Keramische vezel"
+    },
+    "tempNote": "Typische maximumwaarden; de grens per product hangt af van de kwaliteit.",
+    "formsTitle": "Productvormen",
+    "colForm": "Vorm",
+    "colDescription": "Omschrijving",
+    "colSizes": "Typische maten",
+    "forms": [
+      {
+        "name": "Platen",
+        "text": "Stijve platen voor vlakke oppervlakken: vatwanden, kanaalpanelen en ovenmantels.",
+        "sizes": "25–100 mm dik · 300–1000 mm lang · 150–600 mm breed"
+      },
+      {
+        "name": "Voorgevormde buisschalen",
+        "text": "Tweedelige halve schalen of gesegmenteerde schalen voor leidingisolatie.",
+        "sizes": "Binnen-Ø 15–600 mm · 25–100 mm dik · standaardlengte 600 mm"
+      },
+      {
+        "name": "Afgeschuinde segmenten",
+        "text": "Trapeziumvormige segmenten voor leidingen en vaten met grote diameter.",
+        "sizes": "Naar vatdiameter en isolatiedikte"
+      },
+      {
+        "name": "Gebogen segmenten",
+        "text": "Segmenten voor kolommen, tanks en grote cilindrische apparatuur.",
+        "sizes": "Radius en dikte op bestelling"
+      },
+      {
+        "name": "Poeder / losse vulling",
+        "text": "Voor het vullen van onregelmatige holtes en moeilijk bereikbare plaatsen.",
+        "sizes": "Levering in bulk"
+      }
+    ],
+    "specTitle": "Specificaties",
+    "specRows": [
+      {
+        "label": "Samenstelling",
+        "value": "Gehydrateerd calciumsilicaat met versterkingsvezels"
+      },
+      {
+        "label": "Max. continue gebruikstemperatuur",
+        "value": "1000–1100 °C, afhankelijk van kwaliteit"
+      },
+      {
+        "label": "Dichtheid",
+        "value": "240–350 kg/m³ (ongeveer 256 kg/m³ voor de hogetemperatuurkwaliteit)"
+      },
+      {
+        "label": "Warmtegeleiding bij 200 °C gemiddeld",
+        "value": "0,065–0,080 W/m·K"
+      },
+      {
+        "label": "Warmtegeleiding bij 400 °C gemiddeld",
+        "value": "0,085–0,105 W/m·K"
+      },
+      {
+        "label": "Warmtegeleiding bij 600 °C gemiddeld",
+        "value": "0,100–0,130 W/m·K"
+      },
+      {
+        "label": "Druksterkte",
+        "value": "0,7 MPa of meer bij 5% vervorming"
+      },
+      {
+        "label": "Lineaire krimp bij max. temperatuur",
+        "value": "2% of minder"
+      },
+      {
+        "label": "Vocht",
+        "value": "Herstelt na nat worden en drogen tot de oorspronkelijke isolatiewaarde"
+      },
+      {
+        "label": "pH",
+        "value": "Ongeveer 10 (alkalisch)"
+      },
+      {
+        "label": "Asbest",
+        "value": "Geen: 100% asbestvrij"
+      },
+      {
+        "label": "VOS",
+        "value": "Geen"
+      },
+      {
+        "label": "Gerecycled aandeel",
+        "value": "Bevat post-consumer gerecycled materiaal"
+      },
+      {
+        "label": "Kleur",
+        "value": "Wit tot gebroken wit"
+      }
+    ],
+    "specNote": "Typische waarden. De exacte cijfers hangen af van kwaliteit en fabrikant; het productblad en de testcertificaten van de fabrikant worden bij elke levering meegeleverd.",
+    "standardsTitle": "Normen",
+    "standards": [
+      "Calciumsilicaat blokken en buisschalen",
+      "Vlakke calciumsilicaatblokken (Indiase norm)",
+      "Calciumsilicaat buisschalen (Indiase norm)",
+      "Thermische isolatiematerialen: calciumsilicaat",
+      "In de fabriek vervaardigde calciumsilicaatproducten voor industriële installaties",
+      "Meting van de warmtegeleiding",
+      "Oppervlakte-brandgedrag"
+    ],
+    "advantagesTitle": "Voordelen",
+    "advantages": [
+      {
+        "title": "Stabiel na nat worden",
+        "text": "Behoudt de isolerende eigenschappen bij cycli van nat worden en drogen."
+      },
+      {
+        "title": "Constante prestatie",
+        "text": "Lage warmtegeleiding gedurende de hele levensduur, voor blijvende energiebesparing."
+      },
+      {
+        "title": "Sterk en stijf",
+        "text": "Doorstaat mechanische belasting, belopen op pijpenbruggen en stoten zonder schade."
+      },
+      {
+        "title": "Licht",
+        "text": "Hoge prestatie bij laag gewicht voor een stijve hogetemperatuurisolatie."
+      },
+      {
+        "title": "Makkelijk te plaatsen",
+        "text": "Ter plaatse eenvoudig te zagen en op maat te maken, wat tijd en kosten bespaart."
+      },
+      {
+        "title": "Lange levensduur en hergebruik",
+        "text": "Weinig onderhoud; kan bij stops worden verwijderd en hergebruikt."
+      },
+      {
+        "title": "Milieu",
+        "text": "Geen VOS en bevat post-consumer gerecycled materiaal."
+      },
+      {
+        "title": "Alkalisch",
+        "text": "De natuurlijke alkaliteit (pH ongeveer 10) helpt koolstofstaal te beschermen tegen corrosie onder isolatie."
+      },
+      {
+        "title": "Onbrandbaar",
+        "text": "Geen vlamuitbreiding en geen rookontwikkeling bij oppervlakte-brandproeven."
+      }
+    ],
+    "applicationsTitle": "Toepassingen per sector",
+    "applications": [
+      {
+        "title": "IJzer en staal",
+        "items": [
+          "Hoogovens en windverhitters",
+          "Putovens en cokesovens",
+          "Herverhittings- en gloeiovens",
+          "Voorverwarmers voor pannen en verdeelbakken"
+        ]
+      },
+      {
+        "title": "Cement",
+        "items": [
+          "Voorverwarmers, cyclonen en kanalen",
+          "Ovens",
+          "Heteluchtgeneratoren en pyroclonen"
+        ]
+      },
+      {
+        "title": "Aluminium",
+        "items": [
+          "Gietgoten en vlotters",
+          "Putovens en celbekleding",
+          "Houd- en homogeniseerovens"
+        ]
+      },
+      {
+        "title": "Olie, gas en petrochemie",
+        "items": [
+          "Gestookte verhitters en reformerovens",
+          "Warmtewisselaars en stoomleidingen",
+          "Kolommen, vaten en reactoren"
+        ]
+      },
+      {
+        "title": "Energieopwekking",
+        "items": [
+          "Ketelvuurhaard- en turbinemantels",
+          "Isolatie van hogetemperatuur-stoomleidingen",
+          "Isolatie van kanalen van afgassenketels",
+          "Uitlaatsystemen van gasturbines"
+        ]
+      },
+      {
+        "title": "Keramiek en glas",
+        "items": [
+          "Bekleding van tunnelovens",
+          "Isolatie van glassmeltovens",
+          "Koelovens en regeneratoren"
+        ]
+      },
+      {
+        "title": "Algemene industrie",
+        "items": [
+          "Warmtebehandelings- en spanningsarm-gloeiovens",
+          "Herverhittings- en smeltovens",
+          "Chemische reactoren en destillatiekolommen",
+          "Hogetemperatuurapparatuur in de voedingsindustrie"
+        ]
+      }
+    ],
+    "supplyTitle": "Wat we leveren",
+    "supply": [
+      "Santura levert calciumsilicaatplaten en -buisschalen volgens IS 8154, IS 9428, BS 3958 deel II en ASTM C-533. Ze hebben een lage warmtegeleiding, hoge druksterkte en weinig krimp, en bieden een kosteneffectieve isolatie voor gebruikstemperaturen tot 1100 °C.",
+      "Omdat we vuurvaste ankers en isolatiepennen maken en ook minerale wol, glasvezel en keramische pakkingen leveren, leveren we complete isolatiepakketten aan raffinaderijen, staalbedrijven, cementfabrieken en energiecentrales in meer dan 25 landen."
+    ],
+    "relatedTitle": "Gerelateerde producten",
+    "relatedMineralWool": "Steenwol en glaswol voor temperaturen tot 750 °C.",
+    "relatedGlassFibre": "Glasweefsel voor bekleding over de isolatie.",
+    "relatedPins": "Laspennen en ringen om isolatie te bevestigen.",
+    "relatedAnchors": "SEPL-ankers voor hogetemperatuurbekledingen.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Welke temperatuur verdraagt calciumsilicaatisolatie?",
+        "a": "Calciumsilicaatisolatie is geschikt voor continu gebruik tot 1000–1100 °C, afhankelijk van de kwaliteit. Het behoudt structuur, lage warmtegeleiding en druksterkte over het hele bereik, en behoudt zijn isolerende eigenschappen ook na nat worden en drogen."
+      },
+      {
+        "q": "Welke vormen calciumsilicaat zijn er?",
+        "a": "Calciumsilicaat is leverbaar als stijve platen, voorgevormde buisschalen (halve schalen), afgeschuinde segmenten voor grote leidingen, gebogen segmenten voor vaten en kolommen, en poeder voor het vullen van holtes. Standaard buisschalen passen op binnendiameters van 15 mm tot 600 mm in diktes van 25 tot 100 mm. Andere maten op tekening."
+      },
+      {
+        "q": "Aan welke normen voldoet uw calciumsilicaat?",
+        "a": "Ons calciumsilicaat voldoet aan ASTM C-533, IS 8154 (vlakke blokken), IS 9428 (buisschalen) en BS 3958 deel II. Het is onbrandbaar met nul vlamuitbreiding in de ASTM E-84-proef, asbestvrij en vrij van VOS."
+      },
+      {
+        "q": "Wat zijn de voordelen van calciumsilicaat ten opzichte van minerale wol?",
+        "a": "Calciumsilicaat werkt bij hogere temperaturen (tot 1100 °C tegenover 750 °C voor steenwol), is veel sterker en slagvaster, is stijf en zelfdragend zodat het belopen en stoten verdraagt, en presteert constant na nat-droogcycli. Minerale wol is flexibeler en goedkoper onder 750 °C. We leveren beide."
+      }
+    ],
+    "ctaTitle": "Calciumsilicaatisolatie nodig?",
+    "ctaText": "Laat ons de vorm, leidingmaten of plaatafmetingen, dikte, gebruikstemperatuur en hoeveelheid weten. We reageren met een offerte en levertijd.",
+    "ctaRfq": "Offerte aanvragen voor calciumsilicaat",
+    "ctaContact": "Of neem contact op met ons team"
   }
 }

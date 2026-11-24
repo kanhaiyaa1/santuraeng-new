@@ -192,7 +192,7 @@ export default async function BrightSolutionAnnealingPage({ params: { locale } }
       {/* 6. Verification */}
       <section className="mx-auto max-w-6xl px-6 py-16">
         <h2 className={h2}>{t('verifyTitle')}</h2>
-        <ul className="mt-8 grid gap-5 md:grid-cols-3">
+        <ul className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {(t.raw('verify') as Item[]).map((v) => (
             <li key={v.title} className={card}>
               <h3 className="font-bold text-ink">{v.title}</h3>
@@ -200,7 +200,7 @@ export default async function BrightSolutionAnnealingPage({ params: { locale } }
             </li>
           ))}
         </ul>
-        <Link href="/quality" className="mt-6 inline-block text-sm font-semibold text-brand-500 hover:text-brand-600">
+        <Link href="/quality#micro-etching" className="mt-6 inline-block text-sm font-semibold text-brand-500 hover:text-brand-600">
           {t('verifyQualityLink')} →
         </Link>
       </section>

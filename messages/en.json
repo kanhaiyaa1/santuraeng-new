@@ -413,6 +413,10 @@
         "text": "Chemical composition verified by spectroscopy against the specified grade."
       },
       {
+        "title": "Micro etching",
+        "text": "In-house micro etching to ASTM A262 Practice A, ASTM E407 and ASTM E112, and macro etching of stud welds."
+      },
+      {
         "title": "Dimensional inspection",
         "text": "Dimensions, bends and weld ends checked against the drawing."
       },
@@ -447,7 +451,53 @@
     },
     "clientCertsTitle": "Client certificates",
     "clientCertsText": "Certificates and reference letters from our clients will be published here.",
-    "photosTitle": "Testing in practice"
+    "photosTitle": "Testing in practice",
+    "etch": {
+      "title": "Micro Etching Test",
+      "intro": [
+        "A micro etching test shows the internal structure of the metal. A sample is cut from the material or the finished part, polished to a mirror finish and treated with an etching solution that reveals the grains and grain boundaries. The etched surface is then examined under a microscope.",
+        "We carry out micro etching tests in-house on the stainless steel, carbon steel and nickel alloy material used for our anchors, studs and fabricated parts. The test shows whether forming, welding or heat treatment has left the material in the condition the specification requires."
+      ],
+      "testsTitle": "Tests we carry out",
+      "tests": [
+        {
+          "code": "ASTM A262 Practice A",
+          "title": "Intergranular attack screening",
+          "text": "An electrolytic oxalic acid etch that screens austenitic stainless steels, such as 304, 310, 316 and 321, for sensitization: chromium carbides at the grain boundaries that make the material prone to intergranular corrosion. It is used to check material after welding or heat treatment, and to confirm that solution annealing has dissolved the carbides."
+        },
+        {
+          "code": "ASTM E407 · ASTM E112",
+          "title": "Microstructure and grain size",
+          "text": "Microetching to ASTM E407 reveals the microstructure of stainless steel, carbon steel and nickel alloys. The average grain size is then rated to ASTM E112, and the structure is checked for excessive grain growth and unwanted phases."
+        },
+        {
+          "code": "EN ISO 14555",
+          "title": "Weld macro etch",
+          "text": "A welded stud or anchor is cut through the weld, polished and etched so that the fusion zone becomes visible. The section shows whether the weld has fused across the full stud base and how far it has penetrated into the base metal. EN ISO 14555 uses this macro examination to qualify stud welding procedures."
+        }
+      ],
+      "readingTitle": "How ASTM A262 Practice A results are read",
+      "reading": [
+        {
+          "title": "Step structure",
+          "text": "Steps between the grains and no ditches at the grain boundaries. Acceptable: the material is not sensitized."
+        },
+        {
+          "title": "Dual structure",
+          "text": "Some ditches at the grain boundaries, but no grain completely surrounded by them. Acceptable."
+        },
+        {
+          "title": "Ditch structure",
+          "text": "One or more grains completely surrounded by ditches. The material is classed as suspect and must pass the hot acid test that ASTM A262 specifies for the grade (Practice B, C or E) before it can be accepted."
+        }
+      ],
+      "readingNote": "Practice A is a screening test: it can accept material but cannot reject it. It applies to austenitic stainless steels only, so nickel alloys and carbon steel are checked for microstructure and grain size instead.",
+      "productsTitle": "Products we test",
+      "productsText": "The test applies to our metal products, especially stainless steel parts that are cold formed, welded or heat treated before delivery. Insulation materials such as mineral wool, ceramic gaskets and calcium silicate are not metallic, so micro etching does not apply to them.",
+      "requestText": "The micro etching report can be supplied with the other test certificates for your order. Name the test and the standard in your enquiry.",
+      "linkBsa": "Bright solution annealing and sensitization",
+      "linkSw": "Stud welding and weld macro etch"
+    }
   },
   "privacyPage": {
     "metaTitle": "Privacy Policy | Santura Engineering",
@@ -615,15 +665,17 @@
   "search": {
     "open": "Search",
     "label": "Search the site",
-    "placeholder": "Search products, SEPL codes, alloys, countries…",
+    "placeholder": "Search products, services, SEPL codes, alloys, countries…",
     "noResults": "No results for “{query}”",
     "close": "Close",
     "hint": "Try “SEPL-24”, “310S”, “Y anchor” or “Germany”",
     "groups": {
       "product": "Products",
       "country": "Countries",
-      "page": "Pages"
-    }
+      "page": "Pages",
+      "service": "Services"
+    },
+    "viewAll": "View all results"
   },
   "photos": {
     "cartonsBulk": "Cartons ready for packing",
@@ -862,6 +914,10 @@
       {
         "title": "Mill certificate comparison",
         "text": "Comparing test results with the original mill certificate confirms that the material is back to its specified annealed properties."
+      },
+      {
+        "title": "Micro etching test",
+        "text": "An oxalic acid etch to ASTM A262 Practice A, carried out in-house, shows whether chromium carbides remain at the grain boundaries. A step structure confirms that the anchors are no longer sensitized."
       }
     ],
     "verifyQualityLink": "See how we test and document every order",
@@ -898,7 +954,7 @@
       },
       {
         "q": "How do you verify that BSA was done correctly?",
-        "a": "By hardness and tensile testing. Treated material should be softer than untreated material, with hardness back in the annealed range for the grade and tensile strength close to the specified minimum. The surface should also be bright and free of scale."
+        "a": "By hardness and tensile testing. Treated material should be softer than untreated material, with hardness back in the annealed range for the grade and tensile strength close to the specified minimum. The surface should also be bright and free of scale. A micro etching test to ASTM A262 Practice A, carried out in-house, confirms that the chromium carbides have been dissolved."
       },
       {
         "q": "Does BSA increase anchor service life?",
@@ -1312,7 +1368,2497 @@
       {
         "q": "Which ceramic ferrule sizes are available?",
         "a": "Ferrules are matched to the stud diameter and to the surface being welded, such as flat plate or tube. Tell us the stud diameter and shell geometry and we will supply the matching ferrules with the anchors."
+      },
+      {
+        "q": "How is stud weld quality checked?",
+        "a": "By macro etching. A test stud is cut through the weld, polished and etched in-house, which shows whether the weld has fused across the full stud base and how far it has penetrated into the base metal. For stainless steel anchors, a micro etching test to ASTM A262 Practice A also checks the material for sensitization."
       }
-    ]
+    ],
+    "etchTitle": "Weld macro etch",
+    "etchText": "Weld quality is checked by macro etching. A test stud is cut through the weld, polished and etched in-house, so that the fusion zone and the depth of penetration can be examined. This is the macro examination that EN ISO 14555 uses to qualify stud welding procedures.",
+    "etchLink": "About our micro etching tests"
+  },
+  "searchPage": {
+    "metaTitle": "Search | Santura Engineering",
+    "metaTitleQuery": "Search results for “{query}” | Santura Engineering",
+    "metaDescription": "Search Santura Engineering refractory anchors, SEPL product codes, alloys, services and export country pages.",
+    "h1": "Search",
+    "h1Query": "Search results for “{query}”",
+    "submit": "Search",
+    "resultCount": "Results for “{query}”: {count}",
+    "emptyText": "Search by product name, SEPL code, alloy grade, service or country.",
+    "noResultsTitle": "No results found",
+    "noResultsText": "Nothing matches “{query}”. Check the spelling, try a product code such as SEPL-07, or use one of the popular searches below.",
+    "relatedTitle": "Related searches",
+    "popularTitle": "Popular searches"
+  },
+  "notFoundPage": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist or has moved. Search the site or use the links below.",
+    "home": "Go to homepage",
+    "products": "View products"
+  },
+  "odPage": {
+    "metaTitle": "Observation & Peep Doors for Furnaces, Kilns & Boilers | Santura Engineering",
+    "metaDescription": "Observation doors, peep doors and sight ports for furnaces, kilns and boilers, made to drawing. Manufacturer since 1980, exporting to 25+ countries.",
+    "eyebrow": "Fabrication shop",
+    "h1": "Observation & Peep Doors",
+    "subheading": "Refractory-lined observation doors, peep doors and sight ports for furnaces, boilers, kilns and fired heaters. Made to your drawing, with the frame, door, glass, gaskets and refractory anchors supplied as one assembly.",
+    "overviewTitle": "What observation and peep doors do",
+    "overview": [
+      "Observation doors and peep doors are access panels built into the walls of furnaces, boilers, kilns and heaters. They let operators look inside the vessel, check the flame, inspect the refractory lining and insert thermocouples or probes, all without opening the vessel or stopping the process.",
+      "Each door has a steel frame that is bolted or welded to the vessel shell, a door or cover that closes the opening, and a refractory lining that matches the lining of the wall around it. Anchors welded inside the frame hold that lining in place, the same way refractory anchors hold the lining of the vessel wall.",
+      "Santura fabricates observation doors in-house in its fabrication shop, in stainless steel or hot-dip galvanized mild steel, with refractory anchors, hardened glass and gaskets fitted to the customer's specification."
+    ],
+    "overviewLink": "Refractory anchors for door and wall linings",
+    "overviewCaption": "Door frame with V-anchors welded inside to hold the refractory lining.",
+    "typesTitle": "Types of observation and peep doors",
+    "types": [
+      {
+        "title": "Observation doors",
+        "size": "Openings of 250 mm (10 in) and above",
+        "text": "Larger doors, hinged or bolted, with a refractory-lined door. Used for visual inspection of the firebox and for limited maintenance access, for example above each air zone in a boiler."
+      },
+      {
+        "title": "Peep doors / peep holes",
+        "size": "Typically 100 × 100 mm (4 × 4 in)",
+        "text": "Small openings with a cast iron or steel cover, often counter-weighted so it closes on its own. Used for flame monitoring and for inserting thermocouples and probes."
+      },
+      {
+        "title": "Sight ports / viewing ports",
+        "size": "50–100 mm diameter",
+        "text": "Fitted with heat-resistant tinted glass, cobalt blue or green, so operators can watch the flame and the lining continuously without opening anything."
+      }
+    ],
+    "constructionTitle": "Construction and materials",
+    "constructionIntro": "Each part of the door is chosen for the service temperature, the furnace atmosphere and how often the door will be opened.",
+    "construction": [
+      {
+        "title": "Frame",
+        "text": "Mild steel (usually hot-dip galvanized), stainless steel or cast iron, depending on the service temperature and environment."
+      },
+      {
+        "title": "Refractory lining",
+        "text": "Castable or firebrick lining inside the door and frame, matched to the vessel's own refractory system and held by welded anchors."
+      },
+      {
+        "title": "Observation glass",
+        "text": "Toughened cobalt blue glass, typically 3 mm thick. It cuts the glare of the flame so the flame shape and the lining condition can be seen clearly. Green-tinted glass is also available."
+      },
+      {
+        "title": "Sealing",
+        "text": "High-temperature gaskets on machined seating faces, so the closed door does not leak hot gas or let in cold air."
+      },
+      {
+        "title": "Mounting",
+        "text": "Bolted flange to the vessel shell. Hinged doors for frequent access; counter-weighted covers for peep holes."
+      },
+      {
+        "title": "Hardware",
+        "text": "Locking handles and hinges rated for the service temperature, with lifting lugs on heavy doors."
+      }
+    ],
+    "specTitle": "Typical specifications",
+    "colFeature": "Feature",
+    "cols": {
+      "od": "Observation door",
+      "pd": "Peep door",
+      "sp": "Sight port"
+    },
+    "specRows": [
+      {
+        "label": "Opening size",
+        "od": "250 mm and above (custom)",
+        "pd": "100 × 100 mm to 150 × 150 mm",
+        "sp": "50–100 mm diameter"
+      },
+      {
+        "label": "Frame material",
+        "od": "MS / SS / cast iron",
+        "pd": "Cast iron / MS",
+        "sp": "Cast iron / SS"
+      },
+      {
+        "label": "Maximum service temperature",
+        "od": "Up to 1200 °C (with refractory lining)",
+        "pd": "Up to 1000 °C",
+        "sp": "Up to 800 °C (limited by the glass)"
+      },
+      {
+        "label": "Closure",
+        "od": "Hinged or bolted",
+        "pd": "Bolted or counter-weighted cover",
+        "sp": "Threaded cap or bolted"
+      },
+      {
+        "label": "Glass",
+        "od": "Optional",
+        "pd": "Optional",
+        "sp": "Standard (cobalt blue)"
+      },
+      {
+        "label": "Refractory lined",
+        "od": "Yes",
+        "pd": "Yes (cover and frame)",
+        "sp": "No (glass only)"
+      }
+    ],
+    "specNote": "These are typical values. The opening size, materials and temperature rating of each door are set by the customer's drawing and the vessel's operating conditions.",
+    "applicationsTitle": "Where they are used",
+    "applications": [
+      {
+        "title": "Boilers",
+        "text": "AFBC, CFBC and stoker-fired boilers: observation doors above each air zone and peep doors for flame monitoring."
+      },
+      {
+        "title": "Refinery fired heaters",
+        "text": "Fired heaters and reformers: sight ports and peep doors for watching the burner flames."
+      },
+      {
+        "title": "Cement kilns",
+        "text": "Peep holes in the kiln shell and burner area for checking the lining and the flame."
+      },
+      {
+        "title": "Steel plants",
+        "text": "Reheating furnaces and ladle preheaters: access doors for inspection during turnarounds."
+      },
+      {
+        "title": "Incinerators and waste-to-energy",
+        "text": "Rotary kilns and post-combustion chambers: observation doors for checking combustion quality."
+      },
+      {
+        "title": "Heat treatment furnaces",
+        "text": "Batch and continuous furnaces: loading doors fitted with viewing ports."
+      }
+    ],
+    "fabTitle": "Custom fabrication",
+    "fab": [
+      "Every door is made to the customer's drawing and material specification. We match the door's refractory lining to the lining already in the vessel, so the door does not become a weak spot in the wall.",
+      "For existing installations we make replacement doors and covers from a drawing or from a sample door. Doors can be supplied on their own or as part of a larger furnace fabrication package with anchors, casing parts and supports."
+    ],
+    "reference": "In 2006 Santura supplied furnace sight doors and counter-weight systems to Petron Engineering Construction Ltd, who issued an appreciation letter for the work.",
+    "processTitle": "How we fabricate a door",
+    "process": [
+      {
+        "title": "Drawing approval",
+        "text": "We send the drawing back to the customer for approval before production, so any change is agreed first."
+      },
+      {
+        "title": "Material check",
+        "text": "The bill of materials is reviewed. 10% of the material is tested at NABL-accredited labs, and stainless steel parts are PMI tested."
+      },
+      {
+        "title": "Cutting and forming",
+        "text": "Plates are sheared and formed, then marked and assembled in the fabrication yard. Our inspectors check the assembly before welding."
+      },
+      {
+        "title": "Welding and inspection",
+        "text": "CO2 welding for full penetration, followed by weld inspection for porosity."
+      },
+      {
+        "title": "Finishing",
+        "text": "Finishing and hot-dip galvanizing, then packing for dispatch."
+      }
+    ],
+    "supplyTitle": "What we supply",
+    "supply": [
+      {
+        "title": "Complete door assemblies",
+        "text": "Frame, door, hardware and refractory anchors, ready for lining or supplied lined."
+      },
+      {
+        "title": "Replacement doors and covers",
+        "text": "Made from your drawing or a sample to fit existing openings."
+      },
+      {
+        "title": "Observation glass",
+        "text": "Cobalt blue glass in various sizes."
+      },
+      {
+        "title": "Spare gaskets and hardware",
+        "text": "Gaskets, hinges, handles and fasteners for doors already in service."
+      }
+    ],
+    "galleryTitle": "Observation doors from our workshop",
+    "galleryText": "Doors made in our fabrication shop, from single frames to production batches for boiler projects.",
+    "gallery": [
+      "Pair of observation doors with glass viewing windows for an industrial furnace",
+      "Open observation door frame with welded V-anchors for the refractory lining",
+      "Galvanized observation door frame with anchors, front view",
+      "Flanged observation door frame for bolting to a furnace shell",
+      "Observation door frame and door parts before assembly",
+      "Production batch of galvanized observation doors in the fabrication yard",
+      "Hinged observation doors stacked for dispatch",
+      "Close-up of galvanized observation door frames in a production batch"
+    ],
+    "relatedTitle": "Related products and services",
+    "relatedAnchorsText": "The anchors that hold the refractory lining inside each door, in the same alloys as your wall lining.",
+    "relatedSwText": "Equipment and procedures for welding anchors to door frames and vessel shells.",
+    "relatedPmiText": "Alloy verification of stainless steel door parts before they leave the workshop.",
+    "relatedPpText": "Surface treatment for stainless steel frames and doors after fabrication.",
+    "countriesTitle": "Countries we supply",
+    "countriesText": "We export observation doors together with our refractory anchors. The country pages describe the industries and ports we serve in each market.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What is the difference between an observation door and a peep door?",
+        "a": "An observation door has a larger opening, usually 250 mm and above, and is used for visual inspection and limited maintenance access. A peep door is smaller, typically 100 × 100 mm, and is used to watch the flame and to insert thermocouples or probes. Both are refractory lined."
+      },
+      {
+        "q": "What glass is used in observation doors and sight ports?",
+        "a": "Heat-resistant tinted glass, usually toughened cobalt blue glass about 3 mm thick. It cuts the glare of the flame so the flame and the refractory lining can be seen clearly. Green-tinted glass is also available. The glass limits a sight port to about 800 °C."
+      },
+      {
+        "q": "Can you make doors to our drawing or copy an existing door?",
+        "a": "Yes. All our doors are made to the customer's drawing and material specification. For replacements we can work from an existing drawing or from a sample door, and we match the refractory lining to the vessel's existing lining."
+      },
+      {
+        "q": "What temperatures are the doors rated for?",
+        "a": "With a refractory lining, observation doors are typically used up to 1200 °C and peep doors up to 1000 °C. Sight ports are limited by the glass to about 800 °C. The final rating depends on the materials and lining in your specification."
+      }
+    ],
+    "ctaTitle": "Need observation or peep doors?",
+    "ctaText": "Send us your drawing, the opening size, the service temperature and the quantity. We will reply with a quotation and delivery time.",
+    "ctaRfq": "Request a Quote for Observation Doors",
+    "ctaContact": "Or contact our team"
+  },
+  "fbPage": {
+    "metaTitle": "Foundation Bolts Manufacturer | L J U Type Anchor Bolts | Santura Engineering",
+    "metaDescription": "Foundation and anchor bolts in L, J, U, plate and straight types, made to drawing in MS, B7 and stainless. Since 1980, exporting to 25+ countries.",
+    "eyebrow": "Fabrication shop",
+    "h1": "Foundation Bolts & Anchor Bolts",
+    "subheading": "L, J, U, plate and straight foundation bolts for boilers, heavy equipment and structural steel. Cut, bent, threaded and hot-dip galvanized to your drawing, and supplied as complete sets with nuts, washers, anchor plates and sleeves.",
+    "overviewTitle": "What foundation bolts are",
+    "overview": [
+      "Foundation bolts are steel bolts embedded in a concrete foundation to hold down structures, columns, equipment and machinery. The embedded end is bent, hooked or fitted with a plate so it cannot pull out of the concrete; the threaded end projects above the foundation to take the baseplate, nut and washer.",
+      "The terms are often used for the same product. Anchor bolt usually describes a bolt cast into concrete, while foundation bolt describes a bolt that secures equipment to its base. Many foundation bolts are fitted with a pipe sleeve around the upper part, which leaves room to adjust the bolt position slightly when the equipment is set.",
+      "Santura makes foundation bolts as part of its custom fabrication work: bar is cut, bent, threaded and hot-dip galvanized to the customer's drawing. We make headed, bent and threaded foundation bolts in diameters up to 6 inch and above."
+    ],
+    "typesTitle": "Types of foundation bolts",
+    "types": [
+      {
+        "key": "l",
+        "title": "L-type (90° bend)",
+        "size": "M10 to M64",
+        "text": "The most common type. The embedded end is bent at a right angle so the bolt locks into the concrete.",
+        "uses": "Structural columns, baseplates, light poles and equipment skids."
+      },
+      {
+        "key": "j",
+        "title": "J-type (hook)",
+        "size": "",
+        "text": "A curved J-shaped hook at the embedded end grips the concrete. Similar to the L-type, with better pull-out resistance in some layouts.",
+        "uses": "Lighter structural connections, pipe supports and handrails."
+      },
+      {
+        "key": "u",
+        "title": "U-type",
+        "size": "",
+        "text": "A U-shaped bolt that passes under a baseplate, beam or pipe, with both threaded ends projecting upwards.",
+        "uses": "Clamping equipment, pipe supports and parts that need through-bolting."
+      },
+      {
+        "key": "plate",
+        "title": "Plate type / headed",
+        "size": "",
+        "text": "A straight bolt with a square or hex anchor plate welded at the embedded end. This type gives the highest pull-out resistance and is often supplied with a pipe sleeve.",
+        "uses": "Heavy machinery, turbines, compressors and boiler foundations."
+      },
+      {
+        "key": "rod",
+        "title": "Straight / all-thread rod",
+        "size": "",
+        "text": "A fully threaded rod with a nut and washer at each end. It allows the most adjustment on site.",
+        "uses": "Use with anchor plates or in grouted pockets."
+      }
+    ],
+    "materialsTitle": "Materials",
+    "materials": [
+      {
+        "title": "Mild steel (IS 2062 / ASTM A36)",
+        "text": "The most common choice for general structural use."
+      },
+      {
+        "title": "ASTM F1554 Grade 36 / 55 / 105",
+        "text": "Anchor rod steel in three strength grades for engineered structural connections."
+      },
+      {
+        "title": "ASTM A307 Grade A / B / C",
+        "text": "General-purpose carbon steel bolts and studs."
+      },
+      {
+        "title": "ASTM A193 Grade B7",
+        "text": "Alloy steel for high-temperature and high-pressure service, such as boilers and pressure vessels."
+      },
+      {
+        "title": "Stainless steel (SS304 / SS316)",
+        "text": "For corrosive environments, coastal sites and chemical plants."
+      }
+    ],
+    "finishesTitle": "Finishes and coatings",
+    "finishes": [
+      {
+        "title": "Hot-dip galvanized (HDG)",
+        "text": "The most common finish for outdoor and embedded use, to ASTM F2329."
+      },
+      {
+        "title": "Zinc plated",
+        "text": "Yellow, blue or white passivation, for indoor and mild environments."
+      },
+      {
+        "title": "Black oxide",
+        "text": "Basic corrosion protection."
+      },
+      {
+        "title": "Plain / uncoated",
+        "text": "When specified by the customer, and for stainless steel bolts."
+      }
+    ],
+    "specTitle": "Specifications",
+    "colProperty": "Property",
+    "colRange": "Range",
+    "specRows": [
+      {
+        "label": "Diameter",
+        "value": "M10 to M100 (3/8 in to 4 in); larger diameters to drawing"
+      },
+      {
+        "label": "Length",
+        "value": "150 mm to 3000 mm and above (custom lengths)"
+      },
+      {
+        "label": "Thread",
+        "value": "ISO metric or Unified inch, full or partial thread"
+      },
+      {
+        "label": "Bend radius",
+        "value": "As per drawing or standard"
+      },
+      {
+        "label": "Standards",
+        "value": "ASTM F1554, ASTM A307, ASTM A193, IS 2062, IS 1363, IS 1364"
+      },
+      {
+        "label": "Testing",
+        "value": "Tensile test, proof load test, hardness test and dimensional inspection"
+      },
+      {
+        "label": "Tolerances",
+        "value": "As per IS 2062, ASTM F1554 or the customer's drawing"
+      }
+    ],
+    "specNote": "Every order is made to the customer's drawing or the specified standard. Send us the bolt type, diameter, length, thread length, material grade and finish.",
+    "applicationsTitle": "Applications by industry",
+    "applications": [
+      {
+        "title": "Boiler and furnace foundations",
+        "text": "Holding down boiler structures, furnace shells, stacks and ducts on concrete plinths."
+      },
+      {
+        "title": "Heavy equipment",
+        "text": "Compressors, turbines, pumps, generators and presses."
+      },
+      {
+        "title": "Structural steel",
+        "text": "Column baseplates, portal frames, crane rails and conveyor supports."
+      },
+      {
+        "title": "Power plants",
+        "text": "Turbine pedestals, cooling tower structures and pipe rack foundations."
+      },
+      {
+        "title": "Cement plants",
+        "text": "Kiln support piers, mill foundations and preheater tower structures."
+      },
+      {
+        "title": "Oil and gas",
+        "text": "Fired heater structures, column foundations and pipe rack bases."
+      },
+      {
+        "title": "Infrastructure",
+        "text": "Light poles, sign structures, bridge bearings and transmission towers."
+      }
+    ],
+    "supplyTitle": "What we supply",
+    "supply": [
+      {
+        "title": "Bolts to drawing or standard",
+        "text": "Foundation bolts made to your drawing or to a standard specification."
+      },
+      {
+        "title": "Complete bolt sets",
+        "text": "Bolts with nuts, washers, anchor plates and pipe sleeves, tagged and ready to set."
+      },
+      {
+        "title": "Any type, any grade",
+        "text": "L, J, U, plate and straight bolts in mild steel, F1554, A307, B7 or stainless steel."
+      },
+      {
+        "title": "Hot-dip galvanizing",
+        "text": "Galvanizing arranged through approved galvanizers."
+      },
+      {
+        "title": "Template plates",
+        "text": "Templates that hold each bolt group in position while the concrete is poured."
+      },
+      {
+        "title": "Single items or packages",
+        "text": "Individual bolts, or bolts as part of a complete structural fabrication package."
+      }
+    ],
+    "gallery": [
+      "Galvanized foundation bolts with pipe sleeves standing upright",
+      "Galvanized foundation bolts with square anchor plates",
+      "Foundation bolts with pipe sleeves, tagged for dispatch",
+      "Galvanized foundation bolts with pipe sleeves laid out in the workshop",
+      "Stock of galvanized foundation bolts with nuts and sleeves",
+      "Close-up of foundation bolt pipe sleeves and nuts"
+    ],
+    "relatedTitle": "Related products",
+    "relatedStanchions": "Stanchions and posts for platforms and handrails, often installed on the same foundations.",
+    "relatedPipeGuides": "Pipe guides and ring sleeves for fired heaters and pipe racks.",
+    "relatedFasteners": "Hex bolts, B7 studs, nuts and washers in stainless and alloy steels.",
+    "relatedAnchors": "SEPL anchors for the refractory linings of the boilers and furnaces these bolts hold down.",
+    "countriesTitle": "Countries we supply",
+    "countriesText": "We export foundation bolts together with our refractory anchors and fabricated parts. The country pages describe the industries and ports we serve in each market.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What is the difference between L-type and J-type foundation bolts?",
+        "a": "Both have a bent embedded end. An L-type bolt is bent at 90 degrees, while a J-type bolt has a curved hook. The L-type is the most common choice for columns and baseplates; the J-type is used for lighter connections such as pipe supports and handrails, and can give better pull-out resistance in some layouts."
+      },
+      {
+        "q": "What is ASTM F1554?",
+        "a": "ASTM F1554 is the American standard for anchor rods that are cast into concrete. It covers straight, bent and headed rods in three grades, 36, 55 and 105, named after their minimum yield strength in ksi. The projecting end is colour coded: blue for Grade 36, yellow for Grade 55 and red for Grade 105."
+      },
+      {
+        "q": "Can you make foundation bolts in custom lengths?",
+        "a": "Yes. We cut, bend and thread every bolt to the customer's drawing, from about 150 mm to 3000 mm and longer. The thread length, bend length and bend radius are made as specified."
+      },
+      {
+        "q": "What finishes are available for foundation bolts?",
+        "a": "Hot-dip galvanizing to ASTM F2329 is the most common finish for outdoor and embedded bolts. Zinc plating (yellow, blue or white) suits indoor and mild environments, black oxide gives basic protection, and bolts can be supplied plain when specified or when made in stainless steel."
+      }
+    ],
+    "ctaTitle": "Need foundation bolts?",
+    "ctaText": "Send us your drawing or bolt schedule with the type, diameter, length, material grade, finish and quantity. We will reply with a quotation and delivery time.",
+    "ctaRfq": "Request a Quote for Foundation Bolts",
+    "ctaContact": "Or contact our team"
+  },
+  "spPage": {
+    "metaTitle": "Support Plates & Base Plates Manufacturer | Custom Fabrication | Santura Engineering",
+    "metaDescription": "Refractory support brackets, base plates, mounting, gusset and embed plates fabricated to drawing. Since 1980, exporting to 25+ countries.",
+    "eyebrow": "Fabrication shop",
+    "h1": "Support Plates & Base Plates",
+    "subheading": "Refractory support brackets, column base plates, equipment mounting plates, gusset plates and embed plates for furnaces, boilers and structural steelwork. Cut, drilled, machined and welded to your drawing.",
+    "heroAlt": "Column base plate bolted to a concrete foundation",
+    "overviewTitle": "What support plates are",
+    "overview": [
+      "Support plates are fabricated steel plates and brackets that carry and spread load. Inside furnaces and boilers they are welded to the shell to hold the weight of the refractory lining. Outside, in structural steelwork, they are the base plates, mounting plates, gussets and embed plates that connect columns, equipment and steel members to their foundations and to each other.",
+      "Every plate is made to the customer's drawing. Santura cuts, drills, machines and welds support plates in-house, alongside the refractory anchors and foundation bolts that are often installed with them."
+    ],
+    "uses": [
+      {
+        "title": "Refractory support",
+        "text": "Brackets welded inside furnaces and vessels to carry the lining and burner blocks."
+      },
+      {
+        "title": "Structural base plates",
+        "text": "Plates that connect columns and equipment to concrete foundations and steel frames."
+      }
+    ],
+    "typesTitle": "Types of support plates",
+    "types": [
+      {
+        "key": "refractory",
+        "title": "Refractory support plates / lining support brackets",
+        "alt": "Refractory support bracket welded to a furnace shell under the lining",
+        "text": "Bracket-shaped plates welded to the furnace shell to carry the weight of the refractory lining, especially in vertical walls and overhead sections. They are made from steel parts welded together and spread the load of the lining evenly across the shell.",
+        "points": [
+          "Support burner blocks independently of the furnace wall",
+          "Placed at calculated intervals around the shell",
+          "Mild steel or stainless steel (SS304, SS310), chosen for the service temperature",
+          "Also called consoles, brick supports or support brackets"
+        ]
+      },
+      {
+        "key": "base",
+        "title": "Column base plates",
+        "alt": "Column base plate with anchor bolts on a concrete foundation",
+        "text": "Flat plates welded to the bottom of steel columns and bolted to the foundation with anchor or foundation bolts. They spread the column load evenly over the concrete.",
+        "points": [
+          "Holes drilled or punched to match the bolt pattern",
+          "Bearing face machined flat for full contact with the grout",
+          "IS 2062 Grade A up to 20 mm thick",
+          "IS 2062 Grade B (killed) above 20 mm, as structural codes require"
+        ]
+      },
+      {
+        "key": "mounting",
+        "title": "Equipment mounting plates",
+        "alt": "Equipment mounting plate with drilled bolt holes for a pump base",
+        "text": "Flat plates with pre-drilled bolt holes for securing pumps, compressors, motors and other machinery to concrete or steel bases.",
+        "points": [
+          "Drilled to match the equipment foot pattern exactly",
+          "Levelling provisions and shear keys where required",
+          "Vibration-damping features on request"
+        ]
+      },
+      {
+        "key": "gusset",
+        "title": "Gusset plates and stiffener plates",
+        "alt": "Triangular gusset plate welded at a beam-to-column joint",
+        "text": "Triangular or rectangular plates welded at beam-to-column joints to stiffen the connection and transfer load.",
+        "points": [
+          "Structural frames, boiler support steel and pipe racks",
+          "Platform brackets and supports",
+          "Important in structures designed for seismic and wind loads"
+        ]
+      },
+      {
+        "key": "embed",
+        "title": "Embed plates",
+        "alt": "Embed plate with welded studs cast into a concrete wall",
+        "text": "Steel plates with welded studs or anchors that are cast into concrete to provide a connection point after the pour.",
+        "points": [
+          "Attach structural steel, pipe supports and equipment to concrete",
+          "Fix handrails to concrete walls and floors",
+          "Studs welded to the plate before casting"
+        ]
+      }
+    ],
+    "materialsTitle": "Materials",
+    "materials": [
+      {
+        "title": "Mild steel",
+        "text": "IS 2062 Grade A, B or C and ASTM A36. The most common choice for structural plates."
+      },
+      {
+        "title": "Stainless steel",
+        "text": "SS304, SS310 and SS316, for corrosive environments and high-temperature refractory support."
+      },
+      {
+        "title": "Boiler quality steel",
+        "text": "IS 2002 and SA 516 Gr 70, for pressure vessel and boiler applications."
+      },
+      {
+        "title": "High-strength structural steel",
+        "text": "ASTM A572 Grade 50, for heavy-load applications."
+      }
+    ],
+    "specTitle": "Specifications",
+    "colProperty": "Property",
+    "colRange": "Range",
+    "specRows": [
+      {
+        "label": "Thickness",
+        "value": "6 mm to 100 mm and above"
+      },
+      {
+        "label": "Size",
+        "value": "Cut to drawing, from plates up to 2000 × 6000 mm"
+      },
+      {
+        "label": "Hole drilling",
+        "value": "CNC or manual, to drawing tolerance"
+      },
+      {
+        "label": "Surface",
+        "value": "Machined flat, shot blasted, painted or galvanized"
+      },
+      {
+        "label": "Welding",
+        "value": "To AWS D1.1 or IS 816, with NDT where specified"
+      },
+      {
+        "label": "Standards",
+        "value": "IS 2062, ASTM A36, ASTM A572, IS 816 (welding), AWS D1.1"
+      },
+      {
+        "label": "Tolerances",
+        "value": "As per IS 2062, AISC or the customer's specification"
+      },
+      {
+        "label": "Testing",
+        "value": "Dimensional inspection, ultrasonic testing (UT) of thick plates, visual weld inspection"
+      }
+    ],
+    "specNote": "Every plate is made to the customer's drawing. Send us the drawing or sketch with the material grade, thickness, finish and quantity.",
+    "applicationsTitle": "Applications by industry",
+    "applications": [
+      {
+        "title": "Furnaces and kilns",
+        "text": "Refractory lining support brackets, burner block support plates and kiln shell reinforcement."
+      },
+      {
+        "title": "Boilers",
+        "text": "Structural support steel, buckstay brackets and casing supports."
+      },
+      {
+        "title": "Refineries",
+        "text": "Fired heater support structures, column base plates and pipe rack base plates."
+      },
+      {
+        "title": "Power plants",
+        "text": "Turbine pedestal plates, boiler support framework and structural platforms."
+      },
+      {
+        "title": "Cement plants",
+        "text": "Preheater tower support steel, kiln support pier plates and mill foundation plates."
+      },
+      {
+        "title": "General structural",
+        "text": "Column bases, crane rail supports, conveyor support structures and handrail mounting."
+      }
+    ],
+    "supplyTitle": "What we supply",
+    "supply": [
+      {
+        "title": "All types to drawing",
+        "text": "From a single bracket to complete sets, made to the customer's drawing."
+      },
+      {
+        "title": "Cutting and machining",
+        "text": "Gas, plasma or CNC cutting as required, with drilling, machining and welding."
+      },
+      {
+        "title": "Surface treatment",
+        "text": "Shot blasting, primer painting and hot-dip galvanizing."
+      },
+      {
+        "title": "Single plates or packages",
+        "text": "Individual plates, or plates as part of a complete structural fabrication package."
+      },
+      {
+        "title": "From sample, sketch or drawing",
+        "text": "We can make plates from a sample, a sketch or a detailed engineering drawing."
+      }
+    ],
+    "relatedTitle": "Related products",
+    "relatedFoundationBolts": "Anchor and foundation bolts that fix base plates to the concrete.",
+    "relatedStanchions": "Stanchions and posts for platforms and handrails, mounted on base plates.",
+    "relatedPipeGuides": "Pipe guides and ring sleeves for fired heaters and pipe racks.",
+    "relatedAnchors": "SEPL anchors that hold the refractory lining between the support brackets.",
+    "servicesTitle": "Related services",
+    "relatedSwText": "Stud welding for embed plates and for anchors welded to support plates.",
+    "relatedPmiText": "Alloy verification of stainless steel plates before dispatch.",
+    "relatedPpText": "Surface treatment for stainless steel plates and brackets after welding.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What are refractory support plates?",
+        "a": "Refractory support plates, also called lining support brackets or consoles, are steel brackets welded to the inside of a furnace or boiler shell. They carry the weight of the refractory lining, especially in tall vertical walls and overhead sections, and spread that load evenly across the shell. They are also used to support burner blocks separately from the wall."
+      },
+      {
+        "q": "What materials are support plates made from?",
+        "a": "Structural plates are usually mild steel to IS 2062 or ASTM A36, or ASTM A572 Grade 50 for heavy loads. Boiler and pressure vessel parts use IS 2002 or SA 516 Gr 70. Refractory support brackets that run hot are made in stainless steel such as SS304 or SS310, and SS316 is used in corrosive environments."
+      },
+      {
+        "q": "Can plates be supplied machined?",
+        "a": "Yes. Base plates can be machined flat on the bearing face for full contact with the grout, and holes are CNC or manually drilled to the drawing tolerance. Plates can also be supplied shot blasted, primer painted or hot-dip galvanized."
+      },
+      {
+        "q": "What is the maximum plate thickness available?",
+        "a": "We supply support plates from 6 mm up to 100 mm thick and above, cut to drawing from plates up to 2000 × 6000 mm. Thick plates can be ultrasonically tested where the specification requires it."
+      }
+    ],
+    "ctaTitle": "Need support plates or base plates?",
+    "ctaText": "Send us your drawing, sketch or sample details with the material grade, thickness, finish and quantity. We will reply with a quotation and delivery time.",
+    "ctaRfq": "Request a Quote for Support Plates",
+    "ctaContact": "Or contact our team"
+  },
+  "stPage": {
+    "metaTitle": "Industrial Stanchions & Handrail Posts | Platform Railings | Santura Engineering",
+    "metaDescription": "Industrial stanchions, handrails, toe plates and gates for platforms and walkways, made to drawing. Since 1980, exporting to 25+ countries.",
+    "eyebrow": "Fabrication shop",
+    "h1": "Industrial Stanchions & Handrail Systems",
+    "subheading": "Stanchions, rails, toe plates and gates for industrial platforms, walkways and staircases. Cut, welded and hot-dip galvanized to your drawing, supplied as single posts, handrail modules or complete platform packages.",
+    "gallery": [
+      "Batch of hot-dip galvanized industrial stanchions with gusseted base plates",
+      "Galvanized industrial stanchion with welded rail arms and base plate",
+      "Industrial stanchion with side rail arm and gusseted base plate",
+      "Close-up of a welded tee joint on a stanchion post"
+    ],
+    "overviewTitle": "What industrial stanchions are",
+    "overview": [
+      "Stanchions are the upright steel posts, solid or tubular, that form the vertical supports of an industrial handrail or barrier. On ball-type stanchions, the horizontal rails pass through forged steel balls on the post and are locked in place with grub screws.",
+      "Together with rails, toe plates, gates and closures, stanchions make up the edge protection required on industrial platforms, walkways, staircases and other elevated areas. Santura fabricates stanchions, complete handrail systems and platform structures to the customer's drawing."
+    ],
+    "weldedTitle": "Welded stanchions",
+    "weldedText": "Our photos show welded stanchions: tubular posts with rail arms welded on, a gusseted base plate and hot-dip galvanizing after welding. We make stanchions to the customer's drawing, in the ball type described below or in this welded type.",
+    "typesTitle": "Stanchion configurations",
+    "types": [
+      {
+        "key": "single",
+        "title": "Single ball stanchion",
+        "alt": "Single ball stanchion with one top rail",
+        "text": "One ball at the top for a single handrail. Used where only a top rail is required, such as low-risk walkways and guide rails."
+      },
+      {
+        "key": "double",
+        "title": "Double ball stanchion",
+        "alt": "Double ball stanchion with top rail and knee rail",
+        "text": "Two balls for the top rail and the knee (intermediate) rail. The standard configuration for most industrial platforms and walkways."
+      },
+      {
+        "key": "three",
+        "title": "Three ball stanchion",
+        "alt": "Three ball stanchion with top, knee and lower rails",
+        "text": "Three balls for the top rail, knee rail and an extra lower rail. Used where higher security or closer rail spacing is needed."
+      },
+      {
+        "key": "raked",
+        "title": "Raked stanchion",
+        "alt": "Raked stanchion with angled rails following a staircase",
+        "text": "Balls set at an angle so the rails follow the pitch of a staircase or ramp. Used on industrial staircases and inclined walkways."
+      }
+    ],
+    "basesTitle": "Base types",
+    "bases": [
+      {
+        "key": "flat",
+        "title": "Flat base plate",
+        "alt": "Stanchion with flat base plate bolted to a platform floor",
+        "text": "Bolted to the floor or platform surface. The most common base for platforms and walkways on grating or chequer plate."
+      },
+      {
+        "key": "side",
+        "title": "Side mount (palm) base",
+        "alt": "Side-mounted stanchion bolted to a vertical beam web",
+        "text": "Bolted to a vertical surface such as a beam web, tank shell or wall, where floor mounting is not possible."
+      },
+      {
+        "key": "collar",
+        "title": "Welded collar base",
+        "alt": "Stanchion fitted in a collar welded to the structure",
+        "text": "The post sits in a collar welded directly to the structure. Used for permanent installations."
+      },
+      {
+        "key": "cored",
+        "title": "Cored base",
+        "alt": "Stanchion grouted into a cored hole in a concrete slab",
+        "text": "The post is set into a cored hole in concrete and grouted in place. Used on concrete platforms and landings."
+      },
+      {
+        "key": "angle",
+        "title": "Angle base",
+        "alt": "Stanchion with angle bracket base on a steel angle frame",
+        "text": "An angle bracket base for mounting on a structural angle or channel. Used on platforms framed with angle iron."
+      }
+    ],
+    "specTitle": "Dimensions and specifications",
+    "colSpec": "Specification",
+    "colRange": "Standard range",
+    "specRows": [
+      {
+        "label": "Post diameter",
+        "value": "33.7 mm (1 in NB), 42.4 mm (1¼ in NB), 48.3 mm (1½ in NB)"
+      },
+      {
+        "label": "Wall thickness",
+        "value": "3.0 mm to 5.0 mm (tubular), or solid"
+      },
+      {
+        "label": "Ball size",
+        "value": "60 mm, 63 mm, 76 mm"
+      },
+      {
+        "label": "Rail diameter",
+        "value": "33.7 mm or 42.4 mm"
+      },
+      {
+        "label": "Standard height",
+        "value": "1000 mm to 1100 mm (top of rail from floor)"
+      },
+      {
+        "label": "Ball centres",
+        "value": "450 mm to 550 mm typical"
+      },
+      {
+        "label": "Toe plate height",
+        "value": "100 mm to 150 mm"
+      },
+      {
+        "label": "Base plate",
+        "value": "100 × 100 mm to 172 × 150 mm, 6 mm to 10 mm thick, with 18 mm bolt holes"
+      },
+      {
+        "label": "Post spacing",
+        "value": "1500 mm to 1800 mm maximum"
+      }
+    ],
+    "specNote": "These are standard ranges. Heights, rail positions and post spacing are made to the customer's drawing and the safety standard that applies to the project.",
+    "materialsTitle": "Materials",
+    "materials": [
+      {
+        "title": "Mild steel (IS 2062 / ASTM A36)",
+        "text": "The most common choice, painted or galvanized."
+      },
+      {
+        "title": "Stainless steel (SS304 / SS316)",
+        "text": "For corrosive environments, offshore sites, food processing and chemical plants."
+      },
+      {
+        "title": "Aluminium",
+        "text": "Lightweight, for non-structural or weight-sensitive applications."
+      }
+    ],
+    "finishesTitle": "Finishes",
+    "finishes": [
+      {
+        "title": "Hot-dip galvanized",
+        "text": "The standard finish for outdoor and industrial use, typically protecting steel for 20 years or more depending on the environment."
+      },
+      {
+        "title": "Powder coated",
+        "text": "For indoor use or where colour coding is required; safety yellow is common."
+      },
+      {
+        "title": "Self-colour / primer",
+        "text": "For fabricators who will paint on site."
+      },
+      {
+        "title": "Stainless steel",
+        "text": "Mill finish or polished, with no coating needed."
+      }
+    ],
+    "standardsTitle": "Compliance and standards",
+    "colStandard": "Standard",
+    "colCovers": "What it covers",
+    "standards": [
+      {
+        "code": "OSHA 1910.29",
+        "text": "US walking-working surfaces rule: top rail at 42 in (1067 mm) ± 3 in, a mid rail where there is no wall, toe boards at least 3.5 in (89 mm) high on open sides, and a top rail that withstands 200 lb (890 N) in any outward or downward direction."
+      },
+      {
+        "code": "EN ISO 14122-3",
+        "text": "European standard for guard-rails and stairs giving permanent access to machinery and plant."
+      },
+      {
+        "code": "BS 6180",
+        "text": "British code of practice for barriers in and about buildings."
+      },
+      {
+        "code": "IS 1161",
+        "text": "Indian standard for steel tubes for structural purposes (post and rail tube sizes)."
+      },
+      {
+        "code": "IS 2062",
+        "text": "Indian standard for hot-rolled structural steel."
+      }
+    ],
+    "standardsNote": "We fabricate to the drawing and the standard named in your specification. Tell us which standard applies to your project.",
+    "componentsTitle": "Handrail system components",
+    "componentsIntro": "Everything needed for a complete handrail system can be supplied with the stanchions.",
+    "components": [
+      {
+        "title": "Stanchion posts",
+        "text": "Single, double or three ball, or welded, with any base type."
+      },
+      {
+        "title": "Rails",
+        "text": "Straight lengths, typically 6.4 m."
+      },
+      {
+        "title": "Closures and bends",
+        "text": "Horizontal and angle closure bends, return bends and stair returns."
+      },
+      {
+        "title": "Gates",
+        "text": "Self-closing, spring-loaded safety gates for platform access points."
+      },
+      {
+        "title": "Toe plates / kick plates",
+        "text": "100 mm to 150 mm high plates at floor level that stop objects falling off the edge."
+      },
+      {
+        "title": "Kick plate brackets",
+        "text": "Clips that fix the toe plates to the stanchions."
+      },
+      {
+        "title": "Connectors",
+        "text": "Internal expanding clamps and external connectors for joining rail lengths."
+      }
+    ],
+    "applicationsTitle": "Applications by industry",
+    "applications": [
+      {
+        "title": "Refineries and petrochemical plants",
+        "text": "Pipe rack walkways, vessel platforms, loading platforms and tank farm access."
+      },
+      {
+        "title": "Power plants",
+        "text": "Boiler platforms, turbine floor access, coal handling platforms and chimney access."
+      },
+      {
+        "title": "Cement plants",
+        "text": "Preheater tower platforms, kiln area walkways, mill floor access and silo top platforms."
+      },
+      {
+        "title": "Steel plants",
+        "text": "Furnace floor barriers, rolling mill walkways and crane access platforms."
+      },
+      {
+        "title": "Boiler houses",
+        "text": "Boiler drum access, economiser platforms and air preheater access."
+      },
+      {
+        "title": "General industrial",
+        "text": "Machine guarding, mezzanine floors, loading docks and staircase railings."
+      }
+    ],
+    "supplyTitle": "What we supply",
+    "supply": [
+      {
+        "title": "Posts and components",
+        "text": "Individual stanchions and components for the fabricator to assemble on site."
+      },
+      {
+        "title": "Handrail modules",
+        "text": "Posts with rails and toe plates, pre-fabricated and ready to bolt on."
+      },
+      {
+        "title": "Complete platforms",
+        "text": "Structural frames, grating, handrails, ladders and gates as one package."
+      },
+      {
+        "title": "To drawing or standard",
+        "text": "Stanchions and rails made to your drawing or to standard dimensions."
+      },
+      {
+        "title": "Gate assemblies",
+        "text": "Safety gates with self-closing hinges."
+      },
+      {
+        "title": "All base types",
+        "text": "Flat, side mount, welded collar, cored and angle bases."
+      }
+    ],
+    "relatedTitle": "Related products",
+    "relatedSupportPlates": "Base plates and mounting plates for posts, platforms and structural steel.",
+    "relatedFoundationBolts": "Anchor bolts for fixing stanchion bases and platform columns to concrete.",
+    "relatedPipeGuides": "Pipe guides and sleeves for the pipe racks that walkways often run along.",
+    "servicesTitle": "Related services",
+    "relatedPmiText": "Alloy verification of stainless steel stanchions and rails.",
+    "relatedPpText": "Pickling and passivation of stainless steel handrails after welding.",
+    "relatedQualityText": "Our inspection and testing for fabricated parts.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What is a ball type stanchion?",
+        "a": "A ball type stanchion is a handrail post with forged steel balls fixed along its length. The horizontal rails pass through holes in the balls and are locked in place with grub screws. This makes the handrail quick to assemble and lets rails meet the post at the angle needed for stairs and corners."
+      },
+      {
+        "q": "What handrail height does OSHA require?",
+        "a": "OSHA 1910.29 requires the top edge of the top rail to be 42 inches (1067 mm) above the walking surface, plus or minus 3 inches. A mid rail is needed where there is no wall or parapet, toe boards must be at least 3.5 inches (89 mm) high, and the top rail must withstand a force of 200 lb (890 N)."
+      },
+      {
+        "q": "What is the difference between a single and a double ball stanchion?",
+        "a": "A single ball stanchion carries only a top rail. A double ball stanchion carries a top rail and a knee rail halfway down, which is the standard arrangement for most industrial platforms and walkways because the knee rail closes the gap below the top rail."
+      },
+      {
+        "q": "Can stanchions be supplied galvanized?",
+        "a": "Yes. Hot-dip galvanizing after fabrication is our standard finish for mild steel stanchions used outdoors and in industrial plants. Stanchions can also be supplied powder coated, in primer for painting on site, or in stainless steel with no coating."
+      }
+    ],
+    "ctaTitle": "Need stanchions or handrails?",
+    "ctaText": "Send us your drawing or layout with the stanchion type, base type, height, material, finish and quantity. We will reply with a quotation and delivery time.",
+    "ctaRfq": "Request a Quote for Stanchions",
+    "ctaContact": "Or contact our team"
+  },
+  "pgPage": {
+    "metaTitle": "Pipe Guides & Ring Sleeves for Fired Heaters & Boilers | Santura Engineering",
+    "metaDescription": "Pipe guides, ring sleeves and tube supports for fired heaters, boilers and furnaces, made to drawing. Since 1980, exporting to 25+ countries.",
+    "eyebrow": "Fabrication shop",
+    "h1": "Pipe Guides & Ring Sleeves",
+    "subheading": "Pipe guides, ring sleeves and tube support parts for fired heaters, reformers, boilers and process piping. Made to your drawing in carbon steel, stainless steel and heat-resistant alloys.",
+    "gallery": [
+      "Batch of galvanized pipe guides with flanged guide rings for fired heaters",
+      "Pipe guide with flanged collar and tapered body for a fired heater",
+      "Stock of galvanized pipe guides in the workshop",
+      "Stainless steel ring sleeves stacked in stock",
+      "Split stainless steel ring sleeve marked SS310",
+      "Stainless steel ring sleeves marked with grade and size",
+      "Stacked stainless steel ring sleeves with expansion slots",
+      "Stainless steel ring sleeves nested for shipment",
+      "Bundle of nested stainless steel ring sleeves",
+      "Ring sleeve with expansion slot",
+      "Split ring sleeve section"
+    ],
+    "overviewTitle": "What pipe guides and ring sleeves are",
+    "overview": [
+      "Pipe guides and ring sleeves are fabricated steel parts that support, guide and protect piping and furnace tubes. A pipe guide stops a pipe moving sideways while still letting it grow and shrink along its length as the temperature changes.",
+      "A ring sleeve, also called a pipe sleeve or penetration sleeve, is a cylinder fitted where a pipe passes through a wall, floor or vessel shell. It protects the pipe, seals the opening and leaves room for the pipe to move.",
+      "Both matter most in fired heaters, boilers and furnaces, where piping runs hot and goes through repeated heating and cooling. Santura makes pipe guides and ring sleeves to the customer's drawing, including parts for heaters built to API 560."
+    ],
+    "madeTitle": "What our photos show",
+    "made": [
+      "Pipe guides: guide rings forged, machined and welded onto a pipe, then galvanized.",
+      "Ring sleeves: stainless steel sheet (SS304, SS310, SS316) sheared to drawing and rolled into split or slotted rings, each marked with its grade and size.",
+      "All made in-house for reformers and fired heaters."
+    ],
+    "guidesTitle": "Types of pipe guides",
+    "guides": [
+      {
+        "key": "spider",
+        "title": "Cylinder / spider guides",
+        "size": "6 in to 36 in pipe and above",
+        "alt": "Cylinder pipe guide with internal spider arms around a pipe",
+        "text": "A cylindrical cage welded to a support, with internal spider arms that let the pipe slide lengthwise but stop it moving sideways. Used on long pipe runs and near expansion joints."
+      },
+      {
+        "key": "ubolt",
+        "title": "U-bolt guides",
+        "size": "Smaller pipe sizes",
+        "alt": "U-bolt pipe guide with base plate on a support beam",
+        "text": "A U-bolt straddles the pipe and its base plate is bolted to the support. A simple, low-cost guide that allows lengthwise movement within the U-bolt clearance."
+      },
+      {
+        "key": "structural",
+        "title": "Structural steel guides",
+        "size": "Large and heavy pipes",
+        "alt": "Structural steel guide frame straddling a large pipe",
+        "text": "Angle, channel or plate welded into a frame that straddles the pipe. Used for large-diameter or heavy pipes, insulated or bare."
+      },
+      {
+        "key": "slide",
+        "title": "Slide plate guides",
+        "size": "",
+        "alt": "Pipe shoe on a low-friction slide plate",
+        "text": "The pipe shoe rides on a low-friction PTFE or graphite slide plate. Used where friction must be kept low to protect expansion joints or sensitive equipment connections."
+      },
+      {
+        "key": "tube",
+        "title": "Tube support guides (fired heaters)",
+        "size": "API 560",
+        "alt": "Tube supports holding furnace tube coils inside a fired heater",
+        "text": "Supports inside the firebox that hold the tube coils in position. API 560 limits the unsupported horizontal tube length to 35 tube outside diameters or 6 m (20 ft), whichever is less. Made in heat-resistant alloys such as Alloy 800H; cast 25Cr-20Ni (HK40) supports are also used."
+      }
+    ],
+    "sleevesTitle": "Types of ring sleeves",
+    "sleeves": [
+      {
+        "key": "floor",
+        "title": "Floor and wall penetration sleeves",
+        "size": "2 in to 4 in larger than pipe OD",
+        "alt": "Penetration sleeve set into a concrete floor with a pipe passing through",
+        "text": "Sleeves set into concrete or steel floors and walls where pipes pass through, sealed with packing or fire-stop material. The extra size leaves room for insulation and movement."
+      },
+      {
+        "key": "shell",
+        "title": "Furnace shell penetration sleeves",
+        "size": "",
+        "alt": "Penetration sleeve welded into a furnace shell around a tube",
+        "text": "Sleeves welded into furnace or boiler shells where tubes or piping enter the casing. A seal plate and packing stop flue gas leaking out while the tube expands."
+      },
+      {
+        "key": "anchor",
+        "title": "Refractory anchor ring sleeves",
+        "size": "",
+        "alt": "Ring sleeve embedded in refractory lining at a pipe opening",
+        "text": "Ring sleeves embedded in the refractory lining that anchor the lining at penetrations and give a finished opening for a pipe or instrument."
+      }
+    ],
+    "materialsTitle": "Materials",
+    "materials": [
+      {
+        "title": "Carbon steel (IS 2062 / ASTM A36)",
+        "text": "Standard for external pipe guides and structural supports."
+      },
+      {
+        "title": "Stainless steel (SS304, SS310, SS316)",
+        "text": "For corrosive or high-temperature service, or when the process licensor specifies it. Our ring sleeves are made in these grades."
+      },
+      {
+        "title": "Heat-resistant alloys (Alloy 800H, HK40, 25Cr-20Ni)",
+        "text": "For tube supports inside the firebox of fired heaters built to API 560."
+      },
+      {
+        "title": "Galvanized steel",
+        "text": "For outdoor pipe rack guides exposed to the weather."
+      }
+    ],
+    "specTitle": "Specifications",
+    "colProperty": "Property",
+    "colRange": "Range",
+    "specRows": [
+      {
+        "label": "Pipe sizes",
+        "value": "1/2 in NB to 48 in NB and above (custom)"
+      },
+      {
+        "label": "Guide clearance",
+        "value": "Typically 3 mm to 6 mm radial clearance for thermal movement"
+      },
+      {
+        "label": "Sleeve thickness",
+        "value": "6 mm to 12 mm wall, depending on size and application"
+      },
+      {
+        "label": "Operating temperature",
+        "value": "Up to 400 °C for external guides; up to 1100 °C for internal tube supports in heat-resistant alloys"
+      },
+      {
+        "label": "Standards",
+        "value": "API 560 (fired heaters), ASME B31.3 (process piping), IS 2062, ASTM A36"
+      },
+      {
+        "label": "Load rating",
+        "value": "By engineering calculation, from pipe weight, insulation and contents"
+      },
+      {
+        "label": "Finish",
+        "value": "Primer painted, hot-dip galvanized, or bare for high-temperature alloys"
+      }
+    ],
+    "specNote": "Every part is made to the customer's drawing. Send us the drawing with pipe size, material, design temperature and quantity.",
+    "applicationsTitle": "Applications by industry",
+    "applications": [
+      {
+        "title": "Refinery fired heaters",
+        "text": "Radiant and convection tube supports, tube guides, return bend supports and shell penetration sleeves, to API 560."
+      },
+      {
+        "title": "Boilers",
+        "text": "Superheater, reheater and economiser tube supports, and pipe penetration sleeves through the boiler casing."
+      },
+      {
+        "title": "Petrochemical plants",
+        "text": "Pipe rack guides for process piping, expansion loop guides and equipment connection guides."
+      },
+      {
+        "title": "Power plants",
+        "text": "Main steam, boiler feed and turbine piping guides."
+      },
+      {
+        "title": "Cement plants",
+        "text": "Kiln shell penetration sleeves for burner pipes and instruments, and duct supports."
+      },
+      {
+        "title": "General piping",
+        "text": "Thermal expansion guides near expansion joints and loops, and floor and wall penetration sleeves in pipe racks."
+      }
+    ],
+    "supplyTitle": "What we supply",
+    "supply": [
+      {
+        "title": "Pipe guides",
+        "text": "Made to engineering drawings or to standard catalogue designs."
+      },
+      {
+        "title": "Ring sleeves",
+        "text": "For shell, floor and wall penetrations."
+      },
+      {
+        "title": "Fired heater tube supports",
+        "text": "Tube support components for heaters built to API 560."
+      },
+      {
+        "title": "Complete guide assemblies",
+        "text": "Guide frame, slide plates and hardware together."
+      },
+      {
+        "title": "Material choice",
+        "text": "From carbon steel to stainless steel and heat-resistant alloys."
+      },
+      {
+        "title": "Single parts or packages",
+        "text": "Individual parts, or parts as part of a piping support or heater fabrication package."
+      }
+    ],
+    "relatedTitle": "Related products",
+    "relatedSupportPlates": "Base plates and brackets for pipe supports and guide structures.",
+    "relatedFoundationBolts": "Anchor bolts for pipe rack and guide support foundations.",
+    "relatedStanchions": "Handrails and stanchions for pipe rack walkways and heater platforms.",
+    "relatedAnchors": "SEPL anchors for the refractory lining that ring sleeves pass through.",
+    "servicesTitle": "Related services",
+    "relatedPmiText": "Alloy verification of SS310 sleeves and heat-resistant tube supports.",
+    "relatedPpText": "Pickling and passivation of stainless steel sleeves after fabrication.",
+    "relatedSwText": "Stud welding of anchors around shell penetrations.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What is a pipe guide used for?",
+        "a": "A pipe guide keeps a pipe on its line. It stops the pipe moving sideways but lets it slide along its length as it expands when hot and contracts when it cools. Guides are placed along long pipe runs and near expansion joints and loops so that thermal movement goes where the designer intended."
+      },
+      {
+        "q": "What is API 560?",
+        "a": "API 560 is the American Petroleum Institute standard for fired heaters used in refineries and petrochemical plants. It covers design, materials, fabrication and testing, including the tube supports and guides inside the firebox. For example, it limits the unsupported horizontal tube length to 35 tube diameters or 6 m, whichever is less."
+      },
+      {
+        "q": "What is the difference between a pipe guide and a pipe support?",
+        "a": "A pipe support carries the weight of the pipe. A pipe guide controls the direction it can move: it stops sideways movement while allowing lengthwise expansion. Many guides also carry weight, so a guide is a support that also restrains the pipe in one or more directions."
+      },
+      {
+        "q": "What is a ring sleeve?",
+        "a": "A ring sleeve, also called a pipe sleeve or penetration sleeve, is a steel cylinder fitted where a pipe or tube passes through a wall, floor, refractory lining or vessel shell. It protects the pipe, seals the opening with packing or a seal plate, and leaves room for the pipe to expand. Our ring sleeves are typically rolled from SS304, SS310 or SS316 sheet."
+      }
+    ],
+    "ctaTitle": "Need pipe guides or ring sleeves?",
+    "ctaText": "Send us your drawing with pipe size, material grade, design temperature and quantity. We will reply with a quotation and delivery time.",
+    "ctaRfq": "Request a Quote for Pipe Guides & Sleeves",
+    "ctaContact": "Or contact our team"
+  },
+  "cwPage": {
+    "metaTitle": "Counter-Weight Systems for Reformer Furnaces | Linde Approved | Santura Engineering",
+    "metaDescription": "Counter-weight systems for hydrogen reformers and cracking furnaces. Linde approved supplier. Since 1980, exporting to 25+ countries.",
+    "eyebrow": "Reformer and cracker furnaces",
+    "h1": "Counter-Weight Systems for Reformer & Cracking Furnaces",
+    "subheading": "Lever-arm counter-weight systems that carry the weight of radiant tubes in hydrogen reformers and ethylene cracking furnaces. Made by Santura since the late 1990s, to the client's engineering drawings.",
+    "lindeBadge": "Linde Engineering India approved supplier, {period}",
+    "photoAlt": "Galvanized counter-weight lever arm assembly with dead weight stacks",
+    "photoCaption": "Galvanized lever arm assembly with dead weight stacks at our workshop.",
+    "whatTitle": "What a counter-weight system does",
+    "what": [
+      "In hydrogen reformers and ethylene cracking furnaces, vertical tubes hang inside the firebox at very high temperatures. Reformer tubes are filled with catalyst, and each tube with its catalyst can weigh more than a tonne. The tubes grow noticeably longer as they heat up.",
+      "A counter-weight system carries this weight so the tube can hang freely and expand and contract without stress. It works on the lever principle: a dead weight on one end of a pivoted lever arm balances the tube on the other end.",
+      "The pivots must move with almost no friction. Even small friction forces would push unwanted load into the tubes, which shortens their life."
+    ],
+    "howTitle": "How it works",
+    "how": [
+      "Hanger rods run from the top of each tube, up through the furnace roof, to a yoke.",
+      "The yoke connects to one end of a horizontal lever arm, which pivots on a fulcrum frame on the roof structure.",
+      "A calculated dead weight hangs from the other end of the lever arm.",
+      "The dead weight balances the catalyst-filled tube, the lower pigtail, its share of the floating manifold, half the upper pigtail and the suspension hardware.",
+      "As the tube heats up and grows downwards, the lever arm tilts slightly and the dead weight rises, so the support force on the tube stays constant."
+    ],
+    "diagramAlt": "Diagram of a counter-weight system: tube, hanger rod, yoke, lever arm, fulcrum and dead weight",
+    "diagram": [
+      "Reformer tube (grows downwards when hot)",
+      "Hanger rod",
+      "Yoke",
+      "Lever arm",
+      "Fulcrum frame with bushed pivot",
+      "Dead weight",
+      "Furnace roof"
+    ],
+    "buildTitle": "How Santura builds them",
+    "buildIntro": "Every system is fabricated to the client's engineering drawings. The construction below is how we build them.",
+    "build": [
+      {
+        "title": "Dead weights",
+        "text": "Carbon steel and cast iron blocks, sized to the calculated balance load."
+      },
+      {
+        "title": "H-frames and I-frames",
+        "text": "Hollow section frames with imported Graphalloy oil-less bushings embedded in carbon steel housings at every pivot."
+      },
+      {
+        "title": "Pivot pins",
+        "text": "Special grade stainless steel 410S, a martensitic stainless steel with good corrosion and heat resistance."
+      },
+      {
+        "title": "Clevises",
+        "text": "Stainless steel, machined in-house at our Mumbai workshop."
+      },
+      {
+        "title": "Grade 8.8 bolts",
+        "text": "Heat treated by a sub-contractor under our close monitoring, with hardness and tempering checked."
+      },
+      {
+        "title": "Imported sub-components",
+        "text": "Certain parts are imported to meet the quality and specification requirements."
+      },
+      {
+        "title": "Hot-dip galvanizing",
+        "text": "The complete system is hot-dip galvanized after welding for corrosion protection."
+      }
+    ],
+    "lindeEyebrow": "Approved supplier",
+    "lindeTitle": "Linde Engineering India",
+    "lindeText": "Santura was an approved supplier of counter-weight systems to Linde Engineering India Pvt Ltd from {period}, under supplier code {code}. It is the only named client approval on our record for a specific product.",
+    "lindeCodeLabel": "Supplier code",
+    "lindePeriodLabel": "Approval period",
+    "lindeNote": "Historic approval, shown with the client's permission.",
+    "lindeCert": "View the Linde certificate (PDF)",
+    "petron": "In 2006 we also supplied counter-weight systems and furnace sight doors to Petron Engineering Construction Ltd, who issued an appreciation letter for the work.",
+    "componentsTitle": "System components",
+    "components": [
+      {
+        "title": "Lever arm assembly",
+        "text": "H-beam or I-beam frame with pivot bushings; the balancing beam of the system."
+      },
+      {
+        "title": "Dead weight stack",
+        "text": "A calculated mass of carbon steel or cast iron blocks, bolted or pinned to the lever arm."
+      },
+      {
+        "title": "Hanger rods",
+        "text": "Connect the tube to the lever arm through the furnace roof and allow for thermal expansion."
+      },
+      {
+        "title": "Yoke assembly",
+        "text": "Connects the hanger rods to the end of the lever arm."
+      },
+      {
+        "title": "Clevis and pin joints",
+        "text": "Stainless steel clevises with SS 410S pins at every connection, so each joint pivots freely."
+      },
+      {
+        "title": "Graphalloy bushings",
+        "text": "Imported oil-less, self-lubricating bearings embedded in carbon steel housings at all pivots."
+      },
+      {
+        "title": "Fulcrum frame",
+        "text": "Structural frame on the furnace roof that carries the lever arm pivot."
+      },
+      {
+        "title": "Grade 8.8 fasteners",
+        "text": "Heat-treated high-strength bolts for all structural connections."
+      }
+    ],
+    "applicationsTitle": "Applications",
+    "applications": [
+      {
+        "title": "Hydrogen reformers",
+        "text": "Steam methane reformers, the main application. Catalyst-filled tubes hang vertically in the firebox. Used in hydrogen, ammonia and methanol plants."
+      },
+      {
+        "title": "Ethylene cracking furnaces",
+        "text": "Steam crackers, where good support of the radiant coils is critical to coil life."
+      },
+      {
+        "title": "Other reformers",
+        "text": "Autothermal and secondary reformers."
+      },
+      {
+        "title": "Industries",
+        "text": "Oil refineries, petrochemical plants, ammonia and fertiliser plants, methanol plants and hydrogen production."
+      }
+    ],
+    "whyTitle": "Why build quality matters",
+    "why": [
+      {
+        "title": "Tube life",
+        "text": "Reformer tubes are costly, and replacing one means an unplanned shutdown. A system that does not balance precisely puts uneven stress on the tubes and leads to early creep failure."
+      },
+      {
+        "title": "Friction",
+        "text": "Friction at the pivots passes extra load into the tubes. Oil-less Graphalloy bushings are specified because lubricated bearings do not work reliably at these temperatures."
+      },
+      {
+        "title": "Fasteners",
+        "text": "Bolts with incorrect heat treatment can fail under sustained load at high temperature, which is why we monitor hardness and tempering."
+      },
+      {
+        "title": "Thousands of cycles",
+        "text": "The system has to stay in balance through thousands of heating and cooling cycles over many years of service."
+      }
+    ],
+    "specTitle": "Specifications",
+    "colComponent": "Component",
+    "colSpec": "Specification",
+    "specRows": [
+      {
+        "label": "Dead weight material",
+        "value": "Carbon steel / cast iron"
+      },
+      {
+        "label": "Frame construction",
+        "value": "H-section and I-section, hollow, with embedded Graphalloy bushings"
+      },
+      {
+        "label": "Pivot pins",
+        "value": "SS 410S (martensitic stainless steel)"
+      },
+      {
+        "label": "Clevises",
+        "value": "Stainless steel, machined"
+      },
+      {
+        "label": "Bushings",
+        "value": "Imported Graphalloy oil-less, self-lubricating bearings"
+      },
+      {
+        "label": "Fasteners",
+        "value": "Grade 8.8, heat treated, hardness and tempering controlled"
+      },
+      {
+        "label": "Surface treatment",
+        "value": "Hot-dip galvanized after welding"
+      },
+      {
+        "label": "Fabrication",
+        "value": "To the client's engineering drawings"
+      },
+      {
+        "label": "Design basis",
+        "value": "Client and licensor specifications for heaters designed to API 560"
+      }
+    ],
+    "relatedTitle": "Related products and services",
+    "relatedPipeGuides": "Pipe guides, ring sleeves and tube supports for fired heaters.",
+    "relatedSupportPlates": "Support brackets and base plates for furnace steelwork.",
+    "relatedAnchors": "SEPL anchors for reformer and cracker furnace linings.",
+    "relatedSwText": "Stud welding of anchors to furnace shells.",
+    "relatedPmiText": "Alloy verification of stainless steel pins and clevises.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What is a counter-weight system in a reformer?",
+        "a": "It is a lever system on the furnace roof that carries the weight of each reformer tube. A hanger rod connects the tube to one end of a pivoted lever arm, and a calculated dead weight on the other end balances it. When the tube heats up and grows, the lever tilts and the support force stays the same, so the tube can expand without stress."
+      },
+      {
+        "q": "Why are Graphalloy bushings used?",
+        "a": "Graphalloy is a graphite and metal composite bearing material that runs without oil or grease and keeps working at high temperatures. Every pivot in a counter-weight system must move with almost no friction, because friction would push extra load into the tubes. Lubricated bearings dry out or seize in this service, so oil-less Graphalloy bushings are used instead."
+      },
+      {
+        "q": "What material are the pivot pins?",
+        "a": "Our pivot pins are special grade stainless steel 410S, a martensitic stainless steel with good corrosion and heat resistance. They run in stainless steel clevises machined at our Mumbai workshop."
+      },
+      {
+        "q": "What is the Linde approval?",
+        "a": "Linde Engineering India Pvt Ltd approved Santura as a supplier of counter-weight systems from {period}, under supplier code {code}. The approval was for this product specifically. It is a historic approval, and the certificate is shown on this page with the client's permission."
+      }
+    ],
+    "ctaTitle": "Need counter-weight systems?",
+    "ctaText": "Send us your engineering drawings with the number of tubes, balance loads and delivery schedule. We will reply with a quotation and delivery time.",
+    "ctaRfq": "Request a Quote for Counter-Weight Systems",
+    "ctaContact": "Or contact our team"
+  },
+  "mwPage": {
+    "metaTitle": "Mineral Wool Insulation Supplier | Rockwool & Glass Wool",
+    "metaDescription": "Mineral wool insulation — rockwool & glass wool slabs, rolls, pipe sections. Trusted supplier since 1980, exporting to 25+ countries. Request a quote.",
+    "eyebrow": "Insulation materials",
+    "h1": "Mineral Wool Insulation",
+    "subheading": "Rockwool (stone wool) and glass wool insulation in rolls, slabs, batts, wire-mesh mattresses, pipe sections and loose wool, for refineries, power plants, ships and buildings. Supplied to project specification with the insulation pins to fix it.",
+    "gallery": [
+      "Mineral wool insulation slabs and rolls",
+      "Preformed mineral wool pipe sections",
+      "Rockwool insulation roll with aluminium foil facing",
+      "Close-up of mineral wool fibres"
+    ],
+    "overviewTitle": "What mineral wool is",
+    "overview": "Mineral wool is the general name for fibrous insulation made by melting natural or recycled minerals and spinning them into fine fibres. The fibres are bonded with a resin binder so the product keeps its shape. Santura supplies the two main types: rockwool for high-temperature industrial insulation, and glass wool for buildings, HVAC and acoustic work.",
+    "types": [
+      {
+        "title": "Rockwool (stone wool)",
+        "tag": "Up to 750 °C · 30–200 kg/m³",
+        "text": "Made from selected rock, such as basalt, melted at about 1500 °C in a cupola and spun at high speed into fibres. Supplied as rolls, slabs, batts, mattresses, pipe sections and loose wool. The standard choice for hot pipes, vessels, boilers and ducts."
+      },
+      {
+        "title": "Glass wool (fibreglass)",
+        "tag": "Up to about 450 °C · lighter weight",
+        "text": "Made from up to 70% recycled glass with sand, melted at about 1550 °C and spun into fine fibres. Light, easy to install and good for sound absorption. Widely used for roofs, walls, HVAC ducts and acoustic insulation."
+      }
+    ],
+    "traits": [
+      "Non-combustible",
+      "Asbestos-free",
+      "Non-hazardous",
+      "Rot-proof",
+      "Resistant to insects and vermin",
+      "No shrinkage in service"
+    ],
+    "rwTitle": "Rockwool insulation products",
+    "rwIntro": "Rockwool is supplied in six forms. Thickness and density are chosen for the operating temperature, the surface and the mechanical load.",
+    "colForm": "Form",
+    "colThickness": "Thickness",
+    "colDensity": "Density",
+    "colUse": "Typical use",
+    "rwForms": [
+      {
+        "form": "Building rolls",
+        "thickness": "40–100 mm",
+        "density": "36, 48, 64 kg/m³ and above",
+        "text": "Thermal and acoustic insulation of metal buildings: over and under roof purlins, walls, partitions and false ceiling overlays."
+      },
+      {
+        "form": "Slabs",
+        "thickness": "25–200 mm",
+        "density": "30–200 kg/m³",
+        "text": "Rigid or semi-rigid boards for ducts, vessels, equipment and flat or slightly curved surfaces; also construction, shipbuilding and fire protection."
+      },
+      {
+        "form": "Batts",
+        "thickness": "25–118 mm",
+        "density": "100–150 kg/m³",
+        "text": "Unfaced, extra-rigid batts for thermal and fire-safety insulation, and as the core of sandwich panels."
+      },
+      {
+        "form": "Mattresses",
+        "thickness": "25–100 mm",
+        "density": "70–150 kg/m³",
+        "text": "Faced with galvanized or stainless steel hexagonal wire mesh and stitched to size. For boilers, storage tanks and pipelines up to 750 °C, and for marine use."
+      },
+      {
+        "form": "Pipe sections",
+        "thickness": "25–100 mm",
+        "density": "100, 128, 136, 144 kg/m³",
+        "text": "Preformed sections for pipes up to 750 °C, with or without aluminium foil. Used in power plants and refineries."
+      },
+      {
+        "form": "Loose wool",
+        "thickness": "—",
+        "density": "Various",
+        "text": "Lightly bonded stone wool for in-fill around pipe bundles and irregular spaces."
+      }
+    ],
+    "pipeNote": "Pipe sections are mandrel wound and formed concentrically to fit standard pipe diameters. They insulate evenly around the full 360° of the pipe, resist compression in service and are quick to fit on site.",
+    "gwTitle": "Glass wool insulation products",
+    "gwIntro": "Glass wool is lighter than rockwool and is mostly used where temperatures are lower and sound absorption matters.",
+    "gwForms": [
+      {
+        "title": "Rolls and blankets",
+        "text": "Wall cavities, loft and roof insulation, and HVAC duct wrap."
+      },
+      {
+        "title": "Rigid and semi-rigid boards",
+        "text": "Curtain walls, partition infill and ceiling tiles."
+      },
+      {
+        "title": "Pipe sections",
+        "text": "Insulation for lower-temperature pipelines."
+      },
+      {
+        "title": "Loose fill",
+        "text": "Blown-in insulation for cavities and attics."
+      }
+    ],
+    "compareTitle": "Rockwool and glass wool compared",
+    "colProperty": "Property",
+    "colRockwool": "Rockwool",
+    "colGlassWool": "Glass wool",
+    "compareRows": [
+      {
+        "label": "Raw material",
+        "rw": "Basalt / diabase rock",
+        "gw": "Up to 70% recycled glass with sand"
+      },
+      {
+        "label": "Melting temperature",
+        "rw": "About 1500 °C",
+        "gw": "About 1550 °C"
+      },
+      {
+        "label": "Maximum service temperature",
+        "rw": "750 °C",
+        "gw": "About 450 °C (product dependent)"
+      },
+      {
+        "label": "Density",
+        "rw": "30–200 kg/m³",
+        "gw": "10–80 kg/m³"
+      },
+      {
+        "label": "Thickness",
+        "rw": "25–200 mm",
+        "gw": "25–150 mm"
+      },
+      {
+        "label": "Thermal conductivity (λ)",
+        "rw": "0.034–0.045 W/m·K",
+        "gw": "0.030–0.040 W/m·K"
+      },
+      {
+        "label": "Fire classification",
+        "rw": "Non-combustible (Euroclass A1)",
+        "gw": "Non-combustible (Euroclass A1 or A2)"
+      },
+      {
+        "label": "Acoustic performance",
+        "rw": "Excellent (NRC 0.90–1.05)",
+        "gw": "Excellent (NRC 0.85–1.00)"
+      },
+      {
+        "label": "Moisture",
+        "rw": "Water-repellent treatment available",
+        "gw": "Water-repellent treatment available"
+      },
+      {
+        "label": "Corrosion behaviour",
+        "rw": "Free of halides and sulphides; safe under stainless steel cladding",
+        "gw": "Low chloride content"
+      }
+    ],
+    "compareNote": "Typical values. Exact figures depend on the product, density and manufacturer; the manufacturer's data sheet and test certificates are supplied with each order.",
+    "traitsTitle": "Characteristics",
+    "characteristics": [
+      "Asbestos-free and non-hazardous to health",
+      "Rot-proof, odourless, and resistant to fungus, insects and vermin",
+      "Does not shrink or settle over time",
+      "Does not absorb moisture from the air; any water that enters under pressure dries out quickly through the open fibre structure",
+      "Chemically inert and does not promote mould growth",
+      "Made without CFCs or HCFCs"
+    ],
+    "corrosionTitle": "Corrosion protection",
+    "corrosionText": "Rockwool fibres are free of halides (chlorides and fluorides) and sulphides, impurities found in some other insulation materials. It is made by a dry process and is faintly alkaline, which works against corrosion. This makes it safe over stainless steel, where chlorides can cause stress corrosion cracking under insulation. It meets ASTM C795 where specified.",
+    "standardsTitle": "Standards and testing",
+    "standards": [
+      "Steady-state heat transfer of pipe insulation",
+      "Thermal conductivity by guarded hot plate",
+      "Thermal conductivity by heat flow meter",
+      "Mineral fibre pipe insulation",
+      "Mineral fibre blanket insulation for industrial use",
+      "Mineral fibre block and board insulation",
+      "Mineral fibre blanket insulation for buildings",
+      "Insulation for use over austenitic stainless steel",
+      "Factory-made mineral wool products for buildings",
+      "Preformed mineral fibre pipe sections and thermal insulating materials"
+    ],
+    "applicationsTitle": "Applications by industry",
+    "applications": [
+      {
+        "title": "Oil, gas and petrochemical",
+        "items": [
+          "Hot and cold process pipe insulation",
+          "Vessels, columns, tanks and heat exchangers",
+          "External insulation of fired heaters and furnaces"
+        ]
+      },
+      {
+        "title": "Power generation",
+        "items": [
+          "Boiler insulation and turbine cladding",
+          "Flue gas duct insulation",
+          "HRSG insulation in combined-cycle plants"
+        ]
+      },
+      {
+        "title": "Construction and HVAC",
+        "items": [
+          "Walls, roofs and floors",
+          "HVAC duct wrap and lining",
+          "Acoustic insulation of partitions and ceilings",
+          "Fire-rated wall and floor assemblies"
+        ]
+      },
+      {
+        "title": "Marine and offshore",
+        "items": [
+          "Bulkhead and deck insulation",
+          "Engine room thermal and acoustic insulation",
+          "Pipe insulation on offshore platforms"
+        ]
+      },
+      {
+        "title": "Industrial and manufacturing",
+        "items": [
+          "External insulation of kilns and ovens",
+          "Cold storage and food processing",
+          "Noise control in factories"
+        ]
+      }
+    ],
+    "supplyTitle": "What we supply",
+    "supply": [
+      "Santura supplies rockwool and glass wool insulation to refineries, petrochemical plants, power stations and construction projects, and exports to more than 25 countries. Products are sourced from established manufacturers and supplied to your project specification, with the manufacturer's test certificates.",
+      "Because we manufacture insulation pins and washers in-house, we can supply the insulation and its fixings together for a complete insulation package."
+    ],
+    "relatedTitle": "Related products and services",
+    "relatedPins": "Weld pins and washers for fixing mineral wool slabs and mattresses.",
+    "relatedCalsil": "Rigid calcium silicate boards and pipe sections for high-temperature insulation.",
+    "relatedAnchors": "SEPL anchors for the refractory linings behind high-temperature insulation.",
+    "relatedSwText": "Stud welding equipment for fixing insulation pins.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What is the difference between rockwool and glass wool insulation?",
+        "a": "Rockwool (stone wool) is made from basalt rock, handles temperatures up to 750 °C and has a higher density (30–200 kg/m³), which makes it the choice for high-temperature industrial insulation. Glass wool is made from recycled glass, is lighter (10–80 kg/m³) and suits temperatures up to about 450 °C. It is preferred for HVAC, acoustic and building insulation."
+      },
+      {
+        "q": "What temperature can mineral wool insulation withstand?",
+        "a": "Rockwool can be used continuously up to 750 °C, while glass wool is rated up to about 450 °C depending on the product. Both are non-combustible: unfaced rockwool is Euroclass A1, and glass wool is A1 or A2 depending on the product."
+      },
+      {
+        "q": "What thicknesses and densities are available?",
+        "a": "Rockwool is available from 25 mm to 200 mm thick and from 30 to 200 kg/m³. Glass wool ranges from 25 mm to 150 mm thick and from 10 to 80 kg/m³. Other specifications are available on request."
+      },
+      {
+        "q": "Is mineral wool insulation safe and asbestos-free?",
+        "a": "Yes. The mineral wool we supply is asbestos-free, non-hazardous, made without CFCs or HCFCs, rot-proof and chemically inert. It is safe to handle with standard PPE, and rockwool is free of the chlorides that cause corrosion under stainless steel cladding."
+      }
+    ],
+    "ctaTitle": "Need mineral wool insulation?",
+    "ctaText": "Send us the product form, thickness, density, facing, quantity and operating temperature. We will reply with a quotation and delivery time.",
+    "ctaRfq": "Request a Quote for Mineral Wool",
+    "ctaContact": "Or contact our team"
+  },
+  "cgPage": {
+    "metaTitle": "Ceramic Gaskets & High-Temp Sealing | Industrial Supplier",
+    "metaDescription": "Ceramic fibre gaskets, ropes, tapes & industrial gaskets for furnaces and refineries. Trusted supplier since 1980, exporting to 25+ countries. Get a quote.",
+    "eyebrow": "Insulation and sealing",
+    "h1": "Ceramic Gaskets & High-Temperature Sealing Products",
+    "subheading": "Ceramic fibre rope, tape, paper, blanket, board, cloth and tadpole gaskets for furnace doors, expansion joints and flue seals, plus non-asbestos, PTFE, graphite and spiral wound gaskets for pipe flanges. One supplier for high-temperature seals and flange gaskets.",
+    "gallery": [
+      "Assorted industrial gaskets including spiral wound gaskets",
+      "Non-asbestos flange gaskets",
+      "Black compressed gasket sheet"
+    ],
+    "overviewTitle": "What ceramic gaskets are",
+    "overview": [
+      "Ceramic gaskets are high-temperature seals made from ceramic fibre, an alumino-silicate material. They seal joints, doors, flanges and expansion gaps in furnaces, kilns, fired heaters and boilers. Standard ceramic fibre is classified to 1260 °C, and zirconia grades go higher, far beyond the range of rubber or compressed fibre gaskets.",
+      "For pipe flanges and pressure equipment at lower temperatures, we also supply conventional industrial gaskets: non-asbestos, PTFE, graphite, spiral wound, ring type joint and double jacketed. Together they give refineries, petrochemical plants and power stations one source for their sealing needs."
+    ],
+    "ceramicTitle": "Ceramic fibre sealing products",
+    "ceramicIntro": "All ceramic fibre products are asbestos-free and chemically inert. Choose the form by the shape of the joint and how often it is opened.",
+    "ceramic": [
+      {
+        "name": "Ceramic fibre rope (round)",
+        "text": "Braided or twisted round rope for door seals, expansion joints and packing glands.",
+        "sizes": "Ø 6–50 mm · custom lengths"
+      },
+      {
+        "name": "Ceramic fibre rope (square)",
+        "text": "Square braided rope for furnace door frames and oven seals.",
+        "sizes": "6 × 6 mm to 50 × 50 mm"
+      },
+      {
+        "name": "Ceramic fibre tape",
+        "text": "Woven flat tape for wrapping flanges and pipe joints, and for cable protection.",
+        "sizes": "25–150 mm wide · 2–5 mm thick"
+      },
+      {
+        "name": "Ceramic fibre paper",
+        "text": "Thin, flexible sheet for die-cut gaskets, flange seals and electrical insulation.",
+        "sizes": "1–6 mm thick · rolls up to 1000 mm wide"
+      },
+      {
+        "name": "Ceramic fibre blanket",
+        "text": "Needle-punched flexible blanket for linings, wrapping and back-up insulation.",
+        "sizes": "6–50 mm thick · 64–192 kg/m³"
+      },
+      {
+        "name": "Ceramic fibre board",
+        "text": "Rigid vacuum-formed board for furnace linings, baffles and flue seals.",
+        "sizes": "6–50 mm thick · 280–400 kg/m³"
+      },
+      {
+        "name": "Ceramic fibre cloth",
+        "text": "Woven fabric for curtains, welding blankets and removable insulation covers.",
+        "sizes": "1.5–5 mm thick"
+      },
+      {
+        "name": "Tadpole gaskets",
+        "text": "Bulb-and-tail profile seals for oven and furnace doors; the tail is clamped or riveted to the frame.",
+        "sizes": "Bulb Ø 10–40 mm · tail 25–100 mm"
+      }
+    ],
+    "convTitle": "Industrial gaskets",
+    "convIntro": "We supply these gaskets through an established gasket manufacturer, to your specification and flange standard.",
+    "colType": "Type",
+    "colMaterial": "Material",
+    "colMaxTemp": "Max. temperature",
+    "colUse": "Typical use",
+    "conventional": [
+      {
+        "name": "Non-asbestos (CAF replacement)",
+        "material": "Aramid or glass fibre with NBR binder",
+        "temp": "About 450 °C",
+        "text": "Replaces compressed asbestos fibre gaskets. Air compressors, diesel engine pipelines, industrial and marine service."
+      },
+      {
+        "name": "PTFE gaskets",
+        "material": "Virgin or filled PTFE",
+        "temp": "About 260 °C",
+        "text": "Flanges exposed to aggressive chemicals such as acids, alkalis and solvents."
+      },
+      {
+        "name": "Graphite gaskets",
+        "material": "Flexible graphite, plain or tanged, with optional stainless steel or nickel reinforcement",
+        "temp": "About 450 °C in air, 650 °C in steam",
+        "text": "Severe service. Self-lubricating and does not stick to flanges."
+      },
+      {
+        "name": "Spiral wound gaskets",
+        "material": "SS304 / SS316 windings with graphite or PTFE filler",
+        "temp": "About 600 °C",
+        "text": "Refinery and petrochemical flanges, high pressure and temperature cycling."
+      },
+      {
+        "name": "Ring type joints (RTJ)",
+        "material": "Solid stainless steel or Inconel",
+        "temp": "600 °C and above",
+        "text": "High-pressure RTJ flanges in oil and gas service."
+      },
+      {
+        "name": "Double jacketed gaskets",
+        "material": "Metal jacket with soft filler",
+        "temp": "About 550 °C",
+        "text": "Heat exchangers and large-diameter flanges."
+      },
+      {
+        "name": "Rubber and nitrile gaskets",
+        "material": "Natural rubber, NBR and other elastomers",
+        "temp": "About 100–120 °C",
+        "text": "Water, oil and general low-temperature service."
+      }
+    ],
+    "specTitle": "Ceramic fibre properties",
+    "specRows": [
+      {
+        "label": "Classification temperature",
+        "value": "1260 °C (standard), up to 1400 °C (zirconia grade)"
+      },
+      {
+        "label": "Continuous service temperature",
+        "value": "1000–1260 °C, depending on grade"
+      },
+      {
+        "label": "Chemical composition",
+        "value": "Al₂O₃ 45–55%, SiO₂ 45–55% (standard); ZrO₂ 15–17% (zirconia grade)"
+      },
+      {
+        "label": "Colour",
+        "value": "White"
+      },
+      {
+        "label": "Thermal conductivity",
+        "value": "0.08–0.23 W/m·K at mean temperatures of 200–1000 °C"
+      },
+      {
+        "label": "Asbestos content",
+        "value": "None: 100% asbestos-free"
+      }
+    ],
+    "specNote": "Typical values. Exact figures depend on the product form, grade and manufacturer; the manufacturer's data sheet and test certificates are supplied with each order.",
+    "dimTitle": "Ready-cut gasket dimensions",
+    "dimIntro": "Compressed fibre flange gaskets to the ASME B16.21 pattern. All dimensions in millimetres.",
+    "colNps": "Nominal pipe size",
+    "colId": "Inside diameter",
+    "colOd": "Outside diameter by pressure class",
+    "colClass": "Class {cls}",
+    "dimNote": "Ready-cut gaskets are available in standard ASME sizes. Custom sizes and pressure classes are made to drawing.",
+    "standardsTitle": "Standards",
+    "standards": [
+      "High-temperature fibre blanket insulation",
+      "Test methods for ceramic fibre products",
+      "Insulating refractory products: ceramic fibre products",
+      "Metallic gaskets for pipe flanges (spiral wound, ring joint, jacketed)",
+      "Non-metallic flat gaskets for pipe flanges",
+      "Non-metallic flat gaskets: characteristic values"
+    ],
+    "applicationsTitle": "Applications by industry",
+    "applications": [
+      {
+        "title": "Oil, gas and petrochemical",
+        "items": [
+          "Fired heater door seals and peephole gaskets",
+          "Furnace expansion joint packing",
+          "Flange gaskets on high-temperature process lines",
+          "Catalyst regenerator and flare stack seals"
+        ]
+      },
+      {
+        "title": "Power generation",
+        "items": [
+          "Boiler door and inspection port seals",
+          "HRSG duct expansion joints",
+          "Turbine exhaust gaskets",
+          "Economiser and air preheater seals"
+        ]
+      },
+      {
+        "title": "Steel, metals and cement",
+        "items": [
+          "Kiln door and kiln car seals",
+          "Annealing furnace door rope seals",
+          "Ladle cover gaskets",
+          "Clinker cooler seals"
+        ]
+      },
+      {
+        "title": "Glass and ceramics",
+        "items": [
+          "Glass furnace crown and port seals",
+          "Forehearth channel gaskets",
+          "Ceramic kiln door seals"
+        ]
+      },
+      {
+        "title": "General industrial",
+        "items": [
+          "Incinerator and waste-to-energy seals",
+          "Heat treatment furnace door gaskets",
+          "Oven conveyor slot seals",
+          "Exhaust system gaskets"
+        ]
+      }
+    ],
+    "supplyTitle": "What we supply",
+    "supply": [
+      "Santura supplies ceramic fibre gaskets, ropes, tapes, papers and blankets, together with non-asbestos, PTFE, graphite and spiral wound gaskets, to refineries, petrochemical plants, power stations, steel mills and cement plants, and exports to more than 25 countries. Products come from established manufacturers and are supplied to your specification with the manufacturer's test certificates.",
+      "Because we manufacture refractory anchors, insulation pins and SEPL-24 ceramic fibre stud anchors ourselves, we can supply a complete furnace lining package from one source: anchors, studs, gaskets and insulation materials."
+    ],
+    "relatedTitle": "Related products",
+    "relatedMineralWool": "Rockwool and glass wool insulation for pipes, vessels and ducts.",
+    "relatedPins": "Weld pins and washers for fixing blankets and insulation.",
+    "relatedAnchors": "SEPL anchors for complete furnace linings.",
+    "relatedSepl24": "Stud-welded anchors for ceramic fibre blanket and module linings.",
+    "relatedDoors": "Observation and peep doors, sealed with ceramic fibre rope and gaskets.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What temperature can ceramic fibre gaskets withstand?",
+        "a": "Standard alumino-silicate ceramic fibre gaskets are classified to 1260 °C, with continuous service typically up to about 1000 °C. Zirconia grades withstand up to 1400 °C. They are non-combustible and suit furnace doors, expansion joints and flue gas seals."
+      },
+      {
+        "q": "What types of ceramic gaskets are available?",
+        "a": "Ceramic fibre sealing products include round and square braided rope, woven tape, ceramic paper for die-cut gaskets, tadpole door seals, cloth and blanket, and rigid board for baffle seals. All are asbestos-free and chemically inert."
+      },
+      {
+        "q": "What is the difference between ceramic gaskets and conventional industrial gaskets?",
+        "a": "Ceramic fibre gaskets handle 1000–1260 °C and are used for furnace doors and expansion joints, where pressure is low. Conventional gaskets (non-asbestos up to about 450 °C, PTFE about 260 °C, graphite about 450 °C in air, spiral wound about 600 °C) seal pipe flanges and pressure vessels at lower temperatures. Santura supplies both."
+      },
+      {
+        "q": "Do you supply gaskets to ASME standards?",
+        "a": "Yes. We supply spiral wound, ring joint and jacketed gaskets to ASME B16.20 and non-metallic flat gaskets to ASME B16.21. Ready-cut gaskets are available in standard ASME flange sizes, and other sizes and pressure classes are made to drawing."
+      }
+    ],
+    "ctaTitle": "Need ceramic gaskets or flange gaskets?",
+    "ctaText": "Send us the product, size or flange standard, pressure class, temperature and quantity. We will reply with a quotation and delivery time.",
+    "ctaRfq": "Request a Quote for Gaskets",
+    "ctaContact": "Or contact our team"
+  },
+  "gfPage": {
+    "metaTitle": "Glass Fibre Sheets, Cloth & Glass Wool | Industrial Supplier",
+    "metaDescription": "Glass fibre sheets, woven cloth, tape & glass wool insulation for industry. Trusted supplier since 1980, exporting to 25+ countries. Request a quote.",
+    "eyebrow": "Insulation materials",
+    "h1": "Glass Fibre Sheets, Cloth & Glass Wool",
+    "subheading": "Glass fibre boards and laminates, woven glass cloth and tape, and glass wool rolls, pipe sections and mattresses for insulation, lagging and reinforcement. Supplied to project specification with the pins and studs to fix them.",
+    "gallery": [
+      "Roll of chopped strand glass fibre mat",
+      "Glass fibre roving spools",
+      "Close-up of glass fibre strands"
+    ],
+    "overviewTitle": "What glass fibre products are",
+    "overview": "Glass fibre (fibreglass) products are made by melting glass at about 1550 °C and spinning or drawing it into fine fibres. Glass wool uses up to 70% recycled glass. Depending on how the fibres are formed, the result is a soft insulation wool, a rigid or semi-rigid board, or a yarn woven into cloth and tape.",
+    "functions": [
+      {
+        "title": "Insulation",
+        "text": "Glass wool rolls, boards, pipe sections and mattresses for thermal and acoustic insulation of pipes, ducts, walls, roofs and equipment."
+      },
+      {
+        "title": "Reinforcement and protection",
+        "text": "Woven glass cloth, tape, roving and laminates for heat-resistant wrapping and lagging, gasket material, composite reinforcement and fire curtains."
+      }
+    ],
+    "glassTypes": "Glass cloth and tape are woven from E-glass yarn, the most widely used and economical textile glass. S-glass has about 30% higher tensile strength and better performance at elevated temperature, at a higher cost. Glass wool is made from a soda-lime-borosilicate glass that uses recycled cullet.",
+    "groups": [
+      {
+        "title": "Glass fibre sheets and boards",
+        "intro": "Rigid and semi-rigid boards for insulation, and resin laminates for electrical and structural parts.",
+        "rows": [
+          {
+            "name": "Rigid glass fibre board",
+            "text": "Resin-bonded board for duct lining, curtain wall infill and ceiling tiles.",
+            "spec": "25–100 mm thick · 48–96 kg/m³"
+          },
+          {
+            "name": "Semi-rigid glass fibre board",
+            "text": "Flexible enough for curved surfaces and equipment wrap.",
+            "spec": "25–75 mm thick · 24–64 kg/m³"
+          },
+          {
+            "name": "Glass fibre laminate (G10 / FR4)",
+            "text": "Epoxy-impregnated sheet for electrical insulation and structural components.",
+            "spec": "0.5–50 mm thick"
+          },
+          {
+            "name": "Aluminium foil faced board",
+            "text": "Rigid board with a reflective vapour barrier facing.",
+            "spec": "25–100 mm thick"
+          }
+        ]
+      },
+      {
+        "title": "Glass fibre cloth and textiles",
+        "intro": "Woven glass textiles for lagging, wrapping, sealing and composite work.",
+        "rows": [
+          {
+            "name": "Woven glass cloth (plain weave)",
+            "text": "Standard industrial wrapping and lagging cloth.",
+            "spec": "200–800 g/m² · 0.2–1.0 mm"
+          },
+          {
+            "name": "Woven glass cloth (twill weave)",
+            "text": "Better drape over curved surfaces and for composite lay-up.",
+            "spec": "200–600 g/m² · 0.2–0.8 mm"
+          },
+          {
+            "name": "Texturised glass cloth",
+            "text": "Bulked yarn for a thicker, softer lagging cloth.",
+            "spec": "400–1200 g/m² · 0.5–3.0 mm"
+          },
+          {
+            "name": "Silicone or PTFE coated glass cloth",
+            "text": "Chemical-resistant, non-stick cloth for wrapping and gaskets.",
+            "spec": "Up to 260 °C (PTFE) / about 300 °C (silicone)"
+          },
+          {
+            "name": "Glass fibre tape",
+            "text": "Narrow woven tape for pipe wrapping and cable binding.",
+            "spec": "20–150 mm wide · 0.2–1.0 mm"
+          },
+          {
+            "name": "Glass fibre woven roving",
+            "text": "Heavy fabric for composite (FRP / GRP) reinforcement.",
+            "spec": "200–800 g/m²"
+          }
+        ]
+      },
+      {
+        "title": "Glass wool insulation",
+        "intro": "Lightweight insulation for buildings, HVAC and lower-temperature process equipment.",
+        "rows": [
+          {
+            "name": "Glass wool rolls and blankets",
+            "text": "Flexible insulation for walls, roofs and HVAC duct wrap.",
+            "spec": "25–150 mm thick · 10–48 kg/m³"
+          },
+          {
+            "name": "Glass wool pipe sections",
+            "text": "Preformed sections for pipe insulation.",
+            "spec": "ID 15–600 mm · 25–100 mm thick"
+          },
+          {
+            "name": "Glass wool mattresses",
+            "text": "Wire-mesh faced mattresses for equipment, vessel and column insulation.",
+            "spec": "25–100 mm thick · 24–80 kg/m³"
+          },
+          {
+            "name": "Loose glass wool",
+            "text": "Blown-in insulation for cavities and hard-to-reach spaces.",
+            "spec": "Density to suit the application"
+          }
+        ]
+      }
+    ],
+    "colProduct": "Product",
+    "colDescription": "Description",
+    "colSpec": "Typical specification",
+    "compareTitle": "Properties compared",
+    "colProperty": "Property",
+    "colWool": "Glass wool",
+    "colCloth": "Glass fibre cloth",
+    "colBoard": "Glass fibre board",
+    "compareRows": [
+      {
+        "label": "Raw material",
+        "wool": "Soda-lime-borosilicate glass, up to 70% recycled",
+        "cloth": "E-glass or S-glass yarn",
+        "board": "Glass wool with resin binder"
+      },
+      {
+        "label": "Max. continuous service temperature",
+        "wool": "230–450 °C, depending on binder",
+        "cloth": "About 550 °C (uncoated E-glass)",
+        "board": "230–450 °C"
+      },
+      {
+        "label": "Softening point",
+        "wool": "About 650–700 °C",
+        "cloth": "About 840 °C (E-glass)",
+        "board": "About 650–700 °C"
+      },
+      {
+        "label": "Density",
+        "wool": "10–96 kg/m³",
+        "cloth": "Measured in g/m²",
+        "board": "24–96 kg/m³"
+      },
+      {
+        "label": "Thermal conductivity (λ)",
+        "wool": "0.030–0.045 W/m·K at 24 °C",
+        "cloth": "—",
+        "board": "0.032–0.040 W/m·K"
+      },
+      {
+        "label": "Acoustic performance",
+        "wool": "NRC 0.80–1.00",
+        "cloth": "—",
+        "board": "NRC 0.75–0.95"
+      },
+      {
+        "label": "Fire classification",
+        "wool": "Non-combustible (Euroclass A1 or A2)",
+        "cloth": "Non-combustible (uncoated)",
+        "board": "Non-combustible (A1 or A2)"
+      },
+      {
+        "label": "Moisture",
+        "wool": "Water-repellent treatment available",
+        "cloth": "Does not absorb moisture",
+        "board": "Water-repellent treatment available"
+      },
+      {
+        "label": "Fibre diameter",
+        "wool": "4–9 µm",
+        "cloth": "6–13 µm, depending on yarn",
+        "board": "4–9 µm"
+      },
+      {
+        "label": "Asbestos",
+        "wool": "None",
+        "cloth": "None",
+        "board": "None"
+      }
+    ],
+    "compareNote": "Typical values. Exact figures depend on the product, binder and manufacturer; the manufacturer's data sheet and test certificates are supplied with each order. For temperatures above these limits, use rockwool or ceramic fibre.",
+    "traitsTitle": "Characteristics",
+    "characteristics": [
+      "Glass wool made with up to 70% recycled glass",
+      "Asbestos-free and non-hazardous",
+      "Made without CFCs, HCFCs or HFCs",
+      "Non-combustible (uncoated products)",
+      "Does not shrink, sag or settle over time",
+      "Rot-proof and resistant to insects and vermin",
+      "Good sound absorption (NRC 0.80–1.00)",
+      "Low thermal conductivity for energy savings",
+      "Lightweight and easy to handle and install",
+      "Resistant to most chemicals, except hydrofluoric acid and strong alkalis"
+    ],
+    "standardsTitle": "Standards and testing",
+    "standards": [
+      "Mineral fibre blanket and felt insulation",
+      "Mineral fibre block and board insulation",
+      "Mineral fibre pipe insulation",
+      "Thermal conductivity by guarded hot plate and heat flow meter",
+      "Finished glass fabrics woven from rovings",
+      "Surface burning characteristics",
+      "Factory-made mineral wool products for buildings",
+      "Tensile strength of coated fabrics",
+      "Thermal insulating materials",
+      "Preformed mineral fibre pipe sections"
+    ],
+    "applicationsTitle": "Applications by industry",
+    "applications": [
+      {
+        "title": "Oil, gas and petrochemical",
+        "items": [
+          "Pipe and equipment insulation",
+          "Glass cloth lagging over mineral wool insulation",
+          "Vessel and column wrap with wire-mesh faced mattresses",
+          "Glass fibre tape for securing insulation layers"
+        ]
+      },
+      {
+        "title": "Power generation",
+        "items": [
+          "Boiler insulation and duct lining",
+          "Turbine and generator acoustic enclosures",
+          "HRSG insulation blankets",
+          "Flue gas duct insulation"
+        ]
+      },
+      {
+        "title": "Construction and HVAC",
+        "items": [
+          "Walls, roofs and floors",
+          "HVAC duct wrap and internal lining",
+          "Acoustic ceilings and partition infill",
+          "Hot and chilled water pipe insulation"
+        ]
+      },
+      {
+        "title": "Marine and offshore",
+        "items": [
+          "Bulkhead and deck insulation",
+          "Engine room thermal and acoustic insulation",
+          "Glass cloth reinforcement for FRP / GRP structures"
+        ]
+      },
+      {
+        "title": "Industrial and manufacturing",
+        "items": [
+          "Cold storage and food processing",
+          "Noise control barriers and enclosures",
+          "Glass cloth wrapping on furnace and oven exteriors",
+          "Electrical insulation panels (G10 / FR4)"
+        ]
+      }
+    ],
+    "supplyTitle": "What we supply",
+    "supply": [
+      "Santura supplies glass fibre sheets, woven glass cloth, glass fibre tape and glass wool insulation to refineries, petrochemical plants, power stations and construction projects, and exports to more than 25 countries. Products come from established manufacturers and are supplied to your project specification with the manufacturer's test certificates.",
+      "Because we manufacture insulation pins, weld studs and refractory anchors ourselves, we can supply the insulation material, its fixings and the lagging cloth together as one package."
+    ],
+    "relatedTitle": "Related products",
+    "relatedMineralWool": "Rockwool insulation for higher temperatures, up to 750 °C.",
+    "relatedPins": "Weld pins and washers for fixing glass wool and boards.",
+    "relatedGaskets": "Ceramic fibre rope, tape and gaskets, used alongside glass fibre tape.",
+    "relatedAnchors": "SEPL anchors for furnace linings.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What is the difference between glass fibre cloth and glass wool?",
+        "a": "Glass fibre cloth is a woven textile made from glass yarn, used for lagging, wrapping and composite reinforcement. Glass wool is a soft insulation made from spun glass fibres, used for thermal and acoustic insulation of pipes, ducts, walls and roofs. Cloth is woven from E-glass yarn, while glass wool uses a soda-lime-borosilicate glass with recycled content."
+      },
+      {
+        "q": "What temperature can glass fibre products withstand?",
+        "a": "Glass wool withstands 230–450 °C depending on the binder. Uncoated woven E-glass cloth handles about 550 °C continuously. Glass wool softens at about 650–700 °C and E-glass at about 840 °C. For higher temperatures, rockwool (up to 750 °C) or ceramic fibre products are recommended."
+      },
+      {
+        "q": "Is glass fibre insulation safe and asbestos-free?",
+        "a": "Yes. The glass fibre and glass wool products we supply are asbestos-free, non-hazardous and made without CFCs. Glass wool is made with up to 70% recycled glass. The products are safe to handle with standard PPE, chemically stable, rot-proof and insect-resistant."
+      },
+      {
+        "q": "What thicknesses and densities of glass wool are available?",
+        "a": "Glass wool rolls and blankets are available from 25 mm to 150 mm thick and 10 to 48 kg/m³. Pipe sections range from 15 mm to 600 mm inside diameter. Wire-mesh faced mattresses come in 25 to 100 mm thicknesses at densities up to 80 kg/m³. Other specifications are available on request."
+      }
+    ],
+    "ctaTitle": "Need glass fibre or glass wool?",
+    "ctaText": "Send us the product, thickness or weight, density, size, facing and quantity. We will reply with a quotation and delivery time.",
+    "ctaRfq": "Request a Quote for Glass Fibre Products",
+    "ctaContact": "Or contact our team"
+  },
+  "csPage": {
+    "metaTitle": "Calcium Silicate Boards & Pipe Sections | Industrial Supplier",
+    "metaDescription": "Calcium silicate insulation — boards & pipe sections to ASTM C-533 for up to 1100°C. Trusted supplier since 1980, exporting to 25+ countries. Get a quote.",
+    "eyebrow": "Insulation materials",
+    "h1": "Calcium Silicate Insulation",
+    "subheading": "Rigid calcium silicate slabs, preformed pipe sections, bevelled lags and powder for industrial insulation up to 1100 °C. Conforming to IS 8154, IS 9428, BS 3958 Part II and ASTM C-533.",
+    "gallery": [
+      "Calcium silicate insulation boards and half-round pipe sections",
+      "Calcium silicate pipe sections and flat boards",
+      "Two-piece calcium silicate pipe section"
+    ],
+    "overviewTitle": "What calcium silicate insulation is",
+    "overview": [
+      "Calcium silicate is a high-temperature, lightweight, abuse-resistant and asbestos-free industrial insulation. It is made of hydrous calcium silicate with reinforcing fibres and formed into rigid shapes: slabs, preformed pipe sections, bevelled lags and powder. It keeps its insulating properties even after wetting and drying.",
+      "It fills the gap between soft mineral wool and ceramic fibre. Unlike soft insulation, it is rigid and self-supporting, so it withstands foot traffic and knocks on pipe racks and equipment, while keeping low thermal conductivity, high compressive strength and very little shrinkage over its service life."
+    ],
+    "tempTitle": "Maximum service temperature",
+    "temps": {
+      "mw": "Rockwool",
+      "cs": "Calcium silicate",
+      "cf": "Ceramic fibre"
+    },
+    "tempNote": "Typical maximum values; the limit for each product depends on its grade.",
+    "formsTitle": "Product forms",
+    "colForm": "Form",
+    "colDescription": "Description",
+    "colSizes": "Typical sizes",
+    "forms": [
+      {
+        "name": "Flat slabs / boards",
+        "text": "Rigid boards for flat surfaces: vessel walls, duct panels and furnace casings.",
+        "sizes": "25–100 mm thick · 300–1000 mm long · 150–600 mm wide"
+      },
+      {
+        "name": "Preformed pipe sections",
+        "text": "Two-piece half-shells or segmental sections for pipe insulation.",
+        "sizes": "ID 15–600 mm · 25–100 mm thick · 600 mm standard length"
+      },
+      {
+        "name": "Bevelled lags",
+        "text": "Trapezoidal segments for large-diameter pipes and vessels.",
+        "sizes": "To vessel OD and insulation thickness"
+      },
+      {
+        "name": "Curved segments",
+        "text": "Segments for columns, tanks and large cylindrical equipment.",
+        "sizes": "Radius and thickness to order"
+      },
+      {
+        "name": "Powder / loose fill",
+        "text": "For filling irregular cavities and hard-to-reach areas.",
+        "sizes": "Bulk supply"
+      }
+    ],
+    "specTitle": "Specifications",
+    "specRows": [
+      {
+        "label": "Composition",
+        "value": "Hydrous calcium silicate with reinforcing fibres"
+      },
+      {
+        "label": "Max. continuous service temperature",
+        "value": "1000–1100 °C, depending on grade"
+      },
+      {
+        "label": "Density",
+        "value": "240–350 kg/m³ (about 256 kg/m³ for the high-temperature grade)"
+      },
+      {
+        "label": "Thermal conductivity at 200 °C mean",
+        "value": "0.065–0.080 W/m·K"
+      },
+      {
+        "label": "Thermal conductivity at 400 °C mean",
+        "value": "0.085–0.105 W/m·K"
+      },
+      {
+        "label": "Thermal conductivity at 600 °C mean",
+        "value": "0.100–0.130 W/m·K"
+      },
+      {
+        "label": "Compressive strength",
+        "value": "0.7 MPa or more at 5% deformation"
+      },
+      {
+        "label": "Linear shrinkage at max. service temperature",
+        "value": "2% or less"
+      },
+      {
+        "label": "Moisture",
+        "value": "Returns to its original thermal performance after wetting and drying"
+      },
+      {
+        "label": "pH",
+        "value": "About 10 (alkaline)"
+      },
+      {
+        "label": "Asbestos",
+        "value": "None: 100% asbestos-free"
+      },
+      {
+        "label": "VOCs",
+        "value": "None"
+      },
+      {
+        "label": "Recycled content",
+        "value": "Contains post-consumer recycled content"
+      },
+      {
+        "label": "Colour",
+        "value": "White to off-white"
+      }
+    ],
+    "specNote": "Typical values. Exact figures depend on the grade and manufacturer; the manufacturer's data sheet and test certificates are supplied with each order.",
+    "standardsTitle": "Standards",
+    "standards": [
+      "Calcium silicate block and pipe insulation",
+      "Calcium silicate flat blocks (Indian Standard)",
+      "Calcium silicate pipe sections (Indian Standard)",
+      "Thermal insulating materials: calcium silicate",
+      "Factory-made calcium silicate products for industrial equipment",
+      "Thermal conductivity measurement",
+      "Surface burning characteristics"
+    ],
+    "advantagesTitle": "Advantages",
+    "advantages": [
+      {
+        "title": "Stable after wetting",
+        "text": "Keeps its insulating properties through wetting and drying cycles."
+      },
+      {
+        "title": "Consistent performance",
+        "text": "Low thermal conductivity throughout its service life, for lasting energy savings."
+      },
+      {
+        "title": "Strong and rigid",
+        "text": "Withstands mechanical abuse, foot traffic on pipe racks and impact without damage."
+      },
+      {
+        "title": "Lightweight",
+        "text": "High performance at a low weight for a rigid high-temperature insulation."
+      },
+      {
+        "title": "Easy to install",
+        "text": "Easy to cut and shape on site, which keeps installation time and cost down."
+      },
+      {
+        "title": "Long life and reuse",
+        "text": "Low maintenance, and it can be removed and reused during shutdowns."
+      },
+      {
+        "title": "Environmental",
+        "text": "Zero VOCs and contains post-consumer recycled content."
+      },
+      {
+        "title": "Alkaline",
+        "text": "Its natural alkalinity (pH about 10) helps protect carbon steel against corrosion under insulation."
+      },
+      {
+        "title": "Non-combustible",
+        "text": "Zero flame spread and smoke development in surface burning tests."
+      }
+    ],
+    "applicationsTitle": "Applications by industry",
+    "applications": [
+      {
+        "title": "Iron and steel",
+        "items": [
+          "Blast furnaces and hot air stoves",
+          "Soaking pits and coke ovens",
+          "Reheat and annealing furnaces",
+          "Ladle and tundish preheaters"
+        ]
+      },
+      {
+        "title": "Cement",
+        "items": [
+          "Preheaters, cyclones and ducts",
+          "Kilns and furnaces",
+          "Hot air stoves and pyroclones"
+        ]
+      },
+      {
+        "title": "Aluminium",
+        "items": [
+          "Launders and floats",
+          "Soaking pits and pot lining",
+          "Holding and homogenising furnaces"
+        ]
+      },
+      {
+        "title": "Oil, gas and petrochemical",
+        "items": [
+          "Fired heaters and reformer furnaces",
+          "Heat exchangers and steam pipes",
+          "Columns, vessels and reactors"
+        ]
+      },
+      {
+        "title": "Power generation",
+        "items": [
+          "Boiler furnace and turbine casings",
+          "High-temperature steam pipe insulation",
+          "HRSG duct insulation",
+          "Gas turbine exhaust systems"
+        ]
+      },
+      {
+        "title": "Ceramics and glass",
+        "items": [
+          "Tunnel kiln lining",
+          "Glass melting furnace insulation",
+          "Annealing lehrs and regenerators"
+        ]
+      },
+      {
+        "title": "General industrial",
+        "items": [
+          "Heat treatment and stress-relieving furnaces",
+          "Reheating and melting furnaces",
+          "Chemical reactors and distillation columns",
+          "High-temperature food process equipment"
+        ]
+      }
+    ],
+    "supplyTitle": "What we supply",
+    "supply": [
+      "Santura supplies calcium silicate boards and pipe sections conforming to IS 8154, IS 9428, BS 3958 Part II and ASTM C-533. They have low thermal conductivity, high compressive strength and low shrinkage, and give a cost-effective insulation for service temperatures up to 1100 °C.",
+      "Because we manufacture refractory anchors and insulation pins, and also supply mineral wool, glass fibre and ceramic gaskets, we deliver complete insulation packages to refineries, steel mills, cement plants and power stations in more than 25 countries."
+    ],
+    "relatedTitle": "Related products",
+    "relatedMineralWool": "Rockwool and glass wool for temperatures up to 750 °C.",
+    "relatedGlassFibre": "Woven glass cloth for lagging over insulation.",
+    "relatedPins": "Weld pins and washers for fixing insulation.",
+    "relatedAnchors": "SEPL anchors for high-temperature linings.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What temperature can calcium silicate insulation withstand?",
+        "a": "Calcium silicate insulation is rated for continuous service up to 1000–1100 °C, depending on the grade. It keeps its structure, low thermal conductivity and compressive strength across its rated range, and retains its insulating properties even after wetting and drying."
+      },
+      {
+        "q": "What forms of calcium silicate insulation are available?",
+        "a": "Calcium silicate is available as rigid flat slabs and boards, preformed pipe sections (half-shells), bevelled lags for large pipes, curved segments for vessels and columns, and powder for cavity fill. Standard pipe sections fit inside diameters from 15 mm to 600 mm in thicknesses from 25 to 100 mm. Other sizes are made to drawing."
+      },
+      {
+        "q": "What standards does your calcium silicate conform to?",
+        "a": "Our calcium silicate conforms to ASTM C-533, IS 8154 (flat blocks), IS 9428 (pipe sections) and BS 3958 Part II. It is non-combustible with zero flame spread in ASTM E-84 surface burning tests, asbestos-free and free of VOCs."
+      },
+      {
+        "q": "What are the advantages of calcium silicate over mineral wool insulation?",
+        "a": "Calcium silicate works at higher temperatures (up to 1100 °C, against 750 °C for rockwool), is much stronger and more abuse-resistant, is rigid and self-supporting so it withstands foot traffic and impact, and performs consistently after wet-dry cycles. Mineral wool is more flexible and costs less below 750 °C. We supply both."
+      }
+    ],
+    "ctaTitle": "Need calcium silicate insulation?",
+    "ctaText": "Send us the form, pipe sizes or board dimensions, thickness, service temperature and quantity. We will reply with a quotation and delivery time.",
+    "ctaRfq": "Request a Quote for Calcium Silicate",
+    "ctaContact": "Or contact our team"
   }
 }

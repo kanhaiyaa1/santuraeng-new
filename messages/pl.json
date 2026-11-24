@@ -413,6 +413,10 @@
         "text": "Skład chemiczny weryfikowany spektrometrycznie względem wymaganego gatunku."
       },
       {
+        "title": "Mikrotrawienie",
+        "text": "Mikrotrawienie we własnym zakresie według ASTM A262 Practice A, ASTM E407 i ASTM E112 oraz makrotrawienie zgrzein kołków."
+      },
+      {
         "title": "Kontrola wymiarowa",
         "text": "Wymiary, gięcia i końcówki do spawania sprawdzane według rysunku."
       },
@@ -447,7 +451,53 @@
     },
     "clientCertsTitle": "Certyfikaty od klientów",
     "clientCertsText": "Tutaj opublikujemy certyfikaty i listy referencyjne od naszych klientów.",
-    "photosTitle": "Badania w praktyce"
+    "photosTitle": "Badania w praktyce",
+    "etch": {
+      "title": "Badanie mikrotrawienia",
+      "intro": [
+        "Badanie mikrotrawienia pokazuje wewnętrzną strukturę metalu. Próbkę pobiera się z materiału lub gotowego wyrobu, poleruje na lustro i traktuje odczynnikiem trawiącym, który ujawnia ziarna i granice ziaren. Wytrawioną powierzchnię ogląda się następnie pod mikroskopem.",
+        "Badania mikrotrawienia wykonujemy we własnym zakresie na stali nierdzewnej, stali węglowej i stopach niklu, z których powstają nasze kotwy, kołki i elementy spawane. Badanie pokazuje, czy kształtowanie, spawanie lub obróbka cieplna pozostawiły materiał w stanie wymaganym przez specyfikację."
+      ],
+      "testsTitle": "Wykonywane badania",
+      "tests": [
+        {
+          "code": "ASTM A262 Practice A",
+          "title": "Wstępna ocena korozji międzykrystalicznej",
+          "text": "Elektrolityczne trawienie kwasem szczawiowym, które sprawdza uczulenie austenitycznych stali nierdzewnych, takich jak 304, 310, 316 i 321: węgliki chromu na granicach ziaren, przez które materiał staje się podatny na korozję międzykrystaliczną. Służy do kontroli materiału po spawaniu lub obróbce cieplnej oraz do potwierdzenia, że przesycanie rozpuściło węgliki."
+        },
+        {
+          "code": "ASTM E407 · ASTM E112",
+          "title": "Mikrostruktura i wielkość ziarna",
+          "text": "Mikrotrawienie według ASTM E407 ujawnia mikrostrukturę stali nierdzewnej, stali węglowej i stopów niklu. Następnie średnią wielkość ziarna ocenia się według ASTM E112, a strukturę sprawdza pod kątem nadmiernego rozrostu ziarna i niepożądanych faz."
+        },
+        {
+          "code": "EN ISO 14555",
+          "title": "Makrotrawienie spoiny",
+          "text": "Przyspawany kołek lub kotwę przecina się przez spoinę, poleruje i trawi, aby uwidocznić strefę przetopienia. Zgład pokazuje, czy spoina objęła całą podstawę kołka i jak głęboko wtopiła się w materiał podłoża. EN ISO 14555 wykorzystuje to badanie makroskopowe do kwalifikowania technologii zgrzewania kołków."
+        }
+      ],
+      "readingTitle": "Jak ocenia się wyniki ASTM A262 Practice A",
+      "reading": [
+        {
+          "title": "Struktura schodkowa",
+          "text": "Schodki między ziarnami i brak rowków na granicach ziaren. Wynik akceptowalny: materiał nie jest uczulony."
+        },
+        {
+          "title": "Struktura mieszana",
+          "text": "Pojedyncze rowki na granicach ziaren, ale żadne ziarno nie jest nimi całkowicie otoczone. Wynik akceptowalny."
+        },
+        {
+          "title": "Struktura rowkowa",
+          "text": "Jedno lub więcej ziaren całkowicie otoczonych rowkami. Materiał uznaje się za podejrzany; zanim zostanie przyjęty, musi przejść badanie w gorącym kwasie przewidziane w ASTM A262 dla danego gatunku (Practice B, C lub E)."
+        }
+      ],
+      "readingNote": "Practice A jest badaniem przesiewowym: pozwala przyjąć materiał, ale nie pozwala go odrzucić. Dotyczy wyłącznie austenitycznych stali nierdzewnych; stopy niklu i stal węglową sprawdza się pod kątem mikrostruktury i wielkości ziarna.",
+      "productsTitle": "Badane wyroby",
+      "productsText": "Badanie dotyczy naszych wyrobów metalowych, zwłaszcza elementów ze stali nierdzewnej kształtowanych na zimno, spawanych lub obrabianych cieplnie przed dostawą. Materiały izolacyjne, takie jak wełna mineralna, uszczelki ceramiczne i krzemian wapnia, nie są metaliczne, więc mikrotrawienie ich nie dotyczy.",
+      "requestText": "Raport z mikrotrawienia może zostać dostarczony razem z pozostałymi świadectwami badań do zamówienia. Podaj badanie i normę w zapytaniu.",
+      "linkBsa": "Jasne przesycanie i uczulenie stali",
+      "linkSw": "Zgrzewanie kołków i makrotrawienie"
+    }
   },
   "privacyPage": {
     "metaTitle": "Polityka prywatności | Santura Engineering",
@@ -615,15 +665,17 @@
   "search": {
     "open": "Szukaj",
     "label": "Szukaj w serwisie",
-    "placeholder": "Szukaj produktów, kodów SEPL, stopów, krajów…",
+    "placeholder": "Szukaj produktów, usług, kodów SEPL, stopów, krajów…",
     "noResults": "Brak wyników dla „{query}”",
     "close": "Zamknij",
     "hint": "Spróbuj „SEPL-24”, „310S”, „Y anchor” lub „Polska”",
     "groups": {
       "product": "Produkty",
       "country": "Kraje",
-      "page": "Strony"
-    }
+      "page": "Strony",
+      "service": "Usługi"
+    },
+    "viewAll": "Zobacz wszystkie wyniki"
   },
   "photos": {
     "cartonsBulk": "Kartony gotowe do pakowania",
@@ -862,6 +914,10 @@
       {
         "title": "Porównanie ze świadectwem hutniczym",
         "text": "Porównanie wyników z oryginalnym świadectwem hutniczym potwierdza, że materiał odzyskał wymagane właściwości stanu wyżarzonego."
+      },
+      {
+        "title": "Badanie mikrotrawienia",
+        "text": "Trawienie kwasem szczawiowym według ASTM A262 Practice A, wykonywane we własnym zakresie, pokazuje, czy na granicach ziaren pozostały węgliki chromu. Struktura schodkowa potwierdza, że kotwy nie są już uczulone."
       }
     ],
     "verifyQualityLink": "Zobacz, jak badamy i dokumentujemy każde zamówienie",
@@ -898,7 +954,7 @@
       },
       {
         "q": "Jak sprawdzić, czy przesycanie wykonano prawidłowo?",
-        "a": "Badaniami twardości i rozciągania. Materiał po obróbce powinien być bardziej miękki niż przed nią, z twardością w zakresie stanu wyżarzonego i wytrzymałością bliską minimum. Powierzchnia powinna być jasna i bez zgorzeliny."
+        "a": "Badaniami twardości i rozciągania. Materiał po obróbce powinien być bardziej miękki niż przed nią, z twardością w zakresie stanu wyżarzonego i wytrzymałością bliską minimum. Powierzchnia powinna być jasna i bez zgorzeliny. Badanie mikrotrawienia według ASTM A262 Practice A, wykonywane we własnym zakresie, potwierdza, że węgliki chromu zostały rozpuszczone."
       },
       {
         "q": "Czy przesycanie jasne wydłuża żywotność kotew?",
@@ -1312,7 +1368,2497 @@
       {
         "q": "Jakie rozmiary pierścieni ceramicznych są dostępne?",
         "a": "Pierścienie dobiera się do średnicy kołka i spawanej powierzchni, np. płaskiej blachy lub rury. Podaj średnicę kołka i geometrię płaszcza, a dostarczymy pasujące pierścienie razem z kotwami."
+      },
+      {
+        "q": "Jak sprawdza się jakość zgrzewania kołków?",
+        "a": "Makrotrawieniem. Kołek próbny przecina się przez spoinę, poleruje i trawi we własnym zakresie, co pokazuje, czy spoina objęła całą podstawę kołka i jak głęboko wtopiła się w materiał podłoża. W przypadku kotew ze stali nierdzewnej badanie mikrotrawienia według ASTM A262 Practice A sprawdza dodatkowo uczulenie materiału."
       }
-    ]
+    ],
+    "etchTitle": "Makrotrawienie spoiny",
+    "etchText": "Jakość spoiny sprawdza się makrotrawieniem. Kołek próbny przecina się przez spoinę, poleruje i trawi we własnym zakresie, aby ocenić strefę przetopienia i głębokość wtopienia. To badanie makroskopowe, którego EN ISO 14555 używa do kwalifikowania technologii zgrzewania kołków.",
+    "etchLink": "O naszych badaniach mikrotrawienia"
+  },
+  "searchPage": {
+    "metaTitle": "Wyszukiwanie | Santura Engineering",
+    "metaTitleQuery": "Wyniki wyszukiwania dla „{query}” | Santura Engineering",
+    "metaDescription": "Przeszukaj kotwy ogniotrwałe, kody produktów SEPL, stopy, usługi i strony krajów eksportowych Santura Engineering.",
+    "h1": "Wyszukiwanie",
+    "h1Query": "Wyniki wyszukiwania dla „{query}”",
+    "submit": "Szukaj",
+    "resultCount": "Wyniki dla „{query}”: {count}",
+    "emptyText": "Szukaj według nazwy produktu, kodu SEPL, gatunku stopu, usługi lub kraju.",
+    "noResultsTitle": "Brak wyników",
+    "noResultsText": "Nic nie pasuje do „{query}”. Sprawdź pisownię, wpisz kod produktu, np. SEPL-07, albo skorzystaj z popularnych wyszukiwań poniżej.",
+    "relatedTitle": "Powiązane wyszukiwania",
+    "popularTitle": "Popularne wyszukiwania"
+  },
+  "notFoundPage": {
+    "title": "Nie znaleziono strony",
+    "text": "Szukana strona nie istnieje lub została przeniesiona. Przeszukaj witrynę albo skorzystaj z poniższych linków.",
+    "home": "Przejdź do strony głównej",
+    "products": "Zobacz produkty"
+  },
+  "odPage": {
+    "metaTitle": "Drzwi rewizyjne i wzierniki do pieców i kotłów | Santura Engineering",
+    "metaDescription": "Drzwi rewizyjne, wzierniki i okna wziernikowe do pieców, pieców obrotowych i kotłów, wg rysunku. Producent od 1980 r., eksport do ponad 25 krajów.",
+    "eyebrow": "Wydział konstrukcji",
+    "h1": "Drzwi rewizyjne i wzierniki",
+    "subheading": "Drzwi rewizyjne, wzierniki i okna wziernikowe z wyłożeniem ogniotrwałym do pieców, kotłów, pieców obrotowych i podgrzewaczy płomieniowych. Wykonane według Twojego rysunku, z ramą, drzwiami, szybą, uszczelkami i kotwami ogniotrwałymi dostarczanymi jako jeden zespół.",
+    "overviewTitle": "Do czego służą drzwi rewizyjne i wzierniki",
+    "overview": [
+      "Drzwi rewizyjne i wzierniki to otwory dostępowe w ścianach pieców, kotłów, pieców obrotowych i podgrzewaczy. Pozwalają operatorom zajrzeć do wnętrza, kontrolować płomień, sprawdzać wyłożenie ogniotrwałe oraz wprowadzać termopary lub sondy bez otwierania urządzenia i bez zatrzymywania procesu.",
+      "Każde drzwi mają stalową ramę przykręcaną lub przyspawaną do płaszcza, drzwi lub pokrywę zamykającą otwór oraz wyłożenie ogniotrwałe dopasowane do wyłożenia otaczającej ściany. Kotwy przyspawane wewnątrz ramy utrzymują to wyłożenie, tak jak kotwy ogniotrwałe utrzymują wyłożenie ściany.",
+      "Santura wykonuje drzwi rewizyjne we własnym warsztacie, ze stali nierdzewnej lub stali węglowej cynkowanej ogniowo, z kotwami ogniotrwałymi, szkłem hartowanym i uszczelkami według specyfikacji klienta."
+    ],
+    "overviewLink": "Kotwy ogniotrwałe do wyłożeń drzwi i ścian",
+    "overviewCaption": "Rama drzwi z przyspawanymi wewnątrz kotwami V do utrzymania wyłożenia ogniotrwałego.",
+    "typesTitle": "Rodzaje drzwi rewizyjnych i wzierników",
+    "types": [
+      {
+        "title": "Drzwi rewizyjne",
+        "size": "Otwory od 250 mm (10 cali)",
+        "text": "Większe drzwi, na zawiasach lub przykręcane, ze skrzydłem wyłożonym materiałem ogniotrwałym. Służą do oględzin komory spalania i ograniczonego dostępu serwisowego, na przykład nad każdą strefą powietrza w kotle."
+      },
+      {
+        "title": "Wzierniki",
+        "size": "Zwykle 100 × 100 mm (4 × 4 cale)",
+        "text": "Małe otwory z pokrywą z żeliwa lub stali, często z przeciwwagą, aby zamykała się samoczynnie. Służą do obserwacji płomienia i wprowadzania termopar oraz sond."
+      },
+      {
+        "title": "Okna wziernikowe",
+        "size": "Średnica 50–100 mm",
+        "text": "Wyposażone w żaroodporne szkło barwione, kobaltowe lub zielone, aby stale obserwować płomień i wyłożenie bez otwierania czegokolwiek."
+      }
+    ],
+    "constructionTitle": "Konstrukcja i materiały",
+    "constructionIntro": "Każdy element dobiera się do temperatury pracy, atmosfery pieca i częstotliwości otwierania drzwi.",
+    "construction": [
+      {
+        "title": "Rama",
+        "text": "Stal węglowa (zwykle cynkowana ogniowo), stal nierdzewna lub żeliwo, zależnie od temperatury pracy i środowiska."
+      },
+      {
+        "title": "Wyłożenie ogniotrwałe",
+        "text": "Beton ogniotrwały lub cegła ogniotrwała w drzwiach i ramie, dopasowane do systemu ogniotrwałego urządzenia i utrzymywane przez przyspawane kotwy."
+      },
+      {
+        "title": "Szkło wziernikowe",
+        "text": "Hartowane szkło kobaltowe, zwykle o grubości 3 mm. Ogranicza oślepiający blask płomienia, dzięki czemu kształt płomienia i stan wyłożenia są dobrze widoczne. Dostępne jest też szkło zielone."
+      },
+      {
+        "title": "Uszczelnienie",
+        "text": "Uszczelki wysokotemperaturowe na obrobionych powierzchniach przylgowych, aby zamknięte drzwi nie przepuszczały gorącego gazu ani zimnego powietrza."
+      },
+      {
+        "title": "Montaż",
+        "text": "Kołnierz przykręcany do płaszcza. Drzwi na zawiasach do częstego dostępu, pokrywy z przeciwwagą do wzierników."
+      },
+      {
+        "title": "Okucia",
+        "text": "Uchwyty zamykające i zawiasy przystosowane do temperatury pracy, z uchami transportowymi na ciężkich drzwiach."
+      }
+    ],
+    "specTitle": "Typowe parametry",
+    "colFeature": "Cecha",
+    "cols": {
+      "od": "Drzwi rewizyjne",
+      "pd": "Wziernik",
+      "sp": "Okno wziernikowe"
+    },
+    "specRows": [
+      {
+        "label": "Wymiar otworu",
+        "od": "Od 250 mm (na wymiar)",
+        "pd": "Od 100 × 100 mm do 150 × 150 mm",
+        "sp": "Średnica 50–100 mm"
+      },
+      {
+        "label": "Materiał ramy",
+        "od": "Stal węglowa / nierdzewna / żeliwo",
+        "pd": "Żeliwo / stal węglowa",
+        "sp": "Żeliwo / stal nierdzewna"
+      },
+      {
+        "label": "Maks. temperatura pracy",
+        "od": "Do 1200 °C (z wyłożeniem ogniotrwałym)",
+        "pd": "Do 1000 °C",
+        "sp": "Do 800 °C (ograniczona przez szkło)"
+      },
+      {
+        "label": "Zamknięcie",
+        "od": "Na zawiasach lub przykręcane",
+        "pd": "Pokrywa przykręcana lub z przeciwwagą",
+        "sp": "Nakrętka gwintowana lub przykręcane"
+      },
+      {
+        "label": "Szkło",
+        "od": "Opcjonalnie",
+        "pd": "Opcjonalnie",
+        "sp": "Standard (kobaltowe)"
+      },
+      {
+        "label": "Wyłożenie ogniotrwałe",
+        "od": "Tak",
+        "pd": "Tak (pokrywa i rama)",
+        "sp": "Nie (tylko szkło)"
+      }
+    ],
+    "specNote": "Są to wartości typowe. Wymiar otworu, materiały i zakres temperatur każdych drzwi określa rysunek klienta i warunki pracy urządzenia.",
+    "applicationsTitle": "Zastosowania",
+    "applications": [
+      {
+        "title": "Kotły",
+        "text": "Kotły AFBC, CFBC i rusztowe: drzwi rewizyjne nad każdą strefą powietrza i wzierniki do obserwacji płomienia."
+      },
+      {
+        "title": "Podgrzewacze rafineryjne",
+        "text": "Piece procesowe i reformery: okna wziernikowe i wzierniki do obserwacji płomieni palników."
+      },
+      {
+        "title": "Piece cementowe",
+        "text": "Wzierniki w płaszczu pieca i w strefie palnika do kontroli wyłożenia i płomienia."
+      },
+      {
+        "title": "Huty stali",
+        "text": "Piece grzewcze i podgrzewacze kadzi: drzwi dostępowe do inspekcji podczas postojów."
+      },
+      {
+        "title": "Spalarnie i zakłady termicznego przekształcania odpadów",
+        "text": "Piece obrotowe i komory dopalania: drzwi rewizyjne do kontroli spalania."
+      },
+      {
+        "title": "Piece do obróbki cieplnej",
+        "text": "Piece okresowe i przelotowe: drzwi załadowcze z oknami wziernikowymi."
+      }
+    ],
+    "fabTitle": "Wykonanie na zamówienie",
+    "fab": [
+      "Każde drzwi wykonujemy według rysunku i specyfikacji materiałowej klienta. Wyłożenie ogniotrwałe drzwi dopasowujemy do istniejącego wyłożenia urządzenia, aby drzwi nie stały się słabym punktem ściany.",
+      "Dla istniejących instalacji wykonujemy drzwi i pokrywy zamienne na podstawie rysunku lub drzwi wzorcowych. Drzwi dostarczamy osobno lub jako część większego pakietu konstrukcji z kotwami, elementami płaszcza i wspornikami."
+    ],
+    "reference": "W 2006 r. Santura dostarczyła drzwi wziernikowe do pieców i systemy przeciwwag firmie Petron Engineering Construction Ltd, która wystawiła list z podziękowaniem za tę pracę.",
+    "processTitle": "Jak wykonujemy drzwi",
+    "process": [
+      {
+        "title": "Akceptacja rysunku",
+        "text": "Przed produkcją odsyłamy rysunek klientowi do akceptacji, aby wszelkie zmiany uzgodnić wcześniej."
+      },
+      {
+        "title": "Kontrola materiału",
+        "text": "Sprawdzamy zestawienie materiałów. 10% materiału jest badane w laboratoriach akredytowanych przez NABL, a części ze stali nierdzewnej przechodzą badanie PMI."
+      },
+      {
+        "title": "Cięcie i formowanie",
+        "text": "Blachy są cięte na nożycach i formowane, następnie trasowane i składane w warsztacie. Nasi kontrolerzy sprawdzają zespół przed spawaniem."
+      },
+      {
+        "title": "Spawanie i kontrola",
+        "text": "Spawanie w osłonie CO2 z pełnym przetopem, a następnie kontrola spoin pod kątem porowatości."
+      },
+      {
+        "title": "Wykończenie",
+        "text": "Wykończenie i cynkowanie ogniowe, a następnie pakowanie do wysyłki."
+      }
+    ],
+    "supplyTitle": "Co dostarczamy",
+    "supply": [
+      {
+        "title": "Kompletne zespoły drzwi",
+        "text": "Rama, drzwi, okucia i kotwy ogniotrwałe, gotowe do wyłożenia lub już wyłożone."
+      },
+      {
+        "title": "Drzwi i pokrywy zamienne",
+        "text": "Wykonane według rysunku lub wzoru, pasujące do istniejących otworów."
+      },
+      {
+        "title": "Szkło wziernikowe",
+        "text": "Szkło kobaltowe w różnych rozmiarach."
+      },
+      {
+        "title": "Zapasowe uszczelki i okucia",
+        "text": "Uszczelki, zawiasy, uchwyty i elementy złączne do drzwi w eksploatacji."
+      }
+    ],
+    "galleryTitle": "Drzwi rewizyjne z naszego warsztatu",
+    "galleryText": "Drzwi wykonane w naszym warsztacie, od pojedynczych ram po serie produkcyjne dla projektów kotłowych.",
+    "gallery": [
+      "Para drzwi rewizyjnych z szybami wziernikowymi do pieca przemysłowego",
+      "Otwarta rama drzwi rewizyjnych z przyspawanymi kotwami V do wyłożenia ogniotrwałego",
+      "Cynkowana rama drzwi rewizyjnych z kotwami, widok z przodu",
+      "Rama drzwi rewizyjnych z kołnierzem do przykręcenia do płaszcza pieca",
+      "Rama i części drzwi rewizyjnych przed montażem",
+      "Seria cynkowanych drzwi rewizyjnych w warsztacie",
+      "Drzwi rewizyjne na zawiasach ułożone do wysyłki",
+      "Zbliżenie cynkowanych ram drzwi rewizyjnych z serii produkcyjnej"
+    ],
+    "relatedTitle": "Powiązane produkty i usługi",
+    "relatedAnchorsText": "Kotwy utrzymujące wyłożenie ogniotrwałe w każdych drzwiach, z tych samych stopów co wyłożenie Twojej ściany.",
+    "relatedSwText": "Urządzenia i procedury do przyspawania kotew do ram drzwi i płaszczy.",
+    "relatedPmiText": "Weryfikacja stopu części ze stali nierdzewnej, zanim opuszczą warsztat.",
+    "relatedPpText": "Obróbka powierzchni ram i drzwi ze stali nierdzewnej po wykonaniu.",
+    "countriesTitle": "Kraje dostaw",
+    "countriesText": "Eksportujemy drzwi rewizyjne razem z naszymi kotwami ogniotrwałymi. Strony krajów opisują branże i porty, które obsługujemy na każdym rynku.",
+    "faqTitle": "Najczęstsze pytania",
+    "faq": [
+      {
+        "q": "Czym różnią się drzwi rewizyjne od wziernika?",
+        "a": "Drzwi rewizyjne mają większy otwór, zwykle od 250 mm, i służą do oględzin oraz ograniczonego dostępu serwisowego. Wziernik jest mniejszy, zwykle 100 × 100 mm, i służy do obserwacji płomienia oraz wprowadzania termopar lub sond. Oba mają wyłożenie ogniotrwałe."
+      },
+      {
+        "q": "Jakie szkło stosuje się w drzwiach rewizyjnych i oknach wziernikowych?",
+        "a": "Żaroodporne szkło barwione, zwykle hartowane szkło kobaltowe o grubości około 3 mm. Ogranicza oślepiający blask płomienia, dzięki czemu płomień i wyłożenie ogniotrwałe są dobrze widoczne. Dostępne jest też szkło zielone. Szkło ogranicza okno wziernikowe do około 800 °C."
+      },
+      {
+        "q": "Czy możecie wykonać drzwi według naszego rysunku lub skopiować istniejące drzwi?",
+        "a": "Tak. Wszystkie nasze drzwi wykonujemy według rysunku i specyfikacji materiałowej klienta. Przy częściach zamiennych pracujemy na podstawie istniejącego rysunku lub drzwi wzorcowych i dopasowujemy wyłożenie ogniotrwałe do obecnego wyłożenia urządzenia."
+      },
+      {
+        "q": "Na jakie temperatury są przeznaczone drzwi?",
+        "a": "Z wyłożeniem ogniotrwałym drzwi rewizyjne stosuje się zwykle do 1200 °C, a wzierniki do 1000 °C. Okna wziernikowe są ograniczone przez szkło do około 800 °C. Ostateczny zakres zależy od materiałów i wyłożenia w Twojej specyfikacji."
+      }
+    ],
+    "ctaTitle": "Potrzebujesz drzwi rewizyjnych lub wzierników?",
+    "ctaText": "Prześlij nam rysunek, wymiar otworu, temperaturę pracy i ilość. Odpowiemy ofertą i terminem dostawy.",
+    "ctaRfq": "Zapytaj o ofertę na drzwi rewizyjne",
+    "ctaContact": "Lub skontaktuj się z naszym zespołem"
+  },
+  "fbPage": {
+    "metaTitle": "Producent śrub fundamentowych | Kotwy L, J, U | Santura Engineering",
+    "metaDescription": "Śruby fundamentowe i kotwy typu L, J, U, płytowe i proste, wg rysunku, ze stali węglowej, B7 i nierdzewnej. Od 1980 r., eksport do ponad 25 krajów.",
+    "eyebrow": "Wydział konstrukcji",
+    "h1": "Śruby fundamentowe i kotwy fundamentowe",
+    "subheading": "Śruby fundamentowe typu L, J, U, płytowe i proste do kotłów, ciężkich maszyn i konstrukcji stalowych. Cięte, gięte, gwintowane i cynkowane ogniowo według Twojego rysunku, dostarczane jako kompletne zestawy z nakrętkami, podkładkami, płytami kotwiącymi i tulejami.",
+    "overviewTitle": "Czym są śruby fundamentowe",
+    "overview": [
+      "Śruby fundamentowe to stalowe śruby osadzane w betonowym fundamencie, aby kotwić konstrukcje, słupy, urządzenia i maszyny. Osadzony koniec jest gięty, zakończony hakiem lub płytą, aby nie dał się wyciągnąć z betonu; gwintowany koniec wystaje ponad fundament i przyjmuje blachę podstawy, nakrętkę i podkładkę.",
+      "Nazwy te często oznaczają ten sam wyrób. Kotwa fundamentowa to zwykle śruba zabetonowana, a śruba fundamentowa to śruba mocująca urządzenie do podstawy. Wiele śrub fundamentowych ma w górnej części tuleję rurową, która pozostawia luz na niewielką korektę położenia śruby przy ustawianiu urządzenia.",
+      "Santura wykonuje śruby fundamentowe w ramach prac konstrukcyjnych na zamówienie: pręt jest cięty, gięty, gwintowany i cynkowany ogniowo według rysunku klienta. Wykonujemy śruby z łbem, gięte i gwintowane o średnicy do 6 cali i większej."
+    ],
+    "typesTitle": "Rodzaje śrub fundamentowych",
+    "types": [
+      {
+        "key": "l",
+        "title": "Typ L (gięcie 90°)",
+        "size": "M10 do M64",
+        "text": "Najczęściej stosowany typ. Osadzony koniec jest zagięty pod kątem prostym, dzięki czemu śruba blokuje się w betonie.",
+        "uses": "Słupy konstrukcyjne, blachy podstaw, maszty oświetleniowe i ramy urządzeń."
+      },
+      {
+        "key": "j",
+        "title": "Typ J (hak)",
+        "size": "",
+        "text": "Zaokrąglony hak w kształcie litery J na osadzonym końcu zakotwia się w betonie. Podobny do typu L, w niektórych układach z lepszą odpornością na wyrwanie.",
+        "uses": "Lżejsze połączenia konstrukcyjne, wsporniki rurociągów i balustrady."
+      },
+      {
+        "key": "u",
+        "title": "Typ U",
+        "size": "",
+        "text": "Śruba w kształcie litery U przechodząca pod blachą podstawy, belką lub rurą, z oboma gwintowanymi końcami skierowanymi do góry.",
+        "uses": "Mocowanie urządzeń, wsporniki rurociągów i elementy wymagające skręcenia przelotowego."
+      },
+      {
+        "key": "plate",
+        "title": "Płytowa / z łbem",
+        "size": "",
+        "text": "Prosta śruba z kwadratową lub sześciokątną płytą kotwiącą przyspawaną na osadzonym końcu. Daje największą odporność na wyrwanie i często jest dostarczana z tuleją rurową.",
+        "uses": "Ciężkie maszyny, turbiny, sprężarki i fundamenty kotłów."
+      },
+      {
+        "key": "rod",
+        "title": "Prosta / pręt gwintowany",
+        "size": "",
+        "text": "Pręt gwintowany na całej długości z nakrętką i podkładką na obu końcach. Pozwala na największą regulację na budowie.",
+        "uses": "Stosowany z płytami kotwiącymi lub w gniazdach zalewanych zaprawą."
+      }
+    ],
+    "materialsTitle": "Materiały",
+    "materials": [
+      {
+        "title": "Stal węglowa (IS 2062 / ASTM A36)",
+        "text": "Najczęstszy wybór do ogólnych zastosowań konstrukcyjnych."
+      },
+      {
+        "title": "ASTM F1554 Grade 36 / 55 / 105",
+        "text": "Stal na pręty kotwiące w trzech klasach wytrzymałości do obliczeniowych połączeń konstrukcyjnych."
+      },
+      {
+        "title": "ASTM A307 Grade A / B / C",
+        "text": "Śruby i szpilki ze stali węglowej ogólnego przeznaczenia."
+      },
+      {
+        "title": "ASTM A193 Grade B7",
+        "text": "Stal stopowa do pracy w wysokiej temperaturze i pod wysokim ciśnieniem, np. w kotłach i zbiornikach ciśnieniowych."
+      },
+      {
+        "title": "Stal nierdzewna (SS304 / SS316)",
+        "text": "Do środowisk korozyjnych, lokalizacji nadmorskich i zakładów chemicznych."
+      }
+    ],
+    "finishesTitle": "Wykończenia i powłoki",
+    "finishes": [
+      {
+        "title": "Cynkowanie ogniowe (HDG)",
+        "text": "Najczęstsze wykończenie do pracy na zewnątrz i w betonie, wg ASTM F2329."
+      },
+      {
+        "title": "Cynkowanie galwaniczne",
+        "text": "Pasywacja żółta, niebieska lub biała, do wnętrz i łagodnych środowisk."
+      },
+      {
+        "title": "Czernienie",
+        "text": "Podstawowa ochrona przed korozją."
+      },
+      {
+        "title": "Bez powłoki",
+        "text": "Na życzenie klienta oraz dla śrub ze stali nierdzewnej."
+      }
+    ],
+    "specTitle": "Parametry",
+    "colProperty": "Parametr",
+    "colRange": "Zakres",
+    "specRows": [
+      {
+        "label": "Średnica",
+        "value": "M10 do M100 (3/8 cala do 4 cali); większe średnice wg rysunku"
+      },
+      {
+        "label": "Długość",
+        "value": "150 mm do 3000 mm i więcej (długości na zamówienie)"
+      },
+      {
+        "label": "Gwint",
+        "value": "Metryczny ISO lub calowy Unified, gwint pełny lub częściowy"
+      },
+      {
+        "label": "Promień gięcia",
+        "value": "Wg rysunku lub normy"
+      },
+      {
+        "label": "Normy",
+        "value": "ASTM F1554, ASTM A307, ASTM A193, IS 2062, IS 1363, IS 1364"
+      },
+      {
+        "label": "Badania",
+        "value": "Próba rozciągania, próba obciążenia kontrolnego, pomiar twardości i kontrola wymiarowa"
+      },
+      {
+        "label": "Tolerancje",
+        "value": "Wg IS 2062, ASTM F1554 lub rysunku klienta"
+      }
+    ],
+    "specNote": "Każde zamówienie wykonujemy według rysunku klienta lub podanej normy. Podaj typ śruby, średnicę, długość, długość gwintu, gatunek materiału i wykończenie.",
+    "applicationsTitle": "Zastosowania według branży",
+    "applications": [
+      {
+        "title": "Fundamenty kotłów i pieców",
+        "text": "Kotwienie konstrukcji kotłów, płaszczy pieców, kominów i kanałów na betonowych cokołach."
+      },
+      {
+        "title": "Ciężkie urządzenia",
+        "text": "Sprężarki, turbiny, pompy, generatory i prasy."
+      },
+      {
+        "title": "Konstrukcje stalowe",
+        "text": "Blachy podstaw słupów, ramy portalowe, tory suwnic i wsporniki przenośników."
+      },
+      {
+        "title": "Elektrownie",
+        "text": "Fundamenty turbin, konstrukcje chłodni kominowych i fundamenty estakad rurowych."
+      },
+      {
+        "title": "Cementownie",
+        "text": "Filary podporowe pieca, fundamenty młynów i konstrukcje wież wymienników."
+      },
+      {
+        "title": "Ropa i gaz",
+        "text": "Konstrukcje pieców procesowych, fundamenty kolumn i podstawy estakad rurowych."
+      },
+      {
+        "title": "Infrastruktura",
+        "text": "Maszty oświetleniowe, konstrukcje oznakowania, łożyska mostowe i słupy energetyczne."
+      }
+    ],
+    "supplyTitle": "Co dostarczamy",
+    "supply": [
+      {
+        "title": "Śruby wg rysunku lub normy",
+        "text": "Śruby fundamentowe wykonane według Twojego rysunku lub standardowej specyfikacji."
+      },
+      {
+        "title": "Kompletne zestawy",
+        "text": "Śruby z nakrętkami, podkładkami, płytami kotwiącymi i tulejami, oznaczone i gotowe do osadzenia."
+      },
+      {
+        "title": "Każdy typ, każdy gatunek",
+        "text": "Śruby L, J, U, płytowe i proste ze stali węglowej, F1554, A307, B7 lub nierdzewnej."
+      },
+      {
+        "title": "Cynkowanie ogniowe",
+        "text": "Cynkowanie w zatwierdzonych ocynkowniach."
+      },
+      {
+        "title": "Szablony",
+        "text": "Szablony utrzymujące każdą grupę śrub w położeniu podczas betonowania."
+      },
+      {
+        "title": "Pojedyncze sztuki lub pakiety",
+        "text": "Pojedyncze śruby lub śruby jako część kompletnego pakietu konstrukcji stalowych."
+      }
+    ],
+    "gallery": [
+      "Cynkowane śruby fundamentowe z tulejami rurowymi, ustawione pionowo",
+      "Cynkowane śruby fundamentowe z kwadratowymi płytami kotwiącymi",
+      "Śruby fundamentowe z tulejami rurowymi, oznaczone do wysyłki",
+      "Cynkowane śruby fundamentowe z tulejami rurowymi rozłożone w warsztacie",
+      "Zapas cynkowanych śrub fundamentowych z nakrętkami i tulejami",
+      "Zbliżenie tulei rurowych i nakrętek śrub fundamentowych"
+    ],
+    "relatedTitle": "Powiązane produkty",
+    "relatedStanchions": "Słupki i stojaki do pomostów i balustrad, często montowane na tych samych fundamentach.",
+    "relatedPipeGuides": "Prowadnice rur i tuleje pierścieniowe do pieców procesowych i estakad rurowych.",
+    "relatedFasteners": "Śruby sześciokątne, szpilki B7, nakrętki i podkładki ze stali nierdzewnych i stopowych.",
+    "relatedAnchors": "Kotwy SEPL do wyłożeń ogniotrwałych kotłów i pieców, które te śruby kotwią.",
+    "countriesTitle": "Kraje dostaw",
+    "countriesText": "Eksportujemy śruby fundamentowe razem z naszymi kotwami ogniotrwałymi i elementami konstrukcyjnymi. Strony krajów opisują branże i porty, które obsługujemy na każdym rynku.",
+    "faqTitle": "Najczęstsze pytania",
+    "faq": [
+      {
+        "q": "Czym różnią się śruby fundamentowe typu L i typu J?",
+        "a": "Obie mają zagięty osadzony koniec. Śruba typu L jest zagięta pod kątem 90 stopni, a typu J ma zaokrąglony hak. Typ L to najczęstszy wybór do słupów i blach podstaw; typ J stosuje się w lżejszych połączeniach, takich jak wsporniki rurociągów i balustrady, i w niektórych układach daje lepszą odporność na wyrwanie."
+      },
+      {
+        "q": "Czym jest norma ASTM F1554?",
+        "a": "ASTM F1554 to amerykańska norma dla prętów kotwiących zabetonowanych w fundamencie. Obejmuje pręty proste, gięte i z łbem w trzech klasach, 36, 55 i 105, odpowiadających minimalnej granicy plastyczności w ksi. Wystający koniec ma oznaczenie barwne: niebieskie dla klasy 36, żółte dla 55 i czerwone dla 105."
+      },
+      {
+        "q": "Czy wykonujecie śruby fundamentowe o nietypowej długości?",
+        "a": "Tak. Każdą śrubę tniemy, gniemy i gwintujemy według rysunku klienta, od około 150 mm do 3000 mm i więcej. Długość gwintu, długość gięcia i promień wykonujemy zgodnie ze specyfikacją."
+      },
+      {
+        "q": "Jakie wykończenia są dostępne dla śrub fundamentowych?",
+        "a": "Cynkowanie ogniowe wg ASTM F2329 to najczęstsze wykończenie śrub pracujących na zewnątrz i w betonie. Cynkowanie galwaniczne (żółte, niebieskie lub białe) nadaje się do wnętrz i łagodnych środowisk, czernienie daje podstawową ochronę, a śruby można dostarczyć bez powłoki na życzenie lub gdy są ze stali nierdzewnej."
+      }
+    ],
+    "ctaTitle": "Potrzebujesz śrub fundamentowych?",
+    "ctaText": "Prześlij nam rysunek lub zestawienie śrub z typem, średnicą, długością, gatunkiem materiału, wykończeniem i ilością. Odpowiemy ofertą i terminem dostawy.",
+    "ctaRfq": "Zapytaj o ofertę na śruby fundamentowe",
+    "ctaContact": "Lub skontaktuj się z naszym zespołem"
+  },
+  "spPage": {
+    "metaTitle": "Producent płyt nośnych i blach podstaw | Na zamówienie | Santura Engineering",
+    "metaDescription": "Wsporniki wyłożeń ogniotrwałych, blachy podstaw, płyty montażowe, blachy węzłowe i marki stalowe wg rysunku. Od 1980 r., eksport do ponad 25 krajów.",
+    "eyebrow": "Wydział konstrukcji",
+    "h1": "Płyty nośne i blachy podstaw",
+    "subheading": "Wsporniki wyłożeń ogniotrwałych, blachy podstaw słupów, płyty montażowe maszyn, blachy węzłowe i marki stalowe do pieców, kotłów i konstrukcji stalowych. Cięte, wiercone, obrabiane i spawane według Twojego rysunku.",
+    "heroAlt": "Blacha podstawy słupa przykręcona do betonowego fundamentu",
+    "overviewTitle": "Czym są płyty nośne",
+    "overview": [
+      "Płyty nośne to wykonane ze stali płyty i wsporniki, które przejmują i rozkładają obciążenia. W piecach i kotłach przyspawa się je do płaszcza, aby utrzymywały ciężar wyłożenia ogniotrwałego. W konstrukcjach stalowych są to blachy podstaw, płyty montażowe, blachy węzłowe i marki stalowe łączące słupy, urządzenia i elementy stalowe z fundamentami oraz ze sobą.",
+      "Każdą płytę wykonujemy według rysunku klienta. Santura tnie, wierci, obrabia i spawa płyty nośne we własnym warsztacie, razem z kotwami ogniotrwałymi i śrubami fundamentowymi, które często montuje się wraz z nimi."
+    ],
+    "uses": [
+      {
+        "title": "Podparcie wyłożenia ogniotrwałego",
+        "text": "Wsporniki przyspawane wewnątrz pieców i zbiorników, utrzymujące wyłożenie i kształtki palnikowe."
+      },
+      {
+        "title": "Konstrukcyjne blachy podstaw",
+        "text": "Płyty łączące słupy i urządzenia z betonowymi fundamentami i ramami stalowymi."
+      }
+    ],
+    "typesTitle": "Rodzaje płyt nośnych",
+    "types": [
+      {
+        "key": "refractory",
+        "title": "Płyty nośne wyłożenia / wsporniki wyłożenia ogniotrwałego",
+        "alt": "Wspornik wyłożenia ogniotrwałego przyspawany do płaszcza pieca pod wyłożeniem",
+        "text": "Płyty w kształcie wsporników przyspawane do płaszcza pieca, które utrzymują ciężar wyłożenia ogniotrwałego, zwłaszcza w ścianach pionowych i stropach. Wykonane są ze zespawanych elementów stalowych i równomiernie rozkładają obciążenie wyłożenia na płaszcz.",
+        "points": [
+          "Podpierają kształtki palnikowe niezależnie od ściany pieca",
+          "Rozmieszczone w obliczonych odstępach na obwodzie płaszcza",
+          "Stal węglowa lub nierdzewna (SS304, SS310), zależnie od temperatury pracy",
+          "Nazywane też konsolami, wspornikami cegieł lub wspornikami nośnymi"
+        ]
+      },
+      {
+        "key": "base",
+        "title": "Blachy podstaw słupów",
+        "alt": "Blacha podstawy słupa z kotwami na betonowym fundamencie",
+        "text": "Płaskie blachy przyspawane do dołu słupów stalowych i przykręcone do fundamentu kotwami lub śrubami fundamentowymi. Równomiernie rozkładają obciążenie słupa na beton.",
+        "points": [
+          "Otwory wiercone lub wykrawane według rozstawu śrub",
+          "Powierzchnia oporowa obrobiona na płasko dla pełnego styku z podlewką",
+          "IS 2062 Grade A do grubości 20 mm",
+          "IS 2062 Grade B (uspokojona) powyżej 20 mm, zgodnie z normami konstrukcyjnymi"
+        ]
+      },
+      {
+        "key": "mounting",
+        "title": "Płyty montażowe maszyn",
+        "alt": "Płyta montażowa z wierconymi otworami pod podstawę pompy",
+        "text": "Płaskie płyty z nawierconymi otworami do mocowania pomp, sprężarek, silników i innych maszyn na podstawach betonowych lub stalowych.",
+        "points": [
+          "Wiercone dokładnie według rozstawu łap urządzenia",
+          "Elementy poziomujące i klucze ścinane w razie potrzeby",
+          "Elementy tłumiące drgania na życzenie"
+        ]
+      },
+      {
+        "key": "gusset",
+        "title": "Blachy węzłowe i żebra usztywniające",
+        "alt": "Trójkątna blacha węzłowa przyspawana w węźle belka-słup",
+        "text": "Trójkątne lub prostokątne blachy przyspawane w węzłach belka-słup, które usztywniają połączenie i przenoszą obciążenia.",
+        "points": [
+          "Ramy stalowe, konstrukcje wsporcze kotłów i estakady rurowe",
+          "Wsporniki i podpory pomostów",
+          "Ważne w konstrukcjach projektowanych na obciążenia sejsmiczne i wiatrowe"
+        ]
+      },
+      {
+        "key": "embed",
+        "title": "Marki stalowe (blachy zabetonowane)",
+        "alt": "Marka stalowa z przyspawanymi sworzniami zabetonowana w ścianie",
+        "text": "Blachy stalowe z przyspawanymi sworzniami lub kotwami, zabetonowywane w celu uzyskania punktu połączenia po betonowaniu.",
+        "points": [
+          "Mocowanie konstrukcji stalowych, wsporników rur i urządzeń do betonu",
+          "Mocowanie balustrad do ścian i stropów betonowych",
+          "Sworznie przyspawane do blachy przed betonowaniem"
+        ]
+      }
+    ],
+    "materialsTitle": "Materiały",
+    "materials": [
+      {
+        "title": "Stal węglowa",
+        "text": "IS 2062 Grade A, B lub C oraz ASTM A36. Najczęstszy wybór dla płyt konstrukcyjnych."
+      },
+      {
+        "title": "Stal nierdzewna",
+        "text": "SS304, SS310 i SS316, do środowisk korozyjnych i gorących podparć wyłożenia ogniotrwałego."
+      },
+      {
+        "title": "Stal kotłowa",
+        "text": "IS 2002 i SA 516 Gr 70, do zbiorników ciśnieniowych i kotłów."
+      },
+      {
+        "title": "Stal konstrukcyjna o podwyższonej wytrzymałości",
+        "text": "ASTM A572 Grade 50, do dużych obciążeń."
+      }
+    ],
+    "specTitle": "Parametry",
+    "colProperty": "Parametr",
+    "colRange": "Zakres",
+    "specRows": [
+      {
+        "label": "Grubość",
+        "value": "6 mm do 100 mm i więcej"
+      },
+      {
+        "label": "Wymiary",
+        "value": "Cięte wg rysunku z arkuszy do 2000 × 6000 mm"
+      },
+      {
+        "label": "Wiercenie",
+        "value": "CNC lub ręczne, z tolerancją rysunku"
+      },
+      {
+        "label": "Powierzchnia",
+        "value": "Obrobiona na płasko, śrutowana, malowana lub cynkowana"
+      },
+      {
+        "label": "Spawanie",
+        "value": "Wg AWS D1.1 lub IS 816, z badaniami NDT, jeśli określono"
+      },
+      {
+        "label": "Normy",
+        "value": "IS 2062, ASTM A36, ASTM A572, IS 816 (spawanie), AWS D1.1"
+      },
+      {
+        "label": "Tolerancje",
+        "value": "Wg IS 2062, AISC lub specyfikacji klienta"
+      },
+      {
+        "label": "Badania",
+        "value": "Kontrola wymiarowa, badania ultradźwiękowe (UT) grubych blach, kontrola wizualna spoin"
+      }
+    ],
+    "specNote": "Każdą płytę wykonujemy według rysunku klienta. Prześlij rysunek lub szkic z gatunkiem materiału, grubością, wykończeniem i ilością.",
+    "applicationsTitle": "Zastosowania według branży",
+    "applications": [
+      {
+        "title": "Piece",
+        "text": "Wsporniki wyłożenia ogniotrwałego, płyty nośne kształtek palnikowych i wzmocnienia płaszcza pieca."
+      },
+      {
+        "title": "Kotły",
+        "text": "Konstrukcja wsporcza, wsporniki usztywnień (buckstay) i podpory obudowy."
+      },
+      {
+        "title": "Rafinerie",
+        "text": "Konstrukcje wsporcze pieców procesowych, blachy podstaw słupów i estakad rurowych."
+      },
+      {
+        "title": "Elektrownie",
+        "text": "Płyty fundamentów turbin, konstrukcje wsporcze kotłów i pomosty."
+      },
+      {
+        "title": "Cementownie",
+        "text": "Konstrukcje wież wymienników, płyty filarów pieca i fundamentów młynów."
+      },
+      {
+        "title": "Konstrukcje ogólne",
+        "text": "Podstawy słupów, podpory torów suwnic, wsporniki przenośników i mocowania balustrad."
+      }
+    ],
+    "supplyTitle": "Co dostarczamy",
+    "supply": [
+      {
+        "title": "Wszystkie rodzaje wg rysunku",
+        "text": "Od pojedynczego wspornika po kompletne zestawy, wykonane według rysunku klienta."
+      },
+      {
+        "title": "Cięcie i obróbka",
+        "text": "Cięcie gazowe, plazmowe lub CNC w zależności od potrzeb, z wierceniem, obróbką i spawaniem."
+      },
+      {
+        "title": "Obróbka powierzchni",
+        "text": "Śrutowanie, malowanie podkładowe i cynkowanie ogniowe."
+      },
+      {
+        "title": "Pojedyncze płyty lub pakiety",
+        "text": "Pojedyncze płyty lub płyty jako część kompletnego pakietu konstrukcji stalowych."
+      },
+      {
+        "title": "Na podstawie wzoru, szkicu lub rysunku",
+        "text": "Wykonujemy płyty na podstawie wzoru, szkicu lub szczegółowego rysunku technicznego."
+      }
+    ],
+    "relatedTitle": "Powiązane produkty",
+    "relatedFoundationBolts": "Kotwy i śruby fundamentowe mocujące blachy podstaw do betonu.",
+    "relatedStanchions": "Słupki i stojaki do pomostów i balustrad, montowane na blachach podstaw.",
+    "relatedPipeGuides": "Prowadnice rur i tuleje pierścieniowe do pieców procesowych i estakad rurowych.",
+    "relatedAnchors": "Kotwy SEPL utrzymujące wyłożenie ogniotrwałe pomiędzy wspornikami.",
+    "servicesTitle": "Powiązane usługi",
+    "relatedSwText": "Zgrzewanie sworzni do marek stalowych i kotew przyspawanych do płyt nośnych.",
+    "relatedPmiText": "Weryfikacja stopu płyt ze stali nierdzewnej przed wysyłką.",
+    "relatedPpText": "Obróbka powierzchni płyt i wsporników ze stali nierdzewnej po spawaniu.",
+    "faqTitle": "Najczęstsze pytania",
+    "faq": [
+      {
+        "q": "Czym są płyty nośne wyłożenia ogniotrwałego?",
+        "a": "Płyty nośne wyłożenia, nazywane też wspornikami wyłożenia lub konsolami, to stalowe wsporniki przyspawane do wnętrza płaszcza pieca lub kotła. Utrzymują ciężar wyłożenia ogniotrwałego, zwłaszcza w wysokich ścianach pionowych i stropach, i równomiernie rozkładają to obciążenie na płaszcz. Służą też do podpierania kształtek palnikowych niezależnie od ściany."
+      },
+      {
+        "q": "Z jakich materiałów wykonuje się płyty nośne?",
+        "a": "Płyty konstrukcyjne wykonuje się zwykle ze stali węglowej wg IS 2062 lub ASTM A36, a przy dużych obciążeniach z ASTM A572 Grade 50. Części kotłów i zbiorników ciśnieniowych wykonuje się z IS 2002 lub SA 516 Gr 70. Wsporniki wyłożenia pracujące w wysokiej temperaturze są ze stali nierdzewnej, np. SS304 lub SS310, a w środowiskach korozyjnych stosuje się SS316."
+      },
+      {
+        "q": "Czy płyty mogą być dostarczone po obróbce?",
+        "a": "Tak. Blachy podstaw mogą mieć powierzchnię oporową obrobioną na płasko dla pełnego styku z podlewką, a otwory wiercimy na CNC lub ręcznie z tolerancją rysunku. Dostarczamy też płyty śrutowane, malowane podkładowo lub cynkowane ogniowo."
+      },
+      {
+        "q": "Jaka jest maksymalna dostępna grubość?",
+        "a": "Dostarczamy płyty nośne o grubości od 6 mm do 100 mm i więcej, cięte wg rysunku z arkuszy do 2000 × 6000 mm. Grube blachy mogą być badane ultradźwiękowo, jeśli wymaga tego specyfikacja."
+      }
+    ],
+    "ctaTitle": "Potrzebujesz płyt nośnych lub blach podstaw?",
+    "ctaText": "Prześlij nam rysunek, szkic lub dane wzoru z gatunkiem materiału, grubością, wykończeniem i ilością. Odpowiemy ofertą i terminem dostawy.",
+    "ctaRfq": "Zapytaj o ofertę na płyty nośne",
+    "ctaContact": "Lub skontaktuj się z naszym zespołem"
+  },
+  "stPage": {
+    "metaTitle": "Słupki balustrad przemysłowych | Barierki pomostów | Santura Engineering",
+    "metaDescription": "Słupki, poręcze, krawężniki i furtki do pomostów i kładek przemysłowych, wg rysunku. Od 1980 r., eksport do ponad 25 krajów.",
+    "eyebrow": "Wydział konstrukcji",
+    "h1": "Słupki przemysłowe i systemy balustrad",
+    "subheading": "Słupki, poręcze, krawężniki i furtki do pomostów, kładek i schodów przemysłowych. Cięte, spawane i cynkowane ogniowo według Twojego rysunku, dostarczane jako pojedyncze słupki, moduły balustrad lub kompletne pomosty.",
+    "gallery": [
+      "Partia cynkowanych ogniowo słupków przemysłowych z użebrowanymi stopami",
+      "Cynkowany słupek z przyspawanymi ramionami poręczy i blachą podstawy",
+      "Słupek przemysłowy z bocznym ramieniem i użebrowaną stopą",
+      "Zbliżenie spawanego połączenia teowego na słupku"
+    ],
+    "overviewTitle": "Czym są słupki przemysłowe",
+    "overview": [
+      "Słupki to pionowe stalowe elementy, pełne lub rurowe, które podtrzymują przemysłową balustradę lub barierę. W słupkach kulowych poziome pochwyty przechodzą przez kute stalowe kule na słupku i są blokowane wkrętami dociskowymi.",
+      "Wraz z pochwytami, krawężnikami, furtkami i zakończeniami słupki tworzą zabezpieczenie krawędzi wymagane na pomostach, kładkach, schodach i innych miejscach na wysokości. Santura wykonuje słupki, kompletne systemy balustrad i konstrukcje pomostów według rysunku klienta."
+    ],
+    "weldedTitle": "Słupki spawane",
+    "weldedText": "Nasze zdjęcia pokazują słupki spawane: rurowe słupki z przyspawanymi ramionami poręczy, użebrowaną stopą i cynkowaniem ogniowym po spawaniu. Wykonujemy słupki według rysunku klienta, w opisanym niżej typie kulowym lub w tym typie spawanym.",
+    "typesTitle": "Rodzaje słupków",
+    "types": [
+      {
+        "key": "single",
+        "title": "Słupek z jedną kulą",
+        "alt": "Słupek kulowy z jedną kulą na górną poręcz",
+        "text": "Jedna kula na górze na pojedynczą poręcz. Stosowany tam, gdzie wystarczy sama górna poręcz, np. na kładkach o niskim ryzyku i balustradach prowadzących."
+      },
+      {
+        "key": "double",
+        "title": "Słupek z dwiema kulami",
+        "alt": "Słupek kulowy z górną poręczą i przeciągiem kolanowym",
+        "text": "Dwie kule na górną poręcz i przeciąg kolanowy (pośredni). Standardowe rozwiązanie dla większości pomostów i kładek przemysłowych."
+      },
+      {
+        "key": "three",
+        "title": "Słupek z trzema kulami",
+        "alt": "Słupek kulowy z poręczą, przeciągiem kolanowym i dolnym",
+        "text": "Trzy kule na poręcz, przeciąg kolanowy i dodatkowy przeciąg dolny. Stosowany przy wyższych wymaganiach bezpieczeństwa lub mniejszym rozstawie."
+      },
+      {
+        "key": "raked",
+        "title": "Słupek schodowy (skośny)",
+        "alt": "Słupek skośny z pochwytami biegnącymi wzdłuż schodów",
+        "text": "Kule ustawione pod kątem, aby pochwyty biegły wzdłuż nachylenia schodów lub rampy. Stosowany na schodach przemysłowych i pochylonych kładkach."
+      }
+    ],
+    "basesTitle": "Rodzaje mocowania",
+    "bases": [
+      {
+        "key": "flat",
+        "title": "Płaska stopa",
+        "alt": "Słupek z płaską stopą przykręconą do podłogi pomostu",
+        "text": "Przykręcana do podłogi lub pomostu. Najczęstsze mocowanie na pomostach i kładkach z kraty pomostowej lub blachy ryflowanej."
+      },
+      {
+        "key": "side",
+        "title": "Mocowanie boczne",
+        "alt": "Słupek przykręcony bocznie do środnika belki",
+        "text": "Przykręcane do powierzchni pionowej, np. środnika belki, płaszcza zbiornika lub ściany, gdy mocowanie do podłogi jest niemożliwe."
+      },
+      {
+        "key": "collar",
+        "title": "Tuleja przyspawana",
+        "alt": "Słupek osadzony w tulei przyspawanej do konstrukcji",
+        "text": "Słupek osadzony w tulei przyspawanej bezpośrednio do konstrukcji. Do instalacji stałych."
+      },
+      {
+        "key": "cored",
+        "title": "Osadzenie w betonie",
+        "alt": "Słupek zalany w otworze wierconym w płycie betonowej",
+        "text": "Słupek osadza się w otworze wierconym w betonie i zalewa zaprawą. Do pomostów i spoczników betonowych."
+      },
+      {
+        "key": "angle",
+        "title": "Mocowanie na kątowniku",
+        "alt": "Słupek ze wspornikiem kątowym na ramie z kątowników",
+        "text": "Wspornik kątowy do mocowania na kątowniku lub ceowniku. Do pomostów z ramą z kątowników."
+      }
+    ],
+    "specTitle": "Wymiary i parametry",
+    "colSpec": "Parametr",
+    "colRange": "Zakres standardowy",
+    "specRows": [
+      {
+        "label": "Średnica słupka",
+        "value": "33,7 mm (1 cal DN), 42,4 mm (1¼ cala DN), 48,3 mm (1½ cala DN)"
+      },
+      {
+        "label": "Grubość ścianki",
+        "value": "3,0 mm do 5,0 mm (rura) lub pełny"
+      },
+      {
+        "label": "Średnica kuli",
+        "value": "60 mm, 63 mm, 76 mm"
+      },
+      {
+        "label": "Średnica pochwytu",
+        "value": "33,7 mm lub 42,4 mm"
+      },
+      {
+        "label": "Wysokość standardowa",
+        "value": "1000 mm do 1100 mm (góra poręczy od podłogi)"
+      },
+      {
+        "label": "Rozstaw kul",
+        "value": "Typowo 450 mm do 550 mm"
+      },
+      {
+        "label": "Wysokość krawężnika",
+        "value": "100 mm do 150 mm"
+      },
+      {
+        "label": "Stopa",
+        "value": "100 × 100 mm do 172 × 150 mm, grubość 6 mm do 10 mm, otwory 18 mm"
+      },
+      {
+        "label": "Rozstaw słupków",
+        "value": "Maksymalnie 1500 mm do 1800 mm"
+      }
+    ],
+    "specNote": "Są to zakresy standardowe. Wysokości, położenie pochwytów i rozstaw słupków wykonujemy według rysunku klienta i normy bezpieczeństwa obowiązującej w projekcie.",
+    "materialsTitle": "Materiały",
+    "materials": [
+      {
+        "title": "Stal węglowa (IS 2062 / ASTM A36)",
+        "text": "Najczęstszy wybór, malowana lub cynkowana."
+      },
+      {
+        "title": "Stal nierdzewna (SS304 / SS316)",
+        "text": "Do środowisk korozyjnych, offshore, przemysłu spożywczego i zakładów chemicznych."
+      },
+      {
+        "title": "Aluminium",
+        "text": "Lekkie, do zastosowań niekonstrukcyjnych lub wrażliwych na ciężar."
+      }
+    ],
+    "finishesTitle": "Wykończenia",
+    "finishes": [
+      {
+        "title": "Cynkowanie ogniowe",
+        "text": "Standardowe wykończenie do pracy na zewnątrz i w przemyśle, zwykle chroni stal przez 20 lat lub dłużej, zależnie od środowiska."
+      },
+      {
+        "title": "Malowanie proszkowe",
+        "text": "Do wnętrz lub gdy potrzebne jest oznaczenie kolorem; często stosuje się żółty ostrzegawczy."
+      },
+      {
+        "title": "Surowe / gruntowane",
+        "text": "Dla wykonawców, którzy malują na budowie."
+      },
+      {
+        "title": "Stal nierdzewna",
+        "text": "Powierzchnia walcowana lub polerowana, bez powłoki."
+      }
+    ],
+    "standardsTitle": "Normy i wymagania",
+    "colStandard": "Norma",
+    "colCovers": "Zakres",
+    "standards": [
+      {
+        "code": "OSHA 1910.29",
+        "text": "Amerykańskie przepisy dla powierzchni komunikacyjnych i roboczych: górna poręcz na wysokości 42 cali (1067 mm) ± 3 cale, przeciąg pośredni tam, gdzie nie ma ściany, krawężniki o wysokości co najmniej 3,5 cala (89 mm) na otwartych krawędziach, oraz poręcz wytrzymująca 200 lb (890 N) na zewnątrz lub w dół."
+      },
+      {
+        "code": "EN ISO 14122-3",
+        "text": "Norma europejska dla balustrad i schodów jako stałych środków dostępu do maszyn i instalacji."
+      },
+      {
+        "code": "BS 6180",
+        "text": "Brytyjski kodeks praktyki dla barier w budynkach i wokół nich."
+      },
+      {
+        "code": "IS 1161",
+        "text": "Indyjska norma rur stalowych do celów konstrukcyjnych (wymiary słupków i pochwytów)."
+      },
+      {
+        "code": "IS 2062",
+        "text": "Indyjska norma stali konstrukcyjnej walcowanej na gorąco."
+      }
+    ],
+    "standardsNote": "Wykonujemy według rysunku i normy podanej w Twojej specyfikacji. Podaj nam normę obowiązującą w projekcie.",
+    "componentsTitle": "Elementy systemu balustrad",
+    "componentsIntro": "Wszystko, czego potrzeba do kompletnej balustrady, możemy dostarczyć razem ze słupkami.",
+    "components": [
+      {
+        "title": "Słupki",
+        "text": "Z jedną, dwiema lub trzema kulami albo spawane, z dowolnym mocowaniem."
+      },
+      {
+        "title": "Pochwyty",
+        "text": "Odcinki proste, zwykle 6,4 m."
+      },
+      {
+        "title": "Zakończenia i łuki",
+        "text": "Poziome i kątowe łuki zamykające, łuki powrotne i zakończenia schodowe."
+      },
+      {
+        "title": "Furtki",
+        "text": "Samozamykające furtki bezpieczeństwa ze sprężyną do wejść na pomosty."
+      },
+      {
+        "title": "Krawężniki",
+        "text": "Blachy o wysokości 100 mm do 150 mm przy podłodze, które chronią przed spadaniem przedmiotów."
+      },
+      {
+        "title": "Uchwyty krawężników",
+        "text": "Zaciski mocujące krawężniki do słupków."
+      },
+      {
+        "title": "Łączniki",
+        "text": "Wewnętrzne łączniki rozprężne i zewnętrzne złącza do łączenia odcinków pochwytów."
+      }
+    ],
+    "applicationsTitle": "Zastosowania według branży",
+    "applications": [
+      {
+        "title": "Rafinerie i petrochemia",
+        "text": "Kładki na estakadach rurowych, pomosty zbiorników, pomosty załadunkowe i dojścia w parkach zbiorników."
+      },
+      {
+        "title": "Elektrownie",
+        "text": "Pomosty kotłowe, dojścia na halę turbin, pomosty nawęglania i dojścia do kominów."
+      },
+      {
+        "title": "Cementownie",
+        "text": "Pomosty wieży wymienników, kładki przy piecu, hala młynów i stropy silosów."
+      },
+      {
+        "title": "Huty stali",
+        "text": "Bariery przy piecach, kładki w walcowni i pomosty dojścia do suwnic."
+      },
+      {
+        "title": "Kotłownie",
+        "text": "Dojście do walczaka, pomosty ekonomizera i dojście do podgrzewacza powietrza."
+      },
+      {
+        "title": "Przemysł ogólny",
+        "text": "Osłony maszyn, antresole, rampy załadunkowe i balustrady schodów."
+      }
+    ],
+    "supplyTitle": "Co dostarczamy",
+    "supply": [
+      {
+        "title": "Słupki i elementy",
+        "text": "Pojedyncze słupki i części do montażu na budowie."
+      },
+      {
+        "title": "Moduły balustrad",
+        "text": "Słupki z pochwytami i krawężnikami, prefabrykowane i gotowe do przykręcenia."
+      },
+      {
+        "title": "Kompletne pomosty",
+        "text": "Ramy nośne, kraty pomostowe, balustrady, drabiny i furtki w jednym pakiecie."
+      },
+      {
+        "title": "Wg rysunku lub standardu",
+        "text": "Słupki i pochwyty według Twojego rysunku lub w wymiarach standardowych."
+      },
+      {
+        "title": "Zespoły furtek",
+        "text": "Furtki bezpieczeństwa z samozamykającymi zawiasami."
+      },
+      {
+        "title": "Wszystkie rodzaje mocowania",
+        "text": "Płaska stopa, mocowanie boczne, tuleja przyspawana, osadzenie w betonie i mocowanie na kątowniku."
+      }
+    ],
+    "relatedTitle": "Powiązane produkty",
+    "relatedSupportPlates": "Blachy podstaw i płyty montażowe do słupków, pomostów i konstrukcji stalowych.",
+    "relatedFoundationBolts": "Kotwy do mocowania stóp słupków i słupów pomostów do betonu.",
+    "relatedPipeGuides": "Prowadnice i tuleje rur do estakad, wzdłuż których często biegną kładki.",
+    "servicesTitle": "Powiązane usługi",
+    "relatedPmiText": "Weryfikacja stopu słupków i pochwytów ze stali nierdzewnej.",
+    "relatedPpText": "Trawienie i pasywacja balustrad ze stali nierdzewnej po spawaniu.",
+    "relatedQualityText": "Nasza kontrola i badania elementów wykonanych w warsztacie.",
+    "faqTitle": "Najczęstsze pytania",
+    "faq": [
+      {
+        "q": "Czym jest słupek kulowy?",
+        "a": "Słupek kulowy to słupek balustrady z kutymi stalowymi kulami na wysokości. Poziome pochwyty przechodzą przez otwory w kulach i są blokowane wkrętami dociskowymi. Dzięki temu balustradę montuje się szybko, a pochwyty mogą dochodzić do słupka pod kątem potrzebnym na schodach i narożach."
+      },
+      {
+        "q": "Jakiej wysokości balustrady wymaga OSHA?",
+        "a": "OSHA 1910.29 wymaga, aby górna krawędź poręczy znajdowała się 42 cale (1067 mm) nad powierzchnią komunikacyjną, z tolerancją 3 cali. Tam, gdzie nie ma ściany ani attyki, potrzebny jest przeciąg pośredni, krawężniki muszą mieć co najmniej 3,5 cala (89 mm), a poręcz musi wytrzymać siłę 200 lb (890 N)."
+      },
+      {
+        "q": "Czym różni się słupek z jedną kulą od słupka z dwiema kulami?",
+        "a": "Słupek z jedną kulą przenosi tylko górną poręcz. Słupek z dwiema kulami przenosi poręcz i przeciąg kolanowy w połowie wysokości; to standard dla większości pomostów i kładek przemysłowych, bo przeciąg zamyka przestrzeń pod poręczą."
+      },
+      {
+        "q": "Czy słupki mogą być dostarczone cynkowane?",
+        "a": "Tak. Cynkowanie ogniowe po wykonaniu to nasze standardowe wykończenie słupków ze stali węglowej pracujących na zewnątrz i w zakładach przemysłowych. Dostarczamy też słupki malowane proszkowo, gruntowane do malowania na budowie lub ze stali nierdzewnej bez powłoki."
+      }
+    ],
+    "ctaTitle": "Potrzebujesz słupków lub balustrad?",
+    "ctaText": "Prześlij nam rysunek lub plan z rodzajem słupka, mocowania, wysokością, materiałem, wykończeniem i ilością. Odpowiemy ofertą i terminem dostawy.",
+    "ctaRfq": "Zapytaj o ofertę na słupki",
+    "ctaContact": "Lub skontaktuj się z naszym zespołem"
+  },
+  "pgPage": {
+    "metaTitle": "Prowadnice rur i tuleje pierścieniowe do pieców i kotłów | Santura Engineering",
+    "metaDescription": "Prowadnice rur, tuleje pierścieniowe i podpory rur do pieców procesowych, kotłów i pieców, wg rysunku. Od 1980 r., eksport do ponad 25 krajów.",
+    "eyebrow": "Wydział konstrukcji",
+    "h1": "Prowadnice rur i tuleje pierścieniowe",
+    "subheading": "Prowadnice rur, tuleje pierścieniowe i elementy podpór rur do pieców procesowych, reformerów, kotłów i rurociągów technologicznych. Wykonane według Twojego rysunku ze stali węglowej, nierdzewnej i stopów żaroodpornych.",
+    "gallery": [
+      "Partia cynkowanych prowadnic rur z kołnierzowymi pierścieniami do pieców procesowych",
+      "Prowadnica rury z kołnierzem i stożkowym korpusem do pieca procesowego",
+      "Zapas cynkowanych prowadnic rur w warsztacie",
+      "Tuleje pierścieniowe ze stali nierdzewnej ułożone w magazynie",
+      "Dzielona tuleja pierścieniowa ze stali nierdzewnej oznaczona SS310",
+      "Tuleje pierścieniowe ze stali nierdzewnej z oznaczeniem gatunku i rozmiaru",
+      "Ułożone nierdzewne tuleje pierścieniowe ze szczelinami dylatacyjnymi",
+      "Nierdzewne tuleje pierścieniowe włożone jedna w drugą do wysyłki",
+      "Wiązka nierdzewnych tulei pierścieniowych włożonych jedna w drugą",
+      "Tuleja pierścieniowa ze szczeliną dylatacyjną",
+      "Segment dzielonej tulei pierścieniowej"
+    ],
+    "overviewTitle": "Czym są prowadnice rur i tuleje pierścieniowe",
+    "overview": [
+      "Prowadnice rur i tuleje pierścieniowe to wykonane ze stali elementy, które podpierają, prowadzą i chronią rurociągi oraz rury pieców. Prowadnica nie pozwala rurze przesuwać się na boki, ale umożliwia jej wydłużanie i skracanie wzdłuż osi przy zmianach temperatury.",
+      "Tuleja pierścieniowa, nazywana też tuleją przejściową, to cylinder montowany tam, gdzie rura przechodzi przez ścianę, strop lub płaszcz urządzenia. Chroni rurę, uszczelnia otwór i zostawia miejsce na ruch.",
+      "Oba elementy są najważniejsze w piecach procesowych, kotłach i piecach, gdzie rurociągi pracują w wysokiej temperaturze i są wielokrotnie nagrzewane i chłodzone. Santura wykonuje prowadnice i tuleje według rysunku klienta, także do pieców projektowanych zgodnie z API 560."
+    ],
+    "madeTitle": "Co pokazują nasze zdjęcia",
+    "made": [
+      "Prowadnice rur: pierścienie prowadzące kute, obrabiane i przyspawane do rury, a następnie cynkowane.",
+      "Tuleje pierścieniowe: blacha nierdzewna (SS304, SS310, SS316) cięta na nożycach wg rysunku i zwijana w pierścienie dzielone lub ze szczeliną, każdy oznaczony gatunkiem i rozmiarem.",
+      "Wszystko wykonane we własnym warsztacie dla reformerów i pieców procesowych."
+    ],
+    "guidesTitle": "Rodzaje prowadnic rur",
+    "guides": [
+      {
+        "key": "spider",
+        "title": "Prowadnice cylindryczne / pająkowe",
+        "size": "Rury od 6 do 36 cali i większe",
+        "alt": "Cylindryczna prowadnica z wewnętrznymi ramionami pająka wokół rury",
+        "text": "Cylindryczny kosz przyspawany do podpory, z wewnętrznymi ramionami pająka, które pozwalają rurze przesuwać się osiowo, ale blokują ruch boczny. Stosowane na długich odcinkach i przy kompensatorach."
+      },
+      {
+        "key": "ubolt",
+        "title": "Prowadnice z obejmą U",
+        "size": "Mniejsze średnice rur",
+        "alt": "Prowadnica z obejmą U i blachą podstawy na belce",
+        "text": "Obejma U obejmuje rurę, a jej blacha podstawy jest przykręcona do podpory. Prosta i tania prowadnica, która pozwala na ruch osiowy w granicach luzu obejmy."
+      },
+      {
+        "key": "structural",
+        "title": "Prowadnice z kształtowników",
+        "size": "Duże i ciężkie rury",
+        "alt": "Rama z kształtowników obejmująca dużą rurę",
+        "text": "Kątowniki, ceowniki lub blachy zespawane w ramę obejmującą rurę. Do rur o dużej średnicy lub ciężkich, izolowanych lub gołych."
+      },
+      {
+        "key": "slide",
+        "title": "Prowadnice z płytą ślizgową",
+        "size": "",
+        "alt": "Płoza rury na płycie ślizgowej o niskim tarciu",
+        "text": "Płoza rury przesuwa się po płycie ślizgowej z PTFE lub grafitu o niskim tarciu. Stosowane tam, gdzie tarcie musi być minimalne, aby chronić kompensatory lub wrażliwe przyłącza."
+      },
+      {
+        "key": "tube",
+        "title": "Podpory rur (piece procesowe)",
+        "size": "API 560",
+        "alt": "Podpory utrzymujące wężownice rur wewnątrz pieca procesowego",
+        "text": "Podpory w komorze spalania utrzymujące wężownice w położeniu. API 560 ogranicza niepodpartą poziomą długość rury do 35 średnic zewnętrznych lub 6 m (20 ft), w zależności od tego, co mniejsze. Wykonywane ze stopów żaroodpornych, takich jak Alloy 800H; stosuje się też podpory odlewane z 25Cr-20Ni (HK40)."
+      }
+    ],
+    "sleevesTitle": "Rodzaje tulei pierścieniowych",
+    "sleeves": [
+      {
+        "key": "floor",
+        "title": "Tuleje przejściowe w stropach i ścianach",
+        "size": "2 do 4 cali większe od średnicy zewnętrznej rury",
+        "alt": "Tuleja przejściowa osadzona w stropie betonowym z przechodzącą rurą",
+        "text": "Tuleje osadzane w stropach i ścianach betonowych lub stalowych w miejscach przejścia rur, uszczelniane szczeliwem lub materiałem ogniochronnym. Naddatek zostawia miejsce na izolację i ruch."
+      },
+      {
+        "key": "shell",
+        "title": "Tuleje przejściowe w płaszczu pieca",
+        "size": "",
+        "alt": "Tuleja przyspawana w płaszczu pieca wokół rury",
+        "text": "Tuleje przyspawane w płaszczach pieców lub kotłów, gdzie rury wchodzą do obudowy. Płyta uszczelniająca i szczeliwo zapobiegają wydostawaniu się spalin, a rura może się wydłużać."
+      },
+      {
+        "key": "anchor",
+        "title": "Tuleje pierścieniowe kotwiące wyłożenie",
+        "size": "",
+        "alt": "Tuleja pierścieniowa osadzona w wyłożeniu ogniotrwałym przy otworze",
+        "text": "Tuleje osadzone w wyłożeniu ogniotrwałym, które kotwią wyłożenie przy przejściach i tworzą wykończony otwór dla rury lub przyrządu."
+      }
+    ],
+    "materialsTitle": "Materiały",
+    "materials": [
+      {
+        "title": "Stal węglowa (IS 2062 / ASTM A36)",
+        "text": "Standard dla zewnętrznych prowadnic i podpór konstrukcyjnych."
+      },
+      {
+        "title": "Stal nierdzewna (SS304, SS310, SS316)",
+        "text": "Do pracy w środowisku korozyjnym lub w wysokiej temperaturze albo gdy wymaga tego licencjodawca procesu. Nasze tuleje wykonujemy z tych gatunków."
+      },
+      {
+        "title": "Stopy żaroodporne (Alloy 800H, HK40, 25Cr-20Ni)",
+        "text": "Do podpór rur w komorze spalania pieców zgodnych z API 560."
+      },
+      {
+        "title": "Stal cynkowana",
+        "text": "Do prowadnic na estakadach rurowych narażonych na warunki atmosferyczne."
+      }
+    ],
+    "specTitle": "Parametry",
+    "colProperty": "Parametr",
+    "colRange": "Zakres",
+    "specRows": [
+      {
+        "label": "Średnice rur",
+        "value": "1/2 cala DN do 48 cali DN i więcej (na zamówienie)"
+      },
+      {
+        "label": "Luz prowadnicy",
+        "value": "Zwykle 3 mm do 6 mm luzu promieniowego na wydłużenia cieplne"
+      },
+      {
+        "label": "Grubość tulei",
+        "value": "Ścianka 6 mm do 12 mm, zależnie od rozmiaru i zastosowania"
+      },
+      {
+        "label": "Temperatura pracy",
+        "value": "Do 400 °C dla prowadnic zewnętrznych; do 1100 °C dla wewnętrznych podpór ze stopów żaroodpornych"
+      },
+      {
+        "label": "Normy",
+        "value": "API 560 (piece procesowe), ASME B31.3 (rurociągi technologiczne), IS 2062, ASTM A36"
+      },
+      {
+        "label": "Nośność",
+        "value": "Wg obliczeń, na podstawie ciężaru rury, izolacji i medium"
+      },
+      {
+        "label": "Wykończenie",
+        "value": "Gruntowane, cynkowane ogniowo lub surowe dla stopów wysokotemperaturowych"
+      }
+    ],
+    "specNote": "Każdy element wykonujemy według rysunku klienta. Prześlij rysunek ze średnicą rury, materiałem, temperaturą obliczeniową i ilością.",
+    "applicationsTitle": "Zastosowania według branży",
+    "applications": [
+      {
+        "title": "Piece rafineryjne",
+        "text": "Podpory rur w strefie radiacyjnej i konwekcyjnej, prowadnice, podpory kolan powrotnych i tuleje w płaszczu, zgodnie z API 560."
+      },
+      {
+        "title": "Kotły",
+        "text": "Podpory rur przegrzewaczy, przegrzewaczy wtórnych i ekonomizerów oraz tuleje przejściowe w obudowie kotła."
+      },
+      {
+        "title": "Zakłady petrochemiczne",
+        "text": "Prowadnice na estakadach dla rurociągów technologicznych, przy kompensatorach U i przyłączach urządzeń."
+      },
+      {
+        "title": "Elektrownie",
+        "text": "Prowadnice rurociągów pary świeżej, wody zasilającej i turbiny."
+      },
+      {
+        "title": "Cementownie",
+        "text": "Tuleje przejściowe w płaszczu pieca dla lanc palnikowych i przyrządów oraz podpory kanałów."
+      },
+      {
+        "title": "Rurociągi ogólne",
+        "text": "Prowadnice dylatacyjne przy kompensatorach i pętlach oraz tuleje przejściowe w stropach i ścianach estakad."
+      }
+    ],
+    "supplyTitle": "Co dostarczamy",
+    "supply": [
+      {
+        "title": "Prowadnice rur",
+        "text": "Według rysunków projektowych lub katalogowych rozwiązań standardowych."
+      },
+      {
+        "title": "Tuleje pierścieniowe",
+        "text": "Do przejść przez płaszcze, stropy i ściany."
+      },
+      {
+        "title": "Podpory rur do pieców",
+        "text": "Elementy podpór do pieców zgodnych z API 560."
+      },
+      {
+        "title": "Kompletne zespoły prowadnic",
+        "text": "Rama prowadnicy, płyty ślizgowe i elementy złączne razem."
+      },
+      {
+        "title": "Wybór materiału",
+        "text": "Od stali węglowej po nierdzewną i stopy żaroodporne."
+      },
+      {
+        "title": "Pojedyncze elementy lub pakiety",
+        "text": "Pojedyncze części lub w ramach pakietu podpór rurociągów albo konstrukcji pieca."
+      }
+    ],
+    "relatedTitle": "Powiązane produkty",
+    "relatedSupportPlates": "Blachy podstaw i wsporniki do podpór rurociągów i konstrukcji prowadnic.",
+    "relatedFoundationBolts": "Kotwy do fundamentów estakad rurowych i podpór prowadnic.",
+    "relatedStanchions": "Balustrady i słupki do kładek na estakadach i pomostów pieców.",
+    "relatedAnchors": "Kotwy SEPL do wyłożenia ogniotrwałego, przez które przechodzą tuleje.",
+    "servicesTitle": "Powiązane usługi",
+    "relatedPmiText": "Weryfikacja stopu tulei SS310 i podpór ze stopów żaroodpornych.",
+    "relatedPpText": "Trawienie i pasywacja tulei nierdzewnych po wykonaniu.",
+    "relatedSwText": "Zgrzewanie kotew wokół przejść w płaszczu.",
+    "faqTitle": "Najczęstsze pytania",
+    "faq": [
+      {
+        "q": "Do czego służy prowadnica rury?",
+        "a": "Prowadnica utrzymuje rurę na jej trasie. Nie pozwala na ruch boczny, ale umożliwia przesuwanie się rury wzdłuż osi, gdy wydłuża się na gorąco i kurczy podczas chłodzenia. Prowadnice montuje się na długich odcinkach oraz przy kompensatorach i pętlach, aby ruch cieplny następował tam, gdzie przewidział projektant."
+      },
+      {
+        "q": "Czym jest API 560?",
+        "a": "API 560 to norma American Petroleum Institute dla pieców procesowych w rafineriach i zakładach petrochemicznych. Obejmuje projektowanie, materiały, wykonanie i badania, w tym podpory i prowadnice rur w komorze spalania. Na przykład ogranicza niepodpartą poziomą długość rury do 35 średnic rury lub 6 m, w zależności od tego, co mniejsze."
+      },
+      {
+        "q": "Czym różni się prowadnica od podpory rury?",
+        "a": "Podpora przenosi ciężar rury. Prowadnica określa kierunek, w którym rura może się poruszać: blokuje ruch boczny i pozwala na wydłużenie osiowe. Wiele prowadnic przenosi też ciężar, więc prowadnica to podpora, która dodatkowo ogranicza ruch rury w jednym lub kilku kierunkach."
+      },
+      {
+        "q": "Czym jest tuleja pierścieniowa?",
+        "a": "Tuleja pierścieniowa, nazywana też tuleją przejściową, to stalowy cylinder montowany tam, gdzie rura przechodzi przez ścianę, strop, wyłożenie ogniotrwałe lub płaszcz. Chroni rurę, uszczelnia otwór szczeliwem lub płytą uszczelniającą i zostawia miejsce na wydłużenie. Nasze tuleje są zwykle zwijane z blachy SS304, SS310 lub SS316."
+      }
+    ],
+    "ctaTitle": "Potrzebujesz prowadnic rur lub tulei pierścieniowych?",
+    "ctaText": "Prześlij nam rysunek ze średnicą rury, gatunkiem materiału, temperaturą obliczeniową i ilością. Odpowiemy ofertą i terminem dostawy.",
+    "ctaRfq": "Zapytaj o ofertę na prowadnice i tuleje",
+    "ctaContact": "Lub skontaktuj się z naszym zespołem"
+  },
+  "cwPage": {
+    "metaTitle": "Systemy przeciwwag do pieców reformingowych | Zatwierdzone przez Linde | Santura Engineering",
+    "metaDescription": "Systemy przeciwwag do reformerów wodoru i pieców krakingowych. Dostawca zatwierdzony przez Linde. Od 1980 r., eksport do ponad 25 krajów.",
+    "eyebrow": "Piece reformingowe i krakingowe",
+    "h1": "Systemy przeciwwag do pieców reformingowych i krakingowych",
+    "subheading": "Dźwigniowe systemy przeciwwag, które przejmują ciężar rur radiacyjnych w reformerach wodoru i piecach do krakingu etylenu. Wykonywane przez Santurę od końca lat 90. według rysunków technicznych klienta.",
+    "lindeBadge": "Zatwierdzony dostawca Linde Engineering India, {period}",
+    "photoAlt": "Cynkowany zespół ramienia przeciwwagi ze stosami obciążników",
+    "photoCaption": "Cynkowany zespół ramienia dźwigni ze stosami obciążników w naszym warsztacie.",
+    "whatTitle": "Do czego służy system przeciwwag",
+    "what": [
+      "W reformerach wodoru i piecach do krakingu etylenu pionowe rury wiszą w komorze spalania w bardzo wysokiej temperaturze. Rury reformera są wypełnione katalizatorem, a każda rura z katalizatorem może ważyć ponad tonę. Podczas nagrzewania rury wyraźnie się wydłużają.",
+      "System przeciwwag przejmuje ten ciężar, dzięki czemu rura wisi swobodnie i może się wydłużać i kurczyć bez naprężeń. Działa na zasadzie dźwigni: obciążnik na jednym końcu ramienia osadzonego obrotowo równoważy rurę na drugim końcu.",
+      "Przeguby muszą poruszać się praktycznie bez tarcia. Nawet niewielkie siły tarcia przenosiłyby niepożądane obciążenia na rury i skracały ich trwałość."
+    ],
+    "howTitle": "Jak to działa",
+    "how": [
+      "Cięgna wiszące biegną od góry każdej rury przez strop pieca do jarzma.",
+      "Jarzmo łączy się z jednym końcem poziomego ramienia dźwigni, które obraca się na kozle podporowym zamocowanym na konstrukcji stropu.",
+      "Na drugim końcu ramienia wisi obliczony obciążnik.",
+      "Obciążnik równoważy rurę z katalizatorem, dolny pigtail, jej część pływającego kolektora, połowę górnego pigtaila oraz elementy zawieszenia.",
+      "Gdy rura nagrzewa się i wydłuża w dół, ramię lekko się przechyla, a obciążnik unosi się, więc siła podtrzymująca rurę pozostaje stała."
+    ],
+    "diagramAlt": "Schemat systemu przeciwwag: rura, cięgno, jarzmo, ramię dźwigni, kozioł podporowy i obciążnik",
+    "diagram": [
+      "Rura reformera (wydłuża się w dół po nagrzaniu)",
+      "Cięgno wiszące",
+      "Jarzmo",
+      "Ramię dźwigni",
+      "Kozioł podporowy z przegubem tulejowym",
+      "Obciążnik",
+      "Strop pieca"
+    ],
+    "buildTitle": "Jak Santura je wykonuje",
+    "buildIntro": "Każdy system wykonujemy według rysunków technicznych klienta. Tak wygląda nasza konstrukcja:",
+    "build": [
+      {
+        "title": "Obciążniki",
+        "text": "Bloki ze stali węglowej i żeliwa, dobrane do obliczonego obciążenia równoważącego."
+      },
+      {
+        "title": "Ramy H i I",
+        "text": "Ramy z profili zamkniętych z importowanymi bezolejowymi tulejami Graphalloy osadzonymi w obudowach ze stali węglowej w każdym przegubie."
+      },
+      {
+        "title": "Sworznie przegubów",
+        "text": "Stal nierdzewna 410S specjalnego gatunku, martenzytyczna, o dobrej odporności na korozję i wysoką temperaturę."
+      },
+      {
+        "title": "Widełki",
+        "text": "Ze stali nierdzewnej, obrabiane w naszym warsztacie w Mumbaju."
+      },
+      {
+        "title": "Śruby klasy 8.8",
+        "text": "Obrabiane cieplnie przez podwykonawcę pod naszym ścisłym nadzorem, z kontrolą twardości i odpuszczania."
+      },
+      {
+        "title": "Importowane podzespoły",
+        "text": "Niektóre części są importowane, aby spełnić wymagania jakościowe i specyfikacji."
+      },
+      {
+        "title": "Cynkowanie ogniowe",
+        "text": "Cały system jest cynkowany ogniowo po spawaniu w celu ochrony przed korozją."
+      }
+    ],
+    "lindeEyebrow": "Zatwierdzony dostawca",
+    "lindeTitle": "Linde Engineering India",
+    "lindeText": "Santura była zatwierdzonym dostawcą systemów przeciwwag dla Linde Engineering India Pvt Ltd w latach {period}, pod numerem dostawcy {code}. To jedyne imienne zatwierdzenie klienta dla konkretnego produktu w naszej dokumentacji.",
+    "lindeCodeLabel": "Numer dostawcy",
+    "lindePeriodLabel": "Okres zatwierdzenia",
+    "lindeNote": "Zatwierdzenie historyczne, pokazane za zgodą klienta.",
+    "lindeCert": "Zobacz certyfikat Linde (PDF)",
+    "petron": "W 2006 r. dostarczyliśmy też systemy przeciwwag i drzwi wziernikowe do pieców firmie Petron Engineering Construction Ltd, która wystawiła list z podziękowaniem za tę pracę.",
+    "componentsTitle": "Elementy systemu",
+    "components": [
+      {
+        "title": "Zespół ramienia dźwigni",
+        "text": "Rama z belki H lub I z tulejami przegubów; belka wagowa systemu."
+      },
+      {
+        "title": "Stos obciążników",
+        "text": "Obliczona masa bloków ze stali węglowej lub żeliwa, przykręconych lub zakołkowanych do ramienia."
+      },
+      {
+        "title": "Cięgna wiszące",
+        "text": "Łączą rurę z ramieniem przez strop pieca i przejmują wydłużenia cieplne."
+      },
+      {
+        "title": "Zespół jarzma",
+        "text": "Łączy cięgna z końcem ramienia dźwigni."
+      },
+      {
+        "title": "Połączenia widełkowo-sworzniowe",
+        "text": "Widełki nierdzewne ze sworzniami SS 410S w każdym połączeniu, aby każdy przegub obracał się swobodnie."
+      },
+      {
+        "title": "Tuleje Graphalloy",
+        "text": "Importowane bezolejowe, samosmarujące łożyska w obudowach ze stali węglowej we wszystkich przegubach."
+      },
+      {
+        "title": "Kozioł podporowy",
+        "text": "Konstrukcja na stropie pieca, na której opiera się przegub ramienia."
+      },
+      {
+        "title": "Złączniki klasy 8.8",
+        "text": "Obrabiane cieplnie śruby o wysokiej wytrzymałości do wszystkich połączeń konstrukcyjnych."
+      }
+    ],
+    "applicationsTitle": "Zastosowania",
+    "applications": [
+      {
+        "title": "Reformery wodoru",
+        "text": "Reformery parowe metanu, główne zastosowanie. Rury z katalizatorem wiszą pionowo w komorze spalania. Stosowane w instalacjach wodoru, amoniaku i metanolu."
+      },
+      {
+        "title": "Piece do krakingu etylenu",
+        "text": "Krakery parowe, w których dobre podparcie wężownic radiacyjnych decyduje o ich trwałości."
+      },
+      {
+        "title": "Inne reformery",
+        "text": "Reformery autotermiczne i wtórne."
+      },
+      {
+        "title": "Branże",
+        "text": "Rafinerie, petrochemia, zakłady amoniaku i nawozów, zakłady metanolu i produkcja wodoru."
+      }
+    ],
+    "whyTitle": "Dlaczego jakość wykonania ma znaczenie",
+    "why": [
+      {
+        "title": "Trwałość rur",
+        "text": "Rury reformera są drogie, a wymiana jednej oznacza nieplanowany postój. System, który nie równoważy dokładnie, obciąża rury nierównomiernie i prowadzi do przedwczesnego zniszczenia przez pełzanie."
+      },
+      {
+        "title": "Tarcie",
+        "text": "Tarcie w przegubach przenosi dodatkowe obciążenie na rury. Stosuje się bezolejowe tuleje Graphalloy, bo łożyska smarowane nie pracują niezawodnie w tych temperaturach."
+      },
+      {
+        "title": "Złączniki",
+        "text": "Śruby z niewłaściwą obróbką cieplną mogą ulec zniszczeniu pod długotrwałym obciążeniem w wysokiej temperaturze, dlatego kontrolujemy twardość i odpuszczanie."
+      },
+      {
+        "title": "Tysiące cykli",
+        "text": "System musi pozostać zrównoważony przez tysiące cykli nagrzewania i chłodzenia w ciągu wielu lat eksploatacji."
+      }
+    ],
+    "specTitle": "Parametry",
+    "colComponent": "Element",
+    "colSpec": "Specyfikacja",
+    "specRows": [
+      {
+        "label": "Materiał obciążników",
+        "value": "Stal węglowa / żeliwo"
+      },
+      {
+        "label": "Konstrukcja ram",
+        "value": "Profil H i I, zamknięty, z osadzonymi tulejami Graphalloy"
+      },
+      {
+        "label": "Sworznie przegubów",
+        "value": "SS 410S (martenzytyczna stal nierdzewna)"
+      },
+      {
+        "label": "Widełki",
+        "value": "Stal nierdzewna, obrabiane"
+      },
+      {
+        "label": "Tuleje",
+        "value": "Importowane bezolejowe, samosmarujące łożyska Graphalloy"
+      },
+      {
+        "label": "Złączniki",
+        "value": "Klasa 8.8, obrabiane cieplnie, kontrola twardości i odpuszczania"
+      },
+      {
+        "label": "Obróbka powierzchni",
+        "value": "Cynkowanie ogniowe po spawaniu"
+      },
+      {
+        "label": "Wykonanie",
+        "value": "Według rysunków technicznych klienta"
+      },
+      {
+        "label": "Podstawa projektowa",
+        "value": "Specyfikacje klienta i licencjodawcy dla pieców projektowanych wg API 560"
+      }
+    ],
+    "relatedTitle": "Powiązane produkty i usługi",
+    "relatedPipeGuides": "Prowadnice rur, tuleje pierścieniowe i podpory rur do pieców procesowych.",
+    "relatedSupportPlates": "Wsporniki i blachy podstaw do konstrukcji stalowej pieców.",
+    "relatedAnchors": "Kotwy SEPL do wyłożeń pieców reformingowych i krakingowych.",
+    "relatedSwText": "Zgrzewanie kotew do płaszczy pieców.",
+    "relatedPmiText": "Weryfikacja stopu sworzni i widełek ze stali nierdzewnej.",
+    "faqTitle": "Najczęstsze pytania",
+    "faq": [
+      {
+        "q": "Czym jest system przeciwwag w reformerze?",
+        "a": "To układ dźwigni na stropie pieca, który przejmuje ciężar każdej rury reformera. Cięgno łączy rurę z jednym końcem ramienia osadzonego obrotowo, a obliczony obciążnik na drugim końcu ją równoważy. Gdy rura nagrzewa się i wydłuża, dźwignia się przechyla, a siła podtrzymująca pozostaje taka sama, więc rura wydłuża się bez naprężeń."
+      },
+      {
+        "q": "Dlaczego stosuje się tuleje Graphalloy?",
+        "a": "Graphalloy to materiał łożyskowy z grafitu i metalu, który pracuje bez oleju i smaru i działa także w wysokiej temperaturze. Każdy przegub systemu przeciwwag musi poruszać się prawie bez tarcia, bo tarcie przenosiłoby dodatkowe obciążenie na rury. Łożyska smarowane wysychają lub zacierają się w tych warunkach, dlatego stosuje się bezolejowe tuleje Graphalloy."
+      },
+      {
+        "q": "Z jakiego materiału są sworznie przegubów?",
+        "a": "Nasze sworznie wykonujemy ze stali nierdzewnej 410S specjalnego gatunku, martenzytycznej, o dobrej odporności na korozję i wysoką temperaturę. Pracują w nierdzewnych widełkach obrabianych w naszym warsztacie w Mumbaju."
+      },
+      {
+        "q": "Czym jest zatwierdzenie Linde?",
+        "a": "Linde Engineering India Pvt Ltd zatwierdziła Santurę jako dostawcę systemów przeciwwag w latach {period}, pod numerem dostawcy {code}. Zatwierdzenie dotyczyło właśnie tego produktu. Jest to zatwierdzenie historyczne, a certyfikat jest pokazany na tej stronie za zgodą klienta."
+      }
+    ],
+    "ctaTitle": "Potrzebujesz systemów przeciwwag?",
+    "ctaText": "Prześlij nam rysunki techniczne z liczbą rur, obciążeniami równoważącymi i harmonogramem dostaw. Odpowiemy ofertą i terminem dostawy.",
+    "ctaRfq": "Zapytaj o ofertę na systemy przeciwwag",
+    "ctaContact": "Lub skontaktuj się z naszym zespołem"
+  },
+  "mwPage": {
+    "metaTitle": "Dostawca izolacji z wełny mineralnej | Wełna skalna i szklana",
+    "metaDescription": "Izolacja z wełny mineralnej: płyty, maty i otuliny z wełny skalnej i szklanej. Dostawca od 1980 r., eksport do ponad 25 krajów. Zapytaj o ofertę.",
+    "eyebrow": "Materiały izolacyjne",
+    "h1": "Izolacja z wełny mineralnej",
+    "subheading": "Wełna skalna i szklana w rolach, płytach, matach, matach na siatce, otulinach i luzem, dla rafinerii, elektrowni, statków i budynków. Dostarczana zgodnie ze specyfikacją projektu, razem z kołkami izolacyjnymi do mocowania.",
+    "gallery": [
+      "Płyty i role z wełny mineralnej",
+      "Prefabrykowane otuliny z wełny mineralnej",
+      "Rola wełny skalnej z okładziną z folii aluminiowej",
+      "Zbliżenie włókien wełny mineralnej"
+    ],
+    "overviewTitle": "Czym jest wełna mineralna",
+    "overview": "Wełna mineralna to ogólna nazwa izolacji włóknistej wytwarzanej przez stopienie naturalnych lub pochodzących z recyklingu minerałów i rozwłóknienie ich na cienkie włókna. Włókna są wiązane żywicą, aby produkt zachował kształt. Santura dostarcza dwa główne rodzaje: wełnę skalną do izolacji przemysłowej w wysokiej temperaturze oraz wełnę szklaną do budynków, wentylacji i akustyki.",
+    "types": [
+      {
+        "title": "Wełna skalna",
+        "tag": "Do 750 °C · 30–200 kg/m³",
+        "text": "Wytwarzana z wyselekcjonowanej skały, np. bazaltu, topionej w temperaturze około 1500 °C w żeliwiaku i rozwłóknianej z dużą prędkością. Dostępna w rolach, płytach, matach, matach na siatce, otulinach i luzem. Standardowy wybór dla gorących rurociągów, zbiorników, kotłów i kanałów."
+      },
+      {
+        "title": "Wełna szklana",
+        "tag": "Do około 450 °C · lżejsza",
+        "text": "Wytwarzana z maksymalnie 70% szkła z recyklingu z piaskiem, topionego w około 1550 °C i rozwłóknianego. Lekka, łatwa w montażu i dobrze pochłania dźwięk. Szeroko stosowana na dachach, ścianach, w kanałach wentylacyjnych i izolacji akustycznej."
+      }
+    ],
+    "traits": [
+      "Niepalna",
+      "Bez azbestu",
+      "Bezpieczna dla zdrowia",
+      "Odporna na gnicie",
+      "Odporna na owady i gryzonie",
+      "Nie kurczy się w eksploatacji"
+    ],
+    "rwTitle": "Produkty z wełny skalnej",
+    "rwIntro": "Wełna skalna jest dostępna w sześciu formach. Grubość i gęstość dobiera się do temperatury pracy, powierzchni i obciążenia mechanicznego.",
+    "colForm": "Forma",
+    "colThickness": "Grubość",
+    "colDensity": "Gęstość",
+    "colUse": "Typowe zastosowanie",
+    "rwForms": [
+      {
+        "form": "Role budowlane",
+        "thickness": "40–100 mm",
+        "density": "36, 48, 64 kg/m³ i więcej",
+        "text": "Izolacja cieplna i akustyczna hal stalowych: nad i pod płatwiami dachu, ściany, przegrody i sufity podwieszane."
+      },
+      {
+        "form": "Płyty",
+        "thickness": "25–200 mm",
+        "density": "30–200 kg/m³",
+        "text": "Płyty twarde lub półtwarde do kanałów, zbiorników, urządzeń i powierzchni płaskich lub lekko zakrzywionych; także budownictwo, przemysł stoczniowy i ochrona przeciwpożarowa."
+      },
+      {
+        "form": "Maty sztywne (batts)",
+        "thickness": "25–118 mm",
+        "density": "100–150 kg/m³",
+        "text": "Maty bez okładziny, bardzo sztywne, do izolacji cieplnej i przeciwpożarowej oraz jako rdzeń płyt warstwowych."
+      },
+      {
+        "form": "Maty na siatce",
+        "thickness": "25–100 mm",
+        "density": "70–150 kg/m³",
+        "text": "Pokryte ocynkowaną lub nierdzewną siatką heksagonalną i przeszywane na wymiar. Do kotłów, zbiorników magazynowych i rurociągów do 750 °C oraz w przemyśle stoczniowym."
+      },
+      {
+        "form": "Otuliny",
+        "thickness": "25–100 mm",
+        "density": "100, 128, 136, 144 kg/m³",
+        "text": "Prefabrykowane otuliny do rurociągów do 750 °C, z folią aluminiową lub bez. Stosowane w elektrowniach i rafineriach."
+      },
+      {
+        "form": "Wełna luzem",
+        "thickness": "—",
+        "density": "Różne",
+        "text": "Lekko związana wełna skalna do wypełniania przestrzeni wokół wiązek rur i nieregularnych pustek."
+      }
+    ],
+    "pipeNote": "Otuliny są nawijane na trzpień i formowane współśrodkowo, dopasowane do standardowych średnic rur. Izolują równomiernie na całym obwodzie 360°, są odporne na ściskanie w eksploatacji i szybko się je montuje.",
+    "gwTitle": "Produkty z wełny szklanej",
+    "gwIntro": "Wełna szklana jest lżejsza od skalnej i stosuje się ją głównie w niższych temperaturach oraz tam, gdzie ważne jest pochłanianie dźwięku.",
+    "gwForms": [
+      {
+        "title": "Role i maty",
+        "text": "Ściany szczelinowe, izolacja poddaszy i dachów oraz owijanie kanałów wentylacyjnych."
+      },
+      {
+        "title": "Płyty twarde i półtwarde",
+        "text": "Fasady słupowo-ryglowe, wypełnienie przegród i płyty sufitowe."
+      },
+      {
+        "title": "Otuliny",
+        "text": "Izolacja rurociągów o niższej temperaturze."
+      },
+      {
+        "title": "Granulat do wdmuchiwania",
+        "text": "Izolacja wdmuchiwana do pustek i poddaszy."
+      }
+    ],
+    "compareTitle": "Porównanie wełny skalnej i szklanej",
+    "colProperty": "Właściwość",
+    "colRockwool": "Wełna skalna",
+    "colGlassWool": "Wełna szklana",
+    "compareRows": [
+      {
+        "label": "Surowiec",
+        "rw": "Bazalt / diabaz",
+        "gw": "Do 70% szkła z recyklingu z piaskiem"
+      },
+      {
+        "label": "Temperatura topienia",
+        "rw": "Około 1500 °C",
+        "gw": "Około 1550 °C"
+      },
+      {
+        "label": "Maks. temperatura pracy",
+        "rw": "750 °C",
+        "gw": "Około 450 °C (zależnie od produktu)"
+      },
+      {
+        "label": "Gęstość",
+        "rw": "30–200 kg/m³",
+        "gw": "10–80 kg/m³"
+      },
+      {
+        "label": "Grubość",
+        "rw": "25–200 mm",
+        "gw": "25–150 mm"
+      },
+      {
+        "label": "Przewodność cieplna (λ)",
+        "rw": "0,034–0,045 W/m·K",
+        "gw": "0,030–0,040 W/m·K"
+      },
+      {
+        "label": "Klasa reakcji na ogień",
+        "rw": "Niepalna (Euroklasa A1)",
+        "gw": "Niepalna (Euroklasa A1 lub A2)"
+      },
+      {
+        "label": "Właściwości akustyczne",
+        "rw": "Bardzo dobre (NRC 0,90–1,05)",
+        "gw": "Bardzo dobre (NRC 0,85–1,00)"
+      },
+      {
+        "label": "Wilgoć",
+        "rw": "Dostępna impregnacja hydrofobowa",
+        "gw": "Dostępna impregnacja hydrofobowa"
+      },
+      {
+        "label": "Zachowanie korozyjne",
+        "rw": "Wolna od halogenków i siarczków; bezpieczna pod płaszczem nierdzewnym",
+        "gw": "Niska zawartość chlorków"
+      }
+    ],
+    "compareNote": "Wartości typowe. Dokładne dane zależą od produktu, gęstości i producenta; karta techniczna i świadectwa badań producenta są dołączane do każdego zamówienia.",
+    "traitsTitle": "Właściwości",
+    "characteristics": [
+      "Bez azbestu i bezpieczna dla zdrowia",
+      "Odporna na gnicie, bezwonna, odporna na grzyby, owady i gryzonie",
+      "Nie kurczy się i nie osiada z czasem",
+      "Nie chłonie wilgoci z powietrza; woda, która wniknie pod ciśnieniem, szybko odparowuje dzięki otwartej strukturze włókien",
+      "Chemicznie obojętna, nie sprzyja rozwojowi pleśni",
+      "Produkowana bez CFC i HCFC"
+    ],
+    "corrosionTitle": "Ochrona przed korozją",
+    "corrosionText": "Włókna wełny skalnej są wolne od halogenków (chlorków i fluorków) oraz siarczków, zanieczyszczeń występujących w niektórych innych materiałach izolacyjnych. Wełna jest wytwarzana metodą suchą i ma lekko zasadowy odczyn, który przeciwdziała korozji. Dzięki temu jest bezpieczna na stali nierdzewnej, gdzie chlorki mogą wywołać korozję naprężeniową pod izolacją. Spełnia ASTM C795, jeśli jest to wymagane.",
+    "standardsTitle": "Normy i badania",
+    "standards": [
+      "Ustalony przepływ ciepła przez izolację rur",
+      "Przewodność cieplna metodą płyty grzejnej z pierścieniem ochronnym",
+      "Przewodność cieplna metodą płytki strumienia ciepła",
+      "Izolacja rur z włókien mineralnych",
+      "Maty z włókien mineralnych do zastosowań przemysłowych",
+      "Bloki i płyty z włókien mineralnych",
+      "Maty z włókien mineralnych do budynków",
+      "Izolacja do stosowania na stali austenitycznej",
+      "Fabryczne wyroby z wełny mineralnej dla budownictwa",
+      "Prefabrykowane otuliny z włókien mineralnych i materiały izolacyjne"
+    ],
+    "applicationsTitle": "Zastosowania według branży",
+    "applications": [
+      {
+        "title": "Ropa, gaz i petrochemia",
+        "items": [
+          "Izolacja gorących i zimnych rurociągów technologicznych",
+          "Zbiorniki, kolumny i wymienniki ciepła",
+          "Izolacja zewnętrzna pieców procesowych"
+        ]
+      },
+      {
+        "title": "Energetyka",
+        "items": [
+          "Izolacja kotłów i obudowy turbin",
+          "Izolacja kanałów spalin",
+          "Izolacja kotłów odzysknicowych w układach gazowo-parowych"
+        ]
+      },
+      {
+        "title": "Budownictwo i wentylacja",
+        "items": [
+          "Ściany, dachy i stropy",
+          "Owijanie i wykładanie kanałów wentylacyjnych",
+          "Izolacja akustyczna przegród i sufitów",
+          "Ogniochronne przegrody ścienne i stropowe"
+        ]
+      },
+      {
+        "title": "Przemysł stoczniowy i offshore",
+        "items": [
+          "Izolacja grodzi i pokładów",
+          "Izolacja cieplna i akustyczna maszynowni",
+          "Izolacja rurociągów na platformach morskich"
+        ]
+      },
+      {
+        "title": "Przemysł i produkcja",
+        "items": [
+          "Izolacja zewnętrzna pieców i suszarni",
+          "Chłodnie i przetwórstwo spożywcze",
+          "Ograniczanie hałasu w zakładach"
+        ]
+      }
+    ],
+    "supplyTitle": "Co dostarczamy",
+    "supply": [
+      "Santura dostarcza izolację z wełny skalnej i szklanej do rafinerii, zakładów petrochemicznych, elektrowni i na budowy oraz eksportuje do ponad 25 krajów. Produkty pochodzą od uznanych producentów i są dostarczane zgodnie ze specyfikacją projektu, ze świadectwami badań producenta.",
+      "Ponieważ sami produkujemy kołki izolacyjne i podkładki, możemy dostarczyć izolację i mocowania razem jako kompletny pakiet."
+    ],
+    "relatedTitle": "Powiązane produkty i usługi",
+    "relatedPins": "Kołki do zgrzewania i podkładki do mocowania płyt i mat z wełny mineralnej.",
+    "relatedCalsil": "Sztywne płyty i otuliny z krzemianu wapnia do izolacji wysokotemperaturowej.",
+    "relatedAnchors": "Kotwy SEPL do wyłożeń ogniotrwałych za izolacją wysokotemperaturową.",
+    "relatedSwText": "Urządzenia do zgrzewania kołków izolacyjnych.",
+    "faqTitle": "Najczęstsze pytania",
+    "faq": [
+      {
+        "q": "Czym różni się wełna skalna od wełny szklanej?",
+        "a": "Wełna skalna jest wytwarzana z bazaltu, wytrzymuje temperatury do 750 °C i ma większą gęstość (30–200 kg/m³), dlatego wybiera się ją do izolacji przemysłowej w wysokiej temperaturze. Wełna szklana powstaje ze szkła z recyklingu, jest lżejsza (10–80 kg/m³) i nadaje się do około 450 °C. Preferuje się ją w wentylacji, akustyce i budownictwie."
+      },
+      {
+        "q": "Jaką temperaturę wytrzymuje wełna mineralna?",
+        "a": "Wełnę skalną można stosować w sposób ciągły do 750 °C, a wełnę szklaną do około 450 °C, zależnie od produktu. Obie są niepalne: wełna skalna bez okładziny ma Euroklasę A1, a wełna szklana A1 lub A2, zależnie od produktu."
+      },
+      {
+        "q": "Jakie grubości i gęstości są dostępne?",
+        "a": "Wełna skalna jest dostępna w grubościach od 25 mm do 200 mm i gęstościach od 30 do 200 kg/m³. Wełna szklana ma grubość od 25 mm do 150 mm i gęstość od 10 do 80 kg/m³. Inne specyfikacje na zamówienie."
+      },
+      {
+        "q": "Czy wełna mineralna jest bezpieczna i wolna od azbestu?",
+        "a": "Tak. Dostarczana przez nas wełna mineralna nie zawiera azbestu, jest bezpieczna, produkowana bez CFC i HCFC, odporna na gnicie i chemicznie obojętna. Można ją bezpiecznie obrabiać w standardowych środkach ochrony, a wełna skalna jest wolna od chlorków powodujących korozję pod płaszczem ze stali nierdzewnej."
+      }
+    ],
+    "ctaTitle": "Potrzebujesz izolacji z wełny mineralnej?",
+    "ctaText": "Podaj formę produktu, grubość, gęstość, okładzinę, ilość i temperaturę pracy. Odpowiemy ofertą i terminem dostawy.",
+    "ctaRfq": "Zapytaj o ofertę na wełnę mineralną",
+    "ctaContact": "Lub skontaktuj się z naszym zespołem"
+  },
+  "cgPage": {
+    "metaTitle": "Uszczelki ceramiczne i uszczelnienia wysokotemperaturowe",
+    "metaDescription": "Uszczelki, sznury i taśmy z włókna ceramicznego oraz uszczelki przemysłowe do pieców i rafinerii. Dostawca od 1980 r., eksport do 25+ krajów.",
+    "eyebrow": "Izolacja i uszczelnienia",
+    "h1": "Uszczelki ceramiczne i wyroby uszczelniające wysokotemperaturowe",
+    "subheading": "Sznur, taśma, papier, mata, płyta, tkanina i uszczelki tadpole z włókna ceramicznego do drzwi pieców, szczelin dylatacyjnych i uszczelnień spalin, a także uszczelki bezazbestowe, PTFE, grafitowe i spiralne do kołnierzy. Jeden dostawca uszczelnień wysokotemperaturowych i uszczelek kołnierzowych.",
+    "gallery": [
+      "Różne uszczelki przemysłowe, w tym uszczelki spiralne",
+      "Bezazbestowe uszczelki kołnierzowe",
+      "Czarna płyta uszczelkarska z włókien prasowanych"
+    ],
+    "overviewTitle": "Czym są uszczelki ceramiczne",
+    "overview": [
+      "Uszczelki ceramiczne to uszczelnienia wysokotemperaturowe z włókna ceramicznego, materiału glinokrzemianowego. Uszczelniają złącza, drzwi, kołnierze i szczeliny dylatacyjne w piecach, piecach obrotowych, piecach procesowych i kotłach. Standardowe włókno ceramiczne ma klasyfikację 1260 °C, a gatunki z cyrkonem jeszcze wyższą, daleko poza zakresem uszczelek gumowych czy z włókien prasowanych.",
+      "Do kołnierzy rurociągów i urządzeń ciśnieniowych w niższych temperaturach dostarczamy też konwencjonalne uszczelki przemysłowe: bezazbestowe, PTFE, grafitowe, spiralne, pierścieniowe (RTJ) i w podwójnym płaszczu. Dzięki temu rafinerie, zakłady petrochemiczne i elektrownie mają jedno źródło uszczelnień."
+    ],
+    "ceramicTitle": "Wyroby uszczelniające z włókna ceramicznego",
+    "ceramicIntro": "Wszystkie wyroby z włókna ceramicznego są bezazbestowe i chemicznie obojętne. Formę dobiera się do kształtu złącza i częstotliwości otwierania.",
+    "ceramic": [
+      {
+        "name": "Sznur z włókna ceramicznego (okrągły)",
+        "text": "Pleciony lub skręcany sznur okrągły do uszczelnień drzwi, szczelin dylatacyjnych i dławnic.",
+        "sizes": "Ø 6–50 mm · długości na zamówienie"
+      },
+      {
+        "name": "Sznur z włókna ceramicznego (kwadratowy)",
+        "text": "Pleciony sznur kwadratowy do ościeżnic drzwi pieców i uszczelnień suszarni.",
+        "sizes": "6 × 6 mm do 50 × 50 mm"
+      },
+      {
+        "name": "Taśma z włókna ceramicznego",
+        "text": "Tkana taśma płaska do owijania kołnierzy i połączeń rur oraz ochrony kabli.",
+        "sizes": "Szerokość 25–150 mm · grubość 2–5 mm"
+      },
+      {
+        "name": "Papier z włókna ceramicznego",
+        "text": "Cienki, elastyczny arkusz do uszczelek wykrawanych, uszczelnień kołnierzy i izolacji elektrycznej.",
+        "sizes": "Grubość 1–6 mm · role do 1000 mm"
+      },
+      {
+        "name": "Mata z włókna ceramicznego",
+        "text": "Igłowana, elastyczna mata do wyłożeń, owijania i izolacji podkładowej.",
+        "sizes": "Grubość 6–50 mm · 64–192 kg/m³"
+      },
+      {
+        "name": "Płyta z włókna ceramicznego",
+        "text": "Sztywna płyta formowana próżniowo do wyłożeń pieców, przegród i uszczelnień spalin.",
+        "sizes": "Grubość 6–50 mm · 280–400 kg/m³"
+      },
+      {
+        "name": "Tkanina z włókna ceramicznego",
+        "text": "Tkanina na zasłony, koce spawalnicze i zdejmowane osłony izolacyjne.",
+        "sizes": "Grubość 1,5–5 mm"
+      },
+      {
+        "name": "Uszczelki tadpole",
+        "text": "Profil z wałkiem i językiem do drzwi pieców i suszarni; język mocuje się zaciskiem lub nitami do ościeżnicy.",
+        "sizes": "Wałek Ø 10–40 mm · język 25–100 mm"
+      }
+    ],
+    "convTitle": "Uszczelki przemysłowe",
+    "convIntro": "Te uszczelki dostarczamy za pośrednictwem uznanego producenta uszczelek, zgodnie z Twoją specyfikacją i normą kołnierzy.",
+    "colType": "Rodzaj",
+    "colMaterial": "Materiał",
+    "colMaxTemp": "Maks. temperatura",
+    "colUse": "Typowe zastosowanie",
+    "conventional": [
+      {
+        "name": "Bezazbestowe (zamiennik CAF)",
+        "material": "Włókno aramidowe lub szklane ze spoiwem NBR",
+        "temp": "Około 450 °C",
+        "text": "Zastępują uszczelki z prasowanego włókna azbestowego. Sprężarki powietrza, rurociągi silników Diesla, przemysł i żegluga."
+      },
+      {
+        "name": "Uszczelki PTFE",
+        "material": "PTFE czyste lub z wypełniaczem",
+        "temp": "Około 260 °C",
+        "text": "Kołnierze narażone na agresywne chemikalia, takie jak kwasy, zasady i rozpuszczalniki."
+      },
+      {
+        "name": "Uszczelki grafitowe",
+        "material": "Grafit elastyczny, gładki lub z blachą kolczastą, opcjonalnie z wkładką nierdzewną lub niklową",
+        "temp": "Około 450 °C w powietrzu, 650 °C w parze",
+        "text": "Ciężkie warunki pracy. Samosmarujące, nie przywierają do kołnierzy."
+      },
+      {
+        "name": "Uszczelki spiralne",
+        "material": "Zwoje SS304 / SS316 z wypełnieniem grafitowym lub PTFE",
+        "temp": "Około 600 °C",
+        "text": "Kołnierze w rafineriach i petrochemii, wysokie ciśnienie i zmiany temperatury."
+      },
+      {
+        "name": "Uszczelki pierścieniowe (RTJ)",
+        "material": "Lita stal nierdzewna lub Inconel",
+        "temp": "600 °C i więcej",
+        "text": "Wysokociśnieniowe kołnierze RTJ w przemyśle naftowym i gazowym."
+      },
+      {
+        "name": "Uszczelki w podwójnym płaszczu",
+        "material": "Płaszcz metalowy z miękkim wypełnieniem",
+        "temp": "Około 550 °C",
+        "text": "Wymienniki ciepła i kołnierze o dużej średnicy."
+      },
+      {
+        "name": "Uszczelki gumowe i nitrylowe",
+        "material": "Kauczuk naturalny, NBR i inne elastomery",
+        "temp": "Około 100–120 °C",
+        "text": "Woda, olej i ogólne zastosowania w niskiej temperaturze."
+      }
+    ],
+    "specTitle": "Właściwości włókna ceramicznego",
+    "specRows": [
+      {
+        "label": "Temperatura klasyfikacyjna",
+        "value": "1260 °C (standard), do 1400 °C (gatunek z cyrkonem)"
+      },
+      {
+        "label": "Temperatura pracy ciągłej",
+        "value": "1000–1260 °C, zależnie od gatunku"
+      },
+      {
+        "label": "Skład chemiczny",
+        "value": "Al₂O₃ 45–55%, SiO₂ 45–55% (standard); ZrO₂ 15–17% (gatunek z cyrkonem)"
+      },
+      {
+        "label": "Kolor",
+        "value": "Biały"
+      },
+      {
+        "label": "Przewodność cieplna",
+        "value": "0,08–0,23 W/m·K przy średnich temperaturach 200–1000 °C"
+      },
+      {
+        "label": "Zawartość azbestu",
+        "value": "Brak: w 100% bezazbestowe"
+      }
+    ],
+    "specNote": "Wartości typowe. Dokładne dane zależą od formy, gatunku i producenta; karta techniczna i świadectwa badań producenta są dołączane do każdego zamówienia.",
+    "dimTitle": "Wymiary uszczelek wyciętych na gotowo",
+    "dimIntro": "Uszczelki kołnierzowe z włókien prasowanych wg wzoru ASME B16.21. Wszystkie wymiary w milimetrach.",
+    "colNps": "Średnica nominalna",
+    "colId": "Średnica wewnętrzna",
+    "colOd": "Średnica zewnętrzna wg klasy ciśnienia",
+    "colClass": "Class {cls}",
+    "dimNote": "Uszczelki wycięte na gotowo są dostępne w standardowych rozmiarach ASME. Inne rozmiary i klasy ciśnienia wg rysunku.",
+    "standardsTitle": "Normy",
+    "standards": [
+      "Maty z włókien do izolacji wysokotemperaturowej",
+      "Metody badań wyrobów z włókna ceramicznego",
+      "Izolacyjne wyroby ogniotrwałe: wyroby z włókna ceramicznego",
+      "Uszczelki metalowe do kołnierzy (spiralne, pierścieniowe, płaszczowe)",
+      "Niemetalowe uszczelki płaskie do kołnierzy",
+      "Niemetalowe uszczelki płaskie: wartości charakterystyczne"
+    ],
+    "applicationsTitle": "Zastosowania według branży",
+    "applications": [
+      {
+        "title": "Ropa, gaz i petrochemia",
+        "items": [
+          "Uszczelnienia drzwi i wzierników pieców procesowych",
+          "Szczeliwo do szczelin dylatacyjnych pieców",
+          "Uszczelki kołnierzowe na gorących rurociągach",
+          "Uszczelnienia regeneratorów katalizatora i pochodni"
+        ]
+      },
+      {
+        "title": "Energetyka",
+        "items": [
+          "Uszczelnienia drzwi i włazów rewizyjnych kotłów",
+          "Kompensatory w kanałach kotłów odzysknicowych",
+          "Uszczelki wylotu turbin",
+          "Uszczelnienia ekonomizerów i podgrzewaczy powietrza"
+        ]
+      },
+      {
+        "title": "Stal, metale i cement",
+        "items": [
+          "Uszczelnienia drzwi i wózków pieców",
+          "Sznury do drzwi pieców wyżarzalniczych",
+          "Uszczelki pokryw kadzi",
+          "Uszczelnienia chłodników klinkieru"
+        ]
+      },
+      {
+        "title": "Szkło i ceramika",
+        "items": [
+          "Uszczelnienia sklepienia i palników pieców szklarskich",
+          "Uszczelki kanałów zasilających",
+          "Uszczelnienia drzwi pieców ceramicznych"
+        ]
+      },
+      {
+        "title": "Przemysł ogólny",
+        "items": [
+          "Uszczelnienia spalarni i instalacji odzysku energii",
+          "Uszczelki drzwi pieców do obróbki cieplnej",
+          "Uszczelnienia szczelin przenośników w piecach",
+          "Uszczelki układów wydechowych"
+        ]
+      }
+    ],
+    "supplyTitle": "Co dostarczamy",
+    "supply": [
+      "Santura dostarcza uszczelki, sznury, taśmy, papiery i maty z włókna ceramicznego oraz uszczelki bezazbestowe, PTFE, grafitowe i spiralne do rafinerii, zakładów petrochemicznych, elektrowni, hut i cementowni, a także eksportuje do ponad 25 krajów. Produkty pochodzą od uznanych producentów i są dostarczane zgodnie z Twoją specyfikacją, ze świadectwami badań producenta.",
+      "Ponieważ sami produkujemy kotwy ogniotrwałe, kołki izolacyjne i kotwy kołkowe SEPL-24 do włókna ceramicznego, oferujemy kompletny pakiet wyłożenia pieca z jednego źródła: kotwy, kołki, uszczelki i materiały izolacyjne."
+    ],
+    "relatedTitle": "Powiązane produkty",
+    "relatedMineralWool": "Izolacja z wełny skalnej i szklanej do rurociągów, zbiorników i kanałów.",
+    "relatedPins": "Kołki do zgrzewania i podkładki do mocowania mat i izolacji.",
+    "relatedAnchors": "Kotwy SEPL do kompletnych wyłożeń pieców.",
+    "relatedSepl24": "Kotwy zgrzewane kołkowo do wyłożeń z mat i modułów z włókna ceramicznego.",
+    "relatedDoors": "Drzwi rewizyjne i wzierniki uszczelniane sznurem i uszczelkami z włókna ceramicznego.",
+    "faqTitle": "Najczęstsze pytania",
+    "faq": [
+      {
+        "q": "Jaką temperaturę wytrzymują uszczelki z włókna ceramicznego?",
+        "a": "Standardowe uszczelki z glinokrzemianowego włókna ceramicznego mają klasyfikację 1260 °C, a w pracy ciągłej zwykle do około 1000 °C. Gatunki z cyrkonem wytrzymują do 1400 °C. Są niepalne i nadają się do drzwi pieców, szczelin dylatacyjnych i uszczelnień spalin."
+      },
+      {
+        "q": "Jakie rodzaje uszczelek ceramicznych są dostępne?",
+        "a": "Wyroby uszczelniające z włókna ceramicznego obejmują pleciony sznur okrągły i kwadratowy, tkaną taśmę, papier ceramiczny do uszczelek wykrawanych, uszczelki tadpole do drzwi, tkaninę i matę oraz sztywną płytę do uszczelnień przegród. Wszystkie są bezazbestowe i chemicznie obojętne."
+      },
+      {
+        "q": "Czym różnią się uszczelki ceramiczne od konwencjonalnych uszczelek przemysłowych?",
+        "a": "Uszczelki z włókna ceramicznego wytrzymują 1000–1260 °C i stosuje się je w drzwiach pieców i szczelinach dylatacyjnych, gdzie ciśnienie jest niskie. Uszczelki konwencjonalne (bezazbestowe do około 450 °C, PTFE około 260 °C, grafitowe około 450 °C w powietrzu, spiralne około 600 °C) uszczelniają kołnierze i zbiorniki ciśnieniowe w niższych temperaturach. Santura dostarcza oba rodzaje."
+      },
+      {
+        "q": "Czy dostarczacie uszczelki zgodne z normami ASME?",
+        "a": "Tak. Dostarczamy uszczelki spiralne, pierścieniowe i płaszczowe wg ASME B16.20 oraz niemetalowe uszczelki płaskie wg ASME B16.21. Uszczelki wycięte na gotowo są dostępne w standardowych rozmiarach kołnierzy ASME; inne rozmiary i klasy ciśnienia wykonujemy wg rysunku."
+      }
+    ],
+    "ctaTitle": "Potrzebujesz uszczelek ceramicznych lub kołnierzowych?",
+    "ctaText": "Podaj produkt, rozmiar lub normę kołnierza, klasę ciśnienia, temperaturę i ilość. Odpowiemy ofertą i terminem dostawy.",
+    "ctaRfq": "Zapytaj o ofertę na uszczelki",
+    "ctaContact": "Lub skontaktuj się z naszym zespołem"
+  },
+  "gfPage": {
+    "metaTitle": "Płyty z włókna szklanego, tkanina i wełna szklana",
+    "metaDescription": "Płyty z włókna szklanego, tkanina, taśma i izolacja z wełny szklanej dla przemysłu. Dostawca od 1980 r., eksport do ponad 25 krajów. Zapytaj o ofertę.",
+    "eyebrow": "Materiały izolacyjne",
+    "h1": "Płyty z włókna szklanego, tkanina i wełna szklana",
+    "subheading": "Płyty i laminaty z włókna szklanego, tkanina i taśma szklana oraz role, otuliny i maty na siatce z wełny szklanej do izolacji, płaszczy ochronnych i zbrojenia. Dostarczane zgodnie ze specyfikacją projektu, razem z kołkami i sworzniami do mocowania.",
+    "gallery": [
+      "Rola maty z ciętego włókna szklanego",
+      "Szpule rovingu z włókna szklanego",
+      "Zbliżenie pasm włókna szklanego"
+    ],
+    "overviewTitle": "Czym są wyroby z włókna szklanego",
+    "overview": "Wyroby z włókna szklanego powstają przez stopienie szkła w temperaturze około 1550 °C i rozwłóknienie lub wyciągnięcie go w cienkie włókna. Wełna szklana zawiera do 70% szkła z recyklingu. W zależności od sposobu formowania włókien powstaje miękka wełna izolacyjna, płyta twarda lub półtwarda albo przędza tkana w tkaninę i taśmę.",
+    "functions": [
+      {
+        "title": "Izolacja",
+        "text": "Role, płyty, otuliny i maty z wełny szklanej do izolacji cieplnej i akustycznej rurociągów, kanałów, ścian, dachów i urządzeń."
+      },
+      {
+        "title": "Zbrojenie i ochrona",
+        "text": "Tkanina szklana, taśma, roving i laminaty do żaroodpornych owinięć i płaszczy ochronnych, materiału uszczelek, zbrojenia kompozytów i kurtyn przeciwpożarowych."
+      }
+    ],
+    "glassTypes": "Tkaninę i taśmę szklaną tka się z przędzy ze szkła E, najczęściej stosowanego i najtańszego szkła tekstylnego. Szkło S ma około 30% wyższą wytrzymałość na rozciąganie i lepiej pracuje w podwyższonej temperaturze, ale jest droższe. Wełnę szklaną wytwarza się ze szkła sodowo-wapniowo-borokrzemowego z dodatkiem stłuczki z recyklingu.",
+    "groups": [
+      {
+        "title": "Płyty z włókna szklanego",
+        "intro": "Płyty twarde i półtwarde do izolacji oraz laminaty żywiczne do elementów elektrycznych i konstrukcyjnych.",
+        "rows": [
+          {
+            "name": "Twarda płyta z włókna szklanego",
+            "text": "Płyta wiązana żywicą do wykładania kanałów, fasad słupowo-ryglowych i płyt sufitowych.",
+            "spec": "Grubość 25–100 mm · 48–96 kg/m³"
+          },
+          {
+            "name": "Półtwarda płyta z włókna szklanego",
+            "text": "Na tyle elastyczna, by pasować do powierzchni zakrzywionych i owijania urządzeń.",
+            "spec": "Grubość 25–75 mm · 24–64 kg/m³"
+          },
+          {
+            "name": "Laminat szklany (G10 / FR4)",
+            "text": "Płyta przesycona żywicą epoksydową do izolacji elektrycznej i elementów konstrukcyjnych.",
+            "spec": "Grubość 0,5–50 mm"
+          },
+          {
+            "name": "Płyta z okładziną aluminiową",
+            "text": "Twarda płyta z odblaskową paroizolacją.",
+            "spec": "Grubość 25–100 mm"
+          }
+        ]
+      },
+      {
+        "title": "Tkaniny z włókna szklanego",
+        "intro": "Tkane tekstylia szklane do płaszczy ochronnych, owijania, uszczelniania i kompozytów.",
+        "rows": [
+          {
+            "name": "Tkanina szklana (splot płócienny)",
+            "text": "Standardowa tkanina przemysłowa do owijania i płaszczy ochronnych.",
+            "spec": "200–800 g/m² · 0,2–1,0 mm"
+          },
+          {
+            "name": "Tkanina szklana (splot skośny)",
+            "text": "Lepsza układalność na powierzchniach zakrzywionych i do laminowania kompozytów.",
+            "spec": "200–600 g/m² · 0,2–0,8 mm"
+          },
+          {
+            "name": "Tkanina szklana teksturowana",
+            "text": "Przędza puszona na grubszą, miększą tkaninę osłonową.",
+            "spec": "400–1200 g/m² · 0,5–3,0 mm"
+          },
+          {
+            "name": "Tkanina szklana z silikonem lub PTFE",
+            "text": "Odporna chemicznie, nieprzywierająca tkanina do owijania i uszczelek.",
+            "spec": "Do 260 °C (PTFE) / około 300 °C (silikon)"
+          },
+          {
+            "name": "Taśma z włókna szklanego",
+            "text": "Wąska taśma tkana do owijania rur i wiązania kabli.",
+            "spec": "Szerokość 20–150 mm · 0,2–1,0 mm"
+          },
+          {
+            "name": "Tkanina rovingowa",
+            "text": "Ciężka tkanina do zbrojenia kompozytów (laminatów szklano-żywicznych).",
+            "spec": "200–800 g/m²"
+          }
+        ]
+      },
+      {
+        "title": "Izolacja z wełny szklanej",
+        "intro": "Lekka izolacja do budynków, wentylacji i urządzeń procesowych o niższej temperaturze.",
+        "rows": [
+          {
+            "name": "Role i maty z wełny szklanej",
+            "text": "Elastyczna izolacja ścian, dachów i kanałów wentylacyjnych.",
+            "spec": "Grubość 25–150 mm · 10–48 kg/m³"
+          },
+          {
+            "name": "Otuliny z wełny szklanej",
+            "text": "Prefabrykowane otuliny do izolacji rur.",
+            "spec": "Śr. wewn. 15–600 mm · grubość 25–100 mm"
+          },
+          {
+            "name": "Maty z wełny szklanej na siatce",
+            "text": "Maty z siatką stalową do izolacji urządzeń, zbiorników i kolumn.",
+            "spec": "Grubość 25–100 mm · 24–80 kg/m³"
+          },
+          {
+            "name": "Wełna szklana luzem",
+            "text": "Izolacja wdmuchiwana do pustek i trudno dostępnych miejsc.",
+            "spec": "Gęstość zależnie od zastosowania"
+          }
+        ]
+      }
+    ],
+    "colProduct": "Produkt",
+    "colDescription": "Opis",
+    "colSpec": "Typowa specyfikacja",
+    "compareTitle": "Porównanie właściwości",
+    "colProperty": "Właściwość",
+    "colWool": "Wełna szklana",
+    "colCloth": "Tkanina szklana",
+    "colBoard": "Płyta z włókna szklanego",
+    "compareRows": [
+      {
+        "label": "Surowiec",
+        "wool": "Szkło sodowo-wapniowo-borokrzemowe, do 70% z recyklingu",
+        "cloth": "Przędza ze szkła E lub S",
+        "board": "Wełna szklana ze spoiwem żywicznym"
+      },
+      {
+        "label": "Maks. temperatura pracy ciągłej",
+        "wool": "230–450 °C, zależnie od spoiwa",
+        "cloth": "Około 550 °C (szkło E bez powłoki)",
+        "board": "230–450 °C"
+      },
+      {
+        "label": "Temperatura mięknienia",
+        "wool": "Około 650–700 °C",
+        "cloth": "Około 840 °C (szkło E)",
+        "board": "Około 650–700 °C"
+      },
+      {
+        "label": "Gęstość",
+        "wool": "10–96 kg/m³",
+        "cloth": "Podawana w g/m²",
+        "board": "24–96 kg/m³"
+      },
+      {
+        "label": "Przewodność cieplna (λ)",
+        "wool": "0,030–0,045 W/m·K w 24 °C",
+        "cloth": "—",
+        "board": "0,032–0,040 W/m·K"
+      },
+      {
+        "label": "Właściwości akustyczne",
+        "wool": "NRC 0,80–1,00",
+        "cloth": "—",
+        "board": "NRC 0,75–0,95"
+      },
+      {
+        "label": "Klasa reakcji na ogień",
+        "wool": "Niepalna (Euroklasa A1 lub A2)",
+        "cloth": "Niepalna (bez powłoki)",
+        "board": "Niepalna (A1 lub A2)"
+      },
+      {
+        "label": "Wilgoć",
+        "wool": "Dostępna impregnacja hydrofobowa",
+        "cloth": "Nie chłonie wilgoci",
+        "board": "Dostępna impregnacja hydrofobowa"
+      },
+      {
+        "label": "Średnica włókna",
+        "wool": "4–9 µm",
+        "cloth": "6–13 µm, zależnie od przędzy",
+        "board": "4–9 µm"
+      },
+      {
+        "label": "Azbest",
+        "wool": "Brak",
+        "cloth": "Brak",
+        "board": "Brak"
+      }
+    ],
+    "compareNote": "Wartości typowe. Dokładne dane zależą od produktu, spoiwa i producenta; karta techniczna i świadectwa badań producenta są dołączane do każdego zamówienia. Powyżej tych granic stosuj wełnę skalną lub włókno ceramiczne.",
+    "traitsTitle": "Właściwości",
+    "characteristics": [
+      "Wełna szklana z udziałem do 70% szkła z recyklingu",
+      "Bez azbestu i bezpieczna dla zdrowia",
+      "Produkowana bez CFC, HCFC i HFC",
+      "Niepalna (wyroby bez powłoki)",
+      "Nie kurczy się, nie opada i nie osiada z czasem",
+      "Odporna na gnicie, owady i gryzonie",
+      "Dobre pochłanianie dźwięku (NRC 0,80–1,00)",
+      "Niska przewodność cieplna dla oszczędności energii",
+      "Lekka, łatwa w przenoszeniu i montażu",
+      "Odporna na większość chemikaliów, z wyjątkiem kwasu fluorowodorowego i silnych zasad"
+    ],
+    "standardsTitle": "Normy i badania",
+    "standards": [
+      "Maty i filce z włókien mineralnych",
+      "Bloki i płyty z włókien mineralnych",
+      "Izolacja rur z włókien mineralnych",
+      "Przewodność cieplna metodą płyty grzejnej i płytki strumienia ciepła",
+      "Gotowe tkaniny szklane z rovingu",
+      "Charakterystyka palności powierzchniowej",
+      "Fabryczne wyroby z wełny mineralnej dla budownictwa",
+      "Wytrzymałość na rozciąganie tkanin powlekanych",
+      "Materiały termoizolacyjne",
+      "Prefabrykowane otuliny z włókien mineralnych"
+    ],
+    "applicationsTitle": "Zastosowania według branży",
+    "applications": [
+      {
+        "title": "Ropa, gaz i petrochemia",
+        "items": [
+          "Izolacja rurociągów i urządzeń",
+          "Płaszcze z tkaniny szklanej na izolacji z wełny mineralnej",
+          "Izolacja zbiorników i kolumn matami na siatce",
+          "Taśma szklana do mocowania warstw izolacji"
+        ]
+      },
+      {
+        "title": "Energetyka",
+        "items": [
+          "Izolacja kotłów i wykładanie kanałów",
+          "Obudowy akustyczne turbin i generatorów",
+          "Maty izolacyjne kotłów odzysknicowych",
+          "Izolacja kanałów spalin"
+        ]
+      },
+      {
+        "title": "Budownictwo i wentylacja",
+        "items": [
+          "Ściany, dachy i stropy",
+          "Owijanie i wykładanie kanałów wentylacyjnych",
+          "Sufity akustyczne i wypełnienie przegród",
+          "Izolacja rur ciepłej i lodowej wody"
+        ]
+      },
+      {
+        "title": "Przemysł stoczniowy i offshore",
+        "items": [
+          "Izolacja grodzi i pokładów",
+          "Izolacja cieplna i akustyczna maszynowni",
+          "Zbrojenie tkaniną szklaną konstrukcji z laminatów"
+        ]
+      },
+      {
+        "title": "Przemysł i produkcja",
+        "items": [
+          "Chłodnie i przetwórstwo spożywcze",
+          "Ekrany i obudowy przeciwhałasowe",
+          "Owijanie tkaniną szklaną zewnętrznych powierzchni pieców",
+          "Płyty izolacji elektrycznej (G10 / FR4)"
+        ]
+      }
+    ],
+    "supplyTitle": "Co dostarczamy",
+    "supply": [
+      "Santura dostarcza płyty z włókna szklanego, tkaninę szklaną, taśmę szklaną i izolację z wełny szklanej do rafinerii, zakładów petrochemicznych, elektrowni i na budowy, a także eksportuje do ponad 25 krajów. Produkty pochodzą od uznanych producentów i są dostarczane zgodnie ze specyfikacją projektu, ze świadectwami badań producenta.",
+      "Ponieważ sami produkujemy kołki izolacyjne, sworznie do zgrzewania i kotwy ogniotrwałe, możemy dostarczyć materiał izolacyjny, mocowania i tkaninę osłonową w jednym pakiecie."
+    ],
+    "relatedTitle": "Powiązane produkty",
+    "relatedMineralWool": "Izolacja z wełny skalnej do wyższych temperatur, do 750 °C.",
+    "relatedPins": "Kołki do zgrzewania i podkładki do mocowania wełny szklanej i płyt.",
+    "relatedGaskets": "Sznury, taśmy i uszczelki z włókna ceramicznego, stosowane razem z taśmą szklaną.",
+    "relatedAnchors": "Kotwy SEPL do wyłożeń pieców.",
+    "faqTitle": "Najczęstsze pytania",
+    "faq": [
+      {
+        "q": "Czym różni się tkanina szklana od wełny szklanej?",
+        "a": "Tkanina szklana to tkany materiał z przędzy szklanej, stosowany na płaszcze ochronne, do owijania i zbrojenia kompozytów. Wełna szklana to miękka izolacja z rozwłóknionego szkła, stosowana do izolacji cieplnej i akustycznej rur, kanałów, ścian i dachów. Tkaninę tka się z przędzy ze szkła E, a wełna szklana powstaje ze szkła sodowo-wapniowo-borokrzemowego z udziałem recyklingu."
+      },
+      {
+        "q": "Jaką temperaturę wytrzymują wyroby z włókna szklanego?",
+        "a": "Wełna szklana wytrzymuje 230–450 °C, zależnie od spoiwa. Niepowlekana tkanina ze szkła E pracuje w sposób ciągły do około 550 °C. Wełna szklana mięknie w około 650–700 °C, a szkło E w około 840 °C. Do wyższych temperatur zaleca się wełnę skalną (do 750 °C) lub wyroby z włókna ceramicznego."
+      },
+      {
+        "q": "Czy izolacja z włókna szklanego jest bezpieczna i wolna od azbestu?",
+        "a": "Tak. Dostarczane przez nas wyroby z włókna szklanego i wełny szklanej nie zawierają azbestu, są bezpieczne i produkowane bez CFC. Wełna szklana zawiera do 70% szkła z recyklingu. Można je bezpiecznie obrabiać w standardowych środkach ochrony; są stabilne chemicznie, odporne na gnicie i owady."
+      },
+      {
+        "q": "Jakie grubości i gęstości wełny szklanej są dostępne?",
+        "a": "Role i maty z wełny szklanej są dostępne w grubościach od 25 mm do 150 mm i gęstościach od 10 do 48 kg/m³. Otuliny mają średnice wewnętrzne od 15 mm do 600 mm. Maty na siatce są dostępne w grubościach 25–100 mm i gęstościach do 80 kg/m³. Inne specyfikacje na zamówienie."
+      }
+    ],
+    "ctaTitle": "Potrzebujesz włókna szklanego lub wełny szklanej?",
+    "ctaText": "Podaj produkt, grubość lub gramaturę, gęstość, wymiary, okładzinę i ilość. Odpowiemy ofertą i terminem dostawy.",
+    "ctaRfq": "Zapytaj o ofertę na wyroby z włókna szklanego",
+    "ctaContact": "Lub skontaktuj się z naszym zespołem"
+  },
+  "csPage": {
+    "metaTitle": "Płyty i otuliny z krzemianu wapnia | Dostawca przemysłowy",
+    "metaDescription": "Izolacja z krzemianu wapnia: płyty i otuliny wg ASTM C-533 do 1100 °C. Dostawca od 1980 r., eksport do ponad 25 krajów. Zapytaj o ofertę.",
+    "eyebrow": "Materiały izolacyjne",
+    "h1": "Izolacja z krzemianu wapnia",
+    "subheading": "Sztywne płyty, prefabrykowane otuliny, segmenty i proszek z krzemianu wapnia do izolacji przemysłowej do 1100 °C. Zgodne z IS 8154, IS 9428, BS 3958 część II i ASTM C-533.",
+    "gallery": [
+      "Płyty izolacyjne i półotuliny z krzemianu wapnia",
+      "Otuliny i płaskie płyty z krzemianu wapnia",
+      "Dwudzielna otulina z krzemianu wapnia"
+    ],
+    "overviewTitle": "Czym jest izolacja z krzemianu wapnia",
+    "overview": [
+      "Krzemian wapnia to wysokotemperaturowa, lekka, odporna na uszkodzenia i bezazbestowa izolacja przemysłowa. Składa się z uwodnionego krzemianu wapnia z włóknami wzmacniającymi i jest formowany w sztywne kształtki: płyty, prefabrykowane otuliny, segmenty i proszek. Zachowuje właściwości izolacyjne nawet po zamoczeniu i wyschnięciu.",
+      "Wypełnia lukę między miękką wełną mineralną a włóknem ceramicznym. W przeciwieństwie do miękkiej izolacji jest sztywny i samonośny, więc wytrzymuje chodzenie i uderzenia na estakadach rurowych i urządzeniach, zachowując niską przewodność cieplną, wysoką wytrzymałość na ściskanie i bardzo mały skurcz przez cały okres eksploatacji."
+    ],
+    "tempTitle": "Maksymalna temperatura pracy",
+    "temps": {
+      "mw": "Wełna skalna",
+      "cs": "Krzemian wapnia",
+      "cf": "Włókno ceramiczne"
+    },
+    "tempNote": "Typowe wartości maksymalne; granica dla każdego produktu zależy od gatunku.",
+    "formsTitle": "Formy produktu",
+    "colForm": "Forma",
+    "colDescription": "Opis",
+    "colSizes": "Typowe wymiary",
+    "forms": [
+      {
+        "name": "Płyty",
+        "text": "Sztywne płyty na powierzchnie płaskie: ściany zbiorników, panele kanałów i obudowy pieców.",
+        "sizes": "Grubość 25–100 mm · długość 300–1000 mm · szerokość 150–600 mm"
+      },
+      {
+        "name": "Prefabrykowane otuliny",
+        "text": "Dwudzielne półotuliny lub otuliny segmentowe do izolacji rur.",
+        "sizes": "Śr. wewn. 15–600 mm · grubość 25–100 mm · długość standardowa 600 mm"
+      },
+      {
+        "name": "Segmenty fazowane",
+        "text": "Segmenty trapezowe do rur i zbiorników o dużej średnicy.",
+        "sizes": "Wg średnicy zbiornika i grubości izolacji"
+      },
+      {
+        "name": "Segmenty gięte",
+        "text": "Segmenty do kolumn, zbiorników i dużych urządzeń cylindrycznych.",
+        "sizes": "Promień i grubość na zamówienie"
+      },
+      {
+        "name": "Proszek / zasypka",
+        "text": "Do wypełniania nieregularnych pustek i trudno dostępnych miejsc.",
+        "sizes": "Dostawa luzem"
+      }
+    ],
+    "specTitle": "Parametry",
+    "specRows": [
+      {
+        "label": "Skład",
+        "value": "Uwodniony krzemian wapnia z włóknami wzmacniającymi"
+      },
+      {
+        "label": "Maks. temperatura pracy ciągłej",
+        "value": "1000–1100 °C, zależnie od gatunku"
+      },
+      {
+        "label": "Gęstość",
+        "value": "240–350 kg/m³ (około 256 kg/m³ dla gatunku wysokotemperaturowego)"
+      },
+      {
+        "label": "Przewodność cieplna przy 200 °C średnio",
+        "value": "0,065–0,080 W/m·K"
+      },
+      {
+        "label": "Przewodność cieplna przy 400 °C średnio",
+        "value": "0,085–0,105 W/m·K"
+      },
+      {
+        "label": "Przewodność cieplna przy 600 °C średnio",
+        "value": "0,100–0,130 W/m·K"
+      },
+      {
+        "label": "Wytrzymałość na ściskanie",
+        "value": "Co najmniej 0,7 MPa przy 5% odkształcenia"
+      },
+      {
+        "label": "Skurcz liniowy w maks. temperaturze",
+        "value": "Nie więcej niż 2%"
+      },
+      {
+        "label": "Wilgoć",
+        "value": "Po zamoczeniu i wyschnięciu wraca do pierwotnej izolacyjności"
+      },
+      {
+        "label": "pH",
+        "value": "Około 10 (zasadowe)"
+      },
+      {
+        "label": "Azbest",
+        "value": "Brak: w 100% bezazbestowy"
+      },
+      {
+        "label": "LZO",
+        "value": "Brak"
+      },
+      {
+        "label": "Zawartość recyklatu",
+        "value": "Zawiera materiał z recyklingu pokonsumenckiego"
+      },
+      {
+        "label": "Kolor",
+        "value": "Biały do złamanej bieli"
+      }
+    ],
+    "specNote": "Wartości typowe. Dokładne dane zależą od gatunku i producenta; karta techniczna i świadectwa badań producenta są dołączane do każdego zamówienia.",
+    "standardsTitle": "Normy",
+    "standards": [
+      "Bloki i otuliny izolacyjne z krzemianu wapnia",
+      "Płaskie bloki z krzemianu wapnia (norma indyjska)",
+      "Otuliny z krzemianu wapnia (norma indyjska)",
+      "Materiały termoizolacyjne: krzemian wapnia",
+      "Fabryczne wyroby z krzemianu wapnia do instalacji przemysłowych",
+      "Pomiar przewodności cieplnej",
+      "Charakterystyka palności powierzchniowej"
+    ],
+    "advantagesTitle": "Zalety",
+    "advantages": [
+      {
+        "title": "Stabilny po zamoczeniu",
+        "text": "Zachowuje właściwości izolacyjne w cyklach zamakania i suszenia."
+      },
+      {
+        "title": "Stała skuteczność",
+        "text": "Niska przewodność cieplna przez cały okres eksploatacji, dla trwałych oszczędności energii."
+      },
+      {
+        "title": "Wytrzymały i sztywny",
+        "text": "Wytrzymuje obciążenia mechaniczne, chodzenie po estakadach i uderzenia bez uszkodzeń."
+      },
+      {
+        "title": "Lekki",
+        "text": "Wysoka skuteczność przy małej masie jak na sztywną izolację wysokotemperaturową."
+      },
+      {
+        "title": "Łatwy montaż",
+        "text": "Łatwo go ciąć i dopasowywać na budowie, co skraca czas i obniża koszt montażu."
+      },
+      {
+        "title": "Długa trwałość i ponowne użycie",
+        "text": "Niewielkie wymagania konserwacyjne; można go zdemontować i użyć ponownie podczas postojów."
+      },
+      {
+        "title": "Środowisko",
+        "text": "Zero LZO i zawartość materiału z recyklingu pokonsumenckiego."
+      },
+      {
+        "title": "Zasadowy",
+        "text": "Naturalna zasadowość (pH około 10) pomaga chronić stal węglową przed korozją pod izolacją."
+      },
+      {
+        "title": "Niepalny",
+        "text": "Zerowe rozprzestrzenianie płomienia i wydzielanie dymu w badaniach palności powierzchniowej."
+      }
+    ],
+    "applicationsTitle": "Zastosowania według branży",
+    "applications": [
+      {
+        "title": "Hutnictwo żelaza i stali",
+        "items": [
+          "Wielkie piece i nagrzewnice dmuchu",
+          "Piece wgłębne i baterie koksownicze",
+          "Piece grzewcze i wyżarzalnicze",
+          "Podgrzewacze kadzi i kadzi pośrednich"
+        ]
+      },
+      {
+        "title": "Cement",
+        "items": [
+          "Wymienniki, cyklony i kanały",
+          "Piece",
+          "Nagrzewnice powietrza i pyroklony"
+        ]
+      },
+      {
+        "title": "Aluminium",
+        "items": [
+          "Rynny spustowe i pływaki",
+          "Piece wgłębne i wyłożenie elektrolizerów",
+          "Piece podgrzewcze i homogenizacyjne"
+        ]
+      },
+      {
+        "title": "Ropa, gaz i petrochemia",
+        "items": [
+          "Piece procesowe i reformingowe",
+          "Wymienniki ciepła i rurociągi parowe",
+          "Kolumny, zbiorniki i reaktory"
+        ]
+      },
+      {
+        "title": "Energetyka",
+        "items": [
+          "Obudowy komór paleniskowych kotłów i turbin",
+          "Izolacja rurociągów pary wysokotemperaturowej",
+          "Izolacja kanałów kotłów odzysknicowych",
+          "Układy wylotowe turbin gazowych"
+        ]
+      },
+      {
+        "title": "Ceramika i szkło",
+        "items": [
+          "Wyłożenie pieców tunelowych",
+          "Izolacja pieców do topienia szkła",
+          "Odprężarki i regeneratory"
+        ]
+      },
+      {
+        "title": "Przemysł ogólny",
+        "items": [
+          "Piece do obróbki cieplnej i odprężania",
+          "Piece grzewcze i topialne",
+          "Reaktory chemiczne i kolumny destylacyjne",
+          "Wysokotemperaturowe urządzenia spożywcze"
+        ]
+      }
+    ],
+    "supplyTitle": "Co dostarczamy",
+    "supply": [
+      "Santura dostarcza płyty i otuliny z krzemianu wapnia zgodne z IS 8154, IS 9428, BS 3958 część II i ASTM C-533. Mają niską przewodność cieplną, wysoką wytrzymałość na ściskanie i mały skurcz, zapewniając ekonomiczną izolację w temperaturach pracy do 1100 °C.",
+      "Ponieważ produkujemy kotwy ogniotrwałe i kołki izolacyjne, a także dostarczamy wełnę mineralną, włókno szklane i uszczelki ceramiczne, oferujemy kompletne pakiety izolacyjne dla rafinerii, hut, cementowni i elektrowni w ponad 25 krajach."
+    ],
+    "relatedTitle": "Powiązane produkty",
+    "relatedMineralWool": "Wełna skalna i szklana do temperatur do 750 °C.",
+    "relatedGlassFibre": "Tkanina szklana na płaszcze ochronne nad izolacją.",
+    "relatedPins": "Kołki do zgrzewania i podkładki do mocowania izolacji.",
+    "relatedAnchors": "Kotwy SEPL do wyłożeń wysokotemperaturowych.",
+    "faqTitle": "Najczęstsze pytania",
+    "faq": [
+      {
+        "q": "Jaką temperaturę wytrzymuje izolacja z krzemianu wapnia?",
+        "a": "Izolacja z krzemianu wapnia jest przeznaczona do pracy ciągłej do 1000–1100 °C, zależnie od gatunku. Zachowuje strukturę, niską przewodność cieplną i wytrzymałość na ściskanie w całym zakresie, a także właściwości izolacyjne nawet po zamoczeniu i wyschnięciu."
+      },
+      {
+        "q": "Jakie formy krzemianu wapnia są dostępne?",
+        "a": "Krzemian wapnia jest dostępny jako sztywne płyty, prefabrykowane otuliny (półotuliny), segmenty fazowane do dużych rur, segmenty gięte do zbiorników i kolumn oraz proszek do wypełniania pustek. Standardowe otuliny pasują do średnic wewnętrznych od 15 mm do 600 mm w grubościach od 25 do 100 mm. Inne wymiary wg rysunku."
+      },
+      {
+        "q": "Z jakimi normami jest zgodny wasz krzemian wapnia?",
+        "a": "Nasz krzemian wapnia jest zgodny z ASTM C-533, IS 8154 (bloki płaskie), IS 9428 (otuliny) i BS 3958 część II. Jest niepalny, z zerowym rozprzestrzenianiem płomienia w badaniu ASTM E-84, bezazbestowy i wolny od LZO."
+      },
+      {
+        "q": "Jakie są zalety krzemianu wapnia w porównaniu z wełną mineralną?",
+        "a": "Krzemian wapnia pracuje w wyższych temperaturach (do 1100 °C wobec 750 °C dla wełny skalnej), jest znacznie wytrzymalszy i odporniejszy na uszkodzenia, sztywny i samonośny, więc znosi chodzenie i uderzenia, a jego właściwości są stabilne po cyklach zamakania i suszenia. Wełna mineralna jest bardziej elastyczna i tańsza poniżej 750 °C. Dostarczamy oba materiały."
+      }
+    ],
+    "ctaTitle": "Potrzebujesz izolacji z krzemianu wapnia?",
+    "ctaText": "Podaj formę, średnice rur lub wymiary płyt, grubość, temperaturę pracy i ilość. Odpowiemy ofertą i terminem dostawy.",
+    "ctaRfq": "Zapytaj o ofertę na krzemian wapnia",
+    "ctaContact": "Lub skontaktuj się z naszym zespołem"
   }
 }

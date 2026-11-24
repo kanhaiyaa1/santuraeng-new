@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { buildAlternates } from '@/lib/seo';
 import { PRODUCT_CATEGORIES, categoryHref } from '@/content/product-categories';
+import PopularSearches from '@/components/PopularSearches';
 
 // Product category overview. The SEPL refractory anchor listing lives at /refractory-anchors.
 type Props = { params: { locale: string } };
@@ -74,6 +75,7 @@ export default async function ProductsOverviewPage({ params: { locale } }: Props
             </li>
           ))}
         </ul>
+        <PopularSearches className="mt-14 border-t border-line pt-10" />
       </div>
     </main>
   );

@@ -3,10 +3,10 @@ import { useTranslations } from 'next-intl';
 import SectionHeading from './SectionHeading';
 
 const INDUSTRIES = [
-  { key: 'oilGas', image: '/images/home/industries/oil-gas.jpg' },
-  { key: 'cement', image: '/images/home/industries/cement.jpg' },
-  { key: 'steel', image: '/images/home/industries/steel.jpg' },
-  { key: 'power', image: '/images/home/industries/power.jpg' }
+  { key: 'oilGas', image: '/images/home/industries/oil-gas-refinery-industry.jpg' },
+  { key: 'cement', image: '/images/home/industries/cement-industry-raw-meal-powder.jpg' },
+  { key: 'steel', image: '/images/home/industries/steel-plant-molten-metal-industry.jpg' },
+  { key: 'power', image: '/images/home/industries/power-transmission-lines-industry.jpg' }
 ] as const;
 
 export default function Industries() {

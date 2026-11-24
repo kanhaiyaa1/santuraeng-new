@@ -24,7 +24,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
       url: alternates.canonical,
       locale,
       type: 'website',
-      images: [{ url: '/images/og-factory.jpg', width: 1200, height: 630 }]
+      images: [{ url: '/images/santura-engineering-factory-tarapur-boisar.jpg', width: 1200, height: 630 }]
     }
   };
 }
@@ -40,7 +40,7 @@ export default async function HomePage({ params: { locale } }: Props) {
       '@type': 'Organization',
       name: SITE.legalName,
       url: siteUrl,
-      logo: `${siteUrl}/images/logo.jpg`,
+      logo: `${siteUrl}/images/santura-engineering-logo.jpg`,
       foundingDate: String(SITE.foundingYear),
       email: SITE.generalEmail,
       telephone: SITE.phone.tel,

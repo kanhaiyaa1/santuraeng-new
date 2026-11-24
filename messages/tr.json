@@ -413,6 +413,10 @@
         "text": "Kimyasal bileşim, belirtilen kaliteye göre spektrometre ile doğrulanır."
       },
       {
+        "title": "Mikro dağlama",
+        "text": "ASTM A262 Practice A, ASTM E407 ve ASTM E112'ye göre kendi bünyemizde mikro dağlama ve saplama kaynaklarının makro dağlaması."
+      },
+      {
         "title": "Boyut kontrolü",
         "text": "Ölçüler, bükümler ve kaynak uçları çizime göre kontrol edilir."
       },
@@ -447,7 +451,53 @@
     },
     "clientCertsTitle": "Müşteri sertifikaları",
     "clientCertsText": "Müşterilerimizden gelen sertifikalar ve referans mektupları burada yayımlanacaktır.",
-    "photosTitle": "Uygulamada testler"
+    "photosTitle": "Uygulamada testler",
+    "etch": {
+      "title": "Mikro Dağlama Testi",
+      "intro": [
+        "Mikro dağlama testi metalin iç yapısını gösterir. Malzemeden veya bitmiş parçadan bir numune kesilir, ayna parlaklığında parlatılır ve taneleri ile tane sınırlarını ortaya çıkaran bir dağlama çözeltisiyle işlenir. Dağlanan yüzey daha sonra mikroskop altında incelenir.",
+        "Ankrajlarımızda, saplamalarımızda ve kaynaklı parçalarımızda kullanılan paslanmaz çelik, karbon çeliği ve nikel alaşımları üzerinde mikro dağlama testlerini kendi bünyemizde yapıyoruz. Test, şekillendirme, kaynak veya ısıl işlemin malzemeyi şartnamenin istediği durumda bırakıp bırakmadığını gösterir."
+      ],
+      "testsTitle": "Yaptığımız testler",
+      "tests": [
+        {
+          "code": "ASTM A262 Practice A",
+          "title": "Taneler arası korozyon taraması",
+          "text": "304, 310, 316 ve 321 gibi östenitik paslanmaz çelikleri hassasiyet açısından tarayan elektrolitik oksalik asit dağlaması: tane sınırlarında malzemeyi taneler arası korozyona yatkın hale getiren krom karbürler. Kaynak veya ısıl işlem sonrasında malzemeyi kontrol etmek ve çözeltiye alma tavlamasının karbürleri çözdüğünü doğrulamak için kullanılır."
+        },
+        {
+          "code": "ASTM E407 · ASTM E112",
+          "title": "Mikroyapı ve tane boyutu",
+          "text": "ASTM E407'ye göre mikro dağlama, paslanmaz çelik, karbon çeliği ve nikel alaşımlarının mikroyapısını ortaya çıkarır. Ardından ortalama tane boyutu ASTM E112'ye göre derecelendirilir ve yapı aşırı tane büyümesi ile istenmeyen fazlar açısından kontrol edilir."
+        },
+        {
+          "code": "EN ISO 14555",
+          "title": "Kaynak makro dağlaması",
+          "text": "Kaynaklı bir saplama veya ankraj kaynaktan kesilir, parlatılır ve erime bölgesi görünür olacak şekilde dağlanır. Kesit, kaynağın saplama tabanının tamamında birleşip birleşmediğini ve ana metale ne kadar nüfuz ettiğini gösterir. EN ISO 14555, saplama kaynak prosedürlerini nitelendirmek için bu makro incelemeyi kullanır."
+        }
+      ],
+      "readingTitle": "ASTM A262 Practice A sonuçları nasıl değerlendirilir",
+      "reading": [
+        {
+          "title": "Basamaklı yapı",
+          "text": "Taneler arasında basamaklar var, tane sınırlarında hendek yok. Kabul edilebilir: malzeme hassaslaşmamış."
+        },
+        {
+          "title": "İkili yapı",
+          "text": "Tane sınırlarında bazı hendekler var, ancak hiçbir tane tamamen çevrelenmemiş. Kabul edilebilir."
+        },
+        {
+          "title": "Hendekli yapı",
+          "text": "Bir veya daha fazla tane hendeklerle tamamen çevrelenmiş. Malzeme şüpheli sayılır ve kabul edilebilmesi için ASTM A262'nin kalite için öngördüğü sıcak asit testini (Practice B, C veya E) geçmelidir."
+        }
+      ],
+      "readingNote": "Practice A bir tarama testidir: malzemeyi kabul edebilir ama reddedemez. Yalnızca östenitik paslanmaz çeliklere uygulanır; nikel alaşımları ve karbon çeliği bunun yerine mikroyapı ve tane boyutu açısından kontrol edilir.",
+      "productsTitle": "Test ettiğimiz ürünler",
+      "productsText": "Test, metal ürünlerimize, özellikle teslimattan önce soğuk şekillendirilen, kaynatılan veya ısıl işlem gören paslanmaz çelik parçalara uygulanır. Mineral yün, seramik contalar ve kalsiyum silikat gibi yalıtım malzemeleri metal olmadığından mikro dağlama bunlara uygulanmaz.",
+      "requestText": "Mikro dağlama raporu, siparişinizin diğer test sertifikalarıyla birlikte verilebilir. Talebinizde testi ve standardı belirtin.",
+      "linkBsa": "Parlak çözeltiye alma tavlaması ve hassasiyet",
+      "linkSw": "Saplama kaynağı ve makro dağlama"
+    }
   },
   "privacyPage": {
     "metaTitle": "Gizlilik Politikası | Santura Engineering",
@@ -615,15 +665,17 @@
   "search": {
     "open": "Ara",
     "label": "Sitede ara",
-    "placeholder": "Ürün, SEPL kodu, alaşım veya ülke arayın…",
+    "placeholder": "Ürün, hizmet, SEPL kodu, alaşım, ülke ara…",
     "noResults": "“{query}” için sonuç bulunamadı",
     "close": "Kapat",
     "hint": "“SEPL-24”, “310S”, “Y anchor” veya “Türkiye” deneyin",
     "groups": {
       "product": "Ürünler",
       "country": "Ülkeler",
-      "page": "Sayfalar"
-    }
+      "page": "Sayfalar",
+      "service": "Hizmetler"
+    },
+    "viewAll": "Tüm sonuçları gör"
   },
   "photos": {
     "cartonsBulk": "Paketlemeye hazır kartonlar",
@@ -862,6 +914,10 @@
       {
         "title": "Malzeme sertifikasıyla karşılaştırma",
         "text": "Test sonuçlarının orijinal malzeme sertifikasıyla karşılaştırılması, malzemenin belirtilen tavlanmış özelliklerine döndüğünü doğrular."
+      },
+      {
+        "title": "Mikro dağlama testi",
+        "text": "Kendi bünyemizde yapılan ASTM A262 Practice A oksalik asit dağlaması, tane sınırlarında krom karbür kalıp kalmadığını gösterir. Basamaklı yapı, ankrajların artık hassaslaşmış olmadığını doğrular."
       }
     ],
     "verifyQualityLink": "Her siparişi nasıl test edip belgelediğimizi görün",
@@ -898,7 +954,7 @@
       },
       {
         "q": "Tavlamanın doğru yapıldığı nasıl doğrulanır?",
-        "a": "Sertlik ve çekme testleriyle. İşlem görmüş malzeme işlem görmemişten daha yumuşak olmalı, sertlik tavlanmış aralıkta ve çekme dayanımı belirtilen minimuma yakın olmalıdır. Yüzey de parlak ve tufalsiz olmalıdır."
+        "a": "Sertlik ve çekme testleriyle. İşlem görmüş malzeme işlem görmemişten daha yumuşak olmalı, sertlik tavlanmış aralıkta ve çekme dayanımı belirtilen minimuma yakın olmalıdır. Yüzey de parlak ve tufalsiz olmalıdır. Kendi bünyemizde yapılan ASTM A262 Practice A mikro dağlama testi, krom karbürlerin çözüldüğünü doğrular."
       },
       {
         "q": "Parlak tavlama ankraj ömrünü uzatır mı?",
@@ -1312,7 +1368,2497 @@
       {
         "q": "Hangi seramik halka ölçüleri mevcut?",
         "a": "Halkalar saplama çapına ve kaynatılan yüzeye (düz sac veya boru gibi) göre seçilir. Saplama çapını ve gövde geometrisini bildirin, uygun halkaları ankrajlarla birlikte gönderelim."
+      },
+      {
+        "q": "Saplama kaynağının kalitesi nasıl kontrol edilir?",
+        "a": "Makro dağlama ile. Bir test saplaması kendi bünyemizde kaynaktan kesilir, parlatılır ve dağlanır; bu, kaynağın saplama tabanının tamamında birleşip birleşmediğini ve ana metale ne kadar nüfuz ettiğini gösterir. Paslanmaz çelik ankrajlarda ayrıca ASTM A262 Practice A mikro dağlama testi malzemeyi hassasiyet açısından kontrol eder."
       }
-    ]
+    ],
+    "etchTitle": "Kaynak makro dağlaması",
+    "etchText": "Kaynak kalitesi makro dağlama ile kontrol edilir. Bir test saplaması kendi bünyemizde kaynaktan kesilir, parlatılır ve dağlanır; böylece erime bölgesi ve nüfuziyet derinliği incelenebilir. Bu, EN ISO 14555'in saplama kaynak prosedürlerini nitelendirmek için kullandığı makro incelemedir.",
+    "etchLink": "Mikro dağlama testlerimiz hakkında"
+  },
+  "searchPage": {
+    "metaTitle": "Arama | Santura Engineering",
+    "metaTitleQuery": "“{query}” için arama sonuçları | Santura Engineering",
+    "metaDescription": "Santura Engineering refrakter ankrajlarını, SEPL ürün kodlarını, alaşımları, hizmetleri ve ihracat ülkesi sayfalarını arayın.",
+    "h1": "Arama",
+    "h1Query": "“{query}” için arama sonuçları",
+    "submit": "Ara",
+    "resultCount": "“{query}” için sonuçlar: {count}",
+    "emptyText": "Ürün adı, SEPL kodu, alaşım kalitesi, hizmet veya ülkeye göre arayın.",
+    "noResultsTitle": "Sonuç bulunamadı",
+    "noResultsText": "“{query}” ile eşleşen bir sonuç yok. Yazımı kontrol edin, SEPL-07 gibi bir ürün kodu deneyin veya aşağıdaki popüler aramalardan birini kullanın.",
+    "relatedTitle": "İlgili aramalar",
+    "popularTitle": "Popüler aramalar"
+  },
+  "notFoundPage": {
+    "title": "Sayfa bulunamadı",
+    "text": "Aradığınız sayfa mevcut değil veya taşınmış. Sitede arama yapın veya aşağıdaki bağlantıları kullanın.",
+    "home": "Ana sayfaya git",
+    "products": "Ürünleri görüntüle"
+  },
+  "odPage": {
+    "metaTitle": "Fırın ve Kazanlar için Gözetleme Kapakları | Santura Engineering",
+    "metaDescription": "Fırınlar, döner fırınlar ve kazanlar için çizime göre gözetleme kapıları, gözetleme kapakları ve camları. 1980'den beri üretici, 25+ ülkeye ihracat.",
+    "eyebrow": "İmalat atölyesi",
+    "h1": "Gözetleme Kapıları ve Kapakları",
+    "subheading": "Fırınlar, kazanlar, döner fırınlar ve ateşlemeli ısıtıcılar için refrakter kaplı gözetleme kapıları, gözetleme kapakları ve gözetleme camları. Çiziminize göre üretilir; çerçeve, kapı, cam, conta ve refrakter ankrajlar tek bir montaj olarak teslim edilir.",
+    "overviewTitle": "Gözetleme kapıları ve kapakları ne işe yarar",
+    "overview": [
+      "Gözetleme kapıları ve kapakları, fırın, kazan, döner fırın ve ısıtıcı duvarlarına yerleştirilen erişim açıklıklarıdır. Operatörlerin cihazı açmadan veya prosesi durdurmadan içeriyi görmesini, alevi kontrol etmesini, refrakter astarı incelemesini ve termokupl ya da prob yerleştirmesini sağlar.",
+      "Her kapının gövdeye cıvatalanan veya kaynaklanan çelik bir çerçevesi, açıklığı kapatan bir kapı veya kapağı ve çevresindeki duvarın astarıyla uyumlu bir refrakter astarı vardır. Çerçevenin içine kaynaklanan ankrajlar bu astarı tutar; tıpkı refrakter ankrajların duvar astarını tutması gibi.",
+      "Santura gözetleme kapılarını kendi atölyesinde, paslanmaz çelik veya sıcak daldırma galvanizli karbon çelikten, müşteri şartnamesine göre refrakter ankraj, temperli cam ve contalarla üretir."
+    ],
+    "overviewLink": "Kapı ve duvar astarları için refrakter ankrajlar",
+    "overviewCaption": "Refrakter astarı tutmak için içine V ankrajlar kaynaklanmış kapı çerçevesi.",
+    "typesTitle": "Gözetleme kapısı ve kapağı türleri",
+    "types": [
+      {
+        "title": "Gözetleme kapıları",
+        "size": "250 mm (10 inç) ve üzeri açıklıklar",
+        "text": "Menteşeli veya cıvatalı, refrakter kaplı kanatlı daha büyük kapılar. Ocak içinin gözle kontrolü ve sınırlı bakım erişimi için kullanılır; örneğin bir kazanda her hava bölgesinin üstünde."
+      },
+      {
+        "title": "Gözetleme kapakları (peep door)",
+        "size": "Genellikle 100 × 100 mm (4 × 4 inç)",
+        "text": "Döküm veya çelik kapaklı küçük açıklıklar; kapak çoğu zaman kendiliğinden kapanması için karşı ağırlıklıdır. Alev izleme ve termokupl ile prob yerleştirme için kullanılır."
+      },
+      {
+        "title": "Gözetleme camları",
+        "size": "50–100 mm çap",
+        "text": "Kobalt mavisi veya yeşil, ısıya dayanıklı renkli camla donatılır; böylece hiçbir şey açılmadan alev ve astar sürekli izlenebilir."
+      }
+    ],
+    "constructionTitle": "Yapı ve malzemeler",
+    "constructionIntro": "Her parça çalışma sıcaklığına, fırın atmosferine ve kapının ne sıklıkla açılacağına göre seçilir.",
+    "construction": [
+      {
+        "title": "Çerçeve",
+        "text": "Çalışma sıcaklığına ve ortama bağlı olarak karbon çelik (genellikle sıcak daldırma galvanizli), paslanmaz çelik veya döküm."
+      },
+      {
+        "title": "Refrakter astar",
+        "text": "Kapı ve çerçeve içinde dökülebilir refrakter veya ateş tuğlası astar; cihazın refrakter sistemine uygun seçilir ve kaynaklı ankrajlarla tutulur."
+      },
+      {
+        "title": "Gözetleme camı",
+        "text": "Genellikle 3 mm kalınlığında temperli kobalt mavisi cam. Alevin parlamasını azaltır, böylece alev şekli ve astarın durumu net görülür. Yeşil renkli cam da mevcuttur."
+      },
+      {
+        "title": "Sızdırmazlık",
+        "text": "İşlenmiş oturma yüzeylerinde yüksek sıcaklık contaları; kapalı kapı sıcak gaz kaçırmaz ve soğuk hava almaz."
+      },
+      {
+        "title": "Montaj",
+        "text": "Gövdeye cıvatalı flanş. Sık erişim için menteşeli kapılar, gözetleme kapakları için karşı ağırlıklı kapaklar."
+      },
+      {
+        "title": "Donanım",
+        "text": "Çalışma sıcaklığına uygun kilitleme kolları ve menteşeler; ağır kapılarda kaldırma mapaları."
+      }
+    ],
+    "specTitle": "Tipik özellikler",
+    "colFeature": "Özellik",
+    "cols": {
+      "od": "Gözetleme kapısı",
+      "pd": "Gözetleme kapağı",
+      "sp": "Gözetleme camı"
+    },
+    "specRows": [
+      {
+        "label": "Açıklık ölçüsü",
+        "od": "250 mm ve üzeri (özel ölçü)",
+        "pd": "100 × 100 mm ile 150 × 150 mm arası",
+        "sp": "50–100 mm çap"
+      },
+      {
+        "label": "Çerçeve malzemesi",
+        "od": "Karbon çelik / paslanmaz / döküm",
+        "pd": "Döküm / karbon çelik",
+        "sp": "Döküm / paslanmaz"
+      },
+      {
+        "label": "Azami çalışma sıcaklığı",
+        "od": "1200 °C'ye kadar (refrakter astarla)",
+        "pd": "1000 °C'ye kadar",
+        "sp": "800 °C'ye kadar (camla sınırlı)"
+      },
+      {
+        "label": "Kapanış",
+        "od": "Menteşeli veya cıvatalı",
+        "pd": "Cıvatalı veya karşı ağırlıklı kapak",
+        "sp": "Dişli tapa veya cıvatalı"
+      },
+      {
+        "label": "Cam",
+        "od": "İsteğe bağlı",
+        "pd": "İsteğe bağlı",
+        "sp": "Standart (kobalt mavisi)"
+      },
+      {
+        "label": "Refrakter astar",
+        "od": "Var",
+        "pd": "Var (kapak ve çerçeve)",
+        "sp": "Yok (yalnızca cam)"
+      }
+    ],
+    "specNote": "Bunlar tipik değerlerdir. Her kapının açıklık ölçüsü, malzemeleri ve sıcaklık sınırı müşteri çizimine ve cihazın çalışma koşullarına göre belirlenir.",
+    "applicationsTitle": "Kullanım alanları",
+    "applications": [
+      {
+        "title": "Kazanlar",
+        "text": "AFBC, CFBC ve ızgaralı kazanlar: her hava bölgesinin üstünde gözetleme kapıları, alev izleme için gözetleme kapakları."
+      },
+      {
+        "title": "Rafineri ısıtıcıları",
+        "text": "Proses fırınları ve reformerler: brülör alevlerini izlemek için gözetleme camları ve kapakları."
+      },
+      {
+        "title": "Çimento fırınları",
+        "text": "Astarı ve alevi kontrol etmek için fırın gövdesinde ve brülör bölgesinde gözetleme kapakları."
+      },
+      {
+        "title": "Çelik tesisleri",
+        "text": "Tav fırınları ve pota ön ısıtıcıları: duruşlarda muayene için erişim kapıları."
+      },
+      {
+        "title": "Yakma ve atıktan enerji tesisleri",
+        "text": "Döner fırınlar ve son yakma odaları: yanma kalitesini kontrol etmek için gözetleme kapıları."
+      },
+      {
+        "title": "Isıl işlem fırınları",
+        "text": "Kesikli ve sürekli fırınlar: gözetleme camlı yükleme kapıları."
+      }
+    ],
+    "fabTitle": "Özel imalat",
+    "fab": [
+      "Her kapı müşterinin çizimine ve malzeme şartnamesine göre üretilir. Kapının refrakter astarını cihazdaki mevcut astara uyarlarız, böylece kapı duvarda zayıf bir nokta olmaz.",
+      "Mevcut tesisler için çizimden veya numune kapıdan yedek kapı ve kapaklar üretiriz. Kapılar tek başına veya ankraj, gövde parçaları ve destekleri içeren daha büyük bir imalat paketinin parçası olarak teslim edilebilir."
+    ],
+    "reference": "Santura 2006 yılında Petron Engineering Construction Ltd'ye fırın gözetleme kapıları ve karşı ağırlık sistemleri tedarik etti; firma bu iş için bir takdir mektubu verdi.",
+    "processTitle": "Bir kapıyı nasıl üretiyoruz",
+    "process": [
+      {
+        "title": "Çizim onayı",
+        "text": "Üretimden önce çizimi onay için müşteriye geri göndeririz; böylece her değişiklik önceden kararlaştırılır."
+      },
+      {
+        "title": "Malzeme kontrolü",
+        "text": "Malzeme listesi incelenir. Malzemenin %10'u NABL akrediteli laboratuvarlarda test edilir, paslanmaz çelik parçalara PMI uygulanır."
+      },
+      {
+        "title": "Kesme ve şekillendirme",
+        "text": "Saclar makasla kesilir ve şekillendirilir, ardından atölyede markalanıp birleştirilir. Müfettişlerimiz kaynaktan önce montajı kontrol eder."
+      },
+      {
+        "title": "Kaynak ve muayene",
+        "text": "Tam nüfuziyet için CO2 kaynağı, ardından kaynakların gözeneklilik muayenesi."
+      },
+      {
+        "title": "Son işlem",
+        "text": "Son işlem ve sıcak daldırma galvaniz, ardından sevkiyat için ambalajlama."
+      }
+    ],
+    "supplyTitle": "Tedarik ettiklerimiz",
+    "supply": [
+      {
+        "title": "Komple kapı montajları",
+        "text": "Çerçeve, kapı, donanım ve refrakter ankrajlar; astarlanmaya hazır veya astarlı."
+      },
+      {
+        "title": "Yedek kapı ve kapaklar",
+        "text": "Mevcut açıklıklara uyacak şekilde çiziminize veya numuneye göre üretilir."
+      },
+      {
+        "title": "Gözetleme camı",
+        "text": "Çeşitli ölçülerde kobalt mavisi cam."
+      },
+      {
+        "title": "Yedek conta ve donanım",
+        "text": "Kullanımdaki kapılar için conta, menteşe, kol ve bağlantı elemanları."
+      }
+    ],
+    "galleryTitle": "Atölyemizden gözetleme kapıları",
+    "galleryText": "Tek çerçevelerden kazan projeleri için seri üretime kadar atölyemizde üretilen kapılar.",
+    "gallery": [
+      "Endüstriyel fırın için cam gözetleme pencereli iki gözetleme kapısı",
+      "Refrakter astar için kaynaklı V ankrajlı açık gözetleme kapısı çerçevesi",
+      "Ankrajlı galvanizli gözetleme kapısı çerçevesi, önden görünüm",
+      "Fırın gövdesine cıvatalanacak flanşlı gözetleme kapısı çerçevesi",
+      "Montajdan önce gözetleme kapısı çerçevesi ve parçaları",
+      "İmalat sahasında galvanizli gözetleme kapısı serisi",
+      "Sevkiyat için istiflenmiş menteşeli gözetleme kapıları",
+      "Bir üretim serisinden galvanizli gözetleme kapısı çerçevelerinin yakın görünümü"
+    ],
+    "relatedTitle": "İlgili ürünler ve hizmetler",
+    "relatedAnchorsText": "Her kapının içindeki refrakter astarı tutan ankrajlar; duvar astarınızla aynı alaşımlarda.",
+    "relatedSwText": "Ankrajları kapı çerçevelerine ve gövdelere kaynaklamak için ekipman ve prosedürler.",
+    "relatedPmiText": "Paslanmaz çelik kapı parçalarının atölyeden çıkmadan önce alaşım doğrulaması.",
+    "relatedPpText": "İmalattan sonra paslanmaz çelik çerçeve ve kapılar için yüzey işlemi.",
+    "countriesTitle": "Tedarik ettiğimiz ülkeler",
+    "countriesText": "Gözetleme kapılarını refrakter ankrajlarımızla birlikte ihraç ediyoruz. Ülke sayfaları, her pazarda hizmet verdiğimiz sektörleri ve limanları anlatır.",
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      {
+        "q": "Gözetleme kapısı ile gözetleme kapağı arasındaki fark nedir?",
+        "a": "Gözetleme kapısının açıklığı daha büyüktür, genellikle 250 mm ve üzeridir; gözle muayene ve sınırlı bakım erişimi için kullanılır. Gözetleme kapağı daha küçüktür, genellikle 100 × 100 mm'dir; alevi izlemek ve termokupl ya da prob yerleştirmek için kullanılır. İkisi de refrakter kaplıdır."
+      },
+      {
+        "q": "Gözetleme kapılarında ve camlarında hangi cam kullanılır?",
+        "a": "Isıya dayanıklı renkli cam; genellikle yaklaşık 3 mm kalınlığında temperli kobalt mavisi cam. Alevin parlamasını azaltır, böylece alev ve refrakter astar net görülür. Yeşil renkli cam da mevcuttur. Cam, bir gözetleme camını yaklaşık 800 °C ile sınırlar."
+      },
+      {
+        "q": "Kapıları bizim çizimimize göre üretebilir veya mevcut bir kapıyı kopyalayabilir misiniz?",
+        "a": "Evet. Tüm kapılarımız müşterinin çizimine ve malzeme şartnamesine göre üretilir. Yedekler için mevcut bir çizimden veya numune kapıdan çalışır, refrakter astarı cihazın mevcut astarına uyarlarız."
+      },
+      {
+        "q": "Kapılar hangi sıcaklıklar için tasarlanır?",
+        "a": "Refrakter astarla gözetleme kapıları genellikle 1200 °C'ye, gözetleme kapakları 1000 °C'ye kadar kullanılır. Gözetleme camları camdan dolayı yaklaşık 800 °C ile sınırlıdır. Nihai değer şartnamenizdeki malzemelere ve astara bağlıdır."
+      }
+    ],
+    "ctaTitle": "Gözetleme kapısı veya kapağı mı gerekiyor?",
+    "ctaText": "Çiziminizi, açıklık ölçüsünü, çalışma sıcaklığını ve miktarı gönderin. Teklif ve teslim süresiyle dönüş yapalım.",
+    "ctaRfq": "Gözetleme kapıları için teklif isteyin",
+    "ctaContact": "Veya ekibimizle iletişime geçin"
+  },
+  "fbPage": {
+    "metaTitle": "Temel Cıvatası Üreticisi | L, J, U Tipi Ankraj Cıvataları | Santura Engineering",
+    "metaDescription": "Çizime göre L, J, U, plakalı ve düz tip temel ve ankraj cıvataları; karbon çelik, B7 ve paslanmaz. 1980'den beri, 25+ ülkeye ihracat.",
+    "eyebrow": "İmalat atölyesi",
+    "h1": "Temel Cıvataları ve Ankraj Cıvataları",
+    "subheading": "Kazanlar, ağır ekipmanlar ve çelik yapılar için L, J, U, plakalı ve düz tip temel cıvataları. Çiziminize göre kesilir, bükülür, dişlenir ve sıcak daldırma galvanizlenir; somun, pul, ankraj plakası ve kovanlarla komple setler halinde teslim edilir.",
+    "overviewTitle": "Temel cıvataları nedir",
+    "overview": [
+      "Temel cıvataları, yapıları, kolonları, ekipmanları ve makineleri sabitlemek için beton temele gömülen çelik cıvatalardır. Gömülü uç bükülmüş, kancalı veya plakalıdır, böylece betondan çekilip çıkamaz; dişli uç temelin üzerinde kalır ve taban plakası, somun ve pulu taşır.",
+      "Bu terimler çoğu zaman aynı ürün için kullanılır. Ankraj cıvatası genellikle betona gömülen cıvatayı, temel cıvatası ise ekipmanı kaidesine sabitleyen cıvatayı ifade eder. Birçok temel cıvatasının üst kısmında bir boru kovan bulunur; bu kovan ekipman yerleştirilirken cıvata konumunun biraz ayarlanmasına imkân verir.",
+      "Santura temel cıvatalarını özel imalat işinin bir parçası olarak üretir: çubuk, müşteri çizimine göre kesilir, bükülür, dişlenir ve sıcak daldırma galvanizlenir. Başlı, bükülmüş ve dişli temel cıvatalarını 6 inç ve üzeri çaplara kadar üretiyoruz."
+    ],
+    "typesTitle": "Temel cıvatası türleri",
+    "types": [
+      {
+        "key": "l",
+        "title": "L tipi (90° büküm)",
+        "size": "M10 ile M64 arası",
+        "text": "En yaygın tip. Gömülü uç dik açıyla bükülür, böylece cıvata betona kilitlenir.",
+        "uses": "Çelik kolonlar, taban plakaları, aydınlatma direkleri ve ekipman şasileri."
+      },
+      {
+        "key": "j",
+        "title": "J tipi (kanca)",
+        "size": "",
+        "text": "Gömülü uçtaki kavisli J kancası betonu kavrar. L tipine benzer; bazı düzenlerde daha iyi sökülme direnci sağlar.",
+        "uses": "Hafif yapısal bağlantılar, boru destekleri ve korkuluklar."
+      },
+      {
+        "key": "u",
+        "title": "U tipi",
+        "size": "",
+        "text": "Taban plakası, kiriş veya borunun altından geçen, iki dişli ucu yukarı bakan U şeklinde cıvata.",
+        "uses": "Ekipman sıkma, boru destekleri ve içinden cıvatalama gereken parçalar."
+      },
+      {
+        "key": "plate",
+        "title": "Plakalı / başlı",
+        "size": "",
+        "text": "Gömülü ucuna kare veya altıgen ankraj plakası kaynaklı düz cıvata. En yüksek sökülme direncini sağlar ve çoğu zaman boru kovanla birlikte verilir.",
+        "uses": "Ağır makineler, türbinler, kompresörler ve kazan temelleri."
+      },
+      {
+        "key": "rod",
+        "title": "Düz / tam dişli çubuk",
+        "size": "",
+        "text": "Her iki ucunda somun ve pul bulunan tam dişli çubuk. Sahada en fazla ayar imkânı verir.",
+        "uses": "Ankraj plakalarıyla veya harçla doldurulan boşluklarda kullanılır."
+      }
+    ],
+    "materialsTitle": "Malzemeler",
+    "materials": [
+      {
+        "title": "Karbon çelik (IS 2062 / ASTM A36)",
+        "text": "Genel yapısal kullanım için en yaygın seçenek."
+      },
+      {
+        "title": "ASTM F1554 Grade 36 / 55 / 105",
+        "text": "Hesaplı yapısal bağlantılar için üç dayanım sınıfında ankraj çubuğu çeliği."
+      },
+      {
+        "title": "ASTM A307 Grade A / B / C",
+        "text": "Genel amaçlı karbon çelik cıvata ve saplamalar."
+      },
+      {
+        "title": "ASTM A193 Grade B7",
+        "text": "Kazanlar ve basınçlı kaplar gibi yüksek sıcaklık ve basınçlı hizmet için alaşımlı çelik."
+      },
+      {
+        "title": "Paslanmaz çelik (SS304 / SS316)",
+        "text": "Korozif ortamlar, kıyı bölgeleri ve kimya tesisleri için."
+      }
+    ],
+    "finishesTitle": "Yüzey işlemleri ve kaplamalar",
+    "finishes": [
+      {
+        "title": "Sıcak daldırma galvaniz (HDG)",
+        "text": "Dış ortam ve gömülü kullanım için en yaygın kaplama, ASTM F2329'a göre."
+      },
+      {
+        "title": "Elektro galvaniz",
+        "text": "Sarı, mavi veya beyaz pasivasyon; iç mekân ve hafif ortamlar için."
+      },
+      {
+        "title": "Siyah oksit",
+        "text": "Temel korozyon koruması."
+      },
+      {
+        "title": "Kaplamasız",
+        "text": "Müşteri istediğinde ve paslanmaz çelik cıvatalar için."
+      }
+    ],
+    "specTitle": "Özellikler",
+    "colProperty": "Özellik",
+    "colRange": "Aralık",
+    "specRows": [
+      {
+        "label": "Çap",
+        "value": "M10 ile M100 (3/8 inç ile 4 inç); daha büyük çaplar çizime göre"
+      },
+      {
+        "label": "Boy",
+        "value": "150 mm ile 3000 mm ve üzeri (özel boylar)"
+      },
+      {
+        "label": "Diş",
+        "value": "ISO metrik veya Unified inç, tam veya kısmi diş"
+      },
+      {
+        "label": "Büküm yarıçapı",
+        "value": "Çizime veya standarda göre"
+      },
+      {
+        "label": "Standartlar",
+        "value": "ASTM F1554, ASTM A307, ASTM A193, IS 2062, IS 1363, IS 1364"
+      },
+      {
+        "label": "Testler",
+        "value": "Çekme testi, prova yükü testi, sertlik testi ve boyut kontrolü"
+      },
+      {
+        "label": "Toleranslar",
+        "value": "IS 2062, ASTM F1554 veya müşteri çizimine göre"
+      }
+    ],
+    "specNote": "Her sipariş müşteri çizimine veya belirtilen standarda göre üretilir. Cıvata tipini, çapı, boyu, diş boyunu, malzeme sınıfını ve kaplamayı bize bildirin.",
+    "applicationsTitle": "Sektörlere göre uygulamalar",
+    "applications": [
+      {
+        "title": "Kazan ve fırın temelleri",
+        "text": "Kazan yapılarının, fırın gövdelerinin, bacaların ve kanalların beton kaidelere sabitlenmesi."
+      },
+      {
+        "title": "Ağır ekipmanlar",
+        "text": "Kompresörler, türbinler, pompalar, jeneratörler ve presler."
+      },
+      {
+        "title": "Çelik yapılar",
+        "text": "Kolon taban plakaları, portal çerçeveler, vinç rayları ve konveyör destekleri."
+      },
+      {
+        "title": "Enerji santralleri",
+        "text": "Türbin kaideleri, soğutma kulesi yapıları ve boru köprüsü temelleri."
+      },
+      {
+        "title": "Çimento fabrikaları",
+        "text": "Fırın destek ayakları, değirmen temelleri ve ön ısıtıcı kulesi yapıları."
+      },
+      {
+        "title": "Petrol ve gaz",
+        "text": "Ateşlemeli ısıtıcı yapıları, kolon temelleri ve boru köprüsü ayakları."
+      },
+      {
+        "title": "Altyapı",
+        "text": "Aydınlatma direkleri, tabela yapıları, köprü mesnetleri ve enerji nakil hattı direkleri."
+      }
+    ],
+    "supplyTitle": "Tedarik ettiklerimiz",
+    "supply": [
+      {
+        "title": "Çizime veya standarda göre cıvatalar",
+        "text": "Çiziminize veya standart bir şartnameye göre üretilen temel cıvataları."
+      },
+      {
+        "title": "Komple setler",
+        "text": "Somun, pul, ankraj plakası ve boru kovanlarıyla, etiketli ve yerleştirmeye hazır cıvatalar."
+      },
+      {
+        "title": "Her tip, her sınıf",
+        "text": "Karbon çelik, F1554, A307, B7 veya paslanmaz çelikten L, J, U, plakalı ve düz cıvatalar."
+      },
+      {
+        "title": "Sıcak daldırma galvaniz",
+        "text": "Onaylı galvaniz tesisleri aracılığıyla galvanizleme."
+      },
+      {
+        "title": "Şablon plakaları",
+        "text": "Beton dökümü sırasında her cıvata grubunu yerinde tutan şablonlar."
+      },
+      {
+        "title": "Tek parça veya paket",
+        "text": "Tek tek cıvatalar veya komple çelik yapı imalat paketinin parçası olarak."
+      }
+    ],
+    "gallery": [
+      "Boru kovanlı galvanizli temel cıvataları, dik konumda",
+      "Kare ankraj plakalı galvanizli temel cıvataları",
+      "Sevkiyat için etiketlenmiş boru kovanlı temel cıvataları",
+      "Atölyede dizilmiş boru kovanlı galvanizli temel cıvataları",
+      "Somun ve kovanlı galvanizli temel cıvatası stoku",
+      "Temel cıvatası boru kovanları ve somunlarının yakın görünümü"
+    ],
+    "relatedTitle": "İlgili ürünler",
+    "relatedStanchions": "Platformlar ve korkuluklar için dikmeler; çoğu zaman aynı temellere monte edilir.",
+    "relatedPipeGuides": "Ateşlemeli ısıtıcılar ve boru köprüleri için boru kılavuzları ve halka kovanlar.",
+    "relatedFasteners": "Paslanmaz ve alaşımlı çelikten altıgen cıvatalar, B7 saplamalar, somunlar ve pullar.",
+    "relatedAnchors": "Bu cıvataların sabitlediği kazan ve fırınların refrakter astarları için SEPL ankrajlar.",
+    "countriesTitle": "Tedarik ettiğimiz ülkeler",
+    "countriesText": "Temel cıvatalarını refrakter ankrajlarımız ve imalat parçalarımızla birlikte ihraç ediyoruz. Ülke sayfaları, her pazarda hizmet verdiğimiz sektörleri ve limanları anlatır.",
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      {
+        "q": "L tipi ile J tipi temel cıvataları arasındaki fark nedir?",
+        "a": "İkisinin de gömülü ucu bükülmüştür. L tipi cıvata 90 derece bükülür, J tipi ise kavisli bir kancaya sahiptir. L tipi kolonlar ve taban plakaları için en yaygın seçimdir; J tipi boru destekleri ve korkuluklar gibi daha hafif bağlantılarda kullanılır ve bazı düzenlerde daha iyi sökülme direnci sağlayabilir."
+      },
+      {
+        "q": "ASTM F1554 nedir?",
+        "a": "ASTM F1554, betona gömülen ankraj çubukları için Amerikan standardıdır. Düz, bükülmüş ve başlı çubukları 36, 55 ve 105 olmak üzere üç sınıfta kapsar; sınıf numarası ksi cinsinden minimum akma dayanımını gösterir. Dışarıda kalan uç renk kodludur: Grade 36 mavi, Grade 55 sarı, Grade 105 kırmızı."
+      },
+      {
+        "q": "Temel cıvatalarını özel boylarda üretebilir misiniz?",
+        "a": "Evet. Her cıvatayı müşteri çizimine göre yaklaşık 150 mm'den 3000 mm ve üzerine kadar keser, büker ve dişleriz. Diş boyu, büküm boyu ve büküm yarıçapı belirtildiği gibi yapılır."
+      },
+      {
+        "q": "Temel cıvataları için hangi kaplamalar mevcut?",
+        "a": "ASTM F2329'a göre sıcak daldırma galvaniz, dış ortam ve gömülü cıvatalar için en yaygın kaplamadır. Elektro galvaniz (sarı, mavi veya beyaz) iç mekân ve hafif ortamlara uygundur, siyah oksit temel koruma sağlar; istendiğinde veya paslanmaz çelik olduğunda cıvatalar kaplamasız verilebilir."
+      }
+    ],
+    "ctaTitle": "Temel cıvatası mı gerekiyor?",
+    "ctaText": "Çiziminizi veya cıvata listenizi tip, çap, boy, malzeme sınıfı, kaplama ve miktarla birlikte gönderin. Teklif ve teslim süresiyle dönüş yapalım.",
+    "ctaRfq": "Temel cıvataları için teklif isteyin",
+    "ctaContact": "Veya ekibimizle iletişime geçin"
+  },
+  "spPage": {
+    "metaTitle": "Destek Plakası ve Taban Plakası Üreticisi | Özel İmalat | Santura Engineering",
+    "metaDescription": "Refrakter destek konsolları, taban, montaj, guse ve gömme plakaları çizime göre imal edilir. 1980'den beri, 25+ ülkeye ihracat.",
+    "eyebrow": "İmalat atölyesi",
+    "h1": "Destek Plakaları ve Taban Plakaları",
+    "subheading": "Fırınlar, kazanlar ve çelik yapılar için refrakter destek konsolları, kolon taban plakaları, ekipman montaj plakaları, guse plakaları ve gömme plakalar. Çiziminize göre kesilir, delinir, işlenir ve kaynaklanır.",
+    "heroAlt": "Beton temele cıvatalanmış kolon taban plakası",
+    "overviewTitle": "Destek plakaları nedir",
+    "overview": [
+      "Destek plakaları, yükü taşıyan ve dağıtan imal edilmiş çelik plakalar ve konsollardır. Fırın ve kazanların içinde refrakter astarın ağırlığını taşımak için gövdeye kaynaklanırlar. Çelik yapılarda ise kolonları, ekipmanları ve çelik elemanları temellerine ve birbirine bağlayan taban plakaları, montaj plakaları, guseler ve gömme plakalardır.",
+      "Her plaka müşteri çizimine göre üretilir. Santura destek plakalarını, çoğu zaman onlarla birlikte monte edilen refrakter ankrajlar ve temel cıvatalarıyla beraber kendi atölyesinde keser, deler, işler ve kaynaklar."
+    ],
+    "uses": [
+      {
+        "title": "Refrakter desteği",
+        "text": "Fırın ve kapların içine kaynaklanan, astarı ve brülör bloklarını taşıyan konsollar."
+      },
+      {
+        "title": "Yapısal taban plakaları",
+        "text": "Kolonları ve ekipmanları beton temellere ve çelik çerçevelere bağlayan plakalar."
+      }
+    ],
+    "typesTitle": "Destek plakası türleri",
+    "types": [
+      {
+        "key": "refractory",
+        "title": "Refrakter destek plakaları / astar destek konsolları",
+        "alt": "Astarın altında fırın gövdesine kaynaklanmış refrakter destek konsolu",
+        "text": "Refrakter astarın ağırlığını taşımak için fırın gövdesine kaynaklanan konsol şeklinde plakalar; özellikle dikey duvarlarda ve tavan bölümlerinde kullanılır. Birbirine kaynaklanmış çelik parçalardan yapılır ve astar yükünü gövdeye eşit dağıtır.",
+        "points": [
+          "Brülör bloklarını fırın duvarından bağımsız taşır",
+          "Gövde çevresinde hesaplanmış aralıklarla yerleştirilir",
+          "Çalışma sıcaklığına göre karbon çelik veya paslanmaz çelik (SS304, SS310)",
+          "Konsol, tuğla desteği veya destek braketi olarak da adlandırılır"
+        ]
+      },
+      {
+        "key": "base",
+        "title": "Kolon taban plakaları",
+        "alt": "Beton temel üzerinde ankraj cıvatalı kolon taban plakası",
+        "text": "Çelik kolonların altına kaynaklanan ve ankraj veya temel cıvatalarıyla temele cıvatalanan düz plakalar. Kolon yükünü betona eşit dağıtır.",
+        "points": [
+          "Delikler cıvata düzenine göre delinir veya zımbalanır",
+          "Taşıyıcı yüzey, harçla tam temas için düz işlenir",
+          "20 mm kalınlığa kadar IS 2062 Grade A",
+          "20 mm üzerinde, yapı standartlarının gerektirdiği şekilde IS 2062 Grade B (sakinleştirilmiş)"
+        ]
+      },
+      {
+        "key": "mounting",
+        "title": "Ekipman montaj plakaları",
+        "alt": "Pompa kaidesi için delikli ekipman montaj plakası",
+        "text": "Pompa, kompresör, motor ve diğer makineleri beton veya çelik kaidelere sabitlemek için önceden delinmiş düz plakalar.",
+        "points": [
+          "Ekipman ayak düzenine birebir uygun delinir",
+          "Gerektiğinde terazileme elemanları ve kesme kamaları",
+          "İstek üzerine titreşim sönümleyici detaylar"
+        ]
+      },
+      {
+        "key": "gusset",
+        "title": "Guse ve berkitme plakaları",
+        "alt": "Kiriş-kolon birleşimine kaynaklanmış üçgen guse plakası",
+        "text": "Bağlantıyı rijitleştirmek ve yük aktarmak için kiriş-kolon birleşimlerine kaynaklanan üçgen veya dikdörtgen plakalar.",
+        "points": [
+          "Çelik çerçeveler, kazan taşıyıcı çeliği ve boru köprüleri",
+          "Platform konsolları ve destekleri",
+          "Deprem ve rüzgâr yüküne göre tasarlanan yapılarda önemlidir"
+        ]
+      },
+      {
+        "key": "embed",
+        "title": "Gömme plakalar",
+        "alt": "Beton duvara gömülmüş, kaynaklı saplamalı gömme plaka",
+        "text": "Döküm sonrası bağlantı noktası sağlamak için betona gömülen, kaynaklı saplama veya ankrajlı çelik plakalar.",
+        "points": [
+          "Çelik yapı, boru destekleri ve ekipmanları betona bağlama",
+          "Korkulukları beton duvar ve döşemelere sabitleme",
+          "Saplamalar dökümden önce plakaya kaynaklanır"
+        ]
+      }
+    ],
+    "materialsTitle": "Malzemeler",
+    "materials": [
+      {
+        "title": "Karbon çelik",
+        "text": "IS 2062 Grade A, B veya C ve ASTM A36. Yapısal plakalar için en yaygın seçenek."
+      },
+      {
+        "title": "Paslanmaz çelik",
+        "text": "SS304, SS310 ve SS316; korozif ortamlar ve yüksek sıcaklıktaki refrakter destekleri için."
+      },
+      {
+        "title": "Kazan sacı",
+        "text": "IS 2002 ve SA 516 Gr 70; basınçlı kap ve kazan uygulamaları için."
+      },
+      {
+        "title": "Yüksek dayanımlı yapı çeliği",
+        "text": "ASTM A572 Grade 50; ağır yük uygulamaları için."
+      }
+    ],
+    "specTitle": "Özellikler",
+    "colProperty": "Özellik",
+    "colRange": "Aralık",
+    "specRows": [
+      {
+        "label": "Kalınlık",
+        "value": "6 mm ile 100 mm ve üzeri"
+      },
+      {
+        "label": "Ölçü",
+        "value": "2000 × 6000 mm'ye kadar saclardan çizime göre kesim"
+      },
+      {
+        "label": "Delik delme",
+        "value": "CNC veya manuel, çizim toleransında"
+      },
+      {
+        "label": "Yüzey",
+        "value": "Düz işlenmiş, kumlanmış, boyanmış veya galvanizli"
+      },
+      {
+        "label": "Kaynak",
+        "value": "AWS D1.1 veya IS 816'ya göre, belirtildiğinde NDT ile"
+      },
+      {
+        "label": "Standartlar",
+        "value": "IS 2062, ASTM A36, ASTM A572, IS 816 (kaynak), AWS D1.1"
+      },
+      {
+        "label": "Toleranslar",
+        "value": "IS 2062, AISC veya müşteri şartnamesine göre"
+      },
+      {
+        "label": "Testler",
+        "value": "Boyut kontrolü, kalın saclarda ultrasonik muayene (UT), gözle kaynak muayenesi"
+      }
+    ],
+    "specNote": "Her plaka müşteri çizimine göre üretilir. Çizimi veya krokiyi malzeme sınıfı, kalınlık, yüzey işlemi ve miktarla birlikte gönderin.",
+    "applicationsTitle": "Sektörlere göre uygulamalar",
+    "applications": [
+      {
+        "title": "Fırınlar",
+        "text": "Refrakter astar destek konsolları, brülör bloğu destek plakaları ve fırın gövdesi takviyeleri."
+      },
+      {
+        "title": "Kazanlar",
+        "text": "Taşıyıcı çelik yapı, buckstay konsolları ve gövde destekleri."
+      },
+      {
+        "title": "Rafineriler",
+        "text": "Ateşlemeli ısıtıcı taşıyıcı yapıları, kolon ve boru köprüsü taban plakaları."
+      },
+      {
+        "title": "Enerji santralleri",
+        "text": "Türbin kaidesi plakaları, kazan taşıyıcı çerçevesi ve platformlar."
+      },
+      {
+        "title": "Çimento fabrikaları",
+        "text": "Ön ısıtıcı kulesi taşıyıcı çeliği, fırın destek ayağı plakaları ve değirmen temel plakaları."
+      },
+      {
+        "title": "Genel çelik yapı",
+        "text": "Kolon tabanları, vinç rayı destekleri, konveyör destek yapıları ve korkuluk bağlantıları."
+      }
+    ],
+    "supplyTitle": "Tedarik ettiklerimiz",
+    "supply": [
+      {
+        "title": "Çizime göre tüm tipler",
+        "text": "Tek bir konsoldan komple setlere kadar, müşteri çizimine göre üretilir."
+      },
+      {
+        "title": "Kesme ve işleme",
+        "text": "İhtiyaca göre oksijen, plazma veya CNC kesim; delme, işleme ve kaynak."
+      },
+      {
+        "title": "Yüzey işlemi",
+        "text": "Kumlama, astar boya ve sıcak daldırma galvaniz."
+      },
+      {
+        "title": "Tek plaka veya paket",
+        "text": "Tek tek plakalar veya komple çelik yapı imalat paketinin parçası olarak."
+      },
+      {
+        "title": "Numune, kroki veya çizimden",
+        "text": "Plakaları numuneden, krokiden veya ayrıntılı mühendislik çiziminden üretebiliriz."
+      }
+    ],
+    "relatedTitle": "İlgili ürünler",
+    "relatedFoundationBolts": "Taban plakalarını betona sabitleyen ankraj ve temel cıvataları.",
+    "relatedStanchions": "Taban plakalarına monte edilen platform ve korkuluk dikmeleri.",
+    "relatedPipeGuides": "Ateşlemeli ısıtıcılar ve boru köprüleri için boru kılavuzları ve halka kovanlar.",
+    "relatedAnchors": "Destek konsolları arasında refrakter astarı tutan SEPL ankrajlar.",
+    "servicesTitle": "İlgili hizmetler",
+    "relatedSwText": "Gömme plakalar ve destek plakalarına kaynaklanan ankrajlar için saplama kaynağı.",
+    "relatedPmiText": "Paslanmaz çelik plakaların sevkiyattan önce alaşım doğrulaması.",
+    "relatedPpText": "Kaynaktan sonra paslanmaz çelik plaka ve konsollar için yüzey işlemi.",
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      {
+        "q": "Refrakter destek plakaları nedir?",
+        "a": "Astar destek konsolu veya konsol olarak da adlandırılan refrakter destek plakaları, fırın veya kazan gövdesinin iç tarafına kaynaklanan çelik konsollardır. Özellikle yüksek dikey duvarlarda ve tavan bölümlerinde refrakter astarın ağırlığını taşır ve bu yükü gövdeye eşit dağıtır. Brülör bloklarını duvardan ayrı taşımak için de kullanılırlar."
+      },
+      {
+        "q": "Destek plakaları hangi malzemelerden yapılır?",
+        "a": "Yapısal plakalar genellikle IS 2062 veya ASTM A36 karbon çelikten, ağır yükler için ASTM A572 Grade 50'den yapılır. Kazan ve basınçlı kap parçalarında IS 2002 veya SA 516 Gr 70 kullanılır. Sıcak çalışan refrakter destek konsolları SS304 veya SS310 gibi paslanmaz çelikten yapılır; korozif ortamlarda SS316 kullanılır."
+      },
+      {
+        "q": "Plakalar işlenmiş olarak verilebilir mi?",
+        "a": "Evet. Taban plakalarının taşıyıcı yüzeyi harçla tam temas için düz işlenebilir; delikler CNC veya manuel olarak çizim toleransında delinir. Plakaları kumlanmış, astar boyalı veya sıcak daldırma galvanizli olarak da veriyoruz."
+      },
+      {
+        "q": "Mevcut azami plaka kalınlığı nedir?",
+        "a": "Destek plakalarını 6 mm'den 100 mm ve üzeri kalınlığa kadar, 2000 × 6000 mm'ye kadar saclardan çizime göre keserek veriyoruz. Şartname gerektirdiğinde kalın saclar ultrasonik olarak muayene edilebilir."
+      }
+    ],
+    "ctaTitle": "Destek veya taban plakası mı gerekiyor?",
+    "ctaText": "Çiziminizi, krokinizi veya numune bilgilerini malzeme sınıfı, kalınlık, yüzey işlemi ve miktarla birlikte gönderin. Teklif ve teslim süresiyle dönüş yapalım.",
+    "ctaRfq": "Destek plakaları için teklif isteyin",
+    "ctaContact": "Veya ekibimizle iletişime geçin"
+  },
+  "stPage": {
+    "metaTitle": "Endüstriyel Korkuluk Dikmeleri | Platform Korkulukları | Santura Engineering",
+    "metaDescription": "Endüstriyel platform ve yürüme yolları için çizime göre dikmeler, korkuluklar, etek levhaları ve kapılar. 1980'den beri, 25+ ülkeye ihracat.",
+    "eyebrow": "İmalat atölyesi",
+    "h1": "Endüstriyel Dikmeler ve Korkuluk Sistemleri",
+    "subheading": "Endüstriyel platformlar, yürüme yolları ve merdivenler için dikmeler, küpeşteler, etek levhaları ve kapılar. Çiziminize göre kesilir, kaynaklanır ve sıcak daldırma galvanizlenir; tek dikme, korkuluk modülü veya komple platform paketi olarak teslim edilir.",
+    "gallery": [
+      "Berkitmeli taban plakalı, sıcak daldırma galvanizli endüstriyel dikme partisi",
+      "Kaynaklı küpeşte kollu ve taban plakalı galvanizli dikme",
+      "Yan küpeşte kollu ve berkitmeli taban plakalı endüstriyel dikme",
+      "Dikme üzerindeki kaynaklı T birleşiminin yakın görünümü"
+    ],
+    "overviewTitle": "Endüstriyel dikmeler nedir",
+    "overview": [
+      "Dikmeler, endüstriyel bir korkuluğu veya bariyeri taşıyan, dolu ya da boru kesitli düşey çelik direklerdir. Bilyeli dikmelerde yatay borular, dikme üzerindeki dövme çelik bilyelerden geçer ve setuskurlarla sabitlenir.",
+      "Küpeşteler, etek levhaları, kapılar ve uç kapamalarla birlikte dikmeler; platformlarda, yürüme yollarında, merdivenlerde ve diğer yüksek alanlarda zorunlu olan kenar korumasını oluşturur. Santura dikmeleri, komple korkuluk sistemlerini ve platform yapılarını müşteri çizimine göre üretir."
+    ],
+    "weldedTitle": "Kaynaklı dikmeler",
+    "weldedText": "Fotoğraflarımız kaynaklı dikmeleri gösteriyor: küpeşte kolları kaynaklanmış boru dikmeler, berkitmeli taban plakası ve kaynaktan sonra sıcak daldırma galvaniz. Dikmeleri müşteri çizimine göre, aşağıda anlatılan bilyeli tipte veya bu kaynaklı tipte üretiyoruz.",
+    "typesTitle": "Dikme tipleri",
+    "types": [
+      {
+        "key": "single",
+        "title": "Tek bilyeli dikme",
+        "alt": "Üst küpeşte için tek bilyeli dikme",
+        "text": "Tek küpeşte için üstte bir bilye. Yalnızca üst küpeştenin gerektiği düşük riskli yürüme yolları ve yönlendirme korkulukları gibi yerlerde kullanılır."
+      },
+      {
+        "key": "double",
+        "title": "Çift bilyeli dikme",
+        "alt": "Üst küpeşte ve diz boru için çift bilyeli dikme",
+        "text": "Üst küpeşte ve diz borusu (ara boru) için iki bilye. Çoğu endüstriyel platform ve yürüme yolu için standart tiptir."
+      },
+      {
+        "key": "three",
+        "title": "Üç bilyeli dikme",
+        "alt": "Üst küpeşte, diz borusu ve alt boru için üç bilyeli dikme",
+        "text": "Üst küpeşte, diz borusu ve ek bir alt boru için üç bilye. Daha yüksek güvenlik veya daha sık boru aralığı gerektiğinde kullanılır."
+      },
+      {
+        "key": "raked",
+        "title": "Eğimli (merdiven) dikme",
+        "alt": "Merdiven eğimini izleyen eğik borulu dikme",
+        "text": "Bilyeler açılı yerleştirilir, böylece borular merdiven veya rampa eğimini izler. Endüstriyel merdivenlerde ve eğimli yürüme yollarında kullanılır."
+      }
+    ],
+    "basesTitle": "Taban tipleri",
+    "bases": [
+      {
+        "key": "flat",
+        "title": "Düz taban plakası",
+        "alt": "Platform zeminine cıvatalanmış düz taban plakalı dikme",
+        "text": "Zemine veya platforma cıvatalanır. Izgara veya baklava desenli sac üzerindeki platform ve yürüme yolları için en yaygın tabandır."
+      },
+      {
+        "key": "side",
+        "title": "Yandan bağlantı",
+        "alt": "Kiriş gövdesine yandan cıvatalanmış dikme",
+        "text": "Kiriş gövdesi, tank gövdesi veya duvar gibi düşey bir yüzeye cıvatalanır; zemine montajın mümkün olmadığı yerlerde kullanılır."
+      },
+      {
+        "key": "collar",
+        "title": "Kaynaklı kovan taban",
+        "alt": "Yapıya kaynaklı kovana oturtulmuş dikme",
+        "text": "Dikme, doğrudan yapıya kaynaklanmış bir kovana oturur. Kalıcı montajlar için kullanılır."
+      },
+      {
+        "key": "cored",
+        "title": "Betona gömme taban",
+        "alt": "Beton döşemedeki karot deliğine harçla sabitlenmiş dikme",
+        "text": "Dikme betondaki karot deliğine yerleştirilir ve harçla sabitlenir. Beton platform ve sahanlıklar için kullanılır."
+      },
+      {
+        "key": "angle",
+        "title": "Köşebent taban",
+        "alt": "Köşebent çerçeve üzerinde köşebent tabanlı dikme",
+        "text": "Köşebent veya U profil üzerine montaj için köşebent braketli taban. Köşebent çerçeveli platformlarda kullanılır."
+      }
+    ],
+    "specTitle": "Ölçüler ve özellikler",
+    "colSpec": "Özellik",
+    "colRange": "Standart aralık",
+    "specRows": [
+      {
+        "label": "Dikme çapı",
+        "value": "33,7 mm (1 inç NB), 42,4 mm (1¼ inç NB), 48,3 mm (1½ inç NB)"
+      },
+      {
+        "label": "Et kalınlığı",
+        "value": "3,0 mm ile 5,0 mm (boru) veya dolu"
+      },
+      {
+        "label": "Bilye çapı",
+        "value": "60 mm, 63 mm, 76 mm"
+      },
+      {
+        "label": "Boru çapı",
+        "value": "33,7 mm veya 42,4 mm"
+      },
+      {
+        "label": "Standart yükseklik",
+        "value": "1000 mm ile 1100 mm (zeminden küpeşte üstüne)"
+      },
+      {
+        "label": "Bilye aralığı",
+        "value": "Tipik olarak 450 mm ile 550 mm"
+      },
+      {
+        "label": "Etek levhası yüksekliği",
+        "value": "100 mm ile 150 mm"
+      },
+      {
+        "label": "Taban plakası",
+        "value": "100 × 100 mm ile 172 × 150 mm, 6 mm ile 10 mm kalınlık, 18 mm delikli"
+      },
+      {
+        "label": "Dikme aralığı",
+        "value": "En fazla 1500 mm ile 1800 mm"
+      }
+    ],
+    "specNote": "Bunlar standart aralıklardır. Yükseklikler, boru konumları ve dikme aralıkları müşteri çizimine ve projeye uygulanan güvenlik standardına göre yapılır.",
+    "materialsTitle": "Malzemeler",
+    "materials": [
+      {
+        "title": "Karbon çelik (IS 2062 / ASTM A36)",
+        "text": "En yaygın seçenek; boyalı veya galvanizli."
+      },
+      {
+        "title": "Paslanmaz çelik (SS304 / SS316)",
+        "text": "Korozif ortamlar, açık deniz, gıda işleme ve kimya tesisleri için."
+      },
+      {
+        "title": "Alüminyum",
+        "text": "Hafif; taşıyıcı olmayan veya ağırlığın önemli olduğu uygulamalar için."
+      }
+    ],
+    "finishesTitle": "Yüzey işlemleri",
+    "finishes": [
+      {
+        "title": "Sıcak daldırma galvaniz",
+        "text": "Dış ortam ve endüstriyel kullanım için standart kaplama; ortama bağlı olarak çeliği genellikle 20 yıl veya daha uzun korur."
+      },
+      {
+        "title": "Toz boya",
+        "text": "İç mekânlar veya renk kodlaması gereken yerler için; emniyet sarısı yaygındır."
+      },
+      {
+        "title": "Ham / astarlı",
+        "text": "Sahada boyama yapacak imalatçılar için."
+      },
+      {
+        "title": "Paslanmaz çelik",
+        "text": "Hadde yüzeyi veya parlatılmış, kaplama gerekmez."
+      }
+    ],
+    "standardsTitle": "Uyum ve standartlar",
+    "colStandard": "Standart",
+    "colCovers": "Kapsamı",
+    "standards": [
+      {
+        "code": "OSHA 1910.29",
+        "text": "ABD yürüme-çalışma yüzeyleri kuralı: üst küpeşte 42 inç (1067 mm) ± 3 inç, duvar olmayan yerlerde ara boru, açık kenarlarda en az 3,5 inç (89 mm) etek levhası ve dışa veya aşağı 200 lb (890 N) kuvvete dayanan üst küpeşte."
+      },
+      {
+        "code": "EN ISO 14122-3",
+        "text": "Makine ve tesislere kalıcı erişim için korkuluk ve merdivenlere ilişkin Avrupa standardı."
+      },
+      {
+        "code": "BS 6180",
+        "text": "Binalarda ve çevresinde bariyerler için İngiliz uygulama kuralları."
+      },
+      {
+        "code": "IS 1161",
+        "text": "Yapısal amaçlı çelik borular için Hint standardı (dikme ve boru ölçüleri)."
+      },
+      {
+        "code": "IS 2062",
+        "text": "Sıcak haddelenmiş yapı çeliği için Hint standardı."
+      }
+    ],
+    "standardsNote": "Çizime ve şartnamenizde belirtilen standarda göre üretiyoruz. Projenize hangi standardın uygulandığını bize bildirin.",
+    "componentsTitle": "Korkuluk sistemi bileşenleri",
+    "componentsIntro": "Komple bir korkuluk sistemi için gereken her şey dikmelerle birlikte verilebilir.",
+    "components": [
+      {
+        "title": "Dikmeler",
+        "text": "Tek, çift veya üç bilyeli ya da kaynaklı; her taban tipiyle."
+      },
+      {
+        "title": "Borular",
+        "text": "Düz boylar, genellikle 6,4 m."
+      },
+      {
+        "title": "Uç kapamalar ve dirsekler",
+        "text": "Yatay ve açılı kapama dirsekleri, dönüş dirsekleri ve merdiven dönüşleri."
+      },
+      {
+        "title": "Kapılar",
+        "text": "Platform girişleri için yaylı, kendiliğinden kapanan güvenlik kapıları."
+      },
+      {
+        "title": "Etek levhaları",
+        "text": "Kenardan nesne düşmesini önleyen, zemin seviyesinde 100 mm ile 150 mm yüksekliğinde levhalar."
+      },
+      {
+        "title": "Etek levhası tutucuları",
+        "text": "Etek levhalarını dikmelere bağlayan klipsler."
+      },
+      {
+        "title": "Bağlantı elemanları",
+        "text": "Boruları birleştirmek için iç genleşmeli bağlantılar ve dış bağlantılar."
+      }
+    ],
+    "applicationsTitle": "Sektörlere göre uygulamalar",
+    "applications": [
+      {
+        "title": "Rafineriler ve petrokimya",
+        "text": "Boru köprüsü yürüme yolları, kap platformları, yükleme platformları ve tank sahası erişimleri."
+      },
+      {
+        "title": "Enerji santralleri",
+        "text": "Kazan platformları, türbin katı erişimi, kömür hazırlama platformları ve baca erişimi."
+      },
+      {
+        "title": "Çimento fabrikaları",
+        "text": "Ön ısıtıcı kulesi platformları, fırın bölgesi yürüme yolları, değirmen katı ve silo üstü platformlar."
+      },
+      {
+        "title": "Çelik tesisleri",
+        "text": "Fırın katı bariyerleri, haddehane yürüme yolları ve vinç erişim platformları."
+      },
+      {
+        "title": "Kazan daireleri",
+        "text": "Kazan dramı erişimi, ekonomizör platformları ve hava ön ısıtıcısı erişimi."
+      },
+      {
+        "title": "Genel endüstri",
+        "text": "Makine koruması, asma katlar, yükleme rampaları ve merdiven korkulukları."
+      }
+    ],
+    "supplyTitle": "Tedarik ettiklerimiz",
+    "supply": [
+      {
+        "title": "Dikmeler ve bileşenler",
+        "text": "Sahada montaj için tek dikmeler ve parçalar."
+      },
+      {
+        "title": "Korkuluk modülleri",
+        "text": "Boru ve etek levhalı, ön imalatlı ve cıvatalamaya hazır dikmeler."
+      },
+      {
+        "title": "Komple platformlar",
+        "text": "Taşıyıcı çerçeveler, ızgaralar, korkuluklar, merdivenler ve kapılar tek paket halinde."
+      },
+      {
+        "title": "Çizime veya standarda göre",
+        "text": "Çiziminize veya standart ölçülere göre dikmeler ve borular."
+      },
+      {
+        "title": "Kapı takımları",
+        "text": "Kendiliğinden kapanan menteşeli güvenlik kapıları."
+      },
+      {
+        "title": "Tüm taban tipleri",
+        "text": "Düz plaka, yandan bağlantı, kaynaklı kovan, betona gömme ve köşebent taban."
+      }
+    ],
+    "relatedTitle": "İlgili ürünler",
+    "relatedSupportPlates": "Dikmeler, platformlar ve çelik yapılar için taban ve montaj plakaları.",
+    "relatedFoundationBolts": "Dikme tabanlarını ve platform kolonlarını betona sabitleyen ankraj cıvataları.",
+    "relatedPipeGuides": "Yürüme yollarının çoğu zaman boyunca uzandığı boru köprüleri için boru kılavuzları ve kovanlar.",
+    "servicesTitle": "İlgili hizmetler",
+    "relatedPmiText": "Paslanmaz çelik dikme ve boruların alaşım doğrulaması.",
+    "relatedPpText": "Kaynaktan sonra paslanmaz çelik korkulukların asitleme ve pasivasyonu.",
+    "relatedQualityText": "İmal edilen parçalar için muayene ve testlerimiz.",
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      {
+        "q": "Bilyeli dikme nedir?",
+        "a": "Bilyeli dikme, boyunca dövme çelik bilyeler bulunan bir korkuluk direğidir. Yatay borular bilyelerdeki deliklerden geçer ve setuskurlarla sabitlenir. Böylece korkuluk hızlı monte edilir ve borular merdiven ve köşelerde gereken açıyla dikmeye bağlanabilir."
+      },
+      {
+        "q": "OSHA hangi korkuluk yüksekliğini şart koşar?",
+        "a": "OSHA 1910.29, üst küpeştenin üst kenarının yürüme yüzeyinden 42 inç (1067 mm) yukarıda olmasını, artı eksi 3 inç toleransla şart koşar. Duvar veya parapet olmayan yerlerde ara boru gerekir, etek levhaları en az 3,5 inç (89 mm) yüksekliğinde olmalı ve üst küpeşte 200 lb (890 N) kuvvete dayanmalıdır."
+      },
+      {
+        "q": "Tek bilyeli ve çift bilyeli dikme arasındaki fark nedir?",
+        "a": "Tek bilyeli dikme yalnızca üst küpeşteyi taşır. Çift bilyeli dikme üst küpeşteyi ve yarı yükseklikte bir diz borusunu taşır; diz borusu küpeştenin altındaki boşluğu kapattığı için çoğu endüstriyel platform ve yürüme yolunda standarttır."
+      },
+      {
+        "q": "Dikmeler galvanizli olarak verilebilir mi?",
+        "a": "Evet. İmalattan sonra sıcak daldırma galvaniz, dış ortamda ve endüstriyel tesislerde kullanılan karbon çelik dikmeler için standart kaplamamızdır. Dikmeleri toz boyalı, sahada boyanmak üzere astarlı veya kaplamasız paslanmaz çelik olarak da veriyoruz."
+      }
+    ],
+    "ctaTitle": "Dikme veya korkuluk mu gerekiyor?",
+    "ctaText": "Çiziminizi veya yerleşim planınızı dikme tipi, taban tipi, yükseklik, malzeme, kaplama ve miktarla birlikte gönderin. Teklif ve teslim süresiyle dönüş yapalım.",
+    "ctaRfq": "Dikmeler için teklif isteyin",
+    "ctaContact": "Veya ekibimizle iletişime geçin"
+  },
+  "pgPage": {
+    "metaTitle": "Ateşlemeli Isıtıcı ve Kazanlar için Boru Kılavuzları ve Halka Kovanlar | Santura Engineering",
+    "metaDescription": "Ateşlemeli ısıtıcılar, kazanlar ve fırınlar için çizime göre boru kılavuzları, halka kovanlar ve tüp destekleri. 1980'den beri, 25+ ülkeye ihracat.",
+    "eyebrow": "İmalat atölyesi",
+    "h1": "Boru Kılavuzları ve Halka Kovanlar",
+    "subheading": "Ateşlemeli ısıtıcılar, reformerler, kazanlar ve proses boruları için boru kılavuzları, halka kovanlar ve tüp destek parçaları. Çiziminize göre karbon çelik, paslanmaz çelik ve ısıya dayanıklı alaşımlardan üretilir.",
+    "gallery": [
+      "Ateşlemeli ısıtıcılar için flanşlı kılavuz halkalı galvanizli boru kılavuzu partisi",
+      "Ateşlemeli ısıtıcı için flanşlı yakalı ve konik gövdeli boru kılavuzu",
+      "Atölyede galvanizli boru kılavuzu stoku",
+      "Stokta istiflenmiş paslanmaz çelik halka kovanlar",
+      "SS310 işaretli, yarık paslanmaz çelik halka kovan",
+      "Kalite ve ölçüyle işaretlenmiş paslanmaz çelik halka kovanlar",
+      "Genleşme yarıklı, istiflenmiş paslanmaz halka kovanlar",
+      "Sevkiyat için iç içe geçirilmiş paslanmaz halka kovanlar",
+      "İç içe geçirilmiş paslanmaz halka kovan demeti",
+      "Genleşme yarıklı halka kovan",
+      "Yarık halka kovan parçası"
+    ],
+    "overviewTitle": "Boru kılavuzları ve halka kovanlar nedir",
+    "overview": [
+      "Boru kılavuzları ve halka kovanlar, boru hatlarını ve fırın tüplerini taşıyan, yönlendiren ve koruyan imal edilmiş çelik parçalardır. Boru kılavuzu borunun yana kaymasını önler, ancak sıcaklık değiştikçe boyuna uzayıp kısalmasına izin verir.",
+      "Boru kovanı veya geçiş kovanı da denen halka kovan, bir borunun duvardan, döşemeden veya cihaz gövdesinden geçtiği yere takılan bir silindirdir. Boruyu korur, açıklığı kapatır ve borunun hareketi için yer bırakır.",
+      "İkisi de en çok, boruların sıcak çalıştığı ve tekrar tekrar ısınıp soğuduğu ateşlemeli ısıtıcılarda, kazanlarda ve fırınlarda önemlidir. Santura boru kılavuzlarını ve halka kovanları, API 560'a göre yapılan ısıtıcılar dahil, müşteri çizimine göre üretir."
+    ],
+    "madeTitle": "Fotoğraflarımız ne gösteriyor",
+    "made": [
+      "Boru kılavuzları: kılavuz halkaları dövülür, işlenir ve bir boruya kaynaklanır, ardından galvanizlenir.",
+      "Halka kovanlar: paslanmaz çelik sac (SS304, SS310, SS316) çizime göre makasla kesilir ve yarık veya kanallı halkalar halinde bükülür; her biri kalite ve ölçüyle işaretlenir.",
+      "Tümü reformerler ve ateşlemeli ısıtıcılar için kendi atölyemizde üretilir."
+    ],
+    "guidesTitle": "Boru kılavuzu türleri",
+    "guides": [
+      {
+        "key": "spider",
+        "title": "Silindir / örümcek kılavuzlar",
+        "size": "6 inç ile 36 inç ve üzeri borular",
+        "alt": "Borunun çevresinde iç örümcek kollu silindir kılavuz",
+        "text": "Bir desteğe kaynaklı silindirik kafes; içindeki örümcek kollar borunun boyuna kaymasına izin verir ama yana hareketini önler. Uzun boru hatlarında ve genleşme derzlerinin yakınında kullanılır."
+      },
+      {
+        "key": "ubolt",
+        "title": "U cıvatalı kılavuzlar",
+        "size": "Küçük boru çapları",
+        "alt": "Destek kirişi üzerinde taban plakalı U cıvatalı kılavuz",
+        "text": "U cıvata boruyu sarar, taban plakası desteğe cıvatalanır. U cıvatanın boşluğu içinde boyuna harekete izin veren basit ve ekonomik bir kılavuzdur."
+      },
+      {
+        "key": "structural",
+        "title": "Çelik profil kılavuzlar",
+        "size": "Büyük ve ağır borular",
+        "alt": "Büyük bir boruyu saran çelik profil kılavuz çerçevesi",
+        "text": "Köşebent, U profil veya sacın boruyu saran bir çerçeve halinde kaynaklanmasıyla yapılır. Büyük çaplı veya ağır, yalıtımlı ya da çıplak borular için kullanılır."
+      },
+      {
+        "key": "slide",
+        "title": "Kayar plakalı kılavuzlar",
+        "size": "",
+        "alt": "Düşük sürtünmeli kayar plaka üzerinde boru pabucu",
+        "text": "Boru pabucu düşük sürtünmeli PTFE veya grafit plaka üzerinde kayar. Genleşme derzlerini veya hassas ekipman bağlantılarını korumak için sürtünmenin düşük tutulması gereken yerlerde kullanılır."
+      },
+      {
+        "key": "tube",
+        "title": "Tüp destekleri (ateşlemeli ısıtıcılar)",
+        "size": "API 560",
+        "alt": "Ateşlemeli ısıtıcı içinde tüp serpantinlerini tutan destekler",
+        "text": "Yanma odasında tüp serpantinlerini yerinde tutan destekler. API 560, desteksiz yatay tüp boyunu tüp dış çapının 35 katı veya 6 m (20 ft) ile, hangisi küçükse, sınırlar. Alloy 800H gibi ısıya dayanıklı alaşımlardan yapılır; döküm 25Cr-20Ni (HK40) destekler de kullanılır."
+      }
+    ],
+    "sleevesTitle": "Halka kovan türleri",
+    "sleeves": [
+      {
+        "key": "floor",
+        "title": "Döşeme ve duvar geçiş kovanları",
+        "size": "Boru dış çapından 2 ile 4 inç büyük",
+        "alt": "Beton döşemeye gömülü, içinden boru geçen geçiş kovanı",
+        "text": "Boruların geçtiği beton veya çelik döşeme ve duvarlara yerleştirilen, salmastra veya yangın durdurucu malzemeyle sızdırmaz hale getirilen kovanlar. Fazla ölçü yalıtım ve hareket için yer bırakır."
+      },
+      {
+        "key": "shell",
+        "title": "Fırın gövdesi geçiş kovanları",
+        "size": "",
+        "alt": "Bir tüpün çevresinde fırın gövdesine kaynaklanmış geçiş kovanı",
+        "text": "Tüplerin veya boruların gövdeye girdiği yerde fırın ya da kazan gövdesine kaynaklanan kovanlar. Sızdırmazlık plakası ve salmastra, tüp genleşirken baca gazı kaçağını önler."
+      },
+      {
+        "key": "anchor",
+        "title": "Refrakter ankrajlı halka kovanlar",
+        "size": "",
+        "alt": "Bir boru açıklığında refrakter astara gömülü halka kovan",
+        "text": "Refrakter astara gömülen, geçiş noktalarında astarı sabitleyen ve boru veya cihaz girişi için düzgün bir açıklık sağlayan halka kovanlar."
+      }
+    ],
+    "materialsTitle": "Malzemeler",
+    "materials": [
+      {
+        "title": "Karbon çelik (IS 2062 / ASTM A36)",
+        "text": "Dış boru kılavuzları ve yapısal destekler için standart."
+      },
+      {
+        "title": "Paslanmaz çelik (SS304, SS310, SS316)",
+        "text": "Korozif veya yüksek sıcaklıklı hizmet için ya da proses lisansörü istediğinde. Halka kovanlarımız bu kalitelerde üretilir."
+      },
+      {
+        "title": "Isıya dayanıklı alaşımlar (Alloy 800H, HK40, 25Cr-20Ni)",
+        "text": "API 560'a göre ateşlemeli ısıtıcıların yanma odası içindeki tüp destekleri için."
+      },
+      {
+        "title": "Galvanizli çelik",
+        "text": "Hava koşullarına açık boru köprüsü kılavuzları için."
+      }
+    ],
+    "specTitle": "Özellikler",
+    "colProperty": "Özellik",
+    "colRange": "Aralık",
+    "specRows": [
+      {
+        "label": "Boru çapları",
+        "value": "1/2 inç NB ile 48 inç NB ve üzeri (özel)"
+      },
+      {
+        "label": "Kılavuz boşluğu",
+        "value": "Isıl hareket için tipik olarak 3 mm ile 6 mm radyal boşluk"
+      },
+      {
+        "label": "Kovan kalınlığı",
+        "value": "Ölçü ve uygulamaya göre 6 mm ile 12 mm et kalınlığı"
+      },
+      {
+        "label": "Çalışma sıcaklığı",
+        "value": "Dış kılavuzlarda 400 °C'ye kadar; ısıya dayanıklı alaşımlı iç tüp desteklerinde 1100 °C'ye kadar"
+      },
+      {
+        "label": "Standartlar",
+        "value": "API 560 (ateşlemeli ısıtıcılar), ASME B31.3 (proses boruları), IS 2062, ASTM A36"
+      },
+      {
+        "label": "Yük kapasitesi",
+        "value": "Boru ağırlığı, yalıtım ve akışkana göre mühendislik hesabıyla"
+      },
+      {
+        "label": "Yüzey",
+        "value": "Astar boyalı, sıcak daldırma galvanizli veya yüksek sıcaklık alaşımlarında çıplak"
+      }
+    ],
+    "specNote": "Her parça müşteri çizimine göre üretilir. Çizimi boru çapı, malzeme, tasarım sıcaklığı ve miktarla birlikte gönderin.",
+    "applicationsTitle": "Sektörlere göre uygulamalar",
+    "applications": [
+      {
+        "title": "Rafineri ateşlemeli ısıtıcıları",
+        "text": "Radyant ve konveksiyon tüp destekleri, tüp kılavuzları, dönüş dirseği destekleri ve gövde geçiş kovanları; API 560'a göre."
+      },
+      {
+        "title": "Kazanlar",
+        "text": "Kızdırıcı, ara kızdırıcı ve ekonomizör tüp destekleri ile kazan gövdesinden boru geçiş kovanları."
+      },
+      {
+        "title": "Petrokimya tesisleri",
+        "text": "Proses boruları için boru köprüsü kılavuzları, genleşme loopu ve ekipman bağlantı kılavuzları."
+      },
+      {
+        "title": "Enerji santralleri",
+        "text": "Ana buhar, kazan besleme ve türbin borusu kılavuzları."
+      },
+      {
+        "title": "Çimento fabrikaları",
+        "text": "Brülör boruları ve cihazlar için fırın gövdesi geçiş kovanları ile kanal destekleri."
+      },
+      {
+        "title": "Genel boru tesisatı",
+        "text": "Genleşme derzleri ve loopların yakınında ısıl genleşme kılavuzları ile boru köprülerinde döşeme ve duvar geçiş kovanları."
+      }
+    ],
+    "supplyTitle": "Tedarik ettiklerimiz",
+    "supply": [
+      {
+        "title": "Boru kılavuzları",
+        "text": "Mühendislik çizimlerine veya standart katalog tasarımlarına göre."
+      },
+      {
+        "title": "Halka kovanlar",
+        "text": "Gövde, döşeme ve duvar geçişleri için."
+      },
+      {
+        "title": "Isıtıcı tüp destekleri",
+        "text": "API 560'a göre ısıtıcılar için tüp destek bileşenleri."
+      },
+      {
+        "title": "Komple kılavuz takımları",
+        "text": "Kılavuz çerçevesi, kayar plakalar ve bağlantı elemanları birlikte."
+      },
+      {
+        "title": "Malzeme seçimi",
+        "text": "Karbon çelikten paslanmaz çeliğe ve ısıya dayanıklı alaşımlara kadar."
+      },
+      {
+        "title": "Tek parça veya paket",
+        "text": "Tek parçalar veya boru destek ya da ısıtıcı imalat paketinin parçası olarak."
+      }
+    ],
+    "relatedTitle": "İlgili ürünler",
+    "relatedSupportPlates": "Boru destekleri ve kılavuz yapıları için taban plakaları ve konsollar.",
+    "relatedFoundationBolts": "Boru köprüsü ve kılavuz desteği temelleri için ankraj cıvataları.",
+    "relatedStanchions": "Boru köprüsü yürüme yolları ve ısıtıcı platformları için korkuluklar ve dikmeler.",
+    "relatedAnchors": "Halka kovanların içinden geçtiği refrakter astar için SEPL ankrajlar.",
+    "servicesTitle": "İlgili hizmetler",
+    "relatedPmiText": "SS310 kovanların ve ısıya dayanıklı tüp desteklerinin alaşım doğrulaması.",
+    "relatedPpText": "İmalattan sonra paslanmaz çelik kovanların asitleme ve pasivasyonu.",
+    "relatedSwText": "Gövde geçişleri çevresindeki ankrajların saplama kaynağı.",
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      {
+        "q": "Boru kılavuzu ne için kullanılır?",
+        "a": "Boru kılavuzu boruyu güzergâhında tutar. Yana hareketi önler ama boru ısındığında uzarken ve soğuduğunda kısalırken boyuna kaymasına izin verir. Kılavuzlar uzun boru hatları boyunca ve genleşme derzleri ile loopların yakınına yerleştirilir; böylece ısıl hareket tasarımcının öngördüğü yere gider."
+      },
+      {
+        "q": "API 560 nedir?",
+        "a": "API 560, rafineriler ve petrokimya tesislerinde kullanılan ateşlemeli ısıtıcılar için American Petroleum Institute standardıdır. Yanma odası içindeki tüp destekleri ve kılavuzlar dahil tasarım, malzeme, imalat ve testi kapsar. Örneğin desteksiz yatay tüp boyunu 35 tüp çapı veya 6 m ile, hangisi küçükse, sınırlar."
+      },
+      {
+        "q": "Boru kılavuzu ile boru desteği arasındaki fark nedir?",
+        "a": "Boru desteği borunun ağırlığını taşır. Boru kılavuzu ise borunun hangi yönde hareket edebileceğini belirler: yana hareketi önler, boyuna genleşmeye izin verir. Birçok kılavuz ağırlık da taşır; yani kılavuz, boruyu ayrıca bir veya daha fazla yönde tutan bir destektir."
+      },
+      {
+        "q": "Halka kovan nedir?",
+        "a": "Boru kovanı veya geçiş kovanı da denen halka kovan, bir boru veya tüpün duvardan, döşemeden, refrakter astardan ya da gövdeden geçtiği yere takılan çelik bir silindirdir. Boruyu korur, açıklığı salmastra veya sızdırmazlık plakasıyla kapatır ve genleşme için yer bırakır. Halka kovanlarımız genellikle SS304, SS310 veya SS316 sacdan bükülür."
+      }
+    ],
+    "ctaTitle": "Boru kılavuzu veya halka kovan mı gerekiyor?",
+    "ctaText": "Çiziminizi boru çapı, malzeme kalitesi, tasarım sıcaklığı ve miktarla birlikte gönderin. Teklif ve teslim süresiyle dönüş yapalım.",
+    "ctaRfq": "Boru kılavuzları ve kovanlar için teklif isteyin",
+    "ctaContact": "Veya ekibimizle iletişime geçin"
+  },
+  "cwPage": {
+    "metaTitle": "Reformer Fırınları için Karşı Ağırlık Sistemleri | Linde Onaylı | Santura Engineering",
+    "metaDescription": "Hidrojen reformerleri ve kraking fırınları için karşı ağırlık sistemleri. Linde onaylı tedarikçi. 1980'den beri, 25+ ülkeye ihracat.",
+    "eyebrow": "Reformer ve kraking fırınları",
+    "h1": "Reformer ve Kraking Fırınları için Karşı Ağırlık Sistemleri",
+    "subheading": "Hidrojen reformerlerinde ve etilen kraking fırınlarında radyant tüplerin ağırlığını taşıyan kaldıraç kollu karşı ağırlık sistemleri. Santura tarafından 1990'ların sonundan beri müşterinin mühendislik çizimlerine göre üretilir.",
+    "lindeBadge": "Linde Engineering India onaylı tedarikçi, {period}",
+    "photoAlt": "Ağırlık yığınlı, galvanizli karşı ağırlık kaldıraç kolu takımı",
+    "photoCaption": "Atölyemizde ağırlık yığınlı, galvanizli kaldıraç kolu takımı.",
+    "whatTitle": "Karşı ağırlık sistemi ne işe yarar",
+    "what": [
+      "Hidrojen reformerlerinde ve etilen kraking fırınlarında düşey tüpler çok yüksek sıcaklıkta yanma odasının içinde asılı durur. Reformer tüpleri katalizörle doludur ve katalizörüyle birlikte her tüp bir tondan fazla gelebilir. Tüpler ısındıkça belirgin şekilde uzar.",
+      "Karşı ağırlık sistemi bu ağırlığı taşır; böylece tüp serbestçe asılı kalır ve gerilme olmadan uzayıp kısalabilir. Kaldıraç ilkesiyle çalışır: mafsallı bir kaldıraç kolunun bir ucundaki ağırlık, diğer uçtaki tüpü dengeler.",
+      "Mafsallar neredeyse sürtünmesiz hareket etmelidir. Küçük sürtünme kuvvetleri bile tüplere istenmeyen yük aktarır ve ömürlerini kısaltır."
+    ],
+    "howTitle": "Nasıl çalışır",
+    "how": [
+      "Askı çubukları her tüpün üstünden fırın tavanından geçerek bir boyunduruğa uzanır.",
+      "Boyunduruk, tavan yapısına monte edilmiş bir mesnet çerçevesi üzerinde dönen yatay bir kaldıraç kolunun bir ucuna bağlanır.",
+      "Kolun diğer ucuna hesaplanmış bir karşı ağırlık asılır.",
+      "Karşı ağırlık; katalizör dolu tüpü, alt pigtaili, yüzer kolektördeki payını, üst pigtailin yarısını ve askı donanımını dengeler.",
+      "Tüp ısınıp aşağı doğru uzadıkça kol hafifçe eğilir ve ağırlık yükselir; böylece tüpe gelen taşıma kuvveti sabit kalır."
+    ],
+    "diagramAlt": "Karşı ağırlık sistemi şeması: tüp, askı çubuğu, boyunduruk, kaldıraç kolu, mesnet ve karşı ağırlık",
+    "diagram": [
+      "Reformer tüpü (ısınınca aşağı uzar)",
+      "Askı çubuğu",
+      "Boyunduruk",
+      "Kaldıraç kolu",
+      "Burçlu mafsallı mesnet çerçevesi",
+      "Karşı ağırlık",
+      "Fırın tavanı"
+    ],
+    "buildTitle": "Santura bunları nasıl üretir",
+    "buildIntro": "Her sistem müşterinin mühendislik çizimlerine göre imal edilir. Yapımız şöyledir:",
+    "build": [
+      {
+        "title": "Karşı ağırlıklar",
+        "text": "Hesaplanan denge yüküne göre boyutlandırılmış karbon çelik ve dökme demir bloklar."
+      },
+      {
+        "title": "H ve I çerçeveler",
+        "text": "Her mafsalda karbon çelik yuvalara gömülü, ithal yağsız Graphalloy burçlu kutu profil çerçeveler."
+      },
+      {
+        "title": "Mafsal pimleri",
+        "text": "Özel kalite paslanmaz çelik 410S; korozyon ve ısı direnci iyi olan martenzitik bir paslanmaz çelik."
+      },
+      {
+        "title": "Çatallar",
+        "text": "Paslanmaz çelik, Mumbai atölyemizde işlenir."
+      },
+      {
+        "title": "8.8 sınıfı cıvatalar",
+        "text": "Yakın denetimimiz altında bir alt yüklenici tarafından ısıl işlem görür; sertlik ve temperleme kontrol edilir."
+      },
+      {
+        "title": "İthal alt bileşenler",
+        "text": "Kalite ve şartname gereklerini karşılamak için bazı parçalar ithal edilir."
+      },
+      {
+        "title": "Sıcak daldırma galvaniz",
+        "text": "Komple sistem korozyona karşı kaynaktan sonra sıcak daldırma galvanizlenir."
+      }
+    ],
+    "lindeEyebrow": "Onaylı tedarikçi",
+    "lindeTitle": "Linde Engineering India",
+    "lindeText": "Santura, {period} döneminde {code} tedarikçi koduyla Linde Engineering India Pvt Ltd'nin onaylı karşı ağırlık sistemi tedarikçisiydi. Kayıtlarımızda belirli bir ürün için müşteri adına verilmiş tek onaydır.",
+    "lindeCodeLabel": "Tedarikçi kodu",
+    "lindePeriodLabel": "Onay dönemi",
+    "lindeNote": "Geçmişe ait onay; müşterinin izniyle gösterilmektedir.",
+    "lindeCert": "Linde sertifikasını görüntüle (PDF)",
+    "petron": "2006 yılında Petron Engineering Construction Ltd'ye karşı ağırlık sistemleri ve fırın gözetleme kapıları da tedarik ettik; firma bu iş için bir takdir mektubu verdi.",
+    "componentsTitle": "Sistem bileşenleri",
+    "components": [
+      {
+        "title": "Kaldıraç kolu takımı",
+        "text": "Mafsal burçlu H veya I kiriş çerçeve; sistemin denge kolu."
+      },
+      {
+        "title": "Ağırlık yığını",
+        "text": "Kola cıvatalanan veya pimlenen, hesaplanmış kütlede karbon çelik veya dökme demir bloklar."
+      },
+      {
+        "title": "Askı çubukları",
+        "text": "Tüpü fırın tavanından geçerek kola bağlar ve ısıl genleşmeyi karşılar."
+      },
+      {
+        "title": "Boyunduruk takımı",
+        "text": "Askı çubuklarını kaldıraç kolunun ucuna bağlar."
+      },
+      {
+        "title": "Çatal ve pim bağlantıları",
+        "text": "Her bağlantıda SS 410S pimli paslanmaz çatallar; her mafsal serbestçe döner."
+      },
+      {
+        "title": "Graphalloy burçlar",
+        "text": "Tüm mafsallarda karbon çelik yuvalara gömülü, ithal yağsız ve kendinden yağlamalı yataklar."
+      },
+      {
+        "title": "Mesnet çerçevesi",
+        "text": "Fırın tavanında kaldıraç kolu mafsalını taşıyan yapısal çerçeve."
+      },
+      {
+        "title": "8.8 sınıfı bağlantı elemanları",
+        "text": "Tüm yapısal bağlantılar için ısıl işlemli yüksek dayanımlı cıvatalar."
+      }
+    ],
+    "applicationsTitle": "Uygulamalar",
+    "applications": [
+      {
+        "title": "Hidrojen reformerleri",
+        "text": "Buhar metan reformerleri, ana uygulama. Katalizör dolu tüpler yanma odasında düşey asılıdır. Hidrojen, amonyak ve metanol tesislerinde kullanılır."
+      },
+      {
+        "title": "Etilen kraking fırınları",
+        "text": "Radyant serpantinlerin iyi desteklenmesinin serpantin ömrü için kritik olduğu buharlı krakerler."
+      },
+      {
+        "title": "Diğer reformerler",
+        "text": "Ototermal ve ikincil reformerler."
+      },
+      {
+        "title": "Sektörler",
+        "text": "Petrol rafinerileri, petrokimya tesisleri, amonyak ve gübre tesisleri, metanol tesisleri ve hidrojen üretimi."
+      }
+    ],
+    "whyTitle": "Üretim kalitesi neden önemlidir",
+    "why": [
+      {
+        "title": "Tüp ömrü",
+        "text": "Reformer tüpleri pahalıdır ve birini değiştirmek plansız duruş demektir. Tam dengelemeyen bir sistem tüplere eşit olmayan gerilme bindirir ve erken sürünme hasarına yol açar."
+      },
+      {
+        "title": "Sürtünme",
+        "text": "Mafsallardaki sürtünme tüplere ek yük aktarır. Yağlamalı yataklar bu sıcaklıklarda güvenilir çalışmadığı için yağsız Graphalloy burçlar şart koşulur."
+      },
+      {
+        "title": "Bağlantı elemanları",
+        "text": "Yanlış ısıl işlem görmüş cıvatalar yüksek sıcaklıkta sürekli yük altında kırılabilir; bu yüzden sertlik ve temperlemeyi denetliyoruz."
+      },
+      {
+        "title": "Binlerce çevrim",
+        "text": "Sistem, uzun yıllar boyunca binlerce ısınma ve soğuma çevriminde dengede kalmalıdır."
+      }
+    ],
+    "specTitle": "Özellikler",
+    "colComponent": "Bileşen",
+    "colSpec": "Özellik",
+    "specRows": [
+      {
+        "label": "Ağırlık malzemesi",
+        "value": "Karbon çelik / dökme demir"
+      },
+      {
+        "label": "Çerçeve yapısı",
+        "value": "H ve I kesit, kutu, gömülü Graphalloy burçlu"
+      },
+      {
+        "label": "Mafsal pimleri",
+        "value": "SS 410S (martenzitik paslanmaz çelik)"
+      },
+      {
+        "label": "Çatallar",
+        "value": "Paslanmaz çelik, işlenmiş"
+      },
+      {
+        "label": "Burçlar",
+        "value": "İthal yağsız, kendinden yağlamalı Graphalloy yataklar"
+      },
+      {
+        "label": "Bağlantı elemanları",
+        "value": "8.8 sınıfı, ısıl işlemli, sertlik ve temperleme kontrollü"
+      },
+      {
+        "label": "Yüzey işlemi",
+        "value": "Kaynaktan sonra sıcak daldırma galvaniz"
+      },
+      {
+        "label": "İmalat",
+        "value": "Müşterinin mühendislik çizimlerine göre"
+      },
+      {
+        "label": "Tasarım esası",
+        "value": "API 560'a göre tasarlanan ısıtıcılar için müşteri ve lisansör şartnameleri"
+      }
+    ],
+    "relatedTitle": "İlgili ürünler ve hizmetler",
+    "relatedPipeGuides": "Ateşlemeli ısıtıcılar için boru kılavuzları, halka kovanlar ve tüp destekleri.",
+    "relatedSupportPlates": "Fırın çelik yapısı için destek konsolları ve taban plakaları.",
+    "relatedAnchors": "Reformer ve kraking fırını astarları için SEPL ankrajlar.",
+    "relatedSwText": "Ankrajların fırın gövdelerine saplama kaynağı.",
+    "relatedPmiText": "Paslanmaz çelik pim ve çatalların alaşım doğrulaması.",
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      {
+        "q": "Reformerde karşı ağırlık sistemi nedir?",
+        "a": "Fırın tavanında, her reformer tüpünün ağırlığını taşıyan bir kaldıraç sistemidir. Bir askı çubuğu tüpü mafsallı bir kolun bir ucuna bağlar; diğer uçtaki hesaplanmış ağırlık onu dengeler. Tüp ısınıp uzadığında kol eğilir ve taşıma kuvveti değişmez; böylece tüp gerilme olmadan genleşebilir."
+      },
+      {
+        "q": "Neden Graphalloy burçlar kullanılır?",
+        "a": "Graphalloy, yağ veya gres olmadan çalışan ve yüksek sıcaklıkta işlevini sürdüren grafit-metal kompozit bir yatak malzemesidir. Karşı ağırlık sistemindeki her mafsal neredeyse sürtünmesiz hareket etmelidir; çünkü sürtünme tüplere ek yük aktarır. Yağlamalı yataklar bu hizmette kurur veya sıkışır, bu yüzden yağsız Graphalloy burçlar kullanılır."
+      },
+      {
+        "q": "Mafsal pimleri hangi malzemeden yapılır?",
+        "a": "Mafsal pimlerimiz özel kalite paslanmaz çelik 410S'dir; korozyon ve ısı direnci iyi olan martenzitik bir paslanmaz çeliktir. Mumbai atölyemizde işlenen paslanmaz çelik çatalların içinde çalışırlar."
+      },
+      {
+        "q": "Linde onayı nedir?",
+        "a": "Linde Engineering India Pvt Ltd, Santura'yı {period} döneminde {code} tedarikçi koduyla karşı ağırlık sistemi tedarikçisi olarak onayladı. Onay özellikle bu ürün içindi. Geçmişe ait bir onaydır ve sertifika bu sayfada müşterinin izniyle gösterilmektedir."
+      }
+    ],
+    "ctaTitle": "Karşı ağırlık sistemi mi gerekiyor?",
+    "ctaText": "Mühendislik çizimlerinizi tüp sayısı, denge yükleri ve teslim programıyla birlikte gönderin. Teklif ve teslim süresiyle dönüş yapalım.",
+    "ctaRfq": "Karşı ağırlık sistemleri için teklif isteyin",
+    "ctaContact": "Veya ekibimizle iletişime geçin"
+  },
+  "mwPage": {
+    "metaTitle": "Mineral Yün Yalıtım Tedarikçisi | Taş Yünü ve Cam Yünü",
+    "metaDescription": "Mineral yün yalıtım: taş yünü ve cam yünü levha, rulo ve boru kabukları. 1980'den beri tedarikçi, 25+ ülkeye ihracat. Teklif isteyin.",
+    "eyebrow": "Yalıtım malzemeleri",
+    "h1": "Mineral Yün Yalıtım",
+    "subheading": "Rafineriler, enerji santralleri, gemiler ve binalar için rulo, levha, şilte, tel örgülü şilte, boru kabuğu ve dökme yün halinde taş yünü ve cam yünü. Proje şartnamesine göre, sabitleme için yalıtım pimleriyle birlikte tedarik edilir.",
+    "gallery": [
+      "Mineral yün yalıtım levhaları ve ruloları",
+      "Hazır mineral yün boru kabukları",
+      "Alüminyum folyo kaplı taş yünü rulo",
+      "Mineral yün liflerinin yakın görünümü"
+    ],
+    "overviewTitle": "Mineral yün nedir",
+    "overview": "Mineral yün, doğal veya geri dönüştürülmüş minerallerin eritilip ince liflere dönüştürülmesiyle üretilen lifli yalıtım malzemelerinin genel adıdır. Lifler, ürünün şeklini koruması için reçine bağlayıcıyla bağlanır. Santura iki ana türü tedarik eder: yüksek sıcaklıklı endüstriyel yalıtım için taş yünü, binalar, HVAC ve akustik için cam yünü.",
+    "types": [
+      {
+        "title": "Taş yünü",
+        "tag": "750 °C'ye kadar · 30–200 kg/m³",
+        "text": "Bazalt gibi seçilmiş kayaçların bir kupol ocağında yaklaşık 1500 °C'de eritilip yüksek hızla liflere dönüştürülmesiyle üretilir. Rulo, levha, şilte, tel örgülü şilte, boru kabuğu ve dökme yün olarak sunulur. Sıcak borular, tanklar, kazanlar ve kanallar için standart seçimdir."
+      },
+      {
+        "title": "Cam yünü",
+        "tag": "Yaklaşık 450 °C'ye kadar · daha hafif",
+        "text": "%70'e kadar geri dönüştürülmüş cam ve kumdan, yaklaşık 1550 °C'de eritilip ince liflere dönüştürülerek üretilir. Hafiftir, kolay uygulanır ve sesi iyi yutar. Çatılarda, duvarlarda, HVAC kanallarında ve akustik yalıtımda yaygın kullanılır."
+      }
+    ],
+    "traits": [
+      "Yanmaz",
+      "Asbestsiz",
+      "Sağlığa zararsız",
+      "Çürümez",
+      "Böcek ve kemirgenlere dayanıklı",
+      "Kullanımda büzülmez"
+    ],
+    "rwTitle": "Taş yünü ürünleri",
+    "rwIntro": "Taş yünü altı formda tedarik edilir. Kalınlık ve yoğunluk; çalışma sıcaklığı, yüzey ve mekanik yüke göre seçilir.",
+    "colForm": "Form",
+    "colThickness": "Kalınlık",
+    "colDensity": "Yoğunluk",
+    "colUse": "Tipik kullanım",
+    "rwForms": [
+      {
+        "form": "Bina ruloları",
+        "thickness": "40–100 mm",
+        "density": "36, 48, 64 kg/m³ ve üzeri",
+        "text": "Çelik binaların ısı ve ses yalıtımı: çatı aşıklarının üstü ve altı, duvarlar, bölme duvarlar ve asma tavanlar."
+      },
+      {
+        "form": "Levhalar",
+        "thickness": "25–200 mm",
+        "density": "30–200 kg/m³",
+        "text": "Kanallar, tanklar, ekipman ve düz ya da hafif kavisli yüzeyler için sert veya yarı sert levhalar; ayrıca inşaat, gemi inşa ve yangın koruma."
+      },
+      {
+        "form": "Sert şilteler (batts)",
+        "thickness": "25–118 mm",
+        "density": "100–150 kg/m³",
+        "text": "Isı ve yangın güvenliği yalıtımı için kaplamasız, çok sert şilteler; sandviç panel çekirdeği olarak da kullanılır."
+      },
+      {
+        "form": "Tel örgülü şilteler",
+        "thickness": "25–100 mm",
+        "density": "70–150 kg/m³",
+        "text": "Galvanizli veya paslanmaz çelik altıgen tel örgüyle kaplanır ve ölçüye göre dikilir. 750 °C'ye kadar kazanlar, depolama tankları ve boru hatları ile gemi inşa için."
+      },
+      {
+        "form": "Boru kabukları",
+        "thickness": "25–100 mm",
+        "density": "100, 128, 136, 144 kg/m³",
+        "text": "750 °C'ye kadar borular için alüminyum folyolu veya folyosuz hazır kabuklar. Enerji santrallerinde ve rafinerilerde kullanılır."
+      },
+      {
+        "form": "Dökme yün",
+        "thickness": "—",
+        "density": "Çeşitli",
+        "text": "Boru demetleri çevresinde ve düzensiz boşluklarda dolgu için hafif bağlı taş yünü."
+      }
+    ],
+    "pipeNote": "Boru kabukları bir mandrel üzerine sarılır ve standart boru çaplarına uyacak şekilde eş merkezli biçimlendirilir. Borunun tüm 360° çevresinde eşit yalıtım sağlar, kullanımda basınca dayanır ve sahada hızla takılır.",
+    "gwTitle": "Cam yünü ürünleri",
+    "gwIntro": "Cam yünü taş yününden hafiftir; daha çok düşük sıcaklıklarda ve ses yutumunun önemli olduğu yerlerde kullanılır.",
+    "gwForms": [
+      {
+        "title": "Rulolar ve keçeler",
+        "text": "Duvar boşlukları, çatı ve çatı arası yalıtımı ile HVAC kanal sargısı."
+      },
+      {
+        "title": "Sert ve yarı sert levhalar",
+        "text": "Giydirme cepheler, bölme duvar dolgusu ve tavan plakaları."
+      },
+      {
+        "title": "Boru kabukları",
+        "text": "Daha düşük sıcaklıklı boru hatlarının yalıtımı."
+      },
+      {
+        "title": "Üfleme yün",
+        "text": "Boşluklar ve çatı araları için üflemeli yalıtım."
+      }
+    ],
+    "compareTitle": "Taş yünü ve cam yünü karşılaştırması",
+    "colProperty": "Özellik",
+    "colRockwool": "Taş yünü",
+    "colGlassWool": "Cam yünü",
+    "compareRows": [
+      {
+        "label": "Hammadde",
+        "rw": "Bazalt / diyabaz",
+        "gw": "%70'e kadar geri dönüştürülmüş cam ve kum"
+      },
+      {
+        "label": "Ergitme sıcaklığı",
+        "rw": "Yaklaşık 1500 °C",
+        "gw": "Yaklaşık 1550 °C"
+      },
+      {
+        "label": "Azami kullanım sıcaklığı",
+        "rw": "750 °C",
+        "gw": "Yaklaşık 450 °C (ürüne bağlı)"
+      },
+      {
+        "label": "Yoğunluk",
+        "rw": "30–200 kg/m³",
+        "gw": "10–80 kg/m³"
+      },
+      {
+        "label": "Kalınlık",
+        "rw": "25–200 mm",
+        "gw": "25–150 mm"
+      },
+      {
+        "label": "Isıl iletkenlik (λ)",
+        "rw": "0,034–0,045 W/m·K",
+        "gw": "0,030–0,040 W/m·K"
+      },
+      {
+        "label": "Yangın sınıfı",
+        "rw": "Yanmaz (Euroclass A1)",
+        "gw": "Yanmaz (Euroclass A1 veya A2)"
+      },
+      {
+        "label": "Akustik performans",
+        "rw": "Mükemmel (NRC 0,90–1,05)",
+        "gw": "Mükemmel (NRC 0,85–1,00)"
+      },
+      {
+        "label": "Nem",
+        "rw": "Su itici işlem mevcut",
+        "gw": "Su itici işlem mevcut"
+      },
+      {
+        "label": "Korozyon davranışı",
+        "rw": "Halojenür ve sülfür içermez; paslanmaz çelik kaplama altında güvenli",
+        "gw": "Düşük klorür içeriği"
+      }
+    ],
+    "compareNote": "Tipik değerlerdir. Kesin değerler ürüne, yoğunluğa ve üreticiye bağlıdır; üreticinin teknik föyü ve test sertifikaları her siparişle verilir.",
+    "traitsTitle": "Özellikler",
+    "characteristics": [
+      "Asbestsiz ve sağlığa zararsız",
+      "Çürümez, kokusuzdur; mantar, böcek ve kemirgenlere dayanıklıdır",
+      "Zamanla büzülmez veya çökmez",
+      "Havadaki nemi emmez; basınçla giren su açık lif yapısı sayesinde hızla kurur",
+      "Kimyasal olarak etkisizdir, küf oluşumunu desteklemez",
+      "CFC ve HCFC kullanılmadan üretilir"
+    ],
+    "corrosionTitle": "Korozyon koruması",
+    "corrosionText": "Taş yünü lifleri, bazı diğer yalıtım malzemelerinde bulunan halojenürlerden (klorür ve florür) ve sülfürlerden arındırılmıştır. Kuru yöntemle üretilir ve hafif alkalidir; bu da korozyona karşı koyar. Bu nedenle klorürlerin yalıtım altında gerilmeli korozyon çatlağına yol açabildiği paslanmaz çelik üzerinde güvenlidir. Belirtildiğinde ASTM C795'i karşılar.",
+    "standardsTitle": "Standartlar ve testler",
+    "standards": [
+      "Boru yalıtımında kararlı hal ısı transferi",
+      "Korumalı sıcak plaka ile ısıl iletkenlik",
+      "Isı akış ölçer ile ısıl iletkenlik",
+      "Mineral lif boru yalıtımı",
+      "Endüstriyel kullanım için mineral lif şilteler",
+      "Mineral lif blok ve levha yalıtımı",
+      "Binalar için mineral lif şilteler",
+      "Östenitik paslanmaz çelik üzerinde kullanılacak yalıtım",
+      "Binalar için fabrikasyon mineral yün ürünleri",
+      "Hazır mineral lif boru kabukları ve ısı yalıtım malzemeleri"
+    ],
+    "applicationsTitle": "Sektörlere göre uygulamalar",
+    "applications": [
+      {
+        "title": "Petrol, gaz ve petrokimya",
+        "items": [
+          "Proses borularının sıcak ve soğuk yalıtımı",
+          "Tanklar, kolonlar ve ısı eşanjörleri",
+          "Ateşlemeli ısıtıcı ve fırınların dış yalıtımı"
+        ]
+      },
+      {
+        "title": "Enerji üretimi",
+        "items": [
+          "Kazan yalıtımı ve türbin kaplaması",
+          "Baca gazı kanalı yalıtımı",
+          "Kombine çevrim santrallerinde atık ısı kazanı yalıtımı"
+        ]
+      },
+      {
+        "title": "İnşaat ve HVAC",
+        "items": [
+          "Duvarlar, çatılar ve döşemeler",
+          "HVAC kanal sargısı ve iç kaplaması",
+          "Bölme duvar ve tavanların akustik yalıtımı",
+          "Yangına dayanıklı duvar ve döşeme sistemleri"
+        ]
+      },
+      {
+        "title": "Gemi ve açık deniz",
+        "items": [
+          "Perde ve güverte yalıtımı",
+          "Makine dairesi ısı ve ses yalıtımı",
+          "Açık deniz platformlarında boru yalıtımı"
+        ]
+      },
+      {
+        "title": "Sanayi ve imalat",
+        "items": [
+          "Fırın ve kurutma fırınlarının dış yalıtımı",
+          "Soğuk hava depoları ve gıda işleme",
+          "Fabrikalarda gürültü kontrolü"
+        ]
+      }
+    ],
+    "supplyTitle": "Tedarik ettiklerimiz",
+    "supply": [
+      "Santura; rafinerilere, petrokimya tesislerine, enerji santrallerine ve inşaat projelerine taş yünü ve cam yünü yalıtım malzemesi tedarik eder ve 25'ten fazla ülkeye ihracat yapar. Ürünler köklü üreticilerden sağlanır ve proje şartnamenize göre, üreticinin test sertifikalarıyla birlikte teslim edilir.",
+      "Yalıtım pimlerini ve pullarını kendimiz ürettiğimiz için yalıtımı ve bağlantı elemanlarını komple bir yalıtım paketi olarak birlikte tedarik edebiliriz."
+    ],
+    "relatedTitle": "İlgili ürünler ve hizmetler",
+    "relatedPins": "Mineral yün levha ve şilteleri sabitlemek için kaynak pimleri ve pullar.",
+    "relatedCalsil": "Yüksek sıcaklık yalıtımı için sert kalsiyum silikat levha ve boru kabukları.",
+    "relatedAnchors": "Yüksek sıcaklık yalıtımının arkasındaki refrakter astarlar için SEPL ankrajlar.",
+    "relatedSwText": "Yalıtım pimlerini sabitlemek için saplama kaynak ekipmanı.",
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      {
+        "q": "Taş yünü ile cam yünü yalıtım arasındaki fark nedir?",
+        "a": "Taş yünü bazalttan üretilir, 750 °C'ye kadar sıcaklığa dayanır ve daha yüksek yoğunluğa (30–200 kg/m³) sahiptir; bu nedenle yüksek sıcaklıklı endüstriyel yalıtımda tercih edilir. Cam yünü geri dönüştürülmüş camdan yapılır, daha hafiftir (10–80 kg/m³) ve yaklaşık 450 °C'ye kadar uygundur. HVAC, akustik ve bina yalıtımında tercih edilir."
+      },
+      {
+        "q": "Mineral yün hangi sıcaklığa dayanır?",
+        "a": "Taş yünü sürekli olarak 750 °C'ye kadar kullanılabilir; cam yünü ise ürüne bağlı olarak yaklaşık 450 °C'ye kadar dayanır. İkisi de yanmazdır: kaplamasız taş yünü Euroclass A1, cam yünü ürüne göre A1 veya A2 sınıfındadır."
+      },
+      {
+        "q": "Hangi kalınlık ve yoğunluklar mevcut?",
+        "a": "Taş yünü 25 mm'den 200 mm'ye kalınlıkta ve 30–200 kg/m³ yoğunlukta sunulur. Cam yünü 25 mm'den 150 mm'ye kalınlıkta ve 10–80 kg/m³ yoğunluktadır. Diğer özellikler talep üzerine sağlanır."
+      },
+      {
+        "q": "Mineral yün güvenli ve asbestsiz mi?",
+        "a": "Evet. Tedarik ettiğimiz mineral yün asbestsiz, sağlığa zararsız, CFC ve HCFC kullanılmadan üretilmiş, çürümez ve kimyasal olarak etkisizdir. Standart KKD ile güvenle uygulanır ve taş yünü, paslanmaz çelik kaplamalar altında korozyona yol açan klorürleri içermez."
+      }
+    ],
+    "ctaTitle": "Mineral yün yalıtım mı gerekiyor?",
+    "ctaText": "Ürün formunu, kalınlığı, yoğunluğu, kaplamayı, miktarı ve çalışma sıcaklığını bize bildirin. Teklif ve teslim süresiyle dönüş yapalım.",
+    "ctaRfq": "Mineral yün için teklif isteyin",
+    "ctaContact": "Veya ekibimizle iletişime geçin"
+  },
+  "cgPage": {
+    "metaTitle": "Seramik Contalar ve Yüksek Sıcaklık Sızdırmazlığı | Tedarikçi",
+    "metaDescription": "Fırın ve rafineriler için seramik elyaf conta, ip, bant ve endüstriyel contalar. 1980'den beri tedarikçi, 25+ ülkeye ihracat. Teklif isteyin.",
+    "eyebrow": "Yalıtım ve sızdırmazlık",
+    "h1": "Seramik Contalar ve Yüksek Sıcaklık Sızdırmazlık Ürünleri",
+    "subheading": "Fırın kapıları, genleşme derzleri ve baca gazı sızdırmazlığı için seramik elyaf ip, bant, kâğıt, battaniye, levha, kumaş ve tadpole contalar; ayrıca boru flanşları için asbestsiz, PTFE, grafit ve spiral sargılı contalar. Yüksek sıcaklık sızdırmazlığı ve flanş contaları için tek tedarikçi.",
+    "gallery": [
+      "Spiral sargılı contalar dahil çeşitli endüstriyel contalar",
+      "Asbestsiz flanş contaları",
+      "Siyah sıkıştırılmış elyaf conta levhası"
+    ],
+    "overviewTitle": "Seramik contalar nedir",
+    "overview": [
+      "Seramik contalar, alümino-silikat bir malzeme olan seramik elyaftan yapılan yüksek sıcaklık contalarıdır. Fırınlarda, döner fırınlarda, ateşlemeli ısıtıcılarda ve kazanlarda birleşimleri, kapıları, flanşları ve genleşme boşluklarını sızdırmaz hale getirir. Standart seramik elyaf 1260 °C sınıfındadır, zirkonyalı kaliteler daha yükseğe çıkar; bu, kauçuk veya sıkıştırılmış elyaf contaların çok üzerindedir.",
+      "Daha düşük sıcaklıktaki boru flanşları ve basınçlı ekipman için geleneksel endüstriyel contalar da tedarik ediyoruz: asbestsiz, PTFE, grafit, spiral sargılı, halka tipi (RTJ) ve çift ceketli. Böylece rafineriler, petrokimya tesisleri ve santraller sızdırmazlık ihtiyaçları için tek kaynağa sahip olur."
+    ],
+    "ceramicTitle": "Seramik elyaf sızdırmazlık ürünleri",
+    "ceramicIntro": "Tüm seramik elyaf ürünleri asbestsizdir ve kimyasal olarak etkisizdir. Form, birleşimin şekline ve ne sıklıkla açıldığına göre seçilir.",
+    "ceramic": [
+      {
+        "name": "Seramik elyaf ip (yuvarlak)",
+        "text": "Kapı contaları, genleşme derzleri ve salmastra kutuları için örgülü veya bükülü yuvarlak ip.",
+        "sizes": "Ø 6–50 mm · istenen boyda"
+      },
+      {
+        "name": "Seramik elyaf ip (kare)",
+        "text": "Fırın kapı kasaları ve etüv contaları için örgülü kare ip.",
+        "sizes": "6 × 6 mm ile 50 × 50 mm"
+      },
+      {
+        "name": "Seramik elyaf bant",
+        "text": "Flanşları ve boru birleşimlerini sarmak ve kablo korumak için dokuma düz bant.",
+        "sizes": "25–150 mm genişlik · 2–5 mm kalınlık"
+      },
+      {
+        "name": "Seramik elyaf kâğıt",
+        "text": "Kesilmiş contalar, flanş sızdırmazlığı ve elektrik yalıtımı için ince, esnek levha.",
+        "sizes": "1–6 mm kalınlık · 1000 mm'ye kadar rulo"
+      },
+      {
+        "name": "Seramik elyaf battaniye",
+        "text": "Astarlar, sargı ve destek yalıtımı için iğnelenmiş esnek battaniye.",
+        "sizes": "6–50 mm kalınlık · 64–192 kg/m³"
+      },
+      {
+        "name": "Seramik elyaf levha",
+        "text": "Fırın astarları, perdeler ve baca gazı contaları için vakumla şekillendirilmiş sert levha.",
+        "sizes": "6–50 mm kalınlık · 280–400 kg/m³"
+      },
+      {
+        "name": "Seramik elyaf kumaş",
+        "text": "Perdeler, kaynak battaniyeleri ve sökülebilir yalıtım kılıfları için dokuma kumaş.",
+        "sizes": "1,5–5 mm kalınlık"
+      },
+      {
+        "name": "Tadpole contalar",
+        "text": "Fırın ve etüv kapıları için şişkin gövdeli ve kuyruklu profil; kuyruk kasaya kenetlenir veya perçinlenir.",
+        "sizes": "Gövde Ø 10–40 mm · kuyruk 25–100 mm"
+      }
+    ],
+    "convTitle": "Endüstriyel contalar",
+    "convIntro": "Bu contaları köklü bir conta üreticisi aracılığıyla, şartnamenize ve flanş standardınıza göre tedarik ediyoruz.",
+    "colType": "Tip",
+    "colMaterial": "Malzeme",
+    "colMaxTemp": "Azami sıcaklık",
+    "colUse": "Tipik kullanım",
+    "conventional": [
+      {
+        "name": "Asbestsiz (CAF yerine)",
+        "material": "NBR bağlayıcılı aramid veya cam elyafı",
+        "temp": "Yaklaşık 450 °C",
+        "text": "Sıkıştırılmış asbest elyaf contaların yerini alır. Hava kompresörleri, dizel motor hatları, endüstriyel ve denizcilik uygulamaları."
+      },
+      {
+        "name": "PTFE contalar",
+        "material": "Saf veya dolgulu PTFE",
+        "temp": "Yaklaşık 260 °C",
+        "text": "Asit, baz ve çözücü gibi agresif kimyasallara maruz flanşlar."
+      },
+      {
+        "name": "Grafit contalar",
+        "material": "Düz veya dişli saclı esnek grafit, isteğe bağlı paslanmaz çelik veya nikel takviyeli",
+        "temp": "Havada yaklaşık 450 °C, buharda 650 °C",
+        "text": "Ağır hizmet koşulları. Kendinden yağlamalıdır ve flanşa yapışmaz."
+      },
+      {
+        "name": "Spiral sargılı contalar",
+        "material": "Grafit veya PTFE dolgulu SS304 / SS316 sargılar",
+        "temp": "Yaklaşık 600 °C",
+        "text": "Rafineri ve petrokimya flanşları, yüksek basınç ve sıcaklık çevrimleri."
+      },
+      {
+        "name": "Halka tipi contalar (RTJ)",
+        "material": "Masif paslanmaz çelik veya Inconel",
+        "temp": "600 °C ve üzeri",
+        "text": "Petrol ve gaz hizmetinde yüksek basınçlı RTJ flanşlar."
+      },
+      {
+        "name": "Çift ceketli contalar",
+        "material": "Yumuşak dolgulu metal ceket",
+        "temp": "Yaklaşık 550 °C",
+        "text": "Isı eşanjörleri ve büyük çaplı flanşlar."
+      },
+      {
+        "name": "Kauçuk ve nitril contalar",
+        "material": "Doğal kauçuk, NBR ve diğer elastomerler",
+        "temp": "Yaklaşık 100–120 °C",
+        "text": "Su, yağ ve genel düşük sıcaklık hizmeti."
+      }
+    ],
+    "specTitle": "Seramik elyaf özellikleri",
+    "specRows": [
+      {
+        "label": "Sınıflandırma sıcaklığı",
+        "value": "1260 °C (standart), 1400 °C'ye kadar (zirkonyalı kalite)"
+      },
+      {
+        "label": "Sürekli kullanım sıcaklığı",
+        "value": "Kaliteye bağlı olarak 1000–1260 °C"
+      },
+      {
+        "label": "Kimyasal bileşim",
+        "value": "Al₂O₃ %45–55, SiO₂ %45–55 (standart); ZrO₂ %15–17 (zirkonyalı kalite)"
+      },
+      {
+        "label": "Renk",
+        "value": "Beyaz"
+      },
+      {
+        "label": "Isıl iletkenlik",
+        "value": "200–1000 °C ortalama sıcaklıkta 0,08–0,23 W/m·K"
+      },
+      {
+        "label": "Asbest içeriği",
+        "value": "Yok: %100 asbestsiz"
+      }
+    ],
+    "specNote": "Tipik değerlerdir. Kesin değerler ürün formuna, kaliteye ve üreticiye bağlıdır; üreticinin teknik föyü ve test sertifikaları her siparişle verilir.",
+    "dimTitle": "Hazır kesilmiş conta ölçüleri",
+    "dimIntro": "ASME B16.21 modeline göre sıkıştırılmış elyaf flanş contaları. Tüm ölçüler milimetredir.",
+    "colNps": "Nominal boru çapı",
+    "colId": "İç çap",
+    "colOd": "Basınç sınıfına göre dış çap",
+    "colClass": "Class {cls}",
+    "dimNote": "Hazır kesilmiş contalar standart ASME ölçülerinde mevcuttur. Özel ölçüler ve basınç sınıfları çizime göre yapılır.",
+    "standardsTitle": "Standartlar",
+    "standards": [
+      "Yüksek sıcaklık elyaf battaniye yalıtımı",
+      "Seramik elyaf ürünleri için test yöntemleri",
+      "Yalıtkan refrakter ürünler: seramik elyaf ürünleri",
+      "Boru flanşları için metalik contalar (spiral sargılı, halka tipi, ceketli)",
+      "Boru flanşları için metalik olmayan düz contalar",
+      "Metalik olmayan düz contalar: karakteristik değerler"
+    ],
+    "applicationsTitle": "Sektörlere göre uygulamalar",
+    "applications": [
+      {
+        "title": "Petrol, gaz ve petrokimya",
+        "items": [
+          "Ateşlemeli ısıtıcı kapı ve gözetleme deliği contaları",
+          "Fırın genleşme derzi salmastrası",
+          "Sıcak proses hatlarında flanş contaları",
+          "Katalizör rejeneratörü ve flare contaları"
+        ]
+      },
+      {
+        "title": "Enerji üretimi",
+        "items": [
+          "Kazan kapısı ve muayene kapağı contaları",
+          "Atık ısı kazanı kanal genleşme derzleri",
+          "Türbin egzoz contaları",
+          "Ekonomizör ve hava ön ısıtıcısı contaları"
+        ]
+      },
+      {
+        "title": "Çelik, metal ve çimento",
+        "items": [
+          "Fırın kapısı ve fırın arabası contaları",
+          "Tavlama fırını kapı ip contaları",
+          "Pota kapağı contaları",
+          "Klinker soğutucu contaları"
+        ]
+      },
+      {
+        "title": "Cam ve seramik",
+        "items": [
+          "Cam fırını tavan ve port contaları",
+          "Besleme kanalı contaları",
+          "Seramik fırın kapı contaları"
+        ]
+      },
+      {
+        "title": "Genel sanayi",
+        "items": [
+          "Yakma ve atıktan enerji tesisi contaları",
+          "Isıl işlem fırını kapı contaları",
+          "Fırın konveyör yarığı contaları",
+          "Egzoz sistemi contaları"
+        ]
+      }
+    ],
+    "supplyTitle": "Tedarik ettiklerimiz",
+    "supply": [
+      "Santura; seramik elyaf conta, ip, bant, kâğıt ve battaniyelerin yanı sıra asbestsiz, PTFE, grafit ve spiral sargılı contaları rafinerilere, petrokimya tesislerine, santrallere, çelik ve çimento fabrikalarına tedarik eder ve 25'ten fazla ülkeye ihracat yapar. Ürünler köklü üreticilerden sağlanır ve şartnamenize göre, üreticinin test sertifikalarıyla birlikte teslim edilir.",
+      "Refrakter ankrajları, yalıtım pimlerini ve SEPL-24 seramik elyaf saplama ankrajlarını kendimiz ürettiğimiz için komple bir fırın astar paketini tek kaynaktan sunuyoruz: ankrajlar, saplamalar, contalar ve yalıtım malzemeleri."
+    ],
+    "relatedTitle": "İlgili ürünler",
+    "relatedMineralWool": "Borular, tanklar ve kanallar için taş yünü ve cam yünü yalıtım.",
+    "relatedPins": "Battaniye ve yalıtımı sabitlemek için kaynak pimleri ve pullar.",
+    "relatedAnchors": "Komple fırın astarları için SEPL ankrajlar.",
+    "relatedSepl24": "Seramik elyaf battaniye ve modül astarları için saplama kaynaklı ankrajlar.",
+    "relatedDoors": "Seramik elyaf ip ve contalarla sızdırmaz hale getirilen gözetleme kapıları.",
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      {
+        "q": "Seramik elyaf contalar hangi sıcaklığa dayanır?",
+        "a": "Standart alümino-silikat seramik elyaf contalar 1260 °C sınıfındadır; sürekli kullanımda genellikle yaklaşık 1000 °C'ye kadar çalışır. Zirkonyalı kaliteler 1400 °C'ye kadar dayanır. Yanmazdır ve fırın kapıları, genleşme derzleri ve baca gazı sızdırmazlığı için uygundur."
+      },
+      {
+        "q": "Hangi tür seramik contalar mevcut?",
+        "a": "Seramik elyaf sızdırmazlık ürünleri; yuvarlak ve kare örgülü ip, dokuma bant, kesilmiş contalar için seramik kâğıt, tadpole kapı contaları, kumaş ve battaniye ile perde contaları için sert levhayı kapsar. Hepsi asbestsizdir ve kimyasal olarak etkisizdir."
+      },
+      {
+        "q": "Seramik contalar ile geleneksel endüstriyel contalar arasındaki fark nedir?",
+        "a": "Seramik elyaf contalar 1000–1260 °C'ye dayanır ve basıncın düşük olduğu fırın kapıları ile genleşme derzlerinde kullanılır. Geleneksel contalar (asbestsiz yaklaşık 450 °C'ye kadar, PTFE yaklaşık 260 °C, grafit havada yaklaşık 450 °C, spiral sargılı yaklaşık 600 °C) daha düşük sıcaklıklarda boru flanşlarını ve basınçlı kapları sızdırmaz kılar. Santura her ikisini de tedarik eder."
+      },
+      {
+        "q": "ASME standartlarına uygun conta tedarik ediyor musunuz?",
+        "a": "Evet. Spiral sargılı, halka tipi ve ceketli contaları ASME B16.20'ye, metalik olmayan düz contaları ASME B16.21'e göre tedarik ediyoruz. Hazır kesilmiş contalar standart ASME flanş ölçülerinde mevcuttur; diğer ölçüler ve basınç sınıfları çizime göre yapılır."
+      }
+    ],
+    "ctaTitle": "Seramik veya flanş contası mı gerekiyor?",
+    "ctaText": "Ürünü, ölçüyü veya flanş standardını, basınç sınıfını, sıcaklığı ve miktarı bize bildirin. Teklif ve teslim süresiyle dönüş yapalım.",
+    "ctaRfq": "Contalar için teklif isteyin",
+    "ctaContact": "Veya ekibimizle iletişime geçin"
+  },
+  "gfPage": {
+    "metaTitle": "Cam Elyaf Levha, Cam Kumaş ve Cam Yünü | Tedarikçi",
+    "metaDescription": "Sanayi için cam elyaf levha, cam kumaş, bant ve cam yünü yalıtım. 1980'den beri tedarikçi, 25+ ülkeye ihracat. Teklif isteyin.",
+    "eyebrow": "Yalıtım malzemeleri",
+    "h1": "Cam Elyaf Levhalar, Cam Kumaş ve Cam Yünü",
+    "subheading": "Yalıtım, kaplama ve takviye için cam elyaf levha ve laminatlar, cam kumaş ve bant ile cam yünü rulo, boru kabuğu ve tel örgülü şilteler. Proje şartnamesine göre, sabitlemek için gereken pim ve saplamalarla birlikte tedarik edilir.",
+    "gallery": [
+      "Kırpılmış cam elyaf keçe rulosu",
+      "Cam elyaf fitil (roving) makaraları",
+      "Cam elyaf liflerinin yakın görünümü"
+    ],
+    "overviewTitle": "Cam elyaf ürünleri nedir",
+    "overview": "Cam elyaf ürünleri, camın yaklaşık 1550 °C'de eritilip ince liflere dönüştürülmesi veya çekilmesiyle üretilir. Cam yünü %70'e kadar geri dönüştürülmüş cam içerir. Liflerin nasıl şekillendirildiğine göre sonuç yumuşak bir yalıtım yünü, sert veya yarı sert bir levha ya da kumaş ve bant halinde dokunan bir iplik olur.",
+    "functions": [
+      {
+        "title": "Yalıtım",
+        "text": "Boruların, kanalların, duvarların, çatıların ve ekipmanın ısı ve ses yalıtımı için cam yünü rulo, levha, boru kabuğu ve şilteleri."
+      },
+      {
+        "title": "Takviye ve koruma",
+        "text": "Isıya dayanıklı sargı ve kaplama, conta malzemesi, kompozit takviyesi ve yangın perdeleri için cam kumaş, bant, fitil ve laminatlar."
+      }
+    ],
+    "glassTypes": "Cam kumaş ve bant, en yaygın ve ekonomik tekstil camı olan E-camı ipliğinden dokunur. S-camı yaklaşık %30 daha yüksek çekme dayanımına ve yüksek sıcaklıkta daha iyi performansa sahiptir, ancak daha pahalıdır. Cam yünü, geri dönüştürülmüş cam kırığı kullanan soda-kireç-borosilikat camından üretilir.",
+    "groups": [
+      {
+        "title": "Cam elyaf levhalar",
+        "intro": "Yalıtım için sert ve yarı sert levhalar ile elektrik ve yapısal parçalar için reçine laminatlar.",
+        "rows": [
+          {
+            "name": "Sert cam elyaf levha",
+            "text": "Kanal kaplaması, giydirme cephe dolgusu ve tavan plakaları için reçine bağlı levha.",
+            "spec": "25–100 mm kalınlık · 48–96 kg/m³"
+          },
+          {
+            "name": "Yarı sert cam elyaf levha",
+            "text": "Kavisli yüzeylere ve ekipman sargısına uyacak esneklikte.",
+            "spec": "25–75 mm kalınlık · 24–64 kg/m³"
+          },
+          {
+            "name": "Cam elyaf laminat (G10 / FR4)",
+            "text": "Elektrik yalıtımı ve yapısal parçalar için epoksi emdirilmiş levha.",
+            "spec": "0,5–50 mm kalınlık"
+          },
+          {
+            "name": "Alüminyum folyo kaplı levha",
+            "text": "Yansıtıcı buhar kesicili sert levha.",
+            "spec": "25–100 mm kalınlık"
+          }
+        ]
+      },
+      {
+        "title": "Cam elyaf kumaş ve tekstiller",
+        "intro": "Kaplama, sargı, sızdırmazlık ve kompozit işleri için dokuma cam tekstiller.",
+        "rows": [
+          {
+            "name": "Cam kumaş (bezayağı dokuma)",
+            "text": "Standart endüstriyel sargı ve kaplama kumaşı.",
+            "spec": "200–800 g/m² · 0,2–1,0 mm"
+          },
+          {
+            "name": "Cam kumaş (dimi dokuma)",
+            "text": "Kavisli yüzeylere daha iyi uyar, kompozit serimine uygundur.",
+            "spec": "200–600 g/m² · 0,2–0,8 mm"
+          },
+          {
+            "name": "Tekstüre cam kumaş",
+            "text": "Daha kalın ve yumuşak kaplama kumaşı için kabartılmış iplik.",
+            "spec": "400–1200 g/m² · 0,5–3,0 mm"
+          },
+          {
+            "name": "Silikon veya PTFE kaplı cam kumaş",
+            "text": "Sargı ve contalar için kimyasala dayanıklı, yapışmaz kumaş.",
+            "spec": "260 °C'ye kadar (PTFE) / yaklaşık 300 °C (silikon)"
+          },
+          {
+            "name": "Cam elyaf bant",
+            "text": "Boru sargısı ve kablo bağlama için dar dokuma bant.",
+            "spec": "20–150 mm genişlik · 0,2–1,0 mm"
+          },
+          {
+            "name": "Dokuma fitil (woven roving)",
+            "text": "Kompozit (CTP) takviyesi için ağır kumaş.",
+            "spec": "200–800 g/m²"
+          }
+        ]
+      },
+      {
+        "title": "Cam yünü yalıtım",
+        "intro": "Binalar, HVAC ve daha düşük sıcaklıklı proses ekipmanı için hafif yalıtım.",
+        "rows": [
+          {
+            "name": "Cam yünü rulo ve şilteleri",
+            "text": "Duvarlar, çatılar ve HVAC kanalları için esnek yalıtım.",
+            "spec": "25–150 mm kalınlık · 10–48 kg/m³"
+          },
+          {
+            "name": "Cam yünü boru kabukları",
+            "text": "Boru yalıtımı için hazır kabuklar.",
+            "spec": "İç çap 15–600 mm · 25–100 mm kalınlık"
+          },
+          {
+            "name": "Tel örgülü cam yünü şilteler",
+            "text": "Ekipman, tank ve kolon yalıtımı için tel örgülü şilteler.",
+            "spec": "25–100 mm kalınlık · 24–80 kg/m³"
+          },
+          {
+            "name": "Dökme cam yünü",
+            "text": "Boşluklar ve ulaşılması zor yerler için üflemeli yalıtım.",
+            "spec": "Yoğunluk uygulamaya göre"
+          }
+        ]
+      }
+    ],
+    "colProduct": "Ürün",
+    "colDescription": "Açıklama",
+    "colSpec": "Tipik özellik",
+    "compareTitle": "Özellik karşılaştırması",
+    "colProperty": "Özellik",
+    "colWool": "Cam yünü",
+    "colCloth": "Cam kumaş",
+    "colBoard": "Cam elyaf levha",
+    "compareRows": [
+      {
+        "label": "Hammadde",
+        "wool": "Soda-kireç-borosilikat camı, %70'e kadar geri dönüştürülmüş",
+        "cloth": "E-camı veya S-camı ipliği",
+        "board": "Reçine bağlayıcılı cam yünü"
+      },
+      {
+        "label": "Azami sürekli kullanım sıcaklığı",
+        "wool": "Bağlayıcıya göre 230–450 °C",
+        "cloth": "Yaklaşık 550 °C (kaplamasız E-camı)",
+        "board": "230–450 °C"
+      },
+      {
+        "label": "Yumuşama noktası",
+        "wool": "Yaklaşık 650–700 °C",
+        "cloth": "Yaklaşık 840 °C (E-camı)",
+        "board": "Yaklaşık 650–700 °C"
+      },
+      {
+        "label": "Yoğunluk",
+        "wool": "10–96 kg/m³",
+        "cloth": "g/m² olarak ölçülür",
+        "board": "24–96 kg/m³"
+      },
+      {
+        "label": "Isıl iletkenlik (λ)",
+        "wool": "24 °C'de 0,030–0,045 W/m·K",
+        "cloth": "—",
+        "board": "0,032–0,040 W/m·K"
+      },
+      {
+        "label": "Akustik performans",
+        "wool": "NRC 0,80–1,00",
+        "cloth": "—",
+        "board": "NRC 0,75–0,95"
+      },
+      {
+        "label": "Yangın sınıfı",
+        "wool": "Yanmaz (Euroclass A1 veya A2)",
+        "cloth": "Yanmaz (kaplamasız)",
+        "board": "Yanmaz (A1 veya A2)"
+      },
+      {
+        "label": "Nem",
+        "wool": "Su itici işlem mevcut",
+        "cloth": "Nem emmez",
+        "board": "Su itici işlem mevcut"
+      },
+      {
+        "label": "Lif çapı",
+        "wool": "4–9 µm",
+        "cloth": "İpliğe göre 6–13 µm",
+        "board": "4–9 µm"
+      },
+      {
+        "label": "Asbest",
+        "wool": "Yok",
+        "cloth": "Yok",
+        "board": "Yok"
+      }
+    ],
+    "compareNote": "Tipik değerlerdir. Kesin değerler ürüne, bağlayıcıya ve üreticiye bağlıdır; üreticinin teknik föyü ve test sertifikaları her siparişle verilir. Bu sınırların üzerinde taş yünü veya seramik elyaf kullanın.",
+    "traitsTitle": "Özellikler",
+    "characteristics": [
+      "%70'e kadar geri dönüştürülmüş camla üretilen cam yünü",
+      "Asbestsiz ve sağlığa zararsız",
+      "CFC, HCFC veya HFC kullanılmadan üretilir",
+      "Yanmaz (kaplamasız ürünler)",
+      "Zamanla büzülmez, sarkmaz ve çökmez",
+      "Çürümez; böcek ve kemirgenlere dayanıklıdır",
+      "İyi ses yutumu (NRC 0,80–1,00)",
+      "Enerji tasarrufu için düşük ısıl iletkenlik",
+      "Hafif, taşıması ve uygulaması kolay",
+      "Hidroflorik asit ve kuvvetli bazlar dışında çoğu kimyasala dayanıklı"
+    ],
+    "standardsTitle": "Standartlar ve testler",
+    "standards": [
+      "Mineral lif şilte ve keçe yalıtımı",
+      "Mineral lif blok ve levha yalıtımı",
+      "Mineral lif boru yalıtımı",
+      "Korumalı sıcak plaka ve ısı akış ölçer ile ısıl iletkenlik",
+      "Fitilden dokunmuş bitmiş cam kumaşlar",
+      "Yüzey yanma özellikleri",
+      "Binalar için fabrikasyon mineral yün ürünleri",
+      "Kaplamalı kumaşların çekme dayanımı",
+      "Isı yalıtım malzemeleri",
+      "Hazır mineral lif boru kabukları"
+    ],
+    "applicationsTitle": "Sektörlere göre uygulamalar",
+    "applications": [
+      {
+        "title": "Petrol, gaz ve petrokimya",
+        "items": [
+          "Boru ve ekipman yalıtımı",
+          "Mineral yün yalıtım üzerine cam kumaş kaplama",
+          "Tel örgülü şiltelerle tank ve kolon yalıtımı",
+          "Yalıtım katmanlarını sabitlemek için cam elyaf bant"
+        ]
+      },
+      {
+        "title": "Enerji üretimi",
+        "items": [
+          "Kazan yalıtımı ve kanal kaplaması",
+          "Türbin ve jeneratör akustik kabinleri",
+          "Atık ısı kazanı yalıtım şilteleri",
+          "Baca gazı kanalı yalıtımı"
+        ]
+      },
+      {
+        "title": "İnşaat ve HVAC",
+        "items": [
+          "Duvarlar, çatılar ve döşemeler",
+          "HVAC kanal sargısı ve iç kaplaması",
+          "Akustik tavanlar ve bölme duvar dolgusu",
+          "Sıcak ve soğuk su borusu yalıtımı"
+        ]
+      },
+      {
+        "title": "Gemi ve açık deniz",
+        "items": [
+          "Perde ve güverte yalıtımı",
+          "Makine dairesi ısı ve ses yalıtımı",
+          "CTP yapılar için cam kumaş takviyesi"
+        ]
+      },
+      {
+        "title": "Sanayi ve imalat",
+        "items": [
+          "Soğuk hava depoları ve gıda işleme",
+          "Gürültü bariyerleri ve kabinler",
+          "Fırın dış yüzeylerinde cam kumaş sargısı",
+          "Elektrik yalıtım panelleri (G10 / FR4)"
+        ]
+      }
+    ],
+    "supplyTitle": "Tedarik ettiklerimiz",
+    "supply": [
+      "Santura; cam elyaf levha, cam kumaş, cam elyaf bant ve cam yünü yalıtım malzemelerini rafinerilere, petrokimya tesislerine, santrallere ve inşaat projelerine tedarik eder ve 25'ten fazla ülkeye ihracat yapar. Ürünler köklü üreticilerden sağlanır ve proje şartnamenize göre, üreticinin test sertifikalarıyla teslim edilir.",
+      "Yalıtım pimlerini, kaynak saplamalarını ve refrakter ankrajları kendimiz ürettiğimiz için yalıtım malzemesini, bağlantı elemanlarını ve kaplama kumaşını tek paket halinde tedarik edebiliriz."
+    ],
+    "relatedTitle": "İlgili ürünler",
+    "relatedMineralWool": "750 °C'ye kadar daha yüksek sıcaklıklar için taş yünü yalıtım.",
+    "relatedPins": "Cam yünü ve levhaları sabitlemek için kaynak pimleri ve pullar.",
+    "relatedGaskets": "Cam elyaf bantla birlikte kullanılan seramik elyaf ip, bant ve contalar.",
+    "relatedAnchors": "Fırın astarları için SEPL ankrajlar.",
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      {
+        "q": "Cam kumaş ile cam yünü arasındaki fark nedir?",
+        "a": "Cam kumaş, cam iplikten dokunan bir tekstildir; kaplama, sargı ve kompozit takviyesi için kullanılır. Cam yünü, eğrilmiş cam liflerinden oluşan yumuşak bir yalıtım malzemesidir; boruların, kanalların, duvarların ve çatıların ısı ve ses yalıtımında kullanılır. Kumaş E-camı ipliğinden dokunur; cam yünü ise geri dönüştürülmüş içerikli soda-kireç-borosilikat camından üretilir."
+      },
+      {
+        "q": "Cam elyaf ürünleri hangi sıcaklığa dayanır?",
+        "a": "Cam yünü bağlayıcıya göre 230–450 °C'ye dayanır. Kaplamasız dokuma E-camı kumaş sürekli olarak yaklaşık 550 °C'ye dayanır. Cam yünü yaklaşık 650–700 °C'de, E-camı yaklaşık 840 °C'de yumuşar. Daha yüksek sıcaklıklar için taş yünü (750 °C'ye kadar) veya seramik elyaf ürünleri önerilir."
+      },
+      {
+        "q": "Cam elyaf yalıtım güvenli ve asbestsiz mi?",
+        "a": "Evet. Tedarik ettiğimiz cam elyaf ve cam yünü ürünleri asbestsiz, sağlığa zararsız ve CFC kullanılmadan üretilmiştir. Cam yünü %70'e kadar geri dönüştürülmüş cam içerir. Standart KKD ile güvenle uygulanır; kimyasal olarak kararlı, çürümez ve böceklere dayanıklıdır."
+      },
+      {
+        "q": "Hangi kalınlık ve yoğunlukta cam yünü mevcut?",
+        "a": "Cam yünü rulo ve şilteleri 25 mm'den 150 mm'ye kalınlıkta ve 10–48 kg/m³ yoğunlukta sunulur. Boru kabukları 15 mm'den 600 mm'ye iç çaptadır. Tel örgülü şilteler 25–100 mm kalınlıkta, 80 kg/m³'e kadar yoğunlukta sunulur. Diğer özellikler talep üzerine sağlanır."
+      }
+    ],
+    "ctaTitle": "Cam elyaf veya cam yünü mü gerekiyor?",
+    "ctaText": "Ürünü, kalınlığı veya gramajı, yoğunluğu, ölçüleri, kaplamayı ve miktarı bize bildirin. Teklif ve teslim süresiyle dönüş yapalım.",
+    "ctaRfq": "Cam elyaf ürünleri için teklif isteyin",
+    "ctaContact": "Veya ekibimizle iletişime geçin"
+  },
+  "csPage": {
+    "metaTitle": "Kalsiyum Silikat Levha ve Boru Kabukları | Tedarikçi",
+    "metaDescription": "Kalsiyum silikat yalıtım: 1100 °C'ye kadar ASTM C-533'e uygun levha ve boru kabukları. 1980'den beri, 25+ ülkeye ihracat. Teklif isteyin.",
+    "eyebrow": "Yalıtım malzemeleri",
+    "h1": "Kalsiyum Silikat Yalıtım",
+    "subheading": "1100 °C'ye kadar endüstriyel yalıtım için sert kalsiyum silikat levhalar, hazır boru kabukları, segmentler ve toz. IS 8154, IS 9428, BS 3958 Bölüm II ve ASTM C-533'e uygundur.",
+    "gallery": [
+      "Kalsiyum silikat yalıtım levhaları ve yarım boru kabukları",
+      "Kalsiyum silikat boru kabukları ve düz levhalar",
+      "İki parçalı kalsiyum silikat boru kabuğu"
+    ],
+    "overviewTitle": "Kalsiyum silikat yalıtım nedir",
+    "overview": [
+      "Kalsiyum silikat; yüksek sıcaklığa dayanıklı, hafif, darbeye dayanıklı ve asbestsiz bir endüstriyel yalıtım malzemesidir. Takviye lifli hidrat kalsiyum silikattan oluşur ve sert parçalar halinde şekillendirilir: levhalar, hazır boru kabukları, segmentler ve toz. Islanıp kuruduktan sonra bile yalıtım özelliklerini korur.",
+      "Yumuşak mineral yün ile seramik elyaf arasındaki boşluğu doldurur. Yumuşak yalıtımın aksine sert ve kendi kendini taşıyan yapıdadır; bu nedenle boru köprüleri ve ekipman üzerindeki yürüme ve darbelere dayanır, kullanım ömrü boyunca düşük ısıl iletkenliğini, yüksek basma dayanımını ve çok düşük çekmesini korur."
+    ],
+    "tempTitle": "Azami kullanım sıcaklığı",
+    "temps": {
+      "mw": "Taş yünü",
+      "cs": "Kalsiyum silikat",
+      "cf": "Seramik elyaf"
+    },
+    "tempNote": "Tipik azami değerlerdir; her ürünün sınırı kalitesine bağlıdır.",
+    "formsTitle": "Ürün formları",
+    "colForm": "Form",
+    "colDescription": "Açıklama",
+    "colSizes": "Tipik ölçüler",
+    "forms": [
+      {
+        "name": "Levhalar",
+        "text": "Düz yüzeyler için sert levhalar: tank duvarları, kanal panelleri ve fırın gövdeleri.",
+        "sizes": "25–100 mm kalınlık · 300–1000 mm boy · 150–600 mm en"
+      },
+      {
+        "name": "Hazır boru kabukları",
+        "text": "Boru yalıtımı için iki parçalı yarım kabuklar veya segmentli kabuklar.",
+        "sizes": "İç çap 15–600 mm · 25–100 mm kalınlık · standart boy 600 mm"
+      },
+      {
+        "name": "Pahlı segmentler",
+        "text": "Büyük çaplı borular ve tanklar için yamuk kesitli segmentler.",
+        "sizes": "Tank çapına ve yalıtım kalınlığına göre"
+      },
+      {
+        "name": "Kavisli segmentler",
+        "text": "Kolonlar, tanklar ve büyük silindirik ekipmanlar için segmentler.",
+        "sizes": "Yarıçap ve kalınlık siparişe göre"
+      },
+      {
+        "name": "Toz / dökme dolgu",
+        "text": "Düzensiz boşlukları ve ulaşılması zor yerleri doldurmak için.",
+        "sizes": "Dökme teslimat"
+      }
+    ],
+    "specTitle": "Özellikler",
+    "specRows": [
+      {
+        "label": "Bileşim",
+        "value": "Takviye lifli hidrat kalsiyum silikat"
+      },
+      {
+        "label": "Azami sürekli kullanım sıcaklığı",
+        "value": "Kaliteye bağlı olarak 1000–1100 °C"
+      },
+      {
+        "label": "Yoğunluk",
+        "value": "240–350 kg/m³ (yüksek sıcaklık kalitesi için yaklaşık 256 kg/m³)"
+      },
+      {
+        "label": "200 °C ortalamada ısıl iletkenlik",
+        "value": "0,065–0,080 W/m·K"
+      },
+      {
+        "label": "400 °C ortalamada ısıl iletkenlik",
+        "value": "0,085–0,105 W/m·K"
+      },
+      {
+        "label": "600 °C ortalamada ısıl iletkenlik",
+        "value": "0,100–0,130 W/m·K"
+      },
+      {
+        "label": "Basma dayanımı",
+        "value": "%5 deformasyonda en az 0,7 MPa"
+      },
+      {
+        "label": "Azami sıcaklıkta doğrusal çekme",
+        "value": "En fazla %2"
+      },
+      {
+        "label": "Nem",
+        "value": "Islanıp kuruduktan sonra özgün ısıl performansına döner"
+      },
+      {
+        "label": "pH",
+        "value": "Yaklaşık 10 (alkali)"
+      },
+      {
+        "label": "Asbest",
+        "value": "Yok: %100 asbestsiz"
+      },
+      {
+        "label": "VOC",
+        "value": "Yok"
+      },
+      {
+        "label": "Geri dönüştürülmüş içerik",
+        "value": "Tüketici sonrası geri dönüştürülmüş malzeme içerir"
+      },
+      {
+        "label": "Renk",
+        "value": "Beyaz ile kırık beyaz arası"
+      }
+    ],
+    "specNote": "Tipik değerlerdir. Kesin değerler kaliteye ve üreticiye bağlıdır; üreticinin teknik föyü ve test sertifikaları her siparişle verilir.",
+    "standardsTitle": "Standartlar",
+    "standards": [
+      "Kalsiyum silikat blok ve boru yalıtımı",
+      "Kalsiyum silikat düz bloklar (Hint standardı)",
+      "Kalsiyum silikat boru kabukları (Hint standardı)",
+      "Isı yalıtım malzemeleri: kalsiyum silikat",
+      "Endüstriyel tesisler için fabrikasyon kalsiyum silikat ürünleri",
+      "Isıl iletkenlik ölçümü",
+      "Yüzey yanma özellikleri"
+    ],
+    "advantagesTitle": "Avantajlar",
+    "advantages": [
+      {
+        "title": "Islandıktan sonra kararlı",
+        "text": "Islanma ve kuruma çevrimleri boyunca yalıtım özelliklerini korur."
+      },
+      {
+        "title": "Sabit performans",
+        "text": "Kullanım ömrü boyunca düşük ısıl iletkenlik, kalıcı enerji tasarrufu sağlar."
+      },
+      {
+        "title": "Sağlam ve sert",
+        "text": "Mekanik zorlamaya, boru köprülerinde yürümeye ve darbelere hasar görmeden dayanır."
+      },
+      {
+        "title": "Hafif",
+        "text": "Sert bir yüksek sıcaklık yalıtımı için düşük ağırlıkta yüksek performans."
+      },
+      {
+        "title": "Kolay uygulama",
+        "text": "Sahada kolayca kesilip şekillendirilir; uygulama süresi ve maliyeti düşer."
+      },
+      {
+        "title": "Uzun ömür ve yeniden kullanım",
+        "text": "Az bakım gerektirir; duruşlarda sökülüp yeniden kullanılabilir."
+      },
+      {
+        "title": "Çevre",
+        "text": "Sıfır VOC ve tüketici sonrası geri dönüştürülmüş içerik."
+      },
+      {
+        "title": "Alkali",
+        "text": "Doğal alkaliliği (pH yaklaşık 10), karbon çeliği yalıtım altı korozyona karşı korumaya yardımcı olur."
+      },
+      {
+        "title": "Yanmaz",
+        "text": "Yüzey yanma testlerinde sıfır alev yayılımı ve sıfır duman oluşumu."
+      }
+    ],
+    "applicationsTitle": "Sektörlere göre uygulamalar",
+    "applications": [
+      {
+        "title": "Demir ve çelik",
+        "items": [
+          "Yüksek fırınlar ve sıcak hava sobaları",
+          "Çukur fırınlar ve kok fırınları",
+          "Tav ve tavlama fırınları",
+          "Pota ve tandiş ön ısıtıcıları"
+        ]
+      },
+      {
+        "title": "Çimento",
+        "items": [
+          "Ön ısıtıcılar, siklonlar ve kanallar",
+          "Fırınlar",
+          "Sıcak hava üreteçleri ve piroklonlar"
+        ]
+      },
+      {
+        "title": "Alüminyum",
+        "items": [
+          "Döküm olukları ve şamandıralar",
+          "Çukur fırınlar ve hücre astarı",
+          "Bekletme ve homojenleştirme fırınları"
+        ]
+      },
+      {
+        "title": "Petrol, gaz ve petrokimya",
+        "items": [
+          "Ateşlemeli ısıtıcılar ve reformer fırınları",
+          "Isı eşanjörleri ve buhar boruları",
+          "Kolonlar, tanklar ve reaktörler"
+        ]
+      },
+      {
+        "title": "Enerji üretimi",
+        "items": [
+          "Kazan ocağı ve türbin gövdeleri",
+          "Yüksek sıcaklıklı buhar borusu yalıtımı",
+          "Atık ısı kazanı kanal yalıtımı",
+          "Gaz türbini egzoz sistemleri"
+        ]
+      },
+      {
+        "title": "Seramik ve cam",
+        "items": [
+          "Tünel fırın astarı",
+          "Cam ergitme fırını yalıtımı",
+          "Tavlama fırınları ve rejeneratörler"
+        ]
+      },
+      {
+        "title": "Genel sanayi",
+        "items": [
+          "Isıl işlem ve gerilim giderme fırınları",
+          "Tav ve ergitme fırınları",
+          "Kimyasal reaktörler ve damıtma kolonları",
+          "Yüksek sıcaklıklı gıda proses ekipmanı"
+        ]
+      }
+    ],
+    "supplyTitle": "Tedarik ettiklerimiz",
+    "supply": [
+      "Santura; IS 8154, IS 9428, BS 3958 Bölüm II ve ASTM C-533'e uygun kalsiyum silikat levha ve boru kabukları tedarik eder. Düşük ısıl iletkenlik, yüksek basma dayanımı ve düşük çekme özellikleriyle 1100 °C'ye kadar kullanım sıcaklıkları için ekonomik bir yalıtım sağlar.",
+      "Refrakter ankrajları ve yalıtım pimlerini kendimiz ürettiğimiz, ayrıca mineral yün, cam elyaf ve seramik contalar da tedarik ettiğimiz için 25'ten fazla ülkedeki rafinerilere, çelik ve çimento fabrikalarına ve santrallere komple yalıtım paketleri sunuyoruz."
+    ],
+    "relatedTitle": "İlgili ürünler",
+    "relatedMineralWool": "750 °C'ye kadar sıcaklıklar için taş yünü ve cam yünü.",
+    "relatedGlassFibre": "Yalıtım üzerine kaplama için cam kumaş.",
+    "relatedPins": "Yalıtımı sabitlemek için kaynak pimleri ve pullar.",
+    "relatedAnchors": "Yüksek sıcaklık astarları için SEPL ankrajlar.",
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      {
+        "q": "Kalsiyum silikat yalıtım hangi sıcaklığa dayanır?",
+        "a": "Kalsiyum silikat yalıtım, kaliteye bağlı olarak 1000–1100 °C'ye kadar sürekli kullanım için uygundur. Tüm aralık boyunca yapısını, düşük ısıl iletkenliğini ve basma dayanımını korur; ıslanıp kuruduktan sonra bile yalıtım özelliklerini sürdürür."
+      },
+      {
+        "q": "Hangi kalsiyum silikat formları mevcut?",
+        "a": "Kalsiyum silikat; sert levhalar, hazır boru kabukları (yarım kabuklar), büyük borular için pahlı segmentler, tank ve kolonlar için kavisli segmentler ve boşluk dolgusu için toz olarak sunulur. Standart boru kabukları 15 mm'den 600 mm'ye iç çaplara, 25–100 mm kalınlıklarda uyar. Diğer ölçüler çizime göre yapılır."
+      },
+      {
+        "q": "Kalsiyum silikatınız hangi standartlara uygundur?",
+        "a": "Kalsiyum silikatımız ASTM C-533, IS 8154 (düz bloklar), IS 9428 (boru kabukları) ve BS 3958 Bölüm II'ye uygundur. ASTM E-84 testinde sıfır alev yayılımıyla yanmazdır, asbestsizdir ve VOC içermez."
+      },
+      {
+        "q": "Kalsiyum silikatın mineral yüne göre avantajları nelerdir?",
+        "a": "Kalsiyum silikat daha yüksek sıcaklıklarda çalışır (taş yünündeki 750 °C'ye karşı 1100 °C'ye kadar), çok daha sağlam ve darbeye dayanıklıdır, sert ve kendi kendini taşır; bu yüzden yürüme ve darbelere dayanır ve ıslanma-kuruma çevrimlerinden sonra performansı değişmez. Mineral yün daha esnektir ve 750 °C'nin altında daha ucuzdur. Her ikisini de tedarik ediyoruz."
+      }
+    ],
+    "ctaTitle": "Kalsiyum silikat yalıtım mı gerekiyor?",
+    "ctaText": "Formu, boru çaplarını veya levha ölçülerini, kalınlığı, kullanım sıcaklığını ve miktarı bize bildirin. Teklif ve teslim süresiyle dönüş yapalım.",
+    "ctaRfq": "Kalsiyum silikat için teklif isteyin",
+    "ctaContact": "Veya ekibimizle iletişime geçin"
   }
 }

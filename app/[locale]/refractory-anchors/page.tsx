@@ -5,6 +5,7 @@ import { LINING_ORDER, PRODUCTS } from '@/content/products';
 import { LINING_ANCHOR } from '@/lib/products';
 import ProductCard from '@/components/products/ProductCard';
 import ProductFilter, { type FilterGroup } from '@/components/products/ProductFilter';
+import PopularSearches from '@/components/PopularSearches';
 
 // The SEPL refractory anchor listing (moved here from /products; /products is now the category overview).
 type Props = { params: { locale: string } };
@@ -76,6 +77,7 @@ export default async function RefractoryAnchorsPage({ params: { locale } }: Prop
       </div>
       <div className="mx-auto max-w-6xl px-6 pt-10">
         <ProductFilter groups={groups} allLabel={t('all')} filterLabel={t('filterLabel')} />
+        <PopularSearches className="mt-14 border-t border-line pt-10" />
       </div>
     </main>
   );
