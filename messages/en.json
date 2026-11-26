@@ -115,6 +115,26 @@
         "name": "Power & Boilers",
         "description": "CFBC, HRSG, waste-to-energy and biomass boilers.",
         "imageAlt": "Power transmission towers at sunset"
+      },
+      "aluminium": {
+        "name": "Aluminium Production",
+        "description": "Melting and holding furnaces, anode baking furnaces and launders.",
+        "imageAlt": "Aluminium coils in a warehouse"
+      },
+      "copper": {
+        "name": "Copper",
+        "description": "Smelting furnaces, converters and anode furnaces.",
+        "imageAlt": "Copper wire coils"
+      },
+      "ceramic": {
+        "name": "Ceramic Industry",
+        "description": "Tunnel kilns, shuttle kilns and kiln cars.",
+        "imageAlt": "Kiln cars loaded with ceramic ware at a tunnel kiln"
+      },
+      "mining": {
+        "name": "Mining & Minerals",
+        "description": "Rotary kilns, calciners and dryers for mineral processing.",
+        "imageAlt": "Conveyor in an underground mine"
       }
     }
   },
@@ -769,13 +789,13 @@
         "name": "Insulation Accessories",
         "description": "Bands, clips, washers and other insulation fixings."
       },
-      "steel-plates": {
-        "name": "Steel Plates",
-        "description": "Stainless and alloy steel plates and sheets."
-      },
       "trading-division": {
         "name": "Trading Division",
         "description": "Stainless steel and industrial materials supply."
+      },
+      "steel-fibres": {
+        "name": "Steel Fibres",
+        "description": "Melt extract and cold drawn stainless steel fibres for refractory castables."
       }
     },
     "allCategories": "All product categories",
@@ -1114,6 +1134,7 @@
       "Positive material identification (PMI) is a non-destructive test that measures the elemental composition of a metal and confirms its alloy grade. It is carried out with a portable X-ray fluorescence (XRF) analyser or an optical emission spectrometer (OES).",
       "The analyser reads the composition in seconds and matches it against a library of alloy grades. Nothing is cut, drilled or damaged, so finished anchors can be tested and shipped."
     ],
+    "whatImageAlt": "Handheld XRF analyser showing an SS310 alloy reading",
     "whyTitle": "Why it matters for refractory anchors",
     "why": [
       {
@@ -1589,7 +1610,12 @@
       "Observation door frame and door parts before assembly",
       "Production batch of galvanized observation doors in the fabrication yard",
       "Hinged observation doors stacked for dispatch",
-      "Close-up of galvanized observation door frames in a production batch"
+      "Close-up of galvanized observation door frames in a production batch",
+      "Galvanized observation door with a hinged access door and nameplate",
+      "Observation doors with viewing windows, tagged after inspection",
+      "Rows of tagged observation doors laid out before dispatch",
+      "Galvanized observation door frames lined up in the workshop",
+      "Stack of galvanized observation door frames, side view"
     ],
     "relatedTitle": "Related products and services",
     "relatedAnchorsText": "The anchors that hold the refractory lining inside each door, in the same alloys as your wall lining.",
@@ -1812,7 +1838,8 @@
       "Foundation bolts with pipe sleeves, tagged for dispatch",
       "Galvanized foundation bolts with pipe sleeves laid out in the workshop",
       "Stock of galvanized foundation bolts with nuts and sleeves",
-      "Close-up of foundation bolt pipe sleeves and nuts"
+      "Close-up of foundation bolt pipe sleeves and nuts",
+      "Galvanized foundation bolts with pipe sleeves and square top plates"
     ],
     "relatedTitle": "Related products",
     "relatedStanchions": "Stanchions and posts for platforms and handrails, often installed on the same foundations.",
@@ -2077,7 +2104,9 @@
       "Batch of hot-dip galvanized industrial stanchions with gusseted base plates",
       "Galvanized industrial stanchion with welded rail arms and base plate",
       "Industrial stanchion with side rail arm and gusseted base plate",
-      "Close-up of a welded tee joint on a stanchion post"
+      "Close-up of a welded tee joint on a stanchion post",
+      "Galvanized stanchion post with a side arm and gusseted base plate",
+      "Galvanized stanchions with tee rails in the fabrication workshop"
     ],
     "overviewTitle": "What industrial stanchions are",
     "overview": [
@@ -2607,6 +2636,7 @@
     "subheading": "Lever-arm counter-weight systems that carry the weight of radiant tubes in hydrogen reformers and ethylene cracking furnaces. Made by Santura since the late 1990s, to the client's engineering drawings.",
     "lindeBadge": "Linde Engineering India approved supplier, {period}",
     "photoAlt": "Galvanized counter-weight lever arm assembly with dead weight stacks",
+    "photo2Alt": "Counter-weight lever arm with stacked dead weights in the workshop",
     "photoCaption": "Galvanized lever arm assembly with dead weight stacks at our workshop.",
     "whatTitle": "What a counter-weight system does",
     "what": [
@@ -3859,6 +3889,2469 @@
     "ctaTitle": "Need calcium silicate insulation?",
     "ctaText": "Send us the form, pipe sizes or board dimensions, thickness, service temperature and quantity. We will reply with a quotation and delivery time.",
     "ctaRfq": "Request a Quote for Calcium Silicate",
+    "ctaContact": "Or contact our team"
+  },
+  "ipPage": {
+    "metaTitle": "Insulation Pins Manufacturer | Weld Pins & Clips",
+    "metaDescription": "Insulation pins manufacturer — weld pins, adhesive pins, self-locking washers in SS & GI. Exporting to 25+ countries since 1980. Request a quote today.",
+    "eyebrow": "Manufactured by Santura",
+    "h1": "Insulation Pins & Weld Pins",
+    "subheading": "Weldable, adhesive-base and self-adhesive insulation pins with matching self-locking washers and dome caps, for ducts, vessels, walls and equipment. Made in-house in stainless steel, galvanised steel and plastic.",
+    "badges": [
+      "CD weld pins",
+      "Perforated base pins",
+      "Self-adhesive pins",
+      "Self-locking washers",
+      "Dome caps",
+      "EN 10204 3.1 certificates"
+    ],
+    "gallery": [
+      "Perforated base insulation pins, including a plastic pin",
+      "Weld base insulation pins with dome caps and self-locking washers",
+      "Stainless steel self-locking speed washers for insulation pins",
+      "Square self-locking washer for insulation pins",
+      "Dome cap washer for insulation pins",
+      "Assorted self-locking washers for insulation pins",
+      "Perforated base insulation pin with a square base plate"
+    ],
+    "overviewTitle": "What insulation pins are",
+    "overview": [
+      "Insulation pins, also called hanger pins, stick pins or weld pins, are fasteners that hold insulation mechanically to a surface. The pin is fixed to the substrate, the insulation is pushed over its spindle, and a self-locking washer or dome cap holds it in place.",
+      "Pins stop insulation from sagging, shifting or falling off, so it keeps its thermal and acoustic performance and the installation stays neat. They are used on HVAC ducts, vessels and tanks, boiler casings, ship bulkheads, walls and ceilings.",
+      "Santura manufactures insulation pins itself, alongside its refractory anchors. Pins are made for three fixing methods: welded (capacitor discharge or drawn arc), adhesive with a perforated base, and self-adhesive peel-and-stick. Matching washers and dome caps are made in the same materials."
+    ],
+    "madeTitle": "Made in our own works",
+    "made": [
+      "Pins in stainless steel, galvanised carbon steel and PVC",
+      "Weldable and adhesive-base fixing",
+      "Self-locking washers and dome caps",
+      "For rockwool, fibreglass, thermocol, polystyrene and PUF",
+      "Supplied with EN 10204 3.1 mill test certificates"
+    ],
+    "typesTitle": "Types of insulation pins by fixing method",
+    "types": [
+      {
+        "title": "Weldable pins (CD / arc weld)",
+        "text": "A pin with a weld base, bonded permanently to sheet metal by capacitor-discharge (CD) or drawn-arc stud welding.",
+        "rows": [
+          {
+            "label": "Weld time",
+            "value": "Under 1 second per pin"
+          },
+          {
+            "label": "Best for",
+            "value": "Metal ducts, vessel shells, tank walls and sheet metal panels"
+          },
+          {
+            "label": "Head types",
+            "value": "Cup head (integral disc) or plain, with a separate clip-on washer"
+          },
+          {
+            "label": "Advantage",
+            "value": "Permanent, strong bond that stays fixed in a fire"
+          },
+          {
+            "label": "Materials",
+            "value": "Galvanised carbon steel, SS 304, SS 316, aluminium; bimetallic (aluminium head, steel spindle)"
+          }
+        ]
+      },
+      {
+        "title": "Adhesive-base pins (perforated)",
+        "text": "A pin on a perforated metal base plate, bonded to the substrate with mastic adhesive.",
+        "rows": [
+          {
+            "label": "Best for",
+            "value": "Non-weldable surfaces: concrete, masonry, GRP and painted surfaces"
+          },
+          {
+            "label": "Installation",
+            "value": "Apply adhesive through the perforations, press with a twist and allow 24–72 hours to cure before loading"
+          },
+          {
+            "label": "Base plate",
+            "value": "Perforated square or round plate, typically 50 × 50 mm; adhesive passes through the holes for a stronger bond"
+          },
+          {
+            "label": "Advantage",
+            "value": "No welding equipment needed"
+          },
+          {
+            "label": "Materials",
+            "value": "Galvanised steel, SS 304, aluminium"
+          }
+        ]
+      },
+      {
+        "title": "Self-adhesive pins (peel-and-stick)",
+        "text": "A pin with a pre-applied pressure-sensitive adhesive pad on the base.",
+        "rows": [
+          {
+            "label": "Best for",
+            "value": "Fast installation of lightweight insulation on clean, dry, non-porous surfaces"
+          },
+          {
+            "label": "Installation",
+            "value": "Peel the liner, press firmly without twisting and wait 15–20 minutes before loading"
+          },
+          {
+            "label": "Load",
+            "value": "Up to about 1.4 kg per pin"
+          },
+          {
+            "label": "Temperature",
+            "value": "Apply above 10 °C; service from −20 °C to 90 °C"
+          },
+          {
+            "label": "Limitations",
+            "value": "Not for painted surfaces, drywall or metal in direct sunlight"
+          }
+        ]
+      }
+    ],
+    "guideTitle": "Choosing the right pin",
+    "guideIntro": "Start from the surface and the service conditions, then choose the fixing method and material.",
+    "colApplication": "Application",
+    "colPin": "Recommended pin",
+    "colWhy": "Why",
+    "guideRows": [
+      {
+        "application": "Metal duct, vessel or tank wall",
+        "pin": "CD weld pin",
+        "why": "Permanent bond, stays fixed in a fire, fastest to install"
+      },
+      {
+        "application": "Concrete, masonry or GRP",
+        "pin": "Adhesive perforated pin",
+        "why": "No welding needed; strong bond through the perforations"
+      },
+      {
+        "application": "Fast, dry installation of lightweight insulation",
+        "pin": "Self-adhesive pin",
+        "why": "Peel and stick, with no adhesive cure time"
+      },
+      {
+        "application": "Cold room or freezer",
+        "pin": "Nylon or PVC pin",
+        "why": "Avoids thermal bridging and condensation at the pin"
+      },
+      {
+        "application": "Marine, coastal or chemical plant",
+        "pin": "SS 304 or SS 316 weld pin",
+        "why": "Corrosion-resistant in harsh environments"
+      },
+      {
+        "application": "General HVAC on a budget",
+        "pin": "Galvanised steel weld pin",
+        "why": "Economical, with good corrosion resistance indoors"
+      }
+    ],
+    "specTitle": "Pin specifications",
+    "specRows": [
+      {
+        "label": "Spindle diameter",
+        "value": "2.1, 2.7 and 3.0 mm (others on request)"
+      },
+      {
+        "label": "Spindle length",
+        "value": "50, 63, 90, 110, 114 and 150 mm (any length to order)"
+      },
+      {
+        "label": "Head type",
+        "value": "Cup head (integral disc) or plain"
+      },
+      {
+        "label": "Base type",
+        "value": "Weld base, perforated plate (50 × 50 mm) or self-adhesive pad"
+      },
+      {
+        "label": "Finish",
+        "value": "Mill finish, galvanised, or passivated on request"
+      },
+      {
+        "label": "Certification",
+        "value": "EN 10204 3.1 mill test certificates"
+      }
+    ],
+    "materialsTitle": "Material options",
+    "colMaterial": "Material",
+    "colBestFor": "Best for",
+    "colMaxTemp": "Max. temperature",
+    "materials": [
+      {
+        "name": "Stainless steel 304",
+        "use": "Marine, chemical, humid and corrosive environments; long service life",
+        "temp": "About 800 °C"
+      },
+      {
+        "name": "Stainless steel 316",
+        "use": "Severe corrosion: coastal, chloride and chemical processing",
+        "temp": "About 800 °C"
+      },
+      {
+        "name": "Galvanised carbon steel",
+        "use": "General HVAC, industrial and building insulation; economical",
+        "temp": "About 450 °C"
+      },
+      {
+        "name": "Aluminium",
+        "use": "Lightweight; food processing and clean environments",
+        "temp": "About 200 °C"
+      },
+      {
+        "name": "Bimetallic (aluminium head, steel spindle)",
+        "use": "Aluminium head with the weld strength of a steel spindle",
+        "temp": "About 450 °C"
+      },
+      {
+        "name": "PVC / nylon",
+        "use": "Cold surfaces; avoids thermal bridging",
+        "temp": "About 80 °C (PVC) / 120 °C (nylon)"
+      }
+    ],
+    "materialsNote": "Typical maximum temperatures for the pin material. For ceramic fibre linings above these limits, use stud-welded ceramic fibre anchors (SEPL-24).",
+    "accessoriesTitle": "Washers and dome caps",
+    "accessoriesIntro": "Self-locking washers grip the spindle and hold the insulation; dome caps cover the cut end. Both are made in galvanised steel, stainless steel or aluminium to match the pin.",
+    "accessories": [
+      {
+        "title": "Round self-locking washers",
+        "text": "Speed clips that slide over the spindle and grip it.",
+        "sizes": "Ø 25, 35 and 38 mm"
+      },
+      {
+        "title": "Square self-locking washers",
+        "text": "Square clips that grip flat insulation boards better.",
+        "sizes": "25 × 25, 35 × 35 and 38 × 38 mm"
+      },
+      {
+        "title": "Dome caps",
+        "text": "Cover the exposed spindle end after clipping, for safety, a neat finish and protection from sharp ends.",
+        "sizes": "To suit pin diameter"
+      }
+    ],
+    "washersLink": "See our full range of washers",
+    "compatibleTitle": "Compatible insulation materials",
+    "compatibleIntro": "Pins work with any insulation the spindle can pierce. For ceramic fibre blanket at high temperature, use ceramic fibre stud anchors instead.",
+    "compatible": {
+      "mineralWool": "Rockwool / mineral wool",
+      "glassWool": "Fibreglass / glass wool",
+      "eps": "Thermocol / EPS",
+      "xps": "Extruded polystyrene (XPS)",
+      "puf": "Polyurethane foam (PUF)",
+      "ceramic": "Ceramic fibre blanket (with SEPL-24)"
+    },
+    "installTitle": "How insulation pins are installed",
+    "steps": [
+      {
+        "title": "Fix the pin",
+        "text": "Weld, glue or peel-and-stick the pin to the substrate."
+      },
+      {
+        "title": "Place the insulation",
+        "text": "Push the insulation over the spindle until it sits flat against the surface."
+      },
+      {
+        "title": "Fit the washer",
+        "text": "Slide a self-locking washer or dome cap over the spindle to compress and hold the insulation."
+      },
+      {
+        "title": "Trim or bend",
+        "text": "Cut the excess spindle flush or bend it flat for safety."
+      }
+    ],
+    "spacingTitle": "Pin spacing and layout",
+    "spacing": [
+      "Spacing depends on the weight and thickness of the insulation, vertical or overhead orientation, wind and vibration, and the project specification.",
+      "Keep pins about 75–100 mm from board edges to reduce pillowing.",
+      "Passive fire protection systems often use pins at around 280 mm centres; follow the system manufacturer's details.",
+      "Always follow the project specification or the engineer's layout drawing."
+    ],
+    "techTitle": "Technical considerations",
+    "tech": [
+      {
+        "title": "Thermal bridging",
+        "text": "Metal pins conduct heat through the insulation. On cold service such as cold rooms and chilled water, where condensation is a risk, use PVC or nylon pins or add vapour barrier measures."
+      },
+      {
+        "title": "Fire performance",
+        "text": "Welded metal pins stay mechanically fixed in a fire, which makes them the most reliable choice for passive fire protection. Adhesive pins depend on the heat resistance of the adhesive."
+      },
+      {
+        "title": "Corrosion resistance",
+        "text": "Match the pin to the environment: galvanised steel indoors, SS 304 for humid or chemical exposure and SS 316 for marine and chloride environments. The wrong material leads to early failure, staining and damaged insulation."
+      }
+    ],
+    "applicationsTitle": "Applications by industry",
+    "applications": [
+      {
+        "title": "HVAC and ducts",
+        "items": [
+          "Fibreglass or mineral wool liner inside rectangular ducts",
+          "External duct wrap",
+          "Air handling unit panels",
+          "Acoustic duct lining"
+        ]
+      },
+      {
+        "title": "Oil, gas and petrochemical",
+        "items": [
+          "Vessel and column insulation under cladding",
+          "Equipment insulation in refineries and gas plants",
+          "Under-deck insulation on offshore platforms"
+        ]
+      },
+      {
+        "title": "Power generation",
+        "items": [
+          "Boiler casing insulation",
+          "Turbine acoustic enclosures",
+          "HRSG and flue gas duct insulation"
+        ]
+      },
+      {
+        "title": "Marine and shipbuilding",
+        "items": [
+          "Bulkhead and deck insulation (SS 316 pins)",
+          "Engine room thermal and acoustic insulation",
+          "Cargo hold insulation"
+        ]
+      },
+      {
+        "title": "Construction",
+        "items": [
+          "Wall and ceiling insulation in commercial buildings",
+          "Acoustic panel mounting",
+          "Cold stores and freezer rooms (nylon pins)",
+          "Passive fire protection"
+        ]
+      },
+      {
+        "title": "Industrial",
+        "items": [
+          "Noise barriers and acoustic enclosures",
+          "Furnace external insulation (stainless steel pins)",
+          "Food processing plants (aluminium pins)",
+          "Generator and compressor rooms"
+        ]
+      }
+    ],
+    "supplyTitle": "What we supply",
+    "supply": [
+      "Santura manufactures insulation pins in-house in stainless steel (304, 316), galvanised carbon steel, aluminium and PVC or nylon, in weldable, adhesive and self-adhesive versions, together with self-locking washers and dome caps. Pins are made to consistent dimensions and supplied with EN 10204 3.1 mill test certificates.",
+      "Custom pin lengths, base sizes, washer types, material grades and bulk packing are available for contractors and OEMs. We export insulation pins together with mineral wool, glass wool, calcium silicate, ceramic gaskets and refractory anchors to more than 25 countries, and our stud welding service supplies the equipment and procedures for welding the pins."
+    ],
+    "relatedTitle": "Related products and services",
+    "relatedMineralWool": "Rockwool slabs, rolls and mattresses fixed with insulation pins.",
+    "relatedGlassFibre": "Glass wool and glass cloth for ducts and lagging.",
+    "relatedCalsil": "Rigid high-temperature insulation, often combined with pinned blanket layers.",
+    "relatedGaskets": "Ceramic fibre rope, tape and gaskets for high-temperature sealing.",
+    "relatedAnchors": "Our main product: SEPL anchors for refractory linings.",
+    "relatedSepl24": "Stud-welded anchors for ceramic fibre blanket at high temperature.",
+    "relatedSw": "CD and drawn-arc stud welding equipment and procedures for pins and anchors.",
+    "relatedWashersName": "Washers",
+    "relatedWashers": "Speed washers, square washers and dome washers for pins and anchors.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What are insulation pins used for?",
+        "a": "Insulation pins, also called hanger pins, stick pins or weld pins, hold insulation such as rockwool, fibreglass, polystyrene and PUF mechanically to walls, ducts, vessels and equipment. They stop the insulation from sagging, shifting or falling off, so it keeps its thermal and acoustic performance."
+      },
+      {
+        "q": "What is the difference between weldable and adhesive insulation pins?",
+        "a": "Weldable pins are bonded permanently to metal by capacitor-discharge (CD) or arc stud welding in under a second, which suits metal ducts and vessel shells. Adhesive pins have a perforated base that is bonded with mastic adhesive to non-weldable surfaces such as concrete and masonry. Welded pins are stronger and stay fixed in a fire; adhesive pins need no welding equipment."
+      },
+      {
+        "q": "Which insulation materials work with insulation pins?",
+        "a": "Pins work with any insulation the spindle can pierce: rockwool and mineral wool, fibreglass and glass wool, thermocol (EPS), extruded polystyrene (XPS) and polyurethane foam (PUF). For ceramic fibre blanket at high temperatures, use ceramic fibre stud anchors (SEPL-24) instead."
+      },
+      {
+        "q": "How are insulation pins installed?",
+        "a": "Fix the pin to the substrate by welding, adhesive or peel-and-stick, push the insulation over the spindle, fit a self-locking washer or dome cap to compress and hold it, then trim or bend the excess spindle. Spacing follows the project specification; pins are usually kept 75–100 mm from board edges."
+      },
+      {
+        "q": "What materials are insulation pins available in?",
+        "a": "We manufacture insulation pins in stainless steel (304, 316), galvanised carbon steel, aluminium and PVC or nylon. Stainless steel suits corrosive and marine environments, galvanised steel is economical for general HVAC, aluminium is lightweight, and plastic pins avoid thermal bridging on cold surfaces."
+      }
+    ],
+    "ctaTitle": "Need insulation pins?",
+    "ctaText": "Send us the pin type, spindle diameter and length, material, washer type and quantity. We will reply with a quotation and delivery time.",
+    "ctaRfq": "Request a Quote for Insulation Pins",
+    "ctaContact": "Or contact our team",
+    "relatedAccessories": "Banding, springs, screws, rivets, wire and tapes for insulation and jacketing."
+  },
+  "psPage": {
+    "metaTitle": "Polystyrene Insulation | EPS & XPS Sheets & Pipe Sections",
+    "metaDescription": "EPS & XPS polystyrene insulation — sheets, pipe sections, cold room boards. Trusted supplier since 1980, exporting to 25+ countries. Request a quote.",
+    "eyebrow": "Insulation materials",
+    "h1": "Polystyrene Insulation — EPS & XPS",
+    "subheading": "Expanded (EPS) and extruded (XPS) polystyrene insulation: flat sheets, pipe sections with or without aluminium foil, half-round sections and custom-cut shapes for cold rooms, chilled water lines and buildings.",
+    "badges": [
+      "EPS 15–40 kg/m³",
+      "XPS boards",
+      "Pipe sections",
+      "Foil-faced sections",
+      "Custom-cut shapes"
+    ],
+    "gallery": [
+      "Expanded polystyrene insulation sheets",
+      "EPS pipe sections with aluminium foil facing",
+      "Polystyrene half-round pipe insulation sections",
+      "Polystyrene pipe insulation half shells"
+    ],
+    "overviewTitle": "What polystyrene insulation is",
+    "overview": [
+      "Polystyrene insulation is a lightweight, rigid, closed-cell foam. It has low thermal conductivity, resists moisture, keeps its shape and costs less than most other insulation materials, which makes it a common choice for cold rooms, chilled water pipes and building insulation.",
+      "It is used as pipe sections on cold water and chilled lines, as flat sheets for walls, roofs, floors and under- and over-deck insulation, and as custom-cut shapes for equipment and vessels. Properly installed and protected, it keeps its insulating value for the life of the installation without sagging or settling.",
+      "Polystyrene insulation comes in two forms, made by different processes."
+    ],
+    "types": [
+      {
+        "title": "EPS: expanded polystyrene",
+        "tag": "White beaded foam · lower cost",
+        "text": "Made by expanding polystyrene beads with steam and moulding them into blocks, which are then cut into sheets, pipe sections and shapes. EPS is lighter and costs less than XPS, with slightly higher thermal conductivity. Density sets its strength."
+      },
+      {
+        "title": "XPS: extruded polystyrene",
+        "tag": "Coloured dense foam · higher strength",
+        "text": "Produced by continuous extrusion into boards, usually coloured blue, pink or green depending on the brand. XPS has higher compressive strength, lower water absorption and lower thermal conductivity than EPS, so it suits below-ground, wet and load-bearing applications."
+      }
+    ],
+    "formsTitle": "Product forms and sizes",
+    "formsIntro": "Typical forms and sizes. Other sizes, thicknesses and shapes can be supplied to your drawing.",
+    "epsFormsTitle": "EPS (expanded polystyrene)",
+    "xpsFormsTitle": "XPS (extruded polystyrene)",
+    "colForm": "Form",
+    "colDescription": "Description",
+    "colSizes": "Typical sizes",
+    "epsForms": [
+      {
+        "form": "Flat sheets / boards",
+        "text": "Rigid boards for walls, roofs, floors and cold rooms",
+        "sizes": "12–300 mm thick; 1200 × 600 mm or 2400 × 1200 mm"
+      },
+      {
+        "form": "Pipe sections (half shells)",
+        "text": "Pre-formed two-piece sections for pipe insulation",
+        "sizes": "Bore 15–600 mm; 20–100 mm thick"
+      },
+      {
+        "form": "Curved / half-round sections",
+        "text": "Sections shaped for tanks, vessels and large pipes",
+        "sizes": "To the vessel or pipe outside diameter"
+      },
+      {
+        "form": "Aluminium foil-faced sections and sheets",
+        "text": "EPS faced with reflective aluminium foil",
+        "sizes": "Standard section and sheet sizes"
+      },
+      {
+        "form": "Custom-cut shapes",
+        "text": "Hot-wire cut to drawing for bends, valves and complex profiles",
+        "sizes": "To specification"
+      }
+    ],
+    "xpsForms": [
+      {
+        "form": "Rigid boards",
+        "text": "High-strength boards for below-ground walls, inverted roofs and load-bearing floors",
+        "sizes": "20–200 mm thick; typically 1250 × 600 mm"
+      },
+      {
+        "form": "Tongue-and-groove boards",
+        "text": "Interlocking edges for a continuous insulation layer without gaps",
+        "sizes": "25–100 mm thick"
+      },
+      {
+        "form": "Tapered boards",
+        "text": "Boards cut to a fall for flat roof drainage",
+        "sizes": "To the required slope"
+      }
+    ],
+    "specTitle": "EPS and XPS compared",
+    "colProperty": "Property",
+    "colEps": "EPS",
+    "colXps": "XPS",
+    "specRows": [
+      {
+        "label": "Manufacturing process",
+        "eps": "Bead expansion and moulding",
+        "xps": "Continuous extrusion"
+      },
+      {
+        "label": "Colour",
+        "eps": "White",
+        "xps": "Blue, pink or green (depends on brand)"
+      },
+      {
+        "label": "Density",
+        "eps": "15–40 kg/m³",
+        "xps": "25–45 kg/m³"
+      },
+      {
+        "label": "Thermal conductivity (λ)",
+        "eps": "0.035–0.040 W/m·K",
+        "xps": "0.029–0.036 W/m·K"
+      },
+      {
+        "label": "Compressive strength (10% deformation)",
+        "eps": "60–200 kPa, depending on density",
+        "xps": "150–700 kPa"
+      },
+      {
+        "label": "Water absorption (by volume)",
+        "eps": "2–5%",
+        "xps": "Typically 0.3% or less"
+      },
+      {
+        "label": "Water vapour resistance factor (µ)",
+        "eps": "20–70",
+        "xps": "80–250"
+      },
+      {
+        "label": "Maximum continuous service temperature",
+        "eps": "About 80 °C",
+        "xps": "About 75 °C"
+      },
+      {
+        "label": "Minimum service temperature",
+        "eps": "Down to about −180 °C in manufacturers' data",
+        "xps": "Typically −50 °C in manufacturers' data"
+      },
+      {
+        "label": "Reaction to fire",
+        "eps": "Euroclass E with flame-retardant additive (FR grade)",
+        "xps": "Euroclass E with flame-retardant additive (FR grade)"
+      },
+      {
+        "label": "Dimensional stability",
+        "eps": "Good; does not sag or settle",
+        "xps": "Very good"
+      },
+      {
+        "label": "Blowing agent",
+        "eps": "Pentane; no CFCs or HCFCs",
+        "xps": "CO₂ or HFO in modern grades; no CFCs or HCFCs"
+      },
+      {
+        "label": "Recycling",
+        "eps": "Recyclable",
+        "xps": "Recyclable"
+      }
+    ],
+    "specNote": "Typical values. Exact figures depend on grade, density and manufacturer; the data sheet for the supplied product applies.",
+    "densityTitle": "EPS density guide",
+    "densityIntro": "EPS strength rises with density. Choose the lowest density that carries the load, as higher density costs more.",
+    "colDensity": "Density",
+    "colStrength": "Compressive strength (approx.)",
+    "colBestFor": "Best for",
+    "densityRows": [
+      {
+        "density": "15 kg/m³",
+        "strength": "About 60 kPa",
+        "use": "Walls, ceilings and other areas with no load"
+      },
+      {
+        "density": "20 kg/m³",
+        "strength": "About 100 kPa",
+        "use": "General building insulation, pipe sections and cold rooms"
+      },
+      {
+        "density": "25 kg/m³",
+        "strength": "About 130 kPa",
+        "use": "Roofs and floors under light loads"
+      },
+      {
+        "density": "30 kg/m³",
+        "strength": "About 170 kPa",
+        "use": "Under-slab insulation and cold storage floors"
+      },
+      {
+        "density": "40 kg/m³",
+        "strength": "About 200 kPa",
+        "use": "Heavily loaded floors and industrial cold rooms"
+      }
+    ],
+    "densityNote": "Other densities on request. For high loads, below-ground use or wet conditions, XPS is usually the better choice.",
+    "advantagesTitle": "Advantages",
+    "advantages": [
+      "Low thermal conductivity, so less thickness is needed for the same insulating value",
+      "Lightweight (15–45 kg/m³), which makes handling easier and adds little load to structures",
+      "Closed-cell structure that resists water absorption",
+      "Dimensionally stable: does not sag, settle or slump in service",
+      "Easy to cut on site with a hot wire or saw, without special tools",
+      "Lower material and installation cost than most fibrous and PU insulation",
+      "Carries foot traffic and floor loads, especially XPS and higher-density EPS",
+      "Suitable for cold and sub-zero service, from chilled water to freezer rooms",
+      "Contains no fibres, so it does not shed dust or irritate the skin",
+      "Recyclable, and made without CFCs or HCFCs"
+    ],
+    "cautionsTitle": "Points to note",
+    "cautions": [
+      "Polystyrene is combustible. Use flame-retardant grades and cover it with a protective layer as building and fire regulations require.",
+      "Its upper limit is about 75–80 °C. For hotter surfaces, use mineral wool or calcium silicate.",
+      "Solvents and long exposure to sunlight damage polystyrene. Use compatible adhesives and keep it covered or cladded."
+    ],
+    "standardsTitle": "Standards",
+    "standards": [
+      "Rigid cellular polystyrene thermal insulation",
+      "Expanded polystyrene for thermal insulation (Indian Standard)",
+      "Factory-made EPS thermal insulation products for buildings",
+      "Factory-made XPS thermal insulation products for buildings",
+      "Surface burning characteristics of building materials",
+      "Thermal conductivity test methods (guarded hot plate / heat flow meter)"
+    ],
+    "applicationsTitle": "Applications by industry",
+    "applications": [
+      {
+        "title": "Cold storage and refrigeration",
+        "items": [
+          "Cold room walls, floors and ceilings",
+          "Freezer rooms down to −40 °C",
+          "Refrigerated trucks and containers",
+          "Cold store floors on high-density EPS or XPS"
+        ]
+      },
+      {
+        "title": "Oil, gas and petrochemical",
+        "items": [
+          "Pipe sections for chilled water and cold chemical lines",
+          "Under-deck and over-deck insulation",
+          "Cold-service insulation systems with a vapour barrier",
+          "Cold equipment and vessel insulation with half-round sections"
+        ]
+      },
+      {
+        "title": "HVAC and plumbing",
+        "items": [
+          "Chilled water pipe sections with aluminium foil facing",
+          "Condensate drain insulation",
+          "Air conditioning duct insulation",
+          "Cold and hot water pipes up to about 80 °C"
+        ]
+      },
+      {
+        "title": "Construction and buildings",
+        "items": [
+          "External wall insulation (ETICS / EIFS)",
+          "Flat and pitched roof insulation",
+          "Foundation and perimeter insulation below ground (XPS preferred)",
+          "Floor insulation under screed or concrete slab",
+          "Inverted roofs (XPS only)",
+          "Cavity wall boards"
+        ]
+      },
+      {
+        "title": "Industrial and manufacturing",
+        "items": [
+          "Food and beverage processing facilities",
+          "Pharmaceutical cleanroom walls and ceilings",
+          "Void formers and lightweight fill in construction"
+        ]
+      },
+      {
+        "title": "Marine and offshore",
+        "items": [
+          "Accommodation module insulation",
+          "Cold stores on vessels",
+          "Buoyancy and flotation (EPS)"
+        ]
+      }
+    ],
+    "supplyTitle": "What we supply",
+    "supply": [
+      "Santura Engineering supplies expanded polystyrene (EPS) and extruded polystyrene (XPS) insulation: flat sheets, pipe sections with and without aluminium foil facing, half-round sections and custom-cut shapes, in EPS densities from 15 to 40 kg/m³. Typical customers are refineries, cold storage operators, food processing plants and construction projects.",
+      "As a manufacturer of insulation pins and a supplier of mineral wool, glass wool, calcium silicate and ceramic gaskets, Santura can supply a complete insulation package from one source. We export to more than 25 countries."
+    ],
+    "relatedTitle": "Related products",
+    "relatedPins": "Pins and washers for fixing polystyrene boards to walls and ducts.",
+    "relatedMineralWool": "The alternative for hot surfaces above polystyrene's limit.",
+    "relatedCalsil": "Rigid insulation for high-temperature pipes and equipment.",
+    "relatedGlassFibre": "Glass wool and glass cloth for ducts and cladding.",
+    "relatedPir": "A rigid foam with a higher temperature rating than polystyrene.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What is the difference between EPS and XPS polystyrene insulation?",
+        "a": "EPS (expanded polystyrene) is a white beaded foam that is lighter and more cost-effective, available in densities from 15 to 40 kg/m³. XPS (extruded polystyrene) is denser, with higher compressive strength (150–700 kPa), lower water absorption (typically 0.3% or less) and lower thermal conductivity (0.029–0.036 W/m·K). XPS is preferred for below-ground, wet and load-bearing applications."
+      },
+      {
+        "q": "What temperature range is polystyrene insulation suitable for?",
+        "a": "Polystyrene insulation is used up to about 80 °C continuous service for EPS and about 75 °C for XPS. At the cold end, manufacturers rate EPS down to about −180 °C and XPS typically to −50 °C. It is well suited to cold storage, refrigeration, chilled water pipes and buildings. Above 80 °C, use mineral wool or calcium silicate insulation."
+      },
+      {
+        "q": "What densities of EPS insulation are available?",
+        "a": "Santura supplies EPS insulation in densities of 15, 20, 25, 30 and 40 kg/m³. Higher density gives higher compressive strength: 15 kg/m³ suits walls and ceilings with no load, while 40 kg/m³ suits heavily loaded floors and industrial cold rooms. Other densities are available on request."
+      },
+      {
+        "q": "Is polystyrene insulation waterproof?",
+        "a": "Polystyrene has a closed-cell structure that gives it good moisture resistance. XPS absorbs typically 0.3% or less water by volume, so it is the choice for below-ground and wet applications. EPS absorbs 2–5%. On cold surfaces both need a vapour barrier, such as aluminium foil facing, to stop condensation. Neither material provides a food source for mould."
+      }
+    ],
+    "ctaTitle": "Need polystyrene insulation?",
+    "ctaText": "Tell us the type (EPS or XPS), form, density, thickness, pipe sizes or sheet dimensions and quantity. We will reply with a quotation and lead time.",
+    "ctaRfq": "Request a Quote for Polystyrene Insulation",
+    "ctaContact": "Or contact our team"
+  },
+  "pirPage": {
+    "metaTitle": "PIR Insulation Boards & Pipe Sections | Industrial Supplier",
+    "metaDescription": "Polyisocyanurate PIR insulation — boards & pipe sections for -196°C to 150°C. CFC-free, fire-rated. Supplier since 1980, 25+ countries. Get a quote.",
+    "eyebrow": "Insulation materials",
+    "h1": "Polyisocyanurate (PIR) Insulation",
+    "subheading": "Rigid PIR foam insulation: pipe sections from ½\" to 24\", flat boards, foil-faced boards and bevelled lags. Very low thermal conductivity, Class 1 surface spread of flame and a hot-face limit of 150 °C.",
+    "badges": [
+      "Pipe sections ½\"–24\"",
+      "Boards and lags",
+      "Up to 150 °C",
+      "Class 1 spread of flame",
+      "CFC-free"
+    ],
+    "gallery": [
+      "Polyisocyanurate PIR insulation board with kraft paper facing"
+    ],
+    "overviewTitle": "What polyisocyanurate insulation is",
+    "overview": [
+      "Polyisocyanurate (PIR), also called polyiso, is a rigid thermoset foam insulation. It is a modified polyurethane (PUR) with a higher share of isocyanurate linkages, and its thermal conductivity is among the lowest of commonly used insulation materials.",
+      "The isocyanurate structure gives PIR better fire performance than standard polyurethane. It achieves a Class 1 surface spread of flame rating, has low smoke emission and, unlike most thermoplastics, does not melt or drip in a fire. It also raises the hot-surface limit to 150 °C, against 110 °C for normal polyurethane foam, so PIR can be used directly over steam or electrical tracing that stays within that limit.",
+      "PIR needs about half the thickness of cork for the same performance. A thinner layer means less surface area to cover, which reduces the cost of vapour barrier, outer cladding and supports per running metre of pipe. Our PIR is CFC-free."
+    ],
+    "compareTitle": "Thickness compared with other insulation",
+    "compareIntro": "Insulation thickness needed for the same thermal resistance (R = 2.5 m²K/W).",
+    "colMaterial": "Material",
+    "colThickness": "Thickness needed",
+    "lambdaUnit": "W/m·K",
+    "mmUnit": "mm",
+    "compareNames": [
+      "PIR (polyisocyanurate)",
+      "XPS (extruded polystyrene)",
+      "Glass wool",
+      "EPS (expanded polystyrene)",
+      "Mineral wool (rockwool)",
+      "Calcium silicate"
+    ],
+    "compareNote": "PIR reaches the same insulating value as mineral wool with about 40% less thickness, saving space, cladding material and installation cost.",
+    "compareCalc": "Flat-surface calculation (thickness = R × λ) using typical conductivity at a low mean temperature. Actual thickness depends on pipe size, operating temperature and the design basis. Mineral wool and calcium silicate are chosen for hotter service, where PIR cannot be used.",
+    "formsTitle": "Product forms and sizes",
+    "formsIntro": "Typical forms and sizes. Other sizes, thicknesses and shapes can be supplied to your drawing.",
+    "colForm": "Form",
+    "colDescription": "Description",
+    "colSizes": "Typical sizes",
+    "forms": [
+      {
+        "form": "Pipe sections (half shells)",
+        "text": "Pre-formed two-piece sections for pipe insulation",
+        "sizes": "½\" to 24\" (DN15–DN600); 25 mm thick and above; 1000 mm long"
+      },
+      {
+        "form": "Flat boards / sheets",
+        "text": "Rigid boards for walls, roofs, ducts and equipment",
+        "sizes": "20–150 mm thick; 1200 × 600 mm or 2400 × 1200 mm"
+      },
+      {
+        "form": "Faced boards",
+        "text": "PIR board with aluminium foil or kraft paper facing; foil facing acts as a vapour barrier",
+        "sizes": "Standard board sizes"
+      },
+      {
+        "form": "Bevelled lags",
+        "text": "Tapered segments for large-diameter pipes and vessels",
+        "sizes": "To the pipe or vessel outside diameter"
+      },
+      {
+        "form": "Contoured / scored boards",
+        "text": "Pre-scored boards that bend around curved surfaces and tanks",
+        "sizes": "20–80 mm thick"
+      },
+      {
+        "form": "Pipe support blocks",
+        "text": "High-density PIR blocks for insulated pipe supports, used in place of wooden blocks",
+        "sizes": "To pipe size and load"
+      }
+    ],
+    "pipeTitle": "PIR pipe sections",
+    "pipeIntro": "Our standard PIR pipe sections. Thicknesses and facings are made to the project specification.",
+    "pipeRows": [
+      {
+        "label": "Pipe sizes",
+        "value": "½\" to 24\" (DN15–DN600)"
+      },
+      {
+        "label": "Thickness",
+        "value": "25 mm and above"
+      },
+      {
+        "label": "Length",
+        "value": "1000 mm"
+      },
+      {
+        "label": "Density",
+        "value": "36 kg/m³ and above"
+      },
+      {
+        "label": "Configuration",
+        "value": "Two-piece half shells with butt or lap joints"
+      },
+      {
+        "label": "Facing",
+        "value": "Unfaced, aluminium foil or kraft paper"
+      },
+      {
+        "label": "Hot-face limit",
+        "value": "150 °C continuous"
+      }
+    ],
+    "drawingAlt": "Line drawing of a two-piece PIR pipe section around a pipe",
+    "drawingCaption": "Two-piece half-shell pipe section",
+    "specTitle": "PIR and PUR compared",
+    "colProperty": "Property",
+    "colPir": "PIR (polyisocyanurate)",
+    "colPur": "PUR (polyurethane)",
+    "specRows": [
+      {
+        "label": "Type",
+        "pir": "Thermoset rigid foam with isocyanurate linkages",
+        "pur": "Thermoset rigid foam"
+      },
+      {
+        "label": "Thermal conductivity (λ, 10 °C mean)",
+        "pir": "0.020–0.025 W/m·K",
+        "pur": "0.023–0.028 W/m·K"
+      },
+      {
+        "label": "Density",
+        "pir": "36 kg/m³ and above (pipe sections); 30–60 kg/m³ (boards)",
+        "pur": "30–50 kg/m³"
+      },
+      {
+        "label": "Maximum hot-surface temperature",
+        "pir": "150 °C",
+        "pur": "110 °C"
+      },
+      {
+        "label": "Low-temperature service",
+        "pir": "Cryogenic grades used down to about −196 °C",
+        "pur": "Cryogenic grades used down to about −196 °C"
+      },
+      {
+        "label": "Compressive strength (10% deformation)",
+        "pir": "About 150–200 kPa, higher with density",
+        "pur": "About 120 kPa and above"
+      },
+      {
+        "label": "Fire performance",
+        "pir": "Class 1 surface spread of flame; low smoke; does not melt or drip",
+        "pur": "Lower; needs flame-retardant additives"
+      },
+      {
+        "label": "Water vapour transmission",
+        "pir": "Very low (closed cells)",
+        "pur": "Very low (closed cells)"
+      },
+      {
+        "label": "Water absorption",
+        "pir": "Low, typically under 2% by volume",
+        "pur": "Low"
+      },
+      {
+        "label": "Dimensional stability",
+        "pir": "Very good",
+        "pur": "Good"
+      },
+      {
+        "label": "Closed-cell content",
+        "pir": "Above 90%",
+        "pur": "Above 90%"
+      },
+      {
+        "label": "Blowing agent",
+        "pir": "CFC-free",
+        "pur": "CFC-free in modern grades"
+      }
+    ],
+    "specNote": "Typical values. Exact figures depend on grade, density and manufacturer; the data sheet for the supplied product applies.",
+    "advantagesTitle": "Advantages",
+    "advantages": [
+      "Very high insulating efficiency, which saves energy",
+      "Void-free insulation: a closed-cell foam that performs evenly across the whole section",
+      "About half the thickness of cork, which cuts cladding, vapour barrier and support costs",
+      "Fire resistant: Class 1 surface spread of flame, low smoke, does not melt or drip",
+      "Hot-surface limit of 150 °C, higher than the 110 °C of standard polyurethane",
+      "Water and moisture resistant",
+      "Dimensionally stable: does not shrink, warp or settle",
+      "Resistant to most oils, chemicals and solvents",
+      "No thermal bridges through the insulation, as it contains no fibrous or metal paths",
+      "Durable, and keeps its performance for many years when installed and protected correctly"
+    ],
+    "cautionsTitle": "Points to note",
+    "cautions": [
+      "PIR is combustible even though it does not melt or drip. Install it under metal cladding or another protective layer as fire regulations require.",
+      "Its hot-face limit is 150 °C. For hotter pipes and equipment, use mineral wool or calcium silicate.",
+      "Sunlight degrades exposed foam. Keep PIR cladded or covered, and seal joints with a vapour barrier on cold service."
+    ],
+    "standardsTitle": "Standards",
+    "standards": [
+      "Factory-made PUR and PIR thermal insulation for building equipment and industrial installations",
+      "Factory-made rigid polyurethane (PUR / PIR) thermal insulation products for buildings",
+      "Preformed rigid cellular polyisocyanurate thermal insulation",
+      "Surface burning characteristics of building materials",
+      "Surface spread of flame test (Class 1)",
+      "Rigid cellular plastics for thermal insulation of buildings"
+    ],
+    "applicationsTitle": "Applications by industry",
+    "applications": [
+      {
+        "title": "Oil, gas and petrochemical",
+        "items": [
+          "Process piping and condensate lines up to 150 °C",
+          "Chilled water, brine and cold chemical lines",
+          "Cryogenic piping with cryogenic-grade PIR systems",
+          "Pipes with steam or electrical tracing within 150 °C",
+          "Vessels and columns under metal cladding"
+        ]
+      },
+      {
+        "title": "Power generation",
+        "items": [
+          "Condensate and hot water lines",
+          "Low-pressure steam lines within 150 °C",
+          "Chilled and cooling water lines",
+          "Auxiliary building HVAC"
+        ]
+      },
+      {
+        "title": "HVAC and plumbing",
+        "items": [
+          "Chilled water pipes, where low thickness prevents condensation",
+          "Domestic hot water pipes",
+          "Refrigerant lines",
+          "Duct boards and duct insulation"
+        ]
+      },
+      {
+        "title": "Construction and buildings",
+        "items": [
+          "Flat roofs, including tapered boards for drainage",
+          "Cavity wall and external wall insulation",
+          "Under-floor insulation",
+          "Cold stores and freezer buildings",
+          "Metal-faced PIR sandwich panels"
+        ]
+      },
+      {
+        "title": "Marine and offshore",
+        "items": [
+          "Offshore platform piping and equipment",
+          "Accommodation module walls and ceilings",
+          "Bulkhead and deck insulation"
+        ]
+      },
+      {
+        "title": "Cold storage and refrigeration",
+        "items": [
+          "Cold room walls, floors and ceilings",
+          "Freezer rooms down to −40 °C",
+          "Blast freezers",
+          "Refrigerated vehicles and containers"
+        ]
+      },
+      {
+        "title": "Process industries",
+        "items": [
+          "Food and beverage plants: hygienic pipe insulation",
+          "Pharmaceutical cleanrooms and process piping",
+          "Chemical plants: pipes and vessels exposed to solvents"
+        ]
+      }
+    ],
+    "supplyTitle": "What we supply",
+    "supply": [
+      "Santura Engineering supplies polyisocyanurate (PIR) insulation: pipe sections from ½\" to 24\" at 36 kg/m³ and above, flat boards, faced boards and bevelled lags. Our PIR is CFC-free. Typical customers are refineries, petrochemical plants, power stations and cold storage projects.",
+      "As a manufacturer of refractory anchors and insulation pins, and a supplier of mineral wool, polystyrene, calcium silicate and ceramic gaskets, Santura can supply a complete insulation package from one source. We export to more than 25 countries."
+    ],
+    "relatedTitle": "Related products",
+    "relatedPolystyrene": "A lower-cost rigid foam for service up to about 80 °C.",
+    "relatedMineralWool": "The choice for hot service above 150 °C.",
+    "relatedCalsil": "Rigid insulation for high-temperature pipes and equipment.",
+    "relatedPins": "Pins and washers for fixing PIR boards to walls and ducts.",
+    "relatedGlassFibre": "Glass cloth for lagging over PIR insulation.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What is polyisocyanurate (PIR) insulation?",
+        "a": "Polyisocyanurate (PIR or polyiso) is a rigid thermoset foam with one of the lowest thermal conductivities of common insulation materials, 0.020–0.025 W/m·K. It is a modified polyurethane with better fire performance: Class 1 surface spread of flame, low smoke, and it does not melt or drip. Standard PIR is used up to 150 °C, and cryogenic grades are used down to about −196 °C."
+      },
+      {
+        "q": "What is the difference between PIR and PUR insulation?",
+        "a": "PIR (polyisocyanurate) has a higher share of isocyanurate linkages than standard PUR (polyurethane). This gives it better fire performance and a higher hot-surface limit of 150 °C, against 110 °C for PUR. PIR also has slightly lower thermal conductivity. Both are rigid closed-cell foams, but PIR is preferred for industrial pipe insulation and where fire performance matters."
+      },
+      {
+        "q": "What pipe sizes are PIR pipe sections available in?",
+        "a": "Santura supplies PIR pipe sections for pipes from ½\" to 24\" (DN15–DN600), 25 mm thick and above, at a density of 36 kg/m³ and above. Sections are 1000 mm long, made as two-piece half shells, and are available unfaced or with aluminium foil or kraft paper facing."
+      },
+      {
+        "q": "Why is PIR insulation thinner than other insulation types?",
+        "a": "PIR has one of the lowest thermal conductivities of common insulation materials, about 0.022 W/m·K against about 0.038 W/m·K for mineral wool. It reaches the same insulating value with about 40% less thickness than mineral wool and about half the thickness of cork, which saves space, reduces cladding and vapour barrier costs and shortens installation time."
+      }
+    ],
+    "ctaTitle": "Need PIR insulation?",
+    "ctaText": "Tell us the form, pipe sizes or board dimensions, thickness, facing, operating temperature and quantity. We will reply with a quotation and lead time.",
+    "ctaRfq": "Request a Quote for PIR Insulation",
+    "ctaContact": "Or contact our team"
+  },
+  "fsPage": {
+    "metaTitle": "Industrial Fasteners Supplier | Bolts, Studs, Nuts & Washers",
+    "metaDescription": "Industrial fasteners — B7 studs, hex bolts, nuts, washers in SS, Inconel, Monel & Duplex. Trusted supplier since 1980, 25+ countries. Request a quote.",
+    "eyebrow": "Supplied by Santura",
+    "h1": "Industrial Fasteners",
+    "subheading": "Bolts, studs, nuts and washers in carbon steel, B7 alloy steel, stainless steel, duplex and nickel alloys, supplied together with our refractory anchors and insulation products for one-stop project procurement.",
+    "badges": [
+      "B7 / 2H stud bolts",
+      "Hex bolts and nuts",
+      "Stainless steel",
+      "Inconel, Monel, Duplex",
+      "EN 10204 3.1 certificates",
+      "One purchase order"
+    ],
+    "gallery": [
+      "B7 stud bolts and threaded rods in alloy steel",
+      "Zinc-plated hexagon bolts",
+      "Heavy hex nuts in black steel",
+      "Serrated hex flange nuts in stainless steel",
+      "Zinc-plated hex flange bolt",
+      "Zinc-plated carriage bolts",
+      "Button head socket bolts in black oxide finish",
+      "Assorted industrial bolts, nuts and washers"
+    ],
+    "overviewTitle": "Fasteners for refinery, petrochemical and power projects",
+    "overview": [
+      "Alongside the refractory anchors, steel fibres and insulation pins it makes, Santura Engineering supplies industrial fasteners: bolts, studs, nuts and washers in carbon steel, alloy steel, stainless steel and high-performance alloys such as Inconel, Monel and Duplex.",
+      "Our fasteners are sourced from approved producers and supplied as part of complete project packages. This is most useful on refinery, petrochemical and power plant projects, where B7 flange bolting and alloy fasteners are specified alongside refractory and insulation materials.",
+      "EPC contractors, refineries and plant operators can therefore buy anchors, insulation and fasteners from one supplier, with one set of documents and one delivery schedule."
+    ],
+    "whyTitle": "Why source fasteners from Santura",
+    "why": [
+      {
+        "title": "One-stop procurement",
+        "text": "Refractory anchors, insulation materials, insulation pins and fasteners from a single supplier: one purchase order, one shipment and one set of documents."
+      },
+      {
+        "title": "Alloy knowledge",
+        "text": "We make anchors every day in stainless steels such as SS 304, 310 and 316 and in nickel alloys such as Inconel. The same material knowledge goes into selecting and checking fastener grades."
+      },
+      {
+        "title": "Project-ready packing",
+        "text": "On request, B7 stud sets are packed and labelled by flange size and pressure class, and fastener kits are sorted by assembly, ready for use on site."
+      },
+      {
+        "title": "Quality documents",
+        "text": "Material test certificates to EN 10204 3.1, heat or lot numbers on the labels, and documents checked against the order before dispatch."
+      },
+      {
+        "title": "Global delivery",
+        "text": "Fasteners travel with your anchors and insulation through the same logistics we use to ship to more than 25 countries."
+      }
+    ],
+    "rangeTitle": "Fastener range",
+    "rangeIntro": "Common types and the standards they are usually supplied to. Other types, standards and special sizes are sourced to your specification.",
+    "boltsTitle": "Bolts and studs",
+    "nutsTitle": "Nuts",
+    "washersTitle": "Washers",
+    "colType": "Type",
+    "colDescription": "Description",
+    "colStandards": "Common standards",
+    "bolts": [
+      {
+        "type": "Hexagon bolts and screws",
+        "text": "Standard hex head bolts, the most common industrial fastener; part or full thread"
+      },
+      {
+        "type": "Stud bolts (B7)",
+        "text": "Fully threaded chromium-molybdenum alloy steel studs for high-temperature, high-pressure flange bolting"
+      },
+      {
+        "type": "U-bolts",
+        "text": "U-shaped bolts that clamp pipes to supports"
+      },
+      {
+        "type": "Eye bolts",
+        "text": "Bolts with a looped head for lifting and rigging"
+      },
+      {
+        "type": "Flange bolts",
+        "text": "Hex bolts with an integral flange that spreads the load and resists loosening"
+      },
+      {
+        "type": "Carriage bolts",
+        "text": "Round head with a square neck that stops the bolt turning as the nut is tightened"
+      },
+      {
+        "type": "Hexagon socket head bolts",
+        "text": "Socket drive for high torque in tight spaces and flush mounting; cap head and countersunk"
+      },
+      {
+        "type": "Button head bolts",
+        "text": "Low rounded head; socket types and M16 bolts for crash barriers"
+      },
+      {
+        "type": "Knurled bolts",
+        "text": "Bolts with a knurled head or shank, supplied to drawing"
+      },
+      {
+        "type": "Flat square neck bolts",
+        "text": "Flat countersunk head with a square neck"
+      },
+      {
+        "type": "Flat nib bolts",
+        "text": "Flat head with a nib that stops the bolt turning in steel connections"
+      }
+    ],
+    "nuts": [
+      {
+        "type": "Hexagon nuts",
+        "text": "Standard hex nuts for general use"
+      },
+      {
+        "type": "Heavy hex nuts",
+        "text": "Thicker nuts with larger across-flats for high-strength bolting, used with B7 studs"
+      },
+      {
+        "type": "Lock nuts (thin / jam nuts)",
+        "text": "Thin hex nuts used as a second, locking nut"
+      },
+      {
+        "type": "Nylock nuts",
+        "text": "Hex nuts with a nylon insert that resists loosening under vibration"
+      },
+      {
+        "type": "Flanged nuts",
+        "text": "Hex nuts with an integral serrated flange that spreads the load"
+      },
+      {
+        "type": "Weld nuts",
+        "text": "Square or hex nuts designed to be welded to plate"
+      },
+      {
+        "type": "Square nuts",
+        "text": "Four-sided nuts for channels and slots"
+      },
+      {
+        "type": "Domed cap nuts",
+        "text": "Hex nuts with a closed dome that covers the bolt end"
+      },
+      {
+        "type": "Eye nuts",
+        "text": "Nuts with a lifting eye for rigging"
+      }
+    ],
+    "washers": [
+      {
+        "type": "Plain / flat washers",
+        "text": "Flat washers that spread the load under the nut or bolt head"
+      },
+      {
+        "type": "Spring washers",
+        "text": "Split-ring washers that resist loosening under vibration"
+      },
+      {
+        "type": "Star washers",
+        "text": "Internal or external tooth washers for locking and electrical earthing"
+      },
+      {
+        "type": "Taper washers",
+        "text": "Wedge-shaped washers for the sloping flanges of I-beams and channels"
+      }
+    ],
+    "sizesTitle": "Sizes, grades and finishes",
+    "sizesIntro": "Typical supply ranges for our most requested items.",
+    "colProduct": "Product",
+    "colSize": "Size range",
+    "colGrade": "Grades",
+    "colFinish": "Finishes",
+    "rangeRows": [
+      {
+        "item": "Hexagon bolts and screws",
+        "size": "M6–M64; lengths up to 450 mm",
+        "grade": "4.6, 4.8, 5.6, 5.8, 8.8, 10.9, 12.9, B7, B7M",
+        "finish": "Black oxide, zinc plated, hot-dip galvanised"
+      },
+      {
+        "item": "Stud bolts and double-ended studs",
+        "size": "M8–M72; 5/16\" to 3\"",
+        "grade": "8.8 / 8, B7 / 2H, B7M / 2HM",
+        "finish": "Plain black, hot-dip galvanised"
+      },
+      {
+        "item": "Hexagon nuts",
+        "size": "M5–M56",
+        "grade": "4, 6, 8, 10, 12, 2H, 2HM",
+        "finish": "Black oxide, zinc plated, hot-dip galvanised"
+      },
+      {
+        "item": "Hexagon socket head bolts",
+        "size": "M8–M30; lengths up to 450 mm",
+        "grade": "4.6, 4.8, 5.6, 5.8, 8.8",
+        "finish": "Black oxide, zinc plated, hot-dip galvanised"
+      },
+      {
+        "item": "Carriage bolts",
+        "size": "M6–M64",
+        "grade": "4.6, 4.8, 5.6, 8.8",
+        "finish": "Black phosphate, bright or yellow zinc, hot-dip galvanised"
+      },
+      {
+        "item": "Flat square neck and flat nib bolts",
+        "size": "M6–M30",
+        "grade": "4.6, 4.8, 5.6, 8.8",
+        "finish": "Black phosphate, bright or yellow zinc, hot-dip galvanised"
+      },
+      {
+        "item": "Flange bolts, flanged nuts and knurled bolts",
+        "size": "To order",
+        "grade": "Bolts 8.8, 10.9, 12.9; nuts 8, 10, 12",
+        "finish": "Black oxide, zinc plated, hot-dip galvanised"
+      },
+      {
+        "item": "Button head bolts (crash barriers)",
+        "size": "M16",
+        "grade": "4.6, 8.8",
+        "finish": "Black phosphate, hot-dip galvanised"
+      }
+    ],
+    "b7Eyebrow": "Featured product",
+    "b7Title": "B7 stud bolts",
+    "b7Intro": "ASTM A193 B7 studs with A194 2H heavy hex nuts are the most commonly specified fastener for flange bolting in refineries and petrochemical plants.",
+    "b7Rows": [
+      {
+        "label": "Specification",
+        "value": "ASTM A193 Grade B7: chromium-molybdenum alloy steel, quenched and tempered"
+      },
+      {
+        "label": "Matching nuts",
+        "value": "ASTM A194 Grade 2H heavy hex; B7M studs with 2HM nuts for sour service"
+      },
+      {
+        "label": "Minimum tensile strength",
+        "value": "860 MPa up to 2½\"; 795 MPa over 2½\" to 4\"; 690 MPa over 4\" to 7\""
+      },
+      {
+        "label": "Minimum yield strength",
+        "value": "720 MPa up to 2½\"; 655 MPa over 2½\" to 4\"; 515 MPa over 4\" to 7\""
+      },
+      {
+        "label": "Service temperature",
+        "value": "Up to about 450 °C; above this, B16 or nickel-alloy bolting is specified"
+      },
+      {
+        "label": "Sizes",
+        "value": "M8–M72 (5/16\" to 3\"), in lengths to suit the flange class and gasket"
+      },
+      {
+        "label": "Finish",
+        "value": "Plain black or hot-dip galvanised; PTFE (Xylan) and other coatings on request"
+      },
+      {
+        "label": "Applications",
+        "value": "Pressure vessel and heat exchanger flanges, valve bonnets and pipeline flanges"
+      }
+    ],
+    "b7Note": "B7 studs can be supplied as sets (stud, two 2H nuts and washers where required), packed and labelled by flange size and pressure class for site installation.",
+    "materialsTitle": "Materials",
+    "materialsIntro": "Choose the material for the service temperature, pressure and corrosion exposure. We source the grade your specification calls for.",
+    "colMaterial": "Material",
+    "colGrades": "Grades",
+    "colUse": "Typical use",
+    "materials": [
+      {
+        "name": "Carbon steel",
+        "use": "General structural and non-critical service"
+      },
+      {
+        "name": "Alloy steel B7",
+        "use": "High-temperature, high-pressure flange bolting in refineries and petrochemical plants"
+      },
+      {
+        "name": "Alloy steel B7M",
+        "use": "Sour (H₂S) service, with controlled hardness"
+      },
+      {
+        "name": "Stainless steel 304 / 304L",
+        "use": "General corrosion resistance; food and pharmaceutical plants"
+      },
+      {
+        "name": "Stainless steel 316 / 316L",
+        "use": "Marine, chemical and chloride environments"
+      },
+      {
+        "name": "Stainless steel 321 / 347",
+        "use": "Stabilised grades for high-temperature service"
+      },
+      {
+        "name": "Duplex 2205",
+        "use": "Offshore and desalination; resists chlorides and stress corrosion cracking"
+      },
+      {
+        "name": "Inconel 600 / 625",
+        "use": "High temperatures and severe corrosion"
+      },
+      {
+        "name": "Monel 400 / K-500",
+        "use": "Seawater, chemical processing and acid environments"
+      },
+      {
+        "name": "Hastelloy C-276",
+        "use": "Severely corrosive chemical environments"
+      }
+    ],
+    "qualityTitle": "Quality and documentation",
+    "qualityRows": [
+      {
+        "label": "Certificates",
+        "value": "Material test certificates to EN 10204 3.1 from the mill or fastener producer; 3.2 with third-party inspection on request"
+      },
+      {
+        "label": "Checks before dispatch",
+        "value": "Certificates checked against the order, dimensional checks, and alloy identity checked with our handheld XRF analyser on stainless and nickel-alloy fasteners"
+      },
+      {
+        "label": "Traceability",
+        "value": "Heat or lot numbers carried from the certificates to the package labels"
+      },
+      {
+        "label": "Packing",
+        "value": "Labelled by size and grade; cartons, bags or project-specific packing"
+      },
+      {
+        "label": "Standards",
+        "value": "ASTM, ASME / ANSI, DIN, ISO, BS and IS, to the project specification"
+      }
+    ],
+    "applicationsTitle": "Applications by industry",
+    "applications": [
+      {
+        "title": "Oil, gas and petrochemical",
+        "items": [
+          "Flange bolting on process piping (B7 / 2H stud sets)",
+          "Pressure vessel and heat exchanger closures",
+          "Valve bonnet bolting",
+          "Pipeline flange connections",
+          "Sour service bolting (B7M / 2HM) and alloy fasteners for corrosive service"
+        ]
+      },
+      {
+        "title": "Power generation",
+        "items": [
+          "Steam pipe flange bolting",
+          "Boiler and pressure part bolting",
+          "Turbine casing bolting",
+          "Structural connections"
+        ]
+      },
+      {
+        "title": "Construction and structural",
+        "items": [
+          "Steel structure connections (hex and carriage bolts)",
+          "Pipe clamp U-bolts",
+          "Handrail and platform connections",
+          "Crash barrier bolts"
+        ]
+      },
+      {
+        "title": "Marine and offshore",
+        "items": [
+          "Duplex fasteners for seawater service",
+          "Monel fasteners for seawater and subsea service",
+          "SS 316 bolting for marine environments"
+        ]
+      },
+      {
+        "title": "General industrial",
+        "items": [
+          "Equipment assembly and maintenance",
+          "Machinery fasteners for OEMs",
+          "Plant maintenance spares"
+        ]
+      }
+    ],
+    "relatedTitle": "Products we make",
+    "relatedAnchors": "Our core product: SEPL anchors for refractory linings.",
+    "relatedFibresName": "Steel Fibres",
+    "relatedFibres": "Stainless steel fibres for castable reinforcement, made in our works.",
+    "relatedPins": "Weld pins, adhesive pins and washers for fixing insulation.",
+    "relatedFoundation": "L, J, U, plate and straight foundation bolts made to drawing.",
+    "relatedCw": "Fabricated counter-weight systems from our works.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What types of industrial fasteners does Santura supply?",
+        "a": "Santura supplies a full range of industrial fasteners: hexagon bolts, B7 stud bolts, U-bolts, eye bolts, flange bolts, carriage bolts and socket head bolts, with matching nuts (hex, heavy hex, lock, nylock, flanged, weld, square, cap and eye nuts) and plain, spring, star and taper washers. They are available in carbon steel, alloy steel, stainless steel, Inconel, Monel and Duplex."
+      },
+      {
+        "q": "What materials are your fasteners available in?",
+        "a": "Fasteners are supplied in carbon steel (ASTM A307 and ISO property classes), alloy steel (ASTM A193 B7 and B7M), stainless steel (304, 316, 321, 347), Duplex 2205, Inconel 600/625, Monel 400/K-500 and Hastelloy C-276. The right material depends on service temperature, pressure and corrosion exposure. Fasteners are supplied with EN 10204 3.1 material test certificates."
+      },
+      {
+        "q": "Do you supply B7 stud bolts for flange connections?",
+        "a": "Yes. Santura supplies ASTM A193 Grade B7 stud bolts with A194 Grade 2H heavy hex nuts, the standard specification for refinery and petrochemical flange bolting, and B7M/2HM for sour service. Sizes run from M8 to M72 (5/16\" to 3\") in lengths to suit the flange class, and studs can be supplied as complete sets (stud, two nuts and washers) labelled by flange."
+      },
+      {
+        "q": "Why source fasteners from Santura alongside refractory anchors?",
+        "a": "Santura's core business is making refractory anchors and insulation pins for the same refineries and petrochemical plants that need industrial fasteners. Sourcing both from Santura means one purchase order, one shipment, one set of documents and the same quality checks, which simplifies procurement for EPC contractors and plant operators."
+      }
+    ],
+    "ctaTitle": "Need fasteners for your project?",
+    "ctaText": "Send us your bolting list with type, size, grade, standard, finish and quantity, or a flange list for B7 stud sets. We will reply with a quotation and lead time.",
+    "ctaRfq": "Request a Quote for Fasteners",
+    "ctaContact": "Or contact our team",
+    "trademarkNote": "Inconel and Monel are trademarks of Special Metals Corporation. Hastelloy is a trademark of Haynes International. Xylan is a trademark of PPG Industries. Other names belong to their respective owners and are used only for identification."
+  },
+  "iaPage": {
+    "metaTitle": "Insulation Accessories & Cladding Hardware | Santura",
+    "metaDescription": "Insulation banding, screws, rivets, clips & cladding accessories in SS & aluminium. Trusted supplier since 1980, exported to 25+ countries.",
+    "eyebrow": "Insulation materials",
+    "h1": "Insulation Accessories & Cladding Hardware",
+    "subheading": "Banding, wing seals, expansion springs, screws, pop rivets, tie wire, perforated sheets, tapes and sealants for securing and finishing insulation and metal jacketing on pipes, vessels, ducts and equipment.",
+    "badges": [
+      "SS banding and wing seals",
+      "Expansion springs",
+      "Pop rivets",
+      "Perforated sheets",
+      "Tie wire and mesh",
+      "Tapes and sealants"
+    ],
+    "gallery": [
+      "Stainless steel wing seal buckle for insulation banding",
+      "Pop rivets for joining metal jacketing seams",
+      "Blind rivet with break-stem mandrel",
+      "Perforated stainless steel strip",
+      "Perforated stainless steel angles",
+      "Perforated stainless steel cylinder",
+      "SEPL-04 scissor clip in stainless steel wire"
+    ],
+    "overviewTitle": "What insulation accessories do",
+    "overview": [
+      "Insulation accessories are the hardware and consumables that secure, support and finish thermal insulation and its metal cladding (jacketing) on pipes, vessels, ducts and equipment. Bands hold the jacketing in place, springs keep bands tight as equipment expands and contracts, screws and rivets close the jacketing seams, wire and mesh hold the insulation itself, and tapes and sealants keep out water and vapour.",
+      "The accessories decide how long an insulation system lasts. Loose bands, the wrong metal against the jacketing or a missing vapour seal can let water into the insulation, which cuts its performance and can cause corrosion under insulation.",
+      "Santura supplies these accessories alongside its insulation materials and pins for refineries, petrochemical plants, power stations and steel and cement plants, matched to the material grades in the project specification."
+    ],
+    "groupsTitle": "Accessory range",
+    "groupsIntro": "The main accessory groups. Other items, sizes and grades are supplied to your specification.",
+    "groups": [
+      {
+        "title": "Banding and strapping",
+        "tag": "",
+        "text": "Bands hold metal jacketing and insulation in place on pipes, vessels and equipment.",
+        "items": [
+          "Stainless steel bands, ½\" and ¾\" × 0.020\" as standard",
+          "Aluminium and galvanised steel bands",
+          "Polypropylene or nylon bands for indoor use up to about 93 °C",
+          "Wing seals (buckles) in the same material as the band",
+          "Manual and pneumatic tensioning tools",
+          "Widths 3/8\" to 1¼\", thickness 0.015\" to 0.025\": ½\" for pipes and small vessels, up to 1¼\" for large tanks"
+        ]
+      },
+      {
+        "title": "Expansion springs",
+        "tag": "",
+        "text": "Springs fitted in a band run take up thermal expansion and contraction, so bands stay tight without cutting into the jacketing.",
+        "items": [
+          "Stainless steel spring assemblies, 2\" and 4\" long",
+          "For hot and cold vessels and large-diameter hot or cold piping",
+          "Heavy-duty springs for 1¼\" bands on large tanks and corrugated jacketing"
+        ]
+      },
+      {
+        "title": "Self-tapping and self-drilling screws",
+        "tag": "",
+        "text": "Screws fix jacketing where bands cannot, such as gore sections on elbows.",
+        "items": [
+          "Type 410 stainless steel, slotted hex washer head",
+          "#8 × ½\" self-drilling and self-tapping",
+          "Versions with neoprene sealing washers for weatherproof joints",
+          "Gore sections on elbows and seams on corrugated jacketing"
+        ]
+      },
+      {
+        "title": "Pop rivets (blind rivets)",
+        "tag": "Made in our fabrication shop",
+        "text": "Pop rivets join two or more sheet components and are installed with access from one side only. On insulation they secure overlapping jacketing seams.",
+        "items": [
+          "Aluminium, stainless steel and Monel bodies",
+          "1/8\" (3.2 mm) and 5/32\" (4.0 mm) diameters",
+          "Pull-type rivets with break-stem mandrel"
+        ]
+      },
+      {
+        "title": "Tie wire and wire mesh",
+        "tag": "",
+        "text": "Wire and mesh hold the insulation itself before the jacketing goes on.",
+        "items": [
+          "Soft annealed stainless steel wire, 16 gauge (1.6 mm) and 18 gauge (1.2 mm)",
+          "Ties two-piece rigid pipe sections such as calcium silicate and perlite",
+          "Hexagonal wire mesh for outer support of blanket insulation",
+          "Welded wire mesh for insulation on vessels and large equipment",
+          "Galvanised wire on request (rarely specified today)"
+        ]
+      },
+      {
+        "title": "Perforated sheets",
+        "tag": "Made in our fabrication shop",
+        "text": "Stainless steel sheets punched with a range of hole patterns, which save weight and pass air and sound. They are widely used in reformers and fired heaters.",
+        "items": [
+          "Hot rolled or cold rolled, made to customer drawings",
+          "Easy to weld, cut and form",
+          "Different hole patterns, shapes, sizes and grades",
+          "Used as liners and retaining layers in multi-layer insulation"
+        ]
+      },
+      {
+        "title": "Scissor clips (SEPL-04)",
+        "tag": "Part of our SEPL anchor range",
+        "text": "Wire retaining clamps that hold brick linings where the bricks are set out from the wall or roof.",
+        "items": [
+          "Formed from wire to our drawings or yours",
+          "Alloys including CS, 304, 304H, 309, 253MA, 310, 314, 316, 321, 330, 800 and 601"
+        ]
+      },
+      {
+        "title": "Tapes and sealants",
+        "tag": "",
+        "text": "Tapes and sealants close jacketing seams and vapour barriers against water and moisture.",
+        "items": [
+          "Polyester film tape reinforced with glass yarn",
+          "Aluminium foil tape (for example 2-mil, 100 mm wide) for jacketing seams",
+          "Low-chloride tapes for austenitic stainless steel above about 60 °C",
+          "ASJ and FRK butt-joint tapes",
+          "Joint sealants for rigid insulation systems"
+        ]
+      },
+      {
+        "title": "Shoulder studs and setback caps",
+        "tag": "",
+        "text": "Weld-on studs that hold insulation and jacketing on surfaces where bands cannot be used.",
+        "items": [
+          "Weld-on studs in stainless or carbon steel, 5/16\" with grooved stem",
+          "Speed clips to hold insulation during installation",
+          "Setback caps for final jacket fixing",
+          "Conical vessel bottoms and oven panels"
+        ]
+      }
+    ],
+    "pinsBoxTitle": "Weld pins and speed washers",
+    "pinsBoxText": "Weld pins, adhesive pins, speed washers and dome caps for fixing insulation are covered on our dedicated Insulation Pins page.",
+    "pinsBoxLink": "See Insulation Pins",
+    "specTitle": "Specification summary",
+    "colItem": "Accessory",
+    "colMaterial": "Materials",
+    "colSizes": "Standard sizes",
+    "colTemp": "Temperature",
+    "colUse": "Application",
+    "specRows": [
+      {
+        "item": "Banding",
+        "material": "SS 304 / 316; also aluminium and galvanised steel",
+        "sizes": "½\" and ¾\" × 0.020\"",
+        "temp": "SS: cryogenic to about 650 °C",
+        "use": "Securing jacketing and insulation"
+      },
+      {
+        "item": "Wing seals (buckles)",
+        "material": "Same as band",
+        "sizes": "To match band width",
+        "temp": "As band",
+        "use": "Closing the band"
+      },
+      {
+        "item": "Expansion springs",
+        "material": "SS 304 / 316",
+        "sizes": "2\" and 4\"",
+        "temp": "As SS banding",
+        "use": "Hot and cold pipe and vessel banding"
+      },
+      {
+        "item": "Self-tapping screws",
+        "material": "SS 410",
+        "sizes": "#8 × ½\"",
+        "temp": "Jacketing surface temperature",
+        "use": "Jacketing seams and elbow gores"
+      },
+      {
+        "item": "Pop rivets",
+        "material": "Aluminium, SS, Monel",
+        "sizes": "1/8\" and 5/32\" diameter",
+        "temp": "Depends on material",
+        "use": "Jacketing overlap seams"
+      },
+      {
+        "item": "Tie wire",
+        "material": "SS 304 / 316",
+        "sizes": "16 ga (1.6 mm), 18 ga (1.2 mm)",
+        "temp": "Cryogenic to about 650 °C",
+        "use": "Tying rigid pipe sections"
+      },
+      {
+        "item": "Perforated sheets",
+        "material": "Stainless steel grades",
+        "sizes": "To drawing",
+        "temp": "Depends on grade",
+        "use": "Reformer and fired heater liners"
+      },
+      {
+        "item": "Scissor clips (SEPL-04)",
+        "material": "CS, stainless steels, heat-resistant alloys",
+        "sizes": "To drawing",
+        "temp": "Depends on alloy",
+        "use": "Retaining brick linings"
+      },
+      {
+        "item": "Aluminium foil tape",
+        "material": "Aluminium foil with adhesive",
+        "sizes": "For example 2-mil × 100 mm",
+        "temp": "Depends on adhesive",
+        "use": "Sealing jacketing seams"
+      }
+    ],
+    "specNote": "Typical values. Exact limits depend on the material grade, the adhesive and the project specification.",
+    "guideTitle": "Selection and installation guidance",
+    "guide": [
+      "Bands on pipe jacketing are usually placed at 225–300 mm (9–12\") centres. Follow the project specification.",
+      "Fit expansion springs in band runs on vessels and large-diameter hot or cold piping, so the bands stay tight as the equipment expands and contracts.",
+      "Match accessory metals to the jacketing, such as stainless steel bands and screws with stainless or aluminium jacketing, and avoid mixing metals where moisture can collect.",
+      "Do not use galvanised bands, wire or screws on hot austenitic stainless steel: zinc can embrittle stainless steel at high temperature.",
+      "On austenitic stainless steel above about 60 °C, use low-chloride tapes and accessories to reduce the risk of chloride stress corrosion cracking.",
+      "Use Monel or SS 316 accessories in marine and chloride-rich environments."
+    ],
+    "materialsTitle": "Materials",
+    "materials": [
+      "Stainless steel 304, 316, 316L, 321, 410",
+      "Carbon / mild steel",
+      "Galvanised steel (GI)",
+      "Aluminium",
+      "Monel",
+      "Nylon / polypropylene (indoor, low temperature)"
+    ],
+    "madeTitle": "Made in our works",
+    "madeText": "Pop rivets and perforated sheets are made in our fabrication shop, and SEPL-04 scissor clips are part of our refractory anchor range. Banding, springs, screws, wire, tapes and sealants are sourced and supplied with them, matched to the project's material grades.",
+    "applicationsTitle": "Applications by industry",
+    "applications": [
+      {
+        "title": "Oil, gas and petrochemical",
+        "items": [
+          "Jacketing on pipes and vessels",
+          "Banding for cold and cryogenic insulation",
+          "Perforated sheets for reformers and fired heaters"
+        ]
+      },
+      {
+        "title": "Power generation",
+        "items": [
+          "Boiler casing insulation",
+          "Turbine insulation",
+          "HRSG duct insulation"
+        ]
+      },
+      {
+        "title": "Steel and cement",
+        "items": [
+          "Kiln and furnace casing insulation",
+          "Scissor clips for brick linings"
+        ]
+      },
+      {
+        "title": "Marine and shipbuilding",
+        "items": [
+          "Monel and SS 316 accessories for corrosion resistance",
+          "Engine room insulation"
+        ]
+      },
+      {
+        "title": "HVAC and buildings",
+        "items": [
+          "Duct insulation tapes",
+          "Banding for large ducts"
+        ]
+      },
+      {
+        "title": "Cryogenic and LNG",
+        "items": [
+          "Stainless steel banding and expansion springs for cold service",
+          "Vapour-barrier tapes and sealants"
+        ]
+      }
+    ],
+    "supplyTitle": "What we supply",
+    "supply": [
+      "Santura Engineering supplies insulation and cladding accessories from one source: banding and wing seals, expansion springs, screws, pop rivets, tie wire and mesh, perforated sheets, tapes and sealants, matched to the project's material grade in stainless steel, galvanised steel, aluminium or Monel.",
+      "Pop rivets and perforated sheets are made in our fabrication shop, with perforated sheets made to drawing for reformers and fired heaters. We have supplied industrial customers since 1980 and export to more than 25 countries."
+    ],
+    "relatedTitle": "Related products",
+    "relatedPins": "Weld pins, adhesive pins, speed washers and dome caps.",
+    "relatedMineralWool": "Rockwool and glass wool slabs, rolls and pipe sections.",
+    "relatedCalsil": "Rigid pipe sections and boards, tied with stainless steel wire.",
+    "relatedGlassFibre": "Glass wool and glass cloth for ducts and lagging.",
+    "relatedSepl04": "Wire scissor clips for retaining brick linings.",
+    "relatedFasteners": "Bolts, studs, nuts and washers for the same projects.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What accessories are needed for metal jacketing installation?",
+        "a": "Metal jacketing systems use banding (typically ½\" stainless steel) with wing seal buckles, self-tapping screws (#8 × ½\" SS 410) for gore sections on elbows, pop rivets for overlap seams, and expansion springs on vessels and large hot or cold lines. Aluminium foil tape and sealants close longitudinal and circumferential seams."
+      },
+      {
+        "q": "What material should insulation banding be made of?",
+        "a": "Stainless steel 304 or 316 is preferred for most industrial applications. Aluminium bands suit aluminium jacketing in non-corrosive environments. Galvanised steel bands should not be used on hot stainless steel equipment, because zinc can embrittle stainless steel at high temperature, and mixed metals should be avoided where moisture can collect. Monel or SS 316 is specified for marine and chloride-rich environments."
+      },
+      {
+        "q": "How are perforated sheets used in insulation systems?",
+        "a": "Perforated stainless steel sheets are punched with a range of hole patterns and are widely used in reformers and fired heaters, for example as liners and retaining layers in multi-layer insulation. They save weight and are easy to weld, cut and form. Santura makes them hot or cold rolled to the customer's drawing, in the grade the project requires."
+      },
+      {
+        "q": "What is the spacing for insulation banding on pipes?",
+        "a": "Bands on pipe jacketing are usually placed at 225–300 mm (9–12\") centres, following the project specification. Expansion springs are fitted in band runs on vessels and large-diameter hot or cold piping to take up thermal movement. Large storage tanks use wider bands, up to 1¼\"."
+      },
+      {
+        "q": "Can Santura supply insulation accessories for cryogenic LNG projects?",
+        "a": "Yes. Austenitic stainless steel banding, wing seals, expansion springs and tie wire stay tough at cryogenic temperatures, and Santura supplies them in SS 304 or 316 together with vapour-barrier tapes and sealants for cold and cryogenic insulation systems. Material test certificates can be provided on request."
+      }
+    ],
+    "ctaTitle": "Need insulation accessories?",
+    "ctaText": "Send us your list with item, material, size and quantity, or your insulation specification, and we will put together the accessory package. We will reply with a quotation and lead time.",
+    "ctaRfq": "Request a Quote for Insulation Accessories",
+    "ctaContact": "Or contact our team",
+    "trademarkNote": "Monel is a trademark of Special Metals Corporation. 253 MA is a trademark of Outokumpu. Other names belong to their respective owners and are used only for identification."
+  },
+  "sfPage": {
+    "metaTitle": "Steel Fibre for Refractory & Concrete | Santura Engineering",
+    "metaDescription": "Melt extract & cold drawn steel fibres in SS 304, 310, 446 for refractory castables & concrete. Serving industry since 1980, exported to 25+ countries.",
+    "eyebrow": "Made by Santura",
+    "h1": "Steel Fibre for Refractory & Concrete Reinforcement",
+    "subheading": "Melt extract and cold drawn steel fibres that reinforce refractory castables, monolithic linings and concrete against thermal shock, cracking and vibration. Made in our own works in AISI 304, 310, 446 and other grades.",
+    "badges": [
+      "Melt extract needles",
+      "Cold drawn: straight, hooked, wavy",
+      "AISI 304, 310, 446",
+      "Made to order",
+      "ISO 9001:2015"
+    ],
+    "gallery": [
+      "Melt extract stainless steel fibres (SEPL-27) for refractory castable reinforcement",
+      "Close-up of melt extract stainless steel fibres",
+      "Cold drawn straight stainless steel fibres (SEPL-28)",
+      "Pile of cold drawn straight steel fibres",
+      "Close-up of cold drawn steel fibres with hooked ends (SEPL-29)",
+      "Row of hooked-end cold drawn steel fibres",
+      "Close-up of cold drawn wavy steel fibres (SEPL-30)",
+      "Pile of corrugated cold drawn steel fibres"
+    ],
+    "overviewTitle": "What steel fibres do",
+    "overview": [
+      "Steel fibres, also called reinforcement needles, are short metal filaments mixed into refractory castables, monolithic linings and concrete. Spread through the whole material, they hold it together as it heats, cools and cracks, so the lining resists thermal shock, bursting and vibration and keeps its strength for longer.",
+      "Steel fibres are one of Santura's core products, made alongside our refractory anchors and often supplied with them for the same lining. We make them by two processes."
+    ],
+    "processes": [
+      {
+        "title": "Melt extraction",
+        "text": "Stainless steel ingots are melted in an electric furnace at 1500–1600 °C. A high-speed rotating extraction wheel is brought to the surface of the liquid steel and draws off fibres. The result is a fibre with an irregular cross-section that keys well into the castable."
+      },
+      {
+        "title": "Cold drawing",
+        "text": "Steel wire is drawn through dies and cut to length. Stainless steel cannot be hardened by heat treatment, so cold drawing is what gives these fibres their strength. The wire can be left straight, given hooked ends or corrugated along its length."
+      }
+    ],
+    "typesTitle": "Our four steel fibres",
+    "typesIntro": "Each fibre has its own product page with full details. This summary helps you choose between them.",
+    "types": [
+      {
+        "name": "Melt Extract Needles",
+        "process": "Melt extraction",
+        "text": "The most commonly used fibre in the refractory industry: widely accepted, economical and able to flow easily through hoses. Available in AISI 304, 310 and 446."
+      },
+      {
+        "name": "Cold Drawn Needles (Straight)",
+        "process": "Cold drawing",
+        "text": "Straight needles with high strength from the cold drawing process. Made by cutting and easily mixed into the material; commonly 25–35 mm long and 0.3–0.7 mm in diameter."
+      },
+      {
+        "name": "Cold Drawn Needles (Hooked)",
+        "process": "Cold drawing",
+        "text": "Fibres with hooked ends made from high-quality low carbon steel wire, giving good toughness at a low price. The hooks anchor the fibre in the matrix."
+      },
+      {
+        "name": "Cold Drawn Needles (Wavy)",
+        "process": "Cold drawing",
+        "text": "The same characteristics as the straight needles, corrugated along the length to give the highest strength to refractories."
+      }
+    ],
+    "typeLink": "{code} details",
+    "compareTitle": "Steel fibre types compared",
+    "colProperty": "Property",
+    "compareRows": [
+      {
+        "label": "Process",
+        "values": [
+          "Melt extraction from molten stainless steel",
+          "Cold drawn wire, cut to length",
+          "Cold drawn wire with hooked ends",
+          "Cold drawn wire, corrugated"
+        ]
+      },
+      {
+        "label": "Shape",
+        "values": [
+          "Irregular cross-section from the extraction process",
+          "Straight, round",
+          "Round with hooked ends",
+          "Round, wavy along the length"
+        ]
+      },
+      {
+        "label": "Material",
+        "values": [
+          "AISI 304, 310, 446; other alloys on request",
+          "Stainless steel, such as 304, 310, 316",
+          "Low carbon steel wire",
+          "Stainless steel, such as 304, 310, 316"
+        ]
+      },
+      {
+        "label": "Length",
+        "values": [
+          "Range of lengths, to order",
+          "25–35 mm",
+          "To order",
+          "To order"
+        ]
+      },
+      {
+        "label": "Diameter",
+        "values": [
+          "Range of sizes, to order",
+          "0.3–0.7 mm",
+          "To order",
+          "To order"
+        ]
+      },
+      {
+        "label": "Tensile strength",
+        "values": [
+          "On request",
+          "Above 650 MPa",
+          "On request",
+          "On request"
+        ]
+      },
+      {
+        "label": "Main advantage",
+        "values": [
+          "Most widely used refractory fibre; economical; flows through hoses",
+          "High strength from cold drawing; mixes easily",
+          "Hooks anchor the fibre; good toughness at low price",
+          "Corrugation gives the highest strength"
+        ]
+      }
+    ],
+    "compareNote": "Sizes marked “to order” are made to your specification. Send us the length, diameter and grade you need.",
+    "guideTitle": "Melt extract or cold drawn",
+    "colCriterion": "Criterion",
+    "colMelt": "Melt extract",
+    "colCold": "Cold drawn",
+    "guideRows": [
+      {
+        "label": "How it is made",
+        "melt": "Fibres drawn off molten stainless steel by a rotating wheel",
+        "cold": "Wire drawn through dies and cut, then hooked or corrugated if required"
+      },
+      {
+        "label": "Typical use",
+        "melt": "The most widely used fibre for refractory castables and monolithic linings",
+        "cold": "Refractory castables and concrete; hooked fibres are common in concrete"
+      },
+      {
+        "label": "Shape and bond",
+        "melt": "Irregular cross-section that keys into the castable",
+        "cold": "Uniform round wire; hooks or waves add anchorage"
+      },
+      {
+        "label": "Placement",
+        "melt": "Flows easily through hoses",
+        "cold": "Straight fibres mix easily into the material"
+      },
+      {
+        "label": "Cost",
+        "melt": "Economical and widely accepted",
+        "cold": "Hooked low carbon fibres are the lowest-cost option"
+      }
+    ],
+    "gradesTitle": "Grades",
+    "grades": [
+      {
+        "grade": "AISI 304",
+        "text": "general-purpose austenitic stainless steel (about 18% Cr, 8% Ni) for moderate temperatures"
+      },
+      {
+        "grade": "AISI 310",
+        "text": "high-chromium, high-nickel heat-resisting grade (about 25% Cr, 20% Ni) for higher temperatures and thermal cycling"
+      },
+      {
+        "grade": "AISI 446",
+        "text": "ferritic grade with 23–27% chromium and very good oxidation resistance"
+      },
+      {
+        "grade": "AISI 316",
+        "text": "molybdenum-bearing grade for better resistance to chemical attack, used for cold drawn fibres"
+      },
+      {
+        "grade": "Low carbon steel",
+        "text": "for hooked-end fibres, mainly in concrete"
+      },
+      {
+        "grade": "Other alloys",
+        "text": "available on request"
+      }
+    ],
+    "meltingTitle": "Approximate melting ranges",
+    "colGrade": "Grade",
+    "colMelting": "Melting range",
+    "meltingNote": "The safe service temperature of a fibre is well below its melting range and depends on the atmosphere and the castable. Follow the castable manufacturer's limits.",
+    "benefitsTitle": "Benefits of steel fibre reinforcement",
+    "benefits": [
+      "High resistance to thermal shock",
+      "Flexible crack limitation",
+      "High resistance to bursting",
+      "High resistance to vibration",
+      "Increased support strength for monolithic cross-sections",
+      "Reinforcement throughout the castable, which can reduce the need for mesh"
+    ],
+    "applicationsTitle": "Applications by industry",
+    "applications": [
+      {
+        "title": "Steel and aluminium",
+        "items": [
+          "Ladle refractories",
+          "Furnace roofs",
+          "Monolithic linings exposed to thermal shock"
+        ]
+      },
+      {
+        "title": "Cement",
+        "items": [
+          "Kiln linings",
+          "Preheaters",
+          "Cooler ducts"
+        ]
+      },
+      {
+        "title": "Petrochemical",
+        "items": [
+          "Reactors",
+          "Reformers",
+          "Crackers"
+        ]
+      },
+      {
+        "title": "Power and marine",
+        "items": [
+          "Boiler refractories",
+          "Marine boilers and furnace components"
+        ]
+      },
+      {
+        "title": "Furnaces and coke ovens",
+        "items": [
+          "Insulating and dense castables in industrial furnaces",
+          "Coke oven castables"
+        ]
+      },
+      {
+        "title": "Concrete reinforcement",
+        "items": [
+          "Foundations",
+          "Pavements",
+          "Liquid-tight slabs"
+        ]
+      }
+    ],
+    "supplyTitle": "What we supply",
+    "supply": [
+      "Santura Engineering makes steel fibres in its own works by both processes: melt extract needles in AISI 304, 310 and 446, and cold drawn needles in straight, hooked and wavy forms. Other alloys, lengths and diameters are made to order.",
+      "Santura has served steel, cement, petrochemical and power customers since 1980, exports to more than 25 countries and works under an ISO 9001:2015 certified quality system. Fibres can be shipped together with the SEPL anchors for the same lining."
+    ],
+    "standardsTitle": "Standards",
+    "standards": [
+      "Steel fibres for fibre-reinforced concrete (Types I–V)",
+      "Fibres for concrete: steel fibres"
+    ],
+    "standardsNote": "These standards cover fibres for concrete. Refractory fibres are usually specified by alloy, length and diameter in the castable or project specification.",
+    "relatedTitle": "Related products and services",
+    "relatedAnchors": "SEPL anchors for brick, castable and ceramic fibre linings.",
+    "relatedCalsil": "Rigid insulation for high-temperature equipment.",
+    "relatedPickling": "Pickling and passivation of stainless steel products.",
+    "relatedPins": "Weld pins and washers for fixing insulation.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What is the difference between melt extract and cold drawn steel fibres?",
+        "a": "Melt extract fibres are drawn off molten stainless steel, melted at 1500–1600 °C, by a high-speed rotating wheel, which gives them an irregular cross-section that keys into the castable. They are the most widely used refractory fibre: economical and easy to pump through hoses. Cold drawn fibres are made by drawing wire through dies and cutting it to length, which gives a uniform round fibre with high strength. They come straight, with hooked ends or wavy; hooked fibres are widely used in concrete."
+      },
+      {
+        "q": "Which steel fibre grade is best for refractory applications?",
+        "a": "It depends on the operating temperature, the atmosphere and any chemical exposure. AISI 446, a ferritic grade with 23–27% chromium, has very good oxidation resistance. AISI 310 is a high-chromium, high-nickel grade for higher temperatures and thermal cycling. AISI 304 is a general-purpose grade for moderate temperatures. The castable manufacturer's recommendations should guide the final choice."
+      },
+      {
+        "q": "What dosage of steel fibre should be used in refractory castables?",
+        "a": "Dosage is usually given as a percentage by weight of the dry castable and depends on the castable formulation, the application and the operating conditions. Follow the castable manufacturer's data sheet and the lining designer's specification; we can advise on fibre type and size for your castable."
+      },
+      {
+        "q": "Can steel fibres replace metallic mesh in refractory linings?",
+        "a": "In many monolithic linings, yes. Fibres are spread through the whole castable and reinforce it in three dimensions, whereas mesh reinforces it in one plane. This can reduce or remove the need for mesh, making installation easier and limiting cracking. The lining designer should confirm this for each application."
+      },
+      {
+        "q": "What lengths and diameters of steel fibres does Santura make?",
+        "a": "Cold drawn straight needles are commonly supplied 25–35 mm long and 0.3–0.7 mm in diameter, with tensile strength above 650 MPa. Melt extract needles are offered in a wide range of lengths and diameters in AISI 304, 310 and 446. Hooked and wavy fibres, and other sizes and alloys, are made to order."
+      }
+    ],
+    "ctaTitle": "Need steel fibres?",
+    "ctaText": "Tell us the fibre type, grade, length, diameter and quantity, or the castable you are reinforcing. We will reply with a quotation and lead time.",
+    "ctaRfq": "Request a Quote for Steel Fibres",
+    "ctaContact": "Or contact our team"
+  },
+  "tdPage": {
+    "metaTitle": "Stainless Steel Supplier | Bars, Wire Rods, Sections",
+    "metaDescription": "Stainless steel wire rods, hex bars, flats, angles & round bars. Mill-certified SS supply in 304, 316, 310 grades since 1980 to 25+ countries.",
+    "eyebrow": "Trading Division",
+    "h1": "Stainless Steel Trading Division",
+    "subheading": "Mill-certified stainless steel wire rod coils, hexagonal, square, flat and pump shaft quality bars, angles and hot rolled bars, sourced from reputed mills and supplied with EN 10204 3.1 mill test certificates.",
+    "badges": [
+      "Wire rod coils",
+      "Bright bars",
+      "HRAP flats and angles",
+      "PSQ bars",
+      "200, 300, 400 series",
+      "EN 10204 3.1"
+    ],
+    "heroAlt": "Steelmaking then and now: early steel converters in an engraving beside a modern steel plant tapping molten metal",
+    "gallery": [
+      "Stainless steel wire coils in warehouse storage",
+      "Stainless steel hexagonal bright bars",
+      "Stainless steel square bars",
+      "Stainless steel HRAP flat bars",
+      "Stainless steel HRAP equal angles",
+      "Stainless steel pump shaft quality (PSQ) round bars",
+      "Stainless steel hot rolled bars",
+      "Stainless steel wire rod coils",
+      "Stainless steel equal angle section"
+    ],
+    "overviewTitle": "Stainless steel supply from one source",
+    "overview": [
+      "Santura Engineering's Trading Division supplies and exports mill-certified stainless steel sections to industrial projects in the Middle East, Africa and Europe. We source from reputed mills and deliver to refineries, construction sites, fabrication shops and EPC contractors, with mill test certificates to EN 10204 3.1.",
+      "The division complements our own manufacturing of refractory anchors and steel fibres. Many of the same customers need stainless steel sections as well, and can buy both from one supplier, with one set of documents."
+    ],
+    "jumpLabel": "Products on this page",
+    "sections": [
+      {
+        "title": "Wire rod coils",
+        "text": "Stainless steel wire rod in coils is the starting material for wire ropes, springs, fasteners, welding electrodes, wire mesh and refractory anchors, and is also used for kitchenware, medical instruments and electronic components.",
+        "rows": [
+          {
+            "label": "Size range",
+            "value": "5.5–16 mm wire rod block coils (5.5, 6, 6.5, 7, 7.5, 8, 9, 10, 11, 12, 13, 14, 15, 16 mm); 17–40 mm garret coils"
+          },
+          {
+            "label": "Coil weight",
+            "value": "850–1200 kg (wire rod block coils)"
+          },
+          {
+            "label": "Coil dimensions",
+            "value": "Block coils: ID 800–900 mm. Garret coils: ID 550–650 mm, OD 750–850 mm"
+          },
+          {
+            "label": "Standard",
+            "value": "As per EN 10088"
+          },
+          {
+            "label": "Supply condition",
+            "value": "Hot rolled (HR); hot rolled and pickled (HRP); hot rolled, annealed and pickled (HRAP); hot rolled and annealed (HRA)"
+          },
+          {
+            "label": "Packaging",
+            "value": "Steel strapping on each coil with plastic wrapping; poly packing for HRP and HRAP; or as specified"
+          }
+        ]
+      },
+      {
+        "title": "Hexagonal bars (bright)",
+        "text": "Bright hexagonal bars for nuts, valves, hose ends, fasteners and hex bolts, combining strength with corrosion resistance. Supplied in grades 201, 304/304L, 316/316L and 303.",
+        "rows": [
+          {
+            "label": "Grades",
+            "value": "201, 304/304L, 316/316L, 303"
+          },
+          {
+            "label": "Size range",
+            "value": "12–55 mm (½\" to 2¼\")"
+          },
+          {
+            "label": "Size tolerance",
+            "value": "h11"
+          },
+          {
+            "label": "Length",
+            "value": "3.00–6.70 m (10–22 ft); cut to length with −0/+50 mm tolerance"
+          },
+          {
+            "label": "Chamfering",
+            "value": "30°, 45° or 60°; plain cut ends free from burrs"
+          },
+          {
+            "label": "Straightness",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Surface finish",
+            "value": "Shot blasted and cold drawn, or belt polished"
+          },
+          {
+            "label": "Heat treatment",
+            "value": "Solution annealed"
+          }
+        ]
+      },
+      {
+        "title": "Square bars",
+        "text": "Austenitic stainless steel square bars for demanding uses such as aerospace parts, pressure gauges, temperature sensors and load cells. Across-flats size and corner radius can be held to your requirements. Drawn and polished bars suit decorative work; shot blasted and cold drawn bars suit critical applications.",
+        "rows": [
+          {
+            "label": "Grades",
+            "value": "Austenitic grades"
+          },
+          {
+            "label": "Size range",
+            "value": "12–55 mm (½\" to 2¼\")"
+          },
+          {
+            "label": "Size tolerance",
+            "value": "h11"
+          },
+          {
+            "label": "Length",
+            "value": "3.00–6.70 m (10–22 ft); cut to length with −0/+50 mm tolerance"
+          },
+          {
+            "label": "Chamfering",
+            "value": "30°, 45° or 60°; plain cut ends free from burrs"
+          },
+          {
+            "label": "Straightness",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Surface finish",
+            "value": "Shot blasted and cold drawn, or belt polished"
+          },
+          {
+            "label": "Heat treatment",
+            "value": "Solution annealed"
+          }
+        ]
+      },
+      {
+        "title": "HRAP flat bars",
+        "text": "Hot rolled, annealed and pickled true mill flat bars, rolled to size rather than slit from plate, which gives them higher strength than slit flats. Used in construction and high-strength fabrication; belt polished bars are available for decorative work.",
+        "rows": [
+          {
+            "label": "Size tolerance",
+            "value": "ASTM A484"
+          },
+          {
+            "label": "Length",
+            "value": "3.00–6.70 m (10–22 ft); cut to length with −0/+50 mm tolerance"
+          },
+          {
+            "label": "Straightness",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Surface finish",
+            "value": "Hot rolled, annealed, pickled and shot blasted, or belt polished"
+          },
+          {
+            "label": "Heat treatment",
+            "value": "Solution annealed"
+          },
+          {
+            "label": "Sizes",
+            "value": "Widths 25–100 mm, thicknesses 5–50 mm (see table)"
+          }
+        ]
+      },
+      {
+        "title": "HRAP angles",
+        "text": "Hot rolled, annealed and pickled equal angles for construction and structural frames, furniture, food processing equipment and machinery.",
+        "rows": [
+          {
+            "label": "Size tolerance",
+            "value": "ASTM A484"
+          },
+          {
+            "label": "Length",
+            "value": "3.00–6.70 m (10–22 ft); cut to length with −0/+50 mm tolerance"
+          },
+          {
+            "label": "Straightness",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Surface finish",
+            "value": "Hot rolled, annealed, pickled and shot blasted"
+          },
+          {
+            "label": "Heat treatment",
+            "value": "Solution annealed"
+          },
+          {
+            "label": "Sizes",
+            "value": "20 × 20 mm to 75 × 75 mm, 3–12 mm thick (see table)"
+          }
+        ]
+      },
+      {
+        "title": "PSQ (pump shaft quality) bars",
+        "text": "Precision round bars with tighter tolerance and better straightness than regular bright bars, ready to use directly as pump shafts, cylinder shafts and piston shafts.",
+        "rows": [
+          {
+            "label": "Size range",
+            "value": "6–63.5 mm (¼\" to 2½\")"
+          },
+          {
+            "label": "Size tolerance",
+            "value": "h8"
+          },
+          {
+            "label": "Length",
+            "value": "3.00–6.70 m (10–22 ft); cut to length with −0/+50 mm tolerance"
+          },
+          {
+            "label": "Chamfering",
+            "value": "30°, 45° or 60°"
+          },
+          {
+            "label": "Straightness",
+            "value": "Up to 0.25 mm/m TIR"
+          },
+          {
+            "label": "Surface finish",
+            "value": "Centreless ground and belt polished to Ra 0.2 µm; 240–320 grit polished"
+          },
+          {
+            "label": "Heat treatment",
+            "value": "Solution annealed, annealed, QT 650, QT 800 and others"
+          }
+        ]
+      },
+      {
+        "title": "Hot rolled bars",
+        "text": "Hot rolled round bars for processors, machining and forging, supplied in straightened condition.",
+        "rows": [
+          {
+            "label": "Sizes",
+            "value": "13–150 mm (see list)"
+          },
+          {
+            "label": "Tolerance",
+            "value": "EN 10060"
+          },
+          {
+            "label": "Length",
+            "value": "3.00–6.70 m (10–22 ft)"
+          },
+          {
+            "label": "Straightness",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Surface finish",
+            "value": "As rolled, black"
+          },
+          {
+            "label": "Heat treatment",
+            "value": "Annealed, solution annealed, or quenched and tempered"
+          }
+        ]
+      }
+    ],
+    "wireGradesTitle": "Wire rod grades",
+    "wireGradesAstm": "ASTM / AISI",
+    "wireGradesEn": "DIN / EN",
+    "wireGradesElectrode": "Welding electrode grades",
+    "wireGradesNote": "Specialised grades are also available to customer requirements.",
+    "colWidth": "Width (mm)",
+    "colThicknessRange": "Thickness range (mm)",
+    "colAngleSize": "Size (mm)",
+    "colAngleThickness": "Thicknesses (mm)",
+    "hotRolledSizesTitle": "Sizes (mm)",
+    "gradesTitle": "Stainless steel grades",
+    "gradesIntro": "The grade families we supply. Ask us for any grade not listed.",
+    "colFamily": "Grade family",
+    "colGrades": "Grades",
+    "colProperties": "Key properties",
+    "gradeRows": [
+      {
+        "family": "Austenitic (300 series)",
+        "grades": "304, 304L, 304H, 310, 310S, 316, 316L, 316Ti, 321",
+        "properties": "Good general corrosion resistance; non-magnetic when annealed; the most widely used family"
+      },
+      {
+        "family": "Austenitic (200 series)",
+        "grades": "201, 202, 204Cu",
+        "properties": "Lower nickel content; a cost-effective alternative to the 300 series for less demanding service"
+      },
+      {
+        "family": "Martensitic (400 series)",
+        "grades": "410, 420",
+        "properties": "Hardenable by heat treatment; wear resistant; magnetic"
+      },
+      {
+        "family": "Ferritic (400 series)",
+        "grades": "430, 430L",
+        "properties": "Magnetic; good resistance to oxidation and to chloride stress corrosion cracking; economical"
+      },
+      {
+        "family": "High-alloy austenitic",
+        "grades": "904L",
+        "properties": "Resistance to strong acids; used in chemical processing"
+      },
+      {
+        "family": "Duplex and specialised",
+        "grades": "1.4362 (2304); others on request",
+        "properties": "Specialised grades sourced to project specification"
+      }
+    ],
+    "gradesNote": "Material is supplied to ASTM, DIN/EN or IS specifications as required, with mill test certificates to EN 10204 3.1.",
+    "marketsTitle": "Markets we serve",
+    "marketsIntro": "We export stainless steel sections with the documents needed for customs clearance.",
+    "markets": [
+      {
+        "region": "United Arab Emirates",
+        "text": "Dubai, Abu Dhabi, Sharjah, Jebel Ali Free Zone (JAFZA) and the Ruwais industrial area, with delivery to project sites across all seven Emirates."
+      },
+      {
+        "region": "Saudi Arabia",
+        "text": "Supply to industrial and construction projects."
+      },
+      {
+        "region": "Oman",
+        "text": "Supply to industrial and construction projects."
+      },
+      {
+        "region": "Other GCC countries",
+        "text": "Bahrain, Kuwait and Qatar on request."
+      },
+      {
+        "region": "Africa",
+        "text": "Supply to industrial markets in Africa."
+      },
+      {
+        "region": "Europe",
+        "text": "Project-based supply."
+      }
+    ],
+    "applicationsTitle": "Applications by industry",
+    "applications": [
+      {
+        "title": "Oil, gas and petrochemical",
+        "items": [
+          "Pipeline components",
+          "Pressure vessel fabrication",
+          "Offshore platform materials"
+        ]
+      },
+      {
+        "title": "Construction and architecture",
+        "items": [
+          "Structural supports and base plates",
+          "Facades and cladding",
+          "Interior and decorative elements"
+        ]
+      },
+      {
+        "title": "Marine and shipbuilding",
+        "items": [
+          "316L sections for shipbuilding and yacht fittings",
+          "Port infrastructure",
+          "Desalination plant components"
+        ]
+      },
+      {
+        "title": "Industrial fabrication",
+        "items": [
+          "Machinery and equipment frames",
+          "Food processing equipment",
+          "Water treatment facilities"
+        ]
+      },
+      {
+        "title": "Automotive and aerospace",
+        "items": [
+          "Bars for fasteners and shafts",
+          "Precision components"
+        ]
+      },
+      {
+        "title": "Wire products",
+        "items": [
+          "Wire ropes and springs",
+          "Welding electrodes",
+          "Wire mesh and refractory anchors"
+        ]
+      }
+    ],
+    "whyTitle": "Why source from our Trading Division",
+    "why": [
+      "More than 40 years of industry experience",
+      "Mill-certified material with EN 10204 3.1 test certificates",
+      "200, 300 and 400 series grades, plus specialised alloys",
+      "Supply conditions from hot rolled and pickled to cold drawn, polished and centreless ground",
+      "Cut-to-length bars with −0/+50 mm tolerance",
+      "Stainless steel sections and our own refractory anchors and fibres from one supplier",
+      "Sourced from reputed mills",
+      "Export to more than 25 countries"
+    ],
+    "findTitle": "Find us on",
+    "findText": "Santura Engineering is also listed on these B2B marketplaces.",
+    "find": {
+      "indiamart": "IndiaMART",
+      "tradeindia": "TradeIndia"
+    },
+    "newTab": "(opens in a new tab)",
+    "relatedTitle": "Related products",
+    "relatedAnchors": "Made in our works from stainless steel grades such as SS 304, 310 and 316.",
+    "relatedFibres": "Melt extract and cold drawn fibres in AISI 304, 310 and 446.",
+    "relatedFasteners": "Bolts, studs, nuts and washers in stainless and alloy steel.",
+    "relatedAccessories": "Stainless steel banding, screws and hardware for insulation.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "What stainless steel grades does Santura supply?",
+        "a": "Santura supplies austenitic grades (304, 304L, 304H, 310, 310S, 316, 316L, 316Ti, 321 and the 200 series), ferritic grades (430, 430L), martensitic grades (410, 420) and the high-alloy austenitic grade 904L. Wire rod is also available in DIN/EN grades and welding electrode grades, and specialised grades can be sourced on request. Material is supplied with mill test certificates to EN 10204 3.1."
+      },
+      {
+        "q": "What stainless steel sections are available?",
+        "a": "We supply wire rod coils (5.5–40 mm), hexagonal bars (12–55 mm), square bars (12–55 mm), HRAP flat bars (25–100 mm wide), HRAP angles (20 × 20 to 75 × 75 mm), pump shaft quality bars (6–63.5 mm) and hot rolled bars (13–150 mm). Supply conditions include hot rolled, pickled, annealed, cold drawn, polished and centreless ground."
+      },
+      {
+        "q": "Does Santura supply stainless steel to the UAE and Saudi Arabia?",
+        "a": "Yes. We supply stainless steel sections to the UAE, including Dubai, Abu Dhabi, Sharjah, Jebel Ali Free Zone (JAFZA) and Ruwais, and to Saudi Arabia, Oman and other GCC countries, with the documents needed for customs clearance."
+      },
+      {
+        "q": "What certificates come with the stainless steel?",
+        "a": "Stainless steel is supplied with mill test certificates to EN 10204 3.1, which report the chemical composition, mechanical properties and heat treatment of the material. Material is supplied to ASTM, DIN/EN or IS specifications as the project requires."
+      },
+      {
+        "q": "Can Santura supply both stainless steel and refractory products?",
+        "a": "Yes. The Trading Division supplies mill-certified stainless steel sections, while our own works make refractory anchors, steel fibres, pop rivets and perforated sheets. EPC contractors and plant operators who need both can buy them from one supplier, which simplifies procurement."
+      }
+    ],
+    "ctaTitle": "Need stainless steel sections?",
+    "ctaText": "Send us the product, grade, size, length, supply condition and quantity. We will reply with a quotation and lead time.",
+    "ctaRfq": "Request a Quote for Stainless Steel",
     "ctaContact": "Or contact our team"
   }
 }

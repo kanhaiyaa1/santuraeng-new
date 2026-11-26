@@ -26,7 +26,12 @@ const GALLERY = [
   `${IMG}/observation-door-components-galvanized.jpg`,
   `${IMG}/observation-doors-galvanized-production-batch.jpg`,
   `${IMG}/observation-doors-stacked-for-dispatch.jpg`,
-  `${IMG}/observation-doors-galvanized-batch-closeup.jpg`
+  `${IMG}/observation-doors-galvanized-batch-closeup.jpg`,
+  `${IMG}/observation-door-with-access-door-galvanized.jpg`,
+  `${IMG}/observation-doors-tagged-batch-inspection.jpg`,
+  `${IMG}/observation-doors-galvanized-rows-tagged.jpg`,
+  `${IMG}/observation-doors-galvanized-rows-workshop.jpg`,
+  `${IMG}/observation-doors-stacked-galvanized-side-view.jpg`
 ];
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {

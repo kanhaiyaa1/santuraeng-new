@@ -1424,7 +1424,7 @@ Max service temperature / density reference (from weight calculator):
 - All non-English content: German (de), Turkish (tr), Portuguese-BR (pt-BR), Spanish (es), Italian (it), French (fr), Polish (pl), Dutch (nl). Arabic (ar) exists only for UAE/Qatar/Saudi landing pages.
 - Technical drawings for every product page (ask client per page; current drawings are low-res images).
 - Dimension / size tables, standard part numbers per variant, weight per piece, MOQ and lead time per product (all SEPL pages).
-- Current certificates: ISO 9001:2015 PDF/scan of certificate 136802/A/0001/UK/En; EEPC (awaiting); Udyam/MSME (if claimed).
+- Current certificates: ISO 9001:2015 PDF/scan of certificate 136802/A/0001/UK/En (received: `public/images/certificates/iso-9001-2015-certificate-urs-136802-valid-2027.pdf`); EEPC (awaiting); Udyam/MSME (if claimed).
 - Real client certificates / reference letters (client to provide) to replace the removed testimonials.
 - Photos for products with none: see "Images (0)" entries above; factory/team/machinery photos.
 - Product pages for accessories named but not covered: plastic expansion caps, ceramic ferrules (SEPL-26), stud-welding equipment.

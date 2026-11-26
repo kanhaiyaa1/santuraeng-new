@@ -115,6 +115,26 @@
         "name": "Energia e Caldaie",
         "description": "Caldaie CFBC, HRSG, termovalorizzatori e caldaie a biomassa.",
         "imageAlt": "Tralicci dell'alta tensione al tramonto"
+      },
+      "aluminium": {
+        "name": "Produzione di Alluminio",
+        "description": "Forni di fusione e di attesa, forni di cottura degli anodi e canali di colata.",
+        "imageAlt": "Coil di alluminio in un magazzino"
+      },
+      "copper": {
+        "name": "Rame",
+        "description": "Forni fusori, convertitori e forni ad anodo.",
+        "imageAlt": "Matasse di filo di rame"
+      },
+      "ceramic": {
+        "name": "Industria Ceramica",
+        "description": "Forni a tunnel, forni intermittenti e carrelli forno.",
+        "imageAlt": "Carrelli forno carichi di ceramica in un forno a tunnel"
+      },
+      "mining": {
+        "name": "Miniere e Minerali",
+        "description": "Forni rotativi, calcinatori ed essiccatori per la lavorazione dei minerali.",
+        "imageAlt": "Nastro trasportatore in una miniera sotterranea"
       }
     }
   },
@@ -769,13 +789,13 @@
         "name": "Accessori per Isolamento",
         "description": "Reggette, clip, rondelle e altri fissaggi per isolamento."
       },
-      "steel-plates": {
-        "name": "Lamiere d'Acciaio",
-        "description": "Lamiere in acciaio inox e legato."
-      },
       "trading-division": {
         "name": "Divisione Commerciale",
         "description": "Fornitura di acciaio inox e materiali industriali."
+      },
+      "steel-fibres": {
+        "name": "Fibre d'acciaio",
+        "description": "Fibre inox per estrazione da fuso e trafilate a freddo per calcestruzzi refrattari."
       }
     },
     "allCategories": "Tutte le categorie di prodotti",
@@ -1114,6 +1134,7 @@
       "L'identificazione positiva dei materiali (PMI) è una prova non distruttiva che misura la composizione elementare di un metallo e ne conferma la lega. Si esegue con un analizzatore portatile a fluorescenza X (XRF) o con uno spettrometro a emissione ottica (OES).",
       "L'analizzatore legge la composizione in pochi secondi e la confronta con una libreria di leghe. Nulla viene tagliato, forato o danneggiato, quindi gli ancoraggi finiti possono essere provati e spediti."
     ],
+    "whatImageAlt": "Analizzatore XRF portatile che mostra una lettura della lega SS310",
     "whyTitle": "Perché è importante per gli ancoraggi refrattari",
     "why": [
       {
@@ -1589,7 +1610,12 @@
       "Telaio e componenti di una portina di ispezione prima del montaggio",
       "Serie di portine di ispezione zincate nell'officina di carpenteria",
       "Portine di ispezione a cerniera impilate per la spedizione",
-      "Dettaglio di telai zincati di portine di ispezione di una serie"
+      "Dettaglio di telai zincati di portine di ispezione di una serie",
+      "Portello di osservazione zincato con portello di accesso incernierato e targhetta",
+      "Portelli di osservazione con spie visive, etichettati dopo il collaudo",
+      "File di portelli di osservazione etichettati prima della spedizione",
+      "Telai di portelli di osservazione zincati allineati in officina",
+      "Pila di telai di portelli di osservazione zincati, vista laterale"
     ],
     "relatedTitle": "Prodotti e servizi correlati",
     "relatedAnchorsText": "Gli ancoraggi che trattengono il rivestimento refrattario in ogni portina, nelle stesse leghe del rivestimento della vostra parete.",
@@ -1812,7 +1838,8 @@
       "Tirafondi con manicotti tubolari, etichettati per la spedizione",
       "Tirafondi zincati con manicotti tubolari disposti in officina",
       "Scorta di tirafondi zincati con dadi e manicotti",
-      "Dettaglio di manicotti tubolari e dadi di tirafondi"
+      "Dettaglio di manicotti tubolari e dadi di tirafondi",
+      "Bulloni di fondazione zincati con manicotti tubolari e piastre superiori quadrate"
     ],
     "relatedTitle": "Prodotti correlati",
     "relatedStanchions": "Montanti e paletti per piattaforme e parapetti, spesso installati sulle stesse fondazioni.",
@@ -2077,7 +2104,9 @@
       "Lotto di montanti industriali zincati a caldo con piastre di base nervate",
       "Montante zincato con bracci del corrimano saldati e piastra di base",
       "Montante industriale con braccio laterale e piastra di base nervata",
-      "Dettaglio di un giunto a T saldato su un montante"
+      "Dettaglio di un giunto a T saldato su un montante",
+      "Montante zincato con braccio laterale e piastra di base rinforzata",
+      "Montanti zincati con traverse a T nell'officina di carpenteria"
     ],
     "overviewTitle": "Cosa sono i montanti industriali",
     "overview": [
@@ -2607,6 +2636,7 @@
     "subheading": "Sistemi a contrappeso a leva che sostengono il peso dei tubi radianti nei reformer a idrogeno e nei forni di cracking dell'etilene. Realizzati da Santura dalla fine degli anni Novanta, secondo i disegni di progetto del cliente.",
     "lindeBadge": "Fornitore approvato Linde Engineering India, {period}",
     "photoAlt": "Gruppo leva di contrappeso zincato con pile di masse",
+    "photo2Alt": "Leva di contrappeso con pesi morti impilati in officina",
     "photoCaption": "Gruppo leva zincato con pile di masse nella nostra officina.",
     "whatTitle": "A cosa serve un sistema a contrappeso",
     "what": [
@@ -3859,6 +3889,2469 @@
     "ctaTitle": "Vi serve isolamento in silicato di calcio?",
     "ctaText": "Indicateci forma, diametri dei tubi o misure dei pannelli, spessore, temperatura di esercizio e quantità. Risponderemo con un'offerta e i tempi di consegna.",
     "ctaRfq": "Richiedi un preventivo per silicato di calcio",
+    "ctaContact": "Oppure contatta il nostro team"
+  },
+  "ipPage": {
+    "metaTitle": "Produttore di chiodi per isolamento | Chiodi a saldare e clip",
+    "metaDescription": "Produttore di chiodi per isolamento: chiodi a saldare, adesivi e rondelle autobloccanti in inox e acciaio zincato. Dal 1980, export in oltre 25 paesi.",
+    "eyebrow": "Prodotti da Santura",
+    "h1": "Chiodi per isolamento e chiodi a saldare",
+    "subheading": "Chiodi per isolamento a saldare, con base adesiva e autoadesivi, con rondelle autobloccanti e cappucci abbinati, per canali, apparecchi, pareti e impianti. Prodotti internamente in acciaio inox, acciaio zincato e plastica.",
+    "badges": [
+      "Chiodi a saldare CD",
+      "Chiodi a base forata",
+      "Chiodi autoadesivi",
+      "Rondelle autobloccanti",
+      "Cappucci",
+      "Certificati EN 10204 3.1"
+    ],
+    "gallery": [
+      "Chiodi per isolamento con base forata, tra cui un chiodo in plastica",
+      "Chiodi a saldare con cappucci e rondelle autobloccanti",
+      "Rondelle autobloccanti in acciaio inox per chiodi da isolamento",
+      "Rondella autobloccante quadrata per chiodi da isolamento",
+      "Cappuccio per chiodi da isolamento",
+      "Rondelle autobloccanti assortite per chiodi da isolamento",
+      "Perno isolante a base forata con piastra di base quadrata"
+    ],
+    "overviewTitle": "Cosa sono i chiodi per isolamento",
+    "overview": [
+      "I chiodi per isolamento, detti anche perni, spilli o chiodi a saldare, sono fissaggi che trattengono meccanicamente l'isolante su una superficie. Il chiodo viene fissato al supporto, l'isolante viene infilato sul gambo e una rondella autobloccante o un cappuccio lo tiene in posizione.",
+      "I chiodi impediscono all'isolante di cedere, spostarsi o staccarsi, così mantiene le prestazioni termiche e acustiche e l'installazione resta ordinata. Si usano su canali HVAC, apparecchi e serbatoi, involucri di caldaie, paratie navali, pareti e soffitti.",
+      "Santura produce internamente i chiodi per isolamento, insieme ai suoi ancoraggi refrattari. Sono realizzati per tre metodi di fissaggio: a saldare (scarica di condensatore o arco), adesivi con base forata e autoadesivi. Rondelle e cappucci abbinati sono prodotti negli stessi materiali."
+    ],
+    "madeTitle": "Produzione interna",
+    "made": [
+      "Chiodi in acciaio inox, acciaio al carbonio zincato e PVC",
+      "Versioni a saldare e con base adesiva",
+      "Rondelle autobloccanti e cappucci",
+      "Per lana di roccia, lana di vetro, EPS, polistirene e PUR",
+      "Con certificati di controllo EN 10204 3.1"
+    ],
+    "typesTitle": "Tipi di chiodi per isolamento per metodo di fissaggio",
+    "types": [
+      {
+        "title": "Chiodi a saldare (CD / arco)",
+        "text": "Chiodo con base di saldatura, unito in modo permanente alla lamiera mediante saldatura di prigionieri a scarica di condensatore (CD) o ad arco.",
+        "rows": [
+          {
+            "label": "Tempo di saldatura",
+            "value": "Meno di 1 secondo per chiodo"
+          },
+          {
+            "label": "Ideale per",
+            "value": "Canali metallici, mantelli di apparecchi, pareti di serbatoi e pannelli in lamiera"
+          },
+          {
+            "label": "Tipi di testa",
+            "value": "Testa a coppa (disco integrato) o senza testa, con rondella separata"
+          },
+          {
+            "label": "Vantaggio",
+            "value": "Unione permanente e robusta che resiste in caso di incendio"
+          },
+          {
+            "label": "Materiali",
+            "value": "Acciaio al carbonio zincato, SS 304, SS 316, alluminio; bimetallico (testa in alluminio, gambo in acciaio)"
+          }
+        ]
+      },
+      {
+        "title": "Chiodi con base adesiva (forata)",
+        "text": "Chiodo su una piastra di base metallica forata, incollata al supporto con mastice adesivo.",
+        "rows": [
+          {
+            "label": "Ideale per",
+            "value": "Superfici non saldabili: calcestruzzo, muratura, vetroresina e superfici verniciate"
+          },
+          {
+            "label": "Posa",
+            "value": "Applicare l'adesivo attraverso i fori, premere ruotando e lasciare indurire 24–72 ore prima di caricare"
+          },
+          {
+            "label": "Piastra di base",
+            "value": "Piastra forata quadrata o tonda, tipicamente 50 × 50 mm; l'adesivo passa nei fori per un'adesione migliore"
+          },
+          {
+            "label": "Vantaggio",
+            "value": "Non serve la saldatrice"
+          },
+          {
+            "label": "Materiali",
+            "value": "Acciaio zincato, SS 304, alluminio"
+          }
+        ]
+      },
+      {
+        "title": "Chiodi autoadesivi",
+        "text": "Chiodo con un tampone adesivo sensibile alla pressione già applicato sulla base.",
+        "rows": [
+          {
+            "label": "Ideale per",
+            "value": "Posa rapida di isolanti leggeri su superfici pulite, asciutte e non porose"
+          },
+          {
+            "label": "Posa",
+            "value": "Togliere la pellicola, premere con forza senza ruotare e attendere 15–20 minuti prima di caricare"
+          },
+          {
+            "label": "Carico",
+            "value": "Fino a circa 1,4 kg per chiodo"
+          },
+          {
+            "label": "Temperatura",
+            "value": "Posa sopra 10 °C; esercizio da −20 °C a 90 °C"
+          },
+          {
+            "label": "Limiti",
+            "value": "Non per superfici verniciate, cartongesso o metallo esposto al sole diretto"
+          }
+        ]
+      }
+    ],
+    "guideTitle": "Come scegliere il chiodo giusto",
+    "guideIntro": "Partite dal supporto e dalle condizioni di esercizio, poi scegliete metodo di fissaggio e materiale.",
+    "colApplication": "Applicazione",
+    "colPin": "Chiodo consigliato",
+    "colWhy": "Perché",
+    "guideRows": [
+      {
+        "application": "Canale metallico, parete di apparecchio o serbatoio",
+        "pin": "Chiodo a saldare CD",
+        "why": "Unione permanente, resiste al fuoco, posa più rapida"
+      },
+      {
+        "application": "Calcestruzzo, muratura o vetroresina",
+        "pin": "Chiodo adesivo a base forata",
+        "why": "Nessuna saldatura; adesione forte attraverso i fori"
+      },
+      {
+        "application": "Posa rapida e a secco di isolanti leggeri",
+        "pin": "Chiodo autoadesivo",
+        "why": "Si stacca e si attacca, senza tempi di indurimento"
+      },
+      {
+        "application": "Cella frigorifera o di congelamento",
+        "pin": "Chiodo in nylon o PVC",
+        "why": "Evita il ponte termico e la condensa sul chiodo"
+      },
+      {
+        "application": "Navale, costiero o impianto chimico",
+        "pin": "Chiodo a saldare SS 304 o SS 316",
+        "why": "Resistente alla corrosione in ambienti aggressivi"
+      },
+      {
+        "application": "HVAC generico con budget contenuto",
+        "pin": "Chiodo a saldare in acciaio zincato",
+        "why": "Economico, con buona resistenza alla corrosione in interni"
+      }
+    ],
+    "specTitle": "Specifiche dei chiodi",
+    "specRows": [
+      {
+        "label": "Diametro del gambo",
+        "value": "2,1, 2,7 e 3,0 mm (altri su richiesta)"
+      },
+      {
+        "label": "Lunghezza del gambo",
+        "value": "50, 63, 90, 110, 114 e 150 mm (qualsiasi lunghezza su ordinazione)"
+      },
+      {
+        "label": "Tipo di testa",
+        "value": "Testa a coppa (disco integrato) o senza testa"
+      },
+      {
+        "label": "Tipo di base",
+        "value": "Base di saldatura, piastra forata (50 × 50 mm) o tampone autoadesivo"
+      },
+      {
+        "label": "Finitura",
+        "value": "Grezza, zincata o passivata su richiesta"
+      },
+      {
+        "label": "Certificati",
+        "value": "Certificati di controllo EN 10204 3.1"
+      }
+    ],
+    "materialsTitle": "Materiali",
+    "colMaterial": "Materiale",
+    "colBestFor": "Ideale per",
+    "colMaxTemp": "Temp. max",
+    "materials": [
+      {
+        "name": "Acciaio inox 304",
+        "use": "Navale, chimico, ambienti umidi e corrosivi; lunga durata",
+        "temp": "Circa 800 °C"
+      },
+      {
+        "name": "Acciaio inox 316",
+        "use": "Corrosione severa: costa, cloruri e processi chimici",
+        "temp": "Circa 800 °C"
+      },
+      {
+        "name": "Acciaio al carbonio zincato",
+        "use": "HVAC, industria ed edilizia in generale; economico",
+        "temp": "Circa 450 °C"
+      },
+      {
+        "name": "Alluminio",
+        "use": "Leggero; industria alimentare e ambienti puliti",
+        "temp": "Circa 200 °C"
+      },
+      {
+        "name": "Bimetallico (testa in alluminio, gambo in acciaio)",
+        "use": "Testa in alluminio con la tenuta di saldatura di un gambo in acciaio",
+        "temp": "Circa 450 °C"
+      },
+      {
+        "name": "PVC / nylon",
+        "use": "Superfici fredde; evita il ponte termico",
+        "temp": "Circa 80 °C (PVC) / 120 °C (nylon)"
+      }
+    ],
+    "materialsNote": "Temperature massime tipiche del materiale del chiodo. Per rivestimenti in fibra ceramica oltre questi limiti usare ancoraggi a prigioniero per fibra ceramica (SEPL-24).",
+    "accessoriesTitle": "Rondelle e cappucci",
+    "accessoriesIntro": "Le rondelle autobloccanti stringono il gambo e trattengono l'isolante; i cappucci coprono l'estremità tagliata. Entrambi sono prodotti in acciaio zincato, inox o alluminio, abbinati al chiodo.",
+    "accessories": [
+      {
+        "title": "Rondelle autobloccanti tonde",
+        "text": "Clip che si infilano sul gambo e lo stringono.",
+        "sizes": "Ø 25, 35 e 38 mm"
+      },
+      {
+        "title": "Rondelle autobloccanti quadrate",
+        "text": "Clip quadrate con presa migliore su pannelli piani.",
+        "sizes": "25 × 25, 35 × 35 e 38 × 38 mm"
+      },
+      {
+        "title": "Cappucci",
+        "text": "Coprono l'estremità del gambo dopo la clip, per sicurezza, aspetto ordinato e protezione dalle punte.",
+        "sizes": "In base al diametro del chiodo"
+      }
+    ],
+    "washersLink": "Scopri la nostra gamma completa di rondelle",
+    "compatibleTitle": "Isolanti compatibili",
+    "compatibleIntro": "I chiodi vanno bene per qualsiasi isolante che il gambo possa attraversare. Per materassini in fibra ceramica ad alta temperatura usare ancoraggi a prigioniero per fibra ceramica.",
+    "compatible": {
+      "mineralWool": "Lana di roccia / lana minerale",
+      "glassWool": "Lana di vetro",
+      "eps": "Polistirene espanso (EPS)",
+      "xps": "Polistirene estruso (XPS)",
+      "puf": "Schiuma poliuretanica (PUR)",
+      "ceramic": "Materassino in fibra ceramica (con SEPL-24)"
+    },
+    "installTitle": "Come si posano i chiodi per isolamento",
+    "steps": [
+      {
+        "title": "Fissare il chiodo",
+        "text": "Saldare, incollare o applicare il chiodo autoadesivo sul supporto."
+      },
+      {
+        "title": "Posare l'isolante",
+        "text": "Infilare l'isolante sul gambo finché aderisce in piano alla superficie."
+      },
+      {
+        "title": "Applicare la rondella",
+        "text": "Infilare una rondella autobloccante o un cappuccio sul gambo per comprimere e trattenere l'isolante."
+      },
+      {
+        "title": "Tagliare o piegare",
+        "text": "Tagliare il gambo in eccesso a filo o piegarlo in piano per sicurezza."
+      }
+    ],
+    "spacingTitle": "Interasse e disposizione",
+    "spacing": [
+      "L'interasse dipende da peso e spessore dell'isolante, posa verticale o a soffitto, vento e vibrazioni, e specifica di progetto.",
+      "Tenere i chiodi a circa 75–100 mm dai bordi dei pannelli per ridurre il rigonfiamento.",
+      "I sistemi di protezione passiva dal fuoco usano spesso chiodi a circa 280 mm di interasse; seguire le indicazioni del produttore del sistema.",
+      "Seguire sempre la specifica di progetto o lo schema di posa del progettista."
+    ],
+    "techTitle": "Aspetti tecnici",
+    "tech": [
+      {
+        "title": "Ponte termico",
+        "text": "I chiodi metallici conducono calore attraverso l'isolante. Nel servizio freddo, come celle frigorifere e acqua refrigerata, dove c'è rischio di condensa, usare chiodi in PVC o nylon o prevedere una barriera al vapore."
+      },
+      {
+        "title": "Comportamento al fuoco",
+        "text": "I chiodi metallici saldati restano fissati meccanicamente in caso di incendio e sono quindi la scelta più affidabile per la protezione passiva. I chiodi adesivi dipendono dalla resistenza al calore dell'adesivo."
+      },
+      {
+        "title": "Resistenza alla corrosione",
+        "text": "Abbinare il chiodo all'ambiente: zincato in interni, SS 304 con umidità o agenti chimici e SS 316 in ambienti marini e con cloruri. Il materiale sbagliato porta a cedimenti precoci, macchie e danni all'isolante."
+      }
+    ],
+    "applicationsTitle": "Applicazioni per settore",
+    "applications": [
+      {
+        "title": "HVAC e canali",
+        "items": [
+          "Rivestimento interno in lana di vetro o minerale di canali rettangolari",
+          "Isolamento esterno dei canali",
+          "Pannelli di unità di trattamento aria",
+          "Rivestimento acustico dei canali"
+        ]
+      },
+      {
+        "title": "Oil & gas e petrolchimico",
+        "items": [
+          "Isolamento di apparecchi e colonne sotto lamierino",
+          "Isolamento di apparecchiature in raffinerie e impianti gas",
+          "Isolamento sottoponte su piattaforme offshore"
+        ]
+      },
+      {
+        "title": "Produzione di energia",
+        "items": [
+          "Isolamento degli involucri di caldaia",
+          "Cabine acustiche per turbine",
+          "Isolamento di condotti di caldaie a recupero e fumi"
+        ]
+      },
+      {
+        "title": "Navale",
+        "items": [
+          "Isolamento di paratie e ponti (chiodi SS 316)",
+          "Isolamento termico e acustico delle sale macchine",
+          "Isolamento delle stive"
+        ]
+      },
+      {
+        "title": "Edilizia",
+        "items": [
+          "Isolamento di pareti e soffitti in edifici commerciali",
+          "Montaggio di pannelli acustici",
+          "Celle frigorifere e di congelamento (chiodi in nylon)",
+          "Protezione passiva dal fuoco"
+        ]
+      },
+      {
+        "title": "Industria",
+        "items": [
+          "Barriere e cabine antirumore",
+          "Isolamento esterno di forni (chiodi inox)",
+          "Industria alimentare (chiodi in alluminio)",
+          "Sale generatori e compressori"
+        ]
+      }
+    ],
+    "supplyTitle": "Cosa forniamo",
+    "supply": [
+      "Santura produce internamente chiodi per isolamento in acciaio inox (304, 316), acciaio al carbonio zincato, alluminio e PVC o nylon, nelle versioni a saldare, adesive e autoadesive, insieme a rondelle autobloccanti e cappucci. I chiodi sono prodotti con dimensioni costanti e forniti con certificati di controllo EN 10204 3.1.",
+      "Sono disponibili lunghezze speciali, dimensioni di base, tipi di rondella, gradi di materiale e imballi sfusi per installatori e costruttori. Esportiamo chiodi per isolamento insieme a lana minerale, lana di vetro, silicato di calcio, guarnizioni ceramiche e ancoraggi refrattari in oltre 25 paesi, e il nostro servizio di saldatura prigionieri fornisce attrezzature e procedure per saldare i chiodi."
+    ],
+    "relatedTitle": "Prodotti e servizi correlati",
+    "relatedMineralWool": "Pannelli, rotoli e materassini in lana di roccia fissati con chiodi per isolamento.",
+    "relatedGlassFibre": "Lana di vetro e tessuto di vetro per canali e rivestimenti.",
+    "relatedCalsil": "Isolante rigido ad alta temperatura, spesso abbinato a strati di materassino fissati con chiodi.",
+    "relatedGaskets": "Trecce, nastri e guarnizioni in fibra ceramica per tenute ad alta temperatura.",
+    "relatedAnchors": "Il nostro prodotto principale: ancoraggi SEPL per rivestimenti refrattari.",
+    "relatedSepl24": "Ancoraggi saldati a prigioniero per materassino in fibra ceramica ad alta temperatura.",
+    "relatedSw": "Attrezzature e procedure di saldatura prigionieri CD e ad arco per chiodi e ancoraggi.",
+    "relatedWashersName": "Rondelle",
+    "relatedWashers": "Rondelle autobloccanti, quadrate e a cupola per chiodi e ancoraggi.",
+    "faqTitle": "Domande frequenti",
+    "faq": [
+      {
+        "q": "A cosa servono i chiodi per isolamento?",
+        "a": "I chiodi per isolamento, detti anche perni, spilli o chiodi a saldare, fissano meccanicamente isolanti come lana di roccia, lana di vetro, polistirene e PUR a pareti, canali, apparecchi e impianti. Impediscono all'isolante di cedere, spostarsi o staccarsi, così mantiene le prestazioni termiche e acustiche."
+      },
+      {
+        "q": "Qual è la differenza tra chiodi a saldare e chiodi adesivi?",
+        "a": "I chiodi a saldare si uniscono in modo permanente al metallo con saldatura di prigionieri a scarica di condensatore (CD) o ad arco in meno di un secondo, ideali per canali metallici e mantelli di apparecchi. I chiodi adesivi hanno una base forata incollata con mastice su superfici non saldabili come calcestruzzo e muratura. I chiodi saldati sono più robusti e resistono al fuoco; quelli adesivi non richiedono la saldatrice."
+      },
+      {
+        "q": "Quali isolanti si possono fissare con i chiodi?",
+        "a": "I chiodi vanno bene per qualsiasi isolante che il gambo possa attraversare: lana di roccia e lana minerale, lana di vetro, EPS, polistirene estruso (XPS) e schiuma poliuretanica (PUR). Per materassini in fibra ceramica ad alta temperatura usare ancoraggi a prigioniero per fibra ceramica (SEPL-24)."
+      },
+      {
+        "q": "Come si posano i chiodi per isolamento?",
+        "a": "Fissare il chiodo al supporto saldandolo, incollandolo o con il suo adesivo, infilare l'isolante sul gambo, applicare una rondella autobloccante o un cappuccio per comprimerlo e trattenerlo, poi tagliare o piegare il gambo in eccesso. L'interasse segue la specifica di progetto; i chiodi si tengono di solito a 75–100 mm dai bordi dei pannelli."
+      },
+      {
+        "q": "In quali materiali sono disponibili i chiodi per isolamento?",
+        "a": "Produciamo chiodi per isolamento in acciaio inox (304, 316), acciaio al carbonio zincato, alluminio e PVC o nylon. L'inox è adatto ad ambienti corrosivi e marini, lo zincato è economico per l'HVAC generico, l'alluminio è leggero e i chiodi in plastica evitano il ponte termico sulle superfici fredde."
+      }
+    ],
+    "ctaTitle": "Vi servono chiodi per isolamento?",
+    "ctaText": "Indicateci tipo di chiodo, diametro e lunghezza del gambo, materiale, tipo di rondella e quantità. Risponderemo con un'offerta e i tempi di consegna.",
+    "ctaRfq": "Richiedi un preventivo per chiodi per isolamento",
+    "ctaContact": "Oppure contatta il nostro team",
+    "relatedAccessories": "Reggette, molle, viti, rivetti, filo e nastri per coibentazione e lamierino."
+  },
+  "psPage": {
+    "metaTitle": "Isolamento in polistirene | Lastre e coppelle EPS e XPS",
+    "metaDescription": "Isolamento in polistirene EPS e XPS: lastre, coppelle e pannelli per celle frigorifere. Fornitore dal 1980, export in 25+ paesi. Richiedi un preventivo.",
+    "eyebrow": "Materiali isolanti",
+    "h1": "Isolamento in polistirene: EPS e XPS",
+    "subheading": "Isolamento in polistirene espanso (EPS) ed estruso (XPS): lastre, coppelle con o senza alluminio, mezzi gusci e sagome su misura per celle frigorifere, linee di acqua refrigerata ed edifici.",
+    "badges": [
+      "EPS 15–40 kg/m³",
+      "Pannelli XPS",
+      "Coppelle",
+      "Coppelle con alluminio",
+      "Sagome su misura"
+    ],
+    "gallery": [
+      "Lastre isolanti in polistirene espanso",
+      "Coppelle in EPS con rivestimento in foglio di alluminio",
+      "Mezzi gusci in polistirene per l'isolamento di tubazioni",
+      "Coppelle in polistirene in due metà per tubazioni"
+    ],
+    "overviewTitle": "Cos'è l'isolamento in polistirene",
+    "overview": [
+      "L'isolamento in polistirene è una schiuma rigida, leggera e a celle chiuse. Ha bassa conduttività termica, resiste all'umidità, mantiene la forma e costa meno della maggior parte degli isolanti, per questo è molto usato in celle frigorifere, linee di acqua refrigerata ed edilizia.",
+      "Si usa in coppelle sulle linee di acqua fredda e refrigerata, in lastre per pareti, coperture, pavimenti e isolamento sotto e sopra coperta, e in sagome su misura per apparecchiature e serbatoi. Posato e protetto correttamente, mantiene il potere isolante per tutta la vita dell'impianto, senza cedere né assestarsi.",
+      "L'isolamento in polistirene esiste in due forme, prodotte con processi diversi."
+    ],
+    "types": [
+      {
+        "title": "EPS: polistirene espanso",
+        "tag": "Schiuma bianca a perle · costo minore",
+        "text": "Si ottiene espandendo perle di polistirene con vapore e stampandole in blocchi, poi tagliati in lastre, coppelle e sagome. L'EPS è più leggero ed economico dell'XPS, con conduttività termica leggermente superiore. La densità ne determina la resistenza."
+      },
+      {
+        "title": "XPS: polistirene estruso",
+        "tag": "Schiuma densa colorata · maggiore resistenza",
+        "text": "Prodotto per estrusione continua in pannelli, di solito azzurri, rosa o verdi a seconda della marca. L'XPS ha maggiore resistenza a compressione, minore assorbimento d'acqua e minore conduttività termica dell'EPS, quindi è adatto ad applicazioni interrate, umide e sotto carico."
+      }
+    ],
+    "formsTitle": "Formati e dimensioni",
+    "formsIntro": "Formati e dimensioni tipici. Altre misure, spessori e forme sono fornibili su disegno.",
+    "epsFormsTitle": "EPS (polistirene espanso)",
+    "xpsFormsTitle": "XPS (polistirene estruso)",
+    "colForm": "Formato",
+    "colDescription": "Descrizione",
+    "colSizes": "Dimensioni tipiche",
+    "epsForms": [
+      {
+        "form": "Lastre / pannelli",
+        "text": "Pannelli rigidi per pareti, coperture, pavimenti e celle frigorifere",
+        "sizes": "Spessore 12–300 mm; 1200 × 600 mm o 2400 × 1200 mm"
+      },
+      {
+        "form": "Coppelle (due metà)",
+        "text": "Pezzi preformati in due metà per l'isolamento di tubazioni",
+        "sizes": "Diametro interno 15–600 mm; spessore 20–100 mm"
+      },
+      {
+        "form": "Segmenti curvi / mezzi gusci",
+        "text": "Segmenti sagomati per serbatoi, apparecchi e grandi tubazioni",
+        "sizes": "In base al diametro esterno"
+      },
+      {
+        "form": "Coppelle e lastre con alluminio",
+        "text": "EPS rivestito con foglio di alluminio riflettente",
+        "sizes": "Misure standard"
+      },
+      {
+        "form": "Sagome su misura",
+        "text": "Tagliate a filo caldo su disegno per curve, valvole e profili complessi",
+        "sizes": "Su specifica"
+      }
+    ],
+    "xpsForms": [
+      {
+        "form": "Pannelli rigidi",
+        "text": "Pannelli ad alta resistenza per pareti interrate, tetti rovesci e pavimenti carrabili",
+        "sizes": "Spessore 20–200 mm; tipicamente 1250 × 600 mm"
+      },
+      {
+        "form": "Pannelli maschio-femmina",
+        "text": "Bordi a incastro per uno strato isolante continuo senza giunti",
+        "sizes": "Spessore 25–100 mm"
+      },
+      {
+        "form": "Pannelli in pendenza",
+        "text": "Pannelli tagliati in pendenza per il drenaggio dei tetti piani",
+        "sizes": "In base alla pendenza richiesta"
+      }
+    ],
+    "specTitle": "EPS e XPS a confronto",
+    "colProperty": "Proprietà",
+    "colEps": "EPS",
+    "colXps": "XPS",
+    "specRows": [
+      {
+        "label": "Processo produttivo",
+        "eps": "Espansione di perle e stampaggio",
+        "xps": "Estrusione continua"
+      },
+      {
+        "label": "Colore",
+        "eps": "Bianco",
+        "xps": "Azzurro, rosa o verde (secondo la marca)"
+      },
+      {
+        "label": "Densità",
+        "eps": "15–40 kg/m³",
+        "xps": "25–45 kg/m³"
+      },
+      {
+        "label": "Conduttività termica (λ)",
+        "eps": "0,035–0,040 W/m·K",
+        "xps": "0,029–0,036 W/m·K"
+      },
+      {
+        "label": "Resistenza a compressione (10% di deformazione)",
+        "eps": "60–200 kPa, secondo la densità",
+        "xps": "150–700 kPa"
+      },
+      {
+        "label": "Assorbimento d'acqua (in volume)",
+        "eps": "2–5%",
+        "xps": "Tipicamente 0,3% o meno"
+      },
+      {
+        "label": "Fattore di resistenza al vapore (µ)",
+        "eps": "20–70",
+        "xps": "80–250"
+      },
+      {
+        "label": "Temperatura massima di esercizio continuo",
+        "eps": "Circa 80 °C",
+        "xps": "Circa 75 °C"
+      },
+      {
+        "label": "Temperatura minima di esercizio",
+        "eps": "Fino a circa −180 °C secondo i produttori",
+        "xps": "Tipicamente −50 °C secondo i produttori"
+      },
+      {
+        "label": "Reazione al fuoco",
+        "eps": "Euroclasse E con additivo ritardante di fiamma (grado FR)",
+        "xps": "Euroclasse E con additivo ritardante di fiamma (grado FR)"
+      },
+      {
+        "label": "Stabilità dimensionale",
+        "eps": "Buona; non cede e non si assesta",
+        "xps": "Ottima"
+      },
+      {
+        "label": "Agente espandente",
+        "eps": "Pentano; senza CFC né HCFC",
+        "xps": "CO₂ o HFO nei gradi moderni; senza CFC né HCFC"
+      },
+      {
+        "label": "Riciclo",
+        "eps": "Riciclabile",
+        "xps": "Riciclabile"
+      }
+    ],
+    "specNote": "Valori tipici. I valori esatti dipendono da grado, densità e produttore; fa fede la scheda tecnica del prodotto fornito.",
+    "densityTitle": "Guida alle densità EPS",
+    "densityIntro": "La resistenza dell'EPS aumenta con la densità. Scegliete la densità più bassa che regge il carico, perché una densità maggiore costa di più.",
+    "colDensity": "Densità",
+    "colStrength": "Resistenza a compressione (circa)",
+    "colBestFor": "Ideale per",
+    "densityRows": [
+      {
+        "density": "15 kg/m³",
+        "strength": "Circa 60 kPa",
+        "use": "Pareti, soffitti e altre zone senza carico"
+      },
+      {
+        "density": "20 kg/m³",
+        "strength": "Circa 100 kPa",
+        "use": "Isolamento generico di edifici, coppelle e celle frigorifere"
+      },
+      {
+        "density": "25 kg/m³",
+        "strength": "Circa 130 kPa",
+        "use": "Coperture e pavimenti con carichi leggeri"
+      },
+      {
+        "density": "30 kg/m³",
+        "strength": "Circa 170 kPa",
+        "use": "Isolamento sotto platea e pavimenti di magazzini frigoriferi"
+      },
+      {
+        "density": "40 kg/m³",
+        "strength": "Circa 200 kPa",
+        "use": "Pavimenti molto caricati e celle frigorifere industriali"
+      }
+    ],
+    "densityNote": "Altre densità su richiesta. Per carichi elevati, uso interrato o condizioni umide, l'XPS è di solito la scelta migliore.",
+    "advantagesTitle": "Vantaggi",
+    "advantages": [
+      "Bassa conduttività termica: serve meno spessore per lo stesso isolamento",
+      "Leggero (15–45 kg/m³), facile da movimentare e con poco carico sulle strutture",
+      "Struttura a celle chiuse che resiste all'assorbimento d'acqua",
+      "Dimensionalmente stabile: non cede, non si assesta e non si affloscia in esercizio",
+      "Facile da tagliare in cantiere con filo caldo o sega, senza attrezzi speciali",
+      "Costo di materiale e posa inferiore alla maggior parte degli isolanti fibrosi e in PUR",
+      "Sopporta il calpestio e i carichi a pavimento, soprattutto l'XPS e l'EPS ad alta densità",
+      "Adatto al freddo e a temperature sotto zero, dall'acqua refrigerata alle celle di congelamento",
+      "Non contiene fibre, quindi non rilascia polvere e non irrita la pelle",
+      "Riciclabile e prodotto senza CFC né HCFC"
+    ],
+    "cautionsTitle": "Aspetti da considerare",
+    "cautions": [
+      "Il polistirene è combustibile. Usare gradi ritardanti di fiamma e coprirlo con uno strato protettivo come richiesto dalle norme edilizie e antincendio.",
+      "Il limite superiore è di circa 75–80 °C. Per superfici più calde usare lana minerale o silicato di calcio.",
+      "Solventi e lunga esposizione al sole danneggiano il polistirene. Usare adesivi compatibili e mantenerlo coperto o rivestito."
+    ],
+    "standardsTitle": "Norme",
+    "standards": [
+      "Isolante termico in polistirene cellulare rigido",
+      "Polistirene espanso per isolamento termico (norma indiana)",
+      "Isolanti termici per edilizia in EPS ottenuti in fabbrica",
+      "Isolanti termici per edilizia in XPS ottenuti in fabbrica",
+      "Caratteristiche di combustione superficiale dei materiali da costruzione",
+      "Metodi di prova della conduttività termica (piastra calda con anello di guardia / termoflussimetro)"
+    ],
+    "applicationsTitle": "Applicazioni per settore",
+    "applications": [
+      {
+        "title": "Conservazione a freddo e refrigerazione",
+        "items": [
+          "Pareti, pavimenti e soffitti di celle frigorifere",
+          "Celle di congelamento fino a −40 °C",
+          "Camion e container refrigerati",
+          "Pavimenti di magazzini frigoriferi su EPS ad alta densità o XPS"
+        ]
+      },
+      {
+        "title": "Oil & gas e petrolchimico",
+        "items": [
+          "Coppelle per acqua refrigerata e linee di prodotti chimici freddi",
+          "Isolamento sotto e sopra coperta",
+          "Sistemi di isolamento a freddo con barriera al vapore",
+          "Isolamento di apparecchi e serbatoi freddi con mezzi gusci"
+        ]
+      },
+      {
+        "title": "HVAC e idraulica",
+        "items": [
+          "Coppelle per acqua refrigerata con alluminio",
+          "Isolamento degli scarichi condensa",
+          "Isolamento di canali di condizionamento",
+          "Tubazioni di acqua fredda e calda fino a circa 80 °C"
+        ]
+      },
+      {
+        "title": "Edilizia",
+        "items": [
+          "Cappotto esterno (ETICS)",
+          "Isolamento di tetti piani e a falda",
+          "Isolamento perimetrale e di fondazioni interrato (preferibile XPS)",
+          "Isolamento di pavimenti sotto massetto o platea",
+          "Tetti rovesci (solo XPS)",
+          "Pannelli per murature a cassa vuota"
+        ]
+      },
+      {
+        "title": "Industria e produzione",
+        "items": [
+          "Stabilimenti alimentari e di bevande",
+          "Pareti e soffitti di camere bianche farmaceutiche",
+          "Alleggerimenti e riempimenti leggeri in edilizia"
+        ]
+      },
+      {
+        "title": "Navale e offshore",
+        "items": [
+          "Isolamento di moduli alloggio",
+          "Celle frigorifere a bordo",
+          "Galleggiabilità e galleggianti (EPS)"
+        ]
+      }
+    ],
+    "supplyTitle": "Cosa forniamo",
+    "supply": [
+      "Santura Engineering fornisce isolamento in polistirene espanso (EPS) ed estruso (XPS): lastre, coppelle con e senza alluminio, mezzi gusci e sagome su misura, con EPS in densità da 15 a 40 kg/m³. I clienti tipici sono raffinerie, gestori di magazzini frigoriferi, stabilimenti alimentari e cantieri edili.",
+      "Come produttore di chiodi per isolamento e fornitore di lana minerale, lana di vetro, silicato di calcio e guarnizioni ceramiche, Santura può fornire un pacchetto di isolamento completo da un unico fornitore. Esportiamo in oltre 25 paesi."
+    ],
+    "relatedTitle": "Prodotti correlati",
+    "relatedPins": "Chiodi e rondelle per fissare lastre di polistirene a pareti e canali.",
+    "relatedMineralWool": "L'alternativa per superfici calde oltre il limite del polistirene.",
+    "relatedCalsil": "Isolante rigido per tubazioni e apparecchiature ad alta temperatura.",
+    "relatedGlassFibre": "Lana di vetro e tessuto di vetro per canali e rivestimenti.",
+    "relatedPir": "Una schiuma rigida con temperatura di esercizio superiore al polistirene.",
+    "faqTitle": "Domande frequenti",
+    "faq": [
+      {
+        "q": "Qual è la differenza tra isolamento in polistirene EPS e XPS?",
+        "a": "L'EPS (polistirene espanso) è una schiuma bianca a perle, più leggera ed economica, disponibile in densità da 15 a 40 kg/m³. L'XPS (polistirene estruso) è più denso, con maggiore resistenza a compressione (150–700 kPa), minore assorbimento d'acqua (tipicamente 0,3% o meno) e minore conduttività termica (0,029–0,036 W/m·K). L'XPS è preferito per applicazioni interrate, umide e sotto carico."
+      },
+      {
+        "q": "Per quale intervallo di temperature è adatto l'isolamento in polistirene?",
+        "a": "L'isolamento in polistirene si usa in esercizio continuo fino a circa 80 °C per l'EPS e circa 75 °C per l'XPS. Sul freddo, i produttori indicano l'EPS fino a circa −180 °C e l'XPS tipicamente fino a −50 °C. È molto adatto a magazzini frigoriferi, refrigerazione, linee di acqua refrigerata ed edifici. Oltre 80 °C usare lana minerale o silicato di calcio."
+      },
+      {
+        "q": "Quali densità di EPS sono disponibili?",
+        "a": "Santura fornisce isolamento in EPS nelle densità 15, 20, 25, 30 e 40 kg/m³. Una densità maggiore dà una resistenza a compressione maggiore: 15 kg/m³ per pareti e soffitti senza carico, 40 kg/m³ per pavimenti molto caricati e celle frigorifere industriali. Altre densità su richiesta."
+      },
+      {
+        "q": "L'isolamento in polistirene è impermeabile?",
+        "a": "Il polistirene ha una struttura a celle chiuse che gli conferisce una buona resistenza all'umidità. L'XPS assorbe tipicamente lo 0,3% d'acqua in volume o meno, quindi è la scelta per applicazioni interrate e umide. L'EPS assorbe il 2–5%. Su superfici fredde entrambi richiedono una barriera al vapore, come un rivestimento in alluminio, contro la condensa. Nessuno dei due è nutrimento per la muffa."
+      }
+    ],
+    "ctaTitle": "Vi serve isolamento in polistirene?",
+    "ctaText": "Indicateci tipo (EPS o XPS), formato, densità, spessore, diametri delle tubazioni o misure delle lastre e quantità. Risponderemo con un'offerta e i tempi di consegna.",
+    "ctaRfq": "Richiedi un preventivo per isolamento in polistirene",
+    "ctaContact": "Oppure contatta il nostro team"
+  },
+  "pirPage": {
+    "metaTitle": "Pannelli e coppelle in PIR | Fornitore industriale",
+    "metaDescription": "Isolamento in poliisocianurato PIR: pannelli e coppelle da −196 °C a 150 °C. Senza CFC, buona tenuta al fuoco. Dal 1980, 25+ paesi. Chiedi un preventivo.",
+    "eyebrow": "Materiali isolanti",
+    "h1": "Isolamento in poliisocianurato (PIR)",
+    "subheading": "Isolamento in schiuma rigida PIR: coppelle da ½\" a 24\", pannelli, pannelli rivestiti e segmenti. Conduttività termica molto bassa, propagazione di fiamma Classe 1 e limite di superficie calda di 150 °C.",
+    "badges": [
+      "Coppelle ½\"–24\"",
+      "Pannelli e segmenti",
+      "Fino a 150 °C",
+      "Propagazione di fiamma Classe 1",
+      "Senza CFC"
+    ],
+    "gallery": [
+      "Pannello isolante in poliisocianurato PIR con rivestimento in carta kraft"
+    ],
+    "overviewTitle": "Cos'è l'isolamento in poliisocianurato",
+    "overview": [
+      "Il poliisocianurato (PIR), detto anche poliiso, è un isolante in schiuma rigida termoindurente. È un poliuretano (PUR) modificato con una quota maggiore di legami isocianurato, e la sua conduttività termica è tra le più basse degli isolanti di uso comune.",
+      "La struttura isocianurata dà al PIR un comportamento al fuoco migliore del poliuretano standard. Raggiunge la Classe 1 di propagazione superficiale della fiamma, emette poco fumo e, a differenza della maggior parte dei termoplastici, non fonde né gocciola in caso di incendio. Inoltre porta il limite di superficie calda a 150 °C, contro 110 °C della normale schiuma poliuretanica, quindi il PIR può essere applicato direttamente su tracciature a vapore o elettriche che restano entro tale limite.",
+      "Il PIR richiede circa metà dello spessore del sughero a parità di prestazioni. Uno strato più sottile significa meno superficie da coprire, quindi minori costi di barriera al vapore, lamierino di finitura e supporti per metro lineare di tubazione. Il nostro PIR è senza CFC."
+    ],
+    "compareTitle": "Spessore a confronto con altri isolanti",
+    "compareIntro": "Spessore di isolante necessario per la stessa resistenza termica (R = 2,5 m²K/W).",
+    "colMaterial": "Materiale",
+    "colThickness": "Spessore necessario",
+    "lambdaUnit": "W/m·K",
+    "mmUnit": "mm",
+    "compareNames": [
+      "PIR (poliisocianurato)",
+      "XPS (polistirene estruso)",
+      "Lana di vetro",
+      "EPS (polistirene espanso)",
+      "Lana minerale (lana di roccia)",
+      "Silicato di calcio"
+    ],
+    "compareNote": "Il PIR raggiunge lo stesso valore isolante della lana minerale con circa il 40% di spessore in meno, risparmiando spazio, lamierino e costi di posa.",
+    "compareCalc": "Calcolo per superficie piana (spessore = R × λ) con conduttività tipica a bassa temperatura media. Lo spessore reale dipende da diametro, temperatura di esercizio e criteri di progetto. Lana minerale e silicato di calcio si scelgono per servizi più caldi, dove il PIR non è utilizzabile.",
+    "formsTitle": "Formati e dimensioni",
+    "formsIntro": "Formati e dimensioni tipici. Altre misure, spessori e forme sono fornibili su disegno.",
+    "colForm": "Formato",
+    "colDescription": "Descrizione",
+    "colSizes": "Dimensioni tipiche",
+    "forms": [
+      {
+        "form": "Coppelle (due metà)",
+        "text": "Pezzi preformati in due metà per l'isolamento di tubazioni",
+        "sizes": "Da ½\" a 24\" (DN15–DN600); spessore da 25 mm; lunghezza 1000 mm"
+      },
+      {
+        "form": "Pannelli",
+        "text": "Pannelli rigidi per pareti, coperture, canali e apparecchiature",
+        "sizes": "Spessore 20–150 mm; 1200 × 600 mm o 2400 × 1200 mm"
+      },
+      {
+        "form": "Pannelli rivestiti",
+        "text": "Pannello in PIR con rivestimento in alluminio o carta kraft; l'alluminio funge da barriera al vapore",
+        "sizes": "Misure standard"
+      },
+      {
+        "form": "Segmenti",
+        "text": "Segmenti trapezoidali per tubazioni e serbatoi di grande diametro",
+        "sizes": "In base al diametro esterno"
+      },
+      {
+        "form": "Pannelli incisi / curvabili",
+        "text": "Pannelli pre-incisi che si curvano su superfici e serbatoi",
+        "sizes": "Spessore 20–80 mm"
+      },
+      {
+        "form": "Blocchi per supporti",
+        "text": "Blocchi in PIR ad alta densità per supporti di tubazioni isolate, al posto dei tasselli in legno",
+        "sizes": "In base a diametro e carico"
+      }
+    ],
+    "pipeTitle": "Coppelle in PIR",
+    "pipeIntro": "Le nostre coppelle in PIR standard. Spessori e rivestimenti sono realizzati secondo la specifica di progetto.",
+    "pipeRows": [
+      {
+        "label": "Diametri tubazione",
+        "value": "Da ½\" a 24\" (DN15–DN600)"
+      },
+      {
+        "label": "Spessore",
+        "value": "Da 25 mm"
+      },
+      {
+        "label": "Lunghezza",
+        "value": "1000 mm"
+      },
+      {
+        "label": "Densità",
+        "value": "Da 36 kg/m³"
+      },
+      {
+        "label": "Configurazione",
+        "value": "Due metà con giunto di testa o a battente"
+      },
+      {
+        "label": "Rivestimento",
+        "value": "Senza rivestimento, foglio di alluminio o carta kraft"
+      },
+      {
+        "label": "Limite di faccia calda",
+        "value": "150 °C in continuo"
+      }
+    ],
+    "drawingAlt": "Disegno al tratto di una coppella in PIR in due metà attorno a un tubo",
+    "drawingCaption": "Coppella in due metà",
+    "specTitle": "PIR e PUR a confronto",
+    "colProperty": "Proprietà",
+    "colPir": "PIR (poliisocianurato)",
+    "colPur": "PUR (poliuretano)",
+    "specRows": [
+      {
+        "label": "Tipo",
+        "pir": "Schiuma rigida termoindurente con legami isocianurato",
+        "pur": "Schiuma rigida termoindurente"
+      },
+      {
+        "label": "Conduttività termica (λ, 10 °C medi)",
+        "pir": "0,020–0,025 W/m·K",
+        "pur": "0,023–0,028 W/m·K"
+      },
+      {
+        "label": "Densità",
+        "pir": "Da 36 kg/m³ (coppelle); 30–60 kg/m³ (pannelli)",
+        "pur": "30–50 kg/m³"
+      },
+      {
+        "label": "Temperatura massima di superficie calda",
+        "pir": "150 °C",
+        "pur": "110 °C"
+      },
+      {
+        "label": "Servizio a bassa temperatura",
+        "pir": "Gradi criogenici usati fino a circa −196 °C",
+        "pur": "Gradi criogenici usati fino a circa −196 °C"
+      },
+      {
+        "label": "Resistenza a compressione (10% di deformazione)",
+        "pir": "Circa 150–200 kPa, maggiore con la densità",
+        "pur": "Circa 120 kPa e oltre"
+      },
+      {
+        "label": "Comportamento al fuoco",
+        "pir": "Classe 1 di propagazione di fiamma; poco fumo; non fonde né gocciola",
+        "pur": "Inferiore; richiede additivi ritardanti di fiamma"
+      },
+      {
+        "label": "Trasmissione del vapore",
+        "pir": "Molto bassa (celle chiuse)",
+        "pur": "Molto bassa (celle chiuse)"
+      },
+      {
+        "label": "Assorbimento d'acqua",
+        "pir": "Basso, tipicamente sotto il 2% in volume",
+        "pur": "Basso"
+      },
+      {
+        "label": "Stabilità dimensionale",
+        "pir": "Ottima",
+        "pur": "Buona"
+      },
+      {
+        "label": "Contenuto di celle chiuse",
+        "pir": "Oltre il 90%",
+        "pur": "Oltre il 90%"
+      },
+      {
+        "label": "Agente espandente",
+        "pir": "Senza CFC",
+        "pur": "Senza CFC nei gradi moderni"
+      }
+    ],
+    "specNote": "Valori tipici. I valori esatti dipendono da grado, densità e produttore; fa fede la scheda tecnica del prodotto fornito.",
+    "advantagesTitle": "Vantaggi",
+    "advantages": [
+      "Efficienza isolante molto elevata, che fa risparmiare energia",
+      "Isolamento senza vuoti: una schiuma a celle chiuse con prestazioni uniformi su tutta la sezione",
+      "Circa metà dello spessore del sughero, con minori costi di lamierino, barriera al vapore e supporti",
+      "Resistente al fuoco: Classe 1 di propagazione di fiamma, poco fumo, non fonde né gocciola",
+      "Limite di superficie calda di 150 °C, superiore ai 110 °C del poliuretano standard",
+      "Resistente all'acqua e all'umidità",
+      "Dimensionalmente stabile: non si ritira, non si deforma e non si assesta",
+      "Resistente alla maggior parte di oli, prodotti chimici e solventi",
+      "Nessun ponte termico attraverso l'isolante, che non contiene percorsi fibrosi o metallici",
+      "Durevole; mantiene le prestazioni per molti anni se posato e protetto correttamente"
+    ],
+    "cautionsTitle": "Aspetti da considerare",
+    "cautions": [
+      "Il PIR è combustibile anche se non fonde né gocciola. Va posato sotto lamierino o un altro strato protettivo come richiesto dalle norme antincendio.",
+      "Il limite di faccia calda è 150 °C. Per tubazioni e apparecchiature più calde usare lana minerale o silicato di calcio.",
+      "La luce solare degrada la schiuma esposta. Mantenere il PIR rivestito o coperto e sigillare i giunti con barriera al vapore nel servizio freddo."
+    ],
+    "standardsTitle": "Norme",
+    "standards": [
+      "Isolanti termici in PUR e PIR ottenuti in fabbrica per attrezzature edilizie e installazioni industriali",
+      "Isolanti termici per edilizia in schiuma rigida di poliuretano (PUR / PIR) ottenuti in fabbrica",
+      "Isolante termico preformato in poliisocianurato cellulare rigido",
+      "Caratteristiche di combustione superficiale dei materiali da costruzione",
+      "Prova di propagazione superficiale della fiamma (Classe 1)",
+      "Materie plastiche cellulari rigide per l'isolamento termico degli edifici"
+    ],
+    "applicationsTitle": "Applicazioni per settore",
+    "applications": [
+      {
+        "title": "Oil & gas e petrolchimico",
+        "items": [
+          "Tubazioni di processo e di condensa fino a 150 °C",
+          "Linee di acqua refrigerata, salamoia e prodotti chimici freddi",
+          "Tubazioni criogeniche con sistemi in PIR di grado criogenico",
+          "Tubazioni con tracciatura a vapore o elettrica fino a 150 °C",
+          "Apparecchi e colonne sotto lamierino"
+        ]
+      },
+      {
+        "title": "Produzione di energia",
+        "items": [
+          "Linee di condensa e acqua calda",
+          "Linee di vapore a bassa pressione fino a 150 °C",
+          "Linee di acqua fredda e di raffreddamento",
+          "HVAC degli edifici ausiliari"
+        ]
+      },
+      {
+        "title": "HVAC e idraulica",
+        "items": [
+          "Tubazioni di acqua refrigerata, dove lo spessore ridotto evita la condensa",
+          "Tubazioni di acqua calda sanitaria",
+          "Linee del refrigerante",
+          "Pannelli per canali e isolamento dei canali"
+        ]
+      },
+      {
+        "title": "Edilizia",
+        "items": [
+          "Tetti piani, anche con pannelli in pendenza per il drenaggio",
+          "Isolamento in intercapedine e a cappotto",
+          "Isolamento sotto pavimento",
+          "Magazzini frigoriferi ed edifici di congelamento",
+          "Pannelli sandwich in PIR con lamiera"
+        ]
+      },
+      {
+        "title": "Navale e offshore",
+        "items": [
+          "Tubazioni e apparecchiature di piattaforme offshore",
+          "Pareti e soffitti di moduli alloggio",
+          "Isolamento di paratie e ponti"
+        ]
+      },
+      {
+        "title": "Conservazione a freddo e refrigerazione",
+        "items": [
+          "Pareti, pavimenti e soffitti di celle frigorifere",
+          "Celle di congelamento fino a −40 °C",
+          "Abbattitori di temperatura",
+          "Veicoli e container refrigerati"
+        ]
+      },
+      {
+        "title": "Industrie di processo",
+        "items": [
+          "Stabilimenti alimentari e di bevande: isolamento igienico delle tubazioni",
+          "Camere bianche e tubazioni di processo farmaceutiche",
+          "Impianti chimici: tubazioni e apparecchi esposti a solventi"
+        ]
+      }
+    ],
+    "supplyTitle": "Cosa forniamo",
+    "supply": [
+      "Santura Engineering fornisce isolamento in poliisocianurato (PIR): coppelle da ½\" a 24\" da 36 kg/m³, pannelli, pannelli rivestiti e segmenti. Il nostro PIR è senza CFC. I clienti tipici sono raffinerie, impianti petrolchimici, centrali elettriche e progetti di conservazione a freddo.",
+      "Come produttore di ancoraggi refrattari e chiodi per isolamento, e fornitore di lana minerale, polistirene, silicato di calcio e guarnizioni ceramiche, Santura può fornire un pacchetto di isolamento completo da un unico fornitore. Esportiamo in oltre 25 paesi."
+    ],
+    "relatedTitle": "Prodotti correlati",
+    "relatedPolystyrene": "Una schiuma rigida più economica per esercizio fino a circa 80 °C.",
+    "relatedMineralWool": "La scelta per servizi caldi oltre 150 °C.",
+    "relatedCalsil": "Isolante rigido per tubazioni e apparecchiature ad alta temperatura.",
+    "relatedPins": "Chiodi e rondelle per fissare pannelli in PIR a pareti e canali.",
+    "relatedGlassFibre": "Tessuto di vetro per fasciare l'isolamento in PIR.",
+    "faqTitle": "Domande frequenti",
+    "faq": [
+      {
+        "q": "Cos'è l'isolamento in poliisocianurato (PIR)?",
+        "a": "Il poliisocianurato (PIR o poliiso) è una schiuma rigida termoindurente con una delle conduttività termiche più basse tra gli isolanti comuni, 0,020–0,025 W/m·K. È un poliuretano modificato con un comportamento al fuoco migliore: Classe 1 di propagazione di fiamma, poco fumo, e non fonde né gocciola. Il PIR standard si usa fino a 150 °C e i gradi criogenici fino a circa −196 °C."
+      },
+      {
+        "q": "Qual è la differenza tra isolamento in PIR e in PUR?",
+        "a": "Il PIR (poliisocianurato) ha una quota di legami isocianurato maggiore del PUR (poliuretano) standard. Ne derivano un migliore comportamento al fuoco e un limite di superficie calda più alto, 150 °C contro 110 °C del PUR. Il PIR ha anche una conduttività termica leggermente inferiore. Entrambi sono schiume rigide a celle chiuse, ma il PIR è preferito per l'isolamento industriale delle tubazioni e quando conta il comportamento al fuoco."
+      },
+      {
+        "q": "In quali diametri sono disponibili le coppelle in PIR?",
+        "a": "Santura fornisce coppelle in PIR per tubazioni da ½\" a 24\" (DN15–DN600), con spessore da 25 mm e densità da 36 kg/m³. Le coppelle sono lunghe 1000 mm, realizzate in due metà e disponibili senza rivestimento o con foglio di alluminio o carta kraft."
+      },
+      {
+        "q": "Perché l'isolamento in PIR è più sottile di altri isolanti?",
+        "a": "Il PIR ha una delle conduttività termiche più basse tra gli isolanti comuni, circa 0,022 W/m·K contro circa 0,038 W/m·K della lana minerale. Raggiunge lo stesso valore isolante con circa il 40% di spessore in meno rispetto alla lana minerale e circa metà rispetto al sughero: si risparmia spazio, si riducono i costi di lamierino e barriera al vapore e si accorcia la posa."
+      }
+    ],
+    "ctaTitle": "Vi serve isolamento in PIR?",
+    "ctaText": "Indicateci formato, diametri o misure dei pannelli, spessore, rivestimento, temperatura di esercizio e quantità. Risponderemo con un'offerta e i tempi di consegna.",
+    "ctaRfq": "Richiedi un preventivo per isolamento in PIR",
+    "ctaContact": "Oppure contatta il nostro team"
+  },
+  "fsPage": {
+    "metaTitle": "Fornitore di bulloneria industriale | Prigionieri e dadi",
+    "metaDescription": "Bulloneria industriale: prigionieri B7, viti esagonali, dadi e rondelle in inox, Inconel, Monel e Duplex. Fornitore dal 1980, export in 25+ paesi.",
+    "eyebrow": "Fornito da Santura",
+    "h1": "Bulloneria industriale",
+    "subheading": "Viti, prigionieri, dadi e rondelle in acciaio al carbonio, acciaio legato B7, acciaio inox, duplex e leghe di nichel, forniti insieme ai nostri ancoraggi refrattari e prodotti isolanti per acquistare tutto da un unico fornitore.",
+    "badges": [
+      "Prigionieri B7 / 2H",
+      "Viti e dadi esagonali",
+      "Acciaio inox",
+      "Inconel, Monel, Duplex",
+      "Certificati EN 10204 3.1",
+      "Un solo ordine"
+    ],
+    "gallery": [
+      "Prigionieri B7 e barre filettate in acciaio legato",
+      "Viti a testa esagonale zincate",
+      "Dadi esagonali pesanti in acciaio nero",
+      "Dadi esagonali flangiati zigrinati in acciaio inox",
+      "Vite esagonale flangiata zincata",
+      "Viti a testa tonda con quadro sottotesta zincate",
+      "Viti a testa bombata con esagono incassato brunite",
+      "Assortimento di viti, dadi e rondelle industriali"
+    ],
+    "overviewTitle": "Bulloneria per progetti di raffinazione, petrolchimica ed energia",
+    "overview": [
+      "Oltre agli ancoraggi refrattari, alle fibre d'acciaio e ai chiodi per isolamento che produce, Santura Engineering fornisce bulloneria industriale: viti, prigionieri, dadi e rondelle in acciaio al carbonio, acciaio legato, acciaio inox e leghe ad alte prestazioni come Inconel, Monel e Duplex.",
+      "La nostra bulloneria proviene da fornitori qualificati ed è consegnata come parte di forniture complete per progetti. È particolarmente utile nei progetti di raffinerie, impianti petrolchimici e centrali elettriche, dove la bulloneria per flange B7 e le leghe speciali sono specificate insieme ai materiali refrattari e isolanti.",
+      "Contrattisti EPC, raffinerie e gestori di impianti possono così acquistare ancoraggi, isolamento e bulloneria da un unico fornitore, con un'unica documentazione e un unico programma di consegna."
+    ],
+    "whyTitle": "Perché acquistare la bulloneria da Santura",
+    "why": [
+      {
+        "title": "Un unico fornitore",
+        "text": "Ancoraggi refrattari, materiali isolanti, chiodi per isolamento e bulloneria dallo stesso fornitore: un ordine, una spedizione e un'unica documentazione."
+      },
+      {
+        "title": "Conoscenza delle leghe",
+        "text": "Produciamo ogni giorno ancoraggi in acciai inox come SS 304, 310 e 316 e in leghe di nichel come l'Inconel. La stessa conoscenza dei materiali guida la scelta e il controllo dei gradi della bulloneria."
+      },
+      {
+        "title": "Imballo pronto per il cantiere",
+        "text": "Su richiesta, i set di prigionieri B7 sono imballati ed etichettati per diametro e classe della flangia, e i kit ordinati per assieme, pronti per il montaggio."
+      },
+      {
+        "title": "Documentazione di qualità",
+        "text": "Certificati di controllo EN 10204 3.1, numeri di colata o lotto sulle etichette e documenti verificati rispetto all'ordine prima della spedizione."
+      },
+      {
+        "title": "Consegna in tutto il mondo",
+        "text": "La bulloneria viaggia con ancoraggi e isolanti attraverso la stessa logistica con cui spediamo in oltre 25 paesi."
+      }
+    ],
+    "rangeTitle": "Gamma di bulloneria",
+    "rangeIntro": "Tipi comuni e norme di fornitura abituali. Altri tipi, norme e misure speciali si reperiscono secondo la vostra specifica.",
+    "boltsTitle": "Viti e prigionieri",
+    "nutsTitle": "Dadi",
+    "washersTitle": "Rondelle",
+    "colType": "Tipo",
+    "colDescription": "Descrizione",
+    "colStandards": "Norme comuni",
+    "bolts": [
+      {
+        "type": "Viti a testa esagonale",
+        "text": "Viti esagonali standard, il fissaggio industriale più comune; filettatura parziale o totale"
+      },
+      {
+        "type": "Prigionieri (B7)",
+        "text": "Prigionieri interamente filettati in acciaio al cromo-molibdeno per flange ad alta temperatura e pressione"
+      },
+      {
+        "type": "Cavallotti a U",
+        "text": "Bulloni a U che fissano le tubazioni ai supporti"
+      },
+      {
+        "type": "Golfari maschi",
+        "text": "Viti con testa ad anello per sollevamento e imbracatura"
+      },
+      {
+        "type": "Viti flangiate",
+        "text": "Viti esagonali con flangia integrata che distribuisce il carico e limita l'allentamento"
+      },
+      {
+        "type": "Viti a testa tonda con quadro sottotesta",
+        "text": "Testa tonda con collo quadro che impedisce la rotazione quando si serra il dado"
+      },
+      {
+        "type": "Viti a esagono incassato",
+        "text": "Esagono incassato per coppie elevate in spazi ridotti e montaggio a filo; testa cilindrica e svasata"
+      },
+      {
+        "type": "Viti a testa bombata",
+        "text": "Testa tonda bassa; con esagono incassato e viti M16 per guardrail"
+      },
+      {
+        "type": "Viti zigrinate",
+        "text": "Viti con testa o gambo zigrinato, fornite su disegno"
+      },
+      {
+        "type": "Viti a testa piana con quadro sottotesta",
+        "text": "Testa piana svasata con collo quadro"
+      },
+      {
+        "type": "Viti a testa piana con nasello",
+        "text": "Testa piana con nasello che impedisce la rotazione nei collegamenti in acciaio"
+      }
+    ],
+    "nuts": [
+      {
+        "type": "Dadi esagonali",
+        "text": "Dadi esagonali standard per uso generale"
+      },
+      {
+        "type": "Dadi esagonali pesanti",
+        "text": "Dadi più spessi con chiave maggiore per bulloneria ad alta resistenza, usati con prigionieri B7"
+      },
+      {
+        "type": "Controdadi (dadi bassi)",
+        "text": "Dadi esagonali bassi usati come secondo dado di bloccaggio"
+      },
+      {
+        "type": "Dadi autobloccanti con inserto in nylon",
+        "text": "Dadi esagonali con anello in nylon che resistono all'allentamento da vibrazioni"
+      },
+      {
+        "type": "Dadi flangiati",
+        "text": "Dadi esagonali con flangia zigrinata integrata che distribuisce il carico"
+      },
+      {
+        "type": "Dadi a saldare",
+        "text": "Dadi quadri o esagonali progettati per essere saldati su lamiera"
+      },
+      {
+        "type": "Dadi quadri",
+        "text": "Dadi a quattro lati per profili e asole"
+      },
+      {
+        "type": "Dadi ciechi",
+        "text": "Dadi esagonali con calotta chiusa che copre l'estremità della vite"
+      },
+      {
+        "type": "Golfari femmina",
+        "text": "Dadi con anello di sollevamento per imbracatura"
+      }
+    ],
+    "washers": [
+      {
+        "type": "Rondelle piane",
+        "text": "Rondelle che distribuiscono il carico sotto dado o testa della vite"
+      },
+      {
+        "type": "Rondelle elastiche Grower",
+        "text": "Rondelle spaccate che resistono all'allentamento da vibrazioni"
+      },
+      {
+        "type": "Rondelle dentellate",
+        "text": "Rondelle con dentatura interna o esterna per bloccaggio e messa a terra"
+      },
+      {
+        "type": "Rondelle inclinate",
+        "text": "Rondelle a cuneo per le ali inclinate di travi IPN e UPN"
+      }
+    ],
+    "sizesTitle": "Misure, classi e finiture",
+    "sizesIntro": "Campi di fornitura tipici per gli articoli più richiesti.",
+    "colProduct": "Prodotto",
+    "colSize": "Campo di misure",
+    "colGrade": "Classi",
+    "colFinish": "Finiture",
+    "rangeRows": [
+      {
+        "item": "Viti a testa esagonale",
+        "size": "M6–M64; lunghezze fino a 450 mm",
+        "grade": "4.6, 4.8, 5.6, 5.8, 8.8, 10.9, 12.9, B7, B7M",
+        "finish": "Brunita, zincata, zincata a caldo"
+      },
+      {
+        "item": "Prigionieri e prigionieri a doppia estremità",
+        "size": "M8–M72; da 5/16\" a 3\"",
+        "grade": "8.8 / 8, B7 / 2H, B7M / 2HM",
+        "finish": "Nero, zincato a caldo"
+      },
+      {
+        "item": "Dadi esagonali",
+        "size": "M5–M56",
+        "grade": "4, 6, 8, 10, 12, 2H, 2HM",
+        "finish": "Brunita, zincata, zincata a caldo"
+      },
+      {
+        "item": "Viti a esagono incassato",
+        "size": "M8–M30; lunghezze fino a 450 mm",
+        "grade": "4.6, 4.8, 5.6, 5.8, 8.8",
+        "finish": "Brunita, zincata, zincata a caldo"
+      },
+      {
+        "item": "Viti a testa tonda con quadro sottotesta",
+        "size": "M6–M64",
+        "grade": "4.6, 4.8, 5.6, 8.8",
+        "finish": "Fosfatata nera, zincata bianca o gialla, zincata a caldo"
+      },
+      {
+        "item": "Viti a testa piana con quadro o nasello",
+        "size": "M6–M30",
+        "grade": "4.6, 4.8, 5.6, 8.8",
+        "finish": "Fosfatata nera, zincata bianca o gialla, zincata a caldo"
+      },
+      {
+        "item": "Viti e dadi flangiati, viti zigrinate",
+        "size": "Su ordinazione",
+        "grade": "Viti 8.8, 10.9, 12.9; dadi 8, 10, 12",
+        "finish": "Brunita, zincata, zincata a caldo"
+      },
+      {
+        "item": "Viti a testa bombata (guardrail)",
+        "size": "M16",
+        "grade": "4.6, 8.8",
+        "finish": "Fosfatata nera, zincata a caldo"
+      }
+    ],
+    "b7Eyebrow": "Prodotto in evidenza",
+    "b7Title": "Prigionieri B7",
+    "b7Intro": "I prigionieri ASTM A193 B7 con dadi esagonali pesanti A194 2H sono la bulloneria più specificata per le flange in raffinerie e impianti petrolchimici.",
+    "b7Rows": [
+      {
+        "label": "Specifica",
+        "value": "ASTM A193 Grade B7: acciaio legato al cromo-molibdeno, bonificato"
+      },
+      {
+        "label": "Dadi abbinati",
+        "value": "ASTM A194 Grade 2H, esagonali pesanti; prigionieri B7M con dadi 2HM per servizio acido"
+      },
+      {
+        "label": "Resistenza a trazione minima",
+        "value": "860 MPa fino a 2½\"; 795 MPa oltre 2½\" fino a 4\"; 690 MPa oltre 4\" fino a 7\""
+      },
+      {
+        "label": "Snervamento minimo",
+        "value": "720 MPa fino a 2½\"; 655 MPa oltre 2½\" fino a 4\"; 515 MPa oltre 4\" fino a 7\""
+      },
+      {
+        "label": "Temperatura di esercizio",
+        "value": "Fino a circa 450 °C; oltre si specificano bulloni B16 o in lega di nichel"
+      },
+      {
+        "label": "Misure",
+        "value": "M8–M72 (da 5/16\" a 3\"), in lunghezze adatte alla classe della flangia e alla guarnizione"
+      },
+      {
+        "label": "Finitura",
+        "value": "Nero o zincato a caldo; PTFE (Xylan) e altri rivestimenti su richiesta"
+      },
+      {
+        "label": "Applicazioni",
+        "value": "Flange di recipienti a pressione e scambiatori, cappelli di valvole e flange di tubazioni"
+      }
+    ],
+    "b7Note": "I prigionieri B7 possono essere forniti in set (prigioniero, due dadi 2H e rondelle se richieste), imballati ed etichettati per diametro e classe della flangia per il montaggio in cantiere.",
+    "materialsTitle": "Materiali",
+    "materialsIntro": "Scegliere il materiale in base a temperatura di esercizio, pressione ed esposizione alla corrosione. Reperiamo il grado richiesto dalla vostra specifica.",
+    "colMaterial": "Materiale",
+    "colGrades": "Gradi",
+    "colUse": "Uso tipico",
+    "materials": [
+      {
+        "name": "Acciaio al carbonio",
+        "use": "Carpenteria generale e servizi non critici"
+      },
+      {
+        "name": "Acciaio legato B7",
+        "use": "Flange ad alta temperatura e pressione in raffinerie e impianti petrolchimici"
+      },
+      {
+        "name": "Acciaio legato B7M",
+        "use": "Servizio acido (H₂S), con durezza controllata"
+      },
+      {
+        "name": "Acciaio inox 304 / 304L",
+        "use": "Resistenza generale alla corrosione; impianti alimentari e farmaceutici"
+      },
+      {
+        "name": "Acciaio inox 316 / 316L",
+        "use": "Ambienti marini, chimici e con cloruri"
+      },
+      {
+        "name": "Acciaio inox 321 / 347",
+        "use": "Gradi stabilizzati per alte temperature"
+      },
+      {
+        "name": "Duplex 2205",
+        "use": "Offshore e dissalazione; resiste a cloruri e tensocorrosione"
+      },
+      {
+        "name": "Inconel 600 / 625",
+        "use": "Alte temperature e corrosione severa"
+      },
+      {
+        "name": "Monel 400 / K-500",
+        "use": "Acqua di mare, processi chimici e ambienti acidi"
+      },
+      {
+        "name": "Hastelloy C-276",
+        "use": "Ambienti chimici fortemente corrosivi"
+      }
+    ],
+    "qualityTitle": "Qualità e documentazione",
+    "qualityRows": [
+      {
+        "label": "Certificati",
+        "value": "Certificati di controllo EN 10204 3.1 dell'acciaieria o dello stabilimento di origine; 3.2 con ispezione di terza parte su richiesta"
+      },
+      {
+        "label": "Controlli prima della spedizione",
+        "value": "Certificati verificati rispetto all'ordine, controlli dimensionali e verifica della lega con il nostro analizzatore XRF portatile su bulloneria inox e in leghe di nichel"
+      },
+      {
+        "label": "Tracciabilità",
+        "value": "Numeri di colata o lotto riportati dai certificati alle etichette"
+      },
+      {
+        "label": "Imballo",
+        "value": "Etichettato per misura e classe; scatole, sacchetti o imballo specifico di progetto"
+      },
+      {
+        "label": "Norme",
+        "value": "ASTM, ASME / ANSI, DIN, ISO, BS e IS, secondo la specifica di progetto"
+      }
+    ],
+    "applicationsTitle": "Applicazioni per settore",
+    "applications": [
+      {
+        "title": "Oil & gas e petrolchimico",
+        "items": [
+          "Bulloneria per flange di tubazioni di processo (set di prigionieri B7 / 2H)",
+          "Chiusure di recipienti a pressione e scambiatori",
+          "Bulloneria per cappelli di valvole",
+          "Collegamenti flangiati di condotte",
+          "Bulloneria per servizio acido (B7M / 2HM) e leghe per servizi corrosivi"
+        ]
+      },
+      {
+        "title": "Produzione di energia",
+        "items": [
+          "Bulloneria per flange di linee vapore",
+          "Bulloneria di caldaie e parti in pressione",
+          "Bulloneria di casse turbina",
+          "Collegamenti strutturali"
+        ]
+      },
+      {
+        "title": "Edilizia e carpenteria",
+        "items": [
+          "Collegamenti di strutture in acciaio (viti esagonali e a testa tonda)",
+          "Cavallotti a U per collari di tubazioni",
+          "Collegamenti di parapetti e piattaforme",
+          "Viti per guardrail"
+        ]
+      },
+      {
+        "title": "Navale e offshore",
+        "items": [
+          "Bulloneria duplex per acqua di mare",
+          "Bulloneria in Monel per acqua di mare e applicazioni sottomarine",
+          "Bulloneria in SS 316 per ambienti marini"
+        ]
+      },
+      {
+        "title": "Industria generale",
+        "items": [
+          "Montaggio e manutenzione di apparecchiature",
+          "Bulloneria per costruttori di macchine (OEM)",
+          "Ricambi per la manutenzione di impianto"
+        ]
+      }
+    ],
+    "relatedTitle": "Prodotti della nostra officina",
+    "relatedAnchors": "Il nostro prodotto principale: ancoraggi SEPL per rivestimenti refrattari.",
+    "relatedFibresName": "Fibre d'acciaio",
+    "relatedFibres": "Fibre in acciaio inox per rinforzare i calcestruzzi refrattari, prodotte nella nostra officina.",
+    "relatedPins": "Chiodi a saldare, chiodi adesivi e rondelle per fissare l'isolamento.",
+    "relatedFoundation": "Tirafondi a L, J, U, con piastra e diritti, su disegno.",
+    "relatedCw": "Sistemi di contrappeso realizzati nella nostra officina.",
+    "faqTitle": "Domande frequenti",
+    "faq": [
+      {
+        "q": "Quali tipi di bulloneria industriale fornisce Santura?",
+        "a": "Santura fornisce una gamma completa: viti esagonali, prigionieri B7, cavallotti a U, golfari, viti flangiate, viti a testa tonda con quadro sottotesta e viti a esagono incassato, con i relativi dadi (esagonali, esagonali pesanti, controdadi, autobloccanti, flangiati, a saldare, quadri, ciechi e golfari femmina) e rondelle piane, elastiche, dentellate e inclinate. Disponibile in acciaio al carbonio, acciaio legato, acciaio inox, Inconel, Monel e Duplex."
+      },
+      {
+        "q": "In quali materiali è disponibile la vostra bulloneria?",
+        "a": "Forniamo acciaio al carbonio (ASTM A307 e classi ISO), acciaio legato (ASTM A193 B7 e B7M), acciaio inox (304, 316, 321, 347), Duplex 2205, Inconel 600/625, Monel 400/K-500 e Hastelloy C-276. Il materiale giusto dipende da temperatura di esercizio, pressione ed esposizione alla corrosione. La bulloneria è fornita con certificati di controllo EN 10204 3.1."
+      },
+      {
+        "q": "Fornite prigionieri B7 per collegamenti flangiati?",
+        "a": "Sì. Santura fornisce prigionieri ASTM A193 Grade B7 con dadi esagonali pesanti A194 Grade 2H, la specifica standard per le flange in raffineria e petrolchimica, e B7M/2HM per servizio acido. Le misure vanno da M8 a M72 (da 5/16\" a 3\") in lunghezze adatte alla classe della flangia, e i prigionieri possono essere forniti in set completi (prigioniero, due dadi e rondelle) etichettati per flangia."
+      },
+      {
+        "q": "Perché acquistare la bulloneria da Santura insieme agli ancoraggi refrattari?",
+        "a": "L'attività principale di Santura è la produzione di ancoraggi refrattari e chiodi per isolamento per le stesse raffinerie e impianti petrolchimici che hanno bisogno di bulloneria industriale. Acquistare entrambi da Santura significa un ordine, una spedizione, un'unica documentazione e gli stessi controlli di qualità, semplificando gli acquisti di contrattisti EPC e gestori di impianti."
+      }
+    ],
+    "ctaTitle": "Vi serve bulloneria per il vostro progetto?",
+    "ctaText": "Inviateci la distinta bulloneria con tipo, misura, classe, norma, finitura e quantità, oppure un elenco flange per i set di prigionieri B7. Risponderemo con un'offerta e i tempi di consegna.",
+    "ctaRfq": "Richiedi un preventivo per bulloneria",
+    "ctaContact": "Oppure contatta il nostro team",
+    "trademarkNote": "Inconel e Monel sono marchi di Special Metals Corporation. Hastelloy è un marchio di Haynes International. Xylan è un marchio di PPG Industries. Gli altri nomi appartengono ai rispettivi proprietari e sono usati solo a scopo identificativo."
+  },
+  "iaPage": {
+    "metaTitle": "Accessori per coibentazione e lamierino | Santura",
+    "metaDescription": "Reggette, viti, rivetti, clip e accessori per coibentazione e rivestimento in inox e alluminio. Fornitore dal 1980, export in oltre 25 paesi.",
+    "eyebrow": "Materiali isolanti",
+    "h1": "Accessori per coibentazione e rivestimento in lamierino",
+    "subheading": "Reggette, fibbie, molle di dilatazione, viti, rivetti a strappo, filo di legatura, lamiere forate, nastri e sigillanti per fissare e rifinire la coibentazione e il suo rivestimento metallico su tubazioni, apparecchi, canali e impianti.",
+    "badges": [
+      "Reggette e fibbie inox",
+      "Molle di dilatazione",
+      "Rivetti a strappo",
+      "Lamiere forate",
+      "Filo e rete",
+      "Nastri e sigillanti"
+    ],
+    "gallery": [
+      "Fibbia in acciaio inox per reggette di coibentazione",
+      "Rivetti a strappo per giunzioni del lamierino",
+      "Rivetto a strappo con chiodo a rottura",
+      "Piatto forato in acciaio inox",
+      "Angolari forati in acciaio inox",
+      "Cilindro forato in acciaio inossidabile",
+      "Clip a forbice SEPL-04 in filo inox"
+    ],
+    "overviewTitle": "A cosa servono gli accessori per coibentazione",
+    "overview": [
+      "Gli accessori per coibentazione sono la minuteria e i materiali di consumo che fissano, sostengono e rifiniscono l'isolamento termico e il suo rivestimento metallico (lamierino) su tubazioni, apparecchi, canali e impianti. Le reggette tengono il lamierino, le molle mantengono le reggette tese durante le dilatazioni, viti e rivetti chiudono le giunzioni, filo e rete trattengono l'isolante stesso, nastri e sigillanti fermano acqua e vapore.",
+      "Gli accessori determinano la durata della coibentazione. Reggette lente, un metallo sbagliato a contatto con il lamierino o una barriera al vapore non sigillata lasciano entrare acqua nell'isolante, riducendone le prestazioni e favorendo la corrosione sotto coibentazione.",
+      "Santura fornisce questi accessori insieme ai suoi materiali isolanti e chiodi a raffinerie, impianti petrolchimici, centrali elettriche, acciaierie e cementifici, nei gradi di materiale previsti dalla specifica di progetto."
+    ],
+    "groupsTitle": "Gamma di accessori",
+    "groupsIntro": "I principali gruppi di accessori. Altri articoli, misure e gradi sono forniti secondo la vostra specifica.",
+    "groups": [
+      {
+        "title": "Reggette",
+        "tag": "",
+        "text": "Le reggette fissano il lamierino e l'isolante su tubazioni, apparecchi e impianti.",
+        "items": [
+          "Reggette in acciaio inox, ½\" e ¾\" × 0,020\" standard",
+          "Reggette in alluminio e acciaio zincato",
+          "Reggette in polipropilene o nylon per interni fino a circa 93 °C",
+          "Fibbie (sigilli ad alette) nello stesso materiale della reggetta",
+          "Tenditori manuali e pneumatici",
+          "Larghezze da 3/8\" a 1¼\", spessori da 0,015\" a 0,025\": ½\" per tubazioni e piccoli apparecchi, fino a 1¼\" per grandi serbatoi"
+        ]
+      },
+      {
+        "title": "Molle di dilatazione",
+        "tag": "",
+        "text": "Le molle inserite nella reggetta assorbono dilatazione e contrazione termica, così la reggetta resta tesa senza tagliare il lamierino.",
+        "items": [
+          "Molle in acciaio inox da 2\" e 4\"",
+          "Per apparecchi caldi e freddi e tubazioni di grande diametro calde o fredde",
+          "Molle rinforzate per reggette da 1¼\" su grandi serbatoi e lamierino corrugato"
+        ]
+      },
+      {
+        "title": "Viti autofilettanti e autoperforanti",
+        "tag": "",
+        "text": "Le viti fissano il lamierino dove le reggette non sono utilizzabili, come sugli spicchi delle curve.",
+        "items": [
+          "Acciaio inox tipo 410, testa esagonale flangiata con taglio",
+          "#8 × ½\" autoperforante e autofilettante",
+          "Versioni con rondella in neoprene per giunti stagni",
+          "Spicchi delle curve e giunzioni del lamierino corrugato"
+        ]
+      },
+      {
+        "title": "Rivetti a strappo (pop)",
+        "tag": "Prodotti nella nostra officina",
+        "text": "I rivetti a strappo uniscono due o più parti in lamiera e si applicano con accesso da un solo lato. Sulla coibentazione fissano le sovrapposizioni del lamierino.",
+        "items": [
+          "Corpo in alluminio, acciaio inox e Monel",
+          "Diametri 1/8\" (3,2 mm) e 5/32\" (4,0 mm)",
+          "Rivetti a trazione con chiodo a rottura"
+        ]
+      },
+      {
+        "title": "Filo di legatura e rete",
+        "tag": "",
+        "text": "Filo e rete trattengono l'isolante prima della posa del lamierino.",
+        "items": [
+          "Filo inox ricotto, calibro 16 (1,6 mm) e 18 (1,2 mm)",
+          "Lega coppelle rigide in due metà come silicato di calcio e perlite",
+          "Rete esagonale per il sostegno esterno dei materassini",
+          "Rete elettrosaldata per trattenere l'isolante su apparecchi e grandi impianti",
+          "Filo zincato su richiesta (oggi poco usato)"
+        ]
+      },
+      {
+        "title": "Lamiere forate",
+        "tag": "Prodotte nella nostra officina",
+        "text": "Lamiere inox punzonate con diversi schemi di fori, che riducono il peso e lasciano passare aria e suono. Sono molto usate in reformer e forni di processo.",
+        "items": [
+          "Laminate a caldo o a freddo, su disegno del cliente",
+          "Facili da saldare, tagliare e formare",
+          "Diversi schemi di fori, forme, misure e gradi",
+          "Come rivestimenti interni e strati di contenimento nei sistemi multistrato"
+        ]
+      },
+      {
+        "title": "Clip a forbice (SEPL-04)",
+        "tag": "Parte della nostra gamma di ancoraggi SEPL",
+        "text": "Graffe in filo che trattengono i rivestimenti in mattoni quando i mattoni sono distanziati dalla parete o dalla volta.",
+        "items": [
+          "Formate in filo su nostro disegno o vostro",
+          "Leghe tra cui CS, 304, 304H, 309, 253MA, 310, 314, 316, 321, 330, 800 e 601"
+        ]
+      },
+      {
+        "title": "Nastri e sigillanti",
+        "tag": "",
+        "text": "Nastri e sigillanti chiudono le giunzioni del lamierino e le barriere al vapore contro acqua e umidità.",
+        "items": [
+          "Nastro in film di poliestere rinforzato con filo di vetro",
+          "Nastro in alluminio (ad esempio 2 mil, 100 mm di larghezza) per le giunzioni del lamierino",
+          "Nastri a basso contenuto di cloruri per inox austenitico oltre circa 60 °C",
+          "Nastri per giunti ASJ e FRK",
+          "Sigillanti per giunti di sistemi isolanti rigidi"
+        ]
+      },
+      {
+        "title": "Perni a spalla e cappucci di fermo",
+        "tag": "",
+        "text": "Perni a saldare che trattengono isolante e lamierino su superfici dove non si possono usare reggette.",
+        "items": [
+          "Perni a saldare in inox o acciaio al carbonio, 5/16\" con gambo scanalato",
+          "Clip di fermo provvisorio durante la posa",
+          "Cappucci di fermo per il fissaggio finale del lamierino",
+          "Fondi conici di apparecchi e pannelli di forni"
+        ]
+      }
+    ],
+    "pinsBoxTitle": "Chiodi a saldare e rondelle autobloccanti",
+    "pinsBoxText": "Chiodi a saldare, chiodi adesivi, rondelle autobloccanti e cappucci per fissare l'isolamento sono illustrati nella nostra pagina dedicata ai chiodi per isolamento.",
+    "pinsBoxLink": "Vedi chiodi per isolamento",
+    "specTitle": "Riepilogo delle specifiche",
+    "colItem": "Accessorio",
+    "colMaterial": "Materiali",
+    "colSizes": "Misure standard",
+    "colTemp": "Temperatura",
+    "colUse": "Applicazione",
+    "specRows": [
+      {
+        "item": "Reggette",
+        "material": "SS 304 / 316; anche alluminio e acciaio zincato",
+        "sizes": "½\" e ¾\" × 0,020\"",
+        "temp": "Inox: da criogenico a circa 650 °C",
+        "use": "Fissaggio di lamierino e isolante"
+      },
+      {
+        "item": "Fibbie",
+        "material": "Come la reggetta",
+        "sizes": "In base alla larghezza della reggetta",
+        "temp": "Come la reggetta",
+        "use": "Chiusura della reggetta"
+      },
+      {
+        "item": "Molle di dilatazione",
+        "material": "SS 304 / 316",
+        "sizes": "2\" e 4\"",
+        "temp": "Come la reggetta inox",
+        "use": "Reggiatura di tubazioni e apparecchi caldi e freddi"
+      },
+      {
+        "item": "Viti autofilettanti",
+        "material": "SS 410",
+        "sizes": "#8 × ½\"",
+        "temp": "Temperatura superficiale del lamierino",
+        "use": "Giunzioni del lamierino e spicchi delle curve"
+      },
+      {
+        "item": "Rivetti a strappo",
+        "material": "Alluminio, inox, Monel",
+        "sizes": "Diametro 1/8\" e 5/32\"",
+        "temp": "In base al materiale",
+        "use": "Sovrapposizioni del lamierino"
+      },
+      {
+        "item": "Filo di legatura",
+        "material": "SS 304 / 316",
+        "sizes": "Calibro 16 (1,6 mm), 18 (1,2 mm)",
+        "temp": "Da criogenico a circa 650 °C",
+        "use": "Legatura di coppelle rigide"
+      },
+      {
+        "item": "Lamiere forate",
+        "material": "Gradi di acciaio inox",
+        "sizes": "Su disegno",
+        "temp": "In base al grado",
+        "use": "Rivestimenti interni di reformer e forni di processo"
+      },
+      {
+        "item": "Clip a forbice (SEPL-04)",
+        "material": "CS, acciai inox, leghe resistenti al calore",
+        "sizes": "Su disegno",
+        "temp": "In base alla lega",
+        "use": "Contenimento dei rivestimenti in mattoni"
+      },
+      {
+        "item": "Nastro in alluminio",
+        "material": "Foglio di alluminio adesivo",
+        "sizes": "Ad esempio 2 mil × 100 mm",
+        "temp": "In base all'adesivo",
+        "use": "Sigillatura delle giunzioni del lamierino"
+      }
+    ],
+    "specNote": "Valori tipici. I limiti esatti dipendono dal grado del materiale, dall'adesivo e dalla specifica di progetto.",
+    "guideTitle": "Indicazioni di scelta e posa",
+    "guide": [
+      "Le reggette sul lamierino delle tubazioni si posano di solito a 225–300 mm (9–12\") di interasse. Seguire la specifica di progetto.",
+      "Inserire molle di dilatazione nelle reggette di apparecchi e tubazioni di grande diametro calde o fredde, perché restino tese durante dilatazioni e contrazioni.",
+      "Abbinare il metallo degli accessori al lamierino, ad esempio reggette e viti inox con lamierino inox o alluminio, ed evitare metalli diversi dove può ristagnare umidità.",
+      "Non usare reggette, filo o viti zincate su inox austenitico caldo: lo zinco può infragilire l'inox ad alta temperatura.",
+      "Su inox austenitico oltre circa 60 °C usare nastri e accessori a basso contenuto di cloruri per ridurre il rischio di tensocorrosione da cloruri.",
+      "In ambienti marini e ricchi di cloruri usare accessori in Monel o SS 316."
+    ],
+    "materialsTitle": "Materiali",
+    "materials": [
+      "Acciaio inox 304, 316, 316L, 321, 410",
+      "Acciaio al carbonio / acciaio dolce",
+      "Acciaio zincato",
+      "Alluminio",
+      "Monel",
+      "Nylon / polipropilene (interni, bassa temperatura)"
+    ],
+    "madeTitle": "Produzione interna",
+    "madeText": "Rivetti a strappo e lamiere forate sono prodotti nella nostra officina, e le clip a forbice SEPL-04 fanno parte della nostra gamma di ancoraggi refrattari. Reggette, molle, viti, filo, nastri e sigillanti sono reperiti e forniti insieme a essi, nei gradi di materiale del progetto.",
+    "applicationsTitle": "Applicazioni per settore",
+    "applications": [
+      {
+        "title": "Oil & gas e petrolchimico",
+        "items": [
+          "Lamierino su tubazioni e apparecchi",
+          "Reggette per coibentazioni fredde e criogeniche",
+          "Lamiere forate per reformer e forni di processo"
+        ]
+      },
+      {
+        "title": "Produzione di energia",
+        "items": [
+          "Coibentazione degli involucri di caldaia",
+          "Coibentazione delle turbine",
+          "Coibentazione dei condotti di caldaie a recupero (HRSG)"
+        ]
+      },
+      {
+        "title": "Acciaio e cemento",
+        "items": [
+          "Coibentazione degli involucri dei forni",
+          "Clip a forbice per rivestimenti in mattoni"
+        ]
+      },
+      {
+        "title": "Navale",
+        "items": [
+          "Accessori in Monel e SS 316 resistenti alla corrosione",
+          "Coibentazione delle sale macchine"
+        ]
+      },
+      {
+        "title": "HVAC ed edilizia",
+        "items": [
+          "Nastri per la coibentazione dei canali",
+          "Reggette per grandi canali"
+        ]
+      },
+      {
+        "title": "Criogenia e GNL",
+        "items": [
+          "Reggette e molle inox per servizio freddo",
+          "Nastri e sigillanti barriera al vapore"
+        ]
+      }
+    ],
+    "supplyTitle": "Cosa forniamo",
+    "supply": [
+      "Santura Engineering fornisce accessori per coibentazione e lamierino da un unico fornitore: reggette e fibbie, molle di dilatazione, viti, rivetti a strappo, filo e rete, lamiere forate, nastri e sigillanti, nel grado di materiale del progetto in acciaio inox, acciaio zincato, alluminio o Monel.",
+      "Rivetti a strappo e lamiere forate sono prodotti nella nostra officina, le lamiere forate su disegno per reformer e forni di processo. Serviamo clienti industriali dal 1980 ed esportiamo in oltre 25 paesi."
+    ],
+    "relatedTitle": "Prodotti correlati",
+    "relatedPins": "Chiodi a saldare, chiodi adesivi, rondelle autobloccanti e cappucci.",
+    "relatedMineralWool": "Pannelli, rotoli e coppelle in lana di roccia e lana di vetro.",
+    "relatedCalsil": "Coppelle e pannelli rigidi, legati con filo inox.",
+    "relatedGlassFibre": "Lana di vetro e tessuto di vetro per canali e rivestimenti.",
+    "relatedSepl04": "Clip a forbice in filo per trattenere i rivestimenti in mattoni.",
+    "relatedFasteners": "Viti, prigionieri, dadi e rondelle per gli stessi progetti.",
+    "faqTitle": "Domande frequenti",
+    "faq": [
+      {
+        "q": "Quali accessori servono per posare un rivestimento in lamierino?",
+        "a": "Un rivestimento in lamierino richiede reggette (di solito inox da ½\") con fibbie, viti autofilettanti (#8 × ½\" SS 410) per gli spicchi delle curve, rivetti a strappo per le sovrapposizioni e molle di dilatazione su apparecchi e grandi linee calde o fredde. Nastro in alluminio e sigillanti chiudono le giunzioni longitudinali e circonferenziali."
+      },
+      {
+        "q": "Di che materiale devono essere le reggette per coibentazione?",
+        "a": "Per la maggior parte delle applicazioni industriali si preferisce l'inox 304 o 316. Le reggette in alluminio sono adatte al lamierino in alluminio in ambienti non corrosivi. Le reggette zincate non vanno usate su apparecchi inox caldi, perché lo zinco può infragilire l'inox ad alta temperatura, e conviene evitare metalli diversi dove ristagna umidità. In ambienti marini e con cloruri si specificano Monel o SS 316."
+      },
+      {
+        "q": "Come si usano le lamiere forate nei sistemi di coibentazione?",
+        "a": "Le lamiere inox forate con diversi schemi di fori sono molto usate in reformer e forni di processo, ad esempio come rivestimenti interni e strati di contenimento nelle coibentazioni multistrato. Riducono il peso e sono facili da saldare, tagliare e formare. Santura le produce laminate a caldo o a freddo su disegno del cliente, nel grado richiesto dal progetto."
+      },
+      {
+        "q": "A che distanza si posano le reggette sulle tubazioni?",
+        "a": "Le reggette sul lamierino delle tubazioni si posano di solito a 225–300 mm (9–12\") di interasse, secondo la specifica di progetto. Su apparecchi e tubazioni di grande diametro calde o fredde si inseriscono molle di dilatazione per assorbire i movimenti termici. I grandi serbatoi usano reggette più larghe, fino a 1¼\"."
+      },
+      {
+        "q": "Santura può fornire accessori per progetti criogenici GNL?",
+        "a": "Sì. Reggette, fibbie, molle di dilatazione e filo in inox austenitico restano tenaci a temperature criogeniche, e Santura li fornisce in SS 304 o 316 insieme a nastri e sigillanti barriera al vapore per coibentazioni fredde e criogeniche. I certificati di controllo possono essere forniti su richiesta."
+      }
+    ],
+    "ctaTitle": "Vi servono accessori per coibentazione?",
+    "ctaText": "Inviateci l'elenco con articolo, materiale, misura e quantità, oppure la vostra specifica di coibentazione, e prepareremo il pacchetto di accessori. Risponderemo con un'offerta e i tempi di consegna.",
+    "ctaRfq": "Richiedi un preventivo per accessori di coibentazione",
+    "ctaContact": "Oppure contatta il nostro team",
+    "trademarkNote": "Monel è un marchio di Special Metals Corporation. 253 MA è un marchio di Outokumpu. Gli altri nomi appartengono ai rispettivi proprietari e sono usati solo a scopo identificativo."
+  },
+  "sfPage": {
+    "metaTitle": "Fibra d'acciaio per refrattari e calcestruzzo | Santura",
+    "metaDescription": "Fibre d'acciaio per estrazione da fuso e trafilate in inox 304, 310, 446 per refrattari e calcestruzzo. Al servizio dell'industria dal 1980, 25+ paesi.",
+    "eyebrow": "Prodotte da Santura",
+    "h1": "Fibra d'acciaio per rinforzo di refrattari e calcestruzzo",
+    "subheading": "Fibre d'acciaio per estrazione da fuso e trafilate a freddo che rinforzano calcestruzzi refrattari, rivestimenti monolitici e calcestruzzo contro shock termico, fessurazione e vibrazioni. Prodotte nella nostra officina in AISI 304, 310, 446 e altri gradi.",
+    "badges": [
+      "Aghi per estrazione da fuso",
+      "Trafilate: dritte, uncinate, ondulate",
+      "AISI 304, 310, 446",
+      "Su ordinazione",
+      "ISO 9001:2015"
+    ],
+    "gallery": [
+      "Fibre inox per estrazione da fuso (SEPL-27) per il rinforzo dei calcestruzzi refrattari",
+      "Primo piano di fibre inox per estrazione da fuso",
+      "Fibre inox dritte trafilate a freddo (SEPL-28)",
+      "Mucchio di fibre dritte trafilate a freddo",
+      "Primo piano di fibre trafilate con estremità uncinate (SEPL-29)",
+      "Fila di fibre trafilate con estremità uncinate",
+      "Primo piano di fibre trafilate ondulate (SEPL-30)",
+      "Mucchio di fibre trafilate corrugate"
+    ],
+    "overviewTitle": "A cosa servono le fibre d'acciaio",
+    "overview": [
+      "Le fibre d'acciaio, dette anche aghi di rinforzo, sono brevi filamenti metallici miscelati in calcestruzzi refrattari, rivestimenti monolitici e calcestruzzo. Distribuite in tutto il materiale, lo tengono unito mentre si scalda, si raffredda e si fessura, così il rivestimento resiste a shock termico, scoppio e vibrazioni e mantiene più a lungo la sua resistenza.",
+      "Le fibre d'acciaio sono uno dei prodotti principali di Santura. Sono prodotte insieme ai nostri ancoraggi refrattari e spesso fornite con essi per lo stesso rivestimento. Le produciamo con due processi."
+    ],
+    "processes": [
+      {
+        "title": "Estrazione da fuso",
+        "text": "Lingotti di acciaio inox vengono fusi in un forno elettrico a 1500–1600 °C. Una ruota di estrazione che gira ad alta velocità viene avvicinata alla superficie dell'acciaio liquido e ne estrae le fibre. Si ottiene una fibra a sezione irregolare che si ancora bene nel calcestruzzo refrattario."
+      },
+      {
+        "title": "Trafilatura a freddo",
+        "text": "Il filo d'acciaio viene trafilato attraverso filiere e tagliato a misura. L'acciaio inox non può essere indurito con trattamento termico, quindi è la trafilatura a freddo a dare resistenza a queste fibre. Il filo può restare dritto, avere estremità uncinate o essere ondulato lungo la lunghezza."
+      }
+    ],
+    "typesTitle": "Le nostre quattro fibre d'acciaio",
+    "typesIntro": "Ogni fibra ha la propria pagina prodotto con tutti i dettagli. Questo riepilogo aiuta nella scelta.",
+    "types": [
+      {
+        "name": "Aghi per estrazione da fuso",
+        "process": "Estrazione da fuso",
+        "text": "La fibra più usata nell'industria dei refrattari: ampiamente accettata, economica e capace di scorrere facilmente nei tubi. Disponibile in AISI 304, 310 e 446."
+      },
+      {
+        "name": "Aghi trafilati (dritti)",
+        "process": "Trafilatura a freddo",
+        "text": "Aghi dritti ad alta resistenza grazie alla trafilatura a freddo. Ottenuti per taglio e facili da integrare nel materiale; comunemente lunghi 25–35 mm con diametro 0,3–0,7 mm."
+      },
+      {
+        "name": "Aghi trafilati (uncinati)",
+        "process": "Trafilatura a freddo",
+        "text": "Fibre con estremità uncinate in filo di acciaio a basso tenore di carbonio di alta qualità, con buona tenacità a basso prezzo. Gli uncini ancorano la fibra nella matrice."
+      },
+      {
+        "name": "Aghi trafilati (ondulati)",
+        "process": "Trafilatura a freddo",
+        "text": "Le stesse caratteristiche degli aghi dritti, ondulati lungo la lunghezza per dare la massima resistenza ai refrattari."
+      }
+    ],
+    "typeLink": "Dettagli {code}",
+    "compareTitle": "Tipi di fibra d'acciaio a confronto",
+    "colProperty": "Proprietà",
+    "compareRows": [
+      {
+        "label": "Processo",
+        "values": [
+          "Estrazione da acciaio inox fuso",
+          "Filo trafilato, tagliato a misura",
+          "Filo trafilato con estremità uncinate",
+          "Filo trafilato, corrugato"
+        ]
+      },
+      {
+        "label": "Forma",
+        "values": [
+          "Sezione irregolare dovuta all'estrazione",
+          "Dritta, tonda",
+          "Tonda con estremità uncinate",
+          "Tonda, ondulata lungo la lunghezza"
+        ]
+      },
+      {
+        "label": "Materiale",
+        "values": [
+          "AISI 304, 310, 446; altre leghe su richiesta",
+          "Acciaio inox, ad esempio 304, 310, 316",
+          "Filo di acciaio a basso carbonio",
+          "Acciaio inox, ad esempio 304, 310, 316"
+        ]
+      },
+      {
+        "label": "Lunghezza",
+        "values": [
+          "Varie lunghezze, su ordinazione",
+          "25–35 mm",
+          "Su ordinazione",
+          "Su ordinazione"
+        ]
+      },
+      {
+        "label": "Diametro",
+        "values": [
+          "Varie misure, su ordinazione",
+          "0,3–0,7 mm",
+          "Su ordinazione",
+          "Su ordinazione"
+        ]
+      },
+      {
+        "label": "Resistenza a trazione",
+        "values": [
+          "Su richiesta",
+          "Oltre 650 MPa",
+          "Su richiesta",
+          "Su richiesta"
+        ]
+      },
+      {
+        "label": "Vantaggio principale",
+        "values": [
+          "Fibra refrattaria più usata; economica; scorre nei tubi",
+          "Alta resistenza per trafilatura; facile da miscelare",
+          "Gli uncini ancorano la fibra; buona tenacità a basso prezzo",
+          "L'ondulazione dà la massima resistenza"
+        ]
+      }
+    ],
+    "compareNote": "Le misure indicate «su ordinazione» sono realizzate secondo la vostra specifica. Indicateci lunghezza, diametro e grado richiesti.",
+    "guideTitle": "Estrazione da fuso o trafilatura a freddo",
+    "colCriterion": "Criterio",
+    "colMelt": "Estrazione da fuso",
+    "colCold": "Trafilatura a freddo",
+    "guideRows": [
+      {
+        "label": "Produzione",
+        "melt": "Fibre estratte dall'acciaio inox fuso da una ruota rotante",
+        "cold": "Filo trafilato e tagliato, uncinato o ondulato se richiesto"
+      },
+      {
+        "label": "Uso tipico",
+        "melt": "La fibra più usata per calcestruzzi refrattari e rivestimenti monolitici",
+        "cold": "Calcestruzzi refrattari e calcestruzzo; le fibre uncinate sono comuni nel calcestruzzo"
+      },
+      {
+        "label": "Forma e aderenza",
+        "melt": "Sezione irregolare che si ancora nel calcestruzzo refrattario",
+        "cold": "Filo tondo uniforme; uncini o onde migliorano l'ancoraggio"
+      },
+      {
+        "label": "Posa",
+        "melt": "Scorre facilmente nei tubi",
+        "cold": "Le fibre dritte si miscelano facilmente"
+      },
+      {
+        "label": "Costo",
+        "melt": "Economica e ampiamente accettata",
+        "cold": "Le fibre uncinate a basso carbonio sono l'opzione più economica"
+      }
+    ],
+    "gradesTitle": "Gradi",
+    "grades": [
+      {
+        "grade": "AISI 304",
+        "text": "acciaio inox austenitico di uso generale (circa 18% Cr, 8% Ni) per temperature moderate"
+      },
+      {
+        "grade": "AISI 310",
+        "text": "grado refrattario ad alto cromo e nichel (circa 25% Cr, 20% Ni) per temperature più alte e cicli termici"
+      },
+      {
+        "grade": "AISI 446",
+        "text": "grado ferritico con 23–27% di cromo e ottima resistenza all'ossidazione"
+      },
+      {
+        "grade": "AISI 316",
+        "text": "grado al molibdeno con migliore resistenza all'attacco chimico, per fibre trafilate"
+      },
+      {
+        "grade": "Acciaio a basso carbonio",
+        "text": "per fibre uncinate, soprattutto nel calcestruzzo"
+      },
+      {
+        "grade": "Altre leghe",
+        "text": "su richiesta"
+      }
+    ],
+    "meltingTitle": "Intervalli di fusione approssimativi",
+    "colGrade": "Grado",
+    "colMelting": "Intervallo di fusione",
+    "meltingNote": "La temperatura di esercizio sicura di una fibra è molto inferiore al suo intervallo di fusione e dipende dall'atmosfera e dal calcestruzzo refrattario. Seguire i limiti del produttore del calcestruzzo refrattario.",
+    "benefitsTitle": "Vantaggi del rinforzo con fibre d'acciaio",
+    "benefits": [
+      "Alta resistenza allo shock termico",
+      "Limitazione flessibile delle fessure",
+      "Alta resistenza allo scoppio",
+      "Alta resistenza alle vibrazioni",
+      "Maggiore portanza delle sezioni monolitiche",
+      "Rinforzo in tutto il calcestruzzo refrattario, che può ridurre la necessità di rete"
+    ],
+    "applicationsTitle": "Applicazioni per settore",
+    "applications": [
+      {
+        "title": "Acciaio e alluminio",
+        "items": [
+          "Rivestimenti di siviere",
+          "Volte di forni",
+          "Rivestimenti monolitici soggetti a shock termico"
+        ]
+      },
+      {
+        "title": "Cemento",
+        "items": [
+          "Rivestimenti di forni rotanti",
+          "Preriscaldatori",
+          "Condotti del raffreddatore"
+        ]
+      },
+      {
+        "title": "Petrolchimico",
+        "items": [
+          "Reattori",
+          "Reformer",
+          "Forni di cracking"
+        ]
+      },
+      {
+        "title": "Energia e navale",
+        "items": [
+          "Refrattari di caldaie",
+          "Caldaie navali e componenti di forni"
+        ]
+      },
+      {
+        "title": "Forni e cokerie",
+        "items": [
+          "Calcestruzzi isolanti e densi nei forni industriali",
+          "Calcestruzzi refrattari delle cokerie"
+        ]
+      },
+      {
+        "title": "Rinforzo del calcestruzzo",
+        "items": [
+          "Fondazioni",
+          "Pavimentazioni",
+          "Platee a tenuta"
+        ]
+      }
+    ],
+    "supplyTitle": "Cosa forniamo",
+    "supply": [
+      "Santura Engineering produce fibre d'acciaio nella propria officina con entrambi i processi: aghi per estrazione da fuso in AISI 304, 310 e 446 e aghi trafilati dritti, uncinati e ondulati. Altre leghe, lunghezze e diametri sono prodotti su ordinazione.",
+      "Santura serve clienti di acciaio, cemento, petrolchimica ed energia dal 1980, esporta in oltre 25 paesi e opera con un sistema qualità certificato ISO 9001:2015. Le fibre possono essere spedite insieme agli ancoraggi SEPL per lo stesso rivestimento."
+    ],
+    "standardsTitle": "Norme",
+    "standards": [
+      "Fibre d'acciaio per calcestruzzo fibrorinforzato (tipi I–V)",
+      "Fibre per calcestruzzo: fibre di acciaio"
+    ],
+    "standardsNote": "Queste norme riguardano le fibre per calcestruzzo. Le fibre per refrattari si specificano di solito per lega, lunghezza e diametro nella specifica del calcestruzzo refrattario o del progetto.",
+    "relatedTitle": "Prodotti e servizi correlati",
+    "relatedAnchors": "Ancoraggi SEPL per rivestimenti in mattoni, calcestruzzo refrattario e fibra ceramica.",
+    "relatedCalsil": "Isolante rigido per apparecchiature ad alta temperatura.",
+    "relatedPickling": "Decapaggio e passivazione di prodotti in acciaio inox.",
+    "relatedPins": "Chiodi a saldare e rondelle per fissare l'isolamento.",
+    "faqTitle": "Domande frequenti",
+    "faq": [
+      {
+        "q": "Qual è la differenza tra fibre per estrazione da fuso e fibre trafilate a freddo?",
+        "a": "Le fibre per estrazione da fuso vengono estratte dall'acciaio inox fuso a 1500–1600 °C da una ruota ad alta velocità, che dà loro una sezione irregolare capace di ancorarsi nel calcestruzzo refrattario. Sono le fibre refrattarie più usate: economiche e facili da pompare nei tubi. Le fibre trafilate si ottengono trafilando il filo attraverso filiere e tagliandolo a misura, ottenendo una fibra tonda uniforme ad alta resistenza. Sono disponibili dritte, uncinate od ondulate; quelle uncinate sono molto usate nel calcestruzzo."
+      },
+      {
+        "q": "Quale grado di fibra d'acciaio è migliore per i refrattari?",
+        "a": "Dipende da temperatura di esercizio, atmosfera ed esposizione chimica. L'AISI 446, grado ferritico con 23–27% di cromo, ha un'ottima resistenza all'ossidazione. L'AISI 310 è un grado ad alto cromo e nichel per temperature più alte e cicli termici. L'AISI 304 è un grado di uso generale per temperature moderate. Le raccomandazioni del produttore del calcestruzzo refrattario devono guidare la scelta finale."
+      },
+      {
+        "q": "Quale dosaggio di fibre d'acciaio si usa nei calcestruzzi refrattari?",
+        "a": "Il dosaggio si esprime di solito in percentuale in peso del calcestruzzo refrattario secco e dipende da formulazione, applicazione e condizioni di esercizio. Seguire la scheda tecnica del produttore del calcestruzzo e la specifica del progettista del rivestimento; possiamo consigliarvi su tipo e misura di fibra per il vostro calcestruzzo."
+      },
+      {
+        "q": "Le fibre d'acciaio possono sostituire la rete metallica nei rivestimenti refrattari?",
+        "a": "In molti rivestimenti monolitici sì. Le fibre si distribuiscono in tutto il calcestruzzo refrattario e lo rinforzano in tre dimensioni, mentre la rete lo rinforza in un solo piano. Ciò può ridurre o eliminare la rete, semplificare la posa e limitare la fessurazione. Il progettista del rivestimento deve confermarlo per ogni applicazione."
+      },
+      {
+        "q": "Quali lunghezze e diametri di fibre produce Santura?",
+        "a": "Gli aghi trafilati dritti si forniscono comunemente lunghi 25–35 mm con diametro 0,3–0,7 mm e resistenza a trazione superiore a 650 MPa. Gli aghi per estrazione da fuso sono disponibili in un'ampia gamma di lunghezze e diametri in AISI 304, 310 e 446. Le fibre uncinate e ondulate, e altre misure e leghe, sono prodotte su ordinazione."
+      }
+    ],
+    "ctaTitle": "Vi servono fibre d'acciaio?",
+    "ctaText": "Indicateci tipo di fibra, grado, lunghezza, diametro e quantità, oppure il calcestruzzo refrattario da rinforzare. Risponderemo con un'offerta e i tempi di consegna.",
+    "ctaRfq": "Richiedi un preventivo per fibre d'acciaio",
+    "ctaContact": "Oppure contatta il nostro team"
+  },
+  "tdPage": {
+    "metaTitle": "Fornitore di acciaio inox | Barre, vergella, profili",
+    "metaDescription": "Vergella, barre esagonali, piatti, angolari e tondi in inox. Inox certificato da acciaieria in 304, 316, 310 fornito dal 1980 in oltre 25 paesi.",
+    "eyebrow": "Divisione commerciale",
+    "h1": "Divisione commerciale acciaio inox",
+    "subheading": "Vergella in rotoli, barre esagonali, quadre, piatti e barre di qualità albero pompa, angolari e barre laminate a caldo in acciaio inox certificato da acciaieria, acquistati da acciaierie affermate e forniti con certificati EN 10204 3.1.",
+    "badges": [
+      "Vergella in rotoli",
+      "Barre trafilate",
+      "Piatti e angolari HRAP",
+      "Barre PSQ",
+      "Serie 200, 300, 400",
+      "EN 10204 3.1"
+    ],
+    "heroAlt": "La siderurgia ieri e oggi: antichi convertitori in un'incisione accanto a un'acciaieria moderna durante la colata del metallo fuso",
+    "gallery": [
+      "Rotoli di filo in acciaio inox in magazzino",
+      "Barre esagonali trafilate in acciaio inox",
+      "Barre quadre in acciaio inox",
+      "Piatti HRAP in acciaio inox",
+      "Angolari a lati uguali HRAP in acciaio inox",
+      "Barre tonde di qualità albero pompa (PSQ) in acciaio inox",
+      "Barre in acciaio inox laminate a caldo",
+      "Matasse di vergella in acciaio inossidabile",
+      "Angolare a lati uguali in acciaio inossidabile"
+    ],
+    "overviewTitle": "Acciaio inox da un unico fornitore",
+    "overview": [
+      "La divisione commerciale di Santura Engineering fornisce ed esporta profili in acciaio inox certificati da acciaieria per progetti industriali in Medio Oriente, Africa ed Europa. Acquistiamo da acciaierie affermate e consegniamo a raffinerie, cantieri, officine di carpenteria e contrattisti EPC, con certificati di controllo EN 10204 3.1.",
+      "La divisione completa la nostra produzione di ancoraggi refrattari e fibre d'acciaio. Molti degli stessi clienti hanno bisogno anche di profili inox e possono acquistare entrambi da un unico fornitore, con un'unica documentazione."
+    ],
+    "jumpLabel": "Prodotti in questa pagina",
+    "sections": [
+      {
+        "title": "Vergella in rotoli",
+        "text": "La vergella inox in rotoli è il materiale di partenza per funi, molle, viteria, elettrodi di saldatura, reti metalliche e ancoraggi refrattari, ed è usata anche per casalinghi, strumenti medicali e componenti elettronici.",
+        "rows": [
+          {
+            "label": "Campo di misure",
+            "value": "5,5–16 mm in rotoli a blocco (5,5, 6, 6,5, 7, 7,5, 8, 9, 10, 11, 12, 13, 14, 15, 16 mm); 17–40 mm in rotoli garret"
+          },
+          {
+            "label": "Peso del rotolo",
+            "value": "850–1200 kg (rotoli a blocco)"
+          },
+          {
+            "label": "Dimensioni del rotolo",
+            "value": "Rotoli a blocco: DI 800–900 mm. Rotoli garret: DI 550–650 mm, DE 750–850 mm"
+          },
+          {
+            "label": "Norma",
+            "value": "Secondo EN 10088"
+          },
+          {
+            "label": "Stato di fornitura",
+            "value": "Laminato a caldo (HR); laminato e decapato (HRP); laminato, ricotto e decapato (HRAP); laminato e ricotto (HRA)"
+          },
+          {
+            "label": "Imballo",
+            "value": "Reggette d'acciaio su ogni rotolo con involucro in plastica; imballo in film per HRP e HRAP; o come richiesto"
+          }
+        ]
+      },
+      {
+        "title": "Barre esagonali (trafilate)",
+        "text": "Barre esagonali trafilate per dadi, valvole, raccordi per tubi flessibili, viteria e viti a testa esagonale, che uniscono resistenza meccanica e resistenza alla corrosione. Disponibili nei gradi 201, 304/304L, 316/316L e 303.",
+        "rows": [
+          {
+            "label": "Gradi",
+            "value": "201, 304/304L, 316/316L, 303"
+          },
+          {
+            "label": "Campo di misure",
+            "value": "12–55 mm (da ½\" a 2¼\")"
+          },
+          {
+            "label": "Tolleranza",
+            "value": "h11"
+          },
+          {
+            "label": "Lunghezza",
+            "value": "3,00–6,70 m (10–22 ft); taglio a misura con tolleranza −0/+50 mm"
+          },
+          {
+            "label": "Smussatura",
+            "value": "30°, 45° o 60°; estremità tagliate pulite senza bave"
+          },
+          {
+            "label": "Rettilineità",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Finitura",
+            "value": "Pallinata e trafilata a freddo, o lucidata a nastro"
+          },
+          {
+            "label": "Trattamento termico",
+            "value": "Solubilizzato"
+          }
+        ]
+      },
+      {
+        "title": "Barre quadre",
+        "text": "Barre quadre in acciaio inox austenitico per usi esigenti come componenti aerospaziali, manometri, sensori di temperatura e celle di carico. La misura tra le facce e il raggio degli spigoli possono essere mantenuti secondo le vostre esigenze. Le barre trafilate e lucidate sono per uso decorativo; quelle pallinate e trafilate a freddo per applicazioni critiche.",
+        "rows": [
+          {
+            "label": "Gradi",
+            "value": "Gradi austenitici"
+          },
+          {
+            "label": "Campo di misure",
+            "value": "12–55 mm (da ½\" a 2¼\")"
+          },
+          {
+            "label": "Tolleranza",
+            "value": "h11"
+          },
+          {
+            "label": "Lunghezza",
+            "value": "3,00–6,70 m (10–22 ft); taglio a misura con tolleranza −0/+50 mm"
+          },
+          {
+            "label": "Smussatura",
+            "value": "30°, 45° o 60°; estremità tagliate pulite senza bave"
+          },
+          {
+            "label": "Rettilineità",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Finitura",
+            "value": "Pallinata e trafilata a freddo, o lucidata a nastro"
+          },
+          {
+            "label": "Trattamento termico",
+            "value": "Solubilizzato"
+          }
+        ]
+      },
+      {
+        "title": "Piatti HRAP",
+        "text": "Piatti laminati a caldo, ricotti e decapati, laminati a misura e non tagliati da lamiera, quindi più resistenti dei piatti ricavati da taglio. Per costruzioni e carpenteria ad alta resistenza; disponibili piatti lucidati a nastro per uso decorativo.",
+        "rows": [
+          {
+            "label": "Tolleranza",
+            "value": "ASTM A484"
+          },
+          {
+            "label": "Lunghezza",
+            "value": "3,00–6,70 m (10–22 ft); taglio a misura con tolleranza −0/+50 mm"
+          },
+          {
+            "label": "Rettilineità",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Finitura",
+            "value": "Laminato a caldo, ricotto, decapato e pallinato, o lucidato a nastro"
+          },
+          {
+            "label": "Trattamento termico",
+            "value": "Solubilizzato"
+          },
+          {
+            "label": "Misure",
+            "value": "Larghezze 25–100 mm, spessori 5–50 mm (vedi tabella)"
+          }
+        ]
+      },
+      {
+        "title": "Angolari HRAP",
+        "text": "Angolari a lati uguali laminati a caldo, ricotti e decapati per costruzioni e telai strutturali, arredi, impianti alimentari e macchinari.",
+        "rows": [
+          {
+            "label": "Tolleranza",
+            "value": "ASTM A484"
+          },
+          {
+            "label": "Lunghezza",
+            "value": "3,00–6,70 m (10–22 ft); taglio a misura con tolleranza −0/+50 mm"
+          },
+          {
+            "label": "Rettilineità",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Finitura",
+            "value": "Laminato a caldo, ricotto, decapato e pallinato"
+          },
+          {
+            "label": "Trattamento termico",
+            "value": "Solubilizzato"
+          },
+          {
+            "label": "Misure",
+            "value": "Da 20 × 20 mm a 75 × 75 mm, spessore 3–12 mm (vedi tabella)"
+          }
+        ]
+      },
+      {
+        "title": "Barre PSQ (qualità albero pompa)",
+        "text": "Barre tonde di precisione con tolleranza più stretta e migliore rettilineità delle normali barre trafilate, utilizzabili direttamente come alberi di pompa, steli di cilindro e alberi di pistone.",
+        "rows": [
+          {
+            "label": "Campo di misure",
+            "value": "6–63,5 mm (da ¼\" a 2½\")"
+          },
+          {
+            "label": "Tolleranza",
+            "value": "h8"
+          },
+          {
+            "label": "Lunghezza",
+            "value": "3,00–6,70 m (10–22 ft); taglio a misura con tolleranza −0/+50 mm"
+          },
+          {
+            "label": "Smussatura",
+            "value": "30°, 45° o 60°"
+          },
+          {
+            "label": "Rettilineità",
+            "value": "Fino a 0,25 mm/m TIR"
+          },
+          {
+            "label": "Finitura",
+            "value": "Rettificata senza centri e lucidata a nastro fino a Ra 0,2 µm; lucidatura grana 240–320"
+          },
+          {
+            "label": "Trattamento termico",
+            "value": "Solubilizzato, ricotto, QT 650, QT 800 e altri"
+          }
+        ]
+      },
+      {
+        "title": "Barre laminate a caldo",
+        "text": "Barre tonde laminate a caldo per trasformatori, lavorazioni meccaniche e forgiatura, fornite raddrizzate.",
+        "rows": [
+          {
+            "label": "Misure",
+            "value": "13–150 mm (vedi elenco)"
+          },
+          {
+            "label": "Tolleranza",
+            "value": "EN 10060"
+          },
+          {
+            "label": "Lunghezza",
+            "value": "3,00–6,70 m (10–22 ft)"
+          },
+          {
+            "label": "Rettilineità",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Finitura",
+            "value": "Grezza di laminazione, nera"
+          },
+          {
+            "label": "Trattamento termico",
+            "value": "Ricotto, solubilizzato, o bonificato"
+          }
+        ]
+      }
+    ],
+    "wireGradesTitle": "Gradi di vergella",
+    "wireGradesAstm": "ASTM / AISI",
+    "wireGradesEn": "DIN / EN",
+    "wireGradesElectrode": "Gradi per elettrodi di saldatura",
+    "wireGradesNote": "Sono disponibili anche gradi speciali su richiesta del cliente.",
+    "colWidth": "Larghezza (mm)",
+    "colThicknessRange": "Campo di spessore (mm)",
+    "colAngleSize": "Misura (mm)",
+    "colAngleThickness": "Spessori (mm)",
+    "hotRolledSizesTitle": "Misure (mm)",
+    "gradesTitle": "Gradi di acciaio inox",
+    "gradesIntro": "Le famiglie di gradi che forniamo. Chiedeteci qualsiasi grado non elencato.",
+    "colFamily": "Famiglia",
+    "colGrades": "Gradi",
+    "colProperties": "Proprietà principali",
+    "gradeRows": [
+      {
+        "family": "Austenitici (serie 300)",
+        "grades": "304, 304L, 304H, 310, 310S, 316, 316L, 316Ti, 321",
+        "properties": "Buona resistenza generale alla corrosione; amagnetici allo stato ricotto; la famiglia più usata"
+      },
+      {
+        "family": "Austenitici (serie 200)",
+        "grades": "201, 202, 204Cu",
+        "properties": "Minore contenuto di nichel; alternativa economica alla serie 300 per servizi meno gravosi"
+      },
+      {
+        "family": "Martensitici (serie 400)",
+        "grades": "410, 420",
+        "properties": "Temprabili; resistenti all'usura; magnetici"
+      },
+      {
+        "family": "Ferritici (serie 400)",
+        "grades": "430, 430L",
+        "properties": "Magnetici; buona resistenza all'ossidazione e alla tensocorrosione da cloruri; economici"
+      },
+      {
+        "family": "Austenitici altolegati",
+        "grades": "904L",
+        "properties": "Resistenti agli acidi forti; usati nei processi chimici"
+      },
+      {
+        "family": "Duplex e gradi speciali",
+        "grades": "1.4362 (2304); altri su richiesta",
+        "properties": "Gradi speciali reperiti secondo la specifica di progetto"
+      }
+    ],
+    "gradesNote": "Il materiale è fornito secondo specifiche ASTM, DIN/EN o IS, con certificati di controllo EN 10204 3.1.",
+    "marketsTitle": "Mercati serviti",
+    "marketsIntro": "Esportiamo profili inox con la documentazione necessaria per lo sdoganamento.",
+    "markets": [
+      {
+        "region": "Emirati Arabi Uniti",
+        "text": "Dubai, Abu Dhabi, Sharjah, Jebel Ali Free Zone (JAFZA) e area industriale di Ruwais, con consegna in cantiere in tutti e sette gli emirati."
+      },
+      {
+        "region": "Arabia Saudita",
+        "text": "Fornitura per progetti industriali e di costruzione."
+      },
+      {
+        "region": "Oman",
+        "text": "Fornitura per progetti industriali e di costruzione."
+      },
+      {
+        "region": "Altri paesi del CCG",
+        "text": "Bahrein, Kuwait e Qatar su richiesta."
+      },
+      {
+        "region": "Africa",
+        "text": "Fornitura ai mercati industriali africani."
+      },
+      {
+        "region": "Europa",
+        "text": "Fornitura su progetto."
+      }
+    ],
+    "applicationsTitle": "Applicazioni per settore",
+    "applications": [
+      {
+        "title": "Oil & gas e petrolchimico",
+        "items": [
+          "Componenti per condotte",
+          "Costruzione di recipienti a pressione",
+          "Materiali per piattaforme offshore"
+        ]
+      },
+      {
+        "title": "Edilizia e architettura",
+        "items": [
+          "Supporti strutturali e piastre di base",
+          "Facciate e rivestimenti",
+          "Elementi interni e decorativi"
+        ]
+      },
+      {
+        "title": "Navale e cantieristica",
+        "items": [
+          "Profili 316L per costruzioni navali e accessori per yacht",
+          "Infrastrutture portuali",
+          "Componenti per impianti di dissalazione"
+        ]
+      },
+      {
+        "title": "Carpenteria industriale",
+        "items": [
+          "Telai di macchine e impianti",
+          "Impianti alimentari",
+          "Impianti di trattamento acque"
+        ]
+      },
+      {
+        "title": "Automotive e aerospaziale",
+        "items": [
+          "Barre per viteria e alberi",
+          "Componenti di precisione"
+        ]
+      },
+      {
+        "title": "Prodotti in filo",
+        "items": [
+          "Funi e molle",
+          "Elettrodi di saldatura",
+          "Reti metalliche e ancoraggi refrattari"
+        ]
+      }
+    ],
+    "whyTitle": "Perché acquistare dalla nostra divisione commerciale",
+    "why": [
+      "Oltre 40 anni di esperienza nel settore",
+      "Materiale certificato da acciaieria con certificati EN 10204 3.1",
+      "Gradi delle serie 200, 300 e 400, più leghe speciali",
+      "Stati di fornitura dal laminato decapato al trafilato a freddo, lucidato e rettificato senza centri",
+      "Barre tagliate a misura con tolleranza −0/+50 mm",
+      "Profili inox e i nostri ancoraggi refrattari e fibre da un unico fornitore",
+      "Materiale acquistato da acciaierie affermate",
+      "Export in oltre 25 paesi"
+    ],
+    "findTitle": "Trovaci su",
+    "findText": "Santura Engineering è presente anche su questi marketplace B2B.",
+    "find": {
+      "indiamart": "IndiaMART",
+      "tradeindia": "TradeIndia"
+    },
+    "newTab": "(si apre in una nuova scheda)",
+    "relatedTitle": "Prodotti correlati",
+    "relatedAnchors": "Prodotti nella nostra officina con gradi inox come SS 304, 310 e 316.",
+    "relatedFibres": "Fibre per estrazione da fuso e trafilate in AISI 304, 310 e 446.",
+    "relatedFasteners": "Viti, prigionieri, dadi e rondelle in inox e acciaio legato.",
+    "relatedAccessories": "Reggette, viti e minuteria inox per la coibentazione.",
+    "faqTitle": "Domande frequenti",
+    "faq": [
+      {
+        "q": "Quali gradi di acciaio inox fornisce Santura?",
+        "a": "Santura fornisce gradi austenitici (304, 304L, 304H, 310, 310S, 316, 316L, 316Ti, 321 e la serie 200), ferritici (430, 430L), martensitici (410, 420) e l'austenitico altolegato 904L. La vergella è disponibile anche in gradi DIN/EN e per elettrodi di saldatura, e i gradi speciali si reperiscono su richiesta. Il materiale è fornito con certificati di controllo EN 10204 3.1."
+      },
+      {
+        "q": "Quali profili in acciaio inox sono disponibili?",
+        "a": "Forniamo vergella in rotoli (5,5–40 mm), barre esagonali (12–55 mm), barre quadre (12–55 mm), piatti HRAP (25–100 mm di larghezza), angolari HRAP (da 20 × 20 a 75 × 75 mm), barre qualità albero pompa (6–63,5 mm) e barre laminate a caldo (13–150 mm). Gli stati di fornitura vanno dal laminato a caldo, decapato e ricotto al trafilato a freddo, lucidato e rettificato senza centri."
+      },
+      {
+        "q": "Santura fornisce acciaio inox negli EAU e in Arabia Saudita?",
+        "a": "Sì. Forniamo profili inox negli EAU, tra cui Dubai, Abu Dhabi, Sharjah, la Jebel Ali Free Zone (JAFZA) e Ruwais, e in Arabia Saudita, Oman e altri paesi del CCG, con la documentazione necessaria per lo sdoganamento."
+      },
+      {
+        "q": "Quali certificati accompagnano l'acciaio inox?",
+        "a": "L'acciaio inox è fornito con certificati di controllo EN 10204 3.1, che riportano composizione chimica, proprietà meccaniche e trattamento termico del materiale. Il materiale è fornito secondo le specifiche ASTM, DIN/EN o IS richieste dal progetto."
+      },
+      {
+        "q": "Santura può fornire sia acciaio inox sia prodotti refrattari?",
+        "a": "Sì. La divisione commerciale fornisce profili inox certificati da acciaieria, mentre la nostra officina produce ancoraggi refrattari, fibre d'acciaio, rivetti a strappo e lamiere forate. Contrattisti EPC e gestori di impianti che hanno bisogno di entrambi possono acquistarli da un unico fornitore, semplificando gli acquisti."
+      }
+    ],
+    "ctaTitle": "Vi servono profili in acciaio inox?",
+    "ctaText": "Indicateci prodotto, grado, misura, lunghezza, stato di fornitura e quantità. Risponderemo con un'offerta e i tempi di consegna.",
+    "ctaRfq": "Richiedi un preventivo per acciaio inox",
     "ctaContact": "Oppure contatta il nostro team"
   }
 }

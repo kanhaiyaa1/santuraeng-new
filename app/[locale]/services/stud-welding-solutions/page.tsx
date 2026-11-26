@@ -134,7 +134,7 @@ export default async function StudWeldingPage({ params: { locale } }: Props) {
           </div>
         </div>
         <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-line bg-surface-alt lg:col-span-2">
-          <Image src="/images/miscellaneous/industrial-refractory-anchor-santura.webp" alt="" fill sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover" />
+          <Image src="/images/products/general/industrial-refractory-anchor-santura.webp" alt="" fill sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover" />
         </div>
       </section>
 

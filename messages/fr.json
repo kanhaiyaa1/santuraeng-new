@@ -115,6 +115,26 @@
         "name": "Énergie et Chaudières",
         "description": "Chaudières CFBC, HRSG, de valorisation énergétique des déchets et biomasse.",
         "imageAlt": "Pylônes électriques au coucher du soleil"
+      },
+      "aluminium": {
+        "name": "Production d'Aluminium",
+        "description": "Fours de fusion et de maintien, fours de cuisson d'anodes et chenaux de coulée.",
+        "imageAlt": "Bobines d'aluminium dans un entrepôt"
+      },
+      "copper": {
+        "name": "Cuivre",
+        "description": "Fours de fusion, convertisseurs et fours à anodes.",
+        "imageAlt": "Bobines de fil de cuivre"
+      },
+      "ceramic": {
+        "name": "Industrie Céramique",
+        "description": "Fours tunnels, fours intermittents et wagonnets.",
+        "imageAlt": "Wagonnets chargés de céramique dans un four tunnel"
+      },
+      "mining": {
+        "name": "Mines et Minéraux",
+        "description": "Fours rotatifs, calcinateurs et sécheurs pour le traitement des minerais.",
+        "imageAlt": "Convoyeur dans une mine souterraine"
       }
     }
   },
@@ -769,13 +789,13 @@
         "name": "Accessoires d'Isolation",
         "description": "Feuillards, clips, rondelles et autres fixations d'isolation."
       },
-      "steel-plates": {
-        "name": "Tôles d'Acier",
-        "description": "Tôles en acier inoxydable et allié."
-      },
       "trading-division": {
         "name": "Division Négoce",
         "description": "Fourniture d'acier inoxydable et de matériaux industriels."
+      },
+      "steel-fibres": {
+        "name": "Fibres d'acier",
+        "description": "Fibres inox par extraction de bain fondu et tréfilées à froid pour bétons réfractaires."
       }
     },
     "allCategories": "Toutes les catégories de produits",
@@ -1114,6 +1134,7 @@
       "L'identification positive des matériaux (PMI) est un contrôle non destructif qui mesure la composition élémentaire d'un métal et confirme sa nuance. Elle se fait avec un analyseur portable à fluorescence X (XRF) ou un spectromètre d'émission optique (OES).",
       "L'analyseur lit la composition en quelques secondes et la compare à une bibliothèque de nuances. Rien n'est coupé, percé ou abîmé : les ancrages finis peuvent être contrôlés puis expédiés."
     ],
+    "whatImageAlt": "Analyseur XRF portable affichant une mesure de l'alliage SS310",
     "whyTitle": "Pourquoi c’est important pour les ancrages réfractaires",
     "why": [
       {
@@ -1589,7 +1610,12 @@
       "Cadre et pièces d'une porte de regard avant assemblage",
       "Série de portes de regard galvanisées dans l'atelier de fabrication",
       "Portes de regard à charnières empilées pour l'expédition",
-      "Gros plan de cadres galvanisés de portes de regard d'une série"
+      "Gros plan de cadres galvanisés de portes de regard d'une série",
+      "Porte de regard galvanisée avec porte d'accès à charnière et plaque signalétique",
+      "Portes de regard avec hublots, étiquetées après contrôle",
+      "Rangées de portes de regard étiquetées avant expédition",
+      "Cadres de portes de regard galvanisés alignés à l'atelier",
+      "Pile de cadres de portes de regard galvanisés, vue latérale"
     ],
     "relatedTitle": "Produits et services associés",
     "relatedAnchorsText": "Les ancrages qui maintiennent le garnissage réfractaire de chaque porte, dans les mêmes alliages que le garnissage de votre paroi.",
@@ -1812,7 +1838,8 @@
       "Tiges de scellement avec fourreaux, étiquetées pour l'expédition",
       "Tiges de scellement galvanisées avec fourreaux alignées à l'atelier",
       "Stock de tiges de scellement galvanisées avec écrous et fourreaux",
-      "Gros plan des fourreaux et écrous de tiges de scellement"
+      "Gros plan des fourreaux et écrous de tiges de scellement",
+      "Boulons de fondation galvanisés avec fourreaux tubulaires et platines supérieures carrées"
     ],
     "relatedTitle": "Produits associés",
     "relatedStanchions": "Poteaux et montants pour plateformes et garde-corps, souvent posés sur les mêmes fondations.",
@@ -2077,7 +2104,9 @@
       "Lot de poteaux industriels galvanisés à chaud avec platines raidies",
       "Poteau galvanisé avec bras de lisse soudés et platine",
       "Poteau industriel avec bras latéral et platine raidie",
-      "Gros plan d'un assemblage en T soudé sur un poteau"
+      "Gros plan d'un assemblage en T soudé sur un poteau",
+      "Poteau de garde-corps galvanisé avec bras latéral et platine renforcée",
+      "Poteaux galvanisés avec lisses en T dans l'atelier de fabrication"
     ],
     "overviewTitle": "Ce que sont les poteaux industriels",
     "overview": [
@@ -2607,6 +2636,7 @@
     "subheading": "Systèmes à contrepoids à bras de levier qui portent le poids des tubes radiants dans les reformeurs d'hydrogène et les fours de vapocraquage d'éthylène. Fabriqués par Santura depuis la fin des années 1990, selon les plans d'ingénierie du client.",
     "lindeBadge": "Fournisseur agréé de Linde Engineering India, {period}",
     "photoAlt": "Ensemble de bras de contrepoids galvanisé avec piles de masses",
+    "photo2Alt": "Bras de levier de contrepoids avec poids morts empilés à l'atelier",
     "photoCaption": "Ensemble de bras de levier galvanisé avec piles de masses dans notre atelier.",
     "whatTitle": "Le rôle d'un système à contrepoids",
     "what": [
@@ -3859,6 +3889,2469 @@
     "ctaTitle": "Besoin d'isolation en silicate de calcium ?",
     "ctaText": "Indiquez-nous la forme, les diamètres de tuyauterie ou dimensions de panneaux, l'épaisseur, la température de service et la quantité. Nous vous répondrons avec un devis et un délai de livraison.",
     "ctaRfq": "Demander un devis pour du silicate de calcium",
+    "ctaContact": "Ou contactez notre équipe"
+  },
+  "ipPage": {
+    "metaTitle": "Fabricant de pointes d'isolation | Pointes à souder et clips",
+    "metaDescription": "Fabricant de pointes d'isolation : pointes à souder, adhésives et rondelles autobloquantes en inox et acier galvanisé. Depuis 1980, export vers 25+ pays.",
+    "eyebrow": "Fabriquées par Santura",
+    "h1": "Pointes d'isolation et pointes à souder",
+    "subheading": "Pointes d'isolation à souder, à embase adhésive et autocollantes, avec rondelles autobloquantes et capuchons assortis, pour gaines, appareils, murs et équipements. Fabriquées dans nos ateliers en inox, acier galvanisé et plastique.",
+    "badges": [
+      "Pointes à souder CD",
+      "Pointes à embase perforée",
+      "Pointes autocollantes",
+      "Rondelles autobloquantes",
+      "Capuchons",
+      "Certificats EN 10204 3.1"
+    ],
+    "gallery": [
+      "Pointes d'isolation à embase perforée, dont une pointe en plastique",
+      "Pointes à souder avec capuchons et rondelles autobloquantes",
+      "Rondelles autobloquantes en inox pour pointes d'isolation",
+      "Rondelle autobloquante carrée pour pointes d'isolation",
+      "Capuchon pour pointes d'isolation",
+      "Assortiment de rondelles autobloquantes pour pointes d'isolation",
+      "Pointe d'isolation à embase perforée avec platine carrée"
+    ],
+    "overviewTitle": "Ce que sont les pointes d'isolation",
+    "overview": [
+      "Les pointes d'isolation, aussi appelées clous d'isolation, picots ou pointes à souder, sont des fixations qui maintiennent mécaniquement l'isolant sur un support. La pointe est fixée au support, l'isolant est embroché sur la tige et une rondelle autobloquante ou un capuchon le maintient en place.",
+      "Les pointes empêchent l'isolant de s'affaisser, de glisser ou de tomber : il garde ses performances thermiques et acoustiques et la pose reste propre. Elles servent sur les gaines CVC, les appareils et réservoirs, les enveloppes de chaudières, les cloisons de navires, les murs et plafonds.",
+      "Santura fabrique elle-même ses pointes d'isolation, en plus de ses ancrages réfractaires. Elles existent pour trois modes de fixation : soudées (décharge de condensateur ou arc tiré), collées par embase perforée et autocollantes. Les rondelles et capuchons assortis sont fabriqués dans les mêmes matériaux."
+    ],
+    "madeTitle": "Fabrication maison",
+    "made": [
+      "Pointes en inox, acier au carbone galvanisé et PVC",
+      "Versions à souder et à embase adhésive",
+      "Rondelles autobloquantes et capuchons",
+      "Pour laine de roche, laine de verre, PSE, polystyrène et PUR",
+      "Avec certificats de contrôle EN 10204 3.1"
+    ],
+    "typesTitle": "Types de pointes d'isolation selon la fixation",
+    "types": [
+      {
+        "title": "Pointes à souder (CD / arc)",
+        "text": "Une pointe à embase de soudage, liée de façon permanente à la tôle par soudage de goujons à décharge de condensateur (CD) ou à l'arc tiré.",
+        "rows": [
+          {
+            "label": "Temps de soudage",
+            "value": "Moins d'une seconde par pointe"
+          },
+          {
+            "label": "Idéal pour",
+            "value": "Gaines métalliques, viroles d'appareils, parois de réservoirs et panneaux de tôle"
+          },
+          {
+            "label": "Types de tête",
+            "value": "Tête à coupelle (disque intégré) ou sans tête, avec rondelle séparée"
+          },
+          {
+            "label": "Avantage",
+            "value": "Liaison permanente et solide qui tient en cas d'incendie"
+          },
+          {
+            "label": "Matériaux",
+            "value": "Acier au carbone galvanisé, SS 304, SS 316, aluminium ; bimétal (tête aluminium, tige acier)"
+          }
+        ]
+      },
+      {
+        "title": "Pointes à embase adhésive (perforée)",
+        "text": "Une pointe sur une embase métallique perforée, collée au support avec un mastic adhésif.",
+        "rows": [
+          {
+            "label": "Idéal pour",
+            "value": "Supports non soudables : béton, maçonnerie, PRV et surfaces peintes"
+          },
+          {
+            "label": "Pose",
+            "value": "Appliquer la colle à travers les perforations, presser en tournant et laisser durcir 24–72 heures avant chargement"
+          },
+          {
+            "label": "Embase",
+            "value": "Plaque perforée carrée ou ronde, généralement 50 × 50 mm ; la colle traverse les trous pour une meilleure adhérence"
+          },
+          {
+            "label": "Avantage",
+            "value": "Aucun poste de soudage nécessaire"
+          },
+          {
+            "label": "Matériaux",
+            "value": "Acier galvanisé, SS 304, aluminium"
+          }
+        ]
+      },
+      {
+        "title": "Pointes autocollantes",
+        "text": "Une pointe avec un tampon adhésif sensible à la pression pré-appliqué sur l'embase.",
+        "rows": [
+          {
+            "label": "Idéal pour",
+            "value": "Pose rapide d'isolants légers sur surfaces propres, sèches et non poreuses"
+          },
+          {
+            "label": "Pose",
+            "value": "Retirer la protection, presser fermement sans tourner et attendre 15–20 minutes avant chargement"
+          },
+          {
+            "label": "Charge",
+            "value": "Jusqu'à environ 1,4 kg par pointe"
+          },
+          {
+            "label": "Température",
+            "value": "Pose au-dessus de 10 °C ; service de −20 °C à 90 °C"
+          },
+          {
+            "label": "Limites",
+            "value": "Pas sur surfaces peintes, plaques de plâtre ni métal exposé au soleil direct"
+          }
+        ]
+      }
+    ],
+    "guideTitle": "Choisir la bonne pointe",
+    "guideIntro": "Partez du support et des conditions de service, puis choisissez le mode de fixation et le matériau.",
+    "colApplication": "Application",
+    "colPin": "Pointe recommandée",
+    "colWhy": "Pourquoi",
+    "guideRows": [
+      {
+        "application": "Gaine métallique, paroi d'appareil ou de réservoir",
+        "pin": "Pointe à souder CD",
+        "why": "Liaison permanente, tient en cas d'incendie, pose la plus rapide"
+      },
+      {
+        "application": "Béton, maçonnerie ou PRV",
+        "pin": "Pointe adhésive perforée",
+        "why": "Pas de soudage ; liaison solide à travers les perforations"
+      },
+      {
+        "application": "Pose rapide et sèche d'isolants légers",
+        "pin": "Pointe autocollante",
+        "why": "Il suffit de décoller et coller, sans temps de séchage"
+      },
+      {
+        "application": "Chambre froide ou congélateur",
+        "pin": "Pointe en nylon ou PVC",
+        "why": "Évite le pont thermique et la condensation au droit de la pointe"
+      },
+      {
+        "application": "Marine, littoral ou usine chimique",
+        "pin": "Pointe à souder SS 304 ou SS 316",
+        "why": "Résistante à la corrosion en milieu agressif"
+      },
+      {
+        "application": "CVC courant à budget serré",
+        "pin": "Pointe à souder en acier galvanisé",
+        "why": "Économique, avec une bonne résistance à la corrosion en intérieur"
+      }
+    ],
+    "specTitle": "Caractéristiques des pointes",
+    "specRows": [
+      {
+        "label": "Diamètre de tige",
+        "value": "2,1, 2,7 et 3,0 mm (autres sur demande)"
+      },
+      {
+        "label": "Longueur de tige",
+        "value": "50, 63, 90, 110, 114 et 150 mm (toute longueur sur commande)"
+      },
+      {
+        "label": "Type de tête",
+        "value": "Tête à coupelle (disque intégré) ou sans tête"
+      },
+      {
+        "label": "Type d'embase",
+        "value": "Embase à souder, plaque perforée (50 × 50 mm) ou tampon autocollant"
+      },
+      {
+        "label": "Finition",
+        "value": "Brute, galvanisée ou passivée sur demande"
+      },
+      {
+        "label": "Certificats",
+        "value": "Certificats de contrôle EN 10204 3.1"
+      }
+    ],
+    "materialsTitle": "Matériaux",
+    "colMaterial": "Matériau",
+    "colBestFor": "Idéal pour",
+    "colMaxTemp": "Temp. max.",
+    "materials": [
+      {
+        "name": "Inox 304",
+        "use": "Marine, chimie, milieux humides et corrosifs ; longue durée de vie",
+        "temp": "Environ 800 °C"
+      },
+      {
+        "name": "Inox 316",
+        "use": "Corrosion sévère : littoral, chlorures et procédés chimiques",
+        "temp": "Environ 800 °C"
+      },
+      {
+        "name": "Acier au carbone galvanisé",
+        "use": "CVC, industrie et bâtiment courants ; économique",
+        "temp": "Environ 450 °C"
+      },
+      {
+        "name": "Aluminium",
+        "use": "Léger ; agroalimentaire et environnements propres",
+        "temp": "Environ 200 °C"
+      },
+      {
+        "name": "Bimétal (tête aluminium, tige acier)",
+        "use": "Tête aluminium avec la tenue au soudage d'une tige acier",
+        "temp": "Environ 450 °C"
+      },
+      {
+        "name": "PVC / nylon",
+        "use": "Surfaces froides ; évite le pont thermique",
+        "temp": "Environ 80 °C (PVC) / 120 °C (nylon)"
+      }
+    ],
+    "materialsNote": "Températures maximales indicatives du matériau de la pointe. Pour les garnissages en fibre céramique au-delà de ces limites, utiliser des ancrages à goujon pour fibre céramique (SEPL-24).",
+    "accessoriesTitle": "Rondelles et capuchons",
+    "accessoriesIntro": "Les rondelles autobloquantes agrippent la tige et maintiennent l'isolant ; les capuchons couvrent l'extrémité coupée. Les deux existent en acier galvanisé, inox ou aluminium, assortis à la pointe.",
+    "accessories": [
+      {
+        "title": "Rondelles autobloquantes rondes",
+        "text": "Clips qui glissent sur la tige et l'agrippent.",
+        "sizes": "Ø 25, 35 et 38 mm"
+      },
+      {
+        "title": "Rondelles autobloquantes carrées",
+        "text": "Clips carrés offrant une meilleure prise sur les panneaux plats.",
+        "sizes": "25 × 25, 35 × 35 et 38 × 38 mm"
+      },
+      {
+        "title": "Capuchons",
+        "text": "Couvrent l'extrémité de la tige après clipsage, pour la sécurité, la finition et la protection contre les pointes.",
+        "sizes": "Selon le diamètre de tige"
+      }
+    ],
+    "washersLink": "Voir toute notre gamme de rondelles",
+    "compatibleTitle": "Isolants compatibles",
+    "compatibleIntro": "Les pointes conviennent à tout isolant que la tige peut traverser. Pour les couvertures en fibre céramique à haute température, utiliser des ancrages à goujon pour fibre céramique.",
+    "compatible": {
+      "mineralWool": "Laine de roche / laine minérale",
+      "glassWool": "Laine de verre",
+      "eps": "Polystyrène expansé (PSE)",
+      "xps": "Polystyrène extrudé (XPS)",
+      "puf": "Mousse polyuréthane (PUR)",
+      "ceramic": "Couverture en fibre céramique (avec SEPL-24)"
+    },
+    "installTitle": "Comment poser les pointes d'isolation",
+    "steps": [
+      {
+        "title": "Fixer la pointe",
+        "text": "Souder, coller ou poser la pointe autocollante sur le support."
+      },
+      {
+        "title": "Poser l'isolant",
+        "text": "Embrocher l'isolant sur la tige jusqu'à ce qu'il soit plaqué contre la surface."
+      },
+      {
+        "title": "Mettre la rondelle",
+        "text": "Glisser une rondelle autobloquante ou un capuchon sur la tige pour comprimer et maintenir l'isolant."
+      },
+      {
+        "title": "Couper ou plier",
+        "text": "Couper la tige qui dépasse au ras ou la plier à plat par sécurité."
+      }
+    ],
+    "spacingTitle": "Entraxe et implantation",
+    "spacing": [
+      "L'entraxe dépend du poids et de l'épaisseur de l'isolant, de la position verticale ou en plafond, du vent et des vibrations, et de la spécification du projet.",
+      "Placer les pointes à environ 75–100 mm des bords des panneaux pour limiter le gonflement.",
+      "Les systèmes de protection passive contre l'incendie utilisent souvent un entraxe d'environ 280 mm ; suivre les indications du fabricant du système.",
+      "Toujours suivre la spécification du projet ou le plan d'implantation de l'ingénieur."
+    ],
+    "techTitle": "Points techniques",
+    "tech": [
+      {
+        "title": "Pont thermique",
+        "text": "Les pointes métalliques conduisent la chaleur à travers l'isolant. En service froid, comme les chambres froides et l'eau glacée, où la condensation est un risque, utiliser des pointes en PVC ou nylon ou prévoir un pare-vapeur."
+      },
+      {
+        "title": "Comportement au feu",
+        "text": "Les pointes métalliques soudées restent fixées mécaniquement en cas d'incendie : c'est le choix le plus fiable pour la protection passive. Les pointes collées dépendent de la tenue à la chaleur de la colle."
+      },
+      {
+        "title": "Résistance à la corrosion",
+        "text": "Adapter la pointe à l'environnement : galvanisé en intérieur, SS 304 en milieu humide ou chimique et SS 316 en milieu marin et chloré. Un mauvais matériau entraîne une rupture précoce, des taches et un isolant endommagé."
+      }
+    ],
+    "applicationsTitle": "Applications par secteur",
+    "applications": [
+      {
+        "title": "CVC et gaines",
+        "items": [
+          "Doublage intérieur en laine de verre ou minérale des gaines rectangulaires",
+          "Isolation extérieure des gaines",
+          "Panneaux de centrales de traitement d'air",
+          "Doublage acoustique des gaines"
+        ]
+      },
+      {
+        "title": "Pétrole, gaz et pétrochimie",
+        "items": [
+          "Isolation d'appareils et colonnes sous tôlage",
+          "Isolation d'équipements en raffinerie et usine à gaz",
+          "Isolation sous pont sur plateformes offshore"
+        ]
+      },
+      {
+        "title": "Production d'énergie",
+        "items": [
+          "Isolation des enveloppes de chaudières",
+          "Capotages acoustiques de turbines",
+          "Isolation des gaines de chaudières de récupération et de fumées"
+        ]
+      },
+      {
+        "title": "Construction navale",
+        "items": [
+          "Isolation des cloisons et ponts (pointes SS 316)",
+          "Isolation thermique et acoustique des salles des machines",
+          "Isolation des cales"
+        ]
+      },
+      {
+        "title": "Bâtiment",
+        "items": [
+          "Isolation des murs et plafonds de bâtiments tertiaires",
+          "Fixation de panneaux acoustiques",
+          "Chambres froides et congélateurs (pointes en nylon)",
+          "Protection passive contre l'incendie"
+        ]
+      },
+      {
+        "title": "Industrie",
+        "items": [
+          "Écrans et capotages antibruit",
+          "Isolation extérieure de fours (pointes inox)",
+          "Agroalimentaire (pointes en aluminium)",
+          "Salles de groupes électrogènes et compresseurs"
+        ]
+      }
+    ],
+    "supplyTitle": "Ce que nous fournissons",
+    "supply": [
+      "Santura fabrique dans ses ateliers des pointes d'isolation en inox (304, 316), acier au carbone galvanisé, aluminium et PVC ou nylon, en versions à souder, adhésives et autocollantes, ainsi que des rondelles autobloquantes et des capuchons. Les pointes sont fabriquées à dimensions constantes et livrées avec des certificats de contrôle EN 10204 3.1.",
+      "Longueurs spéciales, tailles d'embase, types de rondelles, nuances et conditionnement en vrac sont disponibles pour les installateurs et les fabricants. Nous exportons les pointes d'isolation avec la laine minérale, la laine de verre, le silicate de calcium, les joints céramiques et les ancrages réfractaires vers plus de 25 pays, et notre service de soudage de goujons fournit les équipements et procédures pour souder les pointes."
+    ],
+    "relatedTitle": "Produits et services associés",
+    "relatedMineralWool": "Panneaux, rouleaux et matelas de laine de roche fixés par pointes d'isolation.",
+    "relatedGlassFibre": "Laine de verre et tissu de verre pour gaines et calorifugeage.",
+    "relatedCalsil": "Isolant rigide haute température, souvent associé à des couches de matelas fixées par pointes.",
+    "relatedGaskets": "Tresses, rubans et joints en fibre céramique pour l'étanchéité haute température.",
+    "relatedAnchors": "Notre produit principal : les ancrages SEPL pour garnissages réfractaires.",
+    "relatedSepl24": "Ancrages soudés par goujon pour couverture en fibre céramique à haute température.",
+    "relatedSw": "Équipements et procédures de soudage de goujons CD et à l'arc pour pointes et ancrages.",
+    "relatedWashersName": "Rondelles",
+    "relatedWashers": "Rondelles autobloquantes, carrées et à dôme pour pointes et ancrages.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "À quoi servent les pointes d'isolation ?",
+        "a": "Les pointes d'isolation, aussi appelées clous d'isolation, picots ou pointes à souder, maintiennent mécaniquement des isolants comme la laine de roche, la laine de verre, le polystyrène et le PUR sur les murs, gaines, appareils et équipements. Elles empêchent l'isolant de s'affaisser, de glisser ou de tomber, afin qu'il conserve ses performances thermiques et acoustiques."
+      },
+      {
+        "q": "Quelle est la différence entre pointes à souder et pointes adhésives ?",
+        "a": "Les pointes à souder sont liées de façon permanente au métal par soudage de goujons à décharge de condensateur (CD) ou à l'arc en moins d'une seconde, idéal pour les gaines métalliques et les viroles. Les pointes adhésives ont une embase perforée collée au mastic sur des supports non soudables comme le béton et la maçonnerie. Les pointes soudées sont plus solides et tiennent en cas d'incendie ; les pointes adhésives ne nécessitent aucun poste de soudage."
+      },
+      {
+        "q": "Quels isolants peut-on fixer avec des pointes ?",
+        "a": "Les pointes conviennent à tout isolant que la tige peut traverser : laine de roche et laine minérale, laine de verre, PSE, polystyrène extrudé (XPS) et mousse polyuréthane (PUR). Pour les couvertures en fibre céramique à haute température, utiliser des ancrages à goujon pour fibre céramique (SEPL-24)."
+      },
+      {
+        "q": "Comment pose-t-on les pointes d'isolation ?",
+        "a": "Fixer la pointe sur le support par soudage, collage ou adhésif, embrocher l'isolant sur la tige, mettre une rondelle autobloquante ou un capuchon pour le comprimer et le maintenir, puis couper ou plier la tige qui dépasse. L'entraxe suit la spécification du projet ; les pointes sont généralement placées à 75–100 mm des bords des panneaux."
+      },
+      {
+        "q": "En quels matériaux existent les pointes d'isolation ?",
+        "a": "Nous fabriquons des pointes d'isolation en inox (304, 316), acier au carbone galvanisé, aluminium et PVC ou nylon. L'inox convient aux milieux corrosifs et marins, l'acier galvanisé est économique pour le CVC courant, l'aluminium est léger et les pointes en plastique évitent le pont thermique sur les surfaces froides."
+      }
+    ],
+    "ctaTitle": "Besoin de pointes d'isolation ?",
+    "ctaText": "Indiquez-nous le type de pointe, le diamètre et la longueur de tige, le matériau, le type de rondelle et la quantité. Nous vous répondrons avec un devis et un délai de livraison.",
+    "ctaRfq": "Demander un devis pour des pointes d'isolation",
+    "ctaContact": "Ou contactez notre équipe",
+    "relatedAccessories": "Feuillards, ressorts, vis, rivets, fil et rubans pour le calorifugeage et la tôlerie."
+  },
+  "psPage": {
+    "metaTitle": "Isolation en polystyrène | Plaques et coquilles EPS et XPS",
+    "metaDescription": "Isolation en polystyrène EPS et XPS : plaques, coquilles, panneaux de chambre froide. Fournisseur depuis 1980, export vers 25+ pays. Demandez un devis.",
+    "eyebrow": "Matériaux isolants",
+    "h1": "Isolation en polystyrène : EPS et XPS",
+    "subheading": "Isolation en polystyrène expansé (PSE / EPS) et extrudé (XPS) : plaques, coquilles avec ou sans aluminium, demi-coquilles et pièces découpées pour chambres froides, réseaux d'eau glacée et bâtiments.",
+    "badges": [
+      "EPS 15–40 kg/m³",
+      "Panneaux XPS",
+      "Coquilles",
+      "Coquilles aluminium",
+      "Découpes sur mesure"
+    ],
+    "gallery": [
+      "Plaques d'isolation en polystyrène expansé",
+      "Coquilles en EPS avec parement aluminium",
+      "Demi-coquilles en polystyrène pour l'isolation de tuyauteries",
+      "Demi-coquilles d'isolation de tuyauterie en polystyrène"
+    ],
+    "overviewTitle": "Ce qu'est l'isolation en polystyrène",
+    "overview": [
+      "L'isolation en polystyrène est une mousse rigide, légère et à cellules fermées. Elle a une faible conductivité thermique, résiste à l'humidité, garde sa forme et coûte moins cher que la plupart des isolants, ce qui en fait un choix courant pour les chambres froides, les réseaux d'eau glacée et le bâtiment.",
+      "Elle sert en coquilles sur les réseaux d'eau froide et glacée, en plaques pour murs, toitures, sols et isolation sous et sur pont, et en pièces découpées pour équipements et appareils. Bien posée et protégée, elle conserve son pouvoir isolant pendant toute la durée de vie de l'installation, sans s'affaisser ni se tasser.",
+      "L'isolation en polystyrène existe sous deux formes, fabriquées par des procédés différents."
+    ],
+    "types": [
+      {
+        "title": "EPS : polystyrène expansé",
+        "tag": "Mousse blanche à billes · coût réduit",
+        "text": "Des billes de polystyrène sont expansées à la vapeur et moulées en blocs, découpés ensuite en plaques, coquilles et formes. L'EPS est plus léger et moins cher que le XPS, avec une conductivité thermique un peu plus élevée. Sa densité détermine sa résistance."
+      },
+      {
+        "title": "XPS : polystyrène extrudé",
+        "tag": "Mousse dense colorée · résistance élevée",
+        "text": "Produit par extrusion continue en panneaux, généralement bleus, roses ou verts selon la marque. Le XPS a une résistance à la compression plus élevée, une absorption d'eau plus faible et une conductivité thermique plus basse que l'EPS ; il convient donc aux applications enterrées, humides et sous charge."
+      }
+    ],
+    "formsTitle": "Formes et dimensions",
+    "formsIntro": "Formes et dimensions courantes. D'autres dimensions, épaisseurs et formes sont fournies sur plan.",
+    "epsFormsTitle": "EPS (polystyrène expansé)",
+    "xpsFormsTitle": "XPS (polystyrène extrudé)",
+    "colForm": "Forme",
+    "colDescription": "Description",
+    "colSizes": "Dimensions courantes",
+    "epsForms": [
+      {
+        "form": "Plaques / panneaux",
+        "text": "Panneaux rigides pour murs, toitures, sols et chambres froides",
+        "sizes": "12–300 mm d'épaisseur ; 1200 × 600 mm ou 2400 × 1200 mm"
+      },
+      {
+        "form": "Coquilles (deux demi-coquilles)",
+        "text": "Pièces préformées en deux parties pour l'isolation des tuyauteries",
+        "sizes": "Diamètre intérieur 15–600 mm ; 20–100 mm d'épaisseur"
+      },
+      {
+        "form": "Segments cintrés / demi-ronds",
+        "text": "Segments formés pour réservoirs, appareils et grosses tuyauteries",
+        "sizes": "Selon le diamètre extérieur"
+      },
+      {
+        "form": "Coquilles et plaques à parement aluminium",
+        "text": "EPS revêtu d'une feuille d'aluminium réfléchissante",
+        "sizes": "Dimensions standard"
+      },
+      {
+        "form": "Découpes sur mesure",
+        "text": "Découpées au fil chaud sur plan pour coudes, vannes et profils complexes",
+        "sizes": "Selon spécification"
+      }
+    ],
+    "xpsForms": [
+      {
+        "form": "Panneaux rigides",
+        "text": "Panneaux haute résistance pour murs enterrés, toitures inversées et sols sous charge",
+        "sizes": "20–200 mm d'épaisseur ; en général 1250 × 600 mm"
+      },
+      {
+        "form": "Panneaux rainurés-bouvetés",
+        "text": "Bords emboîtables pour une couche isolante continue sans joints",
+        "sizes": "25–100 mm d'épaisseur"
+      },
+      {
+        "form": "Panneaux de pente",
+        "text": "Panneaux découpés en pente pour l'évacuation des toitures-terrasses",
+        "sizes": "Selon la pente souhaitée"
+      }
+    ],
+    "specTitle": "EPS et XPS comparés",
+    "colProperty": "Propriété",
+    "colEps": "EPS",
+    "colXps": "XPS",
+    "specRows": [
+      {
+        "label": "Procédé de fabrication",
+        "eps": "Expansion de billes et moulage",
+        "xps": "Extrusion continue"
+      },
+      {
+        "label": "Couleur",
+        "eps": "Blanc",
+        "xps": "Bleu, rose ou vert (selon la marque)"
+      },
+      {
+        "label": "Masse volumique",
+        "eps": "15–40 kg/m³",
+        "xps": "25–45 kg/m³"
+      },
+      {
+        "label": "Conductivité thermique (λ)",
+        "eps": "0,035–0,040 W/m·K",
+        "xps": "0,029–0,036 W/m·K"
+      },
+      {
+        "label": "Résistance à la compression (10 % de déformation)",
+        "eps": "60–200 kPa, selon la densité",
+        "xps": "150–700 kPa"
+      },
+      {
+        "label": "Absorption d'eau (en volume)",
+        "eps": "2–5 %",
+        "xps": "En général 0,3 % ou moins"
+      },
+      {
+        "label": "Facteur de résistance à la vapeur d'eau (µ)",
+        "eps": "20–70",
+        "xps": "80–250"
+      },
+      {
+        "label": "Température maximale en service continu",
+        "eps": "Environ 80 °C",
+        "xps": "Environ 75 °C"
+      },
+      {
+        "label": "Température minimale de service",
+        "eps": "Jusqu'à environ −180 °C selon les fabricants",
+        "xps": "En général −50 °C selon les fabricants"
+      },
+      {
+        "label": "Réaction au feu",
+        "eps": "Euroclasse E avec additif ignifuge (qualité FR)",
+        "xps": "Euroclasse E avec additif ignifuge (qualité FR)"
+      },
+      {
+        "label": "Stabilité dimensionnelle",
+        "eps": "Bonne ; ne s'affaisse pas et ne se tasse pas",
+        "xps": "Très bonne"
+      },
+      {
+        "label": "Agent d'expansion",
+        "eps": "Pentane ; sans CFC ni HCFC",
+        "xps": "CO₂ ou HFO pour les qualités récentes ; sans CFC ni HCFC"
+      },
+      {
+        "label": "Recyclage",
+        "eps": "Recyclable",
+        "xps": "Recyclable"
+      }
+    ],
+    "specNote": "Valeurs indicatives. Les valeurs exactes dépendent de la qualité, de la densité et du fabricant ; la fiche technique du produit livré fait foi.",
+    "densityTitle": "Guide des densités EPS",
+    "densityIntro": "La résistance de l'EPS augmente avec sa densité. Choisissez la densité la plus faible qui supporte la charge, une densité plus élevée coûtant plus cher.",
+    "colDensity": "Densité",
+    "colStrength": "Résistance à la compression (env.)",
+    "colBestFor": "Idéal pour",
+    "densityRows": [
+      {
+        "density": "15 kg/m³",
+        "strength": "Environ 60 kPa",
+        "use": "Murs, plafonds et autres zones sans charge"
+      },
+      {
+        "density": "20 kg/m³",
+        "strength": "Environ 100 kPa",
+        "use": "Isolation courante des bâtiments, coquilles et chambres froides"
+      },
+      {
+        "density": "25 kg/m³",
+        "strength": "Environ 130 kPa",
+        "use": "Toitures et sols sous charges légères"
+      },
+      {
+        "density": "30 kg/m³",
+        "strength": "Environ 170 kPa",
+        "use": "Isolation sous dalle et sols d'entrepôts frigorifiques"
+      },
+      {
+        "density": "40 kg/m³",
+        "strength": "Environ 200 kPa",
+        "use": "Sols fortement chargés et chambres froides industrielles"
+      }
+    ],
+    "densityNote": "Autres densités sur demande. Pour des charges élevées, un usage enterré ou des conditions humides, le XPS est généralement le meilleur choix.",
+    "advantagesTitle": "Avantages",
+    "advantages": [
+      "Faible conductivité thermique : moins d'épaisseur pour la même performance isolante",
+      "Léger (15–45 kg/m³), facile à manipuler et peu de charge pour la structure",
+      "Structure à cellules fermées qui résiste à l'absorption d'eau",
+      "Stable dimensionnellement : ne s'affaisse pas, ne se tasse pas en service",
+      "Facile à découper sur chantier au fil chaud ou à la scie, sans outillage spécial",
+      "Coût de matériau et de pose inférieur à la plupart des isolants fibreux et PUR",
+      "Supporte la circulation piétonne et les charges de sol, surtout le XPS et l'EPS haute densité",
+      "Adapté au froid et aux températures négatives, de l'eau glacée aux chambres de congélation",
+      "Ne contient pas de fibres : ne dégage pas de poussière et n'irrite pas la peau",
+      "Recyclable et fabriqué sans CFC ni HCFC"
+    ],
+    "cautionsTitle": "Points d'attention",
+    "cautions": [
+      "Le polystyrène est combustible. Utiliser des qualités ignifugées et le protéger par un revêtement, comme l'exigent les règles du bâtiment et de sécurité incendie.",
+      "Sa limite supérieure est d'environ 75–80 °C. Pour des surfaces plus chaudes, utiliser de la laine minérale ou du silicate de calcium.",
+      "Les solvants et une longue exposition au soleil dégradent le polystyrène. Utiliser des colles compatibles et le garder recouvert ou habillé."
+    ],
+    "standardsTitle": "Normes",
+    "standards": [
+      "Isolant thermique en polystyrène cellulaire rigide",
+      "Polystyrène expansé pour l'isolation thermique (norme indienne)",
+      "Produits isolants thermiques manufacturés en EPS pour le bâtiment",
+      "Produits isolants thermiques manufacturés en XPS pour le bâtiment",
+      "Caractéristiques de combustion superficielle des matériaux de construction",
+      "Méthodes de mesure de la conductivité thermique (plaque chaude gardée / fluxmètre)"
+    ],
+    "applicationsTitle": "Applications par secteur",
+    "applications": [
+      {
+        "title": "Entreposage frigorifique et réfrigération",
+        "items": [
+          "Murs, sols et plafonds de chambres froides",
+          "Chambres de congélation jusqu'à −40 °C",
+          "Camions et conteneurs frigorifiques",
+          "Sols d'entrepôts frigorifiques sur EPS haute densité ou XPS"
+        ]
+      },
+      {
+        "title": "Pétrole, gaz et pétrochimie",
+        "items": [
+          "Coquilles pour eau glacée et lignes de produits chimiques froids",
+          "Isolation sous pont et sur pont",
+          "Systèmes d'isolation froide avec pare-vapeur",
+          "Isolation d'équipements et d'appareils froids par demi-coquilles"
+        ]
+      },
+      {
+        "title": "CVC et plomberie",
+        "items": [
+          "Coquilles pour eau glacée avec parement aluminium",
+          "Isolation des évacuations de condensats",
+          "Isolation des gaines de climatisation",
+          "Tuyauteries d'eau froide et chaude jusqu'à environ 80 °C"
+        ]
+      },
+      {
+        "title": "Bâtiment",
+        "items": [
+          "Isolation thermique par l'extérieur (ITE / ETICS)",
+          "Isolation des toitures-terrasses et toitures inclinées",
+          "Isolation enterrée des fondations et périmètres (XPS de préférence)",
+          "Isolation des sols sous chape ou dalle",
+          "Toitures inversées (XPS uniquement)",
+          "Panneaux pour murs creux"
+        ]
+      },
+      {
+        "title": "Industrie et production",
+        "items": [
+          "Sites agroalimentaires et de boissons",
+          "Murs et plafonds de salles blanches pharmaceutiques",
+          "Coffrages perdus et remblais légers en construction"
+        ]
+      },
+      {
+        "title": "Marine et offshore",
+        "items": [
+          "Isolation des modules d'hébergement",
+          "Chambres froides à bord",
+          "Flottabilité et flotteurs (EPS)"
+        ]
+      }
+    ],
+    "supplyTitle": "Ce que nous fournissons",
+    "supply": [
+      "Santura Engineering fournit des isolants en polystyrène expansé (EPS) et extrudé (XPS) : plaques, coquilles avec et sans parement aluminium, demi-coquilles et découpes sur mesure, avec de l'EPS de 15 à 40 kg/m³. Nos clients types sont les raffineries, les exploitants d'entrepôts frigorifiques, les usines agroalimentaires et les chantiers de construction.",
+      "Fabricant de pointes d'isolation et fournisseur de laine minérale, laine de verre, silicate de calcium et joints céramiques, Santura peut fournir un ensemble d'isolation complet auprès d'un seul interlocuteur. Nous exportons vers plus de 25 pays."
+    ],
+    "relatedTitle": "Produits associés",
+    "relatedPins": "Pointes et rondelles pour fixer les plaques de polystyrène sur murs et gaines.",
+    "relatedMineralWool": "L'alternative pour les surfaces chaudes au-delà de la limite du polystyrène.",
+    "relatedCalsil": "Isolant rigide pour tuyauteries et équipements à haute température.",
+    "relatedGlassFibre": "Laine de verre et tissu de verre pour gaines et calorifugeage.",
+    "relatedPir": "Une mousse rigide supportant des températures plus élevées que le polystyrène.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Quelle est la différence entre l'isolation en polystyrène EPS et XPS ?",
+        "a": "L'EPS (polystyrène expansé) est une mousse blanche à billes, plus légère et plus économique, disponible en densités de 15 à 40 kg/m³. Le XPS (polystyrène extrudé) est plus dense, avec une résistance à la compression plus élevée (150–700 kPa), une absorption d'eau plus faible (en général 0,3 % ou moins) et une conductivité thermique plus basse (0,029–0,036 W/m·K). Le XPS est préféré pour les applications enterrées, humides et sous charge."
+      },
+      {
+        "q": "Pour quelle plage de températures l'isolation en polystyrène convient-elle ?",
+        "a": "L'isolation en polystyrène s'utilise en service continu jusqu'à environ 80 °C pour l'EPS et environ 75 °C pour le XPS. Côté froid, les fabricants annoncent l'EPS jusqu'à environ −180 °C et le XPS en général jusqu'à −50 °C. Elle convient bien aux entrepôts frigorifiques, à la réfrigération, aux réseaux d'eau glacée et au bâtiment. Au-delà de 80 °C, utiliser de la laine minérale ou du silicate de calcium."
+      },
+      {
+        "q": "Quelles densités d'EPS sont disponibles ?",
+        "a": "Santura fournit de l'isolation EPS en densités de 15, 20, 25, 30 et 40 kg/m³. Une densité plus élevée donne une résistance à la compression plus élevée : 15 kg/m³ pour les murs et plafonds sans charge, 40 kg/m³ pour les sols fortement chargés et les chambres froides industrielles. Autres densités sur demande."
+      },
+      {
+        "q": "L'isolation en polystyrène est-elle étanche à l'eau ?",
+        "a": "Le polystyrène a une structure à cellules fermées qui lui donne une bonne résistance à l'humidité. Le XPS absorbe en général 0,3 % d'eau en volume ou moins ; c'est donc le choix pour les applications enterrées et humides. L'EPS absorbe 2–5 %. Sur surfaces froides, les deux nécessitent un pare-vapeur, comme un parement aluminium, contre la condensation. Aucun des deux ne nourrit les moisissures."
+      }
+    ],
+    "ctaTitle": "Besoin d'isolation en polystyrène ?",
+    "ctaText": "Indiquez-nous le type (EPS ou XPS), la forme, la densité, l'épaisseur, les diamètres de tuyauterie ou dimensions de plaque et la quantité. Nous vous répondrons avec un devis et un délai de livraison.",
+    "ctaRfq": "Demander un devis pour l'isolation en polystyrène",
+    "ctaContact": "Ou contactez notre équipe"
+  },
+  "pirPage": {
+    "metaTitle": "Panneaux et coquilles PIR | Fournisseur industriel",
+    "metaDescription": "Isolation en polyisocyanurate PIR : panneaux et coquilles de −196 °C à 150 °C. Sans CFC, bonne tenue au feu. Depuis 1980, 25+ pays. Demandez un devis.",
+    "eyebrow": "Matériaux isolants",
+    "h1": "Isolation en polyisocyanurate (PIR)",
+    "subheading": "Isolation en mousse rigide PIR : coquilles de ½\" à 24\", panneaux, panneaux parementés et segments. Conductivité thermique très basse, propagation de flamme Classe 1 et limite de paroi chaude de 150 °C.",
+    "badges": [
+      "Coquilles ½\"–24\"",
+      "Panneaux et segments",
+      "Jusqu'à 150 °C",
+      "Propagation de flamme Classe 1",
+      "Sans CFC"
+    ],
+    "gallery": [
+      "Panneau d'isolation en polyisocyanurate PIR avec parement en papier kraft"
+    ],
+    "overviewTitle": "Ce qu'est l'isolation en polyisocyanurate",
+    "overview": [
+      "Le polyisocyanurate (PIR), aussi appelé polyiso, est un isolant en mousse rigide thermodurcissable. C'est un polyuréthane (PUR) modifié contenant davantage de liaisons isocyanurate, et sa conductivité thermique compte parmi les plus basses des isolants courants.",
+      "La structure isocyanurate donne au PIR une meilleure tenue au feu que le polyuréthane standard. Il atteint la Classe 1 de propagation de flamme en surface, dégage peu de fumée et, contrairement à la plupart des thermoplastiques, ne fond pas et ne goutte pas en cas d'incendie. Il porte aussi la limite de paroi chaude à 150 °C, contre 110 °C pour une mousse polyuréthane normale : le PIR peut donc être posé directement sur un traçage vapeur ou électrique qui reste dans cette limite.",
+      "Le PIR demande environ la moitié de l'épaisseur du liège pour la même performance. Une couche plus fine réduit la surface à couvrir, donc le coût du pare-vapeur, de la tôle de finition et des supports par mètre linéaire de tuyauterie. Notre PIR est sans CFC."
+    ],
+    "compareTitle": "Épaisseur comparée aux autres isolants",
+    "compareIntro": "Épaisseur d'isolant nécessaire pour la même résistance thermique (R = 2,5 m²K/W).",
+    "colMaterial": "Matériau",
+    "colThickness": "Épaisseur nécessaire",
+    "lambdaUnit": "W/m·K",
+    "mmUnit": "mm",
+    "compareNames": [
+      "PIR (polyisocyanurate)",
+      "XPS (polystyrène extrudé)",
+      "Laine de verre",
+      "EPS (polystyrène expansé)",
+      "Laine minérale (laine de roche)",
+      "Silicate de calcium"
+    ],
+    "compareNote": "Le PIR atteint la même performance isolante que la laine minérale avec environ 40 % d'épaisseur en moins, ce qui économise de la place, de la tôle de finition et du temps de pose.",
+    "compareCalc": "Calcul pour paroi plane (épaisseur = R × λ) avec une conductivité typique à basse température moyenne. L'épaisseur réelle dépend du diamètre, de la température de service et des bases de conception. La laine minérale et le silicate de calcium sont choisis pour les services plus chauds, où le PIR ne peut pas être utilisé.",
+    "formsTitle": "Formes et dimensions",
+    "formsIntro": "Formes et dimensions courantes. D'autres dimensions, épaisseurs et formes sont fournies sur plan.",
+    "colForm": "Forme",
+    "colDescription": "Description",
+    "colSizes": "Dimensions courantes",
+    "forms": [
+      {
+        "form": "Coquilles (deux demi-coquilles)",
+        "text": "Pièces préformées en deux parties pour l'isolation des tuyauteries",
+        "sizes": "½\" à 24\" (DN15–DN600) ; à partir de 25 mm d'épaisseur ; 1000 mm de long"
+      },
+      {
+        "form": "Panneaux",
+        "text": "Panneaux rigides pour murs, toitures, gaines et équipements",
+        "sizes": "20–150 mm d'épaisseur ; 1200 × 600 mm ou 2400 × 1200 mm"
+      },
+      {
+        "form": "Panneaux parementés",
+        "text": "Panneau PIR avec parement aluminium ou papier kraft ; l'aluminium fait office de pare-vapeur",
+        "sizes": "Dimensions standard"
+      },
+      {
+        "form": "Segments",
+        "text": "Segments trapézoïdaux pour tuyauteries et appareils de grand diamètre",
+        "sizes": "Selon le diamètre extérieur"
+      },
+      {
+        "form": "Panneaux rainurés / cintrables",
+        "text": "Panneaux prérainurés qui épousent les surfaces courbes et les réservoirs",
+        "sizes": "20–80 mm d'épaisseur"
+      },
+      {
+        "form": "Blocs de supportage",
+        "text": "Blocs PIR haute densité pour supports de tuyauterie isolée, à la place des cales en bois",
+        "sizes": "Selon diamètre et charge"
+      }
+    ],
+    "pipeTitle": "Coquilles PIR",
+    "pipeIntro": "Nos coquilles PIR standard. Les épaisseurs et parements sont réalisés selon la spécification du projet.",
+    "pipeRows": [
+      {
+        "label": "Diamètres de tuyauterie",
+        "value": "½\" à 24\" (DN15–DN600)"
+      },
+      {
+        "label": "Épaisseur",
+        "value": "À partir de 25 mm"
+      },
+      {
+        "label": "Longueur",
+        "value": "1000 mm"
+      },
+      {
+        "label": "Masse volumique",
+        "value": "À partir de 36 kg/m³"
+      },
+      {
+        "label": "Configuration",
+        "value": "Deux demi-coquilles à joint bout à bout ou à feuillure"
+      },
+      {
+        "label": "Parement",
+        "value": "Nu, feuille d'aluminium ou papier kraft"
+      },
+      {
+        "label": "Limite de paroi chaude",
+        "value": "150 °C en continu"
+      }
+    ],
+    "drawingAlt": "Dessin au trait d'une coquille PIR en deux parties autour d'un tube",
+    "drawingCaption": "Coquille en deux demi-coquilles",
+    "specTitle": "PIR et PUR comparés",
+    "colProperty": "Propriété",
+    "colPir": "PIR (polyisocyanurate)",
+    "colPur": "PUR (polyuréthane)",
+    "specRows": [
+      {
+        "label": "Type",
+        "pir": "Mousse rigide thermodurcissable à liaisons isocyanurate",
+        "pur": "Mousse rigide thermodurcissable"
+      },
+      {
+        "label": "Conductivité thermique (λ, 10 °C moyen)",
+        "pir": "0,020–0,025 W/m·K",
+        "pur": "0,023–0,028 W/m·K"
+      },
+      {
+        "label": "Masse volumique",
+        "pir": "À partir de 36 kg/m³ (coquilles) ; 30–60 kg/m³ (panneaux)",
+        "pur": "30–50 kg/m³"
+      },
+      {
+        "label": "Température maximale de paroi chaude",
+        "pir": "150 °C",
+        "pur": "110 °C"
+      },
+      {
+        "label": "Service à basse température",
+        "pir": "Qualités cryogéniques utilisées jusqu'à environ −196 °C",
+        "pur": "Qualités cryogéniques utilisées jusqu'à environ −196 °C"
+      },
+      {
+        "label": "Résistance à la compression (10 % de déformation)",
+        "pir": "Environ 150–200 kPa, plus élevée avec la densité",
+        "pur": "Environ 120 kPa et plus"
+      },
+      {
+        "label": "Comportement au feu",
+        "pir": "Classe 1 de propagation de flamme ; peu de fumée ; ne fond pas, ne goutte pas",
+        "pur": "Inférieur ; nécessite des additifs ignifuges"
+      },
+      {
+        "label": "Transmission de vapeur d'eau",
+        "pir": "Très faible (cellules fermées)",
+        "pur": "Très faible (cellules fermées)"
+      },
+      {
+        "label": "Absorption d'eau",
+        "pir": "Faible, en général moins de 2 % en volume",
+        "pur": "Faible"
+      },
+      {
+        "label": "Stabilité dimensionnelle",
+        "pir": "Très bonne",
+        "pur": "Bonne"
+      },
+      {
+        "label": "Taux de cellules fermées",
+        "pir": "Plus de 90 %",
+        "pur": "Plus de 90 %"
+      },
+      {
+        "label": "Agent d'expansion",
+        "pir": "Sans CFC",
+        "pur": "Sans CFC pour les qualités récentes"
+      }
+    ],
+    "specNote": "Valeurs indicatives. Les valeurs exactes dépendent de la qualité, de la densité et du fabricant ; la fiche technique du produit livré fait foi.",
+    "advantagesTitle": "Avantages",
+    "advantages": [
+      "Très haute efficacité isolante, source d'économies d'énergie",
+      "Isolation sans vides : une mousse à cellules fermées homogène sur toute la section",
+      "Environ la moitié de l'épaisseur du liège, ce qui réduit le coût de la tôle, du pare-vapeur et des supports",
+      "Résistant au feu : Classe 1 de propagation de flamme, peu de fumée, ne fond pas et ne goutte pas",
+      "Limite de paroi chaude de 150 °C, supérieure aux 110 °C du polyuréthane standard",
+      "Résistant à l'eau et à l'humidité",
+      "Stable dimensionnellement : ne rétrécit pas, ne se déforme pas, ne se tasse pas",
+      "Résistant à la plupart des huiles, produits chimiques et solvants",
+      "Pas de ponts thermiques dans l'isolant, qui ne contient ni fibres ni éléments métalliques",
+      "Durable ; garde ses performances pendant de nombreuses années s'il est bien posé et protégé"
+    ],
+    "cautionsTitle": "Points d'attention",
+    "cautions": [
+      "Le PIR est combustible, même s'il ne fond pas et ne goutte pas. Le poser sous tôle ou sous une autre protection, comme l'exige la réglementation incendie.",
+      "Sa limite de paroi chaude est de 150 °C. Pour des tuyauteries et équipements plus chauds, utiliser de la laine minérale ou du silicate de calcium.",
+      "La lumière du soleil dégrade la mousse exposée. Garder le PIR sous tôle ou recouvert, et étancher les joints avec un pare-vapeur en service froid."
+    ],
+    "standardsTitle": "Normes",
+    "standards": [
+      "Produits isolants thermiques manufacturés en PUR et PIR pour l'équipement du bâtiment et les installations industrielles",
+      "Produits isolants thermiques manufacturés en mousse rigide de polyuréthane (PUR / PIR) pour le bâtiment",
+      "Isolant thermique préformé en polyisocyanurate cellulaire rigide",
+      "Caractéristiques de combustion superficielle des matériaux de construction",
+      "Essai de propagation de flamme en surface (Classe 1)",
+      "Plastiques alvéolaires rigides pour l'isolation thermique des bâtiments"
+    ],
+    "applicationsTitle": "Applications par secteur",
+    "applications": [
+      {
+        "title": "Pétrole, gaz et pétrochimie",
+        "items": [
+          "Tuyauteries de procédé et de condensats jusqu'à 150 °C",
+          "Lignes d'eau glacée, de saumure et de produits chimiques froids",
+          "Tuyauteries cryogéniques avec des systèmes PIR de qualité cryogénique",
+          "Tuyauteries avec traçage vapeur ou électrique jusqu'à 150 °C",
+          "Appareils et colonnes sous tôle"
+        ]
+      },
+      {
+        "title": "Production d'énergie",
+        "items": [
+          "Lignes de condensats et d'eau chaude",
+          "Lignes de vapeur basse pression jusqu'à 150 °C",
+          "Lignes d'eau froide et de refroidissement",
+          "CVC des bâtiments annexes"
+        ]
+      },
+      {
+        "title": "CVC et plomberie",
+        "items": [
+          "Réseaux d'eau glacée, où une faible épaisseur évite la condensation",
+          "Réseaux d'eau chaude sanitaire",
+          "Lignes frigorifiques",
+          "Panneaux de gaines et isolation des gaines"
+        ]
+      },
+      {
+        "title": "Bâtiment",
+        "items": [
+          "Toitures-terrasses, y compris panneaux de pente pour l'évacuation",
+          "Isolation des murs creux et par l'extérieur",
+          "Isolation sous plancher",
+          "Entrepôts frigorifiques et bâtiments de congélation",
+          "Panneaux sandwich PIR à parements métalliques"
+        ]
+      },
+      {
+        "title": "Marine et offshore",
+        "items": [
+          "Tuyauteries et équipements de plateformes offshore",
+          "Murs et plafonds des modules d'hébergement",
+          "Isolation des cloisons et des ponts"
+        ]
+      },
+      {
+        "title": "Entreposage frigorifique et réfrigération",
+        "items": [
+          "Murs, sols et plafonds de chambres froides",
+          "Chambres de congélation jusqu'à −40 °C",
+          "Surgélateurs",
+          "Véhicules et conteneurs frigorifiques"
+        ]
+      },
+      {
+        "title": "Industries de procédé",
+        "items": [
+          "Agroalimentaire et boissons : isolation hygiénique des tuyauteries",
+          "Salles blanches et tuyauteries de procédé pharmaceutiques",
+          "Chimie : tuyauteries et appareils exposés aux solvants"
+        ]
+      }
+    ],
+    "supplyTitle": "Ce que nous fournissons",
+    "supply": [
+      "Santura Engineering fournit des isolants en polyisocyanurate (PIR) : coquilles de ½\" à 24\" à partir de 36 kg/m³, panneaux, panneaux parementés et segments. Notre PIR est sans CFC. Nos clients types sont les raffineries, les sites pétrochimiques, les centrales électriques et les projets d'entreposage frigorifique.",
+      "Fabricant d'ancrages réfractaires et de pointes d'isolation, et fournisseur de laine minérale, polystyrène, silicate de calcium et joints céramiques, Santura peut fournir un ensemble d'isolation complet auprès d'un seul interlocuteur. Nous exportons vers plus de 25 pays."
+    ],
+    "relatedTitle": "Produits associés",
+    "relatedPolystyrene": "Une mousse rigide plus économique pour un service jusqu'à environ 80 °C.",
+    "relatedMineralWool": "Le choix pour les services chauds au-delà de 150 °C.",
+    "relatedCalsil": "Isolant rigide pour tuyauteries et équipements à haute température.",
+    "relatedPins": "Pointes et rondelles pour fixer les panneaux PIR sur murs et gaines.",
+    "relatedGlassFibre": "Tissu de verre pour envelopper l'isolation PIR.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Qu'est-ce que l'isolation en polyisocyanurate (PIR) ?",
+        "a": "Le polyisocyanurate (PIR ou polyiso) est une mousse rigide thermodurcissable dont la conductivité thermique compte parmi les plus basses des isolants courants, 0,020–0,025 W/m·K. C'est un polyuréthane modifié à meilleure tenue au feu : Classe 1 de propagation de flamme, peu de fumée, et il ne fond pas et ne goutte pas. Le PIR standard s'utilise jusqu'à 150 °C et les qualités cryogéniques jusqu'à environ −196 °C."
+      },
+      {
+        "q": "Quelle est la différence entre l'isolation PIR et PUR ?",
+        "a": "Le PIR (polyisocyanurate) contient davantage de liaisons isocyanurate que le PUR (polyuréthane) standard. Il en résulte une meilleure tenue au feu et une limite de paroi chaude plus élevée, 150 °C contre 110 °C pour le PUR. Le PIR a aussi une conductivité thermique un peu plus basse. Les deux sont des mousses rigides à cellules fermées, mais le PIR est préféré pour l'isolation industrielle des tuyauteries et lorsque la tenue au feu compte."
+      },
+      {
+        "q": "Dans quels diamètres les coquilles PIR sont-elles disponibles ?",
+        "a": "Santura fournit des coquilles PIR pour tuyauteries de ½\" à 24\" (DN15–DN600), à partir de 25 mm d'épaisseur et d'une masse volumique de 36 kg/m³ et plus. Les coquilles font 1000 mm de long, sont réalisées en deux demi-coquilles et sont disponibles nues ou avec parement aluminium ou papier kraft."
+      },
+      {
+        "q": "Pourquoi l'isolation PIR est-elle plus fine que les autres isolants ?",
+        "a": "Le PIR a l'une des conductivités thermiques les plus basses des isolants courants, environ 0,022 W/m·K contre environ 0,038 W/m·K pour la laine minérale. Il atteint la même performance avec environ 40 % d'épaisseur en moins que la laine minérale et environ la moitié de celle du liège, ce qui économise de la place, réduit le coût de la tôle et du pare-vapeur et raccourcit la pose."
+      }
+    ],
+    "ctaTitle": "Besoin d'isolation PIR ?",
+    "ctaText": "Indiquez-nous la forme, les diamètres ou dimensions de panneau, l'épaisseur, le parement, la température de service et la quantité. Nous vous répondrons avec un devis et un délai de livraison.",
+    "ctaRfq": "Demander un devis pour l'isolation PIR",
+    "ctaContact": "Ou contactez notre équipe"
+  },
+  "fsPage": {
+    "metaTitle": "Fournisseur de visserie industrielle | Goujons, écrous",
+    "metaDescription": "Visserie industrielle : goujons B7, vis hexagonales, écrous et rondelles en inox, Inconel, Monel et Duplex. Fournisseur depuis 1980, 25+ pays. Devis.",
+    "eyebrow": "Fourni par Santura",
+    "h1": "Visserie industrielle",
+    "subheading": "Boulons, goujons, écrous et rondelles en acier au carbone, acier allié B7, inox, duplex et alliages de nickel, fournis avec nos ancrages réfractaires et nos produits d'isolation pour un approvisionnement auprès d'un seul fournisseur.",
+    "badges": [
+      "Goujons B7 / 2H",
+      "Vis et écrous hexagonaux",
+      "Acier inoxydable",
+      "Inconel, Monel, Duplex",
+      "Certificats EN 10204 3.1",
+      "Une seule commande"
+    ],
+    "gallery": [
+      "Goujons B7 et tiges filetées en acier allié",
+      "Vis à tête hexagonale zinguées",
+      "Écrous hexagonaux lourds en acier noir",
+      "Écrous hexagonaux à embase crantée en inox",
+      "Vis hexagonale à embase zinguée",
+      "Boulons à tête ronde collet carré zingués",
+      "Vis à tête bombée six pans creux brunies",
+      "Assortiment de vis, écrous et rondelles industriels"
+    ],
+    "overviewTitle": "Visserie pour projets de raffinage, pétrochimie et énergie",
+    "overview": [
+      "En plus des ancrages réfractaires, fibres d'acier et pointes d'isolation qu'elle produit, Santura Engineering fournit de la visserie industrielle : boulons, goujons, écrous et rondelles en acier au carbone, acier allié, inox et alliages hautes performances comme l'Inconel, le Monel et le Duplex.",
+      "Notre visserie provient de fournisseurs qualifiés et est livrée dans le cadre de lots complets pour projets. C'est particulièrement utile sur les projets de raffinerie, de pétrochimie et de centrale électrique, où la boulonnerie de brides B7 et les alliages spéciaux sont prescrits avec les matériaux réfractaires et isolants.",
+      "Les entreprises EPC, raffineries et exploitants peuvent ainsi acheter ancrages, isolation et visserie auprès d'un seul fournisseur, avec un seul dossier documentaire et un seul planning de livraison."
+    ],
+    "whyTitle": "Pourquoi acheter votre visserie chez Santura",
+    "why": [
+      {
+        "title": "Un seul fournisseur",
+        "text": "Ancrages réfractaires, isolants, pointes d'isolation et visserie chez un même fournisseur : une commande, une expédition et un dossier documentaire."
+      },
+      {
+        "title": "Maîtrise des alliages",
+        "text": "Nous produisons chaque jour des ancrages en inox SS 304, 310 et 316 et en alliages de nickel comme l'Inconel. Cette connaissance des matériaux sert au choix et au contrôle des nuances de visserie."
+      },
+      {
+        "title": "Colisage prêt pour le chantier",
+        "text": "Sur demande, les jeux de goujons B7 sont emballés et étiquetés par diamètre et classe de bride, et les kits triés par ensemble, prêts à poser."
+      },
+      {
+        "title": "Documents qualité",
+        "text": "Certificats de contrôle EN 10204 3.1, numéros de coulée ou de lot sur les étiquettes et documents vérifiés par rapport à la commande avant expédition."
+      },
+      {
+        "title": "Livraison mondiale",
+        "text": "La visserie voyage avec vos ancrages et isolants par la même logistique que nous utilisons pour livrer plus de 25 pays."
+      }
+    ],
+    "rangeTitle": "Gamme de visserie",
+    "rangeIntro": "Types courants et normes de fourniture habituelles. D'autres types, normes et dimensions spéciales sont approvisionnés selon votre spécification.",
+    "boltsTitle": "Vis et goujons",
+    "nutsTitle": "Écrous",
+    "washersTitle": "Rondelles",
+    "colType": "Type",
+    "colDescription": "Description",
+    "colStandards": "Normes courantes",
+    "bolts": [
+      {
+        "type": "Vis à tête hexagonale",
+        "text": "Vis hexagonales standard, la fixation industrielle la plus courante ; filetage partiel ou total"
+      },
+      {
+        "type": "Goujons (B7)",
+        "text": "Goujons entièrement filetés en acier chrome-molybdène pour brides haute température et haute pression"
+      },
+      {
+        "type": "Boulons en U (étriers)",
+        "text": "Étriers en U qui fixent les tuyauteries sur leurs supports"
+      },
+      {
+        "type": "Anneaux de levage à tige",
+        "text": "Vis à tête en anneau pour le levage et l'élingage"
+      },
+      {
+        "type": "Vis à embase",
+        "text": "Vis hexagonales à embase intégrée qui répartit la charge et limite le desserrage"
+      },
+      {
+        "type": "Boulons à tête ronde collet carré",
+        "text": "Tête ronde avec collet carré qui empêche la rotation au serrage de l'écrou"
+      },
+      {
+        "type": "Vis à six pans creux",
+        "text": "Entraînement six pans creux pour couple élevé dans les espaces réduits et montage affleurant ; tête cylindrique et fraisée"
+      },
+      {
+        "type": "Vis à tête bombée",
+        "text": "Tête ronde basse ; à six pans creux, et vis M16 pour glissières de sécurité"
+      },
+      {
+        "type": "Vis moletées",
+        "text": "Vis à tête ou tige moletée, fournies sur plan"
+      },
+      {
+        "type": "Vis à tête plate collet carré",
+        "text": "Tête plate fraisée avec collet carré"
+      },
+      {
+        "type": "Vis à tête plate à ergot",
+        "text": "Tête plate avec ergot qui empêche la rotation dans les assemblages acier"
+      }
+    ],
+    "nuts": [
+      {
+        "type": "Écrous hexagonaux",
+        "text": "Écrous hexagonaux standard d'usage général"
+      },
+      {
+        "type": "Écrous hexagonaux lourds",
+        "text": "Écrous plus épais à surplat plus large pour la boulonnerie haute résistance, utilisés avec les goujons B7"
+      },
+      {
+        "type": "Contre-écrous (écrous bas)",
+        "text": "Écrous hexagonaux bas servant d'écrou de blocage"
+      },
+      {
+        "type": "Écrous Nylstop",
+        "text": "Écrous hexagonaux à bague nylon qui résistent au desserrage sous vibrations"
+      },
+      {
+        "type": "Écrous à embase",
+        "text": "Écrous hexagonaux à embase crantée intégrée qui répartit la charge"
+      },
+      {
+        "type": "Écrous à souder",
+        "text": "Écrous carrés ou hexagonaux conçus pour être soudés sur tôle"
+      },
+      {
+        "type": "Écrous carrés",
+        "text": "Écrous à quatre pans pour rails et rainures"
+      },
+      {
+        "type": "Écrous borgnes",
+        "text": "Écrous hexagonaux à dôme fermé qui couvre l'extrémité de la vis"
+      },
+      {
+        "type": "Écrous à anneau",
+        "text": "Écrous à anneau de levage pour l'élingage"
+      }
+    ],
+    "washers": [
+      {
+        "type": "Rondelles plates",
+        "text": "Rondelles qui répartissent la charge sous l'écrou ou la tête de vis"
+      },
+      {
+        "type": "Rondelles Grower",
+        "text": "Rondelles fendues qui résistent au desserrage sous vibrations"
+      },
+      {
+        "type": "Rondelles à dents",
+        "text": "Rondelles à denture intérieure ou extérieure pour le blocage et la mise à la terre"
+      },
+      {
+        "type": "Plaquettes biaises",
+        "text": "Rondelles en biais pour les ailes inclinées des poutrelles IPN et UPN"
+      }
+    ],
+    "sizesTitle": "Dimensions, classes et finitions",
+    "sizesIntro": "Plages de fourniture courantes pour nos articles les plus demandés.",
+    "colProduct": "Produit",
+    "colSize": "Dimensions",
+    "colGrade": "Classes",
+    "colFinish": "Finitions",
+    "rangeRows": [
+      {
+        "item": "Vis à tête hexagonale",
+        "size": "M6–M64 ; longueurs jusqu'à 450 mm",
+        "grade": "4.6, 4.8, 5.6, 5.8, 8.8, 10.9, 12.9, B7, B7M",
+        "finish": "Brunie, zinguée, galvanisée à chaud"
+      },
+      {
+        "item": "Goujons et goujons double filetage",
+        "size": "M8–M72 ; 5/16\" à 3\"",
+        "grade": "8.8 / 8, B7 / 2H, B7M / 2HM",
+        "finish": "Noir, galvanisé à chaud"
+      },
+      {
+        "item": "Écrous hexagonaux",
+        "size": "M5–M56",
+        "grade": "4, 6, 8, 10, 12, 2H, 2HM",
+        "finish": "Brunie, zinguée, galvanisée à chaud"
+      },
+      {
+        "item": "Vis à six pans creux",
+        "size": "M8–M30 ; longueurs jusqu'à 450 mm",
+        "grade": "4.6, 4.8, 5.6, 5.8, 8.8",
+        "finish": "Brunie, zinguée, galvanisée à chaud"
+      },
+      {
+        "item": "Boulons à tête ronde collet carré",
+        "size": "M6–M64",
+        "grade": "4.6, 4.8, 5.6, 8.8",
+        "finish": "Phosphatée noire, zinguée blanche ou jaune, galvanisée à chaud"
+      },
+      {
+        "item": "Vis à tête plate collet carré ou à ergot",
+        "size": "M6–M30",
+        "grade": "4.6, 4.8, 5.6, 8.8",
+        "finish": "Phosphatée noire, zinguée blanche ou jaune, galvanisée à chaud"
+      },
+      {
+        "item": "Vis et écrous à embase, vis moletées",
+        "size": "Sur commande",
+        "grade": "Vis 8.8, 10.9, 12.9 ; écrous 8, 10, 12",
+        "finish": "Brunie, zinguée, galvanisée à chaud"
+      },
+      {
+        "item": "Vis à tête bombée (glissières de sécurité)",
+        "size": "M16",
+        "grade": "4.6, 8.8",
+        "finish": "Phosphatée noire, galvanisée à chaud"
+      }
+    ],
+    "b7Eyebrow": "Produit phare",
+    "b7Title": "Goujons B7",
+    "b7Intro": "Les goujons ASTM A193 B7 avec écrous hexagonaux lourds A194 2H sont la visserie la plus prescrite pour le boulonnage des brides en raffinerie et en pétrochimie.",
+    "b7Rows": [
+      {
+        "label": "Spécification",
+        "value": "ASTM A193 Grade B7 : acier allié chrome-molybdène, trempé et revenu"
+      },
+      {
+        "label": "Écrous associés",
+        "value": "ASTM A194 Grade 2H, hexagonaux lourds ; goujons B7M avec écrous 2HM en service H₂S"
+      },
+      {
+        "label": "Résistance à la traction minimale",
+        "value": "860 MPa jusqu'à 2½\" ; 795 MPa au-delà de 2½\" jusqu'à 4\" ; 690 MPa au-delà de 4\" jusqu'à 7\""
+      },
+      {
+        "label": "Limite d'élasticité minimale",
+        "value": "720 MPa jusqu'à 2½\" ; 655 MPa au-delà de 2½\" jusqu'à 4\" ; 515 MPa au-delà de 4\" jusqu'à 7\""
+      },
+      {
+        "label": "Température de service",
+        "value": "Jusqu'à environ 450 °C ; au-delà, on prescrit une boulonnerie B16 ou en alliage de nickel"
+      },
+      {
+        "label": "Dimensions",
+        "value": "M8–M72 (5/16\" à 3\"), longueurs selon la classe de bride et le joint"
+      },
+      {
+        "label": "Finition",
+        "value": "Noir ou galvanisé à chaud ; PTFE (Xylan) et autres revêtements sur demande"
+      },
+      {
+        "label": "Applications",
+        "value": "Brides d'appareils à pression et d'échangeurs, chapeaux de vannes et brides de pipelines"
+      }
+    ],
+    "b7Note": "Les goujons B7 peuvent être fournis en jeux (goujon, deux écrous 2H et rondelles si nécessaire), emballés et étiquetés par diamètre et classe de bride pour le montage sur chantier.",
+    "materialsTitle": "Matériaux",
+    "materialsIntro": "Choisir le matériau selon la température de service, la pression et l'exposition à la corrosion. Nous approvisionnons la nuance demandée par votre spécification.",
+    "colMaterial": "Matériau",
+    "colGrades": "Nuances",
+    "colUse": "Usage courant",
+    "materials": [
+      {
+        "name": "Acier au carbone",
+        "use": "Charpente courante et service non critique"
+      },
+      {
+        "name": "Acier allié B7",
+        "use": "Brides haute température et haute pression en raffinerie et pétrochimie"
+      },
+      {
+        "name": "Acier allié B7M",
+        "use": "Service H₂S (sour service), dureté contrôlée"
+      },
+      {
+        "name": "Inox 304 / 304L",
+        "use": "Résistance générale à la corrosion ; agroalimentaire et pharmacie"
+      },
+      {
+        "name": "Inox 316 / 316L",
+        "use": "Milieux marins, chimiques et chlorés"
+      },
+      {
+        "name": "Inox 321 / 347",
+        "use": "Nuances stabilisées pour haute température"
+      },
+      {
+        "name": "Duplex 2205",
+        "use": "Offshore et dessalement ; résiste aux chlorures et à la corrosion sous contrainte"
+      },
+      {
+        "name": "Inconel 600 / 625",
+        "use": "Hautes températures et corrosion sévère"
+      },
+      {
+        "name": "Monel 400 / K-500",
+        "use": "Eau de mer, chimie et milieux acides"
+      },
+      {
+        "name": "Hastelloy C-276",
+        "use": "Milieux chimiques très corrosifs"
+      }
+    ],
+    "qualityTitle": "Qualité et documentation",
+    "qualityRows": [
+      {
+        "label": "Certificats",
+        "value": "Certificats de contrôle EN 10204 3.1 de l'aciérie ou de l'usine d'origine ; 3.2 avec inspection tierce partie sur demande"
+      },
+      {
+        "label": "Contrôles avant expédition",
+        "value": "Certificats vérifiés par rapport à la commande, contrôles dimensionnels et vérification de l'alliage avec notre analyseur XRF portable sur la visserie inox et en alliages de nickel"
+      },
+      {
+        "label": "Traçabilité",
+        "value": "Numéros de coulée ou de lot reportés des certificats sur les étiquettes"
+      },
+      {
+        "label": "Colisage",
+        "value": "Étiqueté par dimension et classe ; cartons, sachets ou emballage spécifique au projet"
+      },
+      {
+        "label": "Normes",
+        "value": "ASTM, ASME / ANSI, DIN, ISO, BS et IS, selon la spécification du projet"
+      }
+    ],
+    "applicationsTitle": "Applications par secteur",
+    "applications": [
+      {
+        "title": "Pétrole, gaz et pétrochimie",
+        "items": [
+          "Boulonnage des brides de tuyauteries (jeux de goujons B7 / 2H)",
+          "Fermetures d'appareils à pression et d'échangeurs",
+          "Boulonnerie de chapeaux de vannes",
+          "Raccords à brides de pipelines",
+          "Boulonnerie pour service H₂S (B7M / 2HM) et alliages pour milieux corrosifs"
+        ]
+      },
+      {
+        "title": "Production d'énergie",
+        "items": [
+          "Boulonnage des brides de tuyauteries vapeur",
+          "Boulonnerie de chaudières et d'équipements sous pression",
+          "Boulonnerie de carters de turbines",
+          "Assemblages de charpente"
+        ]
+      },
+      {
+        "title": "Construction et charpente",
+        "items": [
+          "Assemblages de charpente métallique (vis hexagonales et boulons à tête ronde)",
+          "Étriers en U pour colliers de tuyauterie",
+          "Assemblages de garde-corps et de plateformes",
+          "Vis pour glissières de sécurité"
+        ]
+      },
+      {
+        "title": "Marine et offshore",
+        "items": [
+          "Visserie duplex pour l'eau de mer",
+          "Visserie Monel pour l'eau de mer et le sous-marin",
+          "Boulonnerie SS 316 pour milieux marins"
+        ]
+      },
+      {
+        "title": "Industrie générale",
+        "items": [
+          "Assemblage et maintenance d'équipements",
+          "Visserie pour constructeurs de machines",
+          "Pièces de rechange pour la maintenance"
+        ]
+      }
+    ],
+    "relatedTitle": "Nos productions",
+    "relatedAnchors": "Notre produit principal : les ancrages SEPL pour garnissages réfractaires.",
+    "relatedFibresName": "Fibres d'acier",
+    "relatedFibres": "Fibres inox pour le renforcement des bétons réfractaires, produites dans nos ateliers.",
+    "relatedPins": "Pointes à souder, pointes adhésives et rondelles pour fixer l'isolation.",
+    "relatedFoundation": "Tiges d'ancrage en L, J, U, à plaque et droites, sur plan.",
+    "relatedCw": "Systèmes de contrepoids réalisés dans nos ateliers.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Quels types de visserie industrielle Santura fournit-elle ?",
+        "a": "Santura fournit une gamme complète : vis hexagonales, goujons B7, étriers en U, anneaux de levage, vis à embase, boulons à tête ronde collet carré et vis à six pans creux, avec les écrous assortis (hexagonaux, hexagonaux lourds, contre-écrous, Nylstop, à embase, à souder, carrés, borgnes et à anneau) et des rondelles plates, Grower, à dents et biaises. Disponible en acier au carbone, acier allié, inox, Inconel, Monel et Duplex."
+      },
+      {
+        "q": "En quels matériaux votre visserie est-elle disponible ?",
+        "a": "Nous fournissons de l'acier au carbone (ASTM A307 et classes ISO), de l'acier allié (ASTM A193 B7 et B7M), de l'inox (304, 316, 321, 347), du Duplex 2205, de l'Inconel 600/625, du Monel 400/K-500 et de l'Hastelloy C-276. Le bon matériau dépend de la température de service, de la pression et de l'exposition à la corrosion. La visserie est livrée avec des certificats de contrôle EN 10204 3.1."
+      },
+      {
+        "q": "Fournissez-vous des goujons B7 pour assemblages à brides ?",
+        "a": "Oui. Santura fournit des goujons ASTM A193 Grade B7 avec écrous hexagonaux lourds A194 Grade 2H, la spécification standard pour le boulonnage des brides en raffinerie et pétrochimie, ainsi que du B7M/2HM pour le service H₂S. Les dimensions vont de M8 à M72 (5/16\" à 3\") en longueurs adaptées à la classe de bride, et les goujons peuvent être livrés en jeux complets (goujon, deux écrous et rondelles) étiquetés par bride."
+      },
+      {
+        "q": "Pourquoi acheter la visserie chez Santura avec les ancrages réfractaires ?",
+        "a": "Le cœur de métier de Santura est la production d'ancrages réfractaires et de pointes d'isolation pour les mêmes raffineries et sites pétrochimiques qui ont besoin de visserie industrielle. Acheter les deux chez Santura, c'est une commande, une expédition, un dossier documentaire et les mêmes contrôles qualité, ce qui simplifie les achats des entreprises EPC et des exploitants."
+      }
+    ],
+    "ctaTitle": "Besoin de visserie pour votre projet ?",
+    "ctaText": "Envoyez-nous votre liste de visserie avec type, dimension, classe, norme, finition et quantité, ou une liste de brides pour les jeux de goujons B7. Nous vous répondrons avec un devis et un délai de livraison.",
+    "ctaRfq": "Demander un devis pour la visserie",
+    "ctaContact": "Ou contactez notre équipe",
+    "trademarkNote": "Inconel et Monel sont des marques de Special Metals Corporation. Hastelloy est une marque de Haynes International. Xylan est une marque de PPG Industries. Les autres noms appartiennent à leurs propriétaires respectifs et ne sont cités qu'à titre d'identification."
+  },
+  "iaPage": {
+    "metaTitle": "Accessoires de calorifugeage et de tôlerie | Santura",
+    "metaDescription": "Feuillards, vis, rivets, clips et accessoires de calorifugeage et de tôlerie en inox et aluminium. Fournisseur depuis 1980, export vers plus de 25 pays.",
+    "eyebrow": "Matériaux isolants",
+    "h1": "Accessoires de calorifugeage et de tôlerie",
+    "subheading": "Feuillards, chapes, ressorts de dilatation, vis, rivets aveugles, fil de ligature, tôles perforées, rubans et mastics pour fixer et finir l'isolation et sa tôlerie de protection sur tuyauteries, appareils, gaines et équipements.",
+    "badges": [
+      "Feuillards et chapes inox",
+      "Ressorts de dilatation",
+      "Rivets aveugles",
+      "Tôles perforées",
+      "Fil et grillage",
+      "Rubans et mastics"
+    ],
+    "gallery": [
+      "Chape de feuillard en acier inoxydable pour calorifugeage",
+      "Rivets aveugles pour l'assemblage des tôles de protection",
+      "Rivet aveugle à tige de rupture",
+      "Plat perforé en acier inoxydable",
+      "Cornières perforées en acier inoxydable",
+      "Cylindre perforé en acier inoxydable",
+      "Agrafe ciseaux SEPL-04 en fil inox"
+    ],
+    "overviewTitle": "Rôle des accessoires de calorifugeage",
+    "overview": [
+      "Les accessoires de calorifugeage sont la quincaillerie et les consommables qui fixent, supportent et finissent l'isolation thermique et sa tôlerie de protection sur les tuyauteries, appareils, gaines et équipements. Les feuillards tiennent la tôlerie, les ressorts gardent les feuillards tendus lors des dilatations, les vis et rivets ferment les joints, le fil et le grillage tiennent l'isolant lui-même, et les rubans et mastics arrêtent l'eau et la vapeur.",
+      "Les accessoires conditionnent la durée de vie d'un calorifuge. Des feuillards desserrés, un métal inadapté au contact de la tôlerie ou un pare-vapeur mal fermé laissent entrer l'eau dans l'isolant, ce qui réduit ses performances et peut provoquer de la corrosion sous calorifuge.",
+      "Santura fournit ces accessoires avec ses isolants et ses pointes aux raffineries, sites pétrochimiques, centrales électriques, aciéries et cimenteries, dans les nuances prévues par la spécification du projet."
+    ],
+    "groupsTitle": "Gamme d'accessoires",
+    "groupsIntro": "Les principales familles d'accessoires. D'autres articles, dimensions et nuances sont fournis selon votre spécification.",
+    "groups": [
+      {
+        "title": "Feuillards de cerclage",
+        "tag": "",
+        "text": "Les feuillards maintiennent la tôlerie de protection et l'isolant sur les tuyauteries, appareils et équipements.",
+        "items": [
+          "Feuillards inox, ½\" et ¾\" × 0,020\" en standard",
+          "Feuillards en aluminium et en acier galvanisé",
+          "Feuillards en polypropylène ou nylon pour l'intérieur jusqu'à environ 93 °C",
+          "Chapes (agrafes à ailettes) dans le même matériau que le feuillard",
+          "Tendeurs manuels et pneumatiques",
+          "Largeurs de 3/8\" à 1¼\", épaisseurs de 0,015\" à 0,025\" : ½\" pour les tuyauteries et petits appareils, jusqu'à 1¼\" pour les grands réservoirs"
+        ]
+      },
+      {
+        "title": "Ressorts de dilatation",
+        "tag": "",
+        "text": "Insérés dans le feuillard, les ressorts absorbent la dilatation et la contraction pour que le feuillard reste tendu sans entailler la tôlerie.",
+        "items": [
+          "Ressorts inox de 2\" et 4\"",
+          "Pour appareils chauds et froids et tuyauteries de gros diamètre chaudes ou froides",
+          "Ressorts renforcés pour feuillards de 1¼\" sur grands réservoirs et tôlerie ondulée"
+        ]
+      },
+      {
+        "title": "Vis autotaraudeuses et autoperceuses",
+        "tag": "",
+        "text": "Les vis fixent la tôlerie là où les feuillards ne conviennent pas, comme sur les segments des coudes.",
+        "items": [
+          "Inox type 410, tête hexagonale à embase fendue",
+          "#8 × ½\" autoperceuse et autotaraudeuse",
+          "Versions avec rondelle néoprène pour joints étanches",
+          "Segments de coudes et joints de tôlerie ondulée"
+        ]
+      },
+      {
+        "title": "Rivets aveugles (pop)",
+        "tag": "Fabriqués dans notre atelier",
+        "text": "Les rivets aveugles assemblent deux pièces de tôle ou plus et se posent d'un seul côté. En calorifugeage, ils fixent les recouvrements de la tôlerie.",
+        "items": [
+          "Corps en aluminium, inox et Monel",
+          "Diamètres 1/8\" (3,2 mm) et 5/32\" (4,0 mm)",
+          "Rivets à tirer à tige de rupture"
+        ]
+      },
+      {
+        "title": "Fil de ligature et grillage",
+        "tag": "",
+        "text": "Le fil et le grillage tiennent l'isolant avant la pose de la tôlerie.",
+        "items": [
+          "Fil inox recuit, jauge 16 (1,6 mm) et 18 (1,2 mm)",
+          "Ligature des coquilles rigides en deux parties, comme le silicate de calcium et la perlite",
+          "Grillage hexagonal pour le maintien extérieur des matelas isolants",
+          "Treillis soudé pour retenir l'isolant sur les appareils et grands équipements",
+          "Fil galvanisé sur demande (rarement prescrit aujourd'hui)"
+        ]
+      },
+      {
+        "title": "Tôles perforées",
+        "tag": "Fabriquées dans notre atelier",
+        "text": "Tôles inox perforées selon divers motifs, qui allègent et laissent passer l'air et le son. Elles sont très utilisées dans les reformeurs et fours tubulaires.",
+        "items": [
+          "Laminées à chaud ou à froid, sur plan client",
+          "Faciles à souder, découper et former",
+          "Différents motifs, formes, dimensions et nuances",
+          "Comme chemisages et couches de maintien dans les calorifuges multicouches"
+        ]
+      },
+      {
+        "title": "Agrafes ciseaux (SEPL-04)",
+        "tag": "Gamme d'ancrages SEPL",
+        "text": "Agrafes en fil qui retiennent les garnissages en briques lorsque les briques sont écartées de la paroi ou de la voûte.",
+        "items": [
+          "Façonnées en fil selon notre plan ou le vôtre",
+          "Alliages dont CS, 304, 304H, 309, 253MA, 310, 314, 316, 321, 330, 800 et 601"
+        ]
+      },
+      {
+        "title": "Rubans et mastics",
+        "tag": "",
+        "text": "Les rubans et mastics ferment les joints de tôlerie et les pare-vapeur contre l'eau et l'humidité.",
+        "items": [
+          "Ruban polyester renforcé de fils de verre",
+          "Ruban aluminium (par exemple 2 mil, 100 mm de large) pour les joints de tôlerie",
+          "Rubans à faible teneur en chlorures pour inox austénitique au-delà d'environ 60 °C",
+          "Rubans de jointoiement ASJ et FRK",
+          "Mastics de joint pour calorifuges rigides"
+        ]
+      },
+      {
+        "title": "Goujons à épaulement et capuchons",
+        "tag": "",
+        "text": "Goujons soudés qui tiennent l'isolant et la tôlerie sur les surfaces où les feuillards ne conviennent pas.",
+        "items": [
+          "Goujons à souder en inox ou acier carbone, 5/16\" à tige rainurée",
+          "Clips de maintien provisoire pendant la pose",
+          "Capuchons pour la fixation finale de la tôlerie",
+          "Fonds coniques d'appareils et panneaux de fours"
+        ]
+      }
+    ],
+    "pinsBoxTitle": "Pointes à souder et rondelles autobloquantes",
+    "pinsBoxText": "Les pointes à souder, pointes adhésives, rondelles autobloquantes et capuchons pour fixer l'isolation sont présentés sur notre page dédiée aux pointes d'isolation.",
+    "pinsBoxLink": "Voir les pointes d'isolation",
+    "specTitle": "Synthèse des caractéristiques",
+    "colItem": "Accessoire",
+    "colMaterial": "Matériaux",
+    "colSizes": "Dimensions standard",
+    "colTemp": "Température",
+    "colUse": "Application",
+    "specRows": [
+      {
+        "item": "Feuillards",
+        "material": "Inox 304 / 316 ; aussi aluminium et acier galvanisé",
+        "sizes": "½\" et ¾\" × 0,020\"",
+        "temp": "Inox : du cryogénique à environ 650 °C",
+        "use": "Fixation de la tôlerie et de l'isolant"
+      },
+      {
+        "item": "Chapes",
+        "material": "Identique au feuillard",
+        "sizes": "Selon la largeur du feuillard",
+        "temp": "Comme le feuillard",
+        "use": "Fermeture du feuillard"
+      },
+      {
+        "item": "Ressorts de dilatation",
+        "material": "Inox 304 / 316",
+        "sizes": "2\" et 4\"",
+        "temp": "Comme le feuillard inox",
+        "use": "Cerclage de tuyauteries et appareils chauds et froids"
+      },
+      {
+        "item": "Vis autotaraudeuses",
+        "material": "Inox 410",
+        "sizes": "#8 × ½\"",
+        "temp": "Température de surface de la tôlerie",
+        "use": "Joints de tôlerie et segments de coudes"
+      },
+      {
+        "item": "Rivets aveugles",
+        "material": "Aluminium, inox, Monel",
+        "sizes": "Diamètre 1/8\" et 5/32\"",
+        "temp": "Selon le matériau",
+        "use": "Recouvrements de tôlerie"
+      },
+      {
+        "item": "Fil de ligature",
+        "material": "Inox 304 / 316",
+        "sizes": "Jauge 16 (1,6 mm), 18 (1,2 mm)",
+        "temp": "Du cryogénique à environ 650 °C",
+        "use": "Ligature des coquilles rigides"
+      },
+      {
+        "item": "Tôles perforées",
+        "material": "Nuances inox",
+        "sizes": "Sur plan",
+        "temp": "Selon la nuance",
+        "use": "Chemisages de reformeurs et fours tubulaires"
+      },
+      {
+        "item": "Agrafes ciseaux (SEPL-04)",
+        "material": "CS, inox, alliages réfractaires",
+        "sizes": "Sur plan",
+        "temp": "Selon l'alliage",
+        "use": "Maintien des garnissages en briques"
+      },
+      {
+        "item": "Ruban aluminium",
+        "material": "Feuille d'aluminium adhésive",
+        "sizes": "Par exemple 2 mil × 100 mm",
+        "temp": "Selon l'adhésif",
+        "use": "Étanchéité des joints de tôlerie"
+      }
+    ],
+    "specNote": "Valeurs indicatives. Les limites exactes dépendent de la nuance, de l'adhésif et de la spécification du projet.",
+    "guideTitle": "Conseils de choix et de pose",
+    "guide": [
+      "Les feuillards de la tôlerie des tuyauteries sont généralement posés à 225–300 mm (9–12\") d'entraxe. Suivre la spécification du projet.",
+      "Insérer des ressorts de dilatation dans les feuillards des appareils et des tuyauteries de gros diamètre chaudes ou froides, pour qu'ils restent tendus lors des dilatations.",
+      "Accorder le métal des accessoires à la tôlerie, par exemple feuillards et vis inox avec une tôlerie inox ou aluminium, et éviter de mélanger les métaux là où l'humidité peut stagner.",
+      "Ne pas utiliser de feuillards, fils ou vis galvanisés sur de l'inox austénitique chaud : le zinc peut fragiliser l'inox à haute température.",
+      "Sur l'inox austénitique au-delà d'environ 60 °C, utiliser des rubans et accessoires à faible teneur en chlorures pour limiter le risque de corrosion sous contrainte par les chlorures.",
+      "Utiliser des accessoires en Monel ou inox 316 en milieu marin et chloré."
+    ],
+    "materialsTitle": "Matériaux",
+    "materials": [
+      "Inox 304, 316, 316L, 321, 410",
+      "Acier carbone / acier doux",
+      "Acier galvanisé",
+      "Aluminium",
+      "Monel",
+      "Nylon / polypropylène (intérieur, basse température)"
+    ],
+    "madeTitle": "Fabrication maison",
+    "madeText": "Les rivets aveugles et les tôles perforées sont fabriqués dans notre atelier, et les agrafes ciseaux SEPL-04 font partie de notre gamme d'ancrages réfractaires. Les feuillards, ressorts, vis, fils, rubans et mastics sont approvisionnés et livrés avec eux, dans les nuances du projet.",
+    "applicationsTitle": "Applications par secteur",
+    "applications": [
+      {
+        "title": "Pétrole, gaz et pétrochimie",
+        "items": [
+          "Tôlerie de tuyauteries et d'appareils",
+          "Feuillards pour calorifuges froids et cryogéniques",
+          "Tôles perforées pour reformeurs et fours tubulaires"
+        ]
+      },
+      {
+        "title": "Production d'énergie",
+        "items": [
+          "Calorifugeage des enveloppes de chaudières",
+          "Calorifugeage des turbines",
+          "Isolation des gaines de chaudières de récupération (HRSG)"
+        ]
+      },
+      {
+        "title": "Acier et ciment",
+        "items": [
+          "Calorifugeage des enveloppes de fours",
+          "Agrafes ciseaux pour garnissages en briques"
+        ]
+      },
+      {
+        "title": "Construction navale",
+        "items": [
+          "Accessoires en Monel et inox 316 résistants à la corrosion",
+          "Isolation des salles des machines"
+        ]
+      },
+      {
+        "title": "CVC et bâtiment",
+        "items": [
+          "Rubans pour l'isolation des gaines",
+          "Feuillards pour grandes gaines"
+        ]
+      },
+      {
+        "title": "Cryogénie et GNL",
+        "items": [
+          "Feuillards et ressorts inox pour service froid",
+          "Rubans et mastics pare-vapeur"
+        ]
+      }
+    ],
+    "supplyTitle": "Ce que nous fournissons",
+    "supply": [
+      "Santura Engineering fournit les accessoires de calorifugeage et de tôlerie auprès d'un seul interlocuteur : feuillards et chapes, ressorts de dilatation, vis, rivets aveugles, fil et grillage, tôles perforées, rubans et mastics, dans la nuance du projet en inox, acier galvanisé, aluminium ou Monel.",
+      "Les rivets aveugles et les tôles perforées sont fabriqués dans notre atelier, les tôles perforées sur plan pour les reformeurs et fours tubulaires. Nous fournissons des clients industriels depuis 1980 et exportons vers plus de 25 pays."
+    ],
+    "relatedTitle": "Produits associés",
+    "relatedPins": "Pointes à souder, pointes adhésives, rondelles autobloquantes et capuchons.",
+    "relatedMineralWool": "Panneaux, rouleaux et coquilles de laine de roche et de verre.",
+    "relatedCalsil": "Coquilles et plaques rigides, ligaturées au fil inox.",
+    "relatedGlassFibre": "Laine de verre et tissu de verre pour gaines et enveloppes.",
+    "relatedSepl04": "Agrafes ciseaux en fil pour maintenir les garnissages en briques.",
+    "relatedFasteners": "Vis, goujons, écrous et rondelles pour les mêmes projets.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Quels accessoires faut-il pour poser une tôlerie de protection ?",
+        "a": "Une tôlerie de protection utilise des feuillards (généralement inox ½\") avec chapes, des vis autotaraudeuses (#8 × ½\" inox 410) pour les segments de coudes, des rivets aveugles pour les recouvrements et des ressorts de dilatation sur les appareils et grosses lignes chaudes ou froides. Le ruban aluminium et les mastics ferment les joints longitudinaux et circulaires."
+      },
+      {
+        "q": "En quel matériau choisir les feuillards de calorifugeage ?",
+        "a": "L'inox 304 ou 316 est préféré pour la plupart des applications industrielles. Les feuillards aluminium conviennent aux tôleries aluminium en milieu non corrosif. Les feuillards galvanisés ne doivent pas être utilisés sur des équipements inox chauds, car le zinc peut fragiliser l'inox à haute température, et il faut éviter de mélanger les métaux là où l'humidité stagne. En milieu marin et chloré, on prescrit du Monel ou de l'inox 316."
+      },
+      {
+        "q": "Comment utilise-t-on les tôles perforées dans les calorifuges ?",
+        "a": "Les tôles inox perforées selon divers motifs sont très utilisées dans les reformeurs et fours tubulaires, par exemple comme chemisages et couches de maintien dans les calorifuges multicouches. Elles allègent l'ensemble et sont faciles à souder, découper et former. Santura les fabrique laminées à chaud ou à froid sur plan client, dans la nuance demandée par le projet."
+      },
+      {
+        "q": "Quel entraxe pour les feuillards sur tuyauteries ?",
+        "a": "Les feuillards de la tôlerie des tuyauteries sont généralement posés à 225–300 mm (9–12\") d'entraxe, selon la spécification du projet. Des ressorts de dilatation sont insérés sur les appareils et les tuyauteries de gros diamètre chaudes ou froides pour absorber les mouvements thermiques. Les grands réservoirs reçoivent des feuillards plus larges, jusqu'à 1¼\"."
+      },
+      {
+        "q": "Santura peut-elle fournir des accessoires pour des projets cryogéniques GNL ?",
+        "a": "Oui. Les feuillards, chapes, ressorts de dilatation et fils en inox austénitique restent tenaces aux températures cryogéniques, et Santura les fournit en inox 304 ou 316 avec des rubans et mastics pare-vapeur pour les calorifuges froids et cryogéniques. Des certificats de contrôle peuvent être fournis sur demande."
+      }
+    ],
+    "ctaTitle": "Besoin d'accessoires de calorifugeage ?",
+    "ctaText": "Envoyez-nous votre liste avec article, matériau, dimension et quantité, ou votre spécification de calorifugeage, et nous préparerons le lot d'accessoires. Nous vous répondrons avec un devis et un délai de livraison.",
+    "ctaRfq": "Demander un devis pour les accessoires de calorifugeage",
+    "ctaContact": "Ou contactez notre équipe",
+    "trademarkNote": "Monel est une marque de Special Metals Corporation. 253 MA est une marque d'Outokumpu. Les autres noms appartiennent à leurs propriétaires respectifs et ne sont cités qu'à titre d'identification."
+  },
+  "sfPage": {
+    "metaTitle": "Fibre d'acier pour réfractaires et béton | Santura",
+    "metaDescription": "Fibres d'acier par extraction de bain fondu et tréfilées en inox 304, 310, 446 pour bétons réfractaires et béton. Depuis 1980, export vers 25+ pays.",
+    "eyebrow": "Fabriquées par Santura",
+    "h1": "Fibre d'acier pour le renforcement des réfractaires et du béton",
+    "subheading": "Fibres d'acier obtenues par extraction de bain fondu et par tréfilage à froid, qui renforcent les bétons réfractaires, les garnissages monolithiques et le béton contre les chocs thermiques, la fissuration et les vibrations. Fabriquées dans nos ateliers en AISI 304, 310, 446 et autres nuances.",
+    "badges": [
+      "Aiguilles par extraction de bain fondu",
+      "Tréfilées : droites, à crochets, ondulées",
+      "AISI 304, 310, 446",
+      "Sur commande",
+      "ISO 9001:2015"
+    ],
+    "gallery": [
+      "Fibres inox par extraction de bain fondu (SEPL-27) pour le renforcement des bétons réfractaires",
+      "Gros plan de fibres inox par extraction de bain fondu",
+      "Fibres inox droites tréfilées à froid (SEPL-28)",
+      "Tas de fibres droites tréfilées à froid",
+      "Gros plan de fibres tréfilées à extrémités crochetées (SEPL-29)",
+      "Rangée de fibres tréfilées à extrémités crochetées",
+      "Gros plan de fibres tréfilées ondulées (SEPL-30)",
+      "Tas de fibres tréfilées ondulées"
+    ],
+    "overviewTitle": "Rôle des fibres d'acier",
+    "overview": [
+      "Les fibres d'acier, aussi appelées aiguilles de renfort, sont de courts filaments métalliques incorporés aux bétons réfractaires, aux garnissages monolithiques et au béton. Réparties dans tout le matériau, elles le maintiennent lorsqu'il chauffe, refroidit et se fissure : le garnissage résiste aux chocs thermiques, à l'éclatement et aux vibrations et conserve sa résistance plus longtemps.",
+      "Les fibres d'acier sont l'un des produits phares de Santura. Elles sont fabriquées avec nos ancrages réfractaires et souvent livrées avec eux pour le même garnissage. Nous les produisons selon deux procédés."
+    ],
+    "processes": [
+      {
+        "title": "Extraction de bain fondu",
+        "text": "Des lingots d'inox sont fondus au four électrique à 1500–1600 °C. Une roue d'extraction tournant à grande vitesse est approchée de la surface de l'acier liquide et en tire des fibres. On obtient une fibre de section irrégulière qui s'ancre bien dans le béton réfractaire."
+      },
+      {
+        "title": "Tréfilage à froid",
+        "text": "Le fil d'acier est étiré à travers des filières puis coupé à longueur. L'inox ne pouvant pas être durci par traitement thermique, c'est le tréfilage à froid qui donne leur résistance à ces fibres. Le fil peut rester droit, recevoir des extrémités crochetées ou être ondulé sur sa longueur."
+      }
+    ],
+    "typesTitle": "Nos quatre fibres d'acier",
+    "typesIntro": "Chaque fibre dispose de sa propre page produit détaillée. Ce résumé vous aide à choisir.",
+    "types": [
+      {
+        "name": "Aiguilles par extraction de bain fondu",
+        "process": "Extraction de bain fondu",
+        "text": "La fibre la plus utilisée dans l'industrie réfractaire : largement reconnue, économique et facile à faire passer dans les flexibles. Disponible en AISI 304, 310 et 446."
+      },
+      {
+        "name": "Aiguilles tréfilées (droites)",
+        "process": "Tréfilage à froid",
+        "text": "Aiguilles droites à haute résistance grâce au tréfilage à froid. Obtenues par coupe et faciles à incorporer ; couramment de 25–35 mm de long et 0,3–0,7 mm de diamètre."
+      },
+      {
+        "name": "Aiguilles tréfilées (à crochets)",
+        "process": "Tréfilage à froid",
+        "text": "Fibres à extrémités crochetées en fil d'acier bas carbone de qualité, offrant une bonne ténacité à bas prix. Les crochets ancrent la fibre dans la matrice."
+      },
+      {
+        "name": "Aiguilles tréfilées (ondulées)",
+        "process": "Tréfilage à froid",
+        "text": "Les mêmes caractéristiques que les aiguilles droites, ondulées sur la longueur pour donner la plus haute résistance aux réfractaires."
+      }
+    ],
+    "typeLink": "Détails {code}",
+    "compareTitle": "Comparaison des types de fibres d'acier",
+    "colProperty": "Propriété",
+    "compareRows": [
+      {
+        "label": "Procédé",
+        "values": [
+          "Extraction depuis l'inox en fusion",
+          "Fil tréfilé, coupé à longueur",
+          "Fil tréfilé à extrémités crochetées",
+          "Fil tréfilé, ondulé"
+        ]
+      },
+      {
+        "label": "Forme",
+        "values": [
+          "Section irrégulière issue de l'extraction",
+          "Droite, ronde",
+          "Ronde à extrémités crochetées",
+          "Ronde, ondulée sur la longueur"
+        ]
+      },
+      {
+        "label": "Matériau",
+        "values": [
+          "AISI 304, 310, 446 ; autres alliages sur demande",
+          "Inox, par exemple 304, 310, 316",
+          "Fil d'acier bas carbone",
+          "Inox, par exemple 304, 310, 316"
+        ]
+      },
+      {
+        "label": "Longueur",
+        "values": [
+          "Plusieurs longueurs, sur commande",
+          "25–35 mm",
+          "Sur commande",
+          "Sur commande"
+        ]
+      },
+      {
+        "label": "Diamètre",
+        "values": [
+          "Plusieurs dimensions, sur commande",
+          "0,3–0,7 mm",
+          "Sur commande",
+          "Sur commande"
+        ]
+      },
+      {
+        "label": "Résistance à la traction",
+        "values": [
+          "Sur demande",
+          "Plus de 650 MPa",
+          "Sur demande",
+          "Sur demande"
+        ]
+      },
+      {
+        "label": "Atout principal",
+        "values": [
+          "Fibre réfractaire la plus utilisée ; économique ; passe dans les flexibles",
+          "Haute résistance par tréfilage ; facile à incorporer",
+          "Les crochets ancrent la fibre ; bonne ténacité à bas prix",
+          "L'ondulation donne la plus haute résistance"
+        ]
+      }
+    ],
+    "compareNote": "Les dimensions indiquées « sur commande » sont réalisées selon votre spécification. Indiquez-nous la longueur, le diamètre et la nuance souhaités.",
+    "guideTitle": "Extraction de bain fondu ou tréfilage",
+    "colCriterion": "Critère",
+    "colMelt": "Extraction de bain fondu",
+    "colCold": "Tréfilage à froid",
+    "guideRows": [
+      {
+        "label": "Fabrication",
+        "melt": "Fibres tirées de l'inox en fusion par une roue tournante",
+        "cold": "Fil tréfilé et coupé, crocheté ou ondulé si besoin"
+      },
+      {
+        "label": "Usage courant",
+        "melt": "La fibre la plus utilisée pour les bétons réfractaires et garnissages monolithiques",
+        "cold": "Bétons réfractaires et béton ; les fibres à crochets sont courantes dans le béton"
+      },
+      {
+        "label": "Forme et adhérence",
+        "melt": "Section irrégulière qui s'ancre dans le béton réfractaire",
+        "cold": "Fil rond uniforme ; crochets ou ondulations améliorent l'ancrage"
+      },
+      {
+        "label": "Mise en œuvre",
+        "melt": "Passe facilement dans les flexibles",
+        "cold": "Les fibres droites s'incorporent facilement"
+      },
+      {
+        "label": "Coût",
+        "melt": "Économique et largement reconnue",
+        "cold": "Les fibres à crochets bas carbone sont l'option la moins chère"
+      }
+    ],
+    "gradesTitle": "Nuances",
+    "grades": [
+      {
+        "grade": "AISI 304",
+        "text": "inox austénitique d'usage courant (environ 18 % Cr, 8 % Ni) pour des températures modérées"
+      },
+      {
+        "grade": "AISI 310",
+        "text": "nuance réfractaire riche en chrome et nickel (environ 25 % Cr, 20 % Ni) pour des températures plus élevées et les cycles thermiques"
+      },
+      {
+        "grade": "AISI 446",
+        "text": "nuance ferritique à 23–27 % de chrome, très bonne résistance à l'oxydation"
+      },
+      {
+        "grade": "AISI 316",
+        "text": "nuance au molybdène, meilleure résistance aux attaques chimiques, pour les fibres tréfilées"
+      },
+      {
+        "grade": "Acier bas carbone",
+        "text": "pour les fibres à crochets, surtout dans le béton"
+      },
+      {
+        "grade": "Autres alliages",
+        "text": "sur demande"
+      }
+    ],
+    "meltingTitle": "Plages de fusion approximatives",
+    "colGrade": "Nuance",
+    "colMelting": "Plage de fusion",
+    "meltingNote": "La température de service sûre d'une fibre est bien inférieure à sa plage de fusion et dépend de l'atmosphère et du béton réfractaire. Respecter les limites du fabricant du béton.",
+    "benefitsTitle": "Avantages du renfort par fibres d'acier",
+    "benefits": [
+      "Haute résistance aux chocs thermiques",
+      "Limitation souple de la fissuration",
+      "Haute résistance à l'éclatement",
+      "Haute résistance aux vibrations",
+      "Meilleure tenue des sections monolithiques",
+      "Renfort dans toute la masse du béton, qui peut réduire le besoin de grillage"
+    ],
+    "applicationsTitle": "Applications par secteur",
+    "applications": [
+      {
+        "title": "Acier et aluminium",
+        "items": [
+          "Garnissages de poches",
+          "Voûtes de fours",
+          "Garnissages monolithiques soumis aux chocs thermiques"
+        ]
+      },
+      {
+        "title": "Ciment",
+        "items": [
+          "Garnissages de fours rotatifs",
+          "Préchauffeurs",
+          "Gaines de refroidisseur"
+        ]
+      },
+      {
+        "title": "Pétrochimie",
+        "items": [
+          "Réacteurs",
+          "Reformeurs",
+          "Fours de craquage"
+        ]
+      },
+      {
+        "title": "Énergie et marine",
+        "items": [
+          "Réfractaires de chaudières",
+          "Chaudières marines et éléments de fours"
+        ]
+      },
+      {
+        "title": "Fours et cokeries",
+        "items": [
+          "Bétons isolants et denses des fours industriels",
+          "Bétons réfractaires de cokeries"
+        ]
+      },
+      {
+        "title": "Renforcement du béton",
+        "items": [
+          "Fondations",
+          "Chaussées",
+          "Dallages étanches"
+        ]
+      }
+    ],
+    "supplyTitle": "Ce que nous fournissons",
+    "supply": [
+      "Santura Engineering fabrique des fibres d'acier dans ses ateliers selon les deux procédés : aiguilles par extraction de bain fondu en AISI 304, 310 et 446, et aiguilles tréfilées droites, à crochets et ondulées. Les autres alliages, longueurs et diamètres sont réalisés sur commande.",
+      "Santura sert les secteurs de l'acier, du ciment, de la pétrochimie et de l'énergie depuis 1980, exporte vers plus de 25 pays et travaille sous un système qualité certifié ISO 9001:2015. Les fibres peuvent être expédiées avec les ancrages SEPL du même garnissage."
+    ],
+    "standardsTitle": "Normes",
+    "standards": [
+      "Fibres d'acier pour béton renforcé de fibres (types I–V)",
+      "Fibres pour béton : fibres d'acier"
+    ],
+    "standardsNote": "Ces normes concernent les fibres pour béton. Les fibres réfractaires sont généralement définies par l'alliage, la longueur et le diamètre dans la spécification du béton réfractaire ou du projet.",
+    "relatedTitle": "Produits et services associés",
+    "relatedAnchors": "Ancrages SEPL pour garnissages en briques, béton réfractaire et fibre céramique.",
+    "relatedCalsil": "Isolant rigide pour équipements haute température.",
+    "relatedPickling": "Décapage et passivation des produits en inox.",
+    "relatedPins": "Pointes à souder et rondelles pour fixer l'isolation.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Quelle est la différence entre fibres par extraction de bain fondu et fibres tréfilées ?",
+        "a": "Les fibres par extraction de bain fondu sont tirées de l'inox fondu à 1500–1600 °C par une roue tournant à grande vitesse, ce qui leur donne une section irrégulière qui s'ancre dans le béton réfractaire. Ce sont les fibres réfractaires les plus utilisées : économiques et faciles à pomper dans les flexibles. Les fibres tréfilées sont obtenues en étirant du fil à travers des filières puis en le coupant à longueur, ce qui donne une fibre ronde uniforme de haute résistance. Elles existent droites, à crochets ou ondulées ; les fibres à crochets sont très utilisées dans le béton."
+      },
+      {
+        "q": "Quelle nuance de fibre d'acier choisir pour les réfractaires ?",
+        "a": "Cela dépend de la température de service, de l'atmosphère et de l'exposition chimique. L'AISI 446, nuance ferritique à 23–27 % de chrome, offre une très bonne résistance à l'oxydation. L'AISI 310 est une nuance riche en chrome et nickel pour les températures plus élevées et les cycles thermiques. L'AISI 304 est une nuance courante pour des températures modérées. Les recommandations du fabricant du béton réfractaire doivent guider le choix final."
+      },
+      {
+        "q": "Quel dosage de fibres d'acier dans les bétons réfractaires ?",
+        "a": "Le dosage s'exprime généralement en pourcentage en poids du béton réfractaire sec et dépend de la formulation, de l'application et des conditions de service. Suivez la fiche technique du fabricant du béton et la spécification du concepteur du garnissage ; nous pouvons vous conseiller sur le type et la taille de fibre adaptés à votre béton."
+      },
+      {
+        "q": "Les fibres d'acier peuvent-elles remplacer le grillage métallique dans les garnissages réfractaires ?",
+        "a": "Dans de nombreux garnissages monolithiques, oui. Les fibres se répartissent dans tout le béton réfractaire et le renforcent en trois dimensions, alors qu'un grillage ne le renforce que dans un plan. Cela peut réduire ou supprimer le grillage, faciliter la pose et limiter la fissuration. Le concepteur du garnissage doit le confirmer pour chaque application."
+      },
+      {
+        "q": "Quelles longueurs et quels diamètres de fibres Santura fabrique-t-elle ?",
+        "a": "Les aiguilles tréfilées droites sont couramment fournies en 25–35 mm de long et 0,3–0,7 mm de diamètre, avec une résistance à la traction supérieure à 650 MPa. Les aiguilles par extraction de bain fondu existent dans de nombreuses longueurs et diamètres en AISI 304, 310 et 446. Les fibres à crochets et ondulées, ainsi que d'autres tailles et alliages, sont réalisées sur commande."
+      }
+    ],
+    "ctaTitle": "Besoin de fibres d'acier ?",
+    "ctaText": "Indiquez-nous le type de fibre, la nuance, la longueur, le diamètre et la quantité, ou le béton réfractaire à renforcer. Nous vous répondrons avec un devis et un délai de livraison.",
+    "ctaRfq": "Demander un devis pour des fibres d'acier",
+    "ctaContact": "Ou contactez notre équipe"
+  },
+  "tdPage": {
+    "metaTitle": "Fournisseur d'inox | Barres, fil machine, profilés",
+    "metaDescription": "Fil machine, barres hexagonales, plats, cornières et ronds inox. Inox certifié aciérie en 304, 316, 310 fourni depuis 1980 dans plus de 25 pays.",
+    "eyebrow": "Division négoce",
+    "h1": "Division négoce acier inoxydable",
+    "subheading": "Fil machine inox en couronnes, barres hexagonales, carrées, plats et barres qualité arbre de pompe, cornières et barres laminées à chaud, certifiés aciérie, achetés auprès d'aciéries reconnues et livrés avec certificats EN 10204 3.1.",
+    "badges": [
+      "Fil machine en couronnes",
+      "Barres étirées",
+      "Plats et cornières HRAP",
+      "Barres PSQ",
+      "Séries 200, 300, 400",
+      "EN 10204 3.1"
+    ],
+    "heroAlt": "La sidérurgie d'hier et d'aujourd'hui : anciens convertisseurs sur une gravure à côté d'une aciérie moderne coulant du métal en fusion",
+    "gallery": [
+      "Couronnes de fil inox en entrepôt",
+      "Barres hexagonales étirées en inox",
+      "Barres carrées en inox",
+      "Plats HRAP en inox",
+      "Cornières à ailes égales HRAP en inox",
+      "Barres rondes qualité arbre de pompe (PSQ) en inox",
+      "Barres inox laminées à chaud",
+      "Couronnes de fil machine en acier inoxydable",
+      "Cornière à ailes égales en acier inoxydable"
+    ],
+    "overviewTitle": "L'acier inoxydable auprès d'un seul fournisseur",
+    "overview": [
+      "La division négoce de Santura Engineering fournit et exporte des profilés inox certifiés aciérie pour des projets industriels au Moyen-Orient, en Afrique et en Europe. Nous achetons auprès d'aciéries reconnues et livrons raffineries, chantiers, ateliers de fabrication et entreprises EPC, avec certificats de contrôle EN 10204 3.1.",
+      "La division complète notre propre fabrication d'ancrages réfractaires et de fibres d'acier. Beaucoup de ces clients ont aussi besoin de profilés inox et peuvent acheter les deux auprès d'un seul fournisseur, avec un seul dossier documentaire."
+    ],
+    "jumpLabel": "Produits de cette page",
+    "sections": [
+      {
+        "title": "Fil machine en couronnes",
+        "text": "Le fil machine inox en couronnes est la matière de base des câbles, ressorts, éléments de fixation, électrodes de soudage, grillages et ancrages réfractaires ; il sert aussi aux articles de cuisine, instruments médicaux et composants électroniques.",
+        "rows": [
+          {
+            "label": "Dimensions",
+            "value": "5,5–16 mm en couronnes bloc (5,5, 6, 6,5, 7, 7,5, 8, 9, 10, 11, 12, 13, 14, 15, 16 mm) ; 17–40 mm en couronnes garret"
+          },
+          {
+            "label": "Poids de couronne",
+            "value": "850–1200 kg (couronnes bloc)"
+          },
+          {
+            "label": "Dimensions de couronne",
+            "value": "Couronnes bloc : DI 800–900 mm. Couronnes garret : DI 550–650 mm, DE 750–850 mm"
+          },
+          {
+            "label": "Norme",
+            "value": "Selon EN 10088"
+          },
+          {
+            "label": "État de livraison",
+            "value": "Laminé à chaud (HR) ; laminé et décapé (HRP) ; laminé, recuit et décapé (HRAP) ; laminé et recuit (HRA)"
+          },
+          {
+            "label": "Conditionnement",
+            "value": "Feuillards acier sur chaque couronne avec film plastique ; emballage film pour HRP et HRAP ; ou selon spécification"
+          }
+        ]
+      },
+      {
+        "title": "Barres hexagonales (étirées)",
+        "text": "Barres hexagonales étirées pour écrous, vannes, embouts de flexibles, éléments de fixation et vis hexagonales, alliant résistance mécanique et résistance à la corrosion. Disponibles en nuances 201, 304/304L, 316/316L et 303.",
+        "rows": [
+          {
+            "label": "Nuances",
+            "value": "201, 304/304L, 316/316L, 303"
+          },
+          {
+            "label": "Dimensions",
+            "value": "12–55 mm (½\" à 2¼\")"
+          },
+          {
+            "label": "Tolérance",
+            "value": "h11"
+          },
+          {
+            "label": "Longueur",
+            "value": "3,00–6,70 m (10–22 ft) ; coupe à longueur avec tolérance −0/+50 mm"
+          },
+          {
+            "label": "Chanfrein",
+            "value": "30°, 45° ou 60° ; extrémités coupées nettes sans bavures"
+          },
+          {
+            "label": "Rectitude",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Finition",
+            "value": "Grenaillée et étirée à froid, ou polie à la bande"
+          },
+          {
+            "label": "Traitement thermique",
+            "value": "Hypertrempé"
+          }
+        ]
+      },
+      {
+        "title": "Barres carrées",
+        "text": "Barres carrées en inox austénitique pour des usages exigeants comme l'aéronautique, les manomètres, les capteurs de température et les capteurs de force. Le surplat et le rayon d'angle peuvent être tenus selon vos exigences. Les barres étirées et polies conviennent à la décoration ; les barres grenaillées et étirées à froid, aux applications critiques.",
+        "rows": [
+          {
+            "label": "Nuances",
+            "value": "Nuances austénitiques"
+          },
+          {
+            "label": "Dimensions",
+            "value": "12–55 mm (½\" à 2¼\")"
+          },
+          {
+            "label": "Tolérance",
+            "value": "h11"
+          },
+          {
+            "label": "Longueur",
+            "value": "3,00–6,70 m (10–22 ft) ; coupe à longueur avec tolérance −0/+50 mm"
+          },
+          {
+            "label": "Chanfrein",
+            "value": "30°, 45° ou 60° ; extrémités coupées nettes sans bavures"
+          },
+          {
+            "label": "Rectitude",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Finition",
+            "value": "Grenaillée et étirée à froid, ou polie à la bande"
+          },
+          {
+            "label": "Traitement thermique",
+            "value": "Hypertrempé"
+          }
+        ]
+      },
+      {
+        "title": "Plats HRAP",
+        "text": "Plats laminés à chaud, recuits et décapés, laminés à la dimension et non refendus dans la tôle, ce qui leur donne une meilleure résistance que les plats refendus. Pour la construction et la fabrication à haute résistance ; des plats polis à la bande sont disponibles pour la décoration.",
+        "rows": [
+          {
+            "label": "Tolérance",
+            "value": "ASTM A484"
+          },
+          {
+            "label": "Longueur",
+            "value": "3,00–6,70 m (10–22 ft) ; coupe à longueur avec tolérance −0/+50 mm"
+          },
+          {
+            "label": "Rectitude",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Finition",
+            "value": "Laminé à chaud, recuit, décapé et grenaillé, ou poli à la bande"
+          },
+          {
+            "label": "Traitement thermique",
+            "value": "Hypertrempé"
+          },
+          {
+            "label": "Dimensions",
+            "value": "Largeurs 25–100 mm, épaisseurs 5–50 mm (voir tableau)"
+          }
+        ]
+      },
+      {
+        "title": "Cornières HRAP",
+        "text": "Cornières à ailes égales laminées à chaud, recuites et décapées pour la construction et les ossatures, le mobilier, les équipements agroalimentaires et les machines.",
+        "rows": [
+          {
+            "label": "Tolérance",
+            "value": "ASTM A484"
+          },
+          {
+            "label": "Longueur",
+            "value": "3,00–6,70 m (10–22 ft) ; coupe à longueur avec tolérance −0/+50 mm"
+          },
+          {
+            "label": "Rectitude",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Finition",
+            "value": "Laminé à chaud, recuit, décapé et grenaillé"
+          },
+          {
+            "label": "Traitement thermique",
+            "value": "Hypertrempé"
+          },
+          {
+            "label": "Dimensions",
+            "value": "De 20 × 20 mm à 75 × 75 mm, épaisseur 3–12 mm (voir tableau)"
+          }
+        ]
+      },
+      {
+        "title": "Barres PSQ (qualité arbre de pompe)",
+        "text": "Barres rondes de précision à tolérance plus serrée et meilleure rectitude que les barres étirées courantes, utilisables directement comme arbres de pompe, de vérin et de piston.",
+        "rows": [
+          {
+            "label": "Dimensions",
+            "value": "6–63,5 mm (¼\" à 2½\")"
+          },
+          {
+            "label": "Tolérance",
+            "value": "h8"
+          },
+          {
+            "label": "Longueur",
+            "value": "3,00–6,70 m (10–22 ft) ; coupe à longueur avec tolérance −0/+50 mm"
+          },
+          {
+            "label": "Chanfrein",
+            "value": "30°, 45° ou 60°"
+          },
+          {
+            "label": "Rectitude",
+            "value": "Jusqu'à 0,25 mm/m TIR"
+          },
+          {
+            "label": "Finition",
+            "value": "Rectifiée sans centre et polie à la bande jusqu'à Ra 0,2 µm ; polissage grain 240–320"
+          },
+          {
+            "label": "Traitement thermique",
+            "value": "Hypertrempé, recuit, QT 650, QT 800 et autres"
+          }
+        ]
+      },
+      {
+        "title": "Barres laminées à chaud",
+        "text": "Barres rondes laminées à chaud pour transformateurs, usinage et forge, livrées dressées.",
+        "rows": [
+          {
+            "label": "Dimensions",
+            "value": "13–150 mm (voir liste)"
+          },
+          {
+            "label": "Tolérance",
+            "value": "EN 10060"
+          },
+          {
+            "label": "Longueur",
+            "value": "3,00–6,70 m (10–22 ft)"
+          },
+          {
+            "label": "Rectitude",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Finition",
+            "value": "Brut de laminage, noir"
+          },
+          {
+            "label": "Traitement thermique",
+            "value": "Recuit, hypertrempé, ou trempé et revenu"
+          }
+        ]
+      }
+    ],
+    "wireGradesTitle": "Nuances de fil machine",
+    "wireGradesAstm": "ASTM / AISI",
+    "wireGradesEn": "DIN / EN",
+    "wireGradesElectrode": "Nuances pour électrodes de soudage",
+    "wireGradesNote": "Des nuances spéciales sont aussi disponibles selon les besoins du client.",
+    "colWidth": "Largeur (mm)",
+    "colThicknessRange": "Plage d'épaisseur (mm)",
+    "colAngleSize": "Dimension (mm)",
+    "colAngleThickness": "Épaisseurs (mm)",
+    "hotRolledSizesTitle": "Dimensions (mm)",
+    "gradesTitle": "Nuances d'acier inoxydable",
+    "gradesIntro": "Les familles de nuances que nous fournissons. Consultez-nous pour toute nuance non listée.",
+    "colFamily": "Famille",
+    "colGrades": "Nuances",
+    "colProperties": "Propriétés clés",
+    "gradeRows": [
+      {
+        "family": "Austénitique (série 300)",
+        "grades": "304, 304L, 304H, 310, 310S, 316, 316L, 316Ti, 321",
+        "properties": "Bonne résistance générale à la corrosion ; amagnétique à l'état recuit ; la famille la plus utilisée"
+      },
+      {
+        "family": "Austénitique (série 200)",
+        "grades": "201, 202, 204Cu",
+        "properties": "Teneur en nickel réduite ; alternative économique à la série 300 pour des services moins exigeants"
+      },
+      {
+        "family": "Martensitique (série 400)",
+        "grades": "410, 420",
+        "properties": "Trempable ; résistant à l'usure ; magnétique"
+      },
+      {
+        "family": "Ferritique (série 400)",
+        "grades": "430, 430L",
+        "properties": "Magnétique ; bonne résistance à l'oxydation et à la corrosion sous contrainte par les chlorures ; économique"
+      },
+      {
+        "family": "Austénitique fortement allié",
+        "grades": "904L",
+        "properties": "Résistant aux acides forts ; utilisé en chimie"
+      },
+      {
+        "family": "Duplex et nuances spéciales",
+        "grades": "1.4362 (2304) ; autres sur demande",
+        "properties": "Nuances spéciales approvisionnées selon la spécification du projet"
+      }
+    ],
+    "gradesNote": "Le matériau est livré selon les spécifications ASTM, DIN/EN ou IS demandées, avec certificats de contrôle EN 10204 3.1.",
+    "marketsTitle": "Marchés desservis",
+    "marketsIntro": "Nous exportons des profilés inox avec les documents nécessaires au dédouanement.",
+    "markets": [
+      {
+        "region": "Émirats arabes unis",
+        "text": "Dubaï, Abou Dabi, Charjah, zone franche de Jebel Ali (JAFZA) et zone industrielle de Ruwais, avec livraison sur chantier dans les sept émirats."
+      },
+      {
+        "region": "Arabie saoudite",
+        "text": "Fourniture pour projets industriels et de construction."
+      },
+      {
+        "region": "Oman",
+        "text": "Fourniture pour projets industriels et de construction."
+      },
+      {
+        "region": "Autres pays du CCG",
+        "text": "Bahreïn, Koweït et Qatar sur demande."
+      },
+      {
+        "region": "Afrique",
+        "text": "Fourniture aux marchés industriels africains."
+      },
+      {
+        "region": "Europe",
+        "text": "Fourniture par projet."
+      }
+    ],
+    "applicationsTitle": "Applications par secteur",
+    "applications": [
+      {
+        "title": "Pétrole, gaz et pétrochimie",
+        "items": [
+          "Composants de pipelines",
+          "Fabrication d'appareils à pression",
+          "Matériaux pour plateformes offshore"
+        ]
+      },
+      {
+        "title": "Construction et architecture",
+        "items": [
+          "Supports structurels et platines",
+          "Façades et bardages",
+          "Éléments intérieurs et décoratifs"
+        ]
+      },
+      {
+        "title": "Marine et construction navale",
+        "items": [
+          "Profilés 316L pour la construction navale et l'accastillage",
+          "Infrastructures portuaires",
+          "Composants d'usines de dessalement"
+        ]
+      },
+      {
+        "title": "Fabrication industrielle",
+        "items": [
+          "Bâtis de machines et d'équipements",
+          "Équipements agroalimentaires",
+          "Installations de traitement de l'eau"
+        ]
+      },
+      {
+        "title": "Automobile et aéronautique",
+        "items": [
+          "Barres pour fixations et arbres",
+          "Composants de précision"
+        ]
+      },
+      {
+        "title": "Produits tréfilés",
+        "items": [
+          "Câbles et ressorts",
+          "Électrodes de soudage",
+          "Grillages et ancrages réfractaires"
+        ]
+      }
+    ],
+    "whyTitle": "Pourquoi passer par notre division négoce",
+    "why": [
+      "Plus de 40 ans d'expérience du secteur",
+      "Matériau certifié aciérie avec certificats EN 10204 3.1",
+      "Nuances des séries 200, 300 et 400, plus alliages spéciaux",
+      "États de livraison du laminé décapé à l'étiré à froid, poli et rectifié sans centre",
+      "Barres coupées à longueur avec tolérance −0/+50 mm",
+      "Profilés inox et nos propres ancrages réfractaires et fibres auprès d'un seul fournisseur",
+      "Approvisionnement auprès d'aciéries reconnues",
+      "Export vers plus de 25 pays"
+    ],
+    "findTitle": "Retrouvez-nous sur",
+    "findText": "Santura Engineering est aussi présente sur ces places de marché B2B.",
+    "find": {
+      "indiamart": "IndiaMART",
+      "tradeindia": "TradeIndia"
+    },
+    "newTab": "(s'ouvre dans un nouvel onglet)",
+    "relatedTitle": "Produits associés",
+    "relatedAnchors": "Fabriqués dans nos ateliers en nuances inox comme SS 304, 310 et 316.",
+    "relatedFibres": "Fibres par extraction de bain fondu et tréfilées en AISI 304, 310 et 446.",
+    "relatedFasteners": "Vis, goujons, écrous et rondelles en inox et acier allié.",
+    "relatedAccessories": "Feuillards, vis et quincaillerie inox pour le calorifugeage.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Quelles nuances d'acier inoxydable Santura fournit-elle ?",
+        "a": "Santura fournit des nuances austénitiques (304, 304L, 304H, 310, 310S, 316, 316L, 316Ti, 321 et la série 200), ferritiques (430, 430L), martensitiques (410, 420) et l'austénitique fortement allié 904L. Le fil machine existe aussi en nuances DIN/EN et en nuances pour électrodes de soudage, et les nuances spéciales sont approvisionnées sur demande. Le matériau est livré avec certificats de contrôle EN 10204 3.1."
+      },
+      {
+        "q": "Quels profilés inox sont disponibles ?",
+        "a": "Nous fournissons du fil machine en couronnes (5,5–40 mm), des barres hexagonales (12–55 mm), des barres carrées (12–55 mm), des plats HRAP (25–100 mm de large), des cornières HRAP (de 20 × 20 à 75 × 75 mm), des barres qualité arbre de pompe (6–63,5 mm) et des barres laminées à chaud (13–150 mm). Les états de livraison vont du laminé à chaud, décapé et recuit à l'étiré à froid, poli et rectifié sans centre."
+      },
+      {
+        "q": "Santura fournit-elle de l'inox aux EAU et en Arabie saoudite ?",
+        "a": "Oui. Nous fournissons des profilés inox aux EAU, notamment à Dubaï, Abou Dabi, Charjah, dans la zone franche de Jebel Ali (JAFZA) et à Ruwais, ainsi qu'en Arabie saoudite, à Oman et dans d'autres pays du CCG, avec les documents nécessaires au dédouanement."
+      },
+      {
+        "q": "Quels certificats accompagnent l'acier inoxydable ?",
+        "a": "L'acier inoxydable est livré avec des certificats de contrôle EN 10204 3.1 indiquant la composition chimique, les propriétés mécaniques et le traitement thermique du matériau. Il est livré selon les spécifications ASTM, DIN/EN ou IS exigées par le projet."
+      },
+      {
+        "q": "Santura peut-elle fournir à la fois de l'inox et des produits réfractaires ?",
+        "a": "Oui. La division négoce fournit des profilés inox certifiés aciérie, tandis que nos ateliers fabriquent ancrages réfractaires, fibres d'acier, rivets aveugles et tôles perforées. Les entreprises EPC et exploitants qui ont besoin des deux peuvent les acheter auprès d'un seul fournisseur, ce qui simplifie les achats."
+      }
+    ],
+    "ctaTitle": "Besoin de profilés inox ?",
+    "ctaText": "Indiquez-nous le produit, la nuance, la dimension, la longueur, l'état de livraison et la quantité. Nous vous répondrons avec un devis et un délai de livraison.",
+    "ctaRfq": "Demander un devis pour de l'inox",
     "ctaContact": "Ou contactez notre équipe"
   }
 }

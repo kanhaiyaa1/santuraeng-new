@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Link } from '@/i18n/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { buildAlternates } from '@/lib/seo';
 import { LINING_ORDER, PRODUCTS } from '@/content/products';
@@ -45,13 +46,24 @@ export default async function RefractoryAnchorsPage({ params: { locale } }: Prop
       intro,
       count: items.length,
       content: (
-        <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {items.map((p) => (
-            <li key={p.slug}>
-              <ProductCard product={p} />
-            </li>
-          ))}
-        </ul>
+        <>
+          {lining === 'fibres' && (
+            <Link
+              href="/products/steel-fibres"
+              className="mb-6 block rounded-lg border border-line border-s-4 border-s-brand-500 bg-white p-6 hover:border-brand-500"
+            >
+              <span className="block text-lg font-bold text-ink">{cat('items.steel-fibres.name')} →</span>
+              <span className="mt-1 block text-sm leading-relaxed text-ink-body">{cat('items.steel-fibres.description')}</span>
+            </Link>
+          )}
+          <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {items.map((p) => (
+              <li key={p.slug}>
+                <ProductCard product={p} />
+              </li>
+            ))}
+          </ul>
+        </>
       )
     };
   });

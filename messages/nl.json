@@ -115,6 +115,26 @@
         "name": "Energie en Ketels",
         "description": "CFB-, HRSG-, afvalverbrandings- en biomassaketels.",
         "imageAlt": "Hoogspanningsmasten bij zonsondergang"
+      },
+      "aluminium": {
+        "name": "Aluminiumproductie",
+        "description": "Smelt- en houdovens, anodebakovens en gietgoten.",
+        "imageAlt": "Aluminiumcoils in een magazijn"
+      },
+      "copper": {
+        "name": "Koper",
+        "description": "Smeltovens, converters en anodeovens.",
+        "imageAlt": "Rollen koperdraad"
+      },
+      "ceramic": {
+        "name": "Keramische Industrie",
+        "description": "Tunnelovens, shuttleovens en ovenwagens.",
+        "imageAlt": "Ovenwagens met keramiek bij een tunneloven"
+      },
+      "mining": {
+        "name": "Mijnbouw & Mineralen",
+        "description": "Draaitrommelovens, calcineerovens en drogers voor mineraalverwerking.",
+        "imageAlt": "Transportband in een ondergrondse mijn"
       }
     }
   },
@@ -769,13 +789,13 @@
         "name": "Isolatietoebehoren",
         "description": "Banden, clips, ringen en andere isolatiebevestigingen."
       },
-      "steel-plates": {
-        "name": "Staalplaten",
-        "description": "Platen van roestvast en gelegeerd staal."
-      },
       "trading-division": {
         "name": "Handelsafdeling",
         "description": "Levering van roestvast staal en industriële materialen."
+      },
+      "steel-fibres": {
+        "name": "Staalvezels",
+        "description": "Smeltextractie- en koudgetrokken rvs-vezels voor vuurvast beton."
       }
     },
     "allCategories": "Alle productcategorieën",
@@ -1114,6 +1134,7 @@
       "Positieve materiaalidentificatie (PMI) is een niet-destructieve keuring die de chemische samenstelling van een metaal meet en de legering bevestigt. Ze wordt uitgevoerd met een draagbare röntgenfluorescentie-analyser (XRF) of een optische emissiespectrometer (OES).",
       "De analyser meet de samenstelling in enkele seconden en vergelijkt die met een bibliotheek van legeringen. Er wordt niets gezaagd, geboord of beschadigd, zodat afgewerkte ankers gekeurd en verzonden kunnen worden."
     ],
+    "whatImageAlt": "Handheld XRF-analyser met een meting van legering SS310",
     "whyTitle": "Waarom het belangrijk is voor vuurvaste ankers",
     "why": [
       {
@@ -1589,7 +1610,12 @@
       "Kijkdeurframe en deuronderdelen vóór montage",
       "Productieserie verzinkte kijkdeuren in de werkplaats",
       "Scharnierende kijkdeuren gestapeld voor verzending",
-      "Close-up van verzinkte kijkdeurframes uit een productieserie"
+      "Close-up van verzinkte kijkdeurframes uit een productieserie",
+      "Verzinkte kijkdeur met scharnierende toegangsdeur en typeplaatje",
+      "Kijkdeuren met kijkvensters, gelabeld na inspectie",
+      "Rijen gelabelde kijkdeuren klaar voor verzending",
+      "Verzinkte kijkdeurframes op een rij in de werkplaats",
+      "Stapel verzinkte kijkdeurframes, zijaanzicht"
     ],
     "relatedTitle": "Gerelateerde producten en diensten",
     "relatedAnchorsText": "De ankers die de vuurvaste bekleding in elke deur vasthouden, in dezelfde legeringen als uw wandbekleding.",
@@ -1812,7 +1838,8 @@
       "Funderingsbouten met buishulzen, gelabeld voor verzending",
       "Verzinkte funderingsbouten met buishulzen uitgelegd in de werkplaats",
       "Voorraad verzinkte funderingsbouten met moeren en hulzen",
-      "Close-up van buishulzen en moeren van funderingsbouten"
+      "Close-up van buishulzen en moeren van funderingsbouten",
+      "Verzinkte funderingsbouten met pijpmoffen en vierkante kopplaten"
     ],
     "relatedTitle": "Gerelateerde producten",
     "relatedStanchions": "Staanders en palen voor bordessen en leuningen, vaak op dezelfde funderingen geplaatst.",
@@ -2077,7 +2104,9 @@
       "Partij thermisch verzinkte industriële staanders met verstijfde voetplaten",
       "Verzinkte staander met gelaste leuningarmen en voetplaat",
       "Industriële staander met zijarm en verstijfde voetplaat",
-      "Close-up van een gelaste T-verbinding op een staander"
+      "Close-up van een gelaste T-verbinding op een staander",
+      "Verzinkte staander met zijarm en verstevigde voetplaat",
+      "Verzinkte staanders met T-leuningen in de fabricagewerkplaats"
     ],
     "overviewTitle": "Wat industriële staanders zijn",
     "overview": [
@@ -2607,6 +2636,7 @@
     "subheading": "Contragewichtsystemen met hefboomarm die het gewicht van de stralingspijpen in waterstofreformers en ethyleenkraakovens dragen. Sinds eind jaren negentig door Santura gemaakt volgens de engineeringtekeningen van de klant.",
     "lindeBadge": "Goedgekeurd leverancier van Linde Engineering India, {period}",
     "photoAlt": "Verzinkte contragewicht-hefboomarm met gewichtenstapels",
+    "photo2Alt": "Contragewichthefboom met gestapelde vaste gewichten in de werkplaats",
     "photoCaption": "Verzinkte hefboomarm met gewichtenstapels in onze werkplaats.",
     "whatTitle": "Wat een contragewichtsysteem doet",
     "what": [
@@ -3859,6 +3889,2469 @@
     "ctaTitle": "Calciumsilicaatisolatie nodig?",
     "ctaText": "Laat ons de vorm, leidingmaten of plaatafmetingen, dikte, gebruikstemperatuur en hoeveelheid weten. We reageren met een offerte en levertijd.",
     "ctaRfq": "Offerte aanvragen voor calciumsilicaat",
+    "ctaContact": "Of neem contact op met ons team"
+  },
+  "ipPage": {
+    "metaTitle": "Fabrikant isolatiepennen | Laspennen en borgringen",
+    "metaDescription": "Fabrikant van isolatiepennen: laspennen, kleefpennen en borgringen in rvs en verzinkt staal. Sinds 1980, export naar meer dan 25 landen.",
+    "eyebrow": "Gemaakt door Santura",
+    "h1": "Isolatiepennen en laspennen",
+    "subheading": "Lasbare, lijmbare en zelfklevende isolatiepennen met bijpassende borgringen en afdekkapjes, voor kanalen, vaten, wanden en installaties. In eigen werkplaats gemaakt van roestvast staal, verzinkt staal en kunststof.",
+    "badges": [
+      "CD-laspennen",
+      "Pennen met geperforeerde voet",
+      "Zelfklevende pennen",
+      "Borgringen",
+      "Afdekkapjes",
+      "Certificaten EN 10204 3.1"
+    ],
+    "gallery": [
+      "Isolatiepennen met geperforeerde voetplaat, waaronder een kunststof pen",
+      "Laspennen met afdekkapjes en borgringen",
+      "Roestvaststalen borgringen voor isolatiepennen",
+      "Vierkante borgring voor isolatiepennen",
+      "Afdekkapje voor isolatiepennen",
+      "Assortiment borgringen voor isolatiepennen",
+      "Isolatiepen met geperforeerde vierkante voetplaat"
+    ],
+    "overviewTitle": "Wat isolatiepennen zijn",
+    "overview": [
+      "Isolatiepennen, ook wel isolatiespijkers, prikpennen of laspennen genoemd, zijn bevestigingsmiddelen die isolatie mechanisch op een ondergrond vasthouden. De pen wordt op de ondergrond bevestigd, de isolatie wordt over de steel gedrukt en een borgring of afdekkapje houdt haar op haar plaats.",
+      "De pennen voorkomen dat de isolatie doorzakt, verschuift of loslaat, zodat de thermische en akoestische prestaties behouden blijven en de montage er netjes uitziet. Ze worden gebruikt op luchtkanalen, vaten en tanks, ketelommantelingen, scheepsschotten, wanden en plafonds.",
+      "Santura maakt zijn eigen isolatiepennen, naast zijn vuurvaste ankers. Ze worden gemaakt voor drie bevestigingsmethoden: gelast (condensatorontlading of boogontsteking), gelijmd met geperforeerde voet en zelfklevend. Bijpassende ringen en kapjes worden van dezelfde materialen gemaakt."
+    ],
+    "madeTitle": "Eigen productie",
+    "made": [
+      "Pennen van roestvast staal, verzinkt koolstofstaal en pvc",
+      "Lasbare en lijmbare uitvoeringen",
+      "Borgringen en afdekkapjes",
+      "Voor steenwol, glaswol, EPS, polystyreen en PUR",
+      "Met inspectiecertificaten EN 10204 3.1"
+    ],
+    "typesTitle": "Soorten isolatiepennen naar bevestigingsmethode",
+    "types": [
+      {
+        "title": "Laspennen (CD / boog)",
+        "text": "Een pen met lasvoet, die blijvend met plaatstaal wordt verbonden door boutlassen met condensatorontlading (CD) of boogontsteking.",
+        "rows": [
+          {
+            "label": "Lastijd",
+            "value": "Minder dan 1 seconde per pen"
+          },
+          {
+            "label": "Geschikt voor",
+            "value": "Metalen kanalen, vatmantels, tankwanden en plaatstalen panelen"
+          },
+          {
+            "label": "Kopvormen",
+            "value": "Komkop (geïntegreerde schijf) of zonder kop, met losse borgring"
+          },
+          {
+            "label": "Voordeel",
+            "value": "Blijvende, sterke verbinding die bij brand blijft houden"
+          },
+          {
+            "label": "Materialen",
+            "value": "Verzinkt koolstofstaal, SS 304, SS 316, aluminium; bimetaal (aluminium kop, stalen steel)"
+          }
+        ]
+      },
+      {
+        "title": "Lijmpennen met geperforeerde voet",
+        "text": "Een pen op een geperforeerde metalen voetplaat, die met lijmkit op de ondergrond wordt geplakt.",
+        "rows": [
+          {
+            "label": "Geschikt voor",
+            "value": "Niet-lasbare ondergronden: beton, metselwerk, polyester en geschilderde oppervlakken"
+          },
+          {
+            "label": "Montage",
+            "value": "Lijm door de gaten aanbrengen, draaiend aandrukken en 24–72 uur laten uitharden voor belasting"
+          },
+          {
+            "label": "Voetplaat",
+            "value": "Geperforeerde vierkante of ronde plaat, meestal 50 × 50 mm; de lijm dringt door de gaten voor een betere hechting"
+          },
+          {
+            "label": "Voordeel",
+            "value": "Geen lasapparatuur nodig"
+          },
+          {
+            "label": "Materialen",
+            "value": "Verzinkt staal, SS 304, aluminium"
+          }
+        ]
+      },
+      {
+        "title": "Zelfklevende pennen",
+        "text": "Een pen met een vooraf aangebracht drukgevoelig kleefkussen op de voet.",
+        "rows": [
+          {
+            "label": "Geschikt voor",
+            "value": "Snelle montage van lichte isolatie op schone, droge, niet-poreuze oppervlakken"
+          },
+          {
+            "label": "Montage",
+            "value": "Beschermfolie verwijderen, stevig aandrukken zonder te draaien en 15–20 minuten wachten voor belasting"
+          },
+          {
+            "label": "Belasting",
+            "value": "Tot ongeveer 1,4 kg per pen"
+          },
+          {
+            "label": "Temperatuur",
+            "value": "Aanbrengen boven 10 °C; gebruik van −20 °C tot 90 °C"
+          },
+          {
+            "label": "Beperkingen",
+            "value": "Niet voor geschilderde oppervlakken, gipsplaat of metaal in direct zonlicht"
+          }
+        ]
+      }
+    ],
+    "guideTitle": "De juiste pen kiezen",
+    "guideIntro": "Ga uit van de ondergrond en de gebruiksomstandigheden en kies daarna de bevestigingsmethode en het materiaal.",
+    "colApplication": "Toepassing",
+    "colPin": "Aanbevolen pen",
+    "colWhy": "Waarom",
+    "guideRows": [
+      {
+        "application": "Metalen kanaal, vat- of tankwand",
+        "pin": "CD-laspen",
+        "why": "Blijvende verbinding, houdt bij brand, snelste montage"
+      },
+      {
+        "application": "Beton, metselwerk of polyester",
+        "pin": "Geperforeerde lijmpen",
+        "why": "Geen lassen nodig; sterke hechting door de gaten"
+      },
+      {
+        "application": "Snelle, droge montage van lichte isolatie",
+        "pin": "Zelfklevende pen",
+        "why": "Aftrekken en aandrukken, zonder uithardingstijd"
+      },
+      {
+        "application": "Koelcel of vriescel",
+        "pin": "Nylon of pvc pen",
+        "why": "Voorkomt koudebruggen en condens bij de pen"
+      },
+      {
+        "application": "Scheepvaart, kust of chemische fabriek",
+        "pin": "Laspen van SS 304 of SS 316",
+        "why": "Corrosiebestendig in agressieve omgevingen"
+      },
+      {
+        "application": "Algemene installatietechniek, beperkt budget",
+        "pin": "Laspen van verzinkt staal",
+        "why": "Voordelig, met goede corrosiebestendigheid binnen"
+      }
+    ],
+    "specTitle": "Specificaties van de pennen",
+    "specRows": [
+      {
+        "label": "Steeldiameter",
+        "value": "2,1, 2,7 en 3,0 mm (andere op aanvraag)"
+      },
+      {
+        "label": "Steellengte",
+        "value": "50, 63, 90, 110, 114 en 150 mm (elke lengte op bestelling)"
+      },
+      {
+        "label": "Kopvorm",
+        "value": "Komkop (geïntegreerde schijf) of zonder kop"
+      },
+      {
+        "label": "Voetvorm",
+        "value": "Lasvoet, geperforeerde plaat (50 × 50 mm) of zelfklevend kussen"
+      },
+      {
+        "label": "Afwerking",
+        "value": "Blank, verzinkt of gepassiveerd op aanvraag"
+      },
+      {
+        "label": "Certificaten",
+        "value": "Inspectiecertificaten EN 10204 3.1"
+      }
+    ],
+    "materialsTitle": "Materialen",
+    "colMaterial": "Materiaal",
+    "colBestFor": "Geschikt voor",
+    "colMaxTemp": "Max. temp.",
+    "materials": [
+      {
+        "name": "Roestvast staal 304",
+        "use": "Scheepvaart, chemie, vochtige en corrosieve omgevingen; lange levensduur",
+        "temp": "Ongeveer 800 °C"
+      },
+      {
+        "name": "Roestvast staal 316",
+        "use": "Zware corrosie: kust, chloriden en chemische processen",
+        "temp": "Ongeveer 800 °C"
+      },
+      {
+        "name": "Verzinkt koolstofstaal",
+        "use": "Algemene installatie-, industriële en bouwisolatie; voordelig",
+        "temp": "Ongeveer 450 °C"
+      },
+      {
+        "name": "Aluminium",
+        "use": "Licht; voedingsmiddelenindustrie en schone omgevingen",
+        "temp": "Ongeveer 200 °C"
+      },
+      {
+        "name": "Bimetaal (aluminium kop, stalen steel)",
+        "use": "Aluminium kop met de lassterkte van een stalen steel",
+        "temp": "Ongeveer 450 °C"
+      },
+      {
+        "name": "Pvc / nylon",
+        "use": "Koude oppervlakken; voorkomt koudebruggen",
+        "temp": "Ongeveer 80 °C (pvc) / 120 °C (nylon)"
+      }
+    ],
+    "materialsNote": "Typische maximumtemperaturen van het penmateriaal. Gebruik voor keramische vezelbekledingen boven deze grenzen gelaste keramische vezelankers (SEPL-24).",
+    "accessoriesTitle": "Borgringen en afdekkapjes",
+    "accessoriesIntro": "Borgringen klemmen om de steel en houden de isolatie vast; afdekkapjes bedekken het afgeknipte uiteinde. Beide zijn leverbaar in verzinkt staal, rvs of aluminium, passend bij de pen.",
+    "accessories": [
+      {
+        "title": "Ronde borgringen",
+        "text": "Klemringen die over de steel worden geschoven en zich vastzetten.",
+        "sizes": "Ø 25, 35 en 38 mm"
+      },
+      {
+        "title": "Vierkante borgringen",
+        "text": "Vierkante klemringen met betere grip op vlakke isolatieplaten.",
+        "sizes": "25 × 25, 35 × 35 en 38 × 38 mm"
+      },
+      {
+        "title": "Afdekkapjes",
+        "text": "Bedekken het steeluiteinde na het klemmen, voor veiligheid, een nette afwerking en bescherming tegen scherpe punten.",
+        "sizes": "Passend bij de pendiameter"
+      }
+    ],
+    "washersLink": "Bekijk ons volledige assortiment ringen",
+    "compatibleTitle": "Geschikte isolatiematerialen",
+    "compatibleIntro": "De pennen zijn geschikt voor elke isolatie die de steel kan doorboren. Gebruik voor keramische vezeldekens bij hoge temperaturen keramische vezel-boutankers.",
+    "compatible": {
+      "mineralWool": "Steenwol / minerale wol",
+      "glassWool": "Glaswol",
+      "eps": "Geëxpandeerd polystyreen (EPS)",
+      "xps": "Geëxtrudeerd polystyreen (XPS)",
+      "puf": "Polyurethaanschuim (PUR)",
+      "ceramic": "Keramische vezeldeken (met SEPL-24)"
+    },
+    "installTitle": "Zo worden isolatiepennen gemonteerd",
+    "steps": [
+      {
+        "title": "Pen bevestigen",
+        "text": "De pen op de ondergrond lassen, lijmen of plakken."
+      },
+      {
+        "title": "Isolatie aanbrengen",
+        "text": "De isolatie over de steel drukken tot ze vlak tegen het oppervlak ligt."
+      },
+      {
+        "title": "Borgring plaatsen",
+        "text": "Een borgring of afdekkapje over de steel schuiven om de isolatie aan te drukken en vast te houden."
+      },
+      {
+        "title": "Afknippen of ombuigen",
+        "text": "Het uitstekende deel van de steel gelijk afknippen of plat ombuigen voor de veiligheid."
+      }
+    ],
+    "spacingTitle": "Penafstand en indeling",
+    "spacing": [
+      "De afstand hangt af van gewicht en dikte van de isolatie, verticale of plafondmontage, wind en trillingen, en de projectspecificatie.",
+      "Houd pennen ongeveer 75–100 mm van de plaatranden om opbollen te beperken.",
+      "Passieve brandwerende systemen gebruiken vaak pennen op ongeveer 280 mm hart-op-hart; volg de details van de systeemfabrikant.",
+      "Volg altijd de projectspecificatie of het legplan van de ontwerper."
+    ],
+    "techTitle": "Technische aandachtspunten",
+    "tech": [
+      {
+        "title": "Koudebruggen",
+        "text": "Metalen pennen geleiden warmte door de isolatie. Gebruik bij koude toepassingen zoals koelcellen en gekoeld water, waar condens een risico is, pvc- of nylonpennen of voorzie in extra dampremmende maatregelen."
+      },
+      {
+        "title": "Brandgedrag",
+        "text": "Gelaste metalen pennen blijven bij brand mechanisch vastzitten en zijn daarom de betrouwbaarste keuze voor passieve brandwerendheid. Lijmpennen zijn afhankelijk van de hittebestendigheid van de lijm."
+      },
+      {
+        "title": "Corrosiebestendigheid",
+        "text": "Stem de pen af op de omgeving: verzinkt staal binnen, SS 304 bij vocht of chemicaliën en SS 316 in maritieme en chloridehoudende omgevingen. Het verkeerde materiaal leidt tot vroegtijdig falen, vlekken en beschadigde isolatie."
+      }
+    ],
+    "applicationsTitle": "Toepassingen per sector",
+    "applications": [
+      {
+        "title": "Installatietechniek en kanalen",
+        "items": [
+          "Binnenbekleding van glas- of minerale wol in rechthoekige kanalen",
+          "Buitenisolatie van kanalen",
+          "Panelen van luchtbehandelingskasten",
+          "Akoestische kanaalbekleding"
+        ]
+      },
+      {
+        "title": "Olie, gas en petrochemie",
+        "items": [
+          "Isolatie van vaten en kolommen onder beplating",
+          "Apparatenisolatie in raffinaderijen en gasfabrieken",
+          "Isolatie onder het dek op offshoreplatforms"
+        ]
+      },
+      {
+        "title": "Energieopwekking",
+        "items": [
+          "Isolatie van ketelommantelingen",
+          "Geluidskappen voor turbines",
+          "Isolatie van afgassenketels en rookgaskanalen"
+        ]
+      },
+      {
+        "title": "Scheepvaart",
+        "items": [
+          "Isolatie van schotten en dekken (SS 316-pennen)",
+          "Thermische en akoestische isolatie van machinekamers",
+          "Isolatie van ruimen"
+        ]
+      },
+      {
+        "title": "Bouw",
+        "items": [
+          "Wand- en plafondisolatie in utiliteitsgebouwen",
+          "Montage van akoestische panelen",
+          "Koel- en vriescellen (nylonpennen)",
+          "Passieve brandwerendheid"
+        ]
+      },
+      {
+        "title": "Industrie",
+        "items": [
+          "Geluidsschermen en geluidskappen",
+          "Buitenisolatie van ovens (rvs-pennen)",
+          "Voedingsmiddelenindustrie (aluminium pennen)",
+          "Generator- en compressorruimten"
+        ]
+      }
+    ],
+    "supplyTitle": "Wat wij leveren",
+    "supply": [
+      "Santura maakt in eigen werkplaats isolatiepennen van roestvast staal (304, 316), verzinkt koolstofstaal, aluminium en pvc of nylon, in lasbare, lijmbare en zelfklevende uitvoering, samen met borgringen en afdekkapjes. De pennen worden met constante afmetingen gemaakt en geleverd met inspectiecertificaten EN 10204 3.1.",
+      "Speciale lengtes, voetmaten, ringtypes, materiaalkwaliteiten en bulkverpakking zijn leverbaar voor isolatiebedrijven en fabrikanten. Wij exporteren isolatiepennen samen met minerale wol, glaswol, calciumsilicaat, keramische pakkingen en vuurvaste ankers naar meer dan 25 landen, en onze boutlasservice levert de apparatuur en procedures om de pennen te lassen."
+    ],
+    "relatedTitle": "Gerelateerde producten en diensten",
+    "relatedMineralWool": "Steenwolplaten, -rollen en -dekens, bevestigd met isolatiepennen.",
+    "relatedGlassFibre": "Glaswol en glasweefsel voor kanalen en bekleding.",
+    "relatedCalsil": "Stijve hogetemperatuurisolatie, vaak gecombineerd met dekenlagen op pennen.",
+    "relatedGaskets": "Keramisch vezelkoord, -band en -pakkingen voor afdichting bij hoge temperatuur.",
+    "relatedAnchors": "Ons hoofdproduct: SEPL-ankers voor vuurvaste bekledingen.",
+    "relatedSepl24": "Gelaste boutankers voor keramische vezeldeken bij hoge temperaturen.",
+    "relatedSw": "CD- en boogontstekings-boutlasapparatuur en -procedures voor pennen en ankers.",
+    "relatedWashersName": "Ringen",
+    "relatedWashers": "Borgringen, vierkante ringen en koepelringen voor pennen en ankers.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Waarvoor worden isolatiepennen gebruikt?",
+        "a": "Isolatiepennen, ook wel isolatiespijkers, prikpennen of laspennen genoemd, bevestigen isolatie zoals steenwol, glaswol, polystyreen en PUR mechanisch op wanden, kanalen, vaten en installaties. Ze voorkomen dat de isolatie doorzakt, verschuift of loslaat, zodat de thermische en akoestische prestaties behouden blijven."
+      },
+      {
+        "q": "Wat is het verschil tussen laspennen en lijmpennen?",
+        "a": "Laspennen worden in minder dan een seconde blijvend met metaal verbonden door boutlassen met condensatorontlading (CD) of boogontsteking, ideaal voor metalen kanalen en vatmantels. Lijmpennen hebben een geperforeerde voet die met lijmkit op niet-lasbare ondergronden zoals beton en metselwerk wordt geplakt. Laspennen zijn sterker en houden bij brand; lijmpennen vragen geen lasapparatuur."
+      },
+      {
+        "q": "Welke isolatiematerialen kunnen met pennen worden bevestigd?",
+        "a": "De pennen zijn geschikt voor elke isolatie die de steel kan doorboren: steenwol en minerale wol, glaswol, EPS, geëxtrudeerd polystyreen (XPS) en PUR-schuim. Gebruik voor keramische vezeldekens bij hoge temperaturen keramische vezel-boutankers (SEPL-24)."
+      },
+      {
+        "q": "Hoe worden isolatiepennen gemonteerd?",
+        "a": "Bevestig de pen op de ondergrond door lassen, lijmen of plakken, druk de isolatie over de steel, plaats een borgring of afdekkapje om haar aan te drukken en vast te houden, en knip of buig het uitstekende deel van de steel om. De afstand volgt de projectspecificatie; pennen staan meestal 75–100 mm van de plaatranden."
+      },
+      {
+        "q": "In welke materialen zijn isolatiepennen verkrijgbaar?",
+        "a": "Wij maken isolatiepennen van roestvast staal (304, 316), verzinkt koolstofstaal, aluminium en pvc of nylon. Rvs is geschikt voor corrosieve en maritieme omgevingen, verzinkt staal is voordelig voor algemene installatietechniek, aluminium is licht en kunststof pennen voorkomen koudebruggen op koude oppervlakken."
+      }
+    ],
+    "ctaTitle": "Isolatiepennen nodig?",
+    "ctaText": "Laat ons het pentype, de steeldiameter en -lengte, het materiaal, het ringtype en de hoeveelheid weten. Wij reageren met een offerte en levertijd.",
+    "ctaRfq": "Offerte aanvragen voor isolatiepennen",
+    "ctaContact": "Of neem contact op met ons team",
+    "relatedAccessories": "Spanbanden, veren, schroeven, klinknagels, draad en tapes voor isolatie en beplating."
+  },
+  "psPage": {
+    "metaTitle": "Polystyreen isolatie | EPS- en XPS-platen en buisschalen",
+    "metaDescription": "EPS- en XPS-polystyreen isolatie: platen, buisschalen en koelcelplaten. Betrouwbare leverancier sinds 1980, export naar 25+ landen. Vraag een offerte aan.",
+    "eyebrow": "Isolatiematerialen",
+    "h1": "Polystyreen isolatie: EPS en XPS",
+    "subheading": "Isolatie van geëxpandeerd (EPS) en geëxtrudeerd (XPS) polystyreen: platen, buisschalen met of zonder aluminiumfolie, halfronde schalen en maatwerk voor koelcellen, koudwaterleidingen en gebouwen.",
+    "badges": [
+      "EPS 15–40 kg/m³",
+      "XPS-platen",
+      "Buisschalen",
+      "Folie-beklede schalen",
+      "Maatwerk"
+    ],
+    "gallery": [
+      "Isolatieplaten van geëxpandeerd polystyreen",
+      "EPS-buisschalen met aluminiumfolie bekleding",
+      "Halfronde polystyreen buisisolatieschalen",
+      "Polystyreen buisisolatie in halve schalen"
+    ],
+    "overviewTitle": "Wat polystyreen isolatie is",
+    "overview": [
+      "Polystyreen isolatie is een licht, stijf, gesloten-cellig schuim. Het heeft een lage warmtegeleiding, is vochtbestendig, houdt zijn vorm en is goedkoper dan de meeste andere isolatiematerialen. Daarom wordt het veel gebruikt voor koelcellen, koudwaterleidingen en gebouwisolatie.",
+      "Het wordt toegepast als buisschalen op koud- en gekoeldwaterleidingen, als platen voor wanden, daken, vloeren en isolatie onder en boven het dek, en als maatwerkdelen voor apparatuur en vaten. Correct aangebracht en beschermd behoudt het zijn isolerende waarde gedurende de hele levensduur van de installatie, zonder door te zakken of te zetten.",
+      "Polystyreen isolatie bestaat in twee vormen, gemaakt met verschillende processen."
+    ],
+    "types": [
+      {
+        "title": "EPS: geëxpandeerd polystyreen",
+        "tag": "Wit parelschuim · lagere kosten",
+        "text": "Polystyreenparels worden met stoom geëxpandeerd en tot blokken gevormd, waaruit platen, buisschalen en vormdelen worden gesneden. EPS is lichter en goedkoper dan XPS, met een iets hogere warmtegeleiding. De dichtheid bepaalt de sterkte."
+      },
+      {
+        "title": "XPS: geëxtrudeerd polystyreen",
+        "tag": "Gekleurd dicht schuim · hogere sterkte",
+        "text": "Wordt continu geëxtrudeerd tot platen, meestal blauw, roze of groen afhankelijk van het merk. XPS heeft een hogere druksterkte, lagere wateropname en lagere warmtegeleiding dan EPS en is daardoor geschikt voor ondergrondse, natte en belaste toepassingen."
+      }
+    ],
+    "formsTitle": "Productvormen en afmetingen",
+    "formsIntro": "Gangbare vormen en afmetingen. Andere maten, diktes en vormen leveren wij volgens tekening.",
+    "epsFormsTitle": "EPS (geëxpandeerd polystyreen)",
+    "xpsFormsTitle": "XPS (geëxtrudeerd polystyreen)",
+    "colForm": "Vorm",
+    "colDescription": "Omschrijving",
+    "colSizes": "Gangbare afmetingen",
+    "epsForms": [
+      {
+        "form": "Platen",
+        "text": "Stijve platen voor wanden, daken, vloeren en koelcellen",
+        "sizes": "12–300 mm dik; 1200 × 600 mm of 2400 × 1200 mm"
+      },
+      {
+        "form": "Buisschalen (twee helften)",
+        "text": "Voorgevormde tweedelige schalen voor leidingisolatie",
+        "sizes": "Binnendiameter 15–600 mm; 20–100 mm dik"
+      },
+      {
+        "form": "Gebogen / halfronde segmenten",
+        "text": "Gevormde segmenten voor tanks, vaten en grote leidingen",
+        "sizes": "Passend bij de buitendiameter"
+      },
+      {
+        "form": "Schalen en platen met aluminiumfolie",
+        "text": "EPS bekleed met reflecterende aluminiumfolie",
+        "sizes": "Standaardmaten"
+      },
+      {
+        "form": "Maatwerkdelen",
+        "text": "Met hete draad op tekening gesneden voor bochten, afsluiters en complexe profielen",
+        "sizes": "Volgens specificatie"
+      }
+    ],
+    "xpsForms": [
+      {
+        "form": "Stijve platen",
+        "text": "Hoogwaardige platen voor ondergrondse wanden, omgekeerde daken en belaste vloeren",
+        "sizes": "20–200 mm dik; meestal 1250 × 600 mm"
+      },
+      {
+        "form": "Platen met tand en groef",
+        "text": "In elkaar grijpende randen voor een naadloze isolatielaag",
+        "sizes": "25–100 mm dik"
+      },
+      {
+        "form": "Afschotplaten",
+        "text": "Op afschot gesneden platen voor de afwatering van platte daken",
+        "sizes": "Volgens gewenst afschot"
+      }
+    ],
+    "specTitle": "EPS en XPS vergeleken",
+    "colProperty": "Eigenschap",
+    "colEps": "EPS",
+    "colXps": "XPS",
+    "specRows": [
+      {
+        "label": "Productieproces",
+        "eps": "Parelexpansie en vormen",
+        "xps": "Continue extrusie"
+      },
+      {
+        "label": "Kleur",
+        "eps": "Wit",
+        "xps": "Blauw, roze of groen (afhankelijk van merk)"
+      },
+      {
+        "label": "Dichtheid",
+        "eps": "15–40 kg/m³",
+        "xps": "25–45 kg/m³"
+      },
+      {
+        "label": "Warmtegeleidingscoëfficiënt (λ)",
+        "eps": "0,035–0,040 W/m·K",
+        "xps": "0,029–0,036 W/m·K"
+      },
+      {
+        "label": "Druksterkte (10% vervorming)",
+        "eps": "60–200 kPa, afhankelijk van dichtheid",
+        "xps": "150–700 kPa"
+      },
+      {
+        "label": "Wateropname (volume)",
+        "eps": "2–5%",
+        "xps": "Meestal 0,3% of minder"
+      },
+      {
+        "label": "Dampdiffusieweerstandsgetal (µ)",
+        "eps": "20–70",
+        "xps": "80–250"
+      },
+      {
+        "label": "Max. continue gebruikstemperatuur",
+        "eps": "Ongeveer 80 °C",
+        "xps": "Ongeveer 75 °C"
+      },
+      {
+        "label": "Min. gebruikstemperatuur",
+        "eps": "Tot ongeveer −180 °C volgens fabrikanten",
+        "xps": "Meestal −50 °C volgens fabrikanten"
+      },
+      {
+        "label": "Brandgedrag",
+        "eps": "Euroklasse E met brandvertrager (FR-kwaliteit)",
+        "xps": "Euroklasse E met brandvertrager (FR-kwaliteit)"
+      },
+      {
+        "label": "Maatvastheid",
+        "eps": "Goed; zakt niet door en zet niet",
+        "xps": "Zeer goed"
+      },
+      {
+        "label": "Blaasmiddel",
+        "eps": "Pentaan; zonder CFK's of HCFK's",
+        "xps": "CO₂ of HFO bij moderne kwaliteiten; zonder CFK's of HCFK's"
+      },
+      {
+        "label": "Recycling",
+        "eps": "Recyclebaar",
+        "xps": "Recyclebaar"
+      }
+    ],
+    "specNote": "Typische waarden. De exacte waarden hangen af van kwaliteit, dichtheid en fabrikant; het productblad van het geleverde product is bepalend.",
+    "densityTitle": "EPS-dichtheidswijzer",
+    "densityIntro": "De sterkte van EPS neemt toe met de dichtheid. Kies de laagste dichtheid die de belasting draagt, want een hogere dichtheid kost meer.",
+    "colDensity": "Dichtheid",
+    "colStrength": "Druksterkte (ca.)",
+    "colBestFor": "Geschikt voor",
+    "densityRows": [
+      {
+        "density": "15 kg/m³",
+        "strength": "Ongeveer 60 kPa",
+        "use": "Wanden, plafonds en andere onbelaste delen"
+      },
+      {
+        "density": "20 kg/m³",
+        "strength": "Ongeveer 100 kPa",
+        "use": "Algemene gebouwisolatie, buisschalen en koelcellen"
+      },
+      {
+        "density": "25 kg/m³",
+        "strength": "Ongeveer 130 kPa",
+        "use": "Daken en vloeren met lichte belasting"
+      },
+      {
+        "density": "30 kg/m³",
+        "strength": "Ongeveer 170 kPa",
+        "use": "Isolatie onder vloerplaten en vloeren van koelhuizen"
+      },
+      {
+        "density": "40 kg/m³",
+        "strength": "Ongeveer 200 kPa",
+        "use": "Zwaar belaste vloeren en industriële koelcellen"
+      }
+    ],
+    "densityNote": "Andere dichtheden op aanvraag. Bij hoge belasting, ondergronds gebruik of natte omstandigheden is XPS meestal de betere keuze.",
+    "advantagesTitle": "Voordelen",
+    "advantages": [
+      "Lage warmtegeleiding, dus minder dikte nodig voor dezelfde isolatiewaarde",
+      "Licht (15–45 kg/m³), makkelijk te hanteren en weinig extra belasting voor constructies",
+      "Gesloten celstructuur die wateropname tegengaat",
+      "Maatvast: zakt niet door, zet niet en zakt niet in tijdens gebruik",
+      "Op de bouwplaats eenvoudig te snijden met hete draad of zaag, zonder speciaal gereedschap",
+      "Lagere materiaal- en montagekosten dan de meeste vezel- en PUR-isolatie",
+      "Draagt looproutes en vloerbelasting, vooral XPS en EPS met hogere dichtheid",
+      "Geschikt voor koude toepassingen en vriestemperaturen, van gekoeld water tot vriescellen",
+      "Bevat geen vezels, stuift dus niet en irriteert de huid niet",
+      "Recyclebaar en gemaakt zonder CFK's of HCFK's"
+    ],
+    "cautionsTitle": "Aandachtspunten",
+    "cautions": [
+      "Polystyreen is brandbaar. Gebruik brandvertragende kwaliteiten en dek het af met een beschermlaag zoals bouw- en brandvoorschriften vereisen.",
+      "De bovengrens ligt rond 75–80 °C. Gebruik voor hetere oppervlakken minerale wol of calciumsilicaat.",
+      "Oplosmiddelen en langdurig zonlicht beschadigen polystyreen. Gebruik geschikte lijmen en houd het afgedekt of beplaat."
+    ],
+    "standardsTitle": "Normen",
+    "standards": [
+      "Thermische isolatie van hard cellulair polystyreen",
+      "Geëxpandeerd polystyreen voor thermische isolatie (Indiase norm)",
+      "In de fabriek vervaardigde isolatieproducten van EPS voor gebouwen",
+      "In de fabriek vervaardigde isolatieproducten van XPS voor gebouwen",
+      "Oppervlakteverbrandingseigenschappen van bouwmaterialen",
+      "Beproevingsmethoden voor warmtegeleiding (hete plaat met beschermring / warmtestroommeter)"
+    ],
+    "applicationsTitle": "Toepassingen per sector",
+    "applications": [
+      {
+        "title": "Koelopslag en koeltechniek",
+        "items": [
+          "Wanden, vloeren en plafonds van koelcellen",
+          "Vriescellen tot −40 °C",
+          "Koelwagens en koelcontainers",
+          "Koelhuisvloeren op EPS met hoge dichtheid of XPS"
+        ]
+      },
+      {
+        "title": "Olie, gas en petrochemie",
+        "items": [
+          "Buisschalen voor gekoeld water en koude chemicaliënleidingen",
+          "Isolatie onder en boven het dek",
+          "Koude-isolatiesystemen met dampscherm",
+          "Isolatie van koude apparatuur en vaten met halfronde schalen"
+        ]
+      },
+      {
+        "title": "Installatietechniek en sanitair",
+        "items": [
+          "Gekoeldwater-buisschalen met aluminiumfolie",
+          "Isolatie van condensafvoeren",
+          "Isolatie van airconditioningkanalen",
+          "Koud- en warmwaterleidingen tot ongeveer 80 °C"
+        ]
+      },
+      {
+        "title": "Bouw",
+        "items": [
+          "Buitengevelisolatie (ETICS)",
+          "Isolatie van platte en hellende daken",
+          "Ondergrondse fundering- en perimeterisolatie (bij voorkeur XPS)",
+          "Vloerisolatie onder dekvloer of betonplaat",
+          "Omgekeerde daken (alleen XPS)",
+          "Spouwmuurplaten"
+        ]
+      },
+      {
+        "title": "Industrie en productie",
+        "items": [
+          "Voedingsmiddelen- en drankenbedrijven",
+          "Wanden en plafonds van farmaceutische cleanrooms",
+          "Sparingsvullers en lichtgewicht ophoging in de bouw"
+        ]
+      },
+      {
+        "title": "Scheepvaart en offshore",
+        "items": [
+          "Isolatie van accommodatiemodules",
+          "Koelruimen aan boord",
+          "Drijfvermogen en drijvers (EPS)"
+        ]
+      }
+    ],
+    "supplyTitle": "Wat wij leveren",
+    "supply": [
+      "Santura Engineering levert isolatie van geëxpandeerd (EPS) en geëxtrudeerd polystyreen (XPS): platen, buisschalen met en zonder aluminiumfolie, halfronde schalen en maatwerkdelen, met EPS in dichtheden van 15 tot 40 kg/m³. Typische klanten zijn raffinaderijen, koelhuisexploitanten, voedingsmiddelenbedrijven en bouwprojecten.",
+      "Als fabrikant van isolatiepennen en leverancier van minerale wol, glaswol, calciumsilicaat en keramische pakkingen kan Santura een compleet isolatiepakket uit één hand leveren. Wij exporteren naar meer dan 25 landen."
+    ],
+    "relatedTitle": "Gerelateerde producten",
+    "relatedPins": "Pennen en ringen om polystyreen platen op wanden en kanalen te bevestigen.",
+    "relatedMineralWool": "Het alternatief voor hete oppervlakken boven de grens van polystyreen.",
+    "relatedCalsil": "Stijve isolatie voor leidingen en apparatuur op hoge temperatuur.",
+    "relatedGlassFibre": "Glaswol en glasweefsel voor kanalen en bekleding.",
+    "relatedPir": "Een hard schuim met een hogere temperatuurbestendigheid dan polystyreen.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Wat is het verschil tussen EPS- en XPS-polystyreen isolatie?",
+        "a": "EPS (geëxpandeerd polystyreen) is een wit parelschuim, lichter en voordeliger, verkrijgbaar in dichtheden van 15 tot 40 kg/m³. XPS (geëxtrudeerd polystyreen) is dichter, met een hogere druksterkte (150–700 kPa), lagere wateropname (meestal 0,3% of minder) en lagere warmtegeleiding (0,029–0,036 W/m·K). XPS heeft de voorkeur voor ondergrondse, natte en belaste toepassingen."
+      },
+      {
+        "q": "Voor welk temperatuurbereik is polystyreen isolatie geschikt?",
+        "a": "Polystyreen isolatie wordt continu gebruikt tot ongeveer 80 °C voor EPS en ongeveer 75 °C voor XPS. Aan de koude kant geven fabrikanten EPS op tot ongeveer −180 °C en XPS meestal tot −50 °C. Het is zeer geschikt voor koelhuizen, koeltechniek, gekoeldwaterleidingen en gebouwen. Gebruik boven 80 °C minerale wol of calciumsilicaat."
+      },
+      {
+        "q": "Welke dichtheden EPS-isolatie zijn er?",
+        "a": "Santura levert EPS-isolatie in dichtheden van 15, 20, 25, 30 en 40 kg/m³. Een hogere dichtheid geeft een hogere druksterkte: 15 kg/m³ voor onbelaste wanden en plafonds, 40 kg/m³ voor zwaar belaste vloeren en industriële koelcellen. Andere dichtheden op aanvraag."
+      },
+      {
+        "q": "Is polystyreen isolatie waterdicht?",
+        "a": "Polystyreen heeft een gesloten celstructuur en is daardoor goed vochtbestendig. XPS neemt meestal 0,3% of minder water (volume) op en is dus de keuze voor ondergrondse en natte toepassingen. EPS neemt 2–5% op. Op koude oppervlakken hebben beide een dampscherm nodig, zoals aluminiumfolie, tegen condensatie. Geen van beide is een voedingsbodem voor schimmel."
+      }
+    ],
+    "ctaTitle": "Polystyreen isolatie nodig?",
+    "ctaText": "Laat ons het type (EPS of XPS), de vorm, dichtheid, dikte, leidingmaten of plaatafmetingen en hoeveelheid weten. Wij reageren met een offerte en levertijd.",
+    "ctaRfq": "Offerte aanvragen voor polystyreen isolatie",
+    "ctaContact": "Of neem contact op met ons team"
+  },
+  "pirPage": {
+    "metaTitle": "PIR-isolatieplaten en buisschalen | Industriële leverancier",
+    "metaDescription": "Polyisocyanuraat (PIR) isolatie: platen en buisschalen voor −196 °C tot 150 °C. CFK-vrij, goed brandgedrag. Sinds 1980, 25+ landen. Vraag een offerte aan.",
+    "eyebrow": "Isolatiematerialen",
+    "h1": "Polyisocyanuraat (PIR) isolatie",
+    "subheading": "PIR-hardschuimisolatie: buisschalen van ½\" tot 24\", platen, beklede platen en segmenten. Zeer lage warmtegeleiding, Class 1 vlamuitbreiding en een grens voor hete oppervlakken van 150 °C.",
+    "badges": [
+      "Buisschalen ½\"–24\"",
+      "Platen en segmenten",
+      "Tot 150 °C",
+      "Class 1 vlamuitbreiding",
+      "CFK-vrij"
+    ],
+    "gallery": [
+      "Polyisocyanuraat (PIR) isolatieplaat met kraftpapierbekleding"
+    ],
+    "overviewTitle": "Wat polyisocyanuraat isolatie is",
+    "overview": [
+      "Polyisocyanuraat (PIR), ook polyiso genoemd, is een thermohardend hardschuim isolatiemateriaal. Het is een gemodificeerd polyurethaan (PUR) met een groter aandeel isocyanuraatbindingen, en de warmtegeleiding behoort tot de laagste van de gangbare isolatiematerialen.",
+      "De isocyanuraatstructuur geeft PIR een beter brandgedrag dan standaard polyurethaan. Het haalt Class 1 voor oppervlakte-vlamuitbreiding, geeft weinig rook en smelt of druppelt niet bij brand, in tegenstelling tot de meeste thermoplasten. Ook ligt de grens voor hete oppervlakken op 150 °C, tegenover 110 °C bij normaal polyurethaanschuim, zodat PIR direct over stoom- of elektrische tracing kan worden aangebracht die binnen die grens blijft.",
+      "PIR heeft voor dezelfde prestatie ongeveer de helft van de dikte van kurk nodig. Een dunnere laag betekent minder oppervlak om af te werken, wat de kosten van dampscherm, beplating en ondersteuningen per strekkende meter leiding verlaagt. Ons PIR is CFK-vrij."
+    ],
+    "compareTitle": "Dikte vergeleken met andere isolatie",
+    "compareIntro": "Benodigde isolatiedikte voor dezelfde warmteweerstand (R = 2,5 m²K/W).",
+    "colMaterial": "Materiaal",
+    "colThickness": "Benodigde dikte",
+    "lambdaUnit": "W/m·K",
+    "mmUnit": "mm",
+    "compareNames": [
+      "PIR (polyisocyanuraat)",
+      "XPS (geëxtrudeerd polystyreen)",
+      "Glaswol",
+      "EPS (geëxpandeerd polystyreen)",
+      "Minerale wol (steenwol)",
+      "Calciumsilicaat"
+    ],
+    "compareNote": "PIR haalt dezelfde isolatiewaarde als minerale wol met ongeveer 40% minder dikte, wat ruimte, beplating en montagekosten bespaart.",
+    "compareCalc": "Berekening voor een vlak oppervlak (dikte = R × λ) met een typische warmtegeleiding bij lage gemiddelde temperatuur. De werkelijke dikte hangt af van leidingmaat, bedrijfstemperatuur en ontwerpuitgangspunten. Minerale wol en calciumsilicaat worden gekozen voor hetere toepassingen, waar PIR niet bruikbaar is.",
+    "formsTitle": "Productvormen en afmetingen",
+    "formsIntro": "Gangbare vormen en afmetingen. Andere maten, diktes en vormen leveren wij volgens tekening.",
+    "colForm": "Vorm",
+    "colDescription": "Omschrijving",
+    "colSizes": "Gangbare afmetingen",
+    "forms": [
+      {
+        "form": "Buisschalen (twee helften)",
+        "text": "Voorgevormde tweedelige schalen voor leidingisolatie",
+        "sizes": "½\" tot 24\" (DN15–DN600); vanaf 25 mm dik; 1000 mm lang"
+      },
+      {
+        "form": "Platen",
+        "text": "Stijve platen voor wanden, daken, kanalen en apparatuur",
+        "sizes": "20–150 mm dik; 1200 × 600 mm of 2400 × 1200 mm"
+      },
+      {
+        "form": "Beklede platen",
+        "text": "PIR-plaat met aluminium- of kraftpapierbekleding; aluminium werkt als dampscherm",
+        "sizes": "Standaardmaten"
+      },
+      {
+        "form": "Segmenten",
+        "text": "Trapeziumvormige segmenten voor leidingen en vaten met grote diameter",
+        "sizes": "Passend bij de buitendiameter"
+      },
+      {
+        "form": "Ingekerfde / buigbare platen",
+        "text": "Voorgekerfde platen die om gebogen oppervlakken en tanks buigen",
+        "sizes": "20–80 mm dik"
+      },
+      {
+        "form": "Ondersteuningsblokken",
+        "text": "PIR-blokken met hoge dichtheid voor geïsoleerde leidingondersteuningen, in plaats van houten blokken",
+        "sizes": "Volgens leidingmaat en belasting"
+      }
+    ],
+    "pipeTitle": "PIR-buisschalen",
+    "pipeIntro": "Onze standaard PIR-buisschalen. Diktes en bekledingen worden volgens projectspecificatie gemaakt.",
+    "pipeRows": [
+      {
+        "label": "Leidingmaten",
+        "value": "½\" tot 24\" (DN15–DN600)"
+      },
+      {
+        "label": "Dikte",
+        "value": "Vanaf 25 mm"
+      },
+      {
+        "label": "Lengte",
+        "value": "1000 mm"
+      },
+      {
+        "label": "Dichtheid",
+        "value": "Vanaf 36 kg/m³"
+      },
+      {
+        "label": "Uitvoering",
+        "value": "Twee halve schalen met stompe of overlappende naad"
+      },
+      {
+        "label": "Bekleding",
+        "value": "Onbekleed, aluminiumfolie of kraftpapier"
+      },
+      {
+        "label": "Grens hete zijde",
+        "value": "150 °C continu"
+      }
+    ],
+    "drawingAlt": "Lijntekening van een tweedelige PIR-buisschaal rond een leiding",
+    "drawingCaption": "Buisschaal uit twee halve schalen",
+    "specTitle": "PIR en PUR vergeleken",
+    "colProperty": "Eigenschap",
+    "colPir": "PIR (polyisocyanuraat)",
+    "colPur": "PUR (polyurethaan)",
+    "specRows": [
+      {
+        "label": "Type",
+        "pir": "Thermohardend hardschuim met isocyanuraatbindingen",
+        "pur": "Thermohardend hardschuim"
+      },
+      {
+        "label": "Warmtegeleiding (λ, 10 °C gemiddeld)",
+        "pir": "0,020–0,025 W/m·K",
+        "pur": "0,023–0,028 W/m·K"
+      },
+      {
+        "label": "Dichtheid",
+        "pir": "Vanaf 36 kg/m³ (buisschalen); 30–60 kg/m³ (platen)",
+        "pur": "30–50 kg/m³"
+      },
+      {
+        "label": "Max. temperatuur hete oppervlak",
+        "pir": "150 °C",
+        "pur": "110 °C"
+      },
+      {
+        "label": "Gebruik bij lage temperatuur",
+        "pir": "Cryogene kwaliteiten gebruikt tot ongeveer −196 °C",
+        "pur": "Cryogene kwaliteiten gebruikt tot ongeveer −196 °C"
+      },
+      {
+        "label": "Druksterkte (10% vervorming)",
+        "pir": "Ongeveer 150–200 kPa, hoger bij grotere dichtheid",
+        "pur": "Ongeveer 120 kPa en meer"
+      },
+      {
+        "label": "Brandgedrag",
+        "pir": "Class 1 vlamuitbreiding; weinig rook; smelt en druppelt niet",
+        "pur": "Minder goed; vraagt brandvertragers"
+      },
+      {
+        "label": "Waterdampdoorlatendheid",
+        "pir": "Zeer laag (gesloten cellen)",
+        "pur": "Zeer laag (gesloten cellen)"
+      },
+      {
+        "label": "Wateropname",
+        "pir": "Laag, meestal onder 2 vol.%",
+        "pur": "Laag"
+      },
+      {
+        "label": "Maatvastheid",
+        "pir": "Zeer goed",
+        "pur": "Goed"
+      },
+      {
+        "label": "Aandeel gesloten cellen",
+        "pir": "Meer dan 90%",
+        "pur": "Meer dan 90%"
+      },
+      {
+        "label": "Blaasmiddel",
+        "pir": "CFK-vrij",
+        "pur": "CFK-vrij bij moderne kwaliteiten"
+      }
+    ],
+    "specNote": "Typische waarden. De exacte waarden hangen af van kwaliteit, dichtheid en fabrikant; het productblad van het geleverde product is bepalend.",
+    "advantagesTitle": "Voordelen",
+    "advantages": [
+      "Zeer hoge isolatiewaarde, die energie bespaart",
+      "Isolatie zonder holtes: een gesloten-cellig schuim dat over de hele doorsnede gelijkmatig presteert",
+      "Ongeveer de helft van de dikte van kurk, wat kosten voor beplating, dampscherm en ondersteuningen verlaagt",
+      "Brandbestendig: Class 1 vlamuitbreiding, weinig rook, smelt en druppelt niet",
+      "Grens voor hete oppervlakken van 150 °C, hoger dan de 110 °C van standaard polyurethaan",
+      "Water- en vochtbestendig",
+      "Maatvast: krimpt, vervormt en zet niet",
+      "Bestand tegen de meeste oliën, chemicaliën en oplosmiddelen",
+      "Geen koudebruggen door de isolatie, omdat er geen vezel- of metaalpaden in zitten",
+      "Duurzaam; behoudt bij correcte montage en bescherming zijn prestaties vele jaren"
+    ],
+    "cautionsTitle": "Aandachtspunten",
+    "cautions": [
+      "PIR is brandbaar, ook al smelt of druppelt het niet. Breng het aan onder metalen beplating of een andere beschermlaag zoals brandvoorschriften vereisen.",
+      "De grens voor de hete zijde is 150 °C. Gebruik voor hetere leidingen en apparatuur minerale wol of calciumsilicaat.",
+      "Zonlicht tast blootliggend schuim aan. Houd PIR beplaat of afgedekt en dicht naden bij koude toepassingen af met een dampscherm."
+    ],
+    "standardsTitle": "Normen",
+    "standards": [
+      "In de fabriek vervaardigde PUR- en PIR-isolatieproducten voor gebouwinstallaties en industriële installaties",
+      "In de fabriek vervaardigde isolatieproducten van polyurethaan-hardschuim (PUR / PIR) voor gebouwen",
+      "Voorgevormde thermische isolatie van hard cellulair polyisocyanuraat",
+      "Oppervlakteverbrandingseigenschappen van bouwmaterialen",
+      "Beproeving van oppervlakte-vlamuitbreiding (Class 1)",
+      "Harde cellulaire kunststoffen voor thermische isolatie van gebouwen"
+    ],
+    "applicationsTitle": "Toepassingen per sector",
+    "applications": [
+      {
+        "title": "Olie, gas en petrochemie",
+        "items": [
+          "Procesleidingen en condensaatleidingen tot 150 °C",
+          "Gekoeldwater-, pekel- en koude chemicaliënleidingen",
+          "Cryogene leidingen met PIR-systemen in cryogene kwaliteit",
+          "Leidingen met stoom- of elektrische tracing tot 150 °C",
+          "Vaten en kolommen onder metalen beplating"
+        ]
+      },
+      {
+        "title": "Energieopwekking",
+        "items": [
+          "Condensaat- en warmwaterleidingen",
+          "Lagedruk-stoomleidingen tot 150 °C",
+          "Koud- en koelwaterleidingen",
+          "Installaties van hulpgebouwen"
+        ]
+      },
+      {
+        "title": "Installatietechniek en sanitair",
+        "items": [
+          "Gekoeldwaterleidingen, waar een geringe dikte condensatie voorkomt",
+          "Warmtapwaterleidingen",
+          "Koudemiddelleidingen",
+          "Kanaalplaten en kanaalisolatie"
+        ]
+      },
+      {
+        "title": "Bouw",
+        "items": [
+          "Platte daken, ook met afschotplaten voor afwatering",
+          "Spouw- en gevelisolatie",
+          "Vloerisolatie",
+          "Koelhuizen en vriesgebouwen",
+          "Metaalbeklede PIR-sandwichpanelen"
+        ]
+      },
+      {
+        "title": "Scheepvaart en offshore",
+        "items": [
+          "Leidingen en apparatuur op offshoreplatforms",
+          "Wanden en plafonds van accommodatiemodules",
+          "Isolatie van schotten en dekken"
+        ]
+      },
+      {
+        "title": "Koelopslag en koeltechniek",
+        "items": [
+          "Wanden, vloeren en plafonds van koelcellen",
+          "Vriescellen tot −40 °C",
+          "Snelvriezers",
+          "Koelwagens en koelcontainers"
+        ]
+      },
+      {
+        "title": "Procesindustrie",
+        "items": [
+          "Voedingsmiddelen- en drankenbedrijven: hygiënische leidingisolatie",
+          "Farmaceutische cleanrooms en procesleidingen",
+          "Chemische fabrieken: leidingen en vaten in contact met oplosmiddelen"
+        ]
+      }
+    ],
+    "supplyTitle": "Wat wij leveren",
+    "supply": [
+      "Santura Engineering levert polyisocyanuraat (PIR) isolatie: buisschalen van ½\" tot 24\" vanaf 36 kg/m³, platen, beklede platen en segmenten. Ons PIR is CFK-vrij. Typische klanten zijn raffinaderijen, petrochemische fabrieken, energiecentrales en koelopslagprojecten.",
+      "Als fabrikant van vuurvaste ankers en isolatiepennen en leverancier van minerale wol, polystyreen, calciumsilicaat en keramische pakkingen kan Santura een compleet isolatiepakket uit één hand leveren. Wij exporteren naar meer dan 25 landen."
+    ],
+    "relatedTitle": "Gerelateerde producten",
+    "relatedPolystyrene": "Een voordeliger hardschuim voor toepassingen tot ongeveer 80 °C.",
+    "relatedMineralWool": "De keuze voor hete toepassingen boven 150 °C.",
+    "relatedCalsil": "Stijve isolatie voor leidingen en apparatuur op hoge temperatuur.",
+    "relatedPins": "Pennen en ringen om PIR-platen op wanden en kanalen te bevestigen.",
+    "relatedGlassFibre": "Glasweefsel als omwikkeling over PIR-isolatie.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Wat is polyisocyanuraat (PIR) isolatie?",
+        "a": "Polyisocyanuraat (PIR of polyiso) is een thermohardend hardschuim met een van de laagste warmtegeleidingen van gangbare isolatiematerialen, 0,020–0,025 W/m·K. Het is een gemodificeerd polyurethaan met beter brandgedrag: Class 1 vlamuitbreiding, weinig rook, en het smelt of druppelt niet. Standaard PIR wordt gebruikt tot 150 °C en cryogene kwaliteiten tot ongeveer −196 °C."
+      },
+      {
+        "q": "Wat is het verschil tussen PIR- en PUR-isolatie?",
+        "a": "PIR (polyisocyanuraat) heeft een groter aandeel isocyanuraatbindingen dan standaard PUR (polyurethaan). Dat geeft een beter brandgedrag en een hogere grens voor hete oppervlakken: 150 °C tegenover 110 °C voor PUR. PIR heeft ook een iets lagere warmtegeleiding. Beide zijn gesloten-cellige hardschuimen, maar PIR heeft de voorkeur voor industriële leidingisolatie en waar brandgedrag belangrijk is."
+      },
+      {
+        "q": "In welke leidingmaten zijn PIR-buisschalen verkrijgbaar?",
+        "a": "Santura levert PIR-buisschalen voor leidingen van ½\" tot 24\" (DN15–DN600), vanaf 25 mm dik en met een dichtheid vanaf 36 kg/m³. De schalen zijn 1000 mm lang, uitgevoerd als twee halve schalen en verkrijgbaar onbekleed of met aluminiumfolie of kraftpapier."
+      },
+      {
+        "q": "Waarom is PIR-isolatie dunner dan andere isolatie?",
+        "a": "PIR heeft een van de laagste warmtegeleidingen van gangbare isolatiematerialen, ongeveer 0,022 W/m·K tegenover ongeveer 0,038 W/m·K voor minerale wol. Het haalt dezelfde isolatiewaarde met ongeveer 40% minder dikte dan minerale wol en ongeveer de helft van kurk. Dat bespaart ruimte, verlaagt de kosten van beplating en dampscherm en verkort de montagetijd."
+      }
+    ],
+    "ctaTitle": "PIR-isolatie nodig?",
+    "ctaText": "Laat ons de vorm, leidingmaten of plaatafmetingen, dikte, bekleding, bedrijfstemperatuur en hoeveelheid weten. Wij reageren met een offerte en levertijd.",
+    "ctaRfq": "Offerte aanvragen voor PIR-isolatie",
+    "ctaContact": "Of neem contact op met ons team"
+  },
+  "fsPage": {
+    "metaTitle": "Leverancier bevestigingsmiddelen | Bouten, tapeinden, moeren",
+    "metaDescription": "Industriële bevestigingsmiddelen: B7-tapeinden, zeskantbouten, moeren, ringen in rvs, Inconel, Monel en Duplex. Leverancier sinds 1980, 25+ landen.",
+    "eyebrow": "Geleverd door Santura",
+    "h1": "Industriële bevestigingsmiddelen",
+    "subheading": "Bouten, tapeinden, moeren en ringen in koolstofstaal, gelegeerd B7-staal, roestvast staal, duplex en nikkellegeringen, geleverd samen met onze vuurvaste ankers en isolatieproducten voor inkoop bij één leverancier.",
+    "badges": [
+      "B7 / 2H tapeinden",
+      "Zeskantbouten en moeren",
+      "Roestvast staal",
+      "Inconel, Monel, Duplex",
+      "Certificaten EN 10204 3.1",
+      "Eén inkooporder"
+    ],
+    "gallery": [
+      "B7-tapeinden en draadstangen van gelegeerd staal",
+      "Verzinkte zeskantbouten",
+      "Zware zeskantmoeren van zwart staal",
+      "Zeskant flensmoeren met vertanding in rvs",
+      "Verzinkte zeskant flensbout",
+      "Verzinkte slotbouten",
+      "Laagbolkopbouten met binnenzeskant, gebruineerd",
+      "Assortiment industriële bouten, moeren en ringen"
+    ],
+    "overviewTitle": "Bevestigingsmiddelen voor raffinaderij-, petrochemie- en energieprojecten",
+    "overview": [
+      "Naast de vuurvaste ankers, staalvezels en isolatiepennen die het zelf maakt, levert Santura Engineering industriële bevestigingsmiddelen: bouten, tapeinden, moeren en ringen in koolstofstaal, gelegeerd staal, roestvast staal en hoogwaardige legeringen zoals Inconel, Monel en Duplex.",
+      "Onze bevestigingsmiddelen betrekken we bij goedgekeurde leveranciers en leveren we als onderdeel van complete projectpakketten. Dat is vooral handig bij projecten voor raffinaderijen, petrochemische fabrieken en energiecentrales, waar B7-flensbouten en speciale legeringen samen met vuurvaste en isolatiematerialen worden voorgeschreven.",
+      "EPC-aannemers, raffinaderijen en installatie-eigenaren kunnen zo ankers, isolatie en bevestigingsmiddelen bij één leverancier kopen, met één documentenpakket en één leverplanning."
+    ],
+    "whyTitle": "Waarom bevestigingsmiddelen bij Santura inkopen",
+    "why": [
+      {
+        "title": "Inkoop bij één leverancier",
+        "text": "Vuurvaste ankers, isolatiematerialen, isolatiepennen en bevestigingsmiddelen bij één leverancier: één inkooporder, één zending en één documentenpakket."
+      },
+      {
+        "title": "Kennis van legeringen",
+        "text": "Wij maken dagelijks ankers in roestvast staal zoals SS 304, 310 en 316 en in nikkellegeringen zoals Inconel. Die materiaalkennis gebruiken we bij het kiezen en controleren van boutkwaliteiten."
+      },
+      {
+        "title": "Bouwplaatsklare verpakking",
+        "text": "Op verzoek worden B7-tapeindsets verpakt en gelabeld per flensmaat en drukklasse, en kits per samenstelling gesorteerd, klaar voor montage."
+      },
+      {
+        "title": "Kwaliteitsdocumenten",
+        "text": "Materiaalcertificaten volgens EN 10204 3.1, charge- of lotnummers op de labels en documenten die vóór verzending met de order zijn vergeleken."
+      },
+      {
+        "title": "Wereldwijde levering",
+        "text": "Bevestigingsmiddelen reizen mee met uw ankers en isolatie via dezelfde logistiek waarmee wij naar meer dan 25 landen leveren."
+      }
+    ],
+    "rangeTitle": "Assortiment",
+    "rangeIntro": "Gangbare typen en de normen waarnaar ze meestal worden geleverd. Andere typen, normen en speciale maten betrekken we volgens uw specificatie.",
+    "boltsTitle": "Bouten en tapeinden",
+    "nutsTitle": "Moeren",
+    "washersTitle": "Ringen",
+    "colType": "Type",
+    "colDescription": "Omschrijving",
+    "colStandards": "Gangbare normen",
+    "bolts": [
+      {
+        "type": "Zeskantbouten",
+        "text": "Standaard zeskantbouten, het meest gebruikte industriële bevestigingsmiddel; deels of volledig van draad voorzien"
+      },
+      {
+        "type": "Tapeinden (B7)",
+        "text": "Volledig van draad voorziene tapeinden van chroom-molybdeenstaal voor flensverbindingen bij hoge temperatuur en druk"
+      },
+      {
+        "type": "U-beugels",
+        "text": "U-vormige bouten om leidingen aan ondersteuningen te klemmen"
+      },
+      {
+        "type": "Oogbouten",
+        "text": "Bouten met een oogkop voor hijsen en aanslaan"
+      },
+      {
+        "type": "Flensbouten",
+        "text": "Zeskantbouten met geïntegreerde flens die de belasting spreidt en losdraaien tegengaat"
+      },
+      {
+        "type": "Slotbouten",
+        "text": "Bolkop met vierkante hals die meedraaien bij het aanhalen van de moer voorkomt"
+      },
+      {
+        "type": "Inbusbouten (binnenzeskant)",
+        "text": "Binnenzeskant voor hoog aanhaalmoment in krappe ruimtes en verzonken montage; cilinderkop en verzonken kop"
+      },
+      {
+        "type": "Laagbolkopbouten",
+        "text": "Lage ronde kop; met binnenzeskant en M16-bouten voor geleiderails"
+      },
+      {
+        "type": "Gekartelde bouten",
+        "text": "Bouten met gekartelde kop of schacht, geleverd volgens tekening"
+      },
+      {
+        "type": "Verzonken bouten met vierkante hals",
+        "text": "Platte verzonken kop met vierkante hals"
+      },
+      {
+        "type": "Platkopbouten met nok",
+        "text": "Platte kop met nok die meedraaien in staalverbindingen voorkomt"
+      }
+    ],
+    "nuts": [
+      {
+        "type": "Zeskantmoeren",
+        "text": "Standaard zeskantmoeren voor algemeen gebruik"
+      },
+      {
+        "type": "Zware zeskantmoeren",
+        "text": "Dikkere moeren met grotere sleutelwijdte voor hoogwaardige boutverbindingen, gebruikt met B7-tapeinden"
+      },
+      {
+        "type": "Contramoeren (laag)",
+        "text": "Lage zeskantmoeren als tweede, borgende moer"
+      },
+      {
+        "type": "Borgmoeren met nylon",
+        "text": "Zeskantmoeren met nylon ring die losdraaien door trillingen tegengaan"
+      },
+      {
+        "type": "Flensmoeren",
+        "text": "Zeskantmoeren met geïntegreerde, vertande flens die de belasting spreidt"
+      },
+      {
+        "type": "Lasmoeren",
+        "text": "Vierkante of zeskantmoeren om op plaat te lassen"
+      },
+      {
+        "type": "Vierkante moeren",
+        "text": "Vierkante moeren voor rails en sleuven"
+      },
+      {
+        "type": "Dopmoeren",
+        "text": "Zeskantmoeren met gesloten dop die het boutuiteinde afdekt"
+      },
+      {
+        "type": "Oogmoeren",
+        "text": "Moeren met hijsoog voor aanslaan"
+      }
+    ],
+    "washers": [
+      {
+        "type": "Vlakke ringen",
+        "text": "Ringen die de belasting onder moer of boutkop spreiden"
+      },
+      {
+        "type": "Veerringen",
+        "text": "Gespleten ringen die losdraaien door trillingen tegengaan"
+      },
+      {
+        "type": "Tandveerringen",
+        "text": "Ringen met binnen- of buitenvertanding voor borging en aarding"
+      },
+      {
+        "type": "Wigvormige ringen",
+        "text": "Schuine ringen voor de hellende flenzen van I- en U-profielen"
+      }
+    ],
+    "sizesTitle": "Maten, sterkteklassen en afwerkingen",
+    "sizesIntro": "Gangbare leverbereiken voor onze meest gevraagde artikelen.",
+    "colProduct": "Product",
+    "colSize": "Maatbereik",
+    "colGrade": "Sterkteklassen",
+    "colFinish": "Afwerkingen",
+    "rangeRows": [
+      {
+        "item": "Zeskantbouten",
+        "size": "M6–M64; lengtes tot 450 mm",
+        "grade": "4.6, 4.8, 5.6, 5.8, 8.8, 10.9, 12.9, B7, B7M",
+        "finish": "Gebruineerd, verzinkt, thermisch verzinkt"
+      },
+      {
+        "item": "Tapeinden en dubbele tapeinden",
+        "size": "M8–M72; 5/16\" tot 3\"",
+        "grade": "8.8 / 8, B7 / 2H, B7M / 2HM",
+        "finish": "Zwart, thermisch verzinkt"
+      },
+      {
+        "item": "Zeskantmoeren",
+        "size": "M5–M56",
+        "grade": "4, 6, 8, 10, 12, 2H, 2HM",
+        "finish": "Gebruineerd, verzinkt, thermisch verzinkt"
+      },
+      {
+        "item": "Inbusbouten",
+        "size": "M8–M30; lengtes tot 450 mm",
+        "grade": "4.6, 4.8, 5.6, 5.8, 8.8",
+        "finish": "Gebruineerd, verzinkt, thermisch verzinkt"
+      },
+      {
+        "item": "Slotbouten",
+        "size": "M6–M64",
+        "grade": "4.6, 4.8, 5.6, 8.8",
+        "finish": "Zwart gefosfateerd, blank of geel verzinkt, thermisch verzinkt"
+      },
+      {
+        "item": "Verzonken bouten met vierkante hals of nok",
+        "size": "M6–M30",
+        "grade": "4.6, 4.8, 5.6, 8.8",
+        "finish": "Zwart gefosfateerd, blank of geel verzinkt, thermisch verzinkt"
+      },
+      {
+        "item": "Flensbouten, flensmoeren en gekartelde bouten",
+        "size": "Op bestelling",
+        "grade": "Bouten 8.8, 10.9, 12.9; moeren 8, 10, 12",
+        "finish": "Gebruineerd, verzinkt, thermisch verzinkt"
+      },
+      {
+        "item": "Laagbolkopbouten (geleiderails)",
+        "size": "M16",
+        "grade": "4.6, 8.8",
+        "finish": "Zwart gefosfateerd, thermisch verzinkt"
+      }
+    ],
+    "b7Eyebrow": "Uitgelicht product",
+    "b7Title": "B7-tapeinden",
+    "b7Intro": "Tapeinden volgens ASTM A193 B7 met zware zeskantmoeren A194 2H zijn de meest voorgeschreven bevestigingsmiddelen voor flensverbindingen in raffinaderijen en petrochemische fabrieken.",
+    "b7Rows": [
+      {
+        "label": "Specificatie",
+        "value": "ASTM A193 Grade B7: chroom-molybdeenstaal, veredeld"
+      },
+      {
+        "label": "Bijbehorende moeren",
+        "value": "ASTM A194 Grade 2H, zware zeskant; B7M-tapeinden met 2HM-moeren voor zure (H₂S) service"
+      },
+      {
+        "label": "Minimale treksterkte",
+        "value": "860 MPa tot 2½\"; 795 MPa boven 2½\" tot 4\"; 690 MPa boven 4\" tot 7\""
+      },
+      {
+        "label": "Minimale rekgrens",
+        "value": "720 MPa tot 2½\"; 655 MPa boven 2½\" tot 4\"; 515 MPa boven 4\" tot 7\""
+      },
+      {
+        "label": "Gebruikstemperatuur",
+        "value": "Tot ongeveer 450 °C; daarboven worden B16- of nikkellegeringsbouten voorgeschreven"
+      },
+      {
+        "label": "Maten",
+        "value": "M8–M72 (5/16\" tot 3\"), in lengtes passend bij flensklasse en pakking"
+      },
+      {
+        "label": "Afwerking",
+        "value": "Zwart of thermisch verzinkt; PTFE (Xylan) en andere coatings op aanvraag"
+      },
+      {
+        "label": "Toepassingen",
+        "value": "Flenzen van drukvaten en warmtewisselaars, afsluiterdeksels en pijpleidingflenzen"
+      }
+    ],
+    "b7Note": "B7-tapeinden kunnen als sets worden geleverd (tapeind, twee 2H-moeren en zo nodig ringen), verpakt en gelabeld per flensmaat en drukklasse voor montage op de bouwplaats.",
+    "materialsTitle": "Materialen",
+    "materialsIntro": "Kies het materiaal op basis van gebruikstemperatuur, druk en corrosiebelasting. Wij betrekken de kwaliteit die uw specificatie voorschrijft.",
+    "colMaterial": "Materiaal",
+    "colGrades": "Kwaliteiten",
+    "colUse": "Typisch gebruik",
+    "materials": [
+      {
+        "name": "Koolstofstaal",
+        "use": "Algemene staalbouw en niet-kritische toepassingen"
+      },
+      {
+        "name": "Gelegeerd staal B7",
+        "use": "Flensverbindingen bij hoge temperatuur en druk in raffinaderijen en petrochemie"
+      },
+      {
+        "name": "Gelegeerd staal B7M",
+        "use": "Zure (H₂S) service, met beperkte hardheid"
+      },
+      {
+        "name": "Roestvast staal 304 / 304L",
+        "use": "Algemene corrosiebestendigheid; voedingsmiddelen- en farmaceutische fabrieken"
+      },
+      {
+        "name": "Roestvast staal 316 / 316L",
+        "use": "Maritieme, chemische en chloridehoudende omgevingen"
+      },
+      {
+        "name": "Roestvast staal 321 / 347",
+        "use": "Gestabiliseerde kwaliteiten voor hoge temperaturen"
+      },
+      {
+        "name": "Duplex 2205",
+        "use": "Offshore en ontzilting; bestand tegen chloriden en spanningscorrosie"
+      },
+      {
+        "name": "Inconel 600 / 625",
+        "use": "Hoge temperaturen en zware corrosie"
+      },
+      {
+        "name": "Monel 400 / K-500",
+        "use": "Zeewater, chemische processen en zure omgevingen"
+      },
+      {
+        "name": "Hastelloy C-276",
+        "use": "Zeer corrosieve chemische omgevingen"
+      }
+    ],
+    "qualityTitle": "Kwaliteit en documentatie",
+    "qualityRows": [
+      {
+        "label": "Certificaten",
+        "value": "Materiaalcertificaten volgens EN 10204 3.1 van de staalfabriek of de herkomstfabriek; 3.2 met inspectie door derden op aanvraag"
+      },
+      {
+        "label": "Controles vóór verzending",
+        "value": "Certificaten vergeleken met de order, maatcontroles en controle van de legering met onze handheld XRF-analyser bij rvs en nikkellegeringen"
+      },
+      {
+        "label": "Traceerbaarheid",
+        "value": "Charge- of lotnummers overgenomen van de certificaten op de verpakkingslabels"
+      },
+      {
+        "label": "Verpakking",
+        "value": "Gelabeld per maat en kwaliteit; dozen, zakken of projectspecifieke verpakking"
+      },
+      {
+        "label": "Normen",
+        "value": "ASTM, ASME / ANSI, DIN, ISO, BS en IS, volgens projectspecificatie"
+      }
+    ],
+    "applicationsTitle": "Toepassingen per sector",
+    "applications": [
+      {
+        "title": "Olie, gas en petrochemie",
+        "items": [
+          "Flensverbindingen op procesleidingen (B7 / 2H tapeindsets)",
+          "Afsluitingen van drukvaten en warmtewisselaars",
+          "Bouten voor afsluiterdeksels",
+          "Flensverbindingen van pijpleidingen",
+          "Bouten voor zure service (B7M / 2HM) en legeringen voor corrosieve media"
+        ]
+      },
+      {
+        "title": "Energieopwekking",
+        "items": [
+          "Flensverbindingen op stoomleidingen",
+          "Boutverbindingen van ketels en drukdelen",
+          "Bouten voor turbinehuizen",
+          "Constructieve verbindingen"
+        ]
+      },
+      {
+        "title": "Bouw en staalbouw",
+        "items": [
+          "Staalconstructieverbindingen (zeskant- en slotbouten)",
+          "U-beugels voor leidingklemmen",
+          "Verbindingen van leuningen en bordessen",
+          "Bouten voor geleiderails"
+        ]
+      },
+      {
+        "title": "Scheepvaart en offshore",
+        "items": [
+          "Duplex bevestigingsmiddelen voor zeewater",
+          "Monel bevestigingsmiddelen voor zeewater en subsea",
+          "SS 316-bouten voor maritieme omgevingen"
+        ]
+      },
+      {
+        "title": "Algemene industrie",
+        "items": [
+          "Montage en onderhoud van apparatuur",
+          "Bevestigingsmiddelen voor machinebouwers (OEM)",
+          "Reserveonderdelen voor onderhoud"
+        ]
+      }
+    ],
+    "relatedTitle": "Producten die wij maken",
+    "relatedAnchors": "Ons hoofdproduct: SEPL-ankers voor vuurvaste bekledingen.",
+    "relatedFibresName": "Staalvezels",
+    "relatedFibres": "Roestvaststalen vezels voor wapening van vuurvast beton, gemaakt in onze werkplaats.",
+    "relatedPins": "Laspennen, lijmpennen en ringen voor het bevestigen van isolatie.",
+    "relatedFoundation": "Funderingsbouten in L-, J-, U-, plaat- en rechte vorm volgens tekening.",
+    "relatedCw": "Contragewichtsystemen uit onze werkplaats.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Welke industriële bevestigingsmiddelen levert Santura?",
+        "a": "Santura levert een compleet assortiment: zeskantbouten, B7-tapeinden, U-beugels, oogbouten, flensbouten, slotbouten en inbusbouten, met bijpassende moeren (zeskant, zware zeskant, contra-, borg-, flens-, las-, vierkante, dop- en oogmoeren) en vlakke ringen, veerringen, tandveerringen en wigvormige ringen. Leverbaar in koolstofstaal, gelegeerd staal, roestvast staal, Inconel, Monel en Duplex."
+      },
+      {
+        "q": "In welke materialen zijn uw bevestigingsmiddelen verkrijgbaar?",
+        "a": "Wij leveren koolstofstaal (ASTM A307 en ISO-sterkteklassen), gelegeerd staal (ASTM A193 B7 en B7M), roestvast staal (304, 316, 321, 347), Duplex 2205, Inconel 600/625, Monel 400/K-500 en Hastelloy C-276. Het juiste materiaal hangt af van gebruikstemperatuur, druk en corrosiebelasting. Levering gebeurt met materiaalcertificaten volgens EN 10204 3.1."
+      },
+      {
+        "q": "Levert u B7-tapeinden voor flensverbindingen?",
+        "a": "Ja. Santura levert tapeinden volgens ASTM A193 Grade B7 met zware zeskantmoeren A194 Grade 2H, de standaardspecificatie voor flensverbindingen in raffinaderijen en petrochemie, en B7M/2HM voor zure service. De maten lopen van M8 tot M72 (5/16\" tot 3\") in lengtes passend bij de flensklasse, en de tapeinden kunnen als complete sets (tapeind, twee moeren en ringen) per flens gelabeld worden geleverd."
+      },
+      {
+        "q": "Waarom bevestigingsmiddelen samen met vuurvaste ankers bij Santura inkopen?",
+        "a": "De kernactiviteit van Santura is het maken van vuurvaste ankers en isolatiepennen voor dezelfde raffinaderijen en petrochemische fabrieken die industriële bevestigingsmiddelen nodig hebben. Beide bij Santura inkopen betekent één inkooporder, één zending, één documentenpakket en dezelfde kwaliteitscontroles, wat de inkoop voor EPC-aannemers en installatie-eigenaren vereenvoudigt."
+      }
+    ],
+    "ctaTitle": "Bevestigingsmiddelen nodig voor uw project?",
+    "ctaText": "Stuur ons uw boutenlijst met type, maat, sterkteklasse, norm, afwerking en hoeveelheid, of een flenzenlijst voor B7-tapeindsets. Wij reageren met een offerte en levertijd.",
+    "ctaRfq": "Offerte aanvragen voor bevestigingsmiddelen",
+    "ctaContact": "Of neem contact op met ons team",
+    "trademarkNote": "Inconel en Monel zijn merken van Special Metals Corporation. Hastelloy is een merk van Haynes International. Xylan is een merk van PPG Industries. Andere namen behoren toe aan hun respectieve eigenaren en worden alleen ter identificatie gebruikt."
+  },
+  "iaPage": {
+    "metaTitle": "Isolatietoebehoren en beplatingsmaterialen | Santura",
+    "metaDescription": "Spanbanden, schroeven, blindklinknagels, clips en toebehoren voor isolatie en beplating in rvs en aluminium. Leverancier sinds 1980, export 25+ landen.",
+    "eyebrow": "Isolatiematerialen",
+    "h1": "Isolatietoebehoren en beplatingsmaterialen",
+    "subheading": "Spanbanden, bandsluitingen, expansieveren, schroeven, blindklinknagels, binddraad, geperforeerde platen, tapes en kitten voor het bevestigen en afwerken van isolatie en metalen beplating op leidingen, vaten, kanalen en apparatuur.",
+    "badges": [
+      "Rvs spanbanden en sluitingen",
+      "Expansieveren",
+      "Blindklinknagels",
+      "Geperforeerde platen",
+      "Binddraad en gaas",
+      "Tapes en kitten"
+    ],
+    "gallery": [
+      "Rvs bandsluiting voor spanbanden op isolatie",
+      "Blindklinknagels voor naden van metalen beplating",
+      "Blindklinknagel met breekpen",
+      "Geperforeerde rvs strip",
+      "Geperforeerde rvs hoeken",
+      "Geperforeerde roestvrijstalen cilinder",
+      "SEPL-04 schaarclip van rvs-draad"
+    ],
+    "overviewTitle": "Waarvoor isolatietoebehoren dienen",
+    "overview": [
+      "Isolatietoebehoren zijn de bevestigingsmiddelen en verbruiksmaterialen die thermische isolatie en de metalen beplating daarover op leidingen, vaten, kanalen en apparatuur vastzetten, ondersteunen en afwerken. Spanbanden houden de beplating vast, veren houden de banden strak bij uitzetting, schroeven en klinknagels sluiten de naden, draad en gaas houden de isolatie zelf vast, en tapes en kitten houden water en damp buiten.",
+      "De toebehoren bepalen hoe lang een isolatiesysteem meegaat. Losse banden, het verkeerde metaal tegen de beplating of een open dampscherm laten water in de isolatie, wat de prestaties verlaagt en corrosie onder isolatie kan veroorzaken.",
+      "Santura levert deze toebehoren samen met zijn isolatiematerialen en pennen aan raffinaderijen, petrochemische fabrieken, energiecentrales en staal- en cementfabrieken, afgestemd op de materiaalkwaliteiten in de projectspecificatie."
+    ],
+    "groupsTitle": "Assortiment toebehoren",
+    "groupsIntro": "De belangrijkste groepen toebehoren. Andere artikelen, maten en kwaliteiten leveren wij volgens uw specificatie.",
+    "groups": [
+      {
+        "title": "Spanbanden",
+        "tag": "",
+        "text": "Spanbanden houden metalen beplating en isolatie vast op leidingen, vaten en apparatuur.",
+        "items": [
+          "Rvs banden, standaard ½\" en ¾\" × 0,020\"",
+          "Banden van aluminium en verzinkt staal",
+          "Banden van polypropyleen of nylon voor binnen tot ongeveer 93 °C",
+          "Bandsluitingen (vleugelsluitingen) van hetzelfde materiaal als de band",
+          "Handmatige en pneumatische spangereedschappen",
+          "Breedtes 3/8\" tot 1¼\", diktes 0,015\" tot 0,025\": ½\" voor leidingen en kleine vaten, tot 1¼\" voor grote tanks"
+        ]
+      },
+      {
+        "title": "Expansieveren",
+        "tag": "",
+        "text": "Veren in de bandrun vangen uitzetting en krimp op, zodat de band strak blijft zonder in de beplating te snijden.",
+        "items": [
+          "Rvs veersets, 2\" en 4\" lang",
+          "Voor warme en koude vaten en warme of koude leidingen met grote diameter",
+          "Zware veren voor 1¼\"-banden op grote tanks en golfplaatbeplating"
+        ]
+      },
+      {
+        "title": "Plaatschroeven en zelfborende schroeven",
+        "tag": "",
+        "text": "Schroeven zetten de beplating vast waar banden niet kunnen, zoals bij segmentbochten.",
+        "items": [
+          "Rvs type 410, zeskantkop met kraag en sleuf",
+          "#8 × ½\" zelfborend en zelftappend",
+          "Uitvoeringen met neopreen afdichtring voor weerbestendige naden",
+          "Bochtsegmenten en naden van golfplaatbeplating"
+        ]
+      },
+      {
+        "title": "Blindklinknagels (popnagels)",
+        "tag": "Gemaakt in onze werkplaats",
+        "text": "Blindklinknagels verbinden twee of meer plaatdelen en worden vanaf één kant geplaatst. Op isolatie zetten ze overlappende beplatingsnaden vast.",
+        "items": [
+          "Hulzen van aluminium, rvs en Monel",
+          "Diameters 1/8\" (3,2 mm) en 5/32\" (4,0 mm)",
+          "Trekklinknagels met breekpen"
+        ]
+      },
+      {
+        "title": "Binddraad en gaas",
+        "tag": "",
+        "text": "Draad en gaas houden de isolatie zelf vast voordat de beplating wordt aangebracht.",
+        "items": [
+          "Zachtgegloeid rvs-draad, 16 gauge (1,6 mm) en 18 gauge (1,2 mm)",
+          "Bindt tweedelige stijve leidingschalen zoals calciumsilicaat en perliet",
+          "Zeskantgaas voor ondersteuning van isolatiedekens aan de buitenkant",
+          "Gelast draadgaas voor isolatie op vaten en grote apparatuur",
+          "Verzinkt draad op aanvraag (tegenwoordig zelden voorgeschreven)"
+        ]
+      },
+      {
+        "title": "Geperforeerde platen",
+        "tag": "Gemaakt in onze werkplaats",
+        "text": "Rvs platen met diverse gatenpatronen, die gewicht besparen en lucht en geluid doorlaten. Ze worden veel gebruikt in reformers en fornuizen.",
+        "items": [
+          "Warm- of koudgewalst, volgens klanttekening",
+          "Eenvoudig te lassen, snijden en vormen",
+          "Verschillende gatenpatronen, vormen, maten en kwaliteiten",
+          "Als binnenbekleding en vasthoudlaag in meerlaagse isolatiesystemen"
+        ]
+      },
+      {
+        "title": "Schaarclips (SEPL-04)",
+        "tag": "Onderdeel van ons SEPL-ankerprogramma",
+        "text": "Draadklemmen die steenbekledingen vasthouden wanneer de stenen op afstand van wand of dak staan.",
+        "items": [
+          "Uit draad gevormd volgens onze of uw tekening",
+          "Legeringen waaronder CS, 304, 304H, 309, 253MA, 310, 314, 316, 321, 330, 800 en 601"
+        ]
+      },
+      {
+        "title": "Tapes en kitten",
+        "tag": "",
+        "text": "Tapes en kitten sluiten beplatingsnaden en dampschermen af tegen water en vocht.",
+        "items": [
+          "Polyesterfolietape versterkt met glasgaren",
+          "Aluminiumtape (bijvoorbeeld 2 mil, 100 mm breed) voor beplatingsnaden",
+          "Chloridearme tapes voor austenitisch rvs boven ongeveer 60 °C",
+          "ASJ- en FRK-stuiknaadtapes",
+          "Voegkitten voor stijve isolatiesystemen"
+        ]
+      },
+      {
+        "title": "Schouderbouten en afdekkappen",
+        "tag": "",
+        "text": "Laspennen die isolatie en beplating vasthouden op vlakken waar banden niet kunnen.",
+        "items": [
+          "Laspennen van rvs of koolstofstaal, 5/16\" met gegroefde schacht",
+          "Klemringen om isolatie tijdens montage vast te houden",
+          "Afdekkappen voor de definitieve bevestiging van de beplating",
+          "Conische vatbodems en ovenpanelen"
+        ]
+      }
+    ],
+    "pinsBoxTitle": "Laspennen en borgringen",
+    "pinsBoxText": "Laspennen, lijmpennen, borgringen en afdekkapjes voor het bevestigen van isolatie staan op onze aparte pagina over isolatiepennen.",
+    "pinsBoxLink": "Naar isolatiepennen",
+    "specTitle": "Overzicht specificaties",
+    "colItem": "Toebehoren",
+    "colMaterial": "Materialen",
+    "colSizes": "Standaardmaten",
+    "colTemp": "Temperatuur",
+    "colUse": "Toepassing",
+    "specRows": [
+      {
+        "item": "Spanbanden",
+        "material": "SS 304 / 316; ook aluminium en verzinkt staal",
+        "sizes": "½\" en ¾\" × 0,020\"",
+        "temp": "Rvs: cryogeen tot ongeveer 650 °C",
+        "use": "Vastzetten van beplating en isolatie"
+      },
+      {
+        "item": "Bandsluitingen",
+        "material": "Als de band",
+        "sizes": "Passend bij de bandbreedte",
+        "temp": "Als de band",
+        "use": "Sluiten van de band"
+      },
+      {
+        "item": "Expansieveren",
+        "material": "SS 304 / 316",
+        "sizes": "2\" en 4\"",
+        "temp": "Als rvs banden",
+        "use": "Banden op warme en koude leidingen en vaten"
+      },
+      {
+        "item": "Plaatschroeven",
+        "material": "SS 410",
+        "sizes": "#8 × ½\"",
+        "temp": "Oppervlaktetemperatuur van de beplating",
+        "use": "Beplatingsnaden en bochtsegmenten"
+      },
+      {
+        "item": "Blindklinknagels",
+        "material": "Aluminium, rvs, Monel",
+        "sizes": "1/8\" en 5/32\" diameter",
+        "temp": "Afhankelijk van materiaal",
+        "use": "Overlappende beplatingsnaden"
+      },
+      {
+        "item": "Binddraad",
+        "material": "SS 304 / 316",
+        "sizes": "16 ga (1,6 mm), 18 ga (1,2 mm)",
+        "temp": "Cryogeen tot ongeveer 650 °C",
+        "use": "Binden van stijve leidingschalen"
+      },
+      {
+        "item": "Geperforeerde platen",
+        "material": "Rvs-kwaliteiten",
+        "sizes": "Volgens tekening",
+        "temp": "Afhankelijk van kwaliteit",
+        "use": "Binnenbekleding van reformers en fornuizen"
+      },
+      {
+        "item": "Schaarclips (SEPL-04)",
+        "material": "CS, rvs, hittebestendige legeringen",
+        "sizes": "Volgens tekening",
+        "temp": "Afhankelijk van legering",
+        "use": "Vasthouden van steenbekledingen"
+      },
+      {
+        "item": "Aluminiumtape",
+        "material": "Aluminiumfolie met kleeflaag",
+        "sizes": "Bijvoorbeeld 2 mil × 100 mm",
+        "temp": "Afhankelijk van kleeflaag",
+        "use": "Afdichten van beplatingsnaden"
+      }
+    ],
+    "specNote": "Typische waarden. De exacte grenzen hangen af van materiaalkwaliteit, kleeflaag en projectspecificatie.",
+    "guideTitle": "Advies voor keuze en montage",
+    "guide": [
+      "Banden op leidingbeplating worden meestal op 225–300 mm (9–12\") hart-op-hart geplaatst. Volg de projectspecificatie.",
+      "Plaats expansieveren in de banden op vaten en warme of koude leidingen met grote diameter, zodat de banden strak blijven bij uitzetting en krimp.",
+      "Stem het metaal van de toebehoren af op de beplating, zoals rvs banden en schroeven bij rvs- of aluminiumbeplating, en vermijd gemengde metalen waar vocht kan blijven staan.",
+      "Gebruik geen verzinkte banden, draad of schroeven op heet austenitisch rvs: zink kan rvs bij hoge temperatuur bros maken.",
+      "Gebruik op austenitisch rvs boven ongeveer 60 °C chloridearme tapes en toebehoren om het risico op chloride-spanningscorrosie te verkleinen.",
+      "Gebruik toebehoren van Monel of SS 316 in maritieme en chloriderijke omgevingen."
+    ],
+    "materialsTitle": "Materialen",
+    "materials": [
+      "Roestvast staal 304, 316, 316L, 321, 410",
+      "Koolstofstaal / zacht staal",
+      "Verzinkt staal",
+      "Aluminium",
+      "Monel",
+      "Nylon / polypropyleen (binnen, lage temperatuur)"
+    ],
+    "madeTitle": "Eigen productie",
+    "madeText": "Blindklinknagels en geperforeerde platen worden in onze werkplaats gemaakt, en SEPL-04-schaarclips horen bij ons programma vuurvaste ankers. Spanbanden, veren, schroeven, draad, tapes en kitten betrekken en leveren we erbij, in de materiaalkwaliteiten van het project.",
+    "applicationsTitle": "Toepassingen per sector",
+    "applications": [
+      {
+        "title": "Olie, gas en petrochemie",
+        "items": [
+          "Beplating op leidingen en vaten",
+          "Banden voor koude en cryogene isolatie",
+          "Geperforeerde platen voor reformers en fornuizen"
+        ]
+      },
+      {
+        "title": "Energieopwekking",
+        "items": [
+          "Isolatie van ketelommantelingen",
+          "Turbine-isolatie",
+          "Isolatie van HRSG-kanalen"
+        ]
+      },
+      {
+        "title": "Staal en cement",
+        "items": [
+          "Isolatie van oven- en draaiovenmantels",
+          "Schaarclips voor steenbekledingen"
+        ]
+      },
+      {
+        "title": "Scheepvaart",
+        "items": [
+          "Toebehoren van Monel en SS 316 voor corrosiebestendigheid",
+          "Isolatie van machinekamers"
+        ]
+      },
+      {
+        "title": "Installatietechniek en gebouwen",
+        "items": [
+          "Tapes voor kanaalisolatie",
+          "Banden voor grote kanalen"
+        ]
+      },
+      {
+        "title": "Cryogeen en LNG",
+        "items": [
+          "Rvs banden en expansieveren voor koude toepassingen",
+          "Dampschermtapes en kitten"
+        ]
+      }
+    ],
+    "supplyTitle": "Wat wij leveren",
+    "supply": [
+      "Santura Engineering levert toebehoren voor isolatie en beplating uit één hand: spanbanden en sluitingen, expansieveren, schroeven, blindklinknagels, binddraad en gaas, geperforeerde platen, tapes en kitten, in de materiaalkwaliteit van het project in rvs, verzinkt staal, aluminium of Monel.",
+      "Blindklinknagels en geperforeerde platen worden in onze werkplaats gemaakt, geperforeerde platen volgens tekening voor reformers en fornuizen. Wij leveren sinds 1980 aan industriële klanten en exporteren naar meer dan 25 landen."
+    ],
+    "relatedTitle": "Gerelateerde producten",
+    "relatedPins": "Laspennen, lijmpennen, borgringen en afdekkapjes.",
+    "relatedMineralWool": "Steenwol- en glaswolplaten, -rollen en -leidingschalen.",
+    "relatedCalsil": "Stijve leidingschalen en platen, gebonden met rvs-draad.",
+    "relatedGlassFibre": "Glaswol en glasweefsel voor kanalen en omhulling.",
+    "relatedSepl04": "Schaarclips van draad om steenbekledingen vast te houden.",
+    "relatedFasteners": "Bouten, tapeinden, moeren en ringen voor dezelfde projecten.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Welke toebehoren zijn nodig voor het aanbrengen van metalen beplating?",
+        "a": "Metalen beplating vraagt om spanbanden (meestal ½\" rvs) met bandsluitingen, plaatschroeven (#8 × ½\" SS 410) voor bochtsegmenten, blindklinknagels voor overlappende naden en expansieveren op vaten en grote warme of koude leidingen. Aluminiumtape en kitten sluiten de langs- en rondnaden."
+      },
+      {
+        "q": "Van welk materiaal moeten isolatiebanden zijn?",
+        "a": "Voor de meeste industriële toepassingen heeft rvs 304 of 316 de voorkeur. Aluminium banden passen bij aluminium beplating in een niet-corrosieve omgeving. Verzinkte banden horen niet op hete rvs-apparatuur, omdat zink rvs bij hoge temperatuur bros kan maken, en gemengde metalen moeten worden vermeden waar vocht blijft staan. In maritieme en chloriderijke omgevingen wordt Monel of SS 316 voorgeschreven."
+      },
+      {
+        "q": "Hoe worden geperforeerde platen in isolatiesystemen gebruikt?",
+        "a": "Geperforeerde rvs platen met diverse gatenpatronen worden veel gebruikt in reformers en fornuizen, bijvoorbeeld als binnenbekleding en vasthoudlaag in meerlaagse isolatie. Ze besparen gewicht en zijn eenvoudig te lassen, snijden en vormen. Santura maakt ze warm- of koudgewalst volgens klanttekening, in de kwaliteit die het project vraagt."
+      },
+      {
+        "q": "Op welke afstand worden banden op leidingen geplaatst?",
+        "a": "Banden op leidingbeplating worden meestal op 225–300 mm (9–12\") hart-op-hart geplaatst, volgens de projectspecificatie. Op vaten en warme of koude leidingen met grote diameter worden expansieveren in de banden opgenomen om thermische beweging op te vangen. Grote opslagtanks krijgen bredere banden, tot 1¼\"."
+      },
+      {
+        "q": "Kan Santura toebehoren leveren voor cryogene LNG-projecten?",
+        "a": "Ja. Spanbanden, sluitingen, expansieveren en binddraad van austenitisch rvs blijven taai bij cryogene temperaturen, en Santura levert ze in SS 304 of 316 samen met dampschermtapes en kitten voor koude en cryogene isolatiesystemen. Materiaalcertificaten zijn op aanvraag beschikbaar."
+      }
+    ],
+    "ctaTitle": "Isolatietoebehoren nodig?",
+    "ctaText": "Stuur ons uw lijst met artikel, materiaal, maat en hoeveelheid, of uw isolatiespecificatie, en wij stellen het pakket toebehoren samen. Wij reageren met een offerte en levertijd.",
+    "ctaRfq": "Offerte aanvragen voor isolatietoebehoren",
+    "ctaContact": "Of neem contact op met ons team",
+    "trademarkNote": "Monel is een merk van Special Metals Corporation. 253 MA is een merk van Outokumpu. Andere namen behoren toe aan hun respectieve eigenaren en worden alleen ter identificatie gebruikt."
+  },
+  "sfPage": {
+    "metaTitle": "Staalvezel voor vuurvast materiaal en beton | Santura",
+    "metaDescription": "Smeltextractie- en koudgetrokken staalvezels in rvs 304, 310, 446 voor vuurvast beton en beton. Ten dienste van de industrie sinds 1980, 25+ landen.",
+    "eyebrow": "Gemaakt door Santura",
+    "h1": "Staalvezel voor wapening van vuurvast beton en beton",
+    "subheading": "Smeltextractie- en koudgetrokken staalvezels die vuurvast beton, monolithische bekledingen en beton wapenen tegen thermische schokken, scheurvorming en trillingen. Gemaakt in onze eigen werkplaats in AISI 304, 310, 446 en andere kwaliteiten.",
+    "badges": [
+      "Smeltextractienaalden",
+      "Koudgetrokken: recht, met haken, gegolfd",
+      "AISI 304, 310, 446",
+      "Op bestelling",
+      "ISO 9001:2015"
+    ],
+    "gallery": [
+      "Rvs smeltextractievezels (SEPL-27) voor wapening van vuurvast beton",
+      "Close-up van rvs smeltextractievezels",
+      "Rechte koudgetrokken rvs-vezels (SEPL-28)",
+      "Stapel rechte koudgetrokken staalvezels",
+      "Close-up van koudgetrokken staalvezels met haakeinden (SEPL-29)",
+      "Rij koudgetrokken staalvezels met haakeinden",
+      "Close-up van gegolfde koudgetrokken staalvezels (SEPL-30)",
+      "Stapel gegolfde koudgetrokken staalvezels"
+    ],
+    "overviewTitle": "Waarvoor staalvezels dienen",
+    "overview": [
+      "Staalvezels, ook wapeningsnaalden genoemd, zijn korte metalen draadjes die door vuurvast beton, monolithische bekledingen en beton worden gemengd. Verspreid door het hele materiaal houden ze het bij elkaar terwijl het opwarmt, afkoelt en scheurt, zodat de bekleding bestand is tegen thermische schokken, afspatten en trillingen en langer sterk blijft.",
+      "Staalvezels zijn een van de kernproducten van Santura. Ze worden gemaakt naast onze vuurvaste ankers en vaak samen daarmee geleverd voor dezelfde bekleding. Wij maken ze met twee processen."
+    ],
+    "processes": [
+      {
+        "title": "Smeltextractie",
+        "text": "Rvs-blokken worden in een elektrische oven gesmolten bij 1500–1600 °C. Een snel draaiend extractiewiel wordt bij het oppervlak van het vloeibare staal gebracht en trekt er vezels af. Het resultaat is een vezel met een onregelmatige doorsnede die zich goed in het vuurvaste beton verankert."
+      },
+      {
+        "title": "Koudtrekken",
+        "text": "Staaldraad wordt door trekstenen getrokken en op lengte geknipt. Rvs kan niet door warmtebehandeling worden gehard, dus geeft het koudtrekken deze vezels hun sterkte. De draad kan recht blijven, haakeinden krijgen of over de lengte worden gegolfd."
+      }
+    ],
+    "typesTitle": "Onze vier staalvezels",
+    "typesIntro": "Elke vezel heeft een eigen productpagina met alle details. Dit overzicht helpt bij het kiezen.",
+    "types": [
+      {
+        "name": "Smeltextractienaalden",
+        "process": "Smeltextractie",
+        "text": "De meest gebruikte vezel in de vuurvaste industrie: breed geaccepteerd, voordelig en goed verpompbaar door slangen. Leverbaar in AISI 304, 310 en 446."
+      },
+      {
+        "name": "Koudgetrokken naalden (recht)",
+        "process": "Koudtrekken",
+        "text": "Rechte naalden met hoge sterkte door het koudtrekken. Gemaakt door knippen en eenvoudig in het materiaal te mengen; meestal 25–35 mm lang en 0,3–0,7 mm dik."
+      },
+      {
+        "name": "Koudgetrokken naalden (met haken)",
+        "process": "Koudtrekken",
+        "text": "Vezels met haakeinden van hoogwaardige koolstofarme staaldraad, met goede taaiheid tegen een lage prijs. De haken verankeren de vezel in de matrix."
+      },
+      {
+        "name": "Koudgetrokken naalden (gegolfd)",
+        "process": "Koudtrekken",
+        "text": "Dezelfde eigenschappen als de rechte naalden, over de lengte gegolfd voor de hoogste sterkte in vuurvast materiaal."
+      }
+    ],
+    "typeLink": "Details {code}",
+    "compareTitle": "Staalvezeltypen vergeleken",
+    "colProperty": "Eigenschap",
+    "compareRows": [
+      {
+        "label": "Proces",
+        "values": [
+          "Smeltextractie uit vloeibaar rvs",
+          "Koudgetrokken draad, op lengte geknipt",
+          "Koudgetrokken draad met haakeinden",
+          "Koudgetrokken draad, gegolfd"
+        ]
+      },
+      {
+        "label": "Vorm",
+        "values": [
+          "Onregelmatige doorsnede door het extractieproces",
+          "Recht, rond",
+          "Rond met haakeinden",
+          "Rond, gegolfd over de lengte"
+        ]
+      },
+      {
+        "label": "Materiaal",
+        "values": [
+          "AISI 304, 310, 446; andere legeringen op aanvraag",
+          "Rvs, zoals 304, 310, 316",
+          "Koolstofarme staaldraad",
+          "Rvs, zoals 304, 310, 316"
+        ]
+      },
+      {
+        "label": "Lengte",
+        "values": [
+          "Diverse lengtes, op bestelling",
+          "25–35 mm",
+          "Op bestelling",
+          "Op bestelling"
+        ]
+      },
+      {
+        "label": "Diameter",
+        "values": [
+          "Diverse maten, op bestelling",
+          "0,3–0,7 mm",
+          "Op bestelling",
+          "Op bestelling"
+        ]
+      },
+      {
+        "label": "Treksterkte",
+        "values": [
+          "Op aanvraag",
+          "Meer dan 650 MPa",
+          "Op aanvraag",
+          "Op aanvraag"
+        ]
+      },
+      {
+        "label": "Belangrijkste voordeel",
+        "values": [
+          "Meest gebruikte vuurvaste vezel; voordelig; verpompbaar",
+          "Hoge sterkte door koudtrekken; eenvoudig te mengen",
+          "Haken verankeren de vezel; goede taaiheid tegen lage prijs",
+          "Golving geeft de hoogste sterkte"
+        ]
+      }
+    ],
+    "compareNote": "Maten met „op bestelling” maken wij volgens uw specificatie. Geef ons de gewenste lengte, diameter en kwaliteit door.",
+    "guideTitle": "Smeltextractie of koudgetrokken",
+    "colCriterion": "Criterium",
+    "colMelt": "Smeltextractie",
+    "colCold": "Koudgetrokken",
+    "guideRows": [
+      {
+        "label": "Productie",
+        "melt": "Vezels door een draaiend wiel van vloeibaar rvs getrokken",
+        "cold": "Draad getrokken en geknipt, zo nodig met haken of gegolfd"
+      },
+      {
+        "label": "Typisch gebruik",
+        "melt": "De meest gebruikte vezel voor vuurvast beton en monolithische bekledingen",
+        "cold": "Vuurvast beton en beton; vezels met haken zijn gebruikelijk in beton"
+      },
+      {
+        "label": "Vorm en hechting",
+        "melt": "Onregelmatige doorsnede die zich in het vuurvaste beton verankert",
+        "cold": "Gelijkmatig ronde draad; haken of golven verbeteren de verankering"
+      },
+      {
+        "label": "Verwerking",
+        "melt": "Goed verpompbaar door slangen",
+        "cold": "Rechte vezels zijn eenvoudig te mengen"
+      },
+      {
+        "label": "Kosten",
+        "melt": "Voordelig en breed geaccepteerd",
+        "cold": "Koolstofarme vezels met haken zijn de goedkoopste optie"
+      }
+    ],
+    "gradesTitle": "Kwaliteiten",
+    "grades": [
+      {
+        "grade": "AISI 304",
+        "text": "austenitisch rvs voor algemeen gebruik (ongeveer 18% Cr, 8% Ni) bij matige temperaturen"
+      },
+      {
+        "grade": "AISI 310",
+        "text": "hittebestendige kwaliteit met veel chroom en nikkel (ongeveer 25% Cr, 20% Ni) voor hogere temperaturen en temperatuurwisselingen"
+      },
+      {
+        "grade": "AISI 446",
+        "text": "ferritische kwaliteit met 23–27% chroom en zeer goede oxidatiebestendigheid"
+      },
+      {
+        "grade": "AISI 316",
+        "text": "molybdeenhoudende kwaliteit met betere bestendigheid tegen chemische aantasting, voor koudgetrokken vezels"
+      },
+      {
+        "grade": "Koolstofarm staal",
+        "text": "voor vezels met haakeinden, vooral in beton"
+      },
+      {
+        "grade": "Andere legeringen",
+        "text": "op aanvraag"
+      }
+    ],
+    "meltingTitle": "Bij benadering smelttrajecten",
+    "colGrade": "Kwaliteit",
+    "colMelting": "Smelttraject",
+    "meltingNote": "De veilige gebruikstemperatuur van een vezel ligt ruim onder het smelttraject en hangt af van de atmosfeer en het vuurvaste beton. Volg de grenzen van de betonfabrikant.",
+    "benefitsTitle": "Voordelen van staalvezelwapening",
+    "benefits": [
+      "Hoge bestendigheid tegen thermische schokken",
+      "Flexibele scheurbeperking",
+      "Hoge bestendigheid tegen afspatten",
+      "Hoge bestendigheid tegen trillingen",
+      "Hogere draagkracht van monolithische doorsneden",
+      "Wapening door het hele vuurvaste beton, wat de behoefte aan gaas kan verminderen"
+    ],
+    "applicationsTitle": "Toepassingen per sector",
+    "applications": [
+      {
+        "title": "Staal en aluminium",
+        "items": [
+          "Pannenbekledingen",
+          "Ovendaken",
+          "Monolithische bekledingen met thermische schokbelasting"
+        ]
+      },
+      {
+        "title": "Cement",
+        "items": [
+          "Draaiovenbekledingen",
+          "Voorverwarmers",
+          "Koelerkanalen"
+        ]
+      },
+      {
+        "title": "Petrochemie",
+        "items": [
+          "Reactoren",
+          "Reformers",
+          "Krakers"
+        ]
+      },
+      {
+        "title": "Energie en scheepvaart",
+        "items": [
+          "Ketelbekledingen",
+          "Scheepsketels en ovenonderdelen"
+        ]
+      },
+      {
+        "title": "Ovens en cokesfabrieken",
+        "items": [
+          "Isolerend en dicht vuurvast beton in industriële ovens",
+          "Vuurvast beton in cokesovens"
+        ]
+      },
+      {
+        "title": "Betonwapening",
+        "items": [
+          "Funderingen",
+          "Verhardingen",
+          "Vloeistofdichte vloeren"
+        ]
+      }
+    ],
+    "supplyTitle": "Wat wij leveren",
+    "supply": [
+      "Santura Engineering maakt staalvezels in de eigen werkplaats met beide processen: smeltextractienaalden in AISI 304, 310 en 446 en koudgetrokken naalden in rechte, gehaakte en gegolfde vorm. Andere legeringen, lengtes en diameters maken wij op bestelling.",
+      "Santura levert sinds 1980 aan klanten in staal, cement, petrochemie en energie, exporteert naar meer dan 25 landen en werkt met een ISO 9001:2015-gecertificeerd kwaliteitssysteem. Vezels kunnen samen met de SEPL-ankers voor dezelfde bekleding worden verzonden."
+    ],
+    "standardsTitle": "Normen",
+    "standards": [
+      "Staalvezels voor vezelversterkt beton (typen I–V)",
+      "Vezels voor beton: staalvezels"
+    ],
+    "standardsNote": "Deze normen gelden voor vezels in beton. Vuurvaste vezels worden meestal gespecificeerd op legering, lengte en diameter in de specificatie van het vuurvaste beton of het project.",
+    "relatedTitle": "Gerelateerde producten en diensten",
+    "relatedAnchors": "SEPL-ankers voor steen-, vuurvast beton- en keramische vezelbekledingen.",
+    "relatedCalsil": "Stijve isolatie voor apparatuur op hoge temperatuur.",
+    "relatedPickling": "Beitsen en passiveren van rvs-producten.",
+    "relatedPins": "Laspennen en ringen voor het bevestigen van isolatie.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Wat is het verschil tussen smeltextractie- en koudgetrokken staalvezels?",
+        "a": "Smeltextractievezels worden door een snel draaiend wiel van rvs getrokken dat bij 1500–1600 °C is gesmolten, wat ze een onregelmatige doorsnede geeft die zich in het vuurvaste beton verankert. Ze zijn de meest gebruikte vuurvaste vezel: voordelig en goed verpompbaar door slangen. Koudgetrokken vezels ontstaan door draad door trekstenen te trekken en op lengte te knippen, wat een gelijkmatig ronde vezel met hoge sterkte geeft. Ze zijn er recht, met haakeinden of gegolfd; vezels met haken worden veel in beton gebruikt."
+      },
+      {
+        "q": "Welke staalvezelkwaliteit is het best voor vuurvaste toepassingen?",
+        "a": "Dat hangt af van de gebruikstemperatuur, de atmosfeer en chemische belasting. AISI 446, een ferritische kwaliteit met 23–27% chroom, heeft een zeer goede oxidatiebestendigheid. AISI 310 is een kwaliteit met veel chroom en nikkel voor hogere temperaturen en temperatuurwisselingen. AISI 304 is een algemene kwaliteit voor matige temperaturen. De aanbevelingen van de fabrikant van het vuurvaste beton moeten de keuze bepalen."
+      },
+      {
+        "q": "Welke dosering staalvezels wordt in vuurvast beton gebruikt?",
+        "a": "De dosering wordt meestal uitgedrukt als gewichtspercentage van het droge vuurvaste beton en hangt af van de samenstelling, de toepassing en de bedrijfsomstandigheden. Volg het productblad van de betonfabrikant en de specificatie van de bekledingsontwerper; wij adviseren graag over vezeltype en -maat voor uw beton."
+      },
+      {
+        "q": "Kunnen staalvezels metaalgaas in vuurvaste bekledingen vervangen?",
+        "a": "In veel monolithische bekledingen wel. Vezels verspreiden zich door het hele vuurvaste beton en wapenen het in drie dimensies, terwijl gaas het in één vlak wapent. Dit kan gaas verminderen of overbodig maken, de montage vereenvoudigen en scheuren beperken. De bekledingsontwerper moet dit per toepassing bevestigen."
+      },
+      {
+        "q": "Welke lengtes en diameters staalvezels maakt Santura?",
+        "a": "Koudgetrokken rechte naalden worden meestal geleverd in 25–35 mm lengte en 0,3–0,7 mm diameter, met een treksterkte boven 650 MPa. Smeltextractienaalden zijn er in een breed scala aan lengtes en diameters in AISI 304, 310 en 446. Vezels met haken en gegolfde vezels, en andere maten en legeringen, maken wij op bestelling."
+      }
+    ],
+    "ctaTitle": "Staalvezels nodig?",
+    "ctaText": "Laat ons het vezeltype, de kwaliteit, lengte, diameter en hoeveelheid weten, of het vuurvaste beton dat u wilt wapenen. Wij reageren met een offerte en levertijd.",
+    "ctaRfq": "Offerte aanvragen voor staalvezels",
+    "ctaContact": "Of neem contact op met ons team"
+  },
+  "tdPage": {
+    "metaTitle": "Leverancier roestvast staal | Staven, walsdraad, profielen",
+    "metaDescription": "Rvs walsdraad, zeskantstaven, platstaal, hoeklijn en rondstaal. Rvs met fabriekscertificaat in 304, 316, 310 sinds 1980 naar meer dan 25 landen.",
+    "eyebrow": "Handelsdivisie",
+    "h1": "Handelsdivisie roestvast staal",
+    "subheading": "Rvs walsdraad op rol, zeskant-, vierkant-, plat- en pompasstaven, hoeklijnen en warmgewalste staven met fabriekscertificaat, ingekocht bij gerenommeerde staalfabrieken en geleverd met certificaten volgens EN 10204 3.1.",
+    "badges": [
+      "Walsdraad op rol",
+      "Blanke staven",
+      "HRAP-platstaal en hoeklijn",
+      "PSQ-staven",
+      "200-, 300-, 400-serie",
+      "EN 10204 3.1"
+    ],
+    "heroAlt": "Staalproductie toen en nu: vroege staalconverters op een gravure naast een moderne staalfabriek die vloeibaar metaal aftapt",
+    "gallery": [
+      "Rvs-draadrollen in magazijnopslag",
+      "Blanke zeskantstaven van rvs",
+      "Vierkantstaven van rvs",
+      "HRAP-platstaal van rvs",
+      "Gelijkzijdige HRAP-hoeklijnen van rvs",
+      "Rvs-rondstaven in pompaskwaliteit (PSQ)",
+      "Warmgewalste rvs-staven",
+      "Roestvrijstalen walsdraadrollen",
+      "Roestvrijstalen gelijkzijdige hoeklijn"
+    ],
+    "overviewTitle": "Roestvast staal uit één hand",
+    "overview": [
+      "De handelsdivisie van Santura Engineering levert en exporteert rvs-profielen met fabriekscertificaat aan industriële projecten in het Midden-Oosten, Afrika en Europa. Wij kopen in bij gerenommeerde staalfabrieken en leveren aan raffinaderijen, bouwplaatsen, constructiewerkplaatsen en EPC-aannemers, met materiaalcertificaten volgens EN 10204 3.1.",
+      "De divisie vult onze eigen productie van vuurvaste ankers en staalvezels aan. Veel van dezelfde klanten hebben ook rvs-profielen nodig en kunnen beide bij één leverancier kopen, met één documentenpakket."
+    ],
+    "jumpLabel": "Producten op deze pagina",
+    "sections": [
+      {
+        "title": "Walsdraad op rol",
+        "text": "Rvs walsdraad op rol is het uitgangsmateriaal voor staalkabels, veren, bevestigingsmiddelen, laselektroden, draadgaas en vuurvaste ankers, en wordt ook gebruikt voor keukengerei, medische instrumenten en elektronische onderdelen.",
+        "rows": [
+          {
+            "label": "Maatbereik",
+            "value": "5,5–16 mm in blokrollen (5,5, 6, 6,5, 7, 7,5, 8, 9, 10, 11, 12, 13, 14, 15, 16 mm); 17–40 mm in garretrollen"
+          },
+          {
+            "label": "Rolgewicht",
+            "value": "850–1200 kg (blokrollen)"
+          },
+          {
+            "label": "Rolafmetingen",
+            "value": "Blokrollen: ID 800–900 mm. Garretrollen: ID 550–650 mm, BD 750–850 mm"
+          },
+          {
+            "label": "Norm",
+            "value": "Volgens EN 10088"
+          },
+          {
+            "label": "Leveringstoestand",
+            "value": "Warmgewalst (HR); warmgewalst en gebeitst (HRP); warmgewalst, gegloeid en gebeitst (HRAP); warmgewalst en gegloeid (HRA)"
+          },
+          {
+            "label": "Verpakking",
+            "value": "Staalbanden om elke rol met kunststof omhulling; foliering bij HRP en HRAP; of volgens specificatie"
+          }
+        ]
+      },
+      {
+        "title": "Zeskantstaven (blank)",
+        "text": "Blanke zeskantstaven voor moeren, afsluiters, slangkoppelingen, bevestigingsmiddelen en zeskantbouten, met sterkte en corrosiebestendigheid. Leverbaar in de kwaliteiten 201, 304/304L, 316/316L en 303.",
+        "rows": [
+          {
+            "label": "Kwaliteiten",
+            "value": "201, 304/304L, 316/316L, 303"
+          },
+          {
+            "label": "Maatbereik",
+            "value": "12–55 mm (½\" tot 2¼\")"
+          },
+          {
+            "label": "Maattolerantie",
+            "value": "h11"
+          },
+          {
+            "label": "Lengte",
+            "value": "3,00–6,70 m (10–22 ft); op lengte gezaagd met tolerantie −0/+50 mm"
+          },
+          {
+            "label": "Afschuining",
+            "value": "30°, 45° of 60°; bramenvrije gezaagde einden"
+          },
+          {
+            "label": "Rechtheid",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Oppervlak",
+            "value": "Gestraald en koudgetrokken, of bandgeslepen"
+          },
+          {
+            "label": "Warmtebehandeling",
+            "value": "Oplosgegloeid"
+          }
+        ]
+      },
+      {
+        "title": "Vierkantstaven",
+        "text": "Austenitische rvs-vierkantstaven voor veeleisende toepassingen zoals luchtvaartonderdelen, manometers, temperatuursensoren en loadcells. Sleutelwijdte en hoekradius kunnen naar uw eisen worden aangehouden. Getrokken en gepolijste staven zijn voor decoratief gebruik, gestraalde en koudgetrokken staven voor kritische toepassingen.",
+        "rows": [
+          {
+            "label": "Kwaliteiten",
+            "value": "Austenitische kwaliteiten"
+          },
+          {
+            "label": "Maatbereik",
+            "value": "12–55 mm (½\" tot 2¼\")"
+          },
+          {
+            "label": "Maattolerantie",
+            "value": "h11"
+          },
+          {
+            "label": "Lengte",
+            "value": "3,00–6,70 m (10–22 ft); op lengte gezaagd met tolerantie −0/+50 mm"
+          },
+          {
+            "label": "Afschuining",
+            "value": "30°, 45° of 60°; bramenvrije gezaagde einden"
+          },
+          {
+            "label": "Rechtheid",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Oppervlak",
+            "value": "Gestraald en koudgetrokken, of bandgeslepen"
+          },
+          {
+            "label": "Warmtebehandeling",
+            "value": "Oplosgegloeid"
+          }
+        ]
+      },
+      {
+        "title": "HRAP-platstaal",
+        "text": "Warmgewalst, gegloeid en gebeitst platstaal dat op maat gewalst is en niet uit plaat gesneden, waardoor het sterker is dan gesneden strip. Voor de bouw en sterke constructies; bandgeslepen staven zijn leverbaar voor decoratief werk.",
+        "rows": [
+          {
+            "label": "Maattolerantie",
+            "value": "ASTM A484"
+          },
+          {
+            "label": "Lengte",
+            "value": "3,00–6,70 m (10–22 ft); op lengte gezaagd met tolerantie −0/+50 mm"
+          },
+          {
+            "label": "Rechtheid",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Oppervlak",
+            "value": "Warmgewalst, gegloeid, gebeitst en gestraald, of bandgeslepen"
+          },
+          {
+            "label": "Warmtebehandeling",
+            "value": "Oplosgegloeid"
+          },
+          {
+            "label": "Maten",
+            "value": "Breedtes 25–100 mm, diktes 5–50 mm (zie tabel)"
+          }
+        ]
+      },
+      {
+        "title": "HRAP-hoeklijnen",
+        "text": "Warmgewalste, gegloeide en gebeitste gelijkzijdige hoeklijnen voor bouw en draagconstructies, meubilair, voedselverwerkende apparatuur en machines.",
+        "rows": [
+          {
+            "label": "Maattolerantie",
+            "value": "ASTM A484"
+          },
+          {
+            "label": "Lengte",
+            "value": "3,00–6,70 m (10–22 ft); op lengte gezaagd met tolerantie −0/+50 mm"
+          },
+          {
+            "label": "Rechtheid",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Oppervlak",
+            "value": "Warmgewalst, gegloeid, gebeitst en gestraald"
+          },
+          {
+            "label": "Warmtebehandeling",
+            "value": "Oplosgegloeid"
+          },
+          {
+            "label": "Maten",
+            "value": "20 × 20 mm tot 75 × 75 mm, 3–12 mm dik (zie tabel)"
+          }
+        ]
+      },
+      {
+        "title": "PSQ-staven (pompaskwaliteit)",
+        "text": "Precisierondstaven met een nauwere tolerantie en betere rechtheid dan gewone blanke staven, direct bruikbaar als pompas, cilinderas en zuigerstang.",
+        "rows": [
+          {
+            "label": "Maatbereik",
+            "value": "6–63,5 mm (¼\" tot 2½\")"
+          },
+          {
+            "label": "Maattolerantie",
+            "value": "h8"
+          },
+          {
+            "label": "Lengte",
+            "value": "3,00–6,70 m (10–22 ft); op lengte gezaagd met tolerantie −0/+50 mm"
+          },
+          {
+            "label": "Afschuining",
+            "value": "30°, 45° of 60°"
+          },
+          {
+            "label": "Rechtheid",
+            "value": "Tot 0,25 mm/m TIR"
+          },
+          {
+            "label": "Oppervlak",
+            "value": "Centerloos geslepen en bandgepolijst tot Ra 0,2 µm; korrel 240–320"
+          },
+          {
+            "label": "Warmtebehandeling",
+            "value": "Oplosgegloeid, gegloeid, QT 650, QT 800 en andere"
+          }
+        ]
+      },
+      {
+        "title": "Warmgewalste staven",
+        "text": "Warmgewalst rondstaal voor verwerkers, verspaning en smeedwerk, gericht geleverd.",
+        "rows": [
+          {
+            "label": "Maten",
+            "value": "13–150 mm (zie lijst)"
+          },
+          {
+            "label": "Tolerantie",
+            "value": "EN 10060"
+          },
+          {
+            "label": "Lengte",
+            "value": "3,00–6,70 m (10–22 ft)"
+          },
+          {
+            "label": "Rechtheid",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Oppervlak",
+            "value": "Walshuid, zwart"
+          },
+          {
+            "label": "Warmtebehandeling",
+            "value": "Gegloeid, oplosgegloeid of veredeld"
+          }
+        ]
+      }
+    ],
+    "wireGradesTitle": "Walsdraadkwaliteiten",
+    "wireGradesAstm": "ASTM / AISI",
+    "wireGradesEn": "DIN / EN",
+    "wireGradesElectrode": "Kwaliteiten voor laselektroden",
+    "wireGradesNote": "Speciale kwaliteiten zijn ook leverbaar volgens klantwens.",
+    "colWidth": "Breedte (mm)",
+    "colThicknessRange": "Diktebereik (mm)",
+    "colAngleSize": "Maat (mm)",
+    "colAngleThickness": "Diktes (mm)",
+    "hotRolledSizesTitle": "Maten (mm)",
+    "gradesTitle": "Rvs-kwaliteiten",
+    "gradesIntro": "De kwaliteitsgroepen die wij leveren. Vraag ons naar elke kwaliteit die er niet bij staat.",
+    "colFamily": "Kwaliteitsgroep",
+    "colGrades": "Kwaliteiten",
+    "colProperties": "Belangrijkste eigenschappen",
+    "gradeRows": [
+      {
+        "family": "Austenitisch (300-serie)",
+        "grades": "304, 304L, 304H, 310, 310S, 316, 316L, 316Ti, 321",
+        "properties": "Goede algemene corrosiebestendigheid; niet-magnetisch in gegloeide toestand; de meest gebruikte groep"
+      },
+      {
+        "family": "Austenitisch (200-serie)",
+        "grades": "201, 202, 204Cu",
+        "properties": "Lager nikkelgehalte; voordelig alternatief voor de 300-serie bij minder zware belasting"
+      },
+      {
+        "family": "Martensitisch (400-serie)",
+        "grades": "410, 420",
+        "properties": "Hardbaar door warmtebehandeling; slijtvast; magnetisch"
+      },
+      {
+        "family": "Ferritisch (400-serie)",
+        "grades": "430, 430L",
+        "properties": "Magnetisch; goede bestendigheid tegen oxidatie en chloride-spanningscorrosie; voordelig"
+      },
+      {
+        "family": "Hooggelegeerd austenitisch",
+        "grades": "904L",
+        "properties": "Bestand tegen sterke zuren; gebruikt in de chemische procesindustrie"
+      },
+      {
+        "family": "Duplex en speciale kwaliteiten",
+        "grades": "1.4362 (2304); andere op aanvraag",
+        "properties": "Speciale kwaliteiten ingekocht volgens projectspecificatie"
+      }
+    ],
+    "gradesNote": "Het materiaal wordt naar behoefte geleverd volgens ASTM-, DIN/EN- of IS-specificatie, met materiaalcertificaten volgens EN 10204 3.1.",
+    "marketsTitle": "Markten die wij bedienen",
+    "marketsIntro": "Wij exporteren rvs-profielen met de documenten die nodig zijn voor inklaring.",
+    "markets": [
+      {
+        "region": "Verenigde Arabische Emiraten",
+        "text": "Dubai, Abu Dhabi, Sharjah, Jebel Ali Free Zone (JAFZA) en het industriegebied Ruwais, met levering op projectlocaties in alle zeven emiraten."
+      },
+      {
+        "region": "Saoedi-Arabië",
+        "text": "Levering aan industriële en bouwprojecten."
+      },
+      {
+        "region": "Oman",
+        "text": "Levering aan industriële en bouwprojecten."
+      },
+      {
+        "region": "Overige GCC-landen",
+        "text": "Bahrein, Koeweit en Qatar op aanvraag."
+      },
+      {
+        "region": "Afrika",
+        "text": "Levering aan industriële markten in Afrika."
+      },
+      {
+        "region": "Europa",
+        "text": "Levering per project."
+      }
+    ],
+    "applicationsTitle": "Toepassingen per sector",
+    "applications": [
+      {
+        "title": "Olie, gas en petrochemie",
+        "items": [
+          "Pijpleidingonderdelen",
+          "Drukvatenbouw",
+          "Materiaal voor offshoreplatforms"
+        ]
+      },
+      {
+        "title": "Bouw en architectuur",
+        "items": [
+          "Draagconstructies en voetplaten",
+          "Gevels en bekleding",
+          "Interieur- en decoratieve elementen"
+        ]
+      },
+      {
+        "title": "Scheepvaart en scheepsbouw",
+        "items": [
+          "316L-profielen voor scheepsbouw en jachtbeslag",
+          "Haveninfrastructuur",
+          "Onderdelen voor ontziltingsinstallaties"
+        ]
+      },
+      {
+        "title": "Industriële constructie",
+        "items": [
+          "Machine- en apparatuurframes",
+          "Voedselverwerkende apparatuur",
+          "Waterbehandelingsinstallaties"
+        ]
+      },
+      {
+        "title": "Automotive en luchtvaart",
+        "items": [
+          "Staven voor bevestigingsmiddelen en assen",
+          "Precisieonderdelen"
+        ]
+      },
+      {
+        "title": "Draadproducten",
+        "items": [
+          "Staalkabels en veren",
+          "Laselektroden",
+          "Draadgaas en vuurvaste ankers"
+        ]
+      }
+    ],
+    "whyTitle": "Waarom inkopen via onze handelsdivisie",
+    "why": [
+      "Meer dan 40 jaar ervaring in de branche",
+      "Materiaal met fabriekscertificaat en certificaten volgens EN 10204 3.1",
+      "Kwaliteiten uit de 200-, 300- en 400-serie, plus speciale legeringen",
+      "Leveringstoestanden van warmgewalst en gebeitst tot koudgetrokken, gepolijst en centerloos geslepen",
+      "Op lengte gezaagde staven met tolerantie −0/+50 mm",
+      "Rvs-profielen en onze eigen vuurvaste ankers en vezels bij één leverancier",
+      "Ingekocht bij gerenommeerde staalfabrieken",
+      "Export naar meer dan 25 landen"
+    ],
+    "findTitle": "Vind ons op",
+    "findText": "Santura Engineering staat ook op deze B2B-marktplaatsen.",
+    "find": {
+      "indiamart": "IndiaMART",
+      "tradeindia": "TradeIndia"
+    },
+    "newTab": "(opent in een nieuw tabblad)",
+    "relatedTitle": "Gerelateerde producten",
+    "relatedAnchors": "Gemaakt in onze werkplaats van rvs-kwaliteiten zoals SS 304, 310 en 316.",
+    "relatedFibres": "Smeltextractie- en koudgetrokken vezels in AISI 304, 310 en 446.",
+    "relatedFasteners": "Bouten, tapeinden, moeren en ringen van rvs en gelegeerd staal.",
+    "relatedAccessories": "Rvs spanbanden, schroeven en bevestigingsmateriaal voor isolatie.",
+    "faqTitle": "Veelgestelde vragen",
+    "faq": [
+      {
+        "q": "Welke rvs-kwaliteiten levert Santura?",
+        "a": "Santura levert austenitische kwaliteiten (304, 304L, 304H, 310, 310S, 316, 316L, 316Ti, 321 en de 200-serie), ferritische kwaliteiten (430, 430L), martensitische kwaliteiten (410, 420) en de hooggelegeerde austenitische kwaliteit 904L. Walsdraad is ook leverbaar in DIN/EN-kwaliteiten en kwaliteiten voor laselektroden, en speciale kwaliteiten kopen wij op aanvraag in. Het materiaal wordt geleverd met materiaalcertificaten volgens EN 10204 3.1."
+      },
+      {
+        "q": "Welke rvs-profielen zijn er?",
+        "a": "Wij leveren walsdraad op rol (5,5–40 mm), zeskantstaven (12–55 mm), vierkantstaven (12–55 mm), HRAP-platstaal (25–100 mm breed), HRAP-hoeklijnen (20 × 20 tot 75 × 75 mm), staven in pompaskwaliteit (6–63,5 mm) en warmgewalste staven (13–150 mm). Leveringstoestanden lopen van warmgewalst, gebeitst en gegloeid tot koudgetrokken, gepolijst en centerloos geslepen."
+      },
+      {
+        "q": "Levert Santura rvs aan de VAE en Saoedi-Arabië?",
+        "a": "Ja. Wij leveren rvs-profielen aan de VAE, waaronder Dubai, Abu Dhabi, Sharjah, de Jebel Ali Free Zone (JAFZA) en Ruwais, en aan Saoedi-Arabië, Oman en andere GCC-landen, met de documenten die nodig zijn voor inklaring."
+      },
+      {
+        "q": "Welke certificaten horen bij het rvs?",
+        "a": "Het rvs wordt geleverd met materiaalcertificaten volgens EN 10204 3.1, met de chemische samenstelling, mechanische eigenschappen en warmtebehandeling van het materiaal. Het materiaal wordt geleverd volgens de ASTM-, DIN/EN- of IS-specificatie die het project vraagt."
+      },
+      {
+        "q": "Kan Santura zowel rvs als vuurvaste producten leveren?",
+        "a": "Ja. De handelsdivisie levert rvs-profielen met fabriekscertificaat, terwijl onze eigen werkplaats vuurvaste ankers, staalvezels, blindklinknagels en geperforeerde platen maakt. EPC-aannemers en installatie-eigenaren die beide nodig hebben, kunnen ze bij één leverancier kopen, wat de inkoop vereenvoudigt."
+      }
+    ],
+    "ctaTitle": "Rvs-profielen nodig?",
+    "ctaText": "Laat ons het product, de kwaliteit, maat, lengte, leveringstoestand en hoeveelheid weten. Wij reageren met een offerte en levertijd.",
+    "ctaRfq": "Offerte aanvragen voor roestvast staal",
     "ctaContact": "Of neem contact op met ons team"
   }
 }

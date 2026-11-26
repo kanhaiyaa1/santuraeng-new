@@ -115,6 +115,26 @@
         "name": "Enerji ve Kazanlar",
         "description": "CFBC, HRSG, atıktan enerji ve biyokütle kazanları.",
         "imageAlt": "Gün batımında enerji nakil hattı direkleri"
+      },
+      "aluminium": {
+        "name": "Alüminyum Üretimi",
+        "description": "Ergitme ve bekletme fırınları, anot pişirme fırınları ve döküm olukları.",
+        "imageAlt": "Depoda alüminyum rulolar"
+      },
+      "copper": {
+        "name": "Bakır",
+        "description": "Ergitme fırınları, konvertörler ve anot fırınları.",
+        "imageAlt": "Bakır tel kangalları"
+      },
+      "ceramic": {
+        "name": "Seramik Sanayi",
+        "description": "Tünel fırınlar, mekik fırınlar ve fırın arabaları.",
+        "imageAlt": "Tünel fırında seramik yüklü fırın arabaları"
+      },
+      "mining": {
+        "name": "Madencilik ve Mineraller",
+        "description": "Mineral işleme için döner fırınlar, kalsinatörler ve kurutucular.",
+        "imageAlt": "Yeraltı madeninde konveyör"
       }
     }
   },
@@ -769,13 +789,13 @@
         "name": "Yalıtım Aksesuarları",
         "description": "Bant, klips, pul ve diğer yalıtım bağlantı parçaları."
       },
-      "steel-plates": {
-        "name": "Çelik Levhalar",
-        "description": "Paslanmaz ve alaşımlı çelik levha ve saclar."
-      },
       "trading-division": {
         "name": "Ticaret Bölümü",
         "description": "Paslanmaz çelik ve endüstriyel malzeme tedariki."
+      },
+      "steel-fibres": {
+        "name": "Çelik Lifler",
+        "description": "Refrakter dökülebilir malzemeler için eriyikten çekme ve soğuk çekme paslanmaz çelik lifler."
       }
     },
     "allCategories": "Tüm ürün kategorileri",
@@ -1114,6 +1134,7 @@
       "Pozitif malzeme tanımlama (PMI), bir metalin elementel bileşimini ölçen ve alaşım kalitesini doğrulayan tahribatsız bir testtir. Taşınabilir X-ışını floresans (XRF) analizörü veya optik emisyon spektrometresi (OES) ile yapılır.",
       "Analizör bileşimi saniyeler içinde okur ve bir alaşım kütüphanesiyle karşılaştırır. Hiçbir şey kesilmez, delinmez veya zarar görmez; bitmiş ankrajlar test edilip sevk edilebilir."
     ],
+    "whatImageAlt": "SS310 alaşım okuması gösteren el tipi XRF analiz cihazı",
     "whyTitle": "Refrakter ankrajlar için neden önemli",
     "why": [
       {
@@ -1589,7 +1610,12 @@
       "Montajdan önce gözetleme kapısı çerçevesi ve parçaları",
       "İmalat sahasında galvanizli gözetleme kapısı serisi",
       "Sevkiyat için istiflenmiş menteşeli gözetleme kapıları",
-      "Bir üretim serisinden galvanizli gözetleme kapısı çerçevelerinin yakın görünümü"
+      "Bir üretim serisinden galvanizli gözetleme kapısı çerçevelerinin yakın görünümü",
+      "Menteşeli erişim kapağı ve isim plakası olan galvanizli gözetleme kapağı",
+      "Muayeneden sonra etiketlenmiş gözetleme pencereli kapaklar",
+      "Sevkiyattan önce sıralanmış etiketli gözetleme kapakları",
+      "Atölyede sıralanmış galvanizli gözetleme kapağı çerçeveleri",
+      "İstiflenmiş galvanizli gözetleme kapağı çerçeveleri, yandan görünüm"
     ],
     "relatedTitle": "İlgili ürünler ve hizmetler",
     "relatedAnchorsText": "Her kapının içindeki refrakter astarı tutan ankrajlar; duvar astarınızla aynı alaşımlarda.",
@@ -1812,7 +1838,8 @@
       "Sevkiyat için etiketlenmiş boru kovanlı temel cıvataları",
       "Atölyede dizilmiş boru kovanlı galvanizli temel cıvataları",
       "Somun ve kovanlı galvanizli temel cıvatası stoku",
-      "Temel cıvatası boru kovanları ve somunlarının yakın görünümü"
+      "Temel cıvatası boru kovanları ve somunlarının yakın görünümü",
+      "Boru kovanlı ve kare üst plakalı galvanizli temel cıvataları"
     ],
     "relatedTitle": "İlgili ürünler",
     "relatedStanchions": "Platformlar ve korkuluklar için dikmeler; çoğu zaman aynı temellere monte edilir.",
@@ -2077,7 +2104,9 @@
       "Berkitmeli taban plakalı, sıcak daldırma galvanizli endüstriyel dikme partisi",
       "Kaynaklı küpeşte kollu ve taban plakalı galvanizli dikme",
       "Yan küpeşte kollu ve berkitmeli taban plakalı endüstriyel dikme",
-      "Dikme üzerindeki kaynaklı T birleşiminin yakın görünümü"
+      "Dikme üzerindeki kaynaklı T birleşiminin yakın görünümü",
+      "Yan kollu ve takviyeli taban plakalı galvanizli dikme direği",
+      "Üretim atölyesinde T korkuluklu galvanizli dikmeler"
     ],
     "overviewTitle": "Endüstriyel dikmeler nedir",
     "overview": [
@@ -2607,6 +2636,7 @@
     "subheading": "Hidrojen reformerlerinde ve etilen kraking fırınlarında radyant tüplerin ağırlığını taşıyan kaldıraç kollu karşı ağırlık sistemleri. Santura tarafından 1990'ların sonundan beri müşterinin mühendislik çizimlerine göre üretilir.",
     "lindeBadge": "Linde Engineering India onaylı tedarikçi, {period}",
     "photoAlt": "Ağırlık yığınlı, galvanizli karşı ağırlık kaldıraç kolu takımı",
+    "photo2Alt": "Atölyede istiflenmiş sabit ağırlıklı karşı ağırlık kolu",
     "photoCaption": "Atölyemizde ağırlık yığınlı, galvanizli kaldıraç kolu takımı.",
     "whatTitle": "Karşı ağırlık sistemi ne işe yarar",
     "what": [
@@ -3859,6 +3889,2469 @@
     "ctaTitle": "Kalsiyum silikat yalıtım mı gerekiyor?",
     "ctaText": "Formu, boru çaplarını veya levha ölçülerini, kalınlığı, kullanım sıcaklığını ve miktarı bize bildirin. Teklif ve teslim süresiyle dönüş yapalım.",
     "ctaRfq": "Kalsiyum silikat için teklif isteyin",
+    "ctaContact": "Veya ekibimizle iletişime geçin"
+  },
+  "ipPage": {
+    "metaTitle": "İzolasyon Pimi Üreticisi | Kaynak Pimleri ve Kilit Pullar",
+    "metaDescription": "İzolasyon pimi üreticisi: kaynaklı ve yapışkanlı pimler, paslanmaz ve galvaniz çelik kilit pullar. 1980'den beri, 25'ten fazla ülkeye ihracat.",
+    "eyebrow": "Santura üretimi",
+    "h1": "İzolasyon Pimleri ve Kaynak Pimleri",
+    "subheading": "Kanallar, tanklar, duvarlar ve ekipmanlar için kaynaklı, yapışkan tabanlı ve kendinden yapışkanlı izolasyon pimleri; uyumlu kilit pullar ve kapaklarla birlikte. Kendi atölyemizde paslanmaz çelik, galvaniz çelik ve plastikten üretilir.",
+    "badges": [
+      "CD kaynak pimleri",
+      "Delikli tabanlı pimler",
+      "Kendinden yapışkanlı pimler",
+      "Kilit pullar",
+      "Kapaklar",
+      "EN 10204 3.1 sertifikaları"
+    ],
+    "gallery": [
+      "Plastik bir pim dahil, delikli tabanlı izolasyon pimleri",
+      "Kapaklı ve kilit pullu kaynak pimleri",
+      "İzolasyon pimleri için paslanmaz çelik kilit pullar",
+      "İzolasyon pimleri için kare kilit pul",
+      "İzolasyon pimleri için kapak",
+      "İzolasyon pimleri için çeşitli kilit pullar",
+      "Kare taban plakalı delikli tabanlı izolasyon pimi"
+    ],
+    "overviewTitle": "İzolasyon pimi nedir",
+    "overview": [
+      "İzolasyon pimleri, izolasyon çivisi, saplama pimi veya kaynak pimi olarak da bilinir; izolasyonu bir yüzeye mekanik olarak sabitleyen bağlantı elemanlarıdır. Pim yüzeye sabitlenir, izolasyon pimin gövdesine geçirilir ve bir kilit pul ya da kapak onu yerinde tutar.",
+      "Pimler izolasyonun sarkmasını, kaymasını veya düşmesini önler; böylece ısı ve ses yalıtımı korunur ve uygulama düzgün görünür. Havalandırma kanallarında, basınçlı kaplarda ve tanklarda, kazan gövdelerinde, gemi perdelerinde, duvarlarda ve tavanlarda kullanılır.",
+      "Santura, refrakter ankrajlarının yanında kendi izolasyon pimlerini de üretir. Pimler üç sabitleme yöntemi için yapılır: kaynaklı (kondansatör deşarjı veya ark), delikli tabanlı yapışkanlı ve kendinden yapışkanlı. Uyumlu pullar ve kapaklar aynı malzemelerden üretilir."
+    ],
+    "madeTitle": "Kendi üretimimiz",
+    "made": [
+      "Paslanmaz çelik, galvaniz karbon çelik ve PVC pimler",
+      "Kaynaklı ve yapışkanlı modeller",
+      "Kilit pullar ve kapaklar",
+      "Taş yünü, cam yünü, EPS, köpük ve PUR için",
+      "EN 10204 3.1 muayene sertifikalarıyla"
+    ],
+    "typesTitle": "Sabitleme yöntemine göre izolasyon pimi tipleri",
+    "types": [
+      {
+        "title": "Kaynak pimleri (CD / ark)",
+        "text": "Kondansatör deşarjlı (CD) veya ark saplama kaynağıyla sac yüzeye kalıcı olarak birleştirilen, kaynak tabanlı pim.",
+        "rows": [
+          {
+            "label": "Kaynak süresi",
+            "value": "Pim başına 1 saniyeden az"
+          },
+          {
+            "label": "Uygun olduğu yerler",
+            "value": "Metal kanallar, kap gövdeleri, tank duvarları ve sac paneller"
+          },
+          {
+            "label": "Baş tipleri",
+            "value": "Çanak başlı (entegre disk) veya başsız, ayrı kilit pullu"
+          },
+          {
+            "label": "Avantaj",
+            "value": "Yangında da tutan kalıcı ve güçlü bağlantı"
+          },
+          {
+            "label": "Malzemeler",
+            "value": "Galvaniz karbon çelik, SS 304, SS 316, alüminyum; bimetal (alüminyum baş, çelik gövde)"
+          }
+        ]
+      },
+      {
+        "title": "Yapışkan tabanlı (delikli) pimler",
+        "text": "Yapıştırıcı macunla yüzeye yapıştırılan delikli metal taban plakası üzerindeki pim.",
+        "rows": [
+          {
+            "label": "Uygun olduğu yerler",
+            "value": "Kaynak yapılamayan yüzeyler: beton, duvar, CTP ve boyalı yüzeyler"
+          },
+          {
+            "label": "Uygulama",
+            "value": "Yapıştırıcıyı deliklerden sürün, çevirerek bastırın ve yüklemeden önce 24–72 saat kürlenmesini bekleyin"
+          },
+          {
+            "label": "Taban plakası",
+            "value": "Delikli kare veya yuvarlak plaka, genellikle 50 × 50 mm; yapıştırıcı deliklerden geçerek tutunmayı artırır"
+          },
+          {
+            "label": "Avantaj",
+            "value": "Kaynak ekipmanı gerekmez"
+          },
+          {
+            "label": "Malzemeler",
+            "value": "Galvaniz çelik, SS 304, alüminyum"
+          }
+        ]
+      },
+      {
+        "title": "Kendinden yapışkanlı pimler",
+        "text": "Tabanına önceden basınca duyarlı yapışkan ped uygulanmış pim.",
+        "rows": [
+          {
+            "label": "Uygun olduğu yerler",
+            "value": "Temiz, kuru ve gözeneksiz yüzeylerde hafif izolasyonun hızlı montajı"
+          },
+          {
+            "label": "Uygulama",
+            "value": "Koruyucu kâğıdı soyun, çevirmeden sıkıca bastırın ve yüklemeden önce 15–20 dakika bekleyin"
+          },
+          {
+            "label": "Yük",
+            "value": "Pim başına yaklaşık 1,4 kg'a kadar"
+          },
+          {
+            "label": "Sıcaklık",
+            "value": "10 °C üzerinde uygulama; −20 °C ile 90 °C arasında kullanım"
+          },
+          {
+            "label": "Sınırlamalar",
+            "value": "Boyalı yüzeyler, alçıpan veya doğrudan güneş alan metal için uygun değildir"
+          }
+        ]
+      }
+    ],
+    "guideTitle": "Doğru pimi seçmek",
+    "guideIntro": "Yüzeyden ve çalışma koşullarından başlayın, ardından sabitleme yöntemini ve malzemeyi seçin.",
+    "colApplication": "Uygulama",
+    "colPin": "Önerilen pim",
+    "colWhy": "Neden",
+    "guideRows": [
+      {
+        "application": "Metal kanal, kap veya tank duvarı",
+        "pin": "CD kaynak pimi",
+        "why": "Kalıcı bağlantı, yangında tutar, en hızlı montaj"
+      },
+      {
+        "application": "Beton, duvar veya CTP",
+        "pin": "Delikli yapışkan pim",
+        "why": "Kaynak gerekmez; deliklerden güçlü tutunma"
+      },
+      {
+        "application": "Hafif izolasyonun hızlı ve kuru montajı",
+        "pin": "Kendinden yapışkanlı pim",
+        "why": "Soy ve yapıştır, kürlenme süresi yok"
+      },
+      {
+        "application": "Soğuk oda veya dondurucu",
+        "pin": "Naylon veya PVC pim",
+        "why": "Pimde ısı köprüsünü ve yoğuşmayı önler"
+      },
+      {
+        "application": "Denizcilik, kıyı veya kimya tesisi",
+        "pin": "SS 304 veya SS 316 kaynak pimi",
+        "why": "Agresif ortamlarda korozyona dayanıklı"
+      },
+      {
+        "application": "Genel HVAC, sınırlı bütçe",
+        "pin": "Galvaniz çelik kaynak pimi",
+        "why": "Ekonomik, iç ortamda iyi korozyon direnci"
+      }
+    ],
+    "specTitle": "Pim özellikleri",
+    "specRows": [
+      {
+        "label": "Gövde çapı",
+        "value": "2,1, 2,7 ve 3,0 mm (diğerleri talep üzerine)"
+      },
+      {
+        "label": "Gövde boyu",
+        "value": "50, 63, 90, 110, 114 ve 150 mm (siparişe göre her boy)"
+      },
+      {
+        "label": "Baş tipi",
+        "value": "Çanak başlı (entegre disk) veya başsız"
+      },
+      {
+        "label": "Taban tipi",
+        "value": "Kaynak tabanı, delikli plaka (50 × 50 mm) veya kendinden yapışkanlı ped"
+      },
+      {
+        "label": "Yüzey",
+        "value": "Ham, galvaniz veya talep üzerine pasivasyonlu"
+      },
+      {
+        "label": "Sertifika",
+        "value": "EN 10204 3.1 muayene sertifikaları"
+      }
+    ],
+    "materialsTitle": "Malzemeler",
+    "colMaterial": "Malzeme",
+    "colBestFor": "Uygun olduğu yerler",
+    "colMaxTemp": "Maks. sıcaklık",
+    "materials": [
+      {
+        "name": "Paslanmaz çelik 304",
+        "use": "Denizcilik, kimya, nemli ve korozif ortamlar; uzun ömür",
+        "temp": "Yaklaşık 800 °C"
+      },
+      {
+        "name": "Paslanmaz çelik 316",
+        "use": "Ağır korozyon: kıyı, klorürler ve kimyasal prosesler",
+        "temp": "Yaklaşık 800 °C"
+      },
+      {
+        "name": "Galvaniz karbon çelik",
+        "use": "Genel HVAC, endüstriyel ve bina izolasyonu; ekonomik",
+        "temp": "Yaklaşık 450 °C"
+      },
+      {
+        "name": "Alüminyum",
+        "use": "Hafif; gıda işleme ve temiz ortamlar",
+        "temp": "Yaklaşık 200 °C"
+      },
+      {
+        "name": "Bimetal (alüminyum baş, çelik gövde)",
+        "use": "Çelik gövdenin kaynak dayanımıyla alüminyum baş",
+        "temp": "Yaklaşık 450 °C"
+      },
+      {
+        "name": "PVC / naylon",
+        "use": "Soğuk yüzeyler; ısı köprüsünü önler",
+        "temp": "Yaklaşık 80 °C (PVC) / 120 °C (naylon)"
+      }
+    ],
+    "materialsNote": "Pim malzemesinin tipik azami sıcaklıklarıdır. Bu sınırların üzerindeki seramik elyaf astarlar için saplama kaynaklı seramik elyaf ankrajları (SEPL-24) kullanın.",
+    "accessoriesTitle": "Kilit pullar ve kapaklar",
+    "accessoriesIntro": "Kilit pullar pim gövdesini kavrayarak izolasyonu tutar; kapaklar kesilen ucu örter. Her ikisi de pime uygun olarak galvaniz çelik, paslanmaz çelik veya alüminyumdan üretilir.",
+    "accessories": [
+      {
+        "title": "Yuvarlak kilit pullar",
+        "text": "Pim gövdesine geçirilip onu kavrayan klipsler.",
+        "sizes": "Ø 25, 35 ve 38 mm"
+      },
+      {
+        "title": "Kare kilit pullar",
+        "text": "Düz izolasyon levhalarında daha iyi tutunan kare klipsler.",
+        "sizes": "25 × 25, 35 × 35 ve 38 × 38 mm"
+      },
+      {
+        "title": "Kapaklar",
+        "text": "Kilit pul takıldıktan sonra gövde ucunu örter; güvenlik, düzgün görünüm ve sivri uçlara karşı koruma sağlar.",
+        "sizes": "Pim çapına uygun"
+      }
+    ],
+    "washersLink": "Tüm pul ürünlerimizi görün",
+    "compatibleTitle": "Uyumlu izolasyon malzemeleri",
+    "compatibleIntro": "Pimler, gövdenin delip geçebildiği her izolasyon için uygundur. Yüksek sıcaklıktaki seramik elyaf battaniyeler için seramik elyaf saplama ankrajları kullanın.",
+    "compatible": {
+      "mineralWool": "Taş yünü / mineral yün",
+      "glassWool": "Cam yünü",
+      "eps": "Genleştirilmiş polistiren (EPS / strafor)",
+      "xps": "Ekstrüde polistiren (XPS)",
+      "puf": "Poliüretan köpük (PUR)",
+      "ceramic": "Seramik elyaf battaniye (SEPL-24 ile)"
+    },
+    "installTitle": "İzolasyon pimleri nasıl monte edilir",
+    "steps": [
+      {
+        "title": "Pimi sabitleyin",
+        "text": "Pimi yüzeye kaynakla, yapıştırıcıyla veya yapışkan pediyle sabitleyin."
+      },
+      {
+        "title": "İzolasyonu yerleştirin",
+        "text": "İzolasyonu yüzeye tam oturana kadar pim gövdesine geçirin."
+      },
+      {
+        "title": "Pulu takın",
+        "text": "İzolasyonu sıkıştırıp tutmak için gövdeye bir kilit pul veya kapak geçirin."
+      },
+      {
+        "title": "Kesin veya bükün",
+        "text": "Taşan gövdeyi aynı hizada kesin veya güvenlik için düz bükün."
+      }
+    ],
+    "spacingTitle": "Pim aralığı ve yerleşim",
+    "spacing": [
+      "Aralık; izolasyonun ağırlığına ve kalınlığına, dikey veya tavan uygulamasına, rüzgâr ve titreşime ve proje şartnamesine bağlıdır.",
+      "Levhaların kabarmasını azaltmak için pimleri levha kenarlarından yaklaşık 75–100 mm içeride tutun.",
+      "Pasif yangın koruma sistemlerinde pimler genellikle yaklaşık 280 mm aralıkla kullanılır; sistem üreticisinin detaylarına uyun.",
+      "Her zaman proje şartnamesine veya mühendisin yerleşim çizimine uyun."
+    ],
+    "techTitle": "Teknik hususlar",
+    "tech": [
+      {
+        "title": "Isı köprüsü",
+        "text": "Metal pimler ısıyı izolasyonun içinden iletir. Soğuk odalar ve soğutulmuş su gibi yoğuşma riski olan soğuk uygulamalarda PVC veya naylon pim kullanın ya da ek buhar kesici önlemler alın."
+      },
+      {
+        "title": "Yangın davranışı",
+        "text": "Kaynaklı metal pimler yangında mekanik olarak sabit kalır; bu nedenle pasif yangın koruması için en güvenilir seçenektir. Yapışkanlı pimler yapıştırıcının ısı dayanımına bağlıdır."
+      },
+      {
+        "title": "Korozyon direnci",
+        "text": "Pimi ortama göre seçin: iç ortamda galvaniz çelik, nem veya kimyasal varsa SS 304, deniz ve klorürlü ortamlarda SS 316. Yanlış malzeme erken arızaya, lekelenmeye ve izolasyonun zarar görmesine yol açar."
+      }
+    ],
+    "applicationsTitle": "Sektörlere göre uygulamalar",
+    "applications": [
+      {
+        "title": "HVAC ve kanallar",
+        "items": [
+          "Dikdörtgen kanallarda cam yünü veya mineral yün iç kaplama",
+          "Kanalların dış izolasyonu",
+          "Klima santrali panelleri",
+          "Akustik kanal kaplaması"
+        ]
+      },
+      {
+        "title": "Petrol, gaz ve petrokimya",
+        "items": [
+          "Sac kaplama altında kap ve kolon izolasyonu",
+          "Rafineri ve gaz tesislerinde ekipman izolasyonu",
+          "Açık deniz platformlarında güverte altı izolasyon"
+        ]
+      },
+      {
+        "title": "Enerji üretimi",
+        "items": [
+          "Kazan gövdesi izolasyonu",
+          "Türbin akustik kabinleri",
+          "Atık ısı kazanı ve baca gazı kanalı izolasyonu"
+        ]
+      },
+      {
+        "title": "Denizcilik",
+        "items": [
+          "Perde ve güverte izolasyonu (SS 316 pimler)",
+          "Makine dairesi ısı ve ses yalıtımı",
+          "Ambar izolasyonu"
+        ]
+      },
+      {
+        "title": "İnşaat",
+        "items": [
+          "Ticari binalarda duvar ve tavan izolasyonu",
+          "Akustik panel montajı",
+          "Soğuk ve dondurucu odalar (naylon pimler)",
+          "Pasif yangın koruması"
+        ]
+      },
+      {
+        "title": "Endüstri",
+        "items": [
+          "Gürültü bariyerleri ve akustik kabinler",
+          "Fırın dış izolasyonu (paslanmaz pimler)",
+          "Gıda işleme tesisleri (alüminyum pimler)",
+          "Jeneratör ve kompresör odaları"
+        ]
+      }
+    ],
+    "supplyTitle": "Neler tedarik ediyoruz",
+    "supply": [
+      "Santura, kendi atölyesinde paslanmaz çelik (304, 316), galvaniz karbon çelik, alüminyum ve PVC veya naylon izolasyon pimlerini kaynaklı, yapışkanlı ve kendinden yapışkanlı modellerde, kilit pullar ve kapaklarla birlikte üretir. Pimler tutarlı ölçülerde üretilir ve EN 10204 3.1 muayene sertifikalarıyla teslim edilir.",
+      "Uygulayıcılar ve imalatçılar için özel boylar, taban ölçüleri, pul tipleri, malzeme kaliteleri ve toplu ambalaj mevcuttur. İzolasyon pimlerini mineral yün, cam yünü, kalsiyum silikat, seramik contalar ve refrakter ankrajlarla birlikte 25'ten fazla ülkeye ihraç ediyoruz; saplama kaynağı hizmetimiz pimlerin kaynağı için ekipman ve prosedürleri sağlar."
+    ],
+    "relatedTitle": "İlgili ürünler ve hizmetler",
+    "relatedMineralWool": "İzolasyon pimleriyle sabitlenen taş yünü levha, rulo ve şiltelerimiz.",
+    "relatedGlassFibre": "Kanallar ve kaplama için cam yünü ve cam kumaş.",
+    "relatedCalsil": "Sıklıkla pimle sabitlenen şilte katmanlarıyla birlikte kullanılan sert yüksek sıcaklık izolasyonu.",
+    "relatedGaskets": "Yüksek sıcaklık sızdırmazlığı için seramik elyaf ip, bant ve contalar.",
+    "relatedAnchors": "Ana ürünümüz: refrakter astarlar için SEPL ankrajları.",
+    "relatedSepl24": "Yüksek sıcaklıkta seramik elyaf battaniye için saplama kaynaklı ankrajlar.",
+    "relatedSw": "Pim ve ankrajlar için CD ve ark saplama kaynağı ekipmanı ve prosedürleri.",
+    "relatedWashersName": "Pullar",
+    "relatedWashers": "Pim ve ankrajlar için kilit pullar, kare pullar ve kubbe pullar.",
+    "faqTitle": "Sıkça sorulan sorular",
+    "faq": [
+      {
+        "q": "İzolasyon pimleri ne için kullanılır?",
+        "a": "İzolasyon çivisi, saplama pimi veya kaynak pimi olarak da bilinen izolasyon pimleri; taş yünü, cam yünü, polistiren ve PUR gibi izolasyonları duvarlara, kanallara, kaplara ve ekipmanlara mekanik olarak sabitler. İzolasyonun sarkmasını, kaymasını veya düşmesini önleyerek ısı ve ses yalıtımının korunmasını sağlar."
+      },
+      {
+        "q": "Kaynak pimleri ile yapışkanlı pimler arasındaki fark nedir?",
+        "a": "Kaynak pimleri, kondansatör deşarjlı (CD) veya ark saplama kaynağıyla bir saniyeden kısa sürede metale kalıcı olarak birleştirilir; metal kanallar ve kap gövdeleri için idealdir. Yapışkanlı pimlerin delikli tabanı, beton ve duvar gibi kaynak yapılamayan yüzeylere macunla yapıştırılır. Kaynak pimleri daha güçlüdür ve yangında tutar; yapışkanlı pimler kaynak ekipmanı gerektirmez."
+      },
+      {
+        "q": "Pimlerle hangi izolasyon malzemeleri sabitlenebilir?",
+        "a": "Pimler, gövdenin delip geçebildiği her izolasyon için uygundur: taş yünü ve mineral yün, cam yünü, EPS, ekstrüde polistiren (XPS) ve PUR köpük. Yüksek sıcaklıktaki seramik elyaf battaniyeler için seramik elyaf saplama ankrajları (SEPL-24) kullanın."
+      },
+      {
+        "q": "İzolasyon pimleri nasıl monte edilir?",
+        "a": "Pimi yüzeye kaynakla, yapıştırıcıyla veya yapışkan pediyle sabitleyin, izolasyonu gövdeye geçirin, sıkıştırıp tutmak için kilit pul veya kapak takın ve taşan gövdeyi kesin ya da bükün. Aralık proje şartnamesine göre belirlenir; pimler genellikle levha kenarlarından 75–100 mm içeride tutulur."
+      },
+      {
+        "q": "İzolasyon pimleri hangi malzemelerden üretilir?",
+        "a": "İzolasyon pimlerini paslanmaz çelik (304, 316), galvaniz karbon çelik, alüminyum ve PVC veya naylondan üretiyoruz. Paslanmaz çelik korozif ve deniz ortamlarına, galvaniz çelik genel HVAC için ekonomik bir seçime uygundur; alüminyum hafiftir, plastik pimler ise soğuk yüzeylerde ısı köprüsünü önler."
+      }
+    ],
+    "ctaTitle": "İzolasyon pimine mi ihtiyacınız var?",
+    "ctaText": "Pim tipini, gövde çapını ve boyunu, malzemeyi, pul tipini ve miktarı bize bildirin. Fiyat teklifi ve teslim süresiyle dönüş yapalım.",
+    "ctaRfq": "İzolasyon pimleri için teklif isteyin",
+    "ctaContact": "Veya ekibimizle iletişime geçin",
+    "relatedAccessories": "Yalıtım ve kaplama için çember, yay, vida, perçin, tel ve bantlar."
+  },
+  "psPage": {
+    "metaTitle": "Polistiren Yalıtım | EPS ve XPS Levhalar, Boru Kılıfları",
+    "metaDescription": "EPS ve XPS polistiren yalıtım: levhalar, boru kılıfları ve soğuk oda panelleri. 1980'den beri tedarikçi, 25'ten fazla ülkeye ihracat. Teklif alın.",
+    "eyebrow": "Yalıtım malzemeleri",
+    "h1": "Polistiren Yalıtım: EPS ve XPS",
+    "subheading": "Genleştirilmiş (EPS) ve ekstrüde (XPS) polistiren yalıtım: levhalar, alüminyum folyolu veya folyosuz boru kılıfları, yarım kılıflar ve soğuk odalar, soğuk su hatları ve binalar için ölçüye göre kesilmiş parçalar.",
+    "badges": [
+      "EPS 15–40 kg/m³",
+      "XPS levhalar",
+      "Boru kılıfları",
+      "Folyolu kılıflar",
+      "Ölçüye göre kesim"
+    ],
+    "gallery": [
+      "Genleştirilmiş polistiren yalıtım levhaları",
+      "Alüminyum folyo kaplı EPS boru kılıfları",
+      "Polistiren yarım yuvarlak boru yalıtım kılıfları",
+      "İki parçalı polistiren boru yalıtım kılıfları"
+    ],
+    "overviewTitle": "Polistiren yalıtım nedir",
+    "overview": [
+      "Polistiren yalıtım hafif, rijit ve kapalı hücreli bir köpüktür. Isı iletkenliği düşüktür, neme dayanır, şeklini korur ve diğer yalıtım malzemelerinin çoğundan daha ucuzdur. Bu nedenle soğuk odalarda, soğuk su hatlarında ve bina yalıtımında yaygın olarak kullanılır.",
+      "Soğuk ve soğutulmuş su hatlarında boru kılıfı olarak; duvar, çatı, döşeme ve güverte altı / üstü yalıtımında levha olarak; ekipman ve kaplar için ölçüye göre kesilmiş parça olarak kullanılır. Doğru uygulanıp korunduğunda tesisin ömrü boyunca sarkmadan veya oturmadan yalıtım değerini korur.",
+      "Polistiren yalıtım, farklı yöntemlerle üretilen iki türde bulunur."
+    ],
+    "types": [
+      {
+        "title": "EPS: genleştirilmiş polistiren",
+        "tag": "Beyaz boncuklu köpük · daha düşük maliyet",
+        "text": "Polistiren boncuklar buharla genleştirilip bloklar halinde kalıplanır, ardından levha, boru kılıfı ve parçalar halinde kesilir. EPS, XPS'ten daha hafif ve ucuzdur; ısı iletkenliği biraz daha yüksektir. Mukavemetini yoğunluğu belirler."
+      },
+      {
+        "title": "XPS: ekstrüde polistiren",
+        "tag": "Renkli yoğun köpük · daha yüksek mukavemet",
+        "text": "Sürekli ekstrüzyonla levha halinde üretilir; markaya göre genellikle mavi, pembe veya yeşildir. XPS, EPS'e göre daha yüksek basma dayanımına, daha düşük su emmeye ve daha düşük ısı iletkenliğine sahiptir; bu yüzden toprak altı, ıslak ve yük taşıyan uygulamalara uygundur."
+      }
+    ],
+    "formsTitle": "Ürün biçimleri ve ölçüler",
+    "formsIntro": "Tipik biçimler ve ölçüler. Diğer ölçü, kalınlık ve şekiller çizime göre tedarik edilir.",
+    "epsFormsTitle": "EPS (genleştirilmiş polistiren)",
+    "xpsFormsTitle": "XPS (ekstrüde polistiren)",
+    "colForm": "Biçim",
+    "colDescription": "Açıklama",
+    "colSizes": "Tipik ölçüler",
+    "epsForms": [
+      {
+        "form": "Levhalar",
+        "text": "Duvar, çatı, döşeme ve soğuk odalar için rijit levhalar",
+        "sizes": "12–300 mm kalınlık; 1200 × 600 mm veya 2400 × 1200 mm"
+      },
+      {
+        "form": "Boru kılıfları (iki parçalı)",
+        "text": "Boru yalıtımı için önceden şekillendirilmiş iki parçalı kılıflar",
+        "sizes": "İç çap 15–600 mm; 20–100 mm kalınlık"
+      },
+      {
+        "form": "Kavisli / yarım yuvarlak segmentler",
+        "text": "Tanklar, kaplar ve büyük borular için şekillendirilmiş segmentler",
+        "sizes": "Dış çapa göre"
+      },
+      {
+        "form": "Alüminyum folyolu kılıf ve levhalar",
+        "text": "Yansıtıcı alüminyum folyo kaplı EPS",
+        "sizes": "Standart ölçüler"
+      },
+      {
+        "form": "Ölçüye göre kesilmiş parçalar",
+        "text": "Dirsek, vana ve karmaşık profiller için çizime göre sıcak telle kesilir",
+        "sizes": "Şartnameye göre"
+      }
+    ],
+    "xpsForms": [
+      {
+        "form": "Rijit levhalar",
+        "text": "Toprak altı duvarlar, ters çatılar ve yük taşıyan döşemeler için yüksek dayanımlı levhalar",
+        "sizes": "20–200 mm kalınlık; genellikle 1250 × 600 mm"
+      },
+      {
+        "form": "Lambalı zıvanalı levhalar",
+        "text": "Boşluksuz sürekli yalıtım katmanı için geçmeli kenarlar",
+        "sizes": "25–100 mm kalınlık"
+      },
+      {
+        "form": "Eğimli levhalar",
+        "text": "Düz çatı drenajı için eğimli kesilmiş levhalar",
+        "sizes": "İstenen eğime göre"
+      }
+    ],
+    "specTitle": "EPS ve XPS karşılaştırması",
+    "colProperty": "Özellik",
+    "colEps": "EPS",
+    "colXps": "XPS",
+    "specRows": [
+      {
+        "label": "Üretim yöntemi",
+        "eps": "Boncuk genleştirme ve kalıplama",
+        "xps": "Sürekli ekstrüzyon"
+      },
+      {
+        "label": "Renk",
+        "eps": "Beyaz",
+        "xps": "Mavi, pembe veya yeşil (markaya göre)"
+      },
+      {
+        "label": "Yoğunluk",
+        "eps": "15–40 kg/m³",
+        "xps": "25–45 kg/m³"
+      },
+      {
+        "label": "Isı iletkenliği (λ)",
+        "eps": "0,035–0,040 W/m·K",
+        "xps": "0,029–0,036 W/m·K"
+      },
+      {
+        "label": "Basma dayanımı (%10 deformasyon)",
+        "eps": "Yoğunluğa göre 60–200 kPa",
+        "xps": "150–700 kPa"
+      },
+      {
+        "label": "Su emme (hacimce)",
+        "eps": "%2–5",
+        "xps": "Genellikle %0,3 veya daha az"
+      },
+      {
+        "label": "Su buharı difüzyon direnç katsayısı (µ)",
+        "eps": "20–70",
+        "xps": "80–250"
+      },
+      {
+        "label": "Azami sürekli kullanım sıcaklığı",
+        "eps": "Yaklaşık 80 °C",
+        "xps": "Yaklaşık 75 °C"
+      },
+      {
+        "label": "Asgari kullanım sıcaklığı",
+        "eps": "Üretici verilerine göre yaklaşık −180 °C'ye kadar",
+        "xps": "Üretici verilerine göre genellikle −50 °C"
+      },
+      {
+        "label": "Yangına tepki",
+        "eps": "Alev geciktirici katkılı Euroclass E (FR sınıfı)",
+        "xps": "Alev geciktirici katkılı Euroclass E (FR sınıfı)"
+      },
+      {
+        "label": "Boyutsal kararlılık",
+        "eps": "İyi; sarkmaz ve oturmaz",
+        "xps": "Çok iyi"
+      },
+      {
+        "label": "Şişirici gaz",
+        "eps": "Pentan; CFC ve HCFC içermez",
+        "xps": "Modern sınıflarda CO₂ veya HFO; CFC ve HCFC içermez"
+      },
+      {
+        "label": "Geri dönüşüm",
+        "eps": "Geri dönüştürülebilir",
+        "xps": "Geri dönüştürülebilir"
+      }
+    ],
+    "specNote": "Tipik değerlerdir. Kesin değerler sınıfa, yoğunluğa ve üreticiye göre değişir; tedarik edilen ürünün teknik föyü geçerlidir.",
+    "densityTitle": "EPS yoğunluk seçim kılavuzu",
+    "densityIntro": "EPS'in dayanımı yoğunlukla artar. Daha yüksek yoğunluk daha pahalı olduğundan, yükü taşıyan en düşük yoğunluğu seçin.",
+    "colDensity": "Yoğunluk",
+    "colStrength": "Basma dayanımı (yaklaşık)",
+    "colBestFor": "Uygun olduğu yerler",
+    "densityRows": [
+      {
+        "density": "15 kg/m³",
+        "strength": "Yaklaşık 60 kPa",
+        "use": "Duvarlar, tavanlar ve yük taşımayan diğer alanlar"
+      },
+      {
+        "density": "20 kg/m³",
+        "strength": "Yaklaşık 100 kPa",
+        "use": "Genel bina yalıtımı, boru kılıfları ve soğuk odalar"
+      },
+      {
+        "density": "25 kg/m³",
+        "strength": "Yaklaşık 130 kPa",
+        "use": "Hafif yüklü çatılar ve döşemeler"
+      },
+      {
+        "density": "30 kg/m³",
+        "strength": "Yaklaşık 170 kPa",
+        "use": "Döşeme altı yalıtım ve soğuk depo zeminleri"
+      },
+      {
+        "density": "40 kg/m³",
+        "strength": "Yaklaşık 200 kPa",
+        "use": "Ağır yüklü döşemeler ve endüstriyel soğuk odalar"
+      }
+    ],
+    "densityNote": "Diğer yoğunluklar talep üzerine. Yüksek yük, toprak altı kullanım veya ıslak koşullar için genellikle XPS daha iyi bir seçimdir.",
+    "advantagesTitle": "Avantajlar",
+    "advantages": [
+      "Düşük ısı iletkenliği: aynı yalıtım değeri için daha az kalınlık gerekir",
+      "Hafif (15–45 kg/m³); taşıması kolaydır ve yapıya çok az yük bindirir",
+      "Su emmeye direnen kapalı hücre yapısı",
+      "Boyutsal olarak kararlı: kullanımda sarkmaz, oturmaz ve çökmez",
+      "Sahada sıcak tel veya testereyle özel alet gerekmeden kolayca kesilir",
+      "Çoğu lifli ve PUR yalıtıma göre daha düşük malzeme ve montaj maliyeti",
+      "Yaya trafiğini ve döşeme yüklerini taşır, özellikle XPS ve yüksek yoğunluklu EPS",
+      "Soğutulmuş sudan dondurucu odalara kadar soğuk ve sıfır altı uygulamalara uygundur",
+      "Lif içermez; toz yapmaz ve cildi tahriş etmez",
+      "Geri dönüştürülebilir; CFC ve HCFC kullanılmadan üretilir"
+    ],
+    "cautionsTitle": "Dikkat edilecek noktalar",
+    "cautions": [
+      "Polistiren yanıcıdır. Alev geciktirici sınıflar kullanın ve yapı ile yangın yönetmeliklerinin gerektirdiği şekilde koruyucu bir katmanla örtün.",
+      "Üst sınırı yaklaşık 75–80 °C'dir. Daha sıcak yüzeyler için mineral yün veya kalsiyum silikat kullanın.",
+      "Solventler ve uzun süreli güneş ışığı polistirene zarar verir. Uyumlu yapıştırıcılar kullanın ve malzemeyi örtülü veya kaplı tutun."
+    ],
+    "standardsTitle": "Standartlar",
+    "standards": [
+      "Rijit hücreli polistiren ısı yalıtımı",
+      "Isı yalıtımı için genleştirilmiş polistiren (Hindistan standardı)",
+      "Binalar için fabrikada üretilmiş EPS ısı yalıtım ürünleri",
+      "Binalar için fabrikada üretilmiş XPS ısı yalıtım ürünleri",
+      "Yapı malzemelerinin yüzey yanma özellikleri",
+      "Isı iletkenliği deney yöntemleri (korumalı sıcak plaka / ısı akış ölçer)"
+    ],
+    "applicationsTitle": "Sektörlere göre uygulamalar",
+    "applications": [
+      {
+        "title": "Soğuk depolama ve soğutma",
+        "items": [
+          "Soğuk oda duvarları, zeminleri ve tavanları",
+          "−40 °C'ye kadar dondurucu odalar",
+          "Frigorifik kamyonlar ve konteynerler",
+          "Yüksek yoğunluklu EPS veya XPS üzerinde soğuk depo zeminleri"
+        ]
+      },
+      {
+        "title": "Petrol, gaz ve petrokimya",
+        "items": [
+          "Soğutulmuş su ve soğuk kimyasal hatları için boru kılıfları",
+          "Güverte altı ve üstü yalıtım",
+          "Buhar kesicili soğuk yalıtım sistemleri",
+          "Yarım kılıflarla soğuk ekipman ve kap yalıtımı"
+        ]
+      },
+      {
+        "title": "HVAC ve sıhhi tesisat",
+        "items": [
+          "Alüminyum folyolu soğutulmuş su boru kılıfları",
+          "Yoğuşma suyu tahliye hattı yalıtımı",
+          "Klima kanalı yalıtımı",
+          "Yaklaşık 80 °C'ye kadar soğuk ve sıcak su boruları"
+        ]
+      },
+      {
+        "title": "İnşaat ve binalar",
+        "items": [
+          "Dış cephe ısı yalıtımı (ETICS / mantolama)",
+          "Düz ve eğimli çatı yalıtımı",
+          "Toprak altı temel ve perimetre yalıtımı (XPS tercih edilir)",
+          "Şap veya beton döşeme altı yalıtım",
+          "Ters çatılar (yalnızca XPS)",
+          "Boşluklu duvar levhaları"
+        ]
+      },
+      {
+        "title": "Endüstri ve imalat",
+        "items": [
+          "Gıda ve içecek tesisleri",
+          "İlaç temiz oda duvarları ve tavanları",
+          "İnşaatta boşluk doldurucu ve hafif dolgu"
+        ]
+      },
+      {
+        "title": "Denizcilik ve açık deniz",
+        "items": [
+          "Yaşam modülü yalıtımı",
+          "Gemilerde soğuk depolar",
+          "Yüzdürme ve şamandıralar (EPS)"
+        ]
+      }
+    ],
+    "supplyTitle": "Neler tedarik ediyoruz",
+    "supply": [
+      "Santura Engineering, genleştirilmiş (EPS) ve ekstrüde polistiren (XPS) yalıtım tedarik eder: levhalar, alüminyum folyolu ve folyosuz boru kılıfları, yarım kılıflar ve ölçüye göre kesilmiş parçalar; EPS'te 15 ile 40 kg/m³ arası yoğunluklar. Tipik müşterilerimiz rafineriler, soğuk depo işletmeleri, gıda tesisleri ve inşaat projeleridir.",
+      "İzolasyon pimi üreticisi ve mineral yün, cam yünü, kalsiyum silikat ile seramik conta tedarikçisi olarak Santura, eksiksiz bir yalıtım paketini tek kaynaktan sağlayabilir. 25'ten fazla ülkeye ihracat yapıyoruz."
+    ],
+    "relatedTitle": "İlgili ürünler",
+    "relatedPins": "Polistiren levhaları duvar ve kanallara sabitlemek için pimler ve pullar.",
+    "relatedMineralWool": "Polistirenin sınırını aşan sıcak yüzeyler için alternatif.",
+    "relatedCalsil": "Yüksek sıcaklıktaki boru ve ekipmanlar için rijit yalıtım.",
+    "relatedGlassFibre": "Kanallar ve kaplama için cam yünü ve cam kumaş.",
+    "relatedPir": "Polistirenden daha yüksek sıcaklığa dayanan rijit köpük.",
+    "faqTitle": "Sıkça sorulan sorular",
+    "faq": [
+      {
+        "q": "EPS ve XPS polistiren yalıtım arasındaki fark nedir?",
+        "a": "EPS (genleştirilmiş polistiren) beyaz boncuklu bir köpüktür; daha hafif ve ekonomiktir, 15 ile 40 kg/m³ arası yoğunluklarda bulunur. XPS (ekstrüde polistiren) daha yoğundur; basma dayanımı daha yüksek (150–700 kPa), su emmesi daha düşük (genellikle %0,3 veya daha az) ve ısı iletkenliği daha düşüktür (0,029–0,036 W/m·K). Toprak altı, ıslak ve yük taşıyan uygulamalarda XPS tercih edilir."
+      },
+      {
+        "q": "Polistiren yalıtım hangi sıcaklık aralığına uygundur?",
+        "a": "Polistiren yalıtım sürekli kullanımda EPS için yaklaşık 80 °C'ye, XPS için yaklaşık 75 °C'ye kadar kullanılır. Soğuk tarafta üreticiler EPS'i yaklaşık −180 °C'ye, XPS'i ise genellikle −50 °C'ye kadar derecelendirir. Soğuk depolar, soğutma, soğutulmuş su boruları ve binalar için çok uygundur. 80 °C'nin üzerinde mineral yün veya kalsiyum silikat kullanın."
+      },
+      {
+        "q": "Hangi yoğunluklarda EPS yalıtım mevcuttur?",
+        "a": "Santura, EPS yalıtımı 15, 20, 25, 30 ve 40 kg/m³ yoğunluklarda tedarik eder. Yoğunluk arttıkça basma dayanımı da artar: 15 kg/m³ yük taşımayan duvar ve tavanlar için, 40 kg/m³ ağır yüklü döşemeler ve endüstriyel soğuk odalar için uygundur. Diğer yoğunluklar talep üzerine."
+      },
+      {
+        "q": "Polistiren yalıtım su geçirmez mi?",
+        "a": "Polistiren kapalı hücreli yapısı sayesinde neme karşı iyi direnç gösterir. XPS hacimce genellikle %0,3 veya daha az su emer; bu yüzden toprak altı ve ıslak uygulamalarda tercih edilir. EPS %2–5 su emer. Soğuk yüzeylerde her ikisinin de yoğuşmayı önlemek için alüminyum folyo gibi bir buhar kesiciye ihtiyacı vardır. İki malzeme de küf için besin kaynağı oluşturmaz."
+      }
+    ],
+    "ctaTitle": "Polistiren yalıtıma mı ihtiyacınız var?",
+    "ctaText": "Türü (EPS veya XPS), biçimi, yoğunluğu, kalınlığı, boru çaplarını veya levha ölçülerini ve miktarı bize bildirin. Fiyat teklifi ve teslim süresiyle dönüş yapalım.",
+    "ctaRfq": "Polistiren yalıtım için teklif isteyin",
+    "ctaContact": "Veya ekibimizle iletişime geçin"
+  },
+  "pirPage": {
+    "metaTitle": "PIR Yalıtım Levhaları ve Boru Kılıfları | Tedarikçi",
+    "metaDescription": "Poliizosiyanürat (PIR) yalıtım: −196 °C ile 150 °C arası levha ve boru kılıfları. CFC içermez, yangın performanslı. 1980'den beri, 25+ ülke. Teklif alın.",
+    "eyebrow": "Yalıtım malzemeleri",
+    "h1": "Poliizosiyanürat (PIR) Yalıtım",
+    "subheading": "Rijit PIR köpük yalıtım: ½\" ile 24\" arası boru kılıfları, levhalar, kaplamalı levhalar ve segmentler. Çok düşük ısı iletkenliği, Class 1 alev yayılımı ve 150 °C sıcak yüzey sınırı.",
+    "badges": [
+      "Boru kılıfları ½\"–24\"",
+      "Levhalar ve segmentler",
+      "150 °C'ye kadar",
+      "Class 1 alev yayılımı",
+      "CFC içermez"
+    ],
+    "gallery": [
+      "Kraft kâğıt kaplamalı poliizosiyanürat PIR yalıtım levhası"
+    ],
+    "overviewTitle": "Poliizosiyanürat yalıtım nedir",
+    "overview": [
+      "Poliizosiyanürat (PIR), poliizo olarak da bilinir, termoset rijit köpük bir yalıtım malzemesidir. İzosiyanürat bağlarının oranı daha yüksek, modifiye edilmiş bir poliüretandır (PUR) ve ısı iletkenliği yaygın yalıtım malzemeleri arasında en düşüklerdendir.",
+      "İzosiyanürat yapısı PIR'a standart poliüretandan daha iyi bir yangın performansı kazandırır. Yüzeyde alev yayılımında Class 1 değerine ulaşır, az duman çıkarır ve termoplastiklerin çoğunun aksine yangında erimez ve damlamaz. Ayrıca sıcak yüzey sınırını normal poliüretan köpüğün 110 °C'sine karşı 150 °C'ye çıkarır; bu sayede PIR, bu sınırın altında kalan buhar veya elektrikli refakat ısıtmasının hemen üzerine uygulanabilir.",
+      "PIR aynı performans için mantarın yaklaşık yarısı kadar kalınlık gerektirir. Daha ince katman, kaplanacak yüzeyin azalması demektir; bu da boru metresi başına buhar kesici, dış kaplama ve destek maliyetini düşürür. PIR'ımız CFC içermez."
+    ],
+    "compareTitle": "Diğer yalıtımlarla kalınlık karşılaştırması",
+    "compareIntro": "Aynı ısıl direnç (R = 2,5 m²K/W) için gereken yalıtım kalınlığı.",
+    "colMaterial": "Malzeme",
+    "colThickness": "Gereken kalınlık",
+    "lambdaUnit": "W/m·K",
+    "mmUnit": "mm",
+    "compareNames": [
+      "PIR (poliizosiyanürat)",
+      "XPS (ekstrüde polistiren)",
+      "Cam yünü",
+      "EPS (genleştirilmiş polistiren)",
+      "Mineral yün (taş yünü)",
+      "Kalsiyum silikat"
+    ],
+    "compareNote": "PIR, mineral yünle aynı yalıtım değerine yaklaşık %40 daha az kalınlıkla ulaşır; yer, kaplama malzemesi ve montaj maliyetinden tasarruf sağlar.",
+    "compareCalc": "Düz yüzey hesabı (kalınlık = R × λ), düşük ortalama sıcaklıktaki tipik ısı iletkenliğiyle yapılmıştır. Gerçek kalınlık boru çapına, işletme sıcaklığına ve tasarım esaslarına bağlıdır. Mineral yün ve kalsiyum silikat, PIR'ın kullanılamadığı daha sıcak uygulamalar için seçilir.",
+    "formsTitle": "Ürün biçimleri ve ölçüler",
+    "formsIntro": "Tipik biçimler ve ölçüler. Diğer ölçü, kalınlık ve şekiller çizime göre tedarik edilir.",
+    "colForm": "Biçim",
+    "colDescription": "Açıklama",
+    "colSizes": "Tipik ölçüler",
+    "forms": [
+      {
+        "form": "Boru kılıfları (iki parçalı)",
+        "text": "Boru yalıtımı için önceden şekillendirilmiş iki parçalı kılıflar",
+        "sizes": "½\" ile 24\" (DN15–DN600); 25 mm ve üzeri kalınlık; 1000 mm boy"
+      },
+      {
+        "form": "Levhalar",
+        "text": "Duvar, çatı, kanal ve ekipmanlar için rijit levhalar",
+        "sizes": "20–150 mm kalınlık; 1200 × 600 mm veya 2400 × 1200 mm"
+      },
+      {
+        "form": "Kaplamalı levhalar",
+        "text": "Alüminyum folyo veya kraft kâğıt kaplı PIR levha; alüminyum kaplama buhar kesici görevi görür",
+        "sizes": "Standart ölçüler"
+      },
+      {
+        "form": "Segmentler",
+        "text": "Büyük çaplı borular ve kaplar için yamuk kesitli segmentler",
+        "sizes": "Dış çapa göre"
+      },
+      {
+        "form": "Çentikli / bükülebilir levhalar",
+        "text": "Kavisli yüzeylere ve tanklara uyacak şekilde önceden çentiklenmiş levhalar",
+        "sizes": "20–80 mm kalınlık"
+      },
+      {
+        "form": "Boru destek blokları",
+        "text": "Yalıtımlı boru destekleri için ahşap takozların yerine yüksek yoğunluklu PIR bloklar",
+        "sizes": "Boru çapı ve yüke göre"
+      }
+    ],
+    "pipeTitle": "PIR boru kılıfları",
+    "pipeIntro": "Standart PIR boru kılıflarımız. Kalınlık ve kaplamalar proje şartnamesine göre üretilir.",
+    "pipeRows": [
+      {
+        "label": "Boru çapları",
+        "value": "½\" ile 24\" (DN15–DN600)"
+      },
+      {
+        "label": "Kalınlık",
+        "value": "25 mm ve üzeri"
+      },
+      {
+        "label": "Boy",
+        "value": "1000 mm"
+      },
+      {
+        "label": "Yoğunluk",
+        "value": "36 kg/m³ ve üzeri"
+      },
+      {
+        "label": "Yapı",
+        "value": "Alın veya bindirmeli birleşimli iki yarım kılıf"
+      },
+      {
+        "label": "Kaplama",
+        "value": "Kaplamasız, alüminyum folyo veya kraft kâğıt"
+      },
+      {
+        "label": "Sıcak yüz sınırı",
+        "value": "Sürekli 150 °C"
+      }
+    ],
+    "drawingAlt": "Bir borunun çevresindeki iki parçalı PIR boru kılıfının çizgi çizimi",
+    "drawingCaption": "İki yarımdan oluşan boru kılıfı",
+    "specTitle": "PIR ve PUR karşılaştırması",
+    "colProperty": "Özellik",
+    "colPir": "PIR (poliizosiyanürat)",
+    "colPur": "PUR (poliüretan)",
+    "specRows": [
+      {
+        "label": "Tür",
+        "pir": "İzosiyanürat bağlı termoset rijit köpük",
+        "pur": "Termoset rijit köpük"
+      },
+      {
+        "label": "Isı iletkenliği (λ, 10 °C ortalama)",
+        "pir": "0,020–0,025 W/m·K",
+        "pur": "0,023–0,028 W/m·K"
+      },
+      {
+        "label": "Yoğunluk",
+        "pir": "36 kg/m³ ve üzeri (boru kılıfları); 30–60 kg/m³ (levhalar)",
+        "pur": "30–50 kg/m³"
+      },
+      {
+        "label": "Azami sıcak yüzey sıcaklığı",
+        "pir": "150 °C",
+        "pur": "110 °C"
+      },
+      {
+        "label": "Düşük sıcaklık kullanımı",
+        "pir": "Kriyojenik sınıflar yaklaşık −196 °C'ye kadar kullanılır",
+        "pur": "Kriyojenik sınıflar yaklaşık −196 °C'ye kadar kullanılır"
+      },
+      {
+        "label": "Basma dayanımı (%10 deformasyon)",
+        "pir": "Yaklaşık 150–200 kPa, yoğunlukla artar",
+        "pur": "Yaklaşık 120 kPa ve üzeri"
+      },
+      {
+        "label": "Yangın performansı",
+        "pir": "Class 1 alev yayılımı; az duman; erimez ve damlamaz",
+        "pur": "Daha düşük; alev geciktirici katkı gerektirir"
+      },
+      {
+        "label": "Su buharı geçirgenliği",
+        "pir": "Çok düşük (kapalı hücre)",
+        "pur": "Çok düşük (kapalı hücre)"
+      },
+      {
+        "label": "Su emme",
+        "pir": "Düşük, genellikle hacimce %2'nin altında",
+        "pur": "Düşük"
+      },
+      {
+        "label": "Boyutsal kararlılık",
+        "pir": "Çok iyi",
+        "pur": "İyi"
+      },
+      {
+        "label": "Kapalı hücre oranı",
+        "pir": "%90'ın üzerinde",
+        "pur": "%90'ın üzerinde"
+      },
+      {
+        "label": "Şişirici gaz",
+        "pir": "CFC içermez",
+        "pur": "Modern sınıflarda CFC içermez"
+      }
+    ],
+    "specNote": "Tipik değerlerdir. Kesin değerler sınıfa, yoğunluğa ve üreticiye göre değişir; tedarik edilen ürünün teknik föyü geçerlidir.",
+    "advantagesTitle": "Avantajlar",
+    "advantages": [
+      "Enerji tasarrufu sağlayan çok yüksek yalıtım verimi",
+      "Boşluksuz yalıtım: tüm kesitte eşit performans gösteren kapalı hücreli köpük",
+      "Mantarın yaklaşık yarısı kalınlık; kaplama, buhar kesici ve destek maliyetini düşürür",
+      "Yangına dayanıklı: Class 1 alev yayılımı, az duman, erimez ve damlamaz",
+      "Standart poliüretanın 110 °C'sinden yüksek, 150 °C sıcak yüzey sınırı",
+      "Suya ve neme dayanıklı",
+      "Boyutsal olarak kararlı: çekmez, çarpılmaz ve oturmaz",
+      "Çoğu yağa, kimyasala ve solvente dayanıklı",
+      "Lifli veya metal yollar içermediği için yalıtım içinden ısı köprüsü oluşmaz",
+      "Dayanıklı; doğru uygulanıp korunduğunda performansını uzun yıllar korur"
+    ],
+    "cautionsTitle": "Dikkat edilecek noktalar",
+    "cautions": [
+      "PIR erimese ve damlamasa da yanıcıdır. Yangın yönetmeliklerinin gerektirdiği şekilde metal kaplama veya başka bir koruyucu katman altına uygulayın.",
+      "Sıcak yüz sınırı 150 °C'dir. Daha sıcak boru ve ekipmanlar için mineral yün veya kalsiyum silikat kullanın.",
+      "Güneş ışığı açıktaki köpüğe zarar verir. PIR'ı kaplı veya örtülü tutun, soğuk uygulamalarda birleşimleri buhar kesiciyle yalıtın."
+    ],
+    "standardsTitle": "Standartlar",
+    "standards": [
+      "Bina ekipmanı ve endüstriyel tesisler için fabrikada üretilmiş PUR ve PIR ısı yalıtım ürünleri",
+      "Binalar için fabrikada üretilmiş rijit poliüretan köpük (PUR / PIR) ısı yalıtım ürünleri",
+      "Önceden şekillendirilmiş rijit hücreli poliizosiyanürat ısı yalıtımı",
+      "Yapı malzemelerinin yüzey yanma özellikleri",
+      "Yüzeyde alev yayılımı deneyi (Class 1)",
+      "Binaların ısı yalıtımı için rijit hücreli plastikler"
+    ],
+    "applicationsTitle": "Sektörlere göre uygulamalar",
+    "applications": [
+      {
+        "title": "Petrol, gaz ve petrokimya",
+        "items": [
+          "150 °C'ye kadar proses ve kondens hatları",
+          "Soğutulmuş su, salamura ve soğuk kimyasal hatları",
+          "Kriyojenik sınıf PIR sistemleriyle kriyojenik borular",
+          "150 °C'yi aşmayan buhar veya elektrikli refakat ısıtmalı borular",
+          "Metal kaplama altında kaplar ve kolonlar"
+        ]
+      },
+      {
+        "title": "Enerji üretimi",
+        "items": [
+          "Kondens ve sıcak su hatları",
+          "150 °C'ye kadar alçak basınçlı buhar hatları",
+          "Soğuk ve soğutma suyu hatları",
+          "Yardımcı binaların HVAC sistemleri"
+        ]
+      },
+      {
+        "title": "HVAC ve sıhhi tesisat",
+        "items": [
+          "İnce kalınlığın yoğuşmayı önlediği soğutulmuş su boruları",
+          "Kullanım sıcak suyu boruları",
+          "Soğutucu akışkan hatları",
+          "Kanal levhaları ve kanal yalıtımı"
+        ]
+      },
+      {
+        "title": "İnşaat ve binalar",
+        "items": [
+          "Drenaj için eğimli levhalar dahil düz çatılar",
+          "Boşluklu duvar ve dış cephe yalıtımı",
+          "Döşeme altı yalıtım",
+          "Soğuk depolar ve dondurucu binalar",
+          "Metal yüzlü PIR sandviç paneller"
+        ]
+      },
+      {
+        "title": "Denizcilik ve açık deniz",
+        "items": [
+          "Açık deniz platformu boru ve ekipmanları",
+          "Yaşam modülü duvar ve tavanları",
+          "Perde ve güverte yalıtımı"
+        ]
+      },
+      {
+        "title": "Soğuk depolama ve soğutma",
+        "items": [
+          "Soğuk oda duvarları, zeminleri ve tavanları",
+          "−40 °C'ye kadar dondurucu odalar",
+          "Şok dondurucular",
+          "Frigorifik araçlar ve konteynerler"
+        ]
+      },
+      {
+        "title": "Proses endüstrileri",
+        "items": [
+          "Gıda ve içecek tesisleri: hijyenik boru yalıtımı",
+          "İlaç temiz odaları ve proses boruları",
+          "Kimya tesisleri: solventlere maruz boru ve kaplar"
+        ]
+      }
+    ],
+    "supplyTitle": "Neler tedarik ediyoruz",
+    "supply": [
+      "Santura Engineering poliizosiyanürat (PIR) yalıtım tedarik eder: 36 kg/m³ ve üzeri yoğunlukta ½\" ile 24\" arası boru kılıfları, levhalar, kaplamalı levhalar ve segmentler. PIR'ımız CFC içermez. Tipik müşterilerimiz rafineriler, petrokimya tesisleri, santraller ve soğuk depolama projeleridir.",
+      "Refrakter ankraj ve izolasyon pimi üreticisi ve mineral yün, polistiren, kalsiyum silikat ile seramik conta tedarikçisi olarak Santura, eksiksiz bir yalıtım paketini tek kaynaktan sağlayabilir. 25'ten fazla ülkeye ihracat yapıyoruz."
+    ],
+    "relatedTitle": "İlgili ürünler",
+    "relatedPolystyrene": "Yaklaşık 80 °C'ye kadar kullanım için daha ekonomik bir rijit köpük.",
+    "relatedMineralWool": "150 °C üzerindeki sıcak uygulamalar için tercih.",
+    "relatedCalsil": "Yüksek sıcaklıktaki boru ve ekipmanlar için rijit yalıtım.",
+    "relatedPins": "PIR levhaları duvar ve kanallara sabitlemek için pimler ve pullar.",
+    "relatedGlassFibre": "PIR yalıtımın üzerini sarmak için cam kumaş.",
+    "faqTitle": "Sıkça sorulan sorular",
+    "faq": [
+      {
+        "q": "Poliizosiyanürat (PIR) yalıtım nedir?",
+        "a": "Poliizosiyanürat (PIR veya poliizo), yaygın yalıtım malzemeleri arasında en düşük ısı iletkenliklerinden birine (0,020–0,025 W/m·K) sahip termoset rijit bir köpüktür. Daha iyi yangın performansına sahip modifiye bir poliüretandır: Class 1 alev yayılımı, az duman, erimez ve damlamaz. Standart PIR 150 °C'ye kadar, kriyojenik sınıflar ise yaklaşık −196 °C'ye kadar kullanılır."
+      },
+      {
+        "q": "PIR ile PUR yalıtım arasındaki fark nedir?",
+        "a": "PIR (poliizosiyanürat), standart PUR'a (poliüretan) göre daha yüksek oranda izosiyanürat bağı içerir. Bu, daha iyi yangın performansı ve PUR'un 110 °C'sine karşı 150 °C gibi daha yüksek bir sıcak yüzey sınırı sağlar. PIR'ın ısı iletkenliği de biraz daha düşüktür. Her ikisi de kapalı hücreli rijit köpüktür, ancak endüstriyel boru yalıtımında ve yangın performansının önemli olduğu yerlerde PIR tercih edilir."
+      },
+      {
+        "q": "PIR boru kılıfları hangi çaplarda mevcuttur?",
+        "a": "Santura, ½\" ile 24\" (DN15–DN600) arası borular için 25 mm ve üzeri kalınlıkta, 36 kg/m³ ve üzeri yoğunlukta PIR boru kılıfları tedarik eder. Kılıflar 1000 mm boyunda, iki yarım kılıf olarak üretilir ve kaplamasız ya da alüminyum folyo veya kraft kâğıt kaplamalı olarak sunulur."
+      },
+      {
+        "q": "PIR yalıtım neden diğer yalıtımlardan daha incedir?",
+        "a": "PIR, yaygın yalıtım malzemeleri arasında en düşük ısı iletkenliklerinden birine sahiptir: mineral yünün yaklaşık 0,038 W/m·K değerine karşı yaklaşık 0,022 W/m·K. Aynı yalıtım değerine mineral yünden yaklaşık %40 daha az, mantarın ise yaklaşık yarısı kadar kalınlıkla ulaşır; bu da yer kazandırır, kaplama ve buhar kesici maliyetini düşürür ve montaj süresini kısaltır."
+      }
+    ],
+    "ctaTitle": "PIR yalıtıma mı ihtiyacınız var?",
+    "ctaText": "Biçimi, boru çaplarını veya levha ölçülerini, kalınlığı, kaplamayı, işletme sıcaklığını ve miktarı bize bildirin. Fiyat teklifi ve teslim süresiyle dönüş yapalım.",
+    "ctaRfq": "PIR yalıtım için teklif isteyin",
+    "ctaContact": "Veya ekibimizle iletişime geçin"
+  },
+  "fsPage": {
+    "metaTitle": "Bağlantı Elemanı Tedarikçisi | Cıvata, Saplama, Somun",
+    "metaDescription": "Endüstriyel bağlantı elemanları: B7 saplamalar, altıgen cıvatalar, somun ve pullar; paslanmaz, Inconel, Monel, Duplex. 1980'den beri tedarikçi, 25+ ülke.",
+    "eyebrow": "Santura tedariki",
+    "h1": "Endüstriyel Bağlantı Elemanları",
+    "subheading": "Karbon çelik, B7 alaşımlı çelik, paslanmaz çelik, dubleks ve nikel alaşımlarından cıvata, saplama, somun ve pullar; refrakter ankrajlarımız ve yalıtım ürünlerimizle birlikte, her şeyi tek tedarikçiden almanız için.",
+    "badges": [
+      "B7 / 2H saplamalar",
+      "Altıgen cıvata ve somunlar",
+      "Paslanmaz çelik",
+      "Inconel, Monel, Duplex",
+      "EN 10204 3.1 sertifikaları",
+      "Tek sipariş"
+    ],
+    "gallery": [
+      "Alaşımlı çelik B7 saplamalar ve dişli çubuklar",
+      "Çinko kaplı altıgen başlı cıvatalar",
+      "Siyah çelik ağır altıgen somunlar",
+      "Paslanmaz çelik tırtıllı flanşlı altıgen somunlar",
+      "Çinko kaplı flanşlı altıgen cıvata",
+      "Çinko kaplı kare boyunlu yuvarlak başlı (araba) cıvatalar",
+      "Siyah oksit kaplı imbus yuvarlak başlı cıvatalar",
+      "Çeşitli endüstriyel cıvata, somun ve pullar"
+    ],
+    "overviewTitle": "Rafineri, petrokimya ve enerji projeleri için bağlantı elemanları",
+    "overview": [
+      "Santura Engineering, kendi ürettiği refrakter ankrajlar, çelik lifler ve izolasyon pimlerinin yanında endüstriyel bağlantı elemanları da tedarik eder: karbon çelik, alaşımlı çelik, paslanmaz çelik ve Inconel, Monel, Duplex gibi yüksek performanslı alaşımlardan cıvata, saplama, somun ve pullar.",
+      "Bağlantı elemanlarımızı onaylı kaynaklardan temin eder ve eksiksiz proje paketlerinin parçası olarak teslim ederiz. Bu, B7 flanş cıvatalarının ve özel alaşımların refrakter ve yalıtım malzemeleriyle birlikte şartnameye yazıldığı rafineri, petrokimya ve santral projelerinde özellikle işe yarar.",
+      "Böylece EPC yüklenicileri, rafineriler ve tesis işletmecileri ankrajları, yalıtımı ve bağlantı elemanlarını tek bir doküman setiyle ve tek bir teslim programıyla tek tedarikçiden alabilir."
+    ],
+    "whyTitle": "Bağlantı elemanlarını neden Santura'dan almalısınız",
+    "why": [
+      {
+        "title": "Tek kaynaktan tedarik",
+        "text": "Refrakter ankrajlar, yalıtım malzemeleri, izolasyon pimleri ve bağlantı elemanları tek tedarikçiden: tek sipariş, tek sevkiyat ve tek doküman seti."
+      },
+      {
+        "title": "Alaşım bilgisi",
+        "text": "Her gün SS 304, 310 ve 316 gibi paslanmaz çeliklerden ve Inconel gibi nikel alaşımlarından ankraj üretiyoruz. Aynı malzeme bilgisini bağlantı elemanı kalitelerinin seçiminde ve kontrolünde kullanıyoruz."
+      },
+      {
+        "title": "Sahaya hazır paketleme",
+        "text": "Talep üzerine B7 saplama setleri flanş ölçüsü ve basınç sınıfına göre paketlenip etiketlenir, kitler montaj grubuna göre ayrılır ve sahada kullanıma hazır gelir."
+      },
+      {
+        "title": "Kalite dokümanları",
+        "text": "EN 10204 3.1 malzeme sertifikaları, etiketlerde döküm veya lot numaraları ve sevkiyattan önce siparişle karşılaştırılan dokümanlar."
+      },
+      {
+        "title": "Dünya çapında teslimat",
+        "text": "Bağlantı elemanları, 25'ten fazla ülkeye sevkiyat yaptığımız aynı lojistikle ankrajlarınız ve yalıtımınızla birlikte gelir."
+      }
+    ],
+    "rangeTitle": "Ürün yelpazesi",
+    "rangeIntro": "Yaygın tipler ve genellikle tedarik edildikleri standartlar. Diğer tip, standart ve özel ölçüler şartnamenize göre temin edilir.",
+    "boltsTitle": "Cıvatalar ve saplamalar",
+    "nutsTitle": "Somunlar",
+    "washersTitle": "Pullar",
+    "colType": "Tip",
+    "colDescription": "Açıklama",
+    "colStandards": "Yaygın standartlar",
+    "bolts": [
+      {
+        "type": "Altıgen başlı cıvatalar",
+        "text": "Standart altıgen başlı cıvatalar, en yaygın endüstriyel bağlantı elemanı; yarım veya tam diş"
+      },
+      {
+        "type": "Saplamalar (B7)",
+        "text": "Yüksek sıcaklık ve basınçlı flanş bağlantıları için krom-molibden çeliğinden tam dişli saplamalar"
+      },
+      {
+        "type": "U cıvatalar",
+        "text": "Boruları desteklere sabitleyen U şeklinde cıvatalar"
+      },
+      {
+        "type": "Mapa cıvatalar",
+        "text": "Kaldırma ve bağlama için halka başlı cıvatalar"
+      },
+      {
+        "type": "Flanşlı cıvatalar",
+        "text": "Yükü dağıtan ve gevşemeyi önleyen entegre flanşlı altıgen cıvatalar"
+      },
+      {
+        "type": "Araba (kare boyunlu) cıvatalar",
+        "text": "Somun sıkılırken dönmeyi önleyen kare boyunlu yuvarlak baş"
+      },
+      {
+        "type": "İmbus cıvatalar",
+        "text": "Dar alanlarda yüksek tork ve gömme montaj için iç altıgen; silindirik ve havşa baş"
+      },
+      {
+        "type": "Yuvarlak başlı cıvatalar",
+        "text": "Alçak yuvarlak baş; imbus tipleri ve bariyerler için M16 cıvatalar"
+      },
+      {
+        "type": "Tırtıllı cıvatalar",
+        "text": "Başı veya gövdesi tırtıllı cıvatalar, çizime göre tedarik edilir"
+      },
+      {
+        "type": "Kare boyunlu havşa başlı cıvatalar",
+        "text": "Kare boyunlu düz havşa baş"
+      },
+      {
+        "type": "Tırnaklı düz başlı cıvatalar",
+        "text": "Çelik bağlantılarda dönmeyi önleyen tırnaklı düz baş"
+      }
+    ],
+    "nuts": [
+      {
+        "type": "Altıgen somunlar",
+        "text": "Genel kullanım için standart altıgen somunlar"
+      },
+      {
+        "type": "Ağır altıgen somunlar",
+        "text": "Yüksek dayanımlı bağlantılar için daha kalın ve geniş anahtar ağızlı somunlar; B7 saplamalarla kullanılır"
+      },
+      {
+        "type": "Kontra somunlar (ince)",
+        "text": "İkinci, kilitleyici somun olarak kullanılan ince altıgen somunlar"
+      },
+      {
+        "type": "Naylon halkalı somunlar",
+        "text": "Titreşimle gevşemeye karşı naylon halkalı altıgen somunlar"
+      },
+      {
+        "type": "Flanşlı somunlar",
+        "text": "Yükü dağıtan entegre tırtıllı flanşlı altıgen somunlar"
+      },
+      {
+        "type": "Kaynak somunları",
+        "text": "Saca kaynatılmak üzere tasarlanmış kare veya altıgen somunlar"
+      },
+      {
+        "type": "Kare somunlar",
+        "text": "Raylar ve kanallar için dört kenarlı somunlar"
+      },
+      {
+        "type": "Kapak somunlar",
+        "text": "Cıvata ucunu örten kapalı kubbeli altıgen somunlar"
+      },
+      {
+        "type": "Mapa somunlar",
+        "text": "Bağlama için kaldırma halkalı somunlar"
+      }
+    ],
+    "washers": [
+      {
+        "type": "Düz pullar",
+        "text": "Somun veya cıvata başı altında yükü dağıtan pullar"
+      },
+      {
+        "type": "Yaylı pullar",
+        "text": "Titreşimle gevşemeye karşı yarıklı pullar"
+      },
+      {
+        "type": "Tırtıllı (dişli) pullar",
+        "text": "Kilitleme ve topraklama için iç veya dış dişli pullar"
+      },
+      {
+        "type": "Eğimli pullar",
+        "text": "I ve U profillerin eğimli flanşları için kama şeklinde pullar"
+      }
+    ],
+    "sizesTitle": "Ölçüler, kaliteler ve kaplamalar",
+    "sizesIntro": "En çok talep edilen ürünlerimiz için tipik tedarik aralıkları.",
+    "colProduct": "Ürün",
+    "colSize": "Ölçü aralığı",
+    "colGrade": "Kaliteler",
+    "colFinish": "Kaplamalar",
+    "rangeRows": [
+      {
+        "item": "Altıgen başlı cıvatalar",
+        "size": "M6–M64; 450 mm'ye kadar boy",
+        "grade": "4.6, 4.8, 5.6, 5.8, 8.8, 10.9, 12.9, B7, B7M",
+        "finish": "Siyah oksit, elektro çinko, sıcak daldırma galvaniz"
+      },
+      {
+        "item": "Saplamalar ve çift uçlu saplamalar",
+        "size": "M8–M72; 5/16\" – 3\"",
+        "grade": "8.8 / 8, B7 / 2H, B7M / 2HM",
+        "finish": "Siyah, sıcak daldırma galvaniz"
+      },
+      {
+        "item": "Altıgen somunlar",
+        "size": "M5–M56",
+        "grade": "4, 6, 8, 10, 12, 2H, 2HM",
+        "finish": "Siyah oksit, elektro çinko, sıcak daldırma galvaniz"
+      },
+      {
+        "item": "İmbus cıvatalar",
+        "size": "M8–M30; 450 mm'ye kadar boy",
+        "grade": "4.6, 4.8, 5.6, 5.8, 8.8",
+        "finish": "Siyah oksit, elektro çinko, sıcak daldırma galvaniz"
+      },
+      {
+        "item": "Araba cıvatalar",
+        "size": "M6–M64",
+        "grade": "4.6, 4.8, 5.6, 8.8",
+        "finish": "Siyah fosfat, beyaz veya sarı çinko, sıcak daldırma galvaniz"
+      },
+      {
+        "item": "Kare boyunlu ve tırnaklı düz başlı cıvatalar",
+        "size": "M6–M30",
+        "grade": "4.6, 4.8, 5.6, 8.8",
+        "finish": "Siyah fosfat, beyaz veya sarı çinko, sıcak daldırma galvaniz"
+      },
+      {
+        "item": "Flanşlı cıvata ve somunlar, tırtıllı cıvatalar",
+        "size": "Siparişe göre",
+        "grade": "Cıvatalar 8.8, 10.9, 12.9; somunlar 8, 10, 12",
+        "finish": "Siyah oksit, elektro çinko, sıcak daldırma galvaniz"
+      },
+      {
+        "item": "Yuvarlak başlı cıvatalar (bariyerler)",
+        "size": "M16",
+        "grade": "4.6, 8.8",
+        "finish": "Siyah fosfat, sıcak daldırma galvaniz"
+      }
+    ],
+    "b7Eyebrow": "Öne çıkan ürün",
+    "b7Title": "B7 saplamalar",
+    "b7Intro": "A194 2H ağır altıgen somunlarla kullanılan ASTM A193 B7 saplamalar, rafineri ve petrokimya tesislerinde flanş bağlantıları için en çok şartnameye yazılan bağlantı elemanıdır.",
+    "b7Rows": [
+      {
+        "label": "Şartname",
+        "value": "ASTM A193 Grade B7: krom-molibden alaşımlı çelik, su verilmiş ve temperlenmiş"
+      },
+      {
+        "label": "Uyumlu somunlar",
+        "value": "ASTM A194 Grade 2H ağır altıgen; ekşi servis (H₂S) için B7M saplama ve 2HM somun"
+      },
+      {
+        "label": "Asgari çekme dayanımı",
+        "value": "2½\"e kadar 860 MPa; 2½\" üzeri 4\"e kadar 795 MPa; 4\" üzeri 7\"ye kadar 690 MPa"
+      },
+      {
+        "label": "Asgari akma dayanımı",
+        "value": "2½\"e kadar 720 MPa; 2½\" üzeri 4\"e kadar 655 MPa; 4\" üzeri 7\"ye kadar 515 MPa"
+      },
+      {
+        "label": "Kullanım sıcaklığı",
+        "value": "Yaklaşık 450 °C'ye kadar; üzerinde B16 veya nikel alaşımlı cıvatalar şartnameye yazılır"
+      },
+      {
+        "label": "Ölçüler",
+        "value": "M8–M72 (5/16\" – 3\"), flanş sınıfına ve contaya uygun boylarda"
+      },
+      {
+        "label": "Kaplama",
+        "value": "Siyah veya sıcak daldırma galvaniz; talep üzerine PTFE (Xylan) ve diğer kaplamalar"
+      },
+      {
+        "label": "Uygulamalar",
+        "value": "Basınçlı kap ve eşanjör flanşları, vana kapakları ve boru hattı flanşları"
+      }
+    ],
+    "b7Note": "B7 saplamalar set halinde (saplama, iki 2H somun ve gerektiğinde pullar), saha montajı için flanş ölçüsü ve basınç sınıfına göre paketlenip etiketlenmiş olarak tedarik edilebilir.",
+    "materialsTitle": "Malzemeler",
+    "materialsIntro": "Malzemeyi kullanım sıcaklığına, basınca ve korozyon koşullarına göre seçin. Şartnamenizin istediği kaliteyi temin ederiz.",
+    "colMaterial": "Malzeme",
+    "colGrades": "Kaliteler",
+    "colUse": "Tipik kullanım",
+    "materials": [
+      {
+        "name": "Karbon çelik",
+        "use": "Genel çelik yapılar ve kritik olmayan uygulamalar"
+      },
+      {
+        "name": "Alaşımlı çelik B7",
+        "use": "Rafineri ve petrokimya tesislerinde yüksek sıcaklık ve basınçlı flanş bağlantıları"
+      },
+      {
+        "name": "Alaşımlı çelik B7M",
+        "use": "Sertliği sınırlandırılmış, ekşi servis (H₂S) için"
+      },
+      {
+        "name": "Paslanmaz çelik 304 / 304L",
+        "use": "Genel korozyon direnci; gıda ve ilaç tesisleri"
+      },
+      {
+        "name": "Paslanmaz çelik 316 / 316L",
+        "use": "Deniz, kimya ve klorürlü ortamlar"
+      },
+      {
+        "name": "Paslanmaz çelik 321 / 347",
+        "use": "Yüksek sıcaklık için stabilize kaliteler"
+      },
+      {
+        "name": "Duplex 2205",
+        "use": "Açık deniz ve tuzdan arındırma; klorürlere ve gerilmeli korozyon çatlamasına dayanıklı"
+      },
+      {
+        "name": "Inconel 600 / 625",
+        "use": "Yüksek sıcaklık ve ağır korozyon"
+      },
+      {
+        "name": "Monel 400 / K-500",
+        "use": "Deniz suyu, kimyasal prosesler ve asidik ortamlar"
+      },
+      {
+        "name": "Hastelloy C-276",
+        "use": "Aşırı korozif kimyasal ortamlar"
+      }
+    ],
+    "qualityTitle": "Kalite ve dokümantasyon",
+    "qualityRows": [
+      {
+        "label": "Sertifikalar",
+        "value": "Çelik fabrikasından veya üretim tesisinden EN 10204 3.1 malzeme sertifikaları; talep üzerine üçüncü taraf muayeneli 3.2"
+      },
+      {
+        "label": "Sevkiyat öncesi kontroller",
+        "value": "Sertifikaların siparişle karşılaştırılması, ölçü kontrolleri ve paslanmaz ile nikel alaşımlı elemanlarda el tipi XRF analizörümüzle alaşım doğrulaması"
+      },
+      {
+        "label": "İzlenebilirlik",
+        "value": "Döküm veya lot numaraları sertifikalardan paket etiketlerine aktarılır"
+      },
+      {
+        "label": "Paketleme",
+        "value": "Ölçü ve kaliteye göre etiketli; koli, torba veya projeye özel ambalaj"
+      },
+      {
+        "label": "Standartlar",
+        "value": "Proje şartnamesine göre ASTM, ASME / ANSI, DIN, ISO, BS ve IS"
+      }
+    ],
+    "applicationsTitle": "Sektörlere göre uygulamalar",
+    "applications": [
+      {
+        "title": "Petrol, gaz ve petrokimya",
+        "items": [
+          "Proses borularında flanş bağlantıları (B7 / 2H saplama setleri)",
+          "Basınçlı kap ve eşanjör kapakları",
+          "Vana kapağı cıvataları",
+          "Boru hattı flanş bağlantıları",
+          "Ekşi servis cıvataları (B7M / 2HM) ve korozif servis için alaşımlar"
+        ]
+      },
+      {
+        "title": "Enerji üretimi",
+        "items": [
+          "Buhar borusu flanş bağlantıları",
+          "Kazan ve basınçlı parça cıvataları",
+          "Türbin gövdesi cıvataları",
+          "Yapısal bağlantılar"
+        ]
+      },
+      {
+        "title": "İnşaat ve çelik yapı",
+        "items": [
+          "Çelik yapı bağlantıları (altıgen ve araba cıvatalar)",
+          "Boru kelepçeleri için U cıvatalar",
+          "Korkuluk ve platform bağlantıları",
+          "Bariyer cıvataları"
+        ]
+      },
+      {
+        "title": "Denizcilik ve açık deniz",
+        "items": [
+          "Deniz suyu için dubleks bağlantı elemanları",
+          "Deniz suyu ve sualtı için Monel bağlantı elemanları",
+          "Deniz ortamları için SS 316 cıvatalar"
+        ]
+      },
+      {
+        "title": "Genel endüstri",
+        "items": [
+          "Ekipman montajı ve bakımı",
+          "Makine OEM'leri için bağlantı elemanları",
+          "Tesis bakım yedekleri"
+        ]
+      }
+    ],
+    "relatedTitle": "Kendi ürettiğimiz ürünler",
+    "relatedAnchors": "Ana ürünümüz: refrakter astarlar için SEPL ankrajları.",
+    "relatedFibresName": "Çelik lifler",
+    "relatedFibres": "Refrakter dökülebilir malzemeleri güçlendirmek için paslanmaz çelik lifler, atölyemizde üretilir.",
+    "relatedPins": "Yalıtım sabitlemek için kaynak pimleri, yapışkanlı pimler ve pullar.",
+    "relatedFoundation": "Çizime göre L, J, U, plakalı ve düz temel cıvataları.",
+    "relatedCw": "Atölyemizde üretilen karşı ağırlık sistemleri.",
+    "faqTitle": "Sıkça sorulan sorular",
+    "faq": [
+      {
+        "q": "Santura hangi endüstriyel bağlantı elemanlarını tedarik eder?",
+        "a": "Santura eksiksiz bir yelpaze tedarik eder: altıgen cıvatalar, B7 saplamalar, U cıvatalar, mapa cıvatalar, flanşlı cıvatalar, araba cıvatalar ve imbus cıvatalar ile bunlara uygun somunlar (altıgen, ağır altıgen, kontra, naylon halkalı, flanşlı, kaynak, kare, kapak ve mapa somunlar) ve düz, yaylı, dişli ve eğimli pullar. Karbon çelik, alaşımlı çelik, paslanmaz çelik, Inconel, Monel ve Duplex seçenekleri mevcuttur."
+      },
+      {
+        "q": "Bağlantı elemanlarınız hangi malzemelerden mevcuttur?",
+        "a": "Karbon çelik (ASTM A307 ve ISO mukavemet sınıfları), alaşımlı çelik (ASTM A193 B7 ve B7M), paslanmaz çelik (304, 316, 321, 347), Duplex 2205, Inconel 600/625, Monel 400/K-500 ve Hastelloy C-276 tedarik ediyoruz. Doğru malzeme kullanım sıcaklığına, basınca ve korozyon koşullarına bağlıdır. Bağlantı elemanları EN 10204 3.1 malzeme sertifikalarıyla teslim edilir."
+      },
+      {
+        "q": "Flanş bağlantıları için B7 saplama tedarik ediyor musunuz?",
+        "a": "Evet. Santura, rafineri ve petrokimya flanş bağlantıları için standart şartname olan ASTM A193 Grade B7 saplamaları A194 Grade 2H ağır altıgen somunlarla, ekşi servis için de B7M/2HM'yi tedarik eder. Ölçüler M8'den M72'ye (5/16\" – 3\") kadar, flanş sınıfına uygun boylardadır; saplamalar flanşa göre etiketlenmiş tam setler (saplama, iki somun ve pullar) halinde tedarik edilebilir."
+      },
+      {
+        "q": "Bağlantı elemanlarını neden refrakter ankrajlarla birlikte Santura'dan almalısınız?",
+        "a": "Santura'nın ana işi, endüstriyel bağlantı elemanlarına da ihtiyaç duyan aynı rafineriler ve petrokimya tesisleri için refrakter ankraj ve izolasyon pimi üretmektir. İkisini de Santura'dan almak tek sipariş, tek sevkiyat, tek doküman seti ve aynı kalite kontrolleri demektir; bu da EPC yüklenicileri ve tesis işletmecileri için satın almayı kolaylaştırır."
+      }
+    ],
+    "ctaTitle": "Projeniz için bağlantı elemanı mı gerekiyor?",
+    "ctaText": "Tip, ölçü, kalite, standart, kaplama ve miktar içeren cıvata listenizi veya B7 saplama setleri için flanş listenizi gönderin. Fiyat teklifi ve teslim süresiyle dönüş yapalım.",
+    "ctaRfq": "Bağlantı elemanları için teklif isteyin",
+    "ctaContact": "Veya ekibimizle iletişime geçin",
+    "trademarkNote": "Inconel ve Monel, Special Metals Corporation'ın ticari markalarıdır. Hastelloy, Haynes International'ın ticari markasıdır. Xylan, PPG Industries'in ticari markasıdır. Diğer adlar ilgili sahiplerine aittir ve yalnızca tanımlama amacıyla kullanılmıştır."
+  },
+  "iaPage": {
+    "metaTitle": "Yalıtım Aksesuarları ve Kaplama Malzemeleri | Santura",
+    "metaDescription": "Paslanmaz ve alüminyum yalıtım çemberleri, vidalar, perçinler, klipsler ve kaplama aksesuarları. 1980'den beri tedarikçi, 25'ten fazla ülkeye ihracat.",
+    "eyebrow": "Yalıtım malzemeleri",
+    "h1": "Yalıtım Aksesuarları ve Kaplama Malzemeleri",
+    "subheading": "Borular, kaplar, kanallar ve ekipmanlarda yalıtımı ve metal kaplamasını sabitlemek ve bitirmek için çember bantlar, tokalar, genleşme yayları, vidalar, pop perçinler, bağlama teli, delikli saclar, bantlar ve mastikler.",
+    "badges": [
+      "Paslanmaz çember ve tokalar",
+      "Genleşme yayları",
+      "Pop perçinler",
+      "Delikli saclar",
+      "Tel ve tel örgü",
+      "Bantlar ve mastikler"
+    ],
+    "gallery": [
+      "Yalıtım çemberi için paslanmaz çelik toka",
+      "Metal kaplama dikişlerini birleştirmek için pop perçinler",
+      "Kopma çivili kör perçin",
+      "Delikli paslanmaz çelik lama",
+      "Delikli paslanmaz çelik köşebentler",
+      "Delikli paslanmaz çelik silindir",
+      "Paslanmaz çelik telden SEPL-04 makas klips"
+    ],
+    "overviewTitle": "Yalıtım aksesuarları ne işe yarar",
+    "overview": [
+      "Yalıtım aksesuarları; borular, kaplar, kanallar ve ekipmanlardaki ısı yalıtımını ve metal kaplamasını sabitleyen, destekleyen ve bitiren bağlantı parçaları ve sarf malzemeleridir. Çemberler kaplamayı tutar, yaylar ekipman genleşirken çemberleri gergin tutar, vida ve perçinler dikişleri kapatır, tel ve örgü yalıtımın kendisini tutar, bant ve mastikler ise su ve buharı dışarıda tutar.",
+      "Aksesuarlar yalıtım sisteminin ömrünü belirler. Gevşek çemberler, kaplamaya temas eden yanlış metal veya kapatılmamış bir buhar kesici, yalıtıma su girmesine yol açar; bu da performansı düşürür ve yalıtım altı korozyona neden olabilir.",
+      "Santura bu aksesuarları yalıtım malzemeleri ve pimleriyle birlikte rafinerilere, petrokimya tesislerine, santrallere ve çelik ile çimento fabrikalarına, proje şartnamesindeki malzeme kalitelerine uygun olarak tedarik eder."
+    ],
+    "groupsTitle": "Aksesuar yelpazesi",
+    "groupsIntro": "Başlıca aksesuar grupları. Diğer ürünler, ölçüler ve kaliteler şartnamenize göre tedarik edilir.",
+    "groups": [
+      {
+        "title": "Çember bantlar",
+        "tag": "",
+        "text": "Çember bantlar metal kaplamayı ve yalıtımı borular, kaplar ve ekipmanlar üzerinde tutar.",
+        "items": [
+          "Paslanmaz çelik çemberler, standart ½\" ve ¾\" × 0,020\"",
+          "Alüminyum ve galvaniz çelik çemberler",
+          "İç mekân için yaklaşık 93 °C'ye kadar polipropilen veya naylon çemberler",
+          "Çemberle aynı malzemeden tokalar (kanatlı kilitler)",
+          "Manuel ve pnömatik germe aletleri",
+          "Genişlik 3/8\" – 1¼\", kalınlık 0,015\" – 0,025\": borular ve küçük kaplar için ½\", büyük tanklar için 1¼\"e kadar"
+        ]
+      },
+      {
+        "title": "Genleşme yayları",
+        "tag": "",
+        "text": "Çember hattına takılan yaylar ısıl genleşme ve büzülmeyi karşılar; böylece çember kaplamaya kesmeden gergin kalır.",
+        "items": [
+          "2\" ve 4\" paslanmaz çelik yay grupları",
+          "Sıcak ve soğuk kaplar ile büyük çaplı sıcak veya soğuk borular için",
+          "Büyük tanklarda ve oluklu kaplamada 1¼\" çemberler için ağır hizmet yayları"
+        ]
+      },
+      {
+        "title": "Sac vidaları ve matkap uçlu vidalar",
+        "tag": "",
+        "text": "Vidalar, dirsek dilimleri gibi çember kullanılamayan yerlerde kaplamayı sabitler.",
+        "items": [
+          "Tip 410 paslanmaz çelik, yarıklı flanşlı altıgen baş",
+          "#8 × ½\" matkap uçlu ve kendinden kılavuzlu",
+          "Hava koşullarına dayanıklı birleşimler için neopren pullu modeller",
+          "Dirsek dilimleri ve oluklu kaplama dikişleri"
+        ]
+      },
+      {
+        "title": "Pop perçinler (kör perçinler)",
+        "tag": "Atölyemizde üretilir",
+        "text": "Pop perçinler iki veya daha fazla sac parçayı birleştirir ve yalnızca bir taraftan erişimle takılır. Yalıtımda bindirmeli kaplama dikişlerini sabitler.",
+        "items": [
+          "Alüminyum, paslanmaz çelik ve Monel gövde",
+          "1/8\" (3,2 mm) ve 5/32\" (4,0 mm) çap",
+          "Kopma çivili çekme perçinler"
+        ]
+      },
+      {
+        "title": "Bağlama teli ve tel örgü",
+        "tag": "",
+        "text": "Tel ve örgü, kaplama takılmadan önce yalıtımın kendisini tutar.",
+        "items": [
+          "Yumuşak tavlı paslanmaz çelik tel, 16 gauge (1,6 mm) ve 18 gauge (1,2 mm)",
+          "Kalsiyum silikat ve perlit gibi iki parçalı rijit boru kılıflarını bağlar",
+          "Yalıtım şiltelerinin dıştan desteği için altıgen tel örgü",
+          "Kaplar ve büyük ekipmanlarda yalıtımı tutmak için kaynaklı hasır",
+          "Talep üzerine galvaniz tel (günümüzde nadiren istenir)"
+        ]
+      },
+      {
+        "title": "Delikli saclar",
+        "tag": "Atölyemizde üretilir",
+        "text": "Çeşitli delik desenleriyle zımbalanmış paslanmaz çelik saclar ağırlıktan tasarruf sağlar, hava ve sesi geçirir. Reformerlerde ve proses fırınlarında yaygın olarak kullanılır.",
+        "items": [
+          "Sıcak veya soğuk haddelenmiş, müşteri çizimine göre üretilir",
+          "Kaynak, kesme ve şekillendirmesi kolaydır",
+          "Farklı delik desenleri, şekiller, ölçüler ve kaliteler",
+          "Çok katmanlı yalıtım sistemlerinde iç kaplama ve tutucu katman olarak"
+        ]
+      },
+      {
+        "title": "Makas klipsler (SEPL-04)",
+        "tag": "SEPL ankraj serimizin parçası",
+        "text": "Tuğlalar duvar veya tavandan aralıklı yerleştirildiğinde tuğla astarları tutan tel kelepçeler.",
+        "items": [
+          "Bizim veya sizin çiziminize göre telden şekillendirilir",
+          "CS, 304, 304H, 309, 253MA, 310, 314, 316, 321, 330, 800 ve 601 dahil alaşımlar"
+        ]
+      },
+      {
+        "title": "Bantlar ve mastikler",
+        "tag": "",
+        "text": "Bant ve mastikler kaplama dikişlerini ve buhar kesicileri suya ve neme karşı kapatır.",
+        "items": [
+          "Cam iplik takviyeli polyester film bant",
+          "Kaplama dikişleri için alüminyum folyo bant (örneğin 2 mil, 100 mm genişlik)",
+          "Yaklaşık 60 °C üzerindeki östenitik paslanmaz çelik için düşük klorürlü bantlar",
+          "ASJ ve FRK alın birleşim bantları",
+          "Rijit yalıtım sistemleri için derz mastikleri"
+        ]
+      },
+      {
+        "title": "Omuzlu saplamalar ve tespit kapakları",
+        "tag": "",
+        "text": "Çember kullanılamayan yüzeylerde yalıtımı ve kaplamayı tutan kaynaklı saplamalar.",
+        "items": [
+          "Paslanmaz veya karbon çelik kaynak saplamaları, 5/16\" yivli gövdeli",
+          "Montaj sırasında yalıtımı geçici tutan klipsler",
+          "Kaplamanın son tespiti için kapaklar",
+          "Konik kap dipleri ve fırın panelleri"
+        ]
+      }
+    ],
+    "pinsBoxTitle": "Kaynak pimleri ve kilit pullar",
+    "pinsBoxText": "Yalıtım sabitlemek için kaynak pimleri, yapışkanlı pimler, kilit pullar ve kapaklar ayrı izolasyon pimleri sayfamızda yer alır.",
+    "pinsBoxLink": "İzolasyon pimlerine git",
+    "specTitle": "Özellik özeti",
+    "colItem": "Aksesuar",
+    "colMaterial": "Malzemeler",
+    "colSizes": "Standart ölçüler",
+    "colTemp": "Sıcaklık",
+    "colUse": "Uygulama",
+    "specRows": [
+      {
+        "item": "Çember bantlar",
+        "material": "SS 304 / 316; ayrıca alüminyum ve galvaniz çelik",
+        "sizes": "½\" ve ¾\" × 0,020\"",
+        "temp": "Paslanmaz: kriyojenikten yaklaşık 650 °C'ye",
+        "use": "Kaplama ve yalıtımın sabitlenmesi"
+      },
+      {
+        "item": "Tokalar",
+        "material": "Çemberle aynı",
+        "sizes": "Çember genişliğine uygun",
+        "temp": "Çemberle aynı",
+        "use": "Çemberin kapatılması"
+      },
+      {
+        "item": "Genleşme yayları",
+        "material": "SS 304 / 316",
+        "sizes": "2\" ve 4\"",
+        "temp": "Paslanmaz çemberle aynı",
+        "use": "Sıcak ve soğuk boru ile kap çemberleme"
+      },
+      {
+        "item": "Sac vidaları",
+        "material": "SS 410",
+        "sizes": "#8 × ½\"",
+        "temp": "Kaplama yüzey sıcaklığı",
+        "use": "Kaplama dikişleri ve dirsek dilimleri"
+      },
+      {
+        "item": "Pop perçinler",
+        "material": "Alüminyum, paslanmaz, Monel",
+        "sizes": "1/8\" ve 5/32\" çap",
+        "temp": "Malzemeye bağlı",
+        "use": "Bindirmeli kaplama dikişleri"
+      },
+      {
+        "item": "Bağlama teli",
+        "material": "SS 304 / 316",
+        "sizes": "16 ga (1,6 mm), 18 ga (1,2 mm)",
+        "temp": "Kriyojenikten yaklaşık 650 °C'ye",
+        "use": "Rijit boru kılıflarının bağlanması"
+      },
+      {
+        "item": "Delikli saclar",
+        "material": "Paslanmaz çelik kaliteleri",
+        "sizes": "Çizime göre",
+        "temp": "Kaliteye bağlı",
+        "use": "Reformer ve proses fırını iç kaplamaları"
+      },
+      {
+        "item": "Makas klipsler (SEPL-04)",
+        "material": "CS, paslanmaz çelikler, ısıya dayanıklı alaşımlar",
+        "sizes": "Çizime göre",
+        "temp": "Alaşıma bağlı",
+        "use": "Tuğla astarların tutulması"
+      },
+      {
+        "item": "Alüminyum folyo bant",
+        "material": "Yapışkanlı alüminyum folyo",
+        "sizes": "Örneğin 2 mil × 100 mm",
+        "temp": "Yapışkana bağlı",
+        "use": "Kaplama dikişlerinin sızdırmazlığı"
+      }
+    ],
+    "specNote": "Tipik değerlerdir. Kesin sınırlar malzeme kalitesine, yapışkana ve proje şartnamesine bağlıdır.",
+    "guideTitle": "Seçim ve montaj önerileri",
+    "guide": [
+      "Boru kaplamalarında çemberler genellikle 225–300 mm (9–12\") aralıkla takılır. Proje şartnamesine uyun.",
+      "Kaplarda ve büyük çaplı sıcak veya soğuk borularda çember hattına genleşme yayları takın; böylece çemberler genleşme ve büzülme sırasında gergin kalır.",
+      "Aksesuar metalini kaplamaya uygun seçin; örneğin paslanmaz veya alüminyum kaplamada paslanmaz çember ve vida kullanın, nemin birikebileceği yerlerde farklı metalleri karıştırmayın.",
+      "Sıcak östenitik paslanmaz çelik üzerinde galvanizli çember, tel veya vida kullanmayın: çinko yüksek sıcaklıkta paslanmaz çeliği gevrekleştirebilir.",
+      "Yaklaşık 60 °C üzerindeki östenitik paslanmaz çelikte, klorür gerilmeli korozyon çatlaması riskini azaltmak için düşük klorürlü bant ve aksesuarlar kullanın.",
+      "Deniz ve klorürce zengin ortamlarda Monel veya SS 316 aksesuarlar kullanın."
+    ],
+    "materialsTitle": "Malzemeler",
+    "materials": [
+      "Paslanmaz çelik 304, 316, 316L, 321, 410",
+      "Karbon çelik / yumuşak çelik",
+      "Galvaniz çelik",
+      "Alüminyum",
+      "Monel",
+      "Naylon / polipropilen (iç mekân, düşük sıcaklık)"
+    ],
+    "madeTitle": "Kendi üretimimiz",
+    "madeText": "Pop perçinler ve delikli saclar atölyemizde üretilir; SEPL-04 makas klipsler refrakter ankraj serimizin parçasıdır. Çemberler, yaylar, vidalar, tel, bantlar ve mastikler bunlarla birlikte, projenin malzeme kalitelerine uygun olarak temin edilip tedarik edilir.",
+    "applicationsTitle": "Sektörlere göre uygulamalar",
+    "applications": [
+      {
+        "title": "Petrol, gaz ve petrokimya",
+        "items": [
+          "Boru ve kaplarda kaplama",
+          "Soğuk ve kriyojenik yalıtım için çemberler",
+          "Reformer ve proses fırınları için delikli saclar"
+        ]
+      },
+      {
+        "title": "Enerji üretimi",
+        "items": [
+          "Kazan gövdesi yalıtımı",
+          "Türbin yalıtımı",
+          "Atık ısı kazanı (HRSG) kanal yalıtımı"
+        ]
+      },
+      {
+        "title": "Çelik ve çimento",
+        "items": [
+          "Fırın gövdesi yalıtımı",
+          "Tuğla astarlar için makas klipsler"
+        ]
+      },
+      {
+        "title": "Denizcilik ve gemi inşaatı",
+        "items": [
+          "Korozyona dayanıklı Monel ve SS 316 aksesuarlar",
+          "Makine dairesi yalıtımı"
+        ]
+      },
+      {
+        "title": "HVAC ve binalar",
+        "items": [
+          "Kanal yalıtım bantları",
+          "Büyük kanallar için çemberler"
+        ]
+      },
+      {
+        "title": "Kriyojenik ve LNG",
+        "items": [
+          "Soğuk servis için paslanmaz çember ve genleşme yayları",
+          "Buhar kesici bantlar ve mastikler"
+        ]
+      }
+    ],
+    "supplyTitle": "Neler tedarik ediyoruz",
+    "supply": [
+      "Santura Engineering yalıtım ve kaplama aksesuarlarını tek kaynaktan tedarik eder: çemberler ve tokalar, genleşme yayları, vidalar, pop perçinler, tel ve örgü, delikli saclar, bantlar ve mastikler; projenin malzeme kalitesine uygun olarak paslanmaz çelik, galvaniz çelik, alüminyum veya Monel.",
+      "Pop perçinler ve delikli saclar atölyemizde üretilir; delikli saclar reformerler ve proses fırınları için çizime göre yapılır. 1980'den beri endüstriyel müşterilere tedarik sağlıyor ve 25'ten fazla ülkeye ihracat yapıyoruz."
+    ],
+    "relatedTitle": "İlgili ürünler",
+    "relatedPins": "Kaynak pimleri, yapışkanlı pimler, kilit pullar ve kapaklar.",
+    "relatedMineralWool": "Taş yünü ve cam yünü levha, rulo ve boru kılıfları.",
+    "relatedCalsil": "Paslanmaz telle bağlanan rijit boru kılıfları ve levhalar.",
+    "relatedGlassFibre": "Kanallar ve sargı için cam yünü ve cam kumaş.",
+    "relatedSepl04": "Tuğla astarları tutmak için telden makas klipsler.",
+    "relatedFasteners": "Aynı projeler için cıvata, saplama, somun ve pullar.",
+    "faqTitle": "Sıkça sorulan sorular",
+    "faq": [
+      {
+        "q": "Metal kaplama montajı için hangi aksesuarlar gerekir?",
+        "a": "Metal kaplama sistemlerinde tokalı çemberler (genellikle ½\" paslanmaz), dirsek dilimleri için sac vidaları (#8 × ½\" SS 410), bindirmeli dikişler için pop perçinler ve kaplarla büyük sıcak veya soğuk hatlarda genleşme yayları kullanılır. Alüminyum folyo bant ve mastikler boyuna ve çevresel dikişleri kapatır."
+      },
+      {
+        "q": "Yalıtım çemberleri hangi malzemeden olmalıdır?",
+        "a": "Çoğu endüstriyel uygulamada paslanmaz çelik 304 veya 316 tercih edilir. Alüminyum çemberler korozif olmayan ortamlarda alüminyum kaplamaya uygundur. Galvanizli çemberler sıcak paslanmaz ekipmanda kullanılmamalıdır, çünkü çinko yüksek sıcaklıkta paslanmaz çeliği gevrekleştirebilir; nemin biriktiği yerlerde farklı metaller karıştırılmamalıdır. Deniz ve klorürlü ortamlarda Monel veya SS 316 şartnameye yazılır."
+      },
+      {
+        "q": "Delikli saclar yalıtım sistemlerinde nasıl kullanılır?",
+        "a": "Çeşitli delik desenlerine sahip delikli paslanmaz çelik saclar reformerlerde ve proses fırınlarında, örneğin çok katmanlı yalıtımda iç kaplama ve tutucu katman olarak yaygın biçimde kullanılır. Ağırlıktan tasarruf sağlar; kaynak, kesme ve şekillendirmesi kolaydır. Santura bunları müşteri çizimine göre, projenin istediği kalitede sıcak veya soğuk haddelenmiş olarak üretir."
+      },
+      {
+        "q": "Borularda çember aralığı ne olmalıdır?",
+        "a": "Boru kaplamalarında çemberler proje şartnamesine göre genellikle 225–300 mm (9–12\") aralıkla takılır. Kaplarda ve büyük çaplı sıcak veya soğuk borularda ısıl hareketi karşılamak için çember hattına genleşme yayları eklenir. Büyük depolama tanklarında 1¼\"e kadar daha geniş çemberler kullanılır."
+      },
+      {
+        "q": "Santura kriyojenik LNG projeleri için yalıtım aksesuarı tedarik edebilir mi?",
+        "a": "Evet. Östenitik paslanmaz çelik çemberler, tokalar, genleşme yayları ve bağlama teli kriyojenik sıcaklıklarda tokluğunu korur; Santura bunları soğuk ve kriyojenik yalıtım sistemleri için buhar kesici bant ve mastiklerle birlikte SS 304 veya 316 olarak tedarik eder. Talep üzerine malzeme sertifikaları sağlanabilir."
+      }
+    ],
+    "ctaTitle": "Yalıtım aksesuarına mı ihtiyacınız var?",
+    "ctaText": "Ürün, malzeme, ölçü ve miktarı içeren listenizi veya yalıtım şartnamenizi gönderin; aksesuar paketini hazırlayalım. Fiyat teklifi ve teslim süresiyle dönüş yapalım.",
+    "ctaRfq": "Yalıtım aksesuarları için teklif isteyin",
+    "ctaContact": "Veya ekibimizle iletişime geçin",
+    "trademarkNote": "Monel, Special Metals Corporation'ın ticari markasıdır. 253 MA, Outokumpu'nun ticari markasıdır. Diğer adlar ilgili sahiplerine aittir ve yalnızca tanımlama amacıyla kullanılmıştır."
+  },
+  "sfPage": {
+    "metaTitle": "Refrakter ve Beton için Çelik Lif | Santura Engineering",
+    "metaDescription": "Refrakter dökülebilirler ve beton için SS 304, 310, 446 eriyikten çekme ve soğuk çekme çelik lifler. 1980'den beri sanayiye hizmet, 25+ ülkeye ihracat.",
+    "eyebrow": "Santura üretimi",
+    "h1": "Refrakter ve Beton Takviyesi için Çelik Lif",
+    "subheading": "Refrakter dökülebilir malzemeleri, monolitik astarları ve betonu ısıl şoka, çatlamaya ve titreşime karşı güçlendiren eriyikten çekme ve soğuk çekme çelik lifler. Kendi atölyemizde AISI 304, 310, 446 ve diğer kalitelerde üretilir.",
+    "badges": [
+      "Eriyikten çekme iğneler",
+      "Soğuk çekme: düz, kancalı, dalgalı",
+      "AISI 304, 310, 446",
+      "Siparişe göre",
+      "ISO 9001:2015"
+    ],
+    "gallery": [
+      "Refrakter dökülebilir takviyesi için eriyikten çekme paslanmaz çelik lifler (SEPL-27)",
+      "Eriyikten çekme paslanmaz çelik liflerin yakın görünümü",
+      "Soğuk çekme düz paslanmaz çelik lifler (SEPL-28)",
+      "Soğuk çekme düz çelik lif yığını",
+      "Kancalı uçlu soğuk çekme çelik liflerin yakın görünümü (SEPL-29)",
+      "Kancalı uçlu soğuk çekme çelik lif sırası",
+      "Dalgalı soğuk çekme çelik liflerin yakın görünümü (SEPL-30)",
+      "Oluklu soğuk çekme çelik lif yığını"
+    ],
+    "overviewTitle": "Çelik lifler ne işe yarar",
+    "overview": [
+      "Takviye iğneleri olarak da bilinen çelik lifler; refrakter dökülebilir malzemelere, monolitik astarlara ve betona karıştırılan kısa metal filamentlerdir. Malzemenin tamamına dağılarak ısınma, soğuma ve çatlama sırasında onu bir arada tutar; böylece astar ısıl şoka, patlamaya ve titreşime dayanır ve dayanımını daha uzun süre korur.",
+      "Çelik lifler Santura'nın ana ürünlerinden biridir. Refrakter ankrajlarımızla birlikte üretilir ve çoğu zaman aynı astar için onlarla birlikte tedarik edilir. Lifleri iki yöntemle üretiyoruz."
+    ],
+    "processes": [
+      {
+        "title": "Eriyikten çekme",
+        "text": "Paslanmaz çelik ingotlar elektrik fırınında 1500–1600 °C'de eritilir. Yüksek hızla dönen bir ekstraksiyon tekerleği sıvı çeliğin yüzeyine yaklaştırılır ve lifleri çeker. Sonuç, dökülebilir malzemeye iyi kenetlenen düzensiz kesitli bir liftir."
+      },
+      {
+        "title": "Soğuk çekme",
+        "text": "Çelik tel haddelerden çekilir ve boyuna kesilir. Paslanmaz çelik ısıl işlemle sertleştirilemediğinden bu liflere dayanımı soğuk çekme verir. Tel düz bırakılabilir, uçlarına kanca verilebilir veya boyunca dalgalı hale getirilebilir."
+      }
+    ],
+    "typesTitle": "Dört çelik lifimiz",
+    "typesIntro": "Her lifin tüm ayrıntıları içeren kendi ürün sayfası vardır. Bu özet seçim yapmanıza yardımcı olur.",
+    "types": [
+      {
+        "name": "Eriyikten Çekme İğneler",
+        "process": "Eriyikten çekme",
+        "text": "Refrakter sektöründe en yaygın kullanılan lif: geniş kabul görmüş, ekonomik ve hortumlardan kolayca akabilen. AISI 304, 310 ve 446 olarak mevcuttur."
+      },
+      {
+        "name": "Soğuk Çekme İğneler (Düz)",
+        "process": "Soğuk çekme",
+        "text": "Soğuk çekme sayesinde yüksek dayanımlı düz iğneler. Keserek üretilir ve malzemeye kolayca karışır; genellikle 25–35 mm uzunluk ve 0,3–0,7 mm çaptadır."
+      },
+      {
+        "name": "Soğuk Çekme İğneler (Kancalı)",
+        "process": "Soğuk çekme",
+        "text": "Yüksek kaliteli düşük karbonlu çelik telden kancalı uçlu lifler; düşük fiyata iyi tokluk sağlar. Kancalar lifi matrise sabitler."
+      },
+      {
+        "name": "Soğuk Çekme İğneler (Dalgalı)",
+        "process": "Soğuk çekme",
+        "text": "Düz iğnelerle aynı özelliklere sahip, refrakterlere en yüksek dayanımı vermek için boyunca oluklu lifler."
+      }
+    ],
+    "typeLink": "{code} ayrıntıları",
+    "compareTitle": "Çelik lif tiplerinin karşılaştırması",
+    "colProperty": "Özellik",
+    "compareRows": [
+      {
+        "label": "Yöntem",
+        "values": [
+          "Erimiş paslanmaz çelikten çekme",
+          "Soğuk çekme tel, boyuna kesilmiş",
+          "Kancalı uçlu soğuk çekme tel",
+          "Soğuk çekme tel, oluklu"
+        ]
+      },
+      {
+        "label": "Şekil",
+        "values": [
+          "Çekme işleminden gelen düzensiz kesit",
+          "Düz, yuvarlak",
+          "Kancalı uçlu yuvarlak",
+          "Yuvarlak, boyunca dalgalı"
+        ]
+      },
+      {
+        "label": "Malzeme",
+        "values": [
+          "AISI 304, 310, 446; diğer alaşımlar talep üzerine",
+          "Paslanmaz çelik, örneğin 304, 310, 316",
+          "Düşük karbonlu çelik tel",
+          "Paslanmaz çelik, örneğin 304, 310, 316"
+        ]
+      },
+      {
+        "label": "Uzunluk",
+        "values": [
+          "Çeşitli uzunluklar, siparişe göre",
+          "25–35 mm",
+          "Siparişe göre",
+          "Siparişe göre"
+        ]
+      },
+      {
+        "label": "Çap",
+        "values": [
+          "Çeşitli ölçüler, siparişe göre",
+          "0,3–0,7 mm",
+          "Siparişe göre",
+          "Siparişe göre"
+        ]
+      },
+      {
+        "label": "Çekme dayanımı",
+        "values": [
+          "Talep üzerine",
+          "650 MPa üzeri",
+          "Talep üzerine",
+          "Talep üzerine"
+        ]
+      },
+      {
+        "label": "Ana avantaj",
+        "values": [
+          "En yaygın refrakter lif; ekonomik; hortumdan akar",
+          "Soğuk çekmeden gelen yüksek dayanım; kolay karışım",
+          "Kancalar lifi sabitler; düşük fiyata iyi tokluk",
+          "Dalgalanma en yüksek dayanımı verir"
+        ]
+      }
+    ],
+    "compareNote": "“Siparişe göre” olarak belirtilen ölçüler şartnamenize göre üretilir. İhtiyacınız olan uzunluk, çap ve kaliteyi bize bildirin.",
+    "guideTitle": "Eriyikten çekme mi, soğuk çekme mi",
+    "colCriterion": "Kriter",
+    "colMelt": "Eriyikten çekme",
+    "colCold": "Soğuk çekme",
+    "guideRows": [
+      {
+        "label": "Üretim",
+        "melt": "Dönen bir tekerlekle erimiş paslanmaz çelikten çekilen lifler",
+        "cold": "Çekilip kesilen tel, gerekirse kancalı veya dalgalı"
+      },
+      {
+        "label": "Tipik kullanım",
+        "melt": "Refrakter dökülebilirler ve monolitik astarlar için en yaygın lif",
+        "cold": "Refrakter dökülebilirler ve beton; kancalı lifler betonda yaygındır"
+      },
+      {
+        "label": "Şekil ve bağ",
+        "melt": "Dökülebilir malzemeye kenetlenen düzensiz kesit",
+        "cold": "Düzgün yuvarlak tel; kanca veya dalgalar ankrajı artırır"
+      },
+      {
+        "label": "Uygulama",
+        "melt": "Hortumlardan kolayca akar",
+        "cold": "Düz lifler kolayca karışır"
+      },
+      {
+        "label": "Maliyet",
+        "melt": "Ekonomik ve geniş kabul görmüş",
+        "cold": "Düşük karbonlu kancalı lifler en düşük maliyetli seçenektir"
+      }
+    ],
+    "gradesTitle": "Kaliteler",
+    "grades": [
+      {
+        "grade": "AISI 304",
+        "text": "orta sıcaklıklar için genel amaçlı östenitik paslanmaz çelik (yaklaşık %18 Cr, %8 Ni)"
+      },
+      {
+        "grade": "AISI 310",
+        "text": "daha yüksek sıcaklıklar ve ısıl çevrimler için yüksek krom ve nikelli ısıya dayanıklı kalite (yaklaşık %25 Cr, %20 Ni)"
+      },
+      {
+        "grade": "AISI 446",
+        "text": "%23–27 kromlu, çok iyi oksidasyon direncine sahip ferritik kalite"
+      },
+      {
+        "grade": "AISI 316",
+        "text": "kimyasal etkiye karşı daha iyi direnç sağlayan molibdenli kalite, soğuk çekme lifler için"
+      },
+      {
+        "grade": "Düşük karbonlu çelik",
+        "text": "kancalı uçlu lifler için, özellikle betonda"
+      },
+      {
+        "grade": "Diğer alaşımlar",
+        "text": "talep üzerine"
+      }
+    ],
+    "meltingTitle": "Yaklaşık ergime aralıkları",
+    "colGrade": "Kalite",
+    "colMelting": "Ergime aralığı",
+    "meltingNote": "Bir lifin güvenli kullanım sıcaklığı ergime aralığının çok altındadır ve atmosfere ve dökülebilir malzemeye bağlıdır. Dökülebilir malzeme üreticisinin sınırlarına uyun.",
+    "benefitsTitle": "Çelik lif takviyesinin faydaları",
+    "benefits": [
+      "Isıl şoka karşı yüksek direnç",
+      "Esnek çatlak sınırlama",
+      "Patlamaya karşı yüksek direnç",
+      "Titreşime karşı yüksek direnç",
+      "Monolitik kesitlerde artırılmış taşıma dayanımı",
+      "Dökülebilir malzemenin tamamında takviye; hasır ihtiyacını azaltabilir"
+    ],
+    "applicationsTitle": "Sektörlere göre uygulamalar",
+    "applications": [
+      {
+        "title": "Çelik ve alüminyum",
+        "items": [
+          "Pota refrakterleri",
+          "Fırın tavanları",
+          "Isıl şoka maruz monolitik astarlar"
+        ]
+      },
+      {
+        "title": "Çimento",
+        "items": [
+          "Döner fırın astarları",
+          "Ön ısıtıcılar",
+          "Soğutucu kanalları"
+        ]
+      },
+      {
+        "title": "Petrokimya",
+        "items": [
+          "Reaktörler",
+          "Reformerler",
+          "Kraking fırınları"
+        ]
+      },
+      {
+        "title": "Enerji ve denizcilik",
+        "items": [
+          "Kazan refrakterleri",
+          "Gemi kazanları ve fırın bileşenleri"
+        ]
+      },
+      {
+        "title": "Fırınlar ve kok fırınları",
+        "items": [
+          "Endüstriyel fırınlarda yalıtkan ve yoğun dökülebilirler",
+          "Kok fırını dökülebilirleri"
+        ]
+      },
+      {
+        "title": "Beton takviyesi",
+        "items": [
+          "Temeller",
+          "Kaplamalar",
+          "Sıvı sızdırmaz döşemeler"
+        ]
+      }
+    ],
+    "supplyTitle": "Neler tedarik ediyoruz",
+    "supply": [
+      "Santura Engineering çelik lifleri kendi atölyesinde her iki yöntemle üretir: AISI 304, 310 ve 446 eriyikten çekme iğneler ile düz, kancalı ve dalgalı soğuk çekme iğneler. Diğer alaşımlar, uzunluklar ve çaplar siparişe göre üretilir.",
+      "Santura 1980'den beri çelik, çimento, petrokimya ve enerji müşterilerine hizmet veriyor, 25'ten fazla ülkeye ihracat yapıyor ve ISO 9001:2015 sertifikalı bir kalite sistemiyle çalışıyor. Lifler aynı astar için SEPL ankrajlarla birlikte sevk edilebilir."
+    ],
+    "standardsTitle": "Standartlar",
+    "standards": [
+      "Lif takviyeli beton için çelik lifler (Tip I–V)",
+      "Beton için lifler: çelik lifler"
+    ],
+    "standardsNote": "Bu standartlar beton liflerini kapsar. Refrakter lifler genellikle dökülebilir malzeme veya proje şartnamesinde alaşım, uzunluk ve çapla belirtilir.",
+    "relatedTitle": "İlgili ürünler ve hizmetler",
+    "relatedAnchors": "Tuğla, dökülebilir ve seramik elyaf astarlar için SEPL ankrajları.",
+    "relatedCalsil": "Yüksek sıcaklıklı ekipmanlar için rijit yalıtım.",
+    "relatedPickling": "Paslanmaz çelik ürünlerin asitle temizlenmesi ve pasivasyonu.",
+    "relatedPins": "Yalıtım sabitlemek için kaynak pimleri ve pullar.",
+    "faqTitle": "Sıkça sorulan sorular",
+    "faq": [
+      {
+        "q": "Eriyikten çekme ve soğuk çekme çelik lifler arasındaki fark nedir?",
+        "a": "Eriyikten çekme lifler, 1500–1600 °C'de eritilmiş paslanmaz çelikten yüksek hızla dönen bir tekerlekle çekilir; bu da onlara dökülebilir malzemeye kenetlenen düzensiz bir kesit kazandırır. En yaygın kullanılan refrakter liftir: ekonomiktir ve hortumlarla kolayca pompalanır. Soğuk çekme lifler telin haddelerden çekilip boyuna kesilmesiyle üretilir; bu da yüksek dayanımlı, düzgün yuvarlak bir lif verir. Düz, kancalı uçlu veya dalgalı olarak bulunur; kancalı lifler betonda yaygın olarak kullanılır."
+      },
+      {
+        "q": "Refrakter uygulamalar için en iyi çelik lif kalitesi hangisidir?",
+        "a": "Bu; işletme sıcaklığına, atmosfere ve kimyasal etkilere bağlıdır. %23–27 kromlu ferritik bir kalite olan AISI 446 çok iyi oksidasyon direncine sahiptir. AISI 310, daha yüksek sıcaklıklar ve ısıl çevrimler için yüksek krom ve nikelli bir kalitedir. AISI 304 orta sıcaklıklar için genel amaçlı bir kalitedir. Nihai seçimde dökülebilir malzeme üreticisinin önerileri esas alınmalıdır."
+      },
+      {
+        "q": "Refrakter dökülebilirlerde hangi çelik lif dozajı kullanılır?",
+        "a": "Dozaj genellikle kuru dökülebilir malzemenin ağırlıkça yüzdesi olarak verilir ve formülasyona, uygulamaya ve işletme koşullarına bağlıdır. Dökülebilir malzeme üreticisinin teknik föyüne ve astar tasarımcısının şartnamesine uyun; dökülebiliriniz için lif tipi ve ölçüsü konusunda yardımcı olabiliriz."
+      },
+      {
+        "q": "Çelik lifler refrakter astarlarda metal hasırın yerini alabilir mi?",
+        "a": "Birçok monolitik astarda evet. Lifler dökülebilir malzemenin tamamına dağılır ve onu üç boyutlu takviye eder; hasır ise tek düzlemde takviye eder. Bu, hasırı azaltabilir veya ortadan kaldırabilir, montajı kolaylaştırır ve çatlamayı sınırlar. Astar tasarımcısı bunu her uygulama için onaylamalıdır."
+      },
+      {
+        "q": "Santura hangi uzunluk ve çaplarda çelik lif üretir?",
+        "a": "Soğuk çekme düz iğneler genellikle 25–35 mm uzunluk ve 0,3–0,7 mm çapta, 650 MPa üzeri çekme dayanımıyla tedarik edilir. Eriyikten çekme iğneler AISI 304, 310 ve 446 olarak geniş uzunluk ve çap aralığında sunulur. Kancalı ve dalgalı lifler ile diğer ölçü ve alaşımlar siparişe göre üretilir."
+      }
+    ],
+    "ctaTitle": "Çelik life mi ihtiyacınız var?",
+    "ctaText": "Lif tipini, kaliteyi, uzunluğu, çapı ve miktarı veya takviye edeceğiniz dökülebilir malzemeyi bize bildirin. Fiyat teklifi ve teslim süresiyle dönüş yapalım.",
+    "ctaRfq": "Çelik lifler için teklif isteyin",
+    "ctaContact": "Veya ekibimizle iletişime geçin"
+  },
+  "tdPage": {
+    "metaTitle": "Paslanmaz Çelik Tedarikçisi | Çubuklar, Filmaşin, Profiller",
+    "metaDescription": "Paslanmaz filmaşin, altıgen çubuk, lama, köşebent ve yuvarlak çubuklar. 304, 316, 310 kalitede fabrika sertifikalı inox, 1980'den beri 25+ ülkeye.",
+    "eyebrow": "Ticaret Bölümü",
+    "h1": "Paslanmaz Çelik Ticaret Bölümü",
+    "subheading": "Saygın çelik fabrikalarından temin edilen ve EN 10204 3.1 sertifikalarıyla tedarik edilen, fabrika sertifikalı paslanmaz çelik kangal filmaşin, altıgen, kare, lama ve pompa mili kalitesinde çubuklar, köşebentler ve sıcak haddelenmiş çubuklar.",
+    "badges": [
+      "Kangal filmaşin",
+      "Parlak çubuklar",
+      "HRAP lama ve köşebentler",
+      "PSQ çubuklar",
+      "200, 300, 400 serisi",
+      "EN 10204 3.1"
+    ],
+    "heroAlt": "Dünden bugüne çelik üretimi: bir gravürde erken dönem çelik konvertörleri ve erimiş metal döken modern bir çelik tesisi",
+    "gallery": [
+      "Depoda paslanmaz çelik tel kangalları",
+      "Paslanmaz çelik altıgen parlak çubuklar",
+      "Paslanmaz çelik kare çubuklar",
+      "Paslanmaz çelik HRAP lamalar",
+      "Paslanmaz çelik HRAP eşit kollu köşebentler",
+      "Paslanmaz çelik pompa mili kalitesi (PSQ) yuvarlak çubuklar",
+      "Sıcak haddelenmiş paslanmaz çelik çubuklar",
+      "Paslanmaz çelik filmaşin kangalları",
+      "Paslanmaz çelik eşit kollu köşebent"
+    ],
+    "overviewTitle": "Paslanmaz çelik tek kaynaktan",
+    "overview": [
+      "Santura Engineering Ticaret Bölümü, Orta Doğu, Afrika ve Avrupa'daki endüstriyel projelere fabrika sertifikalı paslanmaz çelik profiller tedarik eder ve ihraç eder. Malzemeyi saygın çelik fabrikalarından temin eder; rafinerilere, şantiyelere, imalat atölyelerine ve EPC yüklenicilerine EN 10204 3.1 muayene sertifikalarıyla teslim ederiz.",
+      "Bölüm, refrakter ankraj ve çelik lif üretimimizi tamamlar. Aynı müşterilerin çoğu paslanmaz çelik profillere de ihtiyaç duyar ve her ikisini tek doküman setiyle tek tedarikçiden alabilir."
+    ],
+    "jumpLabel": "Bu sayfadaki ürünler",
+    "sections": [
+      {
+        "title": "Kangal filmaşin",
+        "text": "Kangal halindeki paslanmaz çelik filmaşin; çelik halatlar, yaylar, bağlantı elemanları, kaynak elektrotları, tel örgüler ve refrakter ankrajlar için başlangıç malzemesidir; mutfak eşyaları, tıbbi aletler ve elektronik bileşenlerde de kullanılır.",
+        "rows": [
+          {
+            "label": "Ölçü aralığı",
+            "value": "5,5–16 mm blok kangallar (5,5, 6, 6,5, 7, 7,5, 8, 9, 10, 11, 12, 13, 14, 15, 16 mm); 17–40 mm garret kangallar"
+          },
+          {
+            "label": "Kangal ağırlığı",
+            "value": "850–1200 kg (blok kangallar)"
+          },
+          {
+            "label": "Kangal ölçüleri",
+            "value": "Blok kangallar: İç çap 800–900 mm. Garret kangallar: İç çap 550–650 mm, dış çap 750–850 mm"
+          },
+          {
+            "label": "Standart",
+            "value": "EN 10088'e göre"
+          },
+          {
+            "label": "Teslim durumu",
+            "value": "Sıcak haddelenmiş (HR); sıcak haddelenmiş ve asitlenmiş (HRP); sıcak haddelenmiş, tavlanmış ve asitlenmiş (HRAP); sıcak haddelenmiş ve tavlanmış (HRA)"
+          },
+          {
+            "label": "Ambalaj",
+            "value": "Her kangalda çelik çember ve plastik sargı; HRP ve HRAP için film ambalaj; veya istenen şekilde"
+          }
+        ]
+      },
+      {
+        "title": "Altıgen çubuklar (parlak)",
+        "text": "Somunlar, vanalar, hortum uçları, bağlantı elemanları ve altıgen cıvatalar için mukavemet ile korozyon direncini birleştiren parlak altıgen çubuklar. 201, 304/304L, 316/316L ve 303 kalitelerinde mevcuttur.",
+        "rows": [
+          {
+            "label": "Kaliteler",
+            "value": "201, 304/304L, 316/316L, 303"
+          },
+          {
+            "label": "Ölçü aralığı",
+            "value": "12–55 mm (½\" – 2¼\")"
+          },
+          {
+            "label": "Ölçü toleransı",
+            "value": "h11"
+          },
+          {
+            "label": "Boy",
+            "value": "3,00–6,70 m (10–22 ft); −0/+50 mm toleransla boyuna kesim"
+          },
+          {
+            "label": "Pah",
+            "value": "30°, 45° veya 60°; çapaksız düz kesik uçlar"
+          },
+          {
+            "label": "Doğrusallık",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Yüzey",
+            "value": "Kumlanmış ve soğuk çekilmiş veya bant polisajlı"
+          },
+          {
+            "label": "Isıl işlem",
+            "value": "Çözeltiye alma tavı"
+          }
+        ]
+      },
+      {
+        "title": "Kare çubuklar",
+        "text": "Havacılık parçaları, manometreler, sıcaklık sensörleri ve yük hücreleri gibi zorlu kullanımlar için östenitik paslanmaz çelik kare çubuklar. Anahtar ağzı ölçüsü ve köşe radyüsü isteğinize göre tutulabilir. Çekilmiş ve parlatılmış çubuklar dekoratif kullanım, kumlanmış ve soğuk çekilmiş çubuklar kritik uygulamalar içindir.",
+        "rows": [
+          {
+            "label": "Kaliteler",
+            "value": "Östenitik kaliteler"
+          },
+          {
+            "label": "Ölçü aralığı",
+            "value": "12–55 mm (½\" – 2¼\")"
+          },
+          {
+            "label": "Ölçü toleransı",
+            "value": "h11"
+          },
+          {
+            "label": "Boy",
+            "value": "3,00–6,70 m (10–22 ft); −0/+50 mm toleransla boyuna kesim"
+          },
+          {
+            "label": "Pah",
+            "value": "30°, 45° veya 60°; çapaksız düz kesik uçlar"
+          },
+          {
+            "label": "Doğrusallık",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Yüzey",
+            "value": "Kumlanmış ve soğuk çekilmiş veya bant polisajlı"
+          },
+          {
+            "label": "Isıl işlem",
+            "value": "Çözeltiye alma tavı"
+          }
+        ]
+      },
+      {
+        "title": "HRAP lamalar",
+        "text": "Saçtan dilinmek yerine ölçüsünde haddelenen, bu nedenle dilme lamalardan daha yüksek dayanımlı sıcak haddelenmiş, tavlanmış ve asitlenmiş lamalar. İnşaat ve yüksek dayanımlı imalat için; dekoratif işler için bant polisajlı lamalar mevcuttur.",
+        "rows": [
+          {
+            "label": "Ölçü toleransı",
+            "value": "ASTM A484"
+          },
+          {
+            "label": "Boy",
+            "value": "3,00–6,70 m (10–22 ft); −0/+50 mm toleransla boyuna kesim"
+          },
+          {
+            "label": "Doğrusallık",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Yüzey",
+            "value": "Sıcak haddelenmiş, tavlanmış, asitlenmiş ve kumlanmış veya bant polisajlı"
+          },
+          {
+            "label": "Isıl işlem",
+            "value": "Çözeltiye alma tavı"
+          },
+          {
+            "label": "Ölçüler",
+            "value": "Genişlik 25–100 mm, kalınlık 5–50 mm (tabloya bakın)"
+          }
+        ]
+      },
+      {
+        "title": "HRAP köşebentler",
+        "text": "İnşaat ve taşıyıcı çerçeveler, mobilya, gıda işleme ekipmanları ve makineler için sıcak haddelenmiş, tavlanmış ve asitlenmiş eşit kollu köşebentler.",
+        "rows": [
+          {
+            "label": "Ölçü toleransı",
+            "value": "ASTM A484"
+          },
+          {
+            "label": "Boy",
+            "value": "3,00–6,70 m (10–22 ft); −0/+50 mm toleransla boyuna kesim"
+          },
+          {
+            "label": "Doğrusallık",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Yüzey",
+            "value": "Sıcak haddelenmiş, tavlanmış, asitlenmiş ve kumlanmış"
+          },
+          {
+            "label": "Isıl işlem",
+            "value": "Çözeltiye alma tavı"
+          },
+          {
+            "label": "Ölçüler",
+            "value": "20 × 20 mm – 75 × 75 mm, 3–12 mm kalınlık (tabloya bakın)"
+          }
+        ]
+      },
+      {
+        "title": "PSQ çubuklar (pompa mili kalitesi)",
+        "text": "Normal parlak çubuklardan daha dar toleranslı ve daha iyi doğrusallıkta, doğrudan pompa mili, silindir mili ve piston mili olarak kullanılabilen hassas yuvarlak çubuklar.",
+        "rows": [
+          {
+            "label": "Ölçü aralığı",
+            "value": "6–63,5 mm (¼\" – 2½\")"
+          },
+          {
+            "label": "Ölçü toleransı",
+            "value": "h8"
+          },
+          {
+            "label": "Boy",
+            "value": "3,00–6,70 m (10–22 ft); −0/+50 mm toleransla boyuna kesim"
+          },
+          {
+            "label": "Pah",
+            "value": "30°, 45° veya 60°"
+          },
+          {
+            "label": "Doğrusallık",
+            "value": "0,25 mm/m TIR'e kadar"
+          },
+          {
+            "label": "Yüzey",
+            "value": "Puntasız taşlanmış ve bant polisajlı, Ra 0,2 µm'ye kadar; 240–320 kum polisaj"
+          },
+          {
+            "label": "Isıl işlem",
+            "value": "Çözeltiye alma, tavlama, QT 650, QT 800 ve diğerleri"
+          }
+        ]
+      },
+      {
+        "title": "Sıcak haddelenmiş çubuklar",
+        "text": "İşleyiciler, talaşlı imalat ve dövme için doğrultulmuş olarak teslim edilen sıcak haddelenmiş yuvarlak çubuklar.",
+        "rows": [
+          {
+            "label": "Ölçüler",
+            "value": "13–150 mm (listeye bakın)"
+          },
+          {
+            "label": "Tolerans",
+            "value": "EN 10060"
+          },
+          {
+            "label": "Boy",
+            "value": "3,00–6,70 m (10–22 ft)"
+          },
+          {
+            "label": "Doğrusallık",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Yüzey",
+            "value": "Hadde çıkışı, siyah"
+          },
+          {
+            "label": "Isıl işlem",
+            "value": "Tavlanmış, çözeltiye alınmış veya su verilip temperlenmiş"
+          }
+        ]
+      }
+    ],
+    "wireGradesTitle": "Filmaşin kaliteleri",
+    "wireGradesAstm": "ASTM / AISI",
+    "wireGradesEn": "DIN / EN",
+    "wireGradesElectrode": "Kaynak elektrodu kaliteleri",
+    "wireGradesNote": "Müşteri isteğine göre özel kaliteler de mevcuttur.",
+    "colWidth": "Genişlik (mm)",
+    "colThicknessRange": "Kalınlık aralığı (mm)",
+    "colAngleSize": "Ölçü (mm)",
+    "colAngleThickness": "Kalınlıklar (mm)",
+    "hotRolledSizesTitle": "Ölçüler (mm)",
+    "gradesTitle": "Paslanmaz çelik kaliteleri",
+    "gradesIntro": "Tedarik ettiğimiz kalite grupları. Listede olmayan her kalite için bize danışın.",
+    "colFamily": "Kalite grubu",
+    "colGrades": "Kaliteler",
+    "colProperties": "Temel özellikler",
+    "gradeRows": [
+      {
+        "family": "Östenitik (300 serisi)",
+        "grades": "304, 304L, 304H, 310, 310S, 316, 316L, 316Ti, 321",
+        "properties": "İyi genel korozyon direnci; tavlı halde manyetik değil; en yaygın kullanılan grup"
+      },
+      {
+        "family": "Östenitik (200 serisi)",
+        "grades": "201, 202, 204Cu",
+        "properties": "Daha düşük nikel; daha hafif koşullar için 300 serisine ekonomik alternatif"
+      },
+      {
+        "family": "Martenzitik (400 serisi)",
+        "grades": "410, 420",
+        "properties": "Isıl işlemle sertleştirilebilir; aşınmaya dayanıklı; manyetik"
+      },
+      {
+        "family": "Ferritik (400 serisi)",
+        "grades": "430, 430L",
+        "properties": "Manyetik; oksidasyona ve klorür gerilmeli korozyon çatlamasına karşı iyi direnç; ekonomik"
+      },
+      {
+        "family": "Yüksek alaşımlı östenitik",
+        "grades": "904L",
+        "properties": "Güçlü asitlere dayanıklı; kimyasal proseslerde kullanılır"
+      },
+      {
+        "family": "Dubleks ve özel kaliteler",
+        "grades": "1.4362 (2304); diğerleri talep üzerine",
+        "properties": "Proje şartnamesine göre temin edilen özel kaliteler"
+      }
+    ],
+    "gradesNote": "Malzeme gerektiği şekilde ASTM, DIN/EN veya IS şartnamelerine göre, EN 10204 3.1 muayene sertifikalarıyla tedarik edilir.",
+    "marketsTitle": "Hizmet verdiğimiz pazarlar",
+    "marketsIntro": "Paslanmaz çelik profilleri gümrükleme için gereken belgelerle ihraç ediyoruz.",
+    "markets": [
+      {
+        "region": "Birleşik Arap Emirlikleri",
+        "text": "Dubai, Abu Dabi, Şarika, Jebel Ali Serbest Bölgesi (JAFZA) ve Ruwais sanayi bölgesi; yedi emirliğin tamamında şantiyeye teslimat."
+      },
+      {
+        "region": "Suudi Arabistan",
+        "text": "Endüstriyel ve inşaat projelerine tedarik."
+      },
+      {
+        "region": "Umman",
+        "text": "Endüstriyel ve inşaat projelerine tedarik."
+      },
+      {
+        "region": "Diğer KİK ülkeleri",
+        "text": "Bahreyn, Kuveyt ve Katar talep üzerine."
+      },
+      {
+        "region": "Afrika",
+        "text": "Afrika'daki endüstriyel pazarlara tedarik."
+      },
+      {
+        "region": "Avrupa",
+        "text": "Proje bazlı tedarik."
+      }
+    ],
+    "applicationsTitle": "Sektörlere göre uygulamalar",
+    "applications": [
+      {
+        "title": "Petrol, gaz ve petrokimya",
+        "items": [
+          "Boru hattı bileşenleri",
+          "Basınçlı kap imalatı",
+          "Açık deniz platformu malzemeleri"
+        ]
+      },
+      {
+        "title": "İnşaat ve mimari",
+        "items": [
+          "Taşıyıcı destekler ve taban plakaları",
+          "Cepheler ve kaplamalar",
+          "İç mekân ve dekoratif elemanlar"
+        ]
+      },
+      {
+        "title": "Denizcilik ve gemi inşaatı",
+        "items": [
+          "Gemi inşaatı ve yat donanımı için 316L profiller",
+          "Liman altyapısı",
+          "Tuzdan arındırma tesisi bileşenleri"
+        ]
+      },
+      {
+        "title": "Endüstriyel imalat",
+        "items": [
+          "Makine ve ekipman şasileri",
+          "Gıda işleme ekipmanları",
+          "Su arıtma tesisleri"
+        ]
+      },
+      {
+        "title": "Otomotiv ve havacılık",
+        "items": [
+          "Bağlantı elemanı ve mil çubukları",
+          "Hassas bileşenler"
+        ]
+      },
+      {
+        "title": "Tel ürünleri",
+        "items": [
+          "Çelik halatlar ve yaylar",
+          "Kaynak elektrotları",
+          "Tel örgüler ve refrakter ankrajlar"
+        ]
+      }
+    ],
+    "whyTitle": "Neden Ticaret Bölümümüzden almalısınız",
+    "why": [
+      "40 yılı aşkın sektör deneyimi",
+      "EN 10204 3.1 sertifikalı, fabrika sertifikalı malzeme",
+      "200, 300 ve 400 serisi kaliteler ile özel alaşımlar",
+      "Sıcak haddelenmiş ve asitlenmişten soğuk çekilmiş, parlatılmış ve puntasız taşlanmışa kadar teslim durumları",
+      "−0/+50 mm toleransla boyuna kesilmiş çubuklar",
+      "Paslanmaz çelik profiller ve kendi refrakter ankraj ve liflerimiz tek tedarikçiden",
+      "Saygın çelik fabrikalarından temin",
+      "25'ten fazla ülkeye ihracat"
+    ],
+    "findTitle": "Bizi şuralarda da bulabilirsiniz",
+    "findText": "Santura Engineering bu B2B pazar yerlerinde de listelenmiştir.",
+    "find": {
+      "indiamart": "IndiaMART",
+      "tradeindia": "TradeIndia"
+    },
+    "newTab": "(yeni sekmede açılır)",
+    "relatedTitle": "İlgili ürünler",
+    "relatedAnchors": "Atölyemizde SS 304, 310 ve 316 gibi paslanmaz kalitelerden üretilir.",
+    "relatedFibres": "AISI 304, 310 ve 446 eriyikten çekme ve soğuk çekme lifler.",
+    "relatedFasteners": "Paslanmaz ve alaşımlı çelik cıvata, saplama, somun ve pullar.",
+    "relatedAccessories": "Yalıtım için paslanmaz çember, vida ve donanım.",
+    "faqTitle": "Sıkça sorulan sorular",
+    "faq": [
+      {
+        "q": "Santura hangi paslanmaz çelik kalitelerini tedarik eder?",
+        "a": "Santura östenitik kaliteleri (304, 304L, 304H, 310, 310S, 316, 316L, 316Ti, 321 ve 200 serisi), ferritik kaliteleri (430, 430L), martenzitik kaliteleri (410, 420) ve yüksek alaşımlı östenitik 904L kalitesini tedarik eder. Filmaşin DIN/EN kalitelerinde ve kaynak elektrodu kalitelerinde de mevcuttur; özel kaliteler talep üzerine temin edilir. Malzeme EN 10204 3.1 muayene sertifikalarıyla tedarik edilir."
+      },
+      {
+        "q": "Hangi paslanmaz çelik profiller mevcut?",
+        "a": "Kangal filmaşin (5,5–40 mm), altıgen çubuklar (12–55 mm), kare çubuklar (12–55 mm), HRAP lamalar (25–100 mm genişlik), HRAP köşebentler (20 × 20 – 75 × 75 mm), pompa mili kalitesinde çubuklar (6–63,5 mm) ve sıcak haddelenmiş çubuklar (13–150 mm) tedarik ediyoruz. Teslim durumları sıcak haddelenmiş, asitlenmiş ve tavlanmıştan soğuk çekilmiş, parlatılmış ve puntasız taşlanmışa kadar uzanır."
+      },
+      {
+        "q": "Santura BAE ve Suudi Arabistan'a paslanmaz çelik tedarik ediyor mu?",
+        "a": "Evet. BAE'de Dubai, Abu Dabi, Şarika, Jebel Ali Serbest Bölgesi (JAFZA) ve Ruwais dahil olmak üzere, ayrıca Suudi Arabistan, Umman ve diğer KİK ülkelerine gümrükleme için gereken belgelerle paslanmaz çelik profiller tedarik ediyoruz."
+      },
+      {
+        "q": "Paslanmaz çelikle birlikte hangi sertifikalar verilir?",
+        "a": "Paslanmaz çelik, malzemenin kimyasal bileşimini, mekanik özelliklerini ve ısıl işlemini gösteren EN 10204 3.1 muayene sertifikalarıyla tedarik edilir. Malzeme projenin gerektirdiği ASTM, DIN/EN veya IS şartnamelerine göre tedarik edilir."
+      },
+      {
+        "q": "Santura hem paslanmaz çelik hem refrakter ürünler tedarik edebilir mi?",
+        "a": "Evet. Ticaret Bölümü fabrika sertifikalı paslanmaz çelik profiller tedarik ederken kendi atölyemiz refrakter ankrajlar, çelik lifler, pop perçinler ve delikli saclar üretir. Her ikisine de ihtiyaç duyan EPC yüklenicileri ve tesis işletmecileri bunları tek tedarikçiden alabilir; bu da satın almayı kolaylaştırır."
+      }
+    ],
+    "ctaTitle": "Paslanmaz çelik profile mi ihtiyacınız var?",
+    "ctaText": "Ürünü, kaliteyi, ölçüyü, boyu, teslim durumunu ve miktarı bize bildirin. Fiyat teklifi ve teslim süresiyle dönüş yapalım.",
+    "ctaRfq": "Paslanmaz çelik için teklif isteyin",
     "ctaContact": "Veya ekibimizle iletişime geçin"
   }
 }

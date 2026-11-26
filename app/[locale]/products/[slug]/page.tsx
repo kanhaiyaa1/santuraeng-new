@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
@@ -83,6 +84,15 @@ export default async function ProductPage({ params: { locale, slug } }: Props) {
     .map((b) => (b.type === 'paragraph' ? b.text : b.items.join('; ')))
     .join(' ');
 
+  // Steel fibres (SEPL-27 to 30) sit under their own category page; anchors and washers under /refractory-anchors.
+  const isFibre = product.lining === 'fibres';
+  const parentCrumbs = isFibre
+    ? [
+        { name: nav('products'), href: '/products' },
+        { name: categoryNames('items.steel-fibres.name'), href: '/products/steel-fibres' }
+      ]
+    : [{ name: categoryNames('items.refractory-anchors.name'), href: '/refractory-anchors' }];
+
   const jsonLd = [
     {
       '@context': 'https://schema.org',
@@ -101,8 +111,8 @@ export default async function ProductPage({ params: { locale, slug } }: Props) {
       '@type': 'BreadcrumbList',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: nav('home'), item: buildAlternates('/', locale).canonical },
-        { '@type': 'ListItem', position: 2, name: categoryNames('items.refractory-anchors.name'), item: buildAlternates('/refractory-anchors', locale).canonical },
-        { '@type': 'ListItem', position: 3, name: title, item: pageUrl }
+        ...parentCrumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 2, name: c.name, item: buildAlternates(c.href, locale).canonical })),
+        { '@type': 'ListItem', position: parentCrumbs.length + 2, name: title, item: pageUrl }
       ]
     }
   ];
@@ -120,10 +130,14 @@ export default async function ProductPage({ params: { locale, slug } }: Props) {
               <Link href="/" className="hover:text-brand-500">{nav('home')}</Link>
             </li>
             <li aria-hidden="true">/</li>
-            <li>
-              <Link href="/refractory-anchors" className="hover:text-brand-500">{categoryNames('items.refractory-anchors.name')}</Link>
-            </li>
-            <li aria-hidden="true">/</li>
+            {parentCrumbs.map((c) => (
+              <Fragment key={c.href}>
+                <li>
+                  <Link href={c.href} className="hover:text-brand-500">{c.name}</Link>
+                </li>
+                <li aria-hidden="true">/</li>
+              </Fragment>
+            ))}
             <li aria-current="page" className="font-medium text-ink">{title}</li>
           </ol>
         </nav>

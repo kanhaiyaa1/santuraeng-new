@@ -115,6 +115,26 @@
         "name": "Energía y Calderas",
         "description": "Calderas CFBC, HRSG, de valorización energética de residuos y de biomasa.",
         "imageAlt": "Torres de transmisión eléctrica al atardecer"
+      },
+      "aluminium": {
+        "name": "Producción de Aluminio",
+        "description": "Hornos de fusión y mantenimiento, hornos de cocción de ánodos y canales de colada.",
+        "imageAlt": "Bobinas de aluminio en un almacén"
+      },
+      "copper": {
+        "name": "Cobre",
+        "description": "Hornos de fundición, convertidores y hornos de ánodos.",
+        "imageAlt": "Bobinas de alambre de cobre"
+      },
+      "ceramic": {
+        "name": "Industria Cerámica",
+        "description": "Hornos túnel, hornos intermitentes y vagonetas.",
+        "imageAlt": "Vagonetas cargadas con piezas cerámicas en un horno túnel"
+      },
+      "mining": {
+        "name": "Minería y Minerales",
+        "description": "Hornos rotatorios, calcinadores y secadores para el procesamiento de minerales.",
+        "imageAlt": "Transportador en una mina subterránea"
       }
     }
   },
@@ -769,13 +789,13 @@
         "name": "Accesorios de Aislamiento",
         "description": "Flejes, clips, arandelas y otras fijaciones de aislamiento."
       },
-      "steel-plates": {
-        "name": "Chapas de Acero",
-        "description": "Chapas de acero inoxidable y aleado."
-      },
       "trading-division": {
         "name": "División Comercial",
         "description": "Suministro de acero inoxidable y materiales industriales."
+      },
+      "steel-fibres": {
+        "name": "Fibras de acero",
+        "description": "Fibras de acero inoxidable de extracción en fundido y trefiladas en frío para hormigones refractarios."
       }
     },
     "allCategories": "Todas las categorías de productos",
@@ -1114,6 +1134,7 @@
       "La identificación positiva de materiales (PMI) es un ensayo no destructivo que mide la composición elemental de un metal y confirma su aleación. Se realiza con un analizador portátil de fluorescencia de rayos X (XRF) o un espectrómetro de emisión óptica (OES).",
       "El analizador lee la composición en segundos y la compara con una biblioteca de aleaciones. No se corta, taladra ni daña nada, así que los anclajes terminados pueden ensayarse y enviarse."
     ],
+    "whatImageAlt": "Analizador XRF portátil que muestra una lectura de la aleación SS310",
     "whyTitle": "Por qué importa en los anclajes refractarios",
     "why": [
       {
@@ -1589,7 +1610,12 @@
       "Marco y piezas de una puerta de observación antes del montaje",
       "Serie de puertas de observación galvanizadas en el taller de fabricación",
       "Puertas de observación con bisagra apiladas para el envío",
-      "Detalle de marcos galvanizados de puertas de observación de una serie"
+      "Detalle de marcos galvanizados de puertas de observación de una serie",
+      "Puerta de observación galvanizada con puerta de acceso abatible y placa de identificación",
+      "Puertas de observación con mirillas, etiquetadas tras la inspección",
+      "Filas de puertas de observación etiquetadas antes del despacho",
+      "Marcos de puertas de observación galvanizados alineados en el taller",
+      "Pila de marcos de puertas de observación galvanizados, vista lateral"
     ],
     "relatedTitle": "Productos y servicios relacionados",
     "relatedAnchorsText": "Los anclajes que sujetan el revestimiento refractario dentro de cada puerta, en las mismas aleaciones que el revestimiento de su pared.",
@@ -1812,7 +1838,8 @@
       "Pernos de cimentación con camisas de tubo, etiquetados para el envío",
       "Pernos de cimentación galvanizados con camisas de tubo dispuestos en el taller",
       "Existencias de pernos de cimentación galvanizados con tuercas y camisas",
-      "Detalle de camisas de tubo y tuercas de pernos de cimentación"
+      "Detalle de camisas de tubo y tuercas de pernos de cimentación",
+      "Pernos de cimentación galvanizados con camisas de tubo y placas superiores cuadradas"
     ],
     "relatedTitle": "Productos relacionados",
     "relatedStanchions": "Montantes y postes para plataformas y barandillas, a menudo instalados sobre las mismas cimentaciones.",
@@ -2077,7 +2104,9 @@
       "Lote de montantes industriales galvanizados con placas base rigidizadas",
       "Montante galvanizado con brazos de pasamanos soldados y placa base",
       "Montante industrial con brazo lateral y placa base rigidizada",
-      "Detalle de una unión en T soldada en un montante"
+      "Detalle de una unión en T soldada en un montante",
+      "Poste de montante galvanizado con brazo lateral y placa base reforzada",
+      "Montantes galvanizados con travesaños en T en el taller de fabricación"
     ],
     "overviewTitle": "Qué son los montantes industriales",
     "overview": [
@@ -2607,6 +2636,7 @@
     "subheading": "Sistemas de contrapeso de brazo de palanca que soportan el peso de los tubos radiantes en reformadores de hidrógeno y hornos de craqueo de etileno. Fabricados por Santura desde finales de los años noventa, según los planos de ingeniería del cliente.",
     "lindeBadge": "Proveedor aprobado por Linde Engineering India, {period}",
     "photoAlt": "Conjunto de brazo de contrapeso galvanizado con pilas de pesos muertos",
+    "photo2Alt": "Brazo de palanca de contrapeso con pesos muertos apilados en el taller",
     "photoCaption": "Conjunto de brazo de palanca galvanizado con pilas de pesos en nuestro taller.",
     "whatTitle": "Qué hace un sistema de contrapeso",
     "what": [
@@ -3859,6 +3889,2469 @@
     "ctaTitle": "¿Necesita aislamiento de silicato cálcico?",
     "ctaText": "Indíquenos el formato, diámetros de tubería o medidas de placa, espesor, temperatura de servicio y cantidad. Le responderemos con una cotización y el plazo de entrega.",
     "ctaRfq": "Solicitar cotización de silicato cálcico",
+    "ctaContact": "O contacte con nuestro equipo"
+  },
+  "ipPage": {
+    "metaTitle": "Fabricante de pernos de aislamiento | Pernos para soldar y arandelas",
+    "metaDescription": "Fabricante de pernos de aislamiento: pernos para soldar, adhesivos y arandelas autoblocantes en inox y galvanizado. Desde 1980, exporta a más de 25 países.",
+    "eyebrow": "Fabricados por Santura",
+    "h1": "Pernos de aislamiento y pernos para soldar",
+    "subheading": "Pernos de aislamiento para soldar, de base adhesiva y autoadhesivos, con arandelas autoblocantes y capuchones a juego, para conductos, recipientes, muros y equipos. Fabricados en nuestro taller en acero inoxidable, acero galvanizado y plástico.",
+    "badges": [
+      "Pernos para soldadura CD",
+      "Pernos de base perforada",
+      "Pernos autoadhesivos",
+      "Arandelas autoblocantes",
+      "Capuchones",
+      "Certificados EN 10204 3.1"
+    ],
+    "gallery": [
+      "Pernos de aislamiento con base perforada, incluido un perno de plástico",
+      "Pernos para soldar con capuchones y arandelas autoblocantes",
+      "Arandelas autoblocantes de acero inoxidable para pernos de aislamiento",
+      "Arandela autoblocante cuadrada para pernos de aislamiento",
+      "Capuchón para pernos de aislamiento",
+      "Arandelas autoblocantes variadas para pernos de aislamiento",
+      "Pasador de aislamiento de base perforada con placa base cuadrada"
+    ],
+    "overviewTitle": "Qué son los pernos de aislamiento",
+    "overview": [
+      "Los pernos de aislamiento, también llamados clavos de aislamiento, pinchos o pernos para soldar, son fijaciones que sujetan mecánicamente el aislamiento a una superficie. El perno se fija al soporte, el aislamiento se clava en su vástago y una arandela autoblocante o un capuchón lo mantiene en su sitio.",
+      "Los pernos evitan que el aislamiento se descuelgue, se desplace o se caiga, de modo que conserva su rendimiento térmico y acústico y la instalación queda limpia. Se usan en conductos de climatización, recipientes y tanques, carcasas de calderas, mamparos de buques, muros y techos.",
+      "Santura fabrica sus propios pernos de aislamiento, junto con sus anclajes refractarios. Se fabrican para tres métodos de fijación: soldados (descarga de condensador o arco), adhesivos con base perforada y autoadhesivos. Las arandelas y capuchones a juego se fabrican en los mismos materiales."
+    ],
+    "madeTitle": "Fabricación propia",
+    "made": [
+      "Pernos de acero inoxidable, acero al carbono galvanizado y PVC",
+      "Versiones para soldar y de base adhesiva",
+      "Arandelas autoblocantes y capuchones",
+      "Para lana de roca, fibra de vidrio, EPS, poliestireno y PUR",
+      "Con certificados de inspección EN 10204 3.1"
+    ],
+    "typesTitle": "Tipos de pernos de aislamiento según la fijación",
+    "types": [
+      {
+        "title": "Pernos para soldar (CD / arco)",
+        "text": "Perno con base de soldadura, unido de forma permanente a la chapa mediante soldadura de espárragos por descarga de condensador (CD) o por arco.",
+        "rows": [
+          {
+            "label": "Tiempo de soldadura",
+            "value": "Menos de 1 segundo por perno"
+          },
+          {
+            "label": "Indicado para",
+            "value": "Conductos metálicos, carcasas de recipientes, paredes de tanques y paneles de chapa"
+          },
+          {
+            "label": "Tipos de cabeza",
+            "value": "Cabeza de copa (disco integrado) o sin cabeza, con arandela aparte"
+          },
+          {
+            "label": "Ventaja",
+            "value": "Unión permanente y resistente que se mantiene en caso de incendio"
+          },
+          {
+            "label": "Materiales",
+            "value": "Acero al carbono galvanizado, SS 304, SS 316, aluminio; bimetálico (cabeza de aluminio, vástago de acero)"
+          }
+        ]
+      },
+      {
+        "title": "Pernos de base adhesiva (perforada)",
+        "text": "Perno sobre una placa base metálica perforada que se pega al soporte con masilla adhesiva.",
+        "rows": [
+          {
+            "label": "Indicado para",
+            "value": "Superficies no soldables: hormigón, mampostería, PRFV y superficies pintadas"
+          },
+          {
+            "label": "Instalación",
+            "value": "Aplicar el adhesivo a través de las perforaciones, presionar girando y dejar curar 24–72 horas antes de cargar"
+          },
+          {
+            "label": "Placa base",
+            "value": "Placa perforada cuadrada o redonda, normalmente de 50 × 50 mm; el adhesivo pasa por los orificios y mejora la unión"
+          },
+          {
+            "label": "Ventaja",
+            "value": "No requiere equipo de soldadura"
+          },
+          {
+            "label": "Materiales",
+            "value": "Acero galvanizado, SS 304, aluminio"
+          }
+        ]
+      },
+      {
+        "title": "Pernos autoadhesivos",
+        "text": "Perno con una almohadilla adhesiva sensible a la presión aplicada en la base.",
+        "rows": [
+          {
+            "label": "Indicado para",
+            "value": "Instalación rápida de aislamiento ligero sobre superficies limpias, secas y no porosas"
+          },
+          {
+            "label": "Instalación",
+            "value": "Retirar el protector, presionar firmemente sin girar y esperar 15–20 minutos antes de cargar"
+          },
+          {
+            "label": "Carga",
+            "value": "Hasta unos 1,4 kg por perno"
+          },
+          {
+            "label": "Temperatura",
+            "value": "Aplicación por encima de 10 °C; servicio de −20 °C a 90 °C"
+          },
+          {
+            "label": "Limitaciones",
+            "value": "No apto para superficies pintadas, placas de yeso ni metal expuesto al sol directo"
+          }
+        ]
+      }
+    ],
+    "guideTitle": "Cómo elegir el perno adecuado",
+    "guideIntro": "Parta del soporte y de las condiciones de servicio, y después elija el método de fijación y el material.",
+    "colApplication": "Aplicación",
+    "colPin": "Perno recomendado",
+    "colWhy": "Por qué",
+    "guideRows": [
+      {
+        "application": "Conducto metálico, pared de recipiente o tanque",
+        "pin": "Perno para soldadura CD",
+        "why": "Unión permanente, se mantiene en un incendio, instalación más rápida"
+      },
+      {
+        "application": "Hormigón, mampostería o PRFV",
+        "pin": "Perno adhesivo perforado",
+        "why": "Sin soldadura; unión firme a través de las perforaciones"
+      },
+      {
+        "application": "Instalación rápida y en seco de aislamiento ligero",
+        "pin": "Perno autoadhesivo",
+        "why": "Despegar y pegar, sin tiempo de curado"
+      },
+      {
+        "application": "Cámara frigorífica o de congelación",
+        "pin": "Perno de nailon o PVC",
+        "why": "Evita el puente térmico y la condensación en el perno"
+      },
+      {
+        "application": "Naval, costa o planta química",
+        "pin": "Perno para soldar de SS 304 o SS 316",
+        "why": "Resistente a la corrosión en ambientes agresivos"
+      },
+      {
+        "application": "Climatización general con presupuesto ajustado",
+        "pin": "Perno para soldar galvanizado",
+        "why": "Económico y con buena resistencia a la corrosión en interiores"
+      }
+    ],
+    "specTitle": "Especificaciones de los pernos",
+    "specRows": [
+      {
+        "label": "Diámetro del vástago",
+        "value": "2,1, 2,7 y 3,0 mm (otros bajo pedido)"
+      },
+      {
+        "label": "Longitud del vástago",
+        "value": "50, 63, 90, 110, 114 y 150 mm (cualquier longitud bajo pedido)"
+      },
+      {
+        "label": "Tipo de cabeza",
+        "value": "Cabeza de copa (disco integrado) o sin cabeza"
+      },
+      {
+        "label": "Tipo de base",
+        "value": "Base de soldadura, placa perforada (50 × 50 mm) o almohadilla autoadhesiva"
+      },
+      {
+        "label": "Acabado",
+        "value": "Natural, galvanizado o pasivado bajo pedido"
+      },
+      {
+        "label": "Certificación",
+        "value": "Certificados de inspección EN 10204 3.1"
+      }
+    ],
+    "materialsTitle": "Materiales",
+    "colMaterial": "Material",
+    "colBestFor": "Indicado para",
+    "colMaxTemp": "Temp. máx.",
+    "materials": [
+      {
+        "name": "Acero inoxidable 304",
+        "use": "Naval, químico, ambientes húmedos y corrosivos; larga duración",
+        "temp": "Unos 800 °C"
+      },
+      {
+        "name": "Acero inoxidable 316",
+        "use": "Corrosión severa: costa, cloruros y procesos químicos",
+        "temp": "Unos 800 °C"
+      },
+      {
+        "name": "Acero al carbono galvanizado",
+        "use": "Climatización general, industria y edificación; económico",
+        "temp": "Unos 450 °C"
+      },
+      {
+        "name": "Aluminio",
+        "use": "Ligero; industria alimentaria y ambientes limpios",
+        "temp": "Unos 200 °C"
+      },
+      {
+        "name": "Bimetálico (cabeza de aluminio, vástago de acero)",
+        "use": "Cabeza de aluminio con la resistencia de soldadura del acero",
+        "temp": "Unos 450 °C"
+      },
+      {
+        "name": "PVC / nailon",
+        "use": "Superficies frías; evita el puente térmico",
+        "temp": "Unos 80 °C (PVC) / 120 °C (nailon)"
+      }
+    ],
+    "materialsNote": "Temperaturas máximas típicas del material del perno. Para revestimientos de fibra cerámica por encima de estos límites, utilice anclajes soldados para fibra cerámica (SEPL-24).",
+    "accessoriesTitle": "Arandelas y capuchones",
+    "accessoriesIntro": "Las arandelas autoblocantes agarran el vástago y sujetan el aislamiento; los capuchones cubren el extremo cortado. Ambos se fabrican en acero galvanizado, inoxidable o aluminio a juego con el perno.",
+    "accessories": [
+      {
+        "title": "Arandelas autoblocantes redondas",
+        "text": "Clips que se deslizan sobre el vástago y lo agarran.",
+        "sizes": "Ø 25, 35 y 38 mm"
+      },
+      {
+        "title": "Arandelas autoblocantes cuadradas",
+        "text": "Clips cuadrados con mejor agarre sobre paneles planos.",
+        "sizes": "25 × 25, 35 × 35 y 38 × 38 mm"
+      },
+      {
+        "title": "Capuchones",
+        "text": "Cubren el extremo del vástago tras colocar la arandela, por seguridad, mejor acabado y protección frente a puntas.",
+        "sizes": "Según el diámetro del perno"
+      }
+    ],
+    "washersLink": "Ver nuestra gama completa de arandelas",
+    "compatibleTitle": "Materiales aislantes compatibles",
+    "compatibleIntro": "Los pernos sirven para cualquier aislamiento que el vástago pueda atravesar. Para manta de fibra cerámica a alta temperatura, utilice anclajes de espárrago para fibra cerámica.",
+    "compatible": {
+      "mineralWool": "Lana de roca / lana mineral",
+      "glassWool": "Fibra de vidrio / lana de vidrio",
+      "eps": "Poliestireno expandido (EPS)",
+      "xps": "Poliestireno extruido (XPS)",
+      "puf": "Espuma de poliuretano (PUR)",
+      "ceramic": "Manta de fibra cerámica (con SEPL-24)"
+    },
+    "installTitle": "Cómo se instalan los pernos de aislamiento",
+    "steps": [
+      {
+        "title": "Fijar el perno",
+        "text": "Soldar, pegar o adherir el perno al soporte."
+      },
+      {
+        "title": "Colocar el aislamiento",
+        "text": "Clavar el aislamiento en el vástago hasta que quede plano contra la superficie."
+      },
+      {
+        "title": "Colocar la arandela",
+        "text": "Deslizar una arandela autoblocante o un capuchón por el vástago para comprimir y sujetar el aislamiento."
+      },
+      {
+        "title": "Cortar o doblar",
+        "text": "Cortar el vástago sobrante a ras o doblarlo por seguridad."
+      }
+    ],
+    "spacingTitle": "Separación y disposición de los pernos",
+    "spacing": [
+      "La separación depende del peso y espesor del aislamiento, de si va en vertical o en techo, del viento y la vibración, y de la especificación del proyecto.",
+      "Mantenga los pernos a unos 75–100 mm de los bordes de los paneles para reducir el abombamiento.",
+      "Los sistemas de protección pasiva contra incendios suelen usar pernos a unos 280 mm entre centros; siga las indicaciones del fabricante del sistema.",
+      "Siga siempre la especificación del proyecto o el plano de replanteo del ingeniero."
+    ],
+    "techTitle": "Consideraciones técnicas",
+    "tech": [
+      {
+        "title": "Puente térmico",
+        "text": "Los pernos metálicos conducen el calor a través del aislamiento. En servicio frío, como cámaras frigoríficas y agua refrigerada, donde hay riesgo de condensación, use pernos de PVC o nailon o añada medidas de barrera de vapor."
+      },
+      {
+        "title": "Comportamiento al fuego",
+        "text": "Los pernos metálicos soldados siguen fijos mecánicamente en un incendio, por lo que son la opción más fiable para la protección pasiva. Los pernos adhesivos dependen de la resistencia al calor del adhesivo."
+      },
+      {
+        "title": "Resistencia a la corrosión",
+        "text": "Elija el perno según el ambiente: galvanizado en interiores, SS 304 con humedad o productos químicos y SS 316 en ambientes marinos y con cloruros. Un material inadecuado provoca fallos prematuros, manchas y daños en el aislamiento."
+      }
+    ],
+    "applicationsTitle": "Aplicaciones por sector",
+    "applications": [
+      {
+        "title": "Climatización y conductos",
+        "items": [
+          "Revestimiento interior de fibra de vidrio o lana mineral en conductos rectangulares",
+          "Aislamiento exterior de conductos",
+          "Paneles de unidades de tratamiento de aire",
+          "Revestimiento acústico de conductos"
+        ]
+      },
+      {
+        "title": "Petróleo, gas y petroquímica",
+        "items": [
+          "Aislamiento de recipientes y columnas bajo chapa",
+          "Aislamiento de equipos en refinerías y plantas de gas",
+          "Aislamiento bajo cubierta en plataformas offshore"
+        ]
+      },
+      {
+        "title": "Generación eléctrica",
+        "items": [
+          "Aislamiento de carcasas de caldera",
+          "Cabinas acústicas de turbinas",
+          "Aislamiento de conductos de calderas de recuperación y de gases"
+        ]
+      },
+      {
+        "title": "Naval",
+        "items": [
+          "Aislamiento de mamparos y cubiertas (pernos SS 316)",
+          "Aislamiento térmico y acústico de salas de máquinas",
+          "Aislamiento de bodegas"
+        ]
+      },
+      {
+        "title": "Construcción",
+        "items": [
+          "Aislamiento de muros y techos en edificios comerciales",
+          "Montaje de paneles acústicos",
+          "Cámaras frigoríficas y de congelación (pernos de nailon)",
+          "Protección pasiva contra incendios"
+        ]
+      },
+      {
+        "title": "Industria",
+        "items": [
+          "Barreras y cabinas acústicas",
+          "Aislamiento exterior de hornos (pernos de inoxidable)",
+          "Industria alimentaria (pernos de aluminio)",
+          "Salas de generadores y compresores"
+        ]
+      }
+    ],
+    "supplyTitle": "Qué suministramos",
+    "supply": [
+      "Santura fabrica en su propio taller pernos de aislamiento de acero inoxidable (304, 316), acero al carbono galvanizado, aluminio y PVC o nailon, en versiones para soldar, adhesivas y autoadhesivas, junto con arandelas autoblocantes y capuchones. Los pernos se fabrican con dimensiones constantes y se suministran con certificados de inspección EN 10204 3.1.",
+      "Hay longitudes especiales, tamaños de base, tipos de arandela, calidades de material y embalaje a granel para instaladores y fabricantes. Exportamos pernos de aislamiento junto con lana mineral, lana de vidrio, silicato cálcico, juntas cerámicas y anclajes refractarios a más de 25 países, y nuestro servicio de soldadura de espárragos ofrece los equipos y procedimientos para soldar los pernos."
+    ],
+    "relatedTitle": "Productos y servicios relacionados",
+    "relatedMineralWool": "Paneles, rollos y colchonetas de lana de roca fijados con pernos de aislamiento.",
+    "relatedGlassFibre": "Lana de vidrio y tejido de vidrio para conductos y recubrimiento.",
+    "relatedCalsil": "Aislamiento rígido de alta temperatura, a menudo combinado con capas de manta fijadas con pernos.",
+    "relatedGaskets": "Cordón, cinta y juntas de fibra cerámica para sellado a alta temperatura.",
+    "relatedAnchors": "Nuestro producto principal: anclajes SEPL para revestimientos refractarios.",
+    "relatedSepl24": "Anclajes soldados por espárrago para manta de fibra cerámica a alta temperatura.",
+    "relatedSw": "Equipos y procedimientos de soldadura de espárragos CD y por arco para pernos y anclajes.",
+    "relatedWashersName": "Arandelas",
+    "relatedWashers": "Arandelas autoblocantes, cuadradas y de cúpula para pernos y anclajes.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Para qué sirven los pernos de aislamiento?",
+        "a": "Los pernos de aislamiento, también llamados clavos de aislamiento, pinchos o pernos para soldar, sujetan mecánicamente aislamientos como lana de roca, fibra de vidrio, poliestireno y PUR a muros, conductos, recipientes y equipos. Evitan que el aislamiento se descuelgue, se desplace o se caiga, de modo que conserva su rendimiento térmico y acústico."
+      },
+      {
+        "q": "¿Qué diferencia hay entre pernos para soldar y pernos adhesivos?",
+        "a": "Los pernos para soldar se unen de forma permanente al metal mediante soldadura de espárragos por descarga de condensador (CD) o por arco en menos de un segundo, ideal para conductos metálicos y carcasas de recipientes. Los pernos adhesivos tienen una base perforada que se pega con masilla a superficies no soldables como hormigón y mampostería. Los soldados son más resistentes y aguantan en un incendio; los adhesivos no necesitan equipo de soldadura."
+      },
+      {
+        "q": "¿Qué materiales aislantes se pueden fijar con pernos?",
+        "a": "Los pernos sirven para cualquier aislamiento que el vástago pueda atravesar: lana de roca y lana mineral, fibra de vidrio y lana de vidrio, EPS, poliestireno extruido (XPS) y espuma de poliuretano (PUR). Para manta de fibra cerámica a alta temperatura, utilice anclajes de espárrago para fibra cerámica (SEPL-24)."
+      },
+      {
+        "q": "¿Cómo se instalan los pernos de aislamiento?",
+        "a": "Fije el perno al soporte soldándolo, pegándolo o con su adhesivo, clave el aislamiento en el vástago, coloque una arandela autoblocante o un capuchón para comprimirlo y sujetarlo, y corte o doble el vástago sobrante. La separación sigue la especificación del proyecto; los pernos suelen quedar a 75–100 mm de los bordes de los paneles."
+      },
+      {
+        "q": "¿En qué materiales hay pernos de aislamiento?",
+        "a": "Fabricamos pernos de aislamiento de acero inoxidable (304, 316), acero al carbono galvanizado, aluminio y PVC o nailon. El inoxidable es adecuado para ambientes corrosivos y marinos, el galvanizado es económico para climatización general, el aluminio es ligero y los pernos de plástico evitan el puente térmico en superficies frías."
+      }
+    ],
+    "ctaTitle": "¿Necesita pernos de aislamiento?",
+    "ctaText": "Indíquenos el tipo de perno, diámetro y longitud del vástago, material, tipo de arandela y cantidad. Le responderemos con una cotización y el plazo de entrega.",
+    "ctaRfq": "Solicitar cotización de pernos de aislamiento",
+    "ctaContact": "O contacte con nuestro equipo",
+    "relatedAccessories": "Flejes, muelles, tornillos, remaches, alambre y cintas para aislamiento y revestimiento."
+  },
+  "psPage": {
+    "metaTitle": "Aislamiento de poliestireno | Planchas y coquillas EPS y XPS",
+    "metaDescription": "Aislamiento de poliestireno EPS y XPS: planchas, coquillas y paneles para cámaras frigoríficas. Proveedor desde 1980, exporta a 25+ países. Pida precio.",
+    "eyebrow": "Materiales aislantes",
+    "h1": "Aislamiento de poliestireno: EPS y XPS",
+    "subheading": "Aislamiento de poliestireno expandido (EPS) y extruido (XPS): planchas, coquillas con o sin lámina de aluminio, medias cañas y piezas a medida para cámaras frigoríficas, tuberías de agua fría y edificios.",
+    "badges": [
+      "EPS 15–40 kg/m³",
+      "Planchas XPS",
+      "Coquillas",
+      "Coquillas con aluminio",
+      "Piezas a medida"
+    ],
+    "gallery": [
+      "Planchas aislantes de poliestireno expandido",
+      "Coquillas de EPS con revestimiento de lámina de aluminio",
+      "Medias cañas de poliestireno para aislamiento de tuberías",
+      "Coquillas de poliestireno en dos mitades para tuberías"
+    ],
+    "overviewTitle": "Qué es el aislamiento de poliestireno",
+    "overview": [
+      "El aislamiento de poliestireno es una espuma rígida, ligera y de celda cerrada. Tiene baja conductividad térmica, resiste la humedad, mantiene su forma y cuesta menos que la mayoría de los aislantes, por lo que es habitual en cámaras frigoríficas, tuberías de agua fría y edificación.",
+      "Se usa como coquillas en tuberías de agua fría y refrigerada, como planchas para muros, cubiertas, suelos y aislamiento bajo y sobre cubierta, y como piezas a medida para equipos y recipientes. Bien instalado y protegido, conserva su capacidad aislante durante toda la vida de la instalación sin descolgarse ni asentarse.",
+      "El aislamiento de poliestireno existe en dos formas, fabricadas por procesos distintos."
+    ],
+    "types": [
+      {
+        "title": "EPS: poliestireno expandido",
+        "tag": "Espuma blanca de perlas · menor coste",
+        "text": "Se fabrica expandiendo perlas de poliestireno con vapor y moldeándolas en bloques, que se cortan en planchas, coquillas y piezas. El EPS es más ligero y económico que el XPS, con una conductividad térmica algo mayor. La densidad determina su resistencia."
+      },
+      {
+        "title": "XPS: poliestireno extruido",
+        "tag": "Espuma densa de color · mayor resistencia",
+        "text": "Se produce por extrusión continua en planchas, normalmente de color azul, rosa o verde según la marca. El XPS tiene mayor resistencia a compresión, menor absorción de agua y menor conductividad térmica que el EPS, por lo que es adecuado para aplicaciones enterradas, húmedas y con carga."
+      }
+    ],
+    "formsTitle": "Formatos y medidas",
+    "formsIntro": "Formatos y medidas habituales. Otras medidas, espesores y formas se suministran según plano.",
+    "epsFormsTitle": "EPS (poliestireno expandido)",
+    "xpsFormsTitle": "XPS (poliestireno extruido)",
+    "colForm": "Formato",
+    "colDescription": "Descripción",
+    "colSizes": "Medidas habituales",
+    "epsForms": [
+      {
+        "form": "Planchas / paneles",
+        "text": "Paneles rígidos para muros, cubiertas, suelos y cámaras frigoríficas",
+        "sizes": "12–300 mm de espesor; 1200 × 600 mm o 2400 × 1200 mm"
+      },
+      {
+        "form": "Coquillas (dos mitades)",
+        "text": "Piezas preformadas en dos mitades para aislar tuberías",
+        "sizes": "Diámetro interior 15–600 mm; 20–100 mm de espesor"
+      },
+      {
+        "form": "Segmentos curvos / medias cañas",
+        "text": "Segmentos conformados para tanques, recipientes y tuberías grandes",
+        "sizes": "Según el diámetro exterior"
+      },
+      {
+        "form": "Coquillas y planchas con lámina de aluminio",
+        "text": "EPS revestido con lámina de aluminio reflectante",
+        "sizes": "Medidas estándar"
+      },
+      {
+        "form": "Piezas a medida",
+        "text": "Cortadas con hilo caliente según plano para codos, válvulas y perfiles complejos",
+        "sizes": "Según especificación"
+      }
+    ],
+    "xpsForms": [
+      {
+        "form": "Planchas rígidas",
+        "text": "Planchas de alta resistencia para muros enterrados, cubiertas invertidas y suelos con carga",
+        "sizes": "20–200 mm de espesor; normalmente 1250 × 600 mm"
+      },
+      {
+        "form": "Planchas machihembradas",
+        "text": "Bordes encajables para una capa aislante continua sin juntas",
+        "sizes": "25–100 mm de espesor"
+      },
+      {
+        "form": "Planchas con pendiente",
+        "text": "Planchas cortadas con pendiente para el desagüe de cubiertas planas",
+        "sizes": "Según la pendiente requerida"
+      }
+    ],
+    "specTitle": "Comparativa EPS y XPS",
+    "colProperty": "Propiedad",
+    "colEps": "EPS",
+    "colXps": "XPS",
+    "specRows": [
+      {
+        "label": "Proceso de fabricación",
+        "eps": "Expansión de perlas y moldeo",
+        "xps": "Extrusión continua"
+      },
+      {
+        "label": "Color",
+        "eps": "Blanco",
+        "xps": "Azul, rosa o verde (según marca)"
+      },
+      {
+        "label": "Densidad",
+        "eps": "15–40 kg/m³",
+        "xps": "25–45 kg/m³"
+      },
+      {
+        "label": "Conductividad térmica (λ)",
+        "eps": "0,035–0,040 W/m·K",
+        "xps": "0,029–0,036 W/m·K"
+      },
+      {
+        "label": "Resistencia a compresión (10 % de deformación)",
+        "eps": "60–200 kPa, según densidad",
+        "xps": "150–700 kPa"
+      },
+      {
+        "label": "Absorción de agua (en volumen)",
+        "eps": "2–5 %",
+        "xps": "Normalmente 0,3 % o menos"
+      },
+      {
+        "label": "Factor de resistencia al vapor de agua (µ)",
+        "eps": "20–70",
+        "xps": "80–250"
+      },
+      {
+        "label": "Temperatura máxima de servicio continuo",
+        "eps": "Unos 80 °C",
+        "xps": "Unos 75 °C"
+      },
+      {
+        "label": "Temperatura mínima de servicio",
+        "eps": "Hasta unos −180 °C según datos de fabricantes",
+        "xps": "Normalmente −50 °C según datos de fabricantes"
+      },
+      {
+        "label": "Reacción al fuego",
+        "eps": "Euroclase E con aditivo ignífugo (grado FR)",
+        "xps": "Euroclase E con aditivo ignífugo (grado FR)"
+      },
+      {
+        "label": "Estabilidad dimensional",
+        "eps": "Buena; no se descuelga ni se asienta",
+        "xps": "Muy buena"
+      },
+      {
+        "label": "Agente espumante",
+        "eps": "Pentano; sin CFC ni HCFC",
+        "xps": "CO₂ o HFO en grados modernos; sin CFC ni HCFC"
+      },
+      {
+        "label": "Reciclaje",
+        "eps": "Reciclable",
+        "xps": "Reciclable"
+      }
+    ],
+    "specNote": "Valores típicos. Las cifras exactas dependen del grado, la densidad y el fabricante; prevalece la ficha técnica del producto suministrado.",
+    "densityTitle": "Guía de densidades de EPS",
+    "densityIntro": "La resistencia del EPS aumenta con la densidad. Elija la densidad más baja que soporte la carga, ya que una densidad mayor cuesta más.",
+    "colDensity": "Densidad",
+    "colStrength": "Resistencia a compresión (aprox.)",
+    "colBestFor": "Indicado para",
+    "densityRows": [
+      {
+        "density": "15 kg/m³",
+        "strength": "Unos 60 kPa",
+        "use": "Muros, techos y otras zonas sin carga"
+      },
+      {
+        "density": "20 kg/m³",
+        "strength": "Unos 100 kPa",
+        "use": "Aislamiento general de edificios, coquillas y cámaras frigoríficas"
+      },
+      {
+        "density": "25 kg/m³",
+        "strength": "Unos 130 kPa",
+        "use": "Cubiertas y suelos con cargas ligeras"
+      },
+      {
+        "density": "30 kg/m³",
+        "strength": "Unos 170 kPa",
+        "use": "Aislamiento bajo losa y suelos de almacenes frigoríficos"
+      },
+      {
+        "density": "40 kg/m³",
+        "strength": "Unos 200 kPa",
+        "use": "Suelos con cargas elevadas y cámaras frigoríficas industriales"
+      }
+    ],
+    "densityNote": "Otras densidades bajo pedido. Para cargas altas, uso enterrado o condiciones húmedas, el XPS suele ser la mejor opción.",
+    "advantagesTitle": "Ventajas",
+    "advantages": [
+      "Baja conductividad térmica: se necesita menos espesor para el mismo aislamiento",
+      "Ligero (15–45 kg/m³), fácil de manipular y con poca carga para la estructura",
+      "Estructura de celda cerrada que resiste la absorción de agua",
+      "Dimensionalmente estable: no se descuelga, no se asienta ni se hunde en servicio",
+      "Fácil de cortar en obra con hilo caliente o sierra, sin herramientas especiales",
+      "Menor coste de material e instalación que la mayoría de aislantes fibrosos y de PUR",
+      "Soporta el tránsito y cargas de suelo, sobre todo el XPS y el EPS de alta densidad",
+      "Apto para servicio frío y bajo cero, desde agua refrigerada hasta cámaras de congelación",
+      "No contiene fibras, por lo que no suelta polvo ni irrita la piel",
+      "Reciclable y fabricado sin CFC ni HCFC"
+    ],
+    "cautionsTitle": "Aspectos a tener en cuenta",
+    "cautions": [
+      "El poliestireno es combustible. Use grados ignífugos y cúbralo con una capa protectora según exijan las normas de edificación y de incendios.",
+      "Su límite superior es de unos 75–80 °C. Para superficies más calientes, use lana mineral o silicato cálcico.",
+      "Los disolventes y la exposición prolongada al sol dañan el poliestireno. Use adhesivos compatibles y manténgalo cubierto o revestido."
+    ],
+    "standardsTitle": "Normas",
+    "standards": [
+      "Aislamiento térmico de poliestireno celular rígido",
+      "Poliestireno expandido para aislamiento térmico (norma india)",
+      "Productos aislantes térmicos de EPS fabricados en fábrica para edificación",
+      "Productos aislantes térmicos de XPS fabricados en fábrica para edificación",
+      "Características de combustión superficial de materiales de construcción",
+      "Métodos de ensayo de conductividad térmica (placa caliente guardada / medidor de flujo de calor)"
+    ],
+    "applicationsTitle": "Aplicaciones por sector",
+    "applications": [
+      {
+        "title": "Almacenamiento frigorífico y refrigeración",
+        "items": [
+          "Muros, suelos y techos de cámaras frigoríficas",
+          "Cámaras de congelación hasta −40 °C",
+          "Camiones y contenedores frigoríficos",
+          "Suelos de almacenes frigoríficos sobre EPS de alta densidad o XPS"
+        ]
+      },
+      {
+        "title": "Petróleo, gas y petroquímica",
+        "items": [
+          "Coquillas para agua refrigerada y líneas de productos químicos fríos",
+          "Aislamiento bajo y sobre cubierta",
+          "Sistemas de aislamiento en frío con barrera de vapor",
+          "Aislamiento de equipos y recipientes fríos con medias cañas"
+        ]
+      },
+      {
+        "title": "Climatización y fontanería",
+        "items": [
+          "Coquillas para agua refrigerada con lámina de aluminio",
+          "Aislamiento de desagües de condensados",
+          "Aislamiento de conductos de aire acondicionado",
+          "Tuberías de agua fría y caliente hasta unos 80 °C"
+        ]
+      },
+      {
+        "title": "Construcción y edificación",
+        "items": [
+          "Aislamiento exterior de fachadas (SATE / ETICS)",
+          "Aislamiento de cubiertas planas e inclinadas",
+          "Aislamiento perimetral y de cimentaciones enterrado (preferible XPS)",
+          "Aislamiento de suelos bajo solera o losa",
+          "Cubiertas invertidas (solo XPS)",
+          "Planchas para muros de doble hoja"
+        ]
+      },
+      {
+        "title": "Industria y fabricación",
+        "items": [
+          "Instalaciones de alimentación y bebidas",
+          "Muros y techos de salas blancas farmacéuticas",
+          "Aligeramientos y rellenos ligeros en construcción"
+        ]
+      },
+      {
+        "title": "Naval y offshore",
+        "items": [
+          "Aislamiento de módulos de habilitación",
+          "Cámaras frigoríficas a bordo",
+          "Flotabilidad y flotadores (EPS)"
+        ]
+      }
+    ],
+    "supplyTitle": "Qué suministramos",
+    "supply": [
+      "Santura Engineering suministra aislamiento de poliestireno expandido (EPS) y extruido (XPS): planchas, coquillas con y sin lámina de aluminio, medias cañas y piezas a medida, con EPS en densidades de 15 a 40 kg/m³. Nuestros clientes habituales son refinerías, operadores de frío, plantas de alimentación y proyectos de construcción.",
+      "Como fabricante de pernos de aislamiento y proveedor de lana mineral, lana de vidrio, silicato cálcico y juntas cerámicas, Santura puede suministrar un paquete de aislamiento completo desde un solo proveedor. Exportamos a más de 25 países."
+    ],
+    "relatedTitle": "Productos relacionados",
+    "relatedPins": "Pernos y arandelas para fijar planchas de poliestireno a muros y conductos.",
+    "relatedMineralWool": "La alternativa para superficies calientes por encima del límite del poliestireno.",
+    "relatedCalsil": "Aislamiento rígido para tuberías y equipos de alta temperatura.",
+    "relatedGlassFibre": "Lana de vidrio y tejido de vidrio para conductos y revestimiento.",
+    "relatedPir": "Una espuma rígida con mayor temperatura de servicio que el poliestireno.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué diferencia hay entre el aislamiento de poliestireno EPS y XPS?",
+        "a": "El EPS (poliestireno expandido) es una espuma blanca de perlas, más ligera y económica, disponible en densidades de 15 a 40 kg/m³. El XPS (poliestireno extruido) es más denso, con mayor resistencia a compresión (150–700 kPa), menor absorción de agua (normalmente 0,3 % o menos) y menor conductividad térmica (0,029–0,036 W/m·K). El XPS se prefiere para aplicaciones enterradas, húmedas y con carga."
+      },
+      {
+        "q": "¿Para qué rango de temperaturas sirve el aislamiento de poliestireno?",
+        "a": "El aislamiento de poliestireno se usa en servicio continuo hasta unos 80 °C en el caso del EPS y unos 75 °C en el del XPS. En frío, los fabricantes indican el EPS hasta unos −180 °C y el XPS normalmente hasta −50 °C. Es muy adecuado para almacenes frigoríficos, refrigeración, tuberías de agua fría y edificios. Por encima de 80 °C, use lana mineral o silicato cálcico."
+      },
+      {
+        "q": "¿Qué densidades de EPS hay disponibles?",
+        "a": "Santura suministra aislamiento de EPS en densidades de 15, 20, 25, 30 y 40 kg/m³. A mayor densidad, mayor resistencia a compresión: 15 kg/m³ para muros y techos sin carga y 40 kg/m³ para suelos con cargas elevadas y cámaras frigoríficas industriales. Otras densidades bajo pedido."
+      },
+      {
+        "q": "¿Es impermeable el aislamiento de poliestireno?",
+        "a": "El poliestireno tiene estructura de celda cerrada, lo que le da buena resistencia a la humedad. El XPS absorbe normalmente un 0,3 % de agua en volumen o menos, por lo que es la opción para aplicaciones enterradas y húmedas. El EPS absorbe un 2–5 %. Sobre superficies frías, ambos necesitan una barrera de vapor, como una lámina de aluminio, para evitar la condensación. Ninguno de los dos es alimento para el moho."
+      }
+    ],
+    "ctaTitle": "¿Necesita aislamiento de poliestireno?",
+    "ctaText": "Indíquenos el tipo (EPS o XPS), formato, densidad, espesor, diámetros de tubería o medidas de plancha y cantidad. Le responderemos con una cotización y el plazo de entrega.",
+    "ctaRfq": "Solicitar cotización de aislamiento de poliestireno",
+    "ctaContact": "O contacte con nuestro equipo"
+  },
+  "pirPage": {
+    "metaTitle": "Planchas y coquillas de PIR | Proveedor industrial",
+    "metaDescription": "Aislamiento de poliisocianurato PIR: planchas y coquillas de −196 °C a 150 °C. Sin CFC, buen comportamiento al fuego. Desde 1980, 25+ países. Pida precio.",
+    "eyebrow": "Materiales aislantes",
+    "h1": "Aislamiento de poliisocianurato (PIR)",
+    "subheading": "Aislamiento de espuma rígida PIR: coquillas de ½\" a 24\", planchas, planchas revestidas y segmentos. Conductividad térmica muy baja, propagación de llama Clase 1 y límite de superficie caliente de 150 °C.",
+    "badges": [
+      "Coquillas ½\"–24\"",
+      "Planchas y segmentos",
+      "Hasta 150 °C",
+      "Propagación de llama Clase 1",
+      "Sin CFC"
+    ],
+    "gallery": [
+      "Plancha aislante de poliisocianurato PIR con revestimiento de papel kraft"
+    ],
+    "overviewTitle": "Qué es el aislamiento de poliisocianurato",
+    "overview": [
+      "El poliisocianurato (PIR), también llamado poliiso, es un aislante de espuma rígida termoestable. Es un poliuretano (PUR) modificado con una mayor proporción de enlaces de isocianurato, y su conductividad térmica está entre las más bajas de los aislantes de uso habitual.",
+      "La estructura de isocianurato da al PIR un mejor comportamiento al fuego que el poliuretano estándar. Alcanza la Clase 1 de propagación superficial de llama, emite poco humo y, a diferencia de la mayoría de los termoplásticos, no se funde ni gotea en un incendio. Además eleva el límite de superficie caliente a 150 °C, frente a 110 °C de la espuma de poliuretano normal, por lo que el PIR puede aplicarse directamente sobre traceado de vapor o eléctrico que no supere ese límite.",
+      "El PIR necesita aproximadamente la mitad de espesor que el corcho para el mismo rendimiento. Una capa más fina supone menos superficie que cubrir, lo que reduce el coste de barrera de vapor, chapa de recubrimiento y soportes por metro lineal de tubería. Nuestro PIR no contiene CFC."
+    ],
+    "compareTitle": "Espesor comparado con otros aislantes",
+    "compareIntro": "Espesor de aislamiento necesario para la misma resistencia térmica (R = 2,5 m²K/W).",
+    "colMaterial": "Material",
+    "colThickness": "Espesor necesario",
+    "lambdaUnit": "W/m·K",
+    "mmUnit": "mm",
+    "compareNames": [
+      "PIR (poliisocianurato)",
+      "XPS (poliestireno extruido)",
+      "Lana de vidrio",
+      "EPS (poliestireno expandido)",
+      "Lana mineral (lana de roca)",
+      "Silicato cálcico"
+    ],
+    "compareNote": "El PIR alcanza el mismo valor aislante que la lana mineral con alrededor de un 40 % menos de espesor, lo que ahorra espacio, material de recubrimiento y coste de instalación.",
+    "compareCalc": "Cálculo para superficie plana (espesor = R × λ) con conductividad típica a baja temperatura media. El espesor real depende del diámetro de la tubería, la temperatura de servicio y las bases de diseño. La lana mineral y el silicato cálcico se eligen para servicios más calientes, donde no puede usarse PIR.",
+    "formsTitle": "Formatos y medidas",
+    "formsIntro": "Formatos y medidas habituales. Otras medidas, espesores y formas se suministran según plano.",
+    "colForm": "Formato",
+    "colDescription": "Descripción",
+    "colSizes": "Medidas habituales",
+    "forms": [
+      {
+        "form": "Coquillas (dos mitades)",
+        "text": "Piezas preformadas en dos mitades para aislar tuberías",
+        "sizes": "½\" a 24\" (DN15–DN600); desde 25 mm de espesor; 1000 mm de largo"
+      },
+      {
+        "form": "Planchas",
+        "text": "Planchas rígidas para muros, cubiertas, conductos y equipos",
+        "sizes": "20–150 mm de espesor; 1200 × 600 mm o 2400 × 1200 mm"
+      },
+      {
+        "form": "Planchas revestidas",
+        "text": "Plancha de PIR con revestimiento de aluminio o papel kraft; el aluminio actúa como barrera de vapor",
+        "sizes": "Medidas estándar"
+      },
+      {
+        "form": "Segmentos",
+        "text": "Segmentos trapezoidales para tuberías y recipientes de gran diámetro",
+        "sizes": "Según el diámetro exterior"
+      },
+      {
+        "form": "Planchas ranuradas / adaptables",
+        "text": "Planchas preranuradas que se curvan sobre superficies y tanques",
+        "sizes": "20–80 mm de espesor"
+      },
+      {
+        "form": "Bloques para soportes",
+        "text": "Bloques de PIR de alta densidad para soportes de tubería aislada, en lugar de tacos de madera",
+        "sizes": "Según diámetro y carga"
+      }
+    ],
+    "pipeTitle": "Coquillas de PIR",
+    "pipeIntro": "Nuestras coquillas de PIR estándar. Los espesores y revestimientos se fabrican según la especificación del proyecto.",
+    "pipeRows": [
+      {
+        "label": "Diámetros de tubería",
+        "value": "½\" a 24\" (DN15–DN600)"
+      },
+      {
+        "label": "Espesor",
+        "value": "Desde 25 mm"
+      },
+      {
+        "label": "Longitud",
+        "value": "1000 mm"
+      },
+      {
+        "label": "Densidad",
+        "value": "Desde 36 kg/m³"
+      },
+      {
+        "label": "Configuración",
+        "value": "Dos mitades con junta a tope o solapada"
+      },
+      {
+        "label": "Revestimiento",
+        "value": "Sin revestir, lámina de aluminio o papel kraft"
+      },
+      {
+        "label": "Límite de cara caliente",
+        "value": "150 °C en continuo"
+      }
+    ],
+    "drawingAlt": "Dibujo lineal de una coquilla de PIR de dos mitades alrededor de una tubería",
+    "drawingCaption": "Coquilla de dos mitades",
+    "specTitle": "PIR y PUR comparados",
+    "colProperty": "Propiedad",
+    "colPir": "PIR (poliisocianurato)",
+    "colPur": "PUR (poliuretano)",
+    "specRows": [
+      {
+        "label": "Tipo",
+        "pir": "Espuma rígida termoestable con enlaces de isocianurato",
+        "pur": "Espuma rígida termoestable"
+      },
+      {
+        "label": "Conductividad térmica (λ, 10 °C de temperatura media)",
+        "pir": "0,020–0,025 W/m·K",
+        "pur": "0,023–0,028 W/m·K"
+      },
+      {
+        "label": "Densidad",
+        "pir": "Desde 36 kg/m³ (coquillas); 30–60 kg/m³ (planchas)",
+        "pur": "30–50 kg/m³"
+      },
+      {
+        "label": "Temperatura máxima de superficie caliente",
+        "pir": "150 °C",
+        "pur": "110 °C"
+      },
+      {
+        "label": "Servicio a baja temperatura",
+        "pir": "Grados criogénicos usados hasta unos −196 °C",
+        "pur": "Grados criogénicos usados hasta unos −196 °C"
+      },
+      {
+        "label": "Resistencia a compresión (10 % de deformación)",
+        "pir": "Unos 150–200 kPa, mayor con más densidad",
+        "pur": "Unos 120 kPa o más"
+      },
+      {
+        "label": "Comportamiento al fuego",
+        "pir": "Clase 1 de propagación de llama; poco humo; no se funde ni gotea",
+        "pur": "Inferior; requiere aditivos ignífugos"
+      },
+      {
+        "label": "Transmisión de vapor de agua",
+        "pir": "Muy baja (celda cerrada)",
+        "pur": "Muy baja (celda cerrada)"
+      },
+      {
+        "label": "Absorción de agua",
+        "pir": "Baja, normalmente inferior al 2 % en volumen",
+        "pur": "Baja"
+      },
+      {
+        "label": "Estabilidad dimensional",
+        "pir": "Muy buena",
+        "pur": "Buena"
+      },
+      {
+        "label": "Contenido de celdas cerradas",
+        "pir": "Más del 90 %",
+        "pur": "Más del 90 %"
+      },
+      {
+        "label": "Agente espumante",
+        "pir": "Sin CFC",
+        "pur": "Sin CFC en grados modernos"
+      }
+    ],
+    "specNote": "Valores típicos. Las cifras exactas dependen del grado, la densidad y el fabricante; prevalece la ficha técnica del producto suministrado.",
+    "advantagesTitle": "Ventajas",
+    "advantages": [
+      "Eficiencia aislante muy alta, que ahorra energía",
+      "Aislamiento sin huecos: una espuma de celda cerrada con rendimiento uniforme en toda la sección",
+      "Aproximadamente la mitad de espesor que el corcho, lo que reduce el coste de recubrimiento, barrera de vapor y soportes",
+      "Resistente al fuego: Clase 1 de propagación de llama, poco humo, no se funde ni gotea",
+      "Límite de superficie caliente de 150 °C, superior a los 110 °C del poliuretano estándar",
+      "Resistente al agua y a la humedad",
+      "Dimensionalmente estable: no encoge, no se deforma ni se asienta",
+      "Resistente a la mayoría de aceites, productos químicos y disolventes",
+      "Sin puentes térmicos a través del aislamiento, ya que no contiene vías fibrosas ni metálicas",
+      "Duradero; mantiene su rendimiento durante muchos años si se instala y protege correctamente"
+    ],
+    "cautionsTitle": "Aspectos a tener en cuenta",
+    "cautions": [
+      "El PIR es combustible aunque no se funda ni gotee. Instálelo bajo chapa metálica u otra capa protectora según exijan las normas contra incendios.",
+      "Su límite de cara caliente es de 150 °C. Para tuberías y equipos más calientes, use lana mineral o silicato cálcico.",
+      "La luz solar degrada la espuma expuesta. Mantenga el PIR revestido o cubierto y selle las juntas con barrera de vapor en servicio frío."
+    ],
+    "standardsTitle": "Normas",
+    "standards": [
+      "Productos aislantes térmicos de PUR y PIR fabricados en fábrica para equipos en edificación e instalaciones industriales",
+      "Productos aislantes térmicos de espuma rígida de poliuretano (PUR / PIR) fabricados en fábrica para edificación",
+      "Aislamiento térmico preformado de poliisocianurato celular rígido",
+      "Características de combustión superficial de materiales de construcción",
+      "Ensayo de propagación superficial de llama (Clase 1)",
+      "Plásticos celulares rígidos para aislamiento térmico de edificios"
+    ],
+    "applicationsTitle": "Aplicaciones por sector",
+    "applications": [
+      {
+        "title": "Petróleo, gas y petroquímica",
+        "items": [
+          "Tuberías de proceso y de condensado hasta 150 °C",
+          "Líneas de agua refrigerada, salmuera y productos químicos fríos",
+          "Tuberías criogénicas con sistemas de PIR de grado criogénico",
+          "Tuberías con traceado de vapor o eléctrico hasta 150 °C",
+          "Recipientes y columnas bajo chapa metálica"
+        ]
+      },
+      {
+        "title": "Generación eléctrica",
+        "items": [
+          "Líneas de condensado y agua caliente",
+          "Líneas de vapor de baja presión hasta 150 °C",
+          "Líneas de agua fría y de refrigeración",
+          "Climatización de edificios auxiliares"
+        ]
+      },
+      {
+        "title": "Climatización y fontanería",
+        "items": [
+          "Tuberías de agua refrigerada, donde un espesor reducido evita condensaciones",
+          "Tuberías de agua caliente sanitaria",
+          "Líneas de refrigerante",
+          "Paneles y aislamiento de conductos"
+        ]
+      },
+      {
+        "title": "Construcción y edificación",
+        "items": [
+          "Cubiertas planas, incluidas planchas con pendiente para desagüe",
+          "Aislamiento de cámaras y fachadas",
+          "Aislamiento bajo suelo",
+          "Almacenes frigoríficos y edificios de congelación",
+          "Paneles sándwich de PIR con chapa metálica"
+        ]
+      },
+      {
+        "title": "Naval y offshore",
+        "items": [
+          "Tuberías y equipos de plataformas offshore",
+          "Muros y techos de módulos de habilitación",
+          "Aislamiento de mamparos y cubiertas"
+        ]
+      },
+      {
+        "title": "Almacenamiento frigorífico y refrigeración",
+        "items": [
+          "Muros, suelos y techos de cámaras frigoríficas",
+          "Cámaras de congelación hasta −40 °C",
+          "Túneles de congelación rápida",
+          "Vehículos y contenedores frigoríficos"
+        ]
+      },
+      {
+        "title": "Industrias de proceso",
+        "items": [
+          "Plantas de alimentación y bebidas: aislamiento higiénico de tuberías",
+          "Salas blancas y tuberías de proceso farmacéuticas",
+          "Plantas químicas: tuberías y recipientes expuestos a disolventes"
+        ]
+      }
+    ],
+    "supplyTitle": "Qué suministramos",
+    "supply": [
+      "Santura Engineering suministra aislamiento de poliisocianurato (PIR): coquillas de ½\" a 24\" desde 36 kg/m³, planchas, planchas revestidas y segmentos. Nuestro PIR no contiene CFC. Nuestros clientes habituales son refinerías, plantas petroquímicas, centrales eléctricas y proyectos de almacenamiento frigorífico.",
+      "Como fabricante de anclajes refractarios y pernos de aislamiento, y proveedor de lana mineral, poliestireno, silicato cálcico y juntas cerámicas, Santura puede suministrar un paquete de aislamiento completo desde un solo proveedor. Exportamos a más de 25 países."
+    ],
+    "relatedTitle": "Productos relacionados",
+    "relatedPolystyrene": "Una espuma rígida más económica para servicio hasta unos 80 °C.",
+    "relatedMineralWool": "La opción para servicio caliente por encima de 150 °C.",
+    "relatedCalsil": "Aislamiento rígido para tuberías y equipos de alta temperatura.",
+    "relatedPins": "Pernos y arandelas para fijar planchas de PIR a muros y conductos.",
+    "relatedGlassFibre": "Tejido de vidrio para envolver el aislamiento de PIR.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué es el aislamiento de poliisocianurato (PIR)?",
+        "a": "El poliisocianurato (PIR o poliiso) es una espuma rígida termoestable con una de las conductividades térmicas más bajas de los aislantes habituales, 0,020–0,025 W/m·K. Es un poliuretano modificado con mejor comportamiento al fuego: Clase 1 de propagación de llama, poco humo, y no se funde ni gotea. El PIR estándar se usa hasta 150 °C y los grados criogénicos hasta unos −196 °C."
+      },
+      {
+        "q": "¿Qué diferencia hay entre el aislamiento de PIR y el de PUR?",
+        "a": "El PIR (poliisocianurato) tiene una mayor proporción de enlaces de isocianurato que el PUR (poliuretano) estándar. Esto le da mejor comportamiento al fuego y un límite de superficie caliente más alto, de 150 °C frente a 110 °C del PUR. El PIR también tiene una conductividad térmica algo menor. Ambos son espumas rígidas de celda cerrada, pero el PIR se prefiere para el aislamiento industrial de tuberías y cuando importa el comportamiento al fuego."
+      },
+      {
+        "q": "¿En qué diámetros hay coquillas de PIR?",
+        "a": "Santura suministra coquillas de PIR para tuberías de ½\" a 24\" (DN15–DN600), desde 25 mm de espesor y con densidad desde 36 kg/m³. Las coquillas miden 1000 mm de largo, se fabrican en dos mitades y se ofrecen sin revestir o con lámina de aluminio o papel kraft."
+      },
+      {
+        "q": "¿Por qué el aislamiento de PIR es más fino que otros aislantes?",
+        "a": "El PIR tiene una de las conductividades térmicas más bajas de los aislantes habituales, unos 0,022 W/m·K frente a unos 0,038 W/m·K de la lana mineral. Alcanza el mismo valor aislante con alrededor de un 40 % menos de espesor que la lana mineral y la mitad que el corcho, lo que ahorra espacio, reduce el coste de recubrimiento y barrera de vapor y acorta la instalación."
+      }
+    ],
+    "ctaTitle": "¿Necesita aislamiento de PIR?",
+    "ctaText": "Indíquenos el formato, diámetros de tubería o medidas de plancha, espesor, revestimiento, temperatura de servicio y cantidad. Le responderemos con una cotización y el plazo de entrega.",
+    "ctaRfq": "Solicitar cotización de aislamiento de PIR",
+    "ctaContact": "O contacte con nuestro equipo"
+  },
+  "fsPage": {
+    "metaTitle": "Proveedor de tornillería industrial | Espárragos y tuercas",
+    "metaDescription": "Tornillería industrial: espárragos B7, tornillos hexagonales, tuercas y arandelas en inox, Inconel, Monel y Dúplex. Proveedor desde 1980, 25+ países.",
+    "eyebrow": "Suministrado por Santura",
+    "h1": "Tornillería industrial",
+    "subheading": "Pernos, espárragos, tuercas y arandelas en acero al carbono, acero aleado B7, acero inoxidable, dúplex y aleaciones de níquel, suministrados junto con nuestros anclajes refractarios y productos de aislamiento para comprar todo a un solo proveedor.",
+    "badges": [
+      "Espárragos B7 / 2H",
+      "Tornillos y tuercas hexagonales",
+      "Acero inoxidable",
+      "Inconel, Monel, Dúplex",
+      "Certificados EN 10204 3.1",
+      "Un solo pedido"
+    ],
+    "gallery": [
+      "Espárragos B7 y varillas roscadas de acero aleado",
+      "Tornillos hexagonales cincados",
+      "Tuercas hexagonales pesadas de acero negro",
+      "Tuercas hexagonales con brida dentada de acero inoxidable",
+      "Tornillo hexagonal con brida cincado",
+      "Tornillos de cabeza redonda y cuello cuadrado cincados",
+      "Tornillos de cabeza abombada con hexágono interior pavonados",
+      "Surtido de tornillos, tuercas y arandelas industriales"
+    ],
+    "overviewTitle": "Tornillería para proyectos de refino, petroquímica y energía",
+    "overview": [
+      "Además de los anclajes refractarios, las fibras de acero y los pernos de aislamiento que fabrica, Santura Engineering suministra tornillería industrial: pernos, espárragos, tuercas y arandelas en acero al carbono, acero aleado, acero inoxidable y aleaciones de alto rendimiento como Inconel, Monel y Dúplex.",
+      "Nuestra tornillería procede de proveedores homologados y se entrega como parte de paquetes completos para proyectos. Resulta especialmente útil en refinerías, plantas petroquímicas y centrales eléctricas, donde la tornillería de bridas B7 y las aleaciones especiales se especifican junto con materiales refractarios y aislantes.",
+      "Así, contratistas EPC, refinerías y operadores de planta pueden comprar anclajes, aislamiento y tornillería a un solo proveedor, con un único juego de documentos y un único calendario de entrega."
+    ],
+    "whyTitle": "Por qué comprar la tornillería a Santura",
+    "why": [
+      {
+        "title": "Compra a un solo proveedor",
+        "text": "Anclajes refractarios, materiales aislantes, pernos de aislamiento y tornillería de un mismo proveedor: un pedido, un envío y un juego de documentos."
+      },
+      {
+        "title": "Conocimiento de aleaciones",
+        "text": "Fabricamos anclajes a diario en aceros inoxidables como SS 304, 310 y 316 y en aleaciones de níquel como Inconel. Ese conocimiento se aplica al seleccionar y comprobar los grados de la tornillería."
+      },
+      {
+        "title": "Embalaje listo para obra",
+        "text": "Bajo pedido, los juegos de espárragos B7 se embalan y etiquetan por tamaño y clase de brida, y los kits se ordenan por conjunto, listos para usar en obra."
+      },
+      {
+        "title": "Documentación de calidad",
+        "text": "Certificados de inspección EN 10204 3.1, números de colada o lote en las etiquetas y documentos comprobados contra el pedido antes del envío."
+      },
+      {
+        "title": "Entrega en todo el mundo",
+        "text": "La tornillería viaja con sus anclajes y aislamiento a través de la misma logística con la que enviamos a más de 25 países."
+      }
+    ],
+    "rangeTitle": "Gama de tornillería",
+    "rangeIntro": "Tipos habituales y las normas a las que suelen suministrarse. Otros tipos, normas y medidas especiales se consiguen según su especificación.",
+    "boltsTitle": "Tornillos y espárragos",
+    "nutsTitle": "Tuercas",
+    "washersTitle": "Arandelas",
+    "colType": "Tipo",
+    "colDescription": "Descripción",
+    "colStandards": "Normas habituales",
+    "bolts": [
+      {
+        "type": "Tornillos hexagonales",
+        "text": "Tornillos de cabeza hexagonal estándar, el elemento de fijación industrial más común; rosca parcial o total"
+      },
+      {
+        "type": "Espárragos (B7)",
+        "text": "Espárragos totalmente roscados de acero al cromo-molibdeno para bridas a alta temperatura y presión"
+      },
+      {
+        "type": "Pernos en U",
+        "text": "Abarcones en U que fijan tuberías a soportes"
+      },
+      {
+        "type": "Cáncamos",
+        "text": "Tornillos con cabeza de anilla para izado y eslingado"
+      },
+      {
+        "type": "Tornillos con brida",
+        "text": "Tornillos hexagonales con brida integrada que reparte la carga y evita el aflojamiento"
+      },
+      {
+        "type": "Tornillos de carrocería",
+        "text": "Cabeza redonda con cuello cuadrado que impide el giro al apretar la tuerca"
+      },
+      {
+        "type": "Tornillos Allen (hexágono interior)",
+        "text": "Accionamiento por hexágono interior para par elevado en espacios reducidos y montaje enrasado; cabeza cilíndrica y avellanada"
+      },
+      {
+        "type": "Tornillos de cabeza abombada",
+        "text": "Cabeza redonda baja; con hexágono interior y tornillos M16 para barreras de seguridad"
+      },
+      {
+        "type": "Tornillos moleteados",
+        "text": "Tornillos con cabeza o caña moleteada, suministrados según plano"
+      },
+      {
+        "type": "Tornillos de cabeza plana y cuello cuadrado",
+        "text": "Cabeza plana avellanada con cuello cuadrado"
+      },
+      {
+        "type": "Tornillos de cabeza plana con tetón",
+        "text": "Cabeza plana con tetón que impide el giro en uniones de acero"
+      }
+    ],
+    "nuts": [
+      {
+        "type": "Tuercas hexagonales",
+        "text": "Tuercas hexagonales estándar de uso general"
+      },
+      {
+        "type": "Tuercas hexagonales pesadas",
+        "text": "Tuercas más gruesas y de mayor entrecaras para uniones de alta resistencia, usadas con espárragos B7"
+      },
+      {
+        "type": "Contratuercas (bajas)",
+        "text": "Tuercas hexagonales bajas usadas como segunda tuerca de bloqueo"
+      },
+      {
+        "type": "Tuercas autoblocantes con nailon",
+        "text": "Tuercas hexagonales con inserto de nailon que resisten el aflojamiento por vibración"
+      },
+      {
+        "type": "Tuercas con brida",
+        "text": "Tuercas hexagonales con brida dentada integrada que reparte la carga"
+      },
+      {
+        "type": "Tuercas para soldar",
+        "text": "Tuercas cuadradas o hexagonales diseñadas para soldarse a chapa"
+      },
+      {
+        "type": "Tuercas cuadradas",
+        "text": "Tuercas de cuatro caras para carriles y ranuras"
+      },
+      {
+        "type": "Tuercas ciegas",
+        "text": "Tuercas hexagonales con cúpula cerrada que cubre el extremo del tornillo"
+      },
+      {
+        "type": "Tuercas de anilla",
+        "text": "Tuercas con anilla de izado para eslingado"
+      }
+    ],
+    "washers": [
+      {
+        "type": "Arandelas planas",
+        "text": "Arandelas que reparten la carga bajo la tuerca o la cabeza del tornillo"
+      },
+      {
+        "type": "Arandelas grower",
+        "text": "Arandelas partidas que resisten el aflojamiento por vibración"
+      },
+      {
+        "type": "Arandelas dentadas",
+        "text": "Arandelas con dentado interior o exterior para bloqueo y puesta a tierra"
+      },
+      {
+        "type": "Arandelas en cuña",
+        "text": "Arandelas inclinadas para las alas de perfiles IPN y UPN"
+      }
+    ],
+    "sizesTitle": "Medidas, calidades y acabados",
+    "sizesIntro": "Rangos de suministro habituales de nuestros artículos más solicitados.",
+    "colProduct": "Producto",
+    "colSize": "Rango de medidas",
+    "colGrade": "Calidades",
+    "colFinish": "Acabados",
+    "rangeRows": [
+      {
+        "item": "Tornillos hexagonales",
+        "size": "M6–M64; longitudes hasta 450 mm",
+        "grade": "4.6, 4.8, 5.6, 5.8, 8.8, 10.9, 12.9, B7, B7M",
+        "finish": "Pavonado, cincado, galvanizado en caliente"
+      },
+      {
+        "item": "Espárragos y espárragos de doble extremo",
+        "size": "M8–M72; 5/16\" a 3\"",
+        "grade": "8.8 / 8, B7 / 2H, B7M / 2HM",
+        "finish": "Negro, galvanizado en caliente"
+      },
+      {
+        "item": "Tuercas hexagonales",
+        "size": "M5–M56",
+        "grade": "4, 6, 8, 10, 12, 2H, 2HM",
+        "finish": "Pavonado, cincado, galvanizado en caliente"
+      },
+      {
+        "item": "Tornillos Allen",
+        "size": "M8–M30; longitudes hasta 450 mm",
+        "grade": "4.6, 4.8, 5.6, 5.8, 8.8",
+        "finish": "Pavonado, cincado, galvanizado en caliente"
+      },
+      {
+        "item": "Tornillos de carrocería",
+        "size": "M6–M64",
+        "grade": "4.6, 4.8, 5.6, 8.8",
+        "finish": "Fosfatado negro, cincado blanco o amarillo, galvanizado en caliente"
+      },
+      {
+        "item": "Tornillos de cabeza plana con cuello cuadrado o tetón",
+        "size": "M6–M30",
+        "grade": "4.6, 4.8, 5.6, 8.8",
+        "finish": "Fosfatado negro, cincado blanco o amarillo, galvanizado en caliente"
+      },
+      {
+        "item": "Tornillos con brida, tuercas con brida y tornillos moleteados",
+        "size": "Bajo pedido",
+        "grade": "Tornillos 8.8, 10.9, 12.9; tuercas 8, 10, 12",
+        "finish": "Pavonado, cincado, galvanizado en caliente"
+      },
+      {
+        "item": "Tornillos de cabeza abombada (barreras de seguridad)",
+        "size": "M16",
+        "grade": "4.6, 8.8",
+        "finish": "Fosfatado negro, galvanizado en caliente"
+      }
+    ],
+    "b7Eyebrow": "Producto destacado",
+    "b7Title": "Espárragos B7",
+    "b7Intro": "Los espárragos ASTM A193 B7 con tuercas hexagonales pesadas A194 2H son la tornillería más especificada para bridas en refinerías y plantas petroquímicas.",
+    "b7Rows": [
+      {
+        "label": "Especificación",
+        "value": "ASTM A193 Grado B7: acero aleado al cromo-molibdeno, templado y revenido"
+      },
+      {
+        "label": "Tuercas",
+        "value": "ASTM A194 Grado 2H, hexagonal pesada; espárragos B7M con tuercas 2HM para servicio ácido"
+      },
+      {
+        "label": "Resistencia a la tracción mínima",
+        "value": "860 MPa hasta 2½\"; 795 MPa de más de 2½\" a 4\"; 690 MPa de más de 4\" a 7\""
+      },
+      {
+        "label": "Límite elástico mínimo",
+        "value": "720 MPa hasta 2½\"; 655 MPa de más de 2½\" a 4\"; 515 MPa de más de 4\" a 7\""
+      },
+      {
+        "label": "Temperatura de servicio",
+        "value": "Hasta unos 450 °C; por encima se especifica tornillería B16 o de aleación de níquel"
+      },
+      {
+        "label": "Medidas",
+        "value": "M8–M72 (5/16\" a 3\"), en longitudes según la clase de brida y la junta"
+      },
+      {
+        "label": "Acabado",
+        "value": "Negro o galvanizado en caliente; PTFE (Xylan) y otros recubrimientos bajo pedido"
+      },
+      {
+        "label": "Aplicaciones",
+        "value": "Bridas de recipientes a presión e intercambiadores, bonetes de válvulas y bridas de tuberías"
+      }
+    ],
+    "b7Note": "Los espárragos B7 pueden suministrarse en juegos (espárrago, dos tuercas 2H y arandelas si se requieren), embalados y etiquetados por tamaño y clase de brida para su montaje en obra.",
+    "materialsTitle": "Materiales",
+    "materialsIntro": "Elija el material según la temperatura de servicio, la presión y la exposición a la corrosión. Conseguimos el grado que pida su especificación.",
+    "colMaterial": "Material",
+    "colGrades": "Grados",
+    "colUse": "Uso habitual",
+    "materials": [
+      {
+        "name": "Acero al carbono",
+        "use": "Estructuras en general y servicio no crítico"
+      },
+      {
+        "name": "Acero aleado B7",
+        "use": "Bridas a alta temperatura y presión en refinerías y plantas petroquímicas"
+      },
+      {
+        "name": "Acero aleado B7M",
+        "use": "Servicio ácido (H₂S), con dureza controlada"
+      },
+      {
+        "name": "Acero inoxidable 304 / 304L",
+        "use": "Resistencia general a la corrosión; plantas alimentarias y farmacéuticas"
+      },
+      {
+        "name": "Acero inoxidable 316 / 316L",
+        "use": "Ambientes marinos, químicos y con cloruros"
+      },
+      {
+        "name": "Acero inoxidable 321 / 347",
+        "use": "Grados estabilizados para alta temperatura"
+      },
+      {
+        "name": "Dúplex 2205",
+        "use": "Offshore y desalación; resiste cloruros y corrosión bajo tensión"
+      },
+      {
+        "name": "Inconel 600 / 625",
+        "use": "Altas temperaturas y corrosión severa"
+      },
+      {
+        "name": "Monel 400 / K-500",
+        "use": "Agua de mar, procesos químicos y ambientes ácidos"
+      },
+      {
+        "name": "Hastelloy C-276",
+        "use": "Ambientes químicos muy corrosivos"
+      }
+    ],
+    "qualityTitle": "Calidad y documentación",
+    "qualityRows": [
+      {
+        "label": "Certificados",
+        "value": "Certificados de inspección EN 10204 3.1 de la acería o la fábrica de origen; 3.2 con inspección de tercera parte bajo pedido"
+      },
+      {
+        "label": "Controles antes del envío",
+        "value": "Certificados comprobados contra el pedido, control dimensional y verificación de la aleación con nuestro analizador XRF portátil en tornillería inoxidable y de aleaciones de níquel"
+      },
+      {
+        "label": "Trazabilidad",
+        "value": "Números de colada o lote trasladados de los certificados a las etiquetas"
+      },
+      {
+        "label": "Embalaje",
+        "value": "Etiquetado por medida y calidad; cajas, bolsas o embalaje específico del proyecto"
+      },
+      {
+        "label": "Normas",
+        "value": "ASTM, ASME / ANSI, DIN, ISO, BS e IS, según la especificación del proyecto"
+      }
+    ],
+    "applicationsTitle": "Aplicaciones por sector",
+    "applications": [
+      {
+        "title": "Petróleo, gas y petroquímica",
+        "items": [
+          "Bridas de tuberías de proceso (juegos de espárragos B7 / 2H)",
+          "Cierres de recipientes a presión e intercambiadores",
+          "Tornillería de bonetes de válvulas",
+          "Uniones bridadas de oleoductos y gasoductos",
+          "Tornillería para servicio ácido (B7M / 2HM) y aleaciones para servicio corrosivo"
+        ]
+      },
+      {
+        "title": "Generación eléctrica",
+        "items": [
+          "Bridas de tuberías de vapor",
+          "Tornillería de calderas y partes a presión",
+          "Tornillería de carcasas de turbinas",
+          "Uniones estructurales"
+        ]
+      },
+      {
+        "title": "Construcción y estructuras",
+        "items": [
+          "Uniones de estructuras de acero (tornillos hexagonales y de carrocería)",
+          "Pernos en U para abrazaderas de tubería",
+          "Uniones de barandillas y plataformas",
+          "Tornillos para barreras de seguridad"
+        ]
+      },
+      {
+        "title": "Naval y offshore",
+        "items": [
+          "Tornillería dúplex para agua de mar",
+          "Tornillería Monel para agua de mar y submarina",
+          "Tornillería SS 316 para ambientes marinos"
+        ]
+      },
+      {
+        "title": "Industria en general",
+        "items": [
+          "Montaje y mantenimiento de equipos",
+          "Tornillería para OEM de maquinaria",
+          "Repuestos de mantenimiento de planta"
+        ]
+      }
+    ],
+    "relatedTitle": "Productos que fabricamos",
+    "relatedAnchors": "Nuestro producto principal: anclajes SEPL para revestimientos refractarios.",
+    "relatedFibresName": "Fibras de acero",
+    "relatedFibres": "Fibras de acero inoxidable para reforzar hormigones refractarios, fabricadas en nuestro taller.",
+    "relatedPins": "Pernos para soldar, pernos adhesivos y arandelas para fijar aislamiento.",
+    "relatedFoundation": "Pernos de anclaje en L, J, U, con placa y rectos, según plano.",
+    "relatedCw": "Sistemas de contrapeso fabricados en nuestro taller.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué tipos de tornillería industrial suministra Santura?",
+        "a": "Santura suministra una gama completa: tornillos hexagonales, espárragos B7, pernos en U, cáncamos, tornillos con brida, tornillos de carrocería y tornillos Allen, con sus tuercas (hexagonales, hexagonales pesadas, contratuercas, autoblocantes, con brida, para soldar, cuadradas, ciegas y de anilla) y arandelas planas, grower, dentadas y en cuña. Disponible en acero al carbono, acero aleado, acero inoxidable, Inconel, Monel y Dúplex."
+      },
+      {
+        "q": "¿En qué materiales está disponible su tornillería?",
+        "a": "Suministramos acero al carbono (ASTM A307 y clases ISO), acero aleado (ASTM A193 B7 y B7M), acero inoxidable (304, 316, 321, 347), Dúplex 2205, Inconel 600/625, Monel 400/K-500 y Hastelloy C-276. El material adecuado depende de la temperatura de servicio, la presión y la exposición a la corrosión. La tornillería se entrega con certificados de inspección EN 10204 3.1."
+      },
+      {
+        "q": "¿Suministran espárragos B7 para uniones bridadas?",
+        "a": "Sí. Santura suministra espárragos ASTM A193 Grado B7 con tuercas hexagonales pesadas A194 Grado 2H, la especificación estándar para bridas en refinerías y petroquímica, y B7M/2HM para servicio ácido. Las medidas van de M8 a M72 (5/16\" a 3\") en longitudes según la clase de brida, y pueden entregarse en juegos completos (espárrago, dos tuercas y arandelas) etiquetados por brida."
+      },
+      {
+        "q": "¿Por qué comprar la tornillería a Santura junto con los anclajes refractarios?",
+        "a": "La actividad principal de Santura es fabricar anclajes refractarios y pernos de aislamiento para las mismas refinerías y plantas petroquímicas que necesitan tornillería industrial. Comprar ambos a Santura supone un pedido, un envío, un juego de documentos y los mismos controles de calidad, lo que simplifica las compras de contratistas EPC y operadores de planta."
+      }
+    ],
+    "ctaTitle": "¿Necesita tornillería para su proyecto?",
+    "ctaText": "Envíenos su lista de tornillería con tipo, medida, calidad, norma, acabado y cantidad, o una lista de bridas para juegos de espárragos B7. Le responderemos con una cotización y el plazo de entrega.",
+    "ctaRfq": "Solicitar cotización de tornillería",
+    "ctaContact": "O contacte con nuestro equipo",
+    "trademarkNote": "Inconel y Monel son marcas de Special Metals Corporation. Hastelloy es una marca de Haynes International. Xylan es una marca de PPG Industries. Otros nombres pertenecen a sus respectivos propietarios y se usan solo a efectos de identificación."
+  },
+  "iaPage": {
+    "metaTitle": "Accesorios de aislamiento y revestimiento | Santura",
+    "metaDescription": "Flejes, tornillos, remaches, clips y accesorios para aislamiento y revestimiento en inox y aluminio. Proveedor desde 1980, exporta a más de 25 países.",
+    "eyebrow": "Materiales aislantes",
+    "h1": "Accesorios de aislamiento y revestimiento metálico",
+    "subheading": "Flejes, hebillas, muelles de dilatación, tornillos, remaches ciegos, alambre de atar, chapas perforadas, cintas y selladores para fijar y terminar el aislamiento y su revestimiento metálico en tuberías, recipientes, conductos y equipos.",
+    "badges": [
+      "Flejes y hebillas de inox",
+      "Muelles de dilatación",
+      "Remaches ciegos",
+      "Chapas perforadas",
+      "Alambre y malla",
+      "Cintas y selladores"
+    ],
+    "gallery": [
+      "Hebilla de acero inoxidable para flejes de aislamiento",
+      "Remaches ciegos para unir costuras de revestimiento metálico",
+      "Remache ciego con vástago de rotura",
+      "Pletina perforada de acero inoxidable",
+      "Ángulos perforados de acero inoxidable",
+      "Cilindro perforado de acero inoxidable",
+      "Clip de tijera SEPL-04 de alambre de acero inoxidable"
+    ],
+    "overviewTitle": "Para qué sirven los accesorios de aislamiento",
+    "overview": [
+      "Los accesorios de aislamiento son la tornillería y los consumibles que fijan, sostienen y terminan el aislamiento térmico y su revestimiento metálico (chapa de protección) en tuberías, recipientes, conductos y equipos. Los flejes sujetan el revestimiento, los muelles mantienen los flejes tensos al dilatarse el equipo, los tornillos y remaches cierran las costuras, el alambre y la malla sujetan el propio aislamiento, y las cintas y selladores impiden la entrada de agua y vapor.",
+      "Los accesorios determinan la vida del sistema de aislamiento. Flejes flojos, un metal inadecuado en contacto con el revestimiento o una barrera de vapor sin sellar dejan entrar agua en el aislamiento, lo que reduce su rendimiento y puede provocar corrosión bajo aislamiento.",
+      "Santura suministra estos accesorios junto con sus materiales aislantes y pernos para refinerías, plantas petroquímicas, centrales eléctricas y plantas de acero y cemento, ajustados a los grados de material de la especificación del proyecto."
+    ],
+    "groupsTitle": "Gama de accesorios",
+    "groupsIntro": "Los principales grupos de accesorios. Otros artículos, medidas y grados se suministran según su especificación.",
+    "groups": [
+      {
+        "title": "Flejes",
+        "tag": "",
+        "text": "Los flejes sujetan el revestimiento metálico y el aislamiento en tuberías, recipientes y equipos.",
+        "items": [
+          "Flejes de acero inoxidable, ½\" y ¾\" × 0,020\" de serie",
+          "Flejes de aluminio y de acero galvanizado",
+          "Flejes de polipropileno o nailon para interiores hasta unos 93 °C",
+          "Hebillas (cierres de ala) del mismo material que el fleje",
+          "Tensores manuales y neumáticos",
+          "Anchos de 3/8\" a 1¼\" y espesores de 0,015\" a 0,025\": ½\" para tuberías y recipientes pequeños, hasta 1¼\" para tanques grandes"
+        ]
+      },
+      {
+        "title": "Muelles de dilatación",
+        "tag": "",
+        "text": "Los muelles intercalados en el fleje absorben la dilatación y contracción térmicas, de modo que el fleje se mantiene tenso sin cortar el revestimiento.",
+        "items": [
+          "Conjuntos de muelle de acero inoxidable de 2\" y 4\"",
+          "Para recipientes calientes y fríos y tuberías de gran diámetro calientes o frías",
+          "Muelles reforzados para flejes de 1¼\" en tanques grandes y revestimiento corrugado"
+        ]
+      },
+      {
+        "title": "Tornillos autorroscantes y autotaladrantes",
+        "tag": "",
+        "text": "Los tornillos fijan el revestimiento donde no se pueden usar flejes, como los gajos de los codos.",
+        "items": [
+          "Acero inoxidable tipo 410, cabeza hexagonal con arandela y ranura",
+          "#8 × ½\" autotaladrante y autorroscante",
+          "Versiones con arandela de neopreno para uniones estancas",
+          "Gajos de codos y costuras de revestimiento corrugado"
+        ]
+      },
+      {
+        "title": "Remaches ciegos (pop)",
+        "tag": "Fabricados en nuestro taller",
+        "text": "Los remaches ciegos unen dos o más piezas de chapa y se colocan con acceso por un solo lado. En el aislamiento fijan las costuras solapadas del revestimiento.",
+        "items": [
+          "Cuerpos de aluminio, acero inoxidable y Monel",
+          "Diámetros de 1/8\" (3,2 mm) y 5/32\" (4,0 mm)",
+          "Remaches de tracción con vástago de rotura"
+        ]
+      },
+      {
+        "title": "Alambre de atar y malla",
+        "tag": "",
+        "text": "El alambre y la malla sujetan el propio aislamiento antes de colocar el revestimiento.",
+        "items": [
+          "Alambre de acero inoxidable recocido, calibre 16 (1,6 mm) y 18 (1,2 mm)",
+          "Ata coquillas rígidas de dos piezas como silicato cálcico y perlita",
+          "Malla hexagonal para el soporte exterior de mantas aislantes",
+          "Malla electrosoldada para retener el aislamiento en recipientes y equipos grandes",
+          "Alambre galvanizado bajo pedido (hoy poco especificado)"
+        ]
+      },
+      {
+        "title": "Chapas perforadas",
+        "tag": "Fabricadas en nuestro taller",
+        "text": "Chapas de acero inoxidable punzonadas con distintos patrones de agujeros, que ahorran peso y dejan pasar aire y sonido. Se usan mucho en reformadores y hornos de proceso.",
+        "items": [
+          "Laminadas en caliente o en frío, según plano del cliente",
+          "Fáciles de soldar, cortar y conformar",
+          "Distintos patrones de agujeros, formas, medidas y grados",
+          "Como forros y capas de retención en sistemas de aislamiento multicapa"
+        ]
+      },
+      {
+        "title": "Clips de tijera (SEPL-04)",
+        "tag": "Parte de nuestra gama de anclajes SEPL",
+        "text": "Grapas de alambre que retienen los revestimientos de ladrillo cuando los ladrillos quedan separados de la pared o el techo.",
+        "items": [
+          "Conformados en alambre según nuestro plano o el suyo",
+          "Aleaciones como CS, 304, 304H, 309, 253MA, 310, 314, 316, 321, 330, 800 y 601"
+        ]
+      },
+      {
+        "title": "Cintas y selladores",
+        "tag": "",
+        "text": "Las cintas y los selladores cierran las costuras del revestimiento y las barreras de vapor contra el agua y la humedad.",
+        "items": [
+          "Cinta de película de poliéster reforzada con hilo de vidrio",
+          "Cinta de aluminio (por ejemplo, 2 mil y 100 mm de ancho) para costuras del revestimiento",
+          "Cintas de bajo contenido en cloruros para acero inoxidable austenítico por encima de unos 60 °C",
+          "Cintas de junta ASJ y FRK",
+          "Selladores de juntas para sistemas de aislamiento rígido"
+        ]
+      },
+      {
+        "title": "Espárragos de hombro y tapas de retención",
+        "tag": "",
+        "text": "Espárragos soldados que sujetan aislamiento y revestimiento en superficies donde no se pueden usar flejes.",
+        "items": [
+          "Espárragos soldables de acero inoxidable o al carbono, 5/16\" con vástago ranurado",
+          "Clips de sujeción provisional durante el montaje",
+          "Tapas de retención para la fijación final del revestimiento",
+          "Fondos cónicos de recipientes y paneles de hornos"
+        ]
+      }
+    ],
+    "pinsBoxTitle": "Pernos para soldar y arandelas autoblocantes",
+    "pinsBoxText": "Los pernos para soldar, pernos adhesivos, arandelas autoblocantes y capuchones para fijar aislamiento se tratan en nuestra página de pernos de aislamiento.",
+    "pinsBoxLink": "Ver pernos de aislamiento",
+    "specTitle": "Resumen de especificaciones",
+    "colItem": "Accesorio",
+    "colMaterial": "Materiales",
+    "colSizes": "Medidas estándar",
+    "colTemp": "Temperatura",
+    "colUse": "Aplicación",
+    "specRows": [
+      {
+        "item": "Flejes",
+        "material": "SS 304 / 316; también aluminio y acero galvanizado",
+        "sizes": "½\" y ¾\" × 0,020\"",
+        "temp": "Inox: criogénico hasta unos 650 °C",
+        "use": "Fijación del revestimiento y el aislamiento"
+      },
+      {
+        "item": "Hebillas",
+        "material": "Igual que el fleje",
+        "sizes": "Según el ancho del fleje",
+        "temp": "Igual que el fleje",
+        "use": "Cierre del fleje"
+      },
+      {
+        "item": "Muelles de dilatación",
+        "material": "SS 304 / 316",
+        "sizes": "2\" y 4\"",
+        "temp": "Igual que el fleje de inox",
+        "use": "Flejado de tuberías y recipientes calientes y fríos"
+      },
+      {
+        "item": "Tornillos autorroscantes",
+        "material": "SS 410",
+        "sizes": "#8 × ½\"",
+        "temp": "Temperatura superficial del revestimiento",
+        "use": "Costuras del revestimiento y gajos de codos"
+      },
+      {
+        "item": "Remaches ciegos",
+        "material": "Aluminio, inox, Monel",
+        "sizes": "1/8\" y 5/32\" de diámetro",
+        "temp": "Según el material",
+        "use": "Costuras solapadas del revestimiento"
+      },
+      {
+        "item": "Alambre de atar",
+        "material": "SS 304 / 316",
+        "sizes": "Calibre 16 (1,6 mm), 18 (1,2 mm)",
+        "temp": "Criogénico hasta unos 650 °C",
+        "use": "Atado de coquillas rígidas"
+      },
+      {
+        "item": "Chapas perforadas",
+        "material": "Grados de acero inoxidable",
+        "sizes": "Según plano",
+        "temp": "Según el grado",
+        "use": "Forros de reformadores y hornos de proceso"
+      },
+      {
+        "item": "Clips de tijera (SEPL-04)",
+        "material": "CS, aceros inoxidables, aleaciones refractarias",
+        "sizes": "Según plano",
+        "temp": "Según la aleación",
+        "use": "Retención de revestimientos de ladrillo"
+      },
+      {
+        "item": "Cinta de aluminio",
+        "material": "Lámina de aluminio con adhesivo",
+        "sizes": "Por ejemplo 2 mil × 100 mm",
+        "temp": "Según el adhesivo",
+        "use": "Sellado de costuras del revestimiento"
+      }
+    ],
+    "specNote": "Valores típicos. Los límites exactos dependen del grado del material, del adhesivo y de la especificación del proyecto.",
+    "guideTitle": "Recomendaciones de selección y montaje",
+    "guide": [
+      "Los flejes del revestimiento de tuberías suelen colocarse a 225–300 mm (9–12\") entre centros. Siga la especificación del proyecto.",
+      "Intercale muelles de dilatación en los flejes de recipientes y tuberías de gran diámetro calientes o frías, para que el fleje se mantenga tenso al dilatarse y contraerse el equipo.",
+      "Combine los metales de los accesorios con el revestimiento, por ejemplo flejes y tornillos de inox con revestimiento de inox o aluminio, y evite mezclar metales donde pueda acumularse humedad.",
+      "No use flejes, alambre ni tornillos galvanizados sobre acero inoxidable austenítico caliente: el zinc puede fragilizar el inox a alta temperatura.",
+      "Sobre acero inoxidable austenítico por encima de unos 60 °C, use cintas y accesorios de bajo contenido en cloruros para reducir el riesgo de corrosión bajo tensión por cloruros.",
+      "Use accesorios de Monel o SS 316 en ambientes marinos y ricos en cloruros."
+    ],
+    "materialsTitle": "Materiales",
+    "materials": [
+      "Acero inoxidable 304, 316, 316L, 321, 410",
+      "Acero al carbono / acero dulce",
+      "Acero galvanizado",
+      "Aluminio",
+      "Monel",
+      "Nailon / polipropileno (interior, baja temperatura)"
+    ],
+    "madeTitle": "Fabricación propia",
+    "madeText": "Los remaches ciegos y las chapas perforadas se fabrican en nuestro taller, y los clips de tijera SEPL-04 forman parte de nuestra gama de anclajes refractarios. Los flejes, muelles, tornillos, alambre, cintas y selladores se adquieren y suministran junto con ellos, en los grados de material del proyecto.",
+    "applicationsTitle": "Aplicaciones por sector",
+    "applications": [
+      {
+        "title": "Petróleo, gas y petroquímica",
+        "items": [
+          "Revestimiento de tuberías y recipientes",
+          "Flejes para aislamiento frío y criogénico",
+          "Chapas perforadas para reformadores y hornos de proceso"
+        ]
+      },
+      {
+        "title": "Generación eléctrica",
+        "items": [
+          "Aislamiento de carcasas de caldera",
+          "Aislamiento de turbinas",
+          "Aislamiento de conductos de calderas de recuperación (HRSG)"
+        ]
+      },
+      {
+        "title": "Acero y cemento",
+        "items": [
+          "Aislamiento de carcasas de hornos",
+          "Clips de tijera para revestimientos de ladrillo"
+        ]
+      },
+      {
+        "title": "Naval",
+        "items": [
+          "Accesorios de Monel y SS 316 resistentes a la corrosión",
+          "Aislamiento de salas de máquinas"
+        ]
+      },
+      {
+        "title": "Climatización y edificación",
+        "items": [
+          "Cintas para aislamiento de conductos",
+          "Flejes para conductos grandes"
+        ]
+      },
+      {
+        "title": "Criogenia y GNL",
+        "items": [
+          "Flejes y muelles de dilatación de inox para servicio frío",
+          "Cintas y selladores de barrera de vapor"
+        ]
+      }
+    ],
+    "supplyTitle": "Qué suministramos",
+    "supply": [
+      "Santura Engineering suministra accesorios de aislamiento y revestimiento desde un solo proveedor: flejes y hebillas, muelles de dilatación, tornillos, remaches ciegos, alambre y malla, chapas perforadas, cintas y selladores, en el grado de material del proyecto en acero inoxidable, acero galvanizado, aluminio o Monel.",
+      "Los remaches ciegos y las chapas perforadas se fabrican en nuestro taller, y las chapas perforadas se hacen según plano para reformadores y hornos de proceso. Suministramos a clientes industriales desde 1980 y exportamos a más de 25 países."
+    ],
+    "relatedTitle": "Productos relacionados",
+    "relatedPins": "Pernos para soldar, pernos adhesivos, arandelas autoblocantes y capuchones.",
+    "relatedMineralWool": "Paneles, rollos y coquillas de lana de roca y lana de vidrio.",
+    "relatedCalsil": "Coquillas y placas rígidas, atadas con alambre de inox.",
+    "relatedGlassFibre": "Lana de vidrio y tejido de vidrio para conductos y envolventes.",
+    "relatedSepl04": "Clips de tijera de alambre para retener revestimientos de ladrillo.",
+    "relatedFasteners": "Tornillos, espárragos, tuercas y arandelas para los mismos proyectos.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué accesorios se necesitan para montar un revestimiento metálico?",
+        "a": "Los revestimientos metálicos usan flejes (normalmente de inox de ½\") con hebillas, tornillos autorroscantes (#8 × ½\" SS 410) para los gajos de los codos, remaches ciegos para las costuras solapadas y muelles de dilatación en recipientes y líneas grandes calientes o frías. La cinta de aluminio y los selladores cierran las costuras longitudinales y circunferenciales."
+      },
+      {
+        "q": "¿De qué material deben ser los flejes de aislamiento?",
+        "a": "Para la mayoría de las aplicaciones industriales se prefiere el acero inoxidable 304 o 316. Los flejes de aluminio son adecuados para revestimientos de aluminio en ambientes no corrosivos. Los flejes galvanizados no deben usarse sobre equipos de inox calientes, porque el zinc puede fragilizar el inox a alta temperatura, y conviene no mezclar metales donde pueda acumularse humedad. En ambientes marinos y con cloruros se especifica Monel o SS 316."
+      },
+      {
+        "q": "¿Cómo se usan las chapas perforadas en los sistemas de aislamiento?",
+        "a": "Las chapas de acero inoxidable perforadas se punzonan con distintos patrones de agujeros y se usan mucho en reformadores y hornos de proceso, por ejemplo como forros y capas de retención en aislamientos multicapa. Ahorran peso y son fáciles de soldar, cortar y conformar. Santura las fabrica laminadas en caliente o en frío según plano del cliente, en el grado que requiera el proyecto."
+      },
+      {
+        "q": "¿A qué distancia se colocan los flejes en tuberías?",
+        "a": "Los flejes del revestimiento de tuberías suelen colocarse a 225–300 mm (9–12\") entre centros, según la especificación del proyecto. En recipientes y tuberías de gran diámetro calientes o frías se intercalan muelles de dilatación para absorber el movimiento térmico. Los tanques grandes llevan flejes más anchos, de hasta 1¼\"."
+      },
+      {
+        "q": "¿Puede Santura suministrar accesorios para proyectos criogénicos de GNL?",
+        "a": "Sí. Los flejes, hebillas, muelles de dilatación y alambre de acero inoxidable austenítico conservan su tenacidad a temperaturas criogénicas, y Santura los suministra en SS 304 o 316 junto con cintas y selladores de barrera de vapor para sistemas de aislamiento frío y criogénico. Los certificados de inspección pueden entregarse bajo pedido."
+      }
+    ],
+    "ctaTitle": "¿Necesita accesorios de aislamiento?",
+    "ctaText": "Envíenos su lista con artículo, material, medida y cantidad, o su especificación de aislamiento, y prepararemos el paquete de accesorios. Le responderemos con una cotización y el plazo de entrega.",
+    "ctaRfq": "Solicitar cotización de accesorios de aislamiento",
+    "ctaContact": "O contacte con nuestro equipo",
+    "trademarkNote": "Monel es una marca de Special Metals Corporation. 253 MA es una marca de Outokumpu. Otros nombres pertenecen a sus respectivos propietarios y se usan solo a efectos de identificación."
+  },
+  "sfPage": {
+    "metaTitle": "Fibra de acero para refractarios y hormigón | Santura",
+    "metaDescription": "Fibras de acero de extracción en fundido y trefiladas en SS 304, 310, 446 para refractarios y hormigón. Al servicio de la industria desde 1980, 25+ países.",
+    "eyebrow": "Fabricadas por Santura",
+    "h1": "Fibra de acero para refuerzo de refractarios y hormigón",
+    "subheading": "Fibras de acero de extracción en fundido y trefiladas en frío que refuerzan hormigones refractarios, revestimientos monolíticos y hormigón frente al choque térmico, la fisuración y la vibración. Fabricadas en nuestro taller en AISI 304, 310, 446 y otros grados.",
+    "badges": [
+      "Agujas de extracción en fundido",
+      "Trefiladas: rectas, con ganchos, onduladas",
+      "AISI 304, 310, 446",
+      "Bajo pedido",
+      "ISO 9001:2015"
+    ],
+    "gallery": [
+      "Fibras de acero inoxidable de extracción en fundido (SEPL-27) para refuerzo de hormigón refractario",
+      "Detalle de fibras de acero inoxidable de extracción en fundido",
+      "Fibras rectas de acero inoxidable trefiladas en frío (SEPL-28)",
+      "Montón de fibras rectas trefiladas en frío",
+      "Detalle de fibras trefiladas con extremos en gancho (SEPL-29)",
+      "Hilera de fibras trefiladas con extremos en gancho",
+      "Detalle de fibras trefiladas onduladas (SEPL-30)",
+      "Montón de fibras trefiladas corrugadas"
+    ],
+    "overviewTitle": "Para qué sirven las fibras de acero",
+    "overview": [
+      "Las fibras de acero, también llamadas agujas de refuerzo, son filamentos metálicos cortos que se mezclan en hormigones refractarios, revestimientos monolíticos y hormigón. Repartidas por todo el material, lo mantienen unido cuando se calienta, se enfría y se fisura, de modo que el revestimiento resiste el choque térmico, el estallido y la vibración y conserva su resistencia durante más tiempo.",
+      "Las fibras de acero son uno de los productos principales de Santura. Se fabrican junto con nuestros anclajes refractarios y a menudo se suministran con ellos para el mismo revestimiento. Las fabricamos por dos procesos."
+    ],
+    "processes": [
+      {
+        "title": "Extracción en fundido",
+        "text": "Se funden lingotes de acero inoxidable en un horno eléctrico a 1500–1600 °C. Una rueda de extracción que gira a gran velocidad se acerca a la superficie del acero líquido y arrastra las fibras. El resultado es una fibra de sección irregular que se ancla bien en el hormigón refractario."
+      },
+      {
+        "title": "Trefilado en frío",
+        "text": "El alambre de acero se estira a través de hileras y se corta a medida. El acero inoxidable no puede endurecerse por tratamiento térmico, por lo que es el trefilado en frío el que da resistencia a estas fibras. El alambre puede quedar recto, llevar extremos en gancho u ondularse a lo largo."
+      }
+    ],
+    "typesTitle": "Nuestras cuatro fibras de acero",
+    "typesIntro": "Cada fibra tiene su propia página de producto con todos los detalles. Este resumen le ayuda a elegir.",
+    "types": [
+      {
+        "name": "Agujas de extracción en fundido",
+        "process": "Extracción en fundido",
+        "text": "La fibra más utilizada en la industria refractaria: ampliamente aceptada, económica y capaz de fluir con facilidad por mangueras. Disponible en AISI 304, 310 y 446."
+      },
+      {
+        "name": "Agujas trefiladas (rectas)",
+        "process": "Trefilado en frío",
+        "text": "Agujas rectas de alta resistencia gracias al trefilado en frío. Se obtienen por corte y se integran fácilmente en el material; habitualmente de 25–35 mm de largo y 0,3–0,7 mm de diámetro."
+      },
+      {
+        "name": "Agujas trefiladas (con ganchos)",
+        "process": "Trefilado en frío",
+        "text": "Fibras con extremos en gancho fabricadas con alambre de acero de bajo carbono de alta calidad, que ofrecen buena tenacidad a bajo precio. Los ganchos anclan la fibra en la matriz."
+      },
+      {
+        "name": "Agujas trefiladas (onduladas)",
+        "process": "Trefilado en frío",
+        "text": "Las mismas características que las agujas rectas, corrugadas a lo largo para dar la máxima resistencia a los refractarios."
+      }
+    ],
+    "typeLink": "Detalles de {code}",
+    "compareTitle": "Comparativa de tipos de fibra de acero",
+    "colProperty": "Propiedad",
+    "compareRows": [
+      {
+        "label": "Proceso",
+        "values": [
+          "Extracción en fundido desde acero inoxidable líquido",
+          "Alambre trefilado, cortado a medida",
+          "Alambre trefilado con extremos en gancho",
+          "Alambre trefilado, corrugado"
+        ]
+      },
+      {
+        "label": "Forma",
+        "values": [
+          "Sección irregular propia del proceso de extracción",
+          "Recta, redonda",
+          "Redonda con extremos en gancho",
+          "Redonda, ondulada a lo largo"
+        ]
+      },
+      {
+        "label": "Material",
+        "values": [
+          "AISI 304, 310, 446; otras aleaciones bajo pedido",
+          "Acero inoxidable, como 304, 310, 316",
+          "Alambre de acero de bajo carbono",
+          "Acero inoxidable, como 304, 310, 316"
+        ]
+      },
+      {
+        "label": "Longitud",
+        "values": [
+          "Varias longitudes, bajo pedido",
+          "25–35 mm",
+          "Bajo pedido",
+          "Bajo pedido"
+        ]
+      },
+      {
+        "label": "Diámetro",
+        "values": [
+          "Varias medidas, bajo pedido",
+          "0,3–0,7 mm",
+          "Bajo pedido",
+          "Bajo pedido"
+        ]
+      },
+      {
+        "label": "Resistencia a la tracción",
+        "values": [
+          "Bajo consulta",
+          "Más de 650 MPa",
+          "Bajo consulta",
+          "Bajo consulta"
+        ]
+      },
+      {
+        "label": "Ventaja principal",
+        "values": [
+          "Fibra refractaria más utilizada; económica; fluye por mangueras",
+          "Alta resistencia por trefilado; fácil de mezclar",
+          "Los ganchos anclan la fibra; buena tenacidad a bajo precio",
+          "La ondulación da la máxima resistencia"
+        ]
+      }
+    ],
+    "compareNote": "Las medidas indicadas «bajo pedido» se fabrican según su especificación. Indíquenos la longitud, el diámetro y el grado que necesita.",
+    "guideTitle": "Extracción en fundido o trefilado en frío",
+    "colCriterion": "Criterio",
+    "colMelt": "Extracción en fundido",
+    "colCold": "Trefilado en frío",
+    "guideRows": [
+      {
+        "label": "Fabricación",
+        "melt": "Fibras extraídas del acero inoxidable fundido por una rueda giratoria",
+        "cold": "Alambre trefilado y cortado, con ganchos u ondulado si se requiere"
+      },
+      {
+        "label": "Uso habitual",
+        "melt": "La fibra más usada en hormigones refractarios y revestimientos monolíticos",
+        "cold": "Hormigones refractarios y hormigón; las fibras con ganchos son habituales en hormigón"
+      },
+      {
+        "label": "Forma y adherencia",
+        "melt": "Sección irregular que se ancla en el hormigón refractario",
+        "cold": "Alambre redondo uniforme; ganchos u ondas mejoran el anclaje"
+      },
+      {
+        "label": "Colocación",
+        "melt": "Fluye con facilidad por mangueras",
+        "cold": "Las fibras rectas se mezclan fácilmente"
+      },
+      {
+        "label": "Coste",
+        "melt": "Económica y ampliamente aceptada",
+        "cold": "Las fibras con ganchos de bajo carbono son la opción más económica"
+      }
+    ],
+    "gradesTitle": "Grados",
+    "grades": [
+      {
+        "grade": "AISI 304",
+        "text": "acero inoxidable austenítico de uso general (aprox. 18 % Cr, 8 % Ni) para temperaturas moderadas"
+      },
+      {
+        "grade": "AISI 310",
+        "text": "grado refractario con alto cromo y níquel (aprox. 25 % Cr, 20 % Ni) para temperaturas más altas y ciclos térmicos"
+      },
+      {
+        "grade": "AISI 446",
+        "text": "grado ferrítico con 23–27 % de cromo y muy buena resistencia a la oxidación"
+      },
+      {
+        "grade": "AISI 316",
+        "text": "grado con molibdeno y mejor resistencia al ataque químico, para fibras trefiladas"
+      },
+      {
+        "grade": "Acero de bajo carbono",
+        "text": "para fibras con extremos en gancho, sobre todo en hormigón"
+      },
+      {
+        "grade": "Otras aleaciones",
+        "text": "bajo pedido"
+      }
+    ],
+    "meltingTitle": "Intervalos de fusión aproximados",
+    "colGrade": "Grado",
+    "colMelting": "Intervalo de fusión",
+    "meltingNote": "La temperatura segura de servicio de una fibra está muy por debajo de su intervalo de fusión y depende de la atmósfera y del hormigón refractario. Siga los límites del fabricante del hormigón refractario.",
+    "benefitsTitle": "Ventajas del refuerzo con fibras de acero",
+    "benefits": [
+      "Alta resistencia al choque térmico",
+      "Limitación flexible de fisuras",
+      "Alta resistencia al estallido",
+      "Alta resistencia a la vibración",
+      "Mayor capacidad portante de las secciones monolíticas",
+      "Refuerzo en todo el hormigón refractario, que puede reducir la necesidad de malla"
+    ],
+    "applicationsTitle": "Aplicaciones por sector",
+    "applications": [
+      {
+        "title": "Acero y aluminio",
+        "items": [
+          "Revestimientos de cucharas",
+          "Bóvedas de hornos",
+          "Revestimientos monolíticos sometidos a choque térmico"
+        ]
+      },
+      {
+        "title": "Cemento",
+        "items": [
+          "Revestimientos de hornos rotatorios",
+          "Precalentadores",
+          "Conductos del enfriador"
+        ]
+      },
+      {
+        "title": "Petroquímica",
+        "items": [
+          "Reactores",
+          "Reformadores",
+          "Hornos de craqueo"
+        ]
+      },
+      {
+        "title": "Energía y naval",
+        "items": [
+          "Refractarios de calderas",
+          "Calderas marinas y componentes de hornos"
+        ]
+      },
+      {
+        "title": "Hornos y baterías de coque",
+        "items": [
+          "Hormigones aislantes y densos en hornos industriales",
+          "Hormigones refractarios de baterías de coque"
+        ]
+      },
+      {
+        "title": "Refuerzo de hormigón",
+        "items": [
+          "Cimentaciones",
+          "Pavimentos",
+          "Losas estancas"
+        ]
+      }
+    ],
+    "supplyTitle": "Qué suministramos",
+    "supply": [
+      "Santura Engineering fabrica fibras de acero en su propio taller por ambos procesos: agujas de extracción en fundido en AISI 304, 310 y 446, y agujas trefiladas rectas, con ganchos y onduladas. Otras aleaciones, longitudes y diámetros se fabrican bajo pedido.",
+      "Santura atiende a clientes de acero, cemento, petroquímica y energía desde 1980, exporta a más de 25 países y trabaja con un sistema de calidad certificado ISO 9001:2015. Las fibras pueden enviarse junto con los anclajes SEPL para el mismo revestimiento."
+    ],
+    "standardsTitle": "Normas",
+    "standards": [
+      "Fibras de acero para hormigón reforzado con fibras (tipos I–V)",
+      "Fibras para hormigón: fibras de acero"
+    ],
+    "standardsNote": "Estas normas se refieren a fibras para hormigón. Las fibras refractarias suelen especificarse por aleación, longitud y diámetro en la especificación del hormigón refractario o del proyecto.",
+    "relatedTitle": "Productos y servicios relacionados",
+    "relatedAnchors": "Anclajes SEPL para revestimientos de ladrillo, hormigón refractario y fibra cerámica.",
+    "relatedCalsil": "Aislamiento rígido para equipos de alta temperatura.",
+    "relatedPickling": "Decapado y pasivado de productos de acero inoxidable.",
+    "relatedPins": "Pernos para soldar y arandelas para fijar aislamiento.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué diferencia hay entre las fibras de extracción en fundido y las trefiladas en frío?",
+        "a": "Las fibras de extracción en fundido se extraen del acero inoxidable fundido a 1500–1600 °C mediante una rueda que gira a gran velocidad, lo que les da una sección irregular que se ancla en el hormigón refractario. Son la fibra refractaria más utilizada: económicas y fáciles de bombear por mangueras. Las fibras trefiladas se fabrican estirando alambre a través de hileras y cortándolo a medida, lo que da una fibra redonda uniforme de alta resistencia. Se ofrecen rectas, con extremos en gancho u onduladas; las de ganchos se usan mucho en hormigón."
+      },
+      {
+        "q": "¿Qué grado de fibra de acero es mejor para aplicaciones refractarias?",
+        "a": "Depende de la temperatura de servicio, la atmósfera y la exposición química. El AISI 446, un grado ferrítico con 23–27 % de cromo, tiene muy buena resistencia a la oxidación. El AISI 310 es un grado con alto cromo y níquel para temperaturas más altas y ciclos térmicos. El AISI 304 es un grado de uso general para temperaturas moderadas. Las recomendaciones del fabricante del hormigón refractario deben orientar la elección final."
+      },
+      {
+        "q": "¿Qué dosificación de fibra de acero se usa en hormigones refractarios?",
+        "a": "La dosificación suele expresarse en porcentaje en peso del hormigón refractario seco y depende de la formulación, la aplicación y las condiciones de servicio. Siga la ficha técnica del fabricante del hormigón refractario y la especificación del diseñador del revestimiento; podemos asesorarle sobre el tipo y la medida de fibra para su hormigón."
+      },
+      {
+        "q": "¿Pueden las fibras de acero sustituir a la malla metálica en revestimientos refractarios?",
+        "a": "En muchos revestimientos monolíticos, sí. Las fibras se reparten por todo el hormigón refractario y lo refuerzan en tres dimensiones, mientras que la malla lo hace en un solo plano. Esto puede reducir o eliminar la necesidad de malla, facilitar el montaje y limitar la fisuración. El diseñador del revestimiento debe confirmarlo en cada aplicación."
+      },
+      {
+        "q": "¿Qué longitudes y diámetros de fibra fabrica Santura?",
+        "a": "Las agujas trefiladas rectas se suministran habitualmente de 25–35 mm de largo y 0,3–0,7 mm de diámetro, con resistencia a la tracción superior a 650 MPa. Las agujas de extracción en fundido se ofrecen en una amplia gama de longitudes y diámetros en AISI 304, 310 y 446. Las fibras con ganchos y onduladas, y otras medidas y aleaciones, se fabrican bajo pedido."
+      }
+    ],
+    "ctaTitle": "¿Necesita fibras de acero?",
+    "ctaText": "Indíquenos el tipo de fibra, el grado, la longitud, el diámetro y la cantidad, o el hormigón refractario que va a reforzar. Le responderemos con una cotización y el plazo de entrega.",
+    "ctaRfq": "Solicitar cotización de fibras de acero",
+    "ctaContact": "O contacte con nuestro equipo"
+  },
+  "tdPage": {
+    "metaTitle": "Proveedor de acero inoxidable | Barras, alambrón, perfiles",
+    "metaDescription": "Alambrón, barras hexagonales, pletinas, ángulos y barras redondas de inox. Inox con certificado de acería en 304, 316, 310 desde 1980 a 25+ países.",
+    "eyebrow": "División comercial",
+    "h1": "División comercial de acero inoxidable",
+    "subheading": "Alambrón en rollos, barras hexagonales, cuadradas, pletinas y barras de calidad eje de bomba, ángulos y barras laminadas en caliente de acero inoxidable con certificado de acería, adquiridos a acerías de prestigio y suministrados con certificados EN 10204 3.1.",
+    "badges": [
+      "Alambrón en rollos",
+      "Barras calibradas",
+      "Pletinas y ángulos HRAP",
+      "Barras PSQ",
+      "Series 200, 300, 400",
+      "EN 10204 3.1"
+    ],
+    "heroAlt": "La siderurgia ayer y hoy: antiguos convertidores de acero en un grabado junto a una acería moderna colando metal fundido",
+    "gallery": [
+      "Rollos de alambre de acero inoxidable en almacén",
+      "Barras hexagonales calibradas de acero inoxidable",
+      "Barras cuadradas de acero inoxidable",
+      "Pletinas HRAP de acero inoxidable",
+      "Ángulos de lados iguales HRAP de acero inoxidable",
+      "Barras redondas de calidad eje de bomba (PSQ) de acero inoxidable",
+      "Barras de acero inoxidable laminadas en caliente",
+      "Bobinas de alambrón de acero inoxidable",
+      "Ángulo de lados iguales de acero inoxidable"
+    ],
+    "overviewTitle": "Acero inoxidable de un solo proveedor",
+    "overview": [
+      "La división comercial de Santura Engineering suministra y exporta perfiles de acero inoxidable con certificado de acería a proyectos industriales en Oriente Medio, África y Europa. Compramos a acerías de prestigio y entregamos a refinerías, obras, talleres de fabricación y contratistas EPC, con certificados de inspección EN 10204 3.1.",
+      "La división complementa nuestra propia fabricación de anclajes refractarios y fibras de acero. Muchos de esos mismos clientes también necesitan perfiles de inoxidable y pueden comprar ambos a un solo proveedor, con un único juego de documentos."
+    ],
+    "jumpLabel": "Productos de esta página",
+    "sections": [
+      {
+        "title": "Alambrón en rollos",
+        "text": "El alambrón de acero inoxidable en rollos es la materia prima de cables, muelles, tornillería, electrodos de soldadura, mallas de alambre y anclajes refractarios, y también se usa en menaje, instrumental médico y componentes electrónicos.",
+        "rows": [
+          {
+            "label": "Rango de medidas",
+            "value": "5,5–16 mm en rollos de bloque (5,5, 6, 6,5, 7, 7,5, 8, 9, 10, 11, 12, 13, 14, 15, 16 mm); 17–40 mm en rollos garret"
+          },
+          {
+            "label": "Peso del rollo",
+            "value": "850–1200 kg (rollos de bloque)"
+          },
+          {
+            "label": "Dimensiones del rollo",
+            "value": "Rollos de bloque: DI 800–900 mm. Rollos garret: DI 550–650 mm, DE 750–850 mm"
+          },
+          {
+            "label": "Norma",
+            "value": "Según EN 10088"
+          },
+          {
+            "label": "Estado de suministro",
+            "value": "Laminado en caliente (HR); laminado y decapado (HRP); laminado, recocido y decapado (HRAP); laminado y recocido (HRA)"
+          },
+          {
+            "label": "Embalaje",
+            "value": "Flejes de acero en cada rollo con envoltura plástica; embalaje en film para HRP y HRAP; o según especificación"
+          }
+        ]
+      },
+      {
+        "title": "Barras hexagonales (calibradas)",
+        "text": "Barras hexagonales calibradas para tuercas, válvulas, racores, tornillería y tornillos hexagonales, que combinan resistencia y resistencia a la corrosión. Disponibles en grados 201, 304/304L, 316/316L y 303.",
+        "rows": [
+          {
+            "label": "Grados",
+            "value": "201, 304/304L, 316/316L, 303"
+          },
+          {
+            "label": "Rango de medidas",
+            "value": "12–55 mm (½\" a 2¼\")"
+          },
+          {
+            "label": "Tolerancia de medida",
+            "value": "h11"
+          },
+          {
+            "label": "Longitud",
+            "value": "3,00–6,70 m (10–22 ft); corte a medida con tolerancia −0/+50 mm"
+          },
+          {
+            "label": "Chaflán",
+            "value": "30°, 45° o 60°; extremos de corte limpios sin rebabas"
+          },
+          {
+            "label": "Rectitud",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Acabado superficial",
+            "value": "Granallado y estirado en frío, o pulido con banda"
+          },
+          {
+            "label": "Tratamiento térmico",
+            "value": "Recocido de solubilización"
+          }
+        ]
+      },
+      {
+        "title": "Barras cuadradas",
+        "text": "Barras cuadradas de acero inoxidable austenítico para usos exigentes como piezas aeroespaciales, manómetros, sensores de temperatura y células de carga. La medida entre caras y el radio de esquina pueden ajustarse a sus requisitos. Las barras estiradas y pulidas son para uso decorativo; las granalladas y estiradas en frío, para aplicaciones críticas.",
+        "rows": [
+          {
+            "label": "Grados",
+            "value": "Grados austeníticos"
+          },
+          {
+            "label": "Rango de medidas",
+            "value": "12–55 mm (½\" a 2¼\")"
+          },
+          {
+            "label": "Tolerancia de medida",
+            "value": "h11"
+          },
+          {
+            "label": "Longitud",
+            "value": "3,00–6,70 m (10–22 ft); corte a medida con tolerancia −0/+50 mm"
+          },
+          {
+            "label": "Chaflán",
+            "value": "30°, 45° o 60°; extremos de corte limpios sin rebabas"
+          },
+          {
+            "label": "Rectitud",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Acabado superficial",
+            "value": "Granallado y estirado en frío, o pulido con banda"
+          },
+          {
+            "label": "Tratamiento térmico",
+            "value": "Recocido de solubilización"
+          }
+        ]
+      },
+      {
+        "title": "Pletinas HRAP",
+        "text": "Pletinas laminadas en caliente, recocidas y decapadas, laminadas a medida y no cortadas de chapa, lo que les da más resistencia que las pletinas cizalladas. Para construcción y fabricación de alta resistencia; hay barras pulidas con banda para uso decorativo.",
+        "rows": [
+          {
+            "label": "Tolerancia de medida",
+            "value": "ASTM A484"
+          },
+          {
+            "label": "Longitud",
+            "value": "3,00–6,70 m (10–22 ft); corte a medida con tolerancia −0/+50 mm"
+          },
+          {
+            "label": "Rectitud",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Acabado superficial",
+            "value": "Laminado en caliente, recocido, decapado y granallado, o pulido con banda"
+          },
+          {
+            "label": "Tratamiento térmico",
+            "value": "Recocido de solubilización"
+          },
+          {
+            "label": "Medidas",
+            "value": "Anchos 25–100 mm, espesores 5–50 mm (ver tabla)"
+          }
+        ]
+      },
+      {
+        "title": "Ángulos HRAP",
+        "text": "Ángulos de lados iguales laminados en caliente, recocidos y decapados para construcción y estructuras, mobiliario, equipos de procesado de alimentos y maquinaria.",
+        "rows": [
+          {
+            "label": "Tolerancia de medida",
+            "value": "ASTM A484"
+          },
+          {
+            "label": "Longitud",
+            "value": "3,00–6,70 m (10–22 ft); corte a medida con tolerancia −0/+50 mm"
+          },
+          {
+            "label": "Rectitud",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Acabado superficial",
+            "value": "Laminado en caliente, recocido, decapado y granallado"
+          },
+          {
+            "label": "Tratamiento térmico",
+            "value": "Recocido de solubilización"
+          },
+          {
+            "label": "Medidas",
+            "value": "De 20 × 20 mm a 75 × 75 mm, espesor 3–12 mm (ver tabla)"
+          }
+        ]
+      },
+      {
+        "title": "Barras PSQ (calidad eje de bomba)",
+        "text": "Barras redondas de precisión con tolerancia más estrecha y mejor rectitud que las barras calibradas normales, listas para usarse directamente como ejes de bomba, de cilindro y de pistón.",
+        "rows": [
+          {
+            "label": "Rango de medidas",
+            "value": "6–63,5 mm (¼\" a 2½\")"
+          },
+          {
+            "label": "Tolerancia de medida",
+            "value": "h8"
+          },
+          {
+            "label": "Longitud",
+            "value": "3,00–6,70 m (10–22 ft); corte a medida con tolerancia −0/+50 mm"
+          },
+          {
+            "label": "Chaflán",
+            "value": "30°, 45° o 60°"
+          },
+          {
+            "label": "Rectitud",
+            "value": "Hasta 0,25 mm/m TIR"
+          },
+          {
+            "label": "Acabado superficial",
+            "value": "Rectificado sin centros y pulido con banda hasta Ra 0,2 µm; pulido grano 240–320"
+          },
+          {
+            "label": "Tratamiento térmico",
+            "value": "Recocido de solubilización, recocido, QT 650, QT 800 y otros"
+          }
+        ]
+      },
+      {
+        "title": "Barras laminadas en caliente",
+        "text": "Barras redondas laminadas en caliente para transformadores, mecanizado y forja, suministradas enderezadas.",
+        "rows": [
+          {
+            "label": "Medidas",
+            "value": "13–150 mm (ver lista)"
+          },
+          {
+            "label": "Tolerancia",
+            "value": "EN 10060"
+          },
+          {
+            "label": "Longitud",
+            "value": "3,00–6,70 m (10–22 ft)"
+          },
+          {
+            "label": "Rectitud",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Acabado superficial",
+            "value": "Bruto de laminación, negro"
+          },
+          {
+            "label": "Tratamiento térmico",
+            "value": "Recocido, recocido de solubilización o templado y revenido"
+          }
+        ]
+      }
+    ],
+    "wireGradesTitle": "Grados de alambrón",
+    "wireGradesAstm": "ASTM / AISI",
+    "wireGradesEn": "DIN / EN",
+    "wireGradesElectrode": "Grados para electrodos de soldadura",
+    "wireGradesNote": "También hay grados especiales según los requisitos del cliente.",
+    "colWidth": "Ancho (mm)",
+    "colThicknessRange": "Rango de espesor (mm)",
+    "colAngleSize": "Medida (mm)",
+    "colAngleThickness": "Espesores (mm)",
+    "hotRolledSizesTitle": "Medidas (mm)",
+    "gradesTitle": "Grados de acero inoxidable",
+    "gradesIntro": "Las familias de grados que suministramos. Consúltenos por cualquier grado no indicado.",
+    "colFamily": "Familia",
+    "colGrades": "Grados",
+    "colProperties": "Propiedades clave",
+    "gradeRows": [
+      {
+        "family": "Austenítico (serie 300)",
+        "grades": "304, 304L, 304H, 310, 310S, 316, 316L, 316Ti, 321",
+        "properties": "Buena resistencia general a la corrosión; no magnético en estado recocido; la familia más usada"
+      },
+      {
+        "family": "Austenítico (serie 200)",
+        "grades": "201, 202, 204Cu",
+        "properties": "Menor contenido de níquel; alternativa económica a la serie 300 para servicios menos exigentes"
+      },
+      {
+        "family": "Martensítico (serie 400)",
+        "grades": "410, 420",
+        "properties": "Templable por tratamiento térmico; resistente al desgaste; magnético"
+      },
+      {
+        "family": "Ferrítico (serie 400)",
+        "grades": "430, 430L",
+        "properties": "Magnético; buena resistencia a la oxidación y a la corrosión bajo tensión por cloruros; económico"
+      },
+      {
+        "family": "Austenítico altamente aleado",
+        "grades": "904L",
+        "properties": "Resistente a ácidos fuertes; usado en procesos químicos"
+      },
+      {
+        "family": "Dúplex y especiales",
+        "grades": "1.4362 (2304); otros bajo pedido",
+        "properties": "Grados especiales adquiridos según la especificación del proyecto"
+      }
+    ],
+    "gradesNote": "El material se suministra según especificaciones ASTM, DIN/EN o IS, con certificados de inspección EN 10204 3.1.",
+    "marketsTitle": "Mercados que atendemos",
+    "marketsIntro": "Exportamos perfiles de acero inoxidable con la documentación necesaria para el despacho de aduanas.",
+    "markets": [
+      {
+        "region": "Emiratos Árabes Unidos",
+        "text": "Dubái, Abu Dabi, Sharjah, Zona Franca de Jebel Ali (JAFZA) y la zona industrial de Ruwais, con entrega en obra en los siete emiratos."
+      },
+      {
+        "region": "Arabia Saudí",
+        "text": "Suministro a proyectos industriales y de construcción."
+      },
+      {
+        "region": "Omán",
+        "text": "Suministro a proyectos industriales y de construcción."
+      },
+      {
+        "region": "Otros países del CCG",
+        "text": "Baréin, Kuwait y Catar bajo pedido."
+      },
+      {
+        "region": "África",
+        "text": "Suministro a mercados industriales de África."
+      },
+      {
+        "region": "Europa",
+        "text": "Suministro por proyecto."
+      }
+    ],
+    "applicationsTitle": "Aplicaciones por sector",
+    "applications": [
+      {
+        "title": "Petróleo, gas y petroquímica",
+        "items": [
+          "Componentes de oleoductos y gasoductos",
+          "Fabricación de recipientes a presión",
+          "Materiales para plataformas offshore"
+        ]
+      },
+      {
+        "title": "Construcción y arquitectura",
+        "items": [
+          "Soportes estructurales y placas base",
+          "Fachadas y revestimientos",
+          "Elementos interiores y decorativos"
+        ]
+      },
+      {
+        "title": "Naval",
+        "items": [
+          "Perfiles 316L para construcción naval y herrajes de yates",
+          "Infraestructura portuaria",
+          "Componentes de plantas desaladoras"
+        ]
+      },
+      {
+        "title": "Fabricación industrial",
+        "items": [
+          "Bastidores de maquinaria y equipos",
+          "Equipos de procesado de alimentos",
+          "Instalaciones de tratamiento de agua"
+        ]
+      },
+      {
+        "title": "Automoción y aeroespacial",
+        "items": [
+          "Barras para tornillería y ejes",
+          "Componentes de precisión"
+        ]
+      },
+      {
+        "title": "Productos de alambre",
+        "items": [
+          "Cables y muelles",
+          "Electrodos de soldadura",
+          "Mallas de alambre y anclajes refractarios"
+        ]
+      }
+    ],
+    "whyTitle": "Por qué comprar a nuestra división comercial",
+    "why": [
+      "Más de 40 años de experiencia en la industria",
+      "Material con certificado de acería y certificados EN 10204 3.1",
+      "Grados de las series 200, 300 y 400, más aleaciones especiales",
+      "Estados de suministro desde laminado y decapado hasta estirado en frío, pulido y rectificado sin centros",
+      "Barras cortadas a medida con tolerancia −0/+50 mm",
+      "Perfiles de inoxidable y nuestros propios anclajes refractarios y fibras de un solo proveedor",
+      "Material adquirido a acerías de prestigio",
+      "Exportación a más de 25 países"
+    ],
+    "findTitle": "Encuéntrenos en",
+    "findText": "Santura Engineering también figura en estos mercados B2B.",
+    "find": {
+      "indiamart": "IndiaMART",
+      "tradeindia": "TradeIndia"
+    },
+    "newTab": "(se abre en una pestaña nueva)",
+    "relatedTitle": "Productos relacionados",
+    "relatedAnchors": "Fabricados en nuestro taller con grados de inoxidable como SS 304, 310 y 316.",
+    "relatedFibres": "Fibras de extracción en fundido y trefiladas en AISI 304, 310 y 446.",
+    "relatedFasteners": "Tornillos, espárragos, tuercas y arandelas de inoxidable y acero aleado.",
+    "relatedAccessories": "Flejes, tornillos y herrajes de inoxidable para aislamiento.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Qué grados de acero inoxidable suministra Santura?",
+        "a": "Santura suministra grados austeníticos (304, 304L, 304H, 310, 310S, 316, 316L, 316Ti, 321 y la serie 200), ferríticos (430, 430L), martensíticos (410, 420) y el austenítico altamente aleado 904L. El alambrón también se ofrece en grados DIN/EN y grados para electrodos de soldadura, y los grados especiales se consiguen bajo pedido. El material se suministra con certificados de inspección EN 10204 3.1."
+      },
+      {
+        "q": "¿Qué perfiles de acero inoxidable hay disponibles?",
+        "a": "Suministramos alambrón en rollos (5,5–40 mm), barras hexagonales (12–55 mm), barras cuadradas (12–55 mm), pletinas HRAP (25–100 mm de ancho), ángulos HRAP (de 20 × 20 a 75 × 75 mm), barras calidad eje de bomba (6–63,5 mm) y barras laminadas en caliente (13–150 mm). Los estados de suministro incluyen laminado en caliente, decapado, recocido, estirado en frío, pulido y rectificado sin centros."
+      },
+      {
+        "q": "¿Suministra Santura acero inoxidable a EAU y Arabia Saudí?",
+        "a": "Sí. Suministramos perfiles de inoxidable a EAU, incluidos Dubái, Abu Dabi, Sharjah, la Zona Franca de Jebel Ali (JAFZA) y Ruwais, y a Arabia Saudí, Omán y otros países del CCG, con la documentación necesaria para el despacho de aduanas."
+      },
+      {
+        "q": "¿Qué certificados acompañan al acero inoxidable?",
+        "a": "El acero inoxidable se suministra con certificados de inspección EN 10204 3.1, que indican la composición química, las propiedades mecánicas y el tratamiento térmico del material. El material se suministra según especificaciones ASTM, DIN/EN o IS, según requiera el proyecto."
+      },
+      {
+        "q": "¿Puede Santura suministrar tanto acero inoxidable como productos refractarios?",
+        "a": "Sí. La división comercial suministra perfiles de inoxidable con certificado de acería, mientras que nuestro taller fabrica anclajes refractarios, fibras de acero, remaches ciegos y chapas perforadas. Los contratistas EPC y operadores de planta que necesitan ambos pueden comprarlos a un solo proveedor, lo que simplifica las compras."
+      }
+    ],
+    "ctaTitle": "¿Necesita perfiles de acero inoxidable?",
+    "ctaText": "Indíquenos el producto, grado, medida, longitud, estado de suministro y cantidad. Le responderemos con una cotización y el plazo de entrega.",
+    "ctaRfq": "Solicitar cotización de acero inoxidable",
     "ctaContact": "O contacte con nuestro equipo"
   }
 }

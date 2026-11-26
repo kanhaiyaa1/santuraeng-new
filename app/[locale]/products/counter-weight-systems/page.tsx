@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { buildAlternates, siteUrl } from '@/lib/seo';
 import { SITE } from '@/lib/site';
 import { btnPrimary, btnSecondary } from '@/lib/ui';
 import WhatsAppLink from '@/components/WhatsAppLink';
+import ProductGallery from '@/components/products/ProductGallery';
 
 type Props = { params: { locale: string } };
 type Item = { title: string; text: string };
@@ -14,7 +14,9 @@ const SLUG = 'counter-weight-systems';
 const PATH = `/products/${SLUG}`;
 // Only photo on file (client-supplied, 320 px). More photos needed: lever arms, bushings, clevises, installed systems.
 const PHOTO = '/images/fabrication/counter-weight-systems/counter-weight-lever-arm-dead-weight-stacks-galvanized.jpg';
-const LINDE_CERT = '/images/certificates/linde-engineering-approved-supplier-counter-weight-system.pdf';
+// Alt texts: cwPage.photoAlt, cwPage.photo2Alt.
+const PHOTOS = [PHOTO, '/images/fabrication/counter-weight-systems/counter-weight-lever-arm-dead-weight-workshop.jpg'];
+const LINDE_CERT = '/documents/certificates/linde-engineering-approved-supplier-counter-weight-system.pdf';
 
 // Numbered markers on the "how it works" diagram; labels are cwPage.diagram[n-1].
 const MARKERS = [
@@ -100,7 +102,7 @@ export default async function CounterWeightPage({ params: { locale } }: Props) {
       name: t('h1'),
       description: t('metaDescription'),
       url: pageUrl,
-      image: [`${siteUrl}${PHOTO}`],
+      image: PHOTOS.map((src) => `${siteUrl}${src}`),
       category: categories(`items.${SLUG}.name`),
       material: 'Carbon steel, cast iron, SS 410S, Graphalloy bushings, grade 8.8 fasteners',
       brand: { '@type': 'Brand', name: 'Santura Engineering' },
@@ -188,8 +190,8 @@ export default async function CounterWeightPage({ params: { locale } }: Props) {
             </div>
           </div>
           <figure className="lg:col-span-2">
-            <div className="relative mx-auto aspect-[320/313] max-w-sm overflow-hidden rounded-lg border border-line bg-white">
-              <Image src={PHOTO} alt={t('photoAlt')} fill priority sizes="(min-width: 1024px) 384px, 90vw" className="object-cover" />
+            <div className="mx-auto max-w-sm">
+              <ProductGallery images={PHOTOS} alt={t('photoAlt')} alts={[t('photoAlt'), t('photo2Alt')]} label={productPage('gallery')} />
             </div>
             <figcaption className="mx-auto mt-2 max-w-sm text-sm text-ink-muted">{t('photoCaption')}</figcaption>
           </figure>

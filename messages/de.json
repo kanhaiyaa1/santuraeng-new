@@ -115,6 +115,26 @@
         "name": "Energie & Kessel",
         "description": "CFB-, Abhitze-, Müllverbrennungs- und Biomassekessel.",
         "imageAlt": "Hochspannungsmasten bei Sonnenuntergang"
+      },
+      "aluminium": {
+        "name": "Aluminiumherstellung",
+        "description": "Schmelz- und Warmhalteöfen, Anodenbrennöfen und Gießrinnen.",
+        "imageAlt": "Aluminiumcoils in einem Lager"
+      },
+      "copper": {
+        "name": "Kupfer",
+        "description": "Schmelzöfen, Konverter und Anodenöfen.",
+        "imageAlt": "Kupferdrahtcoils"
+      },
+      "ceramic": {
+        "name": "Keramikindustrie",
+        "description": "Tunnelöfen, Herdwagenöfen und Ofenwagen.",
+        "imageAlt": "Mit Keramik beladene Ofenwagen an einem Tunnelofen"
+      },
+      "mining": {
+        "name": "Bergbau & Mineralien",
+        "description": "Drehrohröfen, Kalzinatoren und Trockner für die Mineralaufbereitung.",
+        "imageAlt": "Förderband in einem Untertagebergwerk"
       }
     }
   },
@@ -769,13 +789,13 @@
         "name": "Dämmzubehör",
         "description": "Bänder, Klammern, Scheiben und weiteres Befestigungszubehör."
       },
-      "steel-plates": {
-        "name": "Stahlbleche",
-        "description": "Bleche aus Edelstahl und legiertem Stahl."
-      },
       "trading-division": {
         "name": "Handelsabteilung",
         "description": "Lieferung von Edelstahl und Industriematerialien."
+      },
+      "steel-fibres": {
+        "name": "Stahlfasern",
+        "description": "Schmelzextrahierte und kaltgezogene Edelstahlfasern für Feuerbetone."
       }
     },
     "allCategories": "Alle Produktkategorien",
@@ -1114,6 +1134,7 @@
       "Die positive Materialidentifikation (PMI) ist eine zerstörungsfreie Prüfung, die die chemische Zusammensetzung eines Metalls misst und seine Werkstoffsorte bestätigt. Sie erfolgt mit einem tragbaren Röntgenfluoreszenz-Analysegerät (RFA) oder einem optischen Emissionsspektrometer (OES).",
       "Das Gerät misst die Zusammensetzung in Sekunden und gleicht sie mit einer Werkstoffbibliothek ab. Nichts wird geschnitten, gebohrt oder beschädigt, sodass fertige Anker geprüft und versandt werden können."
     ],
+    "whatImageAlt": "Handgehaltenes RFA-Analysegerät mit einer Messung für SS310",
     "whyTitle": "Warum es für Feuerfestanker wichtig ist",
     "why": [
       {
@@ -1589,7 +1610,12 @@
       "Schautürrahmen und Türteile vor der Montage",
       "Serie feuerverzinkter Schautüren in der Fertigungshalle",
       "Schautüren mit Scharnier, für den Versand gestapelt",
-      "Nahaufnahme feuerverzinkter Schautürrahmen aus einer Serie"
+      "Nahaufnahme feuerverzinkter Schautürrahmen aus einer Serie",
+      "Verzinkte Schautür mit klappbarer Zugangstür und Typenschild",
+      "Schautüren mit Sichtfenstern, nach der Prüfung gekennzeichnet",
+      "Reihen gekennzeichneter Schautüren vor dem Versand",
+      "Verzinkte Schautürrahmen in der Werkstatt aufgereiht",
+      "Gestapelte verzinkte Schautürrahmen, Seitenansicht"
     ],
     "relatedTitle": "Verwandte Produkte und Leistungen",
     "relatedAnchorsText": "Die Anker, die die Feuerfestauskleidung in jeder Tür halten, in denselben Legierungen wie Ihre Wandauskleidung.",
@@ -1812,7 +1838,8 @@
       "Fundamentschrauben mit Rohrhülsen, für den Versand gekennzeichnet",
       "Feuerverzinkte Fundamentschrauben mit Rohrhülsen in der Werkstatt ausgelegt",
       "Bestand feuerverzinkter Fundamentschrauben mit Muttern und Hülsen",
-      "Nahaufnahme von Rohrhülsen und Muttern an Fundamentschrauben"
+      "Nahaufnahme von Rohrhülsen und Muttern an Fundamentschrauben",
+      "Verzinkte Fundamentschrauben mit Rohrhülsen und quadratischen Kopfplatten"
     ],
     "relatedTitle": "Verwandte Produkte",
     "relatedStanchions": "Stützen und Pfosten für Bühnen und Geländer, oft auf denselben Fundamenten montiert.",
@@ -2077,7 +2104,9 @@
       "Serie feuerverzinkter Geländerpfosten mit ausgesteiften Fußplatten",
       "Feuerverzinkter Geländerpfosten mit angeschweißten Handlaufarmen und Fußplatte",
       "Geländerpfosten mit seitlichem Handlaufarm und ausgesteifter Fußplatte",
-      "Nahaufnahme einer geschweißten T-Verbindung an einem Pfosten"
+      "Nahaufnahme einer geschweißten T-Verbindung an einem Pfosten",
+      "Verzinkter Rungenpfosten mit Seitenarm und versteifter Fußplatte",
+      "Verzinkte Rungen mit T-Holmen in der Fertigungswerkstatt"
     ],
     "overviewTitle": "Was Geländerpfosten sind",
     "overview": [
@@ -2607,6 +2636,7 @@
     "subheading": "Hebelarm-Gegengewichtssysteme, die das Gewicht der Strahlungsrohre in Wasserstoff-Reformern und Ethylen-Spaltöfen tragen. Von Santura seit Ende der 1990er-Jahre nach den Konstruktionszeichnungen des Kunden gefertigt.",
     "lindeBadge": "Zugelassener Lieferant von Linde Engineering India, {period}",
     "photoAlt": "Feuerverzinkte Gegengewichts-Hebelarmbaugruppe mit Gewichtsstapeln",
+    "photo2Alt": "Gegengewichtshebel mit gestapelten Totgewichten in der Werkstatt",
     "photoCaption": "Feuerverzinkte Hebelarmbaugruppe mit Gewichtsstapeln in unserer Werkstatt.",
     "whatTitle": "Was ein Gegengewichtssystem leistet",
     "what": [
@@ -3859,6 +3889,2469 @@
     "ctaTitle": "Sie benötigen Calciumsilikat-Dämmung?",
     "ctaText": "Nennen Sie uns Form, Rohrgrößen oder Plattenmaße, Dicke, Anwendungstemperatur und Menge. Wir antworten mit Angebot und Lieferzeit.",
     "ctaRfq": "Angebot für Calciumsilikat anfordern",
+    "ctaContact": "Oder kontaktieren Sie unser Team"
+  },
+  "ipPage": {
+    "metaTitle": "Dämmstoffhalter Hersteller | Schweißstifte & Klemmscheiben",
+    "metaDescription": "Hersteller von Dämmstoffhaltern: Schweißstifte, Klebestifte und Klemmscheiben aus Edelstahl und verzinktem Stahl. Seit 1980, Export in 25+ Länder.",
+    "eyebrow": "Hergestellt von Santura",
+    "h1": "Dämmstoffhalter und Schweißstifte",
+    "subheading": "Schweißbare, klebbare und selbstklebende Dämmstoffhalter mit passenden Klemmscheiben und Abdeckkappen für Kanäle, Behälter, Wände und Anlagen. Selbst hergestellt aus Edelstahl, verzinktem Stahl und Kunststoff.",
+    "badges": [
+      "CD-Schweißstifte",
+      "Lochplatten-Stifte",
+      "Selbstklebende Stifte",
+      "Klemmscheiben",
+      "Abdeckkappen",
+      "Zeugnisse EN 10204 3.1"
+    ],
+    "gallery": [
+      "Dämmstoffhalter mit gelochter Grundplatte, darunter ein Kunststoffstift",
+      "Schweißstifte mit Abdeckkappen und Klemmscheiben",
+      "Klemmscheiben (Speed Washer) aus Edelstahl für Dämmstoffhalter",
+      "Quadratische Klemmscheibe für Dämmstoffhalter",
+      "Abdeckkappe für Dämmstoffhalter",
+      "Verschiedene Klemmscheiben für Dämmstoffhalter",
+      "Isolierstift mit Lochbasis und quadratischer Grundplatte"
+    ],
+    "overviewTitle": "Was Dämmstoffhalter sind",
+    "overview": [
+      "Dämmstoffhalter, auch Isolierstifte, Klebestifte oder Schweißstifte genannt, befestigen Dämmung mechanisch auf einem Untergrund. Der Stift wird am Untergrund befestigt, die Dämmung auf den Schaft gedrückt und mit einer Klemmscheibe oder Abdeckkappe gehalten.",
+      "Die Stifte verhindern, dass die Dämmung durchhängt, verrutscht oder abfällt, sodass Wärme- und Schalldämmung erhalten bleiben und die Montage sauber aussieht. Sie werden an Lüftungskanälen, Behältern und Tanks, Kesselgehäusen, Schiffsschotten, Wänden und Decken eingesetzt.",
+      "Santura stellt Dämmstoffhalter selbst her, zusammen mit seinen Feuerfestankern. Die Stifte gibt es für drei Befestigungsarten: geschweißt (Kondensatorentladung oder Hubzündung), geklebt mit Lochplatte und selbstklebend. Passende Scheiben und Kappen werden aus denselben Werkstoffen gefertigt."
+    ],
+    "madeTitle": "Aus eigener Fertigung",
+    "made": [
+      "Stifte aus Edelstahl, verzinktem Kohlenstoffstahl und PVC",
+      "Schweißbare und klebbare Ausführungen",
+      "Klemmscheiben und Abdeckkappen",
+      "Für Steinwolle, Glaswolle, EPS, Polystyrol und PUR",
+      "Mit Abnahmeprüfzeugnissen EN 10204 3.1"
+    ],
+    "typesTitle": "Dämmstoffhalter nach Befestigungsart",
+    "types": [
+      {
+        "title": "Schweißstifte (CD / Hubzündung)",
+        "text": "Ein Stift mit Schweißfuß, der durch Kondensatorentladungs- (CD) oder Hubzündungs-Bolzenschweißen dauerhaft mit Blech verbunden wird.",
+        "rows": [
+          {
+            "label": "Schweißzeit",
+            "value": "Unter 1 Sekunde pro Stift"
+          },
+          {
+            "label": "Geeignet für",
+            "value": "Metallkanäle, Behältermäntel, Tankwände und Blechpaneele"
+          },
+          {
+            "label": "Kopfformen",
+            "value": "Tellerkopf (integrierte Scheibe) oder ohne Kopf mit separater Klemmscheibe"
+          },
+          {
+            "label": "Vorteil",
+            "value": "Dauerhafte, feste Verbindung, die auch im Brandfall hält"
+          },
+          {
+            "label": "Werkstoffe",
+            "value": "Verzinkter Kohlenstoffstahl, SS 304, SS 316, Aluminium; Bimetall (Aluminiumkopf, Stahlschaft)"
+          }
+        ]
+      },
+      {
+        "title": "Klebestifte mit Lochplatte",
+        "text": "Ein Stift auf einer gelochten Metallgrundplatte, die mit Klebemasse auf den Untergrund geklebt wird.",
+        "rows": [
+          {
+            "label": "Geeignet für",
+            "value": "Nicht schweißbare Untergründe: Beton, Mauerwerk, GFK und lackierte Flächen"
+          },
+          {
+            "label": "Montage",
+            "value": "Kleber durch die Löcher auftragen, mit Drehbewegung andrücken und 24–72 Stunden aushärten lassen"
+          },
+          {
+            "label": "Grundplatte",
+            "value": "Gelochte quadratische oder runde Platte, typisch 50 × 50 mm; der Kleber dringt durch die Löcher für bessere Haftung"
+          },
+          {
+            "label": "Vorteil",
+            "value": "Kein Schweißgerät erforderlich"
+          },
+          {
+            "label": "Werkstoffe",
+            "value": "Verzinkter Stahl, SS 304, Aluminium"
+          }
+        ]
+      },
+      {
+        "title": "Selbstklebende Stifte",
+        "text": "Ein Stift mit vorbeschichtetem Haftklebepad am Fuß.",
+        "rows": [
+          {
+            "label": "Geeignet für",
+            "value": "Schnelle Montage leichter Dämmung auf sauberen, trockenen, nicht saugenden Flächen"
+          },
+          {
+            "label": "Montage",
+            "value": "Schutzfolie abziehen, fest ohne Drehen andrücken und 15–20 Minuten warten"
+          },
+          {
+            "label": "Last",
+            "value": "Bis etwa 1,4 kg pro Stift"
+          },
+          {
+            "label": "Temperatur",
+            "value": "Verarbeitung über 10 °C; Einsatz von −20 °C bis 90 °C"
+          },
+          {
+            "label": "Einschränkungen",
+            "value": "Nicht für lackierte Flächen, Trockenbau oder Metall in direkter Sonne"
+          }
+        ]
+      }
+    ],
+    "guideTitle": "Den richtigen Stift wählen",
+    "guideIntro": "Gehen Sie vom Untergrund und den Betriebsbedingungen aus und wählen Sie dann Befestigungsart und Werkstoff.",
+    "colApplication": "Anwendung",
+    "colPin": "Empfohlener Stift",
+    "colWhy": "Warum",
+    "guideRows": [
+      {
+        "application": "Metallkanal, Behälter- oder Tankwand",
+        "pin": "CD-Schweißstift",
+        "why": "Dauerhafte Verbindung, hält im Brandfall, schnellste Montage"
+      },
+      {
+        "application": "Beton, Mauerwerk oder GFK",
+        "pin": "Klebestift mit Lochplatte",
+        "why": "Kein Schweißen nötig; feste Verbindung durch die Löcher"
+      },
+      {
+        "application": "Schnelle, trockene Montage leichter Dämmung",
+        "pin": "Selbstklebender Stift",
+        "why": "Abziehen und andrücken, ohne Aushärtezeit"
+      },
+      {
+        "application": "Kühlraum oder Tiefkühlraum",
+        "pin": "Nylon- oder PVC-Stift",
+        "why": "Vermeidet Wärmebrücken und Kondensat am Stift"
+      },
+      {
+        "application": "Schiffbau, Küste oder Chemieanlage",
+        "pin": "Schweißstift aus SS 304 oder SS 316",
+        "why": "Korrosionsbeständig in rauer Umgebung"
+      },
+      {
+        "application": "Allgemeine Lüftungstechnik, kostengünstig",
+        "pin": "Schweißstift aus verzinktem Stahl",
+        "why": "Wirtschaftlich, mit guter Korrosionsbeständigkeit in Innenräumen"
+      }
+    ],
+    "specTitle": "Stiftmaße",
+    "specRows": [
+      {
+        "label": "Schaftdurchmesser",
+        "value": "2,1, 2,7 und 3,0 mm (andere auf Anfrage)"
+      },
+      {
+        "label": "Schaftlänge",
+        "value": "50, 63, 90, 110, 114 und 150 mm (jede Länge auf Bestellung)"
+      },
+      {
+        "label": "Kopfform",
+        "value": "Tellerkopf (integrierte Scheibe) oder ohne Kopf"
+      },
+      {
+        "label": "Fußform",
+        "value": "Schweißfuß, Lochplatte (50 × 50 mm) oder Klebepad"
+      },
+      {
+        "label": "Oberfläche",
+        "value": "Blank, verzinkt oder auf Wunsch passiviert"
+      },
+      {
+        "label": "Zeugnisse",
+        "value": "Abnahmeprüfzeugnisse EN 10204 3.1"
+      }
+    ],
+    "materialsTitle": "Werkstoffe",
+    "colMaterial": "Werkstoff",
+    "colBestFor": "Geeignet für",
+    "colMaxTemp": "Max. Temperatur",
+    "materials": [
+      {
+        "name": "Edelstahl 304",
+        "use": "Schiffbau, Chemie, feuchte und korrosive Umgebung; lange Lebensdauer",
+        "temp": "Etwa 800 °C"
+      },
+      {
+        "name": "Edelstahl 316",
+        "use": "Starke Korrosion: Küste, Chloride und chemische Verfahren",
+        "temp": "Etwa 800 °C"
+      },
+      {
+        "name": "Verzinkter Kohlenstoffstahl",
+        "use": "Allgemeine Lüftungs-, Industrie- und Gebäudedämmung; wirtschaftlich",
+        "temp": "Etwa 450 °C"
+      },
+      {
+        "name": "Aluminium",
+        "use": "Leicht; Lebensmittelverarbeitung und Reinräume",
+        "temp": "Etwa 200 °C"
+      },
+      {
+        "name": "Bimetall (Aluminiumkopf, Stahlschaft)",
+        "use": "Aluminiumkopf mit der Schweißfestigkeit eines Stahlschafts",
+        "temp": "Etwa 450 °C"
+      },
+      {
+        "name": "PVC / Nylon",
+        "use": "Kalte Oberflächen; vermeidet Wärmebrücken",
+        "temp": "Etwa 80 °C (PVC) / 120 °C (Nylon)"
+      }
+    ],
+    "materialsNote": "Typische Höchsttemperaturen des Stiftwerkstoffs. Für Keramikfaserauskleidungen oberhalb dieser Grenzen bolzengeschweißte Keramikfaseranker (SEPL-24) verwenden.",
+    "accessoriesTitle": "Klemmscheiben und Abdeckkappen",
+    "accessoriesIntro": "Klemmscheiben greifen den Schaft und halten die Dämmung; Abdeckkappen decken das abgeschnittene Ende ab. Beide gibt es passend zum Stift aus verzinktem Stahl, Edelstahl oder Aluminium.",
+    "accessories": [
+      {
+        "title": "Runde Klemmscheiben",
+        "text": "Speed-Clips, die über den Schaft geschoben werden und ihn greifen.",
+        "sizes": "Ø 25, 35 und 38 mm"
+      },
+      {
+        "title": "Quadratische Klemmscheiben",
+        "text": "Quadratische Clips mit besserem Halt auf ebenen Dämmplatten.",
+        "sizes": "25 × 25, 35 × 35 und 38 × 38 mm"
+      },
+      {
+        "title": "Abdeckkappen",
+        "text": "Decken das freie Schaftende nach dem Aufklemmen ab, für Sicherheit, saubere Optik und Schutz vor scharfen Enden.",
+        "sizes": "Passend zum Stiftdurchmesser"
+      }
+    ],
+    "washersLink": "Unser komplettes Scheibenprogramm",
+    "compatibleTitle": "Geeignete Dämmstoffe",
+    "compatibleIntro": "Die Stifte eignen sich für jede Dämmung, die der Schaft durchstechen kann. Für Keramikfasermatten bei hohen Temperaturen stattdessen Keramikfaser-Bolzenanker verwenden.",
+    "compatible": {
+      "mineralWool": "Steinwolle / Mineralwolle",
+      "glassWool": "Glaswolle",
+      "eps": "EPS (Styropor)",
+      "xps": "Extrudiertes Polystyrol (XPS)",
+      "puf": "Polyurethan-Hartschaum (PUR)",
+      "ceramic": "Keramikfasermatte (mit SEPL-24)"
+    },
+    "installTitle": "So werden Dämmstoffhalter montiert",
+    "steps": [
+      {
+        "title": "Stift befestigen",
+        "text": "Stift auf den Untergrund schweißen, kleben oder aufkleben."
+      },
+      {
+        "title": "Dämmung aufsetzen",
+        "text": "Die Dämmung auf den Schaft drücken, bis sie plan an der Fläche anliegt."
+      },
+      {
+        "title": "Scheibe aufsetzen",
+        "text": "Klemmscheibe oder Abdeckkappe über den Schaft schieben, um die Dämmung anzudrücken und zu halten."
+      },
+      {
+        "title": "Kürzen oder umbiegen",
+        "text": "Überstehenden Schaft bündig abschneiden oder aus Sicherheitsgründen flach umbiegen."
+      }
+    ],
+    "spacingTitle": "Stiftabstand und Anordnung",
+    "spacing": [
+      "Der Abstand hängt von Gewicht und Dicke der Dämmung, senkrechter oder Überkopf-Lage, Wind und Vibration sowie der Projektspezifikation ab.",
+      "Stifte etwa 75–100 mm vom Plattenrand setzen, damit sich die Platte nicht aufwölbt.",
+      "Systeme des baulichen Brandschutzes verwenden oft einen Stiftabstand von etwa 280 mm; die Angaben des Systemherstellers beachten.",
+      "Immer die Projektspezifikation oder den Verlegeplan des Planers einhalten."
+    ],
+    "techTitle": "Technische Hinweise",
+    "tech": [
+      {
+        "title": "Wärmebrücken",
+        "text": "Metallstifte leiten Wärme durch die Dämmung. Bei Kälteanwendungen wie Kühlräumen und Kaltwasser, wo Kondensat droht, PVC- oder Nylonstifte verwenden oder zusätzliche Dampfsperrmaßnahmen vorsehen."
+      },
+      {
+        "title": "Brandverhalten",
+        "text": "Geschweißte Metallstifte bleiben im Brandfall mechanisch fest und sind daher die zuverlässigste Wahl für den baulichen Brandschutz. Klebestifte hängen von der Hitzebeständigkeit des Klebers ab."
+      },
+      {
+        "title": "Korrosionsbeständigkeit",
+        "text": "Den Stift auf die Umgebung abstimmen: verzinkter Stahl innen, SS 304 bei Feuchte oder Chemikalien und SS 316 in Meeres- und chloridhaltiger Umgebung. Der falsche Werkstoff führt zu frühem Versagen, Verfärbungen und beschädigter Dämmung."
+      }
+    ],
+    "applicationsTitle": "Anwendungen nach Branche",
+    "applications": [
+      {
+        "title": "Lüftungstechnik und Kanäle",
+        "items": [
+          "Glas- oder Mineralwolle-Auskleidung in Rechteckkanälen",
+          "Außendämmung von Kanälen",
+          "Paneele von Lüftungsgeräten",
+          "Schalldämmende Kanalauskleidung"
+        ]
+      },
+      {
+        "title": "Öl, Gas und Petrochemie",
+        "items": [
+          "Behälter- und Kolonnendämmung unter Blechmantel",
+          "Apparatedämmung in Raffinerien und Gasanlagen",
+          "Unterdeckdämmung auf Offshore-Plattformen"
+        ]
+      },
+      {
+        "title": "Energieerzeugung",
+        "items": [
+          "Dämmung von Kesselgehäusen",
+          "Schallschutzhauben für Turbinen",
+          "Dämmung von Abhitzekessel- und Rauchgaskanälen"
+        ]
+      },
+      {
+        "title": "Schiffbau",
+        "items": [
+          "Schott- und Deckdämmung (SS-316-Stifte)",
+          "Wärme- und Schalldämmung von Maschinenräumen",
+          "Laderaumdämmung"
+        ]
+      },
+      {
+        "title": "Bauwesen",
+        "items": [
+          "Wand- und Deckendämmung in Gewerbebauten",
+          "Montage von Akustikpaneelen",
+          "Kühl- und Tiefkühlräume (Nylonstifte)",
+          "Baulicher Brandschutz"
+        ]
+      },
+      {
+        "title": "Industrie",
+        "items": [
+          "Lärmschutzwände und Schallschutzhauben",
+          "Außendämmung von Öfen (Edelstahlstifte)",
+          "Lebensmittelbetriebe (Aluminiumstifte)",
+          "Generator- und Kompressorräume"
+        ]
+      }
+    ],
+    "supplyTitle": "Unser Lieferumfang",
+    "supply": [
+      "Santura stellt Dämmstoffhalter selbst her, aus Edelstahl (304, 316), verzinktem Kohlenstoffstahl, Aluminium und PVC oder Nylon, in schweißbarer, klebbarer und selbstklebender Ausführung, zusammen mit Klemmscheiben und Abdeckkappen. Die Stifte werden maßhaltig gefertigt und mit Abnahmeprüfzeugnissen EN 10204 3.1 geliefert.",
+      "Sonderlängen, Fußgrößen, Scheibenarten, Werkstoffgüten und Großpackungen sind für Montagefirmen und Hersteller lieferbar. Wir exportieren Dämmstoffhalter zusammen mit Mineralwolle, Glaswolle, Calciumsilikat, Keramikdichtungen und Feuerfestankern in mehr als 25 Länder; unser Bolzenschweiß-Service liefert Geräte und Verfahren zum Setzen der Stifte."
+    ],
+    "relatedTitle": "Verwandte Produkte und Leistungen",
+    "relatedMineralWool": "Steinwolle-Platten, -Rollen und -Matten, befestigt mit Dämmstoffhaltern.",
+    "relatedGlassFibre": "Glaswolle und Glasgewebe für Kanäle und Ummantelung.",
+    "relatedCalsil": "Starre Hochtemperaturdämmung, oft kombiniert mit gestifteten Mattenlagen.",
+    "relatedGaskets": "Keramikfaserschnur, -band und -dichtungen für Hochtemperaturdichtungen.",
+    "relatedAnchors": "Unser Hauptprodukt: SEPL-Anker für Feuerfestauskleidungen.",
+    "relatedSepl24": "Bolzengeschweißte Anker für Keramikfasermatten bei hohen Temperaturen.",
+    "relatedSw": "CD- und Hubzündungs-Bolzenschweißgeräte und -verfahren für Stifte und Anker.",
+    "relatedWashersName": "Scheiben",
+    "relatedWashers": "Klemmscheiben, quadratische Scheiben und Kuppelscheiben für Stifte und Anker.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Wofür werden Dämmstoffhalter verwendet?",
+        "a": "Dämmstoffhalter, auch Isolierstifte, Klebestifte oder Schweißstifte genannt, befestigen Dämmung wie Steinwolle, Glaswolle, Polystyrol und PUR mechanisch an Wänden, Kanälen, Behältern und Anlagen. Sie verhindern, dass die Dämmung durchhängt, verrutscht oder abfällt, sodass Wärme- und Schalldämmung erhalten bleiben."
+      },
+      {
+        "q": "Was ist der Unterschied zwischen Schweißstiften und Klebestiften?",
+        "a": "Schweißstifte werden durch Kondensatorentladungs- (CD) oder Hubzündungs-Bolzenschweißen in weniger als einer Sekunde dauerhaft mit Metall verbunden, ideal für Metallkanäle und Behältermäntel. Klebestifte haben eine Lochplatte, die mit Klebemasse auf nicht schweißbare Untergründe wie Beton und Mauerwerk geklebt wird. Schweißstifte sind fester und halten im Brandfall; Klebestifte brauchen kein Schweißgerät."
+      },
+      {
+        "q": "Welche Dämmstoffe lassen sich mit Dämmstoffhaltern befestigen?",
+        "a": "Die Stifte eignen sich für jede Dämmung, die der Schaft durchstechen kann: Stein- und Mineralwolle, Glaswolle, EPS, extrudiertes Polystyrol (XPS) und PUR-Hartschaum. Für Keramikfasermatten bei hohen Temperaturen stattdessen Keramikfaser-Bolzenanker (SEPL-24) verwenden."
+      },
+      {
+        "q": "Wie werden Dämmstoffhalter montiert?",
+        "a": "Den Stift durch Schweißen, Kleben oder Aufkleben am Untergrund befestigen, die Dämmung auf den Schaft drücken, eine Klemmscheibe oder Abdeckkappe aufsetzen, um sie anzudrücken und zu halten, und den überstehenden Schaft kürzen oder umbiegen. Der Abstand richtet sich nach der Projektspezifikation; vom Plattenrand hält man meist 75–100 mm Abstand."
+      },
+      {
+        "q": "Aus welchen Werkstoffen gibt es Dämmstoffhalter?",
+        "a": "Wir fertigen Dämmstoffhalter aus Edelstahl (304, 316), verzinktem Kohlenstoffstahl, Aluminium und PVC oder Nylon. Edelstahl eignet sich für korrosive und maritime Umgebungen, verzinkter Stahl ist wirtschaftlich für die allgemeine Lüftungstechnik, Aluminium ist leicht, und Kunststoffstifte vermeiden Wärmebrücken auf kalten Flächen."
+      }
+    ],
+    "ctaTitle": "Sie benötigen Dämmstoffhalter?",
+    "ctaText": "Nennen Sie uns Stiftart, Schaftdurchmesser und -länge, Werkstoff, Scheibenart und Menge. Wir antworten mit Angebot und Lieferzeit.",
+    "ctaRfq": "Angebot für Dämmstoffhalter anfordern",
+    "ctaContact": "Oder kontaktieren Sie unser Team",
+    "relatedAccessories": "Spannbänder, Federn, Schrauben, Niete, Draht und Klebebänder für Dämmung und Ummantelung."
+  },
+  "psPage": {
+    "metaTitle": "Polystyrol-Dämmung | EPS- & XPS-Platten und Rohrschalen",
+    "metaDescription": "EPS- und XPS-Polystyroldämmung: Platten, Rohrschalen, Kühlraumplatten. Zuverlässiger Lieferant seit 1980, Export in 25+ Länder. Jetzt Angebot anfordern.",
+    "eyebrow": "Dämmstoffe",
+    "h1": "Polystyrol-Dämmung: EPS und XPS",
+    "subheading": "Dämmung aus expandiertem (EPS) und extrudiertem (XPS) Polystyrol: Platten, Rohrschalen mit oder ohne Aluminiumkaschierung, Halbschalen und Zuschnitte für Kühlräume, Kaltwasserleitungen und Gebäude.",
+    "badges": [
+      "EPS 15–40 kg/m³",
+      "XPS-Platten",
+      "Rohrschalen",
+      "Alukaschierte Schalen",
+      "Zuschnitte nach Maß"
+    ],
+    "gallery": [
+      "Dämmplatten aus expandiertem Polystyrol",
+      "EPS-Rohrschalen mit Aluminiumkaschierung",
+      "Halbrunde Rohrdämmschalen aus Polystyrol",
+      "Rohrdämm-Halbschalen aus Polystyrol"
+    ],
+    "overviewTitle": "Was Polystyrol-Dämmung ist",
+    "overview": [
+      "Polystyrol-Dämmung ist ein leichter, steifer, geschlossenzelliger Schaumstoff. Er hat eine niedrige Wärmeleitfähigkeit, ist feuchtebeständig, formstabil und günstiger als die meisten anderen Dämmstoffe. Deshalb wird er häufig für Kühlräume, Kaltwasserleitungen und die Gebäudedämmung eingesetzt.",
+      "Er wird als Rohrschalen auf Kalt- und Kühlwasserleitungen, als Platten für Wände, Dächer, Böden sowie Ober- und Unterdeckdämmung und als Zuschnitte für Apparate und Behälter verwendet. Fachgerecht eingebaut und geschützt, behält er seine Dämmwirkung über die gesamte Lebensdauer der Anlage, ohne durchzuhängen oder sich zu setzen.",
+      "Polystyrol-Dämmung gibt es in zwei Formen, die unterschiedlich hergestellt werden."
+    ],
+    "types": [
+      {
+        "title": "EPS: expandiertes Polystyrol",
+        "tag": "Weißer Perlschaum · günstiger",
+        "text": "Polystyrolperlen werden mit Dampf expandiert und zu Blöcken geformt, aus denen Platten, Rohrschalen und Formteile geschnitten werden. EPS ist leichter und günstiger als XPS, mit etwas höherer Wärmeleitfähigkeit. Die Rohdichte bestimmt die Festigkeit."
+      },
+      {
+        "title": "XPS: extrudiertes Polystyrol",
+        "tag": "Farbiger dichter Schaum · höhere Festigkeit",
+        "text": "Wird im Endlosverfahren zu Platten extrudiert, je nach Marke meist blau, rosa oder grün. XPS hat eine höhere Druckfestigkeit, geringere Wasseraufnahme und niedrigere Wärmeleitfähigkeit als EPS und eignet sich daher für erdberührte, nasse und belastete Bereiche."
+      }
+    ],
+    "formsTitle": "Lieferformen und Abmessungen",
+    "formsIntro": "Typische Formen und Abmessungen. Andere Größen, Dicken und Formen liefern wir nach Zeichnung.",
+    "epsFormsTitle": "EPS (expandiertes Polystyrol)",
+    "xpsFormsTitle": "XPS (extrudiertes Polystyrol)",
+    "colForm": "Form",
+    "colDescription": "Beschreibung",
+    "colSizes": "Typische Abmessungen",
+    "epsForms": [
+      {
+        "form": "Platten",
+        "text": "Steife Platten für Wände, Dächer, Böden und Kühlräume",
+        "sizes": "12–300 mm dick; 1200 × 600 mm oder 2400 × 1200 mm"
+      },
+      {
+        "form": "Rohrschalen (Halbschalen)",
+        "text": "Vorgeformte zweiteilige Schalen für die Rohrdämmung",
+        "sizes": "Innen-Ø 15–600 mm; 20–100 mm dick"
+      },
+      {
+        "form": "Gebogene / halbrunde Segmente",
+        "text": "Geformte Segmente für Tanks, Behälter und große Rohre",
+        "sizes": "Passend zum Außendurchmesser"
+      },
+      {
+        "form": "Alukaschierte Schalen und Platten",
+        "text": "EPS mit reflektierender Aluminiumkaschierung",
+        "sizes": "Standardmaße"
+      },
+      {
+        "form": "Zuschnitte nach Maß",
+        "text": "Mit Heißdraht nach Zeichnung geschnitten für Bögen, Armaturen und komplexe Profile",
+        "sizes": "Nach Vorgabe"
+      }
+    ],
+    "xpsForms": [
+      {
+        "form": "Platten",
+        "text": "Hochfeste Platten für erdberührte Wände, Umkehrdächer und belastete Böden",
+        "sizes": "20–200 mm dick; typisch 1250 × 600 mm"
+      },
+      {
+        "form": "Platten mit Nut und Feder",
+        "text": "Ineinandergreifende Kanten für eine fugenlose Dämmschicht",
+        "sizes": "25–100 mm dick"
+      },
+      {
+        "form": "Gefälleplatten",
+        "text": "Mit Gefälle geschnittene Platten zur Entwässerung von Flachdächern",
+        "sizes": "Nach gewünschtem Gefälle"
+      }
+    ],
+    "specTitle": "EPS und XPS im Vergleich",
+    "colProperty": "Eigenschaft",
+    "colEps": "EPS",
+    "colXps": "XPS",
+    "specRows": [
+      {
+        "label": "Herstellung",
+        "eps": "Perlexpansion und Formung",
+        "xps": "Endlosextrusion"
+      },
+      {
+        "label": "Farbe",
+        "eps": "Weiß",
+        "xps": "Blau, rosa oder grün (je nach Marke)"
+      },
+      {
+        "label": "Rohdichte",
+        "eps": "15–40 kg/m³",
+        "xps": "25–45 kg/m³"
+      },
+      {
+        "label": "Wärmeleitfähigkeit (λ)",
+        "eps": "0,035–0,040 W/m·K",
+        "xps": "0,029–0,036 W/m·K"
+      },
+      {
+        "label": "Druckfestigkeit (10 % Stauchung)",
+        "eps": "60–200 kPa, je nach Rohdichte",
+        "xps": "150–700 kPa"
+      },
+      {
+        "label": "Wasseraufnahme (Volumen)",
+        "eps": "2–5 %",
+        "xps": "Typisch 0,3 % oder weniger"
+      },
+      {
+        "label": "Wasserdampf-Diffusionswiderstandszahl (µ)",
+        "eps": "20–70",
+        "xps": "80–250"
+      },
+      {
+        "label": "Max. Dauergebrauchstemperatur",
+        "eps": "Etwa 80 °C",
+        "xps": "Etwa 75 °C"
+      },
+      {
+        "label": "Min. Gebrauchstemperatur",
+        "eps": "Bis etwa −180 °C laut Herstellerangaben",
+        "xps": "Typisch −50 °C laut Herstellerangaben"
+      },
+      {
+        "label": "Brandverhalten",
+        "eps": "Euroklasse E mit Flammschutzmittel (FR-Qualität)",
+        "xps": "Euroklasse E mit Flammschutzmittel (FR-Qualität)"
+      },
+      {
+        "label": "Formstabilität",
+        "eps": "Gut; hängt nicht durch und setzt sich nicht",
+        "xps": "Sehr gut"
+      },
+      {
+        "label": "Treibmittel",
+        "eps": "Pentan; ohne FCKW und HFCKW",
+        "xps": "CO₂ oder HFO bei modernen Qualitäten; ohne FCKW und HFCKW"
+      },
+      {
+        "label": "Recycling",
+        "eps": "Recycelbar",
+        "xps": "Recycelbar"
+      }
+    ],
+    "specNote": "Typische Werte. Die genauen Werte hängen von Qualität, Rohdichte und Hersteller ab; maßgeblich ist das Datenblatt des gelieferten Produkts.",
+    "densityTitle": "EPS-Rohdichte-Auswahl",
+    "densityIntro": "Die Festigkeit von EPS steigt mit der Rohdichte. Wählen Sie die niedrigste Rohdichte, die die Last trägt, denn höhere Rohdichte kostet mehr.",
+    "colDensity": "Rohdichte",
+    "colStrength": "Druckfestigkeit (ca.)",
+    "colBestFor": "Geeignet für",
+    "densityRows": [
+      {
+        "density": "15 kg/m³",
+        "strength": "Etwa 60 kPa",
+        "use": "Wände, Decken und andere unbelastete Bereiche"
+      },
+      {
+        "density": "20 kg/m³",
+        "strength": "Etwa 100 kPa",
+        "use": "Allgemeine Gebäudedämmung, Rohrschalen und Kühlräume"
+      },
+      {
+        "density": "25 kg/m³",
+        "strength": "Etwa 130 kPa",
+        "use": "Dächer und Böden mit geringer Last"
+      },
+      {
+        "density": "30 kg/m³",
+        "strength": "Etwa 170 kPa",
+        "use": "Dämmung unter Bodenplatten und Kühlhausböden"
+      },
+      {
+        "density": "40 kg/m³",
+        "strength": "Etwa 200 kPa",
+        "use": "Stark belastete Böden und industrielle Kühlräume"
+      }
+    ],
+    "densityNote": "Andere Rohdichten auf Anfrage. Bei hohen Lasten, im Erdreich oder bei Nässe ist XPS meist die bessere Wahl.",
+    "advantagesTitle": "Vorteile",
+    "advantages": [
+      "Niedrige Wärmeleitfähigkeit, daher geringere Dicke für die gleiche Dämmwirkung",
+      "Leicht (15–45 kg/m³), dadurch einfache Handhabung und kaum zusätzliche Last für Tragwerke",
+      "Geschlossenzellige Struktur, die Wasseraufnahme widersteht",
+      "Formstabil: hängt im Betrieb nicht durch, setzt sich nicht und sackt nicht ab",
+      "Auf der Baustelle mit Heißdraht oder Säge ohne Spezialwerkzeug zuschneidbar",
+      "Geringere Material- und Montagekosten als die meisten Faser- und PUR-Dämmstoffe",
+      "Trägt Begehung und Bodenlasten, besonders XPS und EPS höherer Rohdichte",
+      "Geeignet für Kälte- und Tiefkühlanwendungen, vom Kaltwasser bis zum Tiefkühlraum",
+      "Enthält keine Fasern, staubt daher nicht und reizt die Haut nicht",
+      "Recycelbar und ohne FCKW oder HFCKW hergestellt"
+    ],
+    "cautionsTitle": "Zu beachten",
+    "cautions": [
+      "Polystyrol ist brennbar. Flammgeschützte Qualitäten verwenden und mit einer Schutzschicht abdecken, wie es Bau- und Brandschutzvorschriften verlangen.",
+      "Die Obergrenze liegt bei etwa 75–80 °C. Für heißere Oberflächen Mineralwolle oder Calciumsilikat verwenden.",
+      "Lösemittel und lange Sonneneinstrahlung schädigen Polystyrol. Verträgliche Klebstoffe verwenden und das Material abgedeckt oder ummantelt halten."
+    ],
+    "standardsTitle": "Normen",
+    "standards": [
+      "Wärmedämmstoffe aus Polystyrol-Hartschaum",
+      "Expandiertes Polystyrol für Wärmedämmzwecke (indische Norm)",
+      "Werkmäßig hergestellte Wärmedämmprodukte aus EPS für Gebäude",
+      "Werkmäßig hergestellte Wärmedämmprodukte aus XPS für Gebäude",
+      "Oberflächenbrandverhalten von Baustoffen",
+      "Prüfverfahren der Wärmeleitfähigkeit (Plattengerät / Wärmestrommesser)"
+    ],
+    "applicationsTitle": "Anwendungen nach Branche",
+    "applications": [
+      {
+        "title": "Kühlhaus und Kältetechnik",
+        "items": [
+          "Wände, Böden und Decken von Kühlräumen",
+          "Tiefkühlräume bis −40 °C",
+          "Kühlfahrzeuge und Kühlcontainer",
+          "Kühlhausböden auf EPS hoher Rohdichte oder XPS"
+        ]
+      },
+      {
+        "title": "Öl, Gas und Petrochemie",
+        "items": [
+          "Rohrschalen für Kühlwasser- und kalte Chemieleitungen",
+          "Unter- und Oberdeckdämmung",
+          "Kältedämmsysteme mit Dampfsperre",
+          "Dämmung kalter Apparate und Behälter mit Halbschalen"
+        ]
+      },
+      {
+        "title": "Haustechnik und Sanitär",
+        "items": [
+          "Kühlwasser-Rohrschalen mit Aluminiumkaschierung",
+          "Dämmung von Kondensatleitungen",
+          "Dämmung von Klimakanälen",
+          "Kalt- und Warmwasserleitungen bis etwa 80 °C"
+        ]
+      },
+      {
+        "title": "Bauwesen",
+        "items": [
+          "Wärmedämm-Verbundsysteme (WDVS / ETICS)",
+          "Flach- und Steildachdämmung",
+          "Perimeterdämmung im Erdreich (vorzugsweise XPS)",
+          "Bodendämmung unter Estrich oder Bodenplatte",
+          "Umkehrdächer (nur XPS)",
+          "Kerndämmplatten für zweischaliges Mauerwerk"
+        ]
+      },
+      {
+        "title": "Industrie und Fertigung",
+        "items": [
+          "Lebensmittel- und Getränkebetriebe",
+          "Wände und Decken von Pharma-Reinräumen",
+          "Hohlkörper und Leichtfüllung im Bauwesen"
+        ]
+      },
+      {
+        "title": "Schiffbau und Offshore",
+        "items": [
+          "Dämmung von Wohnmodulen",
+          "Kühlräume auf Schiffen",
+          "Auftrieb und Schwimmkörper (EPS)"
+        ]
+      }
+    ],
+    "supplyTitle": "Unser Lieferumfang",
+    "supply": [
+      "Santura Engineering liefert Dämmung aus expandiertem (EPS) und extrudiertem Polystyrol (XPS): Platten, Rohrschalen mit und ohne Aluminiumkaschierung, Halbschalen und Zuschnitte, bei EPS in Rohdichten von 15 bis 40 kg/m³. Typische Kunden sind Raffinerien, Kühlhausbetreiber, Lebensmittelbetriebe und Bauprojekte.",
+      "Als Hersteller von Dämmstoffhaltern und Lieferant von Mineralwolle, Glaswolle, Calciumsilikat und Keramikdichtungen kann Santura ein komplettes Dämmpaket aus einer Hand liefern. Wir exportieren in mehr als 25 Länder."
+    ],
+    "relatedTitle": "Verwandte Produkte",
+    "relatedPins": "Stifte und Scheiben zur Befestigung von Polystyrolplatten an Wänden und Kanälen.",
+    "relatedMineralWool": "Die Alternative für heiße Flächen oberhalb der Grenze von Polystyrol.",
+    "relatedCalsil": "Starre Dämmung für Hochtemperatur-Rohrleitungen und -Apparate.",
+    "relatedGlassFibre": "Glaswolle und Glasgewebe für Kanäle und Ummantelung.",
+    "relatedPir": "Ein Hartschaum mit höherer Temperaturbeständigkeit als Polystyrol.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Was ist der Unterschied zwischen EPS- und XPS-Dämmung?",
+        "a": "EPS (expandiertes Polystyrol) ist ein weißer Perlschaum, leichter und günstiger, in Rohdichten von 15 bis 40 kg/m³. XPS (extrudiertes Polystyrol) ist dichter, mit höherer Druckfestigkeit (150–700 kPa), geringerer Wasseraufnahme (typisch 0,3 % oder weniger) und niedrigerer Wärmeleitfähigkeit (0,029–0,036 W/m·K). XPS wird für erdberührte, nasse und belastete Bereiche bevorzugt."
+      },
+      {
+        "q": "Für welchen Temperaturbereich eignet sich Polystyrol-Dämmung?",
+        "a": "Polystyrol-Dämmung wird im Dauerbetrieb bis etwa 80 °C (EPS) bzw. etwa 75 °C (XPS) eingesetzt. Im Kältebereich geben Hersteller EPS bis etwa −180 °C und XPS typisch bis −50 °C an. Sie eignet sich gut für Kühlhäuser, Kältetechnik, Kühlwasserleitungen und Gebäude. Oberhalb von 80 °C Mineralwolle oder Calciumsilikat verwenden."
+      },
+      {
+        "q": "Welche Rohdichten gibt es bei EPS-Dämmung?",
+        "a": "Santura liefert EPS-Dämmung in Rohdichten von 15, 20, 25, 30 und 40 kg/m³. Höhere Rohdichte bedeutet höhere Druckfestigkeit: 15 kg/m³ für unbelastete Wände und Decken, 40 kg/m³ für stark belastete Böden und industrielle Kühlräume. Andere Rohdichten auf Anfrage."
+      },
+      {
+        "q": "Ist Polystyrol-Dämmung wasserdicht?",
+        "a": "Polystyrol hat eine geschlossenzellige Struktur und ist daher gut feuchtebeständig. XPS nimmt typisch 0,3 % oder weniger Wasser (Volumen) auf und ist deshalb die Wahl für erdberührte und nasse Bereiche. EPS nimmt 2–5 % auf. Auf kalten Oberflächen brauchen beide eine Dampfsperre, etwa eine Aluminiumkaschierung, gegen Kondensat. Keines der Materialien bietet Schimmel einen Nährboden."
+      }
+    ],
+    "ctaTitle": "Sie benötigen Polystyrol-Dämmung?",
+    "ctaText": "Nennen Sie uns Typ (EPS oder XPS), Form, Rohdichte, Dicke, Rohrgrößen oder Plattenmaße und Menge. Wir antworten mit Angebot und Lieferzeit.",
+    "ctaRfq": "Angebot für Polystyrol-Dämmung anfordern",
+    "ctaContact": "Oder kontaktieren Sie unser Team"
+  },
+  "pirPage": {
+    "metaTitle": "PIR-Dämmplatten und Rohrschalen | Industrielieferant",
+    "metaDescription": "Polyisocyanurat-Dämmung (PIR): Platten und Rohrschalen für −196 °C bis 150 °C. FCKW-frei, brandgeprüft. Lieferant seit 1980, 25+ Länder. Angebot anfordern.",
+    "eyebrow": "Dämmstoffe",
+    "h1": "Polyisocyanurat-Dämmung (PIR)",
+    "subheading": "PIR-Hartschaumdämmung: Rohrschalen von ½\" bis 24\", Platten, kaschierte Platten und Segmente. Sehr niedrige Wärmeleitfähigkeit, Class 1 Flammenausbreitung und eine Heißflächengrenze von 150 °C.",
+    "badges": [
+      "Rohrschalen ½\"–24\"",
+      "Platten und Segmente",
+      "Bis 150 °C",
+      "Class 1 Flammenausbreitung",
+      "FCKW-frei"
+    ],
+    "gallery": [
+      "Polyisocyanurat-Dämmplatte (PIR) mit Kraftpapierkaschierung"
+    ],
+    "overviewTitle": "Was Polyisocyanurat-Dämmung ist",
+    "overview": [
+      "Polyisocyanurat (PIR), auch Polyiso genannt, ist ein duroplastischer Hartschaum-Dämmstoff. Es ist ein modifiziertes Polyurethan (PUR) mit einem höheren Anteil an Isocyanurat-Bindungen, und seine Wärmeleitfähigkeit gehört zu den niedrigsten der gängigen Dämmstoffe.",
+      "Die Isocyanurat-Struktur verleiht PIR ein besseres Brandverhalten als Standard-Polyurethan. Es erreicht Class 1 bei der Oberflächen-Flammenausbreitung, hat eine geringe Rauchentwicklung und schmilzt oder tropft im Brandfall nicht, anders als die meisten Thermoplaste. Außerdem steigt die Heißflächengrenze auf 150 °C gegenüber 110 °C bei normalem PU-Schaum, sodass PIR direkt über Dampf- oder elektrischer Begleitheizung eingesetzt werden kann, die diese Grenze einhält.",
+      "PIR braucht für dieselbe Wirkung etwa die halbe Dicke von Kork. Eine dünnere Schicht bedeutet weniger zu bedeckende Fläche und senkt die Kosten für Dampfsperre, Ummantelung und Halterungen pro laufendem Rohrmeter. Unser PIR ist FCKW-frei."
+    ],
+    "compareTitle": "Dämmdicke im Vergleich",
+    "compareIntro": "Erforderliche Dämmdicke für denselben Wärmedurchlasswiderstand (R = 2,5 m²K/W).",
+    "colMaterial": "Dämmstoff",
+    "colThickness": "Erforderliche Dicke",
+    "lambdaUnit": "W/m·K",
+    "mmUnit": "mm",
+    "compareNames": [
+      "PIR (Polyisocyanurat)",
+      "XPS (extrudiertes Polystyrol)",
+      "Glaswolle",
+      "EPS (expandiertes Polystyrol)",
+      "Mineralwolle (Steinwolle)",
+      "Calciumsilikat"
+    ],
+    "compareNote": "PIR erreicht denselben Dämmwert wie Mineralwolle mit etwa 40 % weniger Dicke und spart so Platz, Ummantelungsmaterial und Montagekosten.",
+    "compareCalc": "Berechnung für ebene Flächen (Dicke = R × λ) mit typischer Wärmeleitfähigkeit bei niedriger Mitteltemperatur. Die tatsächliche Dicke hängt von Rohrgröße, Betriebstemperatur und Auslegungsgrundlage ab. Mineralwolle und Calciumsilikat werden für heißere Anwendungen gewählt, in denen PIR nicht einsetzbar ist.",
+    "formsTitle": "Lieferformen und Abmessungen",
+    "formsIntro": "Typische Formen und Abmessungen. Andere Größen, Dicken und Formen liefern wir nach Zeichnung.",
+    "colForm": "Form",
+    "colDescription": "Beschreibung",
+    "colSizes": "Typische Abmessungen",
+    "forms": [
+      {
+        "form": "Rohrschalen (Halbschalen)",
+        "text": "Vorgeformte zweiteilige Schalen für die Rohrdämmung",
+        "sizes": "½\" bis 24\" (DN15–DN600); ab 25 mm dick; 1000 mm lang"
+      },
+      {
+        "form": "Platten",
+        "text": "Steife Platten für Wände, Dächer, Kanäle und Apparate",
+        "sizes": "20–150 mm dick; 1200 × 600 mm oder 2400 × 1200 mm"
+      },
+      {
+        "form": "Kaschierte Platten",
+        "text": "PIR-Platte mit Aluminium- oder Kraftpapierkaschierung; die Aluminiumkaschierung wirkt als Dampfsperre",
+        "sizes": "Standardmaße"
+      },
+      {
+        "form": "Segmente",
+        "text": "Keilförmige Segmente für Rohre und Behälter mit großem Durchmesser",
+        "sizes": "Passend zum Außendurchmesser"
+      },
+      {
+        "form": "Geritzte / formbare Platten",
+        "text": "Vorgeritzte Platten, die sich um gekrümmte Flächen und Tanks biegen lassen",
+        "sizes": "20–80 mm dick"
+      },
+      {
+        "form": "Rohrauflagerblöcke",
+        "text": "PIR-Blöcke hoher Rohdichte für gedämmte Rohrauflager, anstelle von Holzklötzen",
+        "sizes": "Nach Rohrgröße und Last"
+      }
+    ],
+    "pipeTitle": "PIR-Rohrschalen",
+    "pipeIntro": "Unsere Standard-PIR-Rohrschalen. Dicken und Kaschierungen werden nach Projektspezifikation gefertigt.",
+    "pipeRows": [
+      {
+        "label": "Rohrgrößen",
+        "value": "½\" bis 24\" (DN15–DN600)"
+      },
+      {
+        "label": "Dicke",
+        "value": "Ab 25 mm"
+      },
+      {
+        "label": "Länge",
+        "value": "1000 mm"
+      },
+      {
+        "label": "Rohdichte",
+        "value": "Ab 36 kg/m³"
+      },
+      {
+        "label": "Ausführung",
+        "value": "Zweiteilige Halbschalen mit Stumpf- oder Stufenfalz"
+      },
+      {
+        "label": "Kaschierung",
+        "value": "Ohne, Aluminiumfolie oder Kraftpapier"
+      },
+      {
+        "label": "Heißflächengrenze",
+        "value": "150 °C dauerhaft"
+      }
+    ],
+    "drawingAlt": "Strichzeichnung einer zweiteiligen PIR-Rohrschale um ein Rohr",
+    "drawingCaption": "Zweiteilige Rohrschale aus Halbschalen",
+    "specTitle": "PIR und PUR im Vergleich",
+    "colProperty": "Eigenschaft",
+    "colPir": "PIR (Polyisocyanurat)",
+    "colPur": "PUR (Polyurethan)",
+    "specRows": [
+      {
+        "label": "Typ",
+        "pir": "Duroplastischer Hartschaum mit Isocyanurat-Bindungen",
+        "pur": "Duroplastischer Hartschaum"
+      },
+      {
+        "label": "Wärmeleitfähigkeit (λ, 10 °C Mitteltemperatur)",
+        "pir": "0,020–0,025 W/m·K",
+        "pur": "0,023–0,028 W/m·K"
+      },
+      {
+        "label": "Rohdichte",
+        "pir": "Ab 36 kg/m³ (Rohrschalen); 30–60 kg/m³ (Platten)",
+        "pur": "30–50 kg/m³"
+      },
+      {
+        "label": "Max. Heißflächentemperatur",
+        "pir": "150 °C",
+        "pur": "110 °C"
+      },
+      {
+        "label": "Tieftemperatureinsatz",
+        "pir": "Kryo-Qualitäten bis etwa −196 °C",
+        "pur": "Kryo-Qualitäten bis etwa −196 °C"
+      },
+      {
+        "label": "Druckfestigkeit (10 % Stauchung)",
+        "pir": "Etwa 150–200 kPa, höher bei höherer Rohdichte",
+        "pur": "Etwa 120 kPa und mehr"
+      },
+      {
+        "label": "Brandverhalten",
+        "pir": "Class 1 Flammenausbreitung; geringe Rauchentwicklung; schmilzt und tropft nicht",
+        "pur": "Schwächer; benötigt Flammschutzmittel"
+      },
+      {
+        "label": "Wasserdampfdurchlässigkeit",
+        "pir": "Sehr gering (geschlossene Zellen)",
+        "pur": "Sehr gering (geschlossene Zellen)"
+      },
+      {
+        "label": "Wasseraufnahme",
+        "pir": "Gering, typisch unter 2 Vol.-%",
+        "pur": "Gering"
+      },
+      {
+        "label": "Formstabilität",
+        "pir": "Sehr gut",
+        "pur": "Gut"
+      },
+      {
+        "label": "Geschlossenzelligkeit",
+        "pir": "Über 90 %",
+        "pur": "Über 90 %"
+      },
+      {
+        "label": "Treibmittel",
+        "pir": "FCKW-frei",
+        "pur": "FCKW-frei bei modernen Qualitäten"
+      }
+    ],
+    "specNote": "Typische Werte. Die genauen Werte hängen von Qualität, Rohdichte und Hersteller ab; maßgeblich ist das Datenblatt des gelieferten Produkts.",
+    "advantagesTitle": "Vorteile",
+    "advantages": [
+      "Sehr hohe Dämmwirkung, die Energie spart",
+      "Hohlraumfreie Dämmung: ein geschlossenzelliger Schaum mit gleichmäßiger Wirkung über den ganzen Querschnitt",
+      "Etwa die halbe Dicke von Kork, was Kosten für Ummantelung, Dampfsperre und Halterungen senkt",
+      "Brandbeständig: Class 1 Flammenausbreitung, geringe Rauchentwicklung, schmilzt und tropft nicht",
+      "Heißflächengrenze von 150 °C, höher als die 110 °C von Standard-Polyurethan",
+      "Wasser- und feuchtebeständig",
+      "Formstabil: schrumpft, verzieht und setzt sich nicht",
+      "Beständig gegen die meisten Öle, Chemikalien und Lösemittel",
+      "Keine Wärmebrücken durch die Dämmung, da sie keine Faser- oder Metallpfade enthält",
+      "Langlebig; behält bei fachgerechtem Einbau und Schutz ihre Wirkung über viele Jahre"
+    ],
+    "cautionsTitle": "Zu beachten",
+    "cautions": [
+      "PIR ist brennbar, auch wenn es nicht schmilzt oder tropft. Unter Blechummantelung oder einer anderen Schutzschicht einbauen, wie es Brandschutzvorschriften verlangen.",
+      "Die Heißflächengrenze liegt bei 150 °C. Für heißere Rohre und Apparate Mineralwolle oder Calciumsilikat verwenden.",
+      "Sonnenlicht schädigt freiliegenden Schaum. PIR ummantelt oder abgedeckt halten und bei Kälteanwendungen die Fugen mit einer Dampfsperre abdichten."
+    ],
+    "standardsTitle": "Normen",
+    "standards": [
+      "Werkmäßig hergestellte PUR- und PIR-Wärmedämmstoffe für die betriebstechnische Ausrüstung und industrielle Anlagen",
+      "Werkmäßig hergestellte Wärmedämmprodukte aus Polyurethan-Hartschaum (PUR / PIR) für Gebäude",
+      "Vorgeformte Wärmedämmung aus Polyisocyanurat-Hartschaum",
+      "Oberflächenbrandverhalten von Baustoffen",
+      "Prüfung der Oberflächen-Flammenausbreitung (Class 1)",
+      "Harte Schaumstoffe für die Wärmedämmung von Gebäuden"
+    ],
+    "applicationsTitle": "Anwendungen nach Branche",
+    "applications": [
+      {
+        "title": "Öl, Gas und Petrochemie",
+        "items": [
+          "Prozessleitungen und Kondensatleitungen bis 150 °C",
+          "Kühlwasser-, Sole- und kalte Chemieleitungen",
+          "Kryogene Rohrleitungen mit PIR-Systemen in Kryo-Qualität",
+          "Rohre mit Dampf- oder elektrischer Begleitheizung bis 150 °C",
+          "Behälter und Kolonnen unter Blechummantelung"
+        ]
+      },
+      {
+        "title": "Energieerzeugung",
+        "items": [
+          "Kondensat- und Warmwasserleitungen",
+          "Niederdruck-Dampfleitungen bis 150 °C",
+          "Kalt- und Kühlwasserleitungen",
+          "Haustechnik der Nebengebäude"
+        ]
+      },
+      {
+        "title": "Haustechnik und Sanitär",
+        "items": [
+          "Kaltwasserleitungen, bei denen geringe Dicke Kondensat verhindert",
+          "Trinkwarmwasserleitungen",
+          "Kältemittelleitungen",
+          "Kanalplatten und Kanaldämmung"
+        ]
+      },
+      {
+        "title": "Bauwesen",
+        "items": [
+          "Flachdächer, auch mit Gefälleplatten zur Entwässerung",
+          "Kerndämmung und Fassadendämmung",
+          "Bodendämmung",
+          "Kühlhäuser und Tiefkühlgebäude",
+          "Metallkaschierte PIR-Sandwichpaneele"
+        ]
+      },
+      {
+        "title": "Schiffbau und Offshore",
+        "items": [
+          "Rohrleitungen und Apparate auf Offshore-Plattformen",
+          "Wände und Decken von Wohnmodulen",
+          "Schott- und Deckdämmung"
+        ]
+      },
+      {
+        "title": "Kühlhaus und Kältetechnik",
+        "items": [
+          "Wände, Böden und Decken von Kühlräumen",
+          "Tiefkühlräume bis −40 °C",
+          "Schockfroster",
+          "Kühlfahrzeuge und Kühlcontainer"
+        ]
+      },
+      {
+        "title": "Prozessindustrie",
+        "items": [
+          "Lebensmittel- und Getränkebetriebe: hygienische Rohrdämmung",
+          "Pharma-Reinräume und Prozessleitungen",
+          "Chemieanlagen: Rohre und Behälter mit Lösemittelkontakt"
+        ]
+      }
+    ],
+    "supplyTitle": "Unser Lieferumfang",
+    "supply": [
+      "Santura Engineering liefert Polyisocyanurat-Dämmung (PIR): Rohrschalen von ½\" bis 24\" ab 36 kg/m³, Platten, kaschierte Platten und Segmente. Unser PIR ist FCKW-frei. Typische Kunden sind Raffinerien, Petrochemieanlagen, Kraftwerke und Kühlhausprojekte.",
+      "Als Hersteller von Feuerfestankern und Dämmstoffhaltern und Lieferant von Mineralwolle, Polystyrol, Calciumsilikat und Keramikdichtungen kann Santura ein komplettes Dämmpaket aus einer Hand liefern. Wir exportieren in mehr als 25 Länder."
+    ],
+    "relatedTitle": "Verwandte Produkte",
+    "relatedPolystyrene": "Ein günstigerer Hartschaum für Temperaturen bis etwa 80 °C.",
+    "relatedMineralWool": "Die Wahl für heiße Anwendungen über 150 °C.",
+    "relatedCalsil": "Starre Dämmung für Hochtemperatur-Rohrleitungen und -Apparate.",
+    "relatedPins": "Stifte und Scheiben zur Befestigung von PIR-Platten an Wänden und Kanälen.",
+    "relatedGlassFibre": "Glasgewebe als Umhüllung über PIR-Dämmung.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Was ist Polyisocyanurat-Dämmung (PIR)?",
+        "a": "Polyisocyanurat (PIR oder Polyiso) ist ein duroplastischer Hartschaum mit einer der niedrigsten Wärmeleitfähigkeiten gängiger Dämmstoffe, 0,020–0,025 W/m·K. Es ist ein modifiziertes Polyurethan mit besserem Brandverhalten: Class 1 Flammenausbreitung, geringe Rauchentwicklung, und es schmilzt oder tropft nicht. Standard-PIR wird bis 150 °C eingesetzt, Kryo-Qualitäten bis etwa −196 °C."
+      },
+      {
+        "q": "Was ist der Unterschied zwischen PIR- und PUR-Dämmung?",
+        "a": "PIR (Polyisocyanurat) hat einen höheren Anteil an Isocyanurat-Bindungen als Standard-PUR (Polyurethan). Das ergibt ein besseres Brandverhalten und eine höhere Heißflächengrenze von 150 °C gegenüber 110 °C bei PUR. PIR hat außerdem eine etwas niedrigere Wärmeleitfähigkeit. Beide sind geschlossenzellige Hartschäume, doch PIR wird für industrielle Rohrdämmung und bei Brandschutzanforderungen bevorzugt."
+      },
+      {
+        "q": "In welchen Rohrgrößen gibt es PIR-Rohrschalen?",
+        "a": "Santura liefert PIR-Rohrschalen für Rohre von ½\" bis 24\" (DN15–DN600), ab 25 mm Dicke und mit einer Rohdichte ab 36 kg/m³. Die Schalen sind 1000 mm lang, als zweiteilige Halbschalen gefertigt und ohne Kaschierung oder mit Aluminiumfolie oder Kraftpapier erhältlich."
+      },
+      {
+        "q": "Warum ist PIR-Dämmung dünner als andere Dämmstoffe?",
+        "a": "PIR hat eine der niedrigsten Wärmeleitfähigkeiten gängiger Dämmstoffe, etwa 0,022 W/m·K gegenüber etwa 0,038 W/m·K bei Mineralwolle. Es erreicht denselben Dämmwert mit etwa 40 % weniger Dicke als Mineralwolle und etwa der halben Dicke von Kork. Das spart Platz, senkt die Kosten für Ummantelung und Dampfsperre und verkürzt die Montagezeit."
+      }
+    ],
+    "ctaTitle": "Sie benötigen PIR-Dämmung?",
+    "ctaText": "Nennen Sie uns Form, Rohrgrößen oder Plattenmaße, Dicke, Kaschierung, Betriebstemperatur und Menge. Wir antworten mit Angebot und Lieferzeit.",
+    "ctaRfq": "Angebot für PIR-Dämmung anfordern",
+    "ctaContact": "Oder kontaktieren Sie unser Team"
+  },
+  "fsPage": {
+    "metaTitle": "Verbindungselemente-Lieferant | Schrauben, Bolzen, Muttern",
+    "metaDescription": "Industrie-Verbindungselemente: B7-Stehbolzen, Sechskantschrauben, Muttern, Scheiben in Edelstahl, Inconel, Monel, Duplex. Lieferant seit 1980, 25+ Länder.",
+    "eyebrow": "Geliefert von Santura",
+    "h1": "Industrielle Verbindungselemente",
+    "subheading": "Schrauben, Stehbolzen, Muttern und Scheiben aus Kohlenstoffstahl, legiertem B7-Stahl, Edelstahl, Duplex und Nickellegierungen, geliefert zusammen mit unseren Feuerfestankern und Dämmprodukten für die Beschaffung aus einer Hand.",
+    "badges": [
+      "B7 / 2H Stehbolzen",
+      "Sechskantschrauben und Muttern",
+      "Edelstahl",
+      "Inconel, Monel, Duplex",
+      "Zeugnisse EN 10204 3.1",
+      "Eine Bestellung"
+    ],
+    "gallery": [
+      "B7-Stehbolzen und Gewindestangen aus legiertem Stahl",
+      "Verzinkte Sechskantschrauben",
+      "Schwere Sechskantmuttern aus schwarzem Stahl",
+      "Sechskant-Flanschmuttern mit Sperrverzahnung aus Edelstahl",
+      "Verzinkte Sechskant-Flanschschraube",
+      "Verzinkte Flachrundschrauben mit Vierkantansatz",
+      "Flachkopfschrauben mit Innensechskant, brüniert",
+      "Verschiedene Industrieschrauben, Muttern und Scheiben"
+    ],
+    "overviewTitle": "Verbindungselemente für Raffinerie-, Petrochemie- und Kraftwerksprojekte",
+    "overview": [
+      "Neben den Feuerfestankern, Stahlfasern und Dämmstoffhaltern aus eigener Fertigung liefert Santura Engineering industrielle Verbindungselemente: Schrauben, Stehbolzen, Muttern und Scheiben aus Kohlenstoffstahl, legiertem Stahl, Edelstahl und Hochleistungslegierungen wie Inconel, Monel und Duplex.",
+      "Unsere Verbindungselemente beziehen wir von geprüften Lieferquellen und liefern sie als Teil kompletter Projektpakete. Das ist besonders bei Raffinerie-, Petrochemie- und Kraftwerksprojekten hilfreich, bei denen B7-Flanschverschraubungen und Sonderlegierungen zusammen mit Feuerfest- und Dämmmaterialien spezifiziert werden.",
+      "EPC-Unternehmen, Raffinerien und Anlagenbetreiber können so Anker, Dämmung und Verbindungselemente bei einem Lieferanten kaufen, mit einem Dokumentensatz und einem Liefertermin."
+    ],
+    "whyTitle": "Warum Verbindungselemente von Santura",
+    "why": [
+      {
+        "title": "Beschaffung aus einer Hand",
+        "text": "Feuerfestanker, Dämmstoffe, Dämmstoffhalter und Verbindungselemente von einem Lieferanten: eine Bestellung, eine Sendung, ein Dokumentensatz."
+      },
+      {
+        "title": "Werkstoffkenntnis",
+        "text": "Wir fertigen täglich Anker aus Edelstählen wie SS 304, 310 und 316 und aus Nickellegierungen wie Inconel. Dieses Werkstoffwissen fließt in Auswahl und Prüfung der Schraubengüten ein."
+      },
+      {
+        "title": "Baustellengerechte Verpackung",
+        "text": "Auf Wunsch werden B7-Stehbolzensätze nach Flanschgröße und Druckstufe verpackt und beschriftet und Sätze nach Baugruppe sortiert, fertig für die Montage."
+      },
+      {
+        "title": "Qualitätsdokumente",
+        "text": "Abnahmeprüfzeugnisse nach EN 10204 3.1, Schmelzen- oder Losnummern auf den Etiketten und vor dem Versand mit der Bestellung abgeglichene Dokumente."
+      },
+      {
+        "title": "Weltweite Lieferung",
+        "text": "Verbindungselemente reisen mit Ihren Ankern und Dämmstoffen über dieselbe Logistik, mit der wir in mehr als 25 Länder liefern."
+      }
+    ],
+    "rangeTitle": "Lieferprogramm",
+    "rangeIntro": "Gängige Typen und die Normen, nach denen sie meist geliefert werden. Andere Typen, Normen und Sondermaße beschaffen wir nach Ihrer Spezifikation.",
+    "boltsTitle": "Schrauben und Stehbolzen",
+    "nutsTitle": "Muttern",
+    "washersTitle": "Scheiben",
+    "colType": "Typ",
+    "colDescription": "Beschreibung",
+    "colStandards": "Gängige Normen",
+    "bolts": [
+      {
+        "type": "Sechskantschrauben",
+        "text": "Standard-Sechskantschrauben, das häufigste Verbindungselement der Industrie; mit Teil- oder Vollgewinde"
+      },
+      {
+        "type": "Stehbolzen (B7)",
+        "text": "Vollgewinde-Stehbolzen aus Chrom-Molybdän-Stahl für Flanschverbindungen bei hoher Temperatur und hohem Druck"
+      },
+      {
+        "type": "U-Bolzen",
+        "text": "U-förmige Bügelschrauben zum Befestigen von Rohren an Halterungen"
+      },
+      {
+        "type": "Ringschrauben",
+        "text": "Schrauben mit Ringkopf zum Heben und Anschlagen"
+      },
+      {
+        "type": "Flanschschrauben",
+        "text": "Sechskantschrauben mit angeformtem Flansch, der die Last verteilt und Lockern verhindert"
+      },
+      {
+        "type": "Flachrundschrauben mit Vierkantansatz",
+        "text": "Rundkopf mit Vierkantansatz, der das Mitdrehen beim Anziehen der Mutter verhindert"
+      },
+      {
+        "type": "Zylinderschrauben mit Innensechskant",
+        "text": "Innensechskant für hohe Anzugsmomente auf engem Raum und bündige Montage; Zylinder- und Senkkopf"
+      },
+      {
+        "type": "Flachkopfschrauben",
+        "text": "Niedriger runder Kopf; mit Innensechskant sowie M16-Schrauben für Schutzplanken"
+      },
+      {
+        "type": "Rändelschrauben",
+        "text": "Schrauben mit gerändeltem Kopf oder Schaft, nach Zeichnung geliefert"
+      },
+      {
+        "type": "Senkschrauben mit Vierkantansatz",
+        "text": "Flacher Senkkopf mit Vierkantansatz"
+      },
+      {
+        "type": "Senkschrauben mit Nase",
+        "text": "Flachkopf mit Nase, die das Mitdrehen in Stahlverbindungen verhindert"
+      }
+    ],
+    "nuts": [
+      {
+        "type": "Sechskantmuttern",
+        "text": "Standard-Sechskantmuttern für den allgemeinen Einsatz"
+      },
+      {
+        "type": "Schwere Sechskantmuttern",
+        "text": "Dickere Muttern mit größerer Schlüsselweite für hochfeste Verschraubungen, mit B7-Stehbolzen verwendet"
+      },
+      {
+        "type": "Kontermuttern (flach)",
+        "text": "Flache Sechskantmuttern als zweite, sichernde Mutter"
+      },
+      {
+        "type": "Sicherungsmuttern mit Klemmteil",
+        "text": "Sechskantmuttern mit Nyloneinsatz gegen Lockern bei Vibration"
+      },
+      {
+        "type": "Flanschmuttern",
+        "text": "Sechskantmuttern mit angeformtem, verzahntem Flansch zur Lastverteilung"
+      },
+      {
+        "type": "Schweißmuttern",
+        "text": "Vierkant- oder Sechskantmuttern zum Anschweißen an Bleche"
+      },
+      {
+        "type": "Vierkantmuttern",
+        "text": "Vierkantige Muttern für Schienen und Schlitze"
+      },
+      {
+        "type": "Hutmuttern",
+        "text": "Sechskantmuttern mit geschlossener Kuppe, die das Schraubenende abdeckt"
+      },
+      {
+        "type": "Ringmuttern",
+        "text": "Muttern mit Ringöse zum Anschlagen"
+      }
+    ],
+    "washers": [
+      {
+        "type": "Flache Scheiben",
+        "text": "Unterlegscheiben, die die Last unter Mutter oder Schraubenkopf verteilen"
+      },
+      {
+        "type": "Federringe",
+        "text": "Geschlitzte Ringe gegen Lockern bei Vibration"
+      },
+      {
+        "type": "Zahnscheiben",
+        "text": "Innen- oder außengezahnte Scheiben zum Sichern und für die Erdung"
+      },
+      {
+        "type": "Keilscheiben",
+        "text": "Keilförmige Scheiben für die geneigten Flansche von I- und U-Profilen"
+      }
+    ],
+    "sizesTitle": "Abmessungen, Festigkeitsklassen und Oberflächen",
+    "sizesIntro": "Typische Lieferbereiche unserer meistgefragten Artikel.",
+    "colProduct": "Produkt",
+    "colSize": "Größenbereich",
+    "colGrade": "Festigkeitsklassen",
+    "colFinish": "Oberflächen",
+    "rangeRows": [
+      {
+        "item": "Sechskantschrauben",
+        "size": "M6–M64; Längen bis 450 mm",
+        "grade": "4.6, 4.8, 5.6, 5.8, 8.8, 10.9, 12.9, B7, B7M",
+        "finish": "Brüniert, verzinkt, feuerverzinkt"
+      },
+      {
+        "item": "Stehbolzen und Doppelendbolzen",
+        "size": "M8–M72; 5/16\" bis 3\"",
+        "grade": "8.8 / 8, B7 / 2H, B7M / 2HM",
+        "finish": "Schwarz, feuerverzinkt"
+      },
+      {
+        "item": "Sechskantmuttern",
+        "size": "M5–M56",
+        "grade": "4, 6, 8, 10, 12, 2H, 2HM",
+        "finish": "Brüniert, verzinkt, feuerverzinkt"
+      },
+      {
+        "item": "Zylinderschrauben mit Innensechskant",
+        "size": "M8–M30; Längen bis 450 mm",
+        "grade": "4.6, 4.8, 5.6, 5.8, 8.8",
+        "finish": "Brüniert, verzinkt, feuerverzinkt"
+      },
+      {
+        "item": "Flachrundschrauben mit Vierkantansatz",
+        "size": "M6–M64",
+        "grade": "4.6, 4.8, 5.6, 8.8",
+        "finish": "Schwarz phosphatiert, blank oder gelb verzinkt, feuerverzinkt"
+      },
+      {
+        "item": "Senkschrauben mit Vierkantansatz oder Nase",
+        "size": "M6–M30",
+        "grade": "4.6, 4.8, 5.6, 8.8",
+        "finish": "Schwarz phosphatiert, blank oder gelb verzinkt, feuerverzinkt"
+      },
+      {
+        "item": "Flanschschrauben, Flanschmuttern, Rändelschrauben",
+        "size": "Auf Bestellung",
+        "grade": "Schrauben 8.8, 10.9, 12.9; Muttern 8, 10, 12",
+        "finish": "Brüniert, verzinkt, feuerverzinkt"
+      },
+      {
+        "item": "Flachkopfschrauben (Schutzplanken)",
+        "size": "M16",
+        "grade": "4.6, 8.8",
+        "finish": "Schwarz phosphatiert, feuerverzinkt"
+      }
+    ],
+    "b7Eyebrow": "Schwerpunktprodukt",
+    "b7Title": "B7-Stehbolzen",
+    "b7Intro": "Stehbolzen nach ASTM A193 B7 mit schweren Sechskantmuttern A194 2H sind die am häufigsten spezifizierten Verbindungselemente für Flanschverschraubungen in Raffinerien und Petrochemieanlagen.",
+    "b7Rows": [
+      {
+        "label": "Spezifikation",
+        "value": "ASTM A193 Grade B7: Chrom-Molybdän-Stahl, vergütet"
+      },
+      {
+        "label": "Passende Muttern",
+        "value": "ASTM A194 Grade 2H, schwerer Sechskant; B7M-Bolzen mit 2HM-Muttern für Sauergas"
+      },
+      {
+        "label": "Mindestzugfestigkeit",
+        "value": "860 MPa bis 2½\"; 795 MPa über 2½\" bis 4\"; 690 MPa über 4\" bis 7\""
+      },
+      {
+        "label": "Mindeststreckgrenze",
+        "value": "720 MPa bis 2½\"; 655 MPa über 2½\" bis 4\"; 515 MPa über 4\" bis 7\""
+      },
+      {
+        "label": "Einsatztemperatur",
+        "value": "Bis etwa 450 °C; darüber werden B16- oder Nickellegierungs-Verschraubungen spezifiziert"
+      },
+      {
+        "label": "Abmessungen",
+        "value": "M8–M72 (5/16\" bis 3\"), Längen passend zu Flanschklasse und Dichtung"
+      },
+      {
+        "label": "Oberfläche",
+        "value": "Schwarz oder feuerverzinkt; PTFE (Xylan) und andere Beschichtungen auf Anfrage"
+      },
+      {
+        "label": "Anwendungen",
+        "value": "Flansche von Druckbehältern und Wärmetauschern, Ventiloberteile und Rohrleitungsflansche"
+      }
+    ],
+    "b7Note": "B7-Stehbolzen können als Sätze (Bolzen, zwei 2H-Muttern und bei Bedarf Scheiben) geliefert werden, verpackt und beschriftet nach Flanschgröße und Druckstufe für die Montage auf der Baustelle.",
+    "materialsTitle": "Werkstoffe",
+    "materialsIntro": "Den Werkstoff nach Einsatztemperatur, Druck und Korrosionsbelastung wählen. Wir beschaffen die Güte, die Ihre Spezifikation vorgibt.",
+    "colMaterial": "Werkstoff",
+    "colGrades": "Güten",
+    "colUse": "Typischer Einsatz",
+    "materials": [
+      {
+        "name": "Kohlenstoffstahl",
+        "use": "Allgemeiner Stahlbau und unkritische Anwendungen"
+      },
+      {
+        "name": "Legierter Stahl B7",
+        "use": "Flanschverschraubungen bei hoher Temperatur und hohem Druck in Raffinerien und Petrochemieanlagen"
+      },
+      {
+        "name": "Legierter Stahl B7M",
+        "use": "Sauergas (H₂S) mit begrenzter Härte"
+      },
+      {
+        "name": "Edelstahl 304 / 304L",
+        "use": "Allgemeine Korrosionsbeständigkeit; Lebensmittel- und Pharmaanlagen"
+      },
+      {
+        "name": "Edelstahl 316 / 316L",
+        "use": "Meeres-, Chemie- und chloridhaltige Umgebungen"
+      },
+      {
+        "name": "Edelstahl 321 / 347",
+        "use": "Stabilisierte Güten für hohe Temperaturen"
+      },
+      {
+        "name": "Duplex 2205",
+        "use": "Offshore und Meerwasserentsalzung; beständig gegen Chloride und Spannungsrisskorrosion"
+      },
+      {
+        "name": "Inconel 600 / 625",
+        "use": "Hohe Temperaturen und starke Korrosion"
+      },
+      {
+        "name": "Monel 400 / K-500",
+        "use": "Meerwasser, chemische Verfahren und saure Umgebungen"
+      },
+      {
+        "name": "Hastelloy C-276",
+        "use": "Stark korrosive chemische Umgebungen"
+      }
+    ],
+    "qualityTitle": "Qualität und Dokumentation",
+    "qualityRows": [
+      {
+        "label": "Zeugnisse",
+        "value": "Abnahmeprüfzeugnisse nach EN 10204 3.1 vom Werk; 3.2 mit Fremdabnahme auf Anfrage"
+      },
+      {
+        "label": "Prüfungen vor dem Versand",
+        "value": "Abgleich der Zeugnisse mit der Bestellung, Maßkontrollen und Werkstoffprüfung mit unserem Handspektrometer (RFA) bei Edelstahl und Nickellegierungen"
+      },
+      {
+        "label": "Rückverfolgbarkeit",
+        "value": "Schmelzen- oder Losnummern von den Zeugnissen bis auf die Packungsetiketten"
+      },
+      {
+        "label": "Verpackung",
+        "value": "Beschriftet nach Größe und Güte; Kartons, Beutel oder projektspezifische Verpackung"
+      },
+      {
+        "label": "Normen",
+        "value": "ASTM, ASME / ANSI, DIN, ISO, BS und IS, nach Projektspezifikation"
+      }
+    ],
+    "applicationsTitle": "Anwendungen nach Branche",
+    "applications": [
+      {
+        "title": "Öl, Gas und Petrochemie",
+        "items": [
+          "Flanschverschraubungen an Prozessleitungen (B7 / 2H Stehbolzensätze)",
+          "Verschlüsse von Druckbehältern und Wärmetauschern",
+          "Verschraubung von Ventiloberteilen",
+          "Flanschverbindungen an Pipelines",
+          "Sauergas-Verschraubungen (B7M / 2HM) und Legierungen für korrosive Medien"
+        ]
+      },
+      {
+        "title": "Energieerzeugung",
+        "items": [
+          "Flanschverschraubungen an Dampfleitungen",
+          "Verschraubungen an Kesseln und Druckteilen",
+          "Turbinengehäuse-Verschraubungen",
+          "Stahlbauverbindungen"
+        ]
+      },
+      {
+        "title": "Bau und Stahlbau",
+        "items": [
+          "Stahlbauverbindungen (Sechskant- und Flachrundschrauben)",
+          "U-Bolzen für Rohrschellen",
+          "Verbindungen an Geländern und Bühnen",
+          "Schrauben für Schutzplanken"
+        ]
+      },
+      {
+        "title": "Schiffbau und Offshore",
+        "items": [
+          "Duplex-Verbindungselemente für Meerwasser",
+          "Monel-Verbindungselemente für Meerwasser und Unterwasser",
+          "Verschraubungen aus SS 316 für maritime Umgebungen"
+        ]
+      },
+      {
+        "title": "Allgemeine Industrie",
+        "items": [
+          "Montage und Instandhaltung von Anlagen",
+          "Maschinenschrauben für OEMs",
+          "Ersatzteile für die Instandhaltung"
+        ]
+      }
+    ],
+    "relatedTitle": "Produkte aus unserer Fertigung",
+    "relatedAnchors": "Unser Hauptprodukt: SEPL-Anker für Feuerfestauskleidungen.",
+    "relatedFibresName": "Stahlfasern",
+    "relatedFibres": "Edelstahlfasern zur Bewehrung von Feuerbeton, in unserem Werk gefertigt.",
+    "relatedPins": "Schweißstifte, Klebestifte und Scheiben zur Befestigung von Dämmung.",
+    "relatedFoundation": "Fundamentschrauben in L-, J-, U-, Platten- und gerader Form nach Zeichnung.",
+    "relatedCw": "Gegengewichtssysteme aus unserer Fertigung.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Welche industriellen Verbindungselemente liefert Santura?",
+        "a": "Santura liefert ein komplettes Programm: Sechskantschrauben, B7-Stehbolzen, U-Bolzen, Ringschrauben, Flanschschrauben, Flachrundschrauben und Innensechskantschrauben mit passenden Muttern (Sechskant, schwerer Sechskant, Konter-, Sicherungs-, Flansch-, Schweiß-, Vierkant-, Hut- und Ringmuttern) sowie flache Scheiben, Federringe, Zahn- und Keilscheiben. Lieferbar in Kohlenstoffstahl, legiertem Stahl, Edelstahl, Inconel, Monel und Duplex."
+      },
+      {
+        "q": "In welchen Werkstoffen sind Ihre Verbindungselemente erhältlich?",
+        "a": "Wir liefern Kohlenstoffstahl (ASTM A307 und ISO-Festigkeitsklassen), legierten Stahl (ASTM A193 B7 und B7M), Edelstahl (304, 316, 321, 347), Duplex 2205, Inconel 600/625, Monel 400/K-500 und Hastelloy C-276. Der richtige Werkstoff hängt von Einsatztemperatur, Druck und Korrosionsbelastung ab. Die Lieferung erfolgt mit Abnahmeprüfzeugnissen nach EN 10204 3.1."
+      },
+      {
+        "q": "Liefern Sie B7-Stehbolzen für Flanschverbindungen?",
+        "a": "Ja. Santura liefert Stehbolzen nach ASTM A193 Grade B7 mit schweren Sechskantmuttern A194 Grade 2H, die Standardspezifikation für Flanschverschraubungen in Raffinerien und der Petrochemie, sowie B7M/2HM für Sauergas. Die Größen reichen von M8 bis M72 (5/16\" bis 3\") in Längen passend zur Flanschklasse; die Bolzen können als komplette Sätze (Bolzen, zwei Muttern und Scheiben) mit Flanschbeschriftung geliefert werden."
+      },
+      {
+        "q": "Warum Verbindungselemente zusammen mit Feuerfestankern von Santura beziehen?",
+        "a": "Das Kerngeschäft von Santura ist die Fertigung von Feuerfestankern und Dämmstoffhaltern für dieselben Raffinerien und Petrochemieanlagen, die auch Verbindungselemente benötigen. Wer beides bei Santura bezieht, hat eine Bestellung, eine Sendung, einen Dokumentensatz und dieselben Qualitätsprüfungen. Das vereinfacht die Beschaffung für EPC-Unternehmen und Anlagenbetreiber."
+      }
+    ],
+    "ctaTitle": "Verbindungselemente für Ihr Projekt?",
+    "ctaText": "Senden Sie uns Ihre Schraubenliste mit Typ, Größe, Güte, Norm, Oberfläche und Menge oder eine Flanschliste für B7-Stehbolzensätze. Wir antworten mit Angebot und Lieferzeit.",
+    "ctaRfq": "Angebot für Verbindungselemente anfordern",
+    "ctaContact": "Oder kontaktieren Sie unser Team",
+    "trademarkNote": "Inconel und Monel sind Marken der Special Metals Corporation. Hastelloy ist eine Marke von Haynes International. Xylan ist eine Marke von PPG Industries. Andere Namen gehören ihren jeweiligen Inhabern und dienen nur der Kennzeichnung."
+  },
+  "iaPage": {
+    "metaTitle": "Dämmungszubehör & Ummantelungszubehör | Santura",
+    "metaDescription": "Spannbänder, Schrauben, Blindniete, Clips und Zubehör für Dämmung und Ummantelung in Edelstahl und Aluminium. Lieferant seit 1980, Export in 25+ Länder.",
+    "eyebrow": "Dämmstoffe",
+    "h1": "Dämmungszubehör und Ummantelungszubehör",
+    "subheading": "Spannbänder, Bandverschlüsse, Ausgleichsfedern, Schrauben, Blindniete, Bindedraht, Lochbleche, Klebebänder und Dichtstoffe zum Befestigen und Abschließen von Dämmung und Blechummantelung an Rohren, Behältern, Kanälen und Apparaten.",
+    "badges": [
+      "Edelstahl-Spannbänder und Verschlüsse",
+      "Ausgleichsfedern",
+      "Blindniete",
+      "Lochbleche",
+      "Bindedraht und Drahtgeflecht",
+      "Klebebänder und Dichtstoffe"
+    ],
+    "gallery": [
+      "Bandverschluss aus Edelstahl für Spannbänder an Dämmungen",
+      "Blindniete zum Verbinden von Blechummantelungen",
+      "Blindniet mit Sollbruch-Nietdorn",
+      "Gelochter Edelstahl-Flachstreifen",
+      "Gelochte Edelstahlwinkel",
+      "Gelochter Zylinder aus Edelstahl",
+      "SEPL-04 Scherenklammer aus Edelstahldraht"
+    ],
+    "overviewTitle": "Wozu Dämmungszubehör dient",
+    "overview": [
+      "Dämmungszubehör umfasst die Kleinteile und Verbrauchsmaterialien, mit denen Wärmedämmung und ihre Blechummantelung an Rohren, Behältern, Kanälen und Apparaten befestigt, gestützt und abgeschlossen werden. Spannbänder halten die Ummantelung, Federn halten die Bänder bei Wärmedehnung gespannt, Schrauben und Niete schließen die Nähte, Draht und Geflecht halten die Dämmung selbst, und Klebebänder und Dichtstoffe halten Wasser und Dampf ab.",
+      "Das Zubehör entscheidet über die Lebensdauer einer Dämmung. Lose Bänder, das falsche Metall an der Ummantelung oder eine fehlende Dampfsperre lassen Wasser in die Dämmung, was die Dämmwirkung senkt und Korrosion unter der Dämmung verursachen kann.",
+      "Santura liefert dieses Zubehör zusammen mit seinen Dämmstoffen und Dämmstoffhaltern an Raffinerien, Petrochemieanlagen, Kraftwerke sowie Stahl- und Zementwerke, abgestimmt auf die Werkstoffgüten der Projektspezifikation."
+    ],
+    "groupsTitle": "Zubehörprogramm",
+    "groupsIntro": "Die wichtigsten Zubehörgruppen. Andere Artikel, Größen und Güten liefern wir nach Ihrer Spezifikation.",
+    "groups": [
+      {
+        "title": "Spannbänder (Bandstahl)",
+        "tag": "",
+        "text": "Spannbänder halten Blechummantelung und Dämmung an Rohren, Behältern und Apparaten.",
+        "items": [
+          "Edelstahlbänder, standardmäßig ½\" und ¾\" × 0,020\"",
+          "Bänder aus Aluminium und verzinktem Stahl",
+          "Bänder aus Polypropylen oder Nylon für Innenbereiche bis etwa 93 °C",
+          "Bandverschlüsse (Flügelverschlüsse) aus demselben Werkstoff wie das Band",
+          "Manuelle und pneumatische Spannwerkzeuge",
+          "Breiten 3/8\" bis 1¼\", Dicken 0,015\" bis 0,025\": ½\" für Rohre und kleine Behälter, bis 1¼\" für große Tanks"
+        ]
+      },
+      {
+        "title": "Ausgleichsfedern",
+        "tag": "",
+        "text": "In den Bandverlauf eingesetzte Federn nehmen Wärmedehnung und Schrumpfung auf, sodass die Bänder gespannt bleiben, ohne in die Ummantelung zu schneiden.",
+        "items": [
+          "Federbaugruppen aus Edelstahl, 2\" und 4\" lang",
+          "Für heiße und kalte Behälter und Rohrleitungen mit großem Durchmesser",
+          "Schwere Federn für 1¼\"-Bänder an großen Tanks und gewellter Ummantelung"
+        ]
+      },
+      {
+        "title": "Blech- und Bohrschrauben",
+        "tag": "",
+        "text": "Schrauben befestigen die Ummantelung dort, wo Bänder nicht möglich sind, etwa an Segmentbögen.",
+        "items": [
+          "Edelstahl Typ 410, Sechskantkopf mit Bund und Schlitz",
+          "#8 × ½\" selbstbohrend und selbstschneidend",
+          "Ausführungen mit Neopren-Dichtscheibe für wetterfeste Verbindungen",
+          "Segmente an Bögen und Nähte an gewellter Ummantelung"
+        ]
+      },
+      {
+        "title": "Blindniete (Popnieten)",
+        "tag": "In unserer Fertigung hergestellt",
+        "text": "Blindniete verbinden zwei oder mehr Blechteile und werden von nur einer Seite gesetzt. An der Dämmung sichern sie überlappende Ummantelungsnähte.",
+        "items": [
+          "Niethülsen aus Aluminium, Edelstahl und Monel",
+          "Durchmesser 1/8\" (3,2 mm) und 5/32\" (4,0 mm)",
+          "Zugniete mit Sollbruch-Nietdorn"
+        ]
+      },
+      {
+        "title": "Bindedraht und Drahtgeflecht",
+        "tag": "",
+        "text": "Draht und Geflecht halten die Dämmung selbst, bevor die Ummantelung angebracht wird.",
+        "items": [
+          "Weichgeglühter Edelstahldraht, 16 Gauge (1,6 mm) und 18 Gauge (1,2 mm)",
+          "Bindet zweiteilige starre Rohrschalen wie Calciumsilikat und Perlit",
+          "Sechseckgeflecht zur äußeren Stützung von Dämmmatten",
+          "Geschweißtes Drahtgitter zur Halterung der Dämmung an Behältern und großen Apparaten",
+          "Verzinkter Draht auf Anfrage (heute selten gefordert)"
+        ]
+      },
+      {
+        "title": "Lochbleche",
+        "tag": "In unserer Fertigung hergestellt",
+        "text": "Edelstahlbleche mit verschiedenen Lochbildern, die Gewicht sparen und Luft und Schall durchlassen. Sie werden häufig in Reformern und Röhrenöfen eingesetzt.",
+        "items": [
+          "Warm- oder kaltgewalzt, nach Kundenzeichnung gefertigt",
+          "Leicht zu schweißen, schneiden und umzuformen",
+          "Verschiedene Lochbilder, Formen, Größen und Güten",
+          "Als Auskleidung und Haltelage in mehrlagigen Dämmsystemen"
+        ]
+      },
+      {
+        "title": "Scherenklammern (SEPL-04)",
+        "tag": "Teil unseres SEPL-Ankerprogramms",
+        "text": "Halteklammern aus Draht, die Steinauskleidungen halten, wenn die Steine von Wand oder Decke abgesetzt sind.",
+        "items": [
+          "Aus Draht nach unserer oder Ihrer Zeichnung geformt",
+          "Werkstoffe u. a. CS, 304, 304H, 309, 253MA, 310, 314, 316, 321, 330, 800 und 601"
+        ]
+      },
+      {
+        "title": "Klebebänder und Dichtstoffe",
+        "tag": "",
+        "text": "Klebebänder und Dichtstoffe schließen Ummantelungsnähte und Dampfsperren gegen Wasser und Feuchtigkeit.",
+        "items": [
+          "Polyesterfolienband mit Glasfadenverstärkung",
+          "Aluminiumklebeband (z. B. 2 mil, 100 mm breit) für Ummantelungsnähte",
+          "Chloridarme Bänder für austenitischen Edelstahl über etwa 60 °C",
+          "ASJ- und FRK-Stoßfugenbänder",
+          "Fugendichtstoffe für starre Dämmsysteme"
+        ]
+      },
+      {
+        "title": "Schulterbolzen und Abschlusskappen",
+        "tag": "",
+        "text": "Anschweißbolzen, die Dämmung und Ummantelung auf Flächen halten, an denen keine Bänder möglich sind.",
+        "items": [
+          "Anschweißbolzen aus Edelstahl oder Kohlenstoffstahl, 5/16\" mit Rillenschaft",
+          "Klemmscheiben zum Halten der Dämmung während der Montage",
+          "Abschlusskappen zur endgültigen Befestigung der Ummantelung",
+          "Kegelförmige Behälterböden und Ofenpaneele"
+        ]
+      }
+    ],
+    "pinsBoxTitle": "Schweißstifte und Klemmscheiben",
+    "pinsBoxText": "Schweißstifte, Klebestifte, Klemmscheiben und Abdeckkappen zur Befestigung von Dämmung finden Sie auf unserer eigenen Seite für Dämmstoffhalter.",
+    "pinsBoxLink": "Zu den Dämmstoffhaltern",
+    "specTitle": "Übersicht der Spezifikationen",
+    "colItem": "Zubehör",
+    "colMaterial": "Werkstoffe",
+    "colSizes": "Standardgrößen",
+    "colTemp": "Temperatur",
+    "colUse": "Anwendung",
+    "specRows": [
+      {
+        "item": "Spannbänder",
+        "material": "SS 304 / 316; auch Aluminium und verzinkter Stahl",
+        "sizes": "½\" und ¾\" × 0,020\"",
+        "temp": "Edelstahl: kryogen bis etwa 650 °C",
+        "use": "Befestigung von Ummantelung und Dämmung"
+      },
+      {
+        "item": "Bandverschlüsse",
+        "material": "Wie das Band",
+        "sizes": "Passend zur Bandbreite",
+        "temp": "Wie das Band",
+        "use": "Verschließen des Bandes"
+      },
+      {
+        "item": "Ausgleichsfedern",
+        "material": "SS 304 / 316",
+        "sizes": "2\" und 4\"",
+        "temp": "Wie Edelstahlbänder",
+        "use": "Bänder an heißen und kalten Rohren und Behältern"
+      },
+      {
+        "item": "Blechschrauben",
+        "material": "SS 410",
+        "sizes": "#8 × ½\"",
+        "temp": "Oberflächentemperatur der Ummantelung",
+        "use": "Ummantelungsnähte und Bogensegmente"
+      },
+      {
+        "item": "Blindniete",
+        "material": "Aluminium, Edelstahl, Monel",
+        "sizes": "1/8\" und 5/32\" Durchmesser",
+        "temp": "Je nach Werkstoff",
+        "use": "Überlappende Ummantelungsnähte"
+      },
+      {
+        "item": "Bindedraht",
+        "material": "SS 304 / 316",
+        "sizes": "16 ga (1,6 mm), 18 ga (1,2 mm)",
+        "temp": "Kryogen bis etwa 650 °C",
+        "use": "Binden starrer Rohrschalen"
+      },
+      {
+        "item": "Lochbleche",
+        "material": "Edelstahlgüten",
+        "sizes": "Nach Zeichnung",
+        "temp": "Je nach Güte",
+        "use": "Auskleidungen in Reformern und Röhrenöfen"
+      },
+      {
+        "item": "Scherenklammern (SEPL-04)",
+        "material": "CS, Edelstähle, hitzebeständige Legierungen",
+        "sizes": "Nach Zeichnung",
+        "temp": "Je nach Legierung",
+        "use": "Halten von Steinauskleidungen"
+      },
+      {
+        "item": "Aluminiumklebeband",
+        "material": "Aluminiumfolie mit Klebstoff",
+        "sizes": "Z. B. 2 mil × 100 mm",
+        "temp": "Je nach Klebstoff",
+        "use": "Abdichten von Ummantelungsnähten"
+      }
+    ],
+    "specNote": "Typische Werte. Die genauen Grenzen hängen von Werkstoffgüte, Klebstoff und Projektspezifikation ab.",
+    "guideTitle": "Hinweise zu Auswahl und Montage",
+    "guide": [
+      "Spannbänder auf Rohrummantelungen werden meist im Abstand von 225–300 mm (9–12\") gesetzt. Die Projektspezifikation beachten.",
+      "Ausgleichsfedern in den Bandverlauf an Behältern und großen heißen oder kalten Rohrleitungen einsetzen, damit die Bänder bei Wärmedehnung gespannt bleiben.",
+      "Zubehörmetalle auf die Ummantelung abstimmen, etwa Edelstahlbänder und -schrauben mit Edelstahl- oder Aluminiumummantelung, und Metallmischungen dort vermeiden, wo sich Feuchtigkeit sammeln kann.",
+      "Keine verzinkten Bänder, Drähte oder Schrauben an heißem austenitischem Edelstahl verwenden: Zink kann Edelstahl bei hoher Temperatur verspröden.",
+      "An austenitischem Edelstahl über etwa 60 °C chloridarme Bänder und Zubehör verwenden, um das Risiko von Chlorid-Spannungsrisskorrosion zu senken.",
+      "In maritimer und chloridhaltiger Umgebung Zubehör aus Monel oder SS 316 einsetzen."
+    ],
+    "materialsTitle": "Werkstoffe",
+    "materials": [
+      "Edelstahl 304, 316, 316L, 321, 410",
+      "Kohlenstoffstahl / Baustahl",
+      "Verzinkter Stahl",
+      "Aluminium",
+      "Monel",
+      "Nylon / Polypropylen (innen, niedrige Temperatur)"
+    ],
+    "madeTitle": "Aus eigener Fertigung",
+    "madeText": "Blindniete und Lochbleche werden in unserer Fertigung hergestellt, und SEPL-04-Scherenklammern gehören zu unserem Feuerfestanker-Programm. Spannbänder, Federn, Schrauben, Draht, Klebebänder und Dichtstoffe beschaffen und liefern wir dazu, abgestimmt auf die Werkstoffgüten des Projekts.",
+    "applicationsTitle": "Anwendungen nach Branche",
+    "applications": [
+      {
+        "title": "Öl, Gas und Petrochemie",
+        "items": [
+          "Ummantelung an Rohren und Behältern",
+          "Spannbänder für Kälte- und Tieftemperaturdämmung",
+          "Lochbleche für Reformer und Röhrenöfen"
+        ]
+      },
+      {
+        "title": "Energieerzeugung",
+        "items": [
+          "Dämmung von Kesselgehäusen",
+          "Turbinendämmung",
+          "Dämmung von Abhitzekesselkanälen"
+        ]
+      },
+      {
+        "title": "Stahl und Zement",
+        "items": [
+          "Dämmung von Ofen- und Drehrohrofengehäusen",
+          "Scherenklammern für Steinauskleidungen"
+        ]
+      },
+      {
+        "title": "Schiffbau",
+        "items": [
+          "Zubehör aus Monel und SS 316 für Korrosionsbeständigkeit",
+          "Dämmung von Maschinenräumen"
+        ]
+      },
+      {
+        "title": "Haustechnik und Gebäude",
+        "items": [
+          "Klebebänder für Kanaldämmung",
+          "Spannbänder für große Kanäle"
+        ]
+      },
+      {
+        "title": "Tieftemperatur und LNG",
+        "items": [
+          "Edelstahl-Spannbänder und Ausgleichsfedern für Kälteanwendungen",
+          "Dampfsperr-Klebebänder und Dichtstoffe"
+        ]
+      }
+    ],
+    "supplyTitle": "Unser Lieferumfang",
+    "supply": [
+      "Santura Engineering liefert Zubehör für Dämmung und Ummantelung aus einer Hand: Spannbänder und Verschlüsse, Ausgleichsfedern, Schrauben, Blindniete, Bindedraht und Geflecht, Lochbleche, Klebebänder und Dichtstoffe, abgestimmt auf die Werkstoffgüte des Projekts in Edelstahl, verzinktem Stahl, Aluminium oder Monel.",
+      "Blindniete und Lochbleche werden in unserer Fertigung hergestellt, Lochbleche nach Zeichnung für Reformer und Röhrenöfen. Wir beliefern Industriekunden seit 1980 und exportieren in mehr als 25 Länder."
+    ],
+    "relatedTitle": "Verwandte Produkte",
+    "relatedPins": "Schweißstifte, Klebestifte, Klemmscheiben und Abdeckkappen.",
+    "relatedMineralWool": "Steinwolle- und Glaswolleplatten, -rollen und -rohrschalen.",
+    "relatedCalsil": "Starre Rohrschalen und Platten, mit Edelstahldraht gebunden.",
+    "relatedGlassFibre": "Glaswolle und Glasgewebe für Kanäle und Umhüllungen.",
+    "relatedSepl04": "Scherenklammern aus Draht zum Halten von Steinauskleidungen.",
+    "relatedFasteners": "Schrauben, Stehbolzen, Muttern und Scheiben für dieselben Projekte.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Welches Zubehör braucht man für die Montage einer Blechummantelung?",
+        "a": "Blechummantelungen benötigen Spannbänder (meist ½\" Edelstahl) mit Bandverschlüssen, Blechschrauben (#8 × ½\" SS 410) für Segmentbögen, Blindniete für überlappende Nähte und Ausgleichsfedern an Behältern und großen heißen oder kalten Leitungen. Aluminiumklebeband und Dichtstoffe schließen Längs- und Rundnähte."
+      },
+      {
+        "q": "Aus welchem Werkstoff sollten Spannbänder sein?",
+        "a": "Für die meisten Industrieanwendungen wird Edelstahl 304 oder 316 bevorzugt. Aluminiumbänder eignen sich für Aluminiumummantelungen in nicht korrosiver Umgebung. Verzinkte Bänder sollten nicht an heißen Edelstahlapparaten verwendet werden, weil Zink Edelstahl bei hoher Temperatur verspröden kann, und Metallmischungen sind dort zu vermeiden, wo sich Feuchtigkeit sammelt. In maritimer und chloridhaltiger Umgebung werden Monel oder SS 316 vorgeschrieben."
+      },
+      {
+        "q": "Wie werden Lochbleche in Dämmsystemen eingesetzt?",
+        "a": "Gelochte Edelstahlbleche mit verschiedenen Lochbildern werden häufig in Reformern und Röhrenöfen eingesetzt, zum Beispiel als Auskleidung und Haltelage in mehrlagigen Dämmsystemen. Sie sparen Gewicht und lassen sich leicht schweißen, schneiden und umformen. Santura fertigt sie warm- oder kaltgewalzt nach Kundenzeichnung in der vom Projekt geforderten Güte."
+      },
+      {
+        "q": "In welchem Abstand werden Spannbänder an Rohren gesetzt?",
+        "a": "Spannbänder auf Rohrummantelungen werden meist im Abstand von 225–300 mm (9–12\") gesetzt, nach Projektspezifikation. Ausgleichsfedern werden an Behältern und großen heißen oder kalten Rohrleitungen in den Bandverlauf eingesetzt, um Wärmebewegungen aufzunehmen. Große Lagertanks erhalten breitere Bänder bis 1¼\"."
+      },
+      {
+        "q": "Kann Santura Dämmungszubehör für Tieftemperatur- und LNG-Projekte liefern?",
+        "a": "Ja. Spannbänder, Verschlüsse, Ausgleichsfedern und Bindedraht aus austenitischem Edelstahl bleiben bei Tieftemperatur zäh, und Santura liefert sie in SS 304 oder 316 zusammen mit Dampfsperr-Klebebändern und Dichtstoffen für Kälte- und Tieftemperaturdämmungen. Abnahmeprüfzeugnisse sind auf Anfrage erhältlich."
+      }
+    ],
+    "ctaTitle": "Sie benötigen Dämmungszubehör?",
+    "ctaText": "Senden Sie uns Ihre Liste mit Artikel, Werkstoff, Größe und Menge oder Ihre Dämmspezifikation, und wir stellen das Zubehörpaket zusammen. Wir antworten mit Angebot und Lieferzeit.",
+    "ctaRfq": "Angebot für Dämmungszubehör anfordern",
+    "ctaContact": "Oder kontaktieren Sie unser Team",
+    "trademarkNote": "Monel ist eine Marke der Special Metals Corporation. 253 MA ist eine Marke von Outokumpu. Andere Namen gehören ihren jeweiligen Inhabern und dienen nur der Kennzeichnung."
+  },
+  "sfPage": {
+    "metaTitle": "Stahlfasern für Feuerfest und Beton | Santura Engineering",
+    "metaDescription": "Schmelzextrahierte und kaltgezogene Stahlfasern in SS 304, 310, 446 für Feuerbetone und Beton. Für die Industrie seit 1980, Export in 25+ Länder.",
+    "eyebrow": "Hergestellt von Santura",
+    "h1": "Stahlfasern zur Bewehrung von Feuerbeton und Beton",
+    "subheading": "Schmelzextrahierte und kaltgezogene Stahlfasern, die Feuerbetone, monolithische Auskleidungen und Beton gegen Temperaturwechsel, Rissbildung und Vibration bewehren. In eigener Fertigung aus AISI 304, 310, 446 und weiteren Güten hergestellt.",
+    "badges": [
+      "Schmelzextrahierte Nadeln",
+      "Kaltgezogen: gerade, mit Endhaken, gewellt",
+      "AISI 304, 310, 446",
+      "Nach Bestellung",
+      "ISO 9001:2015"
+    ],
+    "gallery": [
+      "Schmelzextrahierte Edelstahlfasern (SEPL-27) zur Bewehrung von Feuerbeton",
+      "Nahaufnahme schmelzextrahierter Edelstahlfasern",
+      "Kaltgezogene gerade Edelstahlfasern (SEPL-28)",
+      "Haufen kaltgezogener gerader Stahlfasern",
+      "Nahaufnahme kaltgezogener Stahlfasern mit Endhaken (SEPL-29)",
+      "Reihe kaltgezogener Stahlfasern mit Endhaken",
+      "Nahaufnahme kaltgezogener gewellter Stahlfasern (SEPL-30)",
+      "Haufen gewellter kaltgezogener Stahlfasern"
+    ],
+    "overviewTitle": "Wozu Stahlfasern dienen",
+    "overview": [
+      "Stahlfasern, auch Bewehrungsnadeln genannt, sind kurze Metallfäden, die Feuerbetonen, monolithischen Auskleidungen und Beton beigemischt werden. Im ganzen Werkstoff verteilt halten sie ihn beim Aufheizen, Abkühlen und Reißen zusammen, sodass die Auskleidung Temperaturwechseln, Abplatzen und Vibration widersteht und länger fest bleibt.",
+      "Stahlfasern gehören zu den Kernprodukten von Santura. Sie werden neben unseren Feuerfestankern gefertigt und oft mit ihnen für dieselbe Auskleidung geliefert. Wir stellen sie in zwei Verfahren her."
+    ],
+    "processes": [
+      {
+        "title": "Schmelzextraktion",
+        "text": "Edelstahlblöcke werden im Elektroofen bei 1500–1600 °C geschmolzen. Ein schnell drehendes Extraktionsrad wird an die Oberfläche des flüssigen Stahls geführt und zieht Fasern ab. So entsteht eine Faser mit unregelmäßigem Querschnitt, die sich gut im Feuerbeton verzahnt."
+      },
+      {
+        "title": "Kaltziehen",
+        "text": "Stahldraht wird durch Ziehsteine gezogen und auf Länge geschnitten. Edelstahl lässt sich nicht durch Wärmebehandlung härten, daher erhalten diese Fasern ihre Festigkeit durch das Kaltziehen. Der Draht kann gerade bleiben, Endhaken erhalten oder über die Länge gewellt werden."
+      }
+    ],
+    "typesTitle": "Unsere vier Stahlfasern",
+    "typesIntro": "Jede Faser hat eine eigene Produktseite mit allen Details. Diese Übersicht hilft bei der Auswahl.",
+    "types": [
+      {
+        "name": "Schmelzextrahierte Nadeln",
+        "process": "Schmelzextraktion",
+        "text": "Die in der Feuerfestindustrie am häufigsten verwendete Faser: weithin anerkannt, wirtschaftlich und gut durch Schläuche förderbar. Lieferbar in AISI 304, 310 und 446."
+      },
+      {
+        "name": "Kaltgezogene Nadeln (gerade)",
+        "process": "Kaltziehen",
+        "text": "Gerade Nadeln mit hoher Festigkeit durch das Kaltziehen. Durch Schneiden hergestellt und leicht einzumischen; üblich 25–35 mm lang und 0,3–0,7 mm im Durchmesser."
+      },
+      {
+        "name": "Kaltgezogene Nadeln (mit Endhaken)",
+        "process": "Kaltziehen",
+        "text": "Fasern mit Endhaken aus hochwertigem kohlenstoffarmem Stahldraht, mit guter Zähigkeit zu niedrigem Preis. Die Haken verankern die Faser in der Matrix."
+      },
+      {
+        "name": "Kaltgezogene Nadeln (gewellt)",
+        "process": "Kaltziehen",
+        "text": "Gleiche Eigenschaften wie die geraden Nadeln, über die Länge gewellt für höchste Festigkeit im Feuerfestmaterial."
+      }
+    ],
+    "typeLink": "Details zu {code}",
+    "compareTitle": "Stahlfasertypen im Vergleich",
+    "colProperty": "Eigenschaft",
+    "compareRows": [
+      {
+        "label": "Verfahren",
+        "values": [
+          "Schmelzextraktion aus flüssigem Edelstahl",
+          "Kaltgezogener Draht, auf Länge geschnitten",
+          "Kaltgezogener Draht mit Endhaken",
+          "Kaltgezogener Draht, gewellt"
+        ]
+      },
+      {
+        "label": "Form",
+        "values": [
+          "Unregelmäßiger Querschnitt aus dem Extraktionsverfahren",
+          "Gerade, rund",
+          "Rund mit Endhaken",
+          "Rund, über die Länge gewellt"
+        ]
+      },
+      {
+        "label": "Werkstoff",
+        "values": [
+          "AISI 304, 310, 446; andere Legierungen auf Anfrage",
+          "Edelstahl, z. B. 304, 310, 316",
+          "Kohlenstoffarmer Stahldraht",
+          "Edelstahl, z. B. 304, 310, 316"
+        ]
+      },
+      {
+        "label": "Länge",
+        "values": [
+          "Verschiedene Längen, nach Bestellung",
+          "25–35 mm",
+          "Nach Bestellung",
+          "Nach Bestellung"
+        ]
+      },
+      {
+        "label": "Durchmesser",
+        "values": [
+          "Verschiedene Größen, nach Bestellung",
+          "0,3–0,7 mm",
+          "Nach Bestellung",
+          "Nach Bestellung"
+        ]
+      },
+      {
+        "label": "Zugfestigkeit",
+        "values": [
+          "Auf Anfrage",
+          "Über 650 MPa",
+          "Auf Anfrage",
+          "Auf Anfrage"
+        ]
+      },
+      {
+        "label": "Hauptvorteil",
+        "values": [
+          "Meistverwendete Feuerfestfaser; wirtschaftlich; schlauchförderbar",
+          "Hohe Festigkeit durch Kaltziehen; leicht einzumischen",
+          "Haken verankern die Faser; gute Zähigkeit zu niedrigem Preis",
+          "Wellung ergibt höchste Festigkeit"
+        ]
+      }
+    ],
+    "compareNote": "Mit „nach Bestellung“ gekennzeichnete Maße fertigen wir nach Ihrer Vorgabe. Nennen Sie uns Länge, Durchmesser und Güte.",
+    "guideTitle": "Schmelzextrahiert oder kaltgezogen",
+    "colCriterion": "Kriterium",
+    "colMelt": "Schmelzextrahiert",
+    "colCold": "Kaltgezogen",
+    "guideRows": [
+      {
+        "label": "Herstellung",
+        "melt": "Fasern werden von einem drehenden Rad aus flüssigem Edelstahl abgezogen",
+        "cold": "Draht wird gezogen und geschnitten, bei Bedarf mit Haken versehen oder gewellt"
+      },
+      {
+        "label": "Typischer Einsatz",
+        "melt": "Die meistverwendete Faser für Feuerbetone und monolithische Auskleidungen",
+        "cold": "Feuerbetone und Beton; Fasern mit Endhaken sind im Beton verbreitet"
+      },
+      {
+        "label": "Form und Verbund",
+        "melt": "Unregelmäßiger Querschnitt, der sich im Feuerbeton verzahnt",
+        "cold": "Gleichmäßig runder Draht; Haken oder Wellen verbessern die Verankerung"
+      },
+      {
+        "label": "Verarbeitung",
+        "melt": "Gut durch Schläuche förderbar",
+        "cold": "Gerade Fasern lassen sich leicht einmischen"
+      },
+      {
+        "label": "Kosten",
+        "melt": "Wirtschaftlich und weithin anerkannt",
+        "cold": "Fasern mit Endhaken aus kohlenstoffarmem Stahl sind die günstigste Variante"
+      }
+    ],
+    "gradesTitle": "Güten",
+    "grades": [
+      {
+        "grade": "AISI 304",
+        "text": "austenitischer Standard-Edelstahl (etwa 18 % Cr, 8 % Ni) für mäßige Temperaturen"
+      },
+      {
+        "grade": "AISI 310",
+        "text": "hitzebeständige Güte mit hohem Chrom- und Nickelgehalt (etwa 25 % Cr, 20 % Ni) für höhere Temperaturen und Temperaturwechsel"
+      },
+      {
+        "grade": "AISI 446",
+        "text": "ferritische Güte mit 23–27 % Chrom und sehr guter Zunderbeständigkeit"
+      },
+      {
+        "grade": "AISI 316",
+        "text": "molybdänhaltige Güte mit besserer Beständigkeit gegen chemischen Angriff, für kaltgezogene Fasern"
+      },
+      {
+        "grade": "Kohlenstoffarmer Stahl",
+        "text": "für Fasern mit Endhaken, vor allem im Beton"
+      },
+      {
+        "grade": "Andere Legierungen",
+        "text": "auf Anfrage"
+      }
+    ],
+    "meltingTitle": "Ungefähre Schmelzbereiche",
+    "colGrade": "Güte",
+    "colMelting": "Schmelzbereich",
+    "meltingNote": "Die sichere Einsatztemperatur einer Faser liegt deutlich unter ihrem Schmelzbereich und hängt von Atmosphäre und Feuerbeton ab. Die Grenzwerte des Feuerbetonherstellers beachten.",
+    "benefitsTitle": "Vorteile der Stahlfaserbewehrung",
+    "benefits": [
+      "Hohe Temperaturwechselbeständigkeit",
+      "Flexible Rissbegrenzung",
+      "Hohe Beständigkeit gegen Abplatzen",
+      "Hohe Beständigkeit gegen Vibration",
+      "Höhere Tragfähigkeit monolithischer Querschnitte",
+      "Bewehrung im gesamten Feuerbeton, die den Bedarf an Gittermatten verringern kann"
+    ],
+    "applicationsTitle": "Anwendungen nach Branche",
+    "applications": [
+      {
+        "title": "Stahl und Aluminium",
+        "items": [
+          "Pfannenauskleidungen",
+          "Ofendecken",
+          "Monolithische Auskleidungen mit Temperaturwechselbelastung"
+        ]
+      },
+      {
+        "title": "Zement",
+        "items": [
+          "Drehrohrofenauskleidungen",
+          "Vorwärmer",
+          "Kühlerkanäle"
+        ]
+      },
+      {
+        "title": "Petrochemie",
+        "items": [
+          "Reaktoren",
+          "Reformer",
+          "Spaltöfen"
+        ]
+      },
+      {
+        "title": "Energie und Schiffbau",
+        "items": [
+          "Kesselauskleidungen",
+          "Schiffskessel und Ofenbauteile"
+        ]
+      },
+      {
+        "title": "Industrieöfen und Koksöfen",
+        "items": [
+          "Isolier- und Dichtbetone in Industrieöfen",
+          "Feuerbetone in Koksöfen"
+        ]
+      },
+      {
+        "title": "Betonbewehrung",
+        "items": [
+          "Fundamente",
+          "Verkehrsflächen",
+          "Flüssigkeitsdichte Bodenplatten"
+        ]
+      }
+    ],
+    "supplyTitle": "Unser Lieferumfang",
+    "supply": [
+      "Santura Engineering fertigt Stahlfasern im eigenen Werk in beiden Verfahren: schmelzextrahierte Nadeln in AISI 304, 310 und 446 sowie kaltgezogene Nadeln in gerader, gehakter und gewellter Form. Andere Legierungen, Längen und Durchmesser fertigen wir nach Bestellung.",
+      "Santura beliefert seit 1980 Kunden aus Stahl-, Zement-, Petrochemie- und Energiebranche, exportiert in mehr als 25 Länder und arbeitet mit einem nach ISO 9001:2015 zertifizierten Qualitätsmanagementsystem. Fasern können zusammen mit den SEPL-Ankern für dieselbe Auskleidung geliefert werden."
+    ],
+    "standardsTitle": "Normen",
+    "standards": [
+      "Stahlfasern für faserbewehrten Beton (Typen I–V)",
+      "Fasern für Beton: Stahlfasern"
+    ],
+    "standardsNote": "Diese Normen gelten für Fasern in Beton. Feuerfestfasern werden meist über Legierung, Länge und Durchmesser in der Feuerbeton- oder Projektspezifikation festgelegt.",
+    "relatedTitle": "Verwandte Produkte und Leistungen",
+    "relatedAnchors": "SEPL-Anker für Stein-, Feuerbeton- und Keramikfaserauskleidungen.",
+    "relatedCalsil": "Starre Dämmung für Hochtemperaturanlagen.",
+    "relatedPickling": "Beizen und Passivieren von Edelstahlprodukten.",
+    "relatedPins": "Schweißstifte und Scheiben zur Befestigung von Dämmung.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Was ist der Unterschied zwischen schmelzextrahierten und kaltgezogenen Stahlfasern?",
+        "a": "Schmelzextrahierte Fasern werden von einem schnell drehenden Rad aus Edelstahl abgezogen, der bei 1500–1600 °C geschmolzen wurde. Dadurch haben sie einen unregelmäßigen Querschnitt, der sich im Feuerbeton verzahnt. Sie sind die meistverwendete Feuerfestfaser: wirtschaftlich und gut durch Schläuche förderbar. Kaltgezogene Fasern entstehen, indem Draht durch Ziehsteine gezogen und auf Länge geschnitten wird; das ergibt eine gleichmäßig runde Faser mit hoher Festigkeit. Es gibt sie gerade, mit Endhaken oder gewellt; Fasern mit Endhaken sind im Beton weit verbreitet."
+      },
+      {
+        "q": "Welche Stahlfasergüte eignet sich am besten für Feuerfestanwendungen?",
+        "a": "Das hängt von Betriebstemperatur, Atmosphäre und chemischer Belastung ab. AISI 446, eine ferritische Güte mit 23–27 % Chrom, hat eine sehr gute Zunderbeständigkeit. AISI 310 ist eine Güte mit hohem Chrom- und Nickelgehalt für höhere Temperaturen und Temperaturwechsel. AISI 304 ist eine Standardgüte für mäßige Temperaturen. Die Empfehlungen des Feuerbetonherstellers sollten die endgültige Wahl bestimmen."
+      },
+      {
+        "q": "Welche Dosierung von Stahlfasern ist in Feuerbetonen üblich?",
+        "a": "Die Dosierung wird meist in Gewichtsprozent des trockenen Feuerbetons angegeben und hängt von Rezeptur, Anwendung und Betriebsbedingungen ab. Maßgeblich sind das Datenblatt des Feuerbetonherstellers und die Spezifikation des Auskleidungsplaners; wir beraten Sie gern zu Fasertyp und -größe für Ihren Feuerbeton."
+      },
+      {
+        "q": "Können Stahlfasern Gittermatten in Feuerfestauskleidungen ersetzen?",
+        "a": "In vielen monolithischen Auskleidungen ja. Fasern verteilen sich im gesamten Feuerbeton und bewehren ihn dreidimensional, Gittermatten dagegen nur in einer Ebene. Das kann Gittermatten verringern oder überflüssig machen, die Montage erleichtern und Risse begrenzen. Der Auskleidungsplaner sollte dies für jede Anwendung bestätigen."
+      },
+      {
+        "q": "Welche Längen und Durchmesser fertigt Santura?",
+        "a": "Kaltgezogene gerade Nadeln werden üblich 25–35 mm lang und mit 0,3–0,7 mm Durchmesser geliefert, mit einer Zugfestigkeit über 650 MPa. Schmelzextrahierte Nadeln gibt es in vielen Längen und Durchmessern in AISI 304, 310 und 446. Fasern mit Endhaken und gewellte Fasern sowie andere Größen und Legierungen fertigen wir nach Bestellung."
+      }
+    ],
+    "ctaTitle": "Sie benötigen Stahlfasern?",
+    "ctaText": "Nennen Sie uns Fasertyp, Güte, Länge, Durchmesser und Menge oder den Feuerbeton, den Sie bewehren möchten. Wir antworten mit Angebot und Lieferzeit.",
+    "ctaRfq": "Angebot für Stahlfasern anfordern",
+    "ctaContact": "Oder kontaktieren Sie unser Team"
+  },
+  "tdPage": {
+    "metaTitle": "Edelstahl-Lieferant | Stäbe, Walzdraht, Profile",
+    "metaDescription": "Edelstahl-Walzdraht, Sechskant-, Flach- und Rundstäbe, Winkel. Werkszertifizierter Edelstahl in 304, 316, 310 seit 1980 in mehr als 25 Länder.",
+    "eyebrow": "Handelsabteilung",
+    "h1": "Edelstahl-Handelsabteilung",
+    "subheading": "Werkszertifizierter Edelstahl-Walzdraht in Ringen, Sechskant-, Vierkant-, Flach- und Pumpenwellenstäbe, Winkel und warmgewalzte Stäbe, von renommierten Werken bezogen und mit Abnahmeprüfzeugnissen nach EN 10204 3.1 geliefert.",
+    "badges": [
+      "Walzdraht in Ringen",
+      "Blankstahl",
+      "HRAP-Flachstäbe und Winkel",
+      "PSQ-Stäbe",
+      "200er, 300er, 400er Reihe",
+      "EN 10204 3.1"
+    ],
+    "heroAlt": "Stahlherstellung damals und heute: frühe Stahlkonverter auf einem Stich neben einem modernen Stahlwerk beim Abstich von flüssigem Metall",
+    "gallery": [
+      "Edelstahldrahtringe im Lager",
+      "Blanke Sechskantstäbe aus Edelstahl",
+      "Vierkantstäbe aus Edelstahl",
+      "HRAP-Flachstäbe aus Edelstahl",
+      "Gleichschenklige HRAP-Winkel aus Edelstahl",
+      "Rundstäbe in Pumpenwellenqualität (PSQ) aus Edelstahl",
+      "Warmgewalzte Edelstahlstäbe",
+      "Walzdrahtcoils aus Edelstahl",
+      "Gleichschenkliger Winkel aus Edelstahl"
+    ],
+    "overviewTitle": "Edelstahl aus einer Hand",
+    "overview": [
+      "Die Handelsabteilung von Santura Engineering liefert und exportiert werkszertifizierte Edelstahlprofile für Industrieprojekte im Nahen Osten, in Afrika und Europa. Wir beziehen das Material von renommierten Werken und liefern an Raffinerien, Baustellen, Fertigungsbetriebe und EPC-Unternehmen, mit Abnahmeprüfzeugnissen nach EN 10204 3.1.",
+      "Die Abteilung ergänzt unsere eigene Fertigung von Feuerfestankern und Stahlfasern. Viele derselben Kunden benötigen auch Edelstahlprofile und können beides bei einem Lieferanten kaufen, mit einem Dokumentensatz."
+    ],
+    "jumpLabel": "Produkte auf dieser Seite",
+    "sections": [
+      {
+        "title": "Walzdraht in Ringen",
+        "text": "Edelstahl-Walzdraht in Ringen ist das Ausgangsmaterial für Drahtseile, Federn, Verbindungselemente, Schweißelektroden, Drahtgeflechte und Feuerfestanker und wird auch für Küchenwaren, medizinische Instrumente und elektronische Bauteile verwendet.",
+        "rows": [
+          {
+            "label": "Größenbereich",
+            "value": "5,5–16 mm Walzdraht-Blockringe (5,5, 6, 6,5, 7, 7,5, 8, 9, 10, 11, 12, 13, 14, 15, 16 mm); 17–40 mm Garret-Ringe"
+          },
+          {
+            "label": "Ringgewicht",
+            "value": "850–1200 kg (Walzdraht-Blockringe)"
+          },
+          {
+            "label": "Ringabmessungen",
+            "value": "Blockringe: ID 800–900 mm. Garret-Ringe: ID 550–650 mm, AD 750–850 mm"
+          },
+          {
+            "label": "Norm",
+            "value": "Nach EN 10088"
+          },
+          {
+            "label": "Lieferzustand",
+            "value": "Warmgewalzt (HR); warmgewalzt und gebeizt (HRP); warmgewalzt, geglüht und gebeizt (HRAP); warmgewalzt und geglüht (HRA)"
+          },
+          {
+            "label": "Verpackung",
+            "value": "Stahlbänder an jedem Ring mit Kunststoffumhüllung; Folienverpackung bei HRP und HRAP; oder nach Vorgabe"
+          }
+        ]
+      },
+      {
+        "title": "Sechskantstäbe (blank)",
+        "text": "Blanke Sechskantstäbe für Muttern, Ventile, Schlaucharmaturen, Verbindungselemente und Sechskantschrauben, die Festigkeit mit Korrosionsbeständigkeit verbinden. Lieferbar in den Güten 201, 304/304L, 316/316L und 303.",
+        "rows": [
+          {
+            "label": "Güten",
+            "value": "201, 304/304L, 316/316L, 303"
+          },
+          {
+            "label": "Größenbereich",
+            "value": "12–55 mm (½\" bis 2¼\")"
+          },
+          {
+            "label": "Maßtoleranz",
+            "value": "h11"
+          },
+          {
+            "label": "Länge",
+            "value": "3,00–6,70 m (10–22 ft); Zuschnitt mit Toleranz −0/+50 mm"
+          },
+          {
+            "label": "Fasen",
+            "value": "30°, 45° oder 60°; gratfreie glatte Schnittenden"
+          },
+          {
+            "label": "Geradheit",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Oberfläche",
+            "value": "Kugelgestrahlt und kaltgezogen oder bandgeschliffen"
+          },
+          {
+            "label": "Wärmebehandlung",
+            "value": "Lösungsgeglüht"
+          }
+        ]
+      },
+      {
+        "title": "Vierkantstäbe",
+        "text": "Austenitische Edelstahl-Vierkantstäbe für anspruchsvolle Anwendungen wie Luftfahrtteile, Manometer, Temperaturfühler und Kraftaufnehmer. Schlüsselweite und Eckradius können nach Ihren Anforderungen eingehalten werden. Gezogene und polierte Stäbe eignen sich für dekorative Zwecke, kugelgestrahlte und kaltgezogene für kritische Anwendungen.",
+        "rows": [
+          {
+            "label": "Güten",
+            "value": "Austenitische Güten"
+          },
+          {
+            "label": "Größenbereich",
+            "value": "12–55 mm (½\" bis 2¼\")"
+          },
+          {
+            "label": "Maßtoleranz",
+            "value": "h11"
+          },
+          {
+            "label": "Länge",
+            "value": "3,00–6,70 m (10–22 ft); Zuschnitt mit Toleranz −0/+50 mm"
+          },
+          {
+            "label": "Fasen",
+            "value": "30°, 45° oder 60°; gratfreie glatte Schnittenden"
+          },
+          {
+            "label": "Geradheit",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Oberfläche",
+            "value": "Kugelgestrahlt und kaltgezogen oder bandgeschliffen"
+          },
+          {
+            "label": "Wärmebehandlung",
+            "value": "Lösungsgeglüht"
+          }
+        ]
+      },
+      {
+        "title": "HRAP-Flachstäbe",
+        "text": "Warmgewalzte, geglühte und gebeizte gewalzte Flachstäbe, die auf Maß gewalzt und nicht aus Blech geschnitten werden und daher fester sind als gespaltene Flachstäbe. Für Bau und hochfeste Konstruktionen; bandgeschliffene Stäbe für dekorative Zwecke lieferbar.",
+        "rows": [
+          {
+            "label": "Maßtoleranz",
+            "value": "ASTM A484"
+          },
+          {
+            "label": "Länge",
+            "value": "3,00–6,70 m (10–22 ft); Zuschnitt mit Toleranz −0/+50 mm"
+          },
+          {
+            "label": "Geradheit",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Oberfläche",
+            "value": "Warmgewalzt, geglüht, gebeizt und kugelgestrahlt oder bandgeschliffen"
+          },
+          {
+            "label": "Wärmebehandlung",
+            "value": "Lösungsgeglüht"
+          },
+          {
+            "label": "Abmessungen",
+            "value": "Breiten 25–100 mm, Dicken 5–50 mm (siehe Tabelle)"
+          }
+        ]
+      },
+      {
+        "title": "HRAP-Winkel",
+        "text": "Warmgewalzte, geglühte und gebeizte gleichschenklige Winkel für Bau und Tragwerke, Möbel, Lebensmittelanlagen und Maschinen.",
+        "rows": [
+          {
+            "label": "Maßtoleranz",
+            "value": "ASTM A484"
+          },
+          {
+            "label": "Länge",
+            "value": "3,00–6,70 m (10–22 ft); Zuschnitt mit Toleranz −0/+50 mm"
+          },
+          {
+            "label": "Geradheit",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Oberfläche",
+            "value": "Warmgewalzt, geglüht, gebeizt und kugelgestrahlt"
+          },
+          {
+            "label": "Wärmebehandlung",
+            "value": "Lösungsgeglüht"
+          },
+          {
+            "label": "Abmessungen",
+            "value": "20 × 20 mm bis 75 × 75 mm, 3–12 mm dick (siehe Tabelle)"
+          }
+        ]
+      },
+      {
+        "title": "PSQ-Stäbe (Pumpenwellenqualität)",
+        "text": "Präzisions-Rundstäbe mit engerer Toleranz und besserer Geradheit als normale Blankstäbe, direkt als Pumpen-, Zylinder- und Kolbenwellen einsetzbar.",
+        "rows": [
+          {
+            "label": "Größenbereich",
+            "value": "6–63,5 mm (¼\" bis 2½\")"
+          },
+          {
+            "label": "Maßtoleranz",
+            "value": "h8"
+          },
+          {
+            "label": "Länge",
+            "value": "3,00–6,70 m (10–22 ft); Zuschnitt mit Toleranz −0/+50 mm"
+          },
+          {
+            "label": "Fasen",
+            "value": "30°, 45° oder 60°"
+          },
+          {
+            "label": "Geradheit",
+            "value": "Bis 0,25 mm/m TIR"
+          },
+          {
+            "label": "Oberfläche",
+            "value": "Spitzenlos geschliffen und bandpoliert bis Ra 0,2 µm; Körnung 240–320"
+          },
+          {
+            "label": "Wärmebehandlung",
+            "value": "Lösungsgeglüht, geglüht, QT 650, QT 800 und andere"
+          }
+        ]
+      },
+      {
+        "title": "Warmgewalzte Stäbe",
+        "text": "Warmgewalzte Rundstäbe für Weiterverarbeiter, Zerspanung und Schmieden, im gerichteten Zustand geliefert.",
+        "rows": [
+          {
+            "label": "Abmessungen",
+            "value": "13–150 mm (siehe Liste)"
+          },
+          {
+            "label": "Toleranz",
+            "value": "EN 10060"
+          },
+          {
+            "label": "Länge",
+            "value": "3,00–6,70 m (10–22 ft)"
+          },
+          {
+            "label": "Geradheit",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Oberfläche",
+            "value": "Walzschwarz"
+          },
+          {
+            "label": "Wärmebehandlung",
+            "value": "Geglüht, lösungsgeglüht oder vergütet"
+          }
+        ]
+      }
+    ],
+    "wireGradesTitle": "Walzdrahtgüten",
+    "wireGradesAstm": "ASTM / AISI",
+    "wireGradesEn": "DIN / EN",
+    "wireGradesElectrode": "Schweißelektrodengüten",
+    "wireGradesNote": "Sondergüten sind auch nach Kundenanforderung lieferbar.",
+    "colWidth": "Breite (mm)",
+    "colThicknessRange": "Dickenbereich (mm)",
+    "colAngleSize": "Größe (mm)",
+    "colAngleThickness": "Dicken (mm)",
+    "hotRolledSizesTitle": "Abmessungen (mm)",
+    "gradesTitle": "Edelstahlgüten",
+    "gradesIntro": "Die Gütegruppen, die wir liefern. Fragen Sie nach jeder nicht aufgeführten Güte.",
+    "colFamily": "Gütegruppe",
+    "colGrades": "Güten",
+    "colProperties": "Wichtigste Eigenschaften",
+    "gradeRows": [
+      {
+        "family": "Austenitisch (300er Reihe)",
+        "grades": "304, 304L, 304H, 310, 310S, 316, 316L, 316Ti, 321",
+        "properties": "Gute allgemeine Korrosionsbeständigkeit; im geglühten Zustand unmagnetisch; die meistverwendete Gruppe"
+      },
+      {
+        "family": "Austenitisch (200er Reihe)",
+        "grades": "201, 202, 204Cu",
+        "properties": "Geringerer Nickelgehalt; kostengünstige Alternative zur 300er Reihe für weniger anspruchsvolle Einsätze"
+      },
+      {
+        "family": "Martensitisch (400er Reihe)",
+        "grades": "410, 420",
+        "properties": "Durch Wärmebehandlung härtbar; verschleißfest; magnetisch"
+      },
+      {
+        "family": "Ferritisch (400er Reihe)",
+        "grades": "430, 430L",
+        "properties": "Magnetisch; gute Beständigkeit gegen Oxidation und Chlorid-Spannungsrisskorrosion; wirtschaftlich"
+      },
+      {
+        "family": "Hochlegiert austenitisch",
+        "grades": "904L",
+        "properties": "Beständig gegen starke Säuren; in der chemischen Verfahrenstechnik eingesetzt"
+      },
+      {
+        "family": "Duplex und Sondergüten",
+        "grades": "1.4362 (2304); weitere auf Anfrage",
+        "properties": "Sondergüten nach Projektspezifikation beschafft"
+      }
+    ],
+    "gradesNote": "Das Material wird je nach Bedarf nach ASTM-, DIN/EN- oder IS-Spezifikation mit Abnahmeprüfzeugnissen nach EN 10204 3.1 geliefert.",
+    "marketsTitle": "Unsere Märkte",
+    "marketsIntro": "Wir exportieren Edelstahlprofile mit den für die Verzollung nötigen Dokumenten.",
+    "markets": [
+      {
+        "region": "Vereinigte Arabische Emirate",
+        "text": "Dubai, Abu Dhabi, Sharjah, Jebel Ali Free Zone (JAFZA) und das Industriegebiet Ruwais, mit Lieferung an Projektstandorte in allen sieben Emiraten."
+      },
+      {
+        "region": "Saudi-Arabien",
+        "text": "Lieferung an Industrie- und Bauprojekte."
+      },
+      {
+        "region": "Oman",
+        "text": "Lieferung an Industrie- und Bauprojekte."
+      },
+      {
+        "region": "Weitere GCC-Staaten",
+        "text": "Bahrain, Kuwait und Katar auf Anfrage."
+      },
+      {
+        "region": "Afrika",
+        "text": "Lieferung an Industriemärkte in Afrika."
+      },
+      {
+        "region": "Europa",
+        "text": "Projektbezogene Lieferung."
+      }
+    ],
+    "applicationsTitle": "Anwendungen nach Branche",
+    "applications": [
+      {
+        "title": "Öl, Gas und Petrochemie",
+        "items": [
+          "Pipeline-Bauteile",
+          "Druckbehälterbau",
+          "Material für Offshore-Plattformen"
+        ]
+      },
+      {
+        "title": "Bau und Architektur",
+        "items": [
+          "Tragkonstruktionen und Fußplatten",
+          "Fassaden und Verkleidungen",
+          "Innen- und Dekorelemente"
+        ]
+      },
+      {
+        "title": "Schiffbau und Marine",
+        "items": [
+          "316L-Profile für Schiffbau und Yachtbeschläge",
+          "Hafeninfrastruktur",
+          "Bauteile für Meerwasserentsalzung"
+        ]
+      },
+      {
+        "title": "Industrielle Fertigung",
+        "items": [
+          "Maschinen- und Anlagengestelle",
+          "Lebensmittelanlagen",
+          "Wasseraufbereitungsanlagen"
+        ]
+      },
+      {
+        "title": "Automobil und Luftfahrt",
+        "items": [
+          "Stäbe für Verbindungselemente und Wellen",
+          "Präzisionsbauteile"
+        ]
+      },
+      {
+        "title": "Drahterzeugnisse",
+        "items": [
+          "Drahtseile und Federn",
+          "Schweißelektroden",
+          "Drahtgeflechte und Feuerfestanker"
+        ]
+      }
+    ],
+    "whyTitle": "Warum über unsere Handelsabteilung beziehen",
+    "why": [
+      "Mehr als 40 Jahre Branchenerfahrung",
+      "Werkszertifiziertes Material mit Abnahmeprüfzeugnissen nach EN 10204 3.1",
+      "Güten der 200er, 300er und 400er Reihe sowie Sonderlegierungen",
+      "Lieferzustände von warmgewalzt und gebeizt bis kaltgezogen, poliert und spitzenlos geschliffen",
+      "Stäbe im Zuschnitt mit Toleranz −0/+50 mm",
+      "Edelstahlprofile sowie unsere eigenen Feuerfestanker und Fasern von einem Lieferanten",
+      "Von renommierten Werken bezogen",
+      "Export in mehr als 25 Länder"
+    ],
+    "findTitle": "Sie finden uns auch auf",
+    "findText": "Santura Engineering ist auch auf diesen B2B-Marktplätzen gelistet.",
+    "find": {
+      "indiamart": "IndiaMART",
+      "tradeindia": "TradeIndia"
+    },
+    "newTab": "(öffnet in neuem Tab)",
+    "relatedTitle": "Verwandte Produkte",
+    "relatedAnchors": "In unserem Werk aus Edelstahlgüten wie SS 304, 310 und 316 gefertigt.",
+    "relatedFibres": "Schmelzextrahierte und kaltgezogene Fasern in AISI 304, 310 und 446.",
+    "relatedFasteners": "Schrauben, Stehbolzen, Muttern und Scheiben aus Edel- und legiertem Stahl.",
+    "relatedAccessories": "Spannbänder, Schrauben und Kleinteile aus Edelstahl für die Dämmung.",
+    "faqTitle": "Häufige Fragen",
+    "faq": [
+      {
+        "q": "Welche Edelstahlgüten liefert Santura?",
+        "a": "Santura liefert austenitische Güten (304, 304L, 304H, 310, 310S, 316, 316L, 316Ti, 321 sowie die 200er Reihe), ferritische Güten (430, 430L), martensitische Güten (410, 420) und die hochlegierte austenitische Güte 904L. Walzdraht ist auch in DIN/EN-Güten und Schweißelektrodengüten erhältlich, Sondergüten beschaffen wir auf Anfrage. Das Material wird mit Abnahmeprüfzeugnissen nach EN 10204 3.1 geliefert."
+      },
+      {
+        "q": "Welche Edelstahlprofile sind erhältlich?",
+        "a": "Wir liefern Walzdraht in Ringen (5,5–40 mm), Sechskantstäbe (12–55 mm), Vierkantstäbe (12–55 mm), HRAP-Flachstäbe (25–100 mm breit), HRAP-Winkel (20 × 20 bis 75 × 75 mm), Stäbe in Pumpenwellenqualität (6–63,5 mm) und warmgewalzte Stäbe (13–150 mm). Die Lieferzustände reichen von warmgewalzt, gebeizt und geglüht bis kaltgezogen, poliert und spitzenlos geschliffen."
+      },
+      {
+        "q": "Liefert Santura Edelstahl in die VAE und nach Saudi-Arabien?",
+        "a": "Ja. Wir liefern Edelstahlprofile in die VAE, unter anderem nach Dubai, Abu Dhabi, Sharjah, in die Jebel Ali Free Zone (JAFZA) und nach Ruwais, sowie nach Saudi-Arabien, Oman und in weitere GCC-Staaten, mit den für die Verzollung nötigen Dokumenten."
+      },
+      {
+        "q": "Welche Zeugnisse gehören zum Edelstahl?",
+        "a": "Der Edelstahl wird mit Abnahmeprüfzeugnissen nach EN 10204 3.1 geliefert, die chemische Zusammensetzung, mechanische Eigenschaften und Wärmebehandlung des Materials ausweisen. Das Material wird je nach Projekt nach ASTM-, DIN/EN- oder IS-Spezifikation geliefert."
+      },
+      {
+        "q": "Kann Santura sowohl Edelstahl als auch Feuerfestprodukte liefern?",
+        "a": "Ja. Die Handelsabteilung liefert werkszertifizierte Edelstahlprofile, während unser eigenes Werk Feuerfestanker, Stahlfasern, Blindniete und Lochbleche fertigt. EPC-Unternehmen und Anlagenbetreiber, die beides benötigen, können es bei einem Lieferanten kaufen, was die Beschaffung vereinfacht."
+      }
+    ],
+    "ctaTitle": "Sie benötigen Edelstahlprofile?",
+    "ctaText": "Nennen Sie uns Produkt, Güte, Abmessung, Länge, Lieferzustand und Menge. Wir antworten mit Angebot und Lieferzeit.",
+    "ctaRfq": "Angebot für Edelstahl anfordern",
     "ctaContact": "Oder kontaktieren Sie unser Team"
   }
 }

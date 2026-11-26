@@ -14,7 +14,7 @@ type EtchTest = { code: string; title: string; text: string };
 // Metal product categories the micro etching test applies to (insulation materials are excluded).
 const ETCH_CATEGORIES = [
   'refractory-anchors', 'insulation-pins', 'fasteners', 'foundation-bolts',
-  'support-plates', 'pipe-guides-sleeves', 'counter-weight-systems', 'steel-plates'
+  'support-plates', 'pipe-guides-sleeves', 'counter-weight-systems'
 ] as const;
 
 // Codes are language-neutral; the description of each comes from the translation file.

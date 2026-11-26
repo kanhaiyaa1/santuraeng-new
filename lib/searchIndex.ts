@@ -105,6 +105,20 @@ async function buildSearchIndex(locale: string): Promise<SearchDoc[]> {
   const gfEn = await t('gfPage', 'en');
   const cs = await t('csPage');
   const csEn = await t('csPage', 'en');
+  const ip = await t('ipPage');
+  const ipEn = await t('ipPage', 'en');
+  const ps = await t('psPage');
+  const psEn = await t('psPage', 'en');
+  const pir = await t('pirPage');
+  const pirEn = await t('pirPage', 'en');
+  const fs = await t('fsPage');
+  const fsEn = await t('fsPage', 'en');
+  const ia = await t('iaPage');
+  const iaEn = await t('iaPage', 'en');
+  const sf = await t('sfPage');
+  const sfEn = await t('sfPage', 'en');
+  const td = await t('tdPage');
+  const tdEn = await t('tdPage', 'en');
   const categoryExtra: Record<string, { description: string; keywords: string }> = {
     'observation-peep-doors': {
       description: od('subheading'),
@@ -145,6 +159,34 @@ async function buildSearchIndex(locale: string): Promise<SearchDoc[]> {
     'calcium-silicate': {
       description: cs('subheading'),
       keywords: [cs('h1'), csEn('h1'), 'calcium silicate calsil block board slab pipe section lag ASTM C533 IS 8154 IS 9428 high temperature insulation'].join(' ')
+    },
+    'insulation-pins': {
+      description: ip('subheading'),
+      keywords: [ip('h1'), ipEn('h1'), 'insulation pin weld pin stick pin hanger pin CD weld pin cup head pin perforated pin self-adhesive pin speed washer self-locking washer dome cap'].join(' ')
+    },
+    'polystyrene-insulation': {
+      description: ps('subheading'),
+      keywords: [ps('h1'), psEn('h1'), 'polystyrene EPS XPS expanded extruded thermocol styrofoam foam board pipe section half shell cold room insulation chilled water'].join(' ')
+    },
+    'polyisocyanurate-insulation': {
+      description: pir('subheading'),
+      keywords: [pir('h1'), pirEn('h1'), 'polyisocyanurate PIR polyiso polyurethane PUR rigid foam pipe section half shell board lag cryogenic'].join(' ')
+    },
+    fasteners: {
+      description: fs('subheading'),
+      keywords: [fs('h1'), fsEn('h1'), 'fasteners bolts nuts washers studs B7 2H B7M hex bolt stud bolt heavy hex nut nylock U-bolt eye bolt carriage bolt socket head Inconel Monel Duplex Hastelloy stainless steel'].join(' ')
+    },
+    'insulation-accessories': {
+      description: ia('subheading'),
+      keywords: [ia('h1'), iaEn('h1'), 'insulation accessories cladding jacketing banding strapping band wing seal buckle expansion spring self-tapping screw pop rivet blind rivet tie wire wire mesh perforated sheet scissor clip tape sealant shoulder stud setback cap'].join(' ')
+    },
+    'steel-fibres': {
+      description: sf('subheading'),
+      keywords: [sf('h1'), sfEn('h1'), 'steel fibre steel fiber reinforcement needles melt extract cold drawn hooked wavy corrugated straight SEPL-27 SEPL-28 SEPL-29 SEPL-30 AISI 304 310 446 castable reinforcement'].join(' ')
+    },
+    'trading-division': {
+      description: td('subheading'),
+      keywords: [td('h1'), tdEn('h1'), 'stainless steel supplier trading wire rod coils hexagonal bars hex bar square bars flat bars HRAP angles PSQ pump shaft quality bright bars hot rolled bars round bars 304 316 310 mill test certificate EN 10204 3.1 UAE Saudi Arabia'].join(' ')
     }
   };
 

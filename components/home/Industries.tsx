@@ -6,7 +6,12 @@ const INDUSTRIES = [
   { key: 'oilGas', image: '/images/home/industries/oil-gas-refinery-industry.jpg' },
   { key: 'cement', image: '/images/home/industries/cement-industry-raw-meal-powder.jpg' },
   { key: 'steel', image: '/images/home/industries/steel-plant-molten-metal-industry.jpg' },
-  { key: 'power', image: '/images/home/industries/power-transmission-lines-industry.jpg' }
+  { key: 'power', image: '/images/home/industries/power-transmission-lines-industry.jpg' },
+  // Industries also listed on the old site's home page.
+  { key: 'aluminium', image: '/images/home/industries/aluminium-coils-industry-warehouse.jpg' },
+  { key: 'copper', image: '/images/home/industries/copper-wire-coils-industry.jpg' },
+  { key: 'ceramic', image: '/images/home/industries/ceramic-industry-tunnel-kiln-cars.jpg' },
+  { key: 'mining', image: '/images/home/industries/mining-industry-underground-conveyor.jpg' }
 ] as const;
 
 export default function Industries() {

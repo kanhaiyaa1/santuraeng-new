@@ -123,7 +123,7 @@ export default async function BrightSolutionAnnealingPage({ params: { locale } }
           <p className="mt-6 border-s-2 border-brand-500 ps-3 font-semibold text-ink">{t('bothOffered')}</p>
         </div>
         <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-line bg-surface-alt lg:col-span-2">
-          <Image src="/images/miscellaneous/steel-wire-coil-inventory-industrial-warehouse-santura.webp" alt="" fill sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover" />
+          <Image src="/images/company/steel-wire-coil-inventory-industrial-warehouse-santura.webp" alt="" fill sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover" />
         </div>
       </section>
 

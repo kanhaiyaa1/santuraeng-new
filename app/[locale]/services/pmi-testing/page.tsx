@@ -123,7 +123,7 @@ export default async function PmiTestingPage({ params: { locale } }: Props) {
           </div>
         </div>
         <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-line bg-surface-alt lg:col-span-2">
-          <Image src="/images/miscellaneous/steel-wire-alloy-quality-testing-santura.webp" alt="" fill sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover" />
+          <Image src="/images/testing/pmi-testing-xrf-analyzer-ss310-reading.jpg" alt={t('whatImageAlt')} fill sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover" />
         </div>
       </section>
 

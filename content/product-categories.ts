@@ -1,7 +1,7 @@
 // Product categories for the header mega menu, the /products overview and the /products/[slug] placeholders.
 // Single source of truth for slugs, order and status. `name` / `description` are the English copy;
 // every language (English included) is rendered from messages "productCategories.items.<slug>".
-// Categories with hasContent: true have their own route (/refractory-anchors, app/[locale]/products/observation-peep-doors, .../foundation-bolts, .../support-plates, .../industrial-stanchions, .../pipe-guides-sleeves, .../counter-weight-systems, .../mineral-wool, .../ceramic-gaskets, .../glass-fibre-sheets, .../calcium-silicate);
+// Categories with hasContent: true have their own route (/refractory-anchors, app/[locale]/products/observation-peep-doors, .../foundation-bolts, .../support-plates, .../industrial-stanchions, .../pipe-guides-sleeves, .../counter-weight-systems, .../mineral-wool, .../ceramic-gaskets, .../glass-fibre-sheets, .../calcium-silicate, .../insulation-pins, .../polystyrene-insulation, .../polyisocyanurate-insulation, .../fasteners, .../insulation-accessories, .../steel-fibres, .../trading-division);
 // the rest render the noindex "Coming soon" page from /products/[slug].
 
 export type CategoryIcon =
@@ -18,6 +18,7 @@ export type ProductCategory = {
 
 export const PRODUCT_CATEGORIES: ProductCategory[] = [
   { slug: 'refractory-anchors', name: 'Refractory Anchors', description: 'SEPL anchors for brick, castable, double and ceramic fibre linings.', hasContent: true, icon: 'anchor' },
+  { slug: 'steel-fibres', name: 'Steel Fibres', description: 'Melt extract and cold drawn stainless steel fibres for refractory castables.', hasContent: true, icon: 'steel' },
   { slug: 'observation-peep-doors', name: 'Observation / Peep Doors', description: 'Sight and peep doors for furnaces, heaters and boilers.', hasContent: true, icon: 'door' },
   { slug: 'foundation-bolts', name: 'Foundation Bolts', description: 'Anchor and foundation bolts for structures and equipment.', hasContent: true, icon: 'bolt' },
   { slug: 'support-plates', name: 'Support Plates', description: 'Base and support plates made to drawing.', hasContent: true, icon: 'plate' },
@@ -28,13 +29,12 @@ export const PRODUCT_CATEGORIES: ProductCategory[] = [
   { slug: 'ceramic-gaskets', name: 'Ceramic Gaskets', description: 'High-temperature ceramic fibre gaskets and seals.', hasContent: true, icon: 'gasket' },
   { slug: 'glass-fibre-sheets', name: 'Glass Fibre Sheets', description: 'Glass fibre sheets, cloth and glass wool.', hasContent: true, icon: 'sheet' },
   { slug: 'calcium-silicate', name: 'Calcium Silicate', description: 'Calcium silicate boards and pipe sections.', hasContent: true, icon: 'block' },
-  { slug: 'insulation-pins', name: 'Insulation Pins', description: 'Weld pins and clips for fixing insulation.', hasContent: false, icon: 'pin' },
-  { slug: 'polystyrene-insulation', name: 'Polystyrene Insulation', description: 'Expanded and extruded polystyrene insulation.', hasContent: false, icon: 'foam' },
-  { slug: 'polyisocyanurate-insulation', name: 'Polyisocyanurate Insulation', description: 'PIR insulation boards and pipe sections.', hasContent: false, icon: 'panel' },
-  { slug: 'fasteners', name: 'Fasteners', description: 'Bolts, studs, nuts and rivets in stainless and alloy steels.', hasContent: false, icon: 'fastener' },
-  { slug: 'insulation-accessories', name: 'Insulation Accessories', description: 'Bands, clips, washers and other insulation fixings.', hasContent: false, icon: 'kit' },
-  { slug: 'steel-plates', name: 'Steel Plates', description: 'Stainless and alloy steel plates and sheets.', hasContent: false, icon: 'steel' },
-  { slug: 'trading-division', name: 'Trading Division', description: 'Stainless steel and industrial materials supply.', hasContent: false, icon: 'trade' }
+  { slug: 'insulation-pins', name: 'Insulation Pins', description: 'Weld pins and clips for fixing insulation.', hasContent: true, icon: 'pin' },
+  { slug: 'polystyrene-insulation', name: 'Polystyrene Insulation', description: 'Expanded and extruded polystyrene insulation.', hasContent: true, icon: 'foam' },
+  { slug: 'polyisocyanurate-insulation', name: 'Polyisocyanurate Insulation', description: 'PIR insulation boards and pipe sections.', hasContent: true, icon: 'panel' },
+  { slug: 'fasteners', name: 'Fasteners', description: 'Bolts, studs, nuts and rivets in stainless and alloy steels.', hasContent: true, icon: 'fastener' },
+  { slug: 'insulation-accessories', name: 'Insulation Accessories', description: 'Bands, clips, washers and other insulation fixings.', hasContent: true, icon: 'kit' },
+  { slug: 'trading-division', name: 'Trading Division', description: 'Stainless steel and industrial materials supply.', hasContent: true, icon: 'trade' }
 ];
 
 /** Where a category links to: the SEPL listing (/refractory-anchors) for anchors, a category page for the rest. */

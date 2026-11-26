@@ -593,6 +593,7 @@ export const PRODUCTS: Product[] = [
       "/images/products/sepl-13-corrugated-v-round-anchors/sepl-13-corrugated-v-round-anchor-render-blue-wide.jpg",
       "/images/products/sepl-13-corrugated-v-round-anchors/sepl-13-corrugated-v-round-anchor-stainless-steel-pair.jpg",
       "/images/products/sepl-13-corrugated-v-round-anchors/sepl-13-corrugated-v-round-anchor-stainless-steel-corrugated-pair.jpg",
+      "/images/products/sepl-13-corrugated-v-round-anchors/sepl-13-corrugated-v-round-anchor-stainless-steel-photo.jpg",
       "/images/products/sepl-13-corrugated-v-round-anchors/sepl-13-corrugated-v-round-anchor-weld-base-drawing.jpg",
       "/images/products/sepl-13-corrugated-v-round-anchors/sepl-13-corrugated-v-round-anchor-corrugated-tip-drawing.jpg",
       "/images/products/sepl-13-corrugated-v-round-anchors/sepl-13-corrugated-v-round-anchor-bent-legs-drawing.jpg",
@@ -1182,7 +1183,8 @@ export const PRODUCTS: Product[] = [
       "/images/products/sepl-25-threaded-studs/sepl-25-threaded-stud-short-render.jpg",
       "/images/products/sepl-25-threaded-studs/sepl-25-threaded-studs-assorted-lengths.jpg",
       "/images/products/sepl-25-threaded-studs/sepl-25-threaded-stud-notched-pin.jpg",
-      "/images/products/sepl-25-threaded-studs/sepl-25-threaded-stud-long-pin.jpg"
+      "/images/products/sepl-25-threaded-studs/sepl-25-threaded-stud-long-pin.jpg",
+      "/images/products/sepl-25-threaded-studs/sepl-25-threaded-studs-stainless-steel-bulk-pile.jpg"
     ]
   },
   {
@@ -1197,7 +1199,9 @@ export const PRODUCTS: Product[] = [
     "alloyTable": [],
     "material": "High-alumina ceramic (Al₂O₃ ≥ 60%)",
     "images": [
-      "/images/products/sepl-26-ceramic-ferrule-washers/sepl-26-ceramic-ferrules-and-washers.jpg"
+      "/images/products/sepl-26-ceramic-ferrule-washers/sepl-26-ceramic-ferrules-and-washers.jpg",
+      "/images/products/sepl-26-ceramic-ferrule-washers/sepl-26-ceramic-ferrules-with-stud-anchors.jpg",
+      "/images/products/sepl-26-ceramic-ferrule-washers/sepl-26-ceramic-ferrules-washers-studs-assortment.jpg"
     ]
   },
   {

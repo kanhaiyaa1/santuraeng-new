@@ -21,7 +21,9 @@ const GALLERY = [
   `${IMG}/industrial-stanchions-galvanized-batch.jpg`,
   `${IMG}/industrial-stanchion-with-arms-galvanized.jpg`,
   `${IMG}/industrial-stanchion-base-plate-render.jpg`,
-  `${IMG}/industrial-stanchion-tee-joint-weld-closeup.jpg`
+  `${IMG}/industrial-stanchion-tee-joint-weld-closeup.jpg`,
+  `${IMG}/industrial-stanchion-galvanized-single.jpg`,
+  `${IMG}/industrial-stanchions-galvanized-workshop-batch.jpg`
 ];
 
 // PLACEHOLDER IMAGES: line drawings for each stanchion configuration and base type, with descriptive alt text

@@ -23,7 +23,8 @@ const GALLERY = [
   `${IMG}/foundation-bolts-pipe-sleeves-tagged.jpg`,
   `${IMG}/foundation-bolts-pipe-sleeves-galvanized-laid-out.jpg`,
   `${IMG}/foundation-bolts-galvanized-bulk-stock.jpg`,
-  `${IMG}/foundation-bolts-pipe-sleeves-closeup.jpg`
+  `${IMG}/foundation-bolts-pipe-sleeves-closeup.jpg`,
+  `${IMG}/foundation-bolts-anchor-plates-pipe-sleeves-batch.jpg`
 ];
 
 // Line drawings of each bolt type (no photos of L, J, U or all-thread bolts on file yet).

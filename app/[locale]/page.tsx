@@ -24,7 +24,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
       url: alternates.canonical,
       locale,
       type: 'website',
-      images: [{ url: '/images/santura-engineering-factory-tarapur-boisar.jpg', width: 1200, height: 630 }]
+      images: [{ url: '/images/company/santura-engineering-factory-tarapur-boisar.jpg', width: 1200, height: 630 }]
     }
   };
 }

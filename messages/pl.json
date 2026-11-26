@@ -115,6 +115,26 @@
         "name": "Energetyka i Kotły",
         "description": "Kotły CFBC, HRSG, spalarnie odpadów i kotły na biomasę.",
         "imageAlt": "Słupy energetyczne o zachodzie słońca"
+      },
+      "aluminium": {
+        "name": "Produkcja Aluminium",
+        "description": "Piece do topienia i podgrzewania, piece do wypalania anod i rynny spustowe.",
+        "imageAlt": "Kręgi aluminium w magazynie"
+      },
+      "copper": {
+        "name": "Miedź",
+        "description": "Piece do wytapiania, konwertory i piece anodowe.",
+        "imageAlt": "Kręgi drutu miedzianego"
+      },
+      "ceramic": {
+        "name": "Przemysł Ceramiczny",
+        "description": "Piece tunelowe, piece okresowe i wózki piecowe.",
+        "imageAlt": "Wózki piecowe z wyrobami ceramicznymi przy piecu tunelowym"
+      },
+      "mining": {
+        "name": "Górnictwo i Minerały",
+        "description": "Piece obrotowe, kalcynatory i suszarnie do przeróbki minerałów.",
+        "imageAlt": "Przenośnik w kopalni podziemnej"
       }
     }
   },
@@ -769,13 +789,13 @@
         "name": "Akcesoria Izolacyjne",
         "description": "Taśmy, klipsy, podkładki i inne mocowania izolacji."
       },
-      "steel-plates": {
-        "name": "Blachy Stalowe",
-        "description": "Blachy ze stali nierdzewnej i stopowej."
-      },
       "trading-division": {
         "name": "Dział Handlowy",
         "description": "Dostawy stali nierdzewnej i materiałów przemysłowych."
+      },
+      "steel-fibres": {
+        "name": "Włókna stalowe",
+        "description": "Włókna nierdzewne wytwarzane z kąpieli i ciągnione na zimno do betonów ogniotrwałych."
       }
     },
     "allCategories": "Wszystkie kategorie produktów",
@@ -1114,6 +1134,7 @@
       "Pozytywna identyfikacja materiału (PMI) to badanie nieniszczące, które mierzy skład pierwiastkowy metalu i potwierdza gatunek stopu. Wykonuje się je przenośnym analizatorem fluorescencji rentgenowskiej (XRF) lub spektrometrem emisji optycznej (OES).",
       "Analizator odczytuje skład w kilka sekund i porównuje go z biblioteką gatunków. Nic nie jest cięte, wiercone ani uszkadzane, więc gotowe kotwy można zbadać i wysłać."
     ],
+    "whatImageAlt": "Ręczny analizator XRF pokazujący odczyt stopu SS310",
     "whyTitle": "Dlaczego to ważne dla kotew ogniotrwałych",
     "why": [
       {
@@ -1589,7 +1610,12 @@
       "Rama i części drzwi rewizyjnych przed montażem",
       "Seria cynkowanych drzwi rewizyjnych w warsztacie",
       "Drzwi rewizyjne na zawiasach ułożone do wysyłki",
-      "Zbliżenie cynkowanych ram drzwi rewizyjnych z serii produkcyjnej"
+      "Zbliżenie cynkowanych ram drzwi rewizyjnych z serii produkcyjnej",
+      "Ocynkowane drzwiczki wziernikowe z uchylnymi drzwiczkami dostępowymi i tabliczką znamionową",
+      "Drzwiczki wziernikowe z okienkami, oznaczone po kontroli",
+      "Rzędy oznaczonych drzwiczek wziernikowych przed wysyłką",
+      "Ocynkowane ramy drzwiczek wziernikowych ustawione w warsztacie",
+      "Stos ocynkowanych ram drzwiczek wziernikowych, widok z boku"
     ],
     "relatedTitle": "Powiązane produkty i usługi",
     "relatedAnchorsText": "Kotwy utrzymujące wyłożenie ogniotrwałe w każdych drzwiach, z tych samych stopów co wyłożenie Twojej ściany.",
@@ -1812,7 +1838,8 @@
       "Śruby fundamentowe z tulejami rurowymi, oznaczone do wysyłki",
       "Cynkowane śruby fundamentowe z tulejami rurowymi rozłożone w warsztacie",
       "Zapas cynkowanych śrub fundamentowych z nakrętkami i tulejami",
-      "Zbliżenie tulei rurowych i nakrętek śrub fundamentowych"
+      "Zbliżenie tulei rurowych i nakrętek śrub fundamentowych",
+      "Ocynkowane śruby fundamentowe z tulejami rurowymi i kwadratowymi płytkami górnymi"
     ],
     "relatedTitle": "Powiązane produkty",
     "relatedStanchions": "Słupki i stojaki do pomostów i balustrad, często montowane na tych samych fundamentach.",
@@ -2077,7 +2104,9 @@
       "Partia cynkowanych ogniowo słupków przemysłowych z użebrowanymi stopami",
       "Cynkowany słupek z przyspawanymi ramionami poręczy i blachą podstawy",
       "Słupek przemysłowy z bocznym ramieniem i użebrowaną stopą",
-      "Zbliżenie spawanego połączenia teowego na słupku"
+      "Zbliżenie spawanego połączenia teowego na słupku",
+      "Ocynkowany słupek z ramieniem bocznym i wzmocnioną płytą podstawy",
+      "Ocynkowane słupki z poręczami teowymi w warsztacie"
     ],
     "overviewTitle": "Czym są słupki przemysłowe",
     "overview": [
@@ -2607,6 +2636,7 @@
     "subheading": "Dźwigniowe systemy przeciwwag, które przejmują ciężar rur radiacyjnych w reformerach wodoru i piecach do krakingu etylenu. Wykonywane przez Santurę od końca lat 90. według rysunków technicznych klienta.",
     "lindeBadge": "Zatwierdzony dostawca Linde Engineering India, {period}",
     "photoAlt": "Cynkowany zespół ramienia przeciwwagi ze stosami obciążników",
+    "photo2Alt": "Dźwignia przeciwwagi z ułożonymi obciążnikami w warsztacie",
     "photoCaption": "Cynkowany zespół ramienia dźwigni ze stosami obciążników w naszym warsztacie.",
     "whatTitle": "Do czego służy system przeciwwag",
     "what": [
@@ -3859,6 +3889,2469 @@
     "ctaTitle": "Potrzebujesz izolacji z krzemianu wapnia?",
     "ctaText": "Podaj formę, średnice rur lub wymiary płyt, grubość, temperaturę pracy i ilość. Odpowiemy ofertą i terminem dostawy.",
     "ctaRfq": "Zapytaj o ofertę na krzemian wapnia",
+    "ctaContact": "Lub skontaktuj się z naszym zespołem"
+  },
+  "ipPage": {
+    "metaTitle": "Producent szpilek izolacyjnych | Szpilki do zgrzewania i podkładki",
+    "metaDescription": "Producent szpilek izolacyjnych: szpilki zgrzewane, klejone i podkładki samozaciskowe ze stali nierdzewnej i ocynkowanej. Od 1980, eksport do 25+ krajów.",
+    "eyebrow": "Produkcja Santura",
+    "h1": "Szpilki izolacyjne i szpilki do zgrzewania",
+    "subheading": "Szpilki izolacyjne zgrzewane, klejone na perforowanej podstawie i samoprzylepne, z dopasowanymi podkładkami samozaciskowymi i kapturkami, do kanałów, zbiorników, ścian i urządzeń. Produkowane we własnym zakładzie ze stali nierdzewnej, stali ocynkowanej i tworzywa.",
+    "badges": [
+      "Szpilki zgrzewane CD",
+      "Szpilki z perforowaną podstawą",
+      "Szpilki samoprzylepne",
+      "Podkładki samozaciskowe",
+      "Kapturki",
+      "Świadectwa EN 10204 3.1"
+    ],
+    "gallery": [
+      "Szpilki izolacyjne z perforowaną podstawą, w tym szpilka z tworzywa",
+      "Szpilki zgrzewane z kapturkami i podkładkami samozaciskowymi",
+      "Podkładki samozaciskowe ze stali nierdzewnej do szpilek izolacyjnych",
+      "Kwadratowa podkładka samozaciskowa do szpilek izolacyjnych",
+      "Kapturek do szpilek izolacyjnych",
+      "Zestaw podkładek samozaciskowych do szpilek izolacyjnych",
+      "Szpilka izolacyjna z perforowaną kwadratową płytką podstawy"
+    ],
+    "overviewTitle": "Czym są szpilki izolacyjne",
+    "overview": [
+      "Szpilki izolacyjne, nazywane też gwoździami izolacyjnymi, kołkami lub szpilkami do zgrzewania, to łączniki mechanicznie mocujące izolację do podłoża. Szpilkę mocuje się do podłoża, izolację nabija się na trzpień, a podkładka samozaciskowa lub kapturek utrzymuje ją na miejscu.",
+      "Szpilki zapobiegają opadaniu, przesuwaniu się i odpadaniu izolacji, dzięki czemu zachowuje ona właściwości cieplne i akustyczne, a montaż wygląda estetycznie. Stosuje się je na kanałach wentylacyjnych, zbiornikach, obudowach kotłów, grodziach statków, ścianach i sufitach.",
+      "Santura produkuje własne szpilki izolacyjne, obok kotew ogniotrwałych. Wykonuje się je dla trzech metod mocowania: zgrzewanych (wyładowanie kondensatorowe lub łuk), klejonych na perforowanej podstawie i samoprzylepnych. Dopasowane podkładki i kapturki są wykonywane z tych samych materiałów."
+    ],
+    "madeTitle": "Produkcja własna",
+    "made": [
+      "Szpilki ze stali nierdzewnej, ocynkowanej stali węglowej i PVC",
+      "Wersje zgrzewane i klejone",
+      "Podkładki samozaciskowe i kapturki",
+      "Do wełny skalnej, szklanej, EPS, polistyrenu i PUR",
+      "Ze świadectwami odbioru EN 10204 3.1"
+    ],
+    "typesTitle": "Rodzaje szpilek izolacyjnych według sposobu mocowania",
+    "types": [
+      {
+        "title": "Szpilki zgrzewane (CD / łukowe)",
+        "text": "Szpilka ze stopką zgrzewaną, trwale łączona z blachą metodą zgrzewania kołków wyładowaniem kondensatorowym (CD) lub łukowo.",
+        "rows": [
+          {
+            "label": "Czas zgrzewania",
+            "value": "Poniżej 1 sekundy na szpilkę"
+          },
+          {
+            "label": "Zastosowanie",
+            "value": "Kanały metalowe, płaszcze zbiorników, ściany zbiorników i panele z blachy"
+          },
+          {
+            "label": "Rodzaje łba",
+            "value": "Łeb talerzykowy (zintegrowana tarcza) lub bez łba, z osobną podkładką"
+          },
+          {
+            "label": "Zaleta",
+            "value": "Trwałe, mocne połączenie, które utrzymuje się podczas pożaru"
+          },
+          {
+            "label": "Materiały",
+            "value": "Ocynkowana stal węglowa, SS 304, SS 316, aluminium; bimetal (łeb aluminiowy, trzpień stalowy)"
+          }
+        ]
+      },
+      {
+        "title": "Szpilki klejone (perforowana podstawa)",
+        "text": "Szpilka na perforowanej metalowej płytce, przyklejana do podłoża masą klejącą.",
+        "rows": [
+          {
+            "label": "Zastosowanie",
+            "value": "Podłoża niezgrzewalne: beton, mur, laminat GRP i powierzchnie malowane"
+          },
+          {
+            "label": "Montaż",
+            "value": "Nałożyć klej przez otwory, docisnąć ruchem obrotowym i odczekać 24–72 godziny przed obciążeniem"
+          },
+          {
+            "label": "Płytka podstawy",
+            "value": "Perforowana płytka kwadratowa lub okrągła, zwykle 50 × 50 mm; klej przechodzi przez otwory, poprawiając przyczepność"
+          },
+          {
+            "label": "Zaleta",
+            "value": "Nie wymaga zgrzewarki"
+          },
+          {
+            "label": "Materiały",
+            "value": "Stal ocynkowana, SS 304, aluminium"
+          }
+        ]
+      },
+      {
+        "title": "Szpilki samoprzylepne",
+        "text": "Szpilka z fabrycznie naniesioną poduszką kleju przylepnego na podstawie.",
+        "rows": [
+          {
+            "label": "Zastosowanie",
+            "value": "Szybki montaż lekkiej izolacji na czystych, suchych, nienasiąkliwych powierzchniach"
+          },
+          {
+            "label": "Montaż",
+            "value": "Zdjąć folię ochronną, mocno docisnąć bez obracania i odczekać 15–20 minut przed obciążeniem"
+          },
+          {
+            "label": "Obciążenie",
+            "value": "Do około 1,4 kg na szpilkę"
+          },
+          {
+            "label": "Temperatura",
+            "value": "Montaż powyżej 10 °C; praca od −20 °C do 90 °C"
+          },
+          {
+            "label": "Ograniczenia",
+            "value": "Nie do powierzchni malowanych, płyt g-k ani metalu w pełnym słońcu"
+          }
+        ]
+      }
+    ],
+    "guideTitle": "Jak dobrać szpilkę",
+    "guideIntro": "Zacznij od podłoża i warunków pracy, a następnie wybierz sposób mocowania i materiał.",
+    "colApplication": "Zastosowanie",
+    "colPin": "Zalecana szpilka",
+    "colWhy": "Dlaczego",
+    "guideRows": [
+      {
+        "application": "Kanał metalowy, ściana zbiornika",
+        "pin": "Szpilka zgrzewana CD",
+        "why": "Trwałe połączenie, utrzymuje się w pożarze, najszybszy montaż"
+      },
+      {
+        "application": "Beton, mur lub laminat GRP",
+        "pin": "Szpilka klejona perforowana",
+        "why": "Bez zgrzewania; mocne połączenie przez otwory"
+      },
+      {
+        "application": "Szybki, suchy montaż lekkiej izolacji",
+        "pin": "Szpilka samoprzylepna",
+        "why": "Wystarczy oderwać folię i przykleić, bez czasu utwardzania"
+      },
+      {
+        "application": "Chłodnia lub mroźnia",
+        "pin": "Szpilka z nylonu lub PVC",
+        "why": "Zapobiega mostkom termicznym i kondensacji przy szpilce"
+      },
+      {
+        "application": "Okrętownictwo, wybrzeże lub zakład chemiczny",
+        "pin": "Szpilka zgrzewana SS 304 lub SS 316",
+        "why": "Odporna na korozję w agresywnym środowisku"
+      },
+      {
+        "application": "Ogólna wentylacja przy ograniczonym budżecie",
+        "pin": "Szpilka zgrzewana ze stali ocynkowanej",
+        "why": "Ekonomiczna, z dobrą odpornością na korozję wewnątrz budynków"
+      }
+    ],
+    "specTitle": "Dane techniczne szpilek",
+    "specRows": [
+      {
+        "label": "Średnica trzpienia",
+        "value": "2,1, 2,7 i 3,0 mm (inne na zamówienie)"
+      },
+      {
+        "label": "Długość trzpienia",
+        "value": "50, 63, 90, 110, 114 i 150 mm (dowolna długość na zamówienie)"
+      },
+      {
+        "label": "Rodzaj łba",
+        "value": "Łeb talerzykowy (zintegrowana tarcza) lub bez łba"
+      },
+      {
+        "label": "Rodzaj podstawy",
+        "value": "Stopka zgrzewana, płytka perforowana (50 × 50 mm) lub poduszka samoprzylepna"
+      },
+      {
+        "label": "Wykończenie",
+        "value": "Surowe, ocynkowane lub pasywowane na życzenie"
+      },
+      {
+        "label": "Świadectwa",
+        "value": "Świadectwa odbioru EN 10204 3.1"
+      }
+    ],
+    "materialsTitle": "Materiały",
+    "colMaterial": "Materiał",
+    "colBestFor": "Zastosowanie",
+    "colMaxTemp": "Maks. temp.",
+    "materials": [
+      {
+        "name": "Stal nierdzewna 304",
+        "use": "Okrętownictwo, chemia, środowisko wilgotne i korozyjne; długa trwałość",
+        "temp": "Około 800 °C"
+      },
+      {
+        "name": "Stal nierdzewna 316",
+        "use": "Silna korozja: wybrzeże, chlorki i procesy chemiczne",
+        "temp": "Około 800 °C"
+      },
+      {
+        "name": "Ocynkowana stal węglowa",
+        "use": "Ogólna izolacja wentylacyjna, przemysłowa i budowlana; ekonomiczna",
+        "temp": "Około 450 °C"
+      },
+      {
+        "name": "Aluminium",
+        "use": "Lekkie; przemysł spożywczy i czyste pomieszczenia",
+        "temp": "Około 200 °C"
+      },
+      {
+        "name": "Bimetal (łeb aluminiowy, trzpień stalowy)",
+        "use": "Łeb aluminiowy z wytrzymałością zgrzeiny stalowego trzpienia",
+        "temp": "Około 450 °C"
+      },
+      {
+        "name": "PVC / nylon",
+        "use": "Zimne powierzchnie; zapobiega mostkom termicznym",
+        "temp": "Około 80 °C (PVC) / 120 °C (nylon)"
+      }
+    ],
+    "materialsNote": "Typowe maksymalne temperatury materiału szpilki. Do wyłożeń z włókna ceramicznego powyżej tych granic stosuj zgrzewane kotwy do włókna ceramicznego (SEPL-24).",
+    "accessoriesTitle": "Podkładki i kapturki",
+    "accessoriesIntro": "Podkładki samozaciskowe chwytają trzpień i dociskają izolację; kapturki zakrywają obcięty koniec. Oba elementy wykonujemy ze stali ocynkowanej, nierdzewnej lub aluminium, dopasowane do szpilki.",
+    "accessories": [
+      {
+        "title": "Okrągłe podkładki samozaciskowe",
+        "text": "Klipsy nasuwane na trzpień, które się na nim zaciskają.",
+        "sizes": "Ø 25, 35 i 38 mm"
+      },
+      {
+        "title": "Kwadratowe podkładki samozaciskowe",
+        "text": "Kwadratowe klipsy z lepszym chwytem na płaskich płytach izolacji.",
+        "sizes": "25 × 25, 35 × 35 i 38 × 38 mm"
+      },
+      {
+        "title": "Kapturki",
+        "text": "Zakrywają koniec trzpienia po założeniu podkładki, dla bezpieczeństwa, estetyki i ochrony przed ostrymi końcówkami.",
+        "sizes": "Dopasowane do średnicy szpilki"
+      }
+    ],
+    "washersLink": "Zobacz pełną ofertę podkładek",
+    "compatibleTitle": "Pasujące materiały izolacyjne",
+    "compatibleIntro": "Szpilki pasują do każdej izolacji, którą trzpień może przebić. Do mat z włókna ceramicznego w wysokich temperaturach stosuj kotwy kołkowe do włókna ceramicznego.",
+    "compatible": {
+      "mineralWool": "Wełna skalna / mineralna",
+      "glassWool": "Wełna szklana",
+      "eps": "Polistyren ekspandowany (EPS)",
+      "xps": "Polistyren ekstrudowany (XPS)",
+      "puf": "Pianka poliuretanowa (PUR)",
+      "ceramic": "Mata z włókna ceramicznego (z SEPL-24)"
+    },
+    "installTitle": "Jak montuje się szpilki izolacyjne",
+    "steps": [
+      {
+        "title": "Zamocuj szpilkę",
+        "text": "Przyzgrzej, przyklej lub przylep szpilkę do podłoża."
+      },
+      {
+        "title": "Nałóż izolację",
+        "text": "Nabij izolację na trzpień, aż przylgnie płasko do powierzchni."
+      },
+      {
+        "title": "Załóż podkładkę",
+        "text": "Nasuń podkładkę samozaciskową lub kapturek na trzpień, aby docisnąć i utrzymać izolację."
+      },
+      {
+        "title": "Obetnij lub zegnij",
+        "text": "Obetnij wystający trzpień równo z podkładką lub zegnij go płasko dla bezpieczeństwa."
+      }
+    ],
+    "spacingTitle": "Rozstaw i układ szpilek",
+    "spacing": [
+      "Rozstaw zależy od ciężaru i grubości izolacji, montażu pionowego lub sufitowego, wiatru i drgań oraz specyfikacji projektu.",
+      "Szpilki umieszczaj około 75–100 mm od krawędzi płyt, aby ograniczyć ich wybrzuszanie.",
+      "Systemy biernej ochrony przeciwpożarowej często stosują rozstaw szpilek około 280 mm; przestrzegaj wytycznych producenta systemu.",
+      "Zawsze stosuj się do specyfikacji projektu lub rysunku rozmieszczenia od projektanta."
+    ],
+    "techTitle": "Zagadnienia techniczne",
+    "tech": [
+      {
+        "title": "Mostki termiczne",
+        "text": "Metalowe szpilki przewodzą ciepło przez izolację. W instalacjach zimnych, takich jak chłodnie i woda lodowa, gdzie grozi kondensacja, stosuj szpilki z PVC lub nylonu albo dodatkowe środki paroizolacyjne."
+      },
+      {
+        "title": "Zachowanie w pożarze",
+        "text": "Zgrzewane szpilki metalowe pozostają mechanicznie zamocowane podczas pożaru, dlatego są najpewniejszym wyborem dla biernej ochrony przeciwpożarowej. Szpilki klejone zależą od odporności kleju na ciepło."
+      },
+      {
+        "title": "Odporność na korozję",
+        "text": "Dobierz szpilkę do środowiska: stal ocynkowana wewnątrz, SS 304 przy wilgoci lub chemikaliach i SS 316 w środowisku morskim i z chlorkami. Niewłaściwy materiał powoduje przedwczesne uszkodzenia, przebarwienia i zniszczenie izolacji."
+      }
+    ],
+    "applicationsTitle": "Zastosowania według branż",
+    "applications": [
+      {
+        "title": "Wentylacja i kanały",
+        "items": [
+          "Wewnętrzna wykładzina z wełny szklanej lub mineralnej w kanałach prostokątnych",
+          "Zewnętrzna izolacja kanałów",
+          "Panele central wentylacyjnych",
+          "Akustyczna wykładzina kanałów"
+        ]
+      },
+      {
+        "title": "Ropa, gaz i petrochemia",
+        "items": [
+          "Izolacja zbiorników i kolumn pod płaszczem z blachy",
+          "Izolacja urządzeń w rafineriach i zakładach gazowych",
+          "Izolacja podpokładowa na platformach offshore"
+        ]
+      },
+      {
+        "title": "Energetyka",
+        "items": [
+          "Izolacja obudów kotłów",
+          "Obudowy akustyczne turbin",
+          "Izolacja kanałów kotłów odzysknicowych i spalin"
+        ]
+      },
+      {
+        "title": "Okrętownictwo",
+        "items": [
+          "Izolacja grodzi i pokładów (szpilki SS 316)",
+          "Izolacja cieplna i akustyczna maszynowni",
+          "Izolacja ładowni"
+        ]
+      },
+      {
+        "title": "Budownictwo",
+        "items": [
+          "Izolacja ścian i sufitów w budynkach komercyjnych",
+          "Montaż paneli akustycznych",
+          "Chłodnie i mroźnie (szpilki nylonowe)",
+          "Bierna ochrona przeciwpożarowa"
+        ]
+      },
+      {
+        "title": "Przemysł",
+        "items": [
+          "Ekrany i obudowy dźwiękochłonne",
+          "Zewnętrzna izolacja pieców (szpilki nierdzewne)",
+          "Przemysł spożywczy (szpilki aluminiowe)",
+          "Pomieszczenia agregatów i sprężarek"
+        ]
+      }
+    ],
+    "supplyTitle": "Co dostarczamy",
+    "supply": [
+      "Santura produkuje we własnym zakładzie szpilki izolacyjne ze stali nierdzewnej (304, 316), ocynkowanej stali węglowej, aluminium oraz PVC lub nylonu, w wersjach zgrzewanych, klejonych i samoprzylepnych, wraz z podkładkami samozaciskowymi i kapturkami. Szpilki mają powtarzalne wymiary i są dostarczane ze świadectwami odbioru EN 10204 3.1.",
+      "Dostępne są długości specjalne, rozmiary podstaw, rodzaje podkładek, gatunki materiałów i pakowanie hurtowe dla firm izolacyjnych i producentów. Eksportujemy szpilki izolacyjne razem z wełną mineralną, wełną szklaną, krzemianem wapnia, uszczelkami ceramicznymi i kotwami ogniotrwałymi do ponad 25 krajów, a nasza usługa zgrzewania kołków zapewnia sprzęt i procedury do zgrzewania szpilek."
+    ],
+    "relatedTitle": "Powiązane produkty i usługi",
+    "relatedMineralWool": "Płyty, rolki i maty z wełny skalnej mocowane szpilkami izolacyjnymi.",
+    "relatedGlassFibre": "Wełna szklana i tkanina szklana do kanałów i płaszczy.",
+    "relatedCalsil": "Sztywna izolacja wysokotemperaturowa, często łączona z warstwami mat na szpilkach.",
+    "relatedGaskets": "Sznury, taśmy i uszczelki z włókna ceramicznego do uszczelnień wysokotemperaturowych.",
+    "relatedAnchors": "Nasz główny produkt: kotwy SEPL do wyłożeń ogniotrwałych.",
+    "relatedSepl24": "Kotwy zgrzewane do mat z włókna ceramicznego w wysokich temperaturach.",
+    "relatedSw": "Sprzęt i procedury zgrzewania kołków CD i łukowego do szpilek i kotew.",
+    "relatedWashersName": "Podkładki",
+    "relatedWashers": "Podkładki samozaciskowe, kwadratowe i kopułkowe do szpilek i kotew.",
+    "faqTitle": "Najczęściej zadawane pytania",
+    "faq": [
+      {
+        "q": "Do czego służą szpilki izolacyjne?",
+        "a": "Szpilki izolacyjne, nazywane też gwoździami izolacyjnymi, kołkami lub szpilkami do zgrzewania, mechanicznie mocują izolację, taką jak wełna skalna, wełna szklana, polistyren i PUR, do ścian, kanałów, zbiorników i urządzeń. Zapobiegają opadaniu, przesuwaniu się i odpadaniu izolacji, dzięki czemu zachowuje ona właściwości cieplne i akustyczne."
+      },
+      {
+        "q": "Czym różnią się szpilki zgrzewane od klejonych?",
+        "a": "Szpilki zgrzewane łączy się trwale z metalem metodą zgrzewania kołków wyładowaniem kondensatorowym (CD) lub łukowo w czasie poniżej sekundy, co jest idealne dla kanałów metalowych i płaszczy zbiorników. Szpilki klejone mają perforowaną podstawę przyklejaną masą do podłoży niezgrzewalnych, takich jak beton i mur. Szpilki zgrzewane są mocniejsze i wytrzymują pożar; klejone nie wymagają zgrzewarki."
+      },
+      {
+        "q": "Jakie materiały izolacyjne można mocować szpilkami?",
+        "a": "Szpilki pasują do każdej izolacji, którą trzpień może przebić: wełny skalnej i mineralnej, wełny szklanej, EPS, polistyrenu ekstrudowanego (XPS) i pianki PUR. Do mat z włókna ceramicznego w wysokich temperaturach stosuj kotwy kołkowe do włókna ceramicznego (SEPL-24)."
+      },
+      {
+        "q": "Jak montuje się szpilki izolacyjne?",
+        "a": "Zamocuj szpilkę do podłoża przez zgrzewanie, klejenie lub przyklejenie, nabij izolację na trzpień, załóż podkładkę samozaciskową lub kapturek, aby ją docisnąć i utrzymać, a następnie obetnij lub zegnij wystający trzpień. Rozstaw zależy od specyfikacji projektu; szpilki umieszcza się zwykle 75–100 mm od krawędzi płyt."
+      },
+      {
+        "q": "Z jakich materiałów są szpilki izolacyjne?",
+        "a": "Produkujemy szpilki izolacyjne ze stali nierdzewnej (304, 316), ocynkowanej stali węglowej, aluminium oraz PVC lub nylonu. Stal nierdzewna sprawdza się w środowisku korozyjnym i morskim, stal ocynkowana jest ekonomiczna w ogólnej wentylacji, aluminium jest lekkie, a szpilki z tworzywa zapobiegają mostkom termicznym na zimnych powierzchniach."
+      }
+    ],
+    "ctaTitle": "Potrzebujesz szpilek izolacyjnych?",
+    "ctaText": "Podaj rodzaj szpilki, średnicę i długość trzpienia, materiał, rodzaj podkładki i ilość. Odpowiemy wyceną i terminem dostawy.",
+    "ctaRfq": "Zapytaj o wycenę szpilek izolacyjnych",
+    "ctaContact": "Lub skontaktuj się z naszym zespołem",
+    "relatedAccessories": "Taśmy opaskowe, sprężyny, wkręty, nity, drut i taśmy do izolacji i płaszczy."
+  },
+  "psPage": {
+    "metaTitle": "Izolacja ze styropianu | Płyty i otuliny EPS i XPS",
+    "metaDescription": "Izolacja z polistyrenu EPS i XPS: płyty, otuliny, płyty do chłodni. Sprawdzony dostawca od 1980 r., eksport do ponad 25 krajów. Zapytaj o wycenę.",
+    "eyebrow": "Materiały izolacyjne",
+    "h1": "Izolacja z polistyrenu: EPS i XPS",
+    "subheading": "Izolacja ze styropianu (EPS) i polistyrenu ekstrudowanego (XPS): płyty, otuliny z folią aluminiową lub bez, półotuliny i kształtki na wymiar do chłodni, instalacji wody lodowej i budynków.",
+    "badges": [
+      "EPS 15–40 kg/m³",
+      "Płyty XPS",
+      "Otuliny",
+      "Otuliny z folią",
+      "Kształtki na wymiar"
+    ],
+    "gallery": [
+      "Płyty izolacyjne ze styropianu (EPS)",
+      "Otuliny EPS z okładziną z folii aluminiowej",
+      "Półokrągłe otuliny z polistyrenu do izolacji rur",
+      "Dwudzielne otuliny z polistyrenu do izolacji rur"
+    ],
+    "overviewTitle": "Czym jest izolacja z polistyrenu",
+    "overview": [
+      "Izolacja z polistyrenu to lekka, sztywna pianka o zamkniętych komórkach. Ma niski współczynnik przewodzenia ciepła, jest odporna na wilgoć, zachowuje kształt i kosztuje mniej niż większość innych materiałów izolacyjnych, dlatego jest często stosowana w chłodniach, instalacjach wody lodowej i budownictwie.",
+      "Stosuje się ją jako otuliny na rurach wody zimnej i lodowej, jako płyty do ścian, dachów, podłóg oraz izolacji pod- i nadpokładowej, a także jako kształtki na wymiar do urządzeń i zbiorników. Prawidłowo zamontowana i zabezpieczona zachowuje właściwości izolacyjne przez cały okres eksploatacji instalacji, nie opada i nie osiada.",
+      "Izolacja z polistyrenu występuje w dwóch odmianach, wytwarzanych różnymi metodami."
+    ],
+    "types": [
+      {
+        "title": "EPS: polistyren ekspandowany (styropian)",
+        "tag": "Biała pianka z granulek · niższy koszt",
+        "text": "Granulki polistyrenu spienia się parą i formuje w bloki, z których tnie się płyty, otuliny i kształtki. EPS jest lżejszy i tańszy od XPS, przy nieco wyższym współczynniku przewodzenia ciepła. Gęstość decyduje o wytrzymałości."
+      },
+      {
+        "title": "XPS: polistyren ekstrudowany",
+        "tag": "Kolorowa gęsta pianka · wyższa wytrzymałość",
+        "text": "Wytwarzany w ciągłym procesie ekstruzji w postaci płyt, zwykle niebieskich, różowych lub zielonych zależnie od producenta. XPS ma wyższą wytrzymałość na ściskanie, mniejszą nasiąkliwość i niższy współczynnik przewodzenia ciepła niż EPS, dlatego nadaje się do zastosowań w gruncie, w wilgoci i pod obciążeniem."
+      }
+    ],
+    "formsTitle": "Postacie i wymiary",
+    "formsIntro": "Typowe postacie i wymiary. Inne wymiary, grubości i kształty dostarczamy według rysunku.",
+    "epsFormsTitle": "EPS (polistyren ekspandowany)",
+    "xpsFormsTitle": "XPS (polistyren ekstrudowany)",
+    "colForm": "Postać",
+    "colDescription": "Opis",
+    "colSizes": "Typowe wymiary",
+    "epsForms": [
+      {
+        "form": "Płyty",
+        "text": "Sztywne płyty do ścian, dachów, podłóg i chłodni",
+        "sizes": "Grubość 12–300 mm; 1200 × 600 mm lub 2400 × 1200 mm"
+      },
+      {
+        "form": "Otuliny (dwudzielne)",
+        "text": "Prefabrykowane dwuczęściowe otuliny do izolacji rur",
+        "sizes": "Średnica wewnętrzna 15–600 mm; grubość 20–100 mm"
+      },
+      {
+        "form": "Segmenty łukowe / półokrągłe",
+        "text": "Kształtowane segmenty do zbiorników, aparatów i dużych rur",
+        "sizes": "Według średnicy zewnętrznej"
+      },
+      {
+        "form": "Otuliny i płyty z folią aluminiową",
+        "text": "EPS z odbijającą okładziną z folii aluminiowej",
+        "sizes": "Wymiary standardowe"
+      },
+      {
+        "form": "Kształtki na wymiar",
+        "text": "Cięte gorącym drutem według rysunku na kolana, zawory i złożone profile",
+        "sizes": "Według specyfikacji"
+      }
+    ],
+    "xpsForms": [
+      {
+        "form": "Płyty sztywne",
+        "text": "Wytrzymałe płyty do ścian w gruncie, dachów odwróconych i obciążonych podłóg",
+        "sizes": "Grubość 20–200 mm; zwykle 1250 × 600 mm"
+      },
+      {
+        "form": "Płyty na pióro i wpust",
+        "text": "Zazębiające się krawędzie tworzą ciągłą warstwę izolacji bez szczelin",
+        "sizes": "Grubość 25–100 mm"
+      },
+      {
+        "form": "Płyty spadkowe",
+        "text": "Płyty cięte ze spadkiem do odwodnienia dachów płaskich",
+        "sizes": "Według wymaganego spadku"
+      }
+    ],
+    "specTitle": "Porównanie EPS i XPS",
+    "colProperty": "Właściwość",
+    "colEps": "EPS",
+    "colXps": "XPS",
+    "specRows": [
+      {
+        "label": "Proces produkcji",
+        "eps": "Spienianie granulek i formowanie",
+        "xps": "Ciągła ekstruzja"
+      },
+      {
+        "label": "Kolor",
+        "eps": "Biały",
+        "xps": "Niebieski, różowy lub zielony (zależnie od producenta)"
+      },
+      {
+        "label": "Gęstość",
+        "eps": "15–40 kg/m³",
+        "xps": "25–45 kg/m³"
+      },
+      {
+        "label": "Współczynnik przewodzenia ciepła (λ)",
+        "eps": "0,035–0,040 W/m·K",
+        "xps": "0,029–0,036 W/m·K"
+      },
+      {
+        "label": "Wytrzymałość na ściskanie (10% odkształcenia)",
+        "eps": "60–200 kPa, zależnie od gęstości",
+        "xps": "150–700 kPa"
+      },
+      {
+        "label": "Nasiąkliwość (objętościowo)",
+        "eps": "2–5%",
+        "xps": "Zwykle 0,3% lub mniej"
+      },
+      {
+        "label": "Współczynnik oporu dyfuzyjnego (µ)",
+        "eps": "20–70",
+        "xps": "80–250"
+      },
+      {
+        "label": "Maks. temperatura pracy ciągłej",
+        "eps": "Około 80 °C",
+        "xps": "Około 75 °C"
+      },
+      {
+        "label": "Min. temperatura pracy",
+        "eps": "Do około −180 °C według producentów",
+        "xps": "Zwykle −50 °C według producentów"
+      },
+      {
+        "label": "Reakcja na ogień",
+        "eps": "Euroklasa E z dodatkiem uniepalniacza (odmiana FR)",
+        "xps": "Euroklasa E z dodatkiem uniepalniacza (odmiana FR)"
+      },
+      {
+        "label": "Stabilność wymiarowa",
+        "eps": "Dobra; nie opada i nie osiada",
+        "xps": "Bardzo dobra"
+      },
+      {
+        "label": "Środek spieniający",
+        "eps": "Pentan; bez CFC i HCFC",
+        "xps": "CO₂ lub HFO w nowoczesnych odmianach; bez CFC i HCFC"
+      },
+      {
+        "label": "Recykling",
+        "eps": "Nadaje się do recyklingu",
+        "xps": "Nadaje się do recyklingu"
+      }
+    ],
+    "specNote": "Wartości typowe. Dokładne wartości zależą od odmiany, gęstości i producenta; obowiązuje karta techniczna dostarczonego wyrobu.",
+    "densityTitle": "Dobór gęstości EPS",
+    "densityIntro": "Wytrzymałość EPS rośnie wraz z gęstością. Wybierz najniższą gęstość, która przeniesie obciążenie, bo wyższa gęstość kosztuje więcej.",
+    "colDensity": "Gęstość",
+    "colStrength": "Wytrzymałość na ściskanie (ok.)",
+    "colBestFor": "Zastosowanie",
+    "densityRows": [
+      {
+        "density": "15 kg/m³",
+        "strength": "Około 60 kPa",
+        "use": "Ściany, sufity i inne miejsca bez obciążenia"
+      },
+      {
+        "density": "20 kg/m³",
+        "strength": "Około 100 kPa",
+        "use": "Ogólna izolacja budynków, otuliny i chłodnie"
+      },
+      {
+        "density": "25 kg/m³",
+        "strength": "Około 130 kPa",
+        "use": "Dachy i podłogi pod lekkim obciążeniem"
+      },
+      {
+        "density": "30 kg/m³",
+        "strength": "Około 170 kPa",
+        "use": "Izolacja pod płytą fundamentową i posadzki chłodni"
+      },
+      {
+        "density": "40 kg/m³",
+        "strength": "Około 200 kPa",
+        "use": "Mocno obciążone podłogi i chłodnie przemysłowe"
+      }
+    ],
+    "densityNote": "Inne gęstości na zamówienie. Przy dużych obciążeniach, w gruncie lub w wilgoci lepszym wyborem jest zwykle XPS.",
+    "advantagesTitle": "Zalety",
+    "advantages": [
+      "Niski współczynnik przewodzenia ciepła, więc dla tej samej izolacyjności wystarcza mniejsza grubość",
+      "Lekka (15–45 kg/m³), łatwa w obsłudze i niemal nie obciąża konstrukcji",
+      "Struktura zamkniętokomórkowa odporna na wchłanianie wody",
+      "Stabilna wymiarowo: nie opada, nie osiada i nie zapada się w eksploatacji",
+      "Łatwa do cięcia na budowie gorącym drutem lub piłą, bez specjalnych narzędzi",
+      "Niższy koszt materiału i montażu niż większość izolacji włóknistych i PUR",
+      "Przenosi ruch pieszy i obciążenia podłóg, zwłaszcza XPS i EPS o wyższej gęstości",
+      "Nadaje się do instalacji zimnych i ujemnych temperatur, od wody lodowej po mroźnie",
+      "Nie zawiera włókien, więc nie pyli i nie podrażnia skóry",
+      "Nadaje się do recyklingu i jest produkowana bez CFC i HCFC"
+    ],
+    "cautionsTitle": "Na co zwrócić uwagę",
+    "cautions": [
+      "Polistyren jest palny. Stosuj odmiany samogasnące i osłaniaj go warstwą ochronną zgodnie z przepisami budowlanymi i przeciwpożarowymi.",
+      "Górna granica to około 75–80 °C. Na gorętsze powierzchnie stosuj wełnę mineralną lub krzemian wapnia.",
+      "Rozpuszczalniki i długotrwałe działanie słońca niszczą polistyren. Stosuj zgodne kleje i utrzymuj materiał osłonięty lub w płaszczu."
+    ],
+    "standardsTitle": "Normy",
+    "standards": [
+      "Izolacja cieplna ze sztywnego polistyrenu komórkowego",
+      "Polistyren ekspandowany do izolacji cieplnej (norma indyjska)",
+      "Wyroby do izolacji cieplnej w budownictwie ze styropianu (EPS) produkowane fabrycznie",
+      "Wyroby do izolacji cieplnej w budownictwie z polistyrenu ekstrudowanego (XPS) produkowane fabrycznie",
+      "Charakterystyka palności powierzchniowej materiałów budowlanych",
+      "Metody badania przewodności cieplnej (płyta grzejna z osłoną / płytomierz strumienia ciepła)"
+    ],
+    "applicationsTitle": "Zastosowania według branż",
+    "applications": [
+      {
+        "title": "Chłodnictwo i przechowalnictwo",
+        "items": [
+          "Ściany, podłogi i sufity chłodni",
+          "Mroźnie do −40 °C",
+          "Samochody i kontenery chłodnicze",
+          "Posadzki chłodni na EPS o wysokiej gęstości lub XPS"
+        ]
+      },
+      {
+        "title": "Ropa, gaz i petrochemia",
+        "items": [
+          "Otuliny do wody lodowej i zimnych przewodów chemicznych",
+          "Izolacja pod- i nadpokładowa",
+          "Systemy izolacji zimnochronnej z paroizolacją",
+          "Izolacja zimnych aparatów i zbiorników półotulinami"
+        ]
+      },
+      {
+        "title": "Wentylacja, klimatyzacja i instalacje sanitarne",
+        "items": [
+          "Otuliny wody lodowej z folią aluminiową",
+          "Izolacja odpływów skroplin",
+          "Izolacja kanałów klimatyzacyjnych",
+          "Rury wody zimnej i ciepłej do około 80 °C"
+        ]
+      },
+      {
+        "title": "Budownictwo",
+        "items": [
+          "Ocieplenie ścian zewnętrznych (ETICS)",
+          "Izolacja dachów płaskich i skośnych",
+          "Izolacja fundamentów i ścian w gruncie (zalecany XPS)",
+          "Izolacja podłóg pod wylewką lub płytą betonową",
+          "Dachy odwrócone (tylko XPS)",
+          "Płyty do ścian szczelinowych"
+        ]
+      },
+      {
+        "title": "Przemysł i produkcja",
+        "items": [
+          "Zakłady spożywcze i produkcji napojów",
+          "Ściany i sufity farmaceutycznych pomieszczeń czystych",
+          "Wypełnienia pustek i lekkie zasypki w budownictwie"
+        ]
+      },
+      {
+        "title": "Okrętownictwo i offshore",
+        "items": [
+          "Izolacja modułów mieszkalnych",
+          "Chłodnie na statkach",
+          "Pływalność i pływaki (EPS)"
+        ]
+      }
+    ],
+    "supplyTitle": "Co dostarczamy",
+    "supply": [
+      "Santura Engineering dostarcza izolację ze styropianu (EPS) i polistyrenu ekstrudowanego (XPS): płyty, otuliny z folią aluminiową i bez, półotuliny oraz kształtki na wymiar, z EPS o gęstości od 15 do 40 kg/m³. Typowi klienci to rafinerie, operatorzy chłodni, zakłady spożywcze i budowy.",
+      "Jako producent szpilek izolacyjnych i dostawca wełny mineralnej, wełny szklanej, krzemianu wapnia i uszczelek ceramicznych Santura może dostarczyć kompletny pakiet izolacyjny z jednego źródła. Eksportujemy do ponad 25 krajów."
+    ],
+    "relatedTitle": "Powiązane produkty",
+    "relatedPins": "Szpilki i podkładki do mocowania płyt z polistyrenu na ścianach i kanałach.",
+    "relatedMineralWool": "Alternatywa dla gorących powierzchni powyżej granicy polistyrenu.",
+    "relatedCalsil": "Sztywna izolacja do rur i urządzeń wysokotemperaturowych.",
+    "relatedGlassFibre": "Wełna szklana i tkanina szklana do kanałów i płaszczy.",
+    "relatedPir": "Sztywna pianka o wyższej odporności temperaturowej niż polistyren.",
+    "faqTitle": "Najczęściej zadawane pytania",
+    "faq": [
+      {
+        "q": "Czym różni się izolacja z polistyrenu EPS od XPS?",
+        "a": "EPS (polistyren ekspandowany, styropian) to biała pianka z granulek, lżejsza i tańsza, dostępna w gęstościach od 15 do 40 kg/m³. XPS (polistyren ekstrudowany) jest gęstszy, ma wyższą wytrzymałość na ściskanie (150–700 kPa), mniejszą nasiąkliwość (zwykle 0,3% lub mniej) i niższy współczynnik przewodzenia ciepła (0,029–0,036 W/m·K). XPS jest preferowany w gruncie, w wilgoci i pod obciążeniem."
+      },
+      {
+        "q": "W jakim zakresie temperatur można stosować izolację z polistyrenu?",
+        "a": "Izolację z polistyrenu stosuje się przy pracy ciągłej do około 80 °C (EPS) i około 75 °C (XPS). W niskich temperaturach producenci podają dla EPS około −180 °C, a dla XPS zwykle −50 °C. Dobrze sprawdza się w chłodniach, chłodnictwie, instalacjach wody lodowej i budynkach. Powyżej 80 °C stosuj wełnę mineralną lub krzemian wapnia."
+      },
+      {
+        "q": "Jakie gęstości izolacji EPS są dostępne?",
+        "a": "Santura dostarcza izolację EPS o gęstości 15, 20, 25, 30 i 40 kg/m³. Wyższa gęstość oznacza wyższą wytrzymałość na ściskanie: 15 kg/m³ do nieobciążonych ścian i sufitów, 40 kg/m³ do mocno obciążonych podłóg i chłodni przemysłowych. Inne gęstości na zamówienie."
+      },
+      {
+        "q": "Czy izolacja z polistyrenu jest wodoodporna?",
+        "a": "Polistyren ma strukturę zamkniętokomórkową, która zapewnia dobrą odporność na wilgoć. XPS wchłania zwykle 0,3% wody objętościowo lub mniej, dlatego wybiera się go do zastosowań w gruncie i w wilgoci. EPS wchłania 2–5%. Na zimnych powierzchniach oba wymagają paroizolacji, np. okładziny z folii aluminiowej, chroniącej przed kondensacją. Żaden z nich nie jest pożywką dla pleśni."
+      }
+    ],
+    "ctaTitle": "Potrzebujesz izolacji z polistyrenu?",
+    "ctaText": "Podaj rodzaj (EPS lub XPS), postać, gęstość, grubość, średnice rur lub wymiary płyt oraz ilość. Odpowiemy wyceną i terminem dostawy.",
+    "ctaRfq": "Zapytaj o wycenę izolacji z polistyrenu",
+    "ctaContact": "Lub skontaktuj się z naszym zespołem"
+  },
+  "pirPage": {
+    "metaTitle": "Płyty i otuliny PIR | Dostawca przemysłowy",
+    "metaDescription": "Izolacja z poliizocyjanuratu PIR: płyty i otuliny od −196 °C do 150 °C. Bez CFC, dobra odporność ogniowa. Od 1980 r., 25+ krajów. Zapytaj o wycenę.",
+    "eyebrow": "Materiały izolacyjne",
+    "h1": "Izolacja z poliizocyjanuratu (PIR)",
+    "subheading": "Izolacja ze sztywnej pianki PIR: otuliny od ½\" do 24\", płyty, płyty z okładziną i segmenty. Bardzo niski współczynnik przewodzenia ciepła, Class 1 rozprzestrzeniania płomienia i granica gorącej powierzchni 150 °C.",
+    "badges": [
+      "Otuliny ½\"–24\"",
+      "Płyty i segmenty",
+      "Do 150 °C",
+      "Class 1 rozprzestrzeniania płomienia",
+      "Bez CFC"
+    ],
+    "gallery": [
+      "Płyta izolacyjna z poliizocyjanuratu PIR z okładziną z papieru kraft"
+    ],
+    "overviewTitle": "Czym jest izolacja z poliizocyjanuratu",
+    "overview": [
+      "Poliizocyjanurat (PIR), nazywany też poliizo, to izolacja ze sztywnej pianki termoutwardzalnej. Jest to modyfikowany poliuretan (PUR) z większym udziałem wiązań izocyjanurowych, a jego współczynnik przewodzenia ciepła należy do najniższych spośród powszechnie stosowanych izolacji.",
+      "Struktura izocyjanurowa zapewnia PIR lepsze zachowanie w ogniu niż standardowy poliuretan. Uzyskuje Class 1 rozprzestrzeniania płomienia po powierzchni, wydziela mało dymu i w przeciwieństwie do większości termoplastów nie topi się ani nie kapie w pożarze. Podnosi też granicę gorącej powierzchni do 150 °C wobec 110 °C dla zwykłej pianki poliuretanowej, dzięki czemu PIR można stosować bezpośrednio na przewodach z ogrzewaniem towarzyszącym parowym lub elektrycznym, które nie przekracza tej granicy.",
+      "PIR potrzebuje około połowy grubości korka dla tej samej skuteczności. Cieńsza warstwa to mniejsza powierzchnia do pokrycia, a więc niższy koszt paroizolacji, płaszcza z blachy i podpór na metr bieżący rurociągu. Nasz PIR nie zawiera CFC."
+    ],
+    "compareTitle": "Grubość w porównaniu z innymi izolacjami",
+    "compareIntro": "Grubość izolacji potrzebna do uzyskania tego samego oporu cieplnego (R = 2,5 m²K/W).",
+    "colMaterial": "Materiał",
+    "colThickness": "Potrzebna grubość",
+    "lambdaUnit": "W/m·K",
+    "mmUnit": "mm",
+    "compareNames": [
+      "PIR (poliizocyjanurat)",
+      "XPS (polistyren ekstrudowany)",
+      "Wełna szklana",
+      "EPS (styropian)",
+      "Wełna mineralna (skalna)",
+      "Krzemian wapnia"
+    ],
+    "compareNote": "PIR osiąga tę samą izolacyjność co wełna mineralna przy grubości mniejszej o około 40%, co oszczędza miejsce, materiał płaszcza i koszty montażu.",
+    "compareCalc": "Obliczenie dla płaskiej powierzchni (grubość = R × λ) przy typowym współczynniku przewodzenia ciepła w niskiej temperaturze średniej. Rzeczywista grubość zależy od średnicy rury, temperatury pracy i założeń projektowych. Wełnę mineralną i krzemian wapnia wybiera się do gorętszych instalacji, w których PIR nie może być stosowany.",
+    "formsTitle": "Postacie i wymiary",
+    "formsIntro": "Typowe postacie i wymiary. Inne wymiary, grubości i kształty dostarczamy według rysunku.",
+    "colForm": "Postać",
+    "colDescription": "Opis",
+    "colSizes": "Typowe wymiary",
+    "forms": [
+      {
+        "form": "Otuliny (dwudzielne)",
+        "text": "Prefabrykowane dwuczęściowe otuliny do izolacji rur",
+        "sizes": "½\" do 24\" (DN15–DN600); grubość od 25 mm; długość 1000 mm"
+      },
+      {
+        "form": "Płyty",
+        "text": "Sztywne płyty do ścian, dachów, kanałów i urządzeń",
+        "sizes": "Grubość 20–150 mm; 1200 × 600 mm lub 2400 × 1200 mm"
+      },
+      {
+        "form": "Płyty z okładziną",
+        "text": "Płyta PIR z okładziną z folii aluminiowej lub papieru kraft; aluminium działa jak paroizolacja",
+        "sizes": "Wymiary standardowe"
+      },
+      {
+        "form": "Segmenty",
+        "text": "Trapezowe segmenty do rur i zbiorników o dużej średnicy",
+        "sizes": "Według średnicy zewnętrznej"
+      },
+      {
+        "form": "Płyty nacinane / giętkie",
+        "text": "Wstępnie nacinane płyty dopasowujące się do zakrzywionych powierzchni i zbiorników",
+        "sizes": "Grubość 20–80 mm"
+      },
+      {
+        "form": "Bloki podporowe",
+        "text": "Bloki PIR o wysokiej gęstości do izolowanych podpór rur, zamiast klocków drewnianych",
+        "sizes": "Według średnicy i obciążenia"
+      }
+    ],
+    "pipeTitle": "Otuliny PIR",
+    "pipeIntro": "Nasze standardowe otuliny PIR. Grubości i okładziny wykonujemy według specyfikacji projektu.",
+    "pipeRows": [
+      {
+        "label": "Średnice rur",
+        "value": "½\" do 24\" (DN15–DN600)"
+      },
+      {
+        "label": "Grubość",
+        "value": "Od 25 mm"
+      },
+      {
+        "label": "Długość",
+        "value": "1000 mm"
+      },
+      {
+        "label": "Gęstość",
+        "value": "Od 36 kg/m³"
+      },
+      {
+        "label": "Konstrukcja",
+        "value": "Dwie połówki ze złączem na styk lub na zakład"
+      },
+      {
+        "label": "Okładzina",
+        "value": "Bez okładziny, folia aluminiowa lub papier kraft"
+      },
+      {
+        "label": "Granica gorącej strony",
+        "value": "150 °C w pracy ciągłej"
+      }
+    ],
+    "drawingAlt": "Rysunek liniowy dwudzielnej otuliny PIR wokół rury",
+    "drawingCaption": "Dwudzielna otulina z dwóch połówek",
+    "specTitle": "Porównanie PIR i PUR",
+    "colProperty": "Właściwość",
+    "colPir": "PIR (poliizocyjanurat)",
+    "colPur": "PUR (poliuretan)",
+    "specRows": [
+      {
+        "label": "Rodzaj",
+        "pir": "Sztywna pianka termoutwardzalna z wiązaniami izocyjanurowymi",
+        "pur": "Sztywna pianka termoutwardzalna"
+      },
+      {
+        "label": "Współczynnik przewodzenia ciepła (λ, średnio 10 °C)",
+        "pir": "0,020–0,025 W/m·K",
+        "pur": "0,023–0,028 W/m·K"
+      },
+      {
+        "label": "Gęstość",
+        "pir": "Od 36 kg/m³ (otuliny); 30–60 kg/m³ (płyty)",
+        "pur": "30–50 kg/m³"
+      },
+      {
+        "label": "Maks. temperatura gorącej powierzchni",
+        "pir": "150 °C",
+        "pur": "110 °C"
+      },
+      {
+        "label": "Praca w niskich temperaturach",
+        "pir": "Odmiany kriogeniczne stosowane do około −196 °C",
+        "pur": "Odmiany kriogeniczne stosowane do około −196 °C"
+      },
+      {
+        "label": "Wytrzymałość na ściskanie (10% odkształcenia)",
+        "pir": "Około 150–200 kPa, więcej przy wyższej gęstości",
+        "pur": "Około 120 kPa i więcej"
+      },
+      {
+        "label": "Zachowanie w ogniu",
+        "pir": "Class 1 rozprzestrzeniania płomienia; mało dymu; nie topi się i nie kapie",
+        "pur": "Słabsze; wymaga uniepalniaczy"
+      },
+      {
+        "label": "Przepuszczalność pary wodnej",
+        "pir": "Bardzo niska (komórki zamknięte)",
+        "pur": "Bardzo niska (komórki zamknięte)"
+      },
+      {
+        "label": "Nasiąkliwość",
+        "pir": "Niska, zwykle poniżej 2% obj.",
+        "pur": "Niska"
+      },
+      {
+        "label": "Stabilność wymiarowa",
+        "pir": "Bardzo dobra",
+        "pur": "Dobra"
+      },
+      {
+        "label": "Udział komórek zamkniętych",
+        "pir": "Powyżej 90%",
+        "pur": "Powyżej 90%"
+      },
+      {
+        "label": "Środek spieniający",
+        "pir": "Bez CFC",
+        "pur": "Bez CFC w nowoczesnych odmianach"
+      }
+    ],
+    "specNote": "Wartości typowe. Dokładne wartości zależą od odmiany, gęstości i producenta; obowiązuje karta techniczna dostarczonego wyrobu.",
+    "advantagesTitle": "Zalety",
+    "advantages": [
+      "Bardzo wysoka skuteczność izolacyjna, która oszczędza energię",
+      "Izolacja bez pustek: pianka zamkniętokomórkowa działająca równomiernie w całym przekroju",
+      "Około połowy grubości korka, co obniża koszty płaszcza, paroizolacji i podpór",
+      "Odporność ogniowa: Class 1 rozprzestrzeniania płomienia, mało dymu, nie topi się i nie kapie",
+      "Granica gorącej powierzchni 150 °C, wyższa niż 110 °C standardowego poliuretanu",
+      "Odporność na wodę i wilgoć",
+      "Stabilność wymiarowa: nie kurczy się, nie odkształca i nie osiada",
+      "Odporność na większość olejów, chemikaliów i rozpuszczalników",
+      "Brak mostków termicznych w izolacji, która nie zawiera ścieżek włóknistych ani metalowych",
+      "Trwałość; przy prawidłowym montażu i zabezpieczeniu zachowuje skuteczność przez wiele lat"
+    ],
+    "cautionsTitle": "Na co zwrócić uwagę",
+    "cautions": [
+      "PIR jest palny, choć nie topi się i nie kapie. Montuj go pod płaszczem z blachy lub inną warstwą ochronną zgodnie z przepisami przeciwpożarowymi.",
+      "Granica gorącej strony to 150 °C. Do gorętszych rur i urządzeń stosuj wełnę mineralną lub krzemian wapnia.",
+      "Światło słoneczne niszczy odsłoniętą piankę. Utrzymuj PIR w płaszczu lub osłonięty, a w instalacjach zimnych uszczelniaj złącza paroizolacją."
+    ],
+    "standardsTitle": "Normy",
+    "standards": [
+      "Wyroby do izolacji cieplnej z PUR i PIR produkowane fabrycznie do wyposażenia budynków i instalacji przemysłowych",
+      "Wyroby do izolacji cieplnej w budownictwie ze sztywnej pianki poliuretanowej (PUR / PIR) produkowane fabrycznie",
+      "Prefabrykowana izolacja cieplna ze sztywnego komórkowego poliizocyjanuratu",
+      "Charakterystyka palności powierzchniowej materiałów budowlanych",
+      "Badanie rozprzestrzeniania płomienia po powierzchni (Class 1)",
+      "Sztywne tworzywa komórkowe do izolacji cieplnej budynków"
+    ],
+    "applicationsTitle": "Zastosowania według branż",
+    "applications": [
+      {
+        "title": "Ropa, gaz i petrochemia",
+        "items": [
+          "Rurociągi procesowe i kondensatu do 150 °C",
+          "Przewody wody lodowej, solanki i zimnych chemikaliów",
+          "Rurociągi kriogeniczne z systemami PIR w odmianie kriogenicznej",
+          "Rury z parowym lub elektrycznym ogrzewaniem towarzyszącym do 150 °C",
+          "Zbiorniki i kolumny pod płaszczem z blachy"
+        ]
+      },
+      {
+        "title": "Energetyka",
+        "items": [
+          "Przewody kondensatu i ciepłej wody",
+          "Przewody pary niskoprężnej do 150 °C",
+          "Przewody wody zimnej i chłodzącej",
+          "Instalacje HVAC budynków pomocniczych"
+        ]
+      },
+      {
+        "title": "Wentylacja, klimatyzacja i instalacje sanitarne",
+        "items": [
+          "Rury wody lodowej, gdzie mała grubość zapobiega kondensacji",
+          "Rury ciepłej wody użytkowej",
+          "Przewody czynnika chłodniczego",
+          "Płyty kanałowe i izolacja kanałów"
+        ]
+      },
+      {
+        "title": "Budownictwo",
+        "items": [
+          "Dachy płaskie, także z płytami spadkowymi do odwodnienia",
+          "Izolacja ścian szczelinowych i elewacji",
+          "Izolacja podłóg",
+          "Chłodnie i budynki mroźni",
+          "Płyty warstwowe PIR z okładzinami z blachy"
+        ]
+      },
+      {
+        "title": "Okrętownictwo i offshore",
+        "items": [
+          "Rurociągi i urządzenia na platformach offshore",
+          "Ściany i sufity modułów mieszkalnych",
+          "Izolacja grodzi i pokładów"
+        ]
+      },
+      {
+        "title": "Chłodnictwo i przechowalnictwo",
+        "items": [
+          "Ściany, podłogi i sufity chłodni",
+          "Mroźnie do −40 °C",
+          "Zamrażarki szokowe",
+          "Pojazdy i kontenery chłodnicze"
+        ]
+      },
+      {
+        "title": "Przemysł procesowy",
+        "items": [
+          "Zakłady spożywcze i produkcji napojów: higieniczna izolacja rur",
+          "Farmaceutyczne pomieszczenia czyste i rurociągi procesowe",
+          "Zakłady chemiczne: rury i zbiorniki narażone na rozpuszczalniki"
+        ]
+      }
+    ],
+    "supplyTitle": "Co dostarczamy",
+    "supply": [
+      "Santura Engineering dostarcza izolację z poliizocyjanuratu (PIR): otuliny od ½\" do 24\" o gęstości od 36 kg/m³, płyty, płyty z okładziną i segmenty. Nasz PIR nie zawiera CFC. Typowi klienci to rafinerie, zakłady petrochemiczne, elektrownie i projekty chłodnicze.",
+      "Jako producent kotew ogniotrwałych i szpilek izolacyjnych oraz dostawca wełny mineralnej, polistyrenu, krzemianu wapnia i uszczelek ceramicznych Santura może dostarczyć kompletny pakiet izolacyjny z jednego źródła. Eksportujemy do ponad 25 krajów."
+    ],
+    "relatedTitle": "Powiązane produkty",
+    "relatedPolystyrene": "Tańsza sztywna pianka do temperatur do około 80 °C.",
+    "relatedMineralWool": "Wybór dla gorących instalacji powyżej 150 °C.",
+    "relatedCalsil": "Sztywna izolacja do rur i urządzeń wysokotemperaturowych.",
+    "relatedPins": "Szpilki i podkładki do mocowania płyt PIR na ścianach i kanałach.",
+    "relatedGlassFibre": "Tkanina szklana do owijania izolacji PIR.",
+    "faqTitle": "Najczęściej zadawane pytania",
+    "faq": [
+      {
+        "q": "Czym jest izolacja z poliizocyjanuratu (PIR)?",
+        "a": "Poliizocyjanurat (PIR lub poliizo) to sztywna pianka termoutwardzalna o jednym z najniższych współczynników przewodzenia ciepła wśród powszechnych izolacji, 0,020–0,025 W/m·K. Jest to modyfikowany poliuretan o lepszym zachowaniu w ogniu: Class 1 rozprzestrzeniania płomienia, mało dymu, nie topi się i nie kapie. Standardowy PIR stosuje się do 150 °C, a odmiany kriogeniczne do około −196 °C."
+      },
+      {
+        "q": "Czym różni się izolacja PIR od PUR?",
+        "a": "PIR (poliizocyjanurat) ma większy udział wiązań izocyjanurowych niż standardowy PUR (poliuretan). Daje to lepsze zachowanie w ogniu i wyższą granicę gorącej powierzchni: 150 °C wobec 110 °C dla PUR. PIR ma też nieco niższy współczynnik przewodzenia ciepła. Oba są sztywnymi piankami zamkniętokomórkowymi, ale PIR jest preferowany w przemysłowej izolacji rur i tam, gdzie liczy się odporność ogniowa."
+      },
+      {
+        "q": "W jakich średnicach dostępne są otuliny PIR?",
+        "a": "Santura dostarcza otuliny PIR do rur od ½\" do 24\" (DN15–DN600), o grubości od 25 mm i gęstości od 36 kg/m³. Otuliny mają długość 1000 mm, są wykonane jako dwie połówki i są dostępne bez okładziny lub z folią aluminiową albo papierem kraft."
+      },
+      {
+        "q": "Dlaczego izolacja PIR jest cieńsza od innych?",
+        "a": "PIR ma jeden z najniższych współczynników przewodzenia ciepła wśród powszechnych izolacji, około 0,022 W/m·K wobec około 0,038 W/m·K dla wełny mineralnej. Osiąga tę samą izolacyjność przy grubości mniejszej o około 40% niż wełna mineralna i około połowie grubości korka, co oszczędza miejsce, obniża koszty płaszcza i paroizolacji oraz skraca montaż."
+      }
+    ],
+    "ctaTitle": "Potrzebujesz izolacji PIR?",
+    "ctaText": "Podaj postać, średnice rur lub wymiary płyt, grubość, okładzinę, temperaturę pracy i ilość. Odpowiemy wyceną i terminem dostawy.",
+    "ctaRfq": "Zapytaj o wycenę izolacji PIR",
+    "ctaContact": "Lub skontaktuj się z naszym zespołem"
+  },
+  "fsPage": {
+    "metaTitle": "Dostawca złączy przemysłowych | Śruby, szpilki, nakrętki",
+    "metaDescription": "Złącza przemysłowe: szpilki B7, śruby sześciokątne, nakrętki i podkładki ze stali nierdzewnej, Inconelu, Monelu i Duplex. Dostawca od 1980 r., 25+ krajów.",
+    "eyebrow": "Dostarcza Santura",
+    "h1": "Złącza przemysłowe",
+    "subheading": "Śruby, szpilki, nakrętki i podkładki ze stali węglowej, stali stopowej B7, stali nierdzewnej, duplex i stopów niklu, dostarczane razem z naszymi kotwami ogniotrwałymi i materiałami izolacyjnymi, aby wszystko kupić u jednego dostawcy.",
+    "badges": [
+      "Szpilki B7 / 2H",
+      "Śruby i nakrętki sześciokątne",
+      "Stal nierdzewna",
+      "Inconel, Monel, Duplex",
+      "Świadectwa EN 10204 3.1",
+      "Jedno zamówienie"
+    ],
+    "gallery": [
+      "Szpilki B7 i pręty gwintowane ze stali stopowej",
+      "Ocynkowane śruby z łbem sześciokątnym",
+      "Ciężkie nakrętki sześciokątne z czarnej stali",
+      "Nakrętki sześciokątne z kołnierzem ząbkowanym ze stali nierdzewnej",
+      "Ocynkowana śruba sześciokątna z kołnierzem",
+      "Ocynkowane śruby z łbem grzybkowym i kwadratowym podłbem",
+      "Śruby z łbem półkulistym i gniazdem sześciokątnym, czernione",
+      "Zestaw przemysłowych śrub, nakrętek i podkładek"
+    ],
+    "overviewTitle": "Złącza do projektów rafineryjnych, petrochemicznych i energetycznych",
+    "overview": [
+      "Oprócz kotew ogniotrwałych, włókien stalowych i szpilek izolacyjnych z własnej produkcji Santura Engineering dostarcza złącza przemysłowe: śruby, szpilki, nakrętki i podkładki ze stali węglowej, stali stopowej, stali nierdzewnej oraz stopów o wysokich parametrach, takich jak Inconel, Monel i Duplex.",
+      "Nasze złącza pochodzą od zatwierdzonych dostawców i są dostarczane w ramach kompletnych pakietów projektowych. Jest to szczególnie przydatne w projektach rafinerii, zakładów petrochemicznych i elektrowni, gdzie śruby kołnierzowe B7 i stopy specjalne są specyfikowane razem z materiałami ogniotrwałymi i izolacyjnymi.",
+      "Wykonawcy EPC, rafinerie i operatorzy zakładów mogą więc kupić kotwy, izolację i złącza u jednego dostawcy, z jednym kompletem dokumentów i jednym harmonogramem dostaw."
+    ],
+    "whyTitle": "Dlaczego kupować złącza w Santura",
+    "why": [
+      {
+        "title": "Zakup u jednego dostawcy",
+        "text": "Kotwy ogniotrwałe, materiały izolacyjne, szpilki izolacyjne i złącza od jednego dostawcy: jedno zamówienie, jedna wysyłka i jeden komplet dokumentów."
+      },
+      {
+        "title": "Znajomość stopów",
+        "text": "Codziennie wykonujemy kotwy ze stali nierdzewnych, takich jak SS 304, 310 i 316, oraz ze stopów niklu, takich jak Inconel. Tę wiedzę materiałową wykorzystujemy przy doborze i kontroli gatunków złączy."
+      },
+      {
+        "title": "Pakowanie gotowe na budowę",
+        "text": "Na życzenie komplety szpilek B7 są pakowane i znakowane według wielkości kołnierza i klasy ciśnienia, a zestawy sortowane według zespołów, gotowe do montażu."
+      },
+      {
+        "title": "Dokumentacja jakości",
+        "text": "Świadectwa odbioru EN 10204 3.1, numery wytopu lub partii na etykietach oraz dokumenty sprawdzone z zamówieniem przed wysyłką."
+      },
+      {
+        "title": "Dostawy na cały świat",
+        "text": "Złącza jadą razem z kotwami i izolacją tą samą logistyką, którą wysyłamy do ponad 25 krajów."
+      }
+    ],
+    "rangeTitle": "Asortyment złączy",
+    "rangeIntro": "Typowe rodzaje i normy, według których zwykle są dostarczane. Inne rodzaje, normy i wymiary specjalne pozyskujemy według Twojej specyfikacji.",
+    "boltsTitle": "Śruby i szpilki",
+    "nutsTitle": "Nakrętki",
+    "washersTitle": "Podkładki",
+    "colType": "Rodzaj",
+    "colDescription": "Opis",
+    "colStandards": "Typowe normy",
+    "bolts": [
+      {
+        "type": "Śruby z łbem sześciokątnym",
+        "text": "Standardowe śruby sześciokątne, najczęściej stosowane złącze przemysłowe; gwint częściowy lub na całej długości"
+      },
+      {
+        "type": "Szpilki (B7)",
+        "text": "Szpilki gwintowane na całej długości ze stali chromowo-molibdenowej do połączeń kołnierzowych w wysokiej temperaturze i ciśnieniu"
+      },
+      {
+        "type": "Śruby U (strzemiona)",
+        "text": "Śruby w kształcie litery U do mocowania rur do podpór"
+      },
+      {
+        "type": "Śruby oczkowe",
+        "text": "Śruby z łbem w kształcie oczka do podnoszenia i olinowania"
+      },
+      {
+        "type": "Śruby z kołnierzem",
+        "text": "Śruby sześciokątne z kołnierzem, który rozkłada obciążenie i przeciwdziała luzowaniu"
+      },
+      {
+        "type": "Śruby z łbem grzybkowym i kwadratowym podłbem",
+        "text": "Łeb okrągły z kwadratowym podłbem, który zapobiega obracaniu przy dokręcaniu nakrętki"
+      },
+      {
+        "type": "Śruby z gniazdem sześciokątnym (imbusowe)",
+        "text": "Gniazdo sześciokątne do dużych momentów w ciasnych miejscach i montażu na płasko; łeb walcowy i stożkowy"
+      },
+      {
+        "type": "Śruby z łbem półkulistym",
+        "text": "Niski zaokrąglony łeb; z gniazdem sześciokątnym oraz śruby M16 do barier drogowych"
+      },
+      {
+        "type": "Śruby radełkowane",
+        "text": "Śruby z radełkowanym łbem lub trzpieniem, dostarczane według rysunku"
+      },
+      {
+        "type": "Śruby z łbem płaskim i kwadratowym podłbem",
+        "text": "Płaski łeb stożkowy z kwadratowym podłbem"
+      },
+      {
+        "type": "Śruby z łbem płaskim i noskiem",
+        "text": "Płaski łeb z noskiem, który zapobiega obracaniu w połączeniach stalowych"
+      }
+    ],
+    "nuts": [
+      {
+        "type": "Nakrętki sześciokątne",
+        "text": "Standardowe nakrętki sześciokątne do zastosowań ogólnych"
+      },
+      {
+        "type": "Ciężkie nakrętki sześciokątne",
+        "text": "Grubsze nakrętki o większym rozmiarze pod klucz do połączeń wysokiej wytrzymałości, stosowane ze szpilkami B7"
+      },
+      {
+        "type": "Przeciwnakrętki (niskie)",
+        "text": "Niskie nakrętki sześciokątne jako druga, kontrująca nakrętka"
+      },
+      {
+        "type": "Nakrętki samohamowne z nylonem",
+        "text": "Nakrętki sześciokątne z wkładką nylonową odporne na luzowanie przy drganiach"
+      },
+      {
+        "type": "Nakrętki z kołnierzem",
+        "text": "Nakrętki sześciokątne z ząbkowanym kołnierzem rozkładającym obciążenie"
+      },
+      {
+        "type": "Nakrętki do przyspawania",
+        "text": "Nakrętki kwadratowe lub sześciokątne przeznaczone do przyspawania do blachy"
+      },
+      {
+        "type": "Nakrętki kwadratowe",
+        "text": "Czterokątne nakrętki do szyn i rowków"
+      },
+      {
+        "type": "Nakrętki kołpakowe",
+        "text": "Nakrętki sześciokątne z zamkniętym kołpakiem osłaniającym koniec śruby"
+      },
+      {
+        "type": "Nakrętki oczkowe",
+        "text": "Nakrętki z uchem do olinowania"
+      }
+    ],
+    "washers": [
+      {
+        "type": "Podkładki płaskie",
+        "text": "Podkładki rozkładające obciążenie pod nakrętką lub łbem śruby"
+      },
+      {
+        "type": "Podkładki sprężyste",
+        "text": "Rozcięte podkładki odporne na luzowanie przy drganiach"
+      },
+      {
+        "type": "Podkładki ząbkowane",
+        "text": "Podkładki z ząbkami wewnętrznymi lub zewnętrznymi do zabezpieczania i uziemienia"
+      },
+      {
+        "type": "Podkładki klinowe",
+        "text": "Ukośne podkładki do pochylonych półek dwuteowników i ceowników"
+      }
+    ],
+    "sizesTitle": "Wymiary, klasy i powłoki",
+    "sizesIntro": "Typowe zakresy dostaw najczęściej zamawianych pozycji.",
+    "colProduct": "Wyrób",
+    "colSize": "Zakres wymiarów",
+    "colGrade": "Klasy",
+    "colFinish": "Powłoki",
+    "rangeRows": [
+      {
+        "item": "Śruby z łbem sześciokątnym",
+        "size": "M6–M64; długości do 450 mm",
+        "grade": "4.6, 4.8, 5.6, 5.8, 8.8, 10.9, 12.9, B7, B7M",
+        "finish": "Czernienie, ocynk galwaniczny, ocynk ogniowy"
+      },
+      {
+        "item": "Szpilki i szpilki dwustronne",
+        "size": "M8–M72; 5/16\" do 3\"",
+        "grade": "8.8 / 8, B7 / 2H, B7M / 2HM",
+        "finish": "Czarne, ocynk ogniowy"
+      },
+      {
+        "item": "Nakrętki sześciokątne",
+        "size": "M5–M56",
+        "grade": "4, 6, 8, 10, 12, 2H, 2HM",
+        "finish": "Czernienie, ocynk galwaniczny, ocynk ogniowy"
+      },
+      {
+        "item": "Śruby imbusowe",
+        "size": "M8–M30; długości do 450 mm",
+        "grade": "4.6, 4.8, 5.6, 5.8, 8.8",
+        "finish": "Czernienie, ocynk galwaniczny, ocynk ogniowy"
+      },
+      {
+        "item": "Śruby z łbem grzybkowym",
+        "size": "M6–M64",
+        "grade": "4.6, 4.8, 5.6, 8.8",
+        "finish": "Fosforanowanie czarne, ocynk biały lub żółty, ocynk ogniowy"
+      },
+      {
+        "item": "Śruby z łbem płaskim z podłbem kwadratowym lub noskiem",
+        "size": "M6–M30",
+        "grade": "4.6, 4.8, 5.6, 8.8",
+        "finish": "Fosforanowanie czarne, ocynk biały lub żółty, ocynk ogniowy"
+      },
+      {
+        "item": "Śruby i nakrętki z kołnierzem, śruby radełkowane",
+        "size": "Na zamówienie",
+        "grade": "Śruby 8.8, 10.9, 12.9; nakrętki 8, 10, 12",
+        "finish": "Czernienie, ocynk galwaniczny, ocynk ogniowy"
+      },
+      {
+        "item": "Śruby z łbem półkulistym (bariery drogowe)",
+        "size": "M16",
+        "grade": "4.6, 8.8",
+        "finish": "Fosforanowanie czarne, ocynk ogniowy"
+      }
+    ],
+    "b7Eyebrow": "Wyróżniony produkt",
+    "b7Title": "Szpilki B7",
+    "b7Intro": "Szpilki ASTM A193 B7 z ciężkimi nakrętkami sześciokątnymi A194 2H to najczęściej specyfikowane złącza do połączeń kołnierzowych w rafineriach i zakładach petrochemicznych.",
+    "b7Rows": [
+      {
+        "label": "Specyfikacja",
+        "value": "ASTM A193 Grade B7: stal stopowa chromowo-molibdenowa, ulepszana cieplnie"
+      },
+      {
+        "label": "Nakrętki",
+        "value": "ASTM A194 Grade 2H, ciężkie sześciokątne; szpilki B7M z nakrętkami 2HM do środowisk kwaśnych (H₂S)"
+      },
+      {
+        "label": "Minimalna wytrzymałość na rozciąganie",
+        "value": "860 MPa do 2½\"; 795 MPa powyżej 2½\" do 4\"; 690 MPa powyżej 4\" do 7\""
+      },
+      {
+        "label": "Minimalna granica plastyczności",
+        "value": "720 MPa do 2½\"; 655 MPa powyżej 2½\" do 4\"; 515 MPa powyżej 4\" do 7\""
+      },
+      {
+        "label": "Temperatura pracy",
+        "value": "Do około 450 °C; powyżej stosuje się śruby B16 lub ze stopów niklu"
+      },
+      {
+        "label": "Wymiary",
+        "value": "M8–M72 (5/16\" do 3\"), długości dobrane do klasy kołnierza i uszczelki"
+      },
+      {
+        "label": "Powłoka",
+        "value": "Czarne lub ocynk ogniowy; PTFE (Xylan) i inne powłoki na zamówienie"
+      },
+      {
+        "label": "Zastosowania",
+        "value": "Kołnierze zbiorników ciśnieniowych i wymienników ciepła, pokrywy zaworów i kołnierze rurociągów"
+      }
+    ],
+    "b7Note": "Szpilki B7 mogą być dostarczane w kompletach (szpilka, dwie nakrętki 2H i w razie potrzeby podkładki), pakowane i znakowane według wielkości kołnierza i klasy ciśnienia do montażu na budowie.",
+    "materialsTitle": "Materiały",
+    "materialsIntro": "Materiał dobiera się do temperatury pracy, ciśnienia i narażenia na korozję. Pozyskujemy gatunek wymagany przez Twoją specyfikację.",
+    "colMaterial": "Materiał",
+    "colGrades": "Gatunki",
+    "colUse": "Typowe zastosowanie",
+    "materials": [
+      {
+        "name": "Stal węglowa",
+        "use": "Konstrukcje ogólne i zastosowania niekrytyczne"
+      },
+      {
+        "name": "Stal stopowa B7",
+        "use": "Połączenia kołnierzowe w wysokiej temperaturze i ciśnieniu w rafineriach i petrochemii"
+      },
+      {
+        "name": "Stal stopowa B7M",
+        "use": "Środowiska kwaśne (H₂S), z ograniczoną twardością"
+      },
+      {
+        "name": "Stal nierdzewna 304 / 304L",
+        "use": "Ogólna odporność na korozję; zakłady spożywcze i farmaceutyczne"
+      },
+      {
+        "name": "Stal nierdzewna 316 / 316L",
+        "use": "Środowiska morskie, chemiczne i z chlorkami"
+      },
+      {
+        "name": "Stal nierdzewna 321 / 347",
+        "use": "Gatunki stabilizowane do wysokich temperatur"
+      },
+      {
+        "name": "Duplex 2205",
+        "use": "Offshore i odsalanie; odporna na chlorki i korozję naprężeniową"
+      },
+      {
+        "name": "Inconel 600 / 625",
+        "use": "Wysokie temperatury i silna korozja"
+      },
+      {
+        "name": "Monel 400 / K-500",
+        "use": "Woda morska, procesy chemiczne i środowiska kwaśne"
+      },
+      {
+        "name": "Hastelloy C-276",
+        "use": "Silnie korozyjne środowiska chemiczne"
+      }
+    ],
+    "qualityTitle": "Jakość i dokumentacja",
+    "qualityRows": [
+      {
+        "label": "Świadectwa",
+        "value": "Świadectwa odbioru EN 10204 3.1 z huty lub zakładu pochodzenia; 3.2 z inspekcją strony trzeciej na życzenie"
+      },
+      {
+        "label": "Kontrole przed wysyłką",
+        "value": "Sprawdzenie świadectw z zamówieniem, kontrola wymiarów i weryfikacja stopu naszym ręcznym analizatorem XRF dla złączy nierdzewnych i ze stopów niklu"
+      },
+      {
+        "label": "Identyfikowalność",
+        "value": "Numery wytopu lub partii przenoszone ze świadectw na etykiety opakowań"
+      },
+      {
+        "label": "Pakowanie",
+        "value": "Znakowane według wymiaru i klasy; kartony, worki lub opakowania dedykowane projektowi"
+      },
+      {
+        "label": "Normy",
+        "value": "ASTM, ASME / ANSI, DIN, ISO, BS i IS, według specyfikacji projektu"
+      }
+    ],
+    "applicationsTitle": "Zastosowania według branż",
+    "applications": [
+      {
+        "title": "Ropa, gaz i petrochemia",
+        "items": [
+          "Połączenia kołnierzowe rurociągów procesowych (komplety szpilek B7 / 2H)",
+          "Zamknięcia zbiorników ciśnieniowych i wymienników ciepła",
+          "Śruby pokryw zaworów",
+          "Połączenia kołnierzowe rurociągów przesyłowych",
+          "Śruby do środowisk kwaśnych (B7M / 2HM) i stopy do mediów korozyjnych"
+        ]
+      },
+      {
+        "title": "Energetyka",
+        "items": [
+          "Połączenia kołnierzowe rurociągów parowych",
+          "Śruby kotłów i części ciśnieniowych",
+          "Śruby kadłubów turbin",
+          "Połączenia konstrukcyjne"
+        ]
+      },
+      {
+        "title": "Budownictwo i konstrukcje",
+        "items": [
+          "Połączenia konstrukcji stalowych (śruby sześciokątne i grzybkowe)",
+          "Strzemiona U do obejm rurowych",
+          "Połączenia balustrad i podestów",
+          "Śruby do barier drogowych"
+        ]
+      },
+      {
+        "title": "Okrętownictwo i offshore",
+        "items": [
+          "Złącza duplex do wody morskiej",
+          "Złącza z Monelu do wody morskiej i zastosowań podmorskich",
+          "Śruby SS 316 do środowisk morskich"
+        ]
+      },
+      {
+        "title": "Przemysł ogólny",
+        "items": [
+          "Montaż i utrzymanie urządzeń",
+          "Złącza do maszyn (OEM)",
+          "Części zamienne do utrzymania ruchu"
+        ]
+      }
+    ],
+    "relatedTitle": "Wyroby z naszego zakładu",
+    "relatedAnchors": "Nasz główny wyrób: kotwy SEPL do wyłożeń ogniotrwałych.",
+    "relatedFibresName": "Włókna stalowe",
+    "relatedFibres": "Włókna ze stali nierdzewnej do zbrojenia betonów ogniotrwałych, wykonywane w naszym zakładzie.",
+    "relatedPins": "Szpilki zgrzewane, szpilki klejone i podkładki do mocowania izolacji.",
+    "relatedFoundation": "Śruby fundamentowe typu L, J, U, z płytą i proste, według rysunku.",
+    "relatedCw": "Systemy przeciwwag z naszego zakładu.",
+    "faqTitle": "Najczęściej zadawane pytania",
+    "faq": [
+      {
+        "q": "Jakie złącza przemysłowe dostarcza Santura?",
+        "a": "Santura dostarcza pełny asortyment: śruby sześciokątne, szpilki B7, strzemiona U, śruby oczkowe, śruby z kołnierzem, śruby z łbem grzybkowym i śruby imbusowe, z pasującymi nakrętkami (sześciokątne, ciężkie, przeciwnakrętki, samohamowne, z kołnierzem, do przyspawania, kwadratowe, kołpakowe i oczkowe) oraz podkładki płaskie, sprężyste, ząbkowane i klinowe. Dostępne ze stali węglowej, stopowej, nierdzewnej, Inconelu, Monelu i Duplex."
+      },
+      {
+        "q": "Z jakich materiałów są dostępne Państwa złącza?",
+        "a": "Dostarczamy stal węglową (ASTM A307 i klasy ISO), stal stopową (ASTM A193 B7 i B7M), stal nierdzewną (304, 316, 321, 347), Duplex 2205, Inconel 600/625, Monel 400/K-500 i Hastelloy C-276. Właściwy materiał zależy od temperatury pracy, ciśnienia i narażenia na korozję. Złącza są dostarczane ze świadectwami odbioru EN 10204 3.1."
+      },
+      {
+        "q": "Czy dostarczacie szpilki B7 do połączeń kołnierzowych?",
+        "a": "Tak. Santura dostarcza szpilki ASTM A193 Grade B7 z ciężkimi nakrętkami sześciokątnymi A194 Grade 2H, czyli standardową specyfikację dla połączeń kołnierzowych w rafineriach i petrochemii, a także B7M/2HM do środowisk kwaśnych. Wymiary od M8 do M72 (5/16\" do 3\") w długościach dobranych do klasy kołnierza; szpilki mogą być dostarczane w kompletach (szpilka, dwie nakrętki i podkładki) znakowanych według kołnierza."
+      },
+      {
+        "q": "Dlaczego kupować złącza w Santura razem z kotwami ogniotrwałymi?",
+        "a": "Podstawową działalnością Santura jest wykonywanie kotew ogniotrwałych i szpilek izolacyjnych dla tych samych rafinerii i zakładów petrochemicznych, które potrzebują złączy przemysłowych. Zakup obu w Santura oznacza jedno zamówienie, jedną wysyłkę, jeden komplet dokumentów i te same kontrole jakości, co upraszcza zakupy wykonawców EPC i operatorów zakładów."
+      }
+    ],
+    "ctaTitle": "Potrzebujesz złączy do projektu?",
+    "ctaText": "Prześlij nam listę złączy z rodzajem, wymiarem, klasą, normą, powłoką i ilością albo listę kołnierzy dla kompletów szpilek B7. Odpowiemy wyceną i terminem dostawy.",
+    "ctaRfq": "Zapytaj o wycenę złączy",
+    "ctaContact": "Lub skontaktuj się z naszym zespołem",
+    "trademarkNote": "Inconel i Monel są znakami towarowymi Special Metals Corporation. Hastelloy jest znakiem towarowym Haynes International. Xylan jest znakiem towarowym PPG Industries. Inne nazwy należą do ich właścicieli i służą wyłącznie identyfikacji."
+  },
+  "iaPage": {
+    "metaTitle": "Akcesoria do izolacji i płaszczy z blachy | Santura",
+    "metaDescription": "Taśmy opaskowe, wkręty, nity, klipsy i akcesoria do izolacji i płaszczy ze stali nierdzewnej i aluminium. Dostawca od 1980 r., eksport do 25+ krajów.",
+    "eyebrow": "Materiały izolacyjne",
+    "h1": "Akcesoria do izolacji i płaszczy z blachy",
+    "subheading": "Taśmy opaskowe, zapinki, sprężyny kompensacyjne, wkręty, nity zrywalne, drut wiązałkowy, blachy perforowane, taśmy i uszczelniacze do mocowania i wykańczania izolacji oraz płaszczy z blachy na rurociągach, zbiornikach, kanałach i urządzeniach.",
+    "badges": [
+      "Taśmy i zapinki nierdzewne",
+      "Sprężyny kompensacyjne",
+      "Nity zrywalne",
+      "Blachy perforowane",
+      "Drut i siatka",
+      "Taśmy i uszczelniacze"
+    ],
+    "gallery": [
+      "Zapinka ze stali nierdzewnej do taśm opaskowych izolacji",
+      "Nity zrywalne do łączenia płaszczy z blachy",
+      "Nit zrywalny z trzpieniem",
+      "Perforowany płaskownik ze stali nierdzewnej",
+      "Perforowane kątowniki ze stali nierdzewnej",
+      "Perforowany cylinder ze stali nierdzewnej",
+      "Klips nożycowy SEPL-04 z drutu nierdzewnego"
+    ],
+    "overviewTitle": "Do czego służą akcesoria izolacyjne",
+    "overview": [
+      "Akcesoria izolacyjne to drobne elementy i materiały eksploatacyjne, które mocują, podpierają i wykańczają izolację cieplną i jej płaszcz z blachy na rurociągach, zbiornikach, kanałach i urządzeniach. Taśmy opaskowe trzymają płaszcz, sprężyny utrzymują naciąg taśm przy rozszerzalności cieplnej, wkręty i nity zamykają szwy, drut i siatka trzymają samą izolację, a taśmy i uszczelniacze chronią przed wodą i parą.",
+      "Od akcesoriów zależy trwałość izolacji. Luźne taśmy, niewłaściwy metal w kontakcie z płaszczem lub nieszczelna paroizolacja wpuszczają wodę do izolacji, co obniża jej skuteczność i może powodować korozję pod izolacją.",
+      "Santura dostarcza te akcesoria razem ze swoimi materiałami izolacyjnymi i szpilkami dla rafinerii, zakładów petrochemicznych, elektrowni oraz hut i cementowni, w gatunkach materiałów zgodnych ze specyfikacją projektu."
+    ],
+    "groupsTitle": "Asortyment akcesoriów",
+    "groupsIntro": "Główne grupy akcesoriów. Inne pozycje, wymiary i gatunki dostarczamy według Twojej specyfikacji.",
+    "groups": [
+      {
+        "title": "Taśmy opaskowe",
+        "tag": "",
+        "text": "Taśmy opaskowe utrzymują płaszcz z blachy i izolację na rurociągach, zbiornikach i urządzeniach.",
+        "items": [
+          "Taśmy ze stali nierdzewnej, standardowo ½\" i ¾\" × 0,020\"",
+          "Taśmy aluminiowe i ze stali ocynkowanej",
+          "Taśmy z polipropylenu lub nylonu do wnętrz, do około 93 °C",
+          "Zapinki (zamki skrzydełkowe) z tego samego materiału co taśma",
+          "Ręczne i pneumatyczne napinacze",
+          "Szerokości od 3/8\" do 1¼\", grubości od 0,015\" do 0,025\": ½\" do rur i małych zbiorników, do 1¼\" do dużych zbiorników"
+        ]
+      },
+      {
+        "title": "Sprężyny kompensacyjne",
+        "tag": "",
+        "text": "Sprężyny wpięte w taśmę przejmują rozszerzanie i kurczenie, dzięki czemu taśma pozostaje napięta i nie wcina się w płaszcz.",
+        "items": [
+          "Zespoły sprężyn ze stali nierdzewnej, 2\" i 4\"",
+          "Do gorących i zimnych zbiorników oraz gorących lub zimnych rurociągów o dużej średnicy",
+          "Sprężyny wzmocnione do taśm 1¼\" na dużych zbiornikach i płaszczach z blachy falistej"
+        ]
+      },
+      {
+        "title": "Wkręty samogwintujące i samowiercące",
+        "tag": "",
+        "text": "Wkręty mocują płaszcz tam, gdzie nie da się użyć taśm, np. na segmentach kolan.",
+        "items": [
+          "Stal nierdzewna typu 410, łeb sześciokątny z kołnierzem i nacięciem",
+          "#8 × ½\" samowiercące i samogwintujące",
+          "Wersje z podkładką neoprenową do szczelnych połączeń",
+          "Segmenty kolan i szwy płaszczy z blachy falistej"
+        ]
+      },
+      {
+        "title": "Nity zrywalne (popnity)",
+        "tag": "Wykonywane w naszym zakładzie",
+        "text": "Nity zrywalne łączą dwa lub więcej elementów z blachy i są montowane z dostępem tylko z jednej strony. Na izolacji mocują zakładki płaszcza.",
+        "items": [
+          "Korpusy z aluminium, stali nierdzewnej i Monelu",
+          "Średnice 1/8\" (3,2 mm) i 5/32\" (4,0 mm)",
+          "Nity ciągnione z zrywanym trzpieniem"
+        ]
+      },
+      {
+        "title": "Drut wiązałkowy i siatka",
+        "tag": "",
+        "text": "Drut i siatka trzymają samą izolację przed nałożeniem płaszcza.",
+        "items": [
+          "Miękki wyżarzony drut nierdzewny, 16 gauge (1,6 mm) i 18 gauge (1,2 mm)",
+          "Wiąże dwudzielne sztywne otuliny, np. z krzemianu wapnia i perlitu",
+          "Siatka sześciokątna do zewnętrznego podparcia mat izolacyjnych",
+          "Siatka zgrzewana do utrzymania izolacji na zbiornikach i dużych urządzeniach",
+          "Drut ocynkowany na życzenie (dziś rzadko wymagany)"
+        ]
+      },
+      {
+        "title": "Blachy perforowane",
+        "tag": "Wykonywane w naszym zakładzie",
+        "text": "Blachy nierdzewne dziurkowane w różne wzory, które zmniejszają masę i przepuszczają powietrze i dźwięk. Szeroko stosowane w reformerach i piecach procesowych.",
+        "items": [
+          "Walcowane na gorąco lub na zimno, według rysunku klienta",
+          "Łatwe do spawania, cięcia i formowania",
+          "Różne wzory otworów, kształty, wymiary i gatunki",
+          "Jako wykładziny i warstwy podtrzymujące w izolacjach wielowarstwowych"
+        ]
+      },
+      {
+        "title": "Klipsy nożycowe (SEPL-04)",
+        "tag": "Część naszej gamy kotew SEPL",
+        "text": "Drutowe zaciski utrzymujące wyłożenia z cegieł, gdy cegły są odsunięte od ściany lub stropu.",
+        "items": [
+          "Formowane z drutu według naszego lub Twojego rysunku",
+          "Stopy m.in. CS, 304, 304H, 309, 253MA, 310, 314, 316, 321, 330, 800 i 601"
+        ]
+      },
+      {
+        "title": "Taśmy i uszczelniacze",
+        "tag": "",
+        "text": "Taśmy i uszczelniacze zamykają szwy płaszcza i paroizolację przed wodą i wilgocią.",
+        "items": [
+          "Taśma z folii poliestrowej zbrojona przędzą szklaną",
+          "Taśma aluminiowa (np. 2 mil, 100 mm szerokości) do szwów płaszcza",
+          "Taśmy niskochlorkowe do stali austenitycznej powyżej około 60 °C",
+          "Taśmy doczołowe ASJ i FRK",
+          "Uszczelniacze spoin do sztywnych systemów izolacji"
+        ]
+      },
+      {
+        "title": "Kołki z kołnierzem i kapturki zamykające",
+        "tag": "",
+        "text": "Przyspawane kołki utrzymujące izolację i płaszcz na powierzchniach, gdzie nie można użyć taśm.",
+        "items": [
+          "Kołki do przyspawania ze stali nierdzewnej lub węglowej, 5/16\" z rowkowanym trzpieniem",
+          "Klipsy do tymczasowego przytrzymania izolacji w trakcie montażu",
+          "Kapturki do ostatecznego mocowania płaszcza",
+          "Stożkowe dna zbiorników i panele pieców"
+        ]
+      }
+    ],
+    "pinsBoxTitle": "Szpilki zgrzewane i podkładki samozaciskowe",
+    "pinsBoxText": "Szpilki zgrzewane, szpilki klejone, podkładki samozaciskowe i kapturki do mocowania izolacji opisujemy na osobnej stronie szpilek izolacyjnych.",
+    "pinsBoxLink": "Zobacz szpilki izolacyjne",
+    "specTitle": "Zestawienie specyfikacji",
+    "colItem": "Akcesorium",
+    "colMaterial": "Materiały",
+    "colSizes": "Wymiary standardowe",
+    "colTemp": "Temperatura",
+    "colUse": "Zastosowanie",
+    "specRows": [
+      {
+        "item": "Taśmy opaskowe",
+        "material": "SS 304 / 316; także aluminium i stal ocynkowana",
+        "sizes": "½\" i ¾\" × 0,020\"",
+        "temp": "Stal nierdzewna: od kriogenicznych do około 650 °C",
+        "use": "Mocowanie płaszcza i izolacji"
+      },
+      {
+        "item": "Zapinki",
+        "material": "Jak taśma",
+        "sizes": "Do szerokości taśmy",
+        "temp": "Jak taśma",
+        "use": "Zamykanie taśmy"
+      },
+      {
+        "item": "Sprężyny kompensacyjne",
+        "material": "SS 304 / 316",
+        "sizes": "2\" i 4\"",
+        "temp": "Jak taśmy nierdzewne",
+        "use": "Taśmy na gorących i zimnych rurach i zbiornikach"
+      },
+      {
+        "item": "Wkręty samogwintujące",
+        "material": "SS 410",
+        "sizes": "#8 × ½\"",
+        "temp": "Temperatura powierzchni płaszcza",
+        "use": "Szwy płaszcza i segmenty kolan"
+      },
+      {
+        "item": "Nity zrywalne",
+        "material": "Aluminium, stal nierdzewna, Monel",
+        "sizes": "Średnica 1/8\" i 5/32\"",
+        "temp": "Zależnie od materiału",
+        "use": "Zakładki płaszcza"
+      },
+      {
+        "item": "Drut wiązałkowy",
+        "material": "SS 304 / 316",
+        "sizes": "16 ga (1,6 mm), 18 ga (1,2 mm)",
+        "temp": "Od kriogenicznych do około 650 °C",
+        "use": "Wiązanie sztywnych otulin"
+      },
+      {
+        "item": "Blachy perforowane",
+        "material": "Gatunki stali nierdzewnej",
+        "sizes": "Według rysunku",
+        "temp": "Zależnie od gatunku",
+        "use": "Wykładziny reformerów i pieców procesowych"
+      },
+      {
+        "item": "Klipsy nożycowe (SEPL-04)",
+        "material": "CS, stale nierdzewne, stopy żaroodporne",
+        "sizes": "Według rysunku",
+        "temp": "Zależnie od stopu",
+        "use": "Utrzymanie wyłożeń z cegieł"
+      },
+      {
+        "item": "Taśma aluminiowa",
+        "material": "Folia aluminiowa z klejem",
+        "sizes": "Np. 2 mil × 100 mm",
+        "temp": "Zależnie od kleju",
+        "use": "Uszczelnianie szwów płaszcza"
+      }
+    ],
+    "specNote": "Wartości typowe. Dokładne granice zależą od gatunku materiału, kleju i specyfikacji projektu.",
+    "guideTitle": "Wskazówki doboru i montażu",
+    "guide": [
+      "Taśmy na płaszczach rurociągów zakłada się zwykle w rozstawie 225–300 mm (9–12\"). Przestrzegaj specyfikacji projektu.",
+      "Wpinaj sprężyny kompensacyjne w taśmy na zbiornikach oraz gorących lub zimnych rurociągach o dużej średnicy, aby taśmy pozostawały napięte przy rozszerzaniu i kurczeniu.",
+      "Dobieraj metal akcesoriów do płaszcza, np. taśmy i wkręty nierdzewne do płaszczy nierdzewnych lub aluminiowych, i unikaj łączenia różnych metali tam, gdzie zbiera się wilgoć.",
+      "Nie stosuj ocynkowanych taśm, drutu ani wkrętów na gorącej stali austenitycznej: cynk może kruszyć stal nierdzewną w wysokiej temperaturze.",
+      "Na stali austenitycznej powyżej około 60 °C stosuj niskochlorkowe taśmy i akcesoria, aby ograniczyć ryzyko korozji naprężeniowej wywołanej chlorkami.",
+      "W środowisku morskim i bogatym w chlorki stosuj akcesoria z Monelu lub SS 316."
+    ],
+    "materialsTitle": "Materiały",
+    "materials": [
+      "Stal nierdzewna 304, 316, 316L, 321, 410",
+      "Stal węglowa / niskowęglowa",
+      "Stal ocynkowana",
+      "Aluminium",
+      "Monel",
+      "Nylon / polipropylen (wnętrza, niska temperatura)"
+    ],
+    "madeTitle": "Produkcja własna",
+    "madeText": "Nity zrywalne i blachy perforowane wykonujemy w naszym zakładzie, a klipsy nożycowe SEPL-04 należą do naszej gamy kotew ogniotrwałych. Taśmy, sprężyny, wkręty, drut, taśmy klejące i uszczelniacze pozyskujemy i dostarczamy razem z nimi, w gatunkach materiałów projektu.",
+    "applicationsTitle": "Zastosowania według branż",
+    "applications": [
+      {
+        "title": "Ropa, gaz i petrochemia",
+        "items": [
+          "Płaszcze na rurociągach i zbiornikach",
+          "Taśmy do izolacji zimnochronnych i kriogenicznych",
+          "Blachy perforowane do reformerów i pieców procesowych"
+        ]
+      },
+      {
+        "title": "Energetyka",
+        "items": [
+          "Izolacja obudów kotłów",
+          "Izolacja turbin",
+          "Izolacja kanałów kotłów odzysknicowych (HRSG)"
+        ]
+      },
+      {
+        "title": "Hutnictwo i cementownie",
+        "items": [
+          "Izolacja płaszczy pieców",
+          "Klipsy nożycowe do wyłożeń z cegieł"
+        ]
+      },
+      {
+        "title": "Okrętownictwo",
+        "items": [
+          "Akcesoria z Monelu i SS 316 odporne na korozję",
+          "Izolacja maszynowni"
+        ]
+      },
+      {
+        "title": "Wentylacja i budynki",
+        "items": [
+          "Taśmy do izolacji kanałów",
+          "Taśmy opaskowe do dużych kanałów"
+        ]
+      },
+      {
+        "title": "Kriogenika i LNG",
+        "items": [
+          "Taśmy i sprężyny nierdzewne do instalacji zimnych",
+          "Taśmy i uszczelniacze paroizolacyjne"
+        ]
+      }
+    ],
+    "supplyTitle": "Co dostarczamy",
+    "supply": [
+      "Santura Engineering dostarcza akcesoria do izolacji i płaszczy z jednego źródła: taśmy opaskowe i zapinki, sprężyny kompensacyjne, wkręty, nity zrywalne, drut i siatkę, blachy perforowane, taśmy i uszczelniacze, w gatunku materiału projektu ze stali nierdzewnej, ocynkowanej, aluminium lub Monelu.",
+      "Nity zrywalne i blachy perforowane wykonujemy w naszym zakładzie, blachy perforowane według rysunku do reformerów i pieców procesowych. Dostarczamy klientom przemysłowym od 1980 roku i eksportujemy do ponad 25 krajów."
+    ],
+    "relatedTitle": "Powiązane produkty",
+    "relatedPins": "Szpilki zgrzewane, szpilki klejone, podkładki samozaciskowe i kapturki.",
+    "relatedMineralWool": "Płyty, rolki i otuliny z wełny skalnej i szklanej.",
+    "relatedCalsil": "Sztywne otuliny i płyty, wiązane drutem nierdzewnym.",
+    "relatedGlassFibre": "Wełna szklana i tkanina szklana do kanałów i owijania.",
+    "relatedSepl04": "Drutowe klipsy nożycowe do utrzymania wyłożeń z cegieł.",
+    "relatedFasteners": "Śruby, szpilki, nakrętki i podkładki do tych samych projektów.",
+    "faqTitle": "Najczęściej zadawane pytania",
+    "faq": [
+      {
+        "q": "Jakie akcesoria są potrzebne do montażu płaszcza z blachy?",
+        "a": "Płaszcze z blachy wymagają taśm opaskowych (zwykle nierdzewnych ½\") z zapinkami, wkrętów samogwintujących (#8 × ½\" SS 410) do segmentów kolan, nitów zrywalnych do zakładek oraz sprężyn kompensacyjnych na zbiornikach i dużych gorących lub zimnych przewodach. Taśma aluminiowa i uszczelniacze zamykają szwy wzdłużne i obwodowe."
+      },
+      {
+        "q": "Z jakiego materiału powinny być taśmy opaskowe do izolacji?",
+        "a": "W większości zastosowań przemysłowych preferowana jest stal nierdzewna 304 lub 316. Taśmy aluminiowe pasują do płaszczy aluminiowych w środowisku niekorozyjnym. Taśm ocynkowanych nie należy stosować na gorących urządzeniach ze stali nierdzewnej, bo cynk może kruszyć stal w wysokiej temperaturze, a łączenia różnych metali trzeba unikać tam, gdzie zbiera się wilgoć. W środowisku morskim i z chlorkami stosuje się Monel lub SS 316."
+      },
+      {
+        "q": "Jak stosuje się blachy perforowane w systemach izolacji?",
+        "a": "Perforowane blachy nierdzewne z różnymi wzorami otworów są szeroko stosowane w reformerach i piecach procesowych, np. jako wykładziny i warstwy podtrzymujące w izolacjach wielowarstwowych. Zmniejszają masę i łatwo je spawać, ciąć i formować. Santura wykonuje je walcowane na gorąco lub na zimno według rysunku klienta, w gatunku wymaganym przez projekt."
+      },
+      {
+        "q": "W jakim rozstawie zakłada się taśmy na rurach?",
+        "a": "Taśmy na płaszczach rurociągów zakłada się zwykle w rozstawie 225–300 mm (9–12\"), zgodnie ze specyfikacją projektu. Na zbiornikach oraz gorących lub zimnych rurociągach o dużej średnicy wpina się sprężyny kompensacyjne, które przejmują ruchy cieplne. Duże zbiorniki magazynowe otrzymują szersze taśmy, do 1¼\"."
+      },
+      {
+        "q": "Czy Santura dostarcza akcesoria do kriogenicznych projektów LNG?",
+        "a": "Tak. Taśmy, zapinki, sprężyny kompensacyjne i drut ze stali austenitycznej zachowują ciągliwość w temperaturach kriogenicznych, a Santura dostarcza je w SS 304 lub 316 wraz z taśmami i uszczelniaczami paroizolacyjnymi do izolacji zimnochronnych i kriogenicznych. Świadectwa odbioru są dostępne na życzenie."
+      }
+    ],
+    "ctaTitle": "Potrzebujesz akcesoriów izolacyjnych?",
+    "ctaText": "Prześlij nam listę z pozycją, materiałem, wymiarem i ilością albo specyfikację izolacji, a przygotujemy pakiet akcesoriów. Odpowiemy wyceną i terminem dostawy.",
+    "ctaRfq": "Zapytaj o wycenę akcesoriów izolacyjnych",
+    "ctaContact": "Lub skontaktuj się z naszym zespołem",
+    "trademarkNote": "Monel jest znakiem towarowym Special Metals Corporation. 253 MA jest znakiem towarowym Outokumpu. Inne nazwy należą do ich właścicieli i służą wyłącznie identyfikacji."
+  },
+  "sfPage": {
+    "metaTitle": "Włókna stalowe do betonów ogniotrwałych i betonu | Santura",
+    "metaDescription": "Włókna stalowe z kąpieli i ciągnione na zimno w SS 304, 310, 446 do betonów ogniotrwałych i betonu. Dla przemysłu od 1980 r., eksport do 25+ krajów.",
+    "eyebrow": "Produkcja Santura",
+    "h1": "Włókna stalowe do zbrojenia betonów ogniotrwałych i betonu",
+    "subheading": "Włókna stalowe wytwarzane metodą ekstrakcji z kąpieli i ciągnione na zimno, które zbroją betony ogniotrwałe, wyłożenia monolityczne i beton przeciw szokowi cieplnemu, pękaniu i drganiom. Produkowane w naszym zakładzie z AISI 304, 310, 446 i innych gatunków.",
+    "badges": [
+      "Igły z ekstrakcji z kąpieli",
+      "Ciągnione: proste, haczykowe, faliste",
+      "AISI 304, 310, 446",
+      "Na zamówienie",
+      "ISO 9001:2015"
+    ],
+    "gallery": [
+      "Włókna nierdzewne z ekstrakcji z kąpieli (SEPL-27) do zbrojenia betonów ogniotrwałych",
+      "Zbliżenie włókien nierdzewnych z ekstrakcji z kąpieli",
+      "Proste włókna nierdzewne ciągnione na zimno (SEPL-28)",
+      "Stos prostych włókien ciągnionych na zimno",
+      "Zbliżenie włókien ciągnionych z haczykowatymi końcami (SEPL-29)",
+      "Rząd włókien ciągnionych z haczykowatymi końcami",
+      "Zbliżenie falistych włókien ciągnionych (SEPL-30)",
+      "Stos falistych włókien ciągnionych"
+    ],
+    "overviewTitle": "Do czego służą włókna stalowe",
+    "overview": [
+      "Włókna stalowe, nazywane też igłami zbrojeniowymi, to krótkie metalowe włókienka dodawane do betonów ogniotrwałych, wyłożeń monolitycznych i betonu. Rozproszone w całym materiale utrzymują go w całości podczas nagrzewania, stygnięcia i pękania, dzięki czemu wyłożenie jest odporne na szok cieplny, rozsadzanie i drgania i dłużej zachowuje wytrzymałość.",
+      "Włókna stalowe są jednym z głównych wyrobów Santura. Wytwarzamy je obok kotew ogniotrwałych i często dostarczamy razem z nimi do tego samego wyłożenia. Produkujemy je dwiema metodami."
+    ],
+    "processes": [
+      {
+        "title": "Ekstrakcja z kąpieli",
+        "text": "Wlewki ze stali nierdzewnej topi się w piecu elektrycznym w 1500–1600 °C. Szybko obracające się koło ekstrakcyjne zbliża się do powierzchni ciekłej stali i wyciąga z niej włókna. Powstaje włókno o nieregularnym przekroju, które dobrze kotwi się w betonie ogniotrwałym."
+      },
+      {
+        "title": "Ciągnienie na zimno",
+        "text": "Drut stalowy przeciąga się przez ciągadła i tnie na odcinki. Stali nierdzewnej nie można utwardzić obróbką cieplną, dlatego wytrzymałość tych włókien zapewnia ciągnienie na zimno. Drut może pozostać prosty, mieć haczykowate końce lub być pofalowany na długości."
+      }
+    ],
+    "typesTitle": "Nasze cztery włókna stalowe",
+    "typesIntro": "Każde włókno ma własną stronę produktu ze szczegółami. To zestawienie pomaga w wyborze.",
+    "types": [
+      {
+        "name": "Igły z ekstrakcji z kąpieli",
+        "process": "Ekstrakcja z kąpieli",
+        "text": "Najczęściej stosowane włókno w przemyśle materiałów ogniotrwałych: powszechnie akceptowane, ekonomiczne i łatwo przepływające przez węże. Dostępne w AISI 304, 310 i 446."
+      },
+      {
+        "name": "Igły ciągnione (proste)",
+        "process": "Ciągnienie na zimno",
+        "text": "Proste igły o wysokiej wytrzymałości dzięki ciągnieniu na zimno. Wytwarzane przez cięcie i łatwe do wmieszania; zwykle 25–35 mm długości i 0,3–0,7 mm średnicy."
+      },
+      {
+        "name": "Igły ciągnione (haczykowe)",
+        "process": "Ciągnienie na zimno",
+        "text": "Włókna z haczykowatymi końcami z wysokiej jakości drutu ze stali niskowęglowej, o dobrej ciągliwości w niskiej cenie. Haczyki kotwią włókno w matrycy."
+      },
+      {
+        "name": "Igły ciągnione (faliste)",
+        "process": "Ciągnienie na zimno",
+        "text": "Te same cechy co igły proste, pofalowane na długości, aby nadać materiałom ogniotrwałym najwyższą wytrzymałość."
+      }
+    ],
+    "typeLink": "Szczegóły {code}",
+    "compareTitle": "Porównanie rodzajów włókien stalowych",
+    "colProperty": "Właściwość",
+    "compareRows": [
+      {
+        "label": "Proces",
+        "values": [
+          "Ekstrakcja z ciekłej stali nierdzewnej",
+          "Drut ciągniony, cięty na odcinki",
+          "Drut ciągniony z haczykowatymi końcami",
+          "Drut ciągniony, falisty"
+        ]
+      },
+      {
+        "label": "Kształt",
+        "values": [
+          "Nieregularny przekrój wynikający z ekstrakcji",
+          "Prosty, okrągły",
+          "Okrągły z haczykowatymi końcami",
+          "Okrągły, falisty na długości"
+        ]
+      },
+      {
+        "label": "Materiał",
+        "values": [
+          "AISI 304, 310, 446; inne stopy na zamówienie",
+          "Stal nierdzewna, np. 304, 310, 316",
+          "Drut ze stali niskowęglowej",
+          "Stal nierdzewna, np. 304, 310, 316"
+        ]
+      },
+      {
+        "label": "Długość",
+        "values": [
+          "Różne długości, na zamówienie",
+          "25–35 mm",
+          "Na zamówienie",
+          "Na zamówienie"
+        ]
+      },
+      {
+        "label": "Średnica",
+        "values": [
+          "Różne wymiary, na zamówienie",
+          "0,3–0,7 mm",
+          "Na zamówienie",
+          "Na zamówienie"
+        ]
+      },
+      {
+        "label": "Wytrzymałość na rozciąganie",
+        "values": [
+          "Na zapytanie",
+          "Ponad 650 MPa",
+          "Na zapytanie",
+          "Na zapytanie"
+        ]
+      },
+      {
+        "label": "Główna zaleta",
+        "values": [
+          "Najczęściej stosowane włókno ogniotrwałe; ekonomiczne; przepływa przez węże",
+          "Wysoka wytrzymałość dzięki ciągnieniu; łatwe mieszanie",
+          "Haczyki kotwią włókno; dobra ciągliwość w niskiej cenie",
+          "Pofalowanie daje najwyższą wytrzymałość"
+        ]
+      }
+    ],
+    "compareNote": "Wymiary oznaczone „na zamówienie” wykonujemy według Twojej specyfikacji. Podaj potrzebną długość, średnicę i gatunek.",
+    "guideTitle": "Ekstrakcja z kąpieli czy ciągnienie na zimno",
+    "colCriterion": "Kryterium",
+    "colMelt": "Ekstrakcja z kąpieli",
+    "colCold": "Ciągnione na zimno",
+    "guideRows": [
+      {
+        "label": "Wytwarzanie",
+        "melt": "Włókna wyciągane z ciekłej stali nierdzewnej przez obracające się koło",
+        "cold": "Drut ciągniony i cięty, w razie potrzeby z haczykami lub pofalowany"
+      },
+      {
+        "label": "Typowe zastosowanie",
+        "melt": "Najczęściej stosowane włókno do betonów ogniotrwałych i wyłożeń monolitycznych",
+        "cold": "Betony ogniotrwałe i beton; włókna haczykowe są popularne w betonie"
+      },
+      {
+        "label": "Kształt i przyczepność",
+        "melt": "Nieregularny przekrój kotwiący się w betonie ogniotrwałym",
+        "cold": "Równomiernie okrągły drut; haczyki lub fale poprawiają zakotwienie"
+      },
+      {
+        "label": "Układanie",
+        "melt": "Łatwo przepływa przez węże",
+        "cold": "Proste włókna łatwo się mieszają"
+      },
+      {
+        "label": "Koszt",
+        "melt": "Ekonomiczne i powszechnie akceptowane",
+        "cold": "Haczykowe włókna niskowęglowe są najtańszą opcją"
+      }
+    ],
+    "gradesTitle": "Gatunki",
+    "grades": [
+      {
+        "grade": "AISI 304",
+        "text": "austenityczna stal nierdzewna ogólnego przeznaczenia (ok. 18% Cr, 8% Ni) do umiarkowanych temperatur"
+      },
+      {
+        "grade": "AISI 310",
+        "text": "żaroodporny gatunek o wysokiej zawartości chromu i niklu (ok. 25% Cr, 20% Ni) do wyższych temperatur i cykli cieplnych"
+      },
+      {
+        "grade": "AISI 446",
+        "text": "gatunek ferrytyczny z 23–27% chromu i bardzo dobrą odpornością na utlenianie"
+      },
+      {
+        "grade": "AISI 316",
+        "text": "gatunek z molibdenem o lepszej odporności na atak chemiczny, do włókien ciągnionych"
+      },
+      {
+        "grade": "Stal niskowęglowa",
+        "text": "do włókien haczykowych, głównie w betonie"
+      },
+      {
+        "grade": "Inne stopy",
+        "text": "na zamówienie"
+      }
+    ],
+    "meltingTitle": "Przybliżone zakresy topnienia",
+    "colGrade": "Gatunek",
+    "colMelting": "Zakres topnienia",
+    "meltingNote": "Bezpieczna temperatura pracy włókna jest znacznie niższa od zakresu topnienia i zależy od atmosfery oraz betonu ogniotrwałego. Przestrzegaj limitów producenta betonu ogniotrwałego.",
+    "benefitsTitle": "Zalety zbrojenia włóknami stalowymi",
+    "benefits": [
+      "Wysoka odporność na szok cieplny",
+      "Elastyczne ograniczanie pęknięć",
+      "Wysoka odporność na rozsadzanie",
+      "Wysoka odporność na drgania",
+      "Większa nośność przekrojów monolitycznych",
+      "Zbrojenie w całej masie betonu ogniotrwałego, co może ograniczyć potrzebę stosowania siatki"
+    ],
+    "applicationsTitle": "Zastosowania według branż",
+    "applications": [
+      {
+        "title": "Stal i aluminium",
+        "items": [
+          "Wyłożenia kadzi",
+          "Sklepienia pieców",
+          "Wyłożenia monolityczne narażone na szok cieplny"
+        ]
+      },
+      {
+        "title": "Cement",
+        "items": [
+          "Wyłożenia pieców obrotowych",
+          "Podgrzewacze",
+          "Kanały chłodnika"
+        ]
+      },
+      {
+        "title": "Petrochemia",
+        "items": [
+          "Reaktory",
+          "Reformery",
+          "Piece krakingowe"
+        ]
+      },
+      {
+        "title": "Energetyka i okrętownictwo",
+        "items": [
+          "Wyłożenia kotłów",
+          "Kotły okrętowe i elementy pieców"
+        ]
+      },
+      {
+        "title": "Piece i koksownie",
+        "items": [
+          "Betony izolacyjne i gęste w piecach przemysłowych",
+          "Betony ogniotrwałe w koksowniach"
+        ]
+      },
+      {
+        "title": "Zbrojenie betonu",
+        "items": [
+          "Fundamenty",
+          "Nawierzchnie",
+          "Płyty szczelne"
+        ]
+      }
+    ],
+    "supplyTitle": "Co dostarczamy",
+    "supply": [
+      "Santura Engineering wytwarza włókna stalowe we własnym zakładzie obiema metodami: igły z ekstrakcji z kąpieli w AISI 304, 310 i 446 oraz igły ciągnione w wersji prostej, haczykowej i falistej. Inne stopy, długości i średnice wykonujemy na zamówienie.",
+      "Santura obsługuje klientów z branży stalowej, cementowej, petrochemicznej i energetycznej od 1980 roku, eksportuje do ponad 25 krajów i działa w systemie jakości certyfikowanym na ISO 9001:2015. Włókna mogą być wysyłane razem z kotwami SEPL do tego samego wyłożenia."
+    ],
+    "standardsTitle": "Normy",
+    "standards": [
+      "Włókna stalowe do betonu zbrojonego włóknami (typy I–V)",
+      "Włókna do betonu: włókna stalowe"
+    ],
+    "standardsNote": "Te normy dotyczą włókien do betonu. Włókna do materiałów ogniotrwałych określa się zwykle przez stop, długość i średnicę w specyfikacji betonu ogniotrwałego lub projektu.",
+    "relatedTitle": "Powiązane produkty i usługi",
+    "relatedAnchors": "Kotwy SEPL do wyłożeń z cegieł, betonu ogniotrwałego i włókna ceramicznego.",
+    "relatedCalsil": "Sztywna izolacja do urządzeń wysokotemperaturowych.",
+    "relatedPickling": "Trawienie i pasywacja wyrobów ze stali nierdzewnej.",
+    "relatedPins": "Szpilki zgrzewane i podkładki do mocowania izolacji.",
+    "faqTitle": "Najczęściej zadawane pytania",
+    "faq": [
+      {
+        "q": "Czym różnią się włókna z ekstrakcji z kąpieli od włókien ciągnionych na zimno?",
+        "a": "Włókna z ekstrakcji z kąpieli wyciąga szybko obracające się koło ze stali nierdzewnej stopionej w 1500–1600 °C, co nadaje im nieregularny przekrój kotwiący się w betonie ogniotrwałym. To najczęściej stosowane włókna ogniotrwałe: ekonomiczne i łatwe do pompowania przez węże. Włókna ciągnione powstają przez przeciąganie drutu przez ciągadła i cięcie na odcinki, co daje równomiernie okrągłe włókno o wysokiej wytrzymałości. Występują jako proste, haczykowe lub faliste; włókna haczykowe są szeroko stosowane w betonie."
+      },
+      {
+        "q": "Jaki gatunek włókien stalowych jest najlepszy do materiałów ogniotrwałych?",
+        "a": "Zależy to od temperatury pracy, atmosfery i narażenia chemicznego. AISI 446, gatunek ferrytyczny z 23–27% chromu, ma bardzo dobrą odporność na utlenianie. AISI 310 to gatunek o wysokiej zawartości chromu i niklu do wyższych temperatur i cykli cieplnych. AISI 304 to gatunek ogólnego przeznaczenia do umiarkowanych temperatur. Ostateczny wybór powinien opierać się na zaleceniach producenta betonu ogniotrwałego."
+      },
+      {
+        "q": "Jaką dawkę włókien stalowych stosuje się w betonach ogniotrwałych?",
+        "a": "Dawkę podaje się zwykle jako procent masy suchego betonu ogniotrwałego; zależy ona od receptury, zastosowania i warunków pracy. Należy kierować się kartą techniczną producenta betonu i specyfikacją projektanta wyłożenia; chętnie doradzimy rodzaj i wymiar włókna do Twojego betonu."
+      },
+      {
+        "q": "Czy włókna stalowe mogą zastąpić siatkę metalową w wyłożeniach ogniotrwałych?",
+        "a": "W wielu wyłożeniach monolitycznych tak. Włókna rozkładają się w całym betonie ogniotrwałym i zbroją go trójwymiarowo, podczas gdy siatka zbroi go w jednej płaszczyźnie. Może to ograniczyć lub wyeliminować siatkę, ułatwić montaż i ograniczyć pękanie. Projektant wyłożenia powinien to potwierdzić dla każdego zastosowania."
+      },
+      {
+        "q": "Jakie długości i średnice włókien wytwarza Santura?",
+        "a": "Proste igły ciągnione dostarczamy zwykle o długości 25–35 mm i średnicy 0,3–0,7 mm, z wytrzymałością na rozciąganie powyżej 650 MPa. Igły z ekstrakcji z kąpieli oferujemy w szerokim zakresie długości i średnic w AISI 304, 310 i 446. Włókna haczykowe i faliste oraz inne wymiary i stopy wykonujemy na zamówienie."
+      }
+    ],
+    "ctaTitle": "Potrzebujesz włókien stalowych?",
+    "ctaText": "Podaj rodzaj włókna, gatunek, długość, średnicę i ilość albo beton ogniotrwały, który chcesz zbroić. Odpowiemy wyceną i terminem dostawy.",
+    "ctaRfq": "Zapytaj o wycenę włókien stalowych",
+    "ctaContact": "Lub skontaktuj się z naszym zespołem"
+  },
+  "tdPage": {
+    "metaTitle": "Dostawca stali nierdzewnej | Pręty, walcówka, kształtowniki",
+    "metaDescription": "Walcówka, pręty sześciokątne, płaskowniki, kątowniki i pręty okrągłe ze stali nierdzewnej z atestem huty w 304, 316, 310 od 1980 r. do 25+ krajów.",
+    "eyebrow": "Dział handlowy",
+    "h1": "Dział handlowy stali nierdzewnej",
+    "subheading": "Walcówka nierdzewna w kręgach, pręty sześciokątne, kwadratowe, płaskowniki i pręty jakości wałów pomp, kątowniki i pręty walcowane na gorąco z atestem huty, kupowane w renomowanych hutach i dostarczane ze świadectwami EN 10204 3.1.",
+    "badges": [
+      "Walcówka w kręgach",
+      "Pręty ciągnione",
+      "Płaskowniki i kątowniki HRAP",
+      "Pręty PSQ",
+      "Seria 200, 300, 400",
+      "EN 10204 3.1"
+    ],
+    "heroAlt": "Hutnictwo dawniej i dziś: dawne konwertory stalowe na rycinie obok nowoczesnej huty podczas spustu ciekłego metalu",
+    "gallery": [
+      "Kręgi drutu nierdzewnego w magazynie",
+      "Ciągnione pręty sześciokątne ze stali nierdzewnej",
+      "Pręty kwadratowe ze stali nierdzewnej",
+      "Płaskowniki HRAP ze stali nierdzewnej",
+      "Kątowniki równoramienne HRAP ze stali nierdzewnej",
+      "Pręty okrągłe jakości wałów pomp (PSQ) ze stali nierdzewnej",
+      "Pręty nierdzewne walcowane na gorąco",
+      "Kręgi walcówki ze stali nierdzewnej",
+      "Kątownik równoramienny ze stali nierdzewnej"
+    ],
+    "overviewTitle": "Stal nierdzewna z jednego źródła",
+    "overview": [
+      "Dział handlowy Santura Engineering dostarcza i eksportuje kształtowniki ze stali nierdzewnej z atestem huty do projektów przemysłowych na Bliskim Wschodzie, w Afryce i Europie. Kupujemy w renomowanych hutach i dostarczamy rafineriom, budowom, warsztatom konstrukcyjnym i wykonawcom EPC, ze świadectwami odbioru EN 10204 3.1.",
+      "Dział uzupełnia naszą własną produkcję kotew ogniotrwałych i włókien stalowych. Wielu tych samych klientów potrzebuje także kształtowników nierdzewnych i może kupić oba u jednego dostawcy, z jednym kompletem dokumentów."
+    ],
+    "jumpLabel": "Produkty na tej stronie",
+    "sections": [
+      {
+        "title": "Walcówka w kręgach",
+        "text": "Walcówka nierdzewna w kręgach to materiał wyjściowy do lin stalowych, sprężyn, złączy, elektrod spawalniczych, siatek drucianych i kotew ogniotrwałych; stosuje się ją też do naczyń kuchennych, narzędzi medycznych i podzespołów elektronicznych.",
+        "rows": [
+          {
+            "label": "Zakres wymiarów",
+            "value": "5,5–16 mm w kręgach blokowych (5,5, 6, 6,5, 7, 7,5, 8, 9, 10, 11, 12, 13, 14, 15, 16 mm); 17–40 mm w kręgach garret"
+          },
+          {
+            "label": "Masa kręgu",
+            "value": "850–1200 kg (kręgi blokowe)"
+          },
+          {
+            "label": "Wymiary kręgu",
+            "value": "Kręgi blokowe: śr. wewn. 800–900 mm. Kręgi garret: śr. wewn. 550–650 mm, śr. zewn. 750–850 mm"
+          },
+          {
+            "label": "Norma",
+            "value": "Wg EN 10088"
+          },
+          {
+            "label": "Stan dostawy",
+            "value": "Walcowana na gorąco (HR); walcowana i trawiona (HRP); walcowana, wyżarzana i trawiona (HRAP); walcowana i wyżarzana (HRA)"
+          },
+          {
+            "label": "Pakowanie",
+            "value": "Taśmy stalowe na każdym kręgu z owinięciem folią; pakowanie w folię dla HRP i HRAP; lub wg specyfikacji"
+          }
+        ]
+      },
+      {
+        "title": "Pręty sześciokątne (ciągnione)",
+        "text": "Ciągnione pręty sześciokątne do nakrętek, zaworów, końcówek węży, złączy i śrub sześciokątnych, łączące wytrzymałość z odpornością na korozję. Dostępne w gatunkach 201, 304/304L, 316/316L i 303.",
+        "rows": [
+          {
+            "label": "Gatunki",
+            "value": "201, 304/304L, 316/316L, 303"
+          },
+          {
+            "label": "Zakres wymiarów",
+            "value": "12–55 mm (½\" do 2¼\")"
+          },
+          {
+            "label": "Tolerancja wymiaru",
+            "value": "h11"
+          },
+          {
+            "label": "Długość",
+            "value": "3,00–6,70 m (10–22 ft); cięcie na wymiar z tolerancją −0/+50 mm"
+          },
+          {
+            "label": "Fazowanie",
+            "value": "30°, 45° lub 60°; czyste końce bez zadziorów"
+          },
+          {
+            "label": "Prostoliniowość",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Wykończenie powierzchni",
+            "value": "Śrutowane i ciągnione na zimno lub szlifowane taśmowo"
+          },
+          {
+            "label": "Obróbka cieplna",
+            "value": "Przesycanie"
+          }
+        ]
+      },
+      {
+        "title": "Pręty kwadratowe",
+        "text": "Pręty kwadratowe z austenitycznej stali nierdzewnej do wymagających zastosowań, takich jak części lotnicze, manometry, czujniki temperatury i czujniki siły. Wymiar między ściankami i promień naroża mogą być dotrzymane wg Twoich wymagań. Pręty ciągnione i polerowane służą do celów dekoracyjnych, a śrutowane i ciągnione na zimno do zastosowań krytycznych.",
+        "rows": [
+          {
+            "label": "Gatunki",
+            "value": "Gatunki austenityczne"
+          },
+          {
+            "label": "Zakres wymiarów",
+            "value": "12–55 mm (½\" do 2¼\")"
+          },
+          {
+            "label": "Tolerancja wymiaru",
+            "value": "h11"
+          },
+          {
+            "label": "Długość",
+            "value": "3,00–6,70 m (10–22 ft); cięcie na wymiar z tolerancją −0/+50 mm"
+          },
+          {
+            "label": "Fazowanie",
+            "value": "30°, 45° lub 60°; czyste końce bez zadziorów"
+          },
+          {
+            "label": "Prostoliniowość",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Wykończenie powierzchni",
+            "value": "Śrutowane i ciągnione na zimno lub szlifowane taśmowo"
+          },
+          {
+            "label": "Obróbka cieplna",
+            "value": "Przesycanie"
+          }
+        ]
+      },
+      {
+        "title": "Płaskowniki HRAP",
+        "text": "Płaskowniki walcowane na gorąco, wyżarzane i trawione, walcowane na wymiar, a nie cięte z blachy, dzięki czemu są wytrzymalsze od płaskowników ciętych. Do budownictwa i konstrukcji o wysokiej wytrzymałości; dostępne też płaskowniki szlifowane taśmowo do celów dekoracyjnych.",
+        "rows": [
+          {
+            "label": "Tolerancja wymiaru",
+            "value": "ASTM A484"
+          },
+          {
+            "label": "Długość",
+            "value": "3,00–6,70 m (10–22 ft); cięcie na wymiar z tolerancją −0/+50 mm"
+          },
+          {
+            "label": "Prostoliniowość",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Wykończenie powierzchni",
+            "value": "Walcowane na gorąco, wyżarzane, trawione i śrutowane lub szlifowane taśmowo"
+          },
+          {
+            "label": "Obróbka cieplna",
+            "value": "Przesycanie"
+          },
+          {
+            "label": "Wymiary",
+            "value": "Szerokości 25–100 mm, grubości 5–50 mm (zob. tabela)"
+          }
+        ]
+      },
+      {
+        "title": "Kątowniki HRAP",
+        "text": "Kątowniki równoramienne walcowane na gorąco, wyżarzane i trawione do budownictwa i konstrukcji nośnych, mebli, urządzeń spożywczych i maszyn.",
+        "rows": [
+          {
+            "label": "Tolerancja wymiaru",
+            "value": "ASTM A484"
+          },
+          {
+            "label": "Długość",
+            "value": "3,00–6,70 m (10–22 ft); cięcie na wymiar z tolerancją −0/+50 mm"
+          },
+          {
+            "label": "Prostoliniowość",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Wykończenie powierzchni",
+            "value": "Walcowane na gorąco, wyżarzane, trawione i śrutowane"
+          },
+          {
+            "label": "Obróbka cieplna",
+            "value": "Przesycanie"
+          },
+          {
+            "label": "Wymiary",
+            "value": "Od 20 × 20 mm do 75 × 75 mm, grubość 3–12 mm (zob. tabela)"
+          }
+        ]
+      },
+      {
+        "title": "Pręty PSQ (jakość wałów pomp)",
+        "text": "Precyzyjne pręty okrągłe o węższej tolerancji i lepszej prostoliniowości niż zwykłe pręty ciągnione, gotowe do bezpośredniego użycia jako wały pomp, tłoczyska i wały tłoków.",
+        "rows": [
+          {
+            "label": "Zakres wymiarów",
+            "value": "6–63,5 mm (¼\" do 2½\")"
+          },
+          {
+            "label": "Tolerancja wymiaru",
+            "value": "h8"
+          },
+          {
+            "label": "Długość",
+            "value": "3,00–6,70 m (10–22 ft); cięcie na wymiar z tolerancją −0/+50 mm"
+          },
+          {
+            "label": "Fazowanie",
+            "value": "30°, 45° lub 60°"
+          },
+          {
+            "label": "Prostoliniowość",
+            "value": "Do 0,25 mm/m TIR"
+          },
+          {
+            "label": "Wykończenie powierzchni",
+            "value": "Szlifowane bezkłowo i polerowane taśmowo do Ra 0,2 µm; ziarno 240–320"
+          },
+          {
+            "label": "Obróbka cieplna",
+            "value": "Przesycanie, wyżarzanie, QT 650, QT 800 i inne"
+          }
+        ]
+      },
+      {
+        "title": "Pręty walcowane na gorąco",
+        "text": "Pręty okrągłe walcowane na gorąco dla przetwórców, do obróbki skrawaniem i kucia, dostarczane w stanie prostowanym.",
+        "rows": [
+          {
+            "label": "Wymiary",
+            "value": "13–150 mm (zob. lista)"
+          },
+          {
+            "label": "Tolerancja",
+            "value": "EN 10060"
+          },
+          {
+            "label": "Długość",
+            "value": "3,00–6,70 m (10–22 ft)"
+          },
+          {
+            "label": "Prostoliniowość",
+            "value": "1 mm/m"
+          },
+          {
+            "label": "Wykończenie powierzchni",
+            "value": "Surowe po walcowaniu, czarne"
+          },
+          {
+            "label": "Obróbka cieplna",
+            "value": "Wyżarzanie, przesycanie lub ulepszanie cieplne"
+          }
+        ]
+      }
+    ],
+    "wireGradesTitle": "Gatunki walcówki",
+    "wireGradesAstm": "ASTM / AISI",
+    "wireGradesEn": "DIN / EN",
+    "wireGradesElectrode": "Gatunki na elektrody spawalnicze",
+    "wireGradesNote": "Gatunki specjalne są dostępne także wg wymagań klienta.",
+    "colWidth": "Szerokość (mm)",
+    "colThicknessRange": "Zakres grubości (mm)",
+    "colAngleSize": "Wymiar (mm)",
+    "colAngleThickness": "Grubości (mm)",
+    "hotRolledSizesTitle": "Wymiary (mm)",
+    "gradesTitle": "Gatunki stali nierdzewnej",
+    "gradesIntro": "Grupy gatunków, które dostarczamy. Zapytaj o każdy gatunek spoza listy.",
+    "colFamily": "Grupa gatunków",
+    "colGrades": "Gatunki",
+    "colProperties": "Kluczowe właściwości",
+    "gradeRows": [
+      {
+        "family": "Austenityczne (seria 300)",
+        "grades": "304, 304L, 304H, 310, 310S, 316, 316L, 316Ti, 321",
+        "properties": "Dobra ogólna odporność na korozję; niemagnetyczne w stanie wyżarzonym; najczęściej stosowana grupa"
+      },
+      {
+        "family": "Austenityczne (seria 200)",
+        "grades": "201, 202, 204Cu",
+        "properties": "Niższa zawartość niklu; ekonomiczna alternatywa dla serii 300 w mniej wymagających warunkach"
+      },
+      {
+        "family": "Martenzytyczne (seria 400)",
+        "grades": "410, 420",
+        "properties": "Hartowalne; odporne na zużycie; magnetyczne"
+      },
+      {
+        "family": "Ferrytyczne (seria 400)",
+        "grades": "430, 430L",
+        "properties": "Magnetyczne; dobra odporność na utlenianie i korozję naprężeniową w chlorkach; ekonomiczne"
+      },
+      {
+        "family": "Wysokostopowe austenityczne",
+        "grades": "904L",
+        "properties": "Odporne na silne kwasy; stosowane w przemyśle chemicznym"
+      },
+      {
+        "family": "Duplex i gatunki specjalne",
+        "grades": "1.4362 (2304); inne na zamówienie",
+        "properties": "Gatunki specjalne pozyskiwane wg specyfikacji projektu"
+      }
+    ],
+    "gradesNote": "Materiał dostarczamy wg specyfikacji ASTM, DIN/EN lub IS, ze świadectwami odbioru EN 10204 3.1.",
+    "marketsTitle": "Obsługiwane rynki",
+    "marketsIntro": "Eksportujemy kształtowniki nierdzewne z dokumentami potrzebnymi do odprawy celnej.",
+    "markets": [
+      {
+        "region": "Zjednoczone Emiraty Arabskie",
+        "text": "Dubaj, Abu Zabi, Szardża, strefa wolnocłowa Jebel Ali (JAFZA) i strefa przemysłowa Ruwais, z dostawą na budowy we wszystkich siedmiu emiratach."
+      },
+      {
+        "region": "Arabia Saudyjska",
+        "text": "Dostawy do projektów przemysłowych i budowlanych."
+      },
+      {
+        "region": "Oman",
+        "text": "Dostawy do projektów przemysłowych i budowlanych."
+      },
+      {
+        "region": "Inne kraje GCC",
+        "text": "Bahrajn, Kuwejt i Katar na zamówienie."
+      },
+      {
+        "region": "Afryka",
+        "text": "Dostawy na rynki przemysłowe Afryki."
+      },
+      {
+        "region": "Europa",
+        "text": "Dostawy projektowe."
+      }
+    ],
+    "applicationsTitle": "Zastosowania według branż",
+    "applications": [
+      {
+        "title": "Ropa, gaz i petrochemia",
+        "items": [
+          "Elementy rurociągów",
+          "Budowa zbiorników ciśnieniowych",
+          "Materiały na platformy offshore"
+        ]
+      },
+      {
+        "title": "Budownictwo i architektura",
+        "items": [
+          "Podpory konstrukcyjne i płyty podstawy",
+          "Fasady i okładziny",
+          "Elementy wnętrz i dekoracyjne"
+        ]
+      },
+      {
+        "title": "Okrętownictwo i morze",
+        "items": [
+          "Kształtowniki 316L do budowy statków i okuć jachtowych",
+          "Infrastruktura portowa",
+          "Elementy instalacji odsalania"
+        ]
+      },
+      {
+        "title": "Konstrukcje przemysłowe",
+        "items": [
+          "Ramy maszyn i urządzeń",
+          "Urządzenia spożywcze",
+          "Instalacje uzdatniania wody"
+        ]
+      },
+      {
+        "title": "Motoryzacja i lotnictwo",
+        "items": [
+          "Pręty na złącza i wały",
+          "Elementy precyzyjne"
+        ]
+      },
+      {
+        "title": "Wyroby z drutu",
+        "items": [
+          "Liny stalowe i sprężyny",
+          "Elektrody spawalnicze",
+          "Siatki druciane i kotwy ogniotrwałe"
+        ]
+      }
+    ],
+    "whyTitle": "Dlaczego kupować w naszym dziale handlowym",
+    "why": [
+      "Ponad 40 lat doświadczenia w branży",
+      "Materiał z atestem huty i świadectwami EN 10204 3.1",
+      "Gatunki serii 200, 300 i 400 oraz stopy specjalne",
+      "Stany dostawy od walcowanego i trawionego po ciągniony na zimno, polerowany i szlifowany bezkłowo",
+      "Pręty cięte na wymiar z tolerancją −0/+50 mm",
+      "Kształtowniki nierdzewne oraz nasze kotwy ogniotrwałe i włókna u jednego dostawcy",
+      "Materiał z renomowanych hut",
+      "Eksport do ponad 25 krajów"
+    ],
+    "findTitle": "Znajdziesz nas na",
+    "findText": "Santura Engineering jest obecna także na tych platformach B2B.",
+    "find": {
+      "indiamart": "IndiaMART",
+      "tradeindia": "TradeIndia"
+    },
+    "newTab": "(otwiera się w nowej karcie)",
+    "relatedTitle": "Powiązane produkty",
+    "relatedAnchors": "Wykonywane w naszym zakładzie ze stali nierdzewnych, takich jak SS 304, 310 i 316.",
+    "relatedFibres": "Włókna z ekstrakcji z kąpieli i ciągnione w AISI 304, 310 i 446.",
+    "relatedFasteners": "Śruby, szpilki, nakrętki i podkładki ze stali nierdzewnej i stopowej.",
+    "relatedAccessories": "Taśmy, wkręty i drobne elementy nierdzewne do izolacji.",
+    "faqTitle": "Najczęściej zadawane pytania",
+    "faq": [
+      {
+        "q": "Jakie gatunki stali nierdzewnej dostarcza Santura?",
+        "a": "Santura dostarcza gatunki austenityczne (304, 304L, 304H, 310, 310S, 316, 316L, 316Ti, 321 oraz serię 200), ferrytyczne (430, 430L), martenzytyczne (410, 420) i wysokostopowy gatunek austenityczny 904L. Walcówka jest dostępna także w gatunkach DIN/EN i gatunkach na elektrody spawalnicze, a gatunki specjalne pozyskujemy na zamówienie. Materiał dostarczamy ze świadectwami odbioru EN 10204 3.1."
+      },
+      {
+        "q": "Jakie kształtowniki nierdzewne są dostępne?",
+        "a": "Dostarczamy walcówkę w kręgach (5,5–40 mm), pręty sześciokątne (12–55 mm), pręty kwadratowe (12–55 mm), płaskowniki HRAP (25–100 mm szerokości), kątowniki HRAP (od 20 × 20 do 75 × 75 mm), pręty jakości wałów pomp (6–63,5 mm) i pręty walcowane na gorąco (13–150 mm). Stany dostawy obejmują walcowany na gorąco, trawiony, wyżarzany, ciągniony na zimno, polerowany i szlifowany bezkłowo."
+      },
+      {
+        "q": "Czy Santura dostarcza stal nierdzewną do ZEA i Arabii Saudyjskiej?",
+        "a": "Tak. Dostarczamy kształtowniki nierdzewne do ZEA, m.in. do Dubaju, Abu Zabi, Szardży, strefy Jebel Ali (JAFZA) i Ruwais, a także do Arabii Saudyjskiej, Omanu i innych krajów GCC, z dokumentami potrzebnymi do odprawy celnej."
+      },
+      {
+        "q": "Jakie świadectwa towarzyszą stali nierdzewnej?",
+        "a": "Stal nierdzewną dostarczamy ze świadectwami odbioru EN 10204 3.1, które podają skład chemiczny, właściwości mechaniczne i obróbkę cieplną materiału. Materiał dostarczamy wg specyfikacji ASTM, DIN/EN lub IS wymaganej w projekcie."
+      },
+      {
+        "q": "Czy Santura może dostarczyć zarówno stal nierdzewną, jak i wyroby ogniotrwałe?",
+        "a": "Tak. Dział handlowy dostarcza kształtowniki nierdzewne z atestem huty, a nasz zakład wykonuje kotwy ogniotrwałe, włókna stalowe, nity zrywalne i blachy perforowane. Wykonawcy EPC i operatorzy zakładów, którzy potrzebują obu, mogą kupić je u jednego dostawcy, co upraszcza zakupy."
+      }
+    ],
+    "ctaTitle": "Potrzebujesz kształtowników nierdzewnych?",
+    "ctaText": "Podaj produkt, gatunek, wymiar, długość, stan dostawy i ilość. Odpowiemy wyceną i terminem dostawy.",
+    "ctaRfq": "Zapytaj o wycenę stali nierdzewnej",
     "ctaContact": "Lub skontaktuj się z naszym zespołem"
   }
 }

@@ -7,11 +7,11 @@ Audit of the old site's image archive (`reference/images/`, kept unchanged as th
 | | Files |
 |---|---|
 | Total files in `reference/images/` | 1147 (1130 images, 12 PDFs, 5 other) |
-| Relevant files copied to `public/images/` | **253** (16.6 MB) |
-| Skipped | 894 |
-| … already in `public/images/` | 183 |
+| Relevant files copied to `public/images/` | **259** |
+| Skipped | 888 |
+| … already in `public/images/` | 189 |
 | … duplicates (identical file or same image at another size) | 244 |
-| … irrelevant (template, stock, AI-generated, logos, excluded certificates) | 462 |
+| … irrelevant (template, stock, AI-generated, logos, excluded certificates) | 450 |
 | … not images (saved HTML pages) | 5 |
 
 ## Inventory before and after
@@ -147,12 +147,13 @@ Audit of the old site's image archive (`reference/images/`, kept unchanged as th
 | `services` | 6 |
 | `testimonials` | 9 |
 
-### public/images/ (after this audit)
+### public/images/ (current, re-checked 2026-11-25)
 
 | Folder | Files |
 |---|---|
 | `(root)` | 2 |
 | `certificates` | 3 |
+| `fabrication/counter-weight-systems` | 1 |
 | `fabrication/foundation-bolts` | 6 |
 | `fabrication/general` | 36 |
 | `fabrication/observation-doors` | 8 |
@@ -205,6 +206,7 @@ Audit of the old site's image archive (`reference/images/`, kept unchanged as th
 | `products/washers` | 11 |
 | `shipping` | 2 |
 | `testing` | 4 |
+| `trading-division` | 6 |
 
 ### Relevant in reference but not in public (before this audit)
 
@@ -213,30 +215,91 @@ Every row in the "Copied" list below was in this gap. In short: fabrication shop
 ## Flags
 
 - **`reference/images/feb-shop/1/santuraeng_1.jpg` (observation door):** copied to `public/images/fabrication/observation-doors/observation-door-flanged-frame.jpg`. It shows the flanged door frame, so it was named for what it shows. The old observation-door page has 9 more photos; all are now in that folder or in `shipping/`.
-- **Not yet used on the site.** The copied files are in place but no page references them. Product galleries read `content/products.ts`, and the category pages are still placeholders.
+- **Used on the site.** SEPL product galleries read `content/products.ts`; the category pages (fabrication, fasteners, insulation, steel fibres, trading division) reference their images directly.
 - **Supplier or stock photos.** Most fastener and insulation images, and some fabrication renders, look like supplier catalogue or stock images rather than Santura's own photos. Confirm usage rights with the client before publishing them on category pages.
 - **Shipping captions unverified.** `shipping/` files come from captions on the old observation-door page ("sea worthy fumigated wooden case", "shrink wrap of observation door"); the old site's caption order was not certain.
 - **Anchor photos from `new-images/` are in `products/general/`.** The old site used each with conflicting alt texts (the same photo as V anchor, bullhorn and multipurpose), so they are named by visible shape and not assigned to a SEPL code. Assign them once the client confirms which product each shows.
 - **`SEPL/Threaded-Studs/10.jpg`** shows a ceramic ferrule, so it went to `sepl-26-ceramic-ferrule-washers/`; `SEPL/Corrugated-H-Anchors/17.jpg` is a threaded-stud welding diagram, so it went to `sepl-25-threaded-studs/`.
 - **dev-reference.md mislabels stock photos as Santura's facility:** `about/santuraeng_about1.jpg`, `about/santuraeng_index1.jpg`, `about-img.jpg` and `our-services/santuraeng_1.jpg`/`_2.jpg` are template stock photos. They were not copied. `factory/` stays empty: the only real factory photos are the client's 24 images in `miscellaneous/`.
-- **Certificates.** Copied: Linde approval, GST registration and the Petron Engineering letter (dated; confirm before displaying). Not copied: the expired ISO 9001:2008 certificate, the EEPC membership (excluded until renewal) and the IMC registration mislabelled as MSME. The current ISO certificate (136802) is not in the archive.
+- **Certificates.** Copied: Linde approval, GST registration and the Petron Engineering letter (dated; confirm before displaying). Not copied: the expired ISO 9001:2008 certificate, the EEPC membership (excluded until renewal) and the IMC registration mislabelled as MSME. Correction (2026-11-26): the current ISO 9001:2015 certificate (136802, valid to 26 June 2027) is `santuraeng_ISO-Certificate-9001-2008.pdf` despite its name; it is now at `public/images/certificates/iso-9001-2015-certificate-urs-136802-valid-2027.pdf`.
 - **Not created:** `countries/` (no country-specific images exist) and `factory/` (see above).
 
 ## Product categories with zero images
 
-These need photos from the client:
+These still need photos from the client:
 
 | Category | Status |
 |---|---|
-| Support Plates | no images in the archive |
-| Counter-Weight Systems | no images in the archive |
-| Steel Plates | no images in the archive |
-| Trading Division | archive has only generic stock photos of bars and coils (not copied) |
-| Insulation Accessories | no dedicated images; `fasteners/general/cup-washers-stainless-steel.jpg` and `banding-clip.jpg` could stand in |
+| Support Plates | no images in the archive; the page uses line drawings |
+| Insulation Accessories | no dedicated images; the page reuses a banding clip, pop rivets, perforated items and a SEPL-04 scissor clip |
 
-Thin coverage (one or two images): Polyisocyanurate Insulation (1), B7 studs (1), SEPL-22 Screw-on Anchors (1), SEPL-26 Ceramic Ferrule Washers (2), Insulation Pins (2), Shipping (2).
+Resolved since the first audit: Counter-Weight Systems (client photo added in `fabrication/counter-weight-systems/`), Trading Division (6 stock/mill photos in `trading-division/`, rights to confirm), Steel Plates (category removed from the site).
 
-## Copied images (253)
+Thin coverage (one or two images): Polyisocyanurate Insulation (1), B7 studs (1), SEPL-22 Screw-on Anchors (1), SEPL-26 Ceramic Ferrule Washers (2), each steel fibre SEPL-27 to SEPL-30 (2), Insulation Pins (2), Shipping (2).
+
+## Re-check (2026-11-25)
+
+Every file in `reference/images/` (1141 images and PDFs, recursively) was matched against this document and against `public/images/` by content (MD5, plus a trimmed 16×16 fingerprint for resized copies).
+
+- **Missed by the first audit:** none. The only file with no row, `logo.jpg`, is identical to `public/images/santura-engineering-logo.jpg` and is now listed.
+- **Stale rows corrected:** the 6 trading-product photos (copied to `trading-division/` for the Trading Division page) moved from "skipped" to "copied"; 5 home-page stock photos (`cement.jpg`, `steel.jpg`, `power.jpg`, `perto-chemical.jpg`, `slider1.jpg`) are recorded as already in `public/images/home/`.
+- **Every copied file and every "already in public" target still exists** under its renamed path.
+- **Old-site folder checks:** `Cold-Drawn-needles-hooked/` → `products/sepl-29-…`; `Melt-extract-needles/` → `products/sepl-27-…`; `Cold-drawn-needles/` and `Cold-drawn-needles-wavy/` → `products/sepl-28-…` and `products/sepl-30-…`; `feb-shop/1/` (observation doors) → `fabrication/observation-doors/` and `shipping/`; `feb-shop/4/` holds pipe guides (→ `fabrication/pipe-guides/`), not pop rivets; pop rivets are `feb-shop/9/` → `fasteners/general/`; `feb-shop/8/` (perforated items) → `fabrication/general/`; `feb-shop/7/` (8-photo casing panel sequence) → `fabrication/general/casing-sandwich-panel-*`; `gaskets/` → `insulation/ceramic-gaskets/`.
+- **No duplicate copies made.** The Steel Fibres page uses the existing SEPL-27 to SEPL-30 photos in place, so no `steel-fibres/` folder was created.
+
+## Gallery folder: `public/images/media-library/` (2026-11-25)
+
+Online-sourced images were de-duplicated, renamed and sorted. 24 were moved into existing product folders; 16 of them are now shown on product pages. See [media-library-record.md](media-library-record.md) for the full record of moves, deletions and renames.
+
+## Review folder: `public/images/_review-irrelevant/` (2026-11-25, merged and removed 2026-11-26)
+
+This folder no longer exists. On 2026-11-26 its files were moved to `home/industries/`, `trading-division/` or `media-library/` (2 identical PDFs deleted); see [media-library-record.md](media-library-record.md). The rename map below is kept for history.
+
+All 450 files logged as irrelevant were copied here for manual review. After review, 33 were kept for possible future use and renamed for what they show (the numbered `raw-material/1…7` folders were merged into `raw-materials/`). Nothing on the site references this folder; `reference/images/` is unchanged.
+
+Notes on the kept files:
+- **Stock / third-party images:** the industry photos, raw-material photos and banners are stock or supplier images, not Santura's own. Confirm usage rights before publishing.
+- **Certificates:** the expired ISO certificate is 116251 (`iso-9001-2008-certificate-2-pages.pdf`); the current one, 136802, was mislabelled "2008" and is now in `public/images/certificates/`; EEPC membership was excluded until renewal is confirmed; the IMC registration was mislabelled as MSME on the old site. The `-thumbnail` images are only 40 × 51 px. Two PDFs are byte-identical copies, named `-duplicate`.
+- **Composition chart:** superseded by the corrected table in `dev-reference.md`; do not publish as is.
+- **Marketing graphic:** carries an unverified "largest manufacturer in the world" claim.
+
+| Original (`reference/images/`) | Now (`public/images/_review-irrelevant/`) |
+|---|---|
+| `alluminium.jpg` | `aluminium-coils-industry-warehouse.jpg` |
+| `ceramic.jpg` | `ceramic-industry-tunnel-kiln-cars.jpg` |
+| `copper.jpg` | `copper-wire-coils-industry.jpg` |
+| `mining.jpg` | `mining-industry-underground-conveyor.jpg` |
+| `chemical.png` | `stainless-steel-heat-resistant-alloys-chemical-composition-chart.png` |
+| `packaging-for-coil.jpg` | `stainless-steel-wire-rod-coils-mill-packaging.jpg` |
+| `stainless-steel-banner.jpg` | `steel-wire-rod-coils-warehouse-banner.jpg` |
+| `stainless-steel-text1.jpg` | `stainless-steel-chrome-text-banner.jpg` |
+| `trading-stainless-steel.jpg` | `steelmaking-history-to-modern-steel-plant-banner.jpg` |
+| `santura-engineering-worlds-largest-refractory-anchors-manufacturer-india.webp` | `santura-engineering-refractory-anchors-marketing-graphic.webp` |
+| `raw-material/1/santuraeng_1.jpg` | `raw-materials/stainless-steel-strip-coil.jpg` |
+| `raw-material/1/santuraeng_2.jpg` | `raw-materials/stainless-steel-sheets-plates-stack.jpg` |
+| `raw-material/2/santuraeng_1.jpg` | `raw-materials/stainless-steel-coils-warehouse.jpg` |
+| `raw-material/3/santuraeng_1.jpg` | `raw-materials/stainless-steel-round-bars-bright.jpg` |
+| `raw-material/3/santuraeng_2.jpg` | `raw-materials/stainless-steel-wire-rod-coils.jpg` |
+| `raw-material/3/santuraeng_3.jpg` | `raw-materials/stainless-steel-wire-coils-assorted.jpg` |
+| `raw-material/3/santuraeng_4.jpg` | `raw-materials/stainless-steel-round-bars-assorted-diameters.jpg` |
+| `raw-material/4/santuraeng_1.jpg` | `raw-materials/stainless-steel-equal-angle-section.jpg` |
+| `raw-material/4/santuraeng_2.jpg` | `raw-materials/steel-angles-hot-rolled-nested.jpg` |
+| `raw-material/5/santuraeng_1.jpg` | `raw-materials/stainless-steel-channel-section.jpg` |
+| `raw-material/6/santuraeng_1.jpg` | `raw-materials/steel-i-beams-stacked.jpg` |
+| `raw-material/7/santuraeng_1.jpg` | `raw-materials/stainless-steel-pipes-tubes-bundle.jpg` |
+| `certificates/1.jpg` | `certificates/eepc-india-membership-certificate-thumbnail.jpg` |
+| `certificates/2.jpg` | `certificates/gst-registration-certificate-thumbnail.jpg` |
+| `certificates/3.jpg` | `certificates/imc-certificate-of-origin-registration-thumbnail.jpg` |
+| `certificates/4.jpg` | `certificates/iso-9001-2008-certificate-thumbnail.jpg` |
+| `certificates/5.jpg` | `certificates/linde-approved-supplier-certificate-thumbnail.jpg` |
+| `certificates/santuraeng_EEPC-Registration-membership.pdf` | `certificates/eepc-india-membership-certificate.pdf` |
+| `certificates/EEPC-Registration-membership.pdf` | `certificates/eepc-india-membership-certificate-duplicate.pdf` |
+| `certificates/santuraeng_ISO-Certificate-9001-2008.pdf` | `certificates/iso-9001-2008-certificate.pdf` |
+| `certificates/ISO-Certificate 9001,2008.pdf` | `certificates/iso-9001-2008-certificate-2-pages.pdf` |
+| `certificates/santuraeng_permanant-registration-details.pdf` | `certificates/imc-certificate-of-origin-permanent-registration.pdf` |
+| `certificates/permanant-registration-details.pdf` | `certificates/imc-certificate-of-origin-permanent-registration-duplicate.pdf` |
+
+## Copied images (259)
 
 | Source (`reference/images/`) | Destination (`public/images/`) | Category |
 |---|---|---|
@@ -493,8 +556,14 @@ Thin coverage (one or two images): Polyisocyanurate Insulation (1), B7 studs (1)
 | `SEPL/testing-and-certification/3.jpg` | `testing/dimensional-inspection-flat-refractory-anchor.jpg` | testing |
 | `SEPL/testing-and-certification/2.jpg` | `testing/pmi-testing-xrf-analyzer-alloy-reading.jpg` | testing |
 | `SEPL/testing-and-certification/4.jpg` | `testing/dimensional-inspection-vernier-caliper-anchor.jpg` | testing |
+| `HARP-Angels.jpg` | `trading-division/stainless-steel-hrap-angles.jpg` | trading (stock/mill photo, rights to confirm) |
+| `HRAP-FLAT-BARS.jpg` | `trading-division/stainless-steel-hrap-flat-bars.jpg` | trading (stock/mill photo, rights to confirm) |
+| `Hexagonal-bars.jpg` | `trading-division/stainless-steel-hexagonal-bright-bars.jpg` | trading (stock/mill photo, rights to confirm) |
+| `Hot-Rolled-Bars.jpg` | `trading-division/stainless-steel-hot-rolled-bars.jpg` | trading (stock/mill photo, rights to confirm) |
+| `PSQ-Bars.jpg` | `trading-division/stainless-steel-psq-pump-shaft-bars.jpg` | trading (stock/mill photo, rights to confirm) |
+| `Square-Bars.jpg` | `trading-division/stainless-steel-square-bars.jpg` | trading (stock/mill photo, rights to confirm) |
 
-## Skipped files (894)
+## Skipped files (888)
 
 ### Template and stock folders (skipped as whole folders)
 
@@ -523,6 +592,7 @@ Thin coverage (one or two images): Polyisocyanurate Insulation (1), B7 studs (1)
 
 | File | Reason |
 |---|---|
+| `logo.jpg` | already in public/images/santura-engineering-logo.jpg |
 | `1.jpg` | certificate thumbnail: EEPC membership (excluded until renewal) |
 | `2.jpg` | certificate thumbnail (low resolution; PDF copied instead) |
 | `3.jpg` | certificate thumbnail: IMC registration, mislabelled as MSME on old site |
@@ -546,14 +616,8 @@ Thin coverage (one or two images): Polyisocyanurate Insulation (1), B7 studs (1)
 | `rfq1.jpg` | template / UI graphic |
 | `rfq2.jpg` | template / UI graphic |
 | `slideInner.jpg` | template / UI graphic |
-| `slider1.jpg` | template / UI graphic |
+| `slider1.jpg` | already in public/images/home/refinery-process-plant-night.jpg (stock photo used on the home page) |
 | `solar.gif` | template / UI graphic |
-| `HARP-Angels.jpg` | stock photo of trading products (bars, coils), not Santura |
-| `HRAP-FLAT-BARS.jpg` | stock photo of trading products (bars, coils), not Santura |
-| `Hexagonal-bars.jpg` | stock photo of trading products (bars, coils), not Santura |
-| `Hot-Rolled-Bars.jpg` | stock photo of trading products (bars, coils), not Santura |
-| `PSQ-Bars.jpg` | stock photo of trading products (bars, coils), not Santura |
-| `Square-Bars.jpg` | stock photo of trading products (bars, coils), not Santura |
 | `body-kudos.jpg` | stock photo of trading products (bars, coils), not Santura |
 | `packaging-for-coil.jpg` | stock photo of trading products (bars, coils), not Santura |
 | `stainless-steel-banner.jpg` | stock photo of trading products (bars, coils), not Santura |
@@ -563,13 +627,13 @@ Thin coverage (one or two images): Polyisocyanurate Insulation (1), B7 studs (1)
 | `Refractory-anchors.jpg` | AI-generated (generator watermark) |
 | `about-img.jpg` | stock photo (railway station), not Santura |
 | `alluminium.jpg` | stock industry photo |
-| `cement.jpg` | stock industry photo |
+| `cement.jpg` | already in public/images/home/industries/cement-industry-raw-meal-powder.jpg (stock photo used on the home page) |
 | `ceramic.jpg` | stock industry photo |
 | `copper.jpg` | stock industry photo |
 | `mining.jpg` | stock industry photo |
-| `perto-chemical.jpg` | stock industry photo |
-| `power.jpg` | stock industry photo |
-| `steel.jpg` | stock industry photo |
+| `perto-chemical.jpg` | already in public/images/home/industries/oil-gas-refinery-industry.jpg (stock photo used on the home page) |
+| `power.jpg` | already in public/images/home/industries/power-transmission-lines-industry.jpg (stock photo used on the home page) |
+| `steel.jpg` | already in public/images/home/industries/steel-plant-molten-metal-industry.jpg (stock photo used on the home page) |
 | `chemical.png` | composition chart superseded by the corrected table in dev-reference.md |
 | `fav.png` | favicon |
 | `favicon.ico` | favicon |
@@ -597,8 +661,8 @@ Thin coverage (one or two images): Polyisocyanurate Insulation (1), B7 studs (1)
 | `certificates/EEPC-Registration-membership.pdf` | EEPC membership: excluded until the client confirms renewal |
 | `certificates/santuraeng_EEPC-Registration-membership.pdf` | EEPC membership: excluded until the client confirms renewal |
 | `certificates/GST-Registration.pdf` | identical copy of certificates/santuraeng_GST-Registration.pdf |
-| `certificates/ISO-Certificate 9001,2008.pdf` | expired ISO 9001:2008 certificate (current is 136802, not in the archive) |
-| `certificates/santuraeng_ISO-Certificate-9001-2008.pdf` | expired ISO 9001:2008 certificate (current is 136802, not in the archive) |
+| `certificates/ISO-Certificate 9001,2008.pdf` | expired ISO 9001:2015 certificate 116251 (expired 06 June 2024) |
+| `certificates/santuraeng_ISO-Certificate-9001-2008.pdf` | **current** ISO 9001:2015 certificate 136802, valid to 26 June 2027 (filename is misleading); now `certificates/iso-9001-2015-certificate-urs-136802-valid-2027.pdf` |
 | `certificates/Linde-approval-cert.pdf` | identical copy of certificates/santuraeng_Linde-approval-cert.pdf |
 | `certificates/permanant-registration-details.pdf` | IMC certificate-of-origin registration, mislabelled as MSME on the old site |
 | `certificates/santuraeng_permanant-registration-details.pdf` | IMC certificate-of-origin registration, mislabelled as MSME on the old site |
@@ -1500,3 +1564,18 @@ Every file in `public/images/` except `miscellaneous/` was opened and renamed fo
 | `testing/dimensional-inspection-flat-anchor.jpg` | `testing/dimensional-inspection-flat-refractory-anchor.jpg` |
 | `testing/pmi-analyser-alloy-reading.jpg` | `testing/pmi-testing-xrf-analyzer-alloy-reading.jpg` |
 | `testing/vernier-caliper-measurement.jpg` | `testing/dimensional-inspection-vernier-caliper-anchor.jpg` |
+
+## Folder restructure (2026-11-26)
+
+Media moved so every file sits in a folder that describes it. Filenames were not changed. Old URLs redirect permanently (308) to the new ones (`next.config.mjs`).
+
+| From | To | Why |
+|---|---|---|
+| `public/images/certificates/` (5 PDFs) | `public/documents/certificates/` | documents do not belong in an images folder; the Linde link on the Counter-Weight page was updated |
+| `public/images/miscellaneous/` (24 client photos) | split by subject: 11 to `shipping/`, 5 to `testing/`, 6 to the new `company/`, 2 anchor photos to `products/general/` | "miscellaneous" said nothing about the content; `lib/photos.ts` now uses one folder constant per subject |
+| `public/images/santura-engineering-factory-tarapur-boisar.jpg` | `public/images/company/` | company photos kept together; home page Open Graph image updated |
+| `public/images/shipping/galvanized-fabricated-part-unidentified.jpg` | `public/images/fabrication/general/` | it shows a fabricated part, not shipping |
+
+The `miscellaneous/` folder no longer exists. Earlier sections of this document that mention it describe the state before this change. `santura-engineering-logo.jpg` stays at the `public/images/` root because it is the site-wide brand asset.
+
+Byte-identical files kept in two places (not removed): home-page category drawings in `home/categories/` that copy SEPL-01, 06, 20 and 24 product images; and shared images between SEPL-15/16, SEPL-24/25 (two pairs), SEPL-16/25, SEPL-02/03 and SEPL-01/10.

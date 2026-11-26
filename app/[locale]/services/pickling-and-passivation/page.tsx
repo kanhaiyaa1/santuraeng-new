@@ -23,7 +23,7 @@ const STANDARDS = [
 // Product groups and where they link to (fabrication has no page yet, so it goes to the quote form).
 const PRODUCT_GROUPS = [
   { key: 'anchors', href: '/refractory-anchors' },
-  { key: 'fibres', href: '/refractory-anchors#steel-fibres' },
+  { key: 'fibres', href: '/products/steel-fibres' },
   { key: 'counterweights', href: '/products/counter-weight-systems' },
   { key: 'fasteners', href: '/products/fasteners' },
   { key: 'fabrication', href: '/rfq' }
@@ -155,7 +155,7 @@ export default async function PicklingPassivationPage({ params: { locale } }: Pr
             </div>
           </div>
           <div className="relative aspect-[3/4] overflow-hidden rounded-lg border border-line bg-white lg:col-span-2">
-            <Image src="/images/miscellaneous/industrial-steel-bent-anchor-rods-santura.webp" alt="" fill sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover" />
+            <Image src="/images/products/general/industrial-steel-bent-anchor-rods-santura.webp" alt="" fill sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover" />
           </div>
         </div>
       </section>
